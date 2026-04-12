@@ -10,37 +10,9 @@ TreeReq transforms UCLA's complex degree requirements into a visual, interactive
 
 🌲 **Interactive Prereq Tree** — View your major's courses as a visual graph. See how one class unlocks the next.
 
-🎨 **Color-Coded Progress** — Mark courses as completed. Green = done, blue = available to take, grey = still locked.
-
 🔍 **Course Details** — Click any node to see the full course description, units, and prerequisites.
 
 📊 **Difficulty Data** — Course difficulty scores powered by real UCLA grade distribution data.
-
-🤖 **AI Planner** *(stretch goal)* — Generate a personalized four-year graduation plan powered by Claude AI.
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React, TypeScript, React Flow, Tailwind CSS |
-| Backend | FastAPI (Python), MongoDB (Motor) |
-| AI / Data | Playwright (scraping), Claude API (Anthropic) |
-| Auth | Firebase Auth |
-| Deployment | Vercel (frontend), Railway (backend) |
-
----
-
-## Project Structure
-
-```
-TreeReq/
-├── frontend/          React + React Flow app
-├── backend/           FastAPI + MongoDB API
-├── ai/                Scrapers + Claude prereq parser
-└── README.md
-```
 
 ---
 
@@ -60,13 +32,9 @@ uvicorn main:app --reload     # runs on localhost:8000
 
 ### Frontend
 
-```bash
-cd frontend
-npm install
-npm run dev                   # runs on localhost:5173
-```
+still have to figure out
 
-### AI / Scraper
+### AI
 
 ```bash
 cd ai
@@ -75,8 +43,3 @@ playwright install chromium
 python scrape_catalog.py      # scrape UCLA course data
 python parse_prereqs.py       # parse prereqs with Claude
 ```
-
-
-## License
-
-This project was built for UCLA Creative Labs and is intended for educational use by UCLA students.
