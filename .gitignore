@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# OS junk
+.DS_Store
+
+# Data files (too large for GitHub)
+*.csv
+
+# Node modules (frontend)
+node_modules/
