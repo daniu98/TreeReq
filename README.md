@@ -25,9 +25,6 @@ cd backend
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env          # add your MongoDB URI
-python scripts/seed_data.py   # load test data
-uvicorn main:app --reload     # runs on localhost:8000
 ```
 
 ### Frontend
@@ -40,6 +37,4 @@ still have to figure out
 cd ai
 pip install -r requirements.txt
 playwright install chromium
-python scrape_catalog.py      # scrape UCLA course data
-python parse_prereqs.py       # parse prereqs with Claude
 ```
