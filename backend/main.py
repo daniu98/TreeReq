@@ -18,6 +18,5 @@ app = FastAPI(lifespan=lifespan)
 def home():
     return {"status": "ok", "project": "TreeReq"}
 
-
 app.include_router(courses.router, prefix="/api")
 app.include_router(majors.router, prefix="/api")
