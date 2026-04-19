@@ -1,7 +1,22 @@
 from fastapi import FastAPI
+from contextlib import asynccontextmanager
+from config.database import connect_db, close_db
+from routers import courses, majors
 
-web = FastAPI()
 
-@web.get("/")
+@asynccontextmanager
+async def lifespan(app):
+    await connect_db()
+    yield
+    await close_db()
+
+
+app = FastAPI(lifespan=lifespan)
+
+
+@app.get("/")
 def home():
     return {"status": "ok", "project": "TreeReq"}
+
+app.include_router(courses.router, prefix="/api")
+app.include_router(majors.router, prefix="/api")
