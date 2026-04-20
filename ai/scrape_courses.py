@@ -85,18 +85,19 @@ def main():
     with open("temp_data/data/processed/ucla_major_requirements.json") as f:
         data = json.load(f)
     
-    # Find CS major
-    cs_major = None
+    # Find major
+    major = None
+    CurrentMajor = "Electrical Engineering BS"
     for m in data["majors"]:
-        if "Computer Science and Engineering" in m["major_name"]:
-            cs_major = m
+        if CurrentMajor in m["major_name"]:
+            major = m
             break
-    
-    if not cs_major:
-        print("CS major not found!")
+
+    if not major:
+        print("Major not found!")
         return
     
-    print(f"Scraping {cs_major['major_name']} — {len(cs_major['courses'])} courses")
+    print(f"Scraping {major['major_name']} — {len(major['courses'])} courses")
     
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
@@ -106,7 +107,7 @@ def main():
         page = context.new_page()
         
         courses = []
-        for course_info in cs_major["courses"]:
+        for course_info in major["courses"]:
             result = scrape_course(
                 page,
                 course_info["catalog_url"],
@@ -119,10 +120,10 @@ def main():
         browser.close()
     
     # Save results
-    with open("data/cs_courses_raw.json", "w") as f:
+    with open("data/" + CurrentMajor + "_courses_raw.json", "w") as f:
         json.dump(courses, f, indent=2)
     
-    print(f"\nDone! Saved {len(courses)} courses to data/cs_courses_raw.json")
+    print(f"\nDone! Saved {len(courses)} courses to data/" + CurrentMajor +"_courses_raw.json")
     
     # Quick summary
     has_prereqs = sum(1 for c in courses if c["prereqs_raw"])
