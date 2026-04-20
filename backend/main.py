@@ -29,21 +29,24 @@ collections = db.list_collection_names()
 for collection in collections:
     print(collection)
 def createUser(username, email, password):
-    # 0 - SUCCESS, 1 - USERNAME TAKEN, 2 - EMAIL TAKEN, 3 - OTHER ERROR
+    # 0 - SUCCESS, 1 - USERNAME OR EMAIL TAKEN, 2 - OTHER ERROR
     usersWithName = db.users.find_one({"username": username})
     if usersWithName == None:
         usersWithEmail = db.users.find_one({"email": email})
         if usersWithEmail == None:
-            passwordBytes = password.encode('utf-8')
-            bCryptSalt = bcrypt.gensalt()
-            passwordHash = bcrypt.hashpw(passwordBytes, bCryptSalt)
-            db.users.insert_one({"username": username, "email": email, "password": passwordHash})
-            if db.users.find_one({"username": username}) == None:
-                return 3
+            if(db.users.find_one({"email": username}) == None and db.users.find_one({"username": email}) == None):
+                passwordBytes = password.encode('utf-8')
+                bCryptSalt = bcrypt.gensalt()
+                passwordHash = bcrypt.hashpw(passwordBytes, bCryptSalt)
+                db.users.insert_one({"username": username, "email": email, "password": passwordHash})
+                if db.users.find_one({"username": username}) == None:
+                    return 2
+                else:
+                    return 0
             else:
-                return 0
+                return 1
         else:
-            return 2
+            return 1
     else:
         return 1
 def signinUser(usernameOrEmail, password):
@@ -58,7 +61,7 @@ def signinUser(usernameOrEmail, password):
     usersWithEmail = db.users.find_one({"email": usernameOrEmail})
     if usersWithEmail:
         passwordBytes = password.encode('utf-8')
-        realPasswordHash = db.users.find_one({"email": userNameOrEmail}).get("password")
+        realPasswordHash = db.users.find_one({"email": usernameOrEmail}).get("password")
         if(bcrypt.checkpw(passwordBytes, realPasswordHash)):
             return 0
     return 1;
