@@ -29,7 +29,9 @@ collections = db.list_collection_names()
 for collection in collections:
     print(collection)
 def createUser(username, email, password):
-    # 0 - SUCCESS, 1 - USERNAME OR EMAIL TAKEN, 2 - OTHER ERROR
+    # 0 - SUCCESS, 1 - USERNAME OR EMAIL TAKEN, 2 - INVALID CREDENTIALS 3 - OTHER ERROR
+    if(((".com" in email) == False) or (" " in username) or (" " in email) or (" " in password)):
+        return 2
     usersWithName = db.users.find_one({"username": username})
     if usersWithName == None:
         usersWithEmail = db.users.find_one({"email": email})
@@ -40,7 +42,7 @@ def createUser(username, email, password):
                 passwordHash = bcrypt.hashpw(passwordBytes, bCryptSalt)
                 db.users.insert_one({"username": username, "email": email, "password": passwordHash})
                 if db.users.find_one({"username": username}) == None:
-                    return 2
+                    return 3
                 else:
                     return 0
             else:
