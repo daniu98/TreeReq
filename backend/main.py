@@ -21,6 +21,6 @@ def home():
 
 app.include_router(courses.router, prefix="/api")
 app.include_router(majors.router, prefix="/api")
-# export MONGO_URI MONGO_NAME
+# export MONGO_URI DB_NAME
 client = pymongo.MongoClient(os.environ["MONGO_URI"])
-db = client.get_database(os.environ["MONGO_NAME"])
+db = client.get_database(os.environ["DB_NAME"])
