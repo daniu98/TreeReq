@@ -1,0 +1,51 @@
+:root {
+    /* Typography */
+    --body-text-font-family: "Inter", Helvetica;
+    --body-text-font-size: 16px;
+    --body-text-font-style: normal;
+    --body-text-font-weight: 400;
+    --body-text-letter-spacing: 0px;
+    --body-text-line-height: normal;
+    --footnotes-font-family: "Inter", Helvetica;
+    --footnotes-font-size: 12px;
+    --footnotes-font-style: normal;
+    --footnotes-font-weight: 400;
+    --footnotes-letter-spacing: 0px;
+    --footnotes-line-height: normal;
+    --heading-1-font-family: "Inter", Helvetica;
+    --heading-1-font-size: 50px;
+    --heading-1-font-style: normal;
+    --heading-1-font-weight: 400;
+    --heading-1-letter-spacing: 0px;
+    --heading-1-line-height: normal;
+    --heading-2-font-family: "Inter", Helvetica;
+    --heading-2-font-size: 28px;
+    --heading-2-font-style: normal;
+    --heading-2-font-weight: 400;
+    --heading-2-letter-spacing: 0px;
+    --heading-2-line-height: normal;
+    --heading-3-font-family: "Inter", Helvetica;
+    --heading-3-font-size: 20px;
+    --heading-3-font-style: normal;
+    --heading-3-font-weight: 400;
+    --heading-3-letter-spacing: 0px;
+    --heading-3-line-height: normal;
+    --labels-font-family: "Inter", Helvetica;
+    --labels-font-size: 14px;
+    --labels-font-style: normal;
+    --labels-font-weight: 400;
+    --labels-letter-spacing: 0px;
+    --labels-line-height: normal;
+
+    /* Colors */
+    --surface-strong: #18181b;
+    --surface-muted: #27272a;
+    --surface-dark: #ef4444;
+    --text-on-dark: #fafafa;
+    --text-primary: #fafafa;
+    --text-muted: #a1a1aa;
+
+    /* Radius */
+    --radius-sm: 8px;
+    --radius-full: 999px;
+}
