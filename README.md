@@ -29,7 +29,11 @@ pip install -r requirements.txt
 
 ### Frontend
 
-still have to figure out
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ### AI
 

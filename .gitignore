@@ -14,3 +14,9 @@ __pycache__/
 
 # Node modules (frontend)
 node_modules/
+
+# Local design exports (optional; keep zip in Downloads)
+.design-ref/
+
+# Vite build output
+frontend/dist/
