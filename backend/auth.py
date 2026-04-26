@@ -1,9 +1,12 @@
 import pymongo
 import os
 import bcrypt
+from fastapi import FastAPI
+app = FastAPI()
 # export MONGO_URI DB_NAME
 client = pymongo.MongoClient(os.environ["MONGO_URI"])
 db = client.get_database(os.environ["DB_NAME"])
+@app.get("/api/signup")
 def signup(email, password):
     # 0 - SUCCESS, 1 - EMAIL TAKEN, 2 - INVALID CREDENTIALS 3 - OTHER ERROR
     if((("@" in email) == False) or (("." in email) == false) or (" " in email) or (" " in password)):
@@ -21,6 +24,7 @@ def signup(email, password):
     else:
         print(usersWithEmail.get("password"))
         return 1
+@app.get("/api/login")
 def login(email, password):
     # 0 - SUCCESS, 1 = INCORRECT EMAIL OR PASSWORD
     usersWithEmail = db.users.find_one({"email": email})
