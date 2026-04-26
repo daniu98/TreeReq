@@ -1,6 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { Button } from "./components/ui/Button.jsx";
 import { Select } from "./components/ui/Select.jsx";
+<<<<<<<<< Temporary merge branch 1
+import "./styles/variables.css";
+=========
+import AuthForm from './components/features/auth/AuthForm'
+>>>>>>>>> Temporary merge branch 2
 
 const majors = [
   { value: "physics", label: "Physics" },
