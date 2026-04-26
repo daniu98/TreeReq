@@ -1,45 +1,42 @@
 import pymongo
 import os
 import bcrypt
+import json
+from pydantic import BaseModel
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+app = FastAPI()
+origins = ["http://localhost:5173", "http://localhost:3000"]
+app.add_middleware(CORSMiddleware, allow_origins = origins, allow_credentials = True, allow_methods = ["*"], allow_headers = ["*"])
 # export MONGO_URI DB_NAME
 client = pymongo.MongoClient(os.environ["MONGO_URI"])
 db = client.get_database(os.environ["DB_NAME"])
-def createUser(username, email, password):
-    # 0 - SUCCESS, 1 - USERNAME OR EMAIL TAKEN, 2 - INVALID CREDENTIALS 3 - OTHER ERROR
-    if(((".com" in email) == False) or (" " in username) or (" " in email) or (" " in password)):
-        return 2
-    usersWithName = db.users.find_one({"username": username})
-    if usersWithName == None:
-        usersWithEmail = db.users.find_one({"email": email})
-        if usersWithEmail == None:
-            if(db.users.find_one({"email": username}) == None and db.users.find_one({"username": email}) == None):
-                passwordBytes = password.encode('utf-8')
-                bCryptSalt = bcrypt.gensalt()
-                passwordHash = bcrypt.hashpw(passwordBytes, bCryptSalt)
-                db.users.insert_one({"username": username, "email": email, "password": passwordHash})
-                if db.users.find_one({"username": username}) == None:
-                    return 3
-                else:
-                    return 0
-            else:
-                return 1
-        else:
-            return 1
-    else:
-        return 1
-def signinUser(usernameOrEmail, password):
-    # 0 - SUCCESS, 1 = INCORRECT USERNAME/EMAIL OR PASSWORD
-    usersWithName = db.users.find_one({"username": usernameOrEmail})
-    if usersWithName:
+class AuthData(BaseModel):
+    email: str
+    password: str
+@app.post("/api/auth/signup")
+def signup(data: AuthData):
+    email = data.email
+    password = data.password
+    if((("@" in email) == False) or (("." in email) == False) or (" " in email) or (" " in password)):
+        return {"message": "1 - INVALID INPUTS/EMAIL TAKEN"}
+    usersWithEmail = db.users.find_one({"email": email})
+    if usersWithEmail == None:
         passwordBytes = password.encode('utf-8')
-        realPasswordHash = db.users.find_one({"username": usernameOrEmail}).get("password")
-        if(bcrypt.checkpw(passwordBytes, realPasswordHash)):
-           return 0
-        print(db.users.find_one({"username": usernameOrEmail}).get("password"))
-    usersWithEmail = db.users.find_one({"email": usernameOrEmail})
+        bCryptSalt = bcrypt.gensalt()
+        passwordHash = bcrypt.hashpw(passwordBytes, bCryptSalt)
+        db.users.insert_one({"email": email, "password": passwordHash})
+        return {"message": "Successfully signed up"}
+    else:
+        return {"message": "Invalid inputs or Email taken"}
+@app.post("/api/auth/login")
+def login(data: AuthData):
+    email = data.email
+    password = data.password
+    usersWithEmail = db.users.find_one({"email": email})
     if usersWithEmail:
         passwordBytes = password.encode('utf-8')
-        realPasswordHash = db.users.find_one({"email": usernameOrEmail}).get("password")
-        if(bcrypt.checkpw(passwordBytes, realPasswordHash)):
-            return 0
-    return 1;
+        usersWithEmail.get("password")
+        if(bcrypt.checkpw(passwordBytes, usersWithEmail.get("password"))):
+            return {"message": "Successsfully signed in"}
+    return {"message": "Incorrect email or password"}
