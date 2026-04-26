@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Button } from "./components/ui/Button.jsx";
 import { Select } from "./components/ui/Select.jsx";
-import AuthForm from './components/features/auth/AuthForm'
 
 const majors = [
   { value: "physics", label: "Physics" },
