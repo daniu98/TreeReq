@@ -7,10 +7,11 @@ export function Button({
 }) {
   const base = {
     border: "none",
-    borderRadius: "999px",
+    borderRadius: "var(--radius-full)",
     padding: "10px 18px",
+    fontFamily: "var(--labels-font-family)",
+    fontSize: "var(--labels-font-size)",
     fontWeight: 600,
-    fontSize: "0.9rem",
     transition: "opacity 0.15s, transform 0.1s",
   };
   const variants = {

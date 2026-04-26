@@ -5,6 +5,8 @@ const fieldStyle = {
   border: "1px solid transparent",
   background: "var(--surface-strong)",
   color: "var(--text-on-dark)",
+  fontFamily: "var(--body-text-font-family)",
+  fontSize: "var(--body-text-font-size)",
   appearance: "none",
   backgroundImage:
     "linear-gradient(45deg, transparent 50%, #fafafa 50%), linear-gradient(135deg, #fafafa 50%, transparent 50%)",
@@ -20,7 +22,12 @@ export function Select({ id, label, value, onChange, options, placeholder }) {
       {label ? (
         <label
           htmlFor={id}
-          style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 500 }}
+          style={{
+            fontFamily: "var(--labels-font-family)",
+            fontSize: "var(--labels-font-size)",
+            color: "var(--text-muted)",
+            fontWeight: 500
+          }}
         >
           {label}
         </label>
