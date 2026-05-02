@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Button } from "./components/ui/Button.jsx";
 import { Select } from "./components/ui/Select.jsx";
+import { Tree } from "./components/ui/Tree.jsx";
+
 
 const majors = [
   { value: "physics", label: "Physics" },
@@ -109,6 +111,9 @@ export default function App() {
 
   return (
     <div style={{ ...page, background: "var(--bg-main)", minHeight: "100vh" }}>
+      <div style={{ overflowX: "auto", paddingBottom: 24 }}>
+        <Tree nodes={testNodes} lineColor="#85b110" />
+      </div>
       <nav style={navBar} aria-label="Primary">
         <button type="button" style={navBtn}>
           Notes
