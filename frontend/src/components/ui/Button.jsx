@@ -16,8 +16,8 @@ export function Button({
   const variants = {
     primary: {
       ...base,
-      background: "var(--surface-strong)",
-      color: "var(--text-on-dark)",
+      background: "#85B110",
+      color: "#fff",
     },
     secondary: {
       ...base,

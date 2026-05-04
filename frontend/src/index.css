@@ -1,4 +1,6 @@
 :root {
+  --font-ui: "Inter", system-ui, -apple-system, sans-serif;
+  --font-section: "Inter", system-ui, -apple-system, sans-serif;
   --bg-page: #f4f4f5;
   --bg-sidebar: #e4e4e7;
   --bg-main: #ffffff;
