@@ -26,15 +26,24 @@ class TreeNode(BaseModel):
     number: str
     title: str
     units: float
+    is_elective: bool = False  # true = pick from a list, false = must take
 
 
 class TreeEdge(BaseModel):
     source: str
     target: str
+    type: str = "required"  # "required", "corequisite", "one_of"
+
+
+class RequirementInfo(BaseModel):
+    category: str
     type: str = "required"
+    choose_n: int | None = None
+    courses: list[str] = []
 
 
 class PrereqTreeResponse(BaseModel):
     root: str
     nodes: list[TreeNode]
     edges: list[TreeEdge]
+    requirements: list[RequirementInfo] = []  # tells frontend which categories are elective

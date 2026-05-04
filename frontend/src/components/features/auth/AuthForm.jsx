@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { submitAuthRequest } from "./authApi";
+import { submitAuthRequest } from "../../../services/authApi";
 
 const styles = {
   card: {

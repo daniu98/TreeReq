@@ -5,3 +5,5 @@ pydantic
 python-dotenv
 certifi
 bcrypt
+json
+google-auth motor pyjwt
