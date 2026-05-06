@@ -1,10 +1,11 @@
 import { useState } from "react";
 import AppSidebar from "./components/layout/AppSidebar.jsx";
 import LandingMain from "./components/pages/LandingMain.jsx";
+import OnboardingMain from "./components/pages/OnboardingMain.jsx";
 import TreeSetupMain from "./pages/TreeSetupMain.jsx";
 
 export default function App() {
-  const [view, setView] = useState("landing");
+  const [view, setView] = useState("onboarding");
 
   return (
     <div
@@ -17,11 +18,17 @@ export default function App() {
         overflow: "hidden",
       }}
     >
-      <AppSidebar />
-      {view === "landing" ? (
-        <LandingMain onPlantNewTree={() => setView("setup")} />
+      {view === "onboarding" ? (
+        <OnboardingMain onContinue={() => setView("landing")} />
       ) : (
-        <TreeSetupMain onBack={() => setView("landing")} />
+        <>
+          <AppSidebar />
+          {view === "landing" ? (
+            <LandingMain onPlantNewTree={() => setView("setup")} />
+          ) : (
+            <TreeSetupMain onBack={() => setView("landing")} />
+          )}
+        </>
       )}
     </div>
   );

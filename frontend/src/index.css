@@ -39,3 +39,270 @@ button {
 select {
   font: inherit;
 }
+
+/* Onboarding split screen (landing / SSO) — matches desktop mock layout */
+.onboarding-split-root {
+  flex: 1;
+  display: flex;
+  min-width: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: var(--font-ui);
+}
+
+.onboarding-split-green {
+  flex: 0 0 clamp(244px, 50vw, 720px);
+  min-height: 100vh;
+  position: relative;
+  /* Green comes only from the SVG path so the right side of the wave is transparent (shows main white). */
+  background: transparent;
+}
+
+.onboarding-split-wave {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.onboarding-split-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(32px, 6vw, 88px);
+  background: #ffffff;
+  min-width: 0;
+}
+
+.onboarding-title {
+  margin: 0;
+  color: #000000;
+  font-size: clamp(1.85rem, 3vw, 2.375rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+}
+
+.onboarding-tagline {
+  margin: 14px 0 0;
+  color: #000000;
+  font-size: clamp(1.05rem, 1.78vw, 1.3125rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.onboarding-help {
+  margin: clamp(28px, 5vh, 48px) 0 0;
+  color: #000000;
+  font-size: clamp(0.94rem, 1.42vw, 1.0625rem);
+  font-weight: 400;
+  line-height: 1.45;
+  max-width: 420px;
+}
+
+.onboarding-google-btn {
+  margin-top: clamp(20px, 3.5vh, 36px);
+  width: 100%;
+  max-width: 520px;
+  min-height: 56px;
+  padding: 14px clamp(22px, 4vw, 32px);
+  border-radius: 9999px;
+  border: 1px solid #d4e4db;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.onboarding-google-label {
+  color: #000000;
+  font-size: clamp(0.94rem, 1.42vw, 1.0625rem);
+  font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .onboarding-split-root {
+    flex-direction: column;
+  }
+
+  .onboarding-split-green {
+    flex: 0 0 auto;
+    min-height: min(240px, 38vh);
+  }
+
+  .onboarding-split-content {
+    justify-content: flex-start;
+    padding-top: clamp(28px, 8vw, 40px);
+  }
+}
+
+/* Onboarding profile card (step 1 — “get to know you”) */
+.onboarding-profile-root {
+  flex: 1;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(24px, 4vw, 56px);
+  background: #ffffff;
+  overflow: auto;
+  font-family: "Google Sans Flex", var(--font-ui), system-ui, sans-serif;
+}
+
+.onboarding-profile-card {
+  width: 100%;
+  max-width: 1162px;
+  min-height: min(720px, calc(100vh - 48px));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(200px, 480px);
+  grid-template-rows: auto;
+  border-radius: 33px;
+  border: 2px solid #2764a6;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.onboarding-profile-form-panel {
+  grid-column: 1;
+  grid-row: 1;
+  padding: clamp(32px, 5vw, 71px) clamp(28px, 5vw, 54px) clamp(28px, 4vw, 48px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(40px, 6vw, 64px);
+  min-width: 0;
+}
+
+.onboarding-profile-accent {
+  grid-column: 2;
+  grid-row: 1;
+  background: #2764a6;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0 31px 31px 0;
+  min-height: 100%;
+}
+
+.onboarding-profile-headline {
+  margin: 0;
+  color: #000000;
+  font-size: clamp(1.375rem, 2.2vw, 1.75rem);
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.onboarding-profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(28px, 4vw, 41px);
+  flex: 1;
+}
+
+.onboarding-profile-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 420px;
+}
+
+.onboarding-profile-label {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.onboarding-profile-input {
+  width: 100%;
+  max-width: 268px;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 7px;
+  background: #d9d9d9;
+  color: #000000;
+  font: inherit;
+  font-size: 0.9375rem;
+}
+
+.onboarding-profile-input::placeholder {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.onboarding-profile-input:focus {
+  outline: 2px solid #2764a6;
+  outline-offset: 2px;
+}
+
+.onboarding-profile-actions {
+  margin-top: auto;
+  padding-top: clamp(24px, 4vw, 40px);
+  display: flex;
+  justify-content: flex-end;
+  max-width: 573px;
+}
+
+.onboarding-profile-next {
+  min-width: 105px;
+  min-height: 40px;
+  padding: 0 24px;
+  border: none;
+  border-radius: 32px;
+  background: #85b110;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.onboarding-profile-next:hover {
+  filter: brightness(1.05);
+}
+
+.onboarding-profile-next:active {
+  filter: brightness(0.97);
+}
+
+@media (max-width: 900px) {
+  .onboarding-profile-card {
+    grid-template-columns: 1fr;
+    min-height: unset;
+  }
+
+  .onboarding-profile-accent {
+    grid-column: 1;
+    grid-row: 1;
+    min-height: clamp(100px, 22vw, 160px);
+    border-radius: 31px 31px 0 0;
+  }
+
+  .onboarding-profile-form-panel {
+    grid-row: 2;
+    padding-top: clamp(24px, 6vw, 40px);
+  }
+
+  .onboarding-profile-field {
+    max-width: none;
+  }
+
+  .onboarding-profile-input {
+    max-width: none;
+  }
+
+  .onboarding-profile-actions {
+    justify-content: stretch;
+  }
+
+  .onboarding-profile-next {
+    width: 100%;
+    max-width: 320px;
+  }
+}
