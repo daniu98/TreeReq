@@ -1,4 +1,7 @@
 import { calcFontSize, LABEL_MAX_PX, LABEL_MIN_PX } from "./nodeUtils.js";
+import notStartedIcon from "../../assets/not-started.svg";
+import inProgressIcon from "../../assets/in-progress.svg";
+import completeIcon from "../../assets/complete.svg";
 
 const INNER_WIDTH_OVERARCHING = 121; // 167px inner - 2*23px padding
 const INNER_WIDTH_CATEGORY = 164;    // 210px inner - 2*23px padding
@@ -138,6 +141,15 @@ export function CategoryNode({
   return (
     <div style={{ ...styles.wrapper, "--border-color": color, "--bg": bgColor }}>
       <div style={styles.inner}>
+        {!isOverarching && !icon && (
+          <img 
+            src={clampedCompletion === 0 ? notStartedIcon : 
+                 clampedCompletion === 100 ? completeIcon : 
+                 inProgressIcon} 
+            alt="" 
+            style={styles.logo} 
+          />
+        )}
         {!isOverarching && icon && <img src={icon} alt="" style={styles.logo} />}
         <span style={{ ...styles.name, fontSize: `${labelSize}px` }}>
           {categoryName}
