@@ -104,24 +104,39 @@ export function CategoryNode({
   color,
   type = "category",               // * hidden: "overarching" | "category"
   classNodesUnderCategory,        // * hidden: array of class node IDs
-  completionPercentage = null,    // ^ optional: "75%" or number
+  completionPercentage = 0,         // ^ optional: defaults to 0%
   icon = null,                    // ^ optional: icon asset above category name (category type only)
 }) {
   const isOverarching = type === "overarching";
   const styles = isOverarching ? stylesOverarching : stylesCategory;
   const innerWidth = isOverarching ? INNER_WIDTH_OVERARCHING : INNER_WIDTH_CATEGORY;
   
+  // Clamp completion to 0-100 range
+  const clampedCompletion = Math.max(0, Math.min(100, 
+    typeof completionPercentage === "number" 
+      ? completionPercentage 
+      : parseInt(completionPercentage, 10) || 0));
+  
+  // Background color based on type and completion
+  const defaultOverarchingBg = "linear-gradient(180deg, #85B110 0%, #358162 100%)";
+  let bgColor;
+  if (!isOverarching) {
+    // Category: completion drives background color
+    if (clampedCompletion === 0) bgColor = "#9A9A9A";
+    else if (clampedCompletion === 100) bgColor = "#358162";
+    else bgColor = "#85B110"; // 1-99%
+  } else {
+    // Overarching: use color prop or default gradient
+    bgColor = color || defaultOverarchingBg;
+  }
+  
   const labelSize = calcFontSize(categoryName, LABEL_MAX_PX, LABEL_MIN_PX, innerWidth);
   
-  // Parse completion for display
-  const completionText = completionPercentage != null 
-    ? (typeof completionPercentage === "number" 
-        ? `${Math.round(completionPercentage)}% complete` 
-        : completionPercentage)
-    : null;
+  // Parse completion for display using clamped value (only show for category type)
+  const completionText = !isOverarching ? `${clampedCompletion}% complete` : null;
 
   return (
-    <div style={{ ...styles.wrapper, "--border-color": color, "--bg": color }}>
+    <div style={{ ...styles.wrapper, "--border-color": color, "--bg": bgColor }}>
       <div style={styles.inner}>
         {!isOverarching && icon && <img src={icon} alt="" style={styles.logo} />}
         <span style={{ ...styles.name, fontSize: `${labelSize}px` }}>
