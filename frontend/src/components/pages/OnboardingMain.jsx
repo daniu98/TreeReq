@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 const green = "#46B981";
 
 /** Standard multicolor Google "G" icon. */
@@ -55,7 +54,6 @@ function OnboardingWelcome({ onContinue }) {
         <h1 className="onboarding-title">Welcome to TreeRec</h1>
 
         <p className="onboarding-tagline">Degree-planning reimagined.</p>
-
         <p className="onboarding-help">Please log in with your UCLA account.</p>
 
         <button type="button" className="onboarding-google-btn" onClick={onContinue}>

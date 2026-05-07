@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './StatusDropdown.css';
 
 import completedIcon from '../../assets/completed-icon.svg';
 import inProgressIcon from '../../assets/in-progress-icon.svg';
@@ -29,15 +30,16 @@ const STATUS_OPTIONS = [
   },
 ];
 
-const StatusDropdown = ({ initialStatus = 'completed' }) => {
+const StatusDropdown = ({ initialStatus = 'completed', onChange }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedId, setSelectedId] = useState(initialStatus);
-
+  const [hoveredId, setHoveredId] = useState(null);
   const currentStatus = STATUS_OPTIONS.find(option => option.id === selectedId);
 
   const handleSelect = (id) => {
     setSelectedId(id);
-    setIsOpen(false); 
+    setIsOpen(false);
+    if (onChange) onChange(id);
   };
 
   return (
