@@ -50,6 +50,13 @@ select {
   font-family: var(--font-ui);
 }
 
+.onboarding-split-root--sans-flex .onboarding-title,
+.onboarding-split-root--sans-flex .onboarding-tagline,
+.onboarding-split-root--sans-flex .onboarding-help,
+.onboarding-split-root--sans-flex .onboarding-google-label {
+  font-family: "Google Sans Flex", var(--font-ui), system-ui, sans-serif;
+}
+
 .onboarding-split-green {
   flex: 0 0 clamp(244px, 50vw, 720px);
   min-height: 100vh;
@@ -142,7 +149,7 @@ select {
   }
 }
 
-/* Onboarding profile card (step 1 — “get to know you”) */
+/* Onboarding profile card (“get to know you”) */
 .onboarding-profile-root {
   flex: 1;
   width: 100%;
@@ -176,8 +183,14 @@ select {
   padding: clamp(32px, 5vw, 71px) clamp(28px, 5vw, 54px) clamp(28px, 4vw, 48px);
   display: flex;
   flex-direction: column;
-  gap: clamp(40px, 6vw, 64px);
+  gap: 64px;
   min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .onboarding-profile-form-panel {
+    gap: clamp(36px, 8vw, 48px);
+  }
 }
 
 .onboarding-profile-accent {
@@ -185,14 +198,14 @@ select {
   grid-row: 1;
   background: #2764a6;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0 31px 31px 0;
+  border-radius: 0 35px 35px 0;
   min-height: 100%;
 }
 
 .onboarding-profile-headline {
   margin: 0;
   color: #000000;
-  font-size: clamp(1.375rem, 2.2vw, 1.75rem);
+  font-size: clamp(1.25rem, 2vw, 28px);
   font-weight: 400;
   line-height: 1.25;
 }
@@ -200,8 +213,14 @@ select {
 .onboarding-profile-form {
   display: flex;
   flex-direction: column;
-  gap: clamp(28px, 4vw, 41px);
+  gap: 41px;
   flex: 1;
+}
+
+@media (max-width: 640px) {
+  .onboarding-profile-form {
+    gap: clamp(24px, 5vw, 32px);
+  }
 }
 
 .onboarding-profile-field {
@@ -214,7 +233,7 @@ select {
 
 .onboarding-profile-label {
   color: #000000;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
 }
@@ -281,7 +300,7 @@ select {
     grid-column: 1;
     grid-row: 1;
     min-height: clamp(100px, 22vw, 160px);
-    border-radius: 31px 31px 0 0;
+    border-radius: 35px 35px 0 0;
   }
 
   .onboarding-profile-form-panel {
@@ -305,4 +324,233 @@ select {
     width: 100%;
     max-width: 320px;
   }
+
+  .onboarding-card--academic .onboarding-profile-accent {
+    border-radius: 35px 35px 0 0;
+  }
+
+  .onboarding-academic-footer {
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: none;
+  }
+
+  .onboarding-academic-back,
+  .onboarding-academic-next {
+    flex: 1;
+    min-width: min(105px, 44vw);
+  }
+
+  .onboarding-academic-section {
+    max-width: none;
+  }
+
+  .onboarding-academic-input {
+    max-width: none;
+  }
+
+  .onboarding-academic-chips {
+    position: static;
+    top: auto;
+    margin-top: 10px;
+    max-width: none;
+  }
+
+  .onboarding-academic-section {
+    min-height: unset;
+    padding-bottom: 0;
+  }
+}
+
+/* Academic background onboarding (final card: flat frame + sharp corners per mock) */
+.onboarding-profile-card.onboarding-card--academic {
+  box-shadow: none;
+  border-radius: 0;
+  grid-template-columns: minmax(0, 1fr) minmax(160px, 375px);
+}
+
+.onboarding-card--academic .onboarding-profile-accent {
+  box-shadow: none;
+}
+
+.onboarding-profile-form-panel.onboarding-academic-panel {
+  gap: 0;
+  justify-content: space-between;
+}
+
+.onboarding-academic-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  flex: 1;
+  min-height: 0;
+}
+
+.onboarding-academic-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+}
+
+@media (max-width: 640px) {
+  .onboarding-academic-sections {
+    gap: clamp(40px, 10vw, 56px);
+  }
+}
+
+.onboarding-academic-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 398px;
+  /* Space for chips anchored near mock offset top ~86px (label + gap + 48px field ≈ 83px). */
+  min-height: 128px;
+  /* Extra clearance when chips wrap in absolute layer */
+  padding-bottom: 72px;
+}
+
+.onboarding-academic-section-label {
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.25;
+  min-height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.onboarding-academic-input {
+  width: 100%;
+  max-width: 398px;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 7px;
+  background: #b2b2b2;
+  color: #000000;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+}
+
+.onboarding-academic-input::placeholder {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.onboarding-academic-input:focus {
+  outline: 2px solid #2764a6;
+  outline-offset: 2px;
+}
+
+.onboarding-academic-chips {
+  position: absolute;
+  left: 0;
+  top: 86px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 398px;
+  z-index: 1;
+}
+
+.onboarding-academic-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 9px;
+  background: #8fce9c;
+  border-radius: 11px;
+  font-family: "Google Sans Flex", var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.onboarding-academic-chip-label {
+  line-height: 1.2;
+}
+
+.onboarding-academic-chip-remove {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onboarding-academic-chip-remove:focus-visible {
+  outline: 2px solid #2764a6;
+  outline-offset: 1px;
+}
+
+.onboarding-academic-chip-x {
+  width: 7px;
+  height: 7px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  display: block;
+}
+
+.onboarding-academic-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 573px;
+  padding-top: clamp(28px, 4vw, 48px);
+  margin-top: auto;
+}
+
+.onboarding-academic-back {
+  min-width: 105px;
+  min-height: 40px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 32px;
+  background: #7c7c7c;
+  color: #ffffff;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.onboarding-academic-back:hover {
+  filter: brightness(1.06);
+}
+
+.onboarding-academic-back:active {
+  filter: brightness(0.96);
+}
+
+.onboarding-academic-next {
+  min-width: 105px;
+  min-height: 40px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 32px;
+  background: #85b110;
+  color: #ffffff;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.onboarding-academic-next:hover {
+  filter: brightness(1.05);
+}
+
+.onboarding-academic-next:active {
+  filter: brightness(0.97);
 }

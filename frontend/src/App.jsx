@@ -19,7 +19,7 @@ export default function App() {
       }}
     >
       {view === "onboarding" ? (
-        <OnboardingMain onContinue={() => setView("landing")} />
+        <OnboardingMain onComplete={() => setView("landing")} />
       ) : (
         <>
           <AppSidebar />
