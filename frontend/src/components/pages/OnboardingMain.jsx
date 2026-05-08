@@ -38,7 +38,8 @@ function OnboardingWelcome({ onContinue }) {
             
       const data = await submitGoogleAuthRequest(modernToken);
       
-      setStatus(data.message); 
+      setStatus(data.message);
+      onContinue();
       
     } catch (error) {
       console.error(error);
