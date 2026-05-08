@@ -14,8 +14,8 @@ app = FastAPI()
 origins = ["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:3000", "http://127.0.0.1:8000", "http://127.0.0.1:5173"]
 app.add_middleware(CORSMiddleware, allow_origins = origins, allow_credentials = True, allow_methods = ["*"], allow_headers = ["*"])
 # export MONGO_URI DB_NAME GOOGLE_CLIENT_ID
-client = pymongo.MongoClient(os.environ["MONGO_URI"])
-db = client.get_database(os.environ["DB_NAME"])
+client = pymongo.MongoClient(os.getenv("MONGO_URI"))
+db = client.get_database(os.getenv("DB_NAME"))
 class AuthData(BaseModel):
     email: str
     password: str
@@ -53,7 +53,7 @@ def login(data: AuthData):
 @app.post("/api/auth/google-sso")
 def google_sso(body: TokenBody):
     try:
-        idinfo = id_token.verify_oauth2_token(body.token, requests.Request(), os.environ["GOOGLE_CLIENT_ID"])
+        idinfo = id_token.verify_oauth2_token(body.token, requests.Request(), os.getenv("GOOGLE_CLIENT_ID"))
         if(idinfo["email_verified"] == True):
             email = idinfo["email"]
             googleId = idinfo["sub"]
@@ -65,5 +65,5 @@ def google_sso(body: TokenBody):
                 return {"message": "Successfully signed in"}
         else:
             return{"message": "Email not verified"}
-    except:
+    except Exception:
         return{"message": "Invalid token"}
