@@ -11,7 +11,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from dotenv import load_dotenv, dotenv_values
 load_dotenv()
 app = FastAPI()
-origins = ["http://localhost:5173", "http://localhost:3000"]
+origins = ["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:3000", "http://127.0.0.1:8000", "http://127.0.0.1:5173"]
 app.add_middleware(CORSMiddleware, allow_origins = origins, allow_credentials = True, allow_methods = ["*"], allow_headers = ["*"])
 # export MONGO_URI DB_NAME GOOGLE_CLIENT_ID
 client = pymongo.MongoClient(os.environ["MONGO_URI"])
@@ -50,11 +50,11 @@ def login(data: AuthData):
         except:
             return {"No password set. Sign in with Google"}
     return {"message": "Incorrect email or password"}
-@app.post("/api/auth/google_sso")
+@app.post("/api/auth/google-sso")
 def google_sso(body: TokenBody):
     try:
-        idinfo = id_token.verify_oauth2_token(token, requests.Request(), os.environ["GOOGLE_CLIENT_ID"])
-        if(idinfo["email_verified"] == "true"):
+        idinfo = id_token.verify_oauth2_token(body.token, requests.Request(), os.environ["GOOGLE_CLIENT_ID"])
+        if(idinfo["email_verified"] == True):
             email = idinfo["email"]
             googleId = idinfo["sub"]
             usersWithEmail = db.users.find_one({"email": email})

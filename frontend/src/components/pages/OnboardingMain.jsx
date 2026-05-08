@@ -1,4 +1,7 @@
 import { useState } from "react";
+import React from "react";
+import { GoogleLogin } from '@react-oauth/google';
+import { submitGoogleAuthRequest } from "../../services/authApi";
 const green = "#46B981";
 
 /** Standard multicolor Google "G" icon. */
@@ -24,9 +27,24 @@ function GoogleMark({ size = 26 }) {
     </svg>
   );
 }
-
 /** Step A: welcome + UCLA Google sign-in (split layout). */
 function OnboardingWelcome({ onContinue }) {
+  const [status, setStatus] = useState("");
+  const handleGoogleSuccess = async (credentialResponse) => {
+    try {
+      setStatus("Verifying token with server...");
+      
+      const modernToken = credentialResponse.credential;
+            
+      const data = await submitGoogleAuthRequest(modernToken);
+      
+      setStatus(data.message); 
+      
+    } catch (error) {
+      console.error(error);
+      setStatus("Server error. Please try again.");
+    }
+  };
   return (
     <div className="onboarding-split-root onboarding-split-root--sans-flex">
       <div className="onboarding-split-green">
@@ -55,11 +73,19 @@ function OnboardingWelcome({ onContinue }) {
 
         <p className="onboarding-tagline">Degree-planning reimagined.</p>
         <p className="onboarding-help">Please log in with your UCLA account.</p>
-
-        <button type="button" className="onboarding-google-btn" onClick={onContinue}>
-          <span className="onboarding-google-label">sign in with Google</span>
-          <GoogleMark />
-        </button>
+	<div style={{ marginTop: '20px', marginBottom: '20px' }}>
+        <GoogleLogin
+          onSuccess={handleGoogleSuccess}
+          onError={() => {
+            console.log('Google Popup closed or failed');
+            setStatus("Login Failed. Please try again.");
+          }}
+          width="300px" 
+        />
+        </div>
+	<p style={{ color: status.includes("error") || status.includes("Failed") ? 'red' : 'green' }}>
+          {status}
+        </p>
       </div>
     </div>
   );
