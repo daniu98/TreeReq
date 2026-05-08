@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
-import { Node } from "./Node.jsx";
+import { CategoryNode } from "./CategoryNode.jsx";
+import { ClassNode } from "./ClassNode.jsx";
 
 const NODE_DIAMETER = 200;
 const GAP = 60;
@@ -95,7 +96,11 @@ export function Tree({
             ref={(el) => (nodeRefs.current[i] = el)}
             style={{ flexShrink: 0 }}
           >
-            <Node {...node} />
+            {node.type === "category" ? (
+              <CategoryNode {...node} />
+            ) : (
+              <ClassNode {...node} />
+            )}
           </div>
         ))}
       </div>
