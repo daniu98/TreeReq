@@ -115,7 +115,7 @@ function UnitsBar({ completed = 75, total = 180 }) {
   );
 }
 
-export default function LandingMain({ onPlantNewTree }) {
+export default function LandingMain({ onPlantNewTree, onOpenProfile }) {
   return (
     <main
       style={{
@@ -138,7 +138,9 @@ export default function LandingMain({ onPlantNewTree }) {
         }}
       >
         <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 24 }}>
-          <div
+          <button
+            type="button"
+            onClick={onOpenProfile}
             style={{
               width: 163,
               minHeight: 56,
@@ -149,6 +151,7 @@ export default function LandingMain({ onPlantNewTree }) {
               display: "flex",
               alignItems: "center",
               gap: 10,
+              cursor: "pointer",
             }}
           >
             <div style={{ flex: 1, minWidth: 0 }}>
@@ -164,7 +167,7 @@ export default function LandingMain({ onPlantNewTree }) {
               }}
               aria-hidden
             />
-          </div>
+          </button>
         </div>
 
         <div style={{ marginBottom: 32 }}>
