@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AppSidebar from "./components/layout/AppSidebar.jsx";
 import LandingMain from "./components/pages/LandingMain.jsx";
-import ProfileMain from "./pages/ProfileMain.jsx";
+import ProfileMain from "./components/pages/ProfileMain.jsx";
 import TreeSetupMain from "./pages/TreeSetupMain.jsx";
 
 export default function App() {
