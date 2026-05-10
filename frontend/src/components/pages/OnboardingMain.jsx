@@ -2,6 +2,8 @@ import { useState } from "react";
 import React from "react";
 import { GoogleLogin } from '@react-oauth/google';
 import { submitGoogleAuthRequest } from "../../services/authApi";
+import { CourseNode } from "../ui/CourseNode";
+import { ClassNode } from "../ui/ClassNode";
 const green = "#46B981";
 
 /** Standard multicolor Google "G" icon. */
