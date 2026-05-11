@@ -5,7 +5,7 @@ import { submitGoogleAuthRequest } from "../../services/authApi";
 
 /**
  * Initial onboarding step from URL (dev shortcuts).
- * Default is `intro` so the welcome copy always shows before Google sign-in.
+ * Default is `welcome` so onboarding starts at Google sign-in.
  */
 function readInitialStep() {
   try {
@@ -16,7 +16,7 @@ function readInitialStep() {
   } catch {
     /* ignore */
   }
-  return "intro";
+  return "welcome";
 }
 
 const green = "#46B981";
@@ -388,7 +388,7 @@ function OnboardingProfileStep({ onContinue }) {
 }
 
 /**
- * Onboarding: intro → Google welcome → profile → academic → excited → main app.
+ * Onboarding: Google welcome → profile → academic → excited → main app.
  * `onComplete` runs when the user continues from the final screen with `{ profile, academic }`.
  */
 export default function OnboardingMain({ onComplete }) {
