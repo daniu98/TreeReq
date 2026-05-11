@@ -1,10 +1,39 @@
 import { useState } from "react";
 import React from "react";
-import { GoogleLogin } from '@react-oauth/google';
+import { GoogleLogin } from "@react-oauth/google";
 import { submitGoogleAuthRequest } from "../../services/authApi";
-import { CourseNode } from "../ui/CourseNode";
-import { ClassNode } from "../ui/ClassNode";
+
+/**
+ * Initial onboarding step from URL (dev shortcuts).
+ * Default is `intro` so the welcome copy always shows before Google sign-in.
+ */
+function readInitialStep() {
+  try {
+    const q = new URLSearchParams(window.location.search).get("onboarding");
+    if (q === "excited") return "excited";
+    if (q === "welcome") return "welcome";
+    if (q === "profile") return "profile";
+  } catch {
+    /* ignore */
+  }
+  return "intro";
+}
+
 const green = "#46B981";
+
+/** First screen: mock welcome copy; Continue goes to Google sign-in. */
+function OnboardingIntro({ onContinue }) {
+  return (
+    <div className="onboarding-intro-root">
+      <p className="onboarding-intro-message">
+        Welcome to TreeReq, we&apos;re excited to grow with you!
+      </p>
+      <button type="button" className="onboarding-intro-continue" onClick={onContinue}>
+        Continue
+      </button>
+    </div>
+  );
+}
 
 /** Standard multicolor Google "G" icon. */
 function GoogleMark({ size = 26 }) {
@@ -83,7 +112,9 @@ function OnboardingWelcome({ onContinue }) {
             console.log('Google Popup closed or failed');
             setStatus("Login Failed. Please try again.");
           }}
-          width="300px" 
+          width="300px"
+          useOneTap={false}
+          auto_select={false}
         />
         </div>
 	<p style={{ color: status.includes("error") || status.includes("Failed") ? 'red' : 'green' }}>
@@ -152,7 +183,35 @@ function AcademicCourseSection({ id, label, values, draft, onDraft, onAdd, onRem
   );
 }
 
-/** Step C: academic background — AP / IB / UCLA chips + Back / Next (final onboarding). */
+/**
+ * Final onboarding screen after Academic Background (before main app).
+ * Full white viewport; copy at ~390×367 (desktop); user taps Continue when ready.
+ */
+function OnboardingExcitedStep({ onContinue }) {
+  return (
+    <div
+      className="onboarding-excited-root"
+      style={{
+        width: "100%",
+        height: "100%",
+        position: "relative",
+        background: "white",
+        overflow: "hidden",
+      }}
+    >
+      <div className="onboarding-excited-panel">
+        <p className="onboarding-excited-message" role="status" aria-live="polite">
+          Welcome to TreeReq, we&apos;re excited to grow with you!
+        </p>
+        <button type="button" className="onboarding-intro-continue" onClick={onContinue}>
+          Continue
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/** Step C: academic background — AP / IB / UCLA chips + Back / Next. */
 function OnboardingAcademicStep({ onBack, onComplete }) {
   const [apDraft, setApDraft] = useState("");
   const [ibDraft, setIbDraft] = useState("");
@@ -234,6 +293,7 @@ function OnboardingProfileStep({ onContinue }) {
     admitLevel: "",
     gradTerm: "",
   });
+  const [showRequiredHint, setShowRequiredHint] = useState(false);
 
   function patch(key, value) {
     setForm((prev) => ({ ...prev, [key]: value }));
@@ -241,7 +301,11 @@ function OnboardingProfileStep({ onContinue }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (!form.firstName.trim() || !form.lastName.trim() || !form.majors.trim()) return;
+    if (!form.firstName.trim() || !form.lastName.trim() || !form.majors.trim()) {
+      setShowRequiredHint(true);
+      return;
+    }
+    setShowRequiredHint(false);
     onContinue?.(form);
   }
 
@@ -252,7 +316,12 @@ function OnboardingProfileStep({ onContinue }) {
         <div className="onboarding-profile-form-panel">
           <h1 className="onboarding-profile-headline">First, let&apos;s get to know you.</h1>
 
-          <form className="onboarding-profile-form" onSubmit={handleSubmit}>
+          <form className="onboarding-profile-form" onSubmit={handleSubmit} noValidate>
+            {showRequiredHint ? (
+              <p className="onboarding-profile-hint" role="alert">
+                Please fill in First Name, Last Name, and Major(s).
+              </p>
+            ) : null}
             <Field
               id="onboarding-first-name"
               label="First Name"
@@ -319,12 +388,17 @@ function OnboardingProfileStep({ onContinue }) {
 }
 
 /**
- * Onboarding: welcome → profile → academic background.
- * `onComplete` runs after the final step with `{ profile, academic }`.
+ * Onboarding: intro → Google welcome → profile → academic → excited → main app.
+ * `onComplete` runs when the user continues from the final screen with `{ profile, academic }`.
  */
 export default function OnboardingMain({ onComplete }) {
-  const [step, setStep] = useState("welcome");
+  const [step, setStep] = useState(() => readInitialStep());
   const [profile, setProfile] = useState(null);
+  const [academic, setAcademic] = useState(null);
+
+  if (step === "intro") {
+    return <OnboardingIntro onContinue={() => setStep("welcome")} />;
+  }
 
   if (step === "welcome") {
     return <OnboardingWelcome onContinue={() => setStep("profile")} />;
@@ -341,10 +415,17 @@ export default function OnboardingMain({ onComplete }) {
     );
   }
 
-  return (
-    <OnboardingAcademicStep
-      onBack={() => setStep("profile")}
-      onComplete={(academic) => onComplete?.({ profile, academic })}
-    />
-  );
+  if (step === "academic") {
+    return (
+      <OnboardingAcademicStep
+        onBack={() => setStep("profile")}
+        onComplete={(data) => {
+          setAcademic(data);
+          setStep("excited");
+        }}
+      />
+    );
+  }
+
+  return <OnboardingExcitedStep onContinue={() => onComplete?.({ profile, academic })} />;
 }
