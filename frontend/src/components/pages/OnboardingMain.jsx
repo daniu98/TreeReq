@@ -78,48 +78,39 @@ function OnboardingWelcome({ onContinue }) {
     }
   };
   return (
-    <div className="onboarding-split-root onboarding-split-root--sans-flex">
-      <div className="onboarding-split-green">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          role="presentation"
-          className="onboarding-split-wave"
-          preserveAspectRatio="none"
-          viewBox="0 0 420 704"
-          aria-hidden
-        >
-          <path
-            fill={green}
-            d="M0 0 
-               L316 0 
-               C362 148 342 294 394 394 
-               C416 478 394 596 392 704 
-               L0 704 
-               Z"
-          />
-        </svg>
-      </div>
-
-      <div className="onboarding-split-content">
-        <h1 className="onboarding-title">Welcome to TreeRec</h1>
-
-        <p className="onboarding-tagline">Degree-planning reimagined.</p>
-        <p className="onboarding-help">Please log in with your UCLA account.</p>
-	<div style={{ marginTop: '20px', marginBottom: '20px' }}>
-        <GoogleLogin
-          onSuccess={handleGoogleSuccess}
-          onError={() => {
-            console.log('Google Popup closed or failed');
-            setStatus("Login Failed. Please try again.");
-          }}
-          width="300px"
-          useOneTap={false}
-          auto_select={false}
-        />
+    <div className="onboarding-first-root">
+      <img
+        className="onboarding-first-visual"
+        src="https://placehold.co/747x832"
+        alt=""
+        aria-hidden="true"
+      />
+      <div className="onboarding-first-content">
+        <div className="onboarding-first-title-wrap">
+          <div className="onboarding-first-title">Welcome to TreeRec</div>
+          <div className="onboarding-first-tagline">Degree-planning reimagined.</div>
         </div>
-	<p style={{ color: status.includes("error") || status.includes("Failed") ? 'red' : 'green' }}>
-          {status}
-        </p>
+        <div className="onboarding-first-login-wrap">
+          <div className="onboarding-first-help">Please log in with your UCLA account.</div>
+          <div className="onboarding-first-google">
+            <GoogleLogin
+              onSuccess={handleGoogleSuccess}
+              onError={() => {
+                console.log("Google Popup closed or failed");
+                setStatus("Login Failed. Please try again.");
+              }}
+              width="245px"
+              useOneTap={false}
+              auto_select={false}
+            />
+          </div>
+          <p
+            className="onboarding-first-status"
+            style={{ color: status.includes("error") || status.includes("Failed") ? "red" : "green" }}
+          >
+            {status}
+          </p>
+        </div>
       </div>
     </div>
   );
