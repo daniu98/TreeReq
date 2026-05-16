@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from config.database import connect_db, close_db
-from routers import courses, majors
+from routers import auth_sso, courses, majors, onboarding
 import pymongo
 import os
 
@@ -21,6 +21,8 @@ def home():
 
 app.include_router(courses.router, prefix="/api")
 app.include_router(majors.router, prefix="/api")
+app.include_router(auth_sso.router, prefix="/api")
+app.include_router(onboarding.router, prefix="/api")
 # export MONGO_URI DB_NAME
 client = pymongo.MongoClient(os.environ["MONGO_URI"])
 db = client.get_database(os.environ["DB_NAME"])

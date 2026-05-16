@@ -1,4 +1,6 @@
 :root {
+  --font-ui: "Inter", system-ui, -apple-system, sans-serif;
+  --font-section: "Inter", system-ui, -apple-system, sans-serif;
   --bg-page: #f4f4f5;
   --bg-sidebar: #e4e4e7;
   --bg-main: #ffffff;
@@ -37,3 +39,758 @@ button {
 select {
   font: inherit;
 }
+
+/* Onboarding: transitions between all steps (enter / exit) */
+.onboarding-step-bridge {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 0;
+  width: 100%;
+}
+
+.onboarding-step-bridge--enter {
+  animation: onboardingStepEnter 0.58s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.onboarding-step-bridge--exit {
+  animation: onboardingStepExit 0.48s cubic-bezier(0.4, 0, 1, 1) forwards;
+  pointer-events: none;
+}
+
+@keyframes onboardingStepEnter {
+  from {
+    opacity: 0;
+    transform: translateY(36px) scale(0.97);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes onboardingStepExit {
+  from {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+    filter: blur(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.98) translateX(-18px);
+    filter: blur(3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .onboarding-step-bridge--enter,
+  .onboarding-step-bridge--exit {
+    animation: none !important;
+  }
+}
+
+/* Onboarding split screen (landing / SSO) — matches desktop mock layout */
+.onboarding-split-root {
+  flex: 1;
+  display: flex;
+  min-width: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: var(--font-ui);
+}
+
+.onboarding-split-root--sans-flex .onboarding-title,
+.onboarding-split-root--sans-flex .onboarding-tagline,
+.onboarding-split-root--sans-flex .onboarding-help,
+.onboarding-split-root--sans-flex .onboarding-google-label {
+  font-family: "Google Sans Flex", var(--font-ui), system-ui, sans-serif;
+}
+
+.onboarding-split-green {
+  flex: 0 0 clamp(244px, 50vw, 720px);
+  min-height: 100vh;
+  position: relative;
+  /* Green comes only from the SVG path so the right side of the wave is transparent (shows main white). */
+  background: transparent;
+}
+
+.onboarding-split-wave {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.onboarding-split-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(32px, 6vw, 88px);
+  background: #ffffff;
+  min-width: 0;
+}
+
+.onboarding-title {
+  margin: 0;
+  color: #000000;
+  font-size: clamp(1.85rem, 3vw, 2.375rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+}
+
+.onboarding-tagline {
+  margin: 14px 0 0;
+  color: #000000;
+  font-size: clamp(1.05rem, 1.78vw, 1.3125rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.onboarding-help {
+  margin: clamp(28px, 5vh, 48px) 0 0;
+  color: #000000;
+  font-size: clamp(0.94rem, 1.42vw, 1.0625rem);
+  font-weight: 400;
+  line-height: 1.45;
+  max-width: 420px;
+}
+
+.onboarding-google-btn {
+  margin-top: clamp(20px, 3.5vh, 36px);
+  width: 100%;
+  max-width: 520px;
+  min-height: 56px;
+  padding: 14px clamp(22px, 4vw, 32px);
+  border-radius: 9999px;
+  border: 1px solid #d4e4db;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.onboarding-google-label {
+  color: #000000;
+  font-size: clamp(0.94rem, 1.42vw, 1.0625rem);
+  font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .onboarding-split-root {
+    flex-direction: column;
+  }
+
+  .onboarding-split-green {
+    flex: 0 0 auto;
+    min-height: min(240px, 38vh);
+  }
+
+  .onboarding-split-content {
+    justify-content: flex-start;
+    padding-top: clamp(28px, 8vw, 40px);
+  }
+}
+
+/* Onboarding profile card (“get to know you”) */
+.onboarding-profile-root {
+  flex: 1;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(24px, 4vw, 56px);
+  background: #ffffff;
+  overflow: auto;
+  font-family: "Google Sans Flex", var(--font-ui), system-ui, sans-serif;
+}
+
+.onboarding-profile-card {
+  width: 100%;
+  max-width: 1162px;
+  min-height: min(720px, calc(100vh - 48px));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(200px, 480px);
+  grid-template-rows: auto;
+  border-radius: 33px;
+  border: 2px solid #2764a6;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.onboarding-profile-form-panel {
+  grid-column: 1;
+  grid-row: 1;
+  padding: clamp(32px, 5vw, 71px) clamp(28px, 5vw, 54px) clamp(28px, 4vw, 48px);
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .onboarding-profile-form-panel {
+    gap: clamp(36px, 8vw, 48px);
+  }
+}
+
+.onboarding-profile-accent {
+  grid-column: 2;
+  grid-row: 1;
+  background: #2764a6;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0 35px 35px 0;
+  min-height: 100%;
+}
+
+.onboarding-profile-headline {
+  margin: 0;
+  color: #000000;
+  font-size: clamp(1.25rem, 2vw, 28px);
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.onboarding-profile-hint {
+  margin: 0 0 8px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(176, 52, 52, 0.1);
+  color: #991b1b;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  max-width: 420px;
+}
+
+.onboarding-profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  flex: 1;
+}
+
+@media (max-width: 640px) {
+  .onboarding-profile-form {
+    gap: clamp(24px, 5vw, 32px);
+  }
+}
+
+.onboarding-profile-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 420px;
+}
+
+.onboarding-profile-label {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.onboarding-profile-input {
+  width: 100%;
+  max-width: 268px;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 7px;
+  background: #d9d9d9;
+  color: #000000;
+  font: inherit;
+  font-size: 0.9375rem;
+}
+
+.onboarding-profile-input::placeholder {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.onboarding-profile-input:focus {
+  outline: 2px solid #2764a6;
+  outline-offset: 2px;
+}
+
+.onboarding-profile-actions {
+  margin-top: auto;
+  padding-top: clamp(24px, 4vw, 40px);
+  display: flex;
+  justify-content: flex-end;
+  max-width: 573px;
+}
+
+.onboarding-profile-next {
+  min-width: 105px;
+  min-height: 40px;
+  padding: 0 24px;
+  border: none;
+  border-radius: 32px;
+  background: #85b110;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.onboarding-profile-next:hover {
+  filter: brightness(1.05);
+}
+
+.onboarding-profile-next:active {
+  filter: brightness(0.97);
+}
+
+@media (max-width: 900px) {
+  .onboarding-profile-card {
+    grid-template-columns: 1fr;
+    min-height: unset;
+  }
+
+  .onboarding-profile-accent {
+    grid-column: 1;
+    grid-row: 1;
+    min-height: clamp(100px, 22vw, 160px);
+    border-radius: 35px 35px 0 0;
+  }
+
+  .onboarding-profile-form-panel {
+    grid-row: 2;
+    padding-top: clamp(24px, 6vw, 40px);
+  }
+
+  .onboarding-profile-field {
+    max-width: none;
+  }
+
+  .onboarding-profile-input {
+    max-width: none;
+  }
+
+  .onboarding-profile-actions {
+    justify-content: stretch;
+  }
+
+  .onboarding-profile-next {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .onboarding-card--academic .onboarding-profile-accent {
+    border-radius: 35px 35px 0 0;
+  }
+
+  .onboarding-academic-footer {
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: none;
+  }
+
+  .onboarding-academic-back,
+  .onboarding-academic-next {
+    flex: 1;
+    min-width: min(105px, 44vw);
+  }
+
+  .onboarding-academic-section {
+    max-width: none;
+  }
+
+  .onboarding-academic-input {
+    max-width: none;
+  }
+
+  .onboarding-academic-chips {
+    position: static;
+    top: auto;
+    margin-top: 10px;
+    max-width: none;
+  }
+
+  .onboarding-academic-section {
+    min-height: unset;
+    padding-bottom: 0;
+  }
+}
+
+/* Academic background onboarding (final card: flat frame + sharp corners per mock) */
+.onboarding-profile-card.onboarding-card--academic {
+  box-shadow: none;
+  border-radius: 0;
+  grid-template-columns: minmax(0, 1fr) minmax(160px, 375px);
+}
+
+.onboarding-card--academic .onboarding-profile-accent {
+  box-shadow: none;
+}
+
+.onboarding-profile-form-panel.onboarding-academic-panel {
+  gap: 0;
+  justify-content: space-between;
+}
+
+.onboarding-academic-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  flex: 1;
+  min-height: 0;
+}
+
+.onboarding-academic-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+}
+
+@media (max-width: 640px) {
+  .onboarding-academic-sections {
+    gap: clamp(40px, 10vw, 56px);
+  }
+}
+
+.onboarding-academic-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 398px;
+  /* Space for chips anchored near mock offset top ~86px (label + gap + 48px field ≈ 83px). */
+  min-height: 128px;
+  /* Extra clearance when chips wrap in absolute layer */
+  padding-bottom: 72px;
+}
+
+.onboarding-academic-section--dropdown {
+  min-height: unset;
+  padding-bottom: 0;
+  gap: 12px;
+}
+
+.onboarding-academic-section--dropdown .onboarding-academic-chips {
+  position: static;
+  top: auto;
+  margin-top: 6px;
+  max-width: 100%;
+}
+
+.onboarding-academic-dropdown-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  max-width: 398px;
+}
+
+.onboarding-academic-dropdown-row .onboarding-academic-input {
+  flex: 1 1 220px;
+  min-width: 0;
+  max-width: none;
+}
+
+.onboarding-academic-add-btn {
+  flex-shrink: 0;
+  min-height: 48px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 32px;
+  background: #2764a6;
+  color: #ffffff;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.onboarding-academic-add-btn:hover:not(:disabled) {
+  filter: brightness(1.06);
+}
+
+.onboarding-academic-add-btn:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+}
+
+.onboarding-academic-add-btn:focus-visible {
+  outline: 2px solid #2764a6;
+  outline-offset: 2px;
+}
+
+.onboarding-academic-loading {
+  margin: 0;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 15px;
+  color: #52525b;
+}
+
+.onboarding-academic-code {
+  font-size: 0.85em;
+  background: rgba(39, 100, 166, 0.12);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.onboarding-academic-section-label {
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.25;
+  min-height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.onboarding-academic-input {
+  width: 100%;
+  max-width: 398px;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 7px;
+  background: #b2b2b2;
+  color: #000000;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+}
+
+.onboarding-academic-input::placeholder {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.onboarding-academic-input:focus {
+  outline: 2px solid #2764a6;
+  outline-offset: 2px;
+}
+
+.onboarding-academic-chips {
+  position: absolute;
+  left: 0;
+  top: 86px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 398px;
+  z-index: 1;
+}
+
+.onboarding-academic-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 9px;
+  background: #8fce9c;
+  border-radius: 11px;
+  font-family: "Google Sans Flex", var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.onboarding-academic-chip-label {
+  line-height: 1.2;
+}
+
+.onboarding-academic-chip-remove {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onboarding-academic-chip-remove:focus-visible {
+  outline: 2px solid #2764a6;
+  outline-offset: 1px;
+}
+
+.onboarding-academic-chip-x {
+  width: 7px;
+  height: 7px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  display: block;
+}
+
+.onboarding-academic-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 573px;
+  padding-top: clamp(28px, 4vw, 48px);
+  margin-top: auto;
+}
+
+.onboarding-academic-back {
+  min-width: 105px;
+  min-height: 40px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 32px;
+  background: #7c7c7c;
+  color: #ffffff;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.onboarding-academic-back:hover {
+  filter: brightness(1.06);
+}
+
+.onboarding-academic-back:active {
+  filter: brightness(0.96);
+}
+
+.onboarding-academic-next {
+  min-width: 105px;
+  min-height: 40px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 32px;
+  background: #85b110;
+  color: #ffffff;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.onboarding-academic-next:hover {
+  filter: brightness(1.05);
+}
+
+.onboarding-academic-next:active {
+  filter: brightness(0.97);
+}
+
+/* Intro: welcome copy before Google sign-in */
+.onboarding-intro-root {
+  flex: 1;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  background: #ffffff;
+  overflow: hidden;
+  padding: clamp(24px, 5vw, 48px);
+}
+
+.onboarding-intro-message {
+  margin: 0;
+  max-width: min(520px, 100%);
+  text-align: center;
+  color: #000000;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.45;
+  word-wrap: break-word;
+}
+
+.onboarding-intro-continue {
+  min-width: 140px;
+  min-height: 44px;
+  padding: 0 28px;
+  border: none;
+  border-radius: 32px;
+  background: #85b110;
+  color: #ffffff;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.onboarding-intro-continue:hover {
+  filter: brightness(1.05);
+}
+
+.onboarding-intro-continue:active {
+  filter: brightness(0.97);
+}
+
+/* Final onboarding after academic: mock — white viewport; panel at ~390×367 (desktop) + Continue */
+.onboarding-excited-root {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.onboarding-excited-panel {
+  position: absolute;
+  margin: 0;
+  max-width: min(520px, calc(100vw - 48px));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.onboarding-excited-message {
+  margin: 0;
+  color: #000000;
+  font-family: "Inter", var(--font-ui), system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.45;
+  word-wrap: break-word;
+}
+
+/* Desktop artboard: exact mock offsets */
+@media (min-width: 960px) {
+  .onboarding-excited-panel {
+    left: 390px;
+    top: 367px;
+  }
+}
+
+@media (max-width: 959px) {
+  .onboarding-excited-panel {
+    left: clamp(24px, 6vw, 390px);
+    top: clamp(96px, 38vh, 367px);
+  }
+}
+
+@media (max-width: 640px) {
+  .onboarding-excited-panel {
+    left: 24px;
+    right: 24px;
+    max-width: none;
+  }
+}
+
