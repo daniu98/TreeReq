@@ -1,0 +1,957 @@
+{
+  "major_id": "iranian-studies-ba",
+  "major_name": "Iranian Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/IranianStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "IRANIAN 1A",
+        "IRANIAN 1B",
+        "IRANIAN 1C",
+        "IRANIAN 20A",
+        "IRANIAN 20B",
+        "IRANIAN 20C",
+        "IRANIAN 55",
+        "IRANIAN M60",
+        "IRANIAN M60W"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "IRANIAN 1A",
+            "IRANIAN 1B",
+            "IRANIAN 1C",
+            "IRANIAN 20A",
+            "IRANIAN 20B",
+            "IRANIAN 20C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "IRANIAN 55",
+            "IRANIAN M60",
+            "IRANIAN M60W"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 3,
+          "courses": [
+            "IRANIAN 102A",
+            "IRANIAN 102B",
+            "IRANIAN 102C",
+            "IRANIAN 103A",
+            "IRANIAN 103B",
+            "IRANIAN 103C",
+            "IRANIAN 120",
+            "IRANIAN 140",
+            "IRANIAN 141",
+            "IRANIAN 142"
+          ]
+        },
+        {
+          "choose_n": 4,
+          "courses": [
+            "AN N EA CM163",
+            "IRANIAN M110A",
+            "IRANIAN M110B",
+            "IRANIAN M110C",
+            "IRANIAN 161A",
+            "IRANIAN 161B",
+            "IRANIAN 161C",
+            "IRANIAN CM163",
+            "IRANIAN 164",
+            "IRANIAN 169",
+            "IRANIAN 170",
+            "IRANIAN 102A",
+            "IRANIAN 102B",
+            "IRANIAN 102C",
+            "IRANIAN 103A",
+            "IRANIAN 103B",
+            "IRANIAN 103C",
+            "IRANIAN 120",
+            "IRANIAN 140",
+            "IRANIAN 141",
+            "IRANIAN 142"
+          ]
+        },
+        {
+          "choose_n": 4,
+          "courses": [
+            "ART HIS 119A",
+            "ART HIS 119B",
+            "ART HIS C120",
+            "HIST 105A",
+            "HIST 105B",
+            "HIST 105C",
+            "IRANIAN 104",
+            "IRANIAN M105A",
+            "IRANIAN M105B",
+            "IRANIAN M115A",
+            "IRANIAN M115B",
+            "IRANIAN M115C",
+            "IRANIAN 130",
+            "IRANIAN 131",
+            "IRANIAN 132",
+            "IRANIAN 150A",
+            "IRANIAN 150B",
+            "IRANIAN M178",
+            "IRANIAN 187",
+            "POL SCI 157"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AN N EA": [
+      "AN N EA CM163"
+    ],
+    "ART HIS": [
+      "ART HIS 119A",
+      "ART HIS 119B",
+      "ART HIS C120"
+    ],
+    "HIST": [
+      "HIST 105A",
+      "HIST 105B",
+      "HIST 105C"
+    ],
+    "IRANIAN": [
+      "IRANIAN 102A",
+      "IRANIAN 102B",
+      "IRANIAN 102C",
+      "IRANIAN 103A",
+      "IRANIAN 103B",
+      "IRANIAN 103C",
+      "IRANIAN 104",
+      "IRANIAN 120",
+      "IRANIAN 130",
+      "IRANIAN 131",
+      "IRANIAN 132",
+      "IRANIAN 140",
+      "IRANIAN 141",
+      "IRANIAN 142",
+      "IRANIAN 150A",
+      "IRANIAN 150B",
+      "IRANIAN 161A",
+      "IRANIAN 161B",
+      "IRANIAN 161C",
+      "IRANIAN 164",
+      "IRANIAN 169",
+      "IRANIAN 170",
+      "IRANIAN 187",
+      "IRANIAN 1A",
+      "IRANIAN 1B",
+      "IRANIAN 1C",
+      "IRANIAN 20A",
+      "IRANIAN 20B",
+      "IRANIAN 20C",
+      "IRANIAN 55",
+      "IRANIAN CM163",
+      "IRANIAN M105A",
+      "IRANIAN M105B",
+      "IRANIAN M110A",
+      "IRANIAN M110B",
+      "IRANIAN M110C",
+      "IRANIAN M115A",
+      "IRANIAN M115B",
+      "IRANIAN M115C",
+      "IRANIAN M178",
+      "IRANIAN M60",
+      "IRANIAN M60W"
+    ],
+    "POL SCI": [
+      "POL SCI 157"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AN N EA CM163",
+      "dept": "AN N EA",
+      "number": "CM163",
+      "title": "Archaeology of Iran",
+      "units": 4.0,
+      "description": "(Same as Iranian CM163.) Lecture, three hours. Designed to introduce students to Iranian archaeology from prehistoric through Achaemenid times. Concurrently scheduled with course CM259. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 119A",
+      "dept": "ART HIS",
+      "number": "119A",
+      "title": "Western Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. From Tigris and Euphrates Rivers to Spain, 7th to 16th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 119B",
+      "dept": "ART HIS",
+      "number": "119B",
+      "title": "Eastern Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. From Tigris and Euphrates Rivers through Afghanistan and parts of central Asia; Ottoman Empire. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C120",
+      "dept": "ART HIS",
+      "number": "C120",
+      "title": "Selected Topics in Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in Islamic art and architecture that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C220A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105A",
+      "dept": "HIST",
+      "number": "105A",
+      "title": "Survey of Middle East, 500 to Present: 500 to 1300",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105B",
+      "dept": "HIST",
+      "number": "105B",
+      "title": "Survey of Middle East, 500 to Present: 1300 to 1700",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105C",
+      "dept": "HIST",
+      "number": "105C",
+      "title": "Survey of Middle East, 500 to Present: 1700 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 102A",
+      "dept": "IRANIAN",
+      "number": "102A",
+      "title": "Intermediate Persian",
+      "units": 5.0,
+      "description": "Lecture, six hours. Requisite: course 1C or 20C. Course 102A is requisite to 102B, which is requisite to 102C. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1C or 20C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "IRANIAN 1C",
+          "IRANIAN 20C"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "IRANIAN 102B"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 102B",
+      "dept": "IRANIAN",
+      "number": "102B",
+      "title": "Intermediate Persian",
+      "units": 5.0,
+      "description": "Lecture, six hours. Requisite: course 102A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102A.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "IRANIAN 102C"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 102C",
+      "dept": "IRANIAN",
+      "number": "102C",
+      "title": "Intermediate Persian",
+      "units": 5.0,
+      "description": "Lecture, six hours. Requisite: course 102B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102B.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "IRANIAN 103A",
+        "IRANIAN 103B",
+        "IRANIAN 103C",
+        "IRANIAN 132",
+        "IRANIAN 140",
+        "IRANIAN 141",
+        "IRANIAN 142"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 103A",
+      "dept": "IRANIAN",
+      "number": "103A",
+      "title": "Advanced Persian: Introduction to Classical Persian Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Students who do exceptionally well in course 20C may be permitted to enroll with consent of instructor. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 103B",
+      "dept": "IRANIAN",
+      "number": "103B",
+      "title": "Advanced Persian: Introduction to Classical Persian Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Students who do exceptionally well in course 20C may be permitted to enroll with consent of instructor. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 103C",
+      "dept": "IRANIAN",
+      "number": "103C",
+      "title": "Advanced Persian: Introduction to Contemporary Persian Poetry and Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Students who do exceptionally well in course 20C may be permitted to enroll with consent of instructor. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 104",
+      "dept": "IRANIAN",
+      "number": "104",
+      "title": "Philosophical Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Readings in English. Introduction to wide selection of philosophical texts in translation. Identification of major philosophical themes in ontology, epistemology, psychology, and cosmology through texts, with study in detail. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 120",
+      "dept": "IRANIAN",
+      "number": "120",
+      "title": "Comparative Study of Six Major Persian Poets",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Preparation: knowledge of Persian. Lectures in Persian, readings in English and Persian. Comparative study of six major Persian poets from 10th to 14th century who shaped sense of Persian identity and delineated chief distinguishing characteristics of Persian thought and culture. May be repeated for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 130",
+      "dept": "IRANIAN",
+      "number": "130",
+      "title": "Intellectual History of Jews of Persia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Readings in English. Introduction to intellectual history of Jews in Persia by highlighting select areas of Judeo-Persian studies and focusing on various authors and their work. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 131",
+      "dept": "IRANIAN",
+      "number": "131",
+      "title": "Introduction to Judeo-Persian: Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: knowledge of Persian equivalent to course 102C. Introduction to history of Judeo-Persian literature and culture to prepare students to read Judeo-Persian texts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "IRANIAN 132"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 132",
+      "dept": "IRANIAN",
+      "number": "132",
+      "title": "Intermediate Judeo-Persian Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisites: courses 102C, 131. Literary study of Judeo-Persian literature, as segment of Iranian classical literature. Judeo-Persian literary genres, in forms of prose and verse, compared with their parallel genres in context of Iranian literature. Textual study of Judeo-Persian manuscripts, both print and cursive, and their variations\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102C, 131.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C",
+          "IRANIAN 131"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 140",
+      "dept": "IRANIAN",
+      "number": "140",
+      "title": "Persian Belles Lettres (Adabiyyat)",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Study of major Persian poets and prose writers: prose\u2014Sohravardi, Hamad\u00e2ni, Nasafi, Ir\u00e2qi, and others; poetry\u2014H\u00e2fez, Sa\u2019di, R\u00fbmi, Bah\u00e2r, Dehkhoda, and others. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 141",
+      "dept": "IRANIAN",
+      "number": "141",
+      "title": "Persian Analytical Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Study of selected analytical and expository prose texts, with emphasis on philosophy, sciences, literary criticism, and history. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 142",
+      "dept": "IRANIAN",
+      "number": "142",
+      "title": "Persian Popular Ethics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Study of major Persian works on popular ethics that have helped shape normative social, cultural, and political values in Iranian civilization. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 150A",
+      "dept": "IRANIAN",
+      "number": "150A",
+      "title": "Survey of Persian Literature in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Persian not required. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 150B",
+      "dept": "IRANIAN",
+      "number": "150B",
+      "title": "Survey of Persian Literature in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Persian not required. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 161A",
+      "dept": "IRANIAN",
+      "number": "161A",
+      "title": "Elementary Middle Iranian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: knowledge of Persian desirable. Course 161A is requisite to 161B, which is requisite to 161C. Studies in grammars and texts of Middle Iranian languages (e.g., Middle Persian, Parthian, Sogdian, Khotanese, Bactrian). May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 161B",
+      "dept": "IRANIAN",
+      "number": "161B",
+      "title": "Elementary Middle Iranian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 161A. Studies in grammars and texts of Middle Iranian languages (e.g., Middle Persian, Parthian, Sogdian, Khotanese, Bactrian). May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 161A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 161C",
+      "dept": "IRANIAN",
+      "number": "161C",
+      "title": "Elementary Middle Iranian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 161B. Studies in grammars and texts of Middle Iranian languages (e.g., Middle Persian, Parthian, Sogdian, Khotanese, Bactrian). May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 161B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 164",
+      "dept": "IRANIAN",
+      "number": "164",
+      "title": "Ancient Cities of Iran: Archaeological Survey of Historic Cities and Sites of Iran from 4000 BC to 1900 AD",
+      "units": 4.0,
+      "description": "Lecture, four hours. Introduction to archaeological and historical monuments and sites of Iran from earliest periods to early 20th century. Examination of emergence of early Iranian villages, formation of cities and their development and expansion throughout late Sasanian and early Islamic periods to preindustrial era in early years of past\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 169",
+      "dept": "IRANIAN",
+      "number": "169",
+      "title": "Civilization of Pre-Islamic Iran",
+      "units": 4.0,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 170",
+      "dept": "IRANIAN",
+      "number": "170",
+      "title": "Religion in Ancient Iran",
+      "units": 4.0,
+      "description": "History of religion in Iran from the beginning to the Mohammedan conquest; Indo-Iranian background, Zoroastrianism, Manichaeism, Mazdakism.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 187",
+      "dept": "IRANIAN",
+      "number": "187",
+      "title": "Variable Topics in Iranian Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics; consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 1A",
+      "dept": "IRANIAN",
+      "number": "1A",
+      "title": "Elementary Persian",
+      "units": 5.0,
+      "description": "Lecture, six hours. Course 1A is enforced requisite to 1B, which is enforced requisite to 1C. Not open to students with prior knowledge of Persian. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "IRANIAN 1B"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 1B",
+      "dept": "IRANIAN",
+      "number": "1B",
+      "title": "Elementary Persian",
+      "units": 5.0,
+      "description": "Lecture, six hours. Enforced requisite: course 1A. Not open to students with prior knowledge of Persian. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1A.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "IRANIAN 1C"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 1C",
+      "dept": "IRANIAN",
+      "number": "1C",
+      "title": "Elementary Persian",
+      "units": 5.0,
+      "description": "Lecture, six hours. Enforced requisite: course 1B. Not open to students with prior knowledge of Persian. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1B.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 1B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "IRANIAN 102A"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 20A",
+      "dept": "IRANIAN",
+      "number": "20A",
+      "title": "Accelerated Elementary Persian",
+      "units": 6.0,
+      "description": "Lecture, four hours; discussion two hours; laboratory, 30 minutes per day. Preparation: some knowledge of spoken Persian. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Intensive and thorough study of fundamental structure of Persian grammar; reading from a wide range of classical and modern poetry\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "IRANIAN 20B"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 20B",
+      "dept": "IRANIAN",
+      "number": "20B",
+      "title": "Accelerated Elementary Persian",
+      "units": 6.0,
+      "description": "Lecture, four hours; discussion two hours; laboratory, 30 minutes per day. Preparation: some knowledge of spoken Persian. Enforced requisite: course 20A. Intensive and thorough study of fundamental structure of Persian grammar; reading from a wide range of classical and modern poetry and prose compositions. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20A.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 20A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "IRANIAN 20C"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 20C",
+      "dept": "IRANIAN",
+      "number": "20C",
+      "title": "Accelerated Elementary Persian",
+      "units": 6.0,
+      "description": "Lecture, four hours; discussion two hours; laboratory, 30 minutes per day. Preparation: some knowledge of spoken Persian. Enforced requisite: course 20B. Intensive and thorough study of fundamental structure of Persian grammar; reading from a wide range of classical and modern poetry and prose compositions. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20B.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 20B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "IRANIAN 102A"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 55",
+      "dept": "IRANIAN",
+      "number": "55",
+      "title": "Gender and Sexuality in Arts and Literatures of Iran and Middle East",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Multifaceted introduction to Persian poetry, recognized as jewel of Persian culture, and to pictorial, architectural, performative, cinematographic, and photographic dimensions of artistic milieu spanning between Balkans, India, and Central Asia from 10th century CE to present. With consideration of centrality of discourses on identity,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN CM163",
+      "dept": "IRANIAN",
+      "number": "CM163",
+      "title": "Archaeology of Iran",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East CM163.) Lecture, three hours. Designed to introduce students to Iranian archaeology from prehistoric through Achaemenid times. Concurrently scheduled with course CM259. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M105A",
+      "dept": "IRANIAN",
+      "number": "M105A",
+      "title": "Bah\u00c3\u00a1'\u00c3\u00ad Faith in Iran: Historical and Sociological Survey",
+      "units": 4.0,
+      "description": "(Same as Religion M105A.) Lecture, three hours. Readings in English. Rise and development of B\u00e1b\u00ed and Bah\u00e1\u2019\u00ed religions in context of 19th century Iran. Focus on personalities of B\u00e1b, Bah\u00e1\u2019u\u2019ll\u00e1h, and \u2018Abdu\u2019l-Bah\u00e1. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M105B",
+      "dept": "IRANIAN",
+      "number": "M105B",
+      "title": "Bah\u00c3\u00a1'\u00c3\u00ad Faith in Iran: Survey of Bah\u00c3\u00a1'\u00c3\u00ad Scriptures and Thought",
+      "units": 4.0,
+      "description": "(Same as Religion M105B.) Lecture, three hours. Readings in English. Analysis of major writings by B\u00e1b, Bah\u00e1\u2019u\u2019ll\u00e1h, and \u2018Abdu\u2019l-Bah\u00e1. Emphasis on mystical and social principles. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110A",
+      "dept": "IRANIAN",
+      "number": "M110A",
+      "title": "Iranian Civilization: History of Achaemenid Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110A and History M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire\u2019s religions, and Greco-Persian interactions. Further accents on Cyrus\u2019 empire and Darius\u2019 world\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110B",
+      "dept": "IRANIAN",
+      "number": "M110B",
+      "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110B and History M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110C",
+      "dept": "IRANIAN",
+      "number": "M110C",
+      "title": "Iranian Civilization: History of Early Sasanian Empire\u00e2\u20ac\u201dFrom Ardashir I to Rise of Peroz (circa 224-459 CE)",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110C and History M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire\u2019s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M115A",
+      "dept": "IRANIAN",
+      "number": "M115A",
+      "title": "Elementary Azeri",
+      "units": 4.0,
+      "description": "(Same as Turkic Languages M115A.) Lecture, five hours. Knowledge of Russian, Turkish, and Iranian helpful. Grammatical competence at elementary level; knowledge of basic facts of Azeri grammar; reading competence with help of dictionary; ability to write simple compositions; basic conversational skill. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M115B",
+      "dept": "IRANIAN",
+      "number": "M115B",
+      "title": "Elementary Azeri",
+      "units": 4.0,
+      "description": "(Same as Turkic Languages M115B.) Lecture, five hours. Knowledge of Russian, Turkish, and Iranian helpful. Grammatical competence at elementary level; knowledge of basic facts of Azeri grammar; reading competence with help of dictionary; ability to write simple compositions; basic conversational skill. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M115C",
+      "dept": "IRANIAN",
+      "number": "M115C",
+      "title": "Elementary Azeri",
+      "units": 4.0,
+      "description": "(Same as Turkic Languages M115C.) Lecture, five hours. Knowledge of Russian, Turkish, and Iranian helpful. Grammatical competence at elementary level; knowledge of basic facts of Azeri grammar; reading competence with help of dictionary; ability to write simple compositions; basic conversational skill. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M178",
+      "dept": "IRANIAN",
+      "number": "M178",
+      "title": "Introduction to History and Culture of Iranian Jews",
+      "units": 4.0,
+      "description": "(Same as History M178 and Jewish Studies M178.) Lecture, three hours. Introduction to political, intellectual, cultural, and socioeconomic status of Iranian Jews. Exploration of history of Iranian Jews from ancient period throughout history, with focus on post-Middle Ages to present time. Topics, studied from perspective of Iranian cultural and intellectual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M60",
+      "dept": "IRANIAN",
+      "number": "M60",
+      "title": "Achaemenid Civilization and Empire of Alexander",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M60 and History M60.) Lecture, three hours; discussion, one hour. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was ended by Alexander the Great, whose campaigns were as transformative as they were\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M60W",
+      "dept": "IRANIAN",
+      "number": "M60W",
+      "title": "Achaemenid Civilization and Empire of Alexander",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M60W and History M60W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course M60. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 157",
+      "dept": "POL SCI",
+      "number": "157",
+      "title": "Government and Politics in the Middle East",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparative study of government in the Arab States, Turkey, Israel, and Iran. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "major_id": "spanish-ba",
+  "major_name": "Spanish BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/SpanishBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SPAN 42",
+        "SPAN 44"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SPAN 119",
+        "SPAN 120"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 8,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SPAN 191C"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "PORTGSE": [
+      "PORTGSE 198A"
+    ],
+    "SPAN": [
+      "SPAN 119",
+      "SPAN 120",
+      "SPAN 191C",
+      "SPAN 198A",
+      "SPAN 25",
+      "SPAN 27",
+      "SPAN 42",
+      "SPAN 44"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "PORTGSE 198A",
+      "dept": "PORTGSE",
+      "number": "198A",
+      "title": "Senior Honors Research in Portuguese I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 119",
+      "dept": "SPAN",
+      "number": "119",
+      "title": "Introduction to Literary Analysis",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 25 or 27. Introduction to methods of analyzing literary work in Spanish, Spanish-American, and Chicana/Chicano literature. Special attention to four major genres: poetry, narrative, drama, and essay. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 25",
+          "SPAN 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 191C"
+      ]
+    },
+    {
+      "course_id": "SPAN 120",
+      "dept": "SPAN",
+      "number": "120",
+      "title": "Literature in Historical Context",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 25 or 27. Introduction to different ways of looking at literary works as historical phenomena. Presentation of major models for writing history\u2014great narratives, cyclic, teleological, sacred, and profane conceptions. Traditional concepts of literary history and problems of mixed categories (historical epochs versus\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 25",
+          "SPAN 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 191C"
+      ]
+    },
+    {
+      "course_id": "SPAN 191C",
+      "dept": "SPAN",
+      "number": "191C",
+      "title": "Senior Capstone Seminar",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisites: courses 119, 120, and at least three upper-division elective courses required for majors. Limited to senior Spanish majors. Knowledge from previous coursework used to address current trends in discipline; students work with one faculty member on one focused research topic. Culminating paper required. Letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 119, 120, and at least three upper-division elective courses required for majors.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 119",
+          "SPAN 120"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 198A",
+      "dept": "SPAN",
+      "number": "198A",
+      "title": "Senior Honors Research in Spanish I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 25",
+      "dept": "SPAN",
+      "number": "25",
+      "title": "Advanced Spanish Composition",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 5. Emphasis on development of communicative abilities, both verbal and written, as well as on increasing comprehension of variety of forms of cultural production in Spanish language and on preparation for more advanced Spanish courses. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 119",
+        "SPAN 120"
+      ]
+    },
+    {
+      "course_id": "SPAN 27",
+      "dept": "SPAN",
+      "number": "27",
+      "title": "Advanced Spanish Composition for Heritage Speakers",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 7B or equivalent. Not open for credit to students with credit for course 25. Practice in reading and writing of Spanish for students with oral proficiency in Spanish (in lieu of course 25). P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 7B or equivalent.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 119",
+        "SPAN 120"
+      ]
+    },
+    {
+      "course_id": "SPAN 42",
+      "dept": "SPAN",
+      "number": "42",
+      "title": "Iberian Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spain, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 44",
+      "dept": "SPAN",
+      "number": "44",
+      "title": "Latin American Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spanish America, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

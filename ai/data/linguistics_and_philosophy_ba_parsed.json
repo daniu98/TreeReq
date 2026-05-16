@@ -1,0 +1,893 @@
+{
+  "major_id": "linguistics-and-philosophy-ba",
+  "major_name": "Linguistics and Philosophy BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/LinguisticsandPhilosophyBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LING 20",
+        "PHILOS 31"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "PHILOS 7",
+            "PHILOS 8",
+            "PHILOS 21",
+            "PHILOS 23",
+            "PHILOS M24",
+            "LING M7"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LING 120B",
+        "LING 120C"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "LING 102",
+            "LING 103"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LING 119A",
+            "LING 120A"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LING 165B",
+            "LING 165C",
+            "LING 180"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LING C104",
+            "LING 127",
+            "LING 132",
+            "LING 165A",
+            "LING 165B",
+            "LING 165C",
+            "LING 180",
+            "LING 185B"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "PHILOS C127A",
+            "PHILOS C127B",
+            "PHILOS 172"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "PHILOS 124",
+            "PHILOS 125",
+            "PHILOS 126",
+            "PHILOS 127",
+            "PHILOS 128",
+            "PHILOS 129",
+            "PHILOS 130",
+            "PHILOS 131",
+            "PHILOS 132",
+            "PHILOS 133",
+            "PHILOS 134",
+            "PHILOS 135",
+            "PHILOS 170",
+            "PHILOS 172",
+            "PHILOS 174",
+            "PHILOS 180",
+            "PHILOS 181",
+            "PHILOS 184"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "COM SCI": [
+      "COM SCI 31",
+      "COM SCI 32"
+    ],
+    "COMPTNG": [
+      "COMPTNG 10A",
+      "COMPTNG 10B",
+      "COMPTNG 10C"
+    ],
+    "LING": [
+      "LING 102",
+      "LING 103",
+      "LING 119A",
+      "LING 120A",
+      "LING 120B",
+      "LING 120C",
+      "LING 127",
+      "LING 132",
+      "LING 165A",
+      "LING 165B",
+      "LING 165C",
+      "LING 180",
+      "LING 185A",
+      "LING 185B",
+      "LING 198A",
+      "LING 198B",
+      "LING 199",
+      "LING 20",
+      "LING C104",
+      "LING M7"
+    ],
+    "MATH": [
+      "MATH 61"
+    ],
+    "PHILOS": [
+      "PHILOS 170",
+      "PHILOS 172",
+      "PHILOS 174",
+      "PHILOS 180",
+      "PHILOS 181",
+      "PHILOS 184",
+      "PHILOS 21",
+      "PHILOS 23",
+      "PHILOS 31",
+      "PHILOS 7",
+      "PHILOS 8",
+      "PHILOS C127A",
+      "PHILOS C127B",
+      "PHILOS M24"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "COM SCI 31",
+      "dept": "COM SCI",
+      "number": "31",
+      "title": "Introduction to Computer Science I",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COM SCI 32"
+      ]
+    },
+    {
+      "course_id": "COM SCI 32",
+      "dept": "COM SCI",
+      "number": "32",
+      "title": "Introduction to Computer Science II",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 31.",
+      "prereqs_parsed": {
+        "required": [
+          "COM SCI 31"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 185A"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10A",
+      "dept": "COMPTNG",
+      "number": "10A",
+      "title": "Introduction to Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COMPTNG 10B"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10B",
+      "dept": "COMPTNG",
+      "number": "10B",
+      "title": "Intermediate Programming",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "COMPTNG 10A",
+          "COMPTNG 31"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMPTNG 10C"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10C",
+      "dept": "COMPTNG",
+      "number": "10C",
+      "title": "Advanced Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "COMPTNG 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 102",
+      "dept": "LING",
+      "number": "102",
+      "title": "Introduction to Applied Phonetics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 103. Basics of articulation and acoustics of phonetic categories used in world\u2019s languages, including English in comparison with other languages. Practice in speech-sound perception and transcription using International\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 119A",
+        "LING C104"
+      ]
+    },
+    {
+      "course_id": "LING 103",
+      "dept": "LING",
+      "number": "103",
+      "title": "Introduction to General Phonetics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 102. Phonetics of variety of languages and phonetic phenomena that occur in languages of world. Extensive practice in perception and production of such phenomena. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 119A",
+        "LING C104"
+      ]
+    },
+    {
+      "course_id": "LING 119A",
+      "dept": "LING",
+      "number": "119A",
+      "title": "Applied Phonology",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 20, and 102 or 103. Not open for credit to students with credit for course 120A. Sound structures and sound patterns in world\u2019s languages. Rules, rule ordering, features, syllable, and higher structure. Comparison of sound patterns of different languages.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 20, and 102 or 103.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 102",
+            "LING 103"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 132"
+      ]
+    },
+    {
+      "course_id": "LING 120A",
+      "dept": "LING",
+      "number": "120A",
+      "title": "Phonology I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 103. Introduction to phonological theory and analysis. Rules, representations, underlying forms, derivations. Justification of phonological analyses. Emphasis on practical skills with problem sets. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 20, 103.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LING 132",
+        "LING 165A"
+      ]
+    },
+    {
+      "course_id": "LING 120B",
+      "dept": "LING",
+      "number": "120B",
+      "title": "Syntax I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Course 120A is not requisite to 120B. Descriptive analysis of morphological and syntactic structures in natural languages; emphasis on insight into nature of such structures rather than linguistics formalization. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 120C",
+        "LING 132",
+        "LING 165B",
+        "LING 180",
+        "LING 185A"
+      ]
+    },
+    {
+      "course_id": "LING 120C",
+      "dept": "LING",
+      "number": "120C",
+      "title": "Semantics I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 119B or 120B. Survey of most important theoretical and descriptive claims about nature of meaning. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 119B or 120B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LING 119B",
+          "LING 120B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 165C"
+      ]
+    },
+    {
+      "course_id": "LING 127",
+      "dept": "LING",
+      "number": "127",
+      "title": "Syntactic Typology and Universals",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 132",
+      "dept": "LING",
+      "number": "132",
+      "title": "Language Processing",
+      "units": 5.0,
+      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 20, 119A or 120A, 119B or 120B.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 119A",
+            "LING 120A"
+          ],
+          [
+            "LING 119B",
+            "LING 120B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 165A",
+      "dept": "LING",
+      "number": "165A",
+      "title": "Phonology II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120A. To be taken in term following completion of course 120A or as soon as possible thereafter. Further study in phonological theory and analysis: autosegmental theory, syllable structure, metrical theory, interface of phonology and grammar. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 165B",
+      "dept": "LING",
+      "number": "165B",
+      "title": "Syntax II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 120B.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 165C",
+      "dept": "LING",
+      "number": "165C",
+      "title": "Semantics II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120C. Recommended for students who plan to do graduate work in linguistics. Further study in relevant logics, relations between sentences, lexical semantics, tense and aspect, adverbs, modality and intensionality. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120C.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 180",
+      "dept": "LING",
+      "number": "180",
+      "title": "Mathematical Structures in Language I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 119B or 120B. Recommended: Philosophy 31. Prior mathematics knowledge not assumed. Mathematical introduction to phonology, syntax, and semantics. Elementary material on logic, sets, functions, relations, and trees. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 119B or 120B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LING 119B",
+          "LING 120B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 185A",
+      "dept": "LING",
+      "number": "185A",
+      "title": "Computational Linguistics I",
+      "units": 5.0,
+      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 120B, Program in Computing 10C (or Computer Science 32).",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PROGRAM IN COMPUTING 10C",
+            "COM SCI 32"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 185B"
+      ]
+    },
+    {
+      "course_id": "LING 185B",
+      "dept": "LING",
+      "number": "185B",
+      "title": "Computational Linguistics II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 185A. Extension of material in course 185A, with emphasis on computational analysis of current tools and frameworks used in linguistic theory and their cognitive interpretations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 185A.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 185A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 198A",
+      "dept": "LING",
+      "number": "198A",
+      "title": "Honors Research in Linguistics I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite or corequisite: course 165A (or 200A) or 165B (or 200B).",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LING 198B"
+      ]
+    },
+    {
+      "course_id": "LING 198B",
+      "dept": "LING",
+      "number": "198B",
+      "title": "Honors Research in Linguistics II",
+      "units": 2.0,
+      "description": "Tutorial, to be arranged. Requisite: course 198A. Limited to juniors/seniors. Completion of honors thesis or comprehensive research project begun in course 198A under direct supervision of faculty member. Consult professor in charge to enroll. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 199",
+      "dept": "LING",
+      "number": "199",
+      "title": "Directed Research or Senior Project in Linguistics",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to senior Linguistics majors. Supervised individual research or investigation of linguistic topic selected by student under guidance of faculty mentor. Culminating paper required. Consult professor in charge to enroll. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 20",
+      "dept": "LING",
+      "number": "20",
+      "title": "Introduction to Linguistic Analysis",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Introduction to theory and methods of linguistics: universal properties of human language; phonetic, phonological, morphological, syntactic, and semantic structures and analysis; nature and form of grammar. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LING 102",
+        "LING 103",
+        "LING 119A",
+        "LING 120B",
+        "LING 127",
+        "LING 132"
+      ]
+    },
+    {
+      "course_id": "LING C104",
+      "dept": "LING",
+      "number": "C104",
+      "title": "Experimental Phonetics",
+      "units": 5.0,
+      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 102 or 103.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LING 102",
+          "LING 103"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING M7",
+      "dept": "LING",
+      "number": "M7",
+      "title": "Language and Identity",
+      "units": 5.0,
+      "description": "(Same as Philosophy M24.) Lecture, four hours; discussion, one hour (when scheduled). How do we use language to project our own identity? How do we use it to perceive or shape identity of others? Introduction to speech act theory and various claims that speech act theory can account for systematic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 61",
+      "dept": "MATH",
+      "number": "61",
+      "title": "Introduction to Discrete Structures",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Not open for credit to students with credit for course 180 or 184. Discrete structures commonly used in computer science and mathematics, including sets and relations, permutations and combinations, graphs and trees, induction. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 31A, 31B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 170",
+      "dept": "PHILOS",
+      "number": "170",
+      "title": "Philosophy of Mind",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: two relevant philosophy courses. Analysis of various problems concerning nature of mind and mental phenomena, such as relation between mind and body, and our knowledge of other minds. May be repeated once for credit with consent of instructor.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 172",
+      "dept": "PHILOS",
+      "number": "172",
+      "title": "Philosophy of Language and Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Theories of meaning and communication; how words refer to things; limits of meaningfulness; analysis of speech acts; relation of everyday language to scientific discoveries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 174",
+      "dept": "PHILOS",
+      "number": "174",
+      "title": "Topics in Theory of Knowledge",
+      "units": 4.0,
+      "description": "Lecture, three to four hours; discussion, one hour (when scheduled). Requisite: course 21. Intensive investigation of one or two selected topics or works in theory of knowledge, such as a priori knowledge, problem of induction, memory, knowledge as justified true belief. Topics announced each term. May be repeated for credit\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 21.",
+      "prereqs_parsed": {
+        "required": [
+          "PHILOS 21"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 180",
+      "dept": "PHILOS",
+      "number": "180",
+      "title": "Philosophy of Action",
+      "units": 4.0,
+      "description": "Lecture, three to four hours; discussion, one hour (when scheduled). Preparation: two philosophy courses. Study of various concepts employed in understanding human action. Topics may include rational choice, desire, intention, weakness of will, and self-deception. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 181",
+      "dept": "PHILOS",
+      "number": "181",
+      "title": "Philosophy of Perception",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: two philosophy courses. Critical study of main philosophical theories of perception and arguments used to establish them. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 184",
+      "dept": "PHILOS",
+      "number": "184",
+      "title": "Topics in Metaphysics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 21. Intensive investigation of one or two topics or works in metaphysics, such as personal identity, nature of dispositions, possibility and necessity, universals and particulars, causality. Topics announced each term. May be repeated for credit with consent of instructor. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 21.",
+      "prereqs_parsed": {
+        "required": [
+          "PHILOS 21"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 21",
+      "dept": "PHILOS",
+      "number": "21",
+      "title": "Skepticism and Rationality",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Can we know anything with certainty? How can we justify any of our beliefs? Introduction to study of these and related questions through works of some great philosophers of modern period, such as Descartes, Hume, Leibniz, or Berkeley. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PHILOS 174",
+        "PHILOS 184"
+      ]
+    },
+    {
+      "course_id": "PHILOS 23",
+      "dept": "PHILOS",
+      "number": "23",
+      "title": "Meaning and Communication",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Theory of meaning and its relationship to philosophy more generally; nature, origins, and acquisition of language. Additional topics may include nonlinguistic and nonhuman systems of communication; theories of interpretation in law, literature, and art; use of theoretical terms in science. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 31",
+      "dept": "PHILOS",
+      "number": "31",
+      "title": "Logic, First Course",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Recommended for students who plan to pursue more advanced studies in logic. Elements of symbolic logic, sentential and quantificational; forms of reasoning and structure of language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PHILOS C127A",
+        "PHILOS C127B"
+      ]
+    },
+    {
+      "course_id": "PHILOS 7",
+      "dept": "PHILOS",
+      "number": "7",
+      "title": "Introduction to Philosophy of Mind",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introductory study of philosophical issues about nature of the mind and its relation to the body, including materialism, functionalism, behaviorism, determinism and free will, nature of psychological knowledge. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 8",
+      "dept": "PHILOS",
+      "number": "8",
+      "title": "Introduction to Philosophy of Science",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Study of selected problems concerning the character and reliability of scientific understanding, such as nature of scientific theory and explanation, reality of theoretical entities, inductive confirmation of hypotheses, and occurrence of scientific revolutions. Discussion at nontechnical level of episodes from history of science. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS C127A",
+      "dept": "PHILOS",
+      "number": "C127A",
+      "title": "Philosophy of Language",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Enforced requisite: course 31. Syntax, semantics, pragmatics. Semantical concept of truth, sense and denotation, synonymy and analyticity, modalities and tenses, indirect discourse, indexical terms, semantical paradoxes. May be repeated for credit with consent of instructor. Concurrently scheduled with course C228A. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31.",
+      "prereqs_parsed": {
+        "required": [
+          "PHILOS 31"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS C127B",
+      "dept": "PHILOS",
+      "number": "C127B",
+      "title": "Philosophy of Language",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 31. Course C127A is not requisite to C127B. Selected topics similar to those considered in course C127A, but at more advanced and technical level. May be repeated for credit with consent of instructor. Concurrently scheduled with course C228B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31.",
+      "prereqs_parsed": {
+        "required": [
+          "PHILOS 31"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS M24",
+      "dept": "PHILOS",
+      "number": "M24",
+      "title": "Language and Identity",
+      "units": 5.0,
+      "description": "(Same as Linguistics M7.) Lecture, four hours; discussion, one hour (when scheduled). How do we use language to project our own identity? How do we use it to perceive or shape identity of others? Introduction to speech act theory and various claims that speech act theory can account for systematic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

@@ -1,0 +1,3300 @@
+{
+  "major_id": "middle-eastern-studies-ba",
+  "major_name": "Middle Eastern Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/MiddleEasternStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "AN N EA 10W",
+        "AN N EA 12W",
+        "AN N EA 14",
+        "AN N EA 14W",
+        "AN N EA 15",
+        "AN N EA 15W",
+        "AN N EA M60",
+        "AN N EA M60W",
+        "AN N EA M70",
+        "HIST 9D",
+        "IRANIAN 55",
+        "IRANIAN M60",
+        "IRANIAN M60W",
+        "ISLM ST M20",
+        "JEWISH M10",
+        "M E STD M50A",
+        "M E STD M50B",
+        "M E STD M50CW",
+        "NR EAST M20",
+        "NR EAST 65",
+        "ARABIC 1C",
+        "ARMENIA 101C",
+        "ARMENIA 104C",
+        "HEBREW 1C",
+        "IRANIAN 1C",
+        "IRANIAN 20C",
+        "TURKIC 101C"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "AN N EA 10W",
+            "AN N EA 12W",
+            "AN N EA 14",
+            "AN N EA 14W",
+            "AN N EA 15",
+            "AN N EA 15W",
+            "AN N EA M60",
+            "AN N EA M60W",
+            "AN N EA M70",
+            "HIST 9D",
+            "IRANIAN 55",
+            "IRANIAN M60",
+            "IRANIAN M60W",
+            "ISLM ST M20",
+            "JEWISH M10",
+            "M E STD M50A",
+            "M E STD M50B",
+            "M E STD M50CW",
+            "NR EAST M20",
+            "NR EAST 65"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ARABIC 1C",
+            "ARMENIA 101C",
+            "ARMENIA 104C",
+            "HEBREW 1C",
+            "IRANIAN 1C",
+            "IRANIAN 20C",
+            "TURKIC 101C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 6,
+          "courses": [
+            "AN N EA M103A",
+            "AN N EA M103B",
+            "AN N EA M104A",
+            "AN N EA C106A",
+            "AN N EA M110A",
+            "AN N EA M110B",
+            "AN N EA M110C",
+            "ANTHRO 166P",
+            "ARABIC M171",
+            "ARMENIA 130",
+            "ARMENIA 131",
+            "HIST 105A",
+            "HIST 105B",
+            "HIST 105C",
+            "HIST M108C",
+            "IRANIAN M110A",
+            "IRANIAN M110B",
+            "IRANIAN M110C",
+            "IRANIAN CM163",
+            "IRANIAN 164",
+            "IRANIAN M178",
+            "JEWISH M178",
+            "JEWISH M182A",
+            "JEWISH M182B",
+            "JEWISH M182C",
+            "JEWISH M184A",
+            "JEWISH M184B",
+            "JEWISH M184C",
+            "JEWISH M184D",
+            "AN N EA 120A",
+            "AN N EA 120B",
+            "AN N EA 120C",
+            "AN N EA C123A",
+            "AN N EA C123B",
+            "AN N EA 140A",
+            "AN N EA 140B",
+            "AN N EA 140C",
+            "AN N EA M168A",
+            "ARABIC 102A",
+            "ARABIC 102B",
+            "ARABIC 102C",
+            "ARABIC 103A",
+            "ARABIC 103B",
+            "ARABIC 103C",
+            "ARABIC 112A",
+            "ARABIC 112B",
+            "ARABIC 112C",
+            "ARMENIA 102A",
+            "ARMENIA 102B",
+            "ARMENIA 102C",
+            "ARMENIA 103A",
+            "ARMENIA 103B",
+            "ARMENIA 103C",
+            "ARMENIA 105A",
+            "ARMENIA 105B",
+            "ARMENIA 105C",
+            "ARMENIA 106A",
+            "ARMENIA 106B",
+            "ARMENIA 106C",
+            "HEBREW 102A",
+            "HEBREW 102B",
+            "HEBREW 102C",
+            "HEBREW 103A",
+            "HEBREW 103B",
+            "HEBREW 103C",
+            "HEBREW 110A",
+            "HEBREW 110B",
+            "IRANIAN 103A",
+            "IRANIAN 103B",
+            "IRANIAN 103C"
+          ]
+        },
+        {
+          "choose_n": 5,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AN N EA": [
+      "AN N EA 10W",
+      "AN N EA 120A",
+      "AN N EA 120B",
+      "AN N EA 120C",
+      "AN N EA 12W",
+      "AN N EA 14",
+      "AN N EA 140A",
+      "AN N EA 140B",
+      "AN N EA 140C",
+      "AN N EA 14W",
+      "AN N EA 15",
+      "AN N EA 150B",
+      "AN N EA 15W",
+      "AN N EA C106A",
+      "AN N EA C123A",
+      "AN N EA C123B",
+      "AN N EA M103A",
+      "AN N EA M103B",
+      "AN N EA M104A",
+      "AN N EA M110A",
+      "AN N EA M110B",
+      "AN N EA M110C",
+      "AN N EA M130",
+      "AN N EA M135",
+      "AN N EA M150A",
+      "AN N EA M168A",
+      "AN N EA M170",
+      "AN N EA M185D",
+      "AN N EA M60",
+      "AN N EA M60W",
+      "AN N EA M70"
+    ],
+    "ANTHRO": [
+      "ANTHRO 166P",
+      "ANTHRO 167",
+      "ANTHRO M166Q"
+    ],
+    "ARABIC": [
+      "ARABIC 102A",
+      "ARABIC 102B",
+      "ARABIC 102C",
+      "ARABIC 103A",
+      "ARABIC 103B",
+      "ARABIC 103C",
+      "ARABIC 112A",
+      "ARABIC 112B",
+      "ARABIC 112C",
+      "ARABIC 1C",
+      "ARABIC C141",
+      "ARABIC M110",
+      "ARABIC M148",
+      "ARABIC M171"
+    ],
+    "ARMENIA": [
+      "ARMENIA 101C",
+      "ARMENIA 102A",
+      "ARMENIA 102B",
+      "ARMENIA 102C",
+      "ARMENIA 103A",
+      "ARMENIA 103B",
+      "ARMENIA 103C",
+      "ARMENIA 104C",
+      "ARMENIA 105A",
+      "ARMENIA 105B",
+      "ARMENIA 105C",
+      "ARMENIA 106A",
+      "ARMENIA 106B",
+      "ARMENIA 106C",
+      "ARMENIA 130",
+      "ARMENIA 131"
+    ],
+    "ART HIS": [
+      "ART HIS 119A",
+      "ART HIS 119B",
+      "ART HIS C116A",
+      "ART HIS C120"
+    ],
+    "ECON": [
+      "ECON 111",
+      "ECON 112"
+    ],
+    "ETHNMUS": [
+      "ETHNMUS 161L",
+      "ETHNMUS 161N"
+    ],
+    "FRNCH": [
+      "FRNCH 121",
+      "FRNCH 160"
+    ],
+    "HEBREW": [
+      "HEBREW 102A",
+      "HEBREW 102B",
+      "HEBREW 102C",
+      "HEBREW 103A",
+      "HEBREW 103B",
+      "HEBREW 103C",
+      "HEBREW 110A",
+      "HEBREW 110B",
+      "HEBREW 120",
+      "HEBREW 125",
+      "HEBREW 130",
+      "HEBREW 135",
+      "HEBREW 170",
+      "HEBREW 1C",
+      "HEBREW C140"
+    ],
+    "HIST": [
+      "HIST 105A",
+      "HIST 105B",
+      "HIST 105C",
+      "HIST 107A",
+      "HIST 107B",
+      "HIST 107C",
+      "HIST 107D",
+      "HIST 108A",
+      "HIST 108B",
+      "HIST 109B",
+      "HIST 111A",
+      "HIST 111B",
+      "HIST 111C",
+      "HIST 116A",
+      "HIST 116B",
+      "HIST 164B",
+      "HIST 167A",
+      "HIST 9D",
+      "HIST M106",
+      "HIST M108C",
+      "HIST M110B",
+      "HIST M184D",
+      "HIST M185F",
+      "HIST M185G",
+      "HIST M185I"
+    ],
+    "IRANIAN": [
+      "IRANIAN 103A",
+      "IRANIAN 103B",
+      "IRANIAN 103C",
+      "IRANIAN 120",
+      "IRANIAN 130",
+      "IRANIAN 131",
+      "IRANIAN 132",
+      "IRANIAN 140",
+      "IRANIAN 141",
+      "IRANIAN 150A",
+      "IRANIAN 150B",
+      "IRANIAN 161A",
+      "IRANIAN 161B",
+      "IRANIAN 161C",
+      "IRANIAN 164",
+      "IRANIAN 170",
+      "IRANIAN 1C",
+      "IRANIAN 20C",
+      "IRANIAN 55",
+      "IRANIAN CM163",
+      "IRANIAN M110A",
+      "IRANIAN M110B",
+      "IRANIAN M110C",
+      "IRANIAN M178",
+      "IRANIAN M60",
+      "IRANIAN M60W"
+    ],
+    "ISLM ST": [
+      "ISLM ST 130",
+      "ISLM ST C151",
+      "ISLM ST CM115",
+      "ISLM ST M20"
+    ],
+    "JEWISH": [
+      "JEWISH 143",
+      "JEWISH 150B",
+      "JEWISH 151B",
+      "JEWISH 170",
+      "JEWISH 175",
+      "JEWISH M10",
+      "JEWISH M113",
+      "JEWISH M150A",
+      "JEWISH M151A",
+      "JEWISH M155",
+      "JEWISH M162",
+      "JEWISH M178",
+      "JEWISH M182A",
+      "JEWISH M182B",
+      "JEWISH M182C",
+      "JEWISH M184A",
+      "JEWISH M184B",
+      "JEWISH M184C",
+      "JEWISH M184D",
+      "JEWISH M187"
+    ],
+    "M E STD": [
+      "M E STD M50A",
+      "M E STD M50B",
+      "M E STD M50CW"
+    ],
+    "NR EAST": [
+      "NR EAST 65",
+      "NR EAST M20"
+    ],
+    "PHILOS": [
+      "PHILOS 104"
+    ],
+    "POL SCI": [
+      "POL SCI 132A",
+      "POL SCI 157",
+      "POL SCI 165",
+      "POL SCI M132B"
+    ],
+    "RELIGN": [
+      "RELIGN 120"
+    ],
+    "SEMITIC": [
+      "SEMITIC 110",
+      "SEMITIC 115",
+      "SEMITIC 130",
+      "SEMITIC 140B",
+      "SEMITIC 141",
+      "SEMITIC M140A"
+    ],
+    "TURKIC": [
+      "TURKIC 101C",
+      "TURKIC 102A",
+      "TURKIC 102B",
+      "TURKIC 102C",
+      "TURKIC 112A",
+      "TURKIC 112B",
+      "TURKIC 112C",
+      "TURKIC 116A",
+      "TURKIC 116B",
+      "TURKIC 116C"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AN N EA 10W",
+      "dept": "AN N EA",
+      "number": "10W",
+      "title": "Jerusalem: Holy City",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 12W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 120A",
+      "dept": "AN N EA",
+      "number": "120A",
+      "title": "Elementary Ancient Egyptian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Course 120A is requisite to 120B, which is requisite to 120C. Introduction to hieroglyphic script and phonology and morphology of Middle Egyptian. Basic rules of Middle Egyptian syntax, with focus on nominal, adjectival, and adverbial sentences. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA 120B"
+      ]
+    },
+    {
+      "course_id": "AN N EA 120B",
+      "dept": "AN N EA",
+      "number": "120B",
+      "title": "Elementary Ancient Egyptian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Requisite: course 120A. Verbal system and syntax of verbal sentences of Middle Egyptian. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AN N EA 120C"
+      ]
+    },
+    {
+      "course_id": "AN N EA 120C",
+      "dept": "AN N EA",
+      "number": "120C",
+      "title": "Elementary Ancient Egyptian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Requisite: course 120B. Reading of authentic Egyptian texts to deepen knowledge of Egyptian grammar and to acquire familiarity with aims and methods of philology, study of ancient texts. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120B.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 120B"
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 12W",
+      "dept": "AN N EA",
+      "number": "12W",
+      "title": "Jerusalem: Holy City",
+      "units": 5.0,
+      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 10W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected by literary and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 14",
+      "dept": "AN N EA",
+      "number": "14",
+      "title": "Medicine, Magic, and Science in Ancient Times",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 14W. Overview of history of medicine and sciences, focusing especially on Ancient Near East, China, and Meso-America. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 140A",
+      "dept": "AN N EA",
+      "number": "140A",
+      "title": "Elementary Sumerian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to Sumerian, oldest cuneiform language, with examples attested in Mesopotamia from 3rd millennium BCE to 1st century CE. Elementary grammar, syntax, and overview of cuneiform as used by Sumerian. Focus on structure of nominal and verbal chain, through reading of basic royal inscriptions and other texts.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA 140B"
+      ]
+    },
+    {
+      "course_id": "AN N EA 140B",
+      "dept": "AN N EA",
+      "number": "140B",
+      "title": "Elementary Sumerian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: Semitics 140A, 140B. Elementary grammar and reading of royal inscriptions, letters, and administrative texts from Ur III period. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Semitics 140A, 140B.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 140A",
+          "AN N EA 140B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AN N EA 140B"
+      ]
+    },
+    {
+      "course_id": "AN N EA 140C",
+      "dept": "AN N EA",
+      "number": "140C",
+      "title": "Elementary Sumerian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: Semitics 140A, 140B. Elementary grammar and reading of royal inscriptions, letters, and administrative texts from Ur III period. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Semitics 140A, 140B.",
+      "prereqs_parsed": {
+        "required": [
+          "SEMITIC 140A",
+          "SEMITIC 140B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 14W",
+      "dept": "AN N EA",
+      "number": "14W",
+      "title": "Medicine, Magic, and Science in Ancient Times",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 14. Overview of history of medicine and sciences, focusing especially on Ancient Near East, China, and Meso-America. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 15",
+      "dept": "AN N EA",
+      "number": "15",
+      "title": "Women and Power in Ancient World",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Not open for credit to students with credit for course 15W. Examination of how feminine power confronts masculine dominance within complex social systems in ancient world. To gain political power, some female rulers used their sexuality to gain access to important men. Other women\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 150B",
+      "dept": "AN N EA",
+      "number": "150B",
+      "title": "Survey of Ancient Near Eastern Literatures in English: Egypt",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: familiarity with Egyptian history. Enforced requisites: courses M103A, M103B. Survey of 3,000 years of ancient Egyptian literature. Reading of Egyptian texts in translation to study Egypt\u2019s intellectual history and trace transformations in its construction of cultural identity. Topics include invention of writing, autobiography, wisdom texts, narratives,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M103A, M103B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 15W",
+      "dept": "AN N EA",
+      "number": "15W",
+      "title": "Women and Power in Ancient World",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 15. Examination of how feminine power confronts masculine dominance within complex social systems in ancient world. To gain political power, some female rulers used their sexuality to gain access to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA C106A",
+      "dept": "AN N EA",
+      "number": "C106A",
+      "title": "Earliest Empires: Mesopotamian History in 3rd Millennium",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. In-depth study of the history of ancient Mesopotamia, from the earliest textual and material evidence to the end of the Ur III state circa 2000 BCE. Particular focus on rise of cities in Mesopotamia and formation of the first major unified polities, such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA C123A",
+      "dept": "AN N EA",
+      "number": "C123A",
+      "title": "Coptic",
+      "units": 5.0,
+      "description": "Lecture, three hours. Introduction to Coptic, final phase of Egyptian language, which is attested in writing from circa 300 to 1400 CE. Devoted to learning Coptic alphabet, grammar, and vocabulary (Sahidic dialect), with particular emphasis on historical linguistics. Concurrently scheduled with course C223A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA C123B"
+      ]
+    },
+    {
+      "course_id": "AN N EA C123B",
+      "dept": "AN N EA",
+      "number": "C123B",
+      "title": "Coptic",
+      "units": 5.0,
+      "description": "Lecture, three hours. Requisite: course C123A. Introduction to Coptic, final phase of Egyptian language, which is attested in writing from circa 300 to 1400 CE. Introduction to variety of Coptic textual genres, from hagiographies to homilies, magical spells, private letters, legal contracts, and Gnostic Gospels found in Nag Hammadi. Readings\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course C123A.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA C123A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M103A",
+      "dept": "AN N EA",
+      "number": "M103A",
+      "title": "History of Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as History M103A.) Lecture, three hours; discussion, one hour (when scheduled). Course M103A is not requisite to M103B. Designed for juniors/seniors. Political and cultural institutions of ancient Egypt and ideas on which they were based. Chronological discussion of Prehistory, Old and Middle Kingdom. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M103B",
+      "dept": "AN N EA",
+      "number": "M103B",
+      "title": "History of Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as History M103B.) Lecture, three hours; discussion, one hour (when scheduled). Course M103A is not requisite to M103B. Designed for juniors/seniors. Political and cultural institutions of ancient Egypt and ideas on which they were based. New Kingdom and Late period until 332 BC. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M104A",
+      "dept": "AN N EA",
+      "number": "M104A",
+      "title": "History of Ancient Mesopotamia and Syria",
+      "units": 4.0,
+      "description": "(Same as History M104A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political and cultural development of Fertile Crescent, including Palestine, from Late Uruk to neo-Babylonian period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M110A",
+      "dept": "AN N EA",
+      "number": "M110A",
+      "title": "Iranian Civilization: History of Achaemenid Empire",
+      "units": 4.0,
+      "description": "(Same as History M110A and Iranian M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire\u2019s religions, and Greco-Persian interactions. Further accents on Cyrus\u2019 empire and Darius\u2019 world order, age\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M110B",
+      "dept": "AN N EA",
+      "number": "M110B",
+      "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
+      "units": 4.0,
+      "description": "(Same as History M110B and Iranian M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise and Arsacid\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M110C",
+      "dept": "AN N EA",
+      "number": "M110C",
+      "title": "Iranian Civilization: History of Early Sasanian Empire\u00e2\u20ac\u201dFrom Ardashir I to Rise of Peroz (circa 224-459 CE)",
+      "units": 4.0,
+      "description": "(Same as History M110C and Iranian M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire\u2019s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions, Persia and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M130",
+      "dept": "AN N EA",
+      "number": "M130",
+      "title": "Ancient Egyptian Religion",
+      "units": 5.0,
+      "description": "(Same as Religion M132.) Lecture, three hours; discussion, one hour. Introduction to religious beliefs, practices, and sentiments of ancient Egypt to study Egyptian religion as coherent system of thought and sphere of action that once served as meaningful and relevant framework for understanding physical reality and human life for inhabitants\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M135",
+      "dept": "AN N EA",
+      "number": "M135",
+      "title": "Religion in Ancient Israel",
+      "units": 4.0,
+      "description": "(Same as Religion M135.) Lecture, three hours. Introductory survey of various ancient Israelite religious beliefs and practices, their origin, and development, with special attention to diversity of religious practice in ancient Israel and Canaan during 1st millennium BCE. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M150A",
+      "dept": "AN N EA",
+      "number": "M150A",
+      "title": "Heroes, Gods, and Monsters: Literature and Epic in Mesopotamia",
+      "units": 4.0,
+      "description": "(Formerly numbered 150A.) (Same as Study of Religion M150A.) Lecture, three hours. Survey of literary texts and traditions the ancient Near East, specifically Mesopotamia, from Old Akkadian (circa 2300 BCE) to Neo-Babylonian (circa 600 BCE) period. Texts read in English translation include literary texts, royal inscriptions, incantations, royal and divine\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M168A",
+      "dept": "AN N EA",
+      "number": "M168A",
+      "title": "Elementary Hittite",
+      "units": 4.0,
+      "description": "(Formerly numbered M168.) (Same as Indo-European Studies M168A.) Lecture, three hours. Recommended preparation: knowledge of language with case system. Introduction to Hittite grammar by series of graded lessons covering morphology and syntax, followed by readings of selected texts from variety of genres. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M170",
+      "dept": "AN N EA",
+      "number": "M170",
+      "title": "Bible and Its Interpreters",
+      "units": 4.0,
+      "description": "(Same as Religion M172.) Lecture, three hours. Knowledge of original languages not required. Bible (Old and New Testaments) as book. Canon, text, and versions. Linguistic, literary, historical, and religious approaches to Bible study. Survey of history of interpretation from antiquity to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M185D",
+      "dept": "AN N EA",
+      "number": "M185D",
+      "title": "Religions of Ancient Near East",
+      "units": 4.0,
+      "description": "(Same as History M185D and Religion M185D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Main polytheistic systems of ancient Near East, with emphasis on Mesopotamia and Syria and with reference to religion of ancient Israel: varying concepts of divinity, hierarchies of gods, prayer and cult, magics,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M60",
+      "dept": "AN N EA",
+      "number": "M60",
+      "title": "Achaemenid Civilization and Empire of Alexander",
+      "units": 5.0,
+      "description": "(Same as History M60 and Iranian M60.) Lecture, three hours; discussion, one hour. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was ended by Alexander the Great, whose campaigns were as transformative as they were violent. Alexander\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M60W",
+      "dept": "AN N EA",
+      "number": "M60W",
+      "title": "Achaemenid Civilization and Empire of Alexander",
+      "units": 5.0,
+      "description": "(Same as History M60W and Iranian M60W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course M60. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M70",
+      "dept": "AN N EA",
+      "number": "M70",
+      "title": "Demons, Fear, and Uncanny in Ancient World",
+      "units": 5.0,
+      "description": "(Same as Religion M70.) Lecture, three hours; discussion, one hour. Consideration of place of demons and fear in several different societies and cultures in ancient world: Mesopotamia; ancient Egypt, Greece, and Rome; and Biblical and early Jewish contexts. Investigation into why demons and monsters existed in these cultures; how they\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 166P",
+      "dept": "ANTHRO",
+      "number": "166P",
+      "title": "Sub-Saharan Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours. Issues of ecology and political economy; continuing impacts of colonialism, nationalism, and current challenges for development; changes in social relations. Examination of Africa\u2019s significance to development of anthropology. Cultural background for understanding events in contemporary Africa provided. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 167",
+      "dept": "ANTHRO",
+      "number": "167",
+      "title": "Culture Area of Middle East",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of Middle East has suggested many theories as to developmental history of humankind, evolution of human society, birth of monotheism, and origin of agriculture, trade, and cities. Presentation of anthropological material relevant to understanding Middle East as culture area, and Islam as basis of its shared\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO M166Q",
+      "dept": "ANTHRO",
+      "number": "M166Q",
+      "title": "Culture Area of Maghrib (North Africa)",
+      "units": 4.0,
+      "description": "(Same as Arabic M171 and History M108C.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 102A",
+      "dept": "ARABIC",
+      "number": "102A",
+      "title": "Intermediate Standard Arabic",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisite: course 1C or 8. Course 102A is requisite to 102B, which is requisite to 102C. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Intermediate formal Arabic, including listening, speaking, reading, and writing. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 1C or 8.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ARABIC 1C",
+            "ARABIC 8"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ARABIC 102B",
+        "ARABIC 103A",
+        "ARABIC 103B",
+        "ARABIC 103C"
+      ]
+    },
+    {
+      "course_id": "ARABIC 102B",
+      "dept": "ARABIC",
+      "number": "102B",
+      "title": "Intermediate Standard Arabic",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 102A. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Intermediate formal Arabic, including listening, speaking, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102A.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 102A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ARABIC 102C",
+        "ARABIC 103A",
+        "ARABIC 103B",
+        "ARABIC 103C"
+      ]
+    },
+    {
+      "course_id": "ARABIC 102C",
+      "dept": "ARABIC",
+      "number": "102C",
+      "title": "Intermediate Standard Arabic",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 102B. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Intermediate formal Arabic, including listening, speaking, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102B.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 102B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ARABIC 103A",
+        "ARABIC 103B",
+        "ARABIC 103C",
+        "ARABIC C141"
+      ]
+    },
+    {
+      "course_id": "ARABIC 103A",
+      "dept": "ARABIC",
+      "number": "103A",
+      "title": "Advanced Arabic",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisites: courses 102A, 102B, 102C. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Advanced formal Arabic, including grammar, composition, and readings from classical and modern texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 102A",
+          "ARABIC 102B",
+          "ARABIC 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 103B",
+      "dept": "ARABIC",
+      "number": "103B",
+      "title": "Advanced Arabic",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisites: courses 102A, 102B, 102C. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Advanced formal Arabic, including grammar, composition, and readings from classical and modern texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 102A",
+          "ARABIC 102B",
+          "ARABIC 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 103C",
+      "dept": "ARABIC",
+      "number": "103C",
+      "title": "Advanced Arabic",
+      "units": 4.0,
+      "description": "Lecture, two and one half hours. Enforced requisites: courses 102A, 102B, 102C. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Advanced formal Arabic, including grammar, composition, and readings from classical and modern texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 102A",
+          "ARABIC 102B",
+          "ARABIC 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 112A",
+      "dept": "ARABIC",
+      "number": "112A",
+      "title": "Advanced Spoken Egyptian Arabic",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of Egyptian colloquial Arabic for heritage speakers or students who have completed courses 1A, 1B, 1C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 112B",
+      "dept": "ARABIC",
+      "number": "112B",
+      "title": "Advanced Spoken Egyptian Arabic",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of Egyptian colloquial Arabic for heritage speakers or students who have completed courses 1A, 1B, 1C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 112C",
+      "dept": "ARABIC",
+      "number": "112C",
+      "title": "Advanced Spoken Egyptian Arabic",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of Egyptian colloquial Arabic for heritage speakers or students who have completed courses 1A, 1B, 1C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 1C",
+      "dept": "ARABIC",
+      "number": "1C",
+      "title": "Elementary Standard Arabic",
+      "units": 5.0,
+      "description": "Lecture, six hours. Enforced requisite: course 1B. Not open to students with prior knowledge of Arabic. Introduction to formal Arabic (modern standard Arabic), including listening, speaking, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1B.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 1B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ARABIC 102A"
+      ]
+    },
+    {
+      "course_id": "ARABIC C141",
+      "dept": "ARABIC",
+      "number": "C141",
+      "title": "Modern Arabic Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Conducted in English and Arabic, with all required readings in original Arabic only. Readings in modern Arabic literature, variably organized across or around particular trends, genres, topics, canonical authors, regional, or national literatures, mixing thematic and formal analyses of literary and critical texts and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC M110",
+      "dept": "ARABIC",
+      "number": "M110",
+      "title": "One Thousand and One Nights/Alf Layla Wa-Layla",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M110.) Lecture, three hours. Knowledge of Arabic not required. Since its appearance in Europe in 1704, One Thousand and One Nights is most well-known work of Arabic literature in West. Examination of cycle of tales more commonly known as Arabian Nights, including history of its translation,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC M148",
+      "dept": "ARABIC",
+      "number": "M148",
+      "title": "Contemporary Arab Film and Song",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M148.) Seminar, three hours. Exploration of conjunctions between contemporary Arab film and song and between popular cultures and cultures of commitment (Iltizam), with possible focus on specific genres such as realist/neorealist Arab film; feminist Arab film or popular Arab film and song; topics such as nation,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC M171",
+      "dept": "ARABIC",
+      "number": "M171",
+      "title": "Culture Area of Maghrib (North Africa)",
+      "units": 4.0,
+      "description": "(Same as Anthropology M166Q and History M108C.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 101C",
+      "dept": "ARMENIA",
+      "number": "101C",
+      "title": "Elementary Modern Western Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 101B. Students with knowledge of Armenian should contact instructor to determine appropriate enrollment level. Armenian grammar, conversation, and exercises. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 102A",
+      "dept": "ARMENIA",
+      "number": "102A",
+      "title": "Intermediate Modern Western Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 1C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Reading of selected texts, composition, and conversation. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 102B",
+      "dept": "ARMENIA",
+      "number": "102B",
+      "title": "Intermediate Modern Western Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 1C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Reading of selected texts, composition, and conversation. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 102C",
+      "dept": "ARMENIA",
+      "number": "102C",
+      "title": "Intermediate Modern Western Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 1C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Reading of selected texts, composition, and conversation. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 103A",
+      "dept": "ARMENIA",
+      "number": "103A",
+      "title": "Advanced Modern Western Armenian",
+      "units": 4.0,
+      "description": "Lecture, four hours. Recommended requisite: course 102C. Course 103A is recommended requisite to 103B, which is recommended requisite to 103C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Designed for students with advanced speaking fluency and reading\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 103B",
+      "dept": "ARMENIA",
+      "number": "103B",
+      "title": "Advanced Modern Western Armenian",
+      "units": 4.0,
+      "description": "Lecture, four hours. Recommended requisite: course 103A. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Designed for students with advanced speaking fluency and reading abilities in Armenian. Exploration of advanced Western Armenian in following areas of competency:\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 103C",
+      "dept": "ARMENIA",
+      "number": "103C",
+      "title": "Advanced Modern Western Armenian",
+      "units": 4.0,
+      "description": "Lecture, four hours. Recommended requisite: course 103B. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Designed for students with advanced speaking fluency and reading abilities in Armenian. Exploration of advanced Western Armenian in following areas of competency:\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 104C",
+      "dept": "ARMENIA",
+      "number": "104C",
+      "title": "Elementary Modern Eastern Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 104B. Students with knowledge of Western Armenian should contact instructor to determine appropriate enrollment level. Designed for students with little or no prior knowledge of Eastern Armenian, official idiom of Republic of Armenia. Introduction to basics of grammar and conversation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 105A",
+      "dept": "ARMENIA",
+      "number": "105A",
+      "title": "Intermediate Modern Eastern Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 4C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Continuing introduction to Armenian grammar, with greater attention to readings from short stories and simple newspaper articles and film viewing on video.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 105B",
+      "dept": "ARMENIA",
+      "number": "105B",
+      "title": "Intermediate Modern Eastern Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 4C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Continuing introduction to Armenian grammar, with greater attention to readings from short stories and simple newspaper articles and film viewing on video.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 105C",
+      "dept": "ARMENIA",
+      "number": "105C",
+      "title": "Intermediate Modern Eastern Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 4C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Continuing introduction to Armenian grammar, with greater attention to readings from short stories and simple newspaper articles and film viewing on video.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 106A",
+      "dept": "ARMENIA",
+      "number": "106A",
+      "title": "Armenian Society and Culture",
+      "units": 4.0,
+      "description": "Lecture, four hours. Recommended requisite: course 105C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Designed for students with advanced speaking fluency and reading abilities in Armenian. Discussion of contemporary Armenian social and cultural issues through readings\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 106B",
+      "dept": "ARMENIA",
+      "number": "106B",
+      "title": "Armenian Society and Culture",
+      "units": 4.0,
+      "description": "Lecture, four hours. Recommended requisite: course 105C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Designed for students with advanced speaking fluency and reading abilities in Armenian. Discussion of contemporary Armenian social and cultural issues through readings\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 106C",
+      "dept": "ARMENIA",
+      "number": "106C",
+      "title": "Armenian Society and Culture",
+      "units": 4.0,
+      "description": "Lecture, four hours. Recommended requisite: course 105C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Designed for students with advanced speaking fluency and reading abilities in Armenian. Discussion of contemporary Armenian social and cultural issues through readings\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 130",
+      "dept": "ARMENIA",
+      "number": "130",
+      "title": "Armenian Civilization under Bagratid Dynasty, 884 to 1064",
+      "units": 4.0,
+      "description": "Lecture, four hours. Interdisciplinary investigation of interface between sociopolitical and economic factors in creation of works of art (literature, art, architecture, etc.) and social function these works performed in this important period of Armenian history. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 131",
+      "dept": "ARMENIA",
+      "number": "131",
+      "title": "Armenian Civilization in Cilician Period, 1080 to 1375",
+      "units": 4.0,
+      "description": "Lecture, four hours. Interdisciplinary investigation of rise and fall of unique form of Armenian polity established outside homeland and examination of degree to which its social structure and cultural and aesthetic norms were impacted by those of West (Byzantium, Western Europe) and East (Crusader states, Seljuqs, Mamluks, Mongols). Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 119A",
+      "dept": "ART HIS",
+      "number": "119A",
+      "title": "Western Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. From Tigris and Euphrates Rivers to Spain, 7th to 16th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 119B",
+      "dept": "ART HIS",
+      "number": "119B",
+      "title": "Eastern Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. From Tigris and Euphrates Rivers through Afghanistan and parts of central Asia; Ottoman Empire. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C116A",
+      "dept": "ART HIS",
+      "number": "C116A",
+      "title": "Middle Byzantine Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 21. Theory and development of Byzantine art from iconoclastic controversy to 1204. Concurrently scheduled with course C216A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 21.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 21"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C120",
+      "dept": "ART HIS",
+      "number": "C120",
+      "title": "Selected Topics in Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in Islamic art and architecture that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C220A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 111",
+      "dept": "ECON",
+      "number": "111",
+      "title": "Theories of Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 11, 101, 103. Corequisite: course 111L. Application of theoretical and empirical tools from microeconomics to provide insights into problems confronting low-income countries today and to evaluate policies that are likely to be effective in improving well-being of poorest on globe. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 11, 101, 103. Corequisite: course 111L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 101",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 111L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 112"
+      ]
+    },
+    {
+      "course_id": "ECON 112",
+      "dept": "ECON",
+      "number": "112",
+      "title": "Policies for Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102 or 111. Suggested strategies for economic development: inflation, balanced growth, industry versus agriculture, import substitution, export-oriented expansion, foreign aid, and others. Selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102 or 111.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "ECON 102",
+          "ECON 111"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 161L",
+      "dept": "ETHNMUS",
+      "number": "161L",
+      "title": "Advanced World Music Performance Organizations: Music of Persia",
+      "units": 2.0,
+      "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 161N",
+      "dept": "ETHNMUS",
+      "number": "161N",
+      "title": "Advanced World Music Performance Organizations: Music of Near East",
+      "units": 2.0,
+      "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 121",
+      "dept": "FRNCH",
+      "number": "121",
+      "title": "Studies in Francophone Cultures and Literatures",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of Francophone cultures and literatures, including works by poets, playwrights, and novelists from Caribbean, North Africa, Quebec, and sub-Saharan Africa, immigrant narratives, and colonialism and postcolonial studies. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 160",
+      "dept": "FRNCH",
+      "number": "160",
+      "title": "Francophone Cultures in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of historical, anthropological, legal, literary, or filmic texts to provide students with broad view of some main issues in field of colonial and postcolonial Francophone studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 102A",
+      "dept": "HEBREW",
+      "number": "102A",
+      "title": "Intermediate Hebrew",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 1C or Hebrew placement test. Course 102A is enforced requisite to 102B, which is enforced requisite to 102C. Not open to native speakers. Amplification of grammar; reading of texts from modern literature. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1C or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 1C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 102B",
+        "HEBREW 103A",
+        "HEBREW 103B",
+        "HEBREW 103C",
+        "HEBREW 120"
+      ]
+    },
+    {
+      "course_id": "HEBREW 102B",
+      "dept": "HEBREW",
+      "number": "102B",
+      "title": "Intermediate Hebrew",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 102A or Hebrew placement test. Not open to native speakers. Amplification of grammar; reading of texts from modern literature. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 102A or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102A",
+            "Hebrew placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 102C",
+        "HEBREW 103A",
+        "HEBREW 103B",
+        "HEBREW 103C",
+        "HEBREW 120"
+      ]
+    },
+    {
+      "course_id": "HEBREW 102C",
+      "dept": "HEBREW",
+      "number": "102C",
+      "title": "Intermediate Hebrew",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 102B or Hebrew placement test. Not open to native speakers. Amplification of grammar; reading of texts from modern literature. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 102B or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 103A",
+        "HEBREW 103B",
+        "HEBREW 103C",
+        "HEBREW 120"
+      ]
+    },
+    {
+      "course_id": "HEBREW 103A",
+      "dept": "HEBREW",
+      "number": "103A",
+      "title": "Advanced Hebrew",
+      "units": 4.0,
+      "description": "Lecture, five hours. Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test. Students with prior knowledge of Hebrew who did not take courses 102A, 102B, and 102C should contact instructor to determine appropriate enrollment level. Not open to native speakers. Designed for students with intermediate speaking fluency and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102A",
+            "HEBREW 102B",
+            "HEBREW 102C"
+          ],
+          [
+            "HEBREW placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 130",
+        "HEBREW C140"
+      ]
+    },
+    {
+      "course_id": "HEBREW 103B",
+      "dept": "HEBREW",
+      "number": "103B",
+      "title": "Advanced Hebrew",
+      "units": 4.0,
+      "description": "Lecture, five hours. Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test. Students with prior knowledge of Hebrew who did not take courses 102A, 102B, and 102C should contact instructor to determine appropriate enrollment level. Not open to native speakers. Designed for students with intermediate speaking fluency and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102A",
+            "HEBREW 102B",
+            "HEBREW 102C"
+          ],
+          [
+            "Hebrew placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 130",
+        "HEBREW C140"
+      ]
+    },
+    {
+      "course_id": "HEBREW 103C",
+      "dept": "HEBREW",
+      "number": "103C",
+      "title": "Advanced Hebrew",
+      "units": 4.0,
+      "description": "Lecture, five hours. Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test. Students with prior knowledge of Hebrew who did not take courses 102A, 102B, and 102C should contact instructor to determine appropriate enrollment level. Not open to native speakers. Designed for students with intermediate speaking fluency and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102A",
+            "HEBREW 102B",
+            "HEBREW 102C"
+          ],
+          [
+            "Hebrew placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 130",
+        "HEBREW C140"
+      ]
+    },
+    {
+      "course_id": "HEBREW 110A",
+      "dept": "HEBREW",
+      "number": "110A",
+      "title": "Introduction to Biblical Hebrew: Phonology, Morphology, and Structure of Biblical Hebrew",
+      "units": 4.0,
+      "description": "Lecture, three hours. Phonology, morphology, and structure of biblical Hebrew. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "HEBREW 110B"
+      ]
+    },
+    {
+      "course_id": "HEBREW 110B",
+      "dept": "HEBREW",
+      "number": "110B",
+      "title": "Introduction to Biblical Hebrew: Readings of Biblical Prose Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 110A. Continuation of course 110A. Readings of biblical prose texts. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 110A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 120",
+      "dept": "HEBREW",
+      "number": "120",
+      "title": "Biblical Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Translation and analysis of biblical texts, with attention to aspects of grammar, style, and interpretation.",
+      "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102A",
+          "HEBREW 102B",
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 125",
+      "dept": "HEBREW",
+      "number": "125",
+      "title": "Hebrew Bible with Medieval Commentaries",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 103C. Hebrew Bible with the commentaries of Rashi, Ibn Ezra, and/or Nahmanides. May be repeated for maximum of 16 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 103C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 130",
+      "dept": "HEBREW",
+      "number": "130",
+      "title": "Rabbinic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in Mishnah, Talmud, and/or Midrash. May be repeated for credit.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 103A",
+          "HEBREW 103B",
+          "HEBREW 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 135",
+      "dept": "HEBREW",
+      "number": "135",
+      "title": "Medieval Hebrew Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in medieval Hebrew prose and poetry. May be repeated for maximum of 16 units. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 170",
+      "dept": "HEBREW",
+      "number": "170",
+      "title": "Dead Sea Scrolls",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 110C. Readings in Hebrew scrolls from Dead Sea, with focus on grammar, paleography, and biblical interpretation in Dead Sea Scrolls. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 110C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 110C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 1C",
+      "dept": "HEBREW",
+      "number": "1C",
+      "title": "Elementary Hebrew",
+      "units": 5.0,
+      "description": "Lecture, four hours; laboratory, one hour. Enforced requisite: course 1B or Hebrew placement test. Not open to native speakers. Introduction to modern Hebrew, including listening, speaking, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1B or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 1B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 102A"
+      ]
+    },
+    {
+      "course_id": "HEBREW C140",
+      "dept": "HEBREW",
+      "number": "C140",
+      "title": "Modern Hebrew Poetry and Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, and 103C, or equivalent knowledge of Hebrew. Study of major Hebrew writers of past 100 years. May be repeated for credit. Concurrently scheduled with course C240. Letter grading.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, and 103C, or equivalent knowledge of Hebrew.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 103A",
+            "HEBREW 103B",
+            "HEBREW 103C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105A",
+      "dept": "HIST",
+      "number": "105A",
+      "title": "Survey of Middle East, 500 to Present: 500 to 1300",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105B",
+      "dept": "HIST",
+      "number": "105B",
+      "title": "Survey of Middle East, 500 to Present: 1300 to 1700",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105C",
+      "dept": "HIST",
+      "number": "105C",
+      "title": "Survey of Middle East, 500 to Present: 1700 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107A",
+      "dept": "HIST",
+      "number": "107A",
+      "title": "Armenian History: Armenia in Ancient and Medieval Times, 2nd Millennium BC to AD 11th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107B",
+      "dept": "HIST",
+      "number": "107B",
+      "title": "Armenian History: Armenia from Cilician Kingdom through Periods of Foreign Domination and National Stirrings, 11th to 19th Centuries",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107C",
+      "dept": "HIST",
+      "number": "107C",
+      "title": "Armenian History: Armenia in Modern and Contemporary Times, 19th and 20th Centuries",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Armenian question and genocide, national republic, Soviet Armenia, and dispersion. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107D",
+      "dept": "HIST",
+      "number": "107D",
+      "title": "Introduction to Armenian Oral History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Uses and techniques of Armenian oral history; preinterview, interview, and postinterview procedures; methods of compilation and evaluation. Field assignments, interviews, and summaries and/or paper based on interviews. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 108A",
+      "dept": "HIST",
+      "number": "108A",
+      "title": "History of North Africa from Islamic Conquest",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of political, social, economic, and religious history of Islamic West (Maghrib) from Muslim conquest in 7th and 8th centuries CE until 1578. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 108B",
+      "dept": "HIST",
+      "number": "108B",
+      "title": "History of Islamic Iberia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of political, social, economic, religious, artistic, and literary history of Islamic culture in Western Europe. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 109B",
+      "dept": "HIST",
+      "number": "109B",
+      "title": "History of Israeli-Palestinian Conflict, 1881 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of origins of Arab-Israeli dispute from mid-19th century through founding of state of Israel and expulsion/flight of three quarters of million Palestinians from their homes. Exploration of social history of Palestine up to Zionist colonization, origins of Zionism\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111A",
+      "dept": "HIST",
+      "number": "111A",
+      "title": "Topics in Middle Eastern History: Premodern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of major issues in history of Middle East. May be repeated for maximum of 16 units with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111B",
+      "dept": "HIST",
+      "number": "111B",
+      "title": "Topics in Middle Eastern History: Early Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of Istanbul in Ottoman period (1453 to 1923); relationship between history and literary imagination and view of history as dialogue between past and present; scholarly debate on urban history of early-modern Middle East; introduction to corpus of theories\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111C",
+      "dept": "HIST",
+      "number": "111C",
+      "title": "Topics in Middle Eastern History: Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Middle East underwent widespread social, economic, and cultural changes during 19th century that propelled society, at least portions of society and aspects of its social/cultural life, in entirely new direction. Examination of those changes to understand exactly what modernity\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 116A",
+      "dept": "HIST",
+      "number": "116A",
+      "title": "Byzantine History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political, socioeconomic, religious, and cultural continuity in millennial history of Byzantium. Reforms of Diocletian. Byzantium\u2019s relations with Latin Europe, Slavs, Sassanids, Arabs, and Turks. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 116B",
+      "dept": "HIST",
+      "number": "116B",
+      "title": "Byzantine History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political, socioeconomic, religious, and cultural continuity in millennial history of Byzantium. Reforms of Diocletian. Byzantium\u2019s relations with Latin Europe, Slavs, Sassanids, Arabs, and Turks. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 164B",
+      "dept": "HIST",
+      "number": "164B",
+      "title": "Topics in African History: Africa and Slave Trade",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Preparation: one prior course in African history at UCLA. Designed for juniors/seniors. Social, economic, political, and cultural impact of slave trade on African society, with emphasis on Atlantic trade without neglecting those of ancient Mediterranean, Islamic, and Indian Ocean worlds. Abolition and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 167A",
+      "dept": "HIST",
+      "number": "167A",
+      "title": "History of Northeast Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of history of Ethiopia, Sudan, and Somalia in regional context of northeast Africa from earliest times to present, with emphasis on economy and society, evolution of state, and significance of Christianity and Islam. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9D",
+      "dept": "HIST",
+      "number": "9D",
+      "title": "Introduction to Asian Civilizations: History of Middle East",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to history of Muslim world from advent of Islam to present day. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M106",
+      "dept": "HIST",
+      "number": "M106",
+      "title": "Premodern Islam",
+      "units": 4.0,
+      "description": "(Same as Religion M106A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of early development of Islam with special attention to doctrine of nature of God, human responsibility, guidance, revelation and religious authority, duties of believers, ritual, law, sectarian movements, mysticism, and popular religion. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M108C",
+      "dept": "HIST",
+      "number": "M108C",
+      "title": "Culture Area of Maghrib (North Africa)",
+      "units": 4.0,
+      "description": "(Same as Anthropology M166Q and Arabic M171.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M110B",
+      "dept": "HIST",
+      "number": "M110B",
+      "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110B and Iranian M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M184D",
+      "dept": "HIST",
+      "number": "M184D",
+      "title": "History of Zionism and State of Israel",
+      "units": 4.0,
+      "description": "(Same as Jewish Studies M184D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of history of State of Israel from 1948 to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M185F",
+      "dept": "HIST",
+      "number": "M185F",
+      "title": "History of Early Christians",
+      "units": 4.0,
+      "description": "(Same as Religion M186A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Christian movement from its origins to circa 160 CE, stressing its continuity/discontinuity with Judaism, various responses to Jesus of Nazareth, writings produced during this period, movement\u2019s encounters with its religious, social, and political world, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M185G",
+      "dept": "HIST",
+      "number": "M185G",
+      "title": "Religious Environment of Early Christians",
+      "units": 4.0,
+      "description": "(Same as Religion M186B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Rich variety in religious practice and thought in Mediterranean world of 1st century CE as in context of developing Christian movement. Topics include Pharisees, Qumran, Philo, Stoics, Epicureans, traditional Greek and Roman religions, mysteries, astrology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M185I",
+      "dept": "HIST",
+      "number": "M185I",
+      "title": "Jesus of Nazareth in Historical Research",
+      "units": 4.0,
+      "description": "(Same as Religion M186C.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course M185F. Designed for juniors/seniors. Stimulated by significant post-Enlightenment historical evaluations, students are led into firsthand knowledge (in translation) of various multilayered sources for reconstruction of life, teaching, and initial impact of Jesus of Nazareth in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 103A",
+      "dept": "IRANIAN",
+      "number": "103A",
+      "title": "Advanced Persian: Introduction to Classical Persian Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Students who do exceptionally well in course 20C may be permitted to enroll with consent of instructor. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 103B",
+      "dept": "IRANIAN",
+      "number": "103B",
+      "title": "Advanced Persian: Introduction to Classical Persian Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Students who do exceptionally well in course 20C may be permitted to enroll with consent of instructor. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 103C",
+      "dept": "IRANIAN",
+      "number": "103C",
+      "title": "Advanced Persian: Introduction to Contemporary Persian Poetry and Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Students who do exceptionally well in course 20C may be permitted to enroll with consent of instructor. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 120",
+      "dept": "IRANIAN",
+      "number": "120",
+      "title": "Comparative Study of Six Major Persian Poets",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Preparation: knowledge of Persian. Lectures in Persian, readings in English and Persian. Comparative study of six major Persian poets from 10th to 14th century who shaped sense of Persian identity and delineated chief distinguishing characteristics of Persian thought and culture. May be repeated for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 130",
+      "dept": "IRANIAN",
+      "number": "130",
+      "title": "Intellectual History of Jews of Persia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Readings in English. Introduction to intellectual history of Jews in Persia by highlighting select areas of Judeo-Persian studies and focusing on various authors and their work. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 131",
+      "dept": "IRANIAN",
+      "number": "131",
+      "title": "Introduction to Judeo-Persian: Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: knowledge of Persian equivalent to course 102C. Introduction to history of Judeo-Persian literature and culture to prepare students to read Judeo-Persian texts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "IRANIAN 132"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 132",
+      "dept": "IRANIAN",
+      "number": "132",
+      "title": "Intermediate Judeo-Persian Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisites: courses 102C, 131. Literary study of Judeo-Persian literature, as segment of Iranian classical literature. Judeo-Persian literary genres, in forms of prose and verse, compared with their parallel genres in context of Iranian literature. Textual study of Judeo-Persian manuscripts, both print and cursive, and their variations\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102C, 131.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C",
+          "IRANIAN 131"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 140",
+      "dept": "IRANIAN",
+      "number": "140",
+      "title": "Persian Belles Lettres (Adabiyyat)",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Study of major Persian poets and prose writers: prose\u2014Sohravardi, Hamad\u00e2ni, Nasafi, Ir\u00e2qi, and others; poetry\u2014H\u00e2fez, Sa\u2019di, R\u00fbmi, Bah\u00e2r, Dehkhoda, and others. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 141",
+      "dept": "IRANIAN",
+      "number": "141",
+      "title": "Persian Analytical Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Study of selected analytical and expository prose texts, with emphasis on philosophy, sciences, literary criticism, and history. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 150A",
+      "dept": "IRANIAN",
+      "number": "150A",
+      "title": "Survey of Persian Literature in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Persian not required. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 150B",
+      "dept": "IRANIAN",
+      "number": "150B",
+      "title": "Survey of Persian Literature in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Persian not required. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 161A",
+      "dept": "IRANIAN",
+      "number": "161A",
+      "title": "Elementary Middle Iranian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: knowledge of Persian desirable. Course 161A is requisite to 161B, which is requisite to 161C. Studies in grammars and texts of Middle Iranian languages (e.g., Middle Persian, Parthian, Sogdian, Khotanese, Bactrian). May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "IRANIAN 161B"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 161B",
+      "dept": "IRANIAN",
+      "number": "161B",
+      "title": "Elementary Middle Iranian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 161A. Studies in grammars and texts of Middle Iranian languages (e.g., Middle Persian, Parthian, Sogdian, Khotanese, Bactrian). May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 161A.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 161A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 161C",
+      "dept": "IRANIAN",
+      "number": "161C",
+      "title": "Elementary Middle Iranian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 161B. Studies in grammars and texts of Middle Iranian languages (e.g., Middle Persian, Parthian, Sogdian, Khotanese, Bactrian). May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 161B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 164",
+      "dept": "IRANIAN",
+      "number": "164",
+      "title": "Ancient Cities of Iran: Archaeological Survey of Historic Cities and Sites of Iran from 4000 BC to 1900 AD",
+      "units": 4.0,
+      "description": "Lecture, four hours. Introduction to archaeological and historical monuments and sites of Iran from earliest periods to early 20th century. Examination of emergence of early Iranian villages, formation of cities and their development and expansion throughout late Sasanian and early Islamic periods to preindustrial era in early years of past\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 170",
+      "dept": "IRANIAN",
+      "number": "170",
+      "title": "Religion in Ancient Iran",
+      "units": 4.0,
+      "description": "History of religion in Iran from the beginning to the Mohammedan conquest; Indo-Iranian background, Zoroastrianism, Manichaeism, Mazdakism.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 1C",
+      "dept": "IRANIAN",
+      "number": "1C",
+      "title": "Elementary Persian",
+      "units": 5.0,
+      "description": "Lecture, six hours. Enforced requisite: course 1B. Not open to students with prior knowledge of Persian. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 20C",
+      "dept": "IRANIAN",
+      "number": "20C",
+      "title": "Accelerated Elementary Persian",
+      "units": 6.0,
+      "description": "Lecture, four hours; discussion two hours; laboratory, 30 minutes per day. Preparation: some knowledge of spoken Persian. Enforced requisite: course 20B. Intensive and thorough study of fundamental structure of Persian grammar; reading from a wide range of classical and modern poetry and prose compositions. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20B.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 20B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 55",
+      "dept": "IRANIAN",
+      "number": "55",
+      "title": "Gender and Sexuality in Arts and Literatures of Iran and Middle East",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Multifaceted introduction to Persian poetry, recognized as jewel of Persian culture, and to pictorial, architectural, performative, cinematographic, and photographic dimensions of artistic milieu spanning between Balkans, India, and Central Asia from 10th century CE to present. With consideration of centrality of discourses on identity,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN CM163",
+      "dept": "IRANIAN",
+      "number": "CM163",
+      "title": "Archaeology of Iran",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East CM163.) Lecture, three hours. Designed to introduce students to Iranian archaeology from prehistoric through Achaemenid times. Concurrently scheduled with course CM259. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110A",
+      "dept": "IRANIAN",
+      "number": "M110A",
+      "title": "Iranian Civilization: History of Achaemenid Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110A and History M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire\u2019s religions, and Greco-Persian interactions. Further accents on Cyrus\u2019 empire and Darius\u2019 world\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110B",
+      "dept": "IRANIAN",
+      "number": "M110B",
+      "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110B and History M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110C",
+      "dept": "IRANIAN",
+      "number": "M110C",
+      "title": "Iranian Civilization: History of Early Sasanian Empire\u00e2\u20ac\u201dFrom Ardashir I to Rise of Peroz (circa 224-459 CE)",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110C and History M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire\u2019s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M178",
+      "dept": "IRANIAN",
+      "number": "M178",
+      "title": "Introduction to History and Culture of Iranian Jews",
+      "units": 4.0,
+      "description": "(Same as History M178 and Jewish Studies M178.) Lecture, three hours. Introduction to political, intellectual, cultural, and socioeconomic status of Iranian Jews. Exploration of history of Iranian Jews from ancient period throughout history, with focus on post-Middle Ages to present time. Topics, studied from perspective of Iranian cultural and intellectual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M60",
+      "dept": "IRANIAN",
+      "number": "M60",
+      "title": "Achaemenid Civilization and Empire of Alexander",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M60 and History M60.) Lecture, three hours; discussion, one hour. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was ended by Alexander the Great, whose campaigns were as transformative as they were\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M60W",
+      "dept": "IRANIAN",
+      "number": "M60W",
+      "title": "Achaemenid Civilization and Empire of Alexander",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M60W and History M60W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course M60. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ISLM ST 130",
+      "dept": "ISLM ST",
+      "number": "130",
+      "title": "Shi'a in Islamic History",
+      "units": 4.0,
+      "description": "Seminar, three hours; discussion, one hour. Rise and development of Shi\u2019a Islam, its doctrines, and practices; major branches: Twelvers, Ismailis, Zaydis; their contribution to Islamic thought and civilization; modern trends of reinterpretation and reform. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ISLM ST C151",
+      "dept": "ISLM ST",
+      "number": "C151",
+      "title": "Islamic Thought",
+      "units": 4.0,
+      "description": "(Formerly numbered 151.) Lecture, three hours. Recommended requisite: introductory course on Islam or instructor consent. Introduction to major fields of inquiry and debate in Islamic studies (e.g., exegesis, Hadith, law, theology, Sufism). Focus on selected topics of debate such as nature of God, jihad, hijab, or pilgrimage. Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ISLM ST CM115",
+      "dept": "ISLM ST",
+      "number": "CM115",
+      "title": "Islam and Other Religions",
+      "units": 5.0,
+      "description": "(Formerly numbered M115.) (Same as Religion M115.) Lecture, three hours; discussion, one hour. Students gain familiarity with historical cases and modes of interaction between Muslims and non-Muslims in plural societies. Consideration of axis questions such as how does Qur\u2019an reflect religious plurality; how does it situate Islam vis-\u00e0-vis its alternatives;\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ISLM ST M20",
+      "dept": "ISLM ST",
+      "number": "M20",
+      "title": "Introduction to Islam",
+      "units": 5.0,
+      "description": "(Same as Religion M20.) Lecture, three hours; discussion, one hour. Genesis of Islam, its doctrines, and practices, with readings from Qur\u2019an and Hadith; schools of law and theology; piety and Sufism; reform and modernism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 143",
+      "dept": "JEWISH",
+      "number": "143",
+      "title": "Introduction to Jewish Folklore",
+      "units": 4.0,
+      "description": "Lecture, three hours. Nature of Jewish folklore; narrative, folk song, folk art, folk religion, and methods and perspectives used in their analysis. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 150B",
+      "dept": "JEWISH",
+      "number": "150B",
+      "title": "Hebrew Literature in English: Rabbinic Judaism",
+      "units": 4.0,
+      "description": "Lecture, three hours. Topics include emergence of rabbinic Judaism; its original literary forms; rabbinic worldview; forms of medieval rabbinic literature; modern Jewish religious movements and their attitude to rabbinic Judaism. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 151B",
+      "dept": "JEWISH",
+      "number": "151B",
+      "title": "Modern Jewish Literature in English: Israeli Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of translations from Hebrew literature written in Israel and reflecting cardinal facets of Israeli life: social issues, security problems, identity of the state, role of individual. Analysis of formal aspects of each work. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 170",
+      "dept": "JEWISH",
+      "number": "170",
+      "title": "Dead Sea Scrolls and Early Judaism",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to Dead Sea Scrolls in English translation. Survey of literature, community of Khirbet Qumran, and their place in early Judaism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 175",
+      "dept": "JEWISH",
+      "number": "175",
+      "title": "Modern Israeli Literature Made into Films",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Reading, analysis, and discussion of modern Israeli literature that was made into films, including literary works of prominent Israeli authors (S. Yizhar, A.B. Yehoshua, Amos Oz, and Yitzhak Ben Ner) that were translated to English and had filmic adaptations. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M10",
+      "dept": "JEWISH",
+      "number": "M10",
+      "title": "Introduction to Judaism",
+      "units": 5.0,
+      "description": "(Same as Religion M10.) Lecture, three hours; discussion, one hour. Judaism\u2019s basic beliefs, institutions, and practices. Topics include development of biblical and rabbinic Judaism; concepts of god, sin, repentance, prayer, and the messiah; history of Talmud and synagogue; evolution of folk beliefs and year-cycle and life-cycle practices. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M113",
+      "dept": "JEWISH",
+      "number": "M113",
+      "title": "Contemporary Israeli Short Stories/Novellas and Films in English",
+      "units": 5.0,
+      "description": "(Same as Hebrew M113.) Lecture, three hours; laboratory, two hours. Exploration of Israeli short stories/novellas and films (translated into English) written since mid-1980s that use, each to varying degree, postmodernist techniques to undermine predominance of modernist-Zionist narrative. Recycling and reexamination of Israeli condition and Zionist condition and skepticism about legitimacy\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M150A",
+      "dept": "JEWISH",
+      "number": "M150A",
+      "title": "Hebrew Literature in English: Literary Traditions of Ancient Israel\u00e2\u20ac\u201dBible and Apocrypha",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M101.) Lecture, three hours. Study of literary culture of ancient Israel through examination of principal compositional strategies of Hebrew Bible and Apocrypha (read in translation). May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M151A",
+      "dept": "JEWISH",
+      "number": "M151A",
+      "title": "Modern Jewish Literature in English: Diaspora Literature",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M166.) Lecture, three hours. Study of literary responses of Jews to modernity, its challenges, and threats. Readings in texts originally written in English or translated from Hebrew, Yiddish, German, Russian, French, and Italian. Analysis of formal aspects of each work. May be taken independently for credit.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M155",
+      "dept": "JEWISH",
+      "number": "M155",
+      "title": "Angels, Demons, and End of World: Magic, Mysticism, and Apocalypse in Jewish Traditions",
+      "units": 4.0,
+      "description": "(Same as Religion M155.) Lecture, three hours. Focus on popular Jewish traditions of magic, mysticism, apocalypse, and various contours of Judaism\u2019s textual and material traditions in antiquity. Examination of texts and objects from Hebrew Bible to modern discussions of Kabbalah and end of world, concentrating on Jewish antiquity. Discussion of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M162",
+      "dept": "JEWISH",
+      "number": "M162",
+      "title": "Israel Seen through Its Literature",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M162.) Lecture, three hours. Attempt to impart profound understanding of Israel as seen through its literature. Examination of variety of literary texts\u2014stories, novels, and poems\u2014and reading of them in context of their historical backgrounds. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M178",
+      "dept": "JEWISH",
+      "number": "M178",
+      "title": "Introduction to History and Culture of Iranian Jews",
+      "units": 4.0,
+      "description": "(Same as History M178 and Iranian M178.) Lecture, three hours. Introduction to political, intellectual, cultural, and socioeconomic status of Iranian Jews. Exploration of history of Iranian Jews from ancient period throughout history, with focus on post-Middle Ages to present time. Topics, studied from perspective of Iranian cultural and intellectual history,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182A",
+      "dept": "JEWISH",
+      "number": "M182A",
+      "title": "Ancient Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182A and Religion M182A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social, political, and religious developments. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182B",
+      "dept": "JEWISH",
+      "number": "M182B",
+      "title": "Medieval Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182B and Religion M182B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of unfolding of Jewish history from rise of Christianity to expulsion of Jews from Spain in 1492. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182C",
+      "dept": "JEWISH",
+      "number": "M182C",
+      "title": "Modern Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of early modern Jewish history beginning with enormously repercussive expulsion of Jews from Spain in 1492, followed by transformations in Jewish society and identity over five centuries in Europe and Middle East, and concluding\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M184A",
+      "dept": "JEWISH",
+      "number": "M184A",
+      "title": "Jewish Civilization: Encounter with Great World Cultures",
+      "units": 4.0,
+      "description": "(Same as History M184A and Religion M184A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of dynamic and millennia-old interaction of Jews with great world cultures. Creative adaptations that have lent Jewish culture its distinct and various forms. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M184B",
+      "dept": "JEWISH",
+      "number": "M184B",
+      "title": "History of Anti-Semitism",
+      "units": 4.0,
+      "description": "(Same as History M184B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of origins and historical development of anti-Semitism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M184C",
+      "dept": "JEWISH",
+      "number": "M184C",
+      "title": "American Jewish Experience",
+      "units": 4.0,
+      "description": "(Same as History M184C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Experience of Jews in America, both historical and contemporary. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M184D",
+      "dept": "JEWISH",
+      "number": "M184D",
+      "title": "History of Zionism and State of Israel",
+      "units": 4.0,
+      "description": "(Same as History M184D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of history of State of Israel from 1948 to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M187",
+      "dept": "JEWISH",
+      "number": "M187",
+      "title": "Holocaust in Literature",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M165.) Lecture, three hours. Investigation of how Holocaust informs variety of literary and cinema works and raises wide range of aesthetic and moral questions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50A",
+      "dept": "M E STD",
+      "number": "M50A",
+      "title": "First Civilizations",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M50A.) Lecture, three hours; discussion, one hour. Survey of great civilizations of ancient Near East\u2014Egypt, Israel, and Mesopotamia\u2014with attention to emergence of writing, monotheism, and urban societies. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50B",
+      "dept": "M E STD",
+      "number": "M50B",
+      "title": "Origins of Judaism, Christianity, and Islam",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M50B and Religion M50.) Lecture, three hours; discussion, one hour. Examination of three major monotheisms of Western cultures\u2014Judaism, Christianity, and Islam\u2014historically and comparatively. Development, teachings, and ritual practices of each tradition up to and including medieval period. Composition and development of various sacred texts, highlighting\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50CW",
+      "dept": "M E STD",
+      "number": "M50CW",
+      "title": "Making and Studying Modern Middle East",
+      "units": 5.0,
+      "description": "(Same as Anthropology M67W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Survey of modern Middle Eastern cultures through readings and films from Middle East and North Africa. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NR EAST 65",
+      "dept": "NR EAST",
+      "number": "65",
+      "title": "Global Time Travel",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Time travel is our most effective fictional device for asking what past was like, what future will bring, and how our present might look when viewed from other times. Though often associated with Euro-American genre of hard science fiction, time travel is global genre.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NR EAST M20",
+      "dept": "NR EAST",
+      "number": "M20",
+      "title": "Visible Language: Study of Writing",
+      "units": 5.0,
+      "description": "(Same as Asian M20, Indo-European Studies M20, Slavic M20, and Southeast Asian M20.) Lecture, three hours; discussion, one hour. Consideration of concrete means of language representation in writing systems. Earliest representations of language known are those of Near East dating to end of 4th millennium BC. While literate civilizations of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 104",
+      "dept": "PHILOS",
+      "number": "104",
+      "title": "Topics in Islamic Philosophy",
+      "units": 4.0,
+      "description": "Lecture, three to four hours; discussion, one hour (when scheduled). Preparation: one philosophy course. Development of philosophy within orbit of Islam from beginning of interaction of Islam with ancient philosophy to period of hegemony of Ottoman Empire. Figures examined may vary but usually include many of al-Kindi, Ibn Sina (Avicenna),\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 132A",
+      "dept": "POL SCI",
+      "number": "132A",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Contemporary regional issues and conflicts, with particular attention to inter-Arab politics, Arab-Israeli problem, and Persian Gulf area.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 157",
+      "dept": "POL SCI",
+      "number": "157",
+      "title": "Government and Politics in the Middle East",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparative study of government in the Arab States, Turkey, Israel, and Iran. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 165",
+      "dept": "POL SCI",
+      "number": "165",
+      "title": "Islam and Politics",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Religious and spiritual foundations of Islamic legal and political institutions; legitimacy of historical and contemporary Islamic regimes, movements, and ideologies; political strategies of Islamic activism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI M132B",
+      "dept": "POL SCI",
+      "number": "M132B",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "(Same as Honors Collegium M157.) Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Role of great powers in Middle East, with emphasis on American, Soviet, and West European policies since 1945. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 120",
+      "dept": "RELIGN",
+      "number": "120",
+      "title": "Judaism, Christianity, and Islam: Comparative Approach",
+      "units": 4.0,
+      "description": "Seminar, three hours. Introduction to analysis of complex relationship of Judaism, Christianity, and Islam as living traditions whose historical origins, current interactions, and future development continue to shape spiritual, cultural, political, and social aspects of human civilization in 21st century. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC 110",
+      "dept": "SEMITIC",
+      "number": "110",
+      "title": "Neo-Aramaic",
+      "units": 4.0,
+      "description": "Lecture, three hours. Grammar and reading of selected texts (folktales, homilies, songs) in modern Aramaic dialects of the Jews and Christians of Kurdistan.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC 115",
+      "dept": "SEMITIC",
+      "number": "115",
+      "title": "Syriac",
+      "units": 4.0,
+      "description": "Lecture, two hours. Morphology and syntax of Syriac language, introductory reading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC 130",
+      "dept": "SEMITIC",
+      "number": "130",
+      "title": "Biblical Aramaic",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: Hebrew 102A, 102B, 102C. Grammar of biblical Aramaic and reading of texts.",
+      "prereqs_raw": "Requisites: Hebrew 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC 140B",
+      "dept": "SEMITIC",
+      "number": "140B",
+      "title": "Elementary Akkadian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Elementary grammar and reading of texts in standard Babylonian.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA 140C"
+      ]
+    },
+    {
+      "course_id": "SEMITIC 141",
+      "dept": "SEMITIC",
+      "number": "141",
+      "title": "Advanced Akkadian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Advanced Akkadian syntax and grammar; reading of Akkadian historical and literary texts. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC M140A",
+      "dept": "SEMITIC",
+      "number": "M140A",
+      "title": "Elementary Akkadian",
+      "units": 4.0,
+      "description": "(Formerly numbered 140A.) (Same as Ancient Near East M141.) Lecture, three hours. Elementary grammar and reading of texts in standard Babylonian. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 101C",
+      "dept": "TURKIC",
+      "number": "101C",
+      "title": "Elementary Turkish",
+      "units": 5.0,
+      "description": "Lecture, five hours. Requisite: course 101B. Grammar, reading, conversation, and elementary composition drills. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 101B.",
+      "prereqs_parsed": {
+        "required": [
+          "TURKIC 101B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "TURKIC 102A",
+        "TURKIC 102B",
+        "TURKIC 102C"
+      ]
+    },
+    {
+      "course_id": "TURKIC 102A",
+      "dept": "TURKIC",
+      "number": "102A",
+      "title": "Intermediate Turkish",
+      "units": 4.0,
+      "description": "Lecture, five hours. Requisites: courses 101A, 101B, 101C. Designed to improve reading, listening, speaking, and writing skills, as well as vocabulary and grammar. Intermediate-level reading of texts and listening to recordings about various themes. Students improve verbal communication skills in an interactive classroom environment through speaking activities such as pair\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 101A, 101B, 101C.",
+      "prereqs_parsed": {
+        "required": [
+          "TURKIC 101A",
+          "TURKIC 101B",
+          "TURKIC 101C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 102B",
+      "dept": "TURKIC",
+      "number": "102B",
+      "title": "Intermediate Turkish",
+      "units": 4.0,
+      "description": "Lecture, five hours. Requisites: courses 101A, 101B, 101C. Focus on expanding vocabulary and grammatical structures while reinforcing communication strategies in a variety of real-life contexts. Analysis of intermediate-level texts, dialogues, and recordings related to different themes. Students participate in discussion, role-play, and structured writing activities to enhance fluency and accuracy\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 101A, 101B, 101C.",
+      "prereqs_parsed": {
+        "required": [
+          "TURKIC 101A",
+          "TURKIC 101B",
+          "TURKIC 101C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 102C",
+      "dept": "TURKIC",
+      "number": "102C",
+      "title": "Intermediate Turkish",
+      "units": 4.0,
+      "description": "Lecture, five hours. Requisites: courses 101A, 101B, 101C. Builds upon previous coursework while introducing more complex language structures and deeper cultural discussions. Students are exposed to a variety of authentic texts, videos, and dialogues, helping them engage in more advanced discussions and written tasks. Grammar topics include reported speech, conditional\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 101A, 101B, 101C.",
+      "prereqs_parsed": {
+        "required": [
+          "TURKIC 101A",
+          "TURKIC 101B",
+          "TURKIC 101C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 112A",
+      "dept": "TURKIC",
+      "number": "112A",
+      "title": "Advanced Uzbek",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Descriptive Uzbek grammar, reading, and analysis of Uzbek literary and folkloric texts. High-style composition and conversation.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 112B",
+      "dept": "TURKIC",
+      "number": "112B",
+      "title": "Advanced Uzbek",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Descriptive Uzbek grammar, reading, and analysis of Uzbek literary and folkloric texts. High-style composition and conversation.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 112C",
+      "dept": "TURKIC",
+      "number": "112C",
+      "title": "Advanced Uzbek",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Descriptive Uzbek grammar, reading, and analysis of Uzbek literary and folkloric texts. High-style composition and conversation.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 116A",
+      "dept": "TURKIC",
+      "number": "116A",
+      "title": "Advanced Azeri",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: placement test. Proficiency-based course in descriptive Azeri grammar. Reading and analysis of Azeri literary and folkloric texts in new writing system. High-style composition and conversation. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 116B",
+      "dept": "TURKIC",
+      "number": "116B",
+      "title": "Advanced Azeri",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: placement test. Proficiency-based course in descriptive Azeri grammar. Reading and analysis of Azeri literary and folkloric texts in new writing system. High-style composition and conversation. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 116C",
+      "dept": "TURKIC",
+      "number": "116C",
+      "title": "Advanced Azeri",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: placement test. Proficiency-based course in descriptive Azeri grammar. Reading and analysis of Azeri literary and folkloric texts in new writing system. High-style composition and conversation. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

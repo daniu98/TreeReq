@@ -1,0 +1,432 @@
+{
+  "major_id": "classical-civilization-ba",
+  "major_name": "Classical Civilization BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/ClassicalCivilizationBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "CLASSIC 10",
+        "CLASSIC 20"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "GREEK 3",
+            "GREEK 16",
+            "LATIN 3",
+            "LATIN 16"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "CLASSIC 30",
+            "CLASSIC 40W",
+            "CLASSIC 41W",
+            "CLASSIC 42",
+            "CLASSIC 51A",
+            "CLASSIC 51B",
+            "CLASSIC 60",
+            "CLASSIC 88GE"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 9,
+          "courses": [
+            "GREEK 100",
+            "GREEK 101",
+            "GREEK 102",
+            "GREEK 103",
+            "GREEK 104",
+            "GREEK 105",
+            "GREEK 106",
+            "GREEK 107",
+            "GREEK 108",
+            "GREEK 109",
+            "GREEK 110",
+            "GREEK 111",
+            "GREEK 112",
+            "GREEK 113",
+            "GREEK 114",
+            "GREEK 115",
+            "GREEK 116",
+            "GREEK 117",
+            "GREEK 118",
+            "GREEK 119",
+            "GREEK 120",
+            "GREEK 121",
+            "GREEK 122",
+            "GREEK 123",
+            "GREEK 124",
+            "GREEK 125",
+            "GREEK 126",
+            "GREEK 127",
+            "GREEK 128",
+            "GREEK 129",
+            "GREEK 130",
+            "GREEK 131",
+            "GREEK 132",
+            "GREEK 133",
+            "LATIN 100",
+            "LATIN 101",
+            "LATIN 102",
+            "LATIN 103",
+            "LATIN 104",
+            "LATIN 105",
+            "LATIN 106",
+            "LATIN 107",
+            "LATIN 108",
+            "LATIN 109",
+            "LATIN 110",
+            "LATIN 111",
+            "LATIN 112",
+            "LATIN 113",
+            "LATIN 114",
+            "LATIN 115",
+            "LATIN 116",
+            "LATIN 117",
+            "LATIN 118",
+            "LATIN 119",
+            "LATIN 120",
+            "LATIN 121",
+            "LATIN 122",
+            "LATIN 123",
+            "LATIN 124",
+            "LATIN 125",
+            "LATIN 126",
+            "LATIN 127",
+            "LATIN 128",
+            "LATIN 129",
+            "LATIN 130",
+            "LATIN 131",
+            "LATIN 132",
+            "LATIN 133",
+            "CLASSIC 198A",
+            "CLASSIC 198B"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "CLASSIC 191"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "CLASSIC": [
+      "CLASSIC 10",
+      "CLASSIC 191",
+      "CLASSIC 198A",
+      "CLASSIC 198B",
+      "CLASSIC 20",
+      "CLASSIC 30",
+      "CLASSIC 40W",
+      "CLASSIC 41W",
+      "CLASSIC 42",
+      "CLASSIC 51A",
+      "CLASSIC 51B",
+      "CLASSIC 60",
+      "CLASSIC 88GE"
+    ],
+    "GREEK": [
+      "GREEK 16",
+      "GREEK 3"
+    ],
+    "LATIN": [
+      "LATIN 16",
+      "LATIN 3"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "CLASSIC 10",
+      "dept": "CLASSIC",
+      "number": "10",
+      "title": "Discovering Greeks",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Greek not required. Study of Greek life and culture from age of Homer to Roman conquest. Readings focus on selections from works of ancient authors in translation. Lectures illustrated with images of art, architecture, and material culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CLASSIC 191"
+      ]
+    },
+    {
+      "course_id": "CLASSIC 191",
+      "dept": "CLASSIC",
+      "number": "191",
+      "title": "Capstone Seminar: Classics",
+      "units": 5.0,
+      "description": "Seminar, three hours. Requisites: courses 10, 20, at least four upper-division major courses. Limited to declared junior/senior departmental majors; minors may be admitted with consent of instructor. Topical research seminar on important themes, periods, genres of ancient Greek and Roman world. Intended to provide students with opportunity for serious engagement\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 20, at least four upper-division major courses.",
+      "prereqs_parsed": {
+        "required": [
+          "CLASSIC 10",
+          "CLASSIC 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CLASSIC 198A"
+      ]
+    },
+    {
+      "course_id": "CLASSIC 198A",
+      "dept": "CLASSIC",
+      "number": "198A",
+      "title": "Honors Research in Classics",
+      "units": 2.0,
+      "description": "Tutorial, six hours. Requisite: course 191. Limited to junior/senior departmental honors program students. Tutorial under direct supervision of faculty member. Research and development of thesis outline in preparation of paper to be completed in course 198B. May be repeated for credit. Individual contract required. In Progress grading (credit to be\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 191.",
+      "prereqs_parsed": {
+        "required": [
+          "CLASSIC 191"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CLASSIC 198B"
+      ]
+    },
+    {
+      "course_id": "CLASSIC 198B",
+      "dept": "CLASSIC",
+      "number": "198B",
+      "title": "Honors Research in Classics",
+      "units": 5.0,
+      "description": "Tutorial, 15 hours. Requisite: course 198A. Limited to junior/senior departmental honors program students. Completion of final research thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "CLASSIC 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 20",
+      "dept": "CLASSIC",
+      "number": "20",
+      "title": "Discovering Romans",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Latin not required. Study of Roman life and culture from time of city\u2019s legendary foundations to end of classical antiquity. Readings focus on selections from works of ancient authors in translation. Lectures illustrated with images of art, architecture, and material culture. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CLASSIC 191"
+      ]
+    },
+    {
+      "course_id": "CLASSIC 30",
+      "dept": "CLASSIC",
+      "number": "30",
+      "title": "Classical Mythology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to myths and legends of ancient Greece and/or Rome, role of those stories in their societies, and modern approaches to studying them. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 40W",
+      "dept": "CLASSIC",
+      "number": "40W",
+      "title": "Reading Greek Literature: Writing-Intensive",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Requisite: English Composition 3. Exploration in detail and from variety of critical perspectives of carefully selected literary texts characteristic of ancient Greece and significant in Western literary tradition. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 41W",
+      "dept": "CLASSIC",
+      "number": "41W",
+      "title": "Reading Roman Literature: Writing-Intensive",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Requisite: English Composition 3. Exploration in detail and from variety of critical perspectives of carefully selected set of literary texts characteristic of ancient Rome and significant in Western literary tradition. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 42",
+      "dept": "CLASSIC",
+      "number": "42",
+      "title": "Cinema and Ancient World",
+      "units": 5.0,
+      "description": "Lecture/screenings, five hours; discussion, one hour. Use of popular culture and cinema to introduce students to ancient Greek and/or Roman culture; focus at discretion of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 51A",
+      "dept": "CLASSIC",
+      "number": "51A",
+      "title": "Art and Archaeology of Ancient Greece",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of major period, theme, or medium of Greek art and archaeology at discretion of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 51B",
+      "dept": "CLASSIC",
+      "number": "51B",
+      "title": "Art and Archaeology of Ancient Rome",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of major period, theme, or medium of Roman art and archaeology at discretion of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 60",
+      "dept": "CLASSIC",
+      "number": "60",
+      "title": "Fantastic Journey: Antiquity and Beyond",
+      "units": 5.0,
+      "description": "Lecture, two and one half hours; discussion, one hour. Investigation of phenomenon of fantastic or imaginary journey, from Homer\u2019s Odyssey to Stanley Kubrick\u2019s 2001: A Space Odyssey. Examination of ways in which travel to strange or new worlds is presented through number of texts (and occasionally films) across different cultures\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 88GE",
+      "dept": "CLASSIC",
+      "number": "88GE",
+      "title": "General Education Seminar Sequences",
+      "units": 5.0,
+      "description": "Seminar, three hours. Focused study of one aspect of ancient Greek or Roman culture or reception of classical tradition. Topics are interdisciplinary in nature (literature, arts, religion, politics, culture) and make connections between ancient and postclassical eras. Topics include rediscovery of Pompeii and Herculaneum; Roman religion and literature; pleasures of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GREEK 16",
+      "dept": "GREEK",
+      "number": "16",
+      "title": "Intensive First-Year Greek",
+      "units": 12.0,
+      "description": "Lecture, 19 hours. Eight-week intensive introduction to Greek language equivalent to courses 1, 2, and 3. Offered in summer only. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GREEK 3",
+      "dept": "GREEK",
+      "number": "3",
+      "title": "Elementary Greek",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: course 2. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 2.",
+      "prereqs_parsed": {
+        "required": [
+          "GREEK 2"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LATIN 16",
+      "dept": "LATIN",
+      "number": "16",
+      "title": "Intensive First-Year Latin",
+      "units": 12.0,
+      "description": "Lecture, 19 hours. Eight-week intensive introduction to Latin language equivalent to courses 1, 2, and 3. Offered in summer only. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LATIN 3",
+      "dept": "LATIN",
+      "number": "3",
+      "title": "Elementary Latin",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: course 2 or 14. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 2 or 14.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LATIN 2",
+          "LATIN 14"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

@@ -1,0 +1,4005 @@
+{
+  "major_id": "international-development-studies-ba",
+  "major_name": "International Development Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/InternationalDevelopmentStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "INTL DV 1"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ECON 1",
+            "ECON 2",
+            "GEOG 4",
+            "PUB AFF 30",
+            "PUB AFF 40"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ECON 41",
+            "EDUC 35",
+            "HIST 96W",
+            "POL SCI 6",
+            "PUB AFF 60",
+            "SOCIOL 20",
+            "STATS 10",
+            "STATS 12"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "ANTHRO 3",
+            "GENDER 10",
+            "GEOG 3",
+            "GEOG 5",
+            "GEOG 6",
+            "GLBL ST 1",
+            "I A STD 1",
+            "I A STD 31",
+            "I A STD 33",
+            "I A STD 50",
+            "HIST 8A",
+            "HIST 8B",
+            "HIST 8C",
+            "HIST 9A",
+            "HIST 9D",
+            "HIST 9E",
+            "HIST 10B",
+            "HIST 10BW",
+            "HIST 11B",
+            "HIST 12B",
+            "HIST 12C",
+            "HIST 22",
+            "POL SCI 20",
+            "POL SCI 50",
+            "SOCIOL 1",
+            "COM LIT 4DW",
+            "SPAN 44"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 3,
+          "courses": [
+            "INTL DV 110",
+            "INTL DV M120",
+            "INTL DV 130",
+            "INTL DV 140"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": []
+        },
+        {
+          "choose_n": 1,
+          "courses": []
+        },
+        {
+          "choose_n": 3,
+          "courses": []
+        },
+        {
+          "choose_n": 2,
+          "courses": []
+        },
+        {
+          "choose_n": 1,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AF AMER": [
+      "AF AMER M154C",
+      "AF AMER M178"
+    ],
+    "ANTHRO": [
+      "ANTHRO 130",
+      "ANTHRO 138P",
+      "ANTHRO 140",
+      "ANTHRO 143",
+      "ANTHRO 146",
+      "ANTHRO 147",
+      "ANTHRO 161",
+      "ANTHRO 162",
+      "ANTHRO 163P",
+      "ANTHRO 163Q",
+      "ANTHRO 166P",
+      "ANTHRO 167",
+      "ANTHRO 168P",
+      "ANTHRO 3",
+      "ANTHRO M145R",
+      "ANTHRO M148",
+      "ANTHRO M166Q"
+    ],
+    "ART HIS": [
+      "ART HIS C142B",
+      "ART HIS C145A",
+      "ART HIS C145B"
+    ],
+    "ASIA AM": [
+      "ASIA AM 103",
+      "ASIA AM 122A",
+      "ASIA AM 122B",
+      "ASIA AM 134",
+      "ASIA AM 171A",
+      "ASIA AM 171E",
+      "ASIA AM 172C",
+      "ASIA AM C142A",
+      "ASIA AM C142B",
+      "ASIA AM M171D",
+      "ASIA AM M173"
+    ],
+    "C&EE ST": [
+      "C&EE ST CM126",
+      "C&EE ST M125"
+    ],
+    "CCAS": [
+      "CCAS 123",
+      "CCAS 169",
+      "CCAS CM147",
+      "CCAS M119",
+      "CCAS M122",
+      "CCAS M125",
+      "CCAS M126",
+      "CCAS M132",
+      "CCAS M144"
+    ],
+    "CHIN": [
+      "CHIN 152"
+    ],
+    "COM HLT": [
+      "COM HLT 100",
+      "COM HLT 132"
+    ],
+    "COM LIT": [
+      "COM LIT 169",
+      "COM LIT 4DW"
+    ],
+    "ECON": [
+      "ECON 1",
+      "ECON 103",
+      "ECON 111",
+      "ECON 112",
+      "ECON 121",
+      "ECON 122",
+      "ECON 134",
+      "ECON 137",
+      "ECON 150",
+      "ECON 151",
+      "ECON 2",
+      "ECON 41"
+    ],
+    "EDUC": [
+      "EDUC 109A",
+      "EDUC 35",
+      "EDUC M108"
+    ],
+    "ENGL": [
+      "ENGL 106",
+      "ENGL 130",
+      "ENGL 131"
+    ],
+    "ENVIRON": [
+      "ENVIRON 186",
+      "ENVIRON M125",
+      "ENVIRON M133",
+      "ENVIRON M161"
+    ],
+    "FILM TV": [
+      "FILM TV 106C",
+      "FILM TV 112",
+      "FILM TV M124"
+    ],
+    "GENDER": [
+      "GENDER 10",
+      "GENDER 102",
+      "GENDER 103",
+      "GENDER 123",
+      "GENDER M127",
+      "GENDER M144",
+      "GENDER M147C",
+      "GENDER M154Q",
+      "GENDER M154R",
+      "GENDER M164A",
+      "GENDER M170C"
+    ],
+    "GEOG": [
+      "GEOG 130",
+      "GEOG 138",
+      "GEOG 139C",
+      "GEOG 140",
+      "GEOG 141",
+      "GEOG 148",
+      "GEOG 150",
+      "GEOG 151",
+      "GEOG 158",
+      "GEOG 172A",
+      "GEOG 172C",
+      "GEOG 175B",
+      "GEOG 176A",
+      "GEOG 3",
+      "GEOG 4",
+      "GEOG 5",
+      "GEOG 6",
+      "GEOG M125",
+      "GEOG M127",
+      "GEOG M131",
+      "GEOG M142"
+    ],
+    "GLBL ST": [
+      "GLBL ST 1",
+      "GLBL ST 102",
+      "GLBL ST 103",
+      "GLBL ST 104"
+    ],
+    "HIST": [
+      "HIST 105C",
+      "HIST 107C",
+      "HIST 109B",
+      "HIST 10B",
+      "HIST 10BW",
+      "HIST 111C",
+      "HIST 11B",
+      "HIST 120B",
+      "HIST 120D",
+      "HIST 127B",
+      "HIST 127C",
+      "HIST 12B",
+      "HIST 12C",
+      "HIST 131A",
+      "HIST 157B",
+      "HIST 162A",
+      "HIST 164D",
+      "HIST 164E",
+      "HIST 166B",
+      "HIST 168B",
+      "HIST 170D",
+      "HIST 174B",
+      "HIST 174C",
+      "HIST 175A",
+      "HIST 175C",
+      "HIST 176B",
+      "HIST 176C",
+      "HIST 177B",
+      "HIST 22",
+      "HIST 8A",
+      "HIST 8B",
+      "HIST 8C",
+      "HIST 96W",
+      "HIST 9A",
+      "HIST 9D",
+      "HIST 9E",
+      "HIST M108C",
+      "HIST M144C",
+      "HIST M170C"
+    ],
+    "HNRS": [
+      "HNRS 184",
+      "HNRS M145",
+      "HNRS M152",
+      "HNRS M157"
+    ],
+    "I A STD": [
+      "I A STD 1",
+      "I A STD 31",
+      "I A STD 33",
+      "I A STD 50"
+    ],
+    "INTL DV": [
+      "INTL DV 1",
+      "INTL DV 110",
+      "INTL DV 130",
+      "INTL DV 140",
+      "INTL DV 191",
+      "INTL DV 198A",
+      "INTL DV 198B",
+      "INTL DV 198C",
+      "INTL DV M120",
+      "INTL DV M150"
+    ],
+    "KOREA": [
+      "KOREA 154",
+      "KOREA 155",
+      "KOREA 180C"
+    ],
+    "POL SCI": [
+      "POL SCI 116A",
+      "POL SCI 123A",
+      "POL SCI 124A",
+      "POL SCI 126",
+      "POL SCI 132A",
+      "POL SCI 137A",
+      "POL SCI 150",
+      "POL SCI 151A",
+      "POL SCI 151B",
+      "POL SCI 154A",
+      "POL SCI 154B",
+      "POL SCI 156A",
+      "POL SCI 157",
+      "POL SCI 158",
+      "POL SCI 159A",
+      "POL SCI 159B",
+      "POL SCI 165",
+      "POL SCI 167D",
+      "POL SCI 168",
+      "POL SCI 170A",
+      "POL SCI 20",
+      "POL SCI 50",
+      "POL SCI 6",
+      "POL SCI M122B",
+      "POL SCI M132B",
+      "POL SCI M184A"
+    ],
+    "PORTGSE": [
+      "PORTGSE 142A",
+      "PORTGSE 143A"
+    ],
+    "PUB AFF": [
+      "PUB AFF 110",
+      "PUB AFF 115",
+      "PUB AFF 116",
+      "PUB AFF 30",
+      "PUB AFF 40",
+      "PUB AFF 60"
+    ],
+    "RUSSN": [
+      "RUSSN 120",
+      "RUSSN 121",
+      "RUSSN 122",
+      "RUSSN C131",
+      "RUSSN M127"
+    ],
+    "SEASIAN": [
+      "SEASIAN 135",
+      "SEASIAN 157"
+    ],
+    "SOCIOL": [
+      "SOCIOL 1",
+      "SOCIOL 101",
+      "SOCIOL 102",
+      "SOCIOL 113",
+      "SOCIOL 122",
+      "SOCIOL 123",
+      "SOCIOL 152",
+      "SOCIOL 154",
+      "SOCIOL 181A",
+      "SOCIOL 182",
+      "SOCIOL 183",
+      "SOCIOL 186",
+      "SOCIOL 191D",
+      "SOCIOL 191F",
+      "SOCIOL 20",
+      "SOCIOL M115",
+      "SOCIOL M178"
+    ],
+    "SPAN": [
+      "SPAN 44"
+    ],
+    "STATS": [
+      "STATS 10",
+      "STATS 112",
+      "STATS 12"
+    ],
+    "THEATER": [
+      "THEATER 107"
+    ],
+    "URBN PL": [
+      "URBN PL 121",
+      "URBN PL CM166",
+      "URBN PL M110",
+      "URBN PL M122",
+      "URBN PL M160"
+    ],
+    "VIETMSE": [
+      "VIETMSE 180B",
+      "VIETMSE CM155"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AF AMER M154C",
+      "dept": "AF AMER",
+      "number": "M154C",
+      "title": "Black Experience in Latin America and Caribbean I",
+      "units": 4.0,
+      "description": "(Same as Political Science M184A.) Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Culture, history, politics, and identity of African Americans in Spanish and Lusophone Caribbean, South America, and Central America. Exploration of issues of identity in context of Afro/Latino migration to U.S. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AF AMER M178",
+      "dept": "AF AMER",
+      "number": "M178",
+      "title": "Sociology of Caribbean",
+      "units": 4.0,
+      "description": "(Same as Sociology M178.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Historical sociology of Caribbean, with emphasis on colonialism and decolonization, development and underdevelopment, race-making institutions and evolution of race relations, nationalism and migration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 130",
+      "dept": "ANTHRO",
+      "number": "130",
+      "title": "Study of Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 138P",
+      "dept": "ANTHRO",
+      "number": "138P",
+      "title": "Field Methods in Cultural Anthropology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Introduction to skills and tools of data ascertainment through fieldwork in cultural anthropology. Emphasis on techniques, methods, and concepts of ethnographical research and how basic observational information is systematized for presentation, analysis, and cross-cultural comparison. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 140",
+      "dept": "ANTHRO",
+      "number": "140",
+      "title": "Study of Social Systems",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 3. Introduction to more specialized social anthropology courses. Evaluation of variation in sociocultural systems, with special emphasis on forms of inequality. Basic frameworks of anthropological analysis; historical context and development of social anthropology discipline. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 143",
+      "dept": "ANTHRO",
+      "number": "143",
+      "title": "Economic Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3. Introduction to anthropological perspectives for interpretation of economic life and institutions. Economic facts to be placed in their larger social, political, and cultural contexts; examination of modes of production, distribution, and consumption of goods and services in their relation to social networks, power structures,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 146",
+      "dept": "ANTHRO",
+      "number": "146",
+      "title": "Urban Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for junior/senior social sciences majors. Introduction to modern industrial cities and urban life. Examination of notion of urban space in context of social relations by drawing from historical and cross-cultural urban ethnographies. Urban space is created according to needs of capital\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 147",
+      "dept": "ANTHRO",
+      "number": "147",
+      "title": "Development Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. Comparative study of planned and unplanned development, in particular as it affects rural societies. Emphasis on impact of capital, technological change and gender differences, economic differentiation and class, urban/rural relations, and migration. Discussion of theoretical issues\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 161",
+      "dept": "ANTHRO",
+      "number": "161",
+      "title": "Latin American Communities",
+      "units": 4.0,
+      "description": "Lecture, three hours. Overview of social and cultural anthropology of small communities in Latin America. Similarities and contrasts in social organization and interpersonal relations described in context of economic, political, and cultural environments. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 162",
+      "dept": "ANTHRO",
+      "number": "162",
+      "title": "Ethnography of South America",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to ethnography of South American Indians, with special emphasis on Lowland South America. Survey of history and development of man and society in this world area and examination of exemplary cultures symptomatic of various levels of cultural achievement. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 163P",
+      "dept": "ANTHRO",
+      "number": "163P",
+      "title": "Ideology and Social Change in Contemporary China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Introduction to sociocultural changes in China from 1949 to present. Topics include ideology and politics in everyday life, social stratification and mobility, cultural construction of socialist person, changes in courtship, marriage, and family, and political economy of reforms in post-Mao era. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 163Q",
+      "dept": "ANTHRO",
+      "number": "163Q",
+      "title": "Societies of Central Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Overview of culture and society among diverse peoples of Inner Asia, including Mongolia, Tibet, and Soviet Central Asia. Topics include environment and economic adaptation, politics in traditional isolation and within framework of recent national integration, kinship, forms of marriage and status of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 166P",
+      "dept": "ANTHRO",
+      "number": "166P",
+      "title": "Sub-Saharan Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours. Issues of ecology and political economy; continuing impacts of colonialism, nationalism, and current challenges for development; changes in social relations. Examination of Africa\u2019s significance to development of anthropology. Cultural background for understanding events in contemporary Africa provided. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 167",
+      "dept": "ANTHRO",
+      "number": "167",
+      "title": "Culture Area of Middle East",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of Middle East has suggested many theories as to developmental history of humankind, evolution of human society, birth of monotheism, and origin of agriculture, trade, and cities. Presentation of anthropological material relevant to understanding Middle East as culture area, and Islam as basis of its shared\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 168P",
+      "dept": "ANTHRO",
+      "number": "168P",
+      "title": "Cultures of Pacific",
+      "units": 4.0,
+      "description": "Lecture, three hours. Four major culture areas of Australia, Melanesia, Polynesia, and Micronesia. General geographical features, prehistory, and language distribution of whole region. Distinctive sociocultural features of each culture area presented in context of their adaptive significance. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 3",
+      "dept": "ANTHRO",
+      "number": "3",
+      "title": "Culture and Society",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor\u2019s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 130",
+        "ANTHRO 140",
+        "ANTHRO 143",
+        "ANTHRO 147"
+      ]
+    },
+    {
+      "course_id": "ANTHRO M145R",
+      "dept": "ANTHRO",
+      "number": "M145R",
+      "title": "Women and Social Movements",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M154R.) Lecture/discussion, three hours. Recommended preparation: prior gender studies or anthropology courses. Comparative studies of social movements (e.g., nationalist, socialist, liberal/reform), beginning with Russia and China and including Cuba, Algeria, Guinea-Bissau, Mozambique, Nicaragua, and Iran. Analysis of women\u2019s participation in social transformations and centrality of gender\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO M148",
+      "dept": "ANTHRO",
+      "number": "M148",
+      "title": "(When) Do Leaders Make Differences?",
+      "units": 5.0,
+      "description": "(Same as Geography M142 and Honors Collegium M152.) Lecture, two hours; discussion, two hours. Examination of leaders who did or did not succeed in effecting change, as background to understanding conditions under which leaders can make differences. Comparison of political leaders, business chief executive officers, sports coaches, and religious leaders.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO M166Q",
+      "dept": "ANTHRO",
+      "number": "M166Q",
+      "title": "Culture Area of Maghrib (North Africa)",
+      "units": 4.0,
+      "description": "(Same as Arabic M171 and History M108C.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C142B",
+      "dept": "ART HIS",
+      "number": "C142B",
+      "title": "Latin American Art of 20th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Mainstream modern and contemporary art and architecture of selected Latin American countries, including both modernist and postmodernist forms, considered in context of social and political concerns, both national and international. Concurrently scheduled with course C242B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C145A",
+      "dept": "ART HIS",
+      "number": "C145A",
+      "title": "Architecture and Urbanism in Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of African built environment at various moments and in different places from about 200 CE to present, with emphasis on cultural, social, and historical contexts of architecture, gender, and space, and contemporary African cities. Concurrently scheduled with course C245A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C145B",
+      "dept": "ART HIS",
+      "number": "C145B",
+      "title": "Contemporary Arts of Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Survey of African visual practices since mid-20th century, with special emphasis on changing meaning of art object, status of African artist, global reception of contemporary African art, and very definitions of contemporary African art. Concurrently scheduled with course C245B. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 103",
+      "dept": "ASIA AM",
+      "number": "103",
+      "title": "Social Science Research Methods",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Introduction to fundamentals of conducting social research on Asian Americans, providing experience in using some research methods and exercises in evaluating nature and quality of scientific research on Asian American issues. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 122A",
+      "dept": "ASIA AM",
+      "number": "122A",
+      "title": "Indigeneity, Empire, and Resistance in Pacific Islands",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to indigenous and colonial histories of Pacific Islands. Discussions, film screenings, guest speakers, and reading assignments, with focus on issues of cultural survival, empire, indigeneity, migration, resistance, sovereignty, and war. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ASIA AM 122B"
+      ]
+    },
+    {
+      "course_id": "ASIA AM 122B",
+      "dept": "ASIA AM",
+      "number": "122B",
+      "title": "Gender and Film in Pacific",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 122A. Exploration of rise of film in Pacific Islands during 20th century, with attention to politics of gender, history, and representation, to engage students in textual and visual readings of feature-length films about Pacific. Discussions, film screenings, and guest speakers, with focus on aesthetic, cultural,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 122A.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIA AM 122A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 134",
+      "dept": "ASIA AM",
+      "number": "134",
+      "title": "Vietnamese American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Vietnamese Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Vietnamese Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 171A",
+      "dept": "ASIA AM",
+      "number": "171A",
+      "title": "Critical Issues in U.S.-China Relations",
+      "units": 4.0,
+      "description": "Lecture three hours. Not open to freshmen. Critical examination of U.S. involvement in China, Hong Kong, and Taiwan, including study of historical, cultural, political, and socioeconomic factors that shape relations between China, Hong Kong, and Taiwan and U.S. Examination of impact of relationships in Pacific Rim and Chinese Americans and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 171E",
+      "dept": "ASIA AM",
+      "number": "171E",
+      "title": "Critical Issues in U.S.-Vietnam Relations",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Critical examination of U.S. involvement in Vietnam, including study of historical, cultural, political, and socioeconomic factors that shape relations between Vietnam and U.S. Examination of impact of relationships in Pacific Rim and Vietnamese Americans and their communities. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 172C",
+      "dept": "ASIA AM",
+      "number": "172C",
+      "title": "Transnational Bollywood",
+      "units": 4.0,
+      "description": "(Formerly numbered M172C.) Lecture, three hours. Study of how popular Bollywood cinema materializes colonial and postcolonial formations pertaining to gender, class and caste, sexuality, race, and economic liberalization in South Asia, as well as across South Asian communities in North America, U.K., and Africa. Examination of how complex relationships between\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM C142A",
+      "dept": "ASIA AM",
+      "number": "C142A",
+      "title": "Ethnocommunications I: Introduction to Creating Community Media",
+      "units": 4.0,
+      "description": "Seminar, three hours. Strong verbal communication skills and familiarity with technology required. Introduction to social documentary theory and methodology. Through hands-on production, use of digital video to tell visual stories, reclaim history, and examine social issues related to diverse peoples, cultures, and communities. Viewing of films and interactive media for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM C142B",
+      "dept": "ASIA AM",
+      "number": "C142B",
+      "title": "Ethnocommunications II: Intermediate Creating Community Media",
+      "units": 4.0,
+      "description": "Seminar, three hours. Strong verbal communication skills and familiarity with technology required. Intermediate application of social documentary theory and methodology. Use of digital video to create new approaches to visual storytelling, reclaim history, and examine social issues related to diverse peoples, cultures, and communities. Continuing instruction in use of digital\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM M171D",
+      "dept": "ASIA AM",
+      "number": "M171D",
+      "title": "Critical Issues in U.S.-Philippine Relations",
+      "units": 4.0,
+      "description": "(Same as History M144C.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: History 176A, 176B, 176C. Designed for juniors/seniors. Examination of complex interrelationship between U.S. colonialism, Philippine nationalism, history of Filipino Americans, and Philippine diaspora in 20th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM M173",
+      "dept": "ASIA AM",
+      "number": "M173",
+      "title": "Topics in Vietnamese Cinema and/or Literature",
+      "units": 4.0,
+      "description": "(Same as Vietnamese CM155.) Lecture, three hours; discussion, one hour. Knowledge of Vietnamese not required. Critical and historical examination of literary and/or filmic representations connected to social practices such as empire, nation, diaspora, and globalization. Original language course materials available for interested students. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE ST CM126",
+      "dept": "C&EE ST",
+      "number": "CM126",
+      "title": "Cold-War Central European Culture",
+      "units": 4.0,
+      "description": "(Formerly numbered C126.) (Same as European Languages and Transcultural Studies CM126.) Lecture, three hours. Examination of cold-war Central European culture through prism of prose fiction, essays, and film from 1947 to 1989. Analysis of strategies of Polish, Czech, Hungarian, and East German writers as articulation of tensions, contradictions, and compromises\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE ST M125",
+      "dept": "C&EE ST",
+      "number": "M125",
+      "title": "Interwar Central European Prose",
+      "units": 4.0,
+      "description": "(Formerly numbered 125.) (Same as European Languages and Transcultural Studies M125.) Lecture, three hours. Analysis of selected novels, stories, plays, and essays of representative authors of 1920s and 1930s in translation. Special attention to relation between literature and historical and ethnic concerns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 123",
+      "dept": "CCAS",
+      "number": "123",
+      "title": "Applied Research Methods in Latino Communities",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies 123.) Lecture, three hours. Through combination of lectures, key readings, and several experiments, introduction to several applied research methods that are highly effective in producing sound and methodologically rigorous studies on poor and/or Latino communities, including important data that can be used for critical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 169",
+      "dept": "CCAS",
+      "number": "169",
+      "title": "Representations of Indigenous Peoples in Americas",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies 169.) Lecture, four hours. Strongly recommended requisite: course 101. Introduction to different forms of representation of indigenous peoples and their presence in Americas, with emphasis on Mesoamerica and Andes. How indigenous images are expressed, perceived, and constructed at point of contact with Europeans during\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Strongly recommended requisite: course 101.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": [
+          "CCAS 101"
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS CM147",
+      "dept": "CCAS",
+      "number": "CM147",
+      "title": "Transnational Women's Organizing in Americas",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies CM147.) (Same as Gender Studies M147C.) Lecture, four hours. Feminist theories of transnational organizing. Examination of gender and race as central to processes of globalization and essential to economic and political struggles encompassed in transnational power relations. Exploration of how questions of race and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M119",
+      "dept": "CCAS",
+      "number": "M119",
+      "title": "Chicano/Latino Community Formation: Critical Perspectives and Oral Histories",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M119.) (Same as Labor Studies M123.) Lecture, four hours. Analysis of historical formation and development of Chicano/Latino communities in 20th century, with focus on labor, immigration, economic structures, electoral politics, and international dimensions. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M122",
+      "dept": "CCAS",
+      "number": "M122",
+      "title": "Planning Issues in Latina/Latino Communities: Preserving and Strengthening Community Assets in Mexican and Salvadoran Los Angeles",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M122.) (Same as Labor Studies M122 and Urban Planning M171.) Lecture, four hours. How community and economic development interact, role of assets in community development, and unique synergies and pitfalls that enable or disable communities from developing to their potential. How to strengthen and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M125",
+      "dept": "CCAS",
+      "number": "M125",
+      "title": "U.S./Mexico Relations",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M125.) (Same as Labor Studies M125.) Lecture, four hours. Examination of complex dynamics in relationship between Mexico and U.S., using political economy approach to study of asymmetrical integration between advanced industrial economies and developing countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M126",
+      "dept": "CCAS",
+      "number": "M126",
+      "title": "Politics of Crisis: Migration, Identity, and Religion",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M126.) (Same as Honors Collegium M145.) Lecture, three hours. Examination of individual and collective religious response of Latin Americans and Latinas/Latinos in U.S. to dislocations, displacements, and fragmentation produced by conquest, colonization, underdevelopment, globalization, and migration. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M132",
+      "dept": "CCAS",
+      "number": "M132",
+      "title": "Border Consciousness",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M132.) (Same as Lesbian, Gay, Bisexual, Transgender, and Queer Studies M132.) Lecture, three hours; discussion, one hour (when scheduled). Investigation through history, popular culture, and mass media of bilingual and bicultural identities produced by geographical and cultural space between Mexico and U.S. Special attention\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M144",
+      "dept": "CCAS",
+      "number": "M144",
+      "title": "Women's Movement in Latin America",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M144.) (Same as Gender Studies M144 and Labor Studies M144.) Lecture, four hours. Course on women\u2019s movements and feminism in Latin America and Caribbean to examine diverse social movements and locations from which women have launched political and gender struggles. Discussion of forms of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 152",
+      "dept": "CHIN",
+      "number": "152",
+      "title": "Topics in Contemporary Chinese Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Knowledge of Chinese not required. Investigation of various topics in contemporary Chinese literature and culture, including politics and poetics of Chinese postmodernism, nativism, feminism, mass culture, and media. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM HLT 100",
+      "dept": "COM HLT",
+      "number": "100",
+      "title": "Introduction to Community Health Sciences",
+      "units": 4.0,
+      "description": "Lecture, four hours. Limited to junior/senior nonmajors and graduate students, with preference given to undergraduates in Public Health minor. Not open for credit to students with credit for course 120. Introductory course to provide students with broad and comprehensive overview of concepts, empirical research, and public health practice in community\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM HLT 132",
+      "dept": "COM HLT",
+      "number": "132",
+      "title": "Health, Disease, and Health Services in Latin America",
+      "units": 4.0,
+      "description": "Lecture, four hours. Introduction to health, disease, and health services in Latin America, with emphasis on epidemiology, health administration, medical anthropology, and nutrition. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 169",
+      "dept": "COM LIT",
+      "number": "169",
+      "title": "Continental African Authors",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from 1A, 1B, 1C, 2AW, 2BW, 2CW, or English Composition 3 or 3H. Introduction to new set of African authors and attempt to discern similarities or differences they may have with major authors such as Achebe, Ngugi, Armath, Soyinka, etc. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: one course from 1A, 1B, 1C, 2AW, 2BW, 2CW, or English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "COM LIT 1A",
+          "COM LIT 1B",
+          "COM LIT 1C",
+          "COM LIT 2AW",
+          "COM LIT 2BW",
+          "COM LIT 2CW",
+          "ENGLISH COMP 3",
+          "ENGLISH COMP 3H"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 4DW",
+      "dept": "COM LIT",
+      "number": "4DW",
+      "title": "Literature and Writing: Great Books from World at Large",
+      "units": 5.0,
+      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 1D or 2DW. Study and discussion of major literary texts usually overlooked in courses that focus only on canon of Western literature, with emphasis on literary analysis and expository writing. Texts from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 1",
+      "dept": "ECON",
+      "number": "1",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on allocation of resources and distribution of income through price system. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ECON 2"
+      ]
+    },
+    {
+      "course_id": "ECON 103",
+      "dept": "ECON",
+      "number": "103",
+      "title": "Introduction to Econometrics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103L. Introduction to theory and practice of univariate regression analysis with emphasis on its use in economics. Introduction to method of least\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11"
+        ],
+        "corequisites": [
+          "ECON 103L"
+        ],
+        "one_of": [
+          [
+            "ECON 41"
+          ],
+          [
+            "MATH 170A",
+            "MATH 170B"
+          ],
+          [
+            "MATH 170E",
+            "MATH 170S"
+          ],
+          [
+            "STAT 100A",
+            "STAT 100B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 111",
+        "ECON 150"
+      ]
+    },
+    {
+      "course_id": "ECON 111",
+      "dept": "ECON",
+      "number": "111",
+      "title": "Theories of Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 11, 101, 103. Corequisite: course 111L. Application of theoretical and empirical tools from microeconomics to provide insights into problems confronting low-income countries today and to evaluate policies that are likely to be effective in improving well-being of poorest on globe. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 11, 101, 103. Corequisite: course 111L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 101",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 111L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 112"
+      ]
+    },
+    {
+      "course_id": "ECON 112",
+      "dept": "ECON",
+      "number": "112",
+      "title": "Policies for Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102 or 111. Suggested strategies for economic development: inflation, balanced growth, industry versus agriculture, import substitution, export-oriented expansion, foreign aid, and others. Selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102 or 111.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ECON 102",
+            "ECON 111"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 121",
+      "dept": "ECON",
+      "number": "121",
+      "title": "International Trade Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 101. Corequisite: course 121L. Not open to students with credit for former course 120. Theory of international trade: bases, direction, terms, volume, and gains of trade. Effects of tariffs, quantitative restrictions, and international integration. Effects of free and restricted trade on economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 101. Corequisite: course 121L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 101"
+        ],
+        "corequisites": [
+          "ECON 121L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 122",
+      "dept": "ECON",
+      "number": "122",
+      "title": "International Finance",
+      "units": 4.0,
+      "description": "Lecture, three hours. Python is commonly used programming language for data science. It is powerful and easy to learn tool that can be applied to make simple histograms or fit complicated machine learning models. Introduction to using Python for basic data exploration, analysis, and visualization. Emphasis on applications with economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 134",
+      "dept": "ECON",
+      "number": "134",
+      "title": "Environmental Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: course 41 or Statistics 12 or 13, and course 101. Introduction to major ideas in natural resources and environmental economics, with emphasis on designing incentives to protect environment. Highlights important role of using empirical data to test hypotheses about pollution\u2019s causes and consequences. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 41 or Statistics 12 or 13, and course 101.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 101"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "ECON 41",
+          "STAT 12",
+          "STAT 13"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 137",
+      "dept": "ECON",
+      "number": "137",
+      "title": "Introduction to Urban and Regional Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 11. Survey of broad range of policy and theoretical issues that are raised when economic analysis is applied in urban setting. Topics include urbanization and urban growth, housing markets, location decisions of households and firms, transportation, urban labor markets, and local public sector. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 11.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 150",
+      "dept": "ECON",
+      "number": "150",
+      "title": "Labor Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 11, 101, 103. Enforced corequisite: course 150L. Supply and demand for labor. Analysis of government, union, and other constraints on competitive system of wage determination. Wage level and structure. Wages and human capital theory. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 11, 101, 103. Enforced corequisite: course 150L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 101",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 150L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 151",
+      "dept": "ECON",
+      "number": "151",
+      "title": "Topics in Labor Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 101, 150. Selected topics in labor theory; income distribution; business cycles and unemployment; investments in human capital and life cycles; migration; human fertility; marriage and divorce, etc. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 101, 150.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 2",
+      "dept": "ECON",
+      "number": "2",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 1. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on aggregative economics, including national income, monetary and fiscal policy, and international trade. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 41",
+      "dept": "ECON",
+      "number": "41",
+      "title": "Probability and Statistics for Economists",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B, with grades of C or better. Not open to students with credit for former Statistics 11. Introduction to theory and practice of mathematical statistics with emphasis on its use in economics. Introduction of basic statistical concepts such as random\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B, with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 103",
+        "ECON 134",
+        "STATS 112"
+      ]
+    },
+    {
+      "course_id": "EDUC 109A",
+      "dept": "EDUC",
+      "number": "109A",
+      "title": "Globalization and Learning",
+      "units": 4.0,
+      "description": "(Formerly numbered 152A.) Lecture, two hours; discussion, two hours. Introduction to different conceptualizations of globalization and their relationship to educational processes and learning in contemporary societies. Discussion of several concepts and theoretical lenses as basis for approaching and understanding how dialectics of global and local are affecting educational systems and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 35",
+      "dept": "EDUC",
+      "number": "35",
+      "title": "Introduction to Inquiry and Research in Education",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Introduction to empirical and analytical educational research. Intended for undergraduates interested in learning how to find, interpret, and evaluate research that investigates important questions around education and education systems. Overview of multiple methods of conceptualizing inquiry and gathering evidence, including qualitative (e.g., ethnographic, semi-structured\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC M108",
+      "dept": "EDUC",
+      "number": "M108",
+      "title": "Sociology of Education",
+      "units": 5.0,
+      "description": "(Same as Sociology M175.) Lecture, four hours; discussion, one hour. Study of how U.S. educational system both promotes socioeconomic opportunities and maintains socioeconomic inequalities: historical and theoretical perspectives on role of education in U.S. society; trends in educational attainment; ways in which family background, class, race, and gender affect educational\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 106",
+      "dept": "ENGL",
+      "number": "106",
+      "title": "Studies in Native American and Indigenous Literatures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of Native American and/or transnational indigenous literary and cultural expression. Topics may include oral traditions and histories, decolonization and sovereignty, identity and place in comparative perspectives, and multiple genres and forms such as novel,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 130",
+      "dept": "ENGL",
+      "number": "130",
+      "title": "Introduction to Postcolonial Literatures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B, 10C. Introduction to major themes and issues in postcolonial literature, with focus on contemporary literature and writings produced after decolonization, often engaging history of British or other empires with emphasis on Anglophone writers from Africa, Caribbean, South\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B, 10C.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B",
+          "ENGL 10C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 131",
+      "dept": "ENGL",
+      "number": "131",
+      "title": "Studies in Postcolonial Literatures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B, 10C. Strongly recommended: course 130. Survey of how colonialism and decolonization have shaped literary and cultural expression, with specific emphasis on regional or thematic concerns. Topics may include literatures of Africa and African diaspora, environment and empire,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B, 10C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON 186",
+      "dept": "ENVIRON",
+      "number": "186",
+      "title": "Comparative Sustainability Practices in Local/Global Settings",
+      "units": 4.0,
+      "description": "Fieldwork, four hours. Guided fieldwork and comparative analysis used to assess local sustainability practices and policies in diverse regional or international settings. Emphasis on comparing role of local and regional culture. geography, economic climate, and governmental policies on sustainability awareness and practices. Use of observations, interviews, and unobtrusive measures to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON M125",
+      "dept": "ENVIRON",
+      "number": "M125",
+      "title": "Environmentalism: Past, Present, and Future",
+      "units": 4.0,
+      "description": "(Formerly numbered M132.) (Same as Geography M125 and Urban Planning M165.) Lecture, three hours; discussion, one hour. Exploration of history and origin of major environmental ideas, movements or countermovements they spawned, and new and changing nature of modern environmentalism. Introduction to early ideas of environment, how rise of modern sciences\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON M133",
+      "dept": "ENVIRON",
+      "number": "M133",
+      "title": "Environmental Sociology",
+      "units": 4.0,
+      "description": "(Same as Society and Genetics M133 and Sociology M115.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON M161",
+      "dept": "ENVIRON",
+      "number": "M161",
+      "title": "Global Environment and World Politics",
+      "units": 4.0,
+      "description": "(Same as Political Science M122B.) Lecture, three or four hours; discussion, one hour (when scheduled). Recommended requisite: Political Science 20. Politics and policy of major global environmental issues such as climate change, integrating law, policy, and political science perspectives. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 106C",
+      "dept": "FILM TV",
+      "number": "106C",
+      "title": "History of African, Asian, and Latin American Film",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Critical, historical, aesthetic, and social study\u2014together with exploration of ethnic significance\u2014of Asian, African, Latin American, and Mexican films. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 112",
+      "dept": "FILM TV",
+      "number": "112",
+      "title": "Film and Social Change",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Development of documentary and dramatic films in relation to and as force in social development. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV M124",
+      "dept": "FILM TV",
+      "number": "M124",
+      "title": "Sex, Race, and Difference in Transnational Film",
+      "units": 6.0,
+      "description": "(Same as Gender Studies M124.) Lecture, three hours; discussion, one hour. Drawing on feminist media studies, training of students in media literacy so they acquire necessary skills to critically interrogate film as medium of communication and to appreciate how film provides lens to examine some of most critical issues of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER 10",
+      "dept": "GENDER",
+      "number": "10",
+      "title": "Introduction to Gender Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to key concepts in study of sex and gender. Exploration of topics such as gender socialization, body image, sexualities, masculinities, and women\u2019s subordination. Special emphasis on interaction of gender with other identity markers such as race, nation, ethnicity, sexuality, class, and other differences.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GENDER 102",
+        "GENDER 103",
+        "GENDER 123"
+      ]
+    },
+    {
+      "course_id": "GENDER 102",
+      "dept": "GENDER",
+      "number": "102",
+      "title": "Power",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Consideration of how feminist social movements have identified and challenged gender-based subordination and ways feminist theorists have conceived and critiqued traditional theories of power. How have women\u2019s and other social movements defined and challenged social, political, and economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "GENDER 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER 103",
+      "dept": "GENDER",
+      "number": "103",
+      "title": "Knowledge",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Exploration of social production of knowledge about gendered subjects and gender systems. Students engage key issues in feminist theory and feminist epistemology. How do feminist scholars identify and frame research questions? How is knowledge about marginalized subjects produced?\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "GENDER 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER 123",
+      "dept": "GENDER",
+      "number": "123",
+      "title": "Gender, Race, and Class in Latin American Literature and Film, 1850 to 1950",
+      "units": 4.0,
+      "description": "Seminar, three hours. Requisite: course 10. Readings and discussion in English. Comparative survey of cultural expression in Latin America, with emphasis on works produced or set in late-19th and early-20th centuries. Historical and social circumstances of women in different Latin American cultural contexts, with particular concentration on how gender, sexuality,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "GENDER 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M127",
+      "dept": "GENDER",
+      "number": "M127",
+      "title": "Women in Russian Literature",
+      "units": 4.0,
+      "description": "(Same as Russian M127.) Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Introduction to alternative tradition of women\u2019s writings in Russia and Soviet Union. Emphasis on images of women expressed in this tradition as compared with those found in works of contemporary male writers. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M144",
+      "dept": "GENDER",
+      "number": "M144",
+      "title": "Women's Movement in Latin America",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M144 and Labor Studies M144.) Lecture, four hours. Course on women\u2019s movements and feminism in Latin America and Caribbean to examine diverse social movements and locations from which women have launched political and gender struggles. Discussion of forms of feminism and women\u2019s consciousness\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M147C",
+      "dept": "GENDER",
+      "number": "M147C",
+      "title": "Transnational Women's Organizing in Americas",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies CM147.) Lecture, four hours. Feminist theories of transnational organizing. Examination of gender and race as central to processes of globalization and essential to economic and political struggles encompassed in transnational power relations. Exploration of how questions of race and gender influence global economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M154Q",
+      "dept": "GENDER",
+      "number": "M154Q",
+      "title": "Selected Topics in Gender Systems",
+      "units": 4.0,
+      "description": "(Same as Anthropology M145Q.) Lecture, three hours. Recommended preparation: prior anthropology or gender studies courses. Designed for junior/senior social sciences majors. Comparative study of women\u2019s lives and gender systems and cultures from anthropological perspective. Critical review of relevant theoretical issues using ethnography, case study, and presentations. Consult Schedule of Classes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M154R",
+      "dept": "GENDER",
+      "number": "M154R",
+      "title": "Women and Social Movements",
+      "units": 4.0,
+      "description": "(Same as Anthropology M145R.) Lecture/discussion, three hours. Recommended preparation: prior gender studies or anthropology courses. Comparative studies of social movements (e.g., nationalist, socialist, liberal/reform), beginning with Russia and China and including Cuba, Algeria, Guinea-Bissau, Mozambique, Nicaragua, and Iran. Analysis of women\u2019s participation in social transformations and the centrality of gender\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M164A",
+      "dept": "GENDER",
+      "number": "M164A",
+      "title": "Women, Violence, Globalization: India, Philippines, Singapore, Vietnam",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M164.) Lecture, four hours. Study of various forms of violence done on women not only in and of themselves but in light of larger systems of oppression, with focus on Pilipino, Vietnamese, Singaporean, and South Asian cultures. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M170C",
+      "dept": "GENDER",
+      "number": "M170C",
+      "title": "History of Women in China, AD 1000 to Present",
+      "units": 4.0,
+      "description": "(Same as History M170C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Topics include women and family, women in Confucian ideology, women in literati culture, feminist movement, and women and communist revolution. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 130",
+      "dept": "GEOG",
+      "number": "130",
+      "title": "Food and Environment",
+      "units": 4.0,
+      "description": "(Formerly numbered 132.) Lecture, three hours. Designed for juniors/seniors. Thematic orientation to food systems and their role in environmental and cultural transformations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 138",
+      "dept": "GEOG",
+      "number": "138",
+      "title": "Wildlife Conservation in Eastern and Southern Africa",
+      "units": 4.0,
+      "description": "(Formerly numbered 122.) Lecture, three hours; reading period, one hour. Requisite: course 5. Designed for juniors/seniors. Analysis of tropical ecosystems of eastern Africa, including wildlife communities, vegetation, climate, and human impact. Discussion of national park systems and their natural and anthropogenic ecological dynamics. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 139C",
+      "dept": "GEOG",
+      "number": "139C",
+      "title": "Problems in Geography: Culture and Environment in Modern World",
+      "units": 4.0,
+      "description": "(Formerly numbered 159C.) Seminar, three hours; reading period, one hour. Preparation: completion of three courses in one concentration. Limited to seniors. Seminar course in which students carry out intensive research projects developed from courses within one concentration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 140",
+      "dept": "GEOG",
+      "number": "140",
+      "title": "Social Geography",
+      "units": 4.0,
+      "description": "(Formerly numbered 147.) Lecture, three hours; discussion, one hour. Study of spatiality of social differences such as race, class, gender, age, sexuality, location. Critical explorations of identity, social categories, and spatial structures. Importance of space and place in social life. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 141",
+      "dept": "GEOG",
+      "number": "141",
+      "title": "Cultural Geography of Modern World",
+      "units": 4.0,
+      "description": "(Formerly numbered 133.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors and graduate students. Historical and structural approach to cultural geography of modern world system, with particular emphasis on structure and functioning of its core, semi-periphery, and periphery. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 148",
+      "dept": "GEOG",
+      "number": "148",
+      "title": "Political Geography",
+      "units": 4.0,
+      "description": "(Formerly numbered 140.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Spatiality of political activity, spatial constitution of political power, control over space as central component to political struggles. Studies at local, national, state, and global scales. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 150",
+      "dept": "GEOG",
+      "number": "150",
+      "title": "Economic Geography",
+      "units": 4.0,
+      "description": "(Formerly numbered 148.) Lecture, three hours; reading period, one hour. Requisite: course 4. Designed for juniors/seniors. Geographical aspects of economic production and growth. General theory of space-economy. Land-use processes. Location of industry. Regional development. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 4.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 151",
+      "dept": "GEOG",
+      "number": "151",
+      "title": "Uneven Development Geographies: Prosperity and Impoverishment in Third World",
+      "units": 4.0,
+      "description": "(Formerly numbered 141.) Lecture, three hours; discussion, two hours (when scheduled). Geographical perspective on part of globe commonly called Third World (global South). How development has shaped livelihood possibilities and practices, by global processes stretching back centuries, and transformative possibilities of Third World agency. World societies seek to transform Third\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 158",
+      "dept": "GEOG",
+      "number": "158",
+      "title": "Population Geography",
+      "units": 4.0,
+      "description": "(Formerly numbered 142.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of social and behavioral perspectives influencing people in their patterns of demographic change, migration, and mobility, with special emphasis on spatial relationships and selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 172A",
+      "dept": "GEOG",
+      "number": "172A",
+      "title": "Spanish South America",
+      "units": 4.0,
+      "description": "(Formerly numbered 182A.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of geographic factors, physical and cultural, that are basic to understanding historical development of Spanish South America and contemporary economic and cultural geography of individual Spanish-speaking countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 172C",
+      "dept": "GEOG",
+      "number": "172C",
+      "title": "Brazil",
+      "units": 4.0,
+      "description": "(Formerly numbered 182B.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of geographic factors, physical and cultural, that are basic to understanding historical development of Portuguese South America and contemporary economic and cultural geography of Brazil. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 175B",
+      "dept": "GEOG",
+      "number": "175B",
+      "title": "Contemporary China",
+      "units": 4.0,
+      "description": "(Formerly numbered 186.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Systematic geographic analysis of elements of landscape, resources, population, and socioeconomic characteristics of People\u2019s Republic of China. Dynamics that have led to China\u2019s major role in East Asian and international scene, with special attention to China-Japan and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 176A",
+      "dept": "GEOG",
+      "number": "176A",
+      "title": "Southeast Asia",
+      "units": 4.0,
+      "description": "(Formerly numbered 185.) Lecture, three hours; reading period, one hour. Limited to juniors/seniors. Regional synthesis with varying emphasis on people of South or Southeast Asia in their physical, biotic, and cultural environment and its dynamic transformation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 3",
+      "dept": "GEOG",
+      "number": "3",
+      "title": "Cultural Geography",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to cultural geography of modern world, with examination of key concepts of space, place, and landscape as these have shaped and been shaped by connections between societies and their natural environments. Examples from variety of landscapes and places since 1800 and especially from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 4",
+      "dept": "GEOG",
+      "number": "4",
+      "title": "Globalization: Regional Development and World Economy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Economic geography explores spatial distribution of all forms of human productive activity at number of geographical scales\u2014local, regional, national, and global. Key theme is impact of increasingly powerful global economic forces on organization of production. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 150"
+      ]
+    },
+    {
+      "course_id": "GEOG 5",
+      "dept": "GEOG",
+      "number": "5",
+      "title": "People and Earth's Ecosystems",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Exploration of ways in which human activity impacts natural environment and how modification of environment can eventually have significant consequences for human activity. Examination, using case studies, of real environmental problems that confront us today. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 138"
+      ]
+    },
+    {
+      "course_id": "GEOG 6",
+      "dept": "GEOG",
+      "number": "6",
+      "title": "World Regions: Concepts and Contemporary Issues",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Interdisciplinary and historical approach to modern peoples, their differences in wealth or poverty, and their local origins of food production. Brief introduction to physical geography and biogeography of each region. Discussion of each region\u2019s peoples, languages, foods, prehistories, and histories. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M125",
+      "dept": "GEOG",
+      "number": "M125",
+      "title": "Environmentalism: Past, Present, and Future",
+      "units": 4.0,
+      "description": "(Formerly numbered M115.) (Same as Environment M125 and Urban Planning M165.) Lecture, three hours; discussion, one hour. Exploration of history and origin of major environmental ideas, movements or countermovements they spawned, and new and changing nature of modern environmentalism. Introduction to early ideas of environment, how rise of modern sciences\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M127",
+      "dept": "GEOG",
+      "number": "M127",
+      "title": "Global Environment and Development: Problems and Issues",
+      "units": 4.0,
+      "description": "(Formerly numbered M128.) (Same as Urban Planning CM166.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Questions of population, resource use, Third World poverty, and environment. Analysis of global economic restructuring and its connections to changing organization of production and resulting environmental impacts. Case studies from Africa, Latin America,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M131",
+      "dept": "GEOG",
+      "number": "M131",
+      "title": "Human Impact on Biophysical Environment",
+      "units": 4.0,
+      "description": "(Formerly numbered M109.) (Same as Environment M131.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of history, mechanisms, and consequences of interactions between humans and environment. Exploration in depth of three thematic topics (deforestation, desertification, and greenhouse gas increase and ozone depletion) and four major subjects (soil,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M142",
+      "dept": "GEOG",
+      "number": "M142",
+      "title": "(When) Do Leaders Make Differences?",
+      "units": 5.0,
+      "description": "(Formerly numbered M153.) (Same as Anthropology M148 and Honors Collegium M152.) Lecture, two hours; discussion, two hours. Examination of leaders who did or did not succeed in effecting change, as background to understanding conditions under which leaders can make differences. Comparison of political leaders, business chief executive officers, sports coaches,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GLBL ST 1",
+      "dept": "GLBL ST",
+      "number": "1",
+      "title": "Introduction to Globalization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to concept and history of globalization, and to political, economic, social, and environmental dimensions of global integration today. Topics include finance and trade, colonialism, Industrial Revolution, urbanization, immigration, and climate change, among others. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GLBL ST 102",
+        "GLBL ST 103",
+        "GLBL ST 104"
+      ]
+    },
+    {
+      "course_id": "GLBL ST 102",
+      "dept": "GLBL ST",
+      "number": "102",
+      "title": "Globalization: Markets and Resources",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Examination of how domestic and international politics determine how global economy is governed. Topics include monetary and capital policy, trade, international investment, and migration. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "GLBL ST 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GLBL ST 103",
+      "dept": "GLBL ST",
+      "number": "103",
+      "title": "Globalization: Governance and Conflict",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Exploration of globalization of governance and its effect on outbreak, management, and resolution of disputes, violence, and conflict. Review of international and regional institutions and their interaction with contemporary issues, which may include terrorism, human rights, climate change, and cybersecurity. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "GLBL ST 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GLBL ST 104",
+      "dept": "GLBL ST",
+      "number": "104",
+      "title": "Globalization: Culture and Society",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Investigation of circulation of peoples, goods, and media to examine interactions of globalization with local culture and formation of global cultures through practices and processes of globalization. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "GLBL ST 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105C",
+      "dept": "HIST",
+      "number": "105C",
+      "title": "Survey of Middle East, 500 to Present: 1700 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107C",
+      "dept": "HIST",
+      "number": "107C",
+      "title": "Armenian History: Armenia in Modern and Contemporary Times, 19th and 20th Centuries",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Armenian question and genocide, national republic, Soviet Armenia, and dispersion. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 109B",
+      "dept": "HIST",
+      "number": "109B",
+      "title": "History of Israeli-Palestinian Conflict, 1881 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of origins of Arab-Israeli dispute from mid-19th century through founding of state of Israel and expulsion/flight of three quarters of million Palestinians from their homes. Exploration of social history of Palestine up to Zionist colonization, origins of Zionism\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 10B",
+      "dept": "HIST",
+      "number": "10B",
+      "title": "History of Africa, 1800 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Not open for credit to students with credit for course 10BH or 10BW. Survey of social, economic, and political developments in Africa since 1800, with focus on slave trade, imperialism and colonialism, and nationalism and independence. Attention to different ideologies (nationalism, socialism, apartheid), rural/urban\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 10BW",
+      "dept": "HIST",
+      "number": "10BW",
+      "title": "Introduction to Civilizations of Africa since 1800",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course 10B or 10BH. Survey of social, economic, and political developments in Africa since 1800, with focus on slave trade, imperialism\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111C",
+      "dept": "HIST",
+      "number": "111C",
+      "title": "Topics in Middle Eastern History: Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Middle East underwent widespread social, economic, and cultural changes during 19th century that propelled society, at least portions of society and aspects of its social/cultural life, in entirely new direction. Examination of those changes to understand exactly what modernity\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 11B",
+      "dept": "HIST",
+      "number": "11B",
+      "title": "History of China, circa 1000 to 2000",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of later history of China\u2014evolution of characteristic Chinese institutions and modes of thought from circa 1000 to 2000. Focus on social, political, intellectual, cultural, and economic aspects of early modern regimes and empires and rise of modern China into contemporary era. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120B",
+      "dept": "HIST",
+      "number": "120B",
+      "title": "East-Central Europe: Short 20th Century, 1918 to 1990",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis and interpretation of stormy history of crisis zone of Europe where wars, revolts and revolutions, and different types of extremisms led to historical detour: 70 years of departure from Western values and at last effort to turn back\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120D",
+      "dept": "HIST",
+      "number": "120D",
+      "title": "Film and History: Central and Eastern Europe, 1945 to 1989",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Postwar history of central and eastern Europe (1945 to 1989), using eight Czech, Polish, and Hungarian films to explore life under state socialist modernization dictatorship. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 127B",
+      "dept": "HIST",
+      "number": "127B",
+      "title": "History of Russia: Imperial Russia from Peter the Great to Nicholas II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Westernization of state and society; centralization at home and expansion abroad; peasant problem; beginnings of industrialization; movements of political and social protest; non-Russian peoples; political reforms and social changes; Revolution of 1905; Russia in World War I; fall of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 127C",
+      "dept": "HIST",
+      "number": "127C",
+      "title": "History of Russia: Revolutionary Russia and Soviet Union",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Revolutions of 1917, Civil War, consolidation of Bolshevik Regime; succession crisis and ascendancy of Stalin, collectivization and industrialization; foreign policy and World War II; death of Stalin, de-Stalinization, developments since; stagnation or stability? P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 12B",
+      "dept": "HIST",
+      "number": "12B",
+      "title": "Inequality: History of Neoliberalism",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of origins, ideas, and consequences of neoliberalism\u2014theory that society is best organized on principles of free trade, deregulation, and privatization. Combination of political, economic, and intellectual history to construct genealogy of neoliberal thinking by attending to 18th- and 19th-century liberalism, colonialism, imperialism, rise\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 12C",
+      "dept": "HIST",
+      "number": "12C",
+      "title": "Inequality: Global History of Anti-Colonial Thought and Struggle",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Ongoing growth and normalization of poverty, violence, and racial hatred in neo-liberal present have direct linkage to earlier moment when colonial rule of previous century brought about global structure of inequality. Examination of some of most important voices of anti-colonial and anti-imperialist struggle from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 131A",
+      "dept": "HIST",
+      "number": "131A",
+      "title": "Marxist Theory and History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Course 131A is generally requisite to 131B. Designed for juniors/seniors. Introduction to Marxist philosophy and method; conception of historical stages; competing Marxist analyses of transition from feudalism to capitalist economy via reading Capital; theory of politics and state in relationship to historical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 157B",
+      "dept": "HIST",
+      "number": "157B",
+      "title": "Indians of Colonial Mexico",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social and cultural history of Indians of Mexico, especially central Mexico, from time of European conquest until Mexican independence, with emphasis on internal view of Indian groups and patterns on basis of records produced by Indians themselves.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 162A",
+      "dept": "HIST",
+      "number": "162A",
+      "title": "Modern Brazil",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Selected topics in political, economic, social, and cultural development of Brazil, with emphasis on modernization and struggle for change, 1850 to present. Discussions, films, slides, and guest speakers supplement and complement lectures. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 164D",
+      "dept": "HIST",
+      "number": "164D",
+      "title": "Topics in African History: Africa and Diaspora in Global and Comparative Perspective",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Preparation: one prior course in African history at UCLA. Designed for juniors/seniors. Forced migration of Africans through overseas slave trade was formative event of modern world. Exploration of that experience and its lasting consequences by placing it in its global context\u2014African, American,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 164E",
+      "dept": "HIST",
+      "number": "164E",
+      "title": "Topics in African History: Africa, 1945 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Preparation: one prior course in African history at UCLA. Designed for juniors/seniors. History of Africa south of Sahara from end of World War II to present. Last phases of colonial rule in Africa, African nationalism, Pan-Africanism, liberation movements, and achievement of independence.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 166B",
+      "dept": "HIST",
+      "number": "166B",
+      "title": "History of West Africa: West Africa since 1800",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 168B",
+      "dept": "HIST",
+      "number": "168B",
+      "title": "History of Southern Africa since 1870",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Attention to social and economic as well as political aspects. Interactions between inhabitants of southern Africa since 1870. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 170D",
+      "dept": "HIST",
+      "number": "170D",
+      "title": "20th-Century China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course 11B. Designed for juniors/seniors. Political events and intellectual developments seen in context of social-economic trends; human agency, structural change, and historical conjunctures in 20th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 174B",
+      "dept": "HIST",
+      "number": "174B",
+      "title": "History of British India I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of expansion of British rule, theories and practice of governance, constitution of India as oriental despotism, epistemological projects of state, and other modes by which British achieved conquest of knowledge. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 174C",
+      "dept": "HIST",
+      "number": "174C",
+      "title": "Contemporary South Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political economy of imperialism and Britain\u2019s civilizing mission. Encounter, especially in terms of race and gender, between colonized and colonizers and to questions of resistance and nationalism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 175A",
+      "dept": "HIST",
+      "number": "175A",
+      "title": "Cultural and Political History of Contemporary South Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Problem of modernity; partition of India and emergence of Pakistan; political, social, ecological, and women\u2019s movements; struggle for rights and conflicts of identity among Muslims, Hindus, and Sikhs; terrorism in Sri Lanka and Punjab; public culture, popular cinema, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 175C",
+      "dept": "HIST",
+      "number": "175C",
+      "title": "Special Topics in Contemporary Indian History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Treatment of major issues in history of contemporary India. May be repeated for maximum of 16 units with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176B",
+      "dept": "HIST",
+      "number": "176B",
+      "title": "History of Southeast Asia: Southeast Asia since 1815",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. History of modern Southeast Asia, with emphasis on expansion of European influence in political and economic spheres, growth of nationalism, and process of decolonization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176C",
+      "dept": "HIST",
+      "number": "176C",
+      "title": "Philippine History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social, cultural, and political history of Philippine societies from Spanish conquest through independence. Emphasis on questions of identity under colonialism, understanding Revolutions of 1896 and 1898, and politics of Philippine nationalist discourse. Readings include introduction to major issues in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 177B",
+      "dept": "HIST",
+      "number": "177B",
+      "title": "Comparative Histories of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Variable topics with focus on history of Southeast Asia from thematic or comparative perspective. Topics may include history of human rights in Southeast Asia, gender and sexuality in island Southeast Asia, and economic history of Southeast Asia. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 22",
+      "dept": "HIST",
+      "number": "22",
+      "title": "Contemporary World History, 1760 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Broad thematic survey of world history since the mid-18th century. Examination, through lecture and discussion, of global implications of imperialism, total war, nationalism, cultural change, decolonization, changes in women\u2019s rights and roles, and eclipse of world communism. Designed to introduce students to historical study,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 8A",
+      "dept": "HIST",
+      "number": "8A",
+      "title": "Colonial Latin America",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 8AH. General introduction to Latin American history from contact period to independence (1490s to 1820s), with emphasis on convergence of Native American, European, and African cultures in Latin America; issues of ethnicity and gender;\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 8B",
+      "dept": "HIST",
+      "number": "8B",
+      "title": "Modern Latin America",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introductory survey of social, political, and economic history of Latin America after independence, region that includes Mexico, Central and South America, and Caribbean. Formation of independent nation states and political regimes and quest for sovereignty and its challenges in shadow of U.S., approached from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 8C",
+      "dept": "HIST",
+      "number": "8C",
+      "title": "Contemporary Latin American Film and Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Historical and contemporary perspective of role of ordinary people in Latin American society. Each lecture/film session centers on a major Latin American movie illustrative of a theme in social history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 96W",
+      "dept": "HIST",
+      "number": "96W",
+      "title": "Introduction to Historical Practice",
+      "units": 5.0,
+      "description": "Seminar, three hours. Requisite: English Composition 3. Introduction to study of history, with emphasis on historical theory and research methods. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9A",
+      "dept": "HIST",
+      "number": "9A",
+      "title": "Introduction to Asian Civilizations: History of India",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introductory survey for beginning students of major cultural, social, and political ideas, traditions, and institutions of Indic civilization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9D",
+      "dept": "HIST",
+      "number": "9D",
+      "title": "Introduction to Asian Civilizations: History of Middle East",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to history of Muslim world from advent of Islam to present day. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9E",
+      "dept": "HIST",
+      "number": "9E",
+      "title": "Introduction to Asian Civilizations: Southeast Asian Crossroads",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Overview history of a region united by its wet tropical environment and divided by great religious, cultural, and political pluralism, with focus on Vietnamese, Thai, Filipino, Khmer, Burmese, and Malayo-Indonesian patterns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M108C",
+      "dept": "HIST",
+      "number": "M108C",
+      "title": "Culture Area of Maghrib (North Africa)",
+      "units": 4.0,
+      "description": "(Same as Anthropology M166Q and Arabic M171.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M144C",
+      "dept": "HIST",
+      "number": "M144C",
+      "title": "Critical Issues in U.S.-Philippine Relations",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M171D.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: courses 176A, 176B, 176C. Designed for juniors/seniors. Examination of complex interrelationship between U.S. colonialism, Philippine nationalism, history of Filipino Americans, and Philippine diaspora in 20th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M170C",
+      "dept": "HIST",
+      "number": "M170C",
+      "title": "History of Women in China, AD 1000 to Present",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M170C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Topics include women and family, women in Confucian ideology, women in literati culture, feminist movement, and women and communist revolution. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS 184",
+      "dept": "HNRS",
+      "number": "184",
+      "title": "India and Pakistan: Historic Roots of Conflict and Prospects for Cooperation",
+      "units": 5.0,
+      "description": "Seminar, three hours. Designed for College Honors students. History of India and Pakistan from demise of British India\u2019s Empire in mid-August 1947, with inept partition of Punjab and Bengal and bifurcated Pakistan, to current state of both nations and their potential for conflict and cooperation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS M145",
+      "dept": "HNRS",
+      "number": "M145",
+      "title": "Politics of Crisis: Migration, Identity, and Religion",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M126.) Lecture, three hours. Examination of individual and collective religious response of Latin Americans and Latinas/Latinos in U.S. to dislocations, displacements, and fragmentation produced by conquest, colonization, underdevelopment, globalization, and migration. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS M152",
+      "dept": "HNRS",
+      "number": "M152",
+      "title": "(When) Do Leaders Make Differences?",
+      "units": 5.0,
+      "description": "(Same as Anthropology M148 and Geography M142.) Lecture, two hours; discussion, two hours. Examination of leaders who did or did not succeed in effecting change, as background to understanding conditions under which leaders can make differences. Comparison of political leaders, business chief executive officers, sports coaches, and religious leaders. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS M157",
+      "dept": "HNRS",
+      "number": "M157",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "(Same as Political Science M132B.) Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Role of great powers in Middle East, with emphasis on American, Soviet, and West European policies since 1945. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 1",
+      "dept": "I A STD",
+      "number": "1",
+      "title": "Introduction to International and Area Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to international and area studies from interdisciplinary framework, covering themes related to international politics and markets, as well as international societies and cultures, to illuminate and clarify profoundly international character of world we live in and to introduce set of contemporary issues and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 31",
+      "dept": "I A STD",
+      "number": "31",
+      "title": "Introduction to Southeast Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern Southeast Asia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 33",
+      "dept": "I A STD",
+      "number": "33",
+      "title": "Introduction to East Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern East Asia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 50",
+      "dept": "I A STD",
+      "number": "50",
+      "title": "Introduction to Latin America",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern Latin America. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV 1",
+      "dept": "INTL DV",
+      "number": "1",
+      "title": "Introduction to International Development Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of historical and contemporary context of socioeconomic inequalities between Global South and Global North. Focus on cultural, political, and economic realities of developing world, which includes countries of Asia, eastern Europe, Africa, Middle East, and Latin America. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "INTL DV 110",
+        "INTL DV 130",
+        "INTL DV 140",
+        "INTL DV M120",
+        "INTL DV M150"
+      ]
+    },
+    {
+      "course_id": "INTL DV 110",
+      "dept": "INTL DV",
+      "number": "110",
+      "title": "Culture, Power, and Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Broad introduction to theoretical traditions in development studies, with focus on dynamics of culture, power, markets, states and social movements, with selected case studies in developing nations and comparative case analysis across Global South and North. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "INTL DV 191"
+      ]
+    },
+    {
+      "course_id": "INTL DV 130",
+      "dept": "INTL DV",
+      "number": "130",
+      "title": "Theory and History in International Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Social scientific survey of debates over policies contributing to economic development and underdevelopment. Topics include measurement and statistics, social and industrial policies, inequality, poverty, and historical differences for development paths across Europe, Asia, Africa, and Latin America. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "INTL DV 191"
+      ]
+    },
+    {
+      "course_id": "INTL DV 140",
+      "dept": "INTL DV",
+      "number": "140",
+      "title": "Decolonizing Political Economy: Colonialism and Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Introduction to approaches and intellectual traditions of critical development studies. Violence of colonization and struggle for decolonization were two of defining processes of 20th century. Consideration of how development as global good can be reconciled with its origins in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "INTL DV 191"
+      ]
+    },
+    {
+      "course_id": "INTL DV 191",
+      "dept": "INTL DV",
+      "number": "191",
+      "title": "Variable Topics Research Seminars: International Development Studies\u00e2\u20ac\u201dSenior Seminar",
+      "units": 4.0,
+      "description": "Seminar, three hours. Requisites: three courses from 110, M120, 130, 140. Limited to senior International Development Studies majors. Organized on topics basis with readings, discussions, papers. May not be repeated for credit. Letter grading.",
+      "prereqs_raw": "Requisites: three courses from 110, M120, 130, 140.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "INTL DV 110",
+            "INTL DV M120",
+            "INTL DV 130",
+            "INTL DV 140"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV 198A",
+      "dept": "INTL DV",
+      "number": "198A",
+      "title": "Honors Research in International Development Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average in courses for major, formal application to honors program. Requisites: courses 110, M120, 130. Limited to junior/senior International Development Studies majors. Research, discussion, and planning of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 110, M120, 130.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "INTL DV 198B"
+      ]
+    },
+    {
+      "course_id": "INTL DV 198B",
+      "dept": "INTL DV",
+      "number": "198B",
+      "title": "Honors Research in International Development Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average in courses for major, formal application to honors program. Enforced requisite: course 198A. Limited to junior/senior International Development Studies majors. Research, discussion, and planning of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. In\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "INTL DV 198C"
+      ]
+    },
+    {
+      "course_id": "INTL DV 198C",
+      "dept": "INTL DV",
+      "number": "198C",
+      "title": "Honors Research in International Development Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average in courses for major, formal application to honors program. Enforced requisite: course 198B. Limited to junior/senior International Development Studies majors. Final drafting and submission of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV M120",
+      "dept": "INTL DV",
+      "number": "M120",
+      "title": "Political Economy of Development",
+      "units": 4.0,
+      "description": "(Same as Political Science M167C.) Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 1. Political economy approach to puzzle of why some countries are rich and others are poor and why, among latter, some have been able to achieve rapid rates of economic growth and others\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "INTL DV 191"
+      ]
+    },
+    {
+      "course_id": "INTL DV M150",
+      "dept": "INTL DV",
+      "number": "M150",
+      "title": "Political Economy of Climate Change",
+      "units": 4.0,
+      "description": "(Same as Political Science M152.) Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Exploration of how governments at international, national, and regional levels are addressing\u2014or not addressing\u2014extraordinary challenge of climate change. Use of combination of readings, lectures, and discussions to better understand causes, consequences, and policies to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 154",
+      "dept": "KOREA",
+      "number": "154",
+      "title": "Contemporary Korean Culture through Literature and Film",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Korean not required. Use of fiction and film to explore contemporary Korean culture in cross-cultural context. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENG COMP 3"
+          ],
+          [
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 155",
+      "dept": "KOREA",
+      "number": "155",
+      "title": "Topics in Korean Cinema",
+      "units": 4.0,
+      "description": "Lecture, one hour; discussion, one hour; film viewing, three hours. Knowledge of Korean not required. Historical and critical survey of Korean cinema, examining intersection between 20th-century Korean history, politics, and filmmaking. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 180C",
+      "dept": "KOREA",
+      "number": "180C",
+      "title": "History of Korea since 1876",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of evolution of Korean culture and society within context of political and institutional industry. Consideration of both higher and popular culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 116A",
+      "dept": "POL SCI",
+      "number": "116A",
+      "title": "Marxism",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Critical analysis of origins, nature, and development of Marxist political theory. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 123A",
+      "dept": "POL SCI",
+      "number": "123A",
+      "title": "International Law",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Study of nature and place of international law in conduct of international relations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 124A",
+      "dept": "POL SCI",
+      "number": "124A",
+      "title": "International Political Economy",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Study of political aspects of international economic issues. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 126",
+      "dept": "POL SCI",
+      "number": "126",
+      "title": "Peace and War",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Theory and research on causes of war and conditions of peace.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 132A",
+      "dept": "POL SCI",
+      "number": "132A",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Contemporary regional issues and conflicts, with particular attention to inter-Arab politics, Arab-Israeli problem, and Persian Gulf area.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 137A",
+      "dept": "POL SCI",
+      "number": "137A",
+      "title": "International Relations Theory",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of various theoretical approaches to international relations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 150",
+      "dept": "POL SCI",
+      "number": "150",
+      "title": "Political Violence",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of one or several different uses of violence in revolutionary process: demonstrations, mass uprisings, coup d\u2019etat, assassination, and terrorism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 151A",
+      "dept": "POL SCI",
+      "number": "151A",
+      "title": "African Politics: Government and Politics of Africa",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparative study of government and politics in contemporary Africa, with special attention to state/society relations, interaction of politics and economic development, political institutions, and conflict and conflict resolution. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 151B",
+      "dept": "POL SCI",
+      "number": "151B",
+      "title": "African Politics: Political Economy of Africa",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of interactions of economic and political factors in African development, with special attention to political basis of inappropriate economic policy during early post-independence period and change toward a more appropriate economic strategy in recent times. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 154A",
+      "dept": "POL SCI",
+      "number": "154A",
+      "title": "Government and Politics in Latin America: States of Middle America",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Enforced requisite: course 50 or 50R. Designed for juniors/seniors. Comparative study of governmental and political development, organization, and practices. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 50 or 50R.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "POL SCI 50",
+            "POL SCI 50R"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 154B",
+      "dept": "POL SCI",
+      "number": "154B",
+      "title": "Government and Politics in Latin America: States of South America",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparative study of governmental and political development, organization, and practices. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 156A",
+      "dept": "POL SCI",
+      "number": "156A",
+      "title": "Government and Politics of Post-Communist States: Russia",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Intensive study of institutions and political development in Russia, with special attention to legacy of Soviet Union. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 157",
+      "dept": "POL SCI",
+      "number": "157",
+      "title": "Government and Politics in the Middle East",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparative study of government in the Arab States, Turkey, Israel, and Iran. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 158",
+      "dept": "POL SCI",
+      "number": "158",
+      "title": "Southeast Asian Politics",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 50. Designed for juniors/seniors. Survey of political environment in major Southeast Asian states. Use of comparative analysis to address major problems confronting region, including democratization, economic growth, drug trade, deforestation, and security threats. Letter grading.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 159A",
+      "dept": "POL SCI",
+      "number": "159A",
+      "title": "Government and Politics of China: Chinese Revolution and Age of Mao Zedong",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of modern Chinese politics from decline of Manchu dynasty and rise of revolutionary nationalism to death of Mao Zedong, with emphasis on socioeconomic foundations and political dynamics of revolution in modern China.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 159B",
+      "dept": "POL SCI",
+      "number": "159B",
+      "title": "Government and Politics of China: China in Age of Reform",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of China\u2019s political and ideological transformation in post-Mao era. Assessment of impact of changing socioeconomic conditions on revolutionary policies and programs of Chinese Communist Party. Exploration of etiology of 1989 Tiananmen crisis and consequences for China\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 165",
+      "dept": "POL SCI",
+      "number": "165",
+      "title": "Islam and Politics",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Religious and spiritual foundations of Islamic legal and political institutions; legitimacy of historical and contemporary Islamic regimes, movements, and ideologies; political strategies of Islamic activism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 167D",
+      "dept": "POL SCI",
+      "number": "167D",
+      "title": "Political Institutions and Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Preparation: one statistics course. Designed for juniors/seniors. Data analytic approach to question of why some countries are rich and others are poor, with special attention to evidence about how governments and political institutions affect economic development. May be applied toward\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 168",
+      "dept": "POL SCI",
+      "number": "168",
+      "title": "Comparative Political Analysis",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisites: two courses in Field IV, or course 50 and one course in Field IV. Designed for juniors/seniors. Major approaches to study of comparative politics. Concepts and methodology of comparative analysis. Letter grading.",
+      "prereqs_raw": "Requisites: two courses in Field IV, or course 50 and one course in Field IV.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "POL SCI 50"
+          ],
+          [
+            "POL SCI (Field IV)",
+            "POL SCI (Field IV)"
+          ],
+          [
+            "POL SCI 50",
+            "POL SCI (Field IV)"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 170A",
+      "dept": "POL SCI",
+      "number": "170A",
+      "title": "Studies in Statistical Analysis of Political Data",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Enforced requisite: course 6 or 6R. Designed for juniors/seniors. Use of statistical methods to interpret data and test theories from various fields in political science and use of quantitative evidence in construction of convincing and truthful arguments related to world\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 or 6R.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "POL SCI 6",
+            "POL SCI 6R"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 20",
+      "dept": "POL SCI",
+      "number": "20",
+      "title": "World Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Required of all students concentrating in Field II. Introduction to problems of world politics. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 123A",
+        "POL SCI 124A",
+        "POL SCI 126",
+        "POL SCI 132A"
+      ]
+    },
+    {
+      "course_id": "POL SCI 50",
+      "dept": "POL SCI",
+      "number": "50",
+      "title": "Introduction to Comparative Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50R. Comparative study of constitutional principles, governmental institutions, and political processes in selected countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 154A",
+        "POL SCI 158",
+        "POL SCI 168"
+      ]
+    },
+    {
+      "course_id": "POL SCI 6",
+      "dept": "POL SCI",
+      "number": "6",
+      "title": "Introduction to Data Analysis",
+      "units": 5.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Not open for credit to students with credit for course 6R. Introduction to collection and analysis of political data, with emphasis on application of statistical reasoning to study of relationships among political variables. Use of computer as aid in analyzing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 170A"
+      ]
+    },
+    {
+      "course_id": "POL SCI M122B",
+      "dept": "POL SCI",
+      "number": "M122B",
+      "title": "Global Environment and World Politics",
+      "units": 4.0,
+      "description": "(Same as Environment M161.) Lecture, three or four hours; discussion, one hour (when scheduled). Recommended requisite: course 20. Politics and policy of major global environmental issues such as climate change, integrating law, policy, and political science perspectives. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI M132B",
+      "dept": "POL SCI",
+      "number": "M132B",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "(Same as Honors Collegium M157.) Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Role of great powers in Middle East, with emphasis on American, Soviet, and West European policies since 1945. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI M184A",
+      "dept": "POL SCI",
+      "number": "M184A",
+      "title": "Black Experience in Latin America and Caribbean I",
+      "units": 4.0,
+      "description": "(Same as African American Studies M154C.) Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Culture, history, politics, and identity of African Americans in Spanish and Lusophone Caribbean, South America, and Central America. Exploration of issues of identity in context of Afro/Latino migration to U.S. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 142A",
+      "dept": "PORTGSE",
+      "number": "142A",
+      "title": "Brazil and Its Culture",
+      "units": 4.0,
+      "description": "Lecture, four hours. Taught in English. Exploration of roots of contemporary Brazil through study of broad chronological periods from Portuguese colonization to present and how they shaped idea of Brazilian exceptionalism, racial mixture as source of national identity, and lusotropicalism and its influence on Brazilian historiography. May be repeated for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 143A",
+      "dept": "PORTGSE",
+      "number": "143A",
+      "title": "Colony, Intellectuals, and History",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisite: course 27. Investigation of way that Brazilian maritime expansion from 15th to early 19th century was represented and interpreted in writings from across empire. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 27.",
+      "prereqs_parsed": {
+        "required": [
+          "PORTGSE 27"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 110",
+      "dept": "PUB AFF",
+      "number": "110",
+      "title": "Urban Revolution: Space and Society in Global Context",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of potentialities and challenges of 21st-century urban revolution in global context. Introduction of theoretical frameworks and conceptual methods used by urban studies and planning to study cities and urban transformations, and historical and contemporary analysis of urbanization to learn about key urban processes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 115",
+      "dept": "PUB AFF",
+      "number": "115",
+      "title": "Using Quantitative Methods to Understand Social Problems and their Potential Solutions",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: course 60 or equivalent introductory statistics course. Course in R preferred. Introduction to multivariate quantitative research models used to answer questions in social science. Students gain practical and intuitive understanding of multivariate regression, program evaluation, and research methods, and apply knowledge by analyzing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 60 or equivalent introductory statistics course.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PUB AFF 60"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 116",
+      "dept": "PUB AFF",
+      "number": "116",
+      "title": "Using Qualitative Methods to Understand Social Problems and Their Potential Solutions",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to qualitative research methods with focus on ethnographic observations, interviewing, and focus groups. Students practice conducting variety of qualitative methods. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 30",
+      "dept": "PUB AFF",
+      "number": "30",
+      "title": "Comparative Analysis of Wealth, Policy, and Power",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of strategic interactions that give rise to social problems around world, what can be done to address them, and how different polities have tried (and sometimes failed) to mount effective response. Applications include climate change, antivaccination movement, protest and repression, war and formation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 40",
+      "dept": "PUB AFF",
+      "number": "40",
+      "title": "Microeconomics for Public Affairs",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to principles of microeconomics with focus on social and policy problems. Study of decisions by firms and individuals, and implications for allocation of resources. Application of economic models to public issues such as social safety net, minimum wage, education, inequality, and poverty. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 60",
+      "dept": "PUB AFF",
+      "number": "60",
+      "title": "Using Data to Learn about Society: Introduction to Empirical Research and Statistics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Not open for credit to students with credit for Economics 41, Political Science 6, Statistics 10, 12, 13, or 15. Introduction to statistics through examination of topics of public interest. Familiarization with research design principles and hands-on data analysis using statistical software. Students learn\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PUB AFF 115"
+      ]
+    },
+    {
+      "course_id": "RUSSN 120",
+      "dept": "RUSSN",
+      "number": "120",
+      "title": "Literature and Revolution",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Russian majors are advised to take this course in their sophomore year. Lectures and readings in English. Major works of the 20th century (Belyi, Pasternak, Bulgakov, Solzhenitsyn, and others) from prerevolutionary avant-garde to the present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 121",
+      "dept": "RUSSN",
+      "number": "121",
+      "title": "Russian Pop Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Overview of Russian popular culture today, with examination of status of Russia\u2019s classic(al) traditions for artists and audiences working in modern Russia. Death of one tradition and attempts at creation of another lead away from written word into neighboring\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 122",
+      "dept": "RUSSN",
+      "number": "122",
+      "title": "Siberia",
+      "units": 5.0,
+      "description": "Lecture, three hours. Introductory survey in which current cultural and ecological issues are situated in their geographical and historical background, including analysis of Siberian human geography before first contact with European colonizers and development of modes of interaction among different cultural groups. Reading in English of selection of literary works\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C131",
+      "dept": "RUSSN",
+      "number": "C131",
+      "title": "History of Russian Cinema",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN M127",
+      "dept": "RUSSN",
+      "number": "M127",
+      "title": "Women in Russian Literature",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M127.) Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Introduction to alternative tradition of women\u2019s writings in Russia and Soviet Union. Emphasis on images of women expressed in this tradition as compared with those found in works of contemporary male writers. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 135",
+      "dept": "SEASIAN",
+      "number": "135",
+      "title": "Religion and Society in Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Critical issues related to major religious traditions in Southeast Asia, with emphasis on reading and reflecting on recent scholarship regarding complex interactions between religion, state, and society in contemporary Southeast Asia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 157",
+      "dept": "SEASIAN",
+      "number": "157",
+      "title": "Gender Issues in Southeast Asia",
+      "units": 4.0,
+      "description": "Seminar, three hours. Critical examination of gender issues in one or more Southeast Asian countries as they connect to social historical contexts nationally, regionally, or globally. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 1",
+      "dept": "SOCIOL",
+      "number": "1",
+      "title": "Introductory Sociology",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Survey of characteristics of social life, processes of social interaction, and tools of sociological investigation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 183"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 101",
+      "dept": "SOCIOL",
+      "number": "101",
+      "title": "Development of Sociological Theory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Comparative survey of basic concepts and theories in sociology from 1850 to 1920. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 102",
+      "dept": "SOCIOL",
+      "number": "102",
+      "title": "Contemporary Sociological Theory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 101. Critical examination of significant theoretical formulations from 1920 to present. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 101.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 113",
+      "dept": "SOCIOL",
+      "number": "113",
+      "title": "Statistical and Computer Methods for Social Research",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Requisite: Statistics 10. Continuation of Statistics 10, covering more advanced statistical techniques such as multiple regression, analysis of variance, or factor analysis. Content varies. Students learn how to use computer and write papers analyzing prepared data sets. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Statistics 10.",
+      "prereqs_parsed": {
+        "required": [
+          "STAT 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 122",
+      "dept": "SOCIOL",
+      "number": "122",
+      "title": "Sociology of Violence",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of macro-, meso-, and micro-level theories of violence, why states organize violence, why civilizations participate in violence, and physical, structural, and symbolic violence. Discussion of how various social categories such as race, ethnicity, religion, class, gender, and sex are implicated in violence and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 123",
+      "dept": "SOCIOL",
+      "number": "123",
+      "title": "Social Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. How does social change occur? This question is linked to fundamental debates in sociology about structure (degree to which individual\u2019s actions are constrained by social forces) and agency (degree to which individuals can choose their own courses of action). Major theories (Marxist, Weberian, demographic,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 152",
+      "dept": "SOCIOL",
+      "number": "152",
+      "title": "Comparative Acculturation and Assimilation",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 151. Comparison of acculturation and assimilation of Europeans, Africans, Mexicans, and Asians in the U.S., with emphasis on long-term cultural consequences of immigration. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 151.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 151"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 154",
+      "dept": "SOCIOL",
+      "number": "154",
+      "title": "Race and Ethnicity in Latin America",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in political, economic, and social lives of Latin American nations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 181A",
+      "dept": "SOCIOL",
+      "number": "181A",
+      "title": "Sociology of Global China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Analyses of how domestic developments create impetus for China\u2019s global expansion, and assessment of global China\u2019s variegated and uneven consequences. Concrete case studies include Belt and Road Initiative, soft power and cultural diplomacy, internal colonization of Hong Kong and Xinjiang, China\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 182",
+      "dept": "SOCIOL",
+      "number": "182",
+      "title": "Political Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Contributions of sociology to study of politics, including analysis of political aspects of social systems, social context of action, and social bases of power. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 183",
+      "dept": "SOCIOL",
+      "number": "183",
+      "title": "Comparative and Historical Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Survey of central themes of comparative and historical studies in sociology. Various aspects of development of modern society, including development of nation-state, emergence of capitalism, industrialization, and population growth. Variation in contemporary society, viewed from variety of theoretical perspectives. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 186",
+      "dept": "SOCIOL",
+      "number": "186",
+      "title": "Latin American Societies",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Social structure and social conflict in Latin America, with special attention to racial and class structures and dilemmas of economic and political development. Country and specific focus varies each term. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191D",
+      "dept": "SOCIOL",
+      "number": "191D",
+      "title": "Undergraduate Seminar: Sociology of Development",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Taught in Spanish. Selected topics on development in Third World from global perspective. Reading, discussion, and development of culminating project. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191F",
+      "dept": "SOCIOL",
+      "number": "191F",
+      "title": "Undergraduate Seminar: Sociology of Globalization",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Great extension of social relations across globe has occurred over last 50 years. What are causes and mechanisms of this process, how far has it transformed human societies, and how far will it go in future? Economic, cultural, political, and military aspects of globalization,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 20",
+      "dept": "SOCIOL",
+      "number": "20",
+      "title": "Introduction to Sociological Research Methods",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to methods used in contemporary sociological research, with focus on issues of research design, data collection, and analysis of data. Fieldwork may be required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M115",
+      "dept": "SOCIOL",
+      "number": "M115",
+      "title": "Environmental Sociology",
+      "units": 4.0,
+      "description": "(Same as Environment M133 and Society and Genetics M133.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M178",
+      "dept": "SOCIOL",
+      "number": "M178",
+      "title": "Sociology of Caribbean",
+      "units": 4.0,
+      "description": "(Same as African American Studies M178.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Historical sociology of Caribbean, with emphasis on colonialism and decolonization, development and underdevelopment, race-making institutions and evolution of race relations, nationalism and migration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 44",
+      "dept": "SPAN",
+      "number": "44",
+      "title": "Latin American Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spanish America, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 112"
+      ]
+    },
+    {
+      "course_id": "STATS 112",
+      "dept": "STATS",
+      "number": "112",
+      "title": "Statistics: Window to Understanding Diversity",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Requisite: one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Limited to juniors/seniors. Statistical methods in social sciences, including regression, multivariate techniques, logistic regression, and data-handling\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 10",
+            "STATS 12",
+            "STATS 13",
+            "ECON 11",
+            "ECON 41",
+            "PSYCH 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 12",
+      "dept": "STATS",
+      "number": "12",
+      "title": "Introduction to Statistical Methods for Geography and Environmental Studies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 112"
+      ]
+    },
+    {
+      "course_id": "THEATER 107",
+      "dept": "THEATER",
+      "number": "107",
+      "title": "Drama of Diversity",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Investigation of diversity in American society as manifested in dramatic works and theatrical presentations. P/NP or Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "URBN PL 121",
+      "dept": "URBN PL",
+      "number": "121",
+      "title": "Urban Policy and Planning",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of current urban planning and policy issues and debates, such as normative theories of good urban form, metropolitan organization and governance, economic development and growth management, edge cities, spatial mismatch hypothesis, urban poverty, racial/ethnic inequality, gender and urban structure, sustainability, and future of cities. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "URBN PL CM166",
+      "dept": "URBN PL",
+      "number": "CM166",
+      "title": "Global Environment and Development: Problems and Issues",
+      "units": 4.0,
+      "description": "(Same as Geography M127.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Questions of population, resource use, Third World poverty, and environment. Analysis of global economic restructuring and its connections to changing organization of production and resulting environmental impacts. Case studies from Africa, Latin America, Asia, and U.S. Concurrently\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "URBN PL M110",
+      "dept": "URBN PL",
+      "number": "M110",
+      "title": "Inequality and Democracy: Analysis and Praxis of Public Problems",
+      "units": 4.0,
+      "description": "(Same as Social Welfare M110.) Lecture, three hours; discussion, one hour. Analysis and praxis of public problems. Taking up case of persistent inequality in liberal democracies, coverage of key frameworks and methodologies for understanding and analyzing poverty and inequality and examination of forms of action, from role of government to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "URBN PL M122",
+      "dept": "URBN PL",
+      "number": "M122",
+      "title": "Policy, Planning, and Community",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M108.) Lecture, three hours; field laboratory. Project-oriented methods course on conducting needs assessment in Asian American communities. Geographic information systems to be used to define problems and needs. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "URBN PL M160",
+      "dept": "URBN PL",
+      "number": "M160",
+      "title": "Environmental Politics and Governance",
+      "units": 4.0,
+      "description": "(Same as Environment M164.) Lecture, three hours. Environmental planning is more than simply finding problems and fixing them. Each policy must be negotiated and implemented within multiple, complex systems of governance. Institutions and politics matter deeply. Overview of how environmental governance works in practice and how it might be improved.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 180B",
+      "dept": "VIETMSE",
+      "number": "180B",
+      "title": "Vietnam: History and Civilization, 1858 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: at least one Asian history or civilization course. Exploration of Vietnamese history and civilization during colonial and postcolonial eras, with emphasis on profound changes that swept through Vietnamese society during period of extended political and military conflict. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE CM155",
+      "dept": "VIETMSE",
+      "number": "CM155",
+      "title": "Topics in Vietnamese Cinema and/or Literature",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M173.) Lecture, three hours; discussion, one hour. Knowledge of Vietnamese not required. Critical and historical examination of literary and/or filmic representations connected to social practices such as empire, nation, diaspora, and globalization. Original language course materials available for interested students. May be concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

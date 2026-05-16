@@ -1,0 +1,2720 @@
+{
+  "major_id": "psychobiology-bs",
+  "major_name": "Psychobiology BS",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/PsychobiologyBS",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PSYCH 10",
+        "PSYCH 100A",
+        "PSYCH 100B",
+        "LIFESCI 7A",
+        "LIFESCI 7B",
+        "LIFESCI 7C",
+        "LIFESCI 7L"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHEM 14A",
+            "CHEM 14B",
+            "CHEM 14BL",
+            "CHEM 14C",
+            "CHEM 14D",
+            "CHEM 20A",
+            "CHEM 20B",
+            "CHEM 20L",
+            "CHEM 30A",
+            "CHEM 30AL",
+            "CHEM 30B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LIFESCI 30A",
+            "LIFESCI 30B",
+            "LIFESCI 40",
+            "STATS 13",
+            "MATH 3A",
+            "MATH 3B",
+            "MATH 3C",
+            "MATH 31A",
+            "MATH 31AL",
+            "MATH 31B",
+            "MATH 32A"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "PHYSICS 1A",
+            "PHYSICS 1B",
+            "PHYSICS 1C",
+            "PHYSICS 4AL",
+            "PHYSICS 4BL",
+            "PHYSICS 5A",
+            "PHYSICS 5B",
+            "PHYSICS 5C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PSYCH 110",
+        "PSYCH 115"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "EE BIOL 100",
+            "EE BIOL 129",
+            "PSYCH 118"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "PSYCH M116A",
+            "PSYCH M116B",
+            "NEURO 101L"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "C&S BIO": [
+      "C&S BIO M187"
+    ],
+    "CHEM": [
+      "CHEM 14A",
+      "CHEM 14B",
+      "CHEM 14BL",
+      "CHEM 14C",
+      "CHEM 14D",
+      "CHEM 153A",
+      "CHEM 153L",
+      "CHEM 20A",
+      "CHEM 20B",
+      "CHEM 20L",
+      "CHEM 30A",
+      "CHEM 30AL",
+      "CHEM 30B"
+    ],
+    "EE BIOL": [
+      "EE BIOL 100",
+      "EE BIOL 102",
+      "EE BIOL 105",
+      "EE BIOL 106",
+      "EE BIOL 110",
+      "EE BIOL 111",
+      "EE BIOL 112",
+      "EE BIOL 113A",
+      "EE BIOL 114A",
+      "EE BIOL 115",
+      "EE BIOL 117",
+      "EE BIOL 120",
+      "EE BIOL 121",
+      "EE BIOL 122",
+      "EE BIOL 124A",
+      "EE BIOL 129",
+      "EE BIOL 164",
+      "EE BIOL 170",
+      "EE BIOL C119A",
+      "EE BIOL C135"
+    ],
+    "LIFESCI": [
+      "LIFESCI 107",
+      "LIFESCI 30A",
+      "LIFESCI 30B",
+      "LIFESCI 40",
+      "LIFESCI 7A",
+      "LIFESCI 7B",
+      "LIFESCI 7C",
+      "LIFESCI 7L"
+    ],
+    "MATH": [
+      "MATH 31A",
+      "MATH 31AL",
+      "MATH 31B",
+      "MATH 32A",
+      "MATH 3A",
+      "MATH 3B",
+      "MATH 3C"
+    ],
+    "MCD BIO": [
+      "MCD BIO 100",
+      "MCD BIO 104AL",
+      "MCD BIO 138",
+      "MCD BIO CM156",
+      "MCD BIO M140"
+    ],
+    "MIMG": [
+      "MIMG 185A"
+    ],
+    "NEUROSC": [
+      "NEUROSC 101L",
+      "NEUROSC 102"
+    ],
+    "PHYSCI": [
+      "PHYSCI 146",
+      "PHYSCI 147",
+      "PHYSCI 166",
+      "PHYSCI 173",
+      "PHYSCI C130",
+      "PHYSCI C144"
+    ],
+    "PHYSICS": [
+      "PHYSICS 1A",
+      "PHYSICS 1B",
+      "PHYSICS 1C",
+      "PHYSICS 4AL",
+      "PHYSICS 4BL",
+      "PHYSICS 5A",
+      "PHYSICS 5B",
+      "PHYSICS 5C"
+    ],
+    "PSYCH": [
+      "PSYCH 10",
+      "PSYCH 100A",
+      "PSYCH 100B",
+      "PSYCH 110",
+      "PSYCH 111",
+      "PSYCH 112A",
+      "PSYCH 112B",
+      "PSYCH 112C",
+      "PSYCH 112D",
+      "PSYCH 112E",
+      "PSYCH 115",
+      "PSYCH 116B",
+      "PSYCH 118",
+      "PSYCH 120A",
+      "PSYCH 120B",
+      "PSYCH 124E",
+      "PSYCH 124K",
+      "PSYCH 127A",
+      "PSYCH 127B",
+      "PSYCH 127C",
+      "PSYCH 130",
+      "PSYCH 135",
+      "PSYCH 137A",
+      "PSYCH 137G",
+      "PSYCH 150",
+      "PSYCH 152",
+      "PSYCH 155A",
+      "PSYCH 155B",
+      "PSYCH 161",
+      "PSYCH 162",
+      "PSYCH 164",
+      "PSYCH 186D",
+      "PSYCH 191AH",
+      "PSYCH 191BH",
+      "PSYCH 191CH",
+      "PSYCH M116A",
+      "PSYCH M117A",
+      "PSYCH M117B",
+      "PSYCH M117C",
+      "PSYCH M166"
+    ],
+    "STATS": [
+      "STATS 13"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "C&S BIO M187",
+      "dept": "C&S BIO",
+      "number": "M187",
+      "title": "Research Communication in Computational and Systems Biology",
+      "units": 4.0,
+      "description": "(Same as Bioengineering CM187 and Computer Science CM187.) Lecture, four hours; outside study, eight hours. Requisites: course M150 or M186 or Computer Science M182; and research experience (course 199, Bioengineering, Computer Science 199, or equivalent). Closely directed, interactive, and real research experience in active quantitative systems biology research laboratory. Direction\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M150 or M186 or Computer Science M182; and research experience (course 199, Bioengineering, Computer Science 199, or equivalent).",
+      "prereqs_parsed": {
+        "required": [
+          "C&S BIO 199"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "C&S BIO M150",
+            "C&S BIO M186",
+            "COM SCI M182"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 14A",
+      "dept": "CHEM",
+      "number": "14A",
+      "title": "General Chemistry for Life Scientists I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "LIFE SCI 30A",
+          "MATH 3A",
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "CHEM 14BL",
+        "CHEM 20B",
+        "LIFESCI 107"
+      ]
+    },
+    {
+      "course_id": "CHEM 14B",
+      "dept": "CHEM",
+      "number": "14B",
+      "title": "General Chemistry for Life Scientists II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH"
+        ],
+        "corequisites": [
+          "LIFE SCI 30B",
+          "MATH 3B",
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ],
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31B"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14BL",
+        "CHEM 14C",
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 14BL",
+      "dept": "CHEM",
+      "number": "14BL",
+      "title": "General and Organic Chemistry Laboratory I",
+      "units": 3.0,
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "CHEM 14B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A"
+          ],
+          [
+            "CHEM 20A"
+          ],
+          [
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 153L",
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 14C",
+      "dept": "CHEM",
+      "number": "14C",
+      "title": "Structure of Organic Molecules",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C\u2013 or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14D",
+        "PSYCH M117A"
+      ]
+    },
+    {
+      "course_id": "CHEM 14D",
+      "dept": "CHEM",
+      "number": "14D",
+      "title": "Organic Reactions and Pharmaceuticals",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14C with grade of C\u2013 or better. Organic reactions, nucleophilic and electrophilic substitutions and additions; electrophilic aromatic substitutions, carbonyl reactions, catalysis, molecular basis of drug action, and organic chemistry of pharmaceuticals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14C with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 153A",
+        "EE BIOL 170"
+      ]
+    },
+    {
+      "course_id": "CHEM 153A",
+      "dept": "CHEM",
+      "number": "153A",
+      "title": "Biochemistry: Introduction to Structure, Enzymes, and Metabolism",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C\u2013 or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14D",
+            "CHEM 30B"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 153L"
+      ]
+    },
+    {
+      "course_id": "CHEM 153L",
+      "dept": "CHEM",
+      "number": "153L",
+      "title": "Biochemical Methods I",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, four hours. Requisites: courses 14BL or 20L and 30AL, and 153A or 153AH (may be taken concurrently), with grades of C\u2013 or better. Integrated term-long project involving biofuel production in bacteria. Purification of key enzyme for alcohol production from bacteria via affinity chromatography. Assessment of protein\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 14BL or 20L and 30AL, and 153A or 153AH (may be taken concurrently), with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 30AL"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14BL",
+            "CHEM 20L"
+          ],
+          [
+            "CHEM 153A",
+            "CHEM 153AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 20A",
+      "dept": "CHEM",
+      "number": "20A",
+      "title": "Chemical Structure",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "CHEM 14BL",
+        "CHEM 20B",
+        "LIFESCI 107"
+      ]
+    },
+    {
+      "course_id": "CHEM 20B",
+      "dept": "CHEM",
+      "number": "20B",
+      "title": "Chemical Energetics and Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 30A",
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 20L",
+      "dept": "CHEM",
+      "number": "20L",
+      "title": "General Chemistry Laboratory",
+      "units": 3.0,
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          {
+            "one_of": [
+              "CHEM 14B",
+              "CHEM 20B"
+            ]
+          }
+        ],
+        "one_of": [
+          {
+            "courses": [
+              "CHEM 14A",
+              "CHEM 20A"
+            ],
+            "min_grade": "C-"
+          }
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 153L"
+      ]
+    },
+    {
+      "course_id": "CHEM 30A",
+      "dept": "CHEM",
+      "number": "30A",
+      "title": "Organic Chemistry I: Structure and Reactivity",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 20B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 30B",
+        "LIFESCI 107",
+        "PSYCH M117A"
+      ]
+    },
+    {
+      "course_id": "CHEM 30AL",
+      "dept": "CHEM",
+      "number": "30AL",
+      "title": "General Chemistry Laboratory II",
+      "units": 4.0,
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CHEM 153L",
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 30B",
+      "dept": "CHEM",
+      "number": "30B",
+      "title": "Organic Chemistry II: Reactivity, Synthesis, and Spectroscopy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 30A",
+            "CHEM 30AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 153A",
+        "EE BIOL 170"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 100",
+      "dept": "EE BIOL",
+      "number": "100",
+      "title": "Introduction to Ecology and Behavior",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 7B. Not open for credit to students with credit for course 118, 122, 124A, 124B, 125, C126, 129, 132, 134B, 136, or 151B. Introduction to methods and topics in ecology and behavior. Growth and regulation of populations, organization of communities and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 122",
+        "EE BIOL 124A"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 102",
+      "dept": "EE BIOL",
+      "number": "102",
+      "title": "Biology of Marine Invertebrates",
+      "units": 4.0,
+      "description": "Five-week intensive course. Lecture, five hours; laboratory, 15 hours. Requisite: Life Sciences 1 or 7B. Morphology, systematics, life histories and natural history, ecology, behavior, and physiology of marine invertebrates. Given off campus at marine science center. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 105",
+      "dept": "EE BIOL",
+      "number": "105",
+      "title": "Biology of Invertebrates",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory/field trips, six hours. Requisite: Life Sciences 1 or 7B. Introduction to systematics, evolution, natural history, morphology, and physiology of invertebrates. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 106"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 106",
+      "dept": "EE BIOL",
+      "number": "106",
+      "title": "Experimental Marine Invertebrate Biology",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, 12 hours. Requisites: course 105, Physiological Science 166 (may be taken concurrently). Offered either as 6-unit quarter-long course or as 4-unit Marine Biology Quarter course. Advanced course of natural history, physiology, biochemistry of invertebrates, with emphasis on independent laboratory and field investigations. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: course 105, Physiological Science 166 (may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 105"
+        ],
+        "corequisites": [
+          "PHYS SCI 166"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 110",
+      "dept": "EE BIOL",
+      "number": "110",
+      "title": "Vertebrate Morphology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, five hours. Requisites: Life Sciences 1, 2, and 3, or 7A and 7B. Study of vertebrate morphology, function, and evolution from viewpoint of comparative anatomy of adult forms, biomechanics, development, and paleontology. Laboratory study of selected vertebrates. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 1, 2, and 3, or 7A and 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 2",
+            "LIFE SCI 3"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 111",
+      "dept": "EE BIOL",
+      "number": "111",
+      "title": "Biology of Vertebrates",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, three hours; four one- to two-day field trips. Requisite: Life Sciences 1 or 7B. Adaptations, behavior, and ecology of vertebrates. Letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 112",
+      "dept": "EE BIOL",
+      "number": "112",
+      "title": "Ichthyology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, six hours; field trips. Requisite: Life Sciences 1 or 7B. Highly recommended: courses 110, 111. Biology of freshwater and marine fishes, with emphasis on their evolution, systematics, morphology, zoogeography, and ecology. Field trips to examine fishes of Southern California shoreline, tidepools, and coastal streams. Letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 113A",
+      "dept": "EE BIOL",
+      "number": "113A",
+      "title": "Herpetology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Recommended requisite: course 120. Exploration and summarization of evolution, ecology, life history, and conservation biology of world\u2019s reptile and amphibian fauna. Topics include conservation assessments both globally and in California, discussion sections focused on student-led critical evaluations of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 114A",
+      "dept": "EE BIOL",
+      "number": "114A",
+      "title": "Ornithology",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory/field trips, three hours. Requisite: Life Sciences 1 or 7B. Recommended: course 100. Systematics, distribution, physiology, behavior, and ecology of birds. Letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 115",
+      "dept": "EE BIOL",
+      "number": "115",
+      "title": "Mammalogy",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, three hours. Requisite: Life Sciences 1 or 7B. Topics in mammalian biology, including evolution, ecology, behavior, functional morphology, systematics, physiology, and biogeography. Letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 117",
+      "dept": "EE BIOL",
+      "number": "117",
+      "title": "Evolution of Vertebrates",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, three hours. Recommended requisite: course 110. Survey of origin and evolution of vertebrates through examination of fossil record. Focus on fossil record of tetrapods, with emphasis on anatomical and physiological transformations in amphibians, reptiles, birds, and mammals. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 120",
+      "dept": "EE BIOL",
+      "number": "120",
+      "title": "Evolution",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Mathematics 3A and 3B (or 31A or Life Sciences 30B). Not open for credit to students with credit for course 185. Designed for departmental majors specializing in environmental and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Mathematics 3A and 3B (or 31A or Life Sciences 30B).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 2",
+            "LIFE SCI 3",
+            "LIFE SCI 4",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [],
+        "additional": {
+          "math_requirement": [
+            "MATH 3A",
+            "MATH 3B"
+          ],
+          "math_alternatives": [
+            "MATH 31A",
+            "LIFE SCI 30B"
+          ]
+        }
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 121",
+      "dept": "EE BIOL",
+      "number": "121",
+      "title": "Molecular Evolution",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A and 23L. Molecular biology, with emphasis on evolutionary aspects. DNA replication, RNA transcription, protein synthesis, gene expression, and molecular evolution. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 3",
+            "LIFE SCI 4",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 122",
+      "dept": "EE BIOL",
+      "number": "122",
+      "title": "Ecology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 100, Life Sciences 1 or 7B, Mathematics 3B or 31A or Life Sciences 30B. Highly recommended: Mathematics 31B, 32A. Designed for departmental majors specializing in environmental and population biology. Introduction to population and community ecology, with emphasis on growth and distributions of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B, Mathematics 3B or 31A or Life Sciences 30B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ],
+          [
+            "MATH 3B",
+            "MATH 31A",
+            "LIFE SCI 30B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 124A",
+      "dept": "EE BIOL",
+      "number": "124A",
+      "title": "Field Ecology",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory or field trip, 15 hours. Requisites: course 100, Life Sciences 1 or 7B. Recommended: courses 111, 120, 122. Offered as part of Field Biology Quarter that is in residence at research station located outside continental U.S. for part of or for duration of term. Field and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 129",
+      "dept": "EE BIOL",
+      "number": "129",
+      "title": "Animal Behavior",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 100, Life Sciences 1 or 7B. Introduction to behavioral ecology. Methods and results of evolutionary approaches to study of animal behavior, including foraging strategies, social competition, sexual selection, mating systems, cooperation, and social organization. Letter grading.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 164",
+      "dept": "EE BIOL",
+      "number": "164",
+      "title": "Field Biology of Marine Fishes",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory, 15 hours. Requisite: Life Sciences 1. Recommended: Mathematics 3A, 3B, 3C. Five-week intensive course offered only as part of Marine Biology Quarter. Selected aspects of natural history, ecology, and behavior of diverse assemblage of local marine fishes. Fieldwork strongly emphasized. Given off campus at marine science\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 170",
+      "dept": "EE BIOL",
+      "number": "170",
+      "title": "Animal Environmental Physiology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, six hours. Requisites: Chemistry 14D, or 30B and 30BL, Life Sciences 1, 2, 3, 4, and 23L, or Life Sciences 7A, 7B, 7C, and 23L, 30B or Mathematics 3C or 32A, Physics 1C and 4BL, or 5B or 6C or 6CH. Not open for credit to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14D, or 30B and 30BL, Life Sciences 1, 2, 3, 4, and 23L, or Life Sciences 7A, 7B, 7C, and 23L, 30B or Mathematics 3C or 32A, Physics 1C and 4BL, or 5B or 6C or 6CH.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14D",
+          "LIFE SCI 1",
+          "LIFE SCI 2",
+          "LIFE SCI 3",
+          "LIFE SCI 4",
+          "PHYSICS 1C",
+          "PHYSICS 4BL"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 30B",
+            "CHEM 30BL"
+          ],
+          [
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C",
+            "LIFE SCI 23L"
+          ],
+          [
+            "CHEM 30B",
+            "MATH 3C",
+            "MATH 32A"
+          ],
+          [
+            "PHYSICS 5B",
+            "PHYSICS 6C",
+            "PHYSICS 6CH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C119A",
+      "dept": "EE BIOL",
+      "number": "C119A",
+      "title": "Mathematical and Computational Modeling in Ecology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 30B or Mathematics 3B or 31A. Recommended: courses 100, 122, Life Sciences 1 or 7B, Mathematics 3C. Introduction to modeling dynamics of ecological systems, including formulation and analysis of mathematical models, basic techniques of scientific programming, probability and stochastic modeling, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 30B or Mathematics 3B or 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C135",
+      "dept": "EE BIOL",
+      "number": "C135",
+      "title": "Population Genetics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: Life Sciences 4 or 7A. Strongly recommended: course 100, Mathematics 31A, and 31B or Life Sciences 30B. Basic principles of genetics of population, dealing with genetic structure of natural populations and mechanisms of evolution. Equilibrium conditions and forces altering gene frequencies, polygenic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: Life Sciences 4 or 7A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 4",
+            "LIFE SCI 7A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 107",
+      "dept": "LIFESCI",
+      "number": "107",
+      "title": "Genetics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Requisites: courses 7C, 23L, Chemistry 14A (or 20A), 14C (or 30A). Not open for credit to students with credit for course 4. Advanced Mendelian genetics, recombination, biochemical genetics, mutation, DNA, genetic code, gene regulation, genes in populations. Letter grading.",
+      "prereqs_raw": "Requisites: courses 7C, 23L, Chemistry 14A (or 20A), 14C (or 30A).",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7C",
+          "LIFESCI 23L",
+          "CHEM 14A",
+          "LIFESCI 14C"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 20A"
+          ],
+          [
+            "LIFESCI 14C",
+            "CHEM 30A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 30A",
+      "dept": "LIFESCI",
+      "number": "30A",
+      "title": "Mathematics for Life Scientists",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LIFESCI 30B"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 30B",
+      "dept": "LIFESCI",
+      "number": "30B",
+      "title": "Mathematics for Life Scientists",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Enforced requisite: course 30A. Introduction to concept of matrices and linear transformations to equip students with some basic tools to understand dynamics of multivariable nonlinear systems. Examples from ecological, physiological, chemical, and other systems. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 30A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 30A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 40",
+      "dept": "LIFESCI",
+      "number": "40",
+      "title": "Statistics of Biological Systems",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 30A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7A",
+      "dept": "LIFESCI",
+      "number": "7A",
+      "title": "Cell and Molecular Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Introduction to basic principles of cell structure and cell biology, biochemistry, and molecular biology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LIFESCI 7B"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 7B",
+      "dept": "LIFESCI",
+      "number": "7B",
+      "title": "Genetics, Evolution, and Ecology",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, 80 minutes. Enforced requisite: course 7A. Principles of Mendelian inheritance and population genetics. Introduction to principles and mechanisms of evolution by natural selection, population, behavioral, and community ecology, and biodiversity, including major taxa and their evolutionary, ecological, and physiological relationships. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 7A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LIFESCI 7C",
+        "LIFESCI 7L"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 7C",
+      "dept": "LIFESCI",
+      "number": "7C",
+      "title": "Physiology and Human Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Enforced requisite: course 7B. Organization of cells into tissues and organs and principles of physiology of organ systems. Introduction to human genetics and genomics. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LIFESCI 107"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 7L",
+      "dept": "LIFESCI",
+      "number": "7L",
+      "title": "Introduction to Laboratory and Scientific Methodology",
+      "units": 3.0,
+      "description": "(Formerly numbered 23L.) Lecture, one hour; laboratory, three hours. Requisite: course 7B. Recommended to be taken concurrently with course 7C. Introductory life sciences laboratory designed for undergraduate students. Opportunity to conduct wet-laboratory and cutting-edge bioinformatics laboratory experiments. Students work in groups of three conducting experiments in areas of physiology, metabolism,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14A",
+        "CHEM 20A",
+        "CHEM 20B",
+        "EE BIOL 122",
+        "EE BIOL C119A",
+        "MATH 31B",
+        "PHYSICS 1A"
+      ]
+    },
+    {
+      "course_id": "MATH 31AL",
+      "dept": "MATH",
+      "number": "31AL",
+      "title": "Differential and Integral Calculus Laboratory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "CHEM 20B",
+        "PHYSICS 1A",
+        "PHYSICS 1B"
+      ]
+    },
+    {
+      "course_id": "MATH 32A",
+      "dept": "MATH",
+      "number": "32A",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EE BIOL 170",
+        "PHYSICS 1A",
+        "PHYSICS 1B",
+        "PHYSICS 1C"
+      ]
+    },
+    {
+      "course_id": "MATH 3A",
+      "dept": "MATH",
+      "number": "3A",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14A",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MATH 3B",
+      "dept": "MATH",
+      "number": "3B",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C\u2013 or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "EE BIOL 122",
+        "EE BIOL C119A",
+        "MATH 3C",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MATH 3C",
+      "dept": "MATH",
+      "number": "3C",
+      "title": "Ordinary Differential Equations with Linear Algebra for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C\u2013 or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 3B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 170",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MCD BIO 100",
+      "dept": "MCD BIO",
+      "number": "100",
+      "title": "Introduction to Cell Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Not open for credit to Molecular, Cell, and Developmental Biology majors or to students with credit for course 165A. Analysis of cell organization, structure, and function at molecular level. Cell membranes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C",
+            "MCD BIO 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO 104AL",
+      "dept": "MCD BIO",
+      "number": "104AL",
+      "title": "Research Immersion Laboratory in Developmental Biology",
+      "units": 5.0,
+      "description": "Lecture, two hours; laboratory, eight hours. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Course 104AL is requisite to 104BL. Limited to Molecular, Cell, and Developmental Biology and Microbiology, Immunology, and Molecular Genetics majors. Discovery-based research using sea urchins as model system. Students determine\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C",
+            "MCD BIO 23L",
+            "MCD BIO 107"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO 138",
+      "dept": "MCD BIO",
+      "number": "138",
+      "title": "Developmental Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Development of understanding of fundamental molecular mechanisms and cellular activities guiding formation of complex organism from single fertilized egg. Development of model organisms to understand conserved nature of developmental decisions\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C",
+            "MCD BIO 23L",
+            "MCD BIO 107"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO CM156",
+      "dept": "MCD BIO",
+      "number": "CM156",
+      "title": "Human Genetics and Genomics",
+      "units": 5.0,
+      "description": "(Same as Microbiology CM156.) Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C. Application of genetic principles in human populations, with emphasis on genomics, family studies, positional cloning, Mendelian and common diseases, cancer genetics, animal models, cytogenetics, pharmacogenetics, population genetics, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO M140",
+      "dept": "MCD BIO",
+      "number": "M140",
+      "title": "Cancer Cell Biology",
+      "units": 5.0,
+      "description": "(Same as Biological Chemistry M140.) Lecture, three hours; discussion, one hour. Requisite: course 165A. Cancer causes and genetics. Effects of cell transformation on cell growth and metabolism. Altered cell cycle, metabolism, and differentiation pathways in cancer cells. Tumor microenvironment contributions to cancer malignancy, including angiogenesis, metastasis, and immune system evasion.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 165A.",
+      "prereqs_parsed": {
+        "required": [
+          "MCD BIO 165A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MIMG 185A",
+      "dept": "MIMG",
+      "number": "185A",
+      "title": "Immunology",
+      "units": 5.0,
+      "description": "(Formerly numbered C185A.) Lecture, three hours; discussion, 90 minutes. Requisites: Chemistry 153A, Life Sciences 7A, 7B, 7C, 7L. Comprehensive study of experimental immunobiology and immunochemistry; cellular and molecular aspects of humoral and cellular immune reactions. Letter grading.",
+      "prereqs_raw": "Requisites: Chemistry 153A, Life Sciences 7A, 7B, 7C, 7L.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NEUROSC 101L",
+      "dept": "NEUROSC",
+      "number": "101L",
+      "title": "Neuroscience Laboratory",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, three hours. Requisites: courses M101A, M101B (M101B may be taken concurrently). Not open for credit to students with credit for Psychology 116. Introduction to laboratory methods in neuroscience. Laboratory exercises range from molecular and cell biological to behavioral. Hands-on experience with important methodology and experimental approaches\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses M101A, M101B (M101B may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [
+          "NEUROSC M101A"
+        ],
+        "corequisites": [
+          "NEUROSC M101B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NEUROSC 102",
+      "dept": "NEUROSC",
+      "number": "102",
+      "title": "Introduction to Functional Anatomy of Central Nervous System",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, 90 minutes. Requisite: Life Sciences 2 or 7C. Corequisite: course M101A. Not open to freshmen. Overview of human nervous system, brain development, anatomy and function, pathology. Introduction to brain circuits involved in fear and anxiety, memory, sensory, motor activities. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 2 or 7C. Corequisite: course M101A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "NEUROSC M101A"
+        ],
+        "one_of": [
+          [
+            "LIFE SCI 2",
+            "LIFE SCI 7C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 146",
+      "dept": "PHYSCI",
+      "number": "146",
+      "title": "Principles of Nervous System Development",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: courses 107 (or Neuroscience 102) and 111A (or M180A). Examination of construction of vertebrate nervous system as series of integrated steps beginning with several embryonic cells and culminating as complex highly ordered system. Topics include neurulation, regionalization, neurogenesis, migration, axonal outgrowth, and synapse\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 107 (or Neuroscience 102) and 111A (or M180A).",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSCI 107",
+          "PHYSCI 111A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PHYSCI 107",
+            "NEURO 102"
+          ],
+          [
+            "PHYSCI 111A",
+            "M 180A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 147",
+      "dept": "PHYSCI",
+      "number": "147",
+      "title": "Neurobiology of Learning and Memory",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 111A or M180A. Changes in central nervous system that accompany learning, with emphasis on cellular mechanisms.",
+      "prereqs_raw": "Requisite: course 111A or M180A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "PHYSCI 111A",
+          "PHYSCI 180A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 166",
+      "dept": "PHYSCI",
+      "number": "166",
+      "title": "Animal Physiology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, five hours. Requisites: Chemistry 14B and 14BL, or 20B and 30AL, 153A, Life Sciences 7A, 7B, 7C, Physics 1C and 4BL, or 5C. Not open for credit to students with credit for Ecology and Evolutionary Biology 170 or to Physiological Science majors. Introduction to physiological principles,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14B and 14BL, or 20B and 30AL, 153A, Life Sciences 7A, 7B, 7C, Physics 1C and 4BL, or 5C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14B",
+            "CHEM 14BL"
+          ],
+          [
+            "CHEM 20B",
+            "CHEM 30AL"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [],
+        "additional_required": [
+          "CHEM 153A",
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C"
+        ],
+        "additional_one_of": [
+          [
+            "PHYSICS 1C",
+            "PHYSICS 4BL"
+          ],
+          [
+            "PHYSICS 5C"
+          ]
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 173",
+      "dept": "PHYSCI",
+      "number": "173",
+      "title": "Anatomy and Physiology of Sense Organs",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 111A, or M180A and M180B, or Molecular, Cell, and Developmental Biology M175A and M175B. Structure and function of sense organs. Adoption of quantitative and comparative approach to provide insight into evolution of sense organs in both invertebrates and vertebrates. Letter grading.",
+      "prereqs_raw": "Requisites: courses 111A, or M180A and M180B, or Molecular, Cell, and Developmental Biology M175A and M175B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PHYSCI 111A"
+          ],
+          [
+            "MATH 180A",
+            "MATH 180B"
+          ],
+          [
+            "MOL BIO 175A",
+            "MOL BIO 175B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI C130",
+      "dept": "PHYSCI",
+      "number": "C130",
+      "title": "Sex Differences in Physiology and Disease",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: course 111B, Life Sciences 7A, 7B, 7C. Investigation of biological origins of sex differences in physiology (mostly vertebrate), and susceptibility to disease, including history of development of concepts to define sex, and interface between biological factors and effects of gendered environments. Topics include evolution of sex\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 111B, Life Sciences 7A, 7B, 7C.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSCI 111B",
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI C144",
+      "dept": "PHYSCI",
+      "number": "C144",
+      "title": "Neural Control of Physiological Systems",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 111B or M180B. Role of central nervous system in control of respiration, circulation, sexual function, and bladder control. Material for each section to be developed by combination of lecture and open discussion. Concurrently scheduled with course C244. Letter grading.",
+      "prereqs_raw": "Requisite: course 111B or M180B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "dept": "PHYSICS",
+      "number": "1A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1B",
+        "PHYSICS 1C",
+        "PHYSICS 4AL"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1B",
+      "dept": "PHYSICS",
+      "number": "1B",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Fluid mechanics, oscillation, mechanical waves, and sound. Electric charge, field and potential, capacitors, and dielectrics. Currents and resistance, direct-current circuits. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1C",
+        "PHYSICS 4AL"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1C",
+      "dept": "PHYSICS",
+      "number": "1C",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 170"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 4AL",
+      "dept": "PHYSICS",
+      "number": "4AL",
+      "title": "Physics Laboratory for Scientists and Engineers: Mechanics",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisite: course 1A or 1AH. Enforced corequisite: course 1B or 1BH. Computerized measurements of uniform and accelerated motion, including oscillations. Analysis of data and comparison of results to predictions, including least-squares fitting. Conception, execution, and presentation of creative projects involving motion. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1A or 1AH. Enforced corequisite: course 1B or 1BH.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1AH"
+        ],
+        "corequisites": [
+          "PHYSICS 1B",
+          "PHYSICS 1BH"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 4BL",
+      "dept": "PHYSICS",
+      "number": "4BL",
+      "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EE BIOL 170"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5A",
+      "dept": "PHYSICS",
+      "number": "5A",
+      "title": "Physics for Life Sciences Majors: Mechanics and Energy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently). Statics and dynamics of forces, motion, energy, including thermal energy, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 3C"
+        ],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 5B",
+        "PHYSICS 5C"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5B",
+      "dept": "PHYSICS",
+      "number": "5B",
+      "title": "Physics for Life Sciences Majors: Thermodynamics, Fluids, Waves, Light, and Optics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisite: course 5A. Thermal properties of matter, free energy, fluids, ideal gas, diffusion, oscillations, waves, sounds, light, and optics, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 170"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5C",
+      "dept": "PHYSICS",
+      "number": "5C",
+      "title": "Physics for Life Sciences Majors: Electricity, Magnetism, and Modern Physics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisite: course 5A. Electrostatics in vacuum and in water. Electricity, circuits, magnetism, quantum, atomic and nuclear physics, radioactivity, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 10",
+      "dept": "PSYCH",
+      "number": "10",
+      "title": "Introductory Psychology",
+      "units": 4.0,
+      "description": "Lecture, four hours. General introduction including topics in cognitive, experimental, personality, developmental, social, and clinical psychology; six hours of psychological research and a grade of C or better required of all departmental premajors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PSYCH 100A",
+        "PSYCH 100B",
+        "PSYCH 110",
+        "PSYCH 112A",
+        "PSYCH 112B",
+        "PSYCH 112D",
+        "PSYCH 112E",
+        "PSYCH 120A",
+        "PSYCH 120B",
+        "PSYCH 127A",
+        "PSYCH 127B",
+        "PSYCH 130",
+        "PSYCH 137A",
+        "PSYCH 150",
+        "PSYCH 161",
+        "PSYCH 164",
+        "PSYCH 186D"
+      ]
+    },
+    {
+      "course_id": "PSYCH 100A",
+      "dept": "PSYCH",
+      "number": "100A",
+      "title": "Psychological Statistics",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisites: course 10 with a grade of C or better, and one course from Mathematics 2, Program in Computing 10A, Statistics 10, or one term of calculus. Designed for premajors. Basic statistical procedures and their application to research and practice in various areas of psychology. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 10 with a grade of C or better, and one course from Mathematics 2, Program in Computing 10A, Statistics 10, or one term of calculus.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 2",
+            "COM SCI 10A",
+            "STATS 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 110",
+        "PSYCH 112A",
+        "PSYCH 112B",
+        "PSYCH 112D",
+        "PSYCH 112E",
+        "PSYCH 115",
+        "PSYCH 120A",
+        "PSYCH 120B",
+        "PSYCH 130",
+        "PSYCH 137A",
+        "PSYCH 161",
+        "PSYCH 186D"
+      ]
+    },
+    {
+      "course_id": "PSYCH 100B",
+      "dept": "PSYCH",
+      "number": "100B",
+      "title": "Research Methods in Psychology",
+      "units": 5.0,
+      "description": "Lecture, two hours; laboratory, two hours. Enforced requisite: course 10, with grade of C or better. Introduction to research methods and critical analysis in psychology. Lecture and laboratory topics include experimental and nonexperimental research methods, statistical design and analysis as applied to a broad range of basic and applied research\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 10, with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 186D"
+      ]
+    },
+    {
+      "course_id": "PSYCH 110",
+      "dept": "PSYCH",
+      "number": "110",
+      "title": "Fundamentals of Learning",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Experimental findings on animal and human conditioning; retention and transfer of training; relation of learning and motivation. Intended to provide empirical basis for theory and research in this area. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 112A",
+        "PSYCH 112B",
+        "PSYCH 112D",
+        "PSYCH 112E"
+      ]
+    },
+    {
+      "course_id": "PSYCH 111",
+      "dept": "PSYCH",
+      "number": "111",
+      "title": "Learning Laboratory",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, three hours. Requisites: courses 10, 100A, 100B, 110. Designed for departmental majors. Laboratory experience with techniques in study of learning, especially with animals. Letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, 110.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 112A",
+      "dept": "PSYCH",
+      "number": "112A",
+      "title": "Basic Processes of Motivated Behavior",
+      "units": 4.0,
+      "description": "Lecture, 90 minutes; discussion, 90 minutes. Requisites: courses 10, 100A, 110. Designed for juniors/seniors. Examination of some basic processes underlying motivated behavior, stressing environmental determinants of behaviors such as feeding, drinking, and reproduction-related behavior. Discussion of physiological mechanisms that contribute to such behaviors. Consideration of topics such as reinforcement, acquired\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 110.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 110"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 112B",
+      "dept": "PSYCH",
+      "number": "112B",
+      "title": "Psychobiology of Fear and Anxiety",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 10, 100A, 110. Recommended: course 115. Designed for juniors/seniors. Presentation of biological and behavioral approaches to fear and anxiety, taken from laboratory and applied research. In addition to overview of major principles from each approach, emphasis on areas in which significant research advances have recently\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 110.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 110"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 112C",
+      "dept": "PSYCH",
+      "number": "112C",
+      "title": "Psychobiology of Anxiety and Depression",
+      "units": 4.0,
+      "description": "Lecture, two and one half hours; discussion, 30 minutes. Requisites: courses 110 and 115, or Neuroscience M101A, M101B, and M101C. Limited to juniors/seniors. Presentation of biological and behavioral approaches to anxiety and depression, taken from laboratory and applied research. In addition to overview of major principles from each approach, emphasis\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 110 and 115, or Neuroscience M101A, M101B, and M101C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 112D",
+      "dept": "PSYCH",
+      "number": "112D",
+      "title": "Animal Cognition",
+      "units": 4.0,
+      "description": "Lecture, 90 minutes; discussion, 90 minutes. Requisites: courses 10, 100A, 110. Designed for juniors/seniors. Investigation of scientific study of cognition and behavior in animals. Topics include perception and attention, working and reference memory, spatial cognition, timing and counting, concept formation, and abstract reasoning. Most discussions focus on laboratory findings with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 110.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 110"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 112E",
+      "dept": "PSYCH",
+      "number": "112E",
+      "title": "Decision Making and Brain",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 10, 100A, 110. Designed for juniors/seniors. Survey of neural mechanisms of value-based decision making from perspective of neoclassical economics. Discussion of theoretical models of valuation and decision making from economics and application to psychological and neuroscience studies of learning and decision making. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 110.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 110"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 115",
+      "dept": "PSYCH",
+      "number": "115",
+      "title": "Principles of Behavioral Neuroscience",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: course 100A, Life Sciences 2 or 7A or 15. Not open to students with credit for course M117A (or Molecular, Cell, and Developmental Biology M175A or Neuroscience M101A or Physiological Science M180A). Designed for juniors/seniors. Nervous system anatomy, physiology, pharmacology, and their relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100A, Life Sciences 2 or 7A or 15.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 2",
+          "LIFE SCI 7A",
+          "LIFE SCI 15"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 118"
+      ]
+    },
+    {
+      "course_id": "PSYCH 116B",
+      "dept": "PSYCH",
+      "number": "116B",
+      "title": "Human Neuropsychology Laboratory",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 100A, 100B, 115. Not open for credit to students with credit for 116A. Focus on human neural function in health and disease. Concentration on neural underpinnings of behaviors unique to humans. Hands-on empirical investigations of neural functions in which students themselves serve as subjects.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, 115.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 118",
+      "dept": "PSYCH",
+      "number": "118",
+      "title": "Comparative Psychobiology",
+      "units": 4.0,
+      "description": "Requisite: course 115. Designed for junior/senior majors. Survey of determinants of species-specific behavior, including genetic influences and learning.",
+      "prereqs_raw": "Requisite: course 115.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 115"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 120A",
+      "dept": "PSYCH",
+      "number": "120A",
+      "title": "Cognitive Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Survey of cognitive psychology: how people acquire, represent, transform, and use verbal and nonverbal information. Perception, attention, imagery, memory, representation of knowledge, language, action, decision making, thinking. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 124E",
+        "PSYCH 124K"
+      ]
+    },
+    {
+      "course_id": "PSYCH 120B",
+      "dept": "PSYCH",
+      "number": "120B",
+      "title": "Sensation and Perception",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Acquisition of information about physical world through basic sensory mechanisms and perceptual processes. Perception of objects, surfaces, space, motion, and events. Connections between information, computations, and biological mechanisms in vision, audition, and other systems. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 124E",
+        "PSYCH 124K"
+      ]
+    },
+    {
+      "course_id": "PSYCH 124E",
+      "dept": "PSYCH",
+      "number": "124E",
+      "title": "Decision Psychology and Neuroscience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 120A or 120B. Designed for juniors/seniors. Analysis of behavioral and neuroscience studies of preference-based decision making, and related topics. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120A or 120B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "PSYCH 120A",
+          "PSYCH 120B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 124K",
+      "dept": "PSYCH",
+      "number": "124K",
+      "title": "Ethical, Legal, and Societal Implications of Cognitive Neuroscience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 120A or 120B. Designed for juniors/seniors. Critical examination of current and potential use of neuroimaging data in legal system as means to assess memories, truthfulness, culpability, and probability of future criminal behavior. Consideration of personal and societal consequences of use of cognitively enhancing drugs, memory\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 120A or 120B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PSYCH 120A",
+            "PSYCH 120B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 127A",
+      "dept": "PSYCH",
+      "number": "127A",
+      "title": "Clinical Psychological Science",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 10. Not open for credit to students with credit for course 127B or 127C. Study of psychological disorders (e.g., depression, anxiety, substance use disorders, schizophrenia) across lifespan, including role of biological, behavioral, social, cognitive, and cultural factors, diagnosis and treatment approaches. Discussion\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 127B",
+      "dept": "PSYCH",
+      "number": "127B",
+      "title": "Clinical Psychological Science: Biological Bases",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 10. Not open for credit to students with credit for course 127A or 127C. Study of Biological processes involved in etiology, presentation, and course of psychiatric disorders, and biological targets or mechanisms of treatment. Emphasis on clinical neuroscience and behavioral genetics as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 127C",
+      "dept": "PSYCH",
+      "number": "127C",
+      "title": "Clinical Psychological Science: Developmental Perspectives",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 10. Not open for credit to students with credit for course 127A or 127B. Study of abnormal child development from infancy through adolescence and early adulthood. Clinical disorders include behavioral disorders, depression/anxiety, alcohol/substance disorders, eating disorders, and autism spectrum disorder. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 130",
+      "dept": "PSYCH",
+      "number": "130",
+      "title": "Developmental Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Elaboration of developmental aspects of physical, mental, social, and emotional growth from birth to adolescence. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 135",
+      "dept": "PSYCH",
+      "number": "135",
+      "title": "Social Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Interrelationships between the individual and his social environment. Social influences on motivation, perception, and behavior. Development and change of attitudes and opinions. Psychological analysis of small groups, social stratification, and mass phenomena. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 137A",
+      "dept": "PSYCH",
+      "number": "137A",
+      "title": "Neuroscience of Social Perception",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 10, 100A. Limited to juniors/seniors. Integration of cognitive neuroscience, social psychology, and sensory perception research to explore how social information is perceived and how social factors shape perception of world around us. Emphasis on neural mechanisms underlying these phenomena. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 137G",
+      "dept": "PSYCH",
+      "number": "137G",
+      "title": "Social Cognitive Neuroscience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Principles of social cognitive neuroscience (SCN) and survey of broad array of topics in field. SCN is fundamental merging of social science questions and neuroscience methods, with particular emphasis on functional magnetic resonance imaging (fMRI). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 150",
+      "dept": "PSYCH",
+      "number": "150",
+      "title": "Introduction to Health Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 10. Areas of health, illness, treatment, and delivery of treatment that can be elucidated by understanding of psychological concepts and research, psychological perspective on these problems, and how psychological perspective might be enlarged and extended in medical area. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 152",
+      "dept": "PSYCH",
+      "number": "152",
+      "title": "Mind-Body Interactions and Health",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for junior/senior Psychology and Psychobiology majors. Examination of bidirectional interactions between mind and body and how these interactions influence physical health. Topics include impact of stress, emotions, personality, and social world on biological systems and health. Discussion of mind-body interventions designed to reduce stress and improve\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 155A",
+      "dept": "PSYCH",
+      "number": "155A",
+      "title": "Social Neuroscience",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 155B",
+      "dept": "PSYCH",
+      "number": "155B",
+      "title": "Psychology and Neuroscience of Emotion",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 161",
+      "dept": "PSYCH",
+      "number": "161",
+      "title": "Behavior and Brain Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 10, 100A. Limited to juniors/seniors. Exploration of relationship between brain development and behavior. Examination of how cognitive neuroscience can inform study of development and how developmental approach can advance progress in cognitive and developmental sciences. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 162",
+      "dept": "PSYCH",
+      "number": "162",
+      "title": "Psychology of Addiction",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Survey of topics covering psychological and neurobiological theories of addiction, pharmacological effects of drugs and abuse, etiology, assessment, diagnosis, and treatment. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 164",
+      "dept": "PSYCH",
+      "number": "164",
+      "title": "Puberty and Sleep",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 10. Limited to juniors/seniors. Exploration of how normative biological and hormonal changes during adolescence influence adolescent behavior and well-being. Focus specifically on puberty and sleep, which both lead to consequential effects on behavior, health, and brain development. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 186D",
+      "dept": "PSYCH",
+      "number": "186D",
+      "title": "Laboratory in Functional Neuroimaging",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses 10, 100A, 100B. Limited to departmental majors. Introduction to study of brain with functional resonance imaging (fMRI). All major aspects to be discussed, from physical basis of MR signal to data analysis. Letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10, 100A, 100B.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 100B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 191AH",
+      "dept": "PSYCH",
+      "number": "191AH",
+      "title": "Departmental Honors Research Seminars",
+      "units": 2.0,
+      "description": "Seminar, two hours. Enforced corequisite: course 198. Course 191AH is requisite to 191BH, which is requisite to 191CH. Limited to psychology honors program students. Opportunity for development and analysis of creative ideas through individual research projects with faculty sponsor and discussion of student and faculty research presentations. Information and applications\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced corequisite: course 198.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "PSYCH 198"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 191BH"
+      ]
+    },
+    {
+      "course_id": "PSYCH 191BH",
+      "dept": "PSYCH",
+      "number": "191BH",
+      "title": "Departmental Honors Research Seminars",
+      "units": 2.0,
+      "description": "Seminar, two hours. Requisite: course 191AH. Enforced corequisite: course 198. Limited to psychology honors program students. Opportunity for development and analysis of creative ideas through individual research projects with faculty sponsor and discussion of student and faculty research presentations. Information and applications may be obtained from Undergraduate Advising Office, 1531\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 191AH. Enforced corequisite: course 198.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 191AH"
+        ],
+        "corequisites": [
+          "PSYCH 198"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 191CH"
+      ]
+    },
+    {
+      "course_id": "PSYCH 191CH",
+      "dept": "PSYCH",
+      "number": "191CH",
+      "title": "Departmental Honors Research Seminars",
+      "units": 2.0,
+      "description": "Seminar, two hours. Requisite: course 191BH. Enforced corequisite: course 198. Limited to psychology honors program students. Opportunity for development and analysis of creative ideas through individual research projects with faculty sponsor and discussion of student and faculty research presentations. Information and applications may be obtained from Undergraduate Advising Office, 1531\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 191BH. Enforced corequisite: course 198.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 191BH"
+        ],
+        "corequisites": [
+          "PSYCH 198"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M116A",
+      "dept": "PSYCH",
+      "number": "M116A",
+      "title": "Behavioral Neuroscience Laboratory",
+      "units": 4.0,
+      "description": "(Formerly numbered 116.) (Same as Neuroscience M116A.) Lecture, one hour; laboratory, three hours. Requisites: courses 10, 100A, 100B, and 115, or Neuroscience M101A and M101B (M101B may be taken concurrently). Not open for credit to students with credit for course 116B. Designed for Psychobiology, Psychology, and Neuroscience majors. Laboratory experience\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, and 115, or Neuroscience M101A and M101B (M101B may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M117A",
+      "dept": "PSYCH",
+      "number": "M117A",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dCellular and Systems Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Neuroscience M101A, and Physiological Science M180A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C\u2013 or better to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7C"
+        ],
+        "corequisites": [
+          "CHEM 14C"
+        ],
+        "one_of": [
+          [
+            "CHEM 14C",
+            "CHEM 30A"
+          ],
+          [
+            "PHYS 1B",
+            "PHYS 1BH",
+            "PHYS 5C",
+            "PHYS 6B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH M117B",
+        "PSYCH M117C"
+      ]
+    },
+    {
+      "course_id": "PSYCH M117B",
+      "dept": "PSYCH",
+      "number": "M117B",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dMolecular and Developmental Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Neuroscience M101B, Molecular, Cell, and Developmental Biology M175B, and Physiological Science M180B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M117A (with grade of C\u2013 or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M117A (with grade of C\u2013 or better), Life Sciences 7C.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH M117A",
+          "LIFE SCI 7C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M117C",
+      "dept": "PSYCH",
+      "number": "M117C",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dBehavioral and Cognitive Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Neuroscience M101C, Molecular, Cell, and Developmental Biology M175C, and Physiological Science M180C.) Lecture, four hours; discussion, 90 minutes. Requisites: course M117A with grade of C\u2013 or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: course M117A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH M117A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M166",
+      "dept": "PSYCH",
+      "number": "M166",
+      "title": "Neurobiology of Bias and Discrimination",
+      "units": 4.0,
+      "description": "(Same as Neuroscience M187 and Physiological Science M106.) Lecture, four hours. Limited to junior/senior neuroscience, physiological science, and psychology students. Exploration of aspects of mammalian brain function that generate preference, bias, and discrimination. Consideration of research at multiple levels of analysis from genetics to neural circuits to behavior. Discussion of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 13",
+      "dept": "STATS",
+      "number": "13",
+      "title": "Introduction to Statistical Methods for Life and Health Sciences",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

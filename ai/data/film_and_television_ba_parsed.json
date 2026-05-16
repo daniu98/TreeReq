@@ -1,0 +1,876 @@
+{
+  "major_id": "film-and-television-ba",
+  "major_name": "Film and Television BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/FilmandTelevisionBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "FILM TV 4",
+        "FILM TV 6A",
+        "FILM TV 10A",
+        "FILM TV 33",
+        "FILM TV 51",
+        "FILM TV 84A"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "THEATER 10",
+            "THEATER 15",
+            "THEATER 20",
+            "THEATER 28A",
+            "THEATER 28B",
+            "THEATER 28C",
+            "THEATER 30"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "FILM TV 101A",
+        "FILM TV 134",
+        "FILM TV 150",
+        "FILM TV 154",
+        "FILM TV 155",
+        "FILM TV 163",
+        "FILM TV 195"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "FILM TV 106B",
+            "FILM TV 106C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "FILM TV 107",
+            "FILM TV 108",
+            "FILM TV 109",
+            "FILM TV M111",
+            "FILM TV 112",
+            "FILM TV 113",
+            "FILM TV 114",
+            "FILM TV M117",
+            "FILM TV 122N"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "FILM TV C181A",
+            "FILM TV C181B",
+            "FILM TV C181C",
+            "FILM TV C118",
+            "FILM TV 153",
+            "FILM TV C157",
+            "FILM TV C158",
+            "FILM TV 178",
+            "FILM TV C186A",
+            "FILM TV C186B",
+            "FILM TV C186C",
+            "FILM TV 175A",
+            "FILM TV 175B",
+            "FILM TV 135A",
+            "FILM TV 135B",
+            "FILM TV 135C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "FILM TV": [
+      "FILM TV 101A",
+      "FILM TV 106B",
+      "FILM TV 106C",
+      "FILM TV 107",
+      "FILM TV 108",
+      "FILM TV 109",
+      "FILM TV 10A",
+      "FILM TV 112",
+      "FILM TV 113",
+      "FILM TV 114",
+      "FILM TV 122N",
+      "FILM TV 134",
+      "FILM TV 135A",
+      "FILM TV 135B",
+      "FILM TV 135C",
+      "FILM TV 150",
+      "FILM TV 153",
+      "FILM TV 154",
+      "FILM TV 155",
+      "FILM TV 163",
+      "FILM TV 175A",
+      "FILM TV 175B",
+      "FILM TV 178",
+      "FILM TV 195",
+      "FILM TV 33",
+      "FILM TV 4",
+      "FILM TV 51",
+      "FILM TV 6A",
+      "FILM TV 84A",
+      "FILM TV C118",
+      "FILM TV C157",
+      "FILM TV C158",
+      "FILM TV C181A",
+      "FILM TV C181B",
+      "FILM TV C181C",
+      "FILM TV C186A",
+      "FILM TV C186B",
+      "FILM TV C186C",
+      "FILM TV M111",
+      "FILM TV M117"
+    ],
+    "THEATER": [
+      "THEATER 10",
+      "THEATER 15",
+      "THEATER 20",
+      "THEATER 28A",
+      "THEATER 28B",
+      "THEATER 28C",
+      "THEATER 30"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "FILM TV 101A",
+      "dept": "FILM TV",
+      "number": "101A",
+      "title": "Junior Symposium",
+      "units": 1.0,
+      "description": "Laboratory, three hours. Course 101A is enforced requisite to 101B, which is enforced requisite to 101C. Limited to Film and Television majors. Structured forum in which juniors meet on regular basis to discuss curricular issues, meet with faculty members, and have exposure to array of guest speakers from within film\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "FILM TV 150",
+        "FILM TV 153",
+        "FILM TV 154",
+        "FILM TV 155",
+        "FILM TV 163",
+        "FILM TV C118"
+      ]
+    },
+    {
+      "course_id": "FILM TV 106B",
+      "dept": "FILM TV",
+      "number": "106B",
+      "title": "History of European Motion Picture",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Historical and critical survey, with examples, of European motion picture both as developing art form and as medium of mass communication. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 106C",
+      "dept": "FILM TV",
+      "number": "106C",
+      "title": "History of African, Asian, and Latin American Film",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Critical, historical, aesthetic, and social study\u2014together with exploration of ethnic significance\u2014of Asian, African, Latin American, and Mexican films. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 107",
+      "dept": "FILM TV",
+      "number": "107",
+      "title": "Experimental Film",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Study and analysis of unconventional developments in motion pictures. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 108",
+      "dept": "FILM TV",
+      "number": "108",
+      "title": "History of Documentary Film",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Philosophy of documentary approach in motion pictures. Development of critical standards and examination of techniques of teaching and persuasion used in selected documentary, educational, and propaganda films. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 109",
+      "dept": "FILM TV",
+      "number": "109",
+      "title": "Advanced Topics in Documentary: New Documentary Forms",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; screenings, three hours. Examination of today\u2019s documentary modes of representation and genres focusing on rise and diversification of nonfiction modes since new millennium. From short form to series based, virtual reality to interactive, crowd sourced to animated, study of new documentary forms and platforms\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 10A",
+      "dept": "FILM TV",
+      "number": "10A",
+      "title": "American Television History",
+      "units": 5.0,
+      "description": "Lecture/screenings, four hours; discussion, one hour. Critical survey of American television history from its inception to present. Examination of interrelationships between program forms, industrial paradigms, social trends, and culture. Starting with television\u2019s hybrid origins in radio, theater, and film, contextualization, viewing, and discussion of key television shows, as well as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 112",
+      "dept": "FILM TV",
+      "number": "112",
+      "title": "Film and Social Change",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Development of documentary and dramatic films in relation to and as force in social development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 113",
+      "dept": "FILM TV",
+      "number": "113",
+      "title": "Film Authors",
+      "units": 5.0,
+      "description": "Lecture/screenings, four hours; discussion, one hour. In-depth study of specific film author (director or writer). May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 114",
+      "dept": "FILM TV",
+      "number": "114",
+      "title": "Film Genres",
+      "units": 5.0,
+      "description": "Lecture/screenings, four hours; discussion, one hour. Study of specific film genre (e.g., Western, gangster cycle, musical, silent epic, comedy, social drama). May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 122N",
+      "dept": "FILM TV",
+      "number": "122N",
+      "title": "History of Animation in American Film and Television",
+      "units": 5.0,
+      "description": "Lecture, six hours. Survey of art of animation in America from its precinema origins to recent films of Disney, Pixar, DreamWorks, Ghibli, and others. Place of animation in pop culture, racial imagery and ethnic stereotypes, growth of art form, and how it reflects American society. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 134",
+      "dept": "FILM TV",
+      "number": "134",
+      "title": "Intermediate Screenwriting Workshop",
+      "units": 4.0,
+      "description": "Seminar, three hours. Problems in film and television writing. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "FILM TV 135A"
+      ]
+    },
+    {
+      "course_id": "FILM TV 135A",
+      "dept": "FILM TV",
+      "number": "135A",
+      "title": "Advanced Screenwriting Workshop",
+      "units": 6.0,
+      "description": "Laboratory, three hours. Requisite: course 134. Course 135A is requisite to 135B, which is requisite to 135C. Course in film and television writing. First act of original screenplay to be developed. Letter grading.",
+      "prereqs_raw": "Requisite: course 134.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 134"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "FILM TV 135B"
+      ]
+    },
+    {
+      "course_id": "FILM TV 135B",
+      "dept": "FILM TV",
+      "number": "135B",
+      "title": "Advanced Screenwriting Workshop",
+      "units": 6.0,
+      "description": "Laboratory, three hours. Requisite: course 135A. Limited to Film and Television majors. Designed for seniors. Course in film and television writing. Second act of original screenplay to be developed. Letter grading.",
+      "prereqs_raw": "Requisite: course 135A.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 135A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "FILM TV 135C"
+      ]
+    },
+    {
+      "course_id": "FILM TV 135C",
+      "dept": "FILM TV",
+      "number": "135C",
+      "title": "Advanced Screenwriting Workshop",
+      "units": 8.0,
+      "description": "Laboratory, three hours. Requisite: course 135B. Limited to Film and Television majors. Designed for seniors. Course in film and television writing. Third act of original screenplay to be developed. Letter grading.",
+      "prereqs_raw": "Requisite: course 135B.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 135B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 150",
+      "dept": "FILM TV",
+      "number": "150",
+      "title": "Cinematography",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Requisite: course 101A. Corequisite: course 154. Limited to Film and Television majors. Introduction to motion imaging photography for thorough understanding of fundamental tools and principles of cinematography to create images that support and enhance story of film, achieve comprehension of principles of motion imaging\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 101A. Corequisite: course 154.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 101A"
+        ],
+        "corequisites": [
+          "FILM TV 154"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "FILM TV 154"
+      ]
+    },
+    {
+      "course_id": "FILM TV 153",
+      "dept": "FILM TV",
+      "number": "153",
+      "title": "Motion Picture Lighting",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Enforced requisites: courses 52, 101A, 185. Limited to Film and Television majors. Introduction to principles and tools of lighting used in visual storytelling through lectures, discussions, and screenings. Creative lighting techniques covering topics such as people, environment, spatial relationships, movement, color, special effects, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 52, 101A, 185.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 52",
+          "FILM TV 101A",
+          "FILM TV 185"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 154",
+      "dept": "FILM TV",
+      "number": "154",
+      "title": "Film Editing",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 101A. Corequisite: course 150. Limited to Film and Television majors. Introduction to artistic and technical problems of film editing, with practical experience in editing of image and synchronous sound. Letter grading.",
+      "prereqs_raw": "Requisite: course 101A. Corequisite: course 150.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 101A"
+        ],
+        "corequisites": [
+          "FILM TV 150"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "FILM TV 150"
+      ]
+    },
+    {
+      "course_id": "FILM TV 155",
+      "dept": "FILM TV",
+      "number": "155",
+      "title": "Introduction to Digital Media and Tools",
+      "units": 4.0,
+      "description": "Lecture, six hours; laboratory, one hour. Enforced requisite: course 101A. Limited to Film and Television majors. Instruction and exercises in basic concepts and software of virtual production environments and digital postproduction tools. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101A.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 101A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 163",
+      "dept": "FILM TV",
+      "number": "163",
+      "title": "Directing Cameras",
+      "units": 4.0,
+      "description": "Laboratory, three hours. Enforced requisite: course 101A. Limited to Film and Television majors. Investigation of expressive potential of image within and beyond narrative from directorial perspective. Experiments with working methodologies that stimulate visual creativity and positioning image as fundamental element of cinematic expression. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101A.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 101A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 175A",
+      "dept": "FILM TV",
+      "number": "175A",
+      "title": "Undergraduate Film Production",
+      "units": 12.0,
+      "description": "Lecture, four hours; laboratory, eight hours. Requisite: 185. Course 175A is requisite to 175B. Limited to Film and Television majors. Writing, preproduction, and production of short film not to exceed 12 minutes, including credits. Letter grading.",
+      "prereqs_raw": "Requisite: 185.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 185"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 175B",
+      "dept": "FILM TV",
+      "number": "175B",
+      "title": "Undergraduate Film Production",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, eight hours. Enforced requisite: course 175A. Limited to Film and Television majors. Completion of postproduction (editing, creation of sound tracks) for short film begun in course 175A. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 175A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 178",
+      "dept": "FILM TV",
+      "number": "178",
+      "title": "Film and Television Production Laboratory",
+      "units": 2.0,
+      "description": "Laboratory, to be arranged. Supervised laboratory experience in various aspects of film and television production. May be repeated for maximum of 12 units, but only 8 units may be applied toward Film and Television major. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 195",
+      "dept": "FILM TV",
+      "number": "195",
+      "title": "Corporate Internships in Film, Television, and Digital Media",
+      "units": 2.0,
+      "description": "Tutorial, one hour; internship, eight hours. Limited to juniors/seniors. Corporate internship in supervised setting in business related to film, television, and digital media industries. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for credit. Individual contract with supervising faculty member required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 33",
+      "dept": "FILM TV",
+      "number": "33",
+      "title": "Introductory Screenwriting",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course C132/C430. Structural analysis of feature films and development of professional screenwriters\u2019 vocabulary for constructing, deconstructing, and reconstructing their own work. Screenings of films and selected film sequences in class and by assignment. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 4",
+      "dept": "FILM TV",
+      "number": "4",
+      "title": "Introduction to Art and Technique of Filmmaking",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Students acquire understanding of practical and aesthetic challenges undertaken by artists and professionals in making of motion pictures and television. Examination of film as both art and industry: storytelling, sound and visual design, casting and performance, editing, finance, advertising, and distribution. Exploration of American\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 51",
+      "dept": "FILM TV",
+      "number": "51",
+      "title": "Digital Media Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, one hour. Introduction to history, theory, and authoring skills of digital media, art, and culture. P/NP or Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 6A",
+      "dept": "FILM TV",
+      "number": "6A",
+      "title": "History of American Motion Picture",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Historical and critical survey, with examples, of American motion picture both as developing art form and as medium of mass communication. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 84A",
+      "dept": "FILM TV",
+      "number": "84A",
+      "title": "Overview of Contemporary Film Industry",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of evolving economic structures and business practices in contemporary Hollywood film industry, with emphasis on operations of studios and independent distribution companies, their development, marketing, and distribution systems, and their relationship to independent producers, talent, and agencies. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV C118",
+      "dept": "FILM TV",
+      "number": "C118",
+      "title": "Intermediate Cinematography",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, four hours. Enforced requisite: course 101A. Intermediate study of principles of cinematography, with emphasis on exposure, lighting, and selection of film, camera, and lenses. Concurrently scheduled with course C416. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101A.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 101A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV C157",
+      "dept": "FILM TV",
+      "number": "C157",
+      "title": "Lighting for Film and Television",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, six hours. Requisite: course 52. Limited to Film and Television majors. Lectures, supervised exercises on stage or in exterior, screenings of scenes, and discussions aimed at learning to master lighting to create appropriate mood or atmosphere of premeditated scene recorded on film or through electronic system.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 52.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 52"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV C158",
+      "dept": "FILM TV",
+      "number": "C158",
+      "title": "Digital Workflow",
+      "units": 2.0,
+      "description": "Lecture, three hours; laboratory, two hours. Requisites: courses 52, 185. Limited to departmental majors. Through discussions, demonstrations, outside speakers, and laboratory assignments, demystification of ever-changing world of digital workflow. Students plan, schedule, and budget their overall workflow in preproduction. May be repeated once for credit. Concurrently scheduled with course C454C.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 52, 185.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV 52",
+          "FILM TV 185"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV C181A",
+      "dept": "FILM TV",
+      "number": "C181A",
+      "title": "Introduction to Animation",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, three hours. Drawing experience not required. Fundamentals of animation through preparation of short animated film. Concurrently scheduled with course C481A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "FILM TV C181B",
+        "FILM TV C181C"
+      ]
+    },
+    {
+      "course_id": "FILM TV C181B",
+      "dept": "FILM TV",
+      "number": "C181B",
+      "title": "Writing for Animation",
+      "units": 4.0,
+      "description": "Lecture, six hours; studio, to be arranged. Requisite: course C181A or consent of instructor. Research and practice in creative writing and planning for animated film. May be repeated for maximum of 16 units. Concurrently scheduled with course C481B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course C181A or consent of instructor.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "FILM TV C181A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV C181C",
+      "dept": "FILM TV",
+      "number": "C181C",
+      "title": "Animation Workshop",
+      "units": 4.0,
+      "description": "Studio, six hours. Preparation: storyboard at first class meeting. Requisite: course C181A. Organization and integration of various creative arts used in animation to form complete study of selected topic. May be repeated for maximum of 16 units. Concurrently scheduled with course C481C. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course C181A.",
+      "prereqs_parsed": {
+        "required": [
+          "FILM TV C181A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV C186A",
+      "dept": "FILM TV",
+      "number": "C186A",
+      "title": "Advanced Documentary Workshop",
+      "units": 4,
+      "description": "",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV C186B",
+      "dept": "FILM TV",
+      "number": "C186B",
+      "title": "Advanced Documentary Workshop",
+      "units": 4,
+      "description": "",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV C186C",
+      "dept": "FILM TV",
+      "number": "C186C",
+      "title": "Advanced Documentary Workshop",
+      "units": 4,
+      "description": "",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV M111",
+      "dept": "FILM TV",
+      "number": "M111",
+      "title": "Women and Film",
+      "units": 6.0,
+      "description": "(Same as Gender Studies M111.) Lecture, eight hours; discussion, one hour. Historical issues and critical approaches to women and cinema that may include authorship, stardom, female genres, and images of women in Hollywood cinema, alternative cinema, and independent cinema from silent era to present. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV M117",
+      "dept": "FILM TV",
+      "number": "M117",
+      "title": "Chicanos in Film/Video",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M114.) Lecture/screenings, five hours; discussion, one hour. Goal is to gain nuanced understanding of Chicano cinema as political, socioeconomic, cultural, and aesthetic practice. Examination of representation of Mexican Americans and Chicanos in four Hollywood genres\u2014silent greaser films, social problem films, Westerns, and gang\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 10",
+      "dept": "THEATER",
+      "number": "10",
+      "title": "Introduction to Theater",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Exploration of theater in production, with emphasis on collaborative role of theater artists and active role of audience. Understanding of and access to live theatrical event and enhanced appreciation of value of theater to society; development of critical skills through consideration of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 15",
+      "dept": "THEATER",
+      "number": "15",
+      "title": "Introduction to Directing",
+      "units": 4.0,
+      "description": "Lecture, two hours; studio, four hours. Investigation of role of director in theatrical production and theories of play direction, with emphasis on analysis and interpretation of dramatic work and its realization in production. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 20",
+      "dept": "THEATER",
+      "number": "20",
+      "title": "Acting Fundamentals",
+      "units": 4.0,
+      "description": "Studio, four hours. Introduction to interpretation of drama through art of actor. Development of individual insights, skills, and disciplines in presentation of dramatic material to audiences. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 28A",
+      "dept": "THEATER",
+      "number": "28A",
+      "title": "Acting, Voice, and Movement Workshop I",
+      "units": 2.0,
+      "description": "Studio, three to six hours. Study of beginning acting technique, scene study, and development of voice and movement skills. May be repeated for maximum of 12 units. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 28B",
+      "dept": "THEATER",
+      "number": "28B",
+      "title": "Acting, Voice, and Movement Workshop I",
+      "units": 2.0,
+      "description": "Studio, three to six hours. Study of beginning acting technique, scene study, and development of voice and movement skills. May be repeated for maximum of 12 units. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 28C",
+      "dept": "THEATER",
+      "number": "28C",
+      "title": "Acting, Voice, and Movement Workshop I",
+      "units": 2.0,
+      "description": "Studio, three to six hours. Study of beginning acting technique, scene study, and development of voice and movement skills. May be repeated for maximum of 12 units. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 30",
+      "dept": "THEATER",
+      "number": "30",
+      "title": "Dramatic Writing",
+      "units": 4.0,
+      "description": "Studio, three hours. Intended for Theater minors and other nonmajors. Exploration and development of creative writing skills for one or more of various forms of entertainment media. May be repeated once. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

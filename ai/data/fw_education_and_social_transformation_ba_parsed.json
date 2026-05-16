@@ -1,0 +1,648 @@
+{
+  "major_id": "fw-education-and-social-transformation-ba",
+  "major_name": "FW Education and Social Transformation BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/EducationandSocialTransformationBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "EDUC 35"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "EDUC 10",
+            "EDUC 11"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "EDUC 100",
+        "EDUC 120",
+        "EDUC 150",
+        "EDUC 156",
+        "EDUC 180"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "EDUC 101",
+            "EDUC 102",
+            "EDUC 103",
+            "EDUC 104",
+            "EDUC 105",
+            "EDUC 106",
+            "EDUC 107",
+            "EDUC 108",
+            "EDUC 109",
+            "EDUC 110",
+            "EDUC 111",
+            "EDUC 112",
+            "EDUC 113",
+            "EDUC 114",
+            "EDUC 115",
+            "EDUC 116",
+            "EDUC 117",
+            "EDUC 118",
+            "EDUC 119"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "EDUC 121",
+            "EDUC 122",
+            "EDUC 123",
+            "EDUC 124",
+            "EDUC 125",
+            "EDUC 126",
+            "EDUC 127",
+            "EDUC 128",
+            "EDUC 129",
+            "EDUC 130",
+            "EDUC 131",
+            "EDUC 132",
+            "EDUC 133",
+            "EDUC 134",
+            "EDUC 135",
+            "EDUC 136",
+            "EDUC 137",
+            "EDUC 138",
+            "EDUC 139",
+            "EDUC 140",
+            "EDUC 141",
+            "EDUC 142",
+            "EDUC 143",
+            "EDUC 144",
+            "EDUC 145",
+            "EDUC 146",
+            "EDUC 147",
+            "EDUC 148",
+            "EDUC 149"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "EDUC 151",
+            "EDUC 152",
+            "EDUC 153",
+            "EDUC 154",
+            "EDUC 155",
+            "EDUC 157",
+            "EDUC 158",
+            "EDUC 159",
+            "EDUC 160",
+            "EDUC 161",
+            "EDUC 162",
+            "EDUC 163",
+            "EDUC 164",
+            "EDUC 165",
+            "EDUC 166",
+            "EDUC 167",
+            "EDUC 168",
+            "EDUC 169"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "EDUC 170",
+            "EDUC 171",
+            "EDUC 172",
+            "EDUC 173",
+            "EDUC 174",
+            "EDUC 175",
+            "EDUC 176",
+            "EDUC 177",
+            "EDUC 178",
+            "EDUC 179",
+            "CESC 130"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "EDUC M129XP",
+            "EDUC 130AX",
+            "EDUC 130BX",
+            "EDUC 130CX",
+            "EDUC M131A",
+            "EDUC M131B",
+            "EDUC M131C",
+            "EDUC M142",
+            "EDUC 144XP",
+            "EDUC 159",
+            "EDUC 171",
+            "EDUC 176",
+            "EDUC 195",
+            "EDUC 195CE",
+            "EDUC 196XP"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "EDUC 181"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "CESC": [
+      "CESC 130"
+    ],
+    "EDUC": [
+      "EDUC 10",
+      "EDUC 100",
+      "EDUC 11",
+      "EDUC 120",
+      "EDUC 130AX",
+      "EDUC 130BX",
+      "EDUC 130CX",
+      "EDUC 144XP",
+      "EDUC 150",
+      "EDUC 156",
+      "EDUC 159",
+      "EDUC 171",
+      "EDUC 176",
+      "EDUC 180",
+      "EDUC 181",
+      "EDUC 195",
+      "EDUC 195CE",
+      "EDUC 196XP",
+      "EDUC 35",
+      "EDUC M129XP",
+      "EDUC M131A",
+      "EDUC M131B",
+      "EDUC M131C",
+      "EDUC M142"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "CESC 130",
+      "dept": "CESC",
+      "number": "130",
+      "title": "Intercultural Communication in Global Workplace",
+      "units": 4.0,
+      "description": "Seminar, three hours. Students enrolled in international summer internships draw on their own and each other\u2019s experiences to critically think about intercultural communication, and to draw insights from that academic literature to define and build intercultural communication competencies in context of workplace environment. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 10",
+      "dept": "EDUC",
+      "number": "10",
+      "title": "Introduction to Educational Issues and Scholarship",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Introduction to broad landscape of public education in U.S. Intended for those interested in educational research, policy, or teaching in both formal and informal educational contexts. Readings highlight work of educational researchers from UCLA\u2019s Department of Education, especially ways their scholarship intersects with policy\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EDUC 100",
+        "EDUC 120"
+      ]
+    },
+    {
+      "course_id": "EDUC 100",
+      "dept": "EDUC",
+      "number": "100",
+      "title": "Foundations: Histories and Philosophies of Education",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisites: courses 10 or 11, and 35. Limited to Education and Social Transformation majors. Introduction to central concepts underlaying the study of education in the U.S. In alignment with the major, focus on analyzing how education is studied, and assumption of the vital importance of education in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10 or 11, and 35.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 35"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "EDUC 10",
+            "EDUC 11"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 11",
+      "dept": "EDUC",
+      "number": "11",
+      "title": "Education, Equality, and Future of American Society: Problems, Prospects, and Policies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Schools are primary institutions charged with responsibility of preparing young people for their roles as citizens so that they can participate in our democracy. Public schools also serve as key sites where two essential, and at times conflicting, functions are carried out: students are\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EDUC 100",
+        "EDUC 120"
+      ]
+    },
+    {
+      "course_id": "EDUC 120",
+      "dept": "EDUC",
+      "number": "120",
+      "title": "Foundations: Contexts for Teaching, Learning, and Development",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisites: courses 10 or 11, and 35. Limited to Education and Social Transformation majors. Introduction to basics of learning sciences and learning theory, acknowledging that learning takes place in multiple contexts both inside and outside of the classroom. Discussion of promising practices to meet the needs of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10 or 11, and 35.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 35"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "EDUC 10",
+            "EDUC 11"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 130AX",
+      "dept": "EDUC",
+      "number": "130AX",
+      "title": "Instructional Apprenticeship in Teaching and Learning at UCLA Lab School",
+      "units": 4.0,
+      "description": "Tutorial, 10 hours. Requisite: course 180. Limited to juniors/seniors. Not open for credit to students with credit for course 130BX, 130CX, or 130EX. Training and supervised apprenticeship for advanced undergraduate students at UCLA Lab School (Corinne A. Seeds campus), K-6 elementary school on UCLA campus. Students gain understanding of innovative\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 130BX",
+      "dept": "EDUC",
+      "number": "130BX",
+      "title": "Instructional Apprenticeship in Teaching and Learning at UCLA Partner Schools",
+      "units": 4.0,
+      "description": "Tutorial, 10 hours. Requisite: course 180. Limited to juniors/seniors. Not open for credit to students with credit for course 130AX, 130CX, or 130EX. Introduction to K-12 teaching profession through training and supervised off-campus experiences at UCLA partner schools. Students gain grounded understanding of social issues in education through readings, observations,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 130CX",
+      "dept": "EDUC",
+      "number": "130CX",
+      "title": "Instructional Apprenticeship in Teaching and Learning at UCLA Community Schools",
+      "units": 4.0,
+      "description": "Tutorial, 10 hours. Requisite: course 180. Not open for credit to students with credit for course 130AX, 130BX, or 130EX. Examination of how UCLA partners with Los Angeles Unified School District (LAUSD) to educate, engage, empower, and serve students and families through community schooling model. Through readings, discussions, guest speakers,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 144XP",
+      "dept": "EDUC",
+      "number": "144XP",
+      "title": "Pedagogies of Global Citizenship Education",
+      "units": 5.0,
+      "description": "Lecture, three hours; field work, one hour. Requisite: course 180. Not open for credit to students with credit for course 144. Questions regarding nature and possibility of education that can foster global citizenship necessary to understand and resolve world's most pressing issues. Focus on curriculum and instruction of global citizenship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 150",
+      "dept": "EDUC",
+      "number": "150",
+      "title": "Quantitative Research in Education: Claims and Evidence",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Requisite: course 35. Limited to Education and Social Transformation majors. Offers introductory training in conducting and making sense of quantitative analysis of educational data. Introduction of the concept of validity (statistical validity, internal validity, construct validity, external validity) as a framework to evaluate the\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 35.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 156",
+      "dept": "EDUC",
+      "number": "156",
+      "title": "Introduction to Qualitative Research in Education for Social Transformation",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Requisite: course 35. Limited to Education and Social Transformation majors. Qualitative researchers who focus on education and social transformation often examine social roots of educational inequalities and injustices, and organization of teaching and learning across diverse settings in order to understand educational possibilities. Introduction\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 35.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 159",
+      "dept": "EDUC",
+      "number": "159",
+      "title": "Educational Research and Equity in Informal Learning: Collaboration between Hammer Museum and UCLA Education",
+      "units": 5.0,
+      "description": "Seminar, three hours. Requisites: courses 35, 180. Through collaboration with Hammer Museum, introduction to importance of informal learning contexts, specifically in art museums, and value of conducting educational research within such contexts, while keeping equity at center of inquiry and exploration. Study of art museum pedagogies and philosophies. Reflection on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 35, 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 35",
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 171",
+      "dept": "EDUC",
+      "number": "171",
+      "title": "Community Service Learning for Academic Achievement",
+      "units": 4.0,
+      "description": "(Formerly numbered 185.) Lecture, two hours; discussion, two hours. Emphasis on cognitive learning and motivation theories and their relevance to strategies for developing curricular instructional techniques and training that contribute to tutoring, counseling, and other instructional assistance in various school settings. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 176",
+      "dept": "EDUC",
+      "number": "176",
+      "title": "Transformative Research in Community-Based Settings: Practicum",
+      "units": 5.0,
+      "description": "Lecture, four hours; fieldwork, one hour. Requisites: courses 35, 160. Introduction to broad tradition of transformative research in education\u2014public scholarship that aims to disrupt long-standing educational inequities in partnership with local communities. This tradition includes Youth Participatory Action Research (YPAR), Community-Based Action Research (CBAR), and other collaborative approaches that value\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 35, 160.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 35",
+          "EDUC 160"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 180",
+      "dept": "EDUC",
+      "number": "180",
+      "title": "Orientation to Community Engagement",
+      "units": 4.0,
+      "description": "Seminar, four hours. Limited to Education and Social Transformation majors. Not open for credit to students with credit for course 180W. First course in three-part series to satisfy community engagement requirement for Education and Social Transformation major capstone project. Introduction to conceptions and contexts of community engagement, focusing on possibilities\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EDUC 130AX",
+        "EDUC 130BX",
+        "EDUC 130CX",
+        "EDUC 144XP",
+        "EDUC 159",
+        "EDUC 195",
+        "EDUC 195CE",
+        "EDUC 196XP",
+        "EDUC M131A",
+        "EDUC M131B",
+        "EDUC M131C"
+      ]
+    },
+    {
+      "course_id": "EDUC 181",
+      "dept": "EDUC",
+      "number": "181",
+      "title": "Capstone in Education and Social Transformation",
+      "units": 5.0,
+      "description": "Seminar, four hours. Limited to Education and Social Transformation majors. Third course in required capstone sequence for Education and Social Transformation major. Students reflect on their coursework, community engagement experiences, and other curricular and co-curricular opportunities while completing major. Students compile portfolio that incorporates work completed through Education and Social\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 195",
+      "dept": "EDUC",
+      "number": "195",
+      "title": "Community Internships in Education",
+      "units": 2.0,
+      "description": "Tutorial, one hour; fieldwork, eight to 10 hours. Requisite: course 180. Limited to junior/senior Education and Social Transformation majors. Internship in approved educational or community setting to be supervised by instructor. Students meet biweekly with instructor, write reflective journals, and prepare final paper. May be repeated for credit. Individual contract\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 195CE",
+      "dept": "EDUC",
+      "number": "195CE",
+      "title": "Community or Corporate Internships in Education",
+      "units": 4.0,
+      "description": "Tutorial, one hour; fieldwork, eight to 10 hours. Requisite: course 180. Limited to junior/senior Education and Social Transformation majors. Internship in supervised educational settings coordinated through Center for Community Engagement. Students meet biweekly with graduate student instructor, complete weekly readings and written assignments, and write final research paper or project\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 196XP",
+      "dept": "EDUC",
+      "number": "196XP",
+      "title": "Community-Engaged Research Apprenticeship",
+      "units": 4.0,
+      "description": "Tutorial, 12 hours. Requisite: course 180. Recommended: course 160. Limited to junior/senior Education and Social Transformation majors. Research apprenticeship in community setting for upper-division students under guidance of faculty mentor. Faculty advisor must be actively engaged in work of that community and focus of research must address needs of that\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC 35",
+      "dept": "EDUC",
+      "number": "35",
+      "title": "Introduction to Inquiry and Research in Education",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Introduction to empirical and analytical educational research. Intended for undergraduates interested in learning how to find, interpret, and evaluate research that investigates important questions around education and education systems. Overview of multiple methods of conceptualizing inquiry and gathering evidence, including qualitative (e.g., ethnographic, semi-structured\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EDUC 100",
+        "EDUC 120",
+        "EDUC 159",
+        "EDUC 176"
+      ]
+    },
+    {
+      "course_id": "EDUC M129XP",
+      "dept": "EDUC",
+      "number": "M129XP",
+      "title": "Arts Education Undergraduate Practicum and Capstone Project",
+      "units": 4.0,
+      "description": "(Same as Arts Education M192XP.) Seminar, three hours; practicum, three hours; outside study, six hours. Enforced requisites: courses M129, M142. Limited to juniors/seniors. Continuation of arts education training and supervised practicum for advanced undergraduate students participating in Visual and Performing Arts Education minor. Students continue to implement and evaluate original\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M129, M142.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 129",
+          "MATH 142"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC M131A",
+      "dept": "EDUC",
+      "number": "M131A",
+      "title": "Language, Literacy, and Human Development Research Group Seminars",
+      "units": 5.0,
+      "description": "(Same as African American Studies M194A.) Seminar, three hours; laboratory, two hours (when scheduled). Requisite: course 180. Research seminar designed to provide opportunity to combine theory and practice in study of human development in educational contexts. Focus on relationship between theories of development, culture, and language. Letter grading.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC M131B",
+      "dept": "EDUC",
+      "number": "M131B",
+      "title": "Culture, Gender, and Human Development Research Group Seminars",
+      "units": 5.0,
+      "description": "(Same as African American Studies M194B.) Seminar, three hours; laboratory, two hours (when scheduled). Requisite: course 180. Research seminar designed to provide opportunity to combine theory and practice in study of human development in educational contexts. Focus on relationship between theories of development, culture, and gender. Letter grading.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC M131C",
+      "dept": "EDUC",
+      "number": "M131C",
+      "title": "Culture, Communications, and Human Development Research Group Seminars",
+      "units": 5.0,
+      "description": "(Same as African American Studies M194C.) Seminar, three hours; laboratory, two hours (when scheduled). Requisite: course 180. Research seminar designed to provide opportunity to combine theory and practice in study of human development in educational contexts. Focus on relationship between theories of development, culture, and technologies. Letter grading.",
+      "prereqs_raw": "Requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "EDUC 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EDUC M142",
+      "dept": "EDUC",
+      "number": "M142",
+      "title": "Introduction to Arts Education for Multiple Publics: Theory and Practice",
+      "units": 4.0,
+      "description": "(Formerly numbered M104.) (Same as Arts Education M102.) Seminar, three hours; outside study, nine hours. Introductory course with focus on arts education for multiple publics in inner-city settings. Study of core issues in arts education, creativity, and social justice as students develop, implement, and assess original syllabi, lesson plans, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

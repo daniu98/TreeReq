@@ -1,0 +1,999 @@
+{
+  "major_id": "dq-climate-science-bs",
+  "major_name": "DQ Climate Science BS",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/ClimateScienceBS",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "A&O SCI 51"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "A&O SCI M71",
+            "COM SCI 30",
+            "COMPTNG 10A"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHEM 14A",
+            "CHEM 14B",
+            "CHEM 20A",
+            "CHEM 20B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LIFESCI 30A",
+            "LIFESCI 30B",
+            "MATH 3A",
+            "MATH 3B",
+            "MATH 3C",
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A",
+            "MATH 33B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "PHYSICS 1A",
+            "PHYSICS 1B",
+            "PHYSICS 1C",
+            "PHYSICS 1AH",
+            "PHYSICS 1BH",
+            "PHYSICS 1CH",
+            "PHYSICS 5A",
+            "PHYSICS 5B",
+            "PHYSICS 5C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "A&O SCI 90",
+            "STATS 10",
+            "STATS 12",
+            "STATS 13"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "A&O SCI 101",
+        "A&O SCI M105",
+        "A&O SCI C110",
+        "A&O SCI 112",
+        "A&O SCI 121",
+        "A&O SCI 123",
+        "A&O SCI 145"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "A&O SCI": [
+      "A&O SCI 101",
+      "A&O SCI 112",
+      "A&O SCI 121",
+      "A&O SCI 123",
+      "A&O SCI 145",
+      "A&O SCI 51",
+      "A&O SCI 90",
+      "A&O SCI C110",
+      "A&O SCI M105",
+      "A&O SCI M71"
+    ],
+    "CHEM": [
+      "CHEM 14A",
+      "CHEM 14B",
+      "CHEM 20A",
+      "CHEM 20B"
+    ],
+    "COM SCI": [
+      "COM SCI 30"
+    ],
+    "COMPTNG": [
+      "COMPTNG 10A"
+    ],
+    "LIFESCI": [
+      "LIFESCI 30A",
+      "LIFESCI 30B"
+    ],
+    "MATH": [
+      "MATH 31A",
+      "MATH 31B",
+      "MATH 32A",
+      "MATH 33B",
+      "MATH 3A",
+      "MATH 3B",
+      "MATH 3C"
+    ],
+    "PHYSICS": [
+      "PHYSICS 1A",
+      "PHYSICS 1AH",
+      "PHYSICS 1B",
+      "PHYSICS 1BH",
+      "PHYSICS 1C",
+      "PHYSICS 1CH",
+      "PHYSICS 5A",
+      "PHYSICS 5B",
+      "PHYSICS 5C"
+    ],
+    "STATS": [
+      "STATS 10",
+      "STATS 12",
+      "STATS 13"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "A&O SCI 101",
+      "dept": "A&O SCI",
+      "number": "101",
+      "title": "Fundamentals of Atmospheric Dynamics and Thermodynamics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisites: Mathematics 3B or 31B or Life Sciences 30B, Physics 1B or 5B or 5C or 6B. Introduction to thermodynamics (flows of heat, energy, and work) and dynamics (winds) of atmosphere. Topics covered include hydrostatic balance, first law of thermodynamics, dry and moist adiabatic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 3B or 31B or Life Sciences 30B, Physics 1B or 5B or 5C or 6B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 3B",
+            "MATH 31B",
+            "LIFE SCI 30B"
+          ],
+          [
+            "PHYSICS 1B",
+            "PHYSICS 5B",
+            "PHYSICS 5C",
+            "PHYSICS 6B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI C110"
+      ]
+    },
+    {
+      "course_id": "A&O SCI 112",
+      "dept": "A&O SCI",
+      "number": "112",
+      "title": "Climate Change Assessment",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: one course from Life Sciences 30B, 40, Mathematics 3B, 31B, Statistics 10, 12, or 13. Recommended requisite: one course from 51, 101, 102, 103, 104, 105, M106, 107, Environment 175, or equivalent background for reading quantitative scientific literature in climate change. Projections of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from Life Sciences 30B, 40, Mathematics 3B, 31B, Statistics 10, 12, or 13.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30B",
+            "LIFE SCI 40",
+            "MATH 3B",
+            "MATH 31B",
+            "STAT 10",
+            "STAT 12",
+            "STAT 13"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 121"
+      ]
+    },
+    {
+      "course_id": "A&O SCI 121",
+      "dept": "A&O SCI",
+      "number": "121",
+      "title": "Climate Mitigation Solutions",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: one course from course 1, 2, 3, 51, M100, 102, or 112. Critical survey of potential strategies to address climate change, including solutions in infrastructure, transportation, energy, waste, and agricultural sectors, as well as geoengineering. Exploration of roles of communication, equity, religion, social\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from course 1, 2, 3, 51, M100, 102, or 112.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "A&O SCI 1",
+            "A&O SCI 2",
+            "A&O SCI 3",
+            "A&O SCI 51",
+            "A&O SCI M100",
+            "A&O SCI 102",
+            "A&O SCI 112"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI 123",
+      "dept": "A&O SCI",
+      "number": "123",
+      "title": "Climate Adaptation Solutions",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisites: courses 1, 51, Environment 10. Development of fundamental understanding of climate change adaptation challenges facing humanity. Such challenges stem from changes in physical climate system, such as warming and increases in heat extremes, loss of snow and ice, sea level rise, increases\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI 145",
+      "dept": "A&O SCI",
+      "number": "145",
+      "title": "Atmospheric Physics: Radiation, Clouds, and Aerosols",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Physics 1A, 1B, and 1C, or 6A, 6B, and 6C. Theory and application of atmospheric radiation, aerosol, and cloud processes. Topics include radiative transport, cloud and rain formation, aerosol properties, impact of aerosol and clouds on climate. Letter grading.",
+      "prereqs_raw": "Requisites: Physics 1A, 1B, and 1C, or 6A, 6B, and 6C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PHYSICS 1A",
+            "PHYSICS 1B",
+            "PHYSICS 1C"
+          ],
+          [
+            "PHYSICS 6A",
+            "PHYSICS 6B",
+            "PHYSICS 6C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI 51",
+      "dept": "A&O SCI",
+      "number": "51",
+      "title": "Fundamentals of Climate Science",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 3B or 32A, Physics 1A or 5A or 5B, with grades of C or better. Development of fundamental understanding of climate science. Topics include global energy balance, atmospheric radiation and greenhouse effect, surface and boundary layer dynamics, atmospheric and oceanic circulation, global\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 3B or 32A, Physics 1A or 5A or 5B, with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 3B",
+            "MATH 32A"
+          ],
+          [
+            "PHYS 1A",
+            "PHYS 5A",
+            "PHYS 5B"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 121"
+      ]
+    },
+    {
+      "course_id": "A&O SCI 90",
+      "dept": "A&O SCI",
+      "number": "90",
+      "title": "Introduction to Undergraduate Research in Atmospheric and Oceanic Sciences",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Requisites: course M71 (or Program in Computing 10A); Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B. Students gain basic ability to understand, conduct, and communicate scientific research in atmospheric and oceanic sciences. Univariate and bivariate statistical data analysis,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M71 (or Program in Computing 10A); Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B.",
+      "prereqs_parsed": {
+        "required": [
+          "A&O SCI M71",
+          "LIFE SCI 30A",
+          "LIFE SCI 30B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI C110",
+      "dept": "A&O SCI",
+      "number": "C110",
+      "title": "Advanced Dynamic and Synoptic Meteorology",
+      "units": 4.0,
+      "description": "Lecture, three and one half hours. Requisite: course 101. Weather map analysis, thermodynamic diagrams, satellite interpretation, severe weather forecasting, isentropic analysis, frontogenesis, quasi-geostrophic omega equation. Concurrently scheduled with course C227. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 101.",
+      "prereqs_parsed": {
+        "required": [
+          "A&O SCI 101"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI M105",
+      "dept": "A&O SCI",
+      "number": "M105",
+      "title": "Introduction to Chemical Oceanography",
+      "units": 4.0,
+      "description": "(Same as Ecology and Evolutionary Biology M139.) Lecture, three hours; discussion, one hour. Introductory course for physical sciences, life sciences, and engineering majors interested in oceanic environment. Chemical composition of oceans and nature of physical, chemical, and biological processes governing this composition in past and present. Cycles of major and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI M71",
+      "dept": "A&O SCI",
+      "number": "M71",
+      "title": "Introduction to Computing for Geoscientists",
+      "units": 4.0,
+      "description": "(Same as Earth, Planetary, and Space Sciences M71.) Lecture, four hours; outside computing study, six to 10 hours. Introduction to writing programs, visualization of geoscience data, and comparison with models. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "A&O SCI 90"
+      ]
+    },
+    {
+      "course_id": "CHEM 14A",
+      "dept": "CHEM",
+      "number": "14A",
+      "title": "General Chemistry for Life Scientists I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "LIFE SCI 30A",
+          "MATH 3A",
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B"
+      ]
+    },
+    {
+      "course_id": "CHEM 14B",
+      "dept": "CHEM",
+      "number": "14B",
+      "title": "General Chemistry for Life Scientists II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH"
+        ],
+        "corequisites": [
+          "LIFE SCI 30B",
+          "MATH 3B",
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ],
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31B"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 20A",
+      "dept": "CHEM",
+      "number": "20A",
+      "title": "Chemical Structure",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B"
+      ]
+    },
+    {
+      "course_id": "CHEM 20B",
+      "dept": "CHEM",
+      "number": "20B",
+      "title": "Chemical Energetics and Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI 30",
+      "dept": "COM SCI",
+      "number": "30",
+      "title": "Principles and Practices of Computing",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Designed for students in computer science and related majors who do not have prior programming experience. Precursor course to introductory computer science sequence (courses 31, 32, 33). Teaches students how to use computers as tool for problem solving, creativity, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 10A",
+      "dept": "COMPTNG",
+      "number": "10A",
+      "title": "Introduction to Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 30A",
+      "dept": "LIFESCI",
+      "number": "30A",
+      "title": "Mathematics for Life Scientists",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LIFESCI 30B"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 30B",
+      "dept": "LIFESCI",
+      "number": "30B",
+      "title": "Mathematics for Life Scientists",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Enforced requisite: course 30A. Introduction to concept of matrices and linear transformations to equip students with some basic tools to understand dynamics of multivariable nonlinear systems. Examples from ecological, physiological, chemical, and other systems. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 30A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 30A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 90",
+        "CHEM 14A",
+        "CHEM 20A",
+        "MATH 31B",
+        "MATH 32A",
+        "PHYSICS 1A",
+        "PHYSICS 1AH"
+      ]
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 101",
+        "A&O SCI 112",
+        "A&O SCI 90",
+        "CHEM 14B",
+        "PHYSICS 1A",
+        "PHYSICS 1AH",
+        "PHYSICS 1B",
+        "PHYSICS 1BH"
+      ]
+    },
+    {
+      "course_id": "MATH 32A",
+      "dept": "MATH",
+      "number": "32A",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 51",
+        "PHYSICS 1A",
+        "PHYSICS 1AH",
+        "PHYSICS 1B",
+        "PHYSICS 1BH",
+        "PHYSICS 1C",
+        "PHYSICS 1CH"
+      ]
+    },
+    {
+      "course_id": "MATH 33B",
+      "dept": "MATH",
+      "number": "33B",
+      "title": "Differential Equations",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 3A",
+      "dept": "MATH",
+      "number": "3A",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 90",
+        "CHEM 14A",
+        "MATH 3B",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MATH 3B",
+      "dept": "MATH",
+      "number": "3B",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C\u2013 or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 3A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 101",
+        "A&O SCI 112",
+        "A&O SCI 51",
+        "A&O SCI 90",
+        "CHEM 14B",
+        "MATH 3C",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MATH 3C",
+      "dept": "MATH",
+      "number": "3C",
+      "title": "Ordinary Differential Equations with Linear Algebra for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C\u2013 or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 3B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "dept": "PHYSICS",
+      "number": "1A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 145",
+        "PHYSICS 1B",
+        "PHYSICS 1BH",
+        "PHYSICS 1C",
+        "PHYSICS 1CH"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1AH",
+      "dept": "PHYSICS",
+      "number": "1AH",
+      "title": "Physics for Scientists and Engineers: Mechanics (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Recommended corequisite: Mathematics 32B. Enriched preparation for upper-division physics courses. Same material as course 1A but in greater depth; recommended for Physics majors and other students desiring such coverage. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1BH",
+        "PHYSICS 1CH"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1B",
+      "dept": "PHYSICS",
+      "number": "1B",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Fluid mechanics, oscillation, mechanical waves, and sound. Electric charge, field and potential, capacitors, and dielectrics. Currents and resistance, direct-current circuits. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 101",
+        "A&O SCI 145",
+        "PHYSICS 1C",
+        "PHYSICS 1CH"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1BH",
+      "dept": "PHYSICS",
+      "number": "1BH",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Recommended corequisite: Mathematics 33A. Enriched preparation for upper-division physics courses. Same material as course 1B but in greater depth; recommended for Physics majors and other students desiring such coverage. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1AH",
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1CH"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1C",
+      "dept": "PHYSICS",
+      "number": "1C",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 145"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1CH",
+      "dept": "PHYSICS",
+      "number": "1CH",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Recommended corequisite: Mathematics 33B. Enriched preparation for upper-division physics courses. Same material as course 1C but in greater depth; recommended for Physics majors and other students desiring such\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1AH",
+          "PHYSICS 1A",
+          "PHYSICS 1BH",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1A"
+          ],
+          [
+            "PHYSICS 1BH",
+            "PHYSICS 1B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 5A",
+      "dept": "PHYSICS",
+      "number": "5A",
+      "title": "Physics for Life Sciences Majors: Mechanics and Energy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently). Statics and dynamics of forces, motion, energy, including thermal energy, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 3C"
+        ],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 5B",
+        "PHYSICS 5C"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5B",
+      "dept": "PHYSICS",
+      "number": "5B",
+      "title": "Physics for Life Sciences Majors: Thermodynamics, Fluids, Waves, Light, and Optics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisite: course 5A. Thermal properties of matter, free energy, fluids, ideal gas, diffusion, oscillations, waves, sounds, light, and optics, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 101"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5C",
+      "dept": "PHYSICS",
+      "number": "5C",
+      "title": "Physics for Life Sciences Majors: Electricity, Magnetism, and Modern Physics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisite: course 5A. Electrostatics in vacuum and in water. Electricity, circuits, magnetism, quantum, atomic and nuclear physics, radioactivity, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 101"
+      ]
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 12",
+      "dept": "STATS",
+      "number": "12",
+      "title": "Introduction to Statistical Methods for Geography and Environmental Studies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 13",
+      "dept": "STATS",
+      "number": "13",
+      "title": "Introduction to Statistical Methods for Life and Health Sciences",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

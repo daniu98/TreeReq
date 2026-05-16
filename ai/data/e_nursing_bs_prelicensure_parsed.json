@@ -1,0 +1,874 @@
+{
+  "major_id": "e-nursing-bs-prelicensure",
+  "major_name": "E Nursing BS Prelicensure",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/NursingBSPrelicensure",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "BIOSTAT 100",
+        "CHEM 14A",
+        "CHEM 14B",
+        "CHEM 14C",
+        "LIFESCI 7A",
+        "LIFESCI 7C",
+        "NURSING 3",
+        "NURSING 10",
+        "NURSING 13",
+        "NURSING 20",
+        "NURSING 50",
+        "NURSING 51",
+        "NURSING 54A",
+        "NURSING 54B",
+        "NURSING 173W",
+        "PSYCH 10"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "COMM 1",
+            "COMM 10"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MATH 3A",
+            "MATH 31A"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "NURSING 115",
+        "NURSING 150A",
+        "NURSING 150B",
+        "NURSING 152A",
+        "NURSING 152B",
+        "NURSING 160",
+        "NURSING 161",
+        "NURSING 162A",
+        "NURSING 162B",
+        "NURSING 162C",
+        "NURSING 163",
+        "NURSING 164",
+        "NURSING 165",
+        "NURSING 168",
+        "NURSING 171",
+        "NURSING 174"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "NURSING 169"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "BIOSTAT": [
+      "BIOSTAT 100"
+    ],
+    "CHEM": [
+      "CHEM 14A",
+      "CHEM 14B",
+      "CHEM 14C"
+    ],
+    "COMM": [
+      "COMM 1",
+      "COMM 10"
+    ],
+    "LIFESCI": [
+      "LIFESCI 7A",
+      "LIFESCI 7C"
+    ],
+    "MATH": [
+      "MATH 31A",
+      "MATH 3A"
+    ],
+    "NURSING": [
+      "NURSING 10",
+      "NURSING 115",
+      "NURSING 13",
+      "NURSING 150A",
+      "NURSING 150B",
+      "NURSING 152A",
+      "NURSING 152B",
+      "NURSING 160",
+      "NURSING 161",
+      "NURSING 162A",
+      "NURSING 162B",
+      "NURSING 162C",
+      "NURSING 163",
+      "NURSING 164",
+      "NURSING 165",
+      "NURSING 168",
+      "NURSING 169",
+      "NURSING 171",
+      "NURSING 173W",
+      "NURSING 174",
+      "NURSING 20",
+      "NURSING 3",
+      "NURSING 50",
+      "NURSING 51",
+      "NURSING 54A",
+      "NURSING 54B"
+    ],
+    "PSYCH": [
+      "PSYCH 10"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "BIOSTAT 100",
+      "dept": "BIOSTAT",
+      "number": "100",
+      "title": "Introduction to Biostatistics",
+      "units": 4.0,
+      "description": "(Formerly numbered 100A.) Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: one biological or physical sciences course. Suitable for juniors/seniors. Limited to nonmajors. Not open for credit to students with credit for course 120. Students who have completed courses in statistics may enroll only with consent of instructor.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 14A",
+      "dept": "CHEM",
+      "number": "14A",
+      "title": "General Chemistry for Life Scientists I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "LIFE SCI 30A",
+          "MATH 3A",
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B"
+      ]
+    },
+    {
+      "course_id": "CHEM 14B",
+      "dept": "CHEM",
+      "number": "14B",
+      "title": "General Chemistry for Life Scientists II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH"
+        ],
+        "corequisites": [
+          "LIFE SCI 30B",
+          "MATH 3B",
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ],
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31B"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14C"
+      ]
+    },
+    {
+      "course_id": "CHEM 14C",
+      "dept": "CHEM",
+      "number": "14C",
+      "title": "Structure of Organic Molecules",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C\u2013 or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 1",
+      "dept": "COMM",
+      "number": "1",
+      "title": "Principles of Oral Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisite: satisfaction of Entry-Level Writing requirement. Examination of foundations of communication and public speaking. Consideration of number of basic theories related to study of communication and development of skills to enable composition and delivery of speeches in accordance with specific rhetorical concepts. Improvement of ability to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: satisfaction of Entry-Level Writing requirement.",
+      "prereqs_parsed": {
+        "required": [
+          "Entry-Level Writing requirement"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 10",
+      "dept": "COMM",
+      "number": "10",
+      "title": "Introduction to Communication",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Introduction to study of interpersonal and mass communication using interdisciplinary approach. Exploration of basic methods and theoretical perspectives that social scientists and others use to study interpersonal and mass communication, and basic concepts used to describe and explain that communication. Historical overview of each\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7A",
+      "dept": "LIFESCI",
+      "number": "7A",
+      "title": "Cell and Molecular Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Introduction to basic principles of cell structure and cell biology, biochemistry, and molecular biology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7C",
+      "dept": "LIFESCI",
+      "number": "7C",
+      "title": "Physiology and Human Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Enforced requisite: course 7B. Organization of cells into tissues and organs and principles of physiology of organ systems. Introduction to human genetics and genomics. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14A",
+        "NURSING 51"
+      ]
+    },
+    {
+      "course_id": "MATH 3A",
+      "dept": "MATH",
+      "number": "3A",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14A",
+        "NURSING 51"
+      ]
+    },
+    {
+      "course_id": "NURSING 10",
+      "dept": "NURSING",
+      "number": "10",
+      "title": "Introduction to Nursing and Social Justice I",
+      "units": 2.0,
+      "description": "Lecture, two hours. Within context of history of nursing, introduction to practice of nurses, including role of advocacy. Discussion of effective use of self as professional nurse in relation to ethics, cultural competence, and human diversity. Introduction to ethical principles (justice, autonomy, veracity, beneficence, confidentiality) and professional values (altruism, autonomy,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NURSING 20"
+      ]
+    },
+    {
+      "course_id": "NURSING 115",
+      "dept": "NURSING",
+      "number": "115",
+      "title": "Pharmacology and Therapeutics",
+      "units": 5.0,
+      "description": "Lecture, four hours. Requisites: courses 54A, 54B. Clinical pharmacology for undergraduate nursing students, beginning with emphasis on basic pharmacologic principles. Focus on major drug classes and their mechanism of action, pharmacokinetics, adverse effects, and clinical issues. Letter grading.",
+      "prereqs_raw": "Requisites: courses 54A, 54B.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 54A",
+          "NURSING 54B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 162A"
+      ]
+    },
+    {
+      "course_id": "NURSING 13",
+      "dept": "NURSING",
+      "number": "13",
+      "title": "Introduction to Human Anatomy",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Structural presentation of human body, including musculoskeletal, nervous, circulatory, respiratory, digestive, renal, and reproductive systems. Laboratory uses virtual cadaver dissection and examination. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NURSING 174",
+        "NURSING 54A"
+      ]
+    },
+    {
+      "course_id": "NURSING 150A",
+      "dept": "NURSING",
+      "number": "150A",
+      "title": "Fundamentals of Professional Nursing I",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Requisites: courses 10, 20, 54A. Focuses on theoretical foundations of primary, secondary, and tertiary prevention as they relate to nursing care management in acute care settings for Nursing BS students. Emphasis is on application of relevant theories to Nursing BS practice roles in health\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 20, 54A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NURSING 160",
+        "NURSING 162A"
+      ]
+    },
+    {
+      "course_id": "NURSING 150B",
+      "dept": "NURSING",
+      "number": "150B",
+      "title": "Fundamentals of Professional Nursing II",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Requisites: courses 150A, 152A, 152B, 174. Continuation of course 150A. Expansion of student knowledge on practice of professional nursing as theory-based goal-directed method for assisting patients to meet basic human needs at various levels of health continua. Concepts of communication, interdisciplinary communication and collaboration,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 150A, 152A, 152B, 174.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NURSING 160",
+        "NURSING 162A"
+      ]
+    },
+    {
+      "course_id": "NURSING 152A",
+      "dept": "NURSING",
+      "number": "152A",
+      "title": "Health Promotion: Growth and Development in Culturally Diverse Populations",
+      "units": 2.0,
+      "description": "Lecture, two hours. Introduction to primary prevention strategies as they pertain to health and wellness across lifespan, using population-based approach to nursing care of diverse populations. Priorities in growth and development and reproductive health, including issues related to contraception and parenting; well-child care, school-age health, and chronic illness-prevention strategies for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NURSING 160"
+      ]
+    },
+    {
+      "course_id": "NURSING 152B",
+      "dept": "NURSING",
+      "number": "152B",
+      "title": "Health Promotion: Nutrition in Culturally Diverse Populations",
+      "units": 2.0,
+      "description": "Lecture, two hours. Examination of primary prevention strategies involving nutrition using population-based and clinical approaches to nursing care of diverse populations. Investigation of nutrition in relation to prevention of disease and recovery from disease. Covers biological, public health, and clinical aspects of major macro- and micronutrients, obesity, malnutrition, dietary assessment,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NURSING 160"
+      ]
+    },
+    {
+      "course_id": "NURSING 160",
+      "dept": "NURSING",
+      "number": "160",
+      "title": "Secondary Prevention",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisites: courses 150A, 150B, 152A, 152B. Screening and early detection of illness to prevent chronic or acutely deteriorating illness. Expanding on concepts of health and human development and using nursing process, application of nursing role in providing care to individuals and their families to screen, diagnose, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 150A, 150B, 152A, 152B.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 150A",
+          "NURSING 150B",
+          "NURSING 152A",
+          "NURSING 152B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 161",
+        "NURSING 164",
+        "NURSING 165"
+      ]
+    },
+    {
+      "course_id": "NURSING 161",
+      "dept": "NURSING",
+      "number": "161",
+      "title": "Psychiatric Mental Health Nursing",
+      "units": 5.0,
+      "description": "Lecture, three hours; clinical, six hours. Requisites: courses 160, 162B. Knowledge development and skill assessment to promote mental health of individuals. Exploration of research underlying assessment, diagnosis, and pharmacotherapeutic and psychological treatment of individuals with psychiatric disorders. Application of theory in clinical interpretation of assessment and diagnostic data for purpose\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 160, 162B.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 160",
+          "NURSING 162B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 168",
+        "NURSING 169",
+        "NURSING 171"
+      ]
+    },
+    {
+      "course_id": "NURSING 162A",
+      "dept": "NURSING",
+      "number": "162A",
+      "title": "Foundational Concepts for Tertiary Prevention and Care of Medical-Surgical Patients and Families",
+      "units": 4.0,
+      "description": "Lecture, three hours; clinical, three hours. Requisites: courses 54A, 54B, 150A. Corequisites: courses 115, 150B. Examination of nursing assessment and management of common health problems that adults experience. Theory content in basic assessment, health history, and diagnostic reasoning for selected health problems, with emphasis on social, cultural, and developmental influences.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 54A, 54B, 150A. Corequisites: courses 115, 150B.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 54A",
+          "NURSING 54B",
+          "NURSING 150A"
+        ],
+        "corequisites": [
+          "NURSING 115",
+          "NURSING 150B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 163"
+      ]
+    },
+    {
+      "course_id": "NURSING 162B",
+      "dept": "NURSING",
+      "number": "162B",
+      "title": "Tertiary Prevention and Care of Medical-Surgical Patients and Families",
+      "units": 6.0,
+      "description": "Lecture, four hours; clinical, six hours. Requisite: course 162A. Pathophysiological and psychosocial aspects of assessment and management for selected acute and emergent problems of adult patients with complex illness, including multifaceted assessment, health history, and diagnostic reasoning skills, and emphasis on social, cultural, and developmental influences. Integration of knowledge of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 162A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NURSING 161",
+        "NURSING 162C",
+        "NURSING 165"
+      ]
+    },
+    {
+      "course_id": "NURSING 162C",
+      "dept": "NURSING",
+      "number": "162C",
+      "title": "Tertiary Prevention and Care of Complex Medical-Surgical Patients and Families",
+      "units": 8.0,
+      "description": "Lecture, four hours (10 weeks); clinical, 24 hours (five weeks). Requisite: course 162B. Nursing assessment and management of acute and chronic health problems of acutely ill adults. Content in assessment, health history, and diagnostic reasoning with emphasis on social, cultural, and developmental influences. Integration of pathophysiology, pharmacology, stress and adaptation,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 162B.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 162B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 168",
+        "NURSING 169",
+        "NURSING 171"
+      ]
+    },
+    {
+      "course_id": "NURSING 163",
+      "dept": "NURSING",
+      "number": "163",
+      "title": "Nursing Care of Geriatric Patients and Families",
+      "units": 3.0,
+      "description": "Lecture, two hours; clinical, one hour. Requisite: course 162A. Addresses prevention and management of acute and chronic health problems of older adults. Theory content emphasizes assessment, goal setting, treatment planning, and evaluation of nursing care of older adults and their families with emphasis on psychosocial, cultural, and developmental influences. Students\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 162A.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 162A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 168",
+        "NURSING 169",
+        "NURSING 171"
+      ]
+    },
+    {
+      "course_id": "NURSING 164",
+      "dept": "NURSING",
+      "number": "164",
+      "title": "Maternity Nursing",
+      "units": 5.0,
+      "description": "Lecture, three hours; clinical, six hours. Requisites: courses 160, 160B. Nursing assessment and management for selected acute and emergent problems in maternity/newborn patients, with emphasis on social, cultural, and developmental influences. Integration of basic knowledge of pathophysiology, diagnostics, pharmacology, therapeutic interventions, and communication concepts as applied to childbearing families, with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 160, 160B.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 160",
+          "NURSING 160B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 168",
+        "NURSING 169",
+        "NURSING 171"
+      ]
+    },
+    {
+      "course_id": "NURSING 165",
+      "dept": "NURSING",
+      "number": "165",
+      "title": "Pediatric Nursing",
+      "units": 5.0,
+      "description": "Lecture, three hours; clinical, six hours. Requisites: courses 160, 162B. Nursing assessment and management of acute, chronic, critical, and emergent illnesses in infants, children, and adolescents with emphasis on social, cultural, and developmental influences. Integration of basic knowledge of pathophysiology, diagnostics, pharmacology, therapeutic interventions, and family-centered care concepts as applied\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 160, 162B.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 160",
+          "NURSING 162B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 168",
+        "NURSING 169",
+        "NURSING 171"
+      ]
+    },
+    {
+      "course_id": "NURSING 168",
+      "dept": "NURSING",
+      "number": "168",
+      "title": "Advanced Leadership and Role Integration",
+      "units": 5.0,
+      "description": "Lecture, five hours. Requisites: courses 161, 162C, 163, 164, 165. Leadership and management theories and models, resource allocation and management, delegation and teamwork, conflict resolution, healthy work environments, legal and ethical aspects of professional practice, evaluation of professional practice, patient safety and quality improvement, accreditation process for health care systems,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 161, 162C, 163, 164, 165.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 161",
+          "NURSING 162C",
+          "NURSING 163",
+          "NURSING 164",
+          "NURSING 165"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NURSING 169",
+      "dept": "NURSING",
+      "number": "169",
+      "title": "Clinical Internship: Integration",
+      "units": 12.0,
+      "description": "Clinical, 36 hours. Requisites: courses 161, 162C, 163, 164, 165. Supervised practicum experience within clinical setting as part of interdisciplinary health care team. Focus on application of theory in clinical setting and interpretation of assessment and diagnostic data for purpose of planning, implementing, and evaluating course of care for patients,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 161, 162C, 163, 164, 165.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 161",
+          "NURSING 162C",
+          "NURSING 163",
+          "NURSING 164",
+          "NURSING 165"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NURSING 171",
+      "dept": "NURSING",
+      "number": "171",
+      "title": "Public Health Nursing",
+      "units": 6.0,
+      "description": "Lecture, three hours; clinical, nine hours. Requisites: courses 161, 162C, 163, 164, 165. Theoretical content focuses on population-based approach to public health nursing in relation to health promotion and disease prevention at level of individuals, families, communities, and systems. Clinical practicum concentrates on population-based public health nursing in culturally diverse\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 161, 162C, 163, 164, 165.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 161",
+          "NURSING 162C",
+          "NURSING 163",
+          "NURSING 164",
+          "NURSING 165"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NURSING 173W",
+      "dept": "NURSING",
+      "number": "173W",
+      "title": "Introduction to Nursing Research and Writing II",
+      "units": 5.0,
+      "description": "Lecture, five hours. Requisite: English Composition 3. Introduction to planning research project based on simple question. Review of components of research activities: specific aims and study purposes, variable definition, sample selection, data collection tools, data analyses, and ethical conduct in research studies. Examples of research used as models to demonstrate\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NURSING 174",
+      "dept": "NURSING",
+      "number": "174",
+      "title": "Physical Assessment",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Requisites: courses 3, 13. Designed to provide in-depth review and synthesis of physical assessment skills and knowledge covering lifespan. Individual study, use of audiovisual aids, physical assessment skills practice in laboratory, and required text are mandatory. Letter grading.",
+      "prereqs_raw": "Requisites: courses 3, 13.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 3",
+          "NURSING 13"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NURSING 20",
+      "dept": "NURSING",
+      "number": "20",
+      "title": "Introduction to Nursing and Social Justice II",
+      "units": 2.0,
+      "description": "Lecture, two hours. Requisite: course 10. Advanced discussion on history of nursing, with focus on role of contemporary nursing in relation to ethics and social justice. Analysis of ethical principles (justice, autonomy, veracity, beneficence, confidentiality) and professional values (altruism, autonomy, human dignity, integrity, and social justice) in relation to nursing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NURSING 3",
+      "dept": "NURSING",
+      "number": "3",
+      "title": "Human Physiology for Healthcare Providers",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Basic understanding of human physiological processes, with emphasis on applications to patient evaluation and care. Concepts underlying normal function and how alterations in these normal functions can affect body systems. Knowledge and understanding of these normal human processes is basic to providing quality nursing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NURSING 174",
+        "NURSING 54A"
+      ]
+    },
+    {
+      "course_id": "NURSING 50",
+      "dept": "NURSING",
+      "number": "50",
+      "title": "Fundamentals of Epidemiology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Epidemiology is interdisciplinary science with goal of identifying and describing patterns of disease occurrence, identifying determinants of disease, and evaluating disease prevention and health care treatment efforts. With its focus on human populations, epidemiology is directly linked with public health research, policy, and practice.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NURSING 51",
+      "dept": "NURSING",
+      "number": "51",
+      "title": "Medical Microbiology for Nursing Students",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, one hour. Requisite: Life Sciences 30A or 30B or Mathematics 3A or 31A. Limited to Nursing majors. Not open for credit to students with credit for Microbiology, Immunology, and Molecular Genetics 10. Introduction to biology of microbial pathogens, their role in development of human immune response,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 30A or 30B or Mathematics 3A or 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH 3A",
+            "MATH 31A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NURSING 54A",
+      "dept": "NURSING",
+      "number": "54A",
+      "title": "Pathophysiology I",
+      "units": 3.0,
+      "description": "Lecture, three hours. Requisites: courses 3, 13 taken within past three years. Designed to provide students with basic understanding of pathophysiological changes that occur within internal environment of individual. Concepts underlying pathologic changes across all body systems are presented. Understanding these alterations is basic to providing quality nursing care. System\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 3, 13 taken within past three years.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 3",
+          "NURSING 13"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 115",
+        "NURSING 162A",
+        "NURSING 54B"
+      ]
+    },
+    {
+      "course_id": "NURSING 54B",
+      "dept": "NURSING",
+      "number": "54B",
+      "title": "Pathophysiology II",
+      "units": 2.0,
+      "description": "Lecture, two hours. Requisite: course 54A. Designed to provide students with understanding of pathophysiological changes that occur at cellular, tissue, and organ level across selected body systems within internal environment of individual. Presence of dysfunction or disease of selected systems is provided as rationale for nursing diagnosis and therapeutic interventions.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 54A.",
+      "prereqs_parsed": {
+        "required": [
+          "NURSING 54A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "NURSING 115",
+        "NURSING 162A"
+      ]
+    },
+    {
+      "course_id": "PSYCH 10",
+      "dept": "PSYCH",
+      "number": "10",
+      "title": "Introductory Psychology",
+      "units": 4.0,
+      "description": "Lecture, four hours. General introduction including topics in cognitive, experimental, personality, developmental, social, and clinical psychology; six hours of psychological research and a grade of C or better required of all departmental premajors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

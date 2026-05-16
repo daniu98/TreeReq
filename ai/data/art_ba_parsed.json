@@ -1,0 +1,673 @@
+{
+  "major_id": "art-ba",
+  "major_name": "Art BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/ArtBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ART 1A",
+        "ART 1B",
+        "ART 11A",
+        "ART 11B",
+        "ART 11D",
+        "ART 11E",
+        "ART 31A",
+        "ART 31B",
+        "ART 31C"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ART HISTORY 20",
+            "ART HISTORY 21",
+            "ART HISTORY 22",
+            "ART HISTORY 23",
+            "ART HISTORY 24",
+            "ART HISTORY 25",
+            "ART HISTORY 26",
+            "ART HISTORY 27",
+            "ART HISTORY 28",
+            "ART HISTORY 29",
+            "ART HISTORY 30",
+            "ART HISTORY 31"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ART 132"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 6,
+          "courses": [
+            "ART 130",
+            "ART 130A",
+            "ART 133",
+            "ART 133A",
+            "ART 137",
+            "ART 137A",
+            "ART 140",
+            "ART 145",
+            "ART 145A",
+            "ART 147",
+            "ART 147A",
+            "ART 148",
+            "ART 148A",
+            "ART 149",
+            "ART 149A"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ART M184",
+            "ART HISTORY M110A",
+            "ART HISTORY M110B",
+            "ART HISTORY M111",
+            "ART HISTORY M112",
+            "ART HISTORY M113",
+            "ART HISTORY M114",
+            "ART HISTORY M115",
+            "ART HISTORY M116",
+            "ART HISTORY M117",
+            "ART HISTORY M118",
+            "ART HISTORY M119",
+            "ART HISTORY M120",
+            "ART HISTORY M121",
+            "ART HISTORY M122",
+            "ART HISTORY M123",
+            "ART HISTORY M124",
+            "ART HISTORY M125",
+            "ART HISTORY M126",
+            "ART HISTORY M127",
+            "ART HISTORY M128",
+            "ART HISTORY M129",
+            "ART HISTORY M130",
+            "ART HISTORY M131",
+            "ART HISTORY M132",
+            "ART HISTORY M133",
+            "ART HISTORY M134",
+            "ART HISTORY M135",
+            "ART HISTORY M136",
+            "ART HISTORY M137",
+            "ART HISTORY M138",
+            "ART HISTORY M139",
+            "ART HISTORY M140",
+            "ART HISTORY M141",
+            "ART HISTORY M142",
+            "ART HISTORY M143",
+            "ART HISTORY M144",
+            "ART HISTORY M145",
+            "ART HISTORY M146",
+            "ART HISTORY M147",
+            "ART HISTORY M148",
+            "ART HISTORY M149",
+            "ART HISTORY M150",
+            "ART HISTORY M151",
+            "ART HISTORY M152",
+            "ART HISTORY M153",
+            "ART HISTORY M154",
+            "ART HISTORY M155",
+            "ART HISTORY M156",
+            "ART HISTORY M157",
+            "ART HISTORY M158",
+            "ART HISTORY M159",
+            "ART HISTORY M160",
+            "ART HISTORY M161",
+            "ART HISTORY M162",
+            "ART HISTORY M163",
+            "ART HISTORY M164",
+            "ART HISTORY M165",
+            "ART HISTORY M166",
+            "ART HISTORY M167",
+            "ART HISTORY M168",
+            "ART HISTORY M169",
+            "ART HISTORY M170",
+            "ART HISTORY M171",
+            "ART HISTORY M172",
+            "ART HISTORY M173",
+            "ART HISTORY M174",
+            "ART HISTORY M175",
+            "ART HISTORY M176",
+            "ART HISTORY M177",
+            "ART HISTORY M178",
+            "ART HISTORY M179",
+            "ART HISTORY M180",
+            "ART HISTORY M181",
+            "ART HISTORY M182",
+            "ART HISTORY M183",
+            "ART HISTORY M184",
+            "ART HISTORY M185"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ART 150"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ART": [
+      "ART 11A",
+      "ART 11B",
+      "ART 11D",
+      "ART 11E",
+      "ART 130",
+      "ART 130A",
+      "ART 132",
+      "ART 133",
+      "ART 133A",
+      "ART 137",
+      "ART 137A",
+      "ART 140",
+      "ART 145",
+      "ART 145A",
+      "ART 147",
+      "ART 147A",
+      "ART 148",
+      "ART 148A",
+      "ART 149",
+      "ART 149A",
+      "ART 150",
+      "ART 1A",
+      "ART 1B",
+      "ART 31A",
+      "ART 31B",
+      "ART 31C",
+      "ART M184"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ART 11A",
+      "dept": "ART",
+      "number": "11A",
+      "title": "Painting",
+      "units": 4.0,
+      "description": "Studio, eight hours; five hours arranged. Basics of painting: introduction to technical procedures, tools, and materials. Discussion of fundamental conceptual and formal concerns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 133",
+        "ART 133A"
+      ]
+    },
+    {
+      "course_id": "ART 11B",
+      "dept": "ART",
+      "number": "11B",
+      "title": "Photography",
+      "units": 4.0,
+      "description": "Studio, eight hours; five hours arranged. Fundamentals in technique, with emphasis on individual projects. Varied approaches, processes, and applications of photographic medium within context of art, supported by studies in theory, aesthetics, and history of photography. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 147",
+        "ART 147A"
+      ]
+    },
+    {
+      "course_id": "ART 11D",
+      "dept": "ART",
+      "number": "11D",
+      "title": "New Genres",
+      "units": 4.0,
+      "description": "Studio, eight hours; five hours arranged. Introduction to projects in installation, performance, video, film, intermedia, and other nontraditional media and processes. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 137",
+        "ART 137A"
+      ]
+    },
+    {
+      "course_id": "ART 11E",
+      "dept": "ART",
+      "number": "11E",
+      "title": "Ceramics",
+      "units": 4.0,
+      "description": "Studio, eight hours; five hours arranged. Introduction to ceramic materials and processes, with emphasis on personal and cultural expression in ceramic media. Discussion of ceramics in contemporary artistic practice and social history of ceramic art. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 148"
+      ]
+    },
+    {
+      "course_id": "ART 130",
+      "dept": "ART",
+      "number": "130",
+      "title": "Advanced Drawing",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 1A. Drawing as both independent expressive medium and as means of visualization. May be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 1A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 130A",
+      "dept": "ART",
+      "number": "130A",
+      "title": "Advanced Drawing: Topics in Anti-Racism, Equity, Diversity, and Inclusion",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 1A. Varied approaches to drawing media and content to develop students' technical, expressive, and conceptual tools to understand and explore anti-racism, equity, diversity, and inclusion. Combination of courses 130 and 130A may be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 1A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 132",
+      "dept": "ART",
+      "number": "132",
+      "title": "Survey of Critical Thought",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; screenings/research, 11 hours. Requisites: courses 31A, 31B, 31C. Overview of premodern, modern, and postmodern theory as reflected in critical writing and artistic frameworks from late 19th century to present. Introduction to elements of Marxism, critical theory, feminist and queer theory, indigenous critique, disability studies,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 31A, 31B, 31C.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 31A",
+          "ART 31B",
+          "ART 31C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 133",
+      "dept": "ART",
+      "number": "133",
+      "title": "Advanced Painting",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 11A. Varied media and subjects to further develop students\u2019 technical and expressive means to implement their ideas. May be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 11A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 11A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 133A",
+      "dept": "ART",
+      "number": "133A",
+      "title": "Advanced Painting: Topics in Anti-Racism, Equity, Diversity, and Inclusion",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 11A. Varied approaches to painting media and content to develop students\u2019 technical, expressive, and conceptual tools to understand and explore anti-racism, equity, diversity, and inclusion. Combination of courses 133 and 133A may be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 11A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 11A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 137",
+      "dept": "ART",
+      "number": "137",
+      "title": "Advanced New Genres",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 11D. Emphasis to be selected by faculty members from one or more of following media: installation, performance, video, film, other nontraditional media and processes. May be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 11D.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 11D"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 137A",
+      "dept": "ART",
+      "number": "137A",
+      "title": "Advanced New Genre: Topics in Anti-Racism, Equity, Diversity, and Inclusion",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 11D. Varied approaches to new genres media and content to develop students\u2019 technical, expressive, and conceptual tools to understand and explore anti-racism, equity, diversity, and inclusion. Combination of courses 137 and 137A may be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 11D.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 11D"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 140",
+      "dept": "ART",
+      "number": "140",
+      "title": "Advanced Printmaking",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 11C. Selected studies in fine printmaking, historical and contemporary: woodcut, etching and engraving, lithography, silk screen, mixed media. May be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 11C.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 11C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 145",
+      "dept": "ART",
+      "number": "145",
+      "title": "Advanced Sculpture",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 1B. Selected studies in sculpture, historical and contemporary: modeling, carving, casting, welding, and other media; forms in space, including installations and nonstudio pieces. May be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 1B.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 1B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 145A",
+      "dept": "ART",
+      "number": "145A",
+      "title": "Advanced Sculpture: Topics in Anti-Racism, Equity, Diversity, and Inclusion",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 1B. Varied approaches to historical and contemporary sculpture that highlights its social impact and cultural content. Themed lectures and studio assignments develop students\u2019 technical, expressive, and conceptual tools to understand and explore anti-racism, equity, diversity, and inclusion as expressed in objects, sculpture,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1B.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 1B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 147",
+      "dept": "ART",
+      "number": "147",
+      "title": "Advanced Photography",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 11B. Selected projects in photography and related media, concentrating on development of individual students\u2019 artwork. Studio emphasis with special topics in theory and critical analysis. May be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 11B.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 11B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 147A",
+      "dept": "ART",
+      "number": "147A",
+      "title": "Advanced Photography: Topics in Anti-Racism, Equity, Diversity, and Inclusion",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 11B. Varied approaches to photography\u2019s history, media, and content to develop students\u2019 technical, expressive, and conceptual tools to understand and explore anti-racism, equity, diversity, and inclusion. Combination of courses 147 and 147A may be repeated for maximum of 20 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 11B.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 11B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 148",
+      "dept": "ART",
+      "number": "148",
+      "title": "Advanced Ceramics",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Requisite: course 11E. Selected studies in ceramics, with emphasis on individualized creative experimentation with materials and techniques introduced in course. Methods and processes to be selected from range of possibilities, including handforming and modeling, preparation and use of molds, slipcasting, and use of potter\u2019s\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 11E.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 11E"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 148A",
+      "dept": "ART",
+      "number": "148A",
+      "title": "Advanced Ceramics: Topics in Anti-Racism, Equity, Diversity, and Inclusion",
+      "units": 4,
+      "description": "Sorry, something went wrong on our end. We are currently working to fix the problem and apologize for the inconvenience.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 149",
+      "dept": "ART",
+      "number": "149",
+      "title": "Advanced Interdisciplinary Studio",
+      "units": 5.0,
+      "description": "Studio, six hours; discussion, one hour; nine hours arranged. Requisites: courses 31A, 31B, 31C. Varied project-based studies in conceptually-driven approaches to art making in which students\u2019 core concerns and aims determine all aspects of projects, including medium, method, and presentational context. Combination of courses 149 and 149A may be repeated\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 31A, 31B, 31C.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 31A",
+          "ART 31B",
+          "ART 31C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 149A",
+      "dept": "ART",
+      "number": "149A",
+      "title": "Advanced Interdisciplinary Studio: Topics in Anti-Racism, Equity, Diversity, and Inclusion",
+      "units": 5.0,
+      "description": "Studio, six hours; discussion, one hour; eight hours arranged. Requisites: courses 31A, 31B, 31C. Varied project-based studies in conceptually-driven approaches to art making that advance anti-racism, equity, diversity, and inclusion. Students\u2019 core concerns and aims determine all aspects of projects, including medium, method, and presentational context. Combination of courses 149\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 31A, 31B, 31C.",
+      "prereqs_parsed": {
+        "required": [
+          "ART 31A",
+          "ART 31B",
+          "ART 31C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 150",
+      "dept": "ART",
+      "number": "150",
+      "title": "Senior Capstone",
+      "units": 5.0,
+      "description": "Studio, eight hours; seven hours arranged. Limited to senior Art majors. Advanced senior projects and portfolio development, with emphasis on analysis and criticism of individual creative work and ideas. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART 1A",
+      "dept": "ART",
+      "number": "1A",
+      "title": "Drawing",
+      "units": 4.0,
+      "description": "Studio, eight hours; five hours arranged. Course in basic drawing skills intended as preparation for work in variety of media. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 130",
+        "ART 130A"
+      ]
+    },
+    {
+      "course_id": "ART 1B",
+      "dept": "ART",
+      "number": "1B",
+      "title": "Sculpture",
+      "units": 4.0,
+      "description": "Studio, eight hours; five hours arranged. Introduction to concepts and forms of contemporary sculpture to become familiar with tools and material to enable students to visually manifest their individual ideas. Presentation of work of contemporary artists. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 145",
+        "ART 145A"
+      ]
+    },
+    {
+      "course_id": "ART 31A",
+      "dept": "ART",
+      "number": "31A",
+      "title": "Rise of Modernism in Global Context",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; field trips, three hours. Examination of global forces underlying development of modernist thought on art and society from mid-19th through early-20th centuries. Exploration of origins, development, theory, and practice of modernism in context of colonialism and industrialization. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 132",
+        "ART 149",
+        "ART 149A"
+      ]
+    },
+    {
+      "course_id": "ART 31B",
+      "dept": "ART",
+      "number": "31B",
+      "title": "Global Modernism",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; field trips, three hours. Art majors should complete courses 31A, 31B, and 31C in sequence in first year. Continuation of impact of modernist ideas through mid-20th century, with focus primarily on work made from 1920s to 1960s globally. Examination of how modernist ideas and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 132",
+        "ART 149",
+        "ART 149A"
+      ]
+    },
+    {
+      "course_id": "ART 31C",
+      "dept": "ART",
+      "number": "31C",
+      "title": "Modernism and Its Discontents",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; field trips, three hours. Art majors should complete courses 31A, 31B, and 31C in sequence in first year. Continued impact of modernist ideas from 1960s to present, covering shift from modernist to postmodernist practices and theories. Examination of critiques of modernism drawing from emancipatory\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART 132",
+        "ART 149",
+        "ART 149A"
+      ]
+    },
+    {
+      "course_id": "ART M184",
+      "dept": "ART",
+      "number": "M184",
+      "title": "Chicana Art and Artists",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M175 and World Arts and Cultures M128.) Lecture, four hours. Introduction to Chicana art and artists. Examination of Chicana aesthetic. Chicana artists have developed unique experience and identity as artists and Chicanas. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

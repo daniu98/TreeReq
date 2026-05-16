@@ -1,0 +1,2044 @@
+{
+  "major_id": "communication-ba",
+  "major_name": "Communication BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/CommunicationBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "COMM 1",
+        "COMM 10"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ANTHRO 4",
+            "LING 1",
+            "PHILOS 23"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ECON 41",
+            "STATS 10"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "POL SCI 40",
+            "PSYCH 10",
+            "SOCIOL 1",
+            "ECON 1",
+            "ECON 5",
+            "POL SCI 30"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "COMM 100",
+        "COMM 150"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 8,
+          "courses": [
+            "COMM 131",
+            "COMM 151",
+            "COMM 155",
+            "COMM 156",
+            "COMM 159",
+            "COMM 157",
+            "COMM 188C",
+            "COMM 191C",
+            "COMM 110",
+            "COMM 111",
+            "COMM M113",
+            "COMM 114",
+            "COMM 115",
+            "COMM 120",
+            "COMM 121",
+            "COMM 122",
+            "COMM M123",
+            "COMM 126",
+            "ANTHRO 136A",
+            "ANTHRO M150",
+            "ANTHRO 151",
+            "COMM 108",
+            "COMM 109",
+            "COMM M117",
+            "COMM 118",
+            "COMM 119",
+            "COMM M125",
+            "COMM M127",
+            "COMM M144A",
+            "COMM M144B",
+            "COMM 188B",
+            "COMM 191B",
+            "LING 103",
+            "LING 170",
+            "PHILOS 172",
+            "PSYCH 135",
+            "PSYCH 137C",
+            "PSYCH M165",
+            "PSYCH 177",
+            "SOCIOL 132",
+            "SOCIOL 134",
+            "SOCIOL 156",
+            "COMM 140",
+            "COMM M147",
+            "COMM 152",
+            "COMM 187",
+            "ASIA AM 172C",
+            "COMM 104",
+            "COMM 105",
+            "COMM 106",
+            "COMM 107",
+            "COMM 130",
+            "COMM 132",
+            "COMM 141",
+            "COMM 143",
+            "COMM 145",
+            "COMM 146",
+            "COMM 148",
+            "COMM M149",
+            "COMM M165",
+            "COMM 166",
+            "COMM M169",
+            "COMM 175",
+            "COMM 179",
+            "COMM 182",
+            "COMM 186",
+            "COMM 188A",
+            "COMM 191A"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ANTHRO": [
+      "ANTHRO 136A",
+      "ANTHRO 151",
+      "ANTHRO 4",
+      "ANTHRO M150"
+    ],
+    "ASIA AM": [
+      "ASIA AM 172C"
+    ],
+    "COM SCI": [
+      "COM SCI 31",
+      "COM SCI 32"
+    ],
+    "COMM": [
+      "COMM 1",
+      "COMM 10",
+      "COMM 100",
+      "COMM 101",
+      "COMM 102",
+      "COMM 104",
+      "COMM 105",
+      "COMM 106",
+      "COMM 107",
+      "COMM 108",
+      "COMM 109",
+      "COMM 110",
+      "COMM 111",
+      "COMM 114",
+      "COMM 115",
+      "COMM 118",
+      "COMM 119",
+      "COMM 120",
+      "COMM 121",
+      "COMM 122",
+      "COMM 126",
+      "COMM 130",
+      "COMM 131",
+      "COMM 132",
+      "COMM 140",
+      "COMM 141",
+      "COMM 143",
+      "COMM 145",
+      "COMM 146",
+      "COMM 148",
+      "COMM 150",
+      "COMM 151",
+      "COMM 152",
+      "COMM 153",
+      "COMM 155",
+      "COMM 156",
+      "COMM 157",
+      "COMM 159",
+      "COMM 160",
+      "COMM 163",
+      "COMM 166",
+      "COMM 168",
+      "COMM 170",
+      "COMM 171",
+      "COMM 173",
+      "COMM 174",
+      "COMM 175",
+      "COMM 178",
+      "COMM 179",
+      "COMM 182",
+      "COMM 186",
+      "COMM 187",
+      "COMM 188A",
+      "COMM 188B",
+      "COMM 188C",
+      "COMM 188D",
+      "COMM 188E",
+      "COMM 191A",
+      "COMM 191B",
+      "COMM 191C",
+      "COMM 191D",
+      "COMM 191E",
+      "COMM 198A",
+      "COMM 198B",
+      "COMM 198C",
+      "COMM M113",
+      "COMM M117",
+      "COMM M123",
+      "COMM M125",
+      "COMM M127",
+      "COMM M144A",
+      "COMM M144B",
+      "COMM M147",
+      "COMM M149",
+      "COMM M165",
+      "COMM M169",
+      "COMM M176"
+    ],
+    "COMPTNG": [
+      "COMPTNG 10A",
+      "COMPTNG 10B",
+      "COMPTNG 10C",
+      "COMPTNG 16A",
+      "COMPTNG 16B",
+      "COMPTNG 20A",
+      "COMPTNG 40A"
+    ],
+    "ECON": [
+      "ECON 1",
+      "ECON 41",
+      "ECON 5"
+    ],
+    "FILM TV": [
+      "FILM TV 108"
+    ],
+    "LING": [
+      "LING 1",
+      "LING 103",
+      "LING 170"
+    ],
+    "PHILOS": [
+      "PHILOS 172",
+      "PHILOS 23"
+    ],
+    "POL SCI": [
+      "POL SCI 141B",
+      "POL SCI 141E",
+      "POL SCI 30",
+      "POL SCI 40",
+      "POL SCI M141A"
+    ],
+    "PSYCH": [
+      "PSYCH 10",
+      "PSYCH 135",
+      "PSYCH 137C",
+      "PSYCH 177",
+      "PSYCH M165"
+    ],
+    "SOCIOL": [
+      "SOCIOL 1",
+      "SOCIOL 132",
+      "SOCIOL 133",
+      "SOCIOL 134",
+      "SOCIOL 156"
+    ],
+    "STATS": [
+      "STATS 10"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ANTHRO 136A",
+      "dept": "ANTHRO",
+      "number": "136A",
+      "title": "Introduction to Psychological Anthropology: Historical Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Limited to juniors/seniors. Survey of field of psychological anthropology, with emphasis on early foundations and historical development of field. Topics include study of personality, pathology and deviance, altered states of consciousness, cognition, motivation, and emotion in different cultural settings.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 151",
+      "dept": "ANTHRO",
+      "number": "151",
+      "title": "Ethnography of Everyday Speech",
+      "units": 5.0,
+      "description": "Lecture, three hours; fieldwork. Requisite: course 4. Designed for juniors/seniors. Course has two interrelated objectives: (1) to introduce students to ethnography of communication\u2014description and analysis of situated communicative behavior\u2014and sociocultural knowledge that it reflects and (2) to train students to recognize, describe, and analyze relevant linguistic, proxemic, and kinesic aspects\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 4.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 4",
+      "dept": "ANTHRO",
+      "number": "4",
+      "title": "Culture and Communication",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor\u2019s degrees. Introduction to study of communication from anthropological perspective. Formal linguistic methods compared with ethnographically oriented methods focused on context-bound temporal unfolding of communicative activities. Topics include language in everyday life and ritual events, socialization, literacy, multilingualism, miscommunication,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 151",
+        "ANTHRO M150"
+      ]
+    },
+    {
+      "course_id": "ANTHRO M150",
+      "dept": "ANTHRO",
+      "number": "M150",
+      "title": "Language in Culture",
+      "units": 5.0,
+      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 4 or Linguistics 20.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ANTHRO 4",
+            "LING 20"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 172C",
+      "dept": "ASIA AM",
+      "number": "172C",
+      "title": "Transnational Bollywood",
+      "units": 4.0,
+      "description": "(Formerly numbered M172C.) Lecture, three hours. Study of how popular Bollywood cinema materializes colonial and postcolonial formations pertaining to gender, class and caste, sexuality, race, and economic liberalization in South Asia, as well as across South Asian communities in North America, U.K., and Africa. Examination of how complex relationships between\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI 31",
+      "dept": "COM SCI",
+      "number": "31",
+      "title": "Introduction to Computer Science I",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COM SCI 32",
+        "COMM 155"
+      ]
+    },
+    {
+      "course_id": "COM SCI 32",
+      "dept": "COM SCI",
+      "number": "32",
+      "title": "Introduction to Computer Science II",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 31.",
+      "prereqs_parsed": {
+        "required": [
+          "COM SCI 31"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMM 155"
+      ]
+    },
+    {
+      "course_id": "COMM 1",
+      "dept": "COMM",
+      "number": "1",
+      "title": "Principles of Oral Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisite: satisfaction of Entry-Level Writing requirement. Examination of foundations of communication and public speaking. Consideration of number of basic theories related to study of communication and development of skills to enable composition and delivery of speeches in accordance with specific rhetorical concepts. Improvement of ability to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: satisfaction of Entry-Level Writing requirement.",
+      "prereqs_parsed": {
+        "required": [
+          "Entry-Level Writing requirement"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 10",
+      "dept": "COMM",
+      "number": "10",
+      "title": "Introduction to Communication",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Introduction to study of interpersonal and mass communication using interdisciplinary approach. Exploration of basic methods and theoretical perspectives that social scientists and others use to study interpersonal and mass communication, and basic concepts used to describe and explain that communication. Historical overview of each\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COMM 100",
+        "COMM 198A"
+      ]
+    },
+    {
+      "course_id": "COMM 100",
+      "dept": "COMM",
+      "number": "100",
+      "title": "Communication Science",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 10 or Linguistics 1 or Sociology 1 or Psychology 10. Examination of fundamental issues in communication sciences. Exploration of theoretical and methodological approaches that bridge major areas of current interdisciplinary communication research. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 10 or Linguistics 1 or Sociology 1 or Psychology 10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COMM 10",
+            "LING 1",
+            "SOC 1",
+            "PSYCH 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 101",
+      "dept": "COMM",
+      "number": "101",
+      "title": "Freedom of Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Analysis of legal, political, and philosophical issues entailed in rights of free expression, access to audience, and access to information. Study of court decisions governing freedom of communication in U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 102",
+      "dept": "COMM",
+      "number": "102",
+      "title": "Principles of Argumentation",
+      "units": 4.0,
+      "description": "Lecture, four hours. Analysis of propositions, tests of evidence, briefing. Study of hindrances to clear thinking, ambiguity of terms, and prejudices. Critical analysis of selected argumentative speeches. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 104",
+      "dept": "COMM",
+      "number": "104",
+      "title": "Rumors, Gossip, and Urban Legends in Journalism",
+      "units": 4.0,
+      "description": "Three hours. Study of the creative relationship between fact and fiction by using\u2014through examples from 20th-century journalism\u2014three distinct types of communication: rumor, gossip, and urban legend. Broadly speaking, rumor mimics news and is unverified communication about events. Gossip is reputation management disguised as lighthearted chitchat. Urban legends mimic documentary-type news\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 105",
+      "dept": "COMM",
+      "number": "105",
+      "title": "Media Conspiracy Theories in U.S. and Middle East",
+      "units": 4.0,
+      "description": "Lecture, three hours. Through mass and digital media, conspiracy theories are reshaping politics and society around world. Although conspiracy theories are globally widespread, they find particularly fertile ground in Middle East and in U.S. Definition, identification, and analysis of conspiracy theories as they appear in media of Western democracies and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 106",
+      "dept": "COMM",
+      "number": "106",
+      "title": "Reporting America",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to main western European and Middle Eastern news media, with materials in English. Exploration of how U.S. is represented in Europe, Middle East, Iran, and Afghanistan, with focus on three comparative case studies of Britain, Spain, and Germany. In-depth coverage of American news as reflected in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 107",
+      "dept": "COMM",
+      "number": "107",
+      "title": "Terrorism in Journalism",
+      "units": 4.0,
+      "description": "Lecture, three hours. How do media outlets in Middle East represent Islamist terrorism? How do they describe, analyze, and comment on suicide attacks? Focus on Arab, Afghan, and Iranian media discussions of this phenomenon to explore evolution of meaning of terrorism in Muslim societies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 108",
+      "dept": "COMM",
+      "number": "108",
+      "title": "Communication and Identity",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of relationships among communication, culture, and identity, and examination of ways in which texts (broadly construed) constitute experience, difference, and subjectivity. Focus on function of language, representation and meaning in construction of self, social collectives, and world views. Consideration of how communication is performative endeavor for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 109",
+      "dept": "COMM",
+      "number": "109",
+      "title": "Entrepreneurial Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Study of entrepreneurial communication from foundations in internal and external communication and development of data analysis, interpretation, and presentational skills utilized in existing, as well as in development of, contemporary innovative businesses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 110",
+      "dept": "COMM",
+      "number": "110",
+      "title": "Gender and Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Understanding gender is fundamental part of understanding who we are as human beings. Exploration of crucial role of gender in spheres of life involving communication and role and origins of gender differences in communication. Contexts of communication include family, workplace, sexuality, and intimate relationships. Discussion of how\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 111",
+      "dept": "COMM",
+      "number": "111",
+      "title": "Conflict and Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours. Analysis of when and why conflict is prevalent in daily lives (including mass media) and how communication affects reactions to and consequences of conflict. Conflict is part of our evolutionary heritage. How well we handle various conflicts affects, to great degree, our success or failure wherever we\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 114",
+      "dept": "COMM",
+      "number": "114",
+      "title": "Understanding Relationships",
+      "units": 4.0,
+      "description": "Lecture, four hours. Explanation of types of communication that occur in close relationships, especially romantic relationships. In-depth coverage of variety of relationship topics, including intimacy, stages of intimate relationships, why we choose to get involved with some people as opposed to others, flirting, and self-disclosure. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 115",
+      "dept": "COMM",
+      "number": "115",
+      "title": "Interpersonal Dynamics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of recent scientific approaches to dyadic communication and relationships. Surveys selection of experimental, observational, and quantitative methods, and how they can be applied to key issues in dyadic communication and interpersonal relationships. Topics include recent technological techniques for measuring and influencing dyads, including role of peripheral\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 118",
+      "dept": "COMM",
+      "number": "118",
+      "title": "Language and Music",
+      "units": 4.0,
+      "description": "Lecture, three hours. Cognitive science exploration of structure and evolution of language and music and their relationships to communication, cognition, and culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 119",
+      "dept": "COMM",
+      "number": "119",
+      "title": "Voice and Its Perception",
+      "units": 4.0,
+      "description": "Lecture, four hours. Focus on how human voice conveys information about identity of speakers, physical characteristics, personality, and emotional state, and on how listeners utilize this information to make judgments about speakers. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 120",
+      "dept": "COMM",
+      "number": "120",
+      "title": "Group Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of group communication from perspectives of evolutionary psychology, communications, and psycholinguistics. Topics include evolution of cooperation, ingroup and outgroup dynamics, gossip, music improvisation, and conversational behavior. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 121",
+      "dept": "COMM",
+      "number": "121",
+      "title": "Communication Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Topics in childhood development of human interpersonal communication, including production and perception of communicative signals at different ages, methods for studying communication development, physiological and social mechanisms, cross-cultural similarities and differences in communication development, effects of media and technology, and disorders. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 122",
+      "dept": "COMM",
+      "number": "122",
+      "title": "Visual Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of visual basis of communication through study of social minds of infants, adults, and nonhuman primates. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 126",
+      "dept": "COMM",
+      "number": "126",
+      "title": "Evolution of Interpersonal Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of current issues in interpersonal communication from perspectives of evolutionary psychology and biology. Topics include coevolution of signaler and receiver adaptations, nonverbal communication, courtship behavior, miscommunication between sexes, implied language use, and deception. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 130",
+      "dept": "COMM",
+      "number": "130",
+      "title": "Science of Language",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to scientific foundations of psycholinguistics, and connections to applied issues in communication. Survey of various scientific methods, and how they are applied to key issues in language and communication. Discussion of how we can measure meanings of words, complexity of sentences, and study of how these\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 131",
+      "dept": "COMM",
+      "number": "131",
+      "title": "Computer Models of Communicators",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to using computerized methods to model communication processes. Survey of various computational methods, and how to apply these in hands-on exercises. Exercises help setup small-scale simulations of communicators on personal computers. Covers computer models for individual communicators, dyads, groups, and collective (mass) systems. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 132",
+      "dept": "COMM",
+      "number": "132",
+      "title": "Multicultural Television",
+      "units": 4.0,
+      "description": "Lecture, four hours. Critical evaluation of television programming and scholarly research of new developments in television. Application of research findings by students to real-world contexts in course discussions, papers, and presentations. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 140",
+      "dept": "COMM",
+      "number": "140",
+      "title": "Theory of Persuasive Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Dynamics of communication designed to influence human conduct; analysis of structure of persuasive discourse; integration of theoretical materials from relevant disciplines of humanities and social sciences. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 141",
+      "dept": "COMM",
+      "number": "141",
+      "title": "Films of Persuasion: Social and Political Advocacy in Mass Society",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Films often provide commentary about public issues. Examination of how films communicate to large audiences about history, society, and politics. Critical evaluation of these works to understand power and limitations of films as social persuasion. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 143",
+      "dept": "COMM",
+      "number": "143",
+      "title": "Rhetoric of Popular Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Rhetorical approach to study of U.S. popular culture. Examination, both at theoretical level and through specific case studies, of ways in which popular cultural texts perform rhetorically to influence political and social struggles shaping everyday life. How do particular artifacts or communicative texts constitute source for (re)negotiation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 145",
+      "dept": "COMM",
+      "number": "145",
+      "title": "Television Sitcom and American Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Historical analysis of sitcom genre from its beginning in late 1940s to present. Investigation of how sitcoms have influenced American life and culture and how American life and culture have influenced sitcoms. Exploration of issues of family, race and ethnicity, class and economy, gender roles, and political\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 146",
+      "dept": "COMM",
+      "number": "146",
+      "title": "Evolution of Mass Media Images",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion/laboratory, one hour. Analysis of evolutionary psychology as basis for images selected by media portraying women and/or minorities in entertainment, advertising, and informational communication. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 148",
+      "dept": "COMM",
+      "number": "148",
+      "title": "Marketing Communications",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of key concepts and methods in marketing communications in both traditional and digital media. Development and execution of communications strategies, with primary emphasis on consumer insight, branding, market segmentation and positioning, message strategy, promotion, and execution of marketing communications through appropriate media technologies. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 150",
+      "dept": "COMM",
+      "number": "150",
+      "title": "Methodologies in Communication Research",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: Economics 41 or Statistics 10. Limited to Communication majors. Examination of quantitative and qualitative methodologies in communication research. Letter grading.",
+      "prereqs_raw": "Requisite: Economics 41 or Statistics 10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ECON 41",
+            "STAT 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMM 198A"
+      ]
+    },
+    {
+      "course_id": "COMM 151",
+      "dept": "COMM",
+      "number": "151",
+      "title": "Computer-Mediated Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of how computer technology, particularly Internet, has influenced patterns of human communication. History and distinctiveness of computer-mediated communication (CMC). CMC\u2019s influence on modern economic, political, and social interaction. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 152",
+      "dept": "COMM",
+      "number": "152",
+      "title": "Analysis of Communication Effects",
+      "units": 4.0,
+      "description": "Lecture, four hours. Survey of experimental and field research on effects of communications. Study of source, message, and environmental factors affecting audience response. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 153",
+      "dept": "COMM",
+      "number": "153",
+      "title": "Introduction to Data Science",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from Computer Science 31, 32, Program in Computing 10A, 10B with grade of C&plus; or better, or equivalent. Examination of how large-scale data can be used to systematically measure various aspects of human activities. Review of series of computational and statistical methods which enable\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from Computer Science 31, 32, Program in Computing 10A, 10B with grade of C&plus; or better, or equivalent.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 155",
+      "dept": "COMM",
+      "number": "155",
+      "title": "Artificial Intelligence and New Media",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Computer Science 31 or 32 or Program in Computing 10A or 10B with grade of C&plus; or better. Artificial intelligence (AI) and machine learning (ML) have made rapid progress in recent years on various fronts. Many of their advanced techniques are being transferred\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Computer Science 31 or 32 or Program in Computing 10A or 10B with grade of C&plus; or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM SCI 31",
+            "COM SCI 32",
+            "PROGRAM IN COMPUTING 10A",
+            "PROGRAM IN COMPUTING 10B"
+          ]
+        ],
+        "min_grade": "C+",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 156",
+      "dept": "COMM",
+      "number": "156",
+      "title": "Social Networking",
+      "units": 4.0,
+      "description": "Lecture, three hours. Investigation of how new online social networks have facilitated interpersonal interactions for knowledge sharing, romance, business, politics, and entertainment. Critical investigation of current popular social networking websites (e.g., Facebook, Twitter, YouTube) through social network analysis and other social science research methods. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 157",
+      "dept": "COMM",
+      "number": "157",
+      "title": "Celebrity, Fame, and Social Media",
+      "units": 4.0,
+      "description": "Lecture, three hours. Analysis of how following personal lives of media-created celebrities impacts self-esteem, connectedness, and personal relationships from cultural studies and social sciences perspectives, and how entities cultivate celebrity for financial gain. Topics include celebrity gossip and privacy, news sharing, public relations, and impact of social media on fan\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 159",
+      "dept": "COMM",
+      "number": "159",
+      "title": "Artificial Intelligence and Society",
+      "units": 4.0,
+      "description": "Lecture, three hours. Impact of artificial intelligence (AI) on society is growing rapidly. Exploration of questions of what if superhuman AI is achieved, will it free humans from tedious jobs or cause mass unemployment, and how to guarantee AI safety so that it will not annihilate human civilization. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 160",
+      "dept": "COMM",
+      "number": "160",
+      "title": "Political Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Study of nature and function of communication in political sphere; analysis of contemporary and historical communications within established political institutions; state papers; deliberative discourses; electoral campaigns. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 163",
+      "dept": "COMM",
+      "number": "163",
+      "title": "Public Diplomacy",
+      "units": 4.0,
+      "description": "Seminar, four hours. Exploration of field of public diplomacy and its theory and practices. How points of view and imagery in context of international politics can be influenced and changed. Development of presentation skills and understanding of structure of profession. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 166",
+      "dept": "COMM",
+      "number": "166",
+      "title": "Inside Hollywood",
+      "units": 4.0,
+      "description": "Lecture, four hours. Identification of how motivation and creativity interact with business interest, research, and policies in producing entertainment for media market. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 168",
+      "dept": "COMM",
+      "number": "168",
+      "title": "Communication and Media Law",
+      "units": 4.0,
+      "description": "Lecture, three hours. Focus on sample of most important intersections between law and communication: copyright, trademarks, freedom of speech, privacy, secrecy, surveillance, and publicity rights. Law and communication have been intertwined since introduction of book censorship and licensing in late 16th century, and blasphemy laws before that. That relationship has\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 170",
+      "dept": "COMM",
+      "number": "170",
+      "title": "Legal Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Review of Fifth Amendment privilege against self-incrimination, including analysis of Miranda warnings, police interrogation procedures, coerced confessions, and why innocent people confess. Examination of jury behavior, reliability of eyewitness testimony, and fair trials. Mock trial presentation. Intimate expression and right to define one\u2019s own\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 171",
+      "dept": "COMM",
+      "number": "171",
+      "title": "Theories of Freedom of Speech and Press",
+      "units": 4.0,
+      "description": "Lecture, three hours. Exploration of relationship between freedoms of speech and press and values of liberty, self-realization, self-government, truth, dignity, respect, justice, equality, association, and community. Study of significance of these values examined in connection with issues such as obscenity, defamation, access to media, and control of commercial, corporate, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 173",
+      "dept": "COMM",
+      "number": "173",
+      "title": "Affect and Emotion in Political Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours. There is growing body of work in political communication that emphasizes importance of affect, emotion, and personality in politics. Sensitivity to threat or disgust; reactions of fear, anger, or happiness; tendency to focus more on negative than on positive information\u2014each of these can impact feelings about candidates,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 174",
+      "dept": "COMM",
+      "number": "174",
+      "title": "Entertainment and Politics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Research in political communication often focuses on news coverage. Our ideas about world around us do not just come from news content, however\u2014we are affected by wide range of entertainment media as well. Consideration of how changes in media technology have increasingly broken down division between news\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 175",
+      "dept": "COMM",
+      "number": "175",
+      "title": "Criticism and Public Arts",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Introduction to methods and problems of criticism in public arts. Study of several types of critical methods: formalistic, analogue, pragmatic, and aesthetic criticism. Topics include definition of art and criticism, aesthetic media, genre and resources of film, television, theater, and public discourse,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 178",
+      "dept": "COMM",
+      "number": "178",
+      "title": "Propaganda and Media",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of nature of propaganda, institutional structure of American media, and relationship between propaganda and American news media. History of propaganda in America from World War I era forward, competing theories of democracy and media, and role of corporations in propaganda and news. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 179",
+      "dept": "COMM",
+      "number": "179",
+      "title": "Images of U.S.",
+      "units": 4.0,
+      "description": "Lecture, four hours. Awareness of international role of U.S. necessitates clear understanding of way our nation is perceived by others. Exploration of roots of U.S. images in minds of people abroad. Analysis of influences that contribute to images and ways in which images affect practical matters. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 182",
+      "dept": "COMM",
+      "number": "182",
+      "title": "Nonverbal Communication in Architecture",
+      "units": 4.0,
+      "description": "Lecture, four hours. Study of how elements of design and style of various buildings in architectural history send messages to viewers and users of such buildings. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 186",
+      "dept": "COMM",
+      "number": "186",
+      "title": "Media, Ethics, and Digital Age: Case-Study Approach",
+      "units": 4.0,
+      "description": "Lecture, three hours. To publish or not to publish? Study addresses questions of media ethics\u2014and ethics more broadly\u2014using case-study method to debate pressing issues from actual newsrooms. Students participate in Socratic discussion of fairness, bias, and personal and societal implications of printed, broadcast, and digitized word. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 187",
+      "dept": "COMM",
+      "number": "187",
+      "title": "Ethical and Policy Issues in Institutions of Mass Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours. Intensive examination of ethical and policy issues arising from interaction of media institutions (print, film, broadcasting, and new technologies) and societal institutions (Congress, federal agencies, courts, Presidency, schools, churches, political action groups, advertisers, and audiences). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 188A",
+      "dept": "COMM",
+      "number": "188A",
+      "title": "Variable Topics in Mass Communication and Media Institutions",
+      "units": 4.0,
+      "description": "Lecture, four hours. Variable topics; consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 188B",
+      "dept": "COMM",
+      "number": "188B",
+      "title": "Variable Topics in Interpersonal Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics; consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 188C",
+      "dept": "COMM",
+      "number": "188C",
+      "title": "Variable Topics in Communication Technology and Digital Systems",
+      "units": 4.0,
+      "description": "Lecture, four hours. Variable topics; consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 188D",
+      "dept": "COMM",
+      "number": "188D",
+      "title": "Variable Topics in Political and Legal Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Variable topics; consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 188E",
+      "dept": "COMM",
+      "number": "188E",
+      "title": "Variable Topics: Practicum",
+      "units": 4.0,
+      "description": "Lecture, three hours. Practicum lectures on selected topics in communication. Reading, writing, discussion, and development of culminating project. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 191A",
+      "dept": "COMM",
+      "number": "191A",
+      "title": "Variable Topics Research Seminars: Mass Communication and Media Institutions",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminars on selected topics in mass communication. Reading, discussion, and development of culminating project. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 191B",
+      "dept": "COMM",
+      "number": "191B",
+      "title": "Variable Topics Research Seminars: Interpersonal Communication",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminars on selected topics in interpersonal communication. Reading, discussion, and development of culminating project. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 191C",
+      "dept": "COMM",
+      "number": "191C",
+      "title": "Variable Topics Research Seminars: Communication Technology and Digital Systems",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminars on selected topics in communication technology and digital systems. Reading, discussion, and development of culminating project. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 191D",
+      "dept": "COMM",
+      "number": "191D",
+      "title": "Variable Topics Research Seminars: Political and Legal Communication",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminars on selected topics in political and legal communication. Reading, discussion, and development of culminating project. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 191E",
+      "dept": "COMM",
+      "number": "191E",
+      "title": "Variable Topics Research Seminars: Practicum",
+      "units": 4.0,
+      "description": "Seminar, three hours. Practicum seminars on selected topics in communication. Reading, writing, discussion, and development of culminating project. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 198A",
+      "dept": "COMM",
+      "number": "198A",
+      "title": "Honors Research in Communication Studies",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisites: courses 10, 150. Limited to junior/senior majors. Development of comprehensive research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 150.",
+      "prereqs_parsed": {
+        "required": [
+          "COMM 10",
+          "COMM 150"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMM 198B"
+      ]
+    },
+    {
+      "course_id": "COMM 198B",
+      "dept": "COMM",
+      "number": "198B",
+      "title": "Honors Research in Communication Studies",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisite: course 198A. Limited to junior/senior majors. Continuation of work initiated in course 198A. Presentation of summary of data gathered and relevant progress to supervising faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "COMM 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMM 198C"
+      ]
+    },
+    {
+      "course_id": "COMM 198C",
+      "dept": "COMM",
+      "number": "198C",
+      "title": "Honors Research in Communication Studies",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisite: course 198B. Limited to junior/senior majors. Completion of research developed in courses 198A, 198B. Presentation of honors project to supervising faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "COMM 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M113",
+      "dept": "COMM",
+      "number": "M113",
+      "title": "Nonverbal Communication and Body Language",
+      "units": 4.0,
+      "description": "(Same as Psychology M137B.) Lecture, three hours. Examination of how various forms of nonverbal communication convey meaningful information to perceivers, with focus on both production and perception of multiple communication formats (e.g., affect expression of face and body, gesture, and kinematics), with strong emphasis on body language. Readings from variety\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M117",
+      "dept": "COMM",
+      "number": "M117",
+      "title": "Negotiation",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M117.) Lecture, four hours. Art and science of negotiation in securing agreements between independent parties. Theory and practice that underlies successful negotiation. Experiential course in which students learn broad array of negotiation skills, including identifying one\u2019s own (and others\u2019) communication style, identifying and incorporating components of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M123",
+      "dept": "COMM",
+      "number": "M123",
+      "title": "Social Cognition",
+      "units": 4.0,
+      "description": "(Formerly numbered 123.) (Same as Psychology M137M.) Lecture, three hours. Survey of research from field of social cognition, with emphasis on understanding cognitive processes involved in interpersonal and intergroup communication. Topics include attention, interpretation, evaluation, judgment, attribution, and memory processes. Consideration of both controlled and automatic processes. Discussion of roles\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M125",
+      "dept": "COMM",
+      "number": "M125",
+      "title": "Talk and Social Institutions",
+      "units": 4.0,
+      "description": "(Same as Sociology CM125.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Practices of communication and social interaction in number of major institutional sites in contemporary society. Setting varies but may include emergency services, police and courts, medicine, news interviews, and political oratory. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M127",
+      "dept": "COMM",
+      "number": "M127",
+      "title": "Animal Communication",
+      "units": 4.0,
+      "description": "(Same as Anthropology M128Q.) Lecture, three hours. Designed for Anthropology and Communication majors. Evolution, functions, design, and diversity of animal communication systems such as bird song, dolphin calls, whale song, primate social signals, and human language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M144A",
+      "dept": "COMM",
+      "number": "M144A",
+      "title": "Conversational Structures I",
+      "units": 4.0,
+      "description": "(Same as Sociology CM124A.) Lecture, three hours; discussion, one hour. Introduction to various structures employed in organization of conversational interaction, such as turn-taking, action sequencing, and repair. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COMM M144B"
+      ]
+    },
+    {
+      "course_id": "COMM M144B",
+      "dept": "COMM",
+      "number": "M144B",
+      "title": "Conversational Structures II",
+      "units": 4.0,
+      "description": "(Same as Sociology M124B.) Lecture, three hours; discussion, one hour. Requisite: course M144A. Consideration of some more expanded sequence structures, story structures, topical sequences, and overall structural organization of single conversations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M144A.",
+      "prereqs_parsed": {
+        "required": [
+          "COMM M144A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M147",
+      "dept": "COMM",
+      "number": "M147",
+      "title": "Sociology of Mass Communication",
+      "units": 4.0,
+      "description": "(Same as Sociology M176.) Lecture, four hours; discussion, one hour (when scheduled). Studies in relationship between mass communication and social organization. Topics include history and organization of major media institutions, social forces that shape production of mass media news and entertainment, selected studies in media content, and effects of media\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M149",
+      "dept": "COMM",
+      "number": "M149",
+      "title": "Media: Gender, Race, Class, and Sexuality",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M149 and Labor Studies M149.) Lecture, four hours; activity, one hour. Limited to junior/senior Communication and Gender Studies majors and Labor Studies minors. Examination of manner in which media culture induces people to perceive various dominant and dominated and/or colonized groups of people. Ways in which\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M165",
+      "dept": "COMM",
+      "number": "M165",
+      "title": "Agitational Communication",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M175.) Lecture, four hours; discussion, one hour (when scheduled). Theory of agitation; agitation as force for change in existing institutions and policies in democratic society. Intensive study of selected agitational movements and technique and content of their communications. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M169",
+      "dept": "COMM",
+      "number": "M169",
+      "title": "Critical Vision: History of Art as Social and Political Commentary",
+      "units": 5.0,
+      "description": "(Same as Honors Collegium M179.) Seminar, three hours. Study of tradition of visual arts (painting, graphic art, photography, sculpture) as vehicles for social and political commentary. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM M176",
+      "dept": "COMM",
+      "number": "M176",
+      "title": "Visual Communication and Social Advocacy",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M176.) Lecture, four hours. Visual communication reaches diverse audiences in communicating major social and political topics. Cartoons, posters, murals, and documentary photography have had powerful world impact. Survey of all four genres of visual communications as features of modern mass media. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 10A",
+      "dept": "COMPTNG",
+      "number": "10A",
+      "title": "Introduction to Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COMPTNG 10B",
+        "COMPTNG 16A",
+        "COMPTNG 20A",
+        "COMPTNG 40A"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10B",
+      "dept": "COMPTNG",
+      "number": "10B",
+      "title": "Intermediate Programming",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "COMPTNG 10A",
+          "COMPTNG 31"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMPTNG 10C",
+        "COMPTNG 40A"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10C",
+      "dept": "COMPTNG",
+      "number": "10C",
+      "title": "Advanced Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "COMPTNG 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 16A",
+      "dept": "COMPTNG",
+      "number": "16A",
+      "title": "Python with Applications I",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C\u2013 or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 10A, Computer Science 31, or equivalent, with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COMPTNG 10A",
+            "COMPTNG 31"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMPTNG 16B",
+        "COMPTNG 40A"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 16B",
+      "dept": "COMPTNG",
+      "number": "16B",
+      "title": "Python with Applications II",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: course 16A or equivalent. In-depth application of Python programming language to problems arising in variety of areas of current interest such as machine learning, computer vision, statistical analysis, numerical analysis, and data acquisition. Advanced Python programming techniques to improve computational efficiency. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 16A or equivalent.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "COMPTNG 16A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 20A",
+      "dept": "COMPTNG",
+      "number": "20A",
+      "title": "Principles of Java Language with Applications",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "COMPTNG 10A",
+          "COMPTNG 31"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMPTNG 40A"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 40A",
+      "dept": "COMPTNG",
+      "number": "40A",
+      "title": "Introduction to Programming for Internet",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C\u2013 or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COMPTNG 10A",
+            "COMPTNG 31"
+          ],
+          [
+            "COMPTNG 10B",
+            "COMPTNG 16A",
+            "COMPTNG 20A",
+            "COMPTNG 32"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 1",
+      "dept": "ECON",
+      "number": "1",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on allocation of resources and distribution of income through price system. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 41",
+      "dept": "ECON",
+      "number": "41",
+      "title": "Probability and Statistics for Economists",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B, with grades of C or better. Not open to students with credit for former Statistics 11. Introduction to theory and practice of mathematical statistics with emphasis on its use in economics. Introduction of basic statistical concepts such as random\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B, with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMM 150"
+      ]
+    },
+    {
+      "course_id": "ECON 5",
+      "dept": "ECON",
+      "number": "5",
+      "title": "Economics for Everyone",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to models and tools used by economists in practical real-world context. Study of important topical issues such as inequality, health care, and environmental policies. Students learn about available data sources and become better equipped to understand current events. May not be used to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 108",
+      "dept": "FILM TV",
+      "number": "108",
+      "title": "History of Documentary Film",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Philosophy of documentary approach in motion pictures. Development of critical standards and examination of techniques of teaching and persuasion used in selected documentary, educational, and propaganda films. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 1",
+      "dept": "LING",
+      "number": "1",
+      "title": "Introduction to Study of Language",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Summary for general undergraduates of what is known about human language; biological basis of language, scientific study of language and human cognition; uniqueness of human language, its structure, universality, its diversity; language in social and cultural setting; language in relation to other aspects of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COMM 100"
+      ]
+    },
+    {
+      "course_id": "LING 103",
+      "dept": "LING",
+      "number": "103",
+      "title": "Introduction to General Phonetics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 102. Phonetics of variety of languages and phonetic phenomena that occur in languages of world. Extensive practice in perception and production of such phenomena. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 170",
+      "dept": "LING",
+      "number": "170",
+      "title": "Language and Society: Sociolinguistic Analysis",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of patterned covariation of language and society; social dialects and social styles in language; problems of multilingual societies. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 172",
+      "dept": "PHILOS",
+      "number": "172",
+      "title": "Philosophy of Language and Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Theories of meaning and communication; how words refer to things; limits of meaningfulness; analysis of speech acts; relation of everyday language to scientific discoveries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 23",
+      "dept": "PHILOS",
+      "number": "23",
+      "title": "Meaning and Communication",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Theory of meaning and its relationship to philosophy more generally; nature, origins, and acquisition of language. Additional topics may include nonlinguistic and nonhuman systems of communication; theories of interpretation in law, literature, and art; use of theoretical terms in science. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 141B",
+      "dept": "POL SCI",
+      "number": "141B",
+      "title": "Electoral Politics: Public Opinion and Voting Behavior",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 40. Designed for juniors/seniors. Study of character and formation of political attitudes and public opinion. Role of public opinion in elections, relationship of political attitudes to vote decision, and influence of public opinion on public policy formulation. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 40.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 40"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 141E",
+      "dept": "POL SCI",
+      "number": "141E",
+      "title": "Electoral Politics: Elections, Media, and Strategy",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 30. Designed for juniors/seniors. Analysis of elections and media, including game-theoretic analysis, Downs spatial model of elections, valence characteristics in elections, campaign finance, endogeneity problems in social sciences, liberal bias in media, industrial organization of news industry, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 30.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 30"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 30",
+      "dept": "POL SCI",
+      "number": "30",
+      "title": "Politics and Strategy",
+      "units": 5.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Introduction to study of strategic interaction in political applications. Use of game theory and other formal modeling strategies to understand politics. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 141E"
+      ]
+    },
+    {
+      "course_id": "POL SCI 40",
+      "dept": "POL SCI",
+      "number": "40",
+      "title": "Introduction to American Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Basic institutions and processes of democratic politics. Treatment of themes such as constitutionalism, representation, participation, and leadership coupled with particular emphasis on the American case. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 141B"
+      ]
+    },
+    {
+      "course_id": "POL SCI M141A",
+      "dept": "POL SCI",
+      "number": "M141A",
+      "title": "Electoral Politics: Political Psychology",
+      "units": 4.0,
+      "description": "(Same as Psychology M138.) Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 40. Designed for juniors/seniors. Examination of political behavior, political socialization, personality and politics, racial conflict, and psychological analysis of public opinion on these issues. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 40.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 10",
+      "dept": "PSYCH",
+      "number": "10",
+      "title": "Introductory Psychology",
+      "units": 4.0,
+      "description": "Lecture, four hours. General introduction including topics in cognitive, experimental, personality, developmental, social, and clinical psychology; six hours of psychological research and a grade of C or better required of all departmental premajors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COMM 100",
+        "PSYCH 135",
+        "PSYCH 137C",
+        "PSYCH 177"
+      ]
+    },
+    {
+      "course_id": "PSYCH 135",
+      "dept": "PSYCH",
+      "number": "135",
+      "title": "Social Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Interrelationships between the individual and his social environment. Social influences on motivation, perception, and behavior. Development and change of attitudes and opinions. Psychological analysis of small groups, social stratification, and mass phenomena. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 137C",
+      "dept": "PSYCH",
+      "number": "137C",
+      "title": "Intimate Relationships",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 10, 100A. Limited to juniors/seniors. Introduction to how social scientists think about, study, and treat intimate relationships, with emphasis on understanding how relationships change over time. Topics include attraction, relationship formation, conflict resolution, social support, sex, role of individual differences, and external circumstances. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 177",
+      "dept": "PSYCH",
+      "number": "177",
+      "title": "Counseling Relationships",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, two hours. Requisites: courses 10, 100A, and 127A or 127B or 127C. Designed for junior/senior Psychology majors. Conceptual and empirical foundations of psychological counseling; comparison of alternative models of counseling processes. Emphasis on counseling approaches in community mental health areas such as drug abuse, suicide prevention,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, and 127A or 127B or 127C.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "PSYCH 127A",
+          "PSYCH 127B",
+          "PSYCH 127C"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M165",
+      "dept": "PSYCH",
+      "number": "M165",
+      "title": "Psychology of Gender",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M165.) Lecture, three hours. Consideration of psychological literature relevant to understanding contemporary sex differences. Topics include sex- role development and role conflict, physiological and personality differences between men and women, sex differences in intellectual abilities and achievement, and impact of gender on social interaction. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 1",
+      "dept": "SOCIOL",
+      "number": "1",
+      "title": "Introductory Sociology",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Survey of characteristics of social life, processes of social interaction, and tools of sociological investigation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 133",
+        "SOCIOL 134"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 132",
+      "dept": "SOCIOL",
+      "number": "132",
+      "title": "Social Psychology: Sociological Approaches",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of contribution of sociologists to theory and research in social psychology, including theories of social control; conformity and deviation; reference groups; and interaction process. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 133",
+      "dept": "SOCIOL",
+      "number": "133",
+      "title": "Collective Behavior",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Designed for juniors/seniors. Characteristics of crowds, mobs, publics, social movements, and revolutions; their relation to social unrest and their role in developing and changing social organization. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 134",
+      "dept": "SOCIOL",
+      "number": "134",
+      "title": "Culture and Personality",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Designed for juniors/seniors. Theories of relation of variations in personality to culture and group life, in primitive and modern societies, and influence of social role on behavior. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 156",
+      "dept": "SOCIOL",
+      "number": "156",
+      "title": "Race and Ethnicity in American Life",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in the U.S., including interplay between racial and ethnic structures and meanings. Special attention to comparison of African American and European American experiences and to transformation of Asian American and Latino communities and the nation generally, wrought by renewal\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}
