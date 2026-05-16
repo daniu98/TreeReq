@@ -15,18 +15,32 @@ export async function submitAuthRequest(endpoint, email, password) {
 
   return data.message;
 }
+
 export async function submitGoogleAuthRequest(tokenString) {
-  const response = await fetch('/api/auth/google-sso', {
+  const response = await fetch("/api/auth/google-sso", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-      token: tokenString 
-    }),
+    body: JSON.stringify({ token: tokenString }),
   });
 
-  const data = await response.json();
+  let data;
+  try {
+    data = await response.json();
+  } catch {
+    throw new Error(
+      response.status === 404
+        ? "Sign-in endpoint missing. Run the backend on port 8000 with the latest code."
+        : `Bad response from server (${response.status}).`
+    );
+  }
   if (!response.ok) {
-    throw new Error(data.detail || "Google Auth failed");
+    const detail = data?.detail;
+    let message;
+    if (typeof detail === "string") message = detail;
+    else if (Array.isArray(detail)) {
+      message = detail.map((x) => x?.msg || x).filter(Boolean).join("; ");
+    }
+    throw new Error(message || data?.message || "Google sign-in failed");
   }
 
   return data;
