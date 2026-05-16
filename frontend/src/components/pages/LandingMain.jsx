@@ -115,7 +115,13 @@ function UnitsBar({ completed = 75, total = 180 }) {
   );
 }
 
-export default function LandingMain({ onPlantNewTree }) {
+const REVISIT_TREES = [
+  { id: "aerospace", label: "Aerospace engineering with minor..." },
+  { id: "env-sci", label: "Environmental science engineering..." },
+  { id: "mech-aero", label: "Mechanical engineering aero..." },
+];
+
+export default function LandingMain({ onPlantNewTree, onOpenTree }) {
   return (
     <main
       style={{
@@ -233,8 +239,23 @@ export default function LandingMain({ onPlantNewTree }) {
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           <h2 style={{ color: "#7C7C7C", fontSize: 20, fontWeight: 400, margin: 0, ...font }}>Revisit...</h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 22, alignItems: "center" }}>
-            {[1, 2, 3].map((i) => (
-              <div key={i} style={{ display: "flex", alignItems: "center", gap: 12, maxWidth: "100%" }}>
+            {REVISIT_TREES.map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                onClick={() => onOpenTree?.(item.id)}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 12,
+                  maxWidth: "100%",
+                  border: "none",
+                  background: "transparent",
+                  cursor: "pointer",
+                  padding: 0,
+                  textAlign: "left",
+                }}
+              >
                 <div
                   style={{
                     width: 275,
@@ -247,10 +268,8 @@ export default function LandingMain({ onPlantNewTree }) {
                   }}
                   aria-hidden
                 />
-                <span style={{ color: "#000", fontSize: 14, ...font }}>
-                  Aerospace engineering with minor...
-                </span>
-              </div>
+                <span style={{ color: "#000", fontSize: 14, ...font }}>{item.label}</span>
+              </button>
             ))}
           </div>
         </div>

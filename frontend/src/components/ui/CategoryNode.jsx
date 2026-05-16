@@ -1,7 +1,7 @@
 import { calcFontSize, LABEL_MAX_PX, LABEL_MIN_PX } from "./nodeUtils.js";
-import notStartedIcon from "../../assets/not-started.svg";
-import inProgressIcon from "../../assets/in-progress.svg";
-import completeIcon from "../../assets/complete.svg";
+import notStartedIcon from "../../assets/CategoryNode/not-started.svg";
+import inProgressIcon from "../../assets/CategoryNode/in-progress.svg";
+import completeIcon from "../../assets/CategoryNode/complete.svg";
 
 const INNER_WIDTH_OVERARCHING = 121; // 167px inner - 2*23px padding
 const INNER_WIDTH_CATEGORY = 164;    // 210px inner - 2*23px padding
