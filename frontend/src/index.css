@@ -92,7 +92,155 @@ select {
   }
 }
 
-/* Onboarding split screen (landing / SSO) — matches desktop mock layout */
+/* Onboarding welcome (split: garden art + login panel) */
+.onboarding-first-root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: #ffffff;
+  overflow: hidden;
+  font-family: "Google Sans Flex", var(--font-ui), system-ui, sans-serif;
+}
+
+.onboarding-first-visual {
+  width: min(747px, 58vw);
+  height: 100%;
+  min-height: 100vh;
+  left: 0;
+  top: 0;
+  position: absolute;
+  object-fit: cover;
+  object-position: left center;
+}
+
+.onboarding-first-content {
+  width: 473px;
+  left: 732px;
+  top: 299px;
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 45px;
+}
+
+.onboarding-first-title-wrap {
+  align-self: stretch;
+  height: 98px;
+  position: relative;
+}
+
+.onboarding-first-title {
+  width: 473px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  color: #000000;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.onboarding-first-tagline {
+  width: 383px;
+  left: 0;
+  top: 63px;
+  position: absolute;
+  color: #000000;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.onboarding-first-login-wrap {
+  align-self: stretch;
+  min-height: 92px;
+  position: relative;
+}
+
+.onboarding-first-help {
+  left: 0;
+  top: 0;
+  position: absolute;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.onboarding-first-google {
+  width: 245px;
+  height: 55px;
+  left: 0;
+  top: 33px;
+  position: absolute;
+}
+
+.onboarding-first-google > div {
+  width: 100%;
+  height: 100%;
+}
+
+.onboarding-first-status {
+  position: absolute;
+  left: 0;
+  top: 96px;
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 1320px) {
+  .onboarding-first-content {
+    left: clamp(420px, 54vw, 732px);
+    top: 220px;
+    width: min(473px, calc(100vw - 460px));
+  }
+}
+
+@media (max-width: 920px) {
+  .onboarding-first-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .onboarding-first-visual {
+    position: static;
+    width: 100%;
+    min-height: unset;
+    height: min(360px, 42vh);
+  }
+
+  .onboarding-first-content {
+    position: static;
+    width: 100%;
+    padding: 28px 24px 24px;
+  }
+
+  .onboarding-first-title-wrap {
+    height: auto;
+  }
+
+  .onboarding-first-title,
+  .onboarding-first-tagline {
+    position: static;
+    width: auto;
+  }
+
+  .onboarding-first-title {
+    font-size: clamp(34px, 7.8vw, 50px);
+  }
+
+  .onboarding-first-tagline {
+    margin-top: 10px;
+    font-size: clamp(22px, 4.8vw, 28px);
+  }
+
+  .onboarding-first-login-wrap {
+    min-height: 140px;
+  }
+}
+
+/* Onboarding split screen (landing / SSO) — legacy layout */
 .onboarding-split-root {
   flex: 1;
   display: flex;

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import React from "react";
 import { GoogleLogin } from "@react-oauth/google";
 import { submitGoogleAuthRequest } from "../../services/authApi";
@@ -81,7 +81,7 @@ function OnboardingWelcome({ onContinue }) {
     <div className="onboarding-first-root">
       <img
         className="onboarding-first-visual"
-        src="https://placehold.co/747x832"
+        src="/images/onboarding-welcome-garden.png"
         alt=""
         aria-hidden="true"
       />
@@ -378,6 +378,43 @@ function OnboardingProfileStep({ onContinue }) {
   );
 }
 
+const ONBOARDING_STEP_EXIT_MS = 480;
+
+/** Fade/slide between onboarding steps (uses `.onboarding-step-bridge` in index.css). */
+function OnboardingStepBridge({ stepKey, children }) {
+  const contentRef = useRef(children);
+  contentRef.current = children;
+
+  const [frame, setFrame] = useState(() => ({
+    key: stepKey,
+    content: children,
+    phase: "enter",
+  }));
+
+  useEffect(() => {
+    if (stepKey === frame.key) {
+      setFrame((prev) =>
+        prev.key === stepKey ? { ...prev, content: contentRef.current } : prev
+      );
+      return;
+    }
+
+    setFrame((prev) => ({ ...prev, phase: "exit" }));
+
+    const timer = window.setTimeout(() => {
+      setFrame({ key: stepKey, content: contentRef.current, phase: "enter" });
+    }, ONBOARDING_STEP_EXIT_MS);
+
+    return () => window.clearTimeout(timer);
+  }, [stepKey, frame.key]);
+
+  return (
+    <div className={`onboarding-step-bridge onboarding-step-bridge--${frame.phase}`}>
+      {frame.content}
+    </div>
+  );
+}
+
 /**
  * Onboarding: Google welcome → profile → academic → excited → main app.
  * `onComplete` runs when the user continues from the final screen with `{ profile, academic }`.
@@ -387,16 +424,13 @@ export default function OnboardingMain({ onComplete }) {
   const [profile, setProfile] = useState(null);
   const [academic, setAcademic] = useState(null);
 
+  let stepContent;
   if (step === "intro") {
-    return <OnboardingIntro onContinue={() => setStep("welcome")} />;
-  }
-
-  if (step === "welcome") {
-    return <OnboardingWelcome onContinue={() => setStep("profile")} />;
-  }
-
-  if (step === "profile") {
-    return (
+    stepContent = <OnboardingIntro onContinue={() => setStep("welcome")} />;
+  } else if (step === "welcome") {
+    stepContent = <OnboardingWelcome onContinue={() => setStep("profile")} />;
+  } else if (step === "profile") {
+    stepContent = (
       <OnboardingProfileStep
         onContinue={(data) => {
           setProfile(data);
@@ -404,10 +438,8 @@ export default function OnboardingMain({ onComplete }) {
         }}
       />
     );
-  }
-
-  if (step === "academic") {
-    return (
+  } else if (step === "academic") {
+    stepContent = (
       <OnboardingAcademicStep
         onBack={() => setStep("profile")}
         onComplete={(data) => {
@@ -416,7 +448,11 @@ export default function OnboardingMain({ onComplete }) {
         }}
       />
     );
+  } else {
+    stepContent = <OnboardingExcitedStep onContinue={() => onComplete?.({ profile, academic })} />;
   }
 
-  return <OnboardingExcitedStep onContinue={() => onComplete?.({ profile, academic })} />;
+  return (
+    <OnboardingStepBridge stepKey={step}>{stepContent}</OnboardingStepBridge>
+  );
 }
