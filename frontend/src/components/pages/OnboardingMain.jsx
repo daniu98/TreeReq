@@ -39,82 +39,201 @@ function OnboardingIntro({ onContinue }) {
 function GoogleMark({ size = 26 }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden style={{ flexShrink: 0 }}>
-      <path
-        fill="#4285F4"
-        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-      />
-      <path
-        fill="#34A853"
-        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-      />
-      <path
-        fill="#FBBC05"
-        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-      />
-      <path
-        fill="#EA4335"
-        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-      />
+      <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+      <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+      <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" />
+      <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" />
     </svg>
   );
 }
-/** Step A: welcome + UCLA Google sign-in (split layout). */
+
+/** Step A: welcome + UCLA Google sign-in (split layout with curved garden image). */
 function OnboardingWelcome({ onContinue }) {
   const [status, setStatus] = useState("");
+  const hasGoogleId = !!import.meta.env.VITE_GOOGLE_CLIENT_ID;
+
   const handleGoogleSuccess = async (credentialResponse) => {
     try {
       setStatus("Verifying token with server...");
-      
       const modernToken = credentialResponse.credential;
-            
       const data = await submitGoogleAuthRequest(modernToken);
-      
       setStatus(data.message);
       onContinue();
-      
     } catch (error) {
       console.error(error);
       setStatus("Server error. Please try again.");
     }
   };
+
   return (
-    <div className="onboarding-first-root">
-      <img
-        className="onboarding-first-visual"
-        src="/images/onboarding-welcome-garden.png"
-        alt=""
-        aria-hidden="true"
-      />
-      <div className="onboarding-first-content">
-        <div className="onboarding-first-title-wrap">
-          <div className="onboarding-first-title">Welcome to TreeRec</div>
-          <div className="onboarding-first-tagline">Degree-planning reimagined.</div>
-        </div>
-        <div className="onboarding-first-login-wrap">
-          <div className="onboarding-first-help">Please log in with your UCLA account.</div>
-          <div className="onboarding-first-google">
-            <GoogleLogin
-              onSuccess={handleGoogleSuccess}
-              onError={() => {
-                console.log("Google Popup closed or failed");
-                setStatus("Login Failed. Please try again.");
-              }}
-              width="245px"
-              useOneTap={false}
-              auto_select={false}
-            />
+    <div style={welcomeStyles.root}>
+      {/* Left: Garden image with curved edge */}
+      <div style={welcomeStyles.imageSection}>
+        <img
+          src="/images/onboarding-welcome-garden.png"
+          alt=""
+          aria-hidden="true"
+          style={welcomeStyles.gardenImage}
+        />
+<svg viewBox="0 0 200 1000" preserveAspectRatio="none" style={welcomeStyles.curveSvg}>
+  <path
+    d="M 200 0 L 120 0 C 80 80, 10 180, 10 300 C 10 420, 160 480, 180 600 C 200 720, 40 820, 20 1000 L 200 1000 Z"
+    fill="#ffffff"
+  />
+</svg>
+      </div>
+
+      {/* Right: Welcome content */}
+      <div style={welcomeStyles.contentSection}>
+        <div style={welcomeStyles.contentInner}>
+          <div style={welcomeStyles.titleBlock}>
+            <div style={welcomeStyles.title}>Welcome to TreeReq</div>
+            <div style={welcomeStyles.tagline}>Degree-planning reimagined.</div>
           </div>
-          <p
-            className="onboarding-first-status"
-            style={{ color: status.includes("error") || status.includes("Failed") ? "red" : "green" }}
-          >
-            {status}
-          </p>
+
+          <div style={welcomeStyles.loginBlock}>
+            <div style={welcomeStyles.loginHelp}>Please log in with your UCLA account.</div>
+
+            {hasGoogleId ? (
+              <div style={welcomeStyles.googleWrap}>
+                <GoogleLogin
+                  onSuccess={handleGoogleSuccess}
+                  onError={() => {
+                    console.log("Google Popup closed or failed");
+                    setStatus("Login Failed. Please try again.");
+                  }}
+                  width="280"
+                  shape="pill"
+                  useOneTap={false}
+                  auto_select={false}
+                />
+              </div>
+            ) : (
+              <div style={welcomeStyles.noGoogleWrap}>
+                <p style={welcomeStyles.noGoogleText}>
+                  Google Client ID not set. Add <code>VITE_GOOGLE_CLIENT_ID</code> to <code>frontend/.env</code>
+                </p>
+              </div>
+            )}
+
+            <button type="button" onClick={onContinue} style={welcomeStyles.skipButton}>
+              Continue without Google (dev)
+            </button>
+
+            {status && (
+              <p style={{
+                fontSize: 13,
+                margin: 0,
+                color: status.includes("error") || status.includes("Failed") ? "#d32f2f" : "#2e7d32",
+              }}>
+                {status}
+              </p>
+            )}
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
+const welcomeStyles = {
+  root: {
+    display: "flex",
+    width: "100%",
+    minHeight: "100vh",
+    background: "#fff",
+    fontFamily: "'Georgia', 'Times New Roman', serif",
+  },
+  imageSection: {
+    position: "relative",
+    width: "55%",
+    minHeight: "100vh",
+    overflow: "hidden",
+    flexShrink: 0,
+  },
+  gardenImage: {
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    display: "block",
+    position: "absolute",
+    top: 0,
+    left: 0,
+  },
+  curveSvg: {
+    position: "absolute",
+    right: 0,
+    top: 0,
+    width: "220px",
+    height: "100%",
+    zIndex: 2,
+  },
+  contentSection: {
+    flex: 1,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: "60px 48px",
+  },
+  contentInner: {
+    maxWidth: 400,
+    width: "100%",
+  },
+  titleBlock: {
+    marginBottom: 48,
+  },
+  title: {
+    fontSize: 42,
+    fontWeight: 400,
+    color: "#1a1a1a",
+    lineHeight: 1.2,
+    fontFamily: "'Georgia', 'Times New Roman', serif",
+  },
+  tagline: {
+    fontSize: 20,
+    fontStyle: "italic",
+    color: "#444",
+    marginTop: 8,
+    fontFamily: "'Georgia', 'Times New Roman', serif",
+  },
+  loginBlock: {
+    display: "flex",
+    flexDirection: "column",
+    gap: 16,
+  },
+  loginHelp: {
+    fontSize: 15,
+    color: "#555",
+    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+  },
+  googleWrap: {
+    marginTop: 4,
+  },
+  noGoogleWrap: {
+    padding: "12px 16px",
+    background: "#fff8e1",
+    borderRadius: 8,
+    border: "1px solid #ffe082",
+  },
+  noGoogleText: {
+    fontSize: 13,
+    color: "#795548",
+    margin: 0,
+    lineHeight: 1.5,
+  },
+  skipButton: {
+    background: "none",
+    border: "1px solid #ccc",
+    borderRadius: 20,
+    padding: "8px 20px",
+    fontSize: 13,
+    color: "#777",
+    cursor: "pointer",
+    alignSelf: "flex-start",
+    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    transition: "all 0.2s",
+  },
+};
 
 function Field({ label, required, id, ...props }) {
   return (
@@ -176,7 +295,6 @@ function AcademicCourseSection({ id, label, values, draft, onDraft, onAdd, onRem
 
 /**
  * Final onboarding screen after Academic Background (before main app).
- * Full white viewport; copy at ~390×367 (desktop); user taps Continue when ready.
  */
 function OnboardingExcitedStep({ onContinue }) {
   return (
@@ -273,7 +391,7 @@ function OnboardingAcademicStep({ onBack, onComplete }) {
   );
 }
 
-/** Step B: profile card — matches mock (Google Sans Flex, gaps, blue accent, Next). */
+/** Step B: profile card. */
 function OnboardingProfileStep({ onContinue }) {
   const [form, setForm] = useState({
     firstName: "",
@@ -313,58 +431,13 @@ function OnboardingProfileStep({ onContinue }) {
                 Please fill in First Name, Last Name, and Major(s).
               </p>
             ) : null}
-            <Field
-              id="onboarding-first-name"
-              label="First Name"
-              required
-              autoComplete="given-name"
-              value={form.firstName}
-              onChange={(e) => patch("firstName", e.target.value)}
-            />
-            <Field
-              id="onboarding-last-name"
-              label="Last Name"
-              required
-              autoComplete="family-name"
-              value={form.lastName}
-              onChange={(e) => patch("lastName", e.target.value)}
-            />
-            <Field
-              id="onboarding-majors"
-              label="Major(s)"
-              required
-              placeholder="e.g. Computer Science"
-              value={form.majors}
-              onChange={(e) => patch("majors", e.target.value)}
-            />
-            <Field
-              id="onboarding-minors"
-              label="Minor(s)"
-              placeholder="Optional"
-              value={form.minors}
-              onChange={(e) => patch("minors", e.target.value)}
-            />
-            <Field
-              id="onboarding-admit-term"
-              label="Admit Term:"
-              placeholder="e.g. Fall 2024"
-              value={form.admitTerm}
-              onChange={(e) => patch("admitTerm", e.target.value)}
-            />
-            <Field
-              id="onboarding-admit-level"
-              label="Admit Level:"
-              placeholder="e.g. Freshman, Transfer"
-              value={form.admitLevel}
-              onChange={(e) => patch("admitLevel", e.target.value)}
-            />
-            <Field
-              id="onboarding-grad-term"
-              label="Expected Graduation Term:"
-              placeholder="e.g. Spring 2028"
-              value={form.gradTerm}
-              onChange={(e) => patch("gradTerm", e.target.value)}
-            />
+            <Field id="onboarding-first-name" label="First Name" required autoComplete="given-name" value={form.firstName} onChange={(e) => patch("firstName", e.target.value)} />
+            <Field id="onboarding-last-name" label="Last Name" required autoComplete="family-name" value={form.lastName} onChange={(e) => patch("lastName", e.target.value)} />
+            <Field id="onboarding-majors" label="Major(s)" required placeholder="e.g. Computer Science" value={form.majors} onChange={(e) => patch("majors", e.target.value)} />
+            <Field id="onboarding-minors" label="Minor(s)" placeholder="Optional" value={form.minors} onChange={(e) => patch("minors", e.target.value)} />
+            <Field id="onboarding-admit-term" label="Admit Term:" placeholder="e.g. Fall 2024" value={form.admitTerm} onChange={(e) => patch("admitTerm", e.target.value)} />
+            <Field id="onboarding-admit-level" label="Admit Level:" placeholder="e.g. Freshman, Transfer" value={form.admitLevel} onChange={(e) => patch("admitLevel", e.target.value)} />
+            <Field id="onboarding-grad-term" label="Expected Graduation Term:" placeholder="e.g. Spring 2028" value={form.gradTerm} onChange={(e) => patch("gradTerm", e.target.value)} />
 
             <div className="onboarding-profile-actions">
               <button type="submit" className="onboarding-profile-next">
