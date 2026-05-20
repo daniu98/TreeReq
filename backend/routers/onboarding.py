@@ -26,6 +26,10 @@ async def academic_options():
     )
     course_docs = await cursor.to_list(length=_MAX_UCLA_COURSES)
     ucla_options = []
+    majors_raw = await db.majors.find().to_list()
+    majors_ret = []
+    for major in majors_raw:
+        majors_ret.append({"major_id": (major.get("major_id")), "name": (major.get("name"))})
     for c in course_docs:
         cid = c.get("course_id")
         if not cid:
@@ -38,4 +42,5 @@ async def academic_options():
         "apExams": ap_options,
         "ibExams": [],
         "uclaCourses": ucla_options,
+        "majors": majors_ret,
     }
