@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import React from "react";
+import Select from "react-select";
 import { GoogleLogin } from "@react-oauth/google";
 import { submitGoogleAuthRequest } from "../../services/authApi";
 import { fetchAcademicOptions } from "../../services/onboardingApi";
-
+import { fetchMajors } from "../../services/onboardingApi";
 const ONBOARDING_HERO = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_LANDING_ART = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_CARD_ART = "/images/onboarding-welcome-garden1.png";
@@ -439,7 +440,7 @@ function OnboardingProfileStep({ onContinue }) {
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
-    majors: "",
+    major: null,
     minors: "",
     admitTerm: "",
     admitLevel: "",
@@ -450,17 +451,61 @@ function OnboardingProfileStep({ onContinue }) {
   function patch(key, value) {
     setForm((prev) => ({ ...prev, [key]: value }));
   }
-
+  const [loadState, setLoadState] = useState("loading");
+  const [loadError, setLoadError] = useState("");
+  const [majors, setMajors] = useState([]);
   function handleSubmit(e) {
     e.preventDefault();
-    if (!form.firstName.trim() || !form.lastName.trim() || !form.majors.trim()) {
+      console.log(form.major);
+    if (!form.firstName.trim() || !form.lastName.trim() || !form.major) {
       setShowHint(true);
       return;
     }
     setShowHint(false);
     onContinue?.(form);
   }
-
+  const majorSelectStyles = { // styles made by gemini
+    control: (baseStyles) => ({
+      ...baseStyles,
+      backgroundColor: '#D9D9D9',
+      border: 'none',
+      borderRadius: '8px',
+      boxShadow: 'none',
+      padding: '4px',
+      cursor: 'pointer',
+      minHeight: '47px',
+      maxHeight: '47px',
+    }),
+    placeholder: (baseStyles) => ({
+      ...baseStyles,
+      color: '#6b6b6b',
+    }),
+    menu: (baseStyles) => ({
+      ...baseStyles,
+      borderRadius: '8px',
+      overflow: 'hidden',
+    })
+  };
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+	setLoadState("loading");
+	setLoadError("");
+        const majors_raw = await fetchMajors();
+	const fetchedMajors = majors_raw.map(item => ({
+	  value: item.major_id,
+	  label: item.name
+	}));
+	if (cancelled) return;
+	setMajors(fetchedMajors);
+	setLoadState("ready");
+      } catch (err) {
+	if (cancelled) return;
+	setLoadError(err.message|| "Could not load majors.");
+      }
+    })();
+  }, []);
   return (
     <OnboardingCardShell
       footer={
@@ -472,7 +517,6 @@ function OnboardingProfileStep({ onContinue }) {
       }
     >
       <h1 className="onboarding-card__title">First, let&apos;s get to know you.</h1>
-
       <form id="onboarding-profile-form" className="onboarding-profile-grid" onSubmit={handleSubmit} noValidate>
         {showHint ? (
           <p className="onboarding-card__hint onboarding-profile-grid__hint" role="alert">
@@ -489,21 +533,26 @@ function OnboardingProfileStep({ onContinue }) {
           onChange={(e) => patch("firstName", e.target.value)}
         />
         <Field
-          id="ob-last"
+	  id="ob-last"
           label="Last Name"
           required
           autoComplete="family-name"
           value={form.lastName}
           onChange={(e) => patch("lastName", e.target.value)}
         />
-        <Field
-          id="ob-majors"
-          label="Major"
-          required
-          placeholder="e.g. Computer Science"
-          value={form.majors}
-          onChange={(e) => patch("majors", e.target.value)}
-        />
+	<div style={{ display: 'flex', flexDirection: 'column'}}>
+	  <label style={{marginBottom: '10px'}}>Major *</label>
+	  <Select
+	    value={form.major}
+	    id="ob-majors"
+	    onChange={(selectedOption) => patch("major", selectedOption)}
+	    options={majors}
+	    styles={majorSelectStyles}
+	    isSearchable={true}
+	    isDisabled={loadState === "loading"} 
+            placeholder={loadState === "loading" ? "No majors in database" : "Search for a major..."}
+          />
+	</div>
         <Field
           id="ob-minors"
           label="Minor"
@@ -544,6 +593,7 @@ function addUnique(list, value) {
 }
 
 function OnboardingAcademicStep({ onBack, onComplete }) {
+  const [majorSelected, setMajorSelected] = useState([]);
   const [apSelected, setApSelected] = useState([]);
   const [ibSelected, setIbSelected] = useState([]);
   const [uclaSelected, setUclaSelected] = useState([]);
@@ -563,6 +613,7 @@ function OnboardingAcademicStep({ onBack, onComplete }) {
           apExams: data.apExams ?? [],
           ibExams: data.ibExams ?? [],
           uclaCourses: data.uclaCourses ?? [],
+	  options: data.options ?? [],
         });
         setLoadState("ready");
       } catch (err) {

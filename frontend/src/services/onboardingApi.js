@@ -9,3 +9,11 @@ export async function fetchAcademicOptions() {
   }
   return response.json();
 }
+export async function fetchMajors() {
+  const response = await fetch ("/api/majors");
+  if(!response.ok) {
+    const err = await response.json().catch(() => ({}));
+    throw new Error(err.detail || `Failed to load majors (${response.status})`);
+  }
+  return response.json();
+}
