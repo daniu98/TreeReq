@@ -83,14 +83,22 @@ def google_sso(body: TokenBody):
 def submit_onboarding_data(data: OnboardingData):
     collection = db["users"]
     filter_criteria = {"email": data.email}
-    update_operation{"$set": {"first_name": data.firstName}}
-    update_operation{"$set": {"last_name": data.lastName}}
-    update_operation{"$set": {"major": data.major}}
-    update_operation{"$set": {"minor": data.minor}}
-    update_operation{"$set": {"admit_term": data.admitTerm}}
-    update_operation{"$set": {"admit_level": data.admitLevel}}
-    update_operation{"$set": {"expected_graduation_term": data.expectedGraduationTerm}}
-    update_operation{"$set": {"ap_classes": data.apClasses}}
-    update_operation{"$set": {"ib_classes": data.ibClasses}}
-    update_operation{"$set": {"ucla_classes": data.uclaClasses}}
+    update_operation = {"$set": {
+        "first_name": data.firstName,
+        "last_name": data.lastName,
+        "major": data.major,
+        "minor": data.minor,
+        "admit_term": data.admitTerm,
+        "admit_level": data.admitLevel,
+        "expected_graduation_term": data.expectedGraduationTerm,
+        "ap_classes": data.apClasses,
+        "ib_classes": data.ibClasses,
+        "ucla_classes": data.uclaClasses
+    }}
+    result = collection.update_one(filter_criteria, update_operation)
+    
+    if result.matched_count == 0:
+        return {"message": "User not found"}
+        
+    return {"message": "Onboarding data saved successfully"}
     

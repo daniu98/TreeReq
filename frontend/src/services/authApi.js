@@ -48,7 +48,7 @@ export async function submitGoogleAuthRequest(tokenString) {
 export async function submitOnboardingData(email, firstName, lastName, major, minor, admitTerm, admitLevel, expectedGraduationTerm, apClasses, ibClasses, uclaClasses){
   const response = await fetch("/api/auth/submit-onboarding-data", {
     method: "POST",
-    headers: { "Content-Type": "applications/json"},
+    headers: { "Content-Type": "application/json"},
     body: JSON.stringify({
       email,
       firstName,
