@@ -6,7 +6,6 @@ import { submitGoogleAuthRequest } from "../../services/authApi";
 import { fetchAcademicOptions } from "../../services/onboardingApi";
 import { fetchMajors } from "../../services/onboardingApi";
 import { submitOnboardingData } from "../../services/authApi";
-import { checkIfOnboarded } from "../../services/authApi";
 const ONBOARDING_HERO = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_LANDING_ART = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_CARD_ART = "/images/onboarding-welcome-garden1.png";
@@ -194,7 +193,7 @@ function OnboardingArtPanel({ side = "left" }) {
   );
 }
 
-function OnboardingLanding({ onGoogleContinue, onSkipOnboarding }) {
+function OnboardingLanding({ onGoogleContinue }) {
   const hasGoogleId = !!import.meta.env.VITE_GOOGLE_CLIENT_ID;
   const [status, setStatus] = useState("");
 
@@ -203,22 +202,7 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding }) {
       setStatus("Verifying…");
       const data = await submitGoogleAuthRequest(credentialResponse.credential);
       setStatus(data.message || "Signed in");
-      try {
-	setStatus("Verifying...");
-	const data2 = await checkIfOnboarded(data.email);
-	if(data2.message == "User already onboarded") {
-	  setStatus("Welcome back! Redirecting...");
-	  onSkipOnboarding(data.email);
-	  return;
-	}
-	else {
-	  setStatus(data.message || "Signed in");
-	  onGoogleContinue(data.email);
-	}
-      } catch (error2) {
-	console.error(error2);
-	setStatus("Sign-in failed. Please try again.");
-      }
+      onGoogleContinue(data.email);
     } catch (error) {
       console.error(error);
       setStatus("Sign-in failed. Please try again.");
@@ -230,7 +214,7 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding }) {
   return (
     <div className="onboarding-landing">
       <LandingHeroArt />
-	
+
       <div className="onboarding-landing__panel">
         <div className="onboarding-landing__panel-inner">
           <p className="onboarding-landing__eyebrow">Welcome to</p>
@@ -757,16 +741,6 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   const [academic, setAcademic] = useState(null);
   const [exitingToHome, setExitingToHome] = useState(false);
   const [email, setEmail] = useState("");
-  
-  const handleSkipToMainApp = useCallback((userEmail) => {
-    if (exitingToHome) return;
-    setExitingToHome(true);
-    onExitStart?.();
-    window.setTimeout(() => {
-      onComplete?.({ skipped: true, email: userEmail }); 
-    }, HOME_EXIT_MS);
-  }, [exitingToHome, onExitStart, onComplete]);
-
   const goProfile = useCallback((userEmail) => {
     setEmail(userEmail);
     setStep("profile");
@@ -800,7 +774,7 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   let stepContent;
   if (step === "welcome") {
     stepContent = (
-      <OnboardingLanding onGoogleContinue={goProfile} onSkipOnboarding={handleSkipToMainApp} />
+      <OnboardingLanding onGoogleContinue={goProfile} />
     );
   } else if (step === "profile") {
     stepContent = (
