@@ -5,6 +5,7 @@ import { GoogleLogin } from "@react-oauth/google";
 import { submitGoogleAuthRequest } from "../../services/authApi";
 import { fetchAcademicOptions } from "../../services/onboardingApi";
 import { fetchMajors } from "../../services/onboardingApi";
+import { submitOnboardingData } from "../../services/authApi";
 const ONBOARDING_HERO = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_LANDING_ART = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_CARD_ART = "/images/onboarding-welcome-garden1.png";
@@ -201,7 +202,7 @@ function OnboardingLanding({ onGoogleContinue }) {
       setStatus("Verifying…");
       const data = await submitGoogleAuthRequest(credentialResponse.credential);
       setStatus(data.message || "Signed in");
-      onGoogleContinue();
+      onGoogleContinue(data.email);
     } catch (error) {
       console.error(error);
       setStatus("Sign-in failed. Please try again.");
@@ -739,17 +740,36 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   const [profile, setProfile] = useState(null);
   const [academic, setAcademic] = useState(null);
   const [exitingToHome, setExitingToHome] = useState(false);
-
-  const goProfile = useCallback(() => setStep("profile"), []);
-
-  const handleSuccessContinue = useCallback(() => {
+  const [email, setEmail] = useState("");
+  const goProfile = useCallback((userEmail) => {
+    setEmail(userEmail);
+    setStep("profile");
+  }, []);
+  const handleSuccessContinue = useCallback(async () => {
     if (exitingToHome) return;
     setExitingToHome(true);
     onExitStart?.();
+    try {
+	await submitOnboardingData(
+	  email,
+	  profile.firstName,
+	  profile.lastName,
+	  profile.major?.value, 
+	  profile.minors,
+	  profile.admitTerm,
+	  profile.admitLevel,
+	  profile.gradTerm,
+	  academic.apClasses,
+	  academic.ibClasses,
+	  academic.uclaCourses
+	);
+    } catch (error) {
+	console.error("Failed to save onboarding data:", error);
+    }
     window.setTimeout(() => {
       onComplete?.({ profile, academic });
     }, HOME_EXIT_MS);
-  }, [academic, exitingToHome, onComplete, onExitStart, profile]);
+  }, [academic, exitingToHome, onComplete, onExitStart, profile, email]);
 
   let stepContent;
   if (step === "welcome") {
