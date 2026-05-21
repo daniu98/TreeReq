@@ -53,7 +53,20 @@ def google_sso(body: GoogleTokenBody):
     googleId=idinfo["sub"]
     usersWithEmail = db.users.find_one({"email": email})
     if(usersWithEmail == None):
-        db.users.insert_one({"email": email, "googleId": googleId})
+        db.users.insert_one({
+            "email": email,
+            "googleId": googleId,
+            "first_name": "",
+            "last_name": "",
+            "major": "",
+            "minor": "",
+            "admit_term": "",
+            "admit_level": "",
+            "expected_graduation_term": "",
+            "ap_classes": [],
+            "ib_classes": [],
+            "ucla_classes": []
+        })
         return {"message": f"Signed up as {email}", "email": email}
     else:
         return {"message": f"Signed in as {email}", "email": email}
