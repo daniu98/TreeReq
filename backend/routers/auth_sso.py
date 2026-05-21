@@ -1,12 +1,15 @@
 import os
-
+import pymongo
+from dotenv import load_dotenv, dotenv_values
 from fastapi import APIRouter, HTTPException
 from google.auth.transport import requests as google_requests
 from google.oauth2 import id_token
 from pydantic import BaseModel
 
 router = APIRouter(prefix="/auth", tags=["auth"])
-
+load_dotenv()
+client = pymongo.MongoClient(os.getenv("MONGO_URI"))
+db = client.get_database(os.getenv("DB_NAME"))
 
 class GoogleTokenBody(BaseModel):
     token: str
@@ -47,4 +50,10 @@ def google_sso(body: GoogleTokenBody):
             status_code=401,
             detail="Google account has no email on file",
         )
-    return {"message": f"Signed in as {email}", "email": email}
+    googleId=idinfo["sub"]
+    usersWithEmail = db.users.find_one({"email": email})
+    if(usersWithEmail == None):
+        db.users.insert_one({"email": email, "googleId": googleId})
+        return {"message": f"Signed up as {email}", "email": email}
+    else:
+        return {"message": f"Signed in as {email}", "email": email}
