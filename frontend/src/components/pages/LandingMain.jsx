@@ -1,3 +1,5 @@
+import { MOCK_REVISIT_TREES } from "../../data/mockTrees.js";
+
 const font = { fontFamily: "var(--font-ui)", fontWeight: 400 };
 
 function BackgroundBlobs() {
@@ -114,12 +116,6 @@ function UnitsBar({ completed = 75, total = 180 }) {
     </div>
   );
 }
-
-const REVISIT_TREES = [
-  { id: "aerospace", label: "Aerospace engineering with minor..." },
-  { id: "env-sci", label: "Environmental science engineering..." },
-  { id: "mech-aero", label: "Mechanical engineering aero..." },
-];
 
 export default function LandingMain({ onPlantNewTree, onOpenTree }) {
   return (
@@ -239,7 +235,7 @@ export default function LandingMain({ onPlantNewTree, onOpenTree }) {
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           <h2 style={{ color: "#7C7C7C", fontSize: 20, fontWeight: 400, margin: 0, ...font }}>Revisit...</h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 22, alignItems: "center" }}>
-            {REVISIT_TREES.map((item) => (
+            {MOCK_REVISIT_TREES.map((item) => (
               <button
                 key={item.id}
                 type="button"
