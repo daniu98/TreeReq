@@ -21,6 +21,18 @@ class AuthData(BaseModel):
     password: str
 class TokenBody(BaseModel):
     token: str
+class OnboardingData(BaseModel):
+    email: str
+    firstName: str
+    lastName: str
+    major: str
+    minor: str
+    admitTerm: str
+    admitLevel: str
+    expectedGraduationTerm: str
+    apClasses: list[str]
+    ibClasses: list[str]
+    uclaClasses: list[str]
 @app.post("/api/auth/signup")
 def signup(data: AuthData):
     email = data.email
@@ -67,3 +79,18 @@ def google_sso(body: TokenBody):
             return{"message": "Email not verified"}
     except Exception:
         return{"message": "Invalid token"}
+@app.post("/api/auth/submit-onboarding-data")
+def submit_onboarding_data(data: OnboardingData):
+    collection = db["users"]
+    filter_criteria = {"email": data.email}
+    update_operation{"$set": {"first_name": data.firstName}}
+    update_operation{"$set": {"last_name": data.lastName}}
+    update_operation{"$set": {"major": data.major}}
+    update_operation{"$set": {"minor": data.minor}}
+    update_operation{"$set": {"admit_term": data.admitTerm}}
+    update_operation{"$set": {"admit_level": data.admitLevel}}
+    update_operation{"$set": {"expected_graduation_term": data.expectedGraduationTerm}}
+    update_operation{"$set": {"ap_classes": data.apClasses}}
+    update_operation{"$set": {"ib_classes": data.ibClasses}}
+    update_operation{"$set": {"ucla_classes": data.uclaClasses}}
+    

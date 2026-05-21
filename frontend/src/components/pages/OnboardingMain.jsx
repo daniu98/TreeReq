@@ -5,6 +5,7 @@ import { GoogleLogin } from "@react-oauth/google";
 import { submitGoogleAuthRequest } from "../../services/authApi";
 import { fetchAcademicOptions } from "../../services/onboardingApi";
 import { fetchMajors } from "../../services/onboardingApi";
+import { submitOnboardingData } from "../../services/authApi";
 const ONBOARDING_HERO = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_LANDING_ART = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_CARD_ART = "/images/onboarding-welcome-garden1.png";
