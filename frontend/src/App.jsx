@@ -1,4 +1,6 @@
 import { useCallback, useMemo, useState } from "react";
+import ClassNodeTest from "./components/pages/ClassNodeTest.jsx";
+import TreeTest from "./components/pages/TreeTest.jsx";
 import LandingMain from "./components/pages/LandingMain.jsx";
 import OnboardingMain from "./components/pages/OnboardingMain.jsx";
 import TreeViewMain from "./components/pages/TreeViewMain.jsx";
@@ -43,6 +45,9 @@ function AppHome({ view, setView, activeTreeId, setActiveTreeId, recents, search
 }
 
 export default function App() {
+  // TEMP: full tree visual test with mock CogSci data. Remove to restore normal app.
+  if (true) return <TreeTest />;
+
   const [onboardingVisible, setOnboardingVisible] = useState(true);
   const [homeRevealed, setHomeRevealed] = useState(false);
   const [homeEntered, setHomeEntered] = useState(false);

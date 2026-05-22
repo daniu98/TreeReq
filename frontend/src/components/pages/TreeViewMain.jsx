@@ -1,5 +1,4 @@
-import { Tree } from "../ui/Tree.jsx";
-import { getTreeNodes } from "../../data/mockTrees.js";
+import { DegreeTree } from "../tree/DegreeTree.jsx";
 
 const font = { fontFamily: "var(--font-ui)", fontWeight: 400 };
 
@@ -14,8 +13,6 @@ export default function TreeViewMain({ tree, onBack }) {
       </main>
     );
   }
-
-  const nodes = getTreeNodes(tree.id);
 
   return (
     <main
@@ -45,7 +42,7 @@ export default function TreeViewMain({ tree, onBack }) {
       </header>
 
       <TreeCanvas>
-        <Tree nodes={nodes} />
+        <DegreeTree majorId={tree.id} majorName={tree.name} />
       </TreeCanvas>
     </main>
   );
