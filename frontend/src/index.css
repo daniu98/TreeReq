@@ -565,13 +565,10 @@ select {
     max-width: none;
   }
 
-  .onboarding-card:has(.onboarding-academic-stack),
-  .onboarding-card__form:has(.onboarding-academic-stack) {
-    max-height: none;
-  }
-
-  .onboarding-card__form > .onboarding-academic-stack {
-    overflow: visible;
+  .onboarding-card,
+  .onboarding-card--split {
+    height: min(720px, calc(100vh - 48px));
+    max-height: min(720px, calc(100vh - 48px));
   }
 }
 
@@ -1284,7 +1281,8 @@ select.onboarding-academic-input:disabled {
   display: flex;
   width: 100%;
   max-width: 1162px;
-  min-height: min(720px, calc(100vh - 48px));
+  height: min(720px, calc(100vh - 48px));
+  max-height: min(720px, calc(100vh - 48px));
   background: #ffffff;
   border-radius: 33px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -1299,17 +1297,35 @@ select.onboarding-academic-input:disabled {
 .onboarding-card__form {
   flex: 1 1 58%;
   min-width: 0;
-  padding: clamp(40px, 5vw, 72px) clamp(32px, 4vw, 56px) clamp(36px, 4vw, 48px);
+  min-height: 0;
+  height: 100%;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 0;
-  min-height: min(720px, calc(100vh - 48px));
+  overflow: hidden;
+  background: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.onboarding-card__body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* Padding on body so scroll area stays inside white panel (clear of art wave) */
+  padding: clamp(40px, 5vw, 72px) clamp(40px, 5vw, 64px) 0 clamp(32px, 4vw, 56px);
+  box-sizing: border-box;
 }
 
 .onboarding-card__art {
   flex: 0 0 42%;
   min-width: 240px;
+  align-self: stretch;
   position: relative;
+  z-index: 1;
   overflow: hidden;
 }
 
@@ -1337,9 +1353,20 @@ select.onboarding-academic-input:disabled {
   font-size: 0.875rem;
 }
 
-.onboarding-card__form > .onboarding-profile-grid {
+.onboarding-card__body > .onboarding-card__title {
+  flex-shrink: 0;
+}
+
+.onboarding-card__body > .onboarding-profile-grid,
+.onboarding-card__body > .onboarding-academic-stack {
   flex: 1;
   min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: 0;
+  padding-right: 6px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
 }
 
 .onboarding-profile-grid {
@@ -1394,15 +1421,39 @@ select.onboarding-academic-input:disabled {
   outline-offset: 2px;
 }
 
+/* react-select dropdowns (profile + academic) */
+.onboarding-rs-wrap {
+  width: 100%;
+  max-width: 268px;
+}
+
+.onboarding-rs-wrap--wide {
+  max-width: 398px;
+}
+
+.onboarding-rs__control {
+  border: none !important;
+  box-shadow: none !important;
+  min-height: 48px !important;
+}
+
+.onboarding-rs__control--is-focused {
+  outline: 2px solid var(--onboarding-brand);
+  outline-offset: 2px;
+}
+
 .onboarding-card__footer {
-  margin-top: auto;
-  padding-top: clamp(24px, 4vw, 40px);
+  flex-shrink: 0;
+  margin-top: clamp(16px, 3vw, 24px);
+  padding: clamp(12px, 2vw, 20px) clamp(40px, 5vw, 64px) clamp(36px, 4vw, 48px)
+    clamp(32px, 4vw, 56px);
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
   width: 100%;
-  max-width: 573px;
+  max-width: none;
 }
 
 .onboarding-card__footer--end {
@@ -1410,24 +1461,9 @@ select.onboarding-academic-input:disabled {
   margin-left: auto;
 }
 
-/* Academic page: title + footer fixed; AP/IB/UCLA block scrolls as one */
-.onboarding-card:has(.onboarding-academic-stack) {
-  max-height: min(720px, calc(100vh - 48px));
-}
-
-.onboarding-card__form:has(.onboarding-academic-stack) {
-  max-height: min(720px, calc(100vh - 48px));
-  overflow: hidden;
-}
-
-.onboarding-card__form > .onboarding-academic-stack {
-  flex: 1;
-  min-height: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-right: 4px;
-  scrollbar-width: thin;
-  -webkit-overflow-scrolling: touch;
+/* Academic: loading/error lines stay above scrollable sections */
+.onboarding-card__body > .onboarding-academic-stack > .onboarding-academic-loading {
+  flex-shrink: 0;
 }
 
 .onboarding-academic-fields {
@@ -1763,13 +1799,14 @@ select.onboarding-academic-input:disabled {
   .onboarding-card--split {
     flex-direction: column;
     max-width: 560px;
-    min-height: unset;
-    max-height: none;
+    height: min(720px, calc(100vh - 48px));
+    max-height: min(720px, calc(100vh - 48px));
   }
 
   .onboarding-card__form {
-    min-height: unset;
-    flex: none;
+    flex: 1 1 auto;
+    min-height: 0;
+    height: auto;
   }
 
   .onboarding-card__art {
@@ -1788,6 +1825,8 @@ select.onboarding-academic-input:disabled {
   }
 
   .onboarding-field__input,
+  .onboarding-rs-wrap,
+  .onboarding-rs-wrap--wide,
   .onboarding-field--solo {
     max-width: none;
   }
