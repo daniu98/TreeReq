@@ -1,26 +1,30 @@
-import os
-import pymongo
-from dotenv import load_dotenv, dotenv_values
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+
+from config.sync_database import get_sync_db, user_is_onboarded
+
 router = APIRouter(prefix="/auth", tags=["auth"])
-load_dotenv()
-client = pymongo.MongoClient(os.getenv("MONGO_URI"))
-db = client.get_database(os.getenv("DB_NAME"))
+
 
 class EmailRequest(BaseModel):
     email: str
 
+
 @router.post("/check-if-onboarded")
 def check_if_onboarded(request: EmailRequest):
-    user = db.users.find_one({"email": request.email})
-    if(user == None):
-        return {"message": "User not found"}
-    else:
-        try:
-            if(user["first_name"] == "" or user["last_name"] == "" or user["major"] == ""):
-                return {"message": "User did not onboard"}
-            else:
-                return {"message": "User already onboarded"}
-        except:
-            return {"message": "Error: something went wrong"}
+    try:
+        db = get_sync_db()
+        user = db.users.find_one({"email": request.email})
+    except Exception as exc:
+        raise HTTPException(
+            status_code=503,
+            detail=f"Database error: {exc}",
+        ) from exc
+
+    if user is None:
+        return {"message": "User not found", "onboarded": False}
+
+    if user_is_onboarded(user):
+        return {"message": "User already onboarded", "onboarded": True}
+
+    return {"message": "User did not onboard", "onboarded": False}
