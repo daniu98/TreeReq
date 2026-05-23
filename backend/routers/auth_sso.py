@@ -93,4 +93,5 @@ def google_sso(body: GoogleTokenBody):
         "message": message,
         "email": email,
         "onboarded": onboarded,
+        "token": body.token,
     }

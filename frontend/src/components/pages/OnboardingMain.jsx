@@ -193,19 +193,19 @@ function OnboardingArtPanel({ side = "left" }) {
   );
 }
 
-function OnboardingLanding({ onGoogleContinue, onSkipOnboarding }) {
+function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSsoToken }) {
   const hasGoogleId = !!import.meta.env.VITE_GOOGLE_CLIENT_ID;
   const [status, setStatus] = useState("");
-  const [ssoToken, setSsoToken] = useState("");
   const [email, setEmail] = useState("");
 
   const handleGoogleSuccess = async (credentialResponse) => {
     try {
       setStatus("Verifying…");
       const data = await submitGoogleAuthRequest(credentialResponse.credential);
-
+      setSsoToken(data.token);
+      setEmail(data.email);
       if (data.onboarded) {
-	sessionStorage.setItem("treereq-sso-token", credentialResponse.credential);
+	sessionStorage.setItem("treereq-sso-token", data.token);
         sessionStorage.setItem("treereq-sso-email", data.email);
         setStatus("Welcome back! Redirecting…");
         onSkipOnboarding(data.email);
@@ -589,7 +589,7 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   const [academic, setAcademic] = useState(null);
   const [exitingToHome, setExitingToHome] = useState(false);
   const [email, setEmail] = useState("");
-  const [ssoToken, setSSOToken] = useState("");
+  const [ssoToken, setSsoToken] = useState("");
   const handleSkipToMainApp = useCallback((userEmail) => {
     if (exitingToHome) return;
     setExitingToHome(true);
@@ -621,6 +621,8 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
 	  academic.ibClasses,
 	  academic.uclaCourses
 	);
+	sessionStorage.setItem("treereq-sso-token", ssoToken)
+        sessionStorage.setItem("treereq-sso-email", email);
     } catch (error) {
 	console.error("Failed to save onboarding data:", error);
     }
@@ -632,11 +634,9 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   let stepContent;
   if (step === "welcome") {
     stepContent = (
-      <OnboardingLanding onGoogleContinue={goProfile} onSkipOnboarding={handleSkipToMainApp} />
+      <OnboardingLanding onGoogleContinue={goProfile} onSkipOnboarding={handleSkipToMainApp} ssoToken={ssoToken} setSsoToken={setSsoToken} />
     );
   } else if (step === "profile") {
-    sessionStorage.setItem("treereq-sso-token", ssoToken);
-    sessionStoreage.setItem("treereq-sso-email", email);
     console.log(ssoToken);
     stepContent = (
       <OnboardingProfileStep
