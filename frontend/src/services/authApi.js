@@ -1,5 +1,7 @@
+import { apiUrl } from "./apiBase.js";
+
 export async function submitAuthRequest(endpoint, email, password) {
-  const response = await fetch(`/api/auth/${endpoint}`, {
+  const response = await fetch(apiUrl(`/api/auth/${endpoint}`), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -17,7 +19,7 @@ export async function submitAuthRequest(endpoint, email, password) {
 }
 
 export async function submitGoogleAuthRequest(tokenString) {
-  const response = await fetch("/api/auth/google-sso", {
+  const response = await fetch(apiUrl("/api/auth/google-sso"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ token: tokenString }),
@@ -46,7 +48,7 @@ export async function submitGoogleAuthRequest(tokenString) {
   return data;
 }
 export async function submitOnboardingData(email, firstName, lastName, major, minor, admitTerm, admitLevel, expectedGraduationTerm, apClasses, ibClasses, uclaClasses){
-  const response = await fetch("/api/auth/submit-onboarding-data", {
+  const response = await fetch(apiUrl("/api/auth/submit-onboarding-data"), {
     method: "POST",
     headers: { "Content-Type": "application/json"},
     body: JSON.stringify({
@@ -86,7 +88,7 @@ export async function submitOnboardingData(email, firstName, lastName, major, mi
   return data;
 }
 export async function checkIfOnboarded(email){
-  const response = await fetch("/api/auth/check-if-onboarded", {
+  const response = await fetch(apiUrl("/api/auth/check-if-onboarded"), {
     method: "POST",
     headers: { "Content-Type": "application/json"},
     body: JSON.stringify({email}),
