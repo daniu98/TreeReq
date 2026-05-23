@@ -1,0 +1,5491 @@
+{
+  "courses": [
+    {
+      "course_id": "ANCIENT NEAR EAST 10W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANCIENT NEAR EAST M50A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANCIENT NEAR EAST M50B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANCIENT NEAR EAST M130",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 20",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 22",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 23",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 27",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 29",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 31",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN M60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN M60W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN M61",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN AM 30",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN AM 30W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHIN 50",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHIN 50W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHIN 70",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHIN 70W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 10",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 20",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 30",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 40W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 41W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 42",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 51A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 51B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 88GE",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 148",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 1A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 1B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 1C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 1D",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 2AW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 2BW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 2CW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 2DW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 4AW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 4BW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 4CW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COM LIT 4DW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL 10A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL M30",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL M40",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL M50",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL 80",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL 85",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL 90",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL 91A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL 91B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGL 91C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGCOMP 5W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 35",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 40",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV M50",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FRNCH 14",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FRNCH 14W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FRNCH 16",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FRNCH 41",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FRNCH 60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GENDER M114",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 50B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 56",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 57",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 58",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 59",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 61A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 61B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 61C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 61D",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN 102",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 8A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 9A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 11A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INTL ST 31",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ITALIAN 42A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ITALIAN 42B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ITALIAN 42C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ITALIAN 46",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ITALIAN 50A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ITALIAN 50B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "JAPAN 50",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "JAPAN 70",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "JEWISH M10",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "JEWISH M113",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "JEWISH 175",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LING 3",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LING M10",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MIDEAST M50A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MIDEAST M50B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MIDEAST 50C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 63",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 65",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 1",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 5",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PORTGSE 40B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PORTGSE 46",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M10",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M50",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M60A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M60D",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M60W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M61",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M132",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RUSSN 25",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RUSSN 25W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RUSSN 90A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RUSSN 90B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RUSSN 90BW",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SCAND 40W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SCAND 50",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SCAND 50W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SLAVIC 5",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SLAVIC 90",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "S ASIAN M60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SE ASIAN 70",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SPAN 42",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "THEATER 103I",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "THEATER 106",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "WLD ARTS 22",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "WLD ARTS 51W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "YIDDISH 10",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Literary and Cultural Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "APPLING 30W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "APPLING 40",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "APPLING 40W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "APPLING 101W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN M20",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHICANO 10A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHIN M60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CLASSIC 185",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COMM 70",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGCOMP 6W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GERMAN M70",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 18",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 23",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 43W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 78",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INDO EU M20",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INDO EU M70",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ISLAMIC M110",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "KOREAN M60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LING 1",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LING 2",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LING 5",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LING 20",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MCD BIO 60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "NEAR EAS M20",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 3",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 4",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 6",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 7",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 8",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 21",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 22",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHILOS 22W",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PORTGSE M35",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M60B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M60C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M109",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SLAVIC M20",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SLAVIC 87",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SE ASIAN M20",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SPAN M35",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "WLD ARTS 33",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Philosophic and Linguistic Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "AFRO AM M107",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "AFRO AM M110A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "AFRO AM M110B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ARCH UD 30",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART 31A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART 31B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART 31C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 21",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 24",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ART HIS 28",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ARTS ARC 10",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHICANO M108A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHICANO M116",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHIN 80",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "DANCE 44",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "DESMA 9",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "DESMA 10",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 5",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 25",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 30",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 45",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 50A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 50B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS M108A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 108B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS M110A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS M110B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS M116",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS M119",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ETHNOMUS 136A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV 106A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV 106B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV 106C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV 108",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV 110A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV 112",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV 113",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "FILM TV 114",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GENDER M136",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 26",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 36",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 51",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 77",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS M154",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LGBTQS M137",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSIC 15",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 3",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 5",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 7",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 8",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 9",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 13",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 35",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 60",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 61",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 62",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 64",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 66",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 68",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 70",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 71",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 72",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 75",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 79",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 94",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 135A",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 135B",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST 135C",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST M136",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MUSC HST M137",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "THEATER 10",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "THEATER M112",
+      "fulfills": [
+        {
+          "foundation": "Arts and Humanities",
+          "subcategory": "Visual and Performance Arts Analysis and Practice"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "AFRO AM M5",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "AFRO AM 6",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "AFRO AM M10A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANCIENT NEAR EAST 15",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANTHRO 8",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ARABIC M107",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ARCH UD 10A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ARCH UD 10B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN AM 10",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN AM 10W",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN AM 40",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHICANO 10B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GEOG 4",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 1A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 1B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 1C",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 2B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 2C",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 2D",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 3A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 3B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 3C",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 3D",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST M4",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 5",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 8B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 8C",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 9C",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 9D",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 9E",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST M10A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 10B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 11B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 12A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 13A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 13B",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 13C",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 20",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 21",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 22",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HIST 88GE",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 7",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 20",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INTL ST 33",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INTL ST 50",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ISLAMIC M107",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "KOREAN 50",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M4",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M40",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION M107",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SCAND 138",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SLAVIC M40",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SOCIOL M5",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SOCIOL 40",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SPAN 44",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Historical Analysis"
+        },
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "AM IND M10",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANTHRO 9",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANTHRO 33",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN AM 20",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASIAN AM 50",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CIVIC 50SL",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CIVIC M115",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "COMM 10",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "DESMA 8",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENGR 10A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENVIRON 12",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GENDER 10",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GEOG 3",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GEOG 6",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GEOG 7",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GLOBAL 1",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HNRS 41",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HUM GEN CM136C",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INFO 10",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INFO 20",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INFO 30",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "INTL ST 1",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "KOREAN 40",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LGBTQS M114",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MCD BIO 50",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "POL SCI 10",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "POL SCI 20",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "POL SCI 40",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "POL SCI 50",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "POL SCI 60",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "POL SCI M115C",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PUB PLC 10A",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "RELIGION 11",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SOC WLF M108",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SOC GEN 5",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SOC GEN M102",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "SOCIOL 1",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "WLD ARTS M23",
+      "fulfills": [
+        {
+          "foundation": "Society and Culture",
+          "subcategory": "Social Analysis"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANTHRO 7",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ANTHRO 7W",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "EE BIOL 11",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "EE BIOL 13",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "ENVIRON M10",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENVIRON M10W",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GEOG 5",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GEOG 5W",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        },
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "HUM GEN 18",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LIFE SCI 1",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 2",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 3",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 4",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 7A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 7B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 7C",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 15",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LIFE SCI 15W",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "LIFE SCI 20",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 30A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "LIFE SCI 30B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "OBIO 10",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHYSIOL SCI 5",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSIOL SCI 13",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PSYCH 10",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PSYCH 10W",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": true,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PSYCH 100A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PSYCH 100B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Life Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASTRON 3",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASTRON 4",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASTRON 5",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ASTRON 6",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ATMOS SCI 1",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ATMOS SCI 2",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ATMOS SCI 3",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHEM 14A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHEM 14B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHEM 14BL",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "CHEM 14C",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHEM 14D",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHEM 17",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHEM 20A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHEM 20B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "CHEM 20L",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "EARTH SCI 1",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "EARTH SCI 2",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "EARTH SCI 3",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "EARTH SCI 7",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "EARTH SCI 9",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "EARTH SCI 13",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "EARTH SCI 15",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "EARTH SCI 16",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "ENVIRON 2",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GEOG 1",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "GEOG 2",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MATH 2",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MATH 3",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MATH 31A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MATH 31B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "MATH 71SL",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 1B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 1C",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 4AL",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 4BL",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 5A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 5B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 5C",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 6A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 6B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 6C",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 7A",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 7B",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 7C",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": true
+    },
+    {
+      "course_id": "PHYSICS 8",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHYSICS 10",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHYSICS 11",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHYSICS 12",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHYSICS M14",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "PHYSICS 25",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "STATS 10",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "STATS 12",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    },
+    {
+      "course_id": "STATS 13",
+      "fulfills": [
+        {
+          "foundation": "Scientific Inquiry",
+          "subcategory": "Physical Sciences"
+        }
+      ],
+      "has_writing2": false,
+      "has_lab_demo": false
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "CLUSTER M1",
+      "name": "Food: A Lens for Environment and Sustainability",
+      "courses": [
+        "CLUSTER M1A",
+        "CLUSTER M1B",
+        "CLUSTER M1CW"
+      ],
+      "units": 18,
+      "satisfies_writing2": true,
+      "ge_satisfied": {
+        "Scientific Inquiry": {
+          "count": 2,
+          "subcategories": [
+            "Life Sciences",
+            "Physical Sciences"
+          ]
+        },
+        "Society and Culture": {
+          "count": 1,
+          "subcategories": [
+            "Historical Analysis",
+            "Social Analysis"
+          ]
+        },
+        "Arts and Humanities": {
+          "count": 1,
+          "subcategories": [
+            "Literary and Cultural Analysis"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4,
+      "also_satisfies": [
+        "Diversity"
+      ]
+    },
+    {
+      "cluster_id": "CLUSTER 20",
+      "name": "Interracial Dynamics in American Society and Culture",
+      "courses": [
+        "CLUSTER 20A",
+        "CLUSTER 20B",
+        "CLUSTER 20CW"
+      ],
+      "units": 18,
+      "satisfies_writing2": true,
+      "ge_satisfied": {
+        "Society and Culture": {
+          "count": 2,
+          "subcategories": [
+            "Historical Analysis",
+            "Social Analysis"
+          ]
+        },
+        "Arts and Humanities": {
+          "count": 2,
+          "subcategories": [
+            "Literary and Cultural Analysis",
+            "Visual and Performance Arts Analysis and Practice"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4,
+      "also_satisfies": [
+        "Diversity"
+      ]
+    },
+    {
+      "cluster_id": "CLUSTER 27",
+      "name": "Global Islam",
+      "courses": [
+        "CLUSTER 27A",
+        "CLUSTER 27B",
+        "CLUSTER 27CW"
+      ],
+      "units": 18,
+      "satisfies_writing2": true,
+      "ge_satisfied": {
+        "Society and Culture": {
+          "count": 3,
+          "subcategories": [
+            "Historical Analysis",
+            "Social Analysis"
+          ]
+        },
+        "Arts and Humanities": {
+          "count": 1,
+          "subcategories": [
+            "Literary and Cultural Analysis"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4
+    },
+    {
+      "cluster_id": "CLUSTER 48",
+      "name": "Political Violence in the Modern World",
+      "courses": [
+        "CLUSTER 48A",
+        "CLUSTER 48B",
+        "CLUSTER 48C"
+      ],
+      "units": 18,
+      "satisfies_writing2": false,
+      "ge_satisfied": {
+        "Society and Culture": {
+          "count": 3,
+          "subcategories": [
+            "Historical Analysis",
+            "Social Analysis"
+          ]
+        },
+        "Arts and Humanities": {
+          "count": 1,
+          "subcategories": [
+            "Literary and Cultural Analysis"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4
+    },
+    {
+      "cluster_id": "CLUSTER 60",
+      "name": "America in the '60s: Politics, Society, and Culture",
+      "courses": [
+        "CLUSTER 60A",
+        "CLUSTER 60B",
+        "CLUSTER 60CW"
+      ],
+      "units": 18,
+      "satisfies_writing2": true,
+      "ge_satisfied": {
+        "Society and Culture": {
+          "count": 2,
+          "subcategories": [
+            "Historical Analysis",
+            "Social Analysis"
+          ]
+        },
+        "Arts and Humanities": {
+          "count": 2,
+          "subcategories": [
+            "Literary and Cultural Analysis",
+            "Visual and Performance Arts Analysis and Practice"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4,
+      "also_satisfies": [
+        "Diversity"
+      ]
+    },
+    {
+      "cluster_id": "CLUSTER 70",
+      "name": "Evolution of the Cosmos and Life",
+      "courses": [
+        "CLUSTER 70A",
+        "CLUSTER 70B",
+        "CLUSTER 70CW"
+      ],
+      "units": 18,
+      "satisfies_writing2": true,
+      "ge_satisfied": {
+        "Scientific Inquiry": {
+          "count": 4,
+          "subcategories": [
+            "Life Sciences",
+            "Physical Sciences"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4,
+      "has_lab": true
+    },
+    {
+      "cluster_id": "CLUSTER M71",
+      "name": "Biotechnology and Society",
+      "courses": [
+        "CLUSTER M71A",
+        "CLUSTER M71B",
+        "CLUSTER M71CW"
+      ],
+      "units": 18,
+      "satisfies_writing2": true,
+      "ge_satisfied": {
+        "Scientific Inquiry": {
+          "count": 1,
+          "subcategories": [
+            "Life Sciences"
+          ]
+        },
+        "Society and Culture": {
+          "count": 2,
+          "subcategories": [
+            "Historical Analysis",
+            "Social Analysis"
+          ]
+        },
+        "Arts and Humanities": {
+          "count": 1,
+          "subcategories": [
+            "Philosophic and Linguistic Analysis"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4
+    },
+    {
+      "cluster_id": "CLUSTER 73",
+      "name": "The History, Science and Philosophy of the Brain",
+      "courses": [
+        "CLUSTER 73A",
+        "CLUSTER 73B",
+        "CLUSTER 73CW"
+      ],
+      "units": 18,
+      "satisfies_writing2": true,
+      "ge_satisfied": {
+        "Scientific Inquiry": {
+          "count": 2,
+          "subcategories": [
+            "Life Sciences"
+          ]
+        },
+        "Society and Culture": {
+          "count": 1,
+          "subcategories": [
+            "Historical Analysis"
+          ]
+        },
+        "Arts and Humanities": {
+          "count": 1,
+          "subcategories": [
+            "Philosophic and Linguistic Analysis"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4
+    },
+    {
+      "cluster_id": "CLUSTER 80",
+      "name": "Frontiers in Human Aging",
+      "courses": [
+        "CLUSTER 80A",
+        "CLUSTER 80B",
+        "CLUSTER 80CW"
+      ],
+      "units": 18,
+      "satisfies_writing2": true,
+      "ge_satisfied": {
+        "Scientific Inquiry": {
+          "count": 1,
+          "subcategories": [
+            "Life Sciences"
+          ]
+        },
+        "Society and Culture": {
+          "count": 3,
+          "subcategories": [
+            "Historical Analysis",
+            "Social Analysis"
+          ]
+        }
+      },
+      "total_ge_satisfied": 4
+    }
+  ],
+  "requirements": {
+    "engineering": {
+      "school": "engineering",
+      "school_name": "Henry Samueli School of Engineering and Applied Science",
+      "total_ge_courses": 5,
+      "total_units_min": 24,
+      "foundations": [
+        {
+          "name": "Arts and Humanities",
+          "courses_required": 2,
+          "rule": "Two 5-unit courses from two DIFFERENT subcategories",
+          "subcategories": [
+            {
+              "name": "Literary and Cultural Analysis",
+              "pick_from": true
+            },
+            {
+              "name": "Philosophic and Linguistic Analysis",
+              "pick_from": true
+            },
+            {
+              "name": "Visual and Performance Arts Analysis and Practice",
+              "pick_from": true
+            }
+          ]
+        },
+        {
+          "name": "Society and Culture",
+          "courses_required": 2,
+          "rule": "One from EACH subcategory",
+          "subcategories": [
+            {
+              "name": "Historical Analysis",
+              "required": 1
+            },
+            {
+              "name": "Social Analysis",
+              "required": 1
+            }
+          ]
+        },
+        {
+          "name": "Scientific Inquiry",
+          "courses_required": 1,
+          "rule": "One course (4 units min) from Life Sciences",
+          "subcategories": [
+            {
+              "name": "Life Sciences",
+              "required": 1
+            }
+          ]
+        }
+      ],
+      "cluster_rules": "Completion of a GE Cluster series may satisfy no more than 4 GE requirements",
+      "additional_requirements": [
+        {
+          "name": "Writing I",
+          "description": "ENGCOMP 3 or equivalent, grade C or better"
+        },
+        {
+          "name": "Engineering Writing",
+          "description": "One EW-designated course, grade C or better"
+        },
+        {
+          "name": "Ethics",
+          "description": "ENGR 182EW, 183EW, 184, 185EW, 186, 186W, or 188EW"
+        },
+        {
+          "name": "Technical Breadth",
+          "description": "See department requirements"
+        }
+      ]
+    },
+    "letters_and_science": {
+      "school": "letters_and_science",
+      "school_name": "College of Letters and Science",
+      "total_ge_courses": 10,
+      "total_units_min": 47,
+      "foundations": [
+        {
+          "name": "Arts and Humanities",
+          "courses_required": 3,
+          "rule": "One from EACH subcategory",
+          "subcategories": [
+            {
+              "name": "Literary and Cultural Analysis",
+              "required": 1
+            },
+            {
+              "name": "Philosophic and Linguistic Analysis",
+              "required": 1
+            },
+            {
+              "name": "Visual and Performance Arts Analysis and Practice",
+              "required": 1
+            }
+          ]
+        },
+        {
+          "name": "Society and Culture",
+          "courses_required": 3,
+          "rule": "One from each subcategory + one more from either",
+          "subcategories": [
+            {
+              "name": "Historical Analysis",
+              "required": 1
+            },
+            {
+              "name": "Social Analysis",
+              "required": 1
+            },
+            {
+              "name": "Either subcategory",
+              "required": 1
+            }
+          ]
+        },
+        {
+          "name": "Scientific Inquiry",
+          "courses_required": 4,
+          "rule": "Two from each subcategory. One 5-unit course must have lab/demo or Writing II credit.",
+          "subcategories": [
+            {
+              "name": "Life Sciences",
+              "required": 2
+            },
+            {
+              "name": "Physical Sciences",
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "cluster_rules": "A year-long GE Cluster satisfies 4 GE requirements + Writing II. Students still need 6 more individual GE courses.",
+      "additional_requirements": [
+        {
+          "name": "Writing I",
+          "description": "ENGCOMP 3 or equivalent"
+        },
+        {
+          "name": "Writing II",
+          "description": "One W-designated course (or completed via Cluster)"
+        },
+        {
+          "name": "Quantitative Reasoning",
+          "description": "One approved QR course"
+        },
+        {
+          "name": "Foreign Language",
+          "description": "Proficiency through coursework or exam"
+        },
+        {
+          "name": "Diversity",
+          "description": "One diversity-designated course"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_ge_courses_available": 414,
+    "arts_and_humanities": 238,
+    "society_and_culture": 147,
+    "scientific_inquiry": 89,
+    "courses_with_writing2": 33,
+    "courses_with_lab_demo": 34,
+    "courses_in_multiple_categories": 110,
+    "total_clusters": 9
+  }
+}
