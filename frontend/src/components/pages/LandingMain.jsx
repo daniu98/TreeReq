@@ -144,7 +144,9 @@ export default function LandingMain({ onPlantNewTree, onOpenTree }) {
         }}
       >
         <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 24 }}>
-          <div
+          <button
+            type="button"
+            onClick={onOpenProfile}
             style={{
               width: 163,
               minHeight: 56,
@@ -155,6 +157,7 @@ export default function LandingMain({ onPlantNewTree, onOpenTree }) {
               display: "flex",
               alignItems: "center",
               gap: 10,
+              cursor: "pointer",
             }}
           >
             <div style={{ flex: 1, minWidth: 0 }}>
@@ -170,7 +173,7 @@ export default function LandingMain({ onPlantNewTree, onOpenTree }) {
               }}
               aria-hidden
             />
-          </div>
+          </button>
         </div>
 
         <div style={{ marginBottom: 32 }}>

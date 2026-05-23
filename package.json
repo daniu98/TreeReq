@@ -1,0 +1,21 @@
+{
+  "name": "treereq",
+  "version": "1.0.0",
+  "description": "**An interactive prerequisite tree visualizer for UCLA students.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniu98/TreeReq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/daniu98/TreeReq/issues"
+  },
+  "homepage": "https://github.com/daniu98/TreeReq#readme"
+}
