@@ -1,4 +1,6 @@
+import os
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from config.database import connect_db, close_db
 from routers import auth_sso, courses, majors, onboarding, submit_onboarding_data, check_if_onboarded
@@ -11,6 +13,23 @@ async def lifespan(app):
 
 
 app = FastAPI(lifespan=lifespan)
+
+# CORS — allow local dev origins by default, plus any extra origins from the
+# CORS_ORIGINS env var for Vercel deployment
+_default_origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:3000",
+]
+_extra = [o.strip() for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_default_origins + _extra,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/")
