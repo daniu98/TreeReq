@@ -21,4 +21,7 @@ node_modules/
 # Vite build output
 frontend/dist/
 
+# Emacs junk files
 *~
+#*#
+.\#*
