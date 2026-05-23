@@ -6,6 +6,7 @@ import { submitGoogleAuthRequest } from "../../services/authApi";
 import { fetchAcademicOptions } from "../../services/onboardingApi";
 import { fetchMajors } from "../../services/onboardingApi";
 import { submitOnboardingData } from "../../services/authApi";
+import { verifySsoToken } from "../../services/authApi";
 const ONBOARDING_HERO = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_LANDING_ART = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_CARD_ART = "/images/onboarding-welcome-garden1.png";
@@ -630,7 +631,18 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
       onComplete?.({ profile, academic });
     }, HOME_EXIT_MS);
   }, [academic, exitingToHome, onComplete, onExitStart, profile, email]);
-
+  // bookmark
+  const checkSsoToken = useCallback(async () => {
+    try {
+      const verificationData = await verifySsoToken(sessionStorage.getItem("treereq-sso-token"));
+      if(verificationData["message"] == "Valid token"){
+        handleSkipToMainApp(sessionStorage.getItem("treereq-sso-email"));
+      }
+    } catch (error) {
+      ;
+    }
+  }, []);
+  checkSsoToken();
   let stepContent;
   if (step === "welcome") {
     stepContent = (
