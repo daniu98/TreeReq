@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { fetchMajorTree, setCourseCompletion } from "../../services/treeApi.js";
+import { enrichTreeResponse } from "../../utils/enrichTreeResponse.js";
 import { buildHierarchy } from "./buildHierarchy.js";
 import { buildPrereqIndex, deriveStatuses } from "./deriveStatus.js";
 import { layoutTree } from "./treeLayout.js";
@@ -67,8 +68,9 @@ export function DegreeTree({
   // Build hierarchy + layout whenever the API response or completion map changes.
   const layout = useMemo(() => {
     if (!apiResponse) return null;
-    const { root, crossBranchEdges } = buildHierarchy(apiResponse, majorName);
-    const prereqIndex = buildPrereqIndex(apiResponse.edges ?? []);
+    const enriched = enrichTreeResponse(apiResponse);
+    const { root, crossBranchEdges } = buildHierarchy(enriched, majorName);
+    const prereqIndex = buildPrereqIndex(enriched.edges ?? []);
     const derived = deriveStatuses(root, completionMap, prereqIndex);
     const positioned = layoutTree(derived);
     return { ...positioned, crossBranchEdges };
@@ -115,6 +117,9 @@ export function DegreeTree({
       <div style={stateStyles.container}>
         <p style={{ ...stateStyles.text, color: "#c0392b" }}>
           Could not load tree: {error.message}
+        </p>
+        <p style={{ ...stateStyles.text, fontSize: 13, marginTop: 12 }}>
+          Start the backend: <code>cd backend && uvicorn main:app --reload --port 8000</code>
         </p>
       </div>
     );

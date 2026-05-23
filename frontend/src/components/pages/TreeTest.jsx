@@ -66,19 +66,13 @@ const MOCK_RESPONSE = {
   ],
 };
 
+const CS_MAJOR_ID = "computer-science-bs";
+
 export default function TreeTest() {
   return (
     <DraggableCanvas>
-      <div style={{ padding: 40 }}>
-        <DegreeTree
-          majorId="cogsci"
-          majorName="Cognitive Science"
-          mockResponse={MOCK_RESPONSE}
-          onNodeClick={(node) => console.log("clicked node:", node)}
-          onCourseToggle={async (id, completed) => {
-            console.log("toggle", id, "->", completed);
-          }}
-        />
+      <div style={{ padding: 48 }}>
+        <DegreeTree majorId={CS_MAJOR_ID} majorName="Computer Science" />
       </div>
     </DraggableCanvas>
   );
