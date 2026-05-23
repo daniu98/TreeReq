@@ -121,7 +121,7 @@ const REVISIT_TREES = [
   { id: "mech-aero", label: "Mechanical engineering aero..." },
 ];
 
-export default function LandingMain({ onPlantNewTree, onOpenTree }) {
+export default function LandingMain({ onPlantNewTree, onOpenTree, onOpenProfile }) {
   return (
     <main
       style={{
