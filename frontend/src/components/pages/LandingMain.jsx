@@ -123,7 +123,12 @@ const REVISIT_TREES = [
   { id: "mech-aero", label: "Mechanical engineering aero..." },
 ];
 
-export default function LandingMain({ onPlantNewTree, onOpenTree, onOpenProfile }) {
+export default function LandingMain({
+  onPlantNewTree,
+  onOpenTree,
+  onOpenProfile,
+  profileLabel = "Your profile",
+}) {
   return (
     <main
       style={{
@@ -148,7 +153,7 @@ export default function LandingMain({ onPlantNewTree, onOpenTree, onOpenProfile 
         <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 24 }}>
           <button
             type="button"
-            onClick={onOpenProfile}
+            onClick={() => onOpenProfile?.()}
             style={{
               width: 163,
               minHeight: 56,
@@ -163,7 +168,7 @@ export default function LandingMain({ onPlantNewTree, onOpenTree, onOpenProfile 
             }}
           >
             <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ color: "#000", fontSize: 20, ...font }}>Steve M.</div>
+              <div style={{ color: "#000", fontSize: 20, ...font }}>{profileLabel}</div>
             </div>
             <div
               style={{

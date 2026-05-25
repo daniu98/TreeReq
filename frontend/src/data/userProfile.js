@@ -27,8 +27,13 @@ export function mapOnboardingToProfile({ profile, academic }) {
   const lastInitial = last ? `${last.charAt(0).toUpperCase()}.` : "";
   const displayName = first && lastInitial ? `${first} ${lastInitial}` : fullName;
 
-  const major = profile.majors?.trim() || "—";
-  const minor = profile.minors?.trim() || "N/A";
+  const major =
+    (typeof profile.major === "object" && profile.major?.label) ||
+    (typeof profile.majors === "string" && profile.majors.trim()) ||
+    profile.major?.value ||
+    "—";
+  const minor =
+    (typeof profile.minors === "string" && profile.minors.trim()) || "N/A";
   const majorFocus = major.split(",")[0]?.trim() || major;
 
   const apRaw = academic?.apClasses ?? [];

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import LandingMain from "./components/pages/LandingMain.jsx";
 import OnboardingMain from "./components/pages/OnboardingMain.jsx";
+import ProfileMain from "./components/pages/ProfileMain.jsx";
 import TreeViewMain from "./components/pages/TreeViewMain.jsx";
 import AppSidebar from "./components/layout/AppSidebar.jsx";
 import TreeSetupMain from "./pages/TreeSetupMain.jsx";
@@ -12,6 +13,11 @@ import {
   loadRecentIds,
   resolveRecentTrees,
 } from "./data/mockTrees.js";
+import {
+  loadStoredProfile,
+  mapOnboardingToProfile,
+  saveStoredProfile,
+} from "./data/userProfile.js";
 import { getTreeDocumentTitle, parseLocation, pathForView } from "./lib/routes.js";
 import "./styles/variables.css";
 
@@ -26,6 +32,10 @@ function AppHome({
   openTree,
   goHome,
   activeTree,
+  showProfile,
+  userProfile,
+  onCloseProfile,
+  onOpenProfile,
 }) {
   const activeTreeId = route.view === "tree" ? route.treeId : null;
 
@@ -44,13 +54,26 @@ function AppHome({
         onNewTree={() => navigate("setup")}
       />
 
-      {route.view === "landing" ? (
-        <LandingMain onPlantNewTree={() => navigate("setup")} onOpenTree={openTree} />
+      {showProfile ? (
+        <ProfileMain profile={userProfile} onClose={onCloseProfile} />
       ) : null}
 
-      {route.view === "tree" ? <TreeViewMain tree={activeTree} onBack={goHome} /> : null}
+      {!showProfile && route.view === "landing" ? (
+        <LandingMain
+          onPlantNewTree={() => navigate("setup")}
+          onOpenTree={openTree}
+          onOpenProfile={onOpenProfile}
+          profileLabel={userProfile?.displayName}
+        />
+      ) : null}
 
-      {route.view === "setup" ? <TreeSetupMain onBack={goHome} /> : null}
+      {!showProfile && route.view === "tree" ? (
+        <TreeViewMain tree={activeTree} onBack={goHome} />
+      ) : null}
+
+      {!showProfile && route.view === "setup" ? (
+        <TreeSetupMain onBack={goHome} />
+      ) : null}
     </>
   );
 }
@@ -63,6 +86,8 @@ export default function App() {
   const [recentIds, setRecentIds] = useState(loadRecentIds);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
+  const [userProfile, setUserProfile] = useState(() => loadStoredProfile());
+  const [showProfile, setShowProfile] = useState(false);
 
   const recents = useMemo(() => resolveRecentTrees(recentIds), [recentIds]);
   const activeTreeId = route.view === "tree" ? route.treeId : null;
@@ -85,6 +110,10 @@ export default function App() {
       document.title = "TreeReq";
       return;
     }
+    if (showProfile) {
+      document.title = "TreeReq — Profile";
+      return;
+    }
     if (route.view === "tree" && activeTree) {
       document.title = getTreeDocumentTitle(activeTree);
       return;
@@ -94,7 +123,7 @@ export default function App() {
       return;
     }
     document.title = "TreeReq — Home";
-  }, [onboardingVisible, route.view, activeTree]);
+  }, [onboardingVisible, showProfile, route.view, activeTree]);
 
   const openTree = useCallback(
     (treeId) => {
@@ -116,8 +145,25 @@ export default function App() {
     });
   }, []);
 
-  const handleOnboardingComplete = useCallback(() => {
+  const handleOnboardingComplete = useCallback((data) => {
+    if (data?.profile && data?.academic) {
+      const mapped = mapOnboardingToProfile(data);
+      saveStoredProfile(mapped);
+      setUserProfile(mapped);
+      setShowProfile(true);
+    }
     setOnboardingVisible(false);
+  }, []);
+
+  const handleCloseProfile = useCallback(() => {
+    setShowProfile(false);
+    navigate("landing");
+  }, [navigate]);
+
+  const handleOpenProfile = useCallback(() => {
+    const stored = loadStoredProfile();
+    if (stored) setUserProfile(stored);
+    setShowProfile(true);
   }, []);
 
   return (
@@ -138,6 +184,10 @@ export default function App() {
             openTree={openTree}
             goHome={goHome}
             activeTree={activeTree}
+            showProfile={showProfile}
+            userProfile={userProfile}
+            onCloseProfile={handleCloseProfile}
+            onOpenProfile={handleOpenProfile}
           />
         </div>
       ) : null}
