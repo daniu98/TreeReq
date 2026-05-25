@@ -75,6 +75,7 @@ function Divider() {
 
 export default function AppSidebar({
   forests = [],
+  allTrees = [],
   recents = [],
   activeTreeId,
   searchQuery = "",
@@ -97,13 +98,13 @@ export default function AppSidebar({
     if (!showSearchResults) return [];
     const q = searchQuery.trim().toLowerCase();
     const seen = new Set();
-    const combined = [...forests, ...recents];
+    const combined = allTrees.length > 0 ? allTrees : [...forests, ...recents];
     return combined.filter((t) => {
       if (seen.has(t.id)) return false;
       seen.add(t.id);
       return t.name.toLowerCase().includes(q) || (t.major && t.major.toLowerCase().includes(q));
     });
-  }, [forests, recents, searchQuery, showSearchResults]);
+  }, [allTrees, forests, recents, searchQuery, showSearchResults]);
 
   const filteredForests = useMemo(() => {
     if (!searchQuery.trim()) return forests;

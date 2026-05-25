@@ -1,3 +1,5 @@
+import { MOCK_REVISIT_TREES } from "../../data/mockTrees.js";
+
 const font = { fontFamily: "var(--font-ui)", fontWeight: 400 };
 
 function BackgroundBlobs() {
@@ -242,7 +244,7 @@ export default function LandingMain({ onPlantNewTree, onOpenTree, onOpenProfile 
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           <h2 style={{ color: "#7C7C7C", fontSize: 20, fontWeight: 400, margin: 0, ...font }}>Revisit...</h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 22, alignItems: "center" }}>
-            {REVISIT_TREES.map((item) => (
+            {MOCK_REVISIT_TREES.map((item) => (
               <button
                 key={item.id}
                 type="button"
