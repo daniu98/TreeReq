@@ -1,10 +1,12 @@
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import React from "react";
-import Select from "react-select";
 import { GoogleLogin } from "@react-oauth/google";
+import { OnboardingSelect, OnboardingSelectAdd } from "../ui/OnboardingSelect.jsx";
 import { submitGoogleAuthRequest } from "../../services/authApi";
 import { fetchAcademicOptions } from "../../services/onboardingApi";
 import { fetchMajors } from "../../services/onboardingApi";
+import { submitOnboardingData } from "../../services/authApi";
+import { verifySsoToken } from "../../services/authApi";
 const ONBOARDING_HERO = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_LANDING_ART = "/images/onboarding-welcome-garden1.png";
 const ONBOARDING_CARD_ART = "/images/onboarding-welcome-garden1.png";
@@ -192,19 +194,31 @@ function OnboardingArtPanel({ side = "left" }) {
   );
 }
 
-function OnboardingLanding({ onGoogleContinue }) {
+function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSsoToken }) {
   const hasGoogleId = !!import.meta.env.VITE_GOOGLE_CLIENT_ID;
   const [status, setStatus] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleGoogleSuccess = async (credentialResponse) => {
     try {
       setStatus("Verifying…");
       const data = await submitGoogleAuthRequest(credentialResponse.credential);
+      setSsoToken(data.token);
+      setEmail(data.email);
+      if (data.onboarded) {
+	sessionStorage.setItem("treereq-sso-token", data.token);
+        sessionStorage.setItem("treereq-sso-email", data.email);
+        setStatus("Welcome back! Redirecting…");
+        onSkipOnboarding(data.email);
+        return;
+      }
+
       setStatus(data.message || "Signed in");
-      onGoogleContinue();
+      onGoogleContinue(data.email);
     } catch (error) {
       console.error(error);
-      setStatus("Sign-in failed. Please try again.");
+      const msg = error?.message || "Sign-in failed. Please try again.";
+      setStatus(msg);
     }
   };
 
@@ -213,7 +227,7 @@ function OnboardingLanding({ onGoogleContinue }) {
   return (
     <div className="onboarding-landing">
       <LandingHeroArt />
-
+	
       <div className="onboarding-landing__panel">
         <div className="onboarding-landing__panel-inner">
           <p className="onboarding-landing__eyebrow">Welcome to</p>
@@ -257,6 +271,14 @@ function OnboardingLanding({ onGoogleContinue }) {
   );
 }
 
+const ADMIT_LEVEL_OPTIONS = [
+  { value: "Freshman", label: "Freshman" },
+  { value: "Sophomore", label: "Sophomore" },
+  { value: "Junior", label: "Junior" },
+  { value: "Senior", label: "Senior" },
+  { value: "Transfer", label: "Transfer" },
+];
+
 function Field({ label, required, id, className = "", ...props }) {
   return (
     <label className={`onboarding-field ${className}`.trim()} htmlFor={id}>
@@ -269,165 +291,12 @@ function Field({ label, required, id, className = "", ...props }) {
   );
 }
 
-function AcademicChip({ label, onRemove }) {
-  return (
-    <span className="onboarding-academic-chip">
-      <span className="onboarding-academic-chip-label">{label}</span>
-      <button
-        type="button"
-        className="onboarding-academic-chip-remove"
-        onClick={onRemove}
-        aria-label={`Remove ${label}`}
-      >
-        <span className="onboarding-academic-chip-x" aria-hidden />
-      </button>
-    </span>
-  );
-}
-
-function labelForValue(value, options) {
-  return options.find((o) => o.value === value)?.label ?? value;
-}
-
-/** Native select: choosing an option adds a chip below. */
-function AcademicSelectField({ id, label, options, selected, onSelect, onRemove, disabled, emptyMessage }) {
-  const selectedSet = new Set(selected);
-  const available = options.filter((o) => !selectedSet.has(o.value));
-
-  function handleChange(e) {
-    const value = e.target.value;
-    if (!value) return;
-    onSelect(value);
-    e.target.value = "";
-  }
-
-  return (
-    <section className="onboarding-academic-section onboarding-academic-section--dropdown">
-      <label className="onboarding-academic-section-label" htmlFor={id}>
-        {label}
-      </label>
-      <select
-        id={id}
-        className="onboarding-academic-input"
-        defaultValue=""
-        onChange={handleChange}
-        disabled={disabled || available.length === 0}
-      >
-        <option value="">{emptyMessage || "Select…"}</option>
-        {available.map((opt) => (
-          <option key={opt.value} value={opt.value}>
-            {opt.label}
-          </option>
-        ))}
-      </select>
-      <div className="onboarding-academic-chips" aria-live="polite">
-        {selected.map((value) => (
-          <AcademicChip
-            key={value}
-            label={labelForValue(value, options)}
-            onRemove={() => onRemove(value)}
-          />
-        ))}
-      </div>
-    </section>
-  );
-}
-
-/** Searchable combobox for large UCLA course lists. */
-function AcademicSearchSelectField({ id, label, options, selected, onSelect, onRemove, disabled }) {
-  const listId = `${id}-list`;
-  const rootRef = useRef(null);
-  const [query, setQuery] = useState("");
-  const [open, setOpen] = useState(false);
-
-  const selectedSet = new Set(selected);
-  const available = options.filter((o) => !selectedSet.has(o.value));
-  const q = query.trim().toLowerCase();
-  const filtered = (
-    q
-      ? available.filter(
-          (o) =>
-            o.label.toLowerCase().includes(q) || o.value.toLowerCase().includes(q),
-        )
-      : available
-  ).slice(0, 60);
-
-  useEffect(() => {
-    function onPointerDown(e) {
-      if (!rootRef.current?.contains(e.target)) setOpen(false);
-    }
-    document.addEventListener("pointerdown", onPointerDown);
-    return () => document.removeEventListener("pointerdown", onPointerDown);
-  }, []);
-
-  function pick(value) {
-    onSelect(value);
-    setQuery("");
-    setOpen(false);
-  }
-
-  return (
-    <section className="onboarding-academic-section onboarding-academic-section--dropdown">
-      <label className="onboarding-academic-section-label" htmlFor={id}>
-        {label}
-      </label>
-      <div className="onboarding-academic-combobox" ref={rootRef}>
-        <input
-          id={id}
-          type="text"
-          className="onboarding-academic-input"
-          role="combobox"
-          aria-expanded={open}
-          aria-controls={listId}
-          aria-autocomplete="list"
-          placeholder={disabled ? "Loading courses…" : "Search or select a course…"}
-          value={query}
-          disabled={disabled}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            setOpen(true);
-          }}
-          onFocus={() => setOpen(true)}
-          onKeyDown={(e) => {
-            if (e.key === "Escape") setOpen(false);
-          }}
-        />
-        {open && !disabled ? (
-          <ul id={listId} className="onboarding-academic-combobox__list" role="listbox">
-            {filtered.length === 0 ? (
-              <li className="onboarding-academic-combobox__empty">No matching courses</li>
-            ) : (
-              filtered.map((opt) => (
-                <li key={opt.value} role="option">
-                  <button
-                    type="button"
-                    className="onboarding-academic-combobox__option"
-                    onMouseDown={(e) => e.preventDefault()}
-                    onClick={() => pick(opt.value)}
-                  >
-                    {opt.label}
-                  </button>
-                </li>
-              ))
-            )}
-          </ul>
-        ) : null}
-      </div>
-      <div className="onboarding-academic-chips" aria-live="polite">
-        {selected.map((value) => (
-          <AcademicChip key={value} label={value} onRemove={() => onRemove(value)} />
-        ))}
-      </div>
-    </section>
-  );
-}
-
 function OnboardingCardShell({ children, footer }) {
   return (
     <div className="onboarding-card-page">
       <div className="onboarding-card onboarding-card--split">
         <div className="onboarding-card__form">
-          {children}
+          <div className="onboarding-card__body">{children}</div>
           {footer}
         </div>
         <CardHeroArt />
@@ -464,28 +333,6 @@ function OnboardingProfileStep({ onContinue }) {
     setShowHint(false);
     onContinue?.(form);
   }
-  const majorSelectStyles = { // styles made by gemini
-    control: (baseStyles) => ({
-      ...baseStyles,
-      backgroundColor: '#D9D9D9',
-      border: 'none',
-      borderRadius: '8px',
-      boxShadow: 'none',
-      padding: '4px',
-      cursor: 'pointer',
-      minHeight: '47px',
-      maxHeight: '47px',
-    }),
-    placeholder: (baseStyles) => ({
-      ...baseStyles,
-      color: '#6b6b6b',
-    }),
-    menu: (baseStyles) => ({
-      ...baseStyles,
-      borderRadius: '8px',
-      overflow: 'hidden',
-    })
-  };
   useEffect(() => {
     let cancelled = false;
     (async () => {
@@ -540,19 +387,19 @@ function OnboardingProfileStep({ onContinue }) {
           value={form.lastName}
           onChange={(e) => patch("lastName", e.target.value)}
         />
-	<div style={{ display: 'flex', flexDirection: 'column'}}>
-	  <label style={{marginBottom: '10px'}}>Major *</label>
-	  <Select
-	    value={form.major}
-	    id="ob-majors"
-	    onChange={(selectedOption) => patch("major", selectedOption)}
-	    options={majors}
-	    styles={majorSelectStyles}
-	    isSearchable={true}
-	    isDisabled={loadState === "loading"} 
-            placeholder={loadState === "loading" ? "No majors in database" : "Search for a major..."}
-          />
-	</div>
+        <OnboardingSelect
+          id="ob-majors"
+          label="Major"
+          required
+          options={majors}
+          value={form.major}
+          onChange={(selectedOption) => patch("major", selectedOption)}
+          isSearchable
+          isDisabled={loadState === "loading"}
+          placeholder={
+            loadState === "loading" ? "Loading majors…" : "Search for a major…"
+          }
+        />
         <Field
           id="ob-minors"
           label="Minor"
@@ -567,12 +414,13 @@ function OnboardingProfileStep({ onContinue }) {
           value={form.admitTerm}
           onChange={(e) => patch("admitTerm", e.target.value)}
         />
-        <Field
+        <OnboardingSelect
           id="ob-admit-level"
           label="Admit Level:"
-          placeholder="e.g. Freshman"
-          value={form.admitLevel}
-          onChange={(e) => patch("admitLevel", e.target.value)}
+          options={ADMIT_LEVEL_OPTIONS}
+          value={ADMIT_LEVEL_OPTIONS.find((o) => o.value === form.admitLevel) || null}
+          onChange={(opt) => patch("admitLevel", opt?.value ?? "")}
+          placeholder="Select admit level…"
         />
         <Field
           id="ob-grad-term"
@@ -673,7 +521,7 @@ function OnboardingAcademicStep({ onBack, onComplete }) {
         ) : null}
 
         <div className="onboarding-academic-sections">
-          <AcademicSelectField
+          <OnboardingSelectAdd
             id="ob-ap"
             label="Select AP classes you have taken:"
             options={options.apExams}
@@ -683,7 +531,7 @@ function OnboardingAcademicStep({ onBack, onComplete }) {
             disabled={optionsLoading || loadState === "error"}
             emptyMessage={options.apExams.length === 0 ? "No AP exams in database" : "Select…"}
           />
-          <AcademicSelectField
+          <OnboardingSelectAdd
             id="ob-ib"
             label="Select IB classes you have taken:"
             options={options.ibExams}
@@ -693,7 +541,7 @@ function OnboardingAcademicStep({ onBack, onComplete }) {
             disabled={optionsLoading || loadState === "error" || ibEmpty}
             emptyMessage={ibEmpty ? "IB catalog coming soon" : "Select…"}
           />
-          <AcademicSearchSelectField
+          <OnboardingSelectAdd
             id="ob-ucla"
             label="Select UCLA courses you have taken:"
             options={options.uclaCourses}
@@ -701,6 +549,8 @@ function OnboardingAcademicStep({ onBack, onComplete }) {
             onSelect={(value) => setUclaSelected((list) => addUnique(list, value))}
             onRemove={(value) => setUclaSelected((list) => list.filter((x) => x !== value))}
             disabled={optionsLoading || loadState === "error"}
+            emptyMessage="Search or select a course…"
+            searchable
           />
         </div>
       </div>
@@ -739,24 +589,67 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   const [profile, setProfile] = useState(null);
   const [academic, setAcademic] = useState(null);
   const [exitingToHome, setExitingToHome] = useState(false);
-
-  const goProfile = useCallback(() => setStep("profile"), []);
-
-  const handleSuccessContinue = useCallback(() => {
+  const [email, setEmail] = useState("");
+  const [ssoToken, setSsoToken] = useState("");
+  const handleSkipToMainApp = useCallback((userEmail) => {
     if (exitingToHome) return;
     setExitingToHome(true);
     onExitStart?.();
     window.setTimeout(() => {
+      onComplete?.({ skipped: true, email: userEmail }); 
+    }, HOME_EXIT_MS);
+  }, [exitingToHome, onExitStart, onComplete]);
+
+  const goProfile = useCallback((userEmail) => {
+    setEmail(userEmail);
+    setStep("profile");
+  }, []);
+  const handleSuccessContinue = useCallback(async () => {
+    if (exitingToHome) return;
+    setExitingToHome(true);
+    onExitStart?.();
+    try {
+	await submitOnboardingData(
+	  email,
+	  profile.firstName,
+	  profile.lastName,
+	  profile.major?.value, 
+	  profile.minors,
+	  profile.admitTerm,
+	  profile.admitLevel,
+	  profile.gradTerm,
+	  academic.apClasses,
+	  academic.ibClasses,
+	  academic.uclaCourses
+	);
+	sessionStorage.setItem("treereq-sso-token", ssoToken)
+        sessionStorage.setItem("treereq-sso-email", email);
+    } catch (error) {
+	console.error("Failed to save onboarding data:", error);
+    }
+    window.setTimeout(() => {
       onComplete?.({ profile, academic });
     }, HOME_EXIT_MS);
-  }, [academic, exitingToHome, onComplete, onExitStart, profile]);
-
+  }, [academic, exitingToHome, onComplete, onExitStart, profile, email]);
+  // bookmark
+  const checkSsoToken = useCallback(async () => {
+    try {
+      const verificationData = await verifySsoToken(sessionStorage.getItem("treereq-sso-token"));
+      if(verificationData["message"] == "Valid token"){
+        handleSkipToMainApp(sessionStorage.getItem("treereq-sso-email"));
+      }
+    } catch (error) {
+      ;
+    }
+  }, []);
+  checkSsoToken();
   let stepContent;
   if (step === "welcome") {
     stepContent = (
-      <OnboardingLanding onGoogleContinue={goProfile} />
+      <OnboardingLanding onGoogleContinue={goProfile} onSkipOnboarding={handleSkipToMainApp} ssoToken={ssoToken} setSsoToken={setSsoToken} />
     );
   } else if (step === "profile") {
+    console.log(ssoToken);
     stepContent = (
       <OnboardingProfileStep
         onContinue={(data) => {
