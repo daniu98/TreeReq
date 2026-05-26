@@ -591,6 +591,7 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   const [exitingToHome, setExitingToHome] = useState(false);
   const [email, setEmail] = useState("");
   const [ssoToken, setSsoToken] = useState("");
+  const [isCheckingAuth, setIsCheckingAuth] = useState(true);
   const handleSkipToMainApp = useCallback((userEmail) => {
     if (exitingToHome) return;
     setExitingToHome(true);
@@ -631,18 +632,139 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
       onComplete?.({ profile, academic });
     }, HOME_EXIT_MS);
   }, [academic, exitingToHome, onComplete, onExitStart, profile, email]);
-  // bookmark
-  const checkSsoToken = useCallback(async () => {
-    try {
-      const verificationData = await verifySsoToken(sessionStorage.getItem("treereq-sso-token"));
-      if(verificationData["message"] == "Valid token"){
-        handleSkipToMainApp(sessionStorage.getItem("treereq-sso-email"));
-      }
-    } catch (error) {
-      ;
-    }
-  }, []);
-  checkSsoToken();
+  useEffect(() => {
+		const checkSsoToken = async () => {
+      if (!sessionStorage.getItem("treereq-sso-token")){
+				setIsCheckingAuth(false);
+				return;
+			}
+			try {
+				const verificationData = await verifySsoToken(sessionStorage.getItem("treereq-sso-token"));
+				if (verificationData["message"] == "Valid token"){
+					handleSkipToMainApp(sessionStorage.getItem("treereq-sso-email"));
+				}
+				else {
+					setIsCheckingAuth(false);
+				}
+			} catch (error) {
+				setIsCheckingAuth(false);
+			}
+		};
+		checkSsoToken();
+  }, [handleSkipToMainApp]);
+  if (isCheckingAuth) {
+		return ( // made by Gemini
+    <div className="tree-loader-container">
+      <style>{`
+        .tree-loader-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-family: system-ui, -apple-system, sans-serif;
+          height: 100vh; 
+          width: 100%;
+          background-color: #ffffff;
+        }
+
+        /* Leaf pulsing animation */
+        .tree-leaf {
+          animation: leafPulse 0.5s infinite ease-in-out alternate;
+        }
+        
+        /* Stagger the animations so they don't all pulse at the exact same time */
+        .leaf-1 { animation-delay: 0s; }
+        .leaf-2 { animation-delay: 0.4s; }
+        .leaf-3 { animation-delay: 0.8s; }
+
+        @keyframes leafPulse {
+          0% {
+            transform: scale(0.85);
+            opacity: 0.8;
+          }
+          100% {
+            transform: scale(1.1);
+            opacity: 1;
+          }
+        }
+
+        /* Text fading animation */
+        .loading-text {
+          margin-top: 24px;
+          color: #2e7d32;
+          font-weight: 500;
+          font-size: 1.1rem;
+          letter-spacing: 0.5px;
+          animation: textFade 1.5s infinite alternate ease-in-out;
+        }
+
+        @keyframes textFade {
+          0% { opacity: 0.4; }
+          100% { opacity: 1; }
+        }
+      `}</style>
+
+      {/* SVG Tree Art */}
+      <svg
+        width="120"
+        height="140"
+        viewBox="0 0 100 120"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-label="Loading content"
+        role="img"
+      >
+        {/* Trunk & Branches */}
+        <path
+          d="M 50 110 L 50 60"
+          stroke="#795548"
+          strokeWidth="6"
+          strokeLinecap="round"
+        />
+        <path
+          d="M 50 85 L 25 55"
+          stroke="#795548"
+          strokeWidth="5"
+          strokeLinecap="round"
+        />
+        <path
+          d="M 50 75 L 75 45"
+          stroke="#795548"
+          strokeWidth="5"
+          strokeLinecap="round"
+        />
+
+        {/* Leaves (Circles with specific transform origins to scale from their centers) */}
+        <circle
+          cx="25"
+          cy="55"
+          r="18"
+          fill="#81c784"
+          className="tree-leaf leaf-1"
+          style={{ transformOrigin: "25px 55px" }}
+        />
+        <circle
+          cx="75"
+          cy="45"
+          r="18"
+          fill="#4caf50"
+          className="tree-leaf leaf-2"
+          style={{ transformOrigin: "75px 45px" }}
+        />
+        <circle
+          cx="50"
+          cy="25"
+          r="24"
+          fill="#2e7d32"
+          className="tree-leaf leaf-3"
+          style={{ transformOrigin: "50px 25px" }}
+        />
+      </svg>
+
+      <div className="loading-text">Planting seeds...</div>
+    </div>
+		);
+    return null;
+  }
   let stepContent;
   if (step === "welcome") {
     stepContent = (
