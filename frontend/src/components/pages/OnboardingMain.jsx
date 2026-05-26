@@ -591,6 +591,7 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   const [exitingToHome, setExitingToHome] = useState(false);
   const [email, setEmail] = useState("");
   const [ssoToken, setSsoToken] = useState("");
+  const [isCheckingAuth, setIsCheckingAuth] = useState(true);
   const handleSkipToMainApp = useCallback((userEmail) => {
     if (exitingToHome) return;
     setExitingToHome(true);
@@ -632,17 +633,29 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
     }, HOME_EXIT_MS);
   }, [academic, exitingToHome, onComplete, onExitStart, profile, email]);
   // bookmark
-  const checkSsoToken = useCallback(async () => {
-    try {
-      const verificationData = await verifySsoToken(sessionStorage.getItem("treereq-sso-token"));
-      if(verificationData["message"] == "Valid token"){
-        handleSkipToMainApp(sessionStorage.getItem("treereq-sso-email"));
-      }
-    } catch (error) {
-      ;
-    }
-  }, []);
-  checkSsoToken();
+  useEffect(() => {
+		const checkSsoToken = async () => {
+      if (!sessionStorage.getItem("treereq-sso-token")){
+				setIsCheckingAuth(false);
+				return;
+			}
+			try {
+				const verificationData = await verifySsoToken(sessionStorage.getItem("treereq-sso-token"));
+				if (verificationData["message"] == "Valid token"){
+					handleSkipToMainApp(sessionStorage.getItem("treereq-sso-email"));
+				}
+				else {
+					setIsCheckingAuth(false);
+				}
+			} catch (error) {
+				setIsCheckingAuth(false);
+			}
+		};
+		checkSsoToken();
+  }, [handleSkipToMainApp]);
+  if (isCheckingAuth) {
+    return null;
+  }
   let stepContent;
   if (step === "welcome") {
     stepContent = (
