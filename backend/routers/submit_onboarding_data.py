@@ -22,6 +22,10 @@ class OnboardingData(BaseModel):
 
 @router.post("/submit-onboarding-data")
 def submit_onboarding_data(data: OnboardingData):
+    db = get_sync_db()
+    usersWithEmail = db.users.find_one({"email": data.email})
+    if usersWithEmail == None:
+        db.users.insert_one({"email": data.email})
     try:
         db = get_sync_db()
         result = db.users.update_one(

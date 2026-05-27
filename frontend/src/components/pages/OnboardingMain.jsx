@@ -194,10 +194,15 @@ function OnboardingArtPanel({ side = "left" }) {
   );
 }
 
-function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSsoToken }) {
+function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSsoToken, onExitStart, onComplete }) {
   const hasGoogleId = !!import.meta.env.VITE_GOOGLE_CLIENT_ID;
   const [status, setStatus] = useState("");
   const [email, setEmail] = useState("");
+  const [loadState, setLoadState] = useState("loading");
+  const [loadError, setLoadError] = useState("");
+  const [majors, setMajors] = useState([]);
+  const [major, setMajor] = useState([]);
+  const [exitingToHome, setExitingToHome] = useState(false);
 
   const handleGoogleSuccess = async (credentialResponse) => {
     try {
@@ -221,9 +226,75 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSs
       setStatus(msg);
     }
   };
-
+  
+  const signInAsGuest = async () => {
+    if(!form.major) {
+      setStatus("Please select a major first to continue as a guest.");
+      return;
+    }
+    const randomSuffix = Math.random().toString(36).substring(2, 10);
+    const guestEmail = `guest_${randomSuffix}@guest.treereq.com`;
+    try {
+	const data = await submitOnboardingData(
+	  guestEmail,
+	  "",
+	  "",
+	  form.major?.value,
+	  "",
+	  "",
+	  "",
+	  "",
+	  [],
+	  [],
+	  []
+	);
+	sessionStorage.setItem("treereq-sso-token", "is-guest");
+        sessionStorage.setItem("treereq-sso-email", guestEmail);
+	onSkipOnboarding(data.email);
+    } catch (error) {
+	console.error("Failed to save onboarding data:", error);
+	return;
+    }
+    setStatus("Signed in as guest");
+  }
+  
   const statusIsError = /fail|error|wrong|server/i.test(status);
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+	setLoadState("loading");
+	setLoadError("");
+        const majors_raw = await fetchMajors();
+	const fetchedMajors = majors_raw.map(item => ({
+	  value: item.major_id,
+	  label: item.name
+	}));
+	if (cancelled) return;
+	setMajors(fetchedMajors);
+	setLoadState("ready");
+      } catch (err) {
+	if (cancelled) return;
+	setLoadError(err.message|| "Could not load majors.");
+      }
+    })();
+  }, []);
+  const [form, setForm] = useState({
+    major: null,
+  });
+  const handleSkipToMainApp = useCallback((userEmail) => {
+    if (exitingToHome) return;
+    setExitingToHome(true);
+    onExitStart?.();
+    window.setTimeout(() => {
+      onComplete?.({ skipped: true, email: userEmail }); 
+    }, HOME_EXIT_MS);
+  }, [exitingToHome, onExitStart, onComplete]);
 
+  const goProfile = useCallback((userEmail) => {
+    setEmail(userEmail);
+    setStep("profile");
+  }, []);
   return (
     <div className="onboarding-landing">
       <LandingHeroArt />
@@ -238,7 +309,7 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSs
             <p className="onboarding-landing__help">Please log in with your UCLA account.</p>
 
             {hasGoogleId ? (
-              <div className="onboarding-landing__google">
+              <div className="onboarding-landing__google" style={{ marginBottom: "0.5rem" }}>
                 <GoogleLogin
                   onSuccess={handleGoogleSuccess}
                   onError={() => setStatus("Sign-in was cancelled. Please try again.")}
@@ -265,6 +336,28 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSs
               </p>
             ) : null}
           </div>
+	  {/* bookmark - make look better */}
+	  <p className="onboarding-landing__help">Or continue as a guest.</p>
+	  <OnboardingSelect
+            id="ob-majors"
+            label=""
+            options={majors}
+            value={form.major}
+            onChange={(selectedOption) => setForm(prev => ({ ...prev, major: selectedOption }))}
+            isSearchable
+            isDisabled={loadState === "loading"}
+            placeholder={
+	      loadState === "loading" ? "Loading majors…" : "Search for a major…"
+            }
+          />
+	  <button 
+	    type="button" 
+	    className="onboarding-btn onboarding-btn--secondary" 
+	    style={{ marginTop: "1rem" }}
+	    onClick={signInAsGuest}
+	  >
+	    Continue as Guest
+	  </button>
         </div>
       </div>
     </div>
