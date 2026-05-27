@@ -6,4 +6,5 @@ python-dotenv
 certifi
 bcrypt
 google-auth
+requests
 pyjwt

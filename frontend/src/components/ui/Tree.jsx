@@ -1,6 +1,7 @@
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState, useCallback } from "react";
 import { CategoryNode } from "./CategoryNode.jsx";
 import { ClassNode } from "./ClassNode.jsx";
+import { NodeDetailCard } from "./NodeDetailCard.jsx";
 
 const NODE_DIAMETER = 200;
 const GAP = 60;
@@ -13,6 +14,15 @@ export function Tree({
   const containerRef = useRef(null);
   const nodeRefs = useRef([]);
   const [lines, setLines] = useState([]);
+  const [selected, setSelected] = useState(null); // { node, anchorRect }
+
+  const handleNodeClick = useCallback((node, el) => {
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    setSelected((prev) =>
+      prev?.node === node ? null : { node, anchorRect: rect }
+    );
+  }, []);
 
   useEffect(() => {
     if (!containerRef.current || nodes.length < 2) {
@@ -55,6 +65,7 @@ export function Tree({
   const totalWidth = nodes.length * NODE_DIAMETER + (nodes.length - 1) * GAP;
 
   return (
+    <>
     <div
       ref={containerRef}
       style={{ position: "relative", width: totalWidth, height: NODE_DIAMETER }}
@@ -95,6 +106,7 @@ export function Tree({
             key={i}
             ref={(el) => (nodeRefs.current[i] = el)}
             style={{ flexShrink: 0 }}
+            onClick={() => handleNodeClick(node, nodeRefs.current[i])}
           >
             {node.type === "category" ? (
               <CategoryNode {...node} />
@@ -105,5 +117,14 @@ export function Tree({
         ))}
       </div>
     </div>
+
+      {selected && (
+        <NodeDetailCard
+          node={selected.node}
+          anchorRect={selected.anchorRect}
+          onClose={() => setSelected(null)}
+        />
+      )}
+    </>
   );
 }

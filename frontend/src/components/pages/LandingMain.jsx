@@ -1,3 +1,5 @@
+import { MOCK_REVISIT_TREES } from "../../data/mockTrees.js";
+
 const font = { fontFamily: "var(--font-ui)", fontWeight: 400 };
 
 function BackgroundBlobs() {
@@ -121,7 +123,12 @@ const REVISIT_TREES = [
   { id: "mech-aero", label: "Mechanical engineering aero..." },
 ];
 
-export default function LandingMain({ onPlantNewTree, onOpenTree }) {
+export default function LandingMain({
+  onPlantNewTree,
+  onOpenTree,
+  onOpenProfile,
+  profileLabel = "Your profile",
+}) {
   return (
     <main
       style={{
@@ -144,7 +151,9 @@ export default function LandingMain({ onPlantNewTree, onOpenTree }) {
         }}
       >
         <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 24 }}>
-          <div
+          <button
+            type="button"
+            onClick={() => onOpenProfile?.()}
             style={{
               width: 163,
               minHeight: 56,
@@ -155,10 +164,11 @@ export default function LandingMain({ onPlantNewTree, onOpenTree }) {
               display: "flex",
               alignItems: "center",
               gap: 10,
+              cursor: "pointer",
             }}
           >
             <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ color: "#000", fontSize: 20, ...font }}>Steve M.</div>
+              <div style={{ color: "#000", fontSize: 20, ...font }}>{profileLabel}</div>
             </div>
             <div
               style={{
@@ -170,7 +180,7 @@ export default function LandingMain({ onPlantNewTree, onOpenTree }) {
               }}
               aria-hidden
             />
-          </div>
+          </button>
         </div>
 
         <div style={{ marginBottom: 32 }}>
@@ -239,7 +249,7 @@ export default function LandingMain({ onPlantNewTree, onOpenTree }) {
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           <h2 style={{ color: "#7C7C7C", fontSize: 20, fontWeight: 400, margin: 0, ...font }}>Revisit...</h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 22, alignItems: "center" }}>
-            {REVISIT_TREES.map((item) => (
+            {MOCK_REVISIT_TREES.map((item) => (
               <button
                 key={item.id}
                 type="button"

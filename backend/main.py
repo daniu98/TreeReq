@@ -1,9 +1,9 @@
+import os
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from config.database import connect_db, close_db
-from routers import auth_sso, courses, majors, onboarding, submit_onboarding_data, check_if_onboarded
-import pymongo
-import os
+from routers import auth_sso, courses, majors, onboarding, submit_onboarding_data, check_if_onboarded, verify_sso_token
 
 @asynccontextmanager
 async def lifespan(app):
@@ -13,6 +13,23 @@ async def lifespan(app):
 
 
 app = FastAPI(lifespan=lifespan)
+
+# CORS — allow local dev origins by default, plus any extra origins from the
+# CORS_ORIGINS env var for Vercel deployment
+_default_origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:3000",
+]
+_extra = [o.strip() for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_default_origins + _extra,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/")
@@ -25,6 +42,4 @@ app.include_router(auth_sso.router, prefix="/api")
 app.include_router(onboarding.router, prefix="/api")
 app.include_router(submit_onboarding_data.router, prefix="/api")
 app.include_router(check_if_onboarded.router, prefix="/api")
-# export MONGO_URI DB_NAME
-client = pymongo.MongoClient(os.environ["MONGO_URI"])
-db = client.get_database(os.environ["DB_NAME"])
+app.include_router(verify_sso_token.router, prefix="/api")
