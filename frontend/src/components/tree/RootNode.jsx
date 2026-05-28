@@ -6,7 +6,7 @@ import { CategoryNode } from "../ui/CategoryNode.jsx";
  * CSS transform so all visual specs (gradient, border, typography) stay
  * Figma-accurate.
  */
-const SCALE = 0.55;
+const SCALE = 0.82;
 
 export function RootNode({ name, isActive = false, onClick }) {
   return (

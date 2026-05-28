@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
 import { fetchMajorTree, setCourseCompletion } from "../../services/treeApi.js";
 import { enrichTreeResponse } from "../../utils/enrichTreeResponse.js";
 import { buildHierarchy } from "./buildHierarchy.js";
@@ -9,35 +10,20 @@ import { SectionNode } from "./SectionNode.jsx";
 import { CategoryNode } from "../ui/CategoryNode.jsx";
 import { ClassNode } from "../ui/ClassNode.jsx";
 import { TreeEdge } from "./TreeEdge.jsx";
+import { PrereqEdge } from "./PrereqEdge.jsx";
+import { NodeDetailPanel } from "./NodeDetailPanel.jsx";
 
-/**
- * Top-level degree-requirements tree. Fetches the major tree from the API,
- * builds a nested hierarchy, derives statuses from the user's `completionMap`,
- * runs an auto-layout, and renders nodes + edges.
- *
- * Props:
- *   majorId           — required. e.g. "cogsci"
- *   majorName         — optional display label for the root node.
- *   activeCourseId    — optional id of the course considered "current".
- *   onNodeClick(node) — optional callback for non-course node clicks.
- *   onCourseToggle    — optional async (courseId, nextCompleted) => void.
- *                       If omitted, defaults to POST /api/courses/{id}/completion.
- */
 export function DegreeTree({
   majorId,
   majorName,
-  activeCourseId,
-  onNodeClick,
-  onCourseToggle,
-  mockResponse, // optional: bypass fetch (for testing)
+  mockResponse,
 }) {
   const [apiResponse, setApiResponse] = useState(mockResponse ?? null);
   const [loading, setLoading] = useState(!mockResponse);
   const [error, setError] = useState(null);
-  const [completionMap, setCompletionMap] = useState({});
-  const [tooltip, setTooltip] = useState(null); // { x, y, text }
+  const [statusMap, setStatusMap] = useState({});
+  const [selectedNodeId, setSelectedNodeId] = useState(null);
 
-  // Fetch the tree on mount / majorId change (skipped when mockResponse given).
   useEffect(() => {
     if (mockResponse) return;
     let cancelled = false;
@@ -47,227 +33,196 @@ export function DegreeTree({
       .then((res) => {
         if (cancelled) return;
         setApiResponse(res);
-        // Seed completion map from any backend-provided completed flags.
         const seed = {};
         for (const n of res.nodes ?? []) {
-          if (n.completed === true) seed[n.id] = true;
+          if (n.completed === true) seed[n.id] = "completed";
         }
-        setCompletionMap(seed);
+        setStatusMap(seed);
       })
-      .catch((err) => {
-        if (!cancelled) setError(err);
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
-      });
-    return () => {
-      cancelled = true;
-    };
+      .catch((err) => { if (!cancelled) setError(err); })
+      .finally(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
   }, [majorId, mockResponse]);
 
-  // Build hierarchy + layout whenever the API response or completion map changes.
   const layout = useMemo(() => {
     if (!apiResponse) return null;
     const enriched = enrichTreeResponse(apiResponse);
     const { root, crossBranchEdges } = buildHierarchy(enriched, majorName);
     const prereqIndex = buildPrereqIndex(enriched.edges ?? []);
-    const derived = deriveStatuses(root, completionMap, prereqIndex);
+    const derived = deriveStatuses(root, statusMap, prereqIndex);
     const positioned = layoutTree(derived);
-    return { ...positioned, crossBranchEdges };
-  }, [apiResponse, majorName, completionMap]);
+    return { ...positioned, crossBranchEdges, enriched };
+  }, [apiResponse, majorName, statusMap]);
 
-  const handleCourseClick = useCallback(
-    async (node) => {
-      if (node.status === "locked") {
-        setTooltip({
-          x: node.x,
-          y: node.y - node.height / 2 - 8,
-          text: `Locked. Complete: ${node.unmetPrereqs.join(", ")}`,
-        });
-        setTimeout(() => setTooltip(null), 3000);
-        return;
-      }
-      const nextCompleted = !(completionMap[node.id] === true);
-      // Optimistic update.
-      setCompletionMap((prev) => ({ ...prev, [node.id]: nextCompleted }));
-      try {
-        if (onCourseToggle) {
-          await onCourseToggle(node.id, nextCompleted);
-        } else {
-          await setCourseCompletion(node.id, nextCompleted);
-        }
-      } catch (err) {
-        // Roll back on failure.
-        setCompletionMap((prev) => ({ ...prev, [node.id]: !nextCompleted }));
-        console.error("Failed to persist course completion:", err);
-      }
-    },
-    [completionMap, onCourseToggle]
+  const handleStatusChange = useCallback(async (courseId, newStatus) => {
+    const prev = statusMap[courseId] ?? "unfulfilled";
+    setStatusMap((m) => {
+      const copy = { ...m };
+      if (newStatus === "unfulfilled") delete copy[courseId];
+      else copy[courseId] = newStatus;
+      return copy;
+    });
+    try {
+      if (newStatus === "completed") await setCourseCompletion(courseId, true);
+      else if (prev === "completed") await setCourseCompletion(courseId, false);
+    } catch (err) {
+      setStatusMap((m) => {
+        const copy = { ...m };
+        if (prev === "unfulfilled") delete copy[courseId];
+        else copy[courseId] = prev;
+        return copy;
+      });
+    }
+  }, [statusMap]);
+
+  const handleNodeClick = useCallback((node) => {
+    setSelectedNodeId((prev) => prev === node.id ? null : node.id);
+  }, []);
+
+  const handleNavigate = useCallback((courseId) => {
+    setSelectedNodeId(courseId);
+  }, []);
+
+  if (loading) return (
+    <div style={stateStyle.wrap}><p style={stateStyle.text}>Loading {majorName ?? majorId}…</p></div>
   );
-
-  if (loading) {
-    return (
-      <div style={stateStyles.container}>
-        <p style={stateStyles.text}>Loading {majorName ?? majorId}...</p>
-      </div>
-    );
-  }
-  if (error) {
-    return (
-      <div style={stateStyles.container}>
-        <p style={{ ...stateStyles.text, color: "#c0392b" }}>
-          Could not load tree: {error.message}
-        </p>
-        <p style={{ ...stateStyles.text, fontSize: 13, marginTop: 12 }}>
-          Start the backend: <code>cd backend && uvicorn main:app --reload --port 8000</code>
-        </p>
-      </div>
-    );
-  }
+  if (error) return (
+    <div style={stateStyle.wrap}>
+      <p style={{ ...stateStyle.text, color: "#c0392b" }}>Could not load tree: {error.message}</p>
+      <p style={{ ...stateStyle.text, fontSize: 13, marginTop: 8 }}>
+        Start the backend: <code>uvicorn main:app --reload --port 8001</code>
+      </p>
+    </div>
+  );
   if (!layout) return null;
 
-  const { nodes, edges, totalWidth, totalHeight } = layout;
+  const { nodes, edges, crossBranchEdges, totalWidth, totalHeight, nodeById, enriched } = layout;
+  const selectedNode = selectedNodeId ? nodeById?.get(selectedNodeId) : null;
 
   return (
-    <div style={{ position: "relative", width: totalWidth, height: totalHeight }}>
-      <svg
-        width={totalWidth}
-        height={totalHeight}
-        style={{ position: "absolute", inset: 0, pointerEvents: "none" }}
-      >
-        {edges.map((e) => (
-          <TreeEdge key={e.id} source={e.sourceNode} target={e.targetNode} />
-        ))}
-      </svg>
-
-      {nodes.map((node) => (
-        <PositionedNode
-          key={node.id}
-          node={node}
-          isActive={node.id === activeCourseId}
-          onCourseClick={handleCourseClick}
-          onNodeClick={onNodeClick}
-        />
-      ))}
-
-      {tooltip && (
-        <div
-          style={{
-            position: "absolute",
-            left: tooltip.x,
-            top: tooltip.y,
-            transform: "translate(-50%, -100%)",
-            background: "#1a1a1a",
-            color: "#fff",
-            padding: "6px 10px",
-            borderRadius: 6,
-            fontSize: 12,
-            fontFamily: "Inter, system-ui, sans-serif",
-            pointerEvents: "none",
-            whiteSpace: "nowrap",
-            zIndex: 10,
-          }}
+    <>
+      <div style={{ position: "relative", width: totalWidth, height: totalHeight }}>
+        <svg
+          width={totalWidth}
+          height={totalHeight}
+          style={{ position: "absolute", inset: 0, pointerEvents: "none" }}
         >
-          {tooltip.text}
-        </div>
+          {edges.map((e) => (
+            <TreeEdge
+              key={e.id}
+              source={e.sourceNode}
+              target={e.targetNode}
+              color={statusMap[e.sourceNode?.id] === "completed" ? "#348162" : "#85b110"}
+            />
+          ))}
+          {(crossBranchEdges ?? []).map((e) => {
+            const src = nodeById?.get(e.source);
+            const tgt = nodeById?.get(e.target);
+            if (!src || !tgt) return null;
+            return (
+              <PrereqEdge
+                key={`x:${e.source}->${e.target}`}
+                source={src}
+                target={tgt}
+                color={statusMap[e.source] === "completed" ? "#2a7a4e" : "#2764A6"}
+              />
+            );
+          })}
+        </svg>
+
+        {nodes.map((node) => (
+          <PositionedNode
+            key={node.id}
+            node={node}
+            isSelected={node.id === selectedNodeId}
+            statusMap={statusMap}
+            onClick={handleNodeClick}
+          />
+        ))}
+      </div>
+
+      {selectedNode && createPortal(
+        <NodeDetailPanel
+          node={selectedNode}
+          statusMap={statusMap}
+          nodeById={nodeById}
+          onStatusChange={handleStatusChange}
+          onNavigate={handleNavigate}
+          onClose={() => setSelectedNodeId(null)}
+        />,
+        document.body
       )}
-    </div>
+    </>
   );
 }
 
-function PositionedNode({ node, isActive, onCourseClick, onNodeClick }) {
-  const style = {
-    position: "absolute",
-    left: node.x,
-    top: node.y,
-    transform: "translate(-50%, -50%)",
-  };
-
+function PositionedNode({ node, isSelected, statusMap, onClick }) {
   return (
-    <div style={style}>
-      {renderNode(node, isActive, onCourseClick, onNodeClick)}
+    <div
+      style={{
+        position: "absolute",
+        left: node.x,
+        top: node.y,
+        transform: "translate(-50%, -50%)",
+        cursor: "pointer",
+      }}
+      onClick={() => onClick(node)}
+    >
+      {renderNode(node, isSelected, statusMap)}
     </div>
   );
 }
 
-function renderNode(node, isActive, onCourseClick, onNodeClick) {
+function renderNode(node, isSelected, statusMap) {
+  const circleRing = isSelected
+    ? { outline: "3px solid #FFD66B", outlineOffset: 4, borderRadius: "50%" }
+    : {};
+
   switch (node.kind) {
     case "root":
-      return (
-        <RootNode
-          name={node.data.name}
-          status={node.status}
-          isActive={isActive}
-          onClick={() => onNodeClick?.(node)}
-        />
-      );
+      return <div style={circleRing}><RootNode name={node.data.name} /></div>;
+
     case "section":
-      return (
-        <SectionNode
-          name={node.data.name}
-          status={node.status}
-          isActive={isActive}
-          onClick={() => onNodeClick?.(node)}
-        />
-      );
+      return <div style={circleRing}><SectionNode name={node.data.name} /></div>;
+
     case "category":
       return (
-        <div
-          onClick={() => onNodeClick?.(node)}
-          style={{
-            cursor: "pointer",
-            outline: isActive ? "4px solid #FFD66B" : "none",
-            outlineOffset: 4,
-            borderRadius: "50%",
-          }}
-        >
+        <div style={{ ...circleRing, borderRadius: "50%" }}>
           <CategoryNode
             categoryName={node.data.name}
             completionPercentage={node.completionPercentage}
           />
         </div>
       );
-    case "course":
+
+    case "course": {
+      const status = courseStatusLabel(node.status);
+      const courseRing = isSelected
+        ? { outline: "2px solid #FFD66B", outlineOffset: 3, borderRadius: 50 }
+        : {};
       return (
-        <div
-          style={{
-            outline: isActive ? "3px solid #FFD66B" : "none",
-            outlineOffset: 3,
-            borderRadius: 999,
-          }}
-        >
+        <div style={courseRing}>
           <ClassNode
             courseName={`${node.data.dept} ${node.data.number}`}
-            status={courseStatusLabel(node.status)}
-            department={node.data.dept}
-            onClick={() => onCourseClick(node)}
+            status={status}
           />
         </div>
       );
+    }
+
     default:
       return null;
   }
 }
 
-function courseStatusLabel(status) {
-  switch (status) {
-    case "completed": return "Completed";
-    case "in_progress": return "In Progress";
-    case "planned": return "Planned";
-    case "locked": return "Unfulfilled";
-    default: return "Planned";
-  }
+function courseStatusLabel(s) {
+  if (s === "completed")   return "Completed";
+  if (s === "in_progress") return "In Progress";
+  if (s === "planned")     return "Planned";
+  return "Unfulfilled";
 }
 
-const stateStyles = {
-  container: {
-    padding: "48px 24px",
-    textAlign: "center",
-  },
-  text: {
-    fontFamily: "Inter, system-ui, sans-serif",
-    fontSize: 15,
-    color: "#666",
-    margin: 0,
-  },
+const stateStyle = {
+  wrap: { padding: "48px 24px", textAlign: "center" },
+  text: { fontFamily: "Inter, system-ui, sans-serif", fontSize: 15, color: "#666", margin: 0 },
 };

@@ -1,12 +1,13 @@
 /**
- * Derive node statuses from a `completionMap` ({ course_id -> bool })
+ * Derive node statuses from a `statusMap` ({ course_id -> "planned" | "in_progress" | "completed" })
  * and a hierarchy of nodes.
  *
  * Course statuses:
- *   - "completed"   : completionMap[id] === true
- *   - "locked"      : has unmet prerequisites
- *   - "in_progress" : not implemented at backend yet (reserved for future)
- *   - "planned"     : default (unlocked but not completed)
+ *   - "completed"   : statusMap[id] === "completed"
+ *   - "in_progress" : statusMap[id] === "in_progress"
+ *   - "planned"     : statusMap[id] === "planned"
+ *   - "locked"      : not in statusMap AND has unmet required prerequisites
+ *   - "unfulfilled" : not in statusMap AND all prerequisites met (default)
  *
  * Category / section / root statuses (derived):
  *   - "completed"   : all descendant courses completed
@@ -16,22 +17,25 @@
  * A node also gets `completionPercentage` for category-level rendering.
  */
 
-export function deriveStatuses(rootHierarchy, completionMap, prereqIndex) {
-  // Walk depth-first, computing status for courses first then aggregating up.
+export function deriveStatuses(rootHierarchy, statusMap, prereqIndex) {
   function visit(node) {
     if (node.kind === "course") {
       const id = node.id;
-      const completed = completionMap[id] === true;
+      const explicit = statusMap[id]; // "planned" | "in_progress" | "completed" | undefined
       const prereqs = prereqIndex.get(id) ?? [];
       const requiredPrereqs = prereqs.filter((p) => p.type === "required");
       const allRequiredMet = requiredPrereqs.every(
-        (p) => completionMap[p.source] === true
+        (p) => statusMap[p.source] === "completed"
       );
-      const status = completed
-        ? "completed"
-        : allRequiredMet
-        ? "planned"
-        : "locked";
+
+      let status;
+      if (explicit === "completed") status = "completed";
+      else if (explicit === "in_progress") status = "in_progress";
+      else if (explicit === "planned") status = "planned";
+      else if (!allRequiredMet && requiredPrereqs.length > 0) status = "locked";
+      else status = "unfulfilled";
+
+      const completed = status === "completed";
       return {
         ...node,
         status,
@@ -40,7 +44,7 @@ export function deriveStatuses(rootHierarchy, completionMap, prereqIndex) {
         totalCourses: 1,
         completedCourses: completed ? 1 : 0,
         unmetPrereqs: requiredPrereqs
-          .filter((p) => completionMap[p.source] !== true)
+          .filter((p) => statusMap[p.source] !== "completed")
           .map((p) => p.source),
         children: (node.children ?? []).map(visit),
       };
@@ -52,14 +56,14 @@ export function deriveStatuses(rootHierarchy, completionMap, prereqIndex) {
       (sum, c) => sum + (c.completedCourses ?? 0),
       0
     );
-    const completionPercentage = totalCourses === 0
-      ? 0
-      : Math.round((completedCourses / totalCourses) * 100);
-    const status = completionPercentage === 100
-      ? "completed"
-      : completionPercentage > 0
-      ? "in_progress"
-      : "not_started";
+    const completionPercentage =
+      totalCourses === 0 ? 0 : Math.round((completedCourses / totalCourses) * 100);
+    const status =
+      completionPercentage === 100
+        ? "completed"
+        : completionPercentage > 0
+        ? "in_progress"
+        : "not_started";
     return {
       ...node,
       children,

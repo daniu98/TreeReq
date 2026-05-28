@@ -1,24 +1,19 @@
 import { calcFontSize, LABEL_MAX_PX, LABEL_MIN_PX } from "./nodeUtils.js";
-import completedIcon from "../../assets/completed-icon.svg";
-import inProgressIcon from "../../assets/in-progress-icon.svg";
-import plannedIcon from "../../assets/planned-icon.svg";
-import unfulfilledIcon from "../../assets/unfulfilled-icon.svg";
 
 const INNER_WIDTH_CIRCLE = 126;
-const INNER_WIDTH_CARD = 126;
 
-const STATUS_COLORS = {
-  Completed: "#348162",
+const STATUS_DOT_COLOR = {
+  Completed:   "#348162",
   "In Progress": "#84b10f",
-  Planned: "#8ecd9b",
-  Unfulfilled: "#9a9a9a",
+  Planned:     "#8ecd9b",
+  Unfulfilled: "#c8c8c8",
 };
 
-const STATUS_ICONS = {
-  Completed: completedIcon,
-  "In Progress": inProgressIcon,
-  Planned: plannedIcon,
-  Unfulfilled: unfulfilledIcon,
+const STATUS_BORDER_COLOR = {
+  Completed:   "#b0d9c8",
+  "In Progress": "#d8edaa",
+  Planned:     "#cde8d4",
+  Unfulfilled: "#e0e0e0",
 };
 
 const circleStyles = {
@@ -68,69 +63,12 @@ const circleStyles = {
   },
 };
 
-const cardStyles = {
-  wrapper: {
-    display: "inline-flex",
-    alignItems: "center",
-    justifyContent: "flex-start",
-    padding: "2px 24px 2px 2px",
-    borderRadius: "50px",
-    boxSizing: "border-box",
-    border: "2px solid var(--border-color, #3b82f6)",
-    cursor: "pointer",
-    gap: "12px",
-  },
-  inner: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "flex-start",
-    justifyContent: "center",
-    gap: "4px",
-    width: "125px",
-    height: "75px",
-    borderRadius: "50%",
-    boxSizing: "border-box",
-    flexShrink: 0,
-    background: "#ffffff",
-  },
-  courseName: {
-    fontFamily: "Inter, system-ui, sans-serif",
-    fontWeight: 700,
-    lineHeight: "normal",
-    color: "#000000",
-    textAlign: "left",
-    wordBreak: "break-word",
-    margin: 0,
-  },
-  status: {
-    fontFamily: "Inter, system-ui, sans-serif",
-    fontSize: "14px",
-    fontWeight: 400,
-    lineHeight: "normal",
-    color: "rgba(0,0,0,0.4)",
-    textAlign: "left",
-    letterSpacing: "0.5px",
-    margin: 0,
-  },
-};
-
-function ClassNodeCircle({
-  courseName,
-  color,
-  department,
-  prereqs = [],
-  isPrereqFor = [],
-  onClick,
-}) {
+function ClassNodeCircle({ courseName, color, department, onClick }) {
   const labelSize = calcFontSize(courseName, LABEL_MAX_PX, LABEL_MIN_PX, INNER_WIDTH_CIRCLE);
-
   return (
     <div
       style={{ ...circleStyles.wrapper, "--border-color": color, "--bg": color }}
       onClick={onClick}
-      data-department={department}
-      data-prereqs={JSON.stringify(prereqs)}
-      data-unlocks={JSON.stringify(isPrereqFor)}
     >
       <div style={circleStyles.inner}>
         <span style={circleStyles.department}>{department}</span>
@@ -140,70 +78,56 @@ function ClassNodeCircle({
   );
 }
 
-function ClassNodeStatusCard({
-  courseName,
-  status,
-  department,
-  prereqs = [],
-  isPrereqFor = [],
-  onClick,
-}) {
-  const borderColor = STATUS_COLORS[status] ?? "#3b82f6";
-  const iconSrc = STATUS_ICONS[status];
-  const labelSize = calcFontSize(courseName, LABEL_MAX_PX, LABEL_MIN_PX, INNER_WIDTH_CARD);
+// Minimal pill matching the reference design:
+// small status dot + course code text, thin border, ~26px tall
+function ClassNodeStatusCard({ courseName, status, onClick }) {
+  const dotColor    = STATUS_DOT_COLOR[status]    ?? STATUS_DOT_COLOR.Unfulfilled;
+  const borderColor = STATUS_BORDER_COLOR[status] ?? STATUS_BORDER_COLOR.Unfulfilled;
 
   return (
     <div
-      style={{ ...cardStyles.wrapper, "--border-color": borderColor }}
       onClick={onClick}
-      data-department={department}
-      data-prereqs={JSON.stringify(prereqs)}
-      data-unlocks={JSON.stringify(isPrereqFor)}
-      data-status={status}
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        padding: "5px 12px 5px 8px",
+        borderRadius: 50,
+        border: `1.5px solid ${borderColor}`,
+        background: "#fff",
+        gap: 7,
+        cursor: "pointer",
+        boxShadow: "0 1px 4px rgba(0,0,0,0.07)",
+        whiteSpace: "nowrap",
+      }}
     >
-      {iconSrc ? <img src={iconSrc} alt="" style={{ paddingLeft: "15px" }} /> : null}
-      <div style={cardStyles.inner}>
-        <span style={{ ...cardStyles.courseName, fontSize: `${labelSize}px` }}>{courseName}</span>
-        <span style={cardStyles.status}>{status}</span>
-      </div>
+      <div style={{
+        width: 7,
+        height: 7,
+        borderRadius: "50%",
+        background: dotColor,
+        flexShrink: 0,
+      }} />
+      <span style={{
+        fontFamily: "Inter, system-ui, sans-serif",
+        fontSize: 11.5,
+        fontWeight: 600,
+        color: "#333",
+        letterSpacing: "0.1px",
+      }}>
+        {courseName}
+      </span>
     </div>
   );
 }
 
 /**
- * Renders a class/course node. With `status`, uses the pill layout (Completed / In Progress / Planned / Unfulfilled).
- * Without `status`, uses the circular colored node (supply `color`).
+ * Renders a class/course node.
+ * With `status` → minimal pill (dot + course code).
+ * Without `status` → circular colored node.
  */
-export function ClassNode({
-  courseName,
-  color,
-  status,
-  department,
-  prereqs = [],
-  isPrereqFor = [],
-  onClick,
-}) {
-  if (status && STATUS_COLORS[status] !== undefined) {
-    return (
-      <ClassNodeStatusCard
-        courseName={courseName}
-        status={status}
-        department={department}
-        prereqs={prereqs}
-        isPrereqFor={isPrereqFor}
-        onClick={onClick}
-      />
-    );
+export function ClassNode({ courseName, color, status, department, onClick }) {
+  if (status && STATUS_DOT_COLOR[status] !== undefined) {
+    return <ClassNodeStatusCard courseName={courseName} status={status} onClick={onClick} />;
   }
-
-  return (
-    <ClassNodeCircle
-      courseName={courseName}
-      color={color}
-      department={department}
-      prereqs={prereqs}
-      isPrereqFor={isPrereqFor}
-      onClick={onClick}
-    />
-  );
+  return <ClassNodeCircle courseName={courseName} color={color} department={department} onClick={onClick} />;
 }
