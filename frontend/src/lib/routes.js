@@ -17,6 +17,10 @@ export function parseLocation(pathname = window.location.pathname) {
   if (pathname === "/" || pathname === "") {
     return { view: "landing", treeId: null };
   }
+  const majorMatch = pathname.match(/^\/majors\/([^/]+)\/?$/);
+  if (majorMatch) {
+    return { view: decodeURIComponent(majorMatch[1]), treeId: null };
+  }
 
   const prospectiveView = pathname.replace(/^\//, "").replace(/\/$/, "");
   return { view: prospectiveView, treeId: null };
@@ -27,7 +31,7 @@ export function pathForView(view, treeId = null) {
   if (view === "setup") return "/setup";
   if (view === "landing") return "/";
 
-  return `/${view}`;
+  return `/majors/${view}`;
 }
 
 export function getTreeDocumentTitle(tree) {
