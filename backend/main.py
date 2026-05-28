@@ -17,6 +17,9 @@ app = FastAPI(lifespan=lifespan)
 # CORS — allow local dev origins by default, plus any extra origins from the
 # CORS_ORIGINS env var for Vercel deployment
 _default_origins = [
+    "https://tree-req.vercel.app",
+    "https://www.treereq.me",
+    "https://www.treereq.com",
     "http://localhost:5173",
     "http://localhost:3000",
     "http://127.0.0.1:5173",
