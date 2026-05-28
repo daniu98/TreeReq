@@ -20,6 +20,14 @@ import {
 } from "./data/userProfile.js";
 import { getTreeDocumentTitle, parseLocation, pathForView } from "./lib/routes.js";
 import "./styles/variables.css";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+const majorModules = import.meta.glob('/src/components/pages/majors/*.jsx', { eager: true });
+const MAJORS = Object.keys(majorModules).reduce((acc, filePath) => {
+  const fileName = filePath.match(/\/majors\/(.+)\.jsx$/)[1].toLowerCase();
+  acc[fileName] = majorModules[filePath].default;
+  return acc;
+}, {});
 
 function AppHome({
   route,
@@ -38,6 +46,7 @@ function AppHome({
   onOpenProfile,
 }) {
   const activeTreeId = route.view === "tree" ? route.treeId : null;
+  const MajorComponent = !showProfile ? MAJORS[route.view?.toLowerCase()] : null;
 
   return (
     <>
@@ -74,19 +83,25 @@ function AppHome({
       {!showProfile && route.view === "setup" ? (
         <TreeSetupMain onBack={goHome} />
       ) : null}
+
+      {MajorComponent ? <MajorComponent onBack={goHome} /> : null}
     </>
   );
 }
 
 export default function App() {
-  const [onboardingVisible, setOnboardingVisible] = useState(true);
-  const [homeRevealed, setHomeRevealed] = useState(false);
-  const [homeEntered, setHomeEntered] = useState(false);
+  const initialProfile = loadStoredProfile();
+
+  const [onboardingVisible, setOnboardingVisible] = useState(!initialProfile);
+  const [homeRevealed, setHomeRevealed] = useState(!!initialProfile);
+  const [homeEntered, setHomeEntered] = useState(!!initialProfile);
+  
   const [route, setRoute] = useState(() => parseLocation());
   const [recentIds, setRecentIds] = useState(loadRecentIds);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
-  const [userProfile, setUserProfile] = useState(() => loadStoredProfile());
+  
+  const [userProfile, setUserProfile] = useState(initialProfile);
   const [showProfile, setShowProfile] = useState(false);
 
   const recents = useMemo(() => resolveRecentTrees(recentIds), [recentIds]);
