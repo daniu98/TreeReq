@@ -14,13 +14,20 @@ export function parseLocation(pathname = window.location.pathname) {
     return { view: "setup", treeId: null };
   }
 
-  return { view: "landing", treeId: null };
+  if (pathname === "/" || pathname === "") {
+    return { view: "landing", treeId: null };
+  }
+
+  const prospectiveView = pathname.replace(/^\//, "").replace(/\/$/, "");
+  return { view: prospectiveView, treeId: null };
 }
 
 export function pathForView(view, treeId = null) {
   if (view === "tree" && treeId) return `/tree/${encodeURIComponent(treeId)}`;
   if (view === "setup") return "/setup";
-  return "/";
+  if (view === "landing") return "/";
+
+  return `/${view}`;
 }
 
 export function getTreeDocumentTitle(tree) {
