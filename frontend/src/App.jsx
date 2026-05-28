@@ -137,6 +137,16 @@ export default function App() {
       document.title = "TreeReq — New tree";
       return;
     }
+    
+    if (route.view && MAJORS[route.view.toLowerCase()]) {
+      const formattedTitle = route.view
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+      document.title = `TreeReq — ${formattedTitle}`;
+      return;
+    }
+
     document.title = "TreeReq — Home";
   }, [onboardingVisible, showProfile, route.view, activeTree]);
 
