@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import TreeTest from "./components/pages/TreeTest.jsx";
+import MajorTreePage from "./components/pages/MajorTreePage.jsx";
 import LandingMain from "./components/pages/LandingMain.jsx";
 import OnboardingMain from "./components/pages/OnboardingMain.jsx";
 import ProfileMain from "./components/pages/ProfileMain.jsx";
@@ -85,15 +85,12 @@ function AppHome({
         <TreeSetupMain onBack={goHome} />
       ) : null}
 
-      {MajorComponent ? <MajorComponent onBack={goHome} /> : null}
+      {MajorComponent ? <MajorTreePage majorId={route.view} onBack={goHome} /> : null}
     </>
   );
 }
 
 export default function App() {
-  // TEMP: show tree view. Remove this line to restore the full app.
-  if (true) return <TreeTest />;
-
   const initialProfile = loadStoredProfile();
 
   const [onboardingVisible, setOnboardingVisible] = useState(!initialProfile);
