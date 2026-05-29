@@ -48,14 +48,22 @@ export function DegreeTree({
     return () => { cancelled = true; };
   }, [majorId, mockResponse]);
 
+  const [layoutError, setLayoutError] = useState(null);
   const layout = useMemo(() => {
     if (!apiResponse) return null;
-    const enriched = enrichTreeResponse(apiResponse);
-    const { root, crossBranchEdges } = buildHierarchy(enriched, majorName);
-    const prereqIndex = buildPrereqIndex(enriched.edges ?? []);
-    const derived = deriveStatuses(root, statusMap, prereqIndex);
-    const positioned = layoutTree(derived);
-    return { ...positioned, crossBranchEdges, enriched };
+    try {
+      const enriched = enrichTreeResponse(apiResponse);
+      const { root, crossBranchEdges } = buildHierarchy(enriched, majorName);
+      const prereqIndex = buildPrereqIndex(enriched.edges ?? []);
+      const derived = deriveStatuses(root, statusMap, prereqIndex);
+      const positioned = layoutTree(derived);
+      setLayoutError(null);
+      return { ...positioned, crossBranchEdges, enriched };
+    } catch (err) {
+      console.error("Tree layout error:", err);
+      setLayoutError(err.message ?? "Layout failed");
+      return null;
+    }
   }, [apiResponse, majorName, statusMap]);
 
   const handleStatusChange = useCallback(async (courseId, newStatus) => {
@@ -165,6 +173,11 @@ export function DegreeTree({
       <p style={{ ...stateStyle.text, fontSize: 13, marginTop: 8 }}>
         Start the backend: <code>uvicorn main:app --reload --port 8001</code>
       </p>
+    </div>
+  );
+  if (layoutError) return (
+    <div style={stateStyle.wrap}>
+      <p style={{ ...stateStyle.text, color: "#c0392b" }}>Tree layout error: {layoutError}</p>
     </div>
   );
   if (!layout) return null;
