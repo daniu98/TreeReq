@@ -95,6 +95,63 @@ export function DegreeTree({
     setHoveredCourseId(null);
   }, []);
 
+  // ── All hooks must run before any early return ────────────────────────────
+
+  const edges = layout?.edges ?? [];
+
+  // Map each category to its direct course children (sorted by Y).
+  const categoryDirectCourses = useMemo(() => {
+    const map = new Map();
+    for (const edge of edges) {
+      if (edge.sourceNode.kind === "category" && edge.targetNode.kind === "course") {
+        const catId = edge.sourceNode.id;
+        if (!map.has(catId)) map.set(catId, []);
+        map.get(catId).push(edge.targetNode);
+      }
+    }
+    for (const arr of map.values()) arr.sort((a, b) => a.y - b.y);
+    return map;
+  }, [edges]);
+
+  // IDs hidden because they exceed the collapse threshold.
+  const hiddenNodeIds = useMemo(() => {
+    const hidden = new Set();
+    for (const [catId, directCourses] of categoryDirectCourses) {
+      if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
+      if (expandedCategories.has(catId)) continue;
+      const queue = directCourses.slice(COLLAPSE_THRESHOLD).map((n) => n.id);
+      while (queue.length) {
+        const id = queue.shift();
+        if (hidden.has(id)) continue;
+        hidden.add(id);
+        for (const e of edges) {
+          if (e.sourceNode.id === id && e.targetNode.kind === "course")
+            queue.push(e.targetNode.id);
+        }
+      }
+    }
+    return hidden;
+  }, [categoryDirectCourses, expandedCategories, edges]);
+
+  // Stack placeholder positions for collapsed categories.
+  const stackInfo = useMemo(() => {
+    const stacks = [];
+    for (const [catId, directCourses] of categoryDirectCourses) {
+      if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
+      if (expandedCategories.has(catId)) continue;
+      const last = directCourses[COLLAPSE_THRESHOLD - 1];
+      stacks.push({
+        catId,
+        hiddenCount: directCourses.length - COLLAPSE_THRESHOLD,
+        x: last.x,
+        y: last.y + last.height + 20,
+      });
+    }
+    return stacks;
+  }, [categoryDirectCourses, expandedCategories]);
+
+  // ── Early returns (after all hooks) ───────────────────────────────────────
+
   if (loading) return (
     <div style={stateStyle.wrap}><p style={stateStyle.text}>Loading {majorName ?? majorId}…</p></div>
   );
@@ -108,64 +165,10 @@ export function DegreeTree({
   );
   if (!layout) return null;
 
-  const { nodes, edges, crossBranchEdges, totalWidth, totalHeight, nodeById } = layout;
+  const { nodes, crossBranchEdges, totalWidth, totalHeight, nodeById } = layout;
   const selectedNode = selectedNodeId ? nodeById?.get(selectedNodeId) : null;
 
-  // Map each category to its direct course children (sorted by Y position).
-  const categoryDirectCourses = useMemo(() => {
-    const map = new Map();
-    for (const edge of edges) {
-      if (edge.sourceNode.kind === "category" && edge.targetNode.kind === "course") {
-        const catId = edge.sourceNode.id;
-        if (!map.has(catId)) map.set(catId, []);
-        map.get(catId).push(edge.targetNode);
-      }
-    }
-    // Sort each bucket by Y so first 7 are the topmost courses.
-    for (const arr of map.values()) arr.sort((a, b) => a.y - b.y);
-    return map;
-  }, [edges]);
-
-  // Set of node IDs that should be hidden (beyond threshold in a collapsed category).
-  const hiddenNodeIds = useMemo(() => {
-    const hidden = new Set();
-    for (const [catId, directCourses] of categoryDirectCourses) {
-      if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
-      if (expandedCategories.has(catId)) continue;
-      const toHide = directCourses.slice(COLLAPSE_THRESHOLD);
-      const queue = toHide.map((n) => n.id);
-      while (queue.length) {
-        const id = queue.shift();
-        if (hidden.has(id)) continue;
-        hidden.add(id);
-        for (const e of edges) {
-          if (e.sourceNode.id === id && e.targetNode.kind === "course") {
-            queue.push(e.targetNode.id);
-          }
-        }
-      }
-    }
-    return hidden;
-  }, [categoryDirectCourses, expandedCategories, edges]);
-
-  // Stack placeholder info for each collapsed category that exceeds the threshold.
-  const stackInfo = useMemo(() => {
-    const stacks = [];
-    for (const [catId, directCourses] of categoryDirectCourses) {
-      if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
-      if (expandedCategories.has(catId)) continue;
-      const lastVisible = directCourses[COLLAPSE_THRESHOLD - 1];
-      stacks.push({
-        catId,
-        hiddenCount: directCourses.length - COLLAPSE_THRESHOLD,
-        x: lastVisible.x,
-        y: lastVisible.y + lastVisible.height + 20,
-      });
-    }
-    return stacks;
-  }, [categoryDirectCourses, expandedCategories]);
-
-  // Cross-branch (cross-dept) prereq edges are only shown when hovering a course.
+  // Cross-branch edges only shown when hovering a course.
   const visibleCrossEdges = hoveredCourseId
     ? (crossBranchEdges ?? []).filter(
         (e) => e.source === hoveredCourseId || e.target === hoveredCourseId
