@@ -12,17 +12,16 @@ const NODE_KIND_SIZE = {
   course:   { w: 150, h: 26   },
 };
 
-// Top-to-bottom layout: root at top, sections spread horizontally below it,
-// categories and courses continue downward.
-// HORIZONTAL_SLOT: horizontal space per leaf node (sibling spread left-right).
-// DEPTH_GAP: vertical distance between depth levels (top-to-bottom).
-const HORIZONTAL_SLOT = 180; // px per leaf node (horizontal spread)
-const DEPTH_GAP       = 170; // px between depth levels (vertical)
+// Top-to-bottom layout: root + all section circles share one horizontal row,
+// then categories and courses hang down compactly below each section.
+const HORIZONTAL_SLOT = 40;  // px per leaf node — tight horizontal packing
+const DEPTH_GAP       = 140; // px between depth levels (vertical)
+const SECTION_H_GAP   = 80;  // extra gap between root and first section
 
 export function layoutTree(rootDerived) {
   const root = hierarchy(rootDerived);
 
-  // No axis swap — d3's x is horizontal (sibling spread), y is vertical (depth).
+  // d3 top-to-bottom: x = horizontal (sibling spread), y = vertical (depth).
   const layout = d3tree().nodeSize([HORIZONTAL_SLOT, DEPTH_GAP]);
   layout(root);
 
@@ -44,6 +43,17 @@ export function layoutTree(rootDerived) {
       _hierarchyNode: d,
     };
   });
+
+  // Pull the root node down to the same Y as the section nodes so that
+  // root + Prep + The Major + Capstone all sit in one horizontal row.
+  const sectionNodes = positioned.filter((n) => n.depth === 1);
+  const rootNode     = positioned.find((n)  => n.depth === 0);
+  if (rootNode && sectionNodes.length > 0) {
+    const sectionY   = sectionNodes[0].y;
+    const leftmostX  = Math.min(...sectionNodes.map((n) => n.x));
+    rootNode.y = sectionY;
+    rootNode.x = leftmostX - NODE_KIND_SIZE.section.w - SECTION_H_GAP;
+  }
 
   // Normalize so min-x and min-y start at a margin.
   const xs = positioned.map((n) => n.x);
