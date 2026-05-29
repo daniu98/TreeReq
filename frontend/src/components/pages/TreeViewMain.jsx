@@ -41,7 +41,7 @@ export default function TreeViewMain({ tree, onBack }) {
       </header>
 
       <section className="tree-page__canvas" aria-label={`${tree.name} degree tree`}>
-        <Tree nodes={nodes} />
+        <Tree nodes={getTreeNodes(tree.id)} />
       </section>
     </main>
   );
