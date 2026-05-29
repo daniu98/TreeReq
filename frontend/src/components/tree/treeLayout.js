@@ -12,21 +12,22 @@ const NODE_KIND_SIZE = {
   course:   { w: 150, h: 26   },
 };
 
-// nodeSize vertical slot: must be ≥ the largest circle at that depth (category = 108px)
-// so adjacent 1-course categories get 120px separation → no overlap.
-const VERTICAL_SLOT  = 120; // px per leaf node (course)
-const HORIZONTAL_GAP = 70;  // extra horizontal space between depth columns
+// Left-to-right layout: depth increases horizontally, siblings spread vertically.
+// VERTICAL_SLOT: vertical space per leaf node — must be ≥ tallest node at that
+// depth so adjacent siblings don't overlap (category circles are 108px).
+// DEPTH_GAP: horizontal distance between depth levels.
+const VERTICAL_SLOT = 46;  // px per leaf node (vertical spread)
+const DEPTH_GAP     = 160; // px between depth levels (horizontal)
 
 export function layoutTree(rootDerived) {
   const root = hierarchy(rootDerived);
 
-  const layout = d3tree().nodeSize([
-    VERTICAL_SLOT,
-    NODE_KIND_SIZE.category.w + HORIZONTAL_GAP,
-  ]);
+  // nodeSize([x-slot, y-slot]): d3 uses x for sibling spread, y for depth.
+  // We swap axes so depth goes left→right and siblings spread top→bottom.
+  const layout = d3tree().nodeSize([VERTICAL_SLOT, DEPTH_GAP]);
   layout(root);
 
-  // Swap axes: d3 lays out vertically, we want left→right.
+  // Swap axes: d3's y (depth) → our x (horizontal), d3's x (siblings) → our y (vertical).
   const positioned = root.descendants().map((d) => {
     const size = NODE_KIND_SIZE[d.data.kind] ?? NODE_KIND_SIZE.course;
     return {
@@ -37,11 +38,11 @@ export function layoutTree(rootDerived) {
       completionPercentage: d.data.completionPercentage,
       completed:            d.data.completed,
       unmetPrereqs:         d.data.unmetPrereqs,
-      x:     d.y,   // swapped
-      y:     d.x,   // swapped
-      width: size.w,
+      x:      d.y,   // depth → horizontal
+      y:      d.x,   // siblings → vertical
+      width:  size.w,
       height: size.h,
-      depth: d.depth,
+      depth:  d.depth,
       _hierarchyNode: d,
     };
   });

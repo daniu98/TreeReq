@@ -104,28 +104,21 @@ export function buildHierarchy(apiResponse, majorName) {
       kind: "section",
       id: `sec:${sectionName}`,
       data: { name: sectionName },
-      children: categoryNodes, // mutated below to also include the next section
+      children: categoryNodes,
     };
   }
 
-  // Chain sections sequentially: root -> sec1 -> sec2 -> sec3, where each
-  // section also has its categories as siblings of the next section. This
-  // keeps sections at distinct depths so they spread horizontally instead of
-  // stacking in one column.
+  // All sections are direct children of root so they appear in the same
+  // column, stacked vertically — Preparation, The Major, Capstone side by side.
   const sectionEntries = Array.from(sectionMap.entries());
   const sectionNodes = sectionEntries.map(([name, reqs]) => buildSection(name, reqs));
-  for (let i = 0; i < sectionNodes.length - 1; i++) {
-    sectionNodes[i].children.push(sectionNodes[i + 1]);
-  }
-  // The root only owns the first section in the chain.
-  const firstSection = sectionNodes[0] ? [sectionNodes[0]] : [];
 
   return {
     root: {
       kind: "root",
       id: `root:${root}`,
       data: { name: majorName ?? root, major_id: root },
-      children: firstSection,
+      children: sectionNodes,
     },
     crossBranchEdges,
   };
