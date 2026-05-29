@@ -1,0 +1,1164 @@
+{
+  "major_id": "biophysics-bs",
+  "major_name": "Biophysics BS",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/BiophysicsBS",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PHYSICS 1A",
+        "PHYSICS 1B",
+        "PHYSICS 1C",
+        "PHYSICS 4AL",
+        "PHYSICS 4BL",
+        "PHYSICS 17",
+        "PHYSICS 32",
+        "CHEM 20A",
+        "CHEM 20B",
+        "LIFESCI 7A",
+        "MATH 31A",
+        "MATH 31B",
+        "MATH 32A",
+        "MATH 32B",
+        "MATH 33A",
+        "MATH 33B"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PHYSICS 105A",
+        "PHYSICS 110A",
+        "PHYSICS 110B",
+        "PHYSICS 112",
+        "PHYSICS 115A",
+        "PHYSICS 115B",
+        "PHYSICS M180G",
+        "PHYSICS C187A",
+        "PHYSICS C187B"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 3,
+          "courses": [
+            "NEUROSC M101A",
+            "PHYSICS 170A",
+            "PHYSICS C186",
+            "PHYSICS 144",
+            "MECH&AE C286",
+            "CHEM 153A",
+            "CHEM 153L",
+            "MCD BIO 100",
+            "MCD BIO 165A"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "CHEM": [
+      "CHEM 153A",
+      "CHEM 153L",
+      "CHEM 20A",
+      "CHEM 20B"
+    ],
+    "LIFESCI": [
+      "LIFESCI 7A"
+    ],
+    "MATH": [
+      "MATH 31A",
+      "MATH 31AL",
+      "MATH 31B",
+      "MATH 32A",
+      "MATH 32B",
+      "MATH 33A",
+      "MATH 33B"
+    ],
+    "MCD BIO": [
+      "MCD BIO 100",
+      "MCD BIO 165A"
+    ],
+    "MECH&AE": [
+      "MECH&AE C286"
+    ],
+    "NEUROSC": [
+      "NEUROSC M101A"
+    ],
+    "PHYSICS": [
+      "PHYSICS 105A",
+      "PHYSICS 110A",
+      "PHYSICS 110B",
+      "PHYSICS 112",
+      "PHYSICS 115A",
+      "PHYSICS 115B",
+      "PHYSICS 144",
+      "PHYSICS 17",
+      "PHYSICS 170A",
+      "PHYSICS 18L",
+      "PHYSICS 199",
+      "PHYSICS 1A",
+      "PHYSICS 1AH",
+      "PHYSICS 1B",
+      "PHYSICS 1BH",
+      "PHYSICS 1C",
+      "PHYSICS 1CH",
+      "PHYSICS 32",
+      "PHYSICS 4AL",
+      "PHYSICS 4BL",
+      "PHYSICS C186",
+      "PHYSICS C187A",
+      "PHYSICS C187B",
+      "PHYSICS M180G"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "CHEM 153A",
+      "dept": "CHEM",
+      "number": "153A",
+      "title": "Biochemistry: Introduction to Structure, Enzymes, and Metabolism",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C\u2013 or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CHEM 14D",
+          "CHEM 30B"
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 153L"
+      ]
+    },
+    {
+      "course_id": "CHEM 153L",
+      "dept": "CHEM",
+      "number": "153L",
+      "title": "Biochemical Methods I",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, four hours. Requisites: courses 14BL or 20L and 30AL, and 153A or 153AH (may be taken concurrently), with grades of C\u2013 or better. Integrated term-long project involving biofuel production in bacteria. Purification of key enzyme for alcohol production from bacteria via affinity chromatography. Assessment of protein\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 14BL or 20L and 30AL, and 153A or 153AH (may be taken concurrently), with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 30AL"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14BL",
+            "CHEM 20L"
+          ],
+          [
+            "CHEM 153A",
+            "CHEM 153AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 20A",
+      "dept": "CHEM",
+      "number": "20A",
+      "title": "Chemical Structure",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 20B",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "CHEM 20B",
+      "dept": "CHEM",
+      "number": "20B",
+      "title": "Chemical Energetics and Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7A",
+      "dept": "LIFESCI",
+      "number": "7A",
+      "title": "Cell and Molecular Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Introduction to basic principles of cell structure and cell biology, biochemistry, and molecular biology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 20A",
+        "CHEM 20B",
+        "MATH 31B",
+        "MATH 32A",
+        "PHYSICS 1A",
+        "PHYSICS 1AH"
+      ]
+    },
+    {
+      "course_id": "MATH 31AL",
+      "dept": "MATH",
+      "number": "31AL",
+      "title": "Differential and Integral Calculus Laboratory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 20B",
+        "MATH 33B",
+        "PHYSICS 1A",
+        "PHYSICS 1AH",
+        "PHYSICS 1B",
+        "PHYSICS 1BH"
+      ]
+    },
+    {
+      "course_id": "MATH 32A",
+      "dept": "MATH",
+      "number": "32A",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1A",
+        "PHYSICS 1AH",
+        "PHYSICS 1B",
+        "PHYSICS 1BH",
+        "PHYSICS 1C",
+        "PHYSICS 1CH",
+        "PHYSICS 32"
+      ]
+    },
+    {
+      "course_id": "MATH 32B",
+      "dept": "MATH",
+      "number": "32B",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PHYSICS 170A",
+        "PHYSICS 1B",
+        "PHYSICS 1BH",
+        "PHYSICS 1C",
+        "PHYSICS 1CH",
+        "PHYSICS 32"
+      ]
+    },
+    {
+      "course_id": "MATH 33A",
+      "dept": "MATH",
+      "number": "33A",
+      "title": "Linear Algebra and Applications",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PHYSICS 170A",
+        "PHYSICS 1C",
+        "PHYSICS 1CH",
+        "PHYSICS 32",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "MATH 33B",
+      "dept": "MATH",
+      "number": "33B",
+      "title": "Differential Equations",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 105A",
+        "PHYSICS 170A",
+        "PHYSICS 32"
+      ]
+    },
+    {
+      "course_id": "MCD BIO 100",
+      "dept": "MCD BIO",
+      "number": "100",
+      "title": "Introduction to Cell Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Not open for credit to Molecular, Cell, and Developmental Biology majors or to students with credit for course 165A. Analysis of cell organization, structure, and function at molecular level. Cell membranes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C",
+            "MCD BIO 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO 165A",
+      "dept": "MCD BIO",
+      "number": "165A",
+      "title": "Biology of Cells",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14D or 30B, Life Sciences 3, or 7A, 7B, and 7C. Not open for credit to students with credit for course 100. Molecular basis of cellular structure and function, with focus on each individual cellular organelle, as well as interaction of cells\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14D or 30B, Life Sciences 3, or 7A, 7B, and 7C.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 3"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14D",
+            "CHEM 30B"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MECH&AE C286",
+      "dept": "MECH&AE",
+      "number": "C286",
+      "title": "Applied Optics",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Physics 1C. Fundamental principles of optical systems. Geometric optics and aberration theory. Diffraction and interference. Fourier optics, beam optics. Propagation of light, Snell\u2019s law, and Huygen principle. Refraction and reflection. Plane waves, spherical waves, and image formation. Total internal\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Physics 1C.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NEUROSC M101A",
+      "dept": "NEUROSC",
+      "number": "M101A",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dCellular and Systems Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C\u2013 or better to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 105A",
+      "dept": "PHYSICS",
+      "number": "105A",
+      "title": "Analytic Mechanics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 32. Corequisite: Mathematics 33B. Newtonian mechanics and conservation laws, gravitational potentials, calculus of variations, Lagrangian and Hamiltonian mechanics, central force motion, linear and nonlinear oscillations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 32. Corequisite: Mathematics 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 32"
+        ],
+        "corequisites": [
+          "MATH 33B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 115A",
+        "PHYSICS C187A",
+        "PHYSICS C187B"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 110A",
+      "dept": "PHYSICS",
+      "number": "110A",
+      "title": "Electricity and Magnetism",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 32. Electrostatics and magnetostatics. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 32.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 32"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 110B",
+        "PHYSICS C187A",
+        "PHYSICS C187B"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 110B",
+      "dept": "PHYSICS",
+      "number": "110B",
+      "title": "Electricity and Magnetism",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 110A. Corequisite: course 105B. Maxwell\u2019s equations, electromagnetic waves, potential and fields, radiation, Lorentz invariance. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 110A. Corequisite: course 105B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 110A"
+        ],
+        "corequisites": [
+          "PHYSICS 105B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS M180G"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 112",
+      "dept": "PHYSICS",
+      "number": "112",
+      "title": "Thermal Physics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: course 115A. Corequisite: course 115B. Fundamentals of thermodynamics and statistical mechanics. Classical and quantum ensembles. Simple applications including heat engines and pumps. Degenerate Fermi gases, Bose condensates, and blackbody radiation. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: course 115A. Corequisite: course 115B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 115A"
+        ],
+        "corequisites": [
+          "PHYSICS 115B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 115A",
+      "dept": "PHYSICS",
+      "number": "115A",
+      "title": "Quantum Mechanics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 17, 32, 105A. Classical background. Basic ideas of quantum nature of light, wave-particle duality, Heisenberg uncertainty principle, Schr\u00f6dinger equation. One-dimensional square well and harmonic oscillator problems. One-dimensional scattering, Formal theory, Hilbert spaces, and Dirac notation. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 17, 32, 105A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 17",
+          "PHYSICS 32",
+          "PHYSICS 105A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 112",
+        "PHYSICS 115B",
+        "PHYSICS C187A",
+        "PHYSICS C187B",
+        "PHYSICS M180G"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 115B",
+      "dept": "PHYSICS",
+      "number": "115B",
+      "title": "Quantum Mechanics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A. Corequisite: course 105B. Three-dimensional problems. Central potentials. Hydrogen atom. Angular momentum and spin, identical particles, and Pauli exclusion principle. Electrons in electromagnetic field. Symmetries. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 115A. Corequisite: course 105B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 115A"
+        ],
+        "corequisites": [
+          "PHYSICS 105B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 112"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 144",
+      "dept": "PHYSICS",
+      "number": "144",
+      "title": "Polymer Physics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 105A, 110A, and 112 or Chemistry 110A. How physical properties of polymers can be derived from mathematical models of chains and coils. Comparison of these models to calculations based on random walk problem and used to predict mechanical characteristics of large\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 105A, 110A, and 112 or Chemistry 110A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 17",
+      "dept": "PHYSICS",
+      "number": "17",
+      "title": "Modern Physics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH). Corequisite: course 32. Photons, black-body radiation, photoelectric effect, uncertainty principle, Bohr atom, Schr\u00f6dinger equation, hydrogen atom, and selected topics in atomic, solid-state, nuclear, and particle physics. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH). Corequisite: course 32.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "PHYSICS 1C"
+        ],
+        "corequisites": [
+          "PHYSICS 32"
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1BH",
+            "PHYSICS 1CH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 115A",
+        "PHYSICS 18L"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 170A",
+      "dept": "PHYSICS",
+      "number": "170A",
+      "title": "Electronics for Physics Measurement",
+      "units": 4.0,
+      "description": "(Formerly numbered 117.) Lecture, two hours; laboratory, four hours. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B. Hands-on experimental course to develop understanding of design principles in modern electronics for physics measurements. Broad introduction to analog and digital electronics from practical viewpoint, followed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "PHYSICS 1C",
+          "MATH 32B",
+          "MATH 33A",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1BH",
+            "PHYSICS 1CH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 18L",
+      "dept": "PHYSICS",
+      "number": "18L",
+      "title": "Modern Physics Laboratory",
+      "units": 4.0,
+      "description": "Lecture, one hour; laboratory, six hours. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 4AL, 4BL, 17. Experiments on radioactivity, scattering, Planck constant, superconductivity, superfluidity. Letter grading.",
+      "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 4AL, 4BL, 17.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "PHYSICS 1C",
+          "PHYSICS 4AL",
+          "PHYSICS 4BL",
+          "PHYSICS 17"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1BH",
+            "PHYSICS 1CH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 199",
+      "dept": "PHYSICS",
+      "number": "199",
+      "title": "Directed Research or Senior Project in Physics",
+      "units": 2.0,
+      "description": "Tutorial, two hours. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "dept": "PHYSICS",
+      "number": "1A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 17",
+        "PHYSICS 170A",
+        "PHYSICS 18L",
+        "PHYSICS 1B",
+        "PHYSICS 1BH",
+        "PHYSICS 1C",
+        "PHYSICS 1CH",
+        "PHYSICS 32",
+        "PHYSICS 4AL",
+        "PHYSICS 4BL",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1AH",
+      "dept": "PHYSICS",
+      "number": "1AH",
+      "title": "Physics for Scientists and Engineers: Mechanics (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Recommended corequisite: Mathematics 32B. Enriched preparation for upper-division physics courses. Same material as course 1A but in greater depth; recommended for Physics majors and other students desiring such coverage. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 17",
+        "PHYSICS 170A",
+        "PHYSICS 18L",
+        "PHYSICS 1BH",
+        "PHYSICS 1CH",
+        "PHYSICS 32",
+        "PHYSICS 4AL",
+        "PHYSICS 4BL"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1B",
+      "dept": "PHYSICS",
+      "number": "1B",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Fluid mechanics, oscillation, mechanical waves, and sound. Electric charge, field and potential, capacitors, and dielectrics. Currents and resistance, direct-current circuits. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 17",
+        "PHYSICS 170A",
+        "PHYSICS 18L",
+        "PHYSICS 1C",
+        "PHYSICS 1CH",
+        "PHYSICS 32",
+        "PHYSICS 4AL",
+        "PHYSICS 4BL",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1BH",
+      "dept": "PHYSICS",
+      "number": "1BH",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Recommended corequisite: Mathematics 33A. Enriched preparation for upper-division physics courses. Same material as course 1B but in greater depth; recommended for Physics majors and other students desiring such coverage. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1AH",
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 17",
+        "PHYSICS 170A",
+        "PHYSICS 18L",
+        "PHYSICS 1CH",
+        "PHYSICS 32",
+        "PHYSICS 4AL",
+        "PHYSICS 4BL"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1C",
+      "dept": "PHYSICS",
+      "number": "1C",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MECH&AE C286",
+        "PHYSICS 17",
+        "PHYSICS 170A",
+        "PHYSICS 18L",
+        "PHYSICS 32",
+        "PHYSICS 4BL",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1CH",
+      "dept": "PHYSICS",
+      "number": "1CH",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Recommended corequisite: Mathematics 33B. Enriched preparation for upper-division physics courses. Same material as course 1C but in greater depth; recommended for Physics majors and other students desiring such\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1AH",
+          "PHYSICS 1A",
+          "PHYSICS 1BH",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1A"
+          ],
+          [
+            "PHYSICS 1BH",
+            "PHYSICS 1B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 17",
+        "PHYSICS 170A",
+        "PHYSICS 18L",
+        "PHYSICS 32",
+        "PHYSICS 4BL"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 32",
+      "dept": "PHYSICS",
+      "number": "32",
+      "title": "Mathematical Methods",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, 1C (or 1AH, 1BH, 1CH), Mathematics 32A, 32B, 33A. Corequisite: Mathematics 33B. Vectors and fields; operators and transformations; matrices, tensors, and differential forms; ordinary differential equations and integral theorems; Fourier transform. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 1A, 1B, 1C (or 1AH, 1BH, 1CH), Mathematics 32A, 32B, 33A. Corequisite: Mathematics 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "PHYSICS 1C",
+          "MATH 32A",
+          "MATH 32B",
+          "MATH 33A"
+        ],
+        "corequisites": [
+          "MATH 33B"
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1BH",
+            "PHYSICS 1CH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 105A",
+        "PHYSICS 110A",
+        "PHYSICS 115A",
+        "PHYSICS 17"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 4AL",
+      "dept": "PHYSICS",
+      "number": "4AL",
+      "title": "Physics Laboratory for Scientists and Engineers: Mechanics",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisite: course 1A or 1AH. Enforced corequisite: course 1B or 1BH. Computerized measurements of uniform and accelerated motion, including oscillations. Analysis of data and comparison of results to predictions, including least-squares fitting. Conception, execution, and presentation of creative projects involving motion. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1A or 1AH. Enforced corequisite: course 1B or 1BH.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1AH"
+        ],
+        "corequisites": [
+          "PHYSICS 1B",
+          "PHYSICS 1BH"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 18L"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 4BL",
+      "dept": "PHYSICS",
+      "number": "4BL",
+      "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          [
+            "PHYSICS 1C",
+            "PHYSICS 1CH"
+          ]
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1A",
+            "PHYSICS 1AH"
+          ],
+          [
+            "PHYSICS 1B",
+            "PHYSICS 1BH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 18L"
+      ]
+    },
+    {
+      "course_id": "PHYSICS C186",
+      "dept": "PHYSICS",
+      "number": "C186",
+      "title": "Neurophysics: Brain-Mind Problem",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A. How does mind emerge from brain? Provides summary of basic biophysics of neurons, synapses, and plasticity. Introduction to commonly\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 3A",
+          "MATH 3B",
+          "MATH 3C",
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PHYSICS 1A",
+            "PHYSICS 1B",
+            "PHYSICS 1C"
+          ],
+          [
+            "PHYSICS 5A",
+            "PHYSICS 5B",
+            "PHYSICS 5C"
+          ],
+          [
+            "PHYSICS 6A",
+            "PHYSICS 6B",
+            "PHYSICS 6C"
+          ],
+          [
+            "CHEM 14A",
+            "CHEM 20A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS C187A",
+      "dept": "PHYSICS",
+      "number": "C187A",
+      "title": "Biological Physics I: Life at Rest",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisites: courses 105A, 110A, 115A, Chemistry 110A, Molecular, Cell, and Developmental Biology 100 (or M140 or 165A). Equilibrium phenomena. Application of basic mechanics, optics, and thermodynamics to biological design: structure of skeleton, scaling of bone and muscle mass, swim bladders, and animal vision. Application of elementary\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 105A, 110A, 115A, Chemistry 110A, Molecular, Cell, and Developmental Biology 100 (or M140 or 165A).",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 105A",
+          "PHYSICS 110A",
+          "PHYSICS 115A",
+          "CHEM 110A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCDB 100",
+            "MCDB 140",
+            "MCDB 165A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS C187B"
+      ]
+    },
+    {
+      "course_id": "PHYSICS C187B",
+      "dept": "PHYSICS",
+      "number": "C187B",
+      "title": "Biological Physics II: Life in Motion",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisites: courses 105A, 110A, 115A, C187A, Chemistry 110A, Molecular, Cell, and Developmental Biology 100. Nonequilibrium phenomena. Application of mechanics, hydrodynamics, diffusion, and electrical transport to dynamical phenomena. Macroscopic phenomena: swimming, flying, thermoregulation, blood circulation, breathing, electrical transport along membranes. Physics of cells: Brownian motion, molecular motors,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 105A, 110A, 115A, C187A, Chemistry 110A, Molecular, Cell, and Developmental Biology 100.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 105A",
+          "PHYSICS 110A",
+          "PHYSICS 115A",
+          "PHYSICS C187A",
+          "CHEM 110A",
+          "MOL BIO 100"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS M180G",
+      "dept": "PHYSICS",
+      "number": "M180G",
+      "title": "Soft Matter Laboratory",
+      "units": 4.0,
+      "description": "(Same as Chemistry M120.) Lecture, 90 minutes; laboratory, four hours. Requisites: courses 110B, 115A. Students gain experience of conducting independent research in experimental biological physics. Construction of modern microscope. Use of microscope to image biological specimens. Students learn optics, diffraction, imaging, microscopy, computational physics, and/or fluorescent labeling. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 110B, 115A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 110B",
+          "PHYSICS 115A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

@@ -1,0 +1,4456 @@
+{
+  "major_id": "asian-studies-ba",
+  "major_name": "Asian Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/AsianStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "I A STD 1"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ART HIS 29",
+            "ART HIS 31",
+            "ASIAN 30",
+            "CHIN 40",
+            "CHIN 50",
+            "CHIN 50W",
+            "CHIN M60",
+            "CHIN M60W",
+            "CHIN 80",
+            "CLUSTER 25A",
+            "HIST 9A",
+            "HIST 9C",
+            "HIST 9E",
+            "HIST 11B",
+            "HIST 97G",
+            "HIST 97M",
+            "HIST 97N",
+            "I A STD 31",
+            "I A STD 33",
+            "JAPAN 50",
+            "JAPAN 70",
+            "JAPAN 75",
+            "JAPAN 80",
+            "KOREA 40W",
+            "KOREA 50",
+            "KOREA M60",
+            "KOREA 70",
+            "KOREA 80"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ECON 1",
+            "ECON 2",
+            "GEOG 4",
+            "GEOG 6",
+            "POL SCI 50",
+            "SOCIOL 1"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ANTHRO 3",
+            "COM LIT 1D",
+            "COM LIT 2DW",
+            "COM LIT 4DW",
+            "ETHNMUS 5",
+            "ETHNMUS M25",
+            "GEOG 3",
+            "HIST 2B",
+            "HIST 22",
+            "WL ARTS 20",
+            "WL ARTS 33"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHIN 6",
+            "CHIN 6A",
+            "FILIPNO 6",
+            "HIN-URD 100C",
+            "INDO 6",
+            "JAPAN 6",
+            "KOREA 6",
+            "THAI 6",
+            "VIETMSE 6"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ANTHRO": [
+      "ANTHRO 116P",
+      "ANTHRO 116Q",
+      "ANTHRO 130",
+      "ANTHRO 140",
+      "ANTHRO 143",
+      "ANTHRO 146",
+      "ANTHRO 147",
+      "ANTHRO 163P",
+      "ANTHRO 163Q",
+      "ANTHRO 163R",
+      "ANTHRO 3",
+      "ANTHRO M145T"
+    ],
+    "ART HIS": [
+      "ART HIS 150A",
+      "ART HIS 152A",
+      "ART HIS 154A",
+      "ART HIS 154B",
+      "ART HIS 154D",
+      "ART HIS 156",
+      "ART HIS 29",
+      "ART HIS 31",
+      "ART HIS C148A",
+      "ART HIS C148B",
+      "ART HIS C148C",
+      "ART HIS C148D",
+      "ART HIS C148E",
+      "ART HIS C150B",
+      "ART HIS C152B",
+      "ART HIS C152C",
+      "ART HIS C152D",
+      "ART HIS C154C",
+      "ART HIS C160"
+    ],
+    "ASIA AM": [
+      "ASIA AM 111",
+      "ASIA AM 113",
+      "ASIA AM 121",
+      "ASIA AM 122B",
+      "ASIA AM 130A",
+      "ASIA AM 131A",
+      "ASIA AM 131B",
+      "ASIA AM 131C",
+      "ASIA AM 132A",
+      "ASIA AM 133",
+      "ASIA AM 134",
+      "ASIA AM 171A",
+      "ASIA AM 171B",
+      "ASIA AM 171C",
+      "ASIA AM 171E",
+      "ASIA AM M130C",
+      "ASIA AM M171D"
+    ],
+    "ASIAN": [
+      "ASIAN 151",
+      "ASIAN 161",
+      "ASIAN 162",
+      "ASIAN 30"
+    ],
+    "CHIN": [
+      "CHIN 124",
+      "CHIN 125",
+      "CHIN 130B",
+      "CHIN 131",
+      "CHIN 139",
+      "CHIN 151",
+      "CHIN 152",
+      "CHIN 155",
+      "CHIN 165",
+      "CHIN 174",
+      "CHIN 176",
+      "CHIN 180",
+      "CHIN 185",
+      "CHIN 186",
+      "CHIN 191A",
+      "CHIN 191B",
+      "CHIN 40",
+      "CHIN 50",
+      "CHIN 50W",
+      "CHIN 6",
+      "CHIN 6A",
+      "CHIN 80",
+      "CHIN C120",
+      "CHIN C144",
+      "CHIN C150A",
+      "CHIN C150B",
+      "CHIN C156",
+      "CHIN C175",
+      "CHIN CM160",
+      "CHIN M183",
+      "CHIN M60",
+      "CHIN M60W"
+    ],
+    "CLUSTER": [
+      "CLUSTER 25A"
+    ],
+    "COM LIT": [
+      "COM LIT 100",
+      "COM LIT 1D",
+      "COM LIT 2DW",
+      "COM LIT 4DW",
+      "COM LIT C178",
+      "COM LIT M176"
+    ],
+    "COMM": [
+      "COMM 179"
+    ],
+    "ECON": [
+      "ECON 1",
+      "ECON 111",
+      "ECON 112",
+      "ECON 121",
+      "ECON 122",
+      "ECON 2"
+    ],
+    "ENVIRON": [
+      "ENVIRON 134",
+      "ENVIRON M133"
+    ],
+    "ETHNMUS": [
+      "ETHNMUS 146",
+      "ETHNMUS 147",
+      "ETHNMUS 157",
+      "ETHNMUS 160",
+      "ETHNMUS 161B",
+      "ETHNMUS 5",
+      "ETHNMUS C150",
+      "ETHNMUS C156A",
+      "ETHNMUS C159",
+      "ETHNMUS M25"
+    ],
+    "FILIPNO": [
+      "FILIPNO 155",
+      "FILIPNO 170",
+      "FILIPNO 6"
+    ],
+    "FILM TV": [
+      "FILM TV 112"
+    ],
+    "GENDER": [
+      "GENDER M164A",
+      "GENDER M170C",
+      "GENDER M173B"
+    ],
+    "GEOG": [
+      "GEOG 139C",
+      "GEOG 140",
+      "GEOG 141",
+      "GEOG 148",
+      "GEOG 150",
+      "GEOG 158",
+      "GEOG 161",
+      "GEOG 175A",
+      "GEOG 175B",
+      "GEOG 176A",
+      "GEOG 3",
+      "GEOG 4",
+      "GEOG 6",
+      "GEOG M127",
+      "GEOG M131"
+    ],
+    "HIN-URD": [
+      "HIN-URD 100C"
+    ],
+    "HIST": [
+      "HIST 11B",
+      "HIST 152",
+      "HIST 169A",
+      "HIST 170A",
+      "HIST 170B",
+      "HIST 170D",
+      "HIST 172A",
+      "HIST 172B",
+      "HIST 172C",
+      "HIST 174A",
+      "HIST 174C",
+      "HIST 175A",
+      "HIST 175C",
+      "HIST 176A",
+      "HIST 176B",
+      "HIST 176C",
+      "HIST 22",
+      "HIST 2B",
+      "HIST 97G",
+      "HIST 97M",
+      "HIST 97N",
+      "HIST 9A",
+      "HIST 9C",
+      "HIST 9E",
+      "HIST M173C",
+      "HIST M174D",
+      "HIST M174G",
+      "HIST M186B"
+    ],
+    "HNRS": [
+      "HNRS M152"
+    ],
+    "I A STD": [
+      "I A STD 1",
+      "I A STD 191",
+      "I A STD 198A",
+      "I A STD 198B",
+      "I A STD 198C",
+      "I A STD 31",
+      "I A STD 33"
+    ],
+    "INDO": [
+      "INDO 6"
+    ],
+    "INTL DV": [
+      "INTL DV 110",
+      "INTL DV 130"
+    ],
+    "JAPAN": [
+      "JAPAN 124",
+      "JAPAN 130A",
+      "JAPAN 130B",
+      "JAPAN 130C",
+      "JAPAN 151",
+      "JAPAN 154",
+      "JAPAN 155",
+      "JAPAN 161",
+      "JAPAN 165",
+      "JAPAN 170",
+      "JAPAN 172",
+      "JAPAN 174",
+      "JAPAN 191B",
+      "JAPAN 50",
+      "JAPAN 6",
+      "JAPAN 70",
+      "JAPAN 75",
+      "JAPAN 80",
+      "JAPAN C182",
+      "JAPAN CM127",
+      "JAPAN CM160",
+      "JAPAN M156"
+    ],
+    "KOREA": [
+      "KOREA 148A",
+      "KOREA 153",
+      "KOREA 154",
+      "KOREA 155",
+      "KOREA 165",
+      "KOREA 172",
+      "KOREA 179",
+      "KOREA 180A",
+      "KOREA 180B",
+      "KOREA 180C",
+      "KOREA 182",
+      "KOREA 183",
+      "KOREA 184A",
+      "KOREA 184B",
+      "KOREA 185",
+      "KOREA 187",
+      "KOREA 191A",
+      "KOREA 191B",
+      "KOREA 40W",
+      "KOREA 50",
+      "KOREA 6",
+      "KOREA 70",
+      "KOREA 80",
+      "KOREA C105A",
+      "KOREA C105B",
+      "KOREA C105C",
+      "KOREA C150",
+      "KOREA C151",
+      "KOREA C177",
+      "KOREA CM127",
+      "KOREA CM160",
+      "KOREA M186",
+      "KOREA M60"
+    ],
+    "MGMT": [
+      "MGMT 109",
+      "MGMT 127C"
+    ],
+    "POL SCI": [
+      "POL SCI 123A",
+      "POL SCI 124A",
+      "POL SCI 125A",
+      "POL SCI 126",
+      "POL SCI 129",
+      "POL SCI 134",
+      "POL SCI 137A",
+      "POL SCI 150",
+      "POL SCI 158",
+      "POL SCI 159A",
+      "POL SCI 159B",
+      "POL SCI 160",
+      "POL SCI 166",
+      "POL SCI 167D",
+      "POL SCI 168",
+      "POL SCI 50",
+      "POL SCI M122B",
+      "POL SCI M167C"
+    ],
+    "S ASIAN": [
+      "S ASIAN 155",
+      "S ASIAN CM160"
+    ],
+    "SEASIAN": [
+      "SEASIAN 130",
+      "SEASIAN 135",
+      "SEASIAN C140",
+      "SEASIAN C150"
+    ],
+    "SOCIOL": [
+      "SOCIOL 1",
+      "SOCIOL 116",
+      "SOCIOL 151",
+      "SOCIOL 154",
+      "SOCIOL 181A",
+      "SOCIOL 181B",
+      "SOCIOL 182",
+      "SOCIOL 183",
+      "SOCIOL 191D",
+      "SOCIOL 191F"
+    ],
+    "THAI": [
+      "THAI 6"
+    ],
+    "THEATER": [
+      "THEATER 102A"
+    ],
+    "URBN PL": [
+      "URBN PL M165"
+    ],
+    "VIETMSE": [
+      "VIETMSE 180B",
+      "VIETMSE 6",
+      "VIETMSE CM155",
+      "VIETMSE M186"
+    ],
+    "WL ARTS": [
+      "WL ARTS 20",
+      "WL ARTS 33"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ANTHRO 116P",
+      "dept": "ANTHRO",
+      "number": "116P",
+      "title": "Archaeology of South Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Archaeology of Harappan, early historic, and medieval periods in Indian subcontinent. Investigation of large-scale social movements such as Buddhism, as well as consideration of how past is interpreted in present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 116Q",
+      "dept": "ANTHRO",
+      "number": "116Q",
+      "title": "Selected Topics in Archaeology of China",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of current developments and key issues in archaeology of early Chinese civilizations. Consult Schedule of Classes for topics and instructors. May be repeated for credit with topic change. P/NP or Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 130",
+      "dept": "ANTHRO",
+      "number": "130",
+      "title": "Study of Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 140",
+      "dept": "ANTHRO",
+      "number": "140",
+      "title": "Study of Social Systems",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 3. Introduction to more specialized social anthropology courses. Evaluation of variation in sociocultural systems, with special emphasis on forms of inequality. Basic frameworks of anthropological analysis; historical context and development of social anthropology discipline. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 143",
+      "dept": "ANTHRO",
+      "number": "143",
+      "title": "Economic Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3. Introduction to anthropological perspectives for interpretation of economic life and institutions. Economic facts to be placed in their larger social, political, and cultural contexts; examination of modes of production, distribution, and consumption of goods and services in their relation to social networks, power structures,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 146",
+      "dept": "ANTHRO",
+      "number": "146",
+      "title": "Urban Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for junior/senior social sciences majors. Introduction to modern industrial cities and urban life. Examination of notion of urban space in context of social relations by drawing from historical and cross-cultural urban ethnographies. Urban space is created according to needs of capital\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 147",
+      "dept": "ANTHRO",
+      "number": "147",
+      "title": "Development Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. Comparative study of planned and unplanned development, in particular as it affects rural societies. Emphasis on impact of capital, technological change and gender differences, economic differentiation and class, urban/rural relations, and migration. Discussion of theoretical issues\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 163P",
+      "dept": "ANTHRO",
+      "number": "163P",
+      "title": "Ideology and Social Change in Contemporary China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Introduction to sociocultural changes in China from 1949 to present. Topics include ideology and politics in everyday life, social stratification and mobility, cultural construction of socialist person, changes in courtship, marriage, and family, and political economy of reforms in post-Mao era. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 163Q",
+      "dept": "ANTHRO",
+      "number": "163Q",
+      "title": "Societies of Central Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Overview of culture and society among diverse peoples of Inner Asia, including Mongolia, Tibet, and Soviet Central Asia. Topics include environment and economic adaptation, politics in traditional isolation and within framework of recent national integration, kinship, forms of marriage and status of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 163R",
+      "dept": "ANTHRO",
+      "number": "163R",
+      "title": "Japan",
+      "units": 4.0,
+      "description": "Lecture, three hours. Overview of contemporary Japanese society. General introduction, kinship, marriage and family life, social mobility and education, norms and values, religions, patterns of interpersonal relations, social deviance. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 3",
+      "dept": "ANTHRO",
+      "number": "3",
+      "title": "Culture and Society",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor\u2019s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 130",
+        "ANTHRO 140",
+        "ANTHRO 143",
+        "ANTHRO 147"
+      ]
+    },
+    {
+      "course_id": "ANTHRO M145T",
+      "dept": "ANTHRO",
+      "number": "M145T",
+      "title": "Women's Voices: Their Critique of Anthropology of Japan",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M154T.) Lecture, three hours. Preparation: introductory sociocultural anthropology course. Anthropology of Japan has long viewed Japan as homogeneous whole. Restoration of diversity and contradiction in it by listening to voices of Japanese women in various historical contexts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 150A",
+      "dept": "ART HIS",
+      "number": "150A",
+      "title": "Japanese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Japanese art from its beginning in prehistory through 19th century. Emphasis on development of Buddhist art and its relationship with culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS C150B"
+      ]
+    },
+    {
+      "course_id": "ART HIS 152A",
+      "dept": "ART HIS",
+      "number": "152A",
+      "title": "Arts of Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; museum field trip. Introduction to arts and archaeology on Korean peninsula from Neolithic beginnings to early 20th century through analysis and discussion of selection of monuments and objects within technological, stylistic, religious, cultural, and sociopolitical contexts. Examination of construction of concepts of history and art under colonial\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 154A",
+      "dept": "ART HIS",
+      "number": "154A",
+      "title": "Early Art of India",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of Indian art from Indus Valley cultures to 10th century. Emphasis on Buddhist and Hindu backgrounds of arts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS C154C"
+      ]
+    },
+    {
+      "course_id": "ART HIS 154B",
+      "dept": "ART HIS",
+      "number": "154B",
+      "title": "Later Art of India",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of Indian art from 10th to 19th century. Decline of Buddhist art, last efflorescence of Hindu architecture, Muslim painting and architecture, and Rajput painting. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 154D",
+      "dept": "ART HIS",
+      "number": "154D",
+      "title": "Modern and Contemporary South Asian Art",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Topics in modern and contemporary South Asian art from 1900 to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 156",
+      "dept": "ART HIS",
+      "number": "156",
+      "title": "Arts of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Southeast Asian art from its beginning in prehistory through 19th century. Study of art of selected cultures from Burma, Malaysia, Thailand, Cambodia, Vietnam, and Indonesia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 29",
+      "dept": "ART HIS",
+      "number": "29",
+      "title": "Chinese Art",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. General introduction to Chinese art, covering all major periods from Neolithic to modern age. Presentation of monuments as well as artifacts in variety of media in their social and historical contexts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 31",
+      "dept": "ART HIS",
+      "number": "31",
+      "title": "Art of India and Southeast Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. Discussion of selection of monuments and objects from Indian subcontinent and Southeast Asia using key historical, cultural, and religious concepts. Analysis of each monument or object in detail, with their relationships compared and contrasted. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148A",
+      "dept": "ART HIS",
+      "number": "C148A",
+      "title": "Art and Material Culture, Neolithic to 210 BC",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Genesis of Chinese civilization in light of new archaeological finds, including sites and works of art (e.g., ceramics, bronzes, jades). Concurrently scheduled with course C248A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148B",
+      "dept": "ART HIS",
+      "number": "C148B",
+      "title": "Art and Material Culture of Early Imperial China, 210 BC to AD 906",
+      "units": 4.0,
+      "description": "Lecture, three hours. Palaces and tombs of early imperial dynasties, impact of Buddhist art (cave temples), rise of new media and technologies. Concurrently scheduled with course C248B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148C",
+      "dept": "ART HIS",
+      "number": "C148C",
+      "title": "Art and Material Culture of Late Imperial China, 906 to 1911",
+      "units": 4.0,
+      "description": "Lecture, three hours. Secular and religious (Buddhist and Taoist) architecture, painting, sculpture, and various luxury industries (lacquer, porcelain, textiles, jade, bronze, furniture, wood and bamboo carving, etc.). Concurrently scheduled with course C248C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148D",
+      "dept": "ART HIS",
+      "number": "C148D",
+      "title": "Advanced Chinese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study in Chinese painting and sculpture. Concurrently scheduled with course C248D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148E",
+      "dept": "ART HIS",
+      "number": "C148E",
+      "title": "Art in Modern China",
+      "units": 4.0,
+      "description": "Lecture, three hours. Concentrated look at major schools and masters of Chinese art from turn of 20th century to present, with focus on interaction with foreign cultures and issues of self-identity, assimilation, modernity, tradition, and continuity. Consideration of recent developments in Chinese art in global context. Concurrently scheduled with course\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C150B",
+      "dept": "ART HIS",
+      "number": "C150B",
+      "title": "Advanced Japanese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 150A. Study in Japanese painting and sculpture. Concurrently scheduled with course C250. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 150A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 150A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C152B",
+      "dept": "ART HIS",
+      "number": "C152B",
+      "title": "History of Korean Painting",
+      "units": 4.0,
+      "description": "Lecture, three hours. Limited to juniors/seniors. Korean painting history from Three Kingdoms period to 19th century, examined within cultural and sociopolitical contexts. Special emphasis on diversity of topics and social status of artists during Choson dynasty (1392 to 1910). Concurrently scheduled with course C252A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C152C",
+      "dept": "ART HIS",
+      "number": "C152C",
+      "title": "History of Korean Ceramics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Limited to juniors/seniors. History of Korean ceramics from Neolithic period to 19th century, with special emphasis on technological and stylistic developments. Concurrently scheduled with course C252B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C152D",
+      "dept": "ART HIS",
+      "number": "C152D",
+      "title": "History of Korean Buddhist Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Limited to juniors/seniors. History of Korean Buddhist art from Three Kingdoms period to Choson dynasty, with special emphasis on Buddhist iconography and relationship between sculpture, painting, and architecture. Concurrently scheduled with course C252C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C154C",
+      "dept": "ART HIS",
+      "number": "C154C",
+      "title": "Advanced Indian Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 154A. Study in Indian sculpture and architecture. Concurrently scheduled with course C254A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 154A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 154A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C160",
+      "dept": "ART HIS",
+      "number": "C160",
+      "title": "Art and Empire",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Examination of relationship between art and imperial ideologies and introduction to current issues in colonial studies and postcolonial criticism. Concurrently scheduled with course C260A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 111",
+      "dept": "ASIA AM",
+      "number": "111",
+      "title": "Asian Americans and War",
+      "units": 4.0,
+      "description": "Lecture, three hours. Interdisciplinary examination of role that war has played in history and culture of Asian Americans, drawing on diverse set of materials ranging from Asian American literature, Hollywood movies, and wartime propaganda to political speeches, Supreme Court decisions, and protest culture, to evaluate relationship between Asian American communities\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 113",
+      "dept": "ASIA AM",
+      "number": "113",
+      "title": "Asian Americans and Law",
+      "units": 4.0,
+      "description": "Lecture, four hours. Introduction to Asian American political identity and critical race theory\u2014study of race and representation in making of modern American law and legal meaning. Survey of federal cases, legislation, and regulations pertaining to race, gender, and sexuality in Asian American community formations and relationality towards communities of color\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 121",
+      "dept": "ASIA AM",
+      "number": "121",
+      "title": "Exploring Asian American Theater",
+      "units": 4.0,
+      "description": "Lecture, four hours. Study of Asian American plays; students required to compose one act based on their own experience using lessons learned in class. Exploration of scene study and acting exercises. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 122B",
+      "dept": "ASIA AM",
+      "number": "122B",
+      "title": "Gender and Film in Pacific",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 122A. Exploration of rise of film in Pacific Islands during 20th century, with attention to politics of gender, history, and representation, to engage students in textual and visual readings of feature-length films about Pacific. Discussions, film screenings, and guest speakers, with focus on aesthetic, cultural,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 122A.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIA AM 122A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 130A",
+      "dept": "ASIA AM",
+      "number": "130A",
+      "title": "Chinese American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Chinese Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Chinese Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 131A",
+      "dept": "ASIA AM",
+      "number": "131A",
+      "title": "Japanese American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Japanese Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Japanese Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 131B",
+      "dept": "ASIA AM",
+      "number": "131B",
+      "title": "Japanese Americans and Incarceration",
+      "units": 4.0,
+      "description": "Seminar, three to four hours. Requisite: course 10 or 10W. Designed for juniors/seniors. In-depth analysis of key literature about mass incarceration of Japanese Americans during 1940s. Immediate and long-range effects of internment. Emphasis on research. Original paper based on primary sources held by University of California required. Letter grading.",
+      "prereqs_raw": "Requisite: course 10 or 10W.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ASIA AM 10",
+            "ASIA AM 10W"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 131C",
+      "dept": "ASIA AM",
+      "number": "131C",
+      "title": "Japanese American Resettlement",
+      "units": 4.0,
+      "description": "Seminar, three hours. Requisite: course 10. In-depth analysis of key literature about resettlement of Japanese Americans during World War II. Development of original research paper based on primary sources. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 132A",
+      "dept": "ASIA AM",
+      "number": "132A",
+      "title": "Korean American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Korean Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Korean Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 133",
+      "dept": "ASIA AM",
+      "number": "133",
+      "title": "Pilipino American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Pilipino Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Pilipino Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 134",
+      "dept": "ASIA AM",
+      "number": "134",
+      "title": "Vietnamese American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Vietnamese Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Vietnamese Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 171A",
+      "dept": "ASIA AM",
+      "number": "171A",
+      "title": "Critical Issues in U.S.-China Relations",
+      "units": 4.0,
+      "description": "Lecture three hours. Not open to freshmen. Critical examination of U.S. involvement in China, Hong Kong, and Taiwan, including study of historical, cultural, political, and socioeconomic factors that shape relations between China, Hong Kong, and Taiwan and U.S. Examination of impact of relationships in Pacific Rim and Chinese Americans and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 171B",
+      "dept": "ASIA AM",
+      "number": "171B",
+      "title": "Critical Issues in U.S.-Japan Relations",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Critical examination of U.S. involvement in Japan, including study of historical, cultural, political, and socioeconomic factors that shape relations between Japan and U.S. Examination of impact of relationships in Pacific Rim and Japanese Americans and their communities. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 171C",
+      "dept": "ASIA AM",
+      "number": "171C",
+      "title": "Critical Issues in U.S.-Korea Relations",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Critical examination of U.S. involvement in Korea, including study of historical, cultural, political, and socioeconomic factors that shape relations between Korea and U.S. Examination of impact of relationships in Pacific Rim and Korean Americans and their communities. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 171E",
+      "dept": "ASIA AM",
+      "number": "171E",
+      "title": "Critical Issues in U.S.-Vietnam Relations",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Critical examination of U.S. involvement in Vietnam, including study of historical, cultural, political, and socioeconomic factors that shape relations between Vietnam and U.S. Examination of impact of relationships in Pacific Rim and Vietnamese Americans and their communities. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM M130C",
+      "dept": "ASIA AM",
+      "number": "M130C",
+      "title": "Chinese Immigration",
+      "units": 4.0,
+      "description": "(Same as Sociology M153.) Lecture, three hours; discussion, one hour. Survey of sociological studies of Chinese immigration, with focus on international context, organization, and institutions of Chinese America and its interactions with social environment. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM M171D",
+      "dept": "ASIA AM",
+      "number": "M171D",
+      "title": "Critical Issues in U.S.-Philippine Relations",
+      "units": 4.0,
+      "description": "(Same as History M144C.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: History 176A, 176B, 176C. Designed for juniors/seniors. Examination of complex interrelationship between U.S. colonialism, Philippine nationalism, history of Filipino Americans, and Philippine diaspora in 20th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 151",
+      "dept": "ASIAN",
+      "number": "151",
+      "title": "Buddhist Literature in Translation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: prior course on Buddhism or traditional Asian religions. Knowledge of Asian languages not required. Readings from variety of Buddhist literature of Indic and non-Indic origin, with emphasis on key Buddhist themes and critical issues in cross-cultural interpretations of Asian religious texts. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 161",
+      "dept": "ASIAN",
+      "number": "161",
+      "title": "Topics in Asian Religions",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. In-depth examination of selected topics in one or more religious traditions of Asia. Topics vary, but may include death, gender, and state and religion. May be repeated for credit with topic change. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 162",
+      "dept": "ASIAN",
+      "number": "162",
+      "title": "Buddhist Meditation Traditions",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. Survey of theory and practice of meditation in Buddhism, with emphasis on Theravada and Zen schools. Topics include various typologies of meditation, symbiotic relationship between meditation and soteriology, and processes by which doctrinal innovation prompts changes in meditative\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 30",
+      "dept": "ASIAN",
+      "number": "30",
+      "title": "Languages and Cultures of Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Comparative perspective on Asian languages, with emphasis on three major East Asian languages\u2014Chinese, Japanese, and Korean\u2014to show what they share and how they differ in terms of linguistic features, historical development, and larger cultural settings in which these three languages are used. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 124",
+      "dept": "CHIN",
+      "number": "124",
+      "title": "Taiwanese Language and Culture",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Enforced requisite: course 3 or 8 or Chinese placement test. Taiyu, or Taiwanese (also known as Minnan, Hoklo, or Hokkien, depending on context or region), is language that most Taiwanese people use in daily lives, including everyday interaction and communication, entertainment, social and cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3 or 8 or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 3",
+            "CHIN 8"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 125",
+      "dept": "CHIN",
+      "number": "125",
+      "title": "Taiwanese Language and Expressive Cultures",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Enforced requisite: course 3 or 8 or Chinese placement test. Taiyu, or Taiwanese (also known as Minnan, Hoklo, or Hokkien, depending on context or region), is language that most Taiwanese people use in daily lives, including everyday interaction and communication, entertainment, social and cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3 or 8 or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 3",
+            "CHIN 8"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 130B",
+      "dept": "CHIN",
+      "number": "130B",
+      "title": "Readings in Modern Chinese Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Chinese placement test. Readings and discussion of works of modern Chinese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100B or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 100B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 131",
+      "dept": "CHIN",
+      "number": "131",
+      "title": "World Sinophone Literature: Theories and Texts",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Readings in original language. Exploration of Sinophone as analytic category for literature written in Sinitic languages. Theories of Sinophone and literary texts from Taiwan, Hong Kong, Malaysia, China, and elsewhere. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 139",
+      "dept": "CHIN",
+      "number": "139",
+      "title": "Gardens in China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: course 50. Interdisciplinary survey of historic and literary gardens in China, with focus on English translations of texts by native writers and recent Western scholarship. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 151",
+      "dept": "CHIN",
+      "number": "151",
+      "title": "Chinese Literature in Translation: Modern Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Chinese not required. Lectures and reading of representative works from 1900 to present in English translation. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 152",
+      "dept": "CHIN",
+      "number": "152",
+      "title": "Topics in Contemporary Chinese Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Knowledge of Chinese not required. Investigation of various topics in contemporary Chinese literature and culture, including politics and poetics of Chinese postmodernism, nativism, feminism, mass culture, and media. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 155",
+      "dept": "CHIN",
+      "number": "155",
+      "title": "Topics in Chinese Cinema",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour; film viewing, three hours. Knowledge of Chinese not required. Critical study of films from China, Hong Kong, Taiwan, and Chinese diaspora. Examination of aesthetics, genres, directors and stars, other arts and media, and cultural and political histories. May be repeated for credit with topic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 165",
+      "dept": "CHIN",
+      "number": "165",
+      "title": "Introduction to Chinese Buddhist Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 100A or 110B or Japanese 110A or Korean 100A or Chinese placement test. Readings in premodern Buddhist texts written in literary Chinese and taken from translated Indian sutras, indigenous exegetical materials, Chinese apocryphal scriptures, and Ch\u2019an writings. Problems in translation from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "JAPAN 165"
+      ]
+    },
+    {
+      "course_id": "CHIN 174",
+      "dept": "CHIN",
+      "number": "174",
+      "title": "Chinese Strategic Thought",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Introduction to early Chinese narratives and theories of military, diplomatic, and rhetorical strategy. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 176",
+      "dept": "CHIN",
+      "number": "176",
+      "title": "Neo-Confucianism",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Examination of movement to revitalize and reinterpret teachings of Confucius during Tang, Song, Yuan, and Ming dynasties, with consideration of both neo-Confucian philosophy and social action. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 180",
+      "dept": "CHIN",
+      "number": "180",
+      "title": "Chinese Mythology and Supernatural",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Survey of corpus of traditional Chinese mythology, with focus on examples preserved in variety of early texts, later evolutions in dramatic and fictional works, and evidence from visual arts. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 185",
+      "dept": "CHIN",
+      "number": "185",
+      "title": "Food and Love in Chinese Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Based on studies of cultural, historical, anthropological, and archaeological materials, introduction to how Chinese have been engaging themselves in fields of food eating and love making. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 186",
+      "dept": "CHIN",
+      "number": "186",
+      "title": "Archaeology in China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Early Chinese study of their own past, types of artifacts, beginnings of scientific archaeology, and surveys of major excavations of sites of all periods. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 191A",
+      "dept": "CHIN",
+      "number": "191A",
+      "title": "Variable Topics Research Seminars: Classical China",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for juniors/seniors. Research seminar on selected topics in premodern Chinese literature, thought, and culture. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 191B",
+      "dept": "CHIN",
+      "number": "191B",
+      "title": "Variable Topics Research Seminars: 20th-Century China and Taiwan",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for juniors/seniors. Research seminar on selected topics in modern and contemporary literature and culture from China and Taiwan. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 40",
+      "dept": "CHIN",
+      "number": "40",
+      "title": "Popular Culture in Modern Chinese Societies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of modern Chinese popular culture in China, Taiwan, Hong Kong, and overseas Chinese communities. From fiction to film, music to MTV, and cartoons to karaoke, probing of popular as it has manifested itself in Chinese societies and tracing of its development over last\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 50",
+      "dept": "CHIN",
+      "number": "50",
+      "title": "Chinese Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50W. Knowledge of Chinese not required. Introduction to most important aspects of Chinese culture. Topics include early Chinese civilization, historical development of Chinese society, issues of ethnicity, Chinese language and philosophy, and early scientific\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 50W",
+      "dept": "CHIN",
+      "number": "50W",
+      "title": "Chinese Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course 50. Knowledge of Chinese not required. Introduction to most important aspects of Chinese culture. Topics include early Chinese civilization, historical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH 3",
+            "ENGLISH 3H",
+            "ENGLISH 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 6",
+      "dept": "CHIN",
+      "number": "6",
+      "title": "Intermediate Modern Chinese",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 5 with grade of C or better or Chinese placement test. Second-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5 with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 6A",
+      "dept": "CHIN",
+      "number": "6A",
+      "title": "Intermediate Modern Chinese for Advanced Students",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 5A with grade of C or better or Chinese placement test. Second-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Continuation of course 5A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 5A"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 80",
+      "dept": "CHIN",
+      "number": "80",
+      "title": "Chinese Cinema: Pictures, Prisms, Products, Projections",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, one hour; film viewing, three hours. Knowledge of Chinese not required. Introduction to history and major themes of Chinese cinema. Representative films studied in contexts of culture, society, politics, and economics, with reflections on changing meanings of both Chinese and cinema. May not be repeated for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C120",
+      "dept": "CHIN",
+      "number": "C120",
+      "title": "Introduction to Chinese Linguistics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: one to two years of college-level Chinese. Introduction to Chinese sound system, writing system and its reform, regional differences, major structural features, language in society and in cultural practices. Concurrently scheduled with course C240. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C144",
+      "dept": "CHIN",
+      "number": "C144",
+      "title": "Translation Workshop: Modern Chinese Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: bilingual competency in Chinese and English. Workshop on Chinese-English literary translation, designed to hone and improve translation skills. Focus on close readings and analysis of original texts against published English translations and actual translation work. May include interpretation segment, designed to improve interpretation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C150A",
+      "dept": "CHIN",
+      "number": "C150A",
+      "title": "Lyrical Traditions",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Readings in English translation of poetic and critical writings of traditional China, with emphasis on development of subjectivity and modes of address. Concurrently scheduled with course C250A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C150B",
+      "dept": "CHIN",
+      "number": "C150B",
+      "title": "Chinese Literature in Translation: Traditional Narrative and Fiction",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Examination of formation and development of Chinese narrative traditions from Tang to mid-Qing periods (7th-18th centuries). Readings from biographical writings, fiction, drama, legal cases, etc., with emphasis on different narrative conventions and their cultural assumptions and intersections. Exploration of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C156",
+      "dept": "CHIN",
+      "number": "C156",
+      "title": "Variable Topics in Culture and Society in Taiwan",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for seniors. Knowledge of Chinese not required. Examination of relationship between culture (art, literature, film) and society in Taiwan. Reading, audio and visual material, discussion, and development of culminating project. May be repeated for credit with topic change. Concurrently scheduled with course C257.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C175",
+      "dept": "CHIN",
+      "number": "C175",
+      "title": "Introduction to Chinese Thought",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Survey of Chinese thought as represented in texts of Zhou through early Han periods (circa 1000 to 100 BCE), with focus on invention of Confucian tradition (including Five Classics) and on defenses of that tradition against challenges from Mohists,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN CM160",
+      "dept": "CHIN",
+      "number": "CM160",
+      "title": "Chinese Buddhism",
+      "units": 4.0,
+      "description": "(Same as Religion M161A.) Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Introduction and development of Buddhism in China, interaction between Buddhism and Chinese culture, rise of Chinese schools of Buddhism. Concurrently scheduled with course C260. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN M183",
+      "dept": "CHIN",
+      "number": "M183",
+      "title": "Archaeological Landscapes of China",
+      "units": 4.0,
+      "description": "(Same as Anthropology M116R.) Lecture, three hours; discussion, one hour (when scheduled). Declassified space images from Cold War era and open remote sensing data of 21st century provide new opportunities for studying landscape transformation in historical China. Combining lectures, library research, and hands-on analysis of archaeological sites on satellite images,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN M60",
+      "dept": "CHIN",
+      "number": "M60",
+      "title": "Introduction to Chinese Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M60B.) Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course M60W. Knowledge of Chinese not required. General survey of religious life in China, with emphasis on everyday religious practice over doctrine, and themes common to Buddhism, Daoism, and Confucianism. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN M60W",
+      "dept": "CHIN",
+      "number": "M60W",
+      "title": "Introduction to Chinese Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M61W.) Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course M60. Knowledge of Chinese not required. General survey of religious life in China, with emphasis on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H",
+            "ENGL 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLUSTER 25A",
+      "dept": "CLUSTER",
+      "number": "25A",
+      "title": "Politics, Society, and Urban Culture in East Asia",
+      "units": 6.0,
+      "description": "Lecture, three hours; discussion, two hours. Course 25A is enforced requisite to 25B, which is enforced requisite to 25CW. Limited to first-year freshmen. Comprehensive exploration of historical evolution of popular East Asian urban culture and interrelationship of East Asian politics, social life, and economic and urban cultural expression. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 100",
+      "dept": "COM LIT",
+      "number": "100",
+      "title": "Introduction to Literary and Critical Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours. Preparation: satisfaction of Entry-Level Writing and College Writing requirements. Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc. Seminar-style introduction to discipline of comparative literature presented through series of texts illustrative of its formation and practice. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM LIT 1",
+            "COM LIT 2",
+            "ENGLISH 10",
+            "SPANISH 60"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 1D",
+      "dept": "COM LIT",
+      "number": "1D",
+      "title": "Great Books from World at Large",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: satisfaction of Entry-Level Writing requirement. Not open for credit to students with credit for course 2DW or 4DW. Study of major literary texts usually overlooked in courses that focus only on canon of Western literature. Texts from at least three of following\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: satisfaction of Entry-Level Writing requirement.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 2DW",
+      "dept": "COM LIT",
+      "number": "2DW",
+      "title": "Survey of Literature: Great Books from World at Large",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 1D or 4DW. Study of major literary texts usually overlooked in courses that focus only on canon of Western literature, with emphasis on literary analysis and expository writing. Texts\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 4DW",
+      "dept": "COM LIT",
+      "number": "4DW",
+      "title": "Literature and Writing: Great Books from World at Large",
+      "units": 5.0,
+      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 1D or 2DW. Study and discussion of major literary texts usually overlooked in courses that focus only on canon of Western literature, with emphasis on literary analysis and expository writing. Texts from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT C178",
+      "dept": "COM LIT",
+      "number": "C178",
+      "title": "India Ink: Literature and Culture of Modern South Asia",
+      "units": 5.0,
+      "description": "Seminar, three hours. Survey of significant issues in history of 20th-century Indian literature and culture. Great works of modern Indian culture by such figures as Rabindranath Tagore, Satyajit Ray, Faiz Ahmed Faiz, and U.R. Anantha Murthy, including novels, short stories, poetry, films, music, and works in cultural criticism and historical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT M176",
+      "dept": "COM LIT",
+      "number": "M176",
+      "title": "Literature and Technology",
+      "units": 4.0,
+      "description": "(Same as Japanese M156.) Lecture, three hours. Knowledge of Japanese not required. Examination of representation of technology in 20th-century fiction. Discussion of impact of technology on shifting images of gender, subjectivity, and national identity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 179",
+      "dept": "COMM",
+      "number": "179",
+      "title": "Images of U.S.",
+      "units": 4.0,
+      "description": "Lecture, four hours. Awareness of international role of U.S. necessitates clear understanding of way our nation is perceived by others. Exploration of roots of U.S. images in minds of people abroad. Analysis of influences that contribute to images and ways in which images affect practical matters. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 1",
+      "dept": "ECON",
+      "number": "1",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on allocation of resources and distribution of income through price system. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ECON 2"
+      ]
+    },
+    {
+      "course_id": "ECON 111",
+      "dept": "ECON",
+      "number": "111",
+      "title": "Theories of Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 11, 101, 103. Corequisite: course 111L. Application of theoretical and empirical tools from microeconomics to provide insights into problems confronting low-income countries today and to evaluate policies that are likely to be effective in improving well-being of poorest on globe. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 11, 101, 103. Corequisite: course 111L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 101",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 111L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 112"
+      ]
+    },
+    {
+      "course_id": "ECON 112",
+      "dept": "ECON",
+      "number": "112",
+      "title": "Policies for Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102 or 111. Suggested strategies for economic development: inflation, balanced growth, industry versus agriculture, import substitution, export-oriented expansion, foreign aid, and others. Selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102 or 111.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "ECON 102",
+          "ECON 111"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 121",
+      "dept": "ECON",
+      "number": "121",
+      "title": "International Trade Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 101. Corequisite: course 121L. Not open to students with credit for former course 120. Theory of international trade: bases, direction, terms, volume, and gains of trade. Effects of tariffs, quantitative restrictions, and international integration. Effects of free and restricted trade on economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 101. Corequisite: course 121L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 101"
+        ],
+        "corequisites": [
+          "ECON 121L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 122",
+      "dept": "ECON",
+      "number": "122",
+      "title": "International Finance",
+      "units": 4.0,
+      "description": "Lecture, three hours. Python is commonly used programming language for data science. It is powerful and easy to learn tool that can be applied to make simple histograms or fit complicated machine learning models. Introduction to using Python for basic data exploration, analysis, and visualization. Emphasis on applications with economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 2",
+      "dept": "ECON",
+      "number": "2",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 1. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on aggregative economics, including national income, monetary and fiscal policy, and international trade. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON 134",
+      "dept": "ENVIRON",
+      "number": "134",
+      "title": "Environmental Economics with Data Analysis",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from Economics 41, Life Sciences 40, Political Science 6, Statistics 10, 12, 13, or other statistical analysis course approved by instructor. Examination of challenges of balancing environmental protection with wants and needs of people in economy. Focus on how to design efficient public policies\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from Economics 41, Life Sciences 40, Political Science 6, Statistics 10, 12, 13, or other statistical analysis course approved by instructor.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ECON 41",
+            "LIFE SCI 40",
+            "POL SCI 6",
+            "STAT 10",
+            "STAT 12",
+            "STAT 13"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON M133",
+      "dept": "ENVIRON",
+      "number": "M133",
+      "title": "Environmental Sociology",
+      "units": 4.0,
+      "description": "(Same as Society and Genetics M133 and Sociology M115.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 146",
+      "dept": "ETHNMUS",
+      "number": "146",
+      "title": "Folk Music of South Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Illustrated survey of some regional genres, styles, and musical instruments found in India and Pakistan, with special reference to religious, social, economic, and cultural context of their occurrence. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 147",
+      "dept": "ETHNMUS",
+      "number": "147",
+      "title": "Survey of Classical Music in India",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of melodic, metric, and formal structures of Indian classical music in context of religious, sociocultural, and historical background of country. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 157",
+      "dept": "ETHNMUS",
+      "number": "157",
+      "title": "History of Chinese Opera",
+      "units": 4.0,
+      "description": "Lecture, four hours. Survey of dramatic elements in Chinese operas, incorporating singing, dance, and acrobatics. Emphasis on traditional and modern Peking opera and its relation to Cantonese and other genres. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 160",
+      "dept": "ETHNMUS",
+      "number": "160",
+      "title": "Survey of Music in Japan",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of main genres of Japanese traditional music, including Gagaku, Buddhist chant, Biwa music, Koto music, Shamisen music, and music used in various theatrical forms. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 161B",
+      "dept": "ETHNMUS",
+      "number": "161B",
+      "title": "Advanced World Music Performance Organizations: Music of Bali",
+      "units": 2.0,
+      "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 5",
+      "dept": "ETHNMUS",
+      "number": "5",
+      "title": "Music Around World",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Overview of world\u2019s musical traditions by selecting one or two case studies from each of nine musical world regions: Pacific, East Asia, Southeast Asia, South Asia, Middle East, Africa, Europe, Latin America, and U.S. and Canada. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS C150",
+      "dept": "ETHNMUS",
+      "number": "C150",
+      "title": "Music and Politics in East Asia",
+      "units": 4.0,
+      "description": "Lecture, four hours. Limited to Ethnomusicology, Music, Music History, World Arts and Cultures, Chinese, Japanese, Korean, and East Asian Studies majors. Political imperatives have long had direct and often explicit impact on music sound and context in East Asia. Examination of interaction of ideology and musical practice in medieval Korea\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS C156A",
+      "dept": "ETHNMUS",
+      "number": "C156A",
+      "title": "Music in China",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 20C. Limited to Ethnomusicology majors. Survey of traditional, popular, and Western-influenced musics currently widespread in China, including musical analysis of different genres; examination of contexts in which they exist. Investigation of profound effect of Confucian and Communist ideologies on music. Concurrently scheduled with course C256A.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 20C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS C159",
+      "dept": "ETHNMUS",
+      "number": "C159",
+      "title": "Music on China's Periphery",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Designed for undergraduate ethnomusicology, music, music history, and world arts and cultures majors. Survey of musics from China\u2019s border regions and neighboring countries: technical musical characteristics and important contextual issues related to traditional and modern styles from Mongolia, Uighurs of Xinjiang, Tibet, Tibeto-Burman\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS M25",
+      "dept": "ETHNMUS",
+      "number": "M25",
+      "title": "Global Pop",
+      "units": 5.0,
+      "description": "(Same as Global Jazz Studies M25.) Lecture, four hours; discussion, one hour. Development of world music or world beat, including its meaning and importance to contemporary culture as well as its history and impact. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILIPNO 155",
+      "dept": "FILIPNO",
+      "number": "155",
+      "title": "Topics in Filipino Cinema and Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Filipino not required. Critical analysis of language and culture, history, and sociopolitical issues as represented in Filipino films and/or literature. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILIPNO 170",
+      "dept": "FILIPNO",
+      "number": "170",
+      "title": "People, Society, and Culture of Philippines",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. In-depth examination of Philippines, from early history and colonial formation under both Spain and U.S. to struggle for independence, Martial Law period, profound socio-economic issues of post-Marcos republic, including extreme poverty and global economic phenomenon of overseas Filipino workers in 21st century. Readings and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILIPNO 6",
+      "dept": "FILIPNO",
+      "number": "6",
+      "title": "Intermediate Filipino",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Filipino/Tagalog grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "FILIPNO 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 112",
+      "dept": "FILM TV",
+      "number": "112",
+      "title": "Film and Social Change",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Development of documentary and dramatic films in relation to and as force in social development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M164A",
+      "dept": "GENDER",
+      "number": "M164A",
+      "title": "Women, Violence, Globalization: India, Philippines, Singapore, Vietnam",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M164.) Lecture, four hours. Study of various forms of violence done on women not only in and of themselves but in light of larger systems of oppression, with focus on Pilipino, Vietnamese, Singaporean, and South Asian cultures. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M170C",
+      "dept": "GENDER",
+      "number": "M170C",
+      "title": "History of Women in China, AD 1000 to Present",
+      "units": 4.0,
+      "description": "(Same as History M170C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Topics include women and family, women in Confucian ideology, women in literati culture, feminist movement, and women and communist revolution. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M173B",
+      "dept": "GENDER",
+      "number": "M173B",
+      "title": "Women in 20th-Century Japan",
+      "units": 4.0,
+      "description": "(Same as History M173B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Japanese women in Japanese and world history through state documents, autobiographical voices, contemporary television, and other varying historical sources, including topics such as women and new political order (1900 to 1930), women, war, and empire\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 139C",
+      "dept": "GEOG",
+      "number": "139C",
+      "title": "Problems in Geography: Culture and Environment in Modern World",
+      "units": 4.0,
+      "description": "Seminar, three hours; reading period, one hour. Preparation: completion of three courses in one concentration. Limited to seniors. Seminar course in which students carry out intensive research projects developed from courses within one concentration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 140",
+      "dept": "GEOG",
+      "number": "140",
+      "title": "Social Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Study of spatiality of social differences such as race, class, gender, age, sexuality, location. Critical explorations of identity, social categories, and spatial structures. Importance of space and place in social life. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 141",
+      "dept": "GEOG",
+      "number": "141",
+      "title": "Cultural Geography of Modern World",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors and graduate students. Historical and structural approach to cultural geography of modern world system, with particular emphasis on structure and functioning of its core, semi-periphery, and periphery. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 148",
+      "dept": "GEOG",
+      "number": "148",
+      "title": "Political Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Spatiality of political activity, spatial constitution of political power, control over space as central component to political struggles. Studies at local, national, state, and global scales. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 150",
+      "dept": "GEOG",
+      "number": "150",
+      "title": "Economic Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 4. Designed for juniors/seniors. Geographical aspects of economic production and growth. General theory of space-economy. Land-use processes. Location of industry. Regional development. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 4.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 158",
+      "dept": "GEOG",
+      "number": "158",
+      "title": "Population Geography",
+      "units": 4.0,
+      "description": "(Formerly numbered 142.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of social and behavioral perspectives influencing people in their patterns of demographic change, migration, and mobility, with special emphasis on spatial relationships and selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 161",
+      "dept": "GEOG",
+      "number": "161",
+      "title": "Cities and Social Difference",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Consideration of how a city comes to look and feel the way it does, who gets to claim space, and the role of race and movements for social justice in this process. Examination of the way that race and inequality are built into the\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 175A",
+      "dept": "GEOG",
+      "number": "175A",
+      "title": "Japan in World: Culture, Place, and Global Connections",
+      "units": 4.0,
+      "description": "(Formerly numbered 139.) Lecture, three hours; reading period, one hour. Focus on questions of culture and place in Japan. Exploration of ways that these questions\u2014and Japan itself\u2014have been shaped by historical and contemporary interactions involving people in both Japan and other parts of world. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 175B",
+      "dept": "GEOG",
+      "number": "175B",
+      "title": "Contemporary China",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Systematic geographic analysis of elements of landscape, resources, population, and socioeconomic characteristics of People\u2019s Republic of China. Dynamics that have led to China\u2019s major role in East Asian and international scene, with special attention to China-Japan and Sino-American relations and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 176A",
+      "dept": "GEOG",
+      "number": "176A",
+      "title": "Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Limited to juniors/seniors. Regional synthesis with varying emphasis on people of South or Southeast Asia in their physical, biotic, and cultural environment and its dynamic transformation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 3",
+      "dept": "GEOG",
+      "number": "3",
+      "title": "Cultural Geography",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to cultural geography of modern world, with examination of key concepts of space, place, and landscape as these have shaped and been shaped by connections between societies and their natural environments. Examples from variety of landscapes and places since 1800 and especially from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 4",
+      "dept": "GEOG",
+      "number": "4",
+      "title": "Globalization: Regional Development and World Economy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Economic geography explores spatial distribution of all forms of human productive activity at number of geographical scales\u2014local, regional, national, and global. Key theme is impact of increasingly powerful global economic forces on organization of production. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 150"
+      ]
+    },
+    {
+      "course_id": "GEOG 6",
+      "dept": "GEOG",
+      "number": "6",
+      "title": "World Regions: Concepts and Contemporary Issues",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Interdisciplinary and historical approach to modern peoples, their differences in wealth or poverty, and their local origins of food production. Brief introduction to physical geography and biogeography of each region. Discussion of each region\u2019s peoples, languages, foods, prehistories, and histories. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M127",
+      "dept": "GEOG",
+      "number": "M127",
+      "title": "Global Environment and Development: Problems and Issues",
+      "units": 4.0,
+      "description": "(Same as Urban Planning CM166.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Questions of population, resource use, Third World poverty, and environment. Analysis of global economic restructuring and its connections to changing organization of production and resulting environmental impacts. Case studies from Africa, Latin America, Asia, and U.S.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M131",
+      "dept": "GEOG",
+      "number": "M131",
+      "title": "Human Impact on Biophysical Environment",
+      "units": 4.0,
+      "description": "(Same as Environment M131.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of history, mechanisms, and consequences of interactions between humans and environment. Exploration in depth of three thematic topics (deforestation, desertification, and greenhouse gas increase and ozone depletion) and four major subjects (soil, biodiversity, water, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIN-URD 100C",
+      "dept": "HIN-URD",
+      "number": "100C",
+      "title": "Intermediate Hindi-Urdu",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 100B with grade of C or better. Reinforcement of basic Hindi grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100B with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "HIN-URD 100B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 11B",
+      "dept": "HIST",
+      "number": "11B",
+      "title": "History of China, circa 1000 to 2000",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of later history of China\u2014evolution of characteristic Chinese institutions and modes of thought from circa 1000 to 2000. Focus on social, political, intellectual, cultural, and economic aspects of early modern regimes and empires and rise of modern China into contemporary era. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 152",
+      "dept": "HIST",
+      "number": "152",
+      "title": "Asians in American History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Study of politically troubling question of entry into U.S. of immigrants ineligible for citizenship and their citizen children in American history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 169A",
+      "dept": "HIST",
+      "number": "169A",
+      "title": "Thought and Society in China to 1000",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course 11A. Designed for juniors/seniors. Elite and popular expressions of Chinese cultural life examined in readings and lectures. Focus on diversities of thought in classical legacy and their evolution under impact of Buddhism to 1000. Emphasis on intersections between intellectual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 170A",
+      "dept": "HIST",
+      "number": "170A",
+      "title": "Culture and Power in Late Imperial China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: courses 11A, 11B. Designed for juniors/seniors. Analysis of relations of power and cultural expressions of dominance and resistance in late imperial China (1000 to 1700), with emphasis on interplay of economic forces, ideas, and social and political institutions. Examination of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 170B",
+      "dept": "HIST",
+      "number": "170B",
+      "title": "Selected Topics in Chinese History from 1500",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended requisite: course 11B. Designed for juniors/seniors. Selected topics that may vary from year to year. Recent offerings include law, society, and culture; society and economy; and rural China. May be repeated for maximum of 16 units with topic and/or instructor change.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 170D",
+      "dept": "HIST",
+      "number": "170D",
+      "title": "20th-Century China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course 11B. Designed for juniors/seniors. Political events and intellectual developments seen in context of social-economic trends; human agency, structural change, and historical conjunctures in 20th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 172A",
+      "dept": "HIST",
+      "number": "172A",
+      "title": "Japan\u00e2\u20ac\u201dAncient and Medieval History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political, economic, and cultural development of Japan from prehistory to 1600. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 172B",
+      "dept": "HIST",
+      "number": "172B",
+      "title": "Japanese History: Early Modern, 1600 to 1868",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political, economic, and cultural development of Japan from 1600 to 1868. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 172C",
+      "dept": "HIST",
+      "number": "172C",
+      "title": "Modern Japanese History, 1850 to 1945",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Investigation of meaning of modern \u201cJapan\u201d for newly national (and imperial) populace, and resistance to consequent radical upheavals in daily experience, both in Japan and Asia. Exploration of meaning of \u201cmodern\u201d and fraught interplay of imperial and anticolonial ambitions\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 174A",
+      "dept": "HIST",
+      "number": "174A",
+      "title": "Early History of India",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to civilization and institutions of India. Survey of history and culture of South Asian subcontinent from earliest times to founding of Mughal Empire. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 174C",
+      "dept": "HIST",
+      "number": "174C",
+      "title": "Contemporary South Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political economy of imperialism and Britain\u2019s civilizing mission. Encounter, especially in terms of race and gender, between colonized and colonizers and to questions of resistance and nationalism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 175A",
+      "dept": "HIST",
+      "number": "175A",
+      "title": "Cultural and Political History of Contemporary South Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Problem of modernity; partition of India and emergence of Pakistan; political, social, ecological, and women\u2019s movements; struggle for rights and conflicts of identity among Muslims, Hindus, and Sikhs; terrorism in Sri Lanka and Punjab; public culture, popular cinema, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 175C",
+      "dept": "HIST",
+      "number": "175C",
+      "title": "Special Topics in Contemporary Indian History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Treatment of major issues in history of contemporary India. May be repeated for maximum of 16 units with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176A",
+      "dept": "HIST",
+      "number": "176A",
+      "title": "History of Southeast Asia to 1815",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political and cultural history of peoples of Southeast Asia from earliest times to about 1815. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176B",
+      "dept": "HIST",
+      "number": "176B",
+      "title": "History of Southeast Asia: Southeast Asia since 1815",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. History of modern Southeast Asia, with emphasis on expansion of European influence in political and economic spheres, growth of nationalism, and process of decolonization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176C",
+      "dept": "HIST",
+      "number": "176C",
+      "title": "Philippine History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social, cultural, and political history of Philippine societies from Spanish conquest through independence. Emphasis on questions of identity under colonialism, understanding Revolutions of 1896 and 1898, and politics of Philippine nationalist discourse. Readings include introduction to major issues in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 22",
+      "dept": "HIST",
+      "number": "22",
+      "title": "Contemporary World History, 1760 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Broad thematic survey of world history since the mid-18th century. Examination, through lecture and discussion, of global implications of imperialism, total war, nationalism, cultural change, decolonization, changes in women\u2019s rights and roles, and eclipse of world communism. Designed to introduce students to historical study,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 2B",
+      "dept": "HIST",
+      "number": "2B",
+      "title": "Social Knowledge and Social Power",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. History of social knowledge and social power in the 19th and 20th centuries. Everyday ideas and practices about human nature, common sense, and community and relation of those practices to social thought, social engineering, and social science. Themes include development of social knowledges through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 97G",
+      "dept": "HIST",
+      "number": "97G",
+      "title": "Introduction to Historical Practice: Variable Topics in East Asian History",
+      "units": 4.0,
+      "description": "Seminar, three hours. Discussion classes of no more than 15 students. Introduction to study of history, with emphasis on historical theory and research methods. Variable topics courses; consult Schedule of Classes for topics to be offered in specific term. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 97M",
+      "dept": "HIST",
+      "number": "97M",
+      "title": "Introduction to Historical Practice: Variable Topics in Southeast Asian History",
+      "units": 4.0,
+      "description": "Seminar, three hours. Discussion classes of no more than 15 students. Introduction to study of history, with emphasis on historical theory and research methods. Variable topics courses; consult Schedule of Classes for topics to be offered in specific term. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 97N",
+      "dept": "HIST",
+      "number": "97N",
+      "title": "Introduction to Historical Practice: Variable Topics in Indian History",
+      "units": 4.0,
+      "description": "Seminar, three hours. Discussion classes of no more than 15 students. Introduction to study of history, with emphasis on historical theory and research methods. Variable topics courses; consult Schedule of Classes for topics to be offered in specific term. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9A",
+      "dept": "HIST",
+      "number": "9A",
+      "title": "Introduction to Asian Civilizations: History of India",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introductory survey for beginning students of major cultural, social, and political ideas, traditions, and institutions of Indic civilization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9C",
+      "dept": "HIST",
+      "number": "9C",
+      "title": "Introduction to Asian Civilizations: History of Japan",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Survey of Japanese history from earliest recorded time to the present, with emphasis on development of Japan as a cultural daughter of China. Attention to manner in which Chinese culture was Japanized and aspects of Japanese civilization which became unique. Creation of the modern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9E",
+      "dept": "HIST",
+      "number": "9E",
+      "title": "Introduction to Asian Civilizations: Southeast Asian Crossroads",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Overview history of a region united by its wet tropical environment and divided by great religious, cultural, and political pluralism, with focus on Vietnamese, Thai, Filipino, Khmer, Burmese, and Malayo-Indonesian patterns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M173C",
+      "dept": "HIST",
+      "number": "M173C",
+      "title": "Shinto, Buddhism, and Japanese Folk Religion",
+      "units": 4.0,
+      "description": "(Same as Religion M173C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social dimension of various Ways, great and little: Shinto\u2019s connection with cultural nationalism, Buddhism\u2019s medieval Reformation and Zen\u2019s relation to warrior culture, folk religious aspects such as shamanism, ancestor worship, and millenarianism. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M174D",
+      "dept": "HIST",
+      "number": "M174D",
+      "title": "Indo-Islamic Interactions, 700 to 1750",
+      "units": 4.0,
+      "description": "(Same as Religion M174D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Historical introduction to Muslim communities of what eventually became nations of India, Pakistan, and Bangladesh. Topics include social, political, religious, and cultural history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M174G",
+      "dept": "HIST",
+      "number": "M174G",
+      "title": "Indian Identity in U.S. and Diaspora",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M172A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. History of overseas Indian communities; transformations of Hinduism in diaspora; emergence of new diasporic art forms such as bhangra rap and chutney music; relations between Indians and other racial and ethnic groups; Indian\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M186B",
+      "dept": "HIST",
+      "number": "M186B",
+      "title": "Global Feminism, 1850 to Present",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M186B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to movements for women\u2019s rights (educational, political, economic, sexual, and reproductive) around world and over one and one half centuries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS M152",
+      "dept": "HNRS",
+      "number": "M152",
+      "title": "(When) Do Leaders Make Differences?",
+      "units": 5.0,
+      "description": "(Same as Anthropology M148 and Geography M142.) Lecture, two hours; discussion, two hours. Examination of leaders who did or did not succeed in effecting change, as background to understanding conditions under which leaders can make differences. Comparison of political leaders, business chief executive officers, sports coaches, and religious leaders. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 1",
+      "dept": "I A STD",
+      "number": "1",
+      "title": "Introduction to International and Area Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to international and area studies from interdisciplinary framework, covering themes related to international politics and markets, as well as international societies and cultures, to illuminate and clarify profoundly international character of world we live in and to introduce set of contemporary issues and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "I A STD 191"
+      ]
+    },
+    {
+      "course_id": "I A STD 191",
+      "dept": "I A STD",
+      "number": "191",
+      "title": "Variable Topics Senior Research Seminars: International and Area Studies",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 1. Limited to senior international and area studies majors. Organized on topics basis with readings, discussions, papers, and development of culminating project. May not be repeated for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "I A STD 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 198A",
+      "dept": "I A STD",
+      "number": "198A",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to international and area studies honors program students. Supervised individual research or investigation under guidance of faculty mentor. Development and planning of honors thesis. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "I A STD 198B"
+      ]
+    },
+    {
+      "course_id": "I A STD 198B",
+      "dept": "I A STD",
+      "number": "198B",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Enforced requisite: course 198A. Limited to international and area studies honors program students. Supervised individual research or investigation under guidance of faculty mentor. Continued development and refinement of honors thesis. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "I A STD 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 198C",
+      "dept": "I A STD",
+      "number": "198C",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Enforced requisite: course 198B. Limited to international and area studies honors program students. Final drafting and submission of completed honors thesis. Culminating paper of 35 to 50 pages required. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 31",
+      "dept": "I A STD",
+      "number": "31",
+      "title": "Introduction to Southeast Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern Southeast Asia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 33",
+      "dept": "I A STD",
+      "number": "33",
+      "title": "Introduction to East Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern East Asia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INDO 6",
+      "dept": "INDO",
+      "number": "6",
+      "title": "Intermediate Indonesian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 5. Designed to expand language skills acquired in introductory courses and to equip students with good command of communicative competence in Indonesian. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "INDO 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV 110",
+      "dept": "INTL DV",
+      "number": "110",
+      "title": "Culture, Power, and Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Broad introduction to theoretical traditions in development studies, with focus on dynamics of culture, power, markets, states and social movements, with selected case studies in developing nations and comparative case analysis across Global South and North. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV 130",
+      "dept": "INTL DV",
+      "number": "130",
+      "title": "Theory and History in International Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Social scientific survey of debates over policies contributing to economic development and underdevelopment. Topics include measurement and statistics, social and industrial policies, inequality, poverty, and historical differences for development paths across Europe, Asia, Africa, and Latin America. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 124",
+      "dept": "JAPAN",
+      "number": "124",
+      "title": "Language and Culture of Ryukyu/Okinawa",
+      "units": 4.0,
+      "description": "Seminar, three hours. Requisite: course 6 or 10 or Japanese placement test. Research seminar with reading, discussion, linguistic analysis, and development of culminating project. Letter grading.",
+      "prereqs_raw": "Requisite: course 6 or 10 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 6",
+            "JAPAN 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 130A",
+      "dept": "JAPAN",
+      "number": "130A",
+      "title": "Readings in Modern Japanese Literature",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 100C or 100S or Japanese placement test. Readings and discussion of works by modern Japanese writers. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 130B",
+      "dept": "JAPAN",
+      "number": "130B",
+      "title": "Readings in Modern Japanese Literature",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 100C or 100S or Japanese placement test. Readings and discussion of works by modern Japanese writers. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 130C",
+      "dept": "JAPAN",
+      "number": "130C",
+      "title": "Readings in Modern Japanese Literature",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 100C or 100S or Japanese placement test. Readings and discussion of works by modern Japanese writers. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 151",
+      "dept": "JAPAN",
+      "number": "151",
+      "title": "Japanese Literature in Translation: Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Japanese not required. Survey of Japanese literature from 16th century to post-World War II. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH 3",
+            "ENGLISH 3H",
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 154",
+      "dept": "JAPAN",
+      "number": "154",
+      "title": "Postwar Japanese Culture through Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Japanese not required. Use of fiction and film to explore Japanese culture in postwar era in broad cross-disciplinary and cross-cultural context. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH 3",
+            "ENGLISH 3H",
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 155",
+      "dept": "JAPAN",
+      "number": "155",
+      "title": "Topics in Japanese Cinema",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; film viewing, two hours. Knowledge of Japanese not required. Critical and historical examination of Japanese cinema. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 161",
+      "dept": "JAPAN",
+      "number": "161",
+      "title": "Religious Life in Modern Japan",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Religious transformations accompanying rapid industrialization, urbanization, militarism, and defeat in Pacific War, including analyses of Shinto mythology, secular positivism, Buddhist reform movements, new religions, and continuing role of traditional village/family religious rites. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 165",
+      "dept": "JAPAN",
+      "number": "165",
+      "title": "Introduction to Japanese Buddhist Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 110A or Chinese 165 or Japanese placement test. Readings in premodern Buddhist texts written by Japanese in Sino-Japanese or Kambun and mixed Japanese/Chinese literary styles concerning textual commentaries, doctrinal treatises, hagiographies, temple histories, etc. Coverage varies. May be repeated for credit\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 110A or Chinese 165 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 110A",
+            "CHIN 165"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 170",
+      "dept": "JAPAN",
+      "number": "170",
+      "title": "Japanese Tales of Supernatural",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Readings of fictional works that feature supernatural beings, including Shinto gods, Buddhas, boddhisatvas, Yin-yang diviners, ghosts, various types of demons, shape-shifting foxes and raccoon dogs, snakes, and dragons. Exploration of different treatments of supernatural themes from ancient to modern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 172",
+      "dept": "JAPAN",
+      "number": "172",
+      "title": "Fiction and Plays of Floating World",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 50. Examination of broad selection of popular fiction and theater from late 17th to early 19th century, with focus on theme of floating world (ukiyo) of entertainment, including pleasure quarters, theater district, and realm of fiction. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 50.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 174",
+      "dept": "JAPAN",
+      "number": "174",
+      "title": "Classical Japanese Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Examination of classical poetry of Nara and Heian periods, with focus on poetry anthology called Man\u2019yoshu (Collection of Myriad Ages, 8th century) and on Kokinwakashu (Collection of Ancient and Modern Japanese Poems, early 10th century). Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 191B",
+      "dept": "JAPAN",
+      "number": "191B",
+      "title": "Variable Topics Research Seminars: Modern Japan",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminar on selected topics on modern Japan. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 50",
+      "dept": "JAPAN",
+      "number": "50",
+      "title": "Japanese Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Survey of development of Japanese culture and its relationship to Asiatic mainland. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 6",
+      "dept": "JAPAN",
+      "number": "6",
+      "title": "Intermediate Modern Japanese",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 5 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5 with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "JAPAN 124"
+      ]
+    },
+    {
+      "course_id": "JAPAN 70",
+      "dept": "JAPAN",
+      "number": "70",
+      "title": "Images of Japan: Literature and Film",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese culture, literature, or language not required. Introduction to visual and textual images of Japan\u2019s literary heritage, including documentary and feature films based on Japan\u2019s literary classics. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 75",
+      "dept": "JAPAN",
+      "number": "75",
+      "title": "Anime",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Discussion and analysis of seminal works of Japanese animation, or anime, created from 1980s to present. Engagement with works in variety of styles, and that deal with broad range of themes. Reading and discussion of recent scholarship on anime produced by scholars working in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 80",
+      "dept": "JAPAN",
+      "number": "80",
+      "title": "How Does It Move? Action and Moving Image in Modern Japan",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. How is action constituted on the screen? How has modern technological media informed and transformed our experience and understanding of action? Exploration of how our experience and conception of action is mediated by technological aesthetic media by tracing history of portrayal and experience of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN C182",
+      "dept": "JAPAN",
+      "number": "C182",
+      "title": "Japanese Folklore",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Lectures/discussions on native religious rituals (festivals) and observances of Japanese, with special emphasis on artistic behavior. Discussion of Shinto, Shinto/Buddhist syncretism, and other non-Buddhist belief systems. Concurrently scheduled with course C282. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM127",
+      "dept": "JAPAN",
+      "number": "CM127",
+      "title": "Contrastive Analysis of Japanese and Korean",
+      "units": 4.0,
+      "description": "(Same as Korean CM127 and Linguistics M178.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM160",
+      "dept": "JAPAN",
+      "number": "CM160",
+      "title": "Japanese Buddhism",
+      "units": 4.0,
+      "description": "(Same as Religion M161B.) Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Development of Buddhism in Japan in its cultural context, with emphasis on key ideas and teachings. Concurrently scheduled with course C260. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN M156",
+      "dept": "JAPAN",
+      "number": "M156",
+      "title": "Literature and Technology",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M176.) Lecture, three hours. Knowledge of Japanese not required. Examination of representation of technology in 20th-century fiction. Discussion of impact of technology on shifting images of gender, subjectivity, and national identity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 148A",
+      "dept": "KOREA",
+      "number": "148A",
+      "title": "Reading Modern Korean Academic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: Korean 101C or Korean placement test. Designed to improve reading skills for students who have studied Korean to advanced level, and enhance their understanding of Korean culture and society. Covers Korean academic texts (book chapters, journal articles, reviews, and primary sources) on various issues of modern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Korean 101C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 101C",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 153",
+      "dept": "KOREA",
+      "number": "153",
+      "title": "Korea West Encounters",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Exploration of major cross-cultural encounters between Korea and West from late 16th to early 20th century and writings of leading historical figures. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 154",
+      "dept": "KOREA",
+      "number": "154",
+      "title": "Contemporary Korean Culture through Literature and Film",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Korean not required. Use of fiction and film to explore contemporary Korean culture in cross-cultural context. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH COMP 3"
+          ],
+          [
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 155",
+      "dept": "KOREA",
+      "number": "155",
+      "title": "Topics in Korean Cinema",
+      "units": 4.0,
+      "description": "Lecture, one hour; discussion, one hour; film viewing, three hours. Knowledge of Korean not required. Historical and critical survey of Korean cinema, examining intersection between 20th-century Korean history, politics, and filmmaking. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 165",
+      "dept": "KOREA",
+      "number": "165",
+      "title": "Introduction to Korean Buddhist Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 100A or Chinese 110C or Korean placement test. Introduction to reading premodern Korean Buddhist texts written in Sino-Korean and taken from indigenous doxographic materials and philosophical writings, Korean Buddhist apocryphal scriptures, native exegetical commentaries, and Son (Zen) texts. Coverage varies. Texts\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 172",
+      "dept": "KOREA",
+      "number": "172",
+      "title": "Topics in Korean Christianity",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Historical development of Christianity in Korea, beliefs and practices, impact of Christianity on modern Korean culture and society. Coverage varies. May be repeated for credit with consent of instructor. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 179",
+      "dept": "KOREA",
+      "number": "179",
+      "title": "Gender and Sexuality in Korean Literature",
+      "units": 4.0,
+      "description": "Seminar, three hours. Examination of Korean literature from 15th through 19th centuries, focusing on topics related to gender and sexuality. By revising modern presumption of gender inequality in premodern and non-Western societies, examination of complex and dynamic cultural constructions of gender and sexuality in premodern Korean society through reading of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 180A",
+      "dept": "KOREA",
+      "number": "180A",
+      "title": "History of Korea through 1259",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of evolution of Korean culture and society within context of political and institutional industry. Consideration of both higher and popular culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 180B",
+      "dept": "KOREA",
+      "number": "180B",
+      "title": "History of Korea, 1260 through 1876",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of evolution of Korean culture and society within context of political and institutional industry. Consideration of both higher and popular culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 180C",
+      "dept": "KOREA",
+      "number": "180C",
+      "title": "History of Korea since 1876",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of evolution of Korean culture and society within context of political and institutional industry. Consideration of both higher and popular culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 182",
+      "dept": "KOREA",
+      "number": "182",
+      "title": "1894 Kabo Reforms: History at Crossroads of Civilizations",
+      "units": 4.0,
+      "description": "Seminar, three hours. Knowledge of Korean not required. Examination of modernizing reforms adopted in Korea in 1894. Consideration of conflict among radical Westernizers who had studied in Japan and U.S., moderate reformers who followed Chinese model of adopting Western technology to defend Confucian order, and orthodox Confucians who strongly opposed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 183",
+      "dept": "KOREA",
+      "number": "183",
+      "title": "Korean Folklore",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of Korean folklore and its perspectives and methods\u2014oral literature, performing folk arts, social folk custom, and material culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 184A",
+      "dept": "KOREA",
+      "number": "184A",
+      "title": "Women in History: Premodern Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of premodern Korean history from perspective of women. Consideration of how gender roles and identities were socially (re)constructed over time, with focus on continual negotiation by women and men within larger processes of political, social, and cultural changes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 184B",
+      "dept": "KOREA",
+      "number": "184B",
+      "title": "Women in History: Modern Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of modern Korean history from perspective of women since mid-19th century. Consideration of how gender roles and identities were socially (re)constructed over time, with focus on continual negotiation by women and men within larger processes of political, social,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 185",
+      "dept": "KOREA",
+      "number": "185",
+      "title": "Education and Society in Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Korean not required. Coverage of historical legacies and current realities of education in Korea. Topics include Confucian background, colonial education, role of education in rapid economic development, views on education as vehicle for social mobility, and problems related to excessive emphasis on education. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 187",
+      "dept": "KOREA",
+      "number": "187",
+      "title": "Popular and Folk Religion in Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Introduction to history, forms, and scholarship concerning folk religion in Korea. Exploration of forms of popular and folk religion in Korea, including shamanism, ancestor worship, and contemporary religions. Consideration of fortune-telling, geomancy, and spirit belief. P/NP (undergraduates), S/U (graduates),\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 191A",
+      "dept": "KOREA",
+      "number": "191A",
+      "title": "Variable Topics Research Seminars: Premodern or Early Modern Korea",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminar on selected topics in premodern or early modern Korea. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 191B",
+      "dept": "KOREA",
+      "number": "191B",
+      "title": "Variable Topics Research Seminars: Contemporary Korean History",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminar on selected topics in modern Korean history. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 40W",
+      "dept": "KOREA",
+      "number": "40W",
+      "title": "Korean Wave: Globalization of South Korean Popular Culture",
+      "units": 5.0,
+      "description": "Lecture, two and one half hours; discussion, one hour. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 50. Knowledge of Korean not required. Introduction to Korean popular culture, with focus on representative global phenomenon of Korean Wave (Hallyu). Use of concepts that theorize\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 50",
+      "dept": "KOREA",
+      "number": "50",
+      "title": "History of Korean Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. General survey of development of Korean culture within context of political, social, and economic history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "KOREA C177"
+      ]
+    },
+    {
+      "course_id": "KOREA 6",
+      "dept": "KOREA",
+      "number": "6",
+      "title": "Intermediate Modern Korean",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 5 with grade of C or better or Korean placement test. Not open to students who have learned, from whatever source, enough Korean to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "KOREA 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 70",
+      "dept": "KOREA",
+      "number": "70",
+      "title": "Images of Korea",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean culture, literature, or language not required. Introduction to visual and textual representations of Korea. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 80",
+      "dept": "KOREA",
+      "number": "80",
+      "title": "Introduction to Korean Cinema",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Broad overview of Korean film history, from beginning of 20th century into present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C105A",
+      "dept": "KOREA",
+      "number": "C105A",
+      "title": "Reading Korean Academic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Korean placement test. Intended to improve reading skills for students who have studied Korean to advanced level, with coverage in Korean of materials on Korean history, culture, and society. May be taken independently for credit. Concurrently scheduled with course C205A. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 101C",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C105B",
+      "dept": "KOREA",
+      "number": "C105B",
+      "title": "Reading Korean Academic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Korean placement test. Intended to improve reading skills for students who have studied Korean to advanced level, with coverage in Korean of materials on Korean history, culture, and society. May be taken independently for credit. Concurrently scheduled with course C205B. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 101C",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C105C",
+      "dept": "KOREA",
+      "number": "C105C",
+      "title": "Reading Korean Academic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Korean placement test. Intended to improve reading skills for students who have studied Korean to advanced level, with coverage in Korean of materials on Korean history, culture, and society. May be taken independently for credit. Concurrently scheduled with course C205C. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 101C",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C150",
+      "dept": "KOREA",
+      "number": "C150",
+      "title": "Korean Literature in Translation: Classical",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Korean not required. Survey of premodern Korean literature from beginning to 19th century. Concurrently scheduled with course C250. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C151",
+      "dept": "KOREA",
+      "number": "C151",
+      "title": "Korean Literature in Translation: Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Korean not required. Survey of modern and contemporary Korean literature. Concurrently scheduled with course C251. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH COMP 3",
+            "ENGLISH COMP 3H",
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C177",
+      "dept": "KOREA",
+      "number": "C177",
+      "title": "Intellectual History of Modern Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 50. Knowledge of Korean not required. Survey of Korean thought in late 19th and 20th centuries, including religious thought, political thought, feminism, nationalism, and economic thinking and practice. Concurrently scheduled with course C277. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "KOREA 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA CM127",
+      "dept": "KOREA",
+      "number": "CM127",
+      "title": "Contrastive Analysis of Japanese and Korean",
+      "units": 4.0,
+      "description": "(Same as Japanese CM127 and Linguistics M178.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA CM160",
+      "dept": "KOREA",
+      "number": "CM160",
+      "title": "Korean Buddhism",
+      "units": 4.0,
+      "description": "(Same as Religion M161C.) Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Introduction and development of Buddhism in Korea, interactions between indigenous Korean culture and Sinitic traditions of Buddhism, Korean syntheses of imported Buddhist theological systems and meditative techniques, and independent Son (Zen) schools of Korea. Concurrently\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA M186",
+      "dept": "KOREA",
+      "number": "M186",
+      "title": "Korea and Vietnam: Comparative Modern Histories",
+      "units": 4.0,
+      "description": "(Same as Vietnamese M186.) Seminar, three hours. Comparative survey of intertwined and parallel histories of Korea and Vietnam, organized chronologically, but structured around key themes that serve as basis for comparison. Modern experiences of colonized Vietnam and Korea have many significant parallels, including imposition of colonial control, transition to modernized\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA M60",
+      "dept": "KOREA",
+      "number": "M60",
+      "title": "Introduction to Korean Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M60C.) Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. General survey of history of religions in Korea\u2014Shamanism, Buddhism, Confucianism, Daoism, Christianity, Tonghak, and some new religions\u2014with focus on religious doctrines, practices, Korean characteristics, and social impacts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MGMT 109",
+      "dept": "MGMT",
+      "number": "109",
+      "title": "International Business Law",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended requisite: course 108. Study of international business legal environment, including general overview of international laws and organizations and comprehensive review of U.S. regulations of international business transactions. Special emphasis on international litigation, commercial transactions, regulation of investments, multinational corporations, and international banking. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MGMT 127C",
+      "dept": "MGMT",
+      "number": "127C",
+      "title": "International Taxation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended requisite: course 127A. Study of two principle areas of international taxation from U.S. regulatory perspective: taxation of American citizens and companies conducting business in international arena (outbound transactions) and taxation of foreign nationals and companies who invest or conduct business in the U.S. (inbound transactions). P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 123A",
+      "dept": "POL SCI",
+      "number": "123A",
+      "title": "International Law",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Study of nature and place of international law in conduct of international relations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 124A",
+      "dept": "POL SCI",
+      "number": "124A",
+      "title": "International Political Economy",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Study of political aspects of international economic issues. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 125A",
+      "dept": "POL SCI",
+      "number": "125A",
+      "title": "Arms Control and International Security",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Arms control in context of international security in nuclear age. Nuclear arms race; relationship between deterrence doctrines and nuclear war; roles of technology and ideology; nuclear proliferation; outer space. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 126",
+      "dept": "POL SCI",
+      "number": "126",
+      "title": "Peace and War",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Theory and research on causes of war and conditions of peace.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 129",
+      "dept": "POL SCI",
+      "number": "129",
+      "title": "Diplomacy and War",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20 or 137A. Designed for juniors/seniors. Analysis of role of diplomacy in great power politics, history of diplomatic institutions, advantages of public and private diplomacy, bilateral and multilateral settings, and theory and practice of deterrence and coercion. Use\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 20 or 137A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 134",
+      "dept": "POL SCI",
+      "number": "134",
+      "title": "Foreign Policy Decision Making and Tools of Statecraft",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 120A. Designed for juniors/seniors. Contrasts purposive and process models of individual and group decision making. Impact of strategic interaction and situational factors on foreign policy decision making. Implications for policy choice of tools of statecraft (i.e., threats/promises, military/economic/diplomacy).\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 137A",
+      "dept": "POL SCI",
+      "number": "137A",
+      "title": "International Relations Theory",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of various theoretical approaches to international relations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 150",
+      "dept": "POL SCI",
+      "number": "150",
+      "title": "Political Violence",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of one or several different uses of violence in revolutionary process: demonstrations, mass uprisings, coup d\u2019etat, assassination, and terrorism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 158",
+      "dept": "POL SCI",
+      "number": "158",
+      "title": "Southeast Asian Politics",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 50. Designed for juniors/seniors. Survey of political environment in major Southeast Asian states. Use of comparative analysis to address major problems confronting region, including democratization, economic growth, drug trade, deforestation, and security threats. Letter grading.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 159A",
+      "dept": "POL SCI",
+      "number": "159A",
+      "title": "Government and Politics of China: Chinese Revolution and Age of Mao Zedong",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of modern Chinese politics from decline of Manchu dynasty and rise of revolutionary nationalism to death of Mao Zedong, with emphasis on socioeconomic foundations and political dynamics of revolution in modern China.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 159B",
+      "dept": "POL SCI",
+      "number": "159B",
+      "title": "Government and Politics of China: China in Age of Reform",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of China\u2019s political and ideological transformation in post-Mao era. Assessment of impact of changing socioeconomic conditions on revolutionary policies and programs of Chinese Communist Party. Exploration of etiology of 1989 Tiananmen crisis and consequences for China\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 160",
+      "dept": "POL SCI",
+      "number": "160",
+      "title": "Government and Politics of Japan",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 50. Designed for juniors/seniors. Structure and operation of contemporary Japanese political system, with special attention to domestic political forces and problems.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 166",
+      "dept": "POL SCI",
+      "number": "166",
+      "title": "Comparative Constitutional Design",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparison of major institutional structures such as presidentialism versus parliamentarism, unicameralism versus bicameralism, two-party versus multiparty systems, federal versus unitary systems, plurality versus proportional electoral systems, etc. Method of analysis is rational choice (political actors are assumed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 167D",
+      "dept": "POL SCI",
+      "number": "167D",
+      "title": "Political Institutions and Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Preparation: one statistics course. Designed for juniors/seniors. Data analytic approach to question of why some countries are rich and others are poor, with special attention to evidence about how governments and political institutions affect economic development. May be applied toward\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 168",
+      "dept": "POL SCI",
+      "number": "168",
+      "title": "Comparative Political Analysis",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisites: two courses in Field IV, or course 50 and one course in Field IV. Designed for juniors/seniors. Major approaches to study of comparative politics. Concepts and methodology of comparative analysis. Letter grading.",
+      "prereqs_raw": "Requisites: two courses in Field IV, or course 50 and one course in Field IV.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 50",
+      "dept": "POL SCI",
+      "number": "50",
+      "title": "Introduction to Comparative Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50R. Comparative study of constitutional principles, governmental institutions, and political processes in selected countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 158",
+        "POL SCI 160",
+        "POL SCI M167C"
+      ]
+    },
+    {
+      "course_id": "POL SCI M122B",
+      "dept": "POL SCI",
+      "number": "M122B",
+      "title": "Global Environment and World Politics",
+      "units": 4.0,
+      "description": "(Same as Environment M161.) Lecture, three or four hours; discussion, one hour (when scheduled). Recommended requisite: course 20. Politics and policy of major global environmental issues such as climate change, integrating law, policy, and political science perspectives. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI M167C",
+      "dept": "POL SCI",
+      "number": "M167C",
+      "title": "Political Economy of Development",
+      "units": 4.0,
+      "description": "(Same as International Development Studies M120.) Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 50. Political economy approach to puzzle of why some countries are rich and others are poor and why, among latter, some have been able to achieve rapid rates of economic growth and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "S ASIAN 155",
+      "dept": "S ASIAN",
+      "number": "155",
+      "title": "Topics in South Asian Cinema and Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Hindi/Urdu not required. Critical analysis of language and culture in South Asian diaspora as represented in films and/or literature. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "S ASIAN CM160",
+      "dept": "S ASIAN",
+      "number": "CM160",
+      "title": "Buddhism in India",
+      "units": 4.0,
+      "description": "(Same as Religion M161D.) Lecture, three hours; discussion, one hour. Knowledge of Indian languages not required. Overview of social and doctrinal history of Buddhism from its origin to its disappearance in India, based not only on texts but on archaeological, art historical, and inscriptional sources. Examination of both formal doctrine\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 130",
+      "dept": "SEASIAN",
+      "number": "130",
+      "title": "Topics in Southeast Asian Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from Comparative Literature 1A, 1B, 1C, 1D, 2AW, 2BW, 2CW, or English Composition 3 or 3H. Knowledge of Southeast Asian languages not required. Advanced exploration of Southeast Asia through in-depth reading of texts from region. Topics include censorship, politics, language, and literature. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from Comparative Literature 1A, 1B, 1C, 1D, 2AW, 2BW, 2CW, or English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D",
+            "COMP LIT 2AW",
+            "COMP LIT 2BW",
+            "COMP LIT 2CW",
+            "ENGLISH COMP 3",
+            "ENGLISH COMP 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 135",
+      "dept": "SEASIAN",
+      "number": "135",
+      "title": "Religion and Society in Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Critical issues related to major religious traditions in Southeast Asia, with emphasis on reading and reflecting on recent scholarship regarding complex interactions between religion, state, and society in contemporary Southeast Asia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN C140",
+      "dept": "SEASIAN",
+      "number": "C140",
+      "title": "Zomia: Peoples, Societies, and Cultures of Upland Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: prior course in Asian cultures or history. Multidisciplinary survey of peoples of upland Southeast Asia and critical issues affecting them. Topics include history, culture, human rights, ethnicity, religion, politics. Concurrently scheduled with course C240. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN C150",
+      "dept": "SEASIAN",
+      "number": "C150",
+      "title": "Indigenous Peoples of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. In Southeast Asia, indigeneity is multi-layered concept. Most of population is native, yet there are specific ethnic groups that are legally designated or otherwise recognized as indigenous peoples. Ideas about indigeneity also vary across time and space, among indigenous peoples themselves, in ways that\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 1",
+      "dept": "SOCIOL",
+      "number": "1",
+      "title": "Introductory Sociology",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Survey of characteristics of social life, processes of social interaction, and tools of sociological investigation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 183"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 116",
+      "dept": "SOCIOL",
+      "number": "116",
+      "title": "Social Demography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Studies of past, present, and future trends in population growth. Sociological theories of causes and consequences of population growth and redistribution. Emphasis on correlates of fertility, mortality, and migration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 151",
+      "dept": "SOCIOL",
+      "number": "151",
+      "title": "Comparative Immigration",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of immigration of Europeans, Asians, and Hispanics to the U.S. since the mid-19th century. Overview of immigration experience on ethno-racial groups that migrated voluntarily to this country, with emphasis on immediate postimmigration settlement. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 154",
+      "dept": "SOCIOL",
+      "number": "154",
+      "title": "Race and Ethnicity in Latin America",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in political, economic, and social lives of Latin American nations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 181A",
+      "dept": "SOCIOL",
+      "number": "181A",
+      "title": "Sociology of Global China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Analyses of how domestic developments create impetus for China\u2019s global expansion, and assessment of global China\u2019s variegated and uneven consequences. Concrete case studies include Belt and Road Initiative, soft power and cultural diplomacy, internal colonization of Hong Kong and Xinjiang, China\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 181B",
+      "dept": "SOCIOL",
+      "number": "181B",
+      "title": "Sociology of Contemporary China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Survey of changes in Chinese society from beginning of 20th century to present. Topics include social mobility and inequality, family and household, and population. Emphasis on changes post-Reform Era and in present. Focus on interaction of economic and political change plus\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 182",
+      "dept": "SOCIOL",
+      "number": "182",
+      "title": "Political Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Contributions of sociology to study of politics, including analysis of political aspects of social systems, social context of action, and social bases of power. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 183",
+      "dept": "SOCIOL",
+      "number": "183",
+      "title": "Comparative and Historical Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Survey of central themes of comparative and historical studies in sociology. Various aspects of development of modern society, including development of nation-state, emergence of capitalism, industrialization, and population growth. Variation in contemporary society, viewed from variety of theoretical perspectives. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191D",
+      "dept": "SOCIOL",
+      "number": "191D",
+      "title": "Undergraduate Seminar: Sociology of Development",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Taught in Spanish. Selected topics on development in Third World from global perspective. Reading, discussion, and development of culminating project. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191F",
+      "dept": "SOCIOL",
+      "number": "191F",
+      "title": "Undergraduate Seminar: Sociology of Globalization",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Great extension of social relations across globe has occurred over last 50 years. What are causes and mechanisms of this process, how far has it transformed human societies, and how far will it go in future? Economic, cultural, political, and military aspects of globalization,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THAI 6",
+      "dept": "THAI",
+      "number": "6",
+      "title": "Intermediate Thai",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Thai grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "THAI 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 102A",
+      "dept": "THEATER",
+      "number": "102A",
+      "title": "Theater of Japan",
+      "units": 5.0,
+      "description": "Lecture, three hours. Overview of Japanese theater and performance from early theatrical activity to present, with emphases on enduring forms and genres, patterns of reception, and transnational influences. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "URBN PL M165",
+      "dept": "URBN PL",
+      "number": "M165",
+      "title": "Environmentalism: Past, Present, and Future",
+      "units": 4.0,
+      "description": "(Same as Environment M125 and Geography M125.) Lecture, three hours; discussion, one hour. Exploration of history and origin of major environmental ideas, movements or countermovements they spawned, and new and changing nature of modern environmentalism. Introduction to early ideas of environment, how rise of modern sciences reshaped environmental thought, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 180B",
+      "dept": "VIETMSE",
+      "number": "180B",
+      "title": "Vietnam: History and Civilization, 1858 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: at least one Asian history or civilization course. Exploration of Vietnamese history and civilization during colonial and postcolonial eras, with emphasis on profound changes that swept through Vietnamese society during period of extended political and military conflict. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 6",
+      "dept": "VIETMSE",
+      "number": "6",
+      "title": "Intermediate Vietnamese",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Vietnamese grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "VIETMSE 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE CM155",
+      "dept": "VIETMSE",
+      "number": "CM155",
+      "title": "Topics in Vietnamese Cinema and/or Literature",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M173.) Lecture, three hours; discussion, one hour. Knowledge of Vietnamese not required. Critical and historical examination of literary and/or filmic representations connected to social practices such as empire, nation, diaspora, and globalization. Original language course materials available for interested students. May be concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE M186",
+      "dept": "VIETMSE",
+      "number": "M186",
+      "title": "Korea and Vietnam: Comparative Modern Histories",
+      "units": 4.0,
+      "description": "(Same as Korean M186.) Seminar, three hours. Comparative survey of intertwined and parallel histories of Korea and Vietnam, organized chronologically, but structured around key themes that serve as basis for comparison. Modern experiences of colonized Vietnam and Korea have many significant parallels, including imposition of colonial control, transition to modernized\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 20",
+      "dept": "WL ARTS",
+      "number": "20",
+      "title": "Culture: Introduction",
+      "units": 5.0,
+      "description": "Lecture, four hours. Introduction to key concepts and major theoretical and methodological debates that characterize field of cultural studies, including discussion of notions of culture, popular culture, subculture, youth culture, hegemony, gender, race, class, and national identity. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 33",
+      "dept": "WL ARTS",
+      "number": "33",
+      "title": "Colonialisms and Resistance",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to study of indigenous worldviews as they are expressed through art, mythology, ritual, health practice, languages, and ecology. With examples spanning globe, consideration of issues of colonialism, tradition, religious change, and legal and social implications of epistemological differences between people. Examination of critical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

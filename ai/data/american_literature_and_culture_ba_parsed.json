@@ -1,0 +1,2232 @@
+{
+  "major_id": "american-literature-and-culture-ba",
+  "major_name": "American Literature and Culture BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/AmericanLiteratureandCultureBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ENGCOMP 3",
+        "ENGL 11",
+        "ENGL 87"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ENGL 4W",
+            "ENGL 4HW",
+            "ENGL 4WX"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "FOREIGN LANGUAGE LEVEL 5",
+            "FOREIGN LANGUAGE LEVEL 3 + 2 ADDITIONAL COURSES"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 7,
+          "courses": [
+            "ENGL 100",
+            "ENGL M102A",
+            "ENGL M102B",
+            "ENGL M104A",
+            "ENGL M104B",
+            "ENGL M104C",
+            "ENGL M104D",
+            "ENGL M104E",
+            "ENGL M105A",
+            "ENGL M105B",
+            "ENGL M105C",
+            "ENGL M105D",
+            "ENGL M105E",
+            "ENGL 106",
+            "ENGL 115A",
+            "ENGL 117",
+            "ENGL 123",
+            "ENGL 131",
+            "ENGL 132",
+            "ENGL 133",
+            "ENGL 134",
+            "ENGL 135",
+            "ENGL 139",
+            "ENGL 166A",
+            "ENGL 166B",
+            "ENGL 166C",
+            "ENGL 167A",
+            "ENGL 167B",
+            "ENGL 168",
+            "ENGL 169",
+            "ENGL 170A",
+            "ENGL 170B",
+            "ENGL 170C",
+            "ENGL 172C",
+            "ENGL 173A",
+            "ENGL 173B",
+            "ENGL 173C",
+            "ENGL 174A",
+            "ENGL 174B",
+            "ENGL 174C",
+            "ENGL 175",
+            "ENGL 176",
+            "ENGL 177",
+            "ENGL M101B",
+            "ENGL M101C",
+            "ENGL M101D",
+            "ENGL M103",
+            "ENGL M107A",
+            "ENGL M107B",
+            "ENGL 108",
+            "ENGL 109",
+            "ENGL 118E",
+            "ENGL M118F",
+            "ENGL 119",
+            "ENGL 119XP",
+            "ENGL M126"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ENGCOMP": [
+      "ENGCOMP 3"
+    ],
+    "ENGL": [
+      "ENGL 100",
+      "ENGL 106",
+      "ENGL 108",
+      "ENGL 109",
+      "ENGL 11",
+      "ENGL 114",
+      "ENGL 115A",
+      "ENGL 115C",
+      "ENGL 115D",
+      "ENGL 115E",
+      "ENGL 116A",
+      "ENGL 116B",
+      "ENGL 117",
+      "ENGL 118E",
+      "ENGL 119",
+      "ENGL 119XP",
+      "ENGL 121",
+      "ENGL 122",
+      "ENGL 123",
+      "ENGL 124",
+      "ENGL 125",
+      "ENGL 127",
+      "ENGL 129",
+      "ENGL 131",
+      "ENGL 132",
+      "ENGL 133",
+      "ENGL 134",
+      "ENGL 135",
+      "ENGL 139",
+      "ENGL 166A",
+      "ENGL 166B",
+      "ENGL 166C",
+      "ENGL 167A",
+      "ENGL 167B",
+      "ENGL 168",
+      "ENGL 169",
+      "ENGL 169R",
+      "ENGL 170A",
+      "ENGL 170B",
+      "ENGL 170C",
+      "ENGL 172C",
+      "ENGL 173A",
+      "ENGL 173B",
+      "ENGL 173C",
+      "ENGL 174A",
+      "ENGL 174B",
+      "ENGL 174C",
+      "ENGL 175",
+      "ENGL 176",
+      "ENGL 177",
+      "ENGL 179",
+      "ENGL 179R",
+      "ENGL 180",
+      "ENGL 181A",
+      "ENGL 181B",
+      "ENGL 182E",
+      "ENGL 182F",
+      "ENGL 183A",
+      "ENGL 183B",
+      "ENGL 183C",
+      "ENGL 184",
+      "ENGL 191H",
+      "ENGL 198A",
+      "ENGL 198B",
+      "ENGL 4HW",
+      "ENGL 4W",
+      "ENGL 4WX",
+      "ENGL 87",
+      "ENGL M101B",
+      "ENGL M101C",
+      "ENGL M101D",
+      "ENGL M102A",
+      "ENGL M102B",
+      "ENGL M103",
+      "ENGL M104A",
+      "ENGL M104B",
+      "ENGL M104C",
+      "ENGL M104D",
+      "ENGL M104E",
+      "ENGL M105A",
+      "ENGL M105B",
+      "ENGL M105C",
+      "ENGL M105D",
+      "ENGL M105E",
+      "ENGL M105XP",
+      "ENGL M107A",
+      "ENGL M107B",
+      "ENGL M115XP",
+      "ENGL M118F",
+      "ENGL M126",
+      "ENGL M191A",
+      "ENGL M191B",
+      "ENGL M191C",
+      "ENGL M191D",
+      "ENGL M191E"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ENGCOMP 3",
+      "dept": "ENGCOMP",
+      "number": "3",
+      "title": "English Composition, Rhetoric, and Language",
+      "units": 5.0,
+      "description": "Lecture, three hours. Enforced requisite: satisfaction of Entry-Level Writing requirement or course 2 or 2I (C or better). Not open for credit to students with credit for course 3D, 3DS, 3E, or 3SL. Rhetorical techniques and skillful argument. Analysis of varieties of academic prose and writing of minimum of 20\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: satisfaction of Entry-Level Writing requirement or course 2 or 2I (C or better).",
+      "prereqs_parsed": {
+        "required": [
+          "ENGCOMP 2",
+          "ENGCOMP 2I"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGCOMP 2",
+            "ENGCOMP 2I"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 100",
+      "dept": "ENGL",
+      "number": "100",
+      "title": "Ways of Reading Race",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Introduction to interdisciplinary study of race and ethnicity, with primary focus on literature. Through examination of institutions that form understanding of race\u2014citizenship, nationalism, class, gender, and labor\u2014interrogation of how we come to think of ourselves and others as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 106",
+      "dept": "ENGL",
+      "number": "106",
+      "title": "Studies in Native American and Indigenous Literatures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of Native American and/or transnational indigenous literary and cultural expression. Topics may include oral traditions and histories, decolonization and sovereignty, identity and place in comparative perspectives, and multiple genres and forms such as novel,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 108",
+      "dept": "ENGL",
+      "number": "108",
+      "title": "Interracial Encounters",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: English Composition 3 or 3H. Study of literary, cultural, and/or cinematic texts produced by people from different ethnic and religious backgrounds and providing comparative cultural perspectives on living in multiethnic societies. May be repeated for credit with topic or instructor\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3",
+          "ENGL 3H"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 109",
+      "dept": "ENGL",
+      "number": "109",
+      "title": "Topics in Race, Ethnicity, Gender, and Sexuality Studies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. Depending on instructor, emphasis may be historical, regional, national, comparative, or thematic. May be repeated for credit with topic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 11",
+      "dept": "ENGL",
+      "number": "11",
+      "title": "Introduction to American Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: English Composition 3, English 4W or 4HW or 4WS. Exploration of question of what is meant by America, and hence what is meant by American culture and American studies. Addresses concepts of origins (real or imagined beginnings of cultural formations), identities\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: English Composition 3, English 4W or 4HW or 4WS.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 4W",
+            "ENGL 4HW",
+            "ENGL 4WS"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 121",
+        "ENGL 122",
+        "ENGL 127",
+        "ENGL 166A",
+        "ENGL 166C",
+        "ENGL 167A",
+        "ENGL 167B",
+        "ENGL 168",
+        "ENGL 169",
+        "ENGL 180",
+        "ENGL 181A",
+        "ENGL 182F",
+        "ENGL 183A",
+        "ENGL 183B",
+        "ENGL 183C",
+        "ENGL 87"
+      ]
+    },
+    {
+      "course_id": "ENGL 114",
+      "dept": "ENGL",
+      "number": "114",
+      "title": "Lyric Histories",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Exploration of lyric poetry in English across centuries. Topics may include historical evolution of aesthetic forms, changing concepts of dramatic personae, matter of literary influence, and complex relationship of individual lyric speakers with their social\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 115A",
+      "dept": "ENGL",
+      "number": "115A",
+      "title": "American Popular Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Examination of such popular styles and genres as sentimental literature, sensation fiction, dime novels, crime stories, pornography, science fiction, supernatural tales, Hollywood novels, and other kinds of mass literary expression. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 115C",
+      "dept": "ENGL",
+      "number": "115C",
+      "title": "Literature for Children and Adolescents",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of historical backgrounds and development of types of children\u2019s literature, folklore and oral tradition, criticism, illustration, and bibliography and/or analysis and evaluation of literature intended mainly for students in junior and senior high schools.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 115D",
+      "dept": "ENGL",
+      "number": "115D",
+      "title": "Detective Fiction",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of British and American detective fiction and literature of detection. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 115E",
+      "dept": "ENGL",
+      "number": "115E",
+      "title": "Science Fiction",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of science fiction and speculative literatures. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 116A",
+      "dept": "ENGL",
+      "number": "116A",
+      "title": "Experimental Fiction",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of novels and short stories that employ playful or experimental practices in language, narrative, hybridity (genre, medium), typography, and other material aspects of text such as binding and book design. Focus generally on texts\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 116B",
+      "dept": "ENGL",
+      "number": "116B",
+      "title": "Introduction to Electronic Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Overview of literatures involving digital technology, such as hypertext fiction, interactive fiction, animated and interactive poetry, multimedia works, video game narrative, and works employing network protocols and print-based works influenced by digital culture. Basic introduction\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 117",
+      "dept": "ENGL",
+      "number": "117",
+      "title": "Literature of California and American West",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of literature in English dealing with exploration, settlement, and emergent cultural awareness of Western U.S. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 118E",
+      "dept": "ENGL",
+      "number": "118E",
+      "title": "Literature and Environment",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Study of literature from environmental perspectives, including ecocritical and interdisciplinary consideration of issues such as environmental justice, animal studies, food studies, gender studies, urban and postcolonial ecologies, climate change, cultural biophilia and biophobia, and relationship of literature\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 119",
+      "dept": "ENGL",
+      "number": "119",
+      "title": "Literary Cities",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Exploration of place of literary imagination in making of cities, with focus on questions of cultural exchange, development, migration, urban rebellion, and style. Topics may include meaning of urban space and time, city as urban\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 119XP",
+      "dept": "ENGL",
+      "number": "119XP",
+      "title": "Literary Cities\u00e2\u20ac\u201dService Learning",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled); fieldwork, two hours. Enforced requisite: English Composition 3. Exploration of place of literary imagination in making of cities, with focus on questions of cultural exchange, development, migration, urban rebellion, and style. Topics may include meaning of urban space and time, city as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 121",
+      "dept": "ENGL",
+      "number": "121",
+      "title": "Modern and Contemporary Aesthetics and Critical Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A and 10B, or 11 and 87. Investigation of some dominant trends in 19th- and 20th-century aesthetics, critical theory, and interpretation. Topics may include Marxism, psychoanalysis, structuralism, poststructuralism, feminism, and postcolonialism. May not be repeated for credit. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A and 10B, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 191H"
+      ]
+    },
+    {
+      "course_id": "ENGL 122",
+      "dept": "ENGL",
+      "number": "122",
+      "title": "Keywords in Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A, 10B, and 10C, or 11 and 87. Recommended: courses 120, 121. Taking its model from Raymond Williams\u2019 classic vocabulary of culture and society, investigation of fundamental theoretical concepts, or keywords, that have emerged from variety of intellectual disciplines to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B",
+            "ENGL 10C"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 191H"
+      ]
+    },
+    {
+      "course_id": "ENGL 123",
+      "dept": "ENGL",
+      "number": "123",
+      "title": "Theories of History and Historicism",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A, 10B, and 10C, or 11 and 87. Recommended: courses 120, 121. Exploration of theories of history and historicism that offer productive approaches to literary texts. Investigation of how theorists negotiate between abstract concepts of history and situated historical narratives,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ENGL 191H"
+      ]
+    },
+    {
+      "course_id": "ENGL 124",
+      "dept": "ENGL",
+      "number": "124",
+      "title": "Theories of Religion",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A, 10B, and 10C, or 11 and 87. Recommended: courses 120, 121. Examination of relationship between literary and religious practices and traditions. Topics may include legacies of monotheisms, theories of sacrifice, sacrament, gift, and mystical traditions, as well as history\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ENGL 191H"
+      ]
+    },
+    {
+      "course_id": "ENGL 125",
+      "dept": "ENGL",
+      "number": "125",
+      "title": "Violence in Cultural Theory and Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Recommended: courses 120, 121. Examination of literary, philosophical, religious, and/or psychological texts that theorize causes, effects, political justifications, cultural sublimations, and literary uses and critiques of violence. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 191H"
+      ]
+    },
+    {
+      "course_id": "ENGL 127",
+      "dept": "ENGL",
+      "number": "127",
+      "title": "Performance, Media, and Cultural Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A, 10B, and 10C, or 11 and 87. Recommended: courses 120, 121. Examination of concepts and modes of performance, culture, and/or media, broadly construed. Evaluation of different modes of inquiry around one or more of these concepts, as well as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B",
+            "ENGL 10C"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 191H"
+      ]
+    },
+    {
+      "course_id": "ENGL 129",
+      "dept": "ENGL",
+      "number": "129",
+      "title": "Topics in Genre Studies, Interdisciplinary Studies, and Critical Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B, 10C. Recommended: courses 120, 121. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. Depending on instructor, emphasis may be historical, regional, national, comparative, or thematic. May be repeated for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B, 10C.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B",
+          "ENGL 10C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 131",
+      "dept": "ENGL",
+      "number": "131",
+      "title": "Studies in Postcolonial Literatures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Strongly recommended: course 130. Survey of how colonialism and decolonization have shaped literary and cultural expression, with specific emphasis on regional or thematic concerns. Topics may include literatures of Africa and African diaspora, environment and empire, Caribbean\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 132",
+      "dept": "ENGL",
+      "number": "132",
+      "title": "Culture and Imperialism",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Exploration of relationship between culture and imperialism through lens of literary texts to raise questions about what study of empire tells about relationship between power and knowledge. Discussion of shifting patterns and paradigms of imperial rule, including way\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 133",
+      "dept": "ENGL",
+      "number": "133",
+      "title": "Transatlantic Literatures and Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Study of literatures of Atlantic to examine cultural, political, and ideological issues that followed from transatlantic movement of people, ideas, commodities, and cultural artifacts. In addition to literatures of Britain and U.S., coverage may include texts from Africa,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 134",
+      "dept": "ENGL",
+      "number": "134",
+      "title": "Nationalism and Transnationalism",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Examination of how critical frameworks of nation and migration, transnationalism and globalization, and tradition and modernity frame analysis of literary texts, particularly relationship between literature and national identity. Other topics include nation building in relationship to regional identities\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 135",
+      "dept": "ENGL",
+      "number": "135",
+      "title": "Literature of Americas",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of literatures of Americas, with emphasis on complex ways in which letters of North America, Central America, South America, and Caribbean forge distinctly American perspective on global affairs. Spans literature from age of encounter to 19th-century\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 139",
+      "dept": "ENGL",
+      "number": "139",
+      "title": "Individual Authors",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Specialized study of work of one single Anglophone poet, dramatist, prose writer, or novelist. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 166A",
+      "dept": "ENGL",
+      "number": "166A",
+      "title": "Colonial Beginnings of American Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A and 10B, or 11 and 87. Historical survey of American literatures of discovery and exploration, contact, and settlement, with emphasis on genres that express distinctive colonial identities, myths, and religious visions. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A and 10B, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 166B",
+      "dept": "ENGL",
+      "number": "166B",
+      "title": "American Literature, 1776 to 1832",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A and 10B, or 11 and 87. Historical survey of American literatures from Revolution through early republic, with emphasis on genres that reflect systematic attempts to create representative national literature and attention to American ethnic, gender, and postcolonial perspectives. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A and 10B, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 166C",
+      "dept": "ENGL",
+      "number": "166C",
+      "title": "American Literature, 1832 to 1865",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A and 10B, or 11 and 87. Historical survey of American literatures from Jacksonian era to end of Civil War, including emergent tradition of American Romanticism, augmented and challenged by genres of popular protest urging application of democratic ideals to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A and 10B, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 167A",
+      "dept": "ENGL",
+      "number": "167A",
+      "title": "American Poetry to 1900",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A and 10B, or 11 and 87. Study of American poetry from Puritan period through end of 19th century. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A and 10B, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 167B",
+      "dept": "ENGL",
+      "number": "167B",
+      "title": "American Fiction to 1900",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A and 10B, or 11 and 87. Study of American fiction (both novels and short stories) from its beginning to end of 19th century. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A and 10B, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 168",
+      "dept": "ENGL",
+      "number": "168",
+      "title": "Major American Writers",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A and 10B, or 11 and 87. Broad survey of representative American writers across several centuries, designed to give concise account of broad narrative of American literary development, from origins through 19th century. Includes mainly works that have traditionally been\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A and 10B, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 169",
+      "dept": "ENGL",
+      "number": "169",
+      "title": "Topics in Literature, circa 1700 to 1850",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A and 10B, or 11 and 87. Examination of literatures from or about this time period. Consult Schedule of Classes for subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A and 10B, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 169R",
+      "dept": "ENGL",
+      "number": "169R",
+      "title": "Topics in Literature, circa 1700 to 1850: Research Component",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Study of literatures from this time period and conventions of literary research. Substantial research component included. Consult Schedule of Classes and departmental descriptions for subject to be studied in specific term. May be repeated for credit with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 170A",
+      "dept": "ENGL",
+      "number": "170A",
+      "title": "American Literature, 1865 to 1900",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Historical survey of American literature from end of Civil War to beginning of 20th century, including writers such as Chesnutt, Crane, Dickinson, Gilman, Howells, James, Norris, Twain, and others working in modes of realist and naturalist novel, regional\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 170B",
+      "dept": "ENGL",
+      "number": "170B",
+      "title": "American Literature, 1900 to 1945",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Historical survey of American literature from turn of century to end of World War II. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 170C",
+      "dept": "ENGL",
+      "number": "170C",
+      "title": "American Literature since 1945",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Historical survey of American literature since end of World War II. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 172C",
+      "dept": "ENGL",
+      "number": "172C",
+      "title": "American Drama",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Study of American drama from its beginning to present day. Historical period may vary with instructor. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 173A",
+      "dept": "ENGL",
+      "number": "173A",
+      "title": "American Poetry, 1900 to 1945",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Study of American poetry from beginning of 20th century to end of World War II. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 173B",
+      "dept": "ENGL",
+      "number": "173B",
+      "title": "American Poetry since 1945",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Study of American poetry since end of World War II. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 173C",
+      "dept": "ENGL",
+      "number": "173C",
+      "title": "Contemporary American Poetry",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Study of American poetry, mostly by living authors, with emphasis on emergent issues and poetic forms. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 174A",
+      "dept": "ENGL",
+      "number": "174A",
+      "title": "American Fiction, 1900 to 1945",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Study of American novels and short stories from beginning of 20th century to end of World War II. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 174B",
+      "dept": "ENGL",
+      "number": "174B",
+      "title": "American Fiction since 1945",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Study of American novels and short stories since end of World War II. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 174C",
+      "dept": "ENGL",
+      "number": "174C",
+      "title": "Contemporary American Fiction",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Study of American novels and short stories, mostly by living authors, with emphasis on emergent issues and aesthetics. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 175",
+      "dept": "ENGL",
+      "number": "175",
+      "title": "American Nonfictional Prose",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Study of American nonfictional prose (essays, autobiographies, travel narratives, and other). Particular genre and/or historical period vary with instructor. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 176",
+      "dept": "ENGL",
+      "number": "176",
+      "title": "Hemispheric American Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Examination of primarily North American literature from hemispheric rather than nation-based perspective. Historic breadth in study of American literature while posing such crucial theoretical issues as emergence of U.S. Empire or relationship between North America and Global South,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 177",
+      "dept": "ENGL",
+      "number": "177",
+      "title": "Interdisciplinary Studies of American Culture",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Interdisciplinary study of American literature in its relationships to other disciplines, including art, architecture, film, history, music, politics, and various social sciences, with emphasis on application of literary methodology to historical survey of American culture. May be repeated\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 179",
+      "dept": "ENGL",
+      "number": "179",
+      "title": "Topics in Literature, circa 1850 to Present",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Examination of literatures from or about this time period. Consult Schedule of Classes for subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 179R",
+      "dept": "ENGL",
+      "number": "179R",
+      "title": "Topics in Literature, circa 1850 to Present: Research Component",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Study of literatures from this time period and conventions of literary research. Substantial research component included. Consult Schedule of Classes and departmental descriptions for subject to be studied in specific term. May be repeated for credit with topic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 180",
+      "dept": "ENGL",
+      "number": "180",
+      "title": "Topics in Literature and Language",
+      "units": 5.0,
+      "description": "Seminar, three or four hours. Requisites: courses 10A, 10B, and 10C, or 11 and 87. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B",
+            "ENGL 10C"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 181A",
+      "dept": "ENGL",
+      "number": "181A",
+      "title": "Topics in Genre Studies",
+      "units": 5.0,
+      "description": "Seminar, three or four hours. Requisites: courses 10A, 10B, and 10C, or 11 and 87. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B",
+            "ENGL 10C"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 181B",
+      "dept": "ENGL",
+      "number": "181B",
+      "title": "Topics in Interdisciplinary Studies",
+      "units": 5.0,
+      "description": "Seminar, three or four hours. Enforced requisites: courses 10A, 10B, 10C. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B, 10C.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B",
+          "ENGL 10C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 182E",
+      "dept": "ENGL",
+      "number": "182E",
+      "title": "Topics in 19th-Century Literature",
+      "units": 5.0,
+      "description": "Seminar, three or four hours. Enforced requisites: courses 10A, 10B, 10C. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B, 10C.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B",
+          "ENGL 10C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 182F",
+      "dept": "ENGL",
+      "number": "182F",
+      "title": "Topics in 20th- and 21st-Century Literature",
+      "units": 5.0,
+      "description": "Seminar, three or four hours. Requisites: courses 10A, 10B, and 10C, or 11 and 87. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B",
+            "ENGL 10C"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 183A",
+      "dept": "ENGL",
+      "number": "183A",
+      "title": "Topics in Colonial American Literature",
+      "units": 5.0,
+      "description": "Seminar, three or four hours. Requisites: courses 10A, 10B, and 10C, or 11 and 87. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B",
+            "ENGL 10C"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 183B",
+      "dept": "ENGL",
+      "number": "183B",
+      "title": "Topics in 19th-Century American Literature",
+      "units": 5.0,
+      "description": "Seminar, three or four hours. Requisites: courses 10A, 10B, and 10C, or 11 and 87. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B",
+            "ENGL 10C"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 183C",
+      "dept": "ENGL",
+      "number": "183C",
+      "title": "Topics in 20th- and 21st-Century American Literature",
+      "units": 5.0,
+      "description": "Seminar, three or four hours. Requisites: courses 10A, 10B, and 10C, or 11 and 87. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 10A",
+            "ENGL 10B",
+            "ENGL 10C"
+          ],
+          [
+            "ENGL 11",
+            "ENGL 87"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 184",
+      "dept": "ENGL",
+      "number": "184",
+      "title": "Capstone Seminar: English",
+      "units": 5.0,
+      "description": "Seminar, three hours. Requisites: courses 10A, 10B, and 10C, or 11 and 87, and completion of at least four upper-division courses required for major. Limited to senior English or American Literature and Culture majors. Students use knowledge from prior coursework to address current topics in discipline and work with faculty\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, and 10C, or 11 and 87, and completion of at least four upper-division courses required for major.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 191H",
+      "dept": "ENGL",
+      "number": "191H",
+      "title": "Honors Research Seminars: English",
+      "units": 5.0,
+      "description": "Seminar, three hours. Enforced requisite: one course from 120 through 128. Open only to students who are eligible and apply for honors program in English. Introduction to research techniques and study of various approaches and applications of critical methodology as it relates to interpretation and evaluation of texts. Development and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 120 through 128.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 120",
+          "ENGL 121",
+          "ENGL 122",
+          "ENGL 123",
+          "ENGL 124",
+          "ENGL 125",
+          "ENGL 126",
+          "ENGL 127",
+          "ENGL 128"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 120",
+            "ENGL 121",
+            "ENGL 122",
+            "ENGL 123",
+            "ENGL 124",
+            "ENGL 125",
+            "ENGL 126",
+            "ENGL 127",
+            "ENGL 128"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 198A",
+        "ENGL 198B"
+      ]
+    },
+    {
+      "course_id": "ENGL 198A",
+      "dept": "ENGL",
+      "number": "198A",
+      "title": "Honors Research in English",
+      "units": 5.0,
+      "description": "Tutorial, to be arranged. Requisite: course 191H. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. In Progress grading (credit to be given only on completion of course 198B).",
+      "prereqs_raw": "Requisite: course 191H.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 191H"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 198B",
+      "dept": "ENGL",
+      "number": "198B",
+      "title": "Honors Research in English",
+      "units": 5.0,
+      "description": "Tutorial, to be arranged. Requisite: course 191H. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 191H.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 191H"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 4HW",
+      "dept": "ENGL",
+      "number": "4HW",
+      "title": "Critical Reading and Writing (Honors)",
+      "units": 5.0,
+      "description": "Lecture, four hours. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Introduction to literary analysis, with close reading and carefully written exposition of selections from principal modes of literature: poetry, prose fiction, and drama. Minimum of four papers (three to five pages each) and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H",
+            "ENGL 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 11",
+        "ENGL 87"
+      ]
+    },
+    {
+      "course_id": "ENGL 4W",
+      "dept": "ENGL",
+      "number": "4W",
+      "title": "Critical Reading and Writing",
+      "units": 5.0,
+      "description": "Lecture, four hours. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Introduction to literary analysis, with close reading and carefully written exposition of selections from principal modes of literature: poetry, prose fiction, and drama. Minimum of 15 to 20 pages of revised writing. Satisfies\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H",
+            "ENGL 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 11",
+        "ENGL 87"
+      ]
+    },
+    {
+      "course_id": "ENGL 4WX",
+      "dept": "ENGL",
+      "number": "4WX",
+      "title": "Critical Reading and Writing (Community-Engaged Learning)",
+      "units": 5.0,
+      "description": "Lecture, four hours; fieldwork, two hours. Enforced requisite: English Composition 3. Introduction to literary analysis, with close reading and carefully written exposition of selections from principal modes of literature: poetry, prose fiction, and drama. Minimum of 15 to 20 pages of revised writing. Service learning component includes meaningful work with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 87",
+      "dept": "ENGL",
+      "number": "87",
+      "title": "Topics in American Cultures",
+      "units": 5.0,
+      "description": "Seminar, three hours. Requisites: English Composition 3, English 4W or 4HW or 4WS, 11. Content varies. Introductory study of diverse peoples, histories, and ideas of America. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: English Composition 3, English 4W or 4HW or 4WS, 11.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3",
+          "ENGL 11"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "ENGL 4W",
+          "ENGL 4HW",
+          "ENGL 4WS"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 121",
+        "ENGL 122",
+        "ENGL 127",
+        "ENGL 166A",
+        "ENGL 166C",
+        "ENGL 167A",
+        "ENGL 167B",
+        "ENGL 168",
+        "ENGL 169",
+        "ENGL 180",
+        "ENGL 181A",
+        "ENGL 182F",
+        "ENGL 183A",
+        "ENGL 183B",
+        "ENGL 183C"
+      ]
+    },
+    {
+      "course_id": "ENGL M101B",
+      "dept": "ENGL",
+      "number": "M101B",
+      "title": "Queer Literatures and Cultures, 1850 to 1970",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M105B and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M101B.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of discrete period of queer literature and culture from circa 1850 to 1970. Works by such authors as Walt Whitman, Radclyffe Hall,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M101C",
+      "dept": "ENGL",
+      "number": "M101C",
+      "title": "Queer Literatures and Cultures after 1970",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M105C and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M101C.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Examination of cultural production, specifically literature, produced by queers after Stonewall rebellion in New York in 1969, widely regarded as origins or beginning\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M101D",
+      "dept": "ENGL",
+      "number": "M101D",
+      "title": "Studies in Queer Literatures and Cultures",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M105D and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M101D.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Variable specialized studies course in queer literatures and cultures. Topics focus on particular problem or issue in terms of its relationship to queer\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M102A",
+      "dept": "ENGL",
+      "number": "M102A",
+      "title": "Historical Survey of Asian American Literature",
+      "units": 5.0,
+      "description": "(Same as Asian American Studies M112A.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Survey of Asian American literature either produced from or thematically reflecting pre-1980 period. Issues include immigration, diaspora, generational conflict, appropriation of cultural traditions, ethnic/gender formation, interethnic dynamics, and social\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M102B",
+      "dept": "ENGL",
+      "number": "M102B",
+      "title": "Contemporary Asian American Literary Issues and Criticism",
+      "units": 5.0,
+      "description": "(Same as Asian American Studies M112B.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Survey of post-1980 Asian American literature that explores key literary and critical issues, such as race and geography, aesthetics and activism, cultural work and immigrant labor, kinship and sexuality,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "ENGL 3",
+          "ENGL 3H"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M103",
+      "dept": "ENGL",
+      "number": "M103",
+      "title": "Studies in Disability Literatures",
+      "units": 5.0,
+      "description": "(Same as Disability Studies M103.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Survey of modes of disability in literature, with specific emphasis on thematic concerns. Topics may include introduction to disability studies; race, gender, and disability; disability narratives; etc. May be repeated\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M104A",
+      "dept": "ENGL",
+      "number": "M104A",
+      "title": "Early African American Literature",
+      "units": 5.0,
+      "description": "(Same as African American Studies M104A.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Introductory survey of African American literature from 18th century through World War I, including oral and written forms (folktales, spirituals, sermons; fiction, poetry, essays), by authors such as Phillis\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M104B",
+      "dept": "ENGL",
+      "number": "M104B",
+      "title": "African American Literature from Harlem Renaissance to 1960s",
+      "units": 5.0,
+      "description": "(Same as African American Studies M104B.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Introductory survey of 20th-century African American literature from New Negro Movement of post-World War I period to 1960s, including oral materials (ballads, blues, speeches) and fiction, poetry, and essays\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M104C",
+      "dept": "ENGL",
+      "number": "M104C",
+      "title": "African American Literature of 1960s and 1970s",
+      "units": 5.0,
+      "description": "(Same as African American Studies M104C.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Introductory survey of African American literary expression from late 1950s through 1970s. Topics include rise of Black Arts Movement of 1960s and emergence of black women\u2019s writing in early\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M104D",
+      "dept": "ENGL",
+      "number": "M104D",
+      "title": "Contemporary African American Literature",
+      "units": 5.0,
+      "description": "(Same as African American Studies M104D.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Introductory survey of African American literature from 1980s to present covering range of genres, with emphasis on diversity of perspectives and styles that have emerged over past 30 years\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M104E",
+      "dept": "ENGL",
+      "number": "M104E",
+      "title": "Topics in African American Literature and Culture",
+      "units": 5.0,
+      "description": "(Same as African American Studies M104E.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Variable topics lecture course that provides opportunity to cover African American literature from wide range of theoretical, historical, format, and thematic perspectives. Topics may include African American autobiography, 20th-century\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M105A",
+      "dept": "ENGL",
+      "number": "M105A",
+      "title": "Early Chicana/Chicano Literature, 1400 to 1920",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M105A.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of Chicana/Chicano literature from poetry of Triple Alliance and Aztec Empire through end of Mexican Revolution (1920), including oral and written forms (poetry, corridos, testimonios, folklore, novels, short\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M105B",
+      "dept": "ENGL",
+      "number": "M105B",
+      "title": "Chicana/Chicano Literature from Mexican Revolution to el Movimiento, 1920 to 1970s",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M105B.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Chicana/Chicano literature from 1920s through Great Depression and World War II, ending with Chicana/Chicano civil rights movement. Oral and written narratives by writers including Conrado Espinoza, Jovita Gonz\u00e1lez, Cleofas\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M105C",
+      "dept": "ENGL",
+      "number": "M105C",
+      "title": "Chicana/Chicano Literature since el Movimiento, 1970s to Present",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M105C.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of Chicana/Chicano literature since 1970s, with particular emphasis on how queer and feminist activism as well as Central and South American migration have shaped 21st-century chicanidad. Oral, written,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M105D",
+      "dept": "ENGL",
+      "number": "M105D",
+      "title": "Introduction to Latina/Latino Literature",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M105D.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of U.S. Latina/Latino literature and introduction to its major critical trends, with emphasis on groups of Caribbean, Mexican, South American, and Central American origin. Representative works read in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M105E",
+      "dept": "ENGL",
+      "number": "M105E",
+      "title": "Studies in Chicana/Chicano and/or Latina/Latino Literature",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M105E.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Variable topics course to give students broad introduction to issues and themes in Chicana/Chicano and/or Latina/Latino literature. Topics include border, immigration, revolution, language, gender, sexuality, and diaspora, among others.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M105XP",
+      "dept": "ENGL",
+      "number": "M105XP",
+      "title": "Seminar: Chicana/Chicano and/or Latina/Latino Literature\u00e2\u20ac\u201dCommunity-Engaged Learning",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M105XP.) Seminar, three or four hours; field placement, three or four hours. Enforced requisite: English Composition 3. Specialized studies in Chicana/Chicano and/or Latina/Latino literature. In-depth study of various topics related to Chicano/Latino communities in Southern California, including Chicana/Chicano visions of Los Angeles; immigration,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M107A",
+      "dept": "ENGL",
+      "number": "M107A",
+      "title": "Studies in Women's Writing",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M107A.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Focus on women writers that may include historical, regional, national, or thematic emphasis, with possible topics such as authorship, self-writing, sexuality, gender, and genre. May be repeated for credit with topic or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M107B",
+      "dept": "ENGL",
+      "number": "M107B",
+      "title": "Studies in Gender and Sexuality",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M107B and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M107B.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Examination of literary and cultural production through lens of gender and sexuality. Depending on instructor, emphasis may be historical, regional, national, comparative, or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M115XP",
+      "dept": "ENGL",
+      "number": "M115XP",
+      "title": "Community-Based Studies of Popular Literature",
+      "units": 5.0,
+      "description": "(Same as Community Engagement and Social Change M110XP.) Lecture, four hours; discussion, one hour (when scheduled); fieldwork, two hours. Enforced requisite: English Composition 3. Service learning course that examines history and development of one or more genres of popular literature, with attention to contemporary communities of readers and writers and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M118F",
+      "dept": "ENGL",
+      "number": "M118F",
+      "title": "Food Cultures and Food Politics",
+      "units": 5.0,
+      "description": "(Same as Food Studies M132 and Society and Genetics M132.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: English Composition 3. Introduction to interdisciplinary field of food studies, with focus on how literature, art, science writing, and visual culture address political dimensions of food and agriculture in specific contexts.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M126",
+      "dept": "ENGL",
+      "number": "M126",
+      "title": "Feminist and Queer Theory",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M126 and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M126.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Recommended: one course from 120, 121, Gender Studies 102, 103, or 104. Investigation of key concepts and debates in study of gender, sexuality,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M191A",
+      "dept": "ENGL",
+      "number": "M191A",
+      "title": "Topics in African American Literature",
+      "units": 5.0,
+      "description": "(Same as African American Studies M179A.) Seminar, three or four hours. Enforced requisite: English Composition 3 or 3H. Variable specialized studies course in African American literature. Topics may include Harlem Renaissance, African American literature in Nadir, black women\u2019s writing, contemporary African American fiction, African American poetry. May be repeated for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M191B",
+      "dept": "ENGL",
+      "number": "M191B",
+      "title": "Topics in Chicana/Chicano and/or Latina/Latino Literature",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M139.) Seminar, three or four hours. Enforced requisite: English Composition 3. Variable specialized studies course in Chicana/Chicano and/or Latina/Latino literature. Topics include labor and literature; Chicana/Chicano visions of Los Angeles; immigration, migration, and exile; autobiography and historical change; Chicana/Chicano journalism; literary New Mexico;\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M191C",
+      "dept": "ENGL",
+      "number": "M191C",
+      "title": "Topics in Asian American Literature",
+      "units": 5.0,
+      "description": "(Same as Asian American Studies M191F.) Seminar, three or four hours. Enforced requisite: English Composition 3 or 3H. Variable specialized studies course in Asian American literature. Topics may include genres (autobiography, novel, poetry, short fiction, or drama); specific nationalities within Asian American community; themes of transnational migration; cross-cultural, interdisciplinary, or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M191D",
+      "dept": "ENGL",
+      "number": "M191D",
+      "title": "Topics in Queer Literatures and Cultures",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M191D and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M191D.) Seminar, three or four hours. Enforced requisite: English Composition 3. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL M191E",
+      "dept": "ENGL",
+      "number": "M191E",
+      "title": "Topics in Gender and Sexuality",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M191E and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M191E.) Seminar, three or four hours. Enforced requisite: English Composition 3. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

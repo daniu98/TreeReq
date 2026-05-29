@@ -1,0 +1,1766 @@
+{
+  "major_id": "history-ba",
+  "major_name": "History BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/HistoryBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "HIST 1A",
+            "HIST 1B",
+            "HIST 1C",
+            "HIST 2B",
+            "HIST 2C",
+            "HIST 3A",
+            "HIST 3B",
+            "HIST 3C",
+            "HIST 3D",
+            "HIST M4",
+            "HIST 5",
+            "HIST 8A",
+            "HIST 8B",
+            "HIST 8C",
+            "HIST 9A",
+            "HIST 9C",
+            "HIST 9D",
+            "HIST 9E",
+            "HIST M10A",
+            "HIST 10B",
+            "HIST 11A",
+            "HIST 11B",
+            "HIST 12A",
+            "HIST 12B",
+            "HIST 12C",
+            "HIST 13A",
+            "HIST 13B",
+            "HIST 13C",
+            "HIST 14",
+            "HIST 20",
+            "HIST 21",
+            "HIST 22"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "HIST 94",
+            "HIST 96W"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "HIST 1A",
+            "HIST 1B",
+            "HIST 1C",
+            "HIST 2B",
+            "HIST 2C",
+            "HIST 3A",
+            "HIST 3B",
+            "HIST 3C",
+            "HIST 3D",
+            "HIST M4",
+            "HIST 5",
+            "HIST 8A",
+            "HIST 8B",
+            "HIST 8C",
+            "HIST 9A",
+            "HIST 9C",
+            "HIST 9D",
+            "HIST 9E",
+            "HIST M10A",
+            "HIST 10B",
+            "HIST 11A",
+            "HIST 11B",
+            "HIST 12A",
+            "HIST 12B",
+            "HIST 12C",
+            "HIST 13A",
+            "HIST 13B",
+            "HIST 13C",
+            "HIST 14",
+            "HIST 20",
+            "HIST 21",
+            "HIST 22"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "HIST 101A",
+            "HIST 101B",
+            "HIST 101C",
+            "HIST 101D",
+            "HIST 101E",
+            "HIST 101F",
+            "HIST 101G",
+            "HIST 102A",
+            "HIST 102B",
+            "HIST 102C",
+            "HIST 102D"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "HIST 103A",
+            "HIST 103B",
+            "HIST 104A",
+            "HIST 104B",
+            "HIST 104C",
+            "HIST 105A",
+            "HIST 105B",
+            "HIST 106A",
+            "HIST 107A",
+            "HIST 107B",
+            "HIST 108A",
+            "HIST 108B",
+            "HIST 110A",
+            "HIST 110B",
+            "HIST 110C",
+            "HIST 111A",
+            "HIST 111B",
+            "HIST 113A",
+            "HIST 114A",
+            "HIST 114B",
+            "HIST 115A",
+            "HIST 115B"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "HIST 121A",
+            "HIST 121B",
+            "HIST 122A",
+            "HIST 122B",
+            "HIST 122C",
+            "HIST 124A",
+            "HIST 124B",
+            "HIST 125D",
+            "HIST 127A",
+            "HIST 128A",
+            "HIST 3A",
+            "HIST 3B",
+            "HIST 3C",
+            "HIST 3D"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "HIST 187A",
+            "HIST 187B",
+            "HIST 187C",
+            "HIST 187D",
+            "HIST 187E",
+            "HIST 187F",
+            "HIST 187G",
+            "HIST 187H",
+            "HIST 187I",
+            "HIST 187J",
+            "HIST 187K",
+            "HIST 187L",
+            "HIST 187M",
+            "HIST 187N",
+            "HIST 187O",
+            "HIST 187P",
+            "HIST 187Q",
+            "HIST 187R"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "HIST 1A",
+            "HIST 1B",
+            "HIST 2C",
+            "HIST 3A",
+            "HIST 8A",
+            "HIST 9A",
+            "HIST 9C",
+            "HIST 9D",
+            "HIST M10A",
+            "HIST 11A",
+            "HIST 11B",
+            "HIST 14",
+            "HIST 20",
+            "HIST 21",
+            "HIST 102A",
+            "HIST M103A",
+            "HIST M103B",
+            "HIST M104A",
+            "HIST M104B",
+            "HIST M104C",
+            "HIST M104D",
+            "HIST 105A",
+            "HIST 105B",
+            "HIST M106",
+            "HIST 107A",
+            "HIST 107B",
+            "HIST 108A",
+            "HIST 108B",
+            "HIST M110A",
+            "HIST M110B",
+            "HIST M110C",
+            "HIST 111A",
+            "HIST 111B",
+            "HIST 121A",
+            "HIST 121B",
+            "HIST 122A",
+            "HIST 122B",
+            "HIST 122C",
+            "HIST 124A",
+            "HIST 125D",
+            "HIST M127A",
+            "HIST 128A"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": 1,
+      "courses": [
+        "HIST 191A",
+        "HIST 191B",
+        "HIST 191C",
+        "HIST 191D",
+        "HIST 191E",
+        "HIST 191F",
+        "HIST 191G",
+        "HIST 191H",
+        "HIST 191I",
+        "HIST 191J"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "HIST": [
+      "HIST 102A",
+      "HIST 105A",
+      "HIST 105B",
+      "HIST 107A",
+      "HIST 107B",
+      "HIST 108A",
+      "HIST 108B",
+      "HIST 10B",
+      "HIST 111A",
+      "HIST 111B",
+      "HIST 11A",
+      "HIST 11B",
+      "HIST 121A",
+      "HIST 121B",
+      "HIST 122A",
+      "HIST 122B",
+      "HIST 122C",
+      "HIST 124A",
+      "HIST 125D",
+      "HIST 128A",
+      "HIST 128B",
+      "HIST 129A",
+      "HIST 12A",
+      "HIST 12B",
+      "HIST 12C",
+      "HIST 130",
+      "HIST 135A",
+      "HIST 136A",
+      "HIST 13A",
+      "HIST 13B",
+      "HIST 13C",
+      "HIST 14",
+      "HIST 157A",
+      "HIST 157B",
+      "HIST 162B",
+      "HIST 164B",
+      "HIST 166A",
+      "HIST 167A",
+      "HIST 167B",
+      "HIST 168A",
+      "HIST 169A",
+      "HIST 170A",
+      "HIST 172A",
+      "HIST 172B",
+      "HIST 174A",
+      "HIST 176A",
+      "HIST 176E",
+      "HIST 191A",
+      "HIST 191B",
+      "HIST 191C",
+      "HIST 191D",
+      "HIST 191E",
+      "HIST 191F",
+      "HIST 191G",
+      "HIST 191H",
+      "HIST 191I",
+      "HIST 191J",
+      "HIST 198A",
+      "HIST 198B",
+      "HIST 198C",
+      "HIST 1A",
+      "HIST 1B",
+      "HIST 1C",
+      "HIST 20",
+      "HIST 21",
+      "HIST 22",
+      "HIST 2B",
+      "HIST 2C",
+      "HIST 3A",
+      "HIST 3B",
+      "HIST 3C",
+      "HIST 3D",
+      "HIST 5",
+      "HIST 8A",
+      "HIST 8B",
+      "HIST 8C",
+      "HIST 94",
+      "HIST 96W",
+      "HIST 9A",
+      "HIST 9C",
+      "HIST 9D",
+      "HIST 9E",
+      "HIST M103A",
+      "HIST M103B",
+      "HIST M104A",
+      "HIST M104B",
+      "HIST M104C",
+      "HIST M104D",
+      "HIST M106",
+      "HIST M10A",
+      "HIST M110A",
+      "HIST M110B",
+      "HIST M110C",
+      "HIST M127A",
+      "HIST M133A",
+      "HIST M170C",
+      "HIST M173C",
+      "HIST M174D",
+      "HIST M182A",
+      "HIST M182B",
+      "HIST M185D",
+      "HIST M185F",
+      "HIST M185G",
+      "HIST M185I",
+      "HIST M186A",
+      "HIST M4"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "HIST 102A",
+      "dept": "HIST",
+      "number": "102A",
+      "title": "Iran and Persianate World",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Development of model of Persianate world to bring together histories of Iran, India, and central Asia (including Afghanistan) between circa 1200 and 2000. Movement and interaction of different peoples between major cultural centers where Persian was used as common\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105A",
+      "dept": "HIST",
+      "number": "105A",
+      "title": "Survey of Middle East, 500 to Present: 500 to 1300",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105B",
+      "dept": "HIST",
+      "number": "105B",
+      "title": "Survey of Middle East, 500 to Present: 1300 to 1700",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107A",
+      "dept": "HIST",
+      "number": "107A",
+      "title": "Armenian History: Armenia in Ancient and Medieval Times, 2nd Millennium BC to AD 11th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107B",
+      "dept": "HIST",
+      "number": "107B",
+      "title": "Armenian History: Armenia from Cilician Kingdom through Periods of Foreign Domination and National Stirrings, 11th to 19th Centuries",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 108A",
+      "dept": "HIST",
+      "number": "108A",
+      "title": "History of North Africa from Islamic Conquest",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of political, social, economic, and religious history of Islamic West (Maghrib) from Muslim conquest in 7th and 8th centuries CE until 1578. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 108B",
+      "dept": "HIST",
+      "number": "108B",
+      "title": "History of Islamic Iberia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of political, social, economic, religious, artistic, and literary history of Islamic culture in Western Europe. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 10B",
+      "dept": "HIST",
+      "number": "10B",
+      "title": "History of Africa, 1800 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Not open for credit to students with credit for course 10BH or 10BW. Survey of social, economic, and political developments in Africa since 1800, with focus on slave trade, imperialism and colonialism, and nationalism and independence. Attention to different ideologies (nationalism, socialism, apartheid), rural/urban\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111A",
+      "dept": "HIST",
+      "number": "111A",
+      "title": "Topics in Middle Eastern History: Premodern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of major issues in history of Middle East. May be repeated for maximum of 16 units with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111B",
+      "dept": "HIST",
+      "number": "111B",
+      "title": "Topics in Middle Eastern History: Early Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of Istanbul in Ottoman period (1453 to 1923); relationship between history and literary imagination and view of history as dialogue between past and present; scholarly debate on urban history of early-modern Middle East; introduction to corpus of theories\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 11A",
+      "dept": "HIST",
+      "number": "11A",
+      "title": "History of China: To 1000",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Survey of early history of China\u2014genesis of characteristic Chinese institutions and modes of thought from antiquity to 1000. Focus on social, political, intellectual, and economic aspects of early and middle empires. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 11B",
+      "dept": "HIST",
+      "number": "11B",
+      "title": "History of China, circa 1000 to 2000",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of later history of China\u2014evolution of characteristic Chinese institutions and modes of thought from circa 1000 to 2000. Focus on social, political, intellectual, cultural, and economic aspects of early modern regimes and empires and rise of modern China into contemporary era. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121A",
+      "dept": "HIST",
+      "number": "121A",
+      "title": "History of Modern Europe: Renaissance and Reformation, 1450 to 1660",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Reorganization of power, new forms of representation, and discourses about rule and obedience in Europe from mid-15th through 16th century; popular culture; peasant society; refashioning of religion and power; localization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121B",
+      "dept": "HIST",
+      "number": "121B",
+      "title": "History of Modern Europe: Baroque Culture and Absolutist Politics, 1600 to 1715",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Changing nature of state and social domination; redeployment of military violence; strategies of population discipline; absolutism and baroque culture; new forms of bureaucratic intervention; representation of family, sexuality, and body; witch persecutions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 122A",
+      "dept": "HIST",
+      "number": "122A",
+      "title": "Cultural and Intellectual History of Modern Europe, 15th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. Renaissance cultural and intellectual history of Europe. Central themes include comparative history of ideas, theory and practice of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 122B",
+      "dept": "HIST",
+      "number": "122B",
+      "title": "Cultural and Intellectual History of Modern Europe, 16th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 122C",
+      "dept": "HIST",
+      "number": "122C",
+      "title": "Cultural and Intellectual History of Modern Europe, 17th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 124A",
+      "dept": "HIST",
+      "number": "124A",
+      "title": "History of France: France, 1500 to 1715",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social history of 16th- and 17th-century France, including growth of monarchy, wars of religion, peasant uprisings, popular culture, Catholic resurgence, Louis XIV, and achievements in arts and literature. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 125D",
+      "dept": "HIST",
+      "number": "125D",
+      "title": "History of Low Countries",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of aspects of Dutch (and on occasion Belgian) history from medieval period to period after World War II, with emphasis on political and cultural history. Topics include Middle Ages, Dutch Republic in 17th and 18th centuries, Low Countries\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 128A",
+      "dept": "HIST",
+      "number": "128A",
+      "title": "History of Italy, 1350 to 1559",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Most important social, economic, political, and cultural developments in history of Italy during later Middle Ages and Renaissance. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 128B",
+      "dept": "HIST",
+      "number": "128B",
+      "title": "History of Italy, 1559 to 1848",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Counter-Reformation and absolutism, Enlightenment reforms, revolutionary era, and first phase of Risorgimento. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 129A",
+      "dept": "HIST",
+      "number": "129A",
+      "title": "Social History of Spain and Portugal: Age of Silver in Spain and Portugal, 1479 to 1789",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Development of popular history in Iberian Peninsula. Emphasis on peasants and urban history, gold routes, slave trade, history of women, and development of different types of collective violence. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 12A",
+      "dept": "HIST",
+      "number": "12A",
+      "title": "Inequality: History of Mass Imprisonment",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Beginning with end of U.S.-Mexican War (1848) and ending with beginning of World War II, historical analysis from days when Los Angeles first became U.S. town until 1940s when Los Angeles first became global epicenter of human confinement. Exploration of major eras and turning\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 12B",
+      "dept": "HIST",
+      "number": "12B",
+      "title": "Inequality: History of Neoliberalism",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of origins, ideas, and consequences of neoliberalism\u2014theory that society is best organized on principles of free trade, deregulation, and privatization. Combination of political, economic, and intellectual history to construct genealogy of neoliberal thinking by attending to 18th- and 19th-century liberalism, colonialism, imperialism, rise\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 12C",
+      "dept": "HIST",
+      "number": "12C",
+      "title": "Inequality: Global History of Anti-Colonial Thought and Struggle",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Ongoing growth and normalization of poverty, violence, and racial hatred in neo-liberal present have direct linkage to earlier moment when colonial rule of previous century brought about global structure of inequality. Examination of some of most important voices of anti-colonial and anti-imperialist struggle from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 130",
+      "dept": "HIST",
+      "number": "130",
+      "title": "History of European Political Thought",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to principal themes in history of European political thought from classical antiquity to close of early modern period. Study of outstanding contributions to history of social, political, and moral philosophy in texts of major thinkers such as Plato,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 135A",
+      "dept": "HIST",
+      "number": "135A",
+      "title": "Europe and World: Exploration and Conquest, 1400 to 1700",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. First phase of European expansion in Americas, Africa, and Eurasia. Analysis of motives and methods of expansion, differing patterns of European settlement, including plantation economy, and development of new commercial networks, including Atlantic slave trade. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 136A",
+      "dept": "HIST",
+      "number": "136A",
+      "title": "History of Britain: Tudor-Stuart Times, 1485 to 1715",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis of British economy, society, and polity, with focus on dynamics of both stability and change. Political, socioeconomic, religious, and cultural history of Britain under Tudors and Stuarts. Topics include Reformation, transformation of economy, establishment of overseas colonies, 17th-century\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 13A",
+      "dept": "HIST",
+      "number": "13A",
+      "title": "History of the U.S. and Its Colonial Origins: Colonial Origins and First Nation Building Acts",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Strongly recommended for History majors planning to take more advanced courses in U.S. history. Cultural heritages, political institutions, economic developments, and social interactions which created contemporary society. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 13B",
+      "dept": "HIST",
+      "number": "13B",
+      "title": "History of the U.S. and Its Colonial Origins: 19th Century",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Strongly recommended for History majors planning to take more advanced courses in U.S. history. Cultural heritages, political institutions, economic developments, and social interactions which created contemporary society. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 13C",
+      "dept": "HIST",
+      "number": "13C",
+      "title": "History of the U.S. and Its Colonial Origins: 20th Century",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Strongly recommended for History majors planning to take more advanced courses in U.S. history. Cultural heritages, political institutions, economic developments, and social interactions which created contemporary society. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 14",
+      "dept": "HIST",
+      "number": "14",
+      "title": "Atlantic World, 1492 to 1830",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Strongly recommended for History majors planning to take more advanced courses in history of any region bordering on Atlantic during period from 1500 to 1900. Exploration of idea of Atlantic world and few of major historical trends that shaped its history, including migration, slavery,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 157A",
+      "dept": "HIST",
+      "number": "157A",
+      "title": "Early Latin America",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Advanced survey of Latin American history from conquest to independence, with emphasis on society, culture, and ethnic aspects. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 157B",
+      "dept": "HIST",
+      "number": "157B",
+      "title": "Indians of Colonial Mexico",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social and cultural history of Indians of Mexico, especially central Mexico, from time of European conquest until Mexican independence, with emphasis on internal view of Indian groups and patterns on basis of records produced by Indians themselves.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 162B",
+      "dept": "HIST",
+      "number": "162B",
+      "title": "Brazil and Atlantic World, 1500 to 1822",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of development of colonial society in Brazil from discovery in 1500 to independence in 1822, placing it in context of Portugal\u2019s overseas expansion in Asia, Africa, and Americas. Emphasis on Portuguese, indigenous, and African roots of modern Brazil.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 164B",
+      "dept": "HIST",
+      "number": "164B",
+      "title": "Topics in African History: Africa and Slave Trade",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Preparation: one prior course in African history at UCLA. Designed for juniors/seniors. Social, economic, political, and cultural impact of slave trade on African society, with emphasis on Atlantic trade without neglecting those of ancient Mediterranean, Islamic, and Indian Ocean worlds. Abolition and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 166A",
+      "dept": "HIST",
+      "number": "166A",
+      "title": "History of West Africa: West Africa, Earliest Times to 1800",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 167A",
+      "dept": "HIST",
+      "number": "167A",
+      "title": "History of Northeast Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of history of Ethiopia, Sudan, and Somalia in regional context of northeast Africa from earliest times to present, with emphasis on economy and society, evolution of state, and significance of Christianity and Islam. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 167B",
+      "dept": "HIST",
+      "number": "167B",
+      "title": "History of East Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of cultural diversity of east Africa from earliest times to growth of complex societies, its place within wider Indian Ocean system, and colonial conquest to gaining of independence and postcolonial challenges. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 168A",
+      "dept": "HIST",
+      "number": "168A",
+      "title": "History of Southern Africa, Origins to 1870",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Attention to social and economic as well as political aspects. Origins of South African peoples and their interactions to 1870. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 169A",
+      "dept": "HIST",
+      "number": "169A",
+      "title": "Thought and Society in China to 1000",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course 11A. Designed for juniors/seniors. Elite and popular expressions of Chinese cultural life examined in readings and lectures. Focus on diversities of thought in classical legacy and their evolution under impact of Buddhism to 1000. Emphasis on intersections between intellectual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 170A",
+      "dept": "HIST",
+      "number": "170A",
+      "title": "Culture and Power in Late Imperial China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: courses 11A, 11B. Designed for juniors/seniors. Analysis of relations of power and cultural expressions of dominance and resistance in late imperial China (1000 to 1700), with emphasis on interplay of economic forces, ideas, and social and political institutions. Examination of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 172A",
+      "dept": "HIST",
+      "number": "172A",
+      "title": "Japan\u00e2\u20ac\u201dAncient and Medieval History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political, economic, and cultural development of Japan from prehistory to 1600. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 172B",
+      "dept": "HIST",
+      "number": "172B",
+      "title": "Japanese History: Early Modern, 1600 to 1868",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political, economic, and cultural development of Japan from 1600 to 1868. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 174A",
+      "dept": "HIST",
+      "number": "174A",
+      "title": "Early History of India",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to civilization and institutions of India. Survey of history and culture of South Asian subcontinent from earliest times to founding of Mughal Empire. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176A",
+      "dept": "HIST",
+      "number": "176A",
+      "title": "History of Southeast Asia to 1815",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political and cultural history of peoples of Southeast Asia from earliest times to about 1815. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176E",
+      "dept": "HIST",
+      "number": "176E",
+      "title": "Vietnam: Past and Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of history and culture of Vietnam from about 700 BC to present, including political, social, and economic developments as well as international relations in post-1954 period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191A",
+      "dept": "HIST",
+      "number": "191A",
+      "title": "HIST 191A",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for seniors. Limited to 15 students meeting with faculty member. Organized on topics basis with reading, discussion, and development of culminating project. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191B",
+      "dept": "HIST",
+      "number": "191B",
+      "title": "HIST 191B",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for seniors. Limited to 15 students meeting with faculty member. Organized on topics basis with reading, discussion, and development of culminating project. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191C",
+      "dept": "HIST",
+      "number": "191C",
+      "title": "HIST 191C",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for seniors. Limited to 15 students meeting with faculty member. Organized on topics basis with reading, discussion, and development of culminating project. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191D",
+      "dept": "HIST",
+      "number": "191D",
+      "title": "HIST 191D",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191E",
+      "dept": "HIST",
+      "number": "191E",
+      "title": "HIST 191E",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for seniors. Limited to 15 students meeting with faculty member. Organized on topics basis with reading, discussion, and development of culminating project. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191F",
+      "dept": "HIST",
+      "number": "191F",
+      "title": "HIST 191F",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191G",
+      "dept": "HIST",
+      "number": "191G",
+      "title": "HIST 191G",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for seniors. Limited to 15 students meeting with faculty member. Organized on topics basis with reading, discussion, and development of culminating project. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191H",
+      "dept": "HIST",
+      "number": "191H",
+      "title": "HIST 191H",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191I",
+      "dept": "HIST",
+      "number": "191I",
+      "title": "HIST 191I",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for seniors. Limited to 15 students meeting with faculty member. Organized on topics basis with reading, discussion, and development of culminating project. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 191J",
+      "dept": "HIST",
+      "number": "191J",
+      "title": "HIST 191J",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 198A",
+      "dept": "HIST",
+      "number": "198A",
+      "title": "Honors Research in History",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Course 198A is requisite to 198B, which is requisite to 198C. Limited to juniors/seniors. Development of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for maximum of 16 units. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "HIST 198B"
+      ]
+    },
+    {
+      "course_id": "HIST 198B",
+      "dept": "HIST",
+      "number": "198B",
+      "title": "Honors Research in History",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Requisite: course 198A. Limited to juniors/seniors. Continued development of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for maximum of 16 units. Individual contract required. In Progress grading (credit to be given only on completion of course 198C).",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "HIST 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HIST 198C"
+      ]
+    },
+    {
+      "course_id": "HIST 198C",
+      "dept": "HIST",
+      "number": "198C",
+      "title": "Honors Research in History",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Requisite: course 198B. Limited to juniors/seniors. Completion of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for maximum of 16 units. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "HIST 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 1A",
+      "dept": "HIST",
+      "number": "1A",
+      "title": "Introduction to Western Civilization: Ancient Civilizations, Prehistory to circa AD 843",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of diverse cultures that shaped foundation of Western civilization to onset of 9th century AD. Investigation of first civilizations in Near East and Egypt. Analysis of worlds of Greeks and Romans. Examination of ways in which western European societies created new syntheses through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 1B",
+      "dept": "HIST",
+      "number": "1B",
+      "title": "Introduction to Western Civilization: Circa 843 to circa 1715",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to history of the West and its connections to rest of world from 843 to 1715. Profound social, political, cultural, and intellectual changes that affected development of modern world. Topics covered include economic, social, and cultural aspects of feudal system; relationship between Church\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 1C",
+      "dept": "HIST",
+      "number": "1C",
+      "title": "Introduction to Western Civilization: Circa 1715 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to history of the West and its connection to rest of world after 1715, during period of sweeping political, social, and cultural tensions and transformations. Topics covered include industrialization, rise of nationalism and mass politics, revolutionary movements, urbanization, mass global migrations, European expansion\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 20",
+      "dept": "HIST",
+      "number": "20",
+      "title": "World History to AD 600",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Examination of earliest civilizations of Asia, North Africa, and Europe\u2014Mesopotamia, Egypt, Israel, India, China, Greece, and Rome\u2014from development of settled agricultural communities until about AD 500, with focus on rise of cities, organization of society, nature of kingship, writing and growth of bureaucracy, varieties\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 21",
+      "dept": "HIST",
+      "number": "21",
+      "title": "World History, circa 600 to 1760",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Outline of world history from rise of Islam to start of Industrial Revolution, structured around a broad chronological narrative of salient developments. Use of thematic and comparative approaches, with certain recurring themes and institutions that modulate from culture to culture. Reading of variety of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 22",
+      "dept": "HIST",
+      "number": "22",
+      "title": "Contemporary World History, 1760 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Broad thematic survey of world history since the mid-18th century. Examination, through lecture and discussion, of global implications of imperialism, total war, nationalism, cultural change, decolonization, changes in women\u2019s rights and roles, and eclipse of world communism. Designed to introduce students to historical study,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 2B",
+      "dept": "HIST",
+      "number": "2B",
+      "title": "Social Knowledge and Social Power",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. History of social knowledge and social power in the 19th and 20th centuries. Everyday ideas and practices about human nature, common sense, and community and relation of those practices to social thought, social engineering, and social science. Themes include development of social knowledges through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 2C",
+      "dept": "HIST",
+      "number": "2C",
+      "title": "Religion, Occult, and Science: Mystics, Heretics, and Witches in Western Tradition, 1000 to 1600",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Specific aspects of elite and popular culture in medieval and early modern Europe. Manner in which men and women sought to explain, order, and escape terrors of their lives by embracing transcendental religious experiences and dreaming of apocalypse and witchcraft. Examination of experiences in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 3A",
+      "dept": "HIST",
+      "number": "3A",
+      "title": "History of Science: Renaissance to 1800",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Survey of beginnings of physical sciences involving transformation from Aristotelian to Newtonian cosmology, mechanization of natural world, rise of experimental science, and origin of scientific societies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 3B",
+      "dept": "HIST",
+      "number": "3B",
+      "title": "History of Science: Enlightenment to 1900",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. In this period science became part of Enlightenment campaign for reason and of culture of an Industrial Revolution. New social science and evolutionary debates about science and religion demonstrate its rising intellectual and practical significance. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 3C",
+      "dept": "HIST",
+      "number": "3C",
+      "title": "History of Science: 20th Century",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Ranging from startling new physics of relativity and the quantum, and of nuclear weapons, to molecular reductionism in biology and campaigns for statistical objectivity, examination of involvement of science in technological, military, intellectual, and political changes of the 20th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 3D",
+      "dept": "HIST",
+      "number": "3D",
+      "title": "History of Modern Medicine",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Examination, through illustrated lectures and focused discussion of primary sources, of five important themes in development of modern medicine: nature of diagnosis, emergence of surgery, epidemics, conception and treatment of insanity, and use of medical technology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 5",
+      "dept": "HIST",
+      "number": "5",
+      "title": "Holocaust: History and Memory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Holocaust, murder of six million Jews by Germans in Nazi-occupied Europe during World War II, is one of crucial events of modern history. Examination of origins of Holocaust, perpetrators and victims, and changing efforts to come to terms with this genocide. Exploration of forces\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 8A",
+      "dept": "HIST",
+      "number": "8A",
+      "title": "Colonial Latin America",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 8AH. General introduction to Latin American history from contact period to independence (1490s to 1820s), with emphasis on convergence of Native American, European, and African cultures in Latin America; issues of ethnicity and gender;\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 8B",
+      "dept": "HIST",
+      "number": "8B",
+      "title": "Modern Latin America",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introductory survey of social, political, and economic history of Latin America after independence, region that includes Mexico, Central and South America, and Caribbean. Formation of independent nation states and political regimes and quest for sovereignty and its challenges in shadow of U.S., approached from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 8C",
+      "dept": "HIST",
+      "number": "8C",
+      "title": "Contemporary Latin American Film and Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Historical and contemporary perspective of role of ordinary people in Latin American society. Each lecture/film session centers on a major Latin American movie illustrative of a theme in social history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 94",
+      "dept": "HIST",
+      "number": "94",
+      "title": "What Is History? An Introduction to Historical Thinking and Practice",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, two hours. What is history, who is it that we study, how do we study, and why should we study history? Introduction to basic principles of historical inquiry. Exploration of how we come to know about the past and why it matters. In-depth examination of how\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 96W",
+      "dept": "HIST",
+      "number": "96W",
+      "title": "Introduction to Historical Practice",
+      "units": 5.0,
+      "description": "Seminar, three hours. Requisite: English Composition 3. Introduction to study of history, with emphasis on historical theory and research methods. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9A",
+      "dept": "HIST",
+      "number": "9A",
+      "title": "Introduction to Asian Civilizations: History of India",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introductory survey for beginning students of major cultural, social, and political ideas, traditions, and institutions of Indic civilization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9C",
+      "dept": "HIST",
+      "number": "9C",
+      "title": "Introduction to Asian Civilizations: History of Japan",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Survey of Japanese history from earliest recorded time to the present, with emphasis on development of Japan as a cultural daughter of China. Attention to manner in which Chinese culture was Japanized and aspects of Japanese civilization which became unique. Creation of the modern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9D",
+      "dept": "HIST",
+      "number": "9D",
+      "title": "Introduction to Asian Civilizations: History of Middle East",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to history of Muslim world from advent of Islam to present day. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9E",
+      "dept": "HIST",
+      "number": "9E",
+      "title": "Introduction to Asian Civilizations: Southeast Asian Crossroads",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Overview history of a region united by its wet tropical environment and divided by great religious, cultural, and political pluralism, with focus on Vietnamese, Thai, Filipino, Khmer, Burmese, and Malayo-Indonesian patterns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M103A",
+      "dept": "HIST",
+      "number": "M103A",
+      "title": "History of Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M103A.) Lecture, three hours; discussion, one hour (when scheduled). Course M103A is not requisite to M103B. Designed for juniors/seniors. Political and cultural institutions of ancient Egypt and ideas on which they were based. Chronological discussion of Prehistory, Old and Middle Kingdom. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M103B",
+      "dept": "HIST",
+      "number": "M103B",
+      "title": "History of Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M103B.) Lecture, three hours; discussion, one hour (when scheduled). Course M103A is not requisite to M103B. Designed for juniors/seniors. Political and cultural institutions of ancient Egypt and ideas on which they were based. New Kingdom and Late period until 332 BC. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M104A",
+      "dept": "HIST",
+      "number": "M104A",
+      "title": "History of Ancient Mesopotamia and Syria",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M104A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political and cultural development of Fertile Crescent, including Palestine, from Late Uruk to neo-Babylonian period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M104B",
+      "dept": "HIST",
+      "number": "M104B",
+      "title": "Sumerians",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M104B.) Lecture, three hours. Designed for juniors/seniors. Overview of Sumer and related cultures of Greater Mesopotamia in 4th and 3rd millennia BCE, with focus on rich cultural history of region and integration of archaeological, art historical, and written records. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M104C",
+      "dept": "HIST",
+      "number": "M104C",
+      "title": "Babylonians",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M104C.) Lecture, three hours. Designed for juniors/seniors. Overview of Babylonia and cultural history of region from late 3rd millennium BCE to invasion of Cyrus in 539 BCE, with focus on history and archaeology of region, urban structure, literature, and legal practices. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M104D",
+      "dept": "HIST",
+      "number": "M104D",
+      "title": "Assyrians",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M104D.) Lecture, three hours. Designed for juniors/seniors. Overview of Assyrian cultural history from its origins to end of Neo-Assyrian period (circa 612 BCE), with focus on rise, mechanics, and decline of Neo-Assyrian Empire, which at its peak ruled ancient Near East from Zagros to Egypt.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M106",
+      "dept": "HIST",
+      "number": "M106",
+      "title": "Premodern Islam",
+      "units": 4.0,
+      "description": "(Same as Religion M106A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of early development of Islam with special attention to doctrine of nature of God, human responsibility, guidance, revelation and religious authority, duties of believers, ritual, law, sectarian movements, mysticism, and popular religion. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M10A",
+      "dept": "HIST",
+      "number": "M10A",
+      "title": "History of Africa to 1800",
+      "units": 5.0,
+      "description": "(Same as African American Studies M10A.) Lecture, three hours; discussion, one hour. Exploration of development of African societies from earliest times to late 18th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M110A",
+      "dept": "HIST",
+      "number": "M110A",
+      "title": "Iranian Civilization: History of Achaemenid Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110A and Iranian M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire\u2019s religions, and Greco-Persian interactions. Further accents on Cyrus\u2019 empire and Darius\u2019 world\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M110B",
+      "dept": "HIST",
+      "number": "M110B",
+      "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110B and Iranian M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M110C",
+      "dept": "HIST",
+      "number": "M110C",
+      "title": "Iranian Civilization: History of Early Sasanian Empire\u00e2\u20ac\u201dFrom Ardashir I to Rise of Peroz (circa 224-459 CE)",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110C and Iranian M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire\u2019s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M127A",
+      "dept": "HIST",
+      "number": "M127A",
+      "title": "History of Russia, Origins to Rise of Muscovy",
+      "units": 4.0,
+      "description": "(Same as Russian M118.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors.\u00a0Kievan Rus\u2019 and its culture, Appanage principalities and towns; Mongol invasion; unification of Russian state by Muscovy, Autocracy and its Servitors; serfdom. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M133A",
+      "dept": "HIST",
+      "number": "M133A",
+      "title": "History of Women in Europe, 800 to 1715",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M133A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. History of social, political, and cultural roles of women in Western Europe from early Middle Ages to 18th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M170C",
+      "dept": "HIST",
+      "number": "M170C",
+      "title": "History of Women in China, AD 1000 to Present",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M170C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Topics include women and family, women in Confucian ideology, women in literati culture, feminist movement, and women and communist revolution. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M173C",
+      "dept": "HIST",
+      "number": "M173C",
+      "title": "Shinto, Buddhism, and Japanese Folk Religion",
+      "units": 4.0,
+      "description": "(Same as Religion M173C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social dimension of various Ways, great and little: Shinto\u2019s connection with cultural nationalism, Buddhism\u2019s medieval Reformation and Zen\u2019s relation to warrior culture, folk religious aspects such as shamanism, ancestor worship, and millenarianism. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M174D",
+      "dept": "HIST",
+      "number": "M174D",
+      "title": "Indo-Islamic Interactions, 700 to 1750",
+      "units": 4.0,
+      "description": "(Same as Religion M174D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Historical introduction to Muslim communities of what eventually became nations of India, Pakistan, and Bangladesh. Topics include social, political, religious, and cultural history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M182A",
+      "dept": "HIST",
+      "number": "M182A",
+      "title": "Ancient Jewish History",
+      "units": 4.0,
+      "description": "(Same as Jewish Studies M182A and Religion M182A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social, political, and religious developments. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M182B",
+      "dept": "HIST",
+      "number": "M182B",
+      "title": "Medieval Jewish History",
+      "units": 4.0,
+      "description": "(Same as Jewish Studies M182B and Religion M182B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of unfolding of Jewish history from rise of Christianity to expulsion of Jews from Spain in 1492. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M185D",
+      "dept": "HIST",
+      "number": "M185D",
+      "title": "Religions of Ancient Near East",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M185D and Religion M185D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Main polytheistic systems of ancient Near East, with emphasis on Mesopotamia and Syria and with reference to religion of ancient Israel: varying concepts of divinity, hierarchies of gods, prayer and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M185F",
+      "dept": "HIST",
+      "number": "M185F",
+      "title": "History of Early Christians",
+      "units": 4.0,
+      "description": "(Same as Religion M186A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Christian movement from its origins to circa 160 CE, stressing its continuity/discontinuity with Judaism, various responses to Jesus of Nazareth, writings produced during this period, movement\u2019s encounters with its religious, social, and political world, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M185G",
+      "dept": "HIST",
+      "number": "M185G",
+      "title": "Religious Environment of Early Christians",
+      "units": 4.0,
+      "description": "(Same as Religion M186B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Rich variety in religious practice and thought in Mediterranean world of 1st century CE as in context of developing Christian movement. Topics include Pharisees, Qumran, Philo, Stoics, Epicureans, traditional Greek and Roman religions, mysteries, astrology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M185I",
+      "dept": "HIST",
+      "number": "M185I",
+      "title": "Jesus of Nazareth in Historical Research",
+      "units": 4.0,
+      "description": "(Same as Religion M186C.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course M185F. Designed for juniors/seniors. Stimulated by significant post-Enlightenment historical evaluations, students are led into firsthand knowledge (in translation) of various multilayered sources for reconstruction of life, teaching, and initial impact of Jesus of Nazareth in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M186A",
+      "dept": "HIST",
+      "number": "M186A",
+      "title": "Women and Gender, Prehistory to 1792",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M186A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of history of women, gender, and sexuality from prehistory to 1792. First half deals with period before written history and asks when did gender appear? How and why did patriarchy develop? Topics include\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M4",
+      "dept": "HIST",
+      "number": "M4",
+      "title": "Introduction to History of Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M4.) Lecture, three hours; discussion, two hours. Comparative study of eight major religious traditions, with emphasis on their beginnings and subsequent decisive changes in their respective historical developments and interactions. Equips students with intellectual tools necessary for thinking analytically, empathetically, and comparatively about fascinating human phenomena identified\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

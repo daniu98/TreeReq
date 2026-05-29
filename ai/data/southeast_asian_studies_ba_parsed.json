@@ -1,0 +1,986 @@
+{
+  "major_id": "southeast-asian-studies-ba",
+  "major_name": "Southeast Asian Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/SoutheastAsianStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SEASIAN 50"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "FILIPNO 6",
+            "INDO 6",
+            "THAI 6",
+            "VIETMSE 6"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ASIAN 30",
+            "SEASIAN M60",
+            "SEASIAN 70",
+            "VIETMSE 40"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "INDO 100A",
+            "INDO 100B",
+            "INDO 100C",
+            "THAI 100A",
+            "THAI 100B",
+            "THAI 100C",
+            "VIETMSE 100A",
+            "VIETMSE 100B",
+            "VIETMSE 100C"
+          ]
+        },
+        {
+          "choose_n": 8,
+          "courses": [
+            "ANTHRO 116S",
+            "ASIA AM 123",
+            "ASIA AM 125",
+            "ASIA AM 133",
+            "ASIA AM 134",
+            "ASIA AM M164",
+            "ASIA AM M171D",
+            "ASIA AM 171E",
+            "ASIA AM 176",
+            "ART HIS 156",
+            "FILIPNO 170",
+            "HIST 176A",
+            "HIST 176B",
+            "HIST 176C",
+            "HIST 176E",
+            "HIST 177A",
+            "HIST 177B",
+            "HIST 187M",
+            "POL SCI 158",
+            "SEASIAN C120",
+            "SEASIAN 130",
+            "SEASIAN 135",
+            "SEASIAN C140",
+            "SEASIAN C150",
+            "SEASIAN 157",
+            "SEASIAN 160",
+            "SEASIAN 170A",
+            "SEASIAN 170B",
+            "SEASIAN 170C",
+            "VIETMSE CM155",
+            "VIETMSE 180A",
+            "VIETMSE 180B"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ANTHRO": [
+      "ANTHRO 116S"
+    ],
+    "ART HIS": [
+      "ART HIS 156"
+    ],
+    "ASIA AM": [
+      "ASIA AM 123",
+      "ASIA AM 125",
+      "ASIA AM 133",
+      "ASIA AM 134",
+      "ASIA AM 171E",
+      "ASIA AM 176",
+      "ASIA AM M164",
+      "ASIA AM M171D"
+    ],
+    "ASIAN": [
+      "ASIAN 30"
+    ],
+    "FILIPNO": [
+      "FILIPNO 170",
+      "FILIPNO 6"
+    ],
+    "HIST": [
+      "HIST 176A",
+      "HIST 176B",
+      "HIST 176C",
+      "HIST 176E",
+      "HIST 177A",
+      "HIST 177B",
+      "HIST 187M"
+    ],
+    "INDO": [
+      "INDO 100A",
+      "INDO 100B",
+      "INDO 100C",
+      "INDO 6"
+    ],
+    "POL SCI": [
+      "POL SCI 158"
+    ],
+    "SEASIAN": [
+      "SEASIAN 130",
+      "SEASIAN 135",
+      "SEASIAN 157",
+      "SEASIAN 160",
+      "SEASIAN 170A",
+      "SEASIAN 170B",
+      "SEASIAN 170C",
+      "SEASIAN 50",
+      "SEASIAN 70",
+      "SEASIAN C120",
+      "SEASIAN C140",
+      "SEASIAN C150",
+      "SEASIAN M60"
+    ],
+    "THAI": [
+      "THAI 100A",
+      "THAI 100B",
+      "THAI 100C",
+      "THAI 6"
+    ],
+    "VIETMSE": [
+      "VIETMSE 100A",
+      "VIETMSE 100B",
+      "VIETMSE 100C",
+      "VIETMSE 180A",
+      "VIETMSE 180B",
+      "VIETMSE 40",
+      "VIETMSE 6",
+      "VIETMSE CM155"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ANTHRO 116S",
+      "dept": "ANTHRO",
+      "number": "116S",
+      "title": "Selected Topics in Archaeology of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Study of selected topics in archaeology and prehistory of Southeast Asia from Pleistocene to European colonization, including population movements, emergence of agriculture, and development of state level societies. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 156",
+      "dept": "ART HIS",
+      "number": "156",
+      "title": "Arts of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Southeast Asian art from its beginning in prehistory through 19th century. Study of art of selected cultures from Burma, Malaysia, Thailand, Cambodia, Vietnam, and Indonesia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 123",
+      "dept": "ASIA AM",
+      "number": "123",
+      "title": "Cultures of/against Empire",
+      "units": 4.0,
+      "description": "Seminar, three hours. Critical concepts and cultural practices linking Asian American studies to study of U.S. cultures of imperialism. Course begins with premise that Asian American studies contribute distinctly to contemporary scholarship on U.S. Empire. Examination of political and intellectual coalitions toward which Asian American studies critique builds. Emphasis on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ASIA AM 176"
+      ]
+    },
+    {
+      "course_id": "ASIA AM 125",
+      "dept": "ASIA AM",
+      "number": "125",
+      "title": "Transpacific Literature and Theory",
+      "units": 4.0,
+      "description": "Seminar, three hours. Requisite: course 10, 10W, 20, 20W, 30, 30W, 40, 40W, 50, or 50W. In-depth analysis of Asian American and Pacific Islander novels and poetry in transpacific framework. Critical examination of how Asia, Americas, and Pacific Islands are linked through shared histories of U.S. imperialism, Asian migration, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10, 10W, 20, 20W, 30, 30W, 40, 40W, 50, or 50W.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "ASIA AM 10",
+          "ASIA AM 10W",
+          "ASIA AM 20",
+          "ASIA AM 20W",
+          "ASIA AM 30",
+          "ASIA AM 30W",
+          "ASIA AM 40",
+          "ASIA AM 40W",
+          "ASIA AM 50",
+          "ASIA AM 50W"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 133",
+      "dept": "ASIA AM",
+      "number": "133",
+      "title": "Pilipino American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Pilipino Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Pilipino Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ASIA AM 176"
+      ]
+    },
+    {
+      "course_id": "ASIA AM 134",
+      "dept": "ASIA AM",
+      "number": "134",
+      "title": "Vietnamese American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Vietnamese Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Vietnamese Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 171E",
+      "dept": "ASIA AM",
+      "number": "171E",
+      "title": "Critical Issues in U.S.-Vietnam Relations",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Critical examination of U.S. involvement in Vietnam, including study of historical, cultural, political, and socioeconomic factors that shape relations between Vietnam and U.S. Examination of impact of relationships in Pacific Rim and Vietnamese Americans and their communities. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 176",
+      "dept": "ASIA AM",
+      "number": "176",
+      "title": "Making Fiction Work: Imagining Philippines and its Elsewheres",
+      "units": 4.0,
+      "description": "Seminar, three hours. Requisite: one course from course 10, 10W, 20, 20W, 30, 30W, 40, 40W, 50, 50W, 123, 133, M171D or History M144C, Filipino 130A, 152, 155, or consent of instructor. Philippines and Filipino global diaspora as launching off point for interdisciplinary study of cultural diversity, national identity formation,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from course 10, 10W, 20, 20W, 30, 30W, 40, 40W, 50, 50W, 123, 133, M171D or History M144C, Filipino 130A, 152, 155, or consent of instructor.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ASIA AM 10",
+            "ASIA AM 10W",
+            "ASIA AM 20",
+            "ASIA AM 20W",
+            "ASIA AM 30",
+            "ASIA AM 30W",
+            "ASIA AM 40",
+            "ASIA AM 40W",
+            "ASIA AM 50",
+            "ASIA AM 50W",
+            "ASIA AM 123",
+            "ASIA AM 133",
+            "ASIA AM 171D",
+            "HISTORY 144C",
+            "FILIPINO 130A",
+            "FILIPINO 152",
+            "FILIPINO 155"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM M164",
+      "dept": "ASIA AM",
+      "number": "M164",
+      "title": "Women, Violence, Globalization: India, Philippines, Singapore, Vietnam",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M164A.) Lecture, four hours. Study of various forms of violence done on women not only in and of themselves but in light of larger systems of oppression, with focus on Pilipino, Vietnamese, Singaporean, and South Asian cultures. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM M171D",
+      "dept": "ASIA AM",
+      "number": "M171D",
+      "title": "Critical Issues in U.S.-Philippine Relations",
+      "units": 4.0,
+      "description": "(Same as History M144C.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: History 176A, 176B, 176C. Designed for juniors/seniors. Examination of complex interrelationship between U.S. colonialism, Philippine nationalism, history of Filipino Americans, and Philippine diaspora in 20th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 30",
+      "dept": "ASIAN",
+      "number": "30",
+      "title": "Languages and Cultures of Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Comparative perspective on Asian languages, with emphasis on three major East Asian languages\u2014Chinese, Japanese, and Korean\u2014to show what they share and how they differ in terms of linguistic features, historical development, and larger cultural settings in which these three languages are used. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILIPNO 170",
+      "dept": "FILIPNO",
+      "number": "170",
+      "title": "People, Society, and Culture of Philippines",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. In-depth examination of Philippines, from early history and colonial formation under both Spain and U.S. to struggle for independence, Martial Law period, profound socio-economic issues of post-Marcos republic, including extreme poverty and global economic phenomenon of overseas Filipino workers in 21st century. Readings and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILIPNO 6",
+      "dept": "FILIPNO",
+      "number": "6",
+      "title": "Intermediate Filipino",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Filipino/Tagalog grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "FILIPNO 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176A",
+      "dept": "HIST",
+      "number": "176A",
+      "title": "History of Southeast Asia to 1815",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political and cultural history of peoples of Southeast Asia from earliest times to about 1815. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176B",
+      "dept": "HIST",
+      "number": "176B",
+      "title": "History of Southeast Asia: Southeast Asia since 1815",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. History of modern Southeast Asia, with emphasis on expansion of European influence in political and economic spheres, growth of nationalism, and process of decolonization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176C",
+      "dept": "HIST",
+      "number": "176C",
+      "title": "Philippine History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social, cultural, and political history of Philippine societies from Spanish conquest through independence. Emphasis on questions of identity under colonialism, understanding Revolutions of 1896 and 1898, and politics of Philippine nationalist discourse. Readings include introduction to major issues in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 176E",
+      "dept": "HIST",
+      "number": "176E",
+      "title": "Vietnam: Past and Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of history and culture of Vietnam from about 700 BC to present, including political, social, and economic developments as well as international relations in post-1954 period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 177A",
+      "dept": "HIST",
+      "number": "177A",
+      "title": "National Histories of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Variable topics with focus on history of one or more of Southeast Asia\u2019s nation-states: Indonesia, East Timor, Thailand, Cambodia, Burma, Laos, Malaysia, Singapore, Brunei, Philippines, Vietnam. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 177B",
+      "dept": "HIST",
+      "number": "177B",
+      "title": "Comparative Histories of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Variable topics with focus on history of Southeast Asia from thematic or comparative perspective. Topics may include history of human rights in Southeast Asia, gender and sexuality in island Southeast Asia, and economic history of Southeast Asia. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 187M",
+      "dept": "HIST",
+      "number": "187M",
+      "title": "Variable Topics Historiography Proseminar: Southeast Asia",
+      "units": 4.0,
+      "description": "Seminar, three hours. Proseminar on historiography involving close reading and critical discussion of secondary scholarship and primary sources on selected topics. Reading, discussion, and analytical writing culminating in one or several historiographical essays. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INDO 100A",
+      "dept": "INDO",
+      "number": "100A",
+      "title": "Advanced Indonesian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Indonesian placement test. Preparation for more advanced study of specialized academic subjects, including but not limited to social sciences and humanities. Students read authentic materials in Indonesian concerning various issues. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Indonesian placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "INDO 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INDO 100B",
+      "dept": "INDO",
+      "number": "100B",
+      "title": "Advanced Indonesian",
+      "units": 4.0,
+      "description": "Lecture, three hours.\u00a0Enforced requisite: course 6 with grade of C or better or Indonesian placement test. Preparation for more advanced study of specialized academic subjects, including but not limited to social sciences and humanities. Students read authentic materials in Indonesian concerning various issues. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Indonesian placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "INDO 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INDO 100C",
+      "dept": "INDO",
+      "number": "100C",
+      "title": "Advanced Indonesian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Indonesian placement test. Preparation for more advanced study of specialized academic subjects, including but not limited to social sciences and humanities. Students read authentic materials in Indonesian concerning various issues. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Indonesian placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "INDO 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INDO 6",
+      "dept": "INDO",
+      "number": "6",
+      "title": "Intermediate Indonesian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 5. Designed to expand language skills acquired in introductory courses and to equip students with good command of communicative competence in Indonesian. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "INDO 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "INDO 100A",
+        "INDO 100B",
+        "INDO 100C"
+      ]
+    },
+    {
+      "course_id": "POL SCI 158",
+      "dept": "POL SCI",
+      "number": "158",
+      "title": "Southeast Asian Politics",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 50. Designed for juniors/seniors. Survey of political environment in major Southeast Asian states. Use of comparative analysis to address major problems confronting region, including democratization, economic growth, drug trade, deforestation, and security threats. Letter grading.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 130",
+      "dept": "SEASIAN",
+      "number": "130",
+      "title": "Topics in Southeast Asian Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from Comparative Literature 1A, 1B, 1C, 1D, 2AW, 2BW, 2CW, or English Composition 3 or 3H. Knowledge of Southeast Asian languages not required. Advanced exploration of Southeast Asia through in-depth reading of texts from region. Topics include censorship, politics, language, and literature. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from Comparative Literature 1A, 1B, 1C, 1D, 2AW, 2BW, 2CW, or English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM LIT 1A",
+            "COM LIT 1B",
+            "COM LIT 1C",
+            "COM LIT 1D",
+            "COM LIT 2AW",
+            "COM LIT 2BW",
+            "COM LIT 2CW",
+            "ENGLCOMP 3",
+            "ENGLCOMP 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 135",
+      "dept": "SEASIAN",
+      "number": "135",
+      "title": "Religion and Society in Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Critical issues related to major religious traditions in Southeast Asia, with emphasis on reading and reflecting on recent scholarship regarding complex interactions between religion, state, and society in contemporary Southeast Asia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 157",
+      "dept": "SEASIAN",
+      "number": "157",
+      "title": "Gender Issues in Southeast Asia",
+      "units": 4.0,
+      "description": "Seminar, three hours. Critical examination of gender issues in one or more Southeast Asian countries as they connect to social historical contexts nationally, regionally, or globally. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 160",
+      "dept": "SEASIAN",
+      "number": "160",
+      "title": "Majorities and Minorities in Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Focus on political, cultural, and historical relationships between majority ethnic groups and minorities in possibly most culturally, religiously, and ethnically diverse regions of world\u2014Southeast Asia. Provides productive framework to discuss nature of Southeast Asia\u2019s extreme diversity, and resulting multicultural relationships, in comparative and historical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 170A",
+      "dept": "SEASIAN",
+      "number": "170A",
+      "title": "Topics in Southeast Asian Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Exploration of Southeast Asian culture through in-depth reading of texts and/or visual documents. Topics include literature, religion, folklore, cultural history, and society. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 170B",
+      "dept": "SEASIAN",
+      "number": "170B",
+      "title": "Topics in Southeast Asian Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Exploration of Southeast Asian culture through in-depth reading of texts and/or visual documents. Topics include literature, religion, folklore, cultural history, and society. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 170C",
+      "dept": "SEASIAN",
+      "number": "170C",
+      "title": "Topics in Southeast Asian Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Exploration of Southeast Asian culture through in-depth reading of texts and/or visual documents. Topics include literature, religion, folklore, cultural history, and society. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 50",
+      "dept": "SEASIAN",
+      "number": "50",
+      "title": "Southeast Asian Societies and Cultures",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. General introduction to varied and diverse region of Southeast Asia. Designed to acquaint students with broad themes that characterize societies, cultures, and civilizations of this vitally important part of globe. Study of historical trajectories that have led eleven countries of region to present situations.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 70",
+      "dept": "SEASIAN",
+      "number": "70",
+      "title": "Modern Southeast Asian Literature",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to modern literatures of Southeast Asia. Designed to expose students to range of literatures, predominantly novels and short stories, that were written across this region in response to dramatic changes caused by colonialism and its aftermath. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN C120",
+      "dept": "SEASIAN",
+      "number": "C120",
+      "title": "Ghosts, Spirits, and Witches: Supernatural in Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. From magical tattoos, tree spirits, and faith healing to angry ghosts and disemboweled flying vampires, exploration of fantastic supernatural world of Southeast Asia through folk tales, urban myths, published accounts, popular films, and other media. Study of wide variety of supernatural creatures and local\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN C140",
+      "dept": "SEASIAN",
+      "number": "C140",
+      "title": "Zomia: Peoples, Societies, and Cultures of Upland Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: prior course in Asian cultures or history. Multidisciplinary survey of peoples of upland Southeast Asia and critical issues affecting them. Topics include history, culture, human rights, ethnicity, religion, politics. Concurrently scheduled with course C240. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN C150",
+      "dept": "SEASIAN",
+      "number": "C150",
+      "title": "Indigenous Peoples of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. In Southeast Asia, indigeneity is multi-layered concept. Most of population is native, yet there are specific ethnic groups that are legally designated or otherwise recognized as indigenous peoples. Ideas about indigeneity also vary across time and space, among indigenous peoples themselves, in ways that\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN M60",
+      "dept": "SEASIAN",
+      "number": "M60",
+      "title": "Religious Traditions in Southeast Asia",
+      "units": 4.0,
+      "description": "(Same as Religion M60E.) Lecture, three hours. Introduction to historical development and contemporary practice of religions in Southeast Asia. Examination of indigenous religious beliefs and major textually based religions introduced to region, including Hinduism, Buddhism, Islam, and Christianity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THAI 100A",
+      "dept": "THAI",
+      "number": "100A",
+      "title": "Advanced Thai",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Thai placement test. Reinforcement of basic grammar and vocabulary acquired at beginning and intermediate levels. Coverage of more advanced topics on various aspects of Thai society. Broadening of skills in conversation and composition. Reading of selected\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Thai placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "THAI 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THAI 100B",
+      "dept": "THAI",
+      "number": "100B",
+      "title": "Advanced Thai",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Thai placement test. Reinforcement of basic grammar and vocabulary acquired at beginning and intermediate levels. Coverage of more advanced topics on various aspects of Thai society. Broadening of skills in conversation and composition. Reading of selected\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Thai placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "THAI 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THAI 100C",
+      "dept": "THAI",
+      "number": "100C",
+      "title": "Advanced Thai",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Thai placement test. Reinforcement of basic grammar and vocabulary acquired at beginning and intermediate levels. Coverage of more advanced topics on various aspects of Thai society. Broadening of skills in conversation and composition. Reading of selected\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Thai placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "THAI 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THAI 6",
+      "dept": "THAI",
+      "number": "6",
+      "title": "Intermediate Thai",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Thai grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "THAI 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "THAI 100A",
+        "THAI 100B",
+        "THAI 100C"
+      ]
+    },
+    {
+      "course_id": "VIETMSE 100A",
+      "dept": "VIETMSE",
+      "number": "100A",
+      "title": "Advanced Vietnamese",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Vietnamese placement test. Designed to strengthen and build on language skills previously acquired at beginning and intermediate levels. Content-based readings and discussion, with various aspects of Vietnam, particularly its culture. Readings include both authentic original works\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Vietnamese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "VIETMSE 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 100B",
+      "dept": "VIETMSE",
+      "number": "100B",
+      "title": "Advanced Vietnamese",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Vietnamese placement test. Designed to strengthen and build on language skills previously acquired at beginning and intermediate levels. Content-based readings and discussion, with various aspects of Vietnam, particularly its culture. Readings include both authentic original works\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Vietnamese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "VIETMSE 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 100C",
+      "dept": "VIETMSE",
+      "number": "100C",
+      "title": "Advanced Vietnamese",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Vietnamese placement test. Designed to strengthen and build on language skills previously acquired at beginning and intermediate levels. Content-based readings and discussion, with various aspects of Vietnam, particularly its culture. Readings include both authentic original works\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 with grade of C or better or Vietnamese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "VIETMSE 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 180A",
+      "dept": "VIETMSE",
+      "number": "180A",
+      "title": "Vietnam: History and Civilization to 1858",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: at least one Asian history course. Exploration of Vietnamese society and culture from origins to early 19th century, with emphasis on examination of ways in which interactions between indigenous and Chinese/Southeast Asian political and cultural forces helped shape religious, literary, and social\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 180B",
+      "dept": "VIETMSE",
+      "number": "180B",
+      "title": "Vietnam: History and Civilization, 1858 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: at least one Asian history or civilization course. Exploration of Vietnamese history and civilization during colonial and postcolonial eras, with emphasis on profound changes that swept through Vietnamese society during period of extended political and military conflict. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 40",
+      "dept": "VIETMSE",
+      "number": "40",
+      "title": "War in Vietnamese Popular Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Vietnamese not required. Focus on popular culture produced and consumed by, or about, people in Vietnam and diasporas. Materials include theoretical and other scholarly texts, as well as literature, music, visual art, films, and comics. Reading of scholarly writings for argument, date,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 6",
+      "dept": "VIETMSE",
+      "number": "6",
+      "title": "Intermediate Vietnamese",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Vietnamese grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "VIETMSE 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "VIETMSE 100A",
+        "VIETMSE 100B",
+        "VIETMSE 100C"
+      ]
+    },
+    {
+      "course_id": "VIETMSE CM155",
+      "dept": "VIETMSE",
+      "number": "CM155",
+      "title": "Topics in Vietnamese Cinema and/or Literature",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M173.) Lecture, three hours; discussion, one hour. Knowledge of Vietnamese not required. Critical and historical examination of literary and/or filmic representations connected to social practices such as empire, nation, diaspora, and globalization. Original language course materials available for interested students. May be concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

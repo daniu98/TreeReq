@@ -1,0 +1,1516 @@
+{
+  "major_id": "jewish-studies-ba",
+  "major_name": "Jewish Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/JewishStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "JEWISH M10"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "AN N EA 10W",
+            "AN N EA 12W",
+            "JEWISH M67",
+            "JEWISH M80",
+            "JEWISH M82",
+            "M E STD M50A",
+            "M E STD M50B",
+            "M E STD M50CW"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ARABIC 1C",
+            "ARMENIA 101C",
+            "ARMENIA 104C",
+            "HEBREW 1C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 3,
+          "courses": [
+            "HEBREW 102A",
+            "HEBREW 102B",
+            "HEBREW 102C",
+            "HEBREW 103A",
+            "HEBREW 103B",
+            "HEBREW 103C",
+            "HEBREW 110A",
+            "HEBREW 110B",
+            "HEBREW 111A",
+            "HEBREW 111B",
+            "HEBREW 111C",
+            "HEBREW 112",
+            "HEBREW M113",
+            "HEBREW 120",
+            "HEBREW 125",
+            "HEBREW 130",
+            "HEBREW 135",
+            "HEBREW C140",
+            "HEBREW 170",
+            "HEBREW 180A",
+            "HEBREW 180B",
+            "HEBREW 188FL"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "JEWISH 140A",
+            "JEWISH 140B",
+            "JEWISH M142",
+            "JEWISH M144",
+            "JEWISH M178",
+            "JEWISH M181",
+            "JEWISH M182A",
+            "JEWISH M182B",
+            "JEWISH M182C",
+            "JEWISH M184A",
+            "JEWISH M184B",
+            "JEWISH M184C"
+          ]
+        },
+        {
+          "choose_n": 6,
+          "courses": [
+            "AN N EA M135",
+            "AN N EA 162",
+            "AN N EA M170",
+            "ENGL 111A",
+            "ENGL 111C",
+            "GERMAN 109",
+            "HIST C191F",
+            "IRANIAN 130",
+            "IRANIAN 131",
+            "IRANIAN 132",
+            "IRANIAN M178",
+            "POL SCI 132A",
+            "POL SCI M132B",
+            "SEMITIC 130",
+            "RELIGN 120",
+            "YIDDSH 101A",
+            "YIDDSH 101B",
+            "YIDDSH 101C",
+            "YIDDSH 102A",
+            "YIDDSH 102B",
+            "YIDDSH 102C",
+            "YIDDSH 121A",
+            "YIDDSH 121B",
+            "YIDDSH 121C",
+            "YIDDSH 130",
+            "YIDDSH 131A",
+            "YIDDSH 131B",
+            "YIDDSH 131C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AN N EA": [
+      "AN N EA 10W",
+      "AN N EA 12W",
+      "AN N EA 162",
+      "AN N EA M135",
+      "AN N EA M170"
+    ],
+    "ARABIC": [
+      "ARABIC 1C"
+    ],
+    "ARMENIA": [
+      "ARMENIA 101C",
+      "ARMENIA 104C"
+    ],
+    "ENGL": [
+      "ENGL 111A",
+      "ENGL 111C"
+    ],
+    "GERMAN": [
+      "GERMAN 109"
+    ],
+    "HEBREW": [
+      "HEBREW 102A",
+      "HEBREW 102B",
+      "HEBREW 102C",
+      "HEBREW 103A",
+      "HEBREW 103B",
+      "HEBREW 103C",
+      "HEBREW 110A",
+      "HEBREW 110B",
+      "HEBREW 111A",
+      "HEBREW 111B",
+      "HEBREW 111C",
+      "HEBREW 112",
+      "HEBREW 120",
+      "HEBREW 125",
+      "HEBREW 130",
+      "HEBREW 135",
+      "HEBREW 170",
+      "HEBREW 180A",
+      "HEBREW 180B",
+      "HEBREW 188FL",
+      "HEBREW 1C",
+      "HEBREW C140",
+      "HEBREW M113"
+    ],
+    "HIST": [
+      "HIST C191F"
+    ],
+    "IRANIAN": [
+      "IRANIAN 130",
+      "IRANIAN 131",
+      "IRANIAN 132",
+      "IRANIAN M178"
+    ],
+    "JEWISH": [
+      "JEWISH 140A",
+      "JEWISH 140B",
+      "JEWISH M10",
+      "JEWISH M142",
+      "JEWISH M144",
+      "JEWISH M178",
+      "JEWISH M181",
+      "JEWISH M182A",
+      "JEWISH M182B",
+      "JEWISH M182C",
+      "JEWISH M184A",
+      "JEWISH M184B",
+      "JEWISH M184C",
+      "JEWISH M67",
+      "JEWISH M80",
+      "JEWISH M82"
+    ],
+    "M E STD": [
+      "M E STD M50A",
+      "M E STD M50B",
+      "M E STD M50CW"
+    ],
+    "POL SCI": [
+      "POL SCI 132A",
+      "POL SCI M132B"
+    ],
+    "RELIGN": [
+      "RELIGN 120"
+    ],
+    "SEMITIC": [
+      "SEMITIC 130"
+    ],
+    "YIDDSH": [
+      "YIDDSH 101A",
+      "YIDDSH 101B",
+      "YIDDSH 101C",
+      "YIDDSH 102A",
+      "YIDDSH 102B",
+      "YIDDSH 102C",
+      "YIDDSH 121A",
+      "YIDDSH 121B",
+      "YIDDSH 121C",
+      "YIDDSH 130",
+      "YIDDSH 131A",
+      "YIDDSH 131B",
+      "YIDDSH 131C"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AN N EA 10W",
+      "dept": "AN N EA",
+      "number": "10W",
+      "title": "Jerusalem: Holy City",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 12W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 12W",
+      "dept": "AN N EA",
+      "number": "12W",
+      "title": "Jerusalem: Holy City",
+      "units": 5.0,
+      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 10W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected by literary and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 162",
+      "dept": "AN N EA",
+      "number": "162",
+      "title": "Archaeology, Identity, and Bible",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction of archaeological record of southern Levant (ancient Israel) from Bronze Age through Achaemenid Period (circa 2500-332 BC) in combination with current understandings of genre, authorship, and historical value of Hebrew Bible. Ancient Israelite identities are traced through combination of archaeological and textual sources.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M135",
+      "dept": "AN N EA",
+      "number": "M135",
+      "title": "Religion in Ancient Israel",
+      "units": 4.0,
+      "description": "(Same as Religion M135.) Lecture, three hours. Introductory survey of various ancient Israelite religious beliefs and practices, their origin, and development, with special attention to diversity of religious practice in ancient Israel and Canaan during 1st millennium BCE. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M170",
+      "dept": "AN N EA",
+      "number": "M170",
+      "title": "Bible and Its Interpreters",
+      "units": 4.0,
+      "description": "(Same as Religion M172.) Lecture, three hours. Knowledge of original languages not required. Bible (Old and New Testaments) as book. Canon, text, and versions. Linguistic, literary, historical, and religious approaches to Bible study. Survey of history of interpretation from antiquity to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 1C",
+      "dept": "ARABIC",
+      "number": "1C",
+      "title": "Elementary Standard Arabic",
+      "units": 5.0,
+      "description": "Lecture, six hours. Enforced requisite: course 1B. Not open to students with prior knowledge of Arabic. Introduction to formal Arabic (modern standard Arabic), including listening, speaking, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1B.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 1B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 101C",
+      "dept": "ARMENIA",
+      "number": "101C",
+      "title": "Elementary Modern Western Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 101B. Students with knowledge of Armenian should contact instructor to determine appropriate enrollment level. Armenian grammar, conversation, and exercises. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 104C",
+      "dept": "ARMENIA",
+      "number": "104C",
+      "title": "Elementary Modern Eastern Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 104B. Students with knowledge of Western Armenian should contact instructor to determine appropriate enrollment level. Designed for students with little or no prior knowledge of Eastern Armenian, official idiom of Republic of Armenia. Introduction to basics of grammar and conversation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 111A",
+      "dept": "ENGL",
+      "number": "111A",
+      "title": "Hebrew Bible in Translation",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Literary study of Hebrew Bible (Old Testament), with emphasis on literary devices and narrative structures in relation to Judaic historical, political, psychological, philosophical, and theological themes. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 111C",
+      "dept": "ENGL",
+      "number": "111C",
+      "title": "Topics in Biblical Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Recommended: course 111A or 111B. Study of topics in Hebrew Bible and/or New Testament, with attention to particular literary themes, motifs, genres, and modes of interpretation. Discussion of influence of Bible on discrete periods or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 109",
+      "dept": "GERMAN",
+      "number": "109",
+      "title": "Jewish Question and German Thought",
+      "units": 4.0,
+      "description": "Lecture, three hours. Taught in English. Analysis of works that represent process of Jewish assimilation, disenfranchisement, and extermination, including authors such as Mendelssohn, Heine, Kafka, Paul Celan, Nelly Sachs, Anne Frank, and others. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 102A",
+      "dept": "HEBREW",
+      "number": "102A",
+      "title": "Intermediate Hebrew",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 1C or Hebrew placement test. Course 102A is enforced requisite to 102B, which is enforced requisite to 102C. Not open to native speakers. Amplification of grammar; reading of texts from modern literature. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1C or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 1C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 102B",
+        "HEBREW 103A",
+        "HEBREW 103B",
+        "HEBREW 103C",
+        "HEBREW 120",
+        "HEBREW 180A",
+        "HEBREW 180B",
+        "SEMITIC 130"
+      ]
+    },
+    {
+      "course_id": "HEBREW 102B",
+      "dept": "HEBREW",
+      "number": "102B",
+      "title": "Intermediate Hebrew",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 102A or Hebrew placement test. Not open to native speakers. Amplification of grammar; reading of texts from modern literature. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 102A or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 102C",
+        "HEBREW 103A",
+        "HEBREW 103B",
+        "HEBREW 103C",
+        "HEBREW 120",
+        "HEBREW 180A",
+        "HEBREW 180B",
+        "SEMITIC 130"
+      ]
+    },
+    {
+      "course_id": "HEBREW 102C",
+      "dept": "HEBREW",
+      "number": "102C",
+      "title": "Intermediate Hebrew",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 102B or Hebrew placement test. Not open to native speakers. Amplification of grammar; reading of texts from modern literature. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 102B or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 103A",
+        "HEBREW 103B",
+        "HEBREW 103C",
+        "HEBREW 112",
+        "HEBREW 120",
+        "HEBREW 180A",
+        "HEBREW 180B",
+        "HEBREW 188FL",
+        "SEMITIC 130"
+      ]
+    },
+    {
+      "course_id": "HEBREW 103A",
+      "dept": "HEBREW",
+      "number": "103A",
+      "title": "Advanced Hebrew",
+      "units": 4.0,
+      "description": "Lecture, five hours. Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test. Students with prior knowledge of Hebrew who did not take courses 102A, 102B, and 102C should contact instructor to determine appropriate enrollment level. Not open to native speakers. Designed for students with intermediate speaking fluency and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102A",
+            "HEBREW 102B",
+            "HEBREW 102C"
+          ],
+          [
+            "HEBREW placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 130",
+        "HEBREW C140"
+      ]
+    },
+    {
+      "course_id": "HEBREW 103B",
+      "dept": "HEBREW",
+      "number": "103B",
+      "title": "Advanced Hebrew",
+      "units": 4.0,
+      "description": "Lecture, five hours. Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test. Students with prior knowledge of Hebrew who did not take courses 102A, 102B, and 102C should contact instructor to determine appropriate enrollment level. Not open to native speakers. Designed for students with intermediate speaking fluency and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102A",
+            "HEBREW 102B",
+            "HEBREW 102C"
+          ],
+          [
+            "HEBREW placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 130",
+        "HEBREW C140"
+      ]
+    },
+    {
+      "course_id": "HEBREW 103C",
+      "dept": "HEBREW",
+      "number": "103C",
+      "title": "Advanced Hebrew",
+      "units": 4.0,
+      "description": "Lecture, five hours. Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test. Students with prior knowledge of Hebrew who did not take courses 102A, 102B, and 102C should contact instructor to determine appropriate enrollment level. Not open to native speakers. Designed for students with intermediate speaking fluency and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102A, 102B, and 102C, or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102A",
+            "HEBREW 102B",
+            "HEBREW 102C"
+          ],
+          [
+            "Hebrew placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 130",
+        "HEBREW C140"
+      ]
+    },
+    {
+      "course_id": "HEBREW 110A",
+      "dept": "HEBREW",
+      "number": "110A",
+      "title": "Introduction to Biblical Hebrew: Phonology, Morphology, and Structure of Biblical Hebrew",
+      "units": 4.0,
+      "description": "Lecture, three hours. Phonology, morphology, and structure of biblical Hebrew. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "HEBREW 110B"
+      ]
+    },
+    {
+      "course_id": "HEBREW 110B",
+      "dept": "HEBREW",
+      "number": "110B",
+      "title": "Introduction to Biblical Hebrew: Readings of Biblical Prose Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 110A. Continuation of course 110A. Readings of biblical prose texts. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 110A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 111A",
+      "dept": "HEBREW",
+      "number": "111A",
+      "title": "Israeli Society through Hebrew Song and Video",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Requisite: course 1C. Use of contemporary Israeli song and video to explore Israeli collective imagination and various Israeli sociocultural issues to familiarize students with different aspects of Israeli daily life and popular culture, while teaching them multiple speech acts in both formal and informal\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 1C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 111B"
+      ]
+    },
+    {
+      "course_id": "HEBREW 111B",
+      "dept": "HEBREW",
+      "number": "111B",
+      "title": "Conversational Hebrew",
+      "units": 3.0,
+      "description": "Lecture, two hours; laboratory, one hour. Requisite: course 111A. Vocabulary used in daily life, different speech acts in both formal and informal contexts, and various Israeli sociocultural issues using different kinds of media, such as video, Internet, and newspapers. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 111A.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 111A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 111C",
+      "dept": "HEBREW",
+      "number": "111C",
+      "title": "Conversational Hebrew",
+      "units": 3.0,
+      "description": "Lecture, two hours; laboratory, one hour. Requisite: course 111B. Vocabulary used in daily life, different speech acts in both formal and informal contexts, and various Israeli sociocultural issues using different kinds of media, such as video, Internet, and newspapers. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 111B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 112",
+      "dept": "HEBREW",
+      "number": "112",
+      "title": "Readings in Modern Scholarly Hebrew",
+      "units": 2.0,
+      "description": "Seminar, two hours. Requisite: course 102C. In-depth reading and discussion of selected scholarly articles in modern Hebrew for various disciplines: Bible study, Jewish history and folklore, sociology, and literary criticism. Development of student proficiency in vocabulary, terminology, and ideas in these fields while enhancing comprehension of complex syntactical structures in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 120",
+      "dept": "HEBREW",
+      "number": "120",
+      "title": "Biblical Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Translation and analysis of biblical texts, with attention to aspects of grammar, style, and interpretation.",
+      "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102A",
+          "HEBREW 102B",
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 125",
+      "dept": "HEBREW",
+      "number": "125",
+      "title": "Hebrew Bible with Medieval Commentaries",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 103C. Hebrew Bible with the commentaries of Rashi, Ibn Ezra, and/or Nahmanides. May be repeated for maximum of 16 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 103C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 130",
+      "dept": "HEBREW",
+      "number": "130",
+      "title": "Rabbinic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in Mishnah, Talmud, and/or Midrash. May be repeated for credit.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 103A",
+          "HEBREW 103B",
+          "HEBREW 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 135",
+      "dept": "HEBREW",
+      "number": "135",
+      "title": "Medieval Hebrew Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in medieval Hebrew prose and poetry. May be repeated for maximum of 16 units. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 170",
+      "dept": "HEBREW",
+      "number": "170",
+      "title": "Dead Sea Scrolls",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 110C. Readings in Hebrew scrolls from Dead Sea, with focus on grammar, paleography, and biblical interpretation in Dead Sea Scrolls. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 110C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 110C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 180A",
+      "dept": "HEBREW",
+      "number": "180A",
+      "title": "Survey of Hebrew Grammar",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Descriptive and comparative study of Hebrew grammar: phonology and morphology. Topics include development of Hebrew language from biblical times to present day, its relation to Arabic and other Semitic languages, methods of language expansion in Israeli Hebrew, traditional pronunciation of Hebrew by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102A",
+          "HEBREW 102B",
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 180B",
+      "dept": "HEBREW",
+      "number": "180B",
+      "title": "Survey of Hebrew Grammar",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Descriptive and comparative study of Hebrew grammar: phonology and morphology. Topics include development of Hebrew language from biblical times to present day, its relation to Arabic and other Semitic languages, methods of language expansion in Israeli Hebrew, traditional pronunciation of Hebrew by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102A",
+          "HEBREW 102B",
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 188FL",
+      "dept": "HEBREW",
+      "number": "188FL",
+      "title": "Special Studies: Readings in Hebrew",
+      "units": 2.0,
+      "description": "Seminar, two hours. Requisite: course 102C. Students must be concurrently enrolled in an affiliated main course. Primary readings and advanced training in Hebrew. Additional work in Hebrew to enrich and augment work assigned in main course, including reading, writing, and other exercises in Hebrew. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 1C",
+      "dept": "HEBREW",
+      "number": "1C",
+      "title": "Elementary Hebrew",
+      "units": 5.0,
+      "description": "Lecture, four hours; laboratory, one hour. Enforced requisite: course 1B or Hebrew placement test. Not open to native speakers. Introduction to modern Hebrew, including listening, speaking, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1B or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 1B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 102A",
+        "HEBREW 111A"
+      ]
+    },
+    {
+      "course_id": "HEBREW C140",
+      "dept": "HEBREW",
+      "number": "C140",
+      "title": "Modern Hebrew Poetry and Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, and 103C, or equivalent knowledge of Hebrew. Study of major Hebrew writers of past 100 years. May be repeated for credit. Concurrently scheduled with course C240. Letter grading.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, and 103C, or equivalent knowledge of Hebrew.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 103A",
+            "HEBREW 103B",
+            "HEBREW 103C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW M113",
+      "dept": "HEBREW",
+      "number": "M113",
+      "title": "Contemporary Israeli Short Stories/Novellas and Films in English",
+      "units": 5.0,
+      "description": "(Same as Jewish Studies M113.) Lecture, three hours; laboratory, two hours. Exploration of Israeli short stories/novellas and films (translated into English) written since mid-1980s that use, each to varying degree, postmodernist techniques to undermine predominance of modernist-Zionist narrative. Recycling and reexamination of Israeli condition and Zionist condition and skepticism about\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST C191F",
+      "dept": "HIST",
+      "number": "C191F",
+      "title": "Topics in History: Near East",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for seniors. Limited to 15 students meeting with faculty member. Reading and discussion of selected topics, and development of culminating project. May be repeated once for credit. May be concurrently scheduled with course C201J. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 130",
+      "dept": "IRANIAN",
+      "number": "130",
+      "title": "Intellectual History of Jews of Persia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Readings in English. Introduction to intellectual history of Jews in Persia by highlighting select areas of Judeo-Persian studies and focusing on various authors and their work. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 131",
+      "dept": "IRANIAN",
+      "number": "131",
+      "title": "Introduction to Judeo-Persian: Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: knowledge of Persian equivalent to course 102C. Introduction to history of Judeo-Persian literature and culture to prepare students to read Judeo-Persian texts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 132",
+      "dept": "IRANIAN",
+      "number": "132",
+      "title": "Intermediate Judeo-Persian Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisites: courses 102C, 131. Literary study of Judeo-Persian literature, as segment of Iranian classical literature. Judeo-Persian literary genres, in forms of prose and verse, compared with their parallel genres in context of Iranian literature. Textual study of Judeo-Persian manuscripts, both print and cursive, and their variations\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 102C, 131.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M178",
+      "dept": "IRANIAN",
+      "number": "M178",
+      "title": "Introduction to History and Culture of Iranian Jews",
+      "units": 4.0,
+      "description": "(Same as History M178 and Jewish Studies M178.) Lecture, three hours. Introduction to political, intellectual, cultural, and socioeconomic status of Iranian Jews. Exploration of history of Iranian Jews from ancient period throughout history, with focus on post-Middle Ages to present time. Topics, studied from perspective of Iranian cultural and intellectual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 140A",
+      "dept": "JEWISH",
+      "number": "140A",
+      "title": "American Jewish History, 1654 to 1914",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of social and cultural history of American Jewish community from its inception to the present, with emphasis on integration of successive immigrants and development of institutions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 140B",
+      "dept": "JEWISH",
+      "number": "140B",
+      "title": "American Jewish History, 1914 to the Present",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of social and cultural history of American Jewish community from its inception to the present, with emphasis on integration of successive immigrants and development of institutions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M10",
+      "dept": "JEWISH",
+      "number": "M10",
+      "title": "Introduction to Judaism",
+      "units": 5.0,
+      "description": "(Same as Religion M10.) Lecture, three hours; discussion, one hour. Judaism\u2019s basic beliefs, institutions, and practices. Topics include development of biblical and rabbinic Judaism; concepts of god, sin, repentance, prayer, and the messiah; history of Talmud and synagogue; evolution of folk beliefs and year-cycle and life-cycle practices. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M142",
+      "dept": "JEWISH",
+      "number": "M142",
+      "title": "Modern Israel: Politics, Society, Culture",
+      "units": 4.0,
+      "description": "(Same as Middle Eastern Studies M142.) Lecture, three hours. Examination of evolution of Israel\u2014its changing society, volatile domestic and foreign politics, and dynamic culture\u2014from its foundation in 1948 to present, in context of global political and cultural change and changing Jewish world. Tension between Israel\u2019s conception of itself as Jewish\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M144",
+      "dept": "JEWISH",
+      "number": "M144",
+      "title": "Zionism: Ideology and Practice in Making of Jewish State",
+      "units": 4.0,
+      "description": "(Same as Middle Eastern Studies M144.) Lecture, three hours; discussion, one hour. History of Zionism on backdrop of European, world, and Jewish histories from ideological origins to political, cultural, and social foundations of State of Israel. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M178",
+      "dept": "JEWISH",
+      "number": "M178",
+      "title": "Introduction to History and Culture of Iranian Jews",
+      "units": 4.0,
+      "description": "(Same as History M178 and Iranian M178.) Lecture, three hours. Introduction to political, intellectual, cultural, and socioeconomic status of Iranian Jews. Exploration of history of Iranian Jews from ancient period throughout history, with focus on post-Middle Ages to present time. Topics, studied from perspective of Iranian cultural and intellectual history,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M181",
+      "dept": "JEWISH",
+      "number": "M181",
+      "title": "Topics in Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M181.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of major issues in Jewish history. May be repeated for maximum of 16 units with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182A",
+      "dept": "JEWISH",
+      "number": "M182A",
+      "title": "Ancient Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182A and Religion M182A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social, political, and religious developments. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182B",
+      "dept": "JEWISH",
+      "number": "M182B",
+      "title": "Medieval Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182B and Religion M182B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of unfolding of Jewish history from rise of Christianity to expulsion of Jews from Spain in 1492. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182C",
+      "dept": "JEWISH",
+      "number": "M182C",
+      "title": "Modern Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of early modern Jewish history beginning with enormously repercussive expulsion of Jews from Spain in 1492, followed by transformations in Jewish society and identity over five centuries in Europe and Middle East, and concluding\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M184A",
+      "dept": "JEWISH",
+      "number": "M184A",
+      "title": "Jewish Civilization: Encounter with Great World Cultures",
+      "units": 4.0,
+      "description": "(Same as History M184A and Religion M184A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of dynamic and millennia-old interaction of Jews with great world cultures. Creative adaptations that have lent Jewish culture its distinct and various forms. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M184B",
+      "dept": "JEWISH",
+      "number": "M184B",
+      "title": "History of Anti-Semitism",
+      "units": 4.0,
+      "description": "(Same as History M184B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of origins and historical development of anti-Semitism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M184C",
+      "dept": "JEWISH",
+      "number": "M184C",
+      "title": "American Jewish Experience",
+      "units": 4.0,
+      "description": "(Same as History M184C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Experience of Jews in America, both historical and contemporary. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M67",
+      "dept": "JEWISH",
+      "number": "M67",
+      "title": "Popular Jewish and Israeli Music",
+      "units": 5.0,
+      "description": "(Same as Musicology M67.) Lecture, four hours; discussion, one hour. Music of Jews is diverse. With history of several thousand years and series of developments in modernity, music in Jewish life covers variety of styles found in many contexts. Exploration of music of Jews within last 100 years, with focus\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M80",
+      "dept": "JEWISH",
+      "number": "M80",
+      "title": "Jewish American Experience through Music",
+      "units": 5.0,
+      "description": "(Same as Ethnomusicology M80 and Musicology M80.) Lecture, four hours; discussion, one hour. In synagogue and on stage, and from LP recordings to YouTube, Jews in America have varied musical experiences. Music of synagogue, celebrations at home, in community, and theater are all interesting developments of Jewish music. New Opportunities\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M82",
+      "dept": "JEWISH",
+      "number": "M82",
+      "title": "Music and Holocaust: Individual Experience",
+      "units": 5.0,
+      "description": "(Same as Musicology M82.) Lecture, three hours; discussion, one hour. Roles of music during Holocaust are as varied as people who experienced it. Music was composed and performed by prisoners in almost every concentration camp; music was means for some individuals to gain favorable treatment, while others weaponized it. Traces\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50A",
+      "dept": "M E STD",
+      "number": "M50A",
+      "title": "First Civilizations",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M50A.) Lecture, three hours; discussion, one hour. Survey of great civilizations of ancient Near East\u2014Egypt, Israel, and Mesopotamia\u2014with attention to emergence of writing, monotheism, and urban societies. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50B",
+      "dept": "M E STD",
+      "number": "M50B",
+      "title": "Origins of Judaism, Christianity, and Islam",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M50B and Religion M50.) Lecture, three hours; discussion, one hour. Examination of three major monotheisms of Western cultures\u2014Judaism, Christianity, and Islam\u2014historically and comparatively. Development, teachings, and ritual practices of each tradition up to and including medieval period. Composition and development of various sacred texts, highlighting\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50CW",
+      "dept": "M E STD",
+      "number": "M50CW",
+      "title": "Making and Studying Modern Middle East",
+      "units": 5.0,
+      "description": "(Same as Anthropology M67W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Survey of modern Middle Eastern cultures through readings and films from Middle East and North Africa. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 132A",
+      "dept": "POL SCI",
+      "number": "132A",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Contemporary regional issues and conflicts, with particular attention to inter-Arab politics, Arab-Israeli problem, and Persian Gulf area.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI M132B",
+      "dept": "POL SCI",
+      "number": "M132B",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "(Same as Honors Collegium M157.) Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Role of great powers in Middle East, with emphasis on American, Soviet, and West European policies since 1945. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 120",
+      "dept": "RELIGN",
+      "number": "120",
+      "title": "Judaism, Christianity, and Islam: Comparative Approach",
+      "units": 4.0,
+      "description": "Seminar, three hours. Introduction to analysis of complex relationship of Judaism, Christianity, and Islam as living traditions whose historical origins, current interactions, and future development continue to shape spiritual, cultural, political, and social aspects of human civilization in 21st century. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC 130",
+      "dept": "SEMITIC",
+      "number": "130",
+      "title": "Biblical Aramaic",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: Hebrew 102A, 102B, 102C. Grammar of biblical Aramaic and reading of texts.",
+      "prereqs_raw": "Requisites: Hebrew 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102A",
+          "HEBREW 102B",
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 101A",
+      "dept": "YIDDSH",
+      "number": "101A",
+      "title": "Elementary Yiddish",
+      "units": 4.0,
+      "description": "Lecture, four hours. Introduction to grammar; instruction in listening, speaking, reading, and writing skills. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "YIDDSH 101B"
+      ]
+    },
+    {
+      "course_id": "YIDDSH 101B",
+      "dept": "YIDDSH",
+      "number": "101B",
+      "title": "Elementary Yiddish",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 101A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 101A.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 101A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "YIDDSH 101C"
+      ]
+    },
+    {
+      "course_id": "YIDDSH 101C",
+      "dept": "YIDDSH",
+      "number": "101C",
+      "title": "Elementary Yiddish",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 101B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 101B.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 101B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "YIDDSH 102A"
+      ]
+    },
+    {
+      "course_id": "YIDDSH 102A",
+      "dept": "YIDDSH",
+      "number": "102A",
+      "title": "Intermediate Yiddish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 101C. Grammatical exercises, reading and linguistic analysis of texts, conversation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 101C.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 101C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "YIDDSH 102B",
+        "YIDDSH 131A",
+        "YIDDSH 131B"
+      ]
+    },
+    {
+      "course_id": "YIDDSH 102B",
+      "dept": "YIDDSH",
+      "number": "102B",
+      "title": "Intermediate Yiddish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102A. Grammatical exercises, reading and linguistic analysis of texts, conversation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102A.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 102A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "YIDDSH 102C"
+      ]
+    },
+    {
+      "course_id": "YIDDSH 102C",
+      "dept": "YIDDSH",
+      "number": "102C",
+      "title": "Intermediate Yiddish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102B. Grammatical exercises, reading and linguistic analysis of texts, conversation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102B.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 102B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 121A",
+      "dept": "YIDDSH",
+      "number": "121A",
+      "title": "20th-Century Yiddish Poetry in English Translation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Readings in 20th-century Yiddish poetry and drama. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 121B",
+      "dept": "YIDDSH",
+      "number": "121B",
+      "title": "20th-Century Yiddish Prose and Drama in English Translation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Readings in 20th-century Yiddish prose. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 121C",
+      "dept": "YIDDSH",
+      "number": "121C",
+      "title": "Special Topics in Yiddish Literature in English Translation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Varying topics of importance and relevance to Yiddish literary study. Reading and analysis of wide range of 19th- and 20th-century literature. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 130",
+      "dept": "YIDDSH",
+      "number": "130",
+      "title": "Introduction to Yiddish Culture and Language through Film",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to Yiddish language and culture, with focus on classic Yiddish films and documentaries as integral tools for accessing culture associated with this heritage language. Viewing and discussion to gain deeper understanding and appreciation of complexity and scope of Yiddish culture and in particular of annihilated Yiddish\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 131A",
+      "dept": "YIDDSH",
+      "number": "131A",
+      "title": "Modern Yiddish Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102A. Readings in modern Yiddish poetry. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102A.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 102A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 131B",
+      "dept": "YIDDSH",
+      "number": "131B",
+      "title": "Modern Yiddish Prose and Drama",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102A. Readings in modern Yiddish prose and drama. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102A.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 102A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 131C",
+      "dept": "YIDDSH",
+      "number": "131C",
+      "title": "Special Topics in Yiddish Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Varying topics of importance and relevance to Yiddish literary study. Reading and analysis of wide range of 19th- and 20th-century literature. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "major_id": "spanish-and-linguistics-ba",
+  "major_name": "Spanish and Linguistics BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/SpanishandLinguisticsBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LING 20",
+        "SPAN 25",
+        "SPAN 27",
+        "SPAN M35",
+        "PORTGSE M35",
+        "SPAN 42",
+        "SPAN 44"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "SPAN M35",
+            "PORTGSE M35"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "SPAN 42",
+            "SPAN 44"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SPAN 100A",
+        "SPAN 100B",
+        "SPAN 119",
+        "LING 103",
+        "LING 120A",
+        "LING 120B"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "LING 160",
+            "LING 165A",
+            "LING 165B"
+          ]
+        },
+        {
+          "choose_n": 4,
+          "courses": [
+            "SPAN 160"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "LING": [
+      "LING 103",
+      "LING 120A",
+      "LING 120B",
+      "LING 160",
+      "LING 165A",
+      "LING 165B",
+      "LING 20"
+    ],
+    "PORTGSE": [
+      "PORTGSE 198A",
+      "PORTGSE M35"
+    ],
+    "SPAN": [
+      "SPAN 100A",
+      "SPAN 100B",
+      "SPAN 119",
+      "SPAN 160",
+      "SPAN 198A",
+      "SPAN 25",
+      "SPAN 27",
+      "SPAN 42",
+      "SPAN 44",
+      "SPAN M35"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "LING 103",
+      "dept": "LING",
+      "number": "103",
+      "title": "Introduction to General Phonetics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 102. Phonetics of variety of languages and phonetic phenomena that occur in languages of world. Extensive practice in perception and production of such phenomena. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 120A",
+        "LING 160"
+      ]
+    },
+    {
+      "course_id": "LING 120A",
+      "dept": "LING",
+      "number": "120A",
+      "title": "Phonology I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 103. Introduction to phonological theory and analysis. Rules, representations, underlying forms, derivations. Justification of phonological analyses. Emphasis on practical skills with problem sets. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 20, 103.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20",
+          "LING 103"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 160",
+        "LING 165A"
+      ]
+    },
+    {
+      "course_id": "LING 120B",
+      "dept": "LING",
+      "number": "120B",
+      "title": "Syntax I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Course 120A is not requisite to 120B. Descriptive analysis of morphological and syntactic structures in natural languages; emphasis on insight into nature of such structures rather than linguistics formalization. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 160",
+        "LING 165B"
+      ]
+    },
+    {
+      "course_id": "LING 160",
+      "dept": "LING",
+      "number": "160",
+      "title": "Field Methods",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 102 or 103, 119A or 120A, 119B or 120B. Analysis of language unknown to members of class from data elicited from native speaker of that language. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 102 or 103, 119A or 120A, 119B or 120B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 102",
+            "LING 103"
+          ],
+          [
+            "LING 119A",
+            "LING 120A"
+          ],
+          [
+            "LING 119B",
+            "LING 120B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 165A",
+      "dept": "LING",
+      "number": "165A",
+      "title": "Phonology II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120A. To be taken in term following completion of course 120A or as soon as possible thereafter. Further study in phonological theory and analysis: autosegmental theory, syllable structure, metrical theory, interface of phonology and grammar. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 165B",
+      "dept": "LING",
+      "number": "165B",
+      "title": "Syntax II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 120B.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 20",
+      "dept": "LING",
+      "number": "20",
+      "title": "Introduction to Linguistic Analysis",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Introduction to theory and methods of linguistics: universal properties of human language; phonetic, phonological, morphological, syntactic, and semantic structures and analysis; nature and form of grammar. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LING 103",
+        "LING 120A",
+        "LING 120B"
+      ]
+    },
+    {
+      "course_id": "PORTGSE 198A",
+      "dept": "PORTGSE",
+      "number": "198A",
+      "title": "Senior Honors Research in Portuguese I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE M35",
+      "dept": "PORTGSE",
+      "number": "M35",
+      "title": "Spanish, Portuguese, and Nature of Language",
+      "units": 5.0,
+      "description": "(Same as Spanish M35.) Lecture, three hours; discussion, one hour. Introduction to language study within context of Romance languages, focusing on Spanish and Portuguese. Nature of language: structure, diversity, evolution, social and cultural settings, literary uses. Study of language and its relation to other areas of human knowledge. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 100A",
+      "dept": "SPAN",
+      "number": "100A",
+      "title": "Introduction to Study of Spanish Grammar: Phonology and Morphology",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course M35. Analysis of phonemic and morphological systems of Spanish. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M35.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN M35"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 100B",
+      "dept": "SPAN",
+      "number": "100B",
+      "title": "Introduction to Study of Spanish Grammar: Syntax",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course M35. Study of syntactical systems of Spanish. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M35.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 119",
+      "dept": "SPAN",
+      "number": "119",
+      "title": "Introduction to Literary Analysis",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 25 or 27. Introduction to methods of analyzing literary work in Spanish, Spanish-American, and Chicana/Chicano literature. Special attention to four major genres: poetry, narrative, drama, and essay. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 25",
+          "SPAN 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 160",
+      "dept": "SPAN",
+      "number": "160",
+      "title": "Topics in Spanish Linguistics",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 25 or 27. Exploration of origin of language, how Spanish is acquired, evolution of Spanish from Latin to early modern period, how Spanish varies in world, how to teach Spanish, Spanish in contact with other languages. Possible topics include Spanish in Los Angeles, history of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 25",
+          "SPAN 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 198A",
+      "dept": "SPAN",
+      "number": "198A",
+      "title": "Senior Honors Research in Spanish I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 25",
+      "dept": "SPAN",
+      "number": "25",
+      "title": "Advanced Spanish Composition",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 5. Emphasis on development of communicative abilities, both verbal and written, as well as on increasing comprehension of variety of forms of cultural production in Spanish language and on preparation for more advanced Spanish courses. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 119",
+        "SPAN 160"
+      ]
+    },
+    {
+      "course_id": "SPAN 27",
+      "dept": "SPAN",
+      "number": "27",
+      "title": "Advanced Spanish Composition for Heritage Speakers",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 7B or equivalent. Not open for credit to students with credit for course 25. Practice in reading and writing of Spanish for students with oral proficiency in Spanish (in lieu of course 25). P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 7B or equivalent.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SPAN 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 119",
+        "SPAN 160"
+      ]
+    },
+    {
+      "course_id": "SPAN 42",
+      "dept": "SPAN",
+      "number": "42",
+      "title": "Iberian Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spain, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 44",
+      "dept": "SPAN",
+      "number": "44",
+      "title": "Latin American Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spanish America, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN M35",
+      "dept": "SPAN",
+      "number": "M35",
+      "title": "Spanish, Portuguese, and Nature of Language",
+      "units": 5.0,
+      "description": "(Same as Portuguese M35.) Lecture, three hours; discussion, one hour. Introduction to language study within context of Romance languages, focusing on Spanish and Portuguese. Nature of language: structure, diversity, evolution, social and cultural settings, literary uses. Study of language and its relation to other areas of human knowledge. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SPAN 100A"
+      ]
+    }
+  ]
+}

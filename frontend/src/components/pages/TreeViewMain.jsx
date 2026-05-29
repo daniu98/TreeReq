@@ -21,8 +21,6 @@ export default function TreeViewMain({ tree, onBack }) {
     );
   }
 
-  const nodes = getTreeNodes(tree.id);
-
   return (
     <main className="tree-page" aria-labelledby="tree-page-title">
       <header className="tree-page__header">

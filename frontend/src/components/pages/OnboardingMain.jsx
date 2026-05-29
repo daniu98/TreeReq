@@ -312,7 +312,12 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSs
               <div className="onboarding-landing__google" style={{ marginBottom: "0.5rem" }}>
                 <GoogleLogin
                   onSuccess={handleGoogleSuccess}
-                  onError={() => setStatus("Sign-in was cancelled. Please try again.")}
+                  onError={() =>
+                    setStatus(
+                      "Google sign-in failed. If you see origin_mismatch, add this URL under Authorized JavaScript origins in Google Cloud Console: " +
+                        window.location.origin
+                    )
+                  }
                   text="signin_with"
                   shape="pill"
                   theme="outline"

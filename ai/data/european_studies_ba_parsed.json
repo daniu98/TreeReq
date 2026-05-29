@@ -1,0 +1,4181 @@
+{
+  "major_id": "european-studies-ba",
+  "major_name": "European Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/EuropeanStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "I A STD 1"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "C&EE ST 91",
+            "COM LIT 1C",
+            "COM LIT 2CW",
+            "COM LIT 4CW",
+            "ENGL 88G",
+            "FRNCH 12",
+            "FRNCH 14",
+            "FRNCH 14W",
+            "FRNCH 41",
+            "FRNCH 60",
+            "GERMAN 50B",
+            "GERMAN 59",
+            "GERMAN 61A",
+            "HIST 1C",
+            "HIST 97C",
+            "I A STD 40",
+            "ITALIAN 42B",
+            "ITALIAN 46",
+            "ITALIAN 50B",
+            "PORTGSE 40A",
+            "ROMANIA 90",
+            "RUSSN 25",
+            "RUSSN 25W",
+            "RUSSN 30",
+            "RUSSN 31",
+            "RUSSN 32",
+            "RUSSN 90B",
+            "RUSSN 90BW",
+            "SCAND 50",
+            "SCAND 50W",
+            "SLAVC 90",
+            "SPAN 42"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ECON 1",
+            "ECON 2",
+            "GEOG 4",
+            "GEOG 6",
+            "POL SCI 50",
+            "SOCIOL 1"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ANTHRO 3",
+            "COM LIT 1D",
+            "COM LIT 2DW",
+            "COM LIT 4DW",
+            "ETHNMUS 5",
+            "ETHNMUS M25",
+            "GEOG 3",
+            "HIST 2B",
+            "HIST 22",
+            "WL ARTS 20",
+            "WL ARTS 33"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ANTHRO": [
+      "ANTHRO 130",
+      "ANTHRO 140",
+      "ANTHRO 143",
+      "ANTHRO 146",
+      "ANTHRO 147",
+      "ANTHRO 3"
+    ],
+    "ART HIS": [
+      "ART HIS 127B",
+      "ART HIS C160",
+      "ART HIS M127C"
+    ],
+    "C&EE ST": [
+      "C&EE ST 91",
+      "C&EE ST CM126",
+      "C&EE ST M125"
+    ],
+    "COM LIT": [
+      "COM LIT 100",
+      "COM LIT 1C",
+      "COM LIT 1D",
+      "COM LIT 2CW",
+      "COM LIT 2DW",
+      "COM LIT 4CW",
+      "COM LIT 4DW",
+      "COM LIT C163",
+      "COM LIT C164"
+    ],
+    "COMM": [
+      "COMM 179"
+    ],
+    "CZCH": [
+      "CZCH 102C"
+    ],
+    "DUTCH": [
+      "DUTCH 103C",
+      "DUTCH 113",
+      "DUTCH 131"
+    ],
+    "ECON": [
+      "ECON 1",
+      "ECON 111",
+      "ECON 112",
+      "ECON 121",
+      "ECON 122",
+      "ECON 181",
+      "ECON 2"
+    ],
+    "ENGL": [
+      "ENGL 115B",
+      "ENGL 164A",
+      "ENGL 164B",
+      "ENGL 164C",
+      "ENGL 88G"
+    ],
+    "ENVIRON": [
+      "ENVIRON 134",
+      "ENVIRON M133"
+    ],
+    "ETHNMUS": [
+      "ETHNMUS 5",
+      "ETHNMUS M25"
+    ],
+    "FILM TV": [
+      "FILM TV 106B",
+      "FILM TV 112"
+    ],
+    "FRNCH": [
+      "FRNCH 114A",
+      "FRNCH 114B",
+      "FRNCH 114C",
+      "FRNCH 115",
+      "FRNCH 116",
+      "FRNCH 117",
+      "FRNCH 118",
+      "FRNCH 119",
+      "FRNCH 12",
+      "FRNCH 120",
+      "FRNCH 138",
+      "FRNCH 139",
+      "FRNCH 14",
+      "FRNCH 141",
+      "FRNCH 14W",
+      "FRNCH 169",
+      "FRNCH 41",
+      "FRNCH 6",
+      "FRNCH 60"
+    ],
+    "GEOG": [
+      "GEOG 139C",
+      "GEOG 140",
+      "GEOG 141",
+      "GEOG 148",
+      "GEOG 150",
+      "GEOG 158",
+      "GEOG 161",
+      "GEOG 173A",
+      "GEOG 174A",
+      "GEOG 3",
+      "GEOG 4",
+      "GEOG 6",
+      "GEOG M127",
+      "GEOG M131"
+    ],
+    "GERMAN": [
+      "GERMAN 102",
+      "GERMAN 103",
+      "GERMAN 104",
+      "GERMAN 110",
+      "GERMAN 112",
+      "GERMAN 170",
+      "GERMAN 173",
+      "GERMAN 174",
+      "GERMAN 50B",
+      "GERMAN 59",
+      "GERMAN 6",
+      "GERMAN 61A"
+    ],
+    "HIST": [
+      "HIST 120A",
+      "HIST 120B",
+      "HIST 120C",
+      "HIST 121A",
+      "HIST 121B",
+      "HIST 121C",
+      "HIST 121D",
+      "HIST 121E",
+      "HIST 121F",
+      "HIST 122A",
+      "HIST 122B",
+      "HIST 122C",
+      "HIST 122F",
+      "HIST 123B",
+      "HIST 123C",
+      "HIST 124B",
+      "HIST 124C",
+      "HIST 125A",
+      "HIST 125B",
+      "HIST 125C",
+      "HIST 125D",
+      "HIST 126",
+      "HIST 127B",
+      "HIST 127C",
+      "HIST 127D",
+      "HIST 129B",
+      "HIST 131A",
+      "HIST 131B",
+      "HIST 134B",
+      "HIST 134C",
+      "HIST 135C",
+      "HIST 136B",
+      "HIST 136C",
+      "HIST 183A",
+      "HIST 183B",
+      "HIST 1C",
+      "HIST 22",
+      "HIST 2B",
+      "HIST 97C",
+      "HIST M186B"
+    ],
+    "HNGAR": [
+      "HNGAR 102C"
+    ],
+    "HNRS": [
+      "HNRS 173A",
+      "HNRS M152"
+    ],
+    "I A STD": [
+      "I A STD 1",
+      "I A STD 191",
+      "I A STD 198A",
+      "I A STD 198B",
+      "I A STD 198C",
+      "I A STD 40"
+    ],
+    "INTL DV": [
+      "INTL DV 110",
+      "INTL DV 130"
+    ],
+    "ITALIAN": [
+      "ITALIAN 102A",
+      "ITALIAN 102B",
+      "ITALIAN 102C",
+      "ITALIAN 103A",
+      "ITALIAN 103B",
+      "ITALIAN 110",
+      "ITALIAN 113",
+      "ITALIAN 114B",
+      "ITALIAN 116A",
+      "ITALIAN 116B",
+      "ITALIAN 120",
+      "ITALIAN 121",
+      "ITALIAN 140",
+      "ITALIAN 150",
+      "ITALIAN 42B",
+      "ITALIAN 46",
+      "ITALIAN 50B",
+      "ITALIAN 6",
+      "ITALIAN M158"
+    ],
+    "MGMT": [
+      "MGMT 109",
+      "MGMT 127C"
+    ],
+    "POL SCI": [
+      "POL SCI 111C",
+      "POL SCI 123A",
+      "POL SCI 124A",
+      "POL SCI 125A",
+      "POL SCI 126",
+      "POL SCI 129",
+      "POL SCI 134",
+      "POL SCI 137A",
+      "POL SCI 150",
+      "POL SCI 153A",
+      "POL SCI 156A",
+      "POL SCI 166",
+      "POL SCI 167D",
+      "POL SCI 168",
+      "POL SCI 50",
+      "POL SCI M122B",
+      "POL SCI M167C"
+    ],
+    "POLSH": [
+      "POLSH 102C",
+      "POLSH 152B",
+      "POLSH 152C"
+    ],
+    "PORTGSE": [
+      "PORTGSE 3",
+      "PORTGSE 40A"
+    ],
+    "ROMANIA": [
+      "ROMANIA 102C",
+      "ROMANIA 90"
+    ],
+    "RUSSN": [
+      "RUSSN 107B",
+      "RUSSN 120",
+      "RUSSN 121",
+      "RUSSN 122",
+      "RUSSN 125",
+      "RUSSN 126",
+      "RUSSN 128",
+      "RUSSN 130A",
+      "RUSSN 130B",
+      "RUSSN 130C",
+      "RUSSN 140A",
+      "RUSSN 140B",
+      "RUSSN 140C",
+      "RUSSN 140D",
+      "RUSSN 150",
+      "RUSSN 25",
+      "RUSSN 25W",
+      "RUSSN 30",
+      "RUSSN 31",
+      "RUSSN 32",
+      "RUSSN 6",
+      "RUSSN 90B",
+      "RUSSN 90BW",
+      "RUSSN C124C",
+      "RUSSN C124D",
+      "RUSSN C124N",
+      "RUSSN C124P",
+      "RUSSN C124T",
+      "RUSSN C131",
+      "RUSSN CM124G",
+      "RUSSN M127",
+      "RUSSN M132"
+    ],
+    "SCAND": [
+      "SCAND 141C",
+      "SCAND 142A",
+      "SCAND 143C",
+      "SCAND 154",
+      "SCAND 156",
+      "SCAND 157",
+      "SCAND 161",
+      "SCAND 173A",
+      "SCAND 174B",
+      "SCAND 5",
+      "SCAND 50",
+      "SCAND 50W",
+      "SCAND C141A",
+      "SCAND C155",
+      "SCAND C163A",
+      "SCAND C163B",
+      "SCAND C163C",
+      "SCAND C174A",
+      "SCAND C180"
+    ],
+    "SLAVC": [
+      "SLAVC 90"
+    ],
+    "SOCIOL": [
+      "SOCIOL 1",
+      "SOCIOL 116",
+      "SOCIOL 151",
+      "SOCIOL 154",
+      "SOCIOL 182",
+      "SOCIOL 183",
+      "SOCIOL 191D",
+      "SOCIOL 191F"
+    ],
+    "SPAN": [
+      "SPAN 42",
+      "SPAN 5"
+    ],
+    "SRB CRO": [
+      "SRB CRO 102C"
+    ],
+    "UKRN": [
+      "UKRN 102C"
+    ],
+    "URBN PL": [
+      "URBN PL M165"
+    ],
+    "WL ARTS": [
+      "WL ARTS 20",
+      "WL ARTS 33"
+    ],
+    "YIDDSH": [
+      "YIDDSH 102C",
+      "YIDDSH 131A",
+      "YIDDSH 131B"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ANTHRO 130",
+      "dept": "ANTHRO",
+      "number": "130",
+      "title": "Study of Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 140",
+      "dept": "ANTHRO",
+      "number": "140",
+      "title": "Study of Social Systems",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 3. Introduction to more specialized social anthropology courses. Evaluation of variation in sociocultural systems, with special emphasis on forms of inequality. Basic frameworks of anthropological analysis; historical context and development of social anthropology discipline. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 143",
+      "dept": "ANTHRO",
+      "number": "143",
+      "title": "Economic Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3. Introduction to anthropological perspectives for interpretation of economic life and institutions. Economic facts to be placed in their larger social, political, and cultural contexts; examination of modes of production, distribution, and consumption of goods and services in their relation to social networks, power structures,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 146",
+      "dept": "ANTHRO",
+      "number": "146",
+      "title": "Urban Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for junior/senior social sciences majors. Introduction to modern industrial cities and urban life. Examination of notion of urban space in context of social relations by drawing from historical and cross-cultural urban ethnographies. Urban space is created according to needs of capital\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 147",
+      "dept": "ANTHRO",
+      "number": "147",
+      "title": "Development Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. Comparative study of planned and unplanned development, in particular as it affects rural societies. Emphasis on impact of capital, technological change and gender differences, economic differentiation and class, urban/rural relations, and migration. Discussion of theoretical issues\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 3",
+      "dept": "ANTHRO",
+      "number": "3",
+      "title": "Culture and Society",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor\u2019s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 130",
+        "ANTHRO 140",
+        "ANTHRO 143",
+        "ANTHRO 147"
+      ]
+    },
+    {
+      "course_id": "ART HIS 127B",
+      "dept": "ART HIS",
+      "number": "127B",
+      "title": "European Art of 19th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 23. Neoclassicism and Romanticism, with emphasis on France\u2014development and influence of David, Ingres, and Delacroix. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 23.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 23"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C160",
+      "dept": "ART HIS",
+      "number": "C160",
+      "title": "Art and Empire",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Examination of relationship between art and imperial ideologies and introduction to current issues in colonial studies and postcolonial criticism. Concurrently scheduled with course C260A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M127C",
+      "dept": "ART HIS",
+      "number": "M127C",
+      "title": "Cultural and Intellectual History of Modern Europe, 19th Century",
+      "units": 4.0,
+      "description": "(Same as History M122E.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE ST 91",
+      "dept": "C&EE ST",
+      "number": "91",
+      "title": "Culture and Society in Central and Eastern Europe",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Interdisciplinary introduction to main themes and concepts of Central and East European studies, including historical background, nation states and ethnic groups, and languages spoken in area. Focus on politics, society, and culture in communist and early post-communist periods: party control and dissidence; national economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE ST CM126",
+      "dept": "C&EE ST",
+      "number": "CM126",
+      "title": "Cold-War Central European Culture",
+      "units": 4.0,
+      "description": "(Formerly numbered C126.) (Same as European Languages and Transcultural Studies CM126.) Lecture, three hours. Examination of cold-war Central European culture through prism of prose fiction, essays, and film from 1947 to 1989. Analysis of strategies of Polish, Czech, Hungarian, and East German writers as articulation of tensions, contradictions, and compromises\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE ST M125",
+      "dept": "C&EE ST",
+      "number": "M125",
+      "title": "Interwar Central European Prose",
+      "units": 4.0,
+      "description": "(Formerly numbered 125.) (Same as European Languages and Transcultural Studies M125.) Lecture, three hours. Analysis of selected novels, stories, plays, and essays of representative authors of 1920s and 1930s in translation. Special attention to relation between literature and historical and ethnic concerns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 100",
+      "dept": "COM LIT",
+      "number": "100",
+      "title": "Introduction to Literary and Critical Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours. Preparation: satisfaction of Entry-Level Writing and College Writing requirements. Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc. Seminar-style introduction to discipline of comparative literature presented through series of texts illustrative of its formation and practice. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM LIT 1",
+            "COM LIT 2",
+            "ENGLISH 10",
+            "SPANISH 60"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 1C",
+      "dept": "COM LIT",
+      "number": "1C",
+      "title": "World Literature: Age of Enlightenment to 20th Century",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: satisfaction of Entry-Level Writing requirement. Not open for credit to students with credit for course 2CW or 4CW. Study of major texts in world literature, with emphasis on Western civilization. Authors include Swift, Voltaire, Diderot, Rousseau, Goethe, Flaubert, Ibsen, Strindberg, Dostoevsky, Kafka,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: satisfaction of Entry-Level Writing requirement.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 1D",
+      "dept": "COM LIT",
+      "number": "1D",
+      "title": "Great Books from World at Large",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: satisfaction of Entry-Level Writing requirement. Not open for credit to students with credit for course 2DW or 4DW. Study of major literary texts usually overlooked in courses that focus only on canon of Western literature. Texts from at least three of following\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: satisfaction of Entry-Level Writing requirement.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 2CW",
+      "dept": "COM LIT",
+      "number": "2CW",
+      "title": "Survey of Literature: Age of Enlightenment to 20th Century",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 1C or 4CW. Study of selected texts from Age of Enlightenment to 20th century, with emphasis on literary analysis and expository writing. Diderot, Dostoevsky, Flaubert, Goethe, Ibsen, James Joyce,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 2DW",
+      "dept": "COM LIT",
+      "number": "2DW",
+      "title": "Survey of Literature: Great Books from World at Large",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 1D or 4DW. Study of major literary texts usually overlooked in courses that focus only on canon of Western literature, with emphasis on literary analysis and expository writing. Texts\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 4CW",
+      "dept": "COM LIT",
+      "number": "4CW",
+      "title": "Literature and Writing: Age of Enlightenment to 20th Century",
+      "units": 5.0,
+      "description": "Discussion, four hours. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course 1C or 2CW. Study and discussion of selected texts from Age of Enlightenment to 20th century, with emphasis on literary analysis and expository\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "ENG COMP 3",
+          "ENG COMP 3H",
+          "ENG AS 2ND LANG 36"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 4DW",
+      "dept": "COM LIT",
+      "number": "4DW",
+      "title": "Literature and Writing: Great Books from World at Large",
+      "units": 5.0,
+      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 1D or 2DW. Study and discussion of major literary texts usually overlooked in courses that focus only on canon of Western literature, with emphasis on literary analysis and expository writing. Texts from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT C163",
+      "dept": "COM LIT",
+      "number": "C163",
+      "title": "Crisis of Consciousness in Modern Literature",
+      "units": 5.0,
+      "description": "Seminar, three hours. Designed for upper-division literature majors. Study of modern European and American works that are concerned both in subject matter and artistic methods with growing self-consciousness of human beings and their society, with focus on works of Kafka, Rilke, Woolf, Sartre, and Stevens. May be concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT C164",
+      "dept": "COM LIT",
+      "number": "C164",
+      "title": "Modern European Novel",
+      "units": 5.0,
+      "description": "Seminar, three hours. Designed for upper-division literature majors. Study of modern European novel\u2019s development from 19th to 21st century. Use of authors such as Hardy, Strindberg, Lagerkvist, Gide, Proust, Mann, Joyce, Kafka, Woolf, Nabokov, Grass, Christa Wolf, and Enquist to focus on development of themes such as shifting authority, gender\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 179",
+      "dept": "COMM",
+      "number": "179",
+      "title": "Images of U.S.",
+      "units": 4.0,
+      "description": "Lecture, four hours. Awareness of international role of U.S. necessitates clear understanding of way our nation is perceived by others. Exploration of roots of U.S. images in minds of people abroad. Analysis of influences that contribute to images and ways in which images affect practical matters. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CZCH 102C",
+      "dept": "CZCH",
+      "number": "102C",
+      "title": "Advanced Czech",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "DUTCH 103C",
+      "dept": "DUTCH",
+      "number": "103C",
+      "title": "Intermediate Dutch",
+      "units": 4.0,
+      "description": "Lecture, four hours; language laboratory. Requisite: course 103B. Grammatical exercises, conversation, reading and analysis of simple texts. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 103B.",
+      "prereqs_parsed": {
+        "required": [
+          "DUTCH 103B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "DUTCH 113",
+      "dept": "DUTCH",
+      "number": "113",
+      "title": "Modern Dutch and Flemish Literature in Translation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Readings and analysis of works by selected authors of Netherlands and northern (Flemish) Belgium such as Boon, Claus, Couperus, Hermans, Mulisch, Multatuli, and Reve and selected poets such as Campert, Gezelle, Gorter, Kloos, Lucebert, Nijhoff, Van Ostaijen, and Vroman. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "DUTCH 131",
+      "dept": "DUTCH",
+      "number": "131",
+      "title": "Introduction to Modern Dutch Literature",
+      "units": 4.0,
+      "description": "Discussion, three hours. Requisite: course 103B or 120. Selected works of literature of Netherlands and northern (Flemish) Belgium from mid-1850s to present, including novels by such writers as Multatuli, Couperus, Hermans, Mulisch, and Reve and poetry by such groups as symbolist Beweging van Tachtig and post-War Beweging van Vijftig. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 103B or 120.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "DUTCH 103B",
+          "DUTCH 120"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 1",
+      "dept": "ECON",
+      "number": "1",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on allocation of resources and distribution of income through price system. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ECON 2"
+      ]
+    },
+    {
+      "course_id": "ECON 111",
+      "dept": "ECON",
+      "number": "111",
+      "title": "Theories of Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 11, 101, 103. Corequisite: course 111L. Application of theoretical and empirical tools from microeconomics to provide insights into problems confronting low-income countries today and to evaluate policies that are likely to be effective in improving well-being of poorest on globe. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 11, 101, 103. Corequisite: course 111L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 101",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 111L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 112"
+      ]
+    },
+    {
+      "course_id": "ECON 112",
+      "dept": "ECON",
+      "number": "112",
+      "title": "Policies for Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102 or 111. Suggested strategies for economic development: inflation, balanced growth, industry versus agriculture, import substitution, export-oriented expansion, foreign aid, and others. Selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102 or 111.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ECON 102",
+            "ECON 111"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 121",
+      "dept": "ECON",
+      "number": "121",
+      "title": "International Trade Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 101. Corequisite: course 121L. Not open to students with credit for former course 120. Theory of international trade: bases, direction, terms, volume, and gains of trade. Effects of tariffs, quantitative restrictions, and international integration. Effects of free and restricted trade on economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 101. Corequisite: course 121L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 101"
+        ],
+        "corequisites": [
+          "ECON 121L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 122",
+      "dept": "ECON",
+      "number": "122",
+      "title": "International Finance",
+      "units": 4.0,
+      "description": "Lecture, three hours. Python is commonly used programming language for data science. It is powerful and easy to learn tool that can be applied to make simple histograms or fit complicated machine learning models. Introduction to using Python for basic data exploration, analysis, and visualization. Emphasis on applications with economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 181",
+      "dept": "ECON",
+      "number": "181",
+      "title": "Development of Economic Institutions in Western Europe",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: courses 11, 103. Corequisite: course 181L. Application of economic theory and quantitative reasoning to study economic history of Western Europe from 18th to 20th century. Topics include Malthusian theory, Industrial Revolution, demographic transition, formation and persistence of institutions and organizations, World Wars, and development of Europe\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: courses 11, 103. Corequisite: course 181L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 181L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 2",
+      "dept": "ECON",
+      "number": "2",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 1. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on aggregative economics, including national income, monetary and fiscal policy, and international trade. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 115B",
+      "dept": "ENGL",
+      "number": "115B",
+      "title": "British Popular Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Readings in literature of British masses, from 16th-century broadsides to contemporary novels. Examination of social and cultural aspects of literature. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 164A",
+      "dept": "ENGL",
+      "number": "164A",
+      "title": "Earlier 19th-Century Poetry",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Developments in English poetic genres from time of Napoleonic Wars to middle decades of 19th century. Readings enable students to understand legacies of 18th-century and Romantic writing and emergence of new forms such as dramatic monologue and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 164B",
+      "dept": "ENGL",
+      "number": "164B",
+      "title": "19th-Century Critical Prose",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Study of traditions in critical thought from 1800 to 1900 in relation to development of cultural and literary criticism, social thought, and political writing. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 164C",
+      "dept": "ENGL",
+      "number": "164C",
+      "title": "19th-Century Novel",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Study of development of novel from 1800 to 1900, with focus on evolution of genre in relation to cultural, social, and political contexts in which readings were composed, circulated, and received. May be repeated for credit with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 88G",
+      "dept": "ENGL",
+      "number": "88G",
+      "title": "Lower-Division Seminar: Special Topics in English\u00e2\u20ac\u201d20th-Century British Literature",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to 15 students. Content varies; see departmental counselor for information. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON 134",
+      "dept": "ENVIRON",
+      "number": "134",
+      "title": "Environmental Economics with Data Analysis",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from Economics 41, Life Sciences 40, Political Science 6, Statistics 10, 12, 13, or other statistical analysis course approved by instructor. Examination of challenges of balancing environmental protection with wants and needs of people in economy. Focus on how to design efficient public policies\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from Economics 41, Life Sciences 40, Political Science 6, Statistics 10, 12, 13, or other statistical analysis course approved by instructor.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ECON 41",
+            "LIFE SCI 40",
+            "POL SCI 6",
+            "STAT 10",
+            "STAT 12",
+            "STAT 13"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON M133",
+      "dept": "ENVIRON",
+      "number": "M133",
+      "title": "Environmental Sociology",
+      "units": 4.0,
+      "description": "(Same as Society and Genetics M133 and Sociology M115.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 5",
+      "dept": "ETHNMUS",
+      "number": "5",
+      "title": "Music Around World",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Overview of world\u2019s musical traditions by selecting one or two case studies from each of nine musical world regions: Pacific, East Asia, Southeast Asia, South Asia, Middle East, Africa, Europe, Latin America, and U.S. and Canada. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS M25",
+      "dept": "ETHNMUS",
+      "number": "M25",
+      "title": "Global Pop",
+      "units": 5.0,
+      "description": "(Same as Global Jazz Studies M25.) Lecture, four hours; discussion, one hour. Development of world music or world beat, including its meaning and importance to contemporary culture as well as its history and impact. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 106B",
+      "dept": "FILM TV",
+      "number": "106B",
+      "title": "History of European Motion Picture",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Historical and critical survey, with examples, of European motion picture both as developing art form and as medium of mass communication. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 112",
+      "dept": "FILM TV",
+      "number": "112",
+      "title": "Film and Social Change",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Development of documentary and dramatic films in relation to and as force in social development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 114A",
+      "dept": "FRNCH",
+      "number": "114A",
+      "title": "Survey of French Literature: Medieval and Renaissance Literature",
+      "units": 5.0,
+      "description": "Lecture, three hours. Requisite: course 12. Masterpieces of medieval and Renaissance literature, including examples of epic (La Chanson de Roland), romance (Chr\u00e9tien de Troyes\u2019 Yvain), and Renaissance prose and poetry (including Marot, Du Bellay, Ronsard, Rabelais, Marguerite de Navarre, and Montaigne). P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 12.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 12"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 114B",
+      "dept": "FRNCH",
+      "number": "114B",
+      "title": "Survey of French Literature: 17th and 18th Centuries",
+      "units": 5.0,
+      "description": "Lecture, three hours. Requisite: course 12. Study of selections from major works of classicism and Enlightenment, including those by Racine, Pascal, La Fayette, La Fontaine, Laclos, Diderot, Voltaire, and Rousseau. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 12.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 12"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 114C",
+      "dept": "FRNCH",
+      "number": "114C",
+      "title": "Survey of French Literature: 19th and 20th Centuries",
+      "units": 5.0,
+      "description": "Lecture, three hours. Requisite: course 5. Taught in French. Study of major literary movements and writers of period, including works by Balzac, Baudelaire, Duras, Flaubert, Gide, Hugo, Proust, Robbe-Grillet, Sartre, Stendhal, and Zola. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 115",
+      "dept": "FRNCH",
+      "number": "115",
+      "title": "Studies in Medieval French Culture and Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of medieval French culture and literature, including lyric poetry and narrative romance, history of medieval warfare, comedy, and class structures. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 116",
+      "dept": "FRNCH",
+      "number": "116",
+      "title": "Studies in Renaissance French Culture and Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Taught in French. Study of Renaissance French culture and literature, including la Pl\u00e9iade and 16th-century poetry, linguistic and poetic revolution, novel and early prose, and late French humanism. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 117",
+      "dept": "FRNCH",
+      "number": "117",
+      "title": "Studies in 17th-Century French Culture and Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of 17th-century French culture and literature, including theater, philosophers, moralists, novelists, and cultural, political, social, religious, and courtly aspects. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 118",
+      "dept": "FRNCH",
+      "number": "118",
+      "title": "Studies in 18th-Century French Culture and Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Taught in French. Study of 18th-century French culture and literature, including satire, novel, theater, philosophers, and theoretical writings. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 119",
+      "dept": "FRNCH",
+      "number": "119",
+      "title": "Studies in 19th-Century French Culture and Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of 19th-century French culture and literature, including Romanticism, generation of 1848, naturalism and symbolism, and genres and trends from 1885 through World War I. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 12",
+      "dept": "FRNCH",
+      "number": "12",
+      "title": "Introduction to Study of French and Francophone Literature",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, one hour. Enforced requisite: course 6. Principles of literary analysis as applied to selected texts in poetry, theater, and prose by French and Francophone writers. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 6.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 6"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "FRNCH 114A",
+        "FRNCH 114B",
+        "FRNCH 138"
+      ]
+    },
+    {
+      "course_id": "FRNCH 120",
+      "dept": "FRNCH",
+      "number": "120",
+      "title": "Studies in 20th-Century French Culture and Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 5. Taught in French. Study of 20th-century French culture and literature, including early 20th-century writers, surrealism, literature from 1915 to 1945, post-World War II literature, existentialism, new novel, theater, and poetry. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 138",
+      "dept": "FRNCH",
+      "number": "138",
+      "title": "Contemporary French Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 12 or 100. Taught in French. Study of French theorists (Barthes, Baudrillard, Cixous, Derrida, Foucault, Irigaray) and major concepts in contemporary French thought, with attention to its influence on and application to literary and nonliterary texts. May be repeated for credit with topic change. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 12 or 100.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "FRNCH 12",
+          "FRNCH 100"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 139",
+      "dept": "FRNCH",
+      "number": "139",
+      "title": "Paris: Study of French Capital",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Textual and visual exploration of historical and imaginary (re)constructions of Paris, beginning with its earliest history and gradual formation of this great urban complex in maps from Renaissance to 20th century. Study of city\u2019s streets and quarters, traffic and transportation,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 14",
+      "dept": "FRNCH",
+      "number": "14",
+      "title": "Introduction to French Culture and Civilization in English",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 14W. Study of contemporary French institutions and issues in cultural, political, and socioeconomic realms. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 141",
+      "dept": "FRNCH",
+      "number": "141",
+      "title": "French Cinema",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of French cinema and cinematographers in generic, thematic, and sociocultural aspects. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 14W",
+      "dept": "FRNCH",
+      "number": "14W",
+      "title": "Introduction to French Culture and Civilization in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Textual and visual exploration of historical and imaginary (re)constructions of Paris, beginning with its earliest history and gradual formation of this great urban complex in maps from Renaissance to 20th century. Study of city\u2019s streets and quarters, traffic and transportation, multiple layers of past, present, and future,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 169",
+      "dept": "FRNCH",
+      "number": "169",
+      "title": "Paris: Study of French Capital in Translation",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course 14. Study of contemporary French institutions and issues in cultural, political, and socioeconomic realms. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH 3",
+            "ENGLISH 3H",
+            "ENGLISH 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 41",
+      "dept": "FRNCH",
+      "number": "41",
+      "title": "French Cinema and Culture",
+      "units": 5.0,
+      "description": "Lecture/screenings, five hours; discussion, one hour. Introduction to French culture and literature through study of films of cultural and literary significance. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 6",
+      "dept": "FRNCH",
+      "number": "6",
+      "title": "Intermediate French",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisite: course 5 with grade of C\u2013 or better. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "FRNCH 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "FRNCH 12"
+      ]
+    },
+    {
+      "course_id": "FRNCH 60",
+      "dept": "FRNCH",
+      "number": "60",
+      "title": "French and Francophone Novel",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Study of literary masterpieces produced by writers from France and Francophone world (Canada, Africa, Caribbean, etc.) from 17th to early 21st century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 139C",
+      "dept": "GEOG",
+      "number": "139C",
+      "title": "Problems in Geography: Culture and Environment in Modern World",
+      "units": 4.0,
+      "description": "Seminar, three hours; reading period, one hour. Preparation: completion of three courses in one concentration. Limited to seniors. Seminar course in which students carry out intensive research projects developed from courses within one concentration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 140",
+      "dept": "GEOG",
+      "number": "140",
+      "title": "Social Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Study of spatiality of social differences such as race, class, gender, age, sexuality, location. Critical explorations of identity, social categories, and spatial structures. Importance of space and place in social life. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 141",
+      "dept": "GEOG",
+      "number": "141",
+      "title": "Cultural Geography of Modern World",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors and graduate students. Historical and structural approach to cultural geography of modern world system, with particular emphasis on structure and functioning of its core, semi-periphery, and periphery. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 148",
+      "dept": "GEOG",
+      "number": "148",
+      "title": "Political Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Spatiality of political activity, spatial constitution of political power, control over space as central component to political struggles. Studies at local, national, state, and global scales. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 150",
+      "dept": "GEOG",
+      "number": "150",
+      "title": "Economic Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 4. Designed for juniors/seniors. Geographical aspects of economic production and growth. General theory of space-economy. Land-use processes. Location of industry. Regional development. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 4.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 158",
+      "dept": "GEOG",
+      "number": "158",
+      "title": "Population Geography",
+      "units": 4.0,
+      "description": "(Formerly numbered 142.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of social and behavioral perspectives influencing people in their patterns of demographic change, migration, and mobility, with special emphasis on spatial relationships and selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 161",
+      "dept": "GEOG",
+      "number": "161",
+      "title": "Cities and Social Difference",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Consideration of how a city comes to look and feel the way it does, who gets to claim space, and the role of race and movements for social justice in this process. Examination of the way that race and inequality are built into the\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 173A",
+      "dept": "GEOG",
+      "number": "173A",
+      "title": "Cities of Europe",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Limited to juniors/seniors. Urbanization of Europe, growth of city systems and internal spatial structure, functions, and geographic problems of contemporary European cities. Particular attention to historical development and landscapes of capital cities such as Rome, Paris, and Berlin. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 174A",
+      "dept": "GEOG",
+      "number": "174A",
+      "title": "The Mediterranean World",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of geographic factors, physical and cultural, that are basic to understanding historical development of Mediterranean region, with emphasis on 1500s to present. Introduction to great disputes in history and ecology centered on this region and character of two shores\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 3",
+      "dept": "GEOG",
+      "number": "3",
+      "title": "Cultural Geography",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to cultural geography of modern world, with examination of key concepts of space, place, and landscape as these have shaped and been shaped by connections between societies and their natural environments. Examples from variety of landscapes and places since 1800 and especially from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 4",
+      "dept": "GEOG",
+      "number": "4",
+      "title": "Globalization: Regional Development and World Economy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Economic geography explores spatial distribution of all forms of human productive activity at number of geographical scales\u2014local, regional, national, and global. Key theme is impact of increasingly powerful global economic forces on organization of production. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 150"
+      ]
+    },
+    {
+      "course_id": "GEOG 6",
+      "dept": "GEOG",
+      "number": "6",
+      "title": "World Regions: Concepts and Contemporary Issues",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Interdisciplinary and historical approach to modern peoples, their differences in wealth or poverty, and their local origins of food production. Brief introduction to physical geography and biogeography of each region. Discussion of each region\u2019s peoples, languages, foods, prehistories, and histories. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M127",
+      "dept": "GEOG",
+      "number": "M127",
+      "title": "Global Environment and Development: Problems and Issues",
+      "units": 4.0,
+      "description": "(Same as Urban Planning CM166.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Questions of population, resource use, Third World poverty, and environment. Analysis of global economic restructuring and its connections to changing organization of production and resulting environmental impacts. Case studies from Africa, Latin America, Asia, and U.S.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M131",
+      "dept": "GEOG",
+      "number": "M131",
+      "title": "Human Impact on Biophysical Environment",
+      "units": 4.0,
+      "description": "(Same as Environment M131.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of history, mechanisms, and consequences of interactions between humans and environment. Exploration in depth of three thematic topics (deforestation, desertification, and greenhouse gas increase and ozone depletion) and four major subjects (soil, biodiversity, water, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 102",
+      "dept": "GERMAN",
+      "number": "102",
+      "title": "War, Politics, Art",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Taught in English. Analysis of interrelationship between politics, social conditions, and arts with respect to war. World Wars I and II and German history to be used as model for principal questions of society and philosophical thinking. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 103",
+      "dept": "GERMAN",
+      "number": "103",
+      "title": "German Film in Cultural Context: Early German Film",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Taught in English. Survey of German film between 1919 and 1945. Analysis of technological and stylistic development of film from silent Expressionist films to Nazi propaganda and entertainment films. Film discussions enhanced by interactive media. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 104",
+      "dept": "GERMAN",
+      "number": "104",
+      "title": "German Film in Cultural Context, 1945 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours. Taught in English. Survey of German film since 1945 in its thematic and stylistic diversity. How did German filmmakers grapple with aftermath of World War II and Holocaust, economic recovery, Cold War and division of Germany, reunification, and growth of minority communities? May be repeated twice for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 110",
+      "dept": "GERMAN",
+      "number": "110",
+      "title": "Special Topics in Modern Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Taught in English. Content varies with instructor and may include works by authors such as Thomas Mann, Rilke, Kafka, Brecht, Christa Wolf, and others. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 112",
+      "dept": "GERMAN",
+      "number": "112",
+      "title": "Feminist Issues in German Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Taught in English. Analysis of major issues in German feminism today (e.g., status, creative work, and reception of women writers in various periods such as Romanticism, Fascism, and/or divided/unified Germanies). Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 170",
+      "dept": "GERMAN",
+      "number": "170",
+      "title": "Goethe and World Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 152 or 153. Taught in German. Reading and discussion of representative works (except Faust) from Goethe\u2019s early period (Die Leiden des jungen Werther) through maturity and old age (West-\u00f6stlicher Divan). Students work with digital humanities methods to improve German language competency and evaluate Goethe\u2019s global\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 152 or 153.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 173",
+      "dept": "GERMAN",
+      "number": "173",
+      "title": "Advanced Study of Modern Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Taught in German. Naturalism, Expressionism, and other early 20th-century literary movements and works. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "GERMAN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 174",
+      "dept": "GERMAN",
+      "number": "174",
+      "title": "Advanced Study of Contemporary Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Taught in German. Literature after 1945 in German-speaking countries, including issues such as national borders, ethnic identity, gender relations, and commercialization of culture. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "GERMAN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 50B",
+      "dept": "GERMAN",
+      "number": "50B",
+      "title": "Great Works of German Literature in Translation: Romanticism to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Study and analysis of selected masterworks in English translation, including authors such as E.T.A. Hoffmann, Heine, Fontane, Rilke, Kafka, Brecht, Thomas Mann, Hesse, Grass, B\u00f6ll, and Christa Wolf. May not be applied toward completion of major in German. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 59",
+      "dept": "GERMAN",
+      "number": "59",
+      "title": "Holocaust in Film and Literature",
+      "units": 5.0,
+      "description": "Lecture/screenings, five hours; discussion, one hour. History of Holocaust and its present memory through examination of challenges and problems encountered in trying to imagine its horror through media of literature and film. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 6",
+      "dept": "GERMAN",
+      "number": "6",
+      "title": "Intermediate German",
+      "units": 4.0,
+      "description": "Lecture, four hours; laboratory, one hour. Enforced requisite: course 5. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "GERMAN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GERMAN 61A",
+      "dept": "GERMAN",
+      "number": "61A",
+      "title": "Modern Metropolis: Berlin",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Cultural, political, architectural, and urban history of one of most vibrant and significant cities in world. Exploration of city over 800 years, using innovative mapping tools to understand how Berlin evolved from fortified mercantile town into global city. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120A",
+      "dept": "HIST",
+      "number": "120A",
+      "title": "East-Central Europe: Long 19th Century, 1780 to 1914",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis of characteristics of peripheral 19th-century capitalism, effort to modernize and catch up, and factors and consequences of its partial failure in economy, politics, and culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120B",
+      "dept": "HIST",
+      "number": "120B",
+      "title": "East-Central Europe: Short 20th Century, 1918 to 1990",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis and interpretation of stormy history of crisis zone of Europe where wars, revolts and revolutions, and different types of extremisms led to historical detour: 70 years of departure from Western values and at last effort to turn back\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120C",
+      "dept": "HIST",
+      "number": "120C",
+      "title": "East-Central Europe in Transition, 1988 to 1993",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. State-socialism and Soviet domination collapsed in East-Central Europe in 1989. Analysis of cause and consequence of collapse, as well as road of transformation in seven (now 12) countries of region; international circumstances and domestic political, social, and economic processes.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121A",
+      "dept": "HIST",
+      "number": "121A",
+      "title": "History of Modern Europe: Renaissance and Reformation, 1450 to 1660",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Reorganization of power, new forms of representation, and discourses about rule and obedience in Europe from mid-15th through 16th century; popular culture; peasant society; refashioning of religion and power; localization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121B",
+      "dept": "HIST",
+      "number": "121B",
+      "title": "History of Modern Europe: Baroque Culture and Absolutist Politics, 1600 to 1715",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Changing nature of state and social domination; redeployment of military violence; strategies of population discipline; absolutism and baroque culture; new forms of bureaucratic intervention; representation of family, sexuality, and body; witch persecutions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121C",
+      "dept": "HIST",
+      "number": "121C",
+      "title": "History of Modern Europe: Old Regime and Revolutionary Era, 1715 to 1815",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Enlightened absolutism and reform, challenge of new political and economic ideas, crisis of Old Regime, impact of French Revolution and Napoleonic empire. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121D",
+      "dept": "HIST",
+      "number": "121D",
+      "title": "History of Modern Europe: Bourgeois Century, 1815 to 1914",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Restoration politics, Industrial Revolution, uprisings of 1848, unification of Germany and Italy, imperialism, rise of socialism, population growth, changes in social structure, origins of World War I. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121E",
+      "dept": "HIST",
+      "number": "121E",
+      "title": "History of Modern Europe: Era of Total War, 1914 to 1945",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. World War I, interwar period, and World War II. Social, cultural, political, and economic aspects, with focus on strain between model of parliamentary democracy and dynamics of mass politics (e.g., Bolshevik Revolution, Italian Fascism, national socialism, and Spanish Civil\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121F",
+      "dept": "HIST",
+      "number": "121F",
+      "title": "History of Modern Europe: World War II and Its Aftermath, 1939 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. World War II, origins and persistence of Cold War, reconstruction in West, de-Stalinization, decolonization, crisis of welfare state, background to and course of 1989 revolutions, current political configuration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 122A",
+      "dept": "HIST",
+      "number": "122A",
+      "title": "Cultural and Intellectual History of Modern Europe, 15th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. Renaissance cultural and intellectual history of Europe. Central themes include comparative history of ideas, theory and practice of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 122B",
+      "dept": "HIST",
+      "number": "122B",
+      "title": "Cultural and Intellectual History of Modern Europe, 16th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 122C",
+      "dept": "HIST",
+      "number": "122C",
+      "title": "Cultural and Intellectual History of Modern Europe, 17th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 122F",
+      "dept": "HIST",
+      "number": "122F",
+      "title": "Cultural and Intellectual History of Modern Europe, 20th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 123B",
+      "dept": "HIST",
+      "number": "123B",
+      "title": "War and Diplomacy in Europe, 1815 to 1945",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Changing patterns of warfare and diplomatic attempts to contain Great Power rivalries; wars of national unification; imperialism; shifting balance of power and alliances; origins, course, and effects of two World Wars. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 123C",
+      "dept": "HIST",
+      "number": "123C",
+      "title": "War and Diplomacy in Europe, Cold War",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Relations of West, Soviet Union, and world from 1945 to 1991. Origins, development, and end of power-political, military, and ideological confrontations between superpowers and their allies and clients in Europe, Asia, and Latin America. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 124B",
+      "dept": "HIST",
+      "number": "124B",
+      "title": "History of France: France, 1715 to 1871",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Ancien R\u00e9gime and time of revolutions. Critical discourse leading to French Revolution, collapse of state, Napoleonic era, reconstruction of society through monarchies and revolutions of 19th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 124C",
+      "dept": "HIST",
+      "number": "124C",
+      "title": "History of France: Making of Modern France, 1871 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. From oligarchy to democratic bureaucracy in two wars and three republics. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 125A",
+      "dept": "HIST",
+      "number": "125A",
+      "title": "Baroque and Enlightenment Germany",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Development of state institutions, culture, and society in Central Europe from end of Thirty Years\u2019 War to end of Napoleonic Wars. Consideration of absolutism as political system, and baroque and Enlightenment cultures as new discourses on power and hierarchy.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 125B",
+      "dept": "HIST",
+      "number": "125B",
+      "title": "Global German History in an Age of Empire, 1770s to 1914",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to diverse histories of German-speaking lands in central Europe from mid-18th century to First World War. Exploration of great variety of German communities and cultures across Europe and world. Identification of ways in which polycentric networks of German\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 125C",
+      "dept": "HIST",
+      "number": "125C",
+      "title": "20th-Century Germany",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Transitions that Germany has faced during this century: two world wars, shift from monarchy to republic to national socialism to divided nation, and finally reunification. Consideration of political, social, economic, and cultural spheres. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 125D",
+      "dept": "HIST",
+      "number": "125D",
+      "title": "History of Low Countries",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of aspects of Dutch (and on occasion Belgian) history from medieval period to period after World War II, with emphasis on political and cultural history. Topics include Middle Ages, Dutch Republic in 17th and 18th centuries, Low Countries\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 126",
+      "dept": "HIST",
+      "number": "126",
+      "title": "Europe in Age of Revolution, circa 1775 to 1815",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Period from revolt of Thirteen Colonies to French Revolution of 1789, and Napoleonic regime, viewing social and political changes unleashed by these revolutionary movements in comparative and transnational perspective. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 127B",
+      "dept": "HIST",
+      "number": "127B",
+      "title": "History of Russia: Imperial Russia from Peter the Great to Nicholas II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Westernization of state and society; centralization at home and expansion abroad; peasant problem; beginnings of industrialization; movements of political and social protest; non-Russian peoples; political reforms and social changes; Revolution of 1905; Russia in World War I; fall of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 127C",
+      "dept": "HIST",
+      "number": "127C",
+      "title": "History of Russia: Revolutionary Russia and Soviet Union",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Revolutions of 1917, Civil War, consolidation of Bolshevik Regime; succession crisis and ascendancy of Stalin, collectivization and industrialization; foreign policy and World War II; death of Stalin, de-Stalinization, developments since; stagnation or stability? P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 127D",
+      "dept": "HIST",
+      "number": "127D",
+      "title": "History of Russia: Culture and Society in Imperial Russia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course 127B or Russian 90A or 119. Designed for juniors/seniors. Thematic examination of culture and society in Russia during era of state-sponsored Westernization (1689 to 1917). Topics include nobility, peasantry, and village life from serfdom to postemancipation era, urban society,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 129B",
+      "dept": "HIST",
+      "number": "129B",
+      "title": "Social History of Spain and Portugal: Rebellion and Revolution in Modern Spain and Portugal, 1789 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Spain\u2019s position in Europe and its potentialities for social change discussed through investigations of urban history, agrarian social structure, history of women, problems of slow industrial development, imperialism, anarchism, and labor history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 131A",
+      "dept": "HIST",
+      "number": "131A",
+      "title": "Marxist Theory and History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Course 131A is generally requisite to 131B. Designed for juniors/seniors. Introduction to Marxist philosophy and method; conception of historical stages; competing Marxist analyses of transition from feudalism to capitalist economy via reading Capital; theory of politics and state in relationship to historical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 131B",
+      "dept": "HIST",
+      "number": "131B",
+      "title": "Marxist Theory and History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Course 131A is generally requisite to 131B. Designed for juniors/seniors. Introduction to Marxist philosophy and method; conception of historical stages; competing Marxist analyses of transition from feudalism to capitalist economy via reading Capital; theory of politics and state in relationship to historical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 134B",
+      "dept": "HIST",
+      "number": "134B",
+      "title": "Economic History of Europe, 1780 to 1914",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis of emergence of European world economy, first Industrial Revolution, revolutionary changes in technology, demographic patterns, education, transportation, and interrelationship between Western core and European peripheries in process of industrialization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 134C",
+      "dept": "HIST",
+      "number": "134C",
+      "title": "Economic History of Europe, 20th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Changing European economy after World War I and II and in 1990s; impact of fourth and fifth Industrial Revolutions; Great Depressions of century during 1930s, 1970s, and 1980s; and changing modernization strategies; import-substituting industrialization in peripheries; Soviet modernization dictatorship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 135C",
+      "dept": "HIST",
+      "number": "135C",
+      "title": "Europe and World: Imperialism and Postcolonialism, 1870 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of major European events and trends and their impact on world in modern period. Interrelationship of European and world history, from partition of Africa to founding of India and Pakistan. Global consequences of Cold War and new place\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 136B",
+      "dept": "HIST",
+      "number": "136B",
+      "title": "History of Britain: Making of Modern Britain, 1715 to 1867",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis of British economy, society, and polity, with focus on dynamics of both stability and change. Social, economic, political, and cultural history of Britain from Hanovarian revolution in politics to advent of mass democracy in mid-Victorian era. Themes include\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 136C",
+      "dept": "HIST",
+      "number": "136C",
+      "title": "History of Britain: Modern Britain since 1832",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis of British economy, society, and polity, with focus on dynamics of both stability and change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 183A",
+      "dept": "HIST",
+      "number": "183A",
+      "title": "Third Reich and Jews",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. History of modern anti-Semitic ideologies and movements. Rise of national socialism in Germany. Development and execution of Nazi anti-Jewish policy to outbreak of World War II. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 183B",
+      "dept": "HIST",
+      "number": "183B",
+      "title": "Third Reich and Jews",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Second World War. Implementation of Nazi plans for extermination of Jews in Nazi-dominated Europe. Life in Nazi-imposed ghettos. Forms of Jewish resistance. Fate of Jewish populations in occupied territories. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 1C",
+      "dept": "HIST",
+      "number": "1C",
+      "title": "Introduction to Western Civilization: Circa 1715 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to history of the West and its connection to rest of world after 1715, during period of sweeping political, social, and cultural tensions and transformations. Topics covered include industrialization, rise of nationalism and mass politics, revolutionary movements, urbanization, mass global migrations, European expansion\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 22",
+      "dept": "HIST",
+      "number": "22",
+      "title": "Contemporary World History, 1760 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Broad thematic survey of world history since the mid-18th century. Examination, through lecture and discussion, of global implications of imperialism, total war, nationalism, cultural change, decolonization, changes in women\u2019s rights and roles, and eclipse of world communism. Designed to introduce students to historical study,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 2B",
+      "dept": "HIST",
+      "number": "2B",
+      "title": "Social Knowledge and Social Power",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. History of social knowledge and social power in the 19th and 20th centuries. Everyday ideas and practices about human nature, common sense, and community and relation of those practices to social thought, social engineering, and social science. Themes include development of social knowledges through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 97C",
+      "dept": "HIST",
+      "number": "97C",
+      "title": "Introduction to Historical Practice: Variable Topics in European History",
+      "units": 4.0,
+      "description": "Seminar, three hours. Discussion classes of no more than 15 students. Introduction to study of history, with emphasis on historical theory and research methods. Variable topics courses; consult Schedule of Classes for topics to be offered in specific term. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M186B",
+      "dept": "HIST",
+      "number": "M186B",
+      "title": "Global Feminism, 1850 to Present",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M186B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to movements for women\u2019s rights (educational, political, economic, sexual, and reproductive) around world and over one and one half centuries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNGAR 102C",
+      "dept": "HNGAR",
+      "number": "102C",
+      "title": "Advanced Hungarian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS 173A",
+      "dept": "HNRS",
+      "number": "173A",
+      "title": "Liberty, Government, and Society in European Thought",
+      "units": 5.0,
+      "description": "Seminar, three hours. Examination of great works of European thought from 17th through 18th century, including works of John Locke, Montesquieu, David Hume, Edmund Burke, and Thomas Payne, with emphasis on legal, social, and moral preconditions of liberty. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS M152",
+      "dept": "HNRS",
+      "number": "M152",
+      "title": "(When) Do Leaders Make Differences?",
+      "units": 5.0,
+      "description": "(Same as Anthropology M148 and Geography M142.) Lecture, two hours; discussion, two hours. Examination of leaders who did or did not succeed in effecting change, as background to understanding conditions under which leaders can make differences. Comparison of political leaders, business chief executive officers, sports coaches, and religious leaders. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 1",
+      "dept": "I A STD",
+      "number": "1",
+      "title": "Introduction to International and Area Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to international and area studies from interdisciplinary framework, covering themes related to international politics and markets, as well as international societies and cultures, to illuminate and clarify profoundly international character of world we live in and to introduce set of contemporary issues and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "I A STD 191"
+      ]
+    },
+    {
+      "course_id": "I A STD 191",
+      "dept": "I A STD",
+      "number": "191",
+      "title": "Variable Topics Senior Research Seminars: International and Area Studies",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 1. Limited to senior international and area studies majors. Organized on topics basis with readings, discussions, papers, and development of culminating project. May not be repeated for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "I A STD 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 198A",
+      "dept": "I A STD",
+      "number": "198A",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to international and area studies honors program students. Supervised individual research or investigation under guidance of faculty mentor. Development and planning of honors thesis. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "I A STD 198B"
+      ]
+    },
+    {
+      "course_id": "I A STD 198B",
+      "dept": "I A STD",
+      "number": "198B",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Enforced requisite: course 198A. Limited to international and area studies honors program students. Supervised individual research or investigation under guidance of faculty mentor. Continued development and refinement of honors thesis. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "I A STD 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "I A STD 198C"
+      ]
+    },
+    {
+      "course_id": "I A STD 198C",
+      "dept": "I A STD",
+      "number": "198C",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Enforced requisite: course 198B. Limited to international and area studies honors program students. Final drafting and submission of completed honors thesis. Culminating paper of 35 to 50 pages required. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "I A STD 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 40",
+      "dept": "I A STD",
+      "number": "40",
+      "title": "Introduction to Europe",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern Europe. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV 110",
+      "dept": "INTL DV",
+      "number": "110",
+      "title": "Culture, Power, and Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Broad introduction to theoretical traditions in development studies, with focus on dynamics of culture, power, markets, states and social movements, with selected case studies in developing nations and comparative case analysis across Global South and North. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV 130",
+      "dept": "INTL DV",
+      "number": "130",
+      "title": "Theory and History in International Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Social scientific survey of debates over policies contributing to economic development and underdevelopment. Topics include measurement and statistics, social and industrial policies, inequality, poverty, and historical differences for development paths across Europe, Asia, Africa, and Latin America. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 102A",
+      "dept": "ITALIAN",
+      "number": "102A",
+      "title": "Italian Cultural Experience in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of cultural development of Italy. Roots of Western civilization; social and artistic achievements of communal society; Marco Polo, Dante, Boccaccio, Giotto, rise of Italian merchant class. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 102B",
+      "dept": "ITALIAN",
+      "number": "102B",
+      "title": "Italian Cultural Experience in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of cultural development of Italy. Renaissance discovery of human genius; crucial period between Machiavelli and Galileo, leading Italy and Europe to scientific revolution. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 102C",
+      "dept": "ITALIAN",
+      "number": "102C",
+      "title": "Italian Cultural Experience in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of cultural development of Italy. Birth of Italian nation from wars of independence to foundation of modern republic, delineated through narrative and cinema in historical context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 103A",
+      "dept": "ITALIAN",
+      "number": "103A",
+      "title": "Introduction to Classic Italian Literary and Cultural Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100. Taught in Italian. Selected classic works of Italian literature, theater, art, and culture from medieval era to Renaissance and baroque. Emphasis on critical methods and skills for analyzing and interpreting wide range of Italian texts and cultural formations in their historical context and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100.",
+      "prereqs_parsed": {
+        "required": [
+          "ITALIAN 100"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 103B",
+      "dept": "ITALIAN",
+      "number": "103B",
+      "title": "Introduction to Modern Italian Literary and Cultural Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100. Taught in Italian. Selected modern works of Italian literature, theater, art, and culture from Enlightenment to present. Emphasis on critical methods and skills for analyzing and interpreting wide range of Italian texts and cultural formations in their historical context and in comparison to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100.",
+      "prereqs_parsed": {
+        "required": [
+          "ITALIAN 100"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 110",
+      "dept": "ITALIAN",
+      "number": "110",
+      "title": "Dante in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Close study of one of world\u2019s greatest literary geniuses, particularly of his masterpiece, Divine Comedy, the archetypal medieval journey through the afterworld. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 113",
+      "dept": "ITALIAN",
+      "number": "113",
+      "title": "Dante's La Divina Commedia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100. Taught in Italian. Study of medieval philosophy, religion, and politics in La Divina Commedia, the greatest literary achievement of the age. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100.",
+      "prereqs_parsed": {
+        "required": [
+          "ITALIAN 100"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 114B",
+      "dept": "ITALIAN",
+      "number": "114B",
+      "title": "Middle Ages: Medieval Humor, Moralism, and Society",
+      "units": 4.0,
+      "description": "Lecture, three hours. Novelty of Boccaccio\u2019s witty and comic masterpiece, Decameron, analyzed within context of moral and social codes of culture of time. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 116A",
+      "dept": "ITALIAN",
+      "number": "116A",
+      "title": "Italian Renaissance: Renewal of Art and Thought",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of Quattrocento and its representatives in arts and humanistic thought (i.e., Mantegna, Botticelli, Pico, Valla, and Ficino). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 116B",
+      "dept": "ITALIAN",
+      "number": "116B",
+      "title": "Italian Renaissance: Power and Imagination in Renaissance",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of artistic world of Leonardo, Raffaello, Michelangelo, Titian, and literary masterpieces of Machiavelli, Castiglione, Ariosto, Tasso, in world molded by powerful political forces, such as Roman Papacy and Medici, Gonzaga, and D\u2019Este courts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 120",
+      "dept": "ITALIAN",
+      "number": "120",
+      "title": "Modern and Contemporary Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Analysis of novels, short fiction, poetry, and drama in connection with modern and contemporary thought, politics, and culture. Authors may include D\u2019Annunzio, Aleramo, Pirandello, Ungaretti, Montale, Pasolini, Ortese, Morante, Ginzburg, Calvino, Fo, Eco, Celati, and Tabucchi. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 121",
+      "dept": "ITALIAN",
+      "number": "121",
+      "title": "Literature and Film",
+      "units": 4.0,
+      "description": "Lecture, three hours. Comparative study of specific literary works and their adaptation into film and of different techniques in two media and forms of expression. Texts include literary works, screenplays, and works on literary and film theory. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 140",
+      "dept": "ITALIAN",
+      "number": "140",
+      "title": "Italian Novella from Boccaccio to Basile in Translation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Analysis of development of Italian novella in its structure, historical context, and folk material. Special emphasis on how Italian novella influenced other European literatures. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 150",
+      "dept": "ITALIAN",
+      "number": "150",
+      "title": "Modern Fiction in Translation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Select issues in 20th-century thought traced in writers of international fame, with focus on concerns and styles of several prose works such as Umberto Eco\u2019s The Name of the Rose, Pasolini\u2019s The Ragazzi, Pirandello\u2019s The Late Mattia Pascal, and Calvino\u2019s The Cosmicomics. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 42B",
+      "dept": "ITALIAN",
+      "number": "42B",
+      "title": "Italy through Ages in English: Modern and Contemporary Italy",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Cultural and political developments from 18th century to present. Topics include Beccaria and opposition to death penalty and absolutism; Garibaldi, Italian Risorgimento, national liberation, and unification; Lombroso and criminology in new Italy; Mussolini and Fascism; Gramsci and Communism; Italian Catholicism; Berlusconi and media; migration\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 46",
+      "dept": "ITALIAN",
+      "number": "46",
+      "title": "Italian Cinema and Culture in English",
+      "units": 5.0,
+      "description": "Lecture/screenings, five hours; discussion, one hour. Special topics in Italian culture as reflected and reinforced by the nation\u2019s prime artform, stressing aesthetics and ideology of films, contemporary Italian history, and politics. Rotating topics include sex and politics, comedy, integration, family networks, and neorealism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 50B",
+      "dept": "ITALIAN",
+      "number": "50B",
+      "title": "Masterpieces of Italian Literature in English: Enlightenment to Postmodernity",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Comparative study of major literary texts and their adaptations into different forms of public spectacle, including theater, opera, and film. Works by Goldoni, Gozzi, Mascagni, Verga, Puccini, Pirandello, Calvino, Ortese, Zavattini, de Sica, and Taviani Brothers. Emphasis on development of ideas of spectacle. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN 6",
+      "dept": "ITALIAN",
+      "number": "6",
+      "title": "Intermediate Italian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Advanced grammar and composition course with readings from select literary works. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "ITALIAN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ITALIAN M158",
+      "dept": "ITALIAN",
+      "number": "M158",
+      "title": "Women, Gender, and Sexuality in Italian Culture",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M158.) Lecture, three hours; discussion, one hour. Analysis of gender roles, images of femininity and masculinity, patriarchy, myths of Madonna and Latin lover, condition of women in Italian society through history, politics, literature, film, and other media. Italian majors required to read texts in Italian. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MGMT 109",
+      "dept": "MGMT",
+      "number": "109",
+      "title": "International Business Law",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended requisite: course 108. Study of international business legal environment, including general overview of international laws and organizations and comprehensive review of U.S. regulations of international business transactions. Special emphasis on international litigation, commercial transactions, regulation of investments, multinational corporations, and international banking. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MGMT 127C",
+      "dept": "MGMT",
+      "number": "127C",
+      "title": "International Taxation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended requisite: course 127A. Study of two principle areas of international taxation from U.S. regulatory perspective: taxation of American citizens and companies conducting business in international arena (outbound transactions) and taxation of foreign nationals and companies who invest or conduct business in the U.S. (inbound transactions). P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 111C",
+      "dept": "POL SCI",
+      "number": "111C",
+      "title": "Late Modern Political Theory",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exposition and critical analysis of major thinkers such as Bentham, De Tocqueville, Hegel, Mill, Marx, Nietzsche, Arendt, and Foucault and questions such as alienation, power, participation, and difference. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 123A",
+      "dept": "POL SCI",
+      "number": "123A",
+      "title": "International Law",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Study of nature and place of international law in conduct of international relations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 124A",
+      "dept": "POL SCI",
+      "number": "124A",
+      "title": "International Political Economy",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Study of political aspects of international economic issues. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 125A",
+      "dept": "POL SCI",
+      "number": "125A",
+      "title": "Arms Control and International Security",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Arms control in context of international security in nuclear age. Nuclear arms race; relationship between deterrence doctrines and nuclear war; roles of technology and ideology; nuclear proliferation; outer space. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 126",
+      "dept": "POL SCI",
+      "number": "126",
+      "title": "Peace and War",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Theory and research on causes of war and conditions of peace.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 129",
+      "dept": "POL SCI",
+      "number": "129",
+      "title": "Diplomacy and War",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20 or 137A. Designed for juniors/seniors. Analysis of role of diplomacy in great power politics, history of diplomatic institutions, advantages of public and private diplomacy, bilateral and multilateral settings, and theory and practice of deterrence and coercion. Use\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 20 or 137A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "POL SCI 20",
+          "POL SCI 137A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 134",
+      "dept": "POL SCI",
+      "number": "134",
+      "title": "Foreign Policy Decision Making and Tools of Statecraft",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 120A. Designed for juniors/seniors. Contrasts purposive and process models of individual and group decision making. Impact of strategic interaction and situational factors on foreign policy decision making. Implications for policy choice of tools of statecraft (i.e., threats/promises, military/economic/diplomacy).\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 137A",
+      "dept": "POL SCI",
+      "number": "137A",
+      "title": "International Relations Theory",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of various theoretical approaches to international relations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 129"
+      ]
+    },
+    {
+      "course_id": "POL SCI 150",
+      "dept": "POL SCI",
+      "number": "150",
+      "title": "Political Violence",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of one or several different uses of violence in revolutionary process: demonstrations, mass uprisings, coup d\u2019etat, assassination, and terrorism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 153A",
+      "dept": "POL SCI",
+      "number": "153A",
+      "title": "Comparative Government and Politics of Western Europe: West European Government and Politics",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 50. Designed for juniors/seniors. Comparison of constitutional and political structure of West European states, with particular attention to contemporary problems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 156A",
+      "dept": "POL SCI",
+      "number": "156A",
+      "title": "Government and Politics of Post-Communist States: Russia",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Intensive study of institutions and political development in Russia, with special attention to legacy of Soviet Union. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 166",
+      "dept": "POL SCI",
+      "number": "166",
+      "title": "Comparative Constitutional Design",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparison of major institutional structures such as presidentialism versus parliamentarism, unicameralism versus bicameralism, two-party versus multiparty systems, federal versus unitary systems, plurality versus proportional electoral systems, etc. Method of analysis is rational choice (political actors are assumed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 167D",
+      "dept": "POL SCI",
+      "number": "167D",
+      "title": "Political Institutions and Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Preparation: one statistics course. Designed for juniors/seniors. Data analytic approach to question of why some countries are rich and others are poor, with special attention to evidence about how governments and political institutions affect economic development. May be applied toward\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 168",
+      "dept": "POL SCI",
+      "number": "168",
+      "title": "Comparative Political Analysis",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisites: two courses in Field IV, or course 50 and one course in Field IV. Designed for juniors/seniors. Major approaches to study of comparative politics. Concepts and methodology of comparative analysis. Letter grading.",
+      "prereqs_raw": "Requisites: two courses in Field IV, or course 50 and one course in Field IV.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "POL SCI 50"
+          ],
+          []
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 50",
+      "dept": "POL SCI",
+      "number": "50",
+      "title": "Introduction to Comparative Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50R. Comparative study of constitutional principles, governmental institutions, and political processes in selected countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 168",
+        "POL SCI M167C"
+      ]
+    },
+    {
+      "course_id": "POL SCI M122B",
+      "dept": "POL SCI",
+      "number": "M122B",
+      "title": "Global Environment and World Politics",
+      "units": 4.0,
+      "description": "(Same as Environment M161.) Lecture, three or four hours; discussion, one hour (when scheduled). Recommended requisite: course 20. Politics and policy of major global environmental issues such as climate change, integrating law, policy, and political science perspectives. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI M167C",
+      "dept": "POL SCI",
+      "number": "M167C",
+      "title": "Political Economy of Development",
+      "units": 4.0,
+      "description": "(Same as International Development Studies M120.) Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 50. Political economy approach to puzzle of why some countries are rich and others are poor and why, among latter, some have been able to achieve rapid rates of economic growth and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 102C",
+      "dept": "POLSH",
+      "number": "102C",
+      "title": "Advanced Polish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 152B",
+      "dept": "POLSH",
+      "number": "152B",
+      "title": "Survey of Polish Literature: Reimagining a Nation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Readings in 19th-century Polish literature and culture. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 152C",
+      "dept": "POLSH",
+      "number": "152C",
+      "title": "Survey of Polish Literature: Dreaming, Mocking, and Writing \"as if\"",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Readings in modern Polish literature and culture. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 3",
+      "dept": "PORTGSE",
+      "number": "3",
+      "title": "Intermediate Portuguese",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Taught in Portuguese. Laboratory is online. Intermediate Portuguese language and culture course that is proficiency-oriented, communicative, and task-based to help develop communicative competence in four skill areas (listening, speaking, reading, and writing), as well as cultural competence. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 40A",
+      "dept": "PORTGSE",
+      "number": "40A",
+      "title": "Portuguese, Brazilian, and African Literature in Translation: Portuguese and Portuguese-African Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Reading and discussion of selected works in translation. Papers and examinations in English. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 102C",
+      "dept": "ROMANIA",
+      "number": "102C",
+      "title": "Advanced Romanian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). Differences between oral and written discourse, expansion of students\u2019 general and academic vocabulary, and increase of range of grammatical structures for use in speaking and writing. Cultural information to be included in readings. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 90",
+      "dept": "ROMANIA",
+      "number": "90",
+      "title": "Introduction to Romanian Civilization",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introductory survey of social and cultural institutions of Romanian people and their historical background. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 107B",
+      "dept": "RUSSN",
+      "number": "107B",
+      "title": "Russian for Social and Cultural Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: third-year Russian. Lectures and readings in Russian. Exploration of texts and media in social sciences and culture, with emphasis on press, television, and Internet. Each course may be taken independently and may be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 120",
+      "dept": "RUSSN",
+      "number": "120",
+      "title": "Literature and Revolution",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Russian majors are advised to take this course in their sophomore year. Lectures and readings in English. Major works of the 20th century (Belyi, Pasternak, Bulgakov, Solzhenitsyn, and others) from prerevolutionary avant-garde to the present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 121",
+      "dept": "RUSSN",
+      "number": "121",
+      "title": "Russian Pop Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Overview of Russian popular culture today, with examination of status of Russia\u2019s classic(al) traditions for artists and audiences working in modern Russia. Death of one tradition and attempts at creation of another lead away from written word into neighboring\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 122",
+      "dept": "RUSSN",
+      "number": "122",
+      "title": "Siberia",
+      "units": 5.0,
+      "description": "Lecture, three hours. Introductory survey in which current cultural and ecological issues are situated in their geographical and historical background, including analysis of Siberian human geography before first contact with European colonizers and development of modes of interaction among different cultural groups. Reading in English of selection of literary works\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 125",
+      "dept": "RUSSN",
+      "number": "125",
+      "title": "Russian Novel in Its European Setting",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Emphasis on 19th- and 20th-century novelists.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 126",
+      "dept": "RUSSN",
+      "number": "126",
+      "title": "Russian Theater: Plays and Performance",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Major Russian plays and living tradition of performance from classical to avant-garde. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 128",
+      "dept": "RUSSN",
+      "number": "128",
+      "title": "Russian Science Fiction",
+      "units": 4.0,
+      "description": "Lecture, three hours. Readings in English. Introduction to Russian science fiction in the 20th century. Emphasis on function of science fiction in development of Russian culture before and after the October Revolution. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 130A",
+      "dept": "RUSSN",
+      "number": "130A",
+      "title": "Russian Poetry: Introduction to Analysis of Russian Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. Role of biography, cultural subtexts, rhetoric, and form in interpreting poetic texts. May be repeated for credit with topic and/or instructor change.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 130B",
+      "dept": "RUSSN",
+      "number": "130B",
+      "title": "Russian Poetry: Poetry of Russian Neoclassicism, Romanticism, and Realism",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. Major works of late 18th and 19th centuries in their historical and cultural contexts. May be repeated for credit with topic and/or instructor change.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 130C",
+      "dept": "RUSSN",
+      "number": "130C",
+      "title": "Russian Poetry: Russian Poetry in the 20th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. Major poetic schools from early modernism (symbolism, futurism, acmeism) to contemporary avant-garde. May be repeated for credit with topic and/or instructor change.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 140A",
+      "dept": "RUSSN",
+      "number": "140A",
+      "title": "Russian Prose Fiction: Introduction to Analysis of Russian Narrative Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. Close analysis of genre, narrative, and rhetorical strategies and interplay of literature, history, and culture. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 140B",
+      "dept": "RUSSN",
+      "number": "140B",
+      "title": "Russian Prose Fiction: Russian Romantic Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. Karamzin, Pushkin, Gogol, and others. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 140C",
+      "dept": "RUSSN",
+      "number": "140C",
+      "title": "Russian Prose Fiction: Great Realists",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. Dostoevsky, Tolstoy, and others. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 140D",
+      "dept": "RUSSN",
+      "number": "140D",
+      "title": "Russian Prose Fiction: 20th-Century Modernism",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 150",
+      "dept": "RUSSN",
+      "number": "150",
+      "title": "Russian Folk Literature",
+      "units": 4.0,
+      "description": "Lecture, four hours. Lectures and readings in Russian. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 25",
+      "dept": "RUSSN",
+      "number": "25",
+      "title": "Great Russian Novel",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 25W. Designed for nonmajors. Knowledge of Russian not required. Study of major works by great 19th-century Russian novelists. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 25W",
+      "dept": "RUSSN",
+      "number": "25W",
+      "title": "Great Russian Novel",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 25. Designed for nonmajors. Knowledge of Russian not required. Study of major works by great 19th-century Russian novelists. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 30",
+      "dept": "RUSSN",
+      "number": "30",
+      "title": "Russian Literature and World Cinema",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of Russian literary masterpieces and their screen adaptations in various national cinematic traditions, with focus on problems of perception and misperception arising when literature is translated into cinema, and one national culture is viewed through the eyes of another. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 31",
+      "dept": "RUSSN",
+      "number": "31",
+      "title": "Introduction to Russian Film",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; film screening, two hours. Key works, names, events, and concepts of Russian cinematic tradition. Development of skills in analyzing and interpreting films and acquisition of critical terminology of film studies. How film form and aesthetics are conditioned by technology, ideology, economics, theory, tradition, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 32",
+      "dept": "RUSSN",
+      "number": "32",
+      "title": "Russia and Asia: Cultural Dialogues",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Since end of Soviet Union, cultural and political flux within non-Christian lands neighboring Russia has increased dramatically. Given radical rejection of Russian heritage in most former Soviet territories, key distinctions in humanities have become unclear, including fundamental confusion between limits of Slavic and Near\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 6",
+      "dept": "RUSSN",
+      "number": "6",
+      "title": "Intermediate Russian",
+      "units": 5.0,
+      "description": "Lecture, five hours; laboratory, one hour. Requisite: course 5 or Russian placement test. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5 or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 5",
+            "Russian placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 90B",
+      "dept": "RUSSN",
+      "number": "90B",
+      "title": "Russian Culture in 20th Century",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 90BW. Survey of literature, theater, cinema, television, press, music, and arts. Emphasis on contemporary period, with constant reference to Russian and early Soviet antecedents. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 90BW",
+      "dept": "RUSSN",
+      "number": "90BW",
+      "title": "Russian Culture in 20th Century",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 90B. Survey of literature, theater, cinema, television, press, music, and arts. Emphasis on contemporary period, with constant reference to Russian and early Soviet antecedents. Weekly discussions focus on varied approaches\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLSH 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124C",
+      "dept": "RUSSN",
+      "number": "C124C",
+      "title": "Studies in Russian Literature: Chekhov",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Survey of short stories, novellas, and major plays (The Seagull, Uncle Vanya, Three Sisters, The Cherry Orchard), with discussion of Russian and American productions. Concurrently scheduled with course C224C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124D",
+      "dept": "RUSSN",
+      "number": "C124D",
+      "title": "Studies in Russian Literature: Dostoevsky",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. In-depth reading of major fictional works such as Crime and Punishment, Notes from the Underground, and The Brothers Karamazov. Concurrently scheduled with course C224D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124N",
+      "dept": "RUSSN",
+      "number": "C124N",
+      "title": "Studies in Russian Literature: Nabokov",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Russian novelist (The Gift), American novelist (Lolita), autobiographer (Speak Memory), and critic. Concurrently scheduled with course C277. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124P",
+      "dept": "RUSSN",
+      "number": "C124P",
+      "title": "Studies in Russian Literature: Pushkin",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Major works in all genres, including lyric poetry, narrative poems, plays, prose fiction, and selected letters. Concurrently scheduled with course C224P. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124T",
+      "dept": "RUSSN",
+      "number": "C124T",
+      "title": "Studies in Russian Literature: Tolstoy",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Early and late stories and novellas, excerpts from the diaries and one major novel such as War and Peace or Anna Karenina. Concurrently scheduled with course C224T. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C131",
+      "dept": "RUSSN",
+      "number": "C131",
+      "title": "History of Russian Cinema",
+      "units": 4.0,
+      "description": "(Formerly numbered 131.) Lecture/screenings, six hours. Advanced topics in Russian, Soviet, and post-Soviet cinema. Topics selected from early Russian cinema (1908 to 1918); Soviet avant-garde (1918 to 1929); cinema under Stalin (1930s to 1950s); Soviet art house (1960s to 1970s); late and post-Soviet film (1980s to 1990s); Russian cinema after\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN CM124G",
+      "dept": "RUSSN",
+      "number": "CM124G",
+      "title": "Studies in Little Russian Literature: Gogol",
+      "units": 4.0,
+      "description": "(Formerly numbered C124G.) (Same as Ukrainian CM124G.) Lecture, three hours. Lectures and readings in English. Short stories, novel Dead Souls, and selected plays. Concurrently scheduled with course CM224G. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN M127",
+      "dept": "RUSSN",
+      "number": "M127",
+      "title": "Women in Russian Literature",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M127.) Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Introduction to alternative tradition of women\u2019s writings in Russia and Soviet Union. Emphasis on images of women expressed in this tradition as compared with those found in works of contemporary male writers. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN M132",
+      "dept": "RUSSN",
+      "number": "M132",
+      "title": "Comparative Media Studies",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M132.) Lecture, three hours. History, form, and function of various media. Grounded in political and commercial experience of eastern Europe, comparative investigation of media technologies, today\u2019s burgeoning markets, and yesterday\u2019s tragic abuses. Development of media form(s) and content across various times, places, and cultures, with special\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 141C",
+      "dept": "SCAND",
+      "number": "141C",
+      "title": "Short Story in Scandinavia",
+      "units": 4.0,
+      "description": "Seminar, three hours. Exploration of range of classic short story and novella texts from Scandinavian literary canon, with stories by authors such as Hans Christian Andersen, Jens Peter Jacobsen, Alexander Kielland, Amalie Skram, Sigbj\u00f8rn Obstfelder, Knut Hamsun, Isak Dinesen, and Rub\u00e9n Palma. Examination of authors\u2019 lives and oeuvres, larger Nordic/European\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 142A",
+      "dept": "SCAND",
+      "number": "142A",
+      "title": "Introduction to Nordic Theater and Drama",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of artistic legacy of Henrik Ibsen and August Strindberg in context of emergence of modern Nordic theater and drama as whole, as well as important contributions of their contemporaries and successors. Readings include plays, letters, speeches, and memoirs by Ludvig Holberg, Henrik Ibsen, August Strindberg, P\u00e4r\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 143C",
+      "dept": "SCAND",
+      "number": "143C",
+      "title": "Scandinavian Crime Literature",
+      "units": 4.0,
+      "description": "Seminar, three hours. Introduction to background of crime fiction and its relation to Scandinavia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 154",
+      "dept": "SCAND",
+      "number": "154",
+      "title": "Romanticism",
+      "units": 4.0,
+      "description": "Seminar, three hours. Exploration of Romanticism in Scandinavian literature. Reading and discussion of different approaches to Romanticism and analysis of works of prominent Scandinavian writers from Romantic period to understand Scandinavian Romanticism in larger European context, including work from both English and German Romantic writers and artists. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 156",
+      "dept": "SCAND",
+      "number": "156",
+      "title": "Scandinavian Literature of 20th Century",
+      "units": 4.0,
+      "description": "Seminar, three hours. Readings and discussion of selected works of modern Scandinavian literature from beginning of century to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 157",
+      "dept": "SCAND",
+      "number": "157",
+      "title": "Contemporary Nordic Literature",
+      "units": 4.0,
+      "description": "Seminar, three hours. Reading and analysis of selected texts by major 20th-century Swedish authors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 161",
+      "dept": "SCAND",
+      "number": "161",
+      "title": "Introduction to Nordic Cinema",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for students in general and for those preparing for more advanced studies in Scandinavian literature and culture. Viewing and discussion of films by Ingmar Bergman and other Scandinavians. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 173A",
+      "dept": "SCAND",
+      "number": "173A",
+      "title": "Popular Culture in Scandinavia",
+      "units": 4.0,
+      "description": "Seminar, three hours. Examination of popular culture in Scandinavia through study of contemporary Scandinavian literature, film, music, and art. Investigation of how issues such as globalization, immigration, and nationalism are portrayed in popular culture in Denmark, Norway, Sweden, Finland, and Iceland. Discussion of how and why human condition is interpreted\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 174B",
+      "dept": "SCAND",
+      "number": "174B",
+      "title": "Queer Scandinavia",
+      "units": 4.0,
+      "description": "Seminar, three hours. Queer themes in Scandinavian literature, mainly from 19th and 20th centuries. Scandinavian countries have had more progressive view on homosexuality than most other countries, and Scandinavian writers portrayed homosexuality in explicit and radical ways as early as turn of 19th century. Introduction to key theoretical works within\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 5",
+      "dept": "SCAND",
+      "number": "5",
+      "title": "Intermediate Swedish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 4. Readings, composition, and conversation in Swedish. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 4.",
+      "prereqs_parsed": {
+        "required": [
+          "SCAND 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 50",
+      "dept": "SCAND",
+      "number": "50",
+      "title": "Introduction to Scandinavian Literatures and Cultures",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50W. Designed for students in general and for those wishing to prepare for more advanced and specialized studies in Scandinavian literature and culture. Selected works from literatures of Denmark, Norway, Sweden, Iceland, and Finland,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND 50W",
+      "dept": "SCAND",
+      "number": "50W",
+      "title": "Introduction to Scandinavian Literatures and Cultures",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course 50. Designed for students in general and for those wishing to prepare for more advanced and specialized studies in Scandinavian\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENG COMP 3",
+            "ENG COMP 3H",
+            "ESL 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND C141A",
+      "dept": "SCAND",
+      "number": "C141A",
+      "title": "Theory of Scandinavian Novel",
+      "units": 4.0,
+      "description": "Seminar, three hours. Analysis of predominant structures of Scandinavian novel from its 18th-century beginnings through its rise in 19th century and its 20th-century evolution. Discussion of application of contemporary critical theories to novels. May be concurrently scheduled with course C241A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND C155",
+      "dept": "SCAND",
+      "number": "C155",
+      "title": "Modern Breakthrough",
+      "units": 4.0,
+      "description": "Seminar, three hours. Readings and discussions of selected works of realism, naturalism, and symbolism in late 19th-century Scandinavian literature and art. Concurrently offered with course C255. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND C163A",
+      "dept": "SCAND",
+      "number": "C163A",
+      "title": "Introduction to Danish Cinema",
+      "units": 4.0,
+      "description": "Seminar, three hours. Introduction to history of cinema in Denmark, as well as to some fundamental concepts in study of film. Deliberately broad and historically centered approach to development of cinema in Denmark rather than focus on films of particular directors or topics. Theoretical readings from important critics, including Kracauer,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND C163B",
+      "dept": "SCAND",
+      "number": "C163B",
+      "title": "Introduction to Swedish Cinema",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to and exploration of history of Swedish cinema from silent era to present. Filmmakers include auteurs in international canon, such as Victor Sj\u00f6str\u00f6m, Mauritz Stiller, and Ingmar Bergman, as well as other key Swedish filmmakers such as Gustaf Molander, Alf Sj\u00f6berg, Mai Zetterling, Vilgot Sj\u00f6man, Jan\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND C163C",
+      "dept": "SCAND",
+      "number": "C163C",
+      "title": "Introduction to Norwegian Cinema",
+      "units": 4.0,
+      "description": "Seminar, three hours. Introduction to and exploration of history of Norwegian cinema from silent era to present. Filmmakers include Tancred Ibsen, Arne Skouen, Edith Carlmar, Nils Gaup, Erik Skjoldbj\u00e6rg, Bent Hamer, Khalid Hussain, and Petter N\u00e6ss. Particular focus on popular genres such as war films, horror, noir, romantic comedies, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND C174A",
+      "dept": "SCAND",
+      "number": "C174A",
+      "title": "Minority Cultures in Scandinavia",
+      "units": 4.0,
+      "description": "Seminar, three hours. Exploration of emergence of immigrant cultures in Nordic region. Beginning in 1960s, large numbers of people from Turkey, Italy, and Pakistan began immigrating to Nordic countries, followed in subsequent decades by immigrants and refugees from Vietnam, India, Iran, Iraq, Afghanistan, Cambodia, and countries throughout Africa. Cultural landscape\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SCAND C180",
+      "dept": "SCAND",
+      "number": "C180",
+      "title": "Literature and Scandinavian Society",
+      "units": 4.0,
+      "description": "Seminar, three hours. Discussion of selected aspects of Scandinavian society based on readings of contemporary literature as well as historical and/or sociological material. May be repeated for credit (as determined by undergraduate adviser) with topic change. May be concurrently scheduled with course C280. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SLAVC 90",
+      "dept": "SLAVC",
+      "number": "90",
+      "title": "Introduction to Slavic Cultures",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introductory survey of social and cultural institutions of Slavic peoples and their historical background. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 1",
+      "dept": "SOCIOL",
+      "number": "1",
+      "title": "Introductory Sociology",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Survey of characteristics of social life, processes of social interaction, and tools of sociological investigation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 183"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 116",
+      "dept": "SOCIOL",
+      "number": "116",
+      "title": "Social Demography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Studies of past, present, and future trends in population growth. Sociological theories of causes and consequences of population growth and redistribution. Emphasis on correlates of fertility, mortality, and migration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 151",
+      "dept": "SOCIOL",
+      "number": "151",
+      "title": "Comparative Immigration",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of immigration of Europeans, Asians, and Hispanics to the U.S. since the mid-19th century. Overview of immigration experience on ethno-racial groups that migrated voluntarily to this country, with emphasis on immediate postimmigration settlement. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 154",
+      "dept": "SOCIOL",
+      "number": "154",
+      "title": "Race and Ethnicity in Latin America",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in political, economic, and social lives of Latin American nations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 182",
+      "dept": "SOCIOL",
+      "number": "182",
+      "title": "Political Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Contributions of sociology to study of politics, including analysis of political aspects of social systems, social context of action, and social bases of power. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 183",
+      "dept": "SOCIOL",
+      "number": "183",
+      "title": "Comparative and Historical Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Survey of central themes of comparative and historical studies in sociology. Various aspects of development of modern society, including development of nation-state, emergence of capitalism, industrialization, and population growth. Variation in contemporary society, viewed from variety of theoretical perspectives. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191D",
+      "dept": "SOCIOL",
+      "number": "191D",
+      "title": "Undergraduate Seminar: Sociology of Development",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Taught in Spanish. Selected topics on development in Third World from global perspective. Reading, discussion, and development of culminating project. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191F",
+      "dept": "SOCIOL",
+      "number": "191F",
+      "title": "Undergraduate Seminar: Sociology of Globalization",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Great extension of social relations across globe has occurred over last 50 years. What are causes and mechanisms of this process, how far has it transformed human societies, and how far will it go in future? Economic, cultural, political, and military aspects of globalization,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 42",
+      "dept": "SPAN",
+      "number": "42",
+      "title": "Iberian Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spain, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 5",
+      "dept": "SPAN",
+      "number": "5",
+      "title": "Intermediate Spanish",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Taught in Spanish. Laboratory is online. Intermediate Spanish language and culture course designed to increase communicative ability. Acquisition of cultural competence and introduction to study of literature. Comprehension of conversations and stretches of connected discourse, reading of texts with minimum use of dictionary, writing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SRB CRO 102C",
+      "dept": "SRB CRO",
+      "number": "102C",
+      "title": "Advanced Serbian/Croatian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "UKRN 102C",
+      "dept": "UKRN",
+      "number": "102C",
+      "title": "Advanced Ukrainian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). Development of advanced listening, speaking, reading, and writing skills. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "URBN PL M165",
+      "dept": "URBN PL",
+      "number": "M165",
+      "title": "Environmentalism: Past, Present, and Future",
+      "units": 4.0,
+      "description": "(Same as Environment M125 and Geography M125.) Lecture, three hours; discussion, one hour. Exploration of history and origin of major environmental ideas, movements or countermovements they spawned, and new and changing nature of modern environmentalism. Introduction to early ideas of environment, how rise of modern sciences reshaped environmental thought, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 20",
+      "dept": "WL ARTS",
+      "number": "20",
+      "title": "Culture: Introduction",
+      "units": 5.0,
+      "description": "Lecture, four hours. Introduction to key concepts and major theoretical and methodological debates that characterize field of cultural studies, including discussion of notions of culture, popular culture, subculture, youth culture, hegemony, gender, race, class, and national identity. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 33",
+      "dept": "WL ARTS",
+      "number": "33",
+      "title": "Colonialisms and Resistance",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to study of indigenous worldviews as they are expressed through art, mythology, ritual, health practice, languages, and ecology. With examples spanning globe, consideration of issues of colonialism, tradition, religious change, and legal and social implications of epistemological differences between people. Examination of critical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 102C",
+      "dept": "YIDDSH",
+      "number": "102C",
+      "title": "Intermediate Yiddish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102B. Grammatical exercises, reading and linguistic analysis of texts, conversation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102B.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 102B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 131A",
+      "dept": "YIDDSH",
+      "number": "131A",
+      "title": "Modern Yiddish Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102A. Readings in modern Yiddish poetry. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102A.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 102A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "YIDDSH 131B",
+      "dept": "YIDDSH",
+      "number": "131B",
+      "title": "Modern Yiddish Prose and Drama",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102A. Readings in modern Yiddish prose and drama. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102A.",
+      "prereqs_parsed": {
+        "required": [
+          "YIDDSH 102A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

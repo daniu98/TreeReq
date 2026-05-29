@@ -1,0 +1,1983 @@
+{
+  "major_id": "art-history-ba",
+  "major_name": "Art History BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/ArtHistoryBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ART HIS 20",
+        "ART HIS 21",
+        "ART HIS 22",
+        "ART HIS 23",
+        "ART HIS 24",
+        "ART HIS 25",
+        "ART HIS 26",
+        "ART HIS 27",
+        "ART HIS 28",
+        "ART HIS 29",
+        "ART HIS 30",
+        "ART HIS 31",
+        "ART HIS 32"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 4,
+          "courses": [
+            "ART HIS 20",
+            "ART HIS 21",
+            "ART HIS 22",
+            "ART HIS 23",
+            "ART HIS 24",
+            "ART HIS 25",
+            "ART HIS 26",
+            "ART HIS 27",
+            "ART HIS 28",
+            "ART HIS 29",
+            "ART HIS 30",
+            "ART HIS 31",
+            "ART HIS 32"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ART HIS M110A",
+            "ART HIS M110B",
+            "ART HIS M110C",
+            "ART HIS M111",
+            "ART HIS M112A",
+            "ART HIS M112B",
+            "ART HIS M112C",
+            "ART HIS M112D",
+            "ART HIS M113A",
+            "ART HIS M113B",
+            "ART HIS M114A",
+            "ART HIS M114B",
+            "ART HIS M114C",
+            "ART HIS C114D",
+            "ART HIS CM115A",
+            "ART HIS C115B",
+            "ART HIS 115C",
+            "ART HIS C115D",
+            "ART HIS 115E",
+            "ART HIS C115F",
+            "ART HIS C116A",
+            "ART HIS C116B",
+            "ART HIS C117A",
+            "ART HIS C117B",
+            "ART HIS M118A",
+            "ART HIS 119A",
+            "ART HIS 119B",
+            "ART HIS CM139A",
+            "ART HIS C148A",
+            "ART HIS C148B",
+            "ART HIS 154A"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ART HIS 121A",
+            "ART HIS 121B",
+            "ART HIS 121C",
+            "ART HIS 121D",
+            "ART HIS 124",
+            "ART HIS C125A",
+            "ART HIS 125B",
+            "ART HIS C126",
+            "ART HIS C139B",
+            "ART HIS C139C",
+            "ART HIS CM141",
+            "ART HIS C148C",
+            "ART HIS C148E",
+            "ART HIS C152B",
+            "ART HIS C152C",
+            "ART HIS 154B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ART HIS M118B",
+            "ART HIS 127A",
+            "ART HIS 127B",
+            "ART HIS M127C",
+            "ART HIS C128A",
+            "ART HIS C128B",
+            "ART HIS C128C",
+            "ART HIS C129A",
+            "ART HIS C129B",
+            "ART HIS C129C",
+            "ART HIS 130",
+            "ART HIS C131A",
+            "ART HIS C131B",
+            "ART HIS C131C",
+            "ART HIS 132",
+            "ART HIS C133A",
+            "ART HIS C133B",
+            "ART HIS C133C",
+            "ART HIS 133D",
+            "ART HIS 133E",
+            "ART HIS CM135A",
+            "ART HIS CM135B",
+            "ART HIS C136A",
+            "ART HIS C142A",
+            "ART HIS C142B",
+            "ART HIS C145B",
+            "ART HIS C148D",
+            "ART HIS 154D",
+            "ART HIS C160",
+            "ART HIS C170A"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "ART HIS C145A",
+            "ART HIS C145B",
+            "ART HIS C146A",
+            "ART HIS C148A",
+            "ART HIS C148B",
+            "ART HIS C148C",
+            "ART HIS C148D",
+            "ART HIS C148E",
+            "ART HIS C152B",
+            "ART HIS C152C",
+            "ART HIS 154A",
+            "ART HIS 154B",
+            "ART HIS 154D"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": 1,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ART HIS": [
+      "ART HIS 115C",
+      "ART HIS 115E",
+      "ART HIS 119A",
+      "ART HIS 119B",
+      "ART HIS 121A",
+      "ART HIS 121B",
+      "ART HIS 121C",
+      "ART HIS 121D",
+      "ART HIS 124",
+      "ART HIS 125B",
+      "ART HIS 127A",
+      "ART HIS 127B",
+      "ART HIS 130",
+      "ART HIS 132",
+      "ART HIS 133D",
+      "ART HIS 133E",
+      "ART HIS 137",
+      "ART HIS 143",
+      "ART HIS 144",
+      "ART HIS 150A",
+      "ART HIS 152A",
+      "ART HIS 154A",
+      "ART HIS 154B",
+      "ART HIS 154D",
+      "ART HIS 156",
+      "ART HIS 196",
+      "ART HIS 197A",
+      "ART HIS 197B",
+      "ART HIS 198A",
+      "ART HIS 198B",
+      "ART HIS 20",
+      "ART HIS 21",
+      "ART HIS 22",
+      "ART HIS 23",
+      "ART HIS 24",
+      "ART HIS 25",
+      "ART HIS 26",
+      "ART HIS 27",
+      "ART HIS 28",
+      "ART HIS 29",
+      "ART HIS 30",
+      "ART HIS 31",
+      "ART HIS 32",
+      "ART HIS C114D",
+      "ART HIS C115B",
+      "ART HIS C115D",
+      "ART HIS C115F",
+      "ART HIS C116A",
+      "ART HIS C116B",
+      "ART HIS C117A",
+      "ART HIS C117B",
+      "ART HIS C125A",
+      "ART HIS C126",
+      "ART HIS C128A",
+      "ART HIS C128B",
+      "ART HIS C128C",
+      "ART HIS C129A",
+      "ART HIS C129B",
+      "ART HIS C129C",
+      "ART HIS C131A",
+      "ART HIS C131B",
+      "ART HIS C131C",
+      "ART HIS C133A",
+      "ART HIS C133B",
+      "ART HIS C133C",
+      "ART HIS C136A",
+      "ART HIS C139B",
+      "ART HIS C139C",
+      "ART HIS C140",
+      "ART HIS C142A",
+      "ART HIS C142B",
+      "ART HIS C145A",
+      "ART HIS C145B",
+      "ART HIS C146A",
+      "ART HIS C148A",
+      "ART HIS C148B",
+      "ART HIS C148C",
+      "ART HIS C148D",
+      "ART HIS C148E",
+      "ART HIS C149",
+      "ART HIS C150B",
+      "ART HIS C151",
+      "ART HIS C152B",
+      "ART HIS C152C",
+      "ART HIS C152D",
+      "ART HIS C153",
+      "ART HIS C154C",
+      "ART HIS C155",
+      "ART HIS C158A",
+      "ART HIS C160",
+      "ART HIS C170A",
+      "ART HIS CM115A",
+      "ART HIS CM135A",
+      "ART HIS CM135B",
+      "ART HIS CM139A",
+      "ART HIS CM141",
+      "ART HIS M110A",
+      "ART HIS M110B",
+      "ART HIS M110C",
+      "ART HIS M111",
+      "ART HIS M112A",
+      "ART HIS M112B",
+      "ART HIS M112C",
+      "ART HIS M112D",
+      "ART HIS M113A",
+      "ART HIS M113B",
+      "ART HIS M114A",
+      "ART HIS M114B",
+      "ART HIS M114C",
+      "ART HIS M118A",
+      "ART HIS M118B",
+      "ART HIS M127C"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ART HIS 115C",
+      "dept": "ART HIS",
+      "number": "115C",
+      "title": "Romanesque Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 21. Art and architecture of Western Europe in 11th and 12th centuries. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 21.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 21"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 115E",
+      "dept": "ART HIS",
+      "number": "115E",
+      "title": "Late Gothic Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Strongly recommended preparation: course 21. Art and architecture of Europe in 14th and early 15th centuries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 119A",
+      "dept": "ART HIS",
+      "number": "119A",
+      "title": "Western Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. From Tigris and Euphrates Rivers to Spain, 7th to 16th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 119B",
+      "dept": "ART HIS",
+      "number": "119B",
+      "title": "Eastern Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. From Tigris and Euphrates Rivers through Afghanistan and parts of central Asia; Ottoman Empire. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 121A",
+      "dept": "ART HIS",
+      "number": "121A",
+      "title": "Italian Renaissance Art of 14th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours. Art and architecture of 14th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 121B",
+      "dept": "ART HIS",
+      "number": "121B",
+      "title": "Italian Renaissance Art of 15th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours. Art and architecture of 15th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 121C",
+      "dept": "ART HIS",
+      "number": "121C",
+      "title": "Italian Renaissance Art of 16th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours. Art and architecture of 16th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 121D",
+      "dept": "ART HIS",
+      "number": "121D",
+      "title": "Late Renaissance Art: Counter-Reformation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 22. Painting, sculpture, and architecture of late 16th and early 17th centuries considered in context of Counter-Reformation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 22.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 22"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 124",
+      "dept": "ART HIS",
+      "number": "124",
+      "title": "Northern Renaissance Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 22. Painting and sculpture in Northern Renaissance. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 22.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 22"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 125B",
+      "dept": "ART HIS",
+      "number": "125B",
+      "title": "Northern Baroque Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course C125A. Art and architecture of Northern Europe, 16th to late 17th century. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course C125A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 125A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 127A",
+      "dept": "ART HIS",
+      "number": "127A",
+      "title": "European Art of 17th and 18th Centuries",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from course 20 through 31. Examination of art and visual culture of 17th and 18th centuries in light of political and intellectual developments. Special emphasis on effects of royal courts, colonialism, and revolution. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: one course from course 20 through 31.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "ART HIS 20",
+          "ART HIS 21",
+          "ART HIS 22",
+          "ART HIS 23",
+          "ART HIS 24",
+          "ART HIS 25",
+          "ART HIS 26",
+          "ART HIS 27",
+          "ART HIS 28",
+          "ART HIS 29",
+          "ART HIS 30",
+          "ART HIS 31"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 127B",
+      "dept": "ART HIS",
+      "number": "127B",
+      "title": "European Art of 19th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 23. Neoclassicism and Romanticism, with emphasis on France\u2014development and influence of David, Ingres, and Delacroix. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 23.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 23"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 130",
+      "dept": "ART HIS",
+      "number": "130",
+      "title": "Selected Topics in Modern Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 23. Changing topics in modern art (post-1780) that reflect interests of individual regular and visiting faculty members. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 23.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 23"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 132",
+      "dept": "ART HIS",
+      "number": "132",
+      "title": "Selected Topics in Contemporary Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 23. Changing topics in contemporary art (post-1945) that reflect interests of individual regular and/or visiting faculty members. May be repeated once for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 23.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 133D",
+      "dept": "ART HIS",
+      "number": "133D",
+      "title": "Architecture in U.S.",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to architecture built in U.S. over last 5,000 years. Architecture as vehicle for political and cultural authority, citizenship, ethnic and social identity; its role in defining place and our relationship to natural environment and as vehicle for asserting human control over natural world;\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 133E",
+      "dept": "ART HIS",
+      "number": "133E",
+      "title": "American Houses",
+      "units": 4.0,
+      "description": "Lecture, three hours. Many historians consider single-family houses to be one of two most American contributions to world architecture (next to skyscrapers). Examination of this claim critically by placing single-family houses in broader context of varied dwellings built and occupied by residents of present-day U.S. over last 500 years, including\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 137",
+      "dept": "ART HIS",
+      "number": "137",
+      "title": "Arts of Native North America",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of painting, sculpture, and other arts from Inuit to peoples of Caribbean and Southwestern U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 143",
+      "dept": "ART HIS",
+      "number": "143",
+      "title": "Selected Topics in Latin American Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in Latin American art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 144",
+      "dept": "ART HIS",
+      "number": "144",
+      "title": "Caribbean Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Cultural history of Caribbean. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 150A",
+      "dept": "ART HIS",
+      "number": "150A",
+      "title": "Japanese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Japanese art from its beginning in prehistory through 19th century. Emphasis on development of Buddhist art and its relationship with culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS C150B"
+      ]
+    },
+    {
+      "course_id": "ART HIS 152A",
+      "dept": "ART HIS",
+      "number": "152A",
+      "title": "Arts of Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; museum field trip. Introduction to arts and archaeology on Korean peninsula from Neolithic beginnings to early 20th century through analysis and discussion of selection of monuments and objects within technological, stylistic, religious, cultural, and sociopolitical contexts. Examination of construction of concepts of history and art under colonial\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 154A",
+      "dept": "ART HIS",
+      "number": "154A",
+      "title": "Early Art of India",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of Indian art from Indus Valley cultures to 10th century. Emphasis on Buddhist and Hindu backgrounds of arts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS C154C"
+      ]
+    },
+    {
+      "course_id": "ART HIS 154B",
+      "dept": "ART HIS",
+      "number": "154B",
+      "title": "Later Art of India",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of Indian art from 10th to 19th century. Decline of Buddhist art, last efflorescence of Hindu architecture, Muslim painting and architecture, and Rajput painting. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 154D",
+      "dept": "ART HIS",
+      "number": "154D",
+      "title": "Modern and Contemporary South Asian Art",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Topics in modern and contemporary South Asian art from 1900 to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 156",
+      "dept": "ART HIS",
+      "number": "156",
+      "title": "Arts of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Southeast Asian art from its beginning in prehistory through 19th century. Study of art of selected cultures from Burma, Malaysia, Thailand, Cambodia, Vietnam, and Indonesia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 196",
+      "dept": "ART HIS",
+      "number": "196",
+      "title": "Research Apprenticeship in Art History",
+      "units": 2.0,
+      "description": "Tutorial, three hours per week per unit. Limited to juniors/seniors. Entry-level research apprenticeship for upper-division students under guidance of faculty mentor. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 197A",
+      "dept": "ART HIS",
+      "number": "197A",
+      "title": "Individual Studies in Art History",
+      "units": 2.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.0 grade-point average in major. Limited to seniors. Individual intensive study for majors, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for maximum of 8 units. Eight units\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 197B",
+      "dept": "ART HIS",
+      "number": "197B",
+      "title": "Individual Capstone Studies",
+      "units": 2.0,
+      "description": "Tutorial, two hours. Limited to departmental junior/senior majors and minors. Guided study led by faculty supervisor. Instructor meets with student to help design culminating capstone project so it conforms to departmental capstone project guidelines. Must be taken in conjunction and concurrently with one upper-division departmental course. May not be repeated\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 198A",
+      "dept": "ART HIS",
+      "number": "198A",
+      "title": "Honors Research in Art History",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of four upper-division art history courses with 3.5 departmental grade-point average and overall 3.0 grade-point average. Limited to junior/senior Art History and History/Art History majors. Two-term independent research project under supervision of appropriate faculty member, culminating in departmental honors thesis of approximately\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 198B",
+      "dept": "ART HIS",
+      "number": "198B",
+      "title": "Honors Research in Art History",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of four upper-division art history courses with 3.5 departmental grade-point average and overall 3.0 grade-point average. Limited to junior/senior Art History and History/Art History majors. Two-term independent research project under supervision of appropriate faculty member, culminating in departmental honors thesis of approximately\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 20",
+      "dept": "ART HIS",
+      "number": "20",
+      "title": "ART HIS 20",
+      "units": 5.0,
+      "description": "Lecture, three hours; quiz, one hour; museum field trips. Prehistoric, Egyptian, Mesopotamian, Aegean, Greek, Hellenistic, and Roman art and architecture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A",
+        "ART HIS M112A",
+        "ART HIS M112B",
+        "ART HIS M112C",
+        "ART HIS M112D",
+        "ART HIS M113B",
+        "ART HIS M114A",
+        "ART HIS M114B"
+      ]
+    },
+    {
+      "course_id": "ART HIS 21",
+      "dept": "ART HIS",
+      "number": "21",
+      "title": "ART HIS 21",
+      "units": 5.0,
+      "description": "Lecture, three hours; quiz, one hour. Early Christian, Byzantine, Islamic, Carolingian, Ottonian, Romanesque, and Gothic art and architecture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 115C",
+        "ART HIS 127A",
+        "ART HIS C115B",
+        "ART HIS C115F",
+        "ART HIS C116A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 22",
+      "dept": "ART HIS",
+      "number": "22",
+      "title": "ART HIS 22",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of Renaissance and baroque art. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 121D",
+        "ART HIS 124",
+        "ART HIS 127A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 23",
+      "dept": "ART HIS",
+      "number": "23",
+      "title": "ART HIS 23",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. History of modern art from 1860s to 1960s, from Manet and impressionists to pop art and minimalism. Study of origins and social functions, as well as aesthetic innovations and philosophical dilemmas of modernism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A",
+        "ART HIS 127B",
+        "ART HIS 130",
+        "ART HIS C131A",
+        "ART HIS C131B",
+        "ART HIS C131C"
+      ]
+    },
+    {
+      "course_id": "ART HIS 24",
+      "dept": "ART HIS",
+      "number": "24",
+      "title": "ART HIS 24",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to study of architectural history through examination of built world of past two centuries. Building technologies and forms of economic, social, and political life have produced modern built environment that is both diverse and increasingly connected. Focus on factors that have affected architecture\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 25",
+      "dept": "ART HIS",
+      "number": "25",
+      "title": "ART HIS 25",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. General introduction to study of museums in their social and historical contexts. Examination of debates about museum\u2019s role in society through case studies and analysis of exhibitions in range of museums including art, history, and ethnographic museums. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 26",
+      "dept": "ART HIS",
+      "number": "26",
+      "title": "ART HIS 26",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 27",
+      "dept": "ART HIS",
+      "number": "27",
+      "title": "ART HIS 27",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. Introduction to art, architecture, and urbanism of Americas (North to South) from earliest settlement until AD 1450. Analysis of variety of media within their historical and cultural context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A",
+        "ART HIS C139B",
+        "ART HIS CM139A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 28",
+      "dept": "ART HIS",
+      "number": "28",
+      "title": "ART HIS 28",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. Introduction to arts and architecture of Africa. Examination of social and historical contexts of their production. Introduction to body of information within framework of conceptual problem through series of case studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 29",
+      "dept": "ART HIS",
+      "number": "29",
+      "title": "ART HIS 29",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. General introduction to Chinese art, covering all major periods from Neolithic to modern age. Presentation of monuments as well as artifacts in variety of media in their social and historical contexts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 30",
+      "dept": "ART HIS",
+      "number": "30",
+      "title": "ART HIS 30",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. General introduction to art, architecture, and material culture of Japan, from earliest records to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 31",
+      "dept": "ART HIS",
+      "number": "31",
+      "title": "ART HIS 31",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. Discussion of selection of monuments and objects from Indian subcontinent and Southeast Asia using key historical, cultural, and religious concepts. Analysis of each monument or object in detail, with their relationships compared and contrasted. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ART HIS 127A"
+      ]
+    },
+    {
+      "course_id": "ART HIS 32",
+      "dept": "ART HIS",
+      "number": "32",
+      "title": "ART HIS 32",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to past and present cultural diversity of the Mediterranean world. Examination of the Mediterranean region as a connective space, rather than a boundary, between Europe and Africa. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C114D",
+      "dept": "ART HIS",
+      "number": "C114D",
+      "title": "Selected Topics in Ancient Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in ancient art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C214D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C115B",
+      "dept": "ART HIS",
+      "number": "C115B",
+      "title": "Early Medieval Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 21. Art and architecture of Western Europe from Migration period until AD 1000. Concurrently scheduled with course C215B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 21.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 21"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C115D",
+      "dept": "ART HIS",
+      "number": "C115D",
+      "title": "Gothic Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Art and architecture of Europe in 13th century. Concurrently scheduled with course C215D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C115F",
+      "dept": "ART HIS",
+      "number": "C115F",
+      "title": "Medieval Paris",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 21. Material culture, art, architecture, and history of city of Paris to circa 1500. Concurrently schedule with course C215F. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 21.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 21"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C116A",
+      "dept": "ART HIS",
+      "number": "C116A",
+      "title": "Middle Byzantine Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 21. Theory and development of Byzantine art from iconoclastic controversy to 1204. Concurrently scheduled with course C216A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 21.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 21"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C116B",
+      "dept": "ART HIS",
+      "number": "C116B",
+      "title": "Late Byzantine Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Theory and development of Byzantine art from 1204 to 1453. Concurrently scheduled with course C216B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C117A",
+      "dept": "ART HIS",
+      "number": "C117A",
+      "title": "Medieval Archaeology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Archaeology of medieval world. Concurrently scheduled with course C217A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C117B",
+      "dept": "ART HIS",
+      "number": "C117B",
+      "title": "Selected Topics in Medieval Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in medieval art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C217B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C125A",
+      "dept": "ART HIS",
+      "number": "C125A",
+      "title": "Southern Baroque Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Art and architecture of Spain or Italy, 16th to late 17th century. Concurrently scheduled with course C225. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C126",
+      "dept": "ART HIS",
+      "number": "C126",
+      "title": "Selected Topics in Early Modern Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in early modern art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C226. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C128A",
+      "dept": "ART HIS",
+      "number": "C128A",
+      "title": "History of Photography, 1839 to 1910",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of origin, social functions, and development of photography in 19th and early 20th centuries, from Ni\u00e9pce to Atget. Concurrently scheduled with course C228A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C128B",
+      "dept": "ART HIS",
+      "number": "C128B",
+      "title": "History of Photography, 1910 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. History of photography in 20th century, with special attention to photography\u2019s entrance into project of avant-garde and its role in formation of postmodern aesthetic. Concurrently scheduled with course C228B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C128C",
+      "dept": "ART HIS",
+      "number": "C128C",
+      "title": "History of Photography: Selected Topics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in history of photography that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C228C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C129A",
+      "dept": "ART HIS",
+      "number": "C129A",
+      "title": "Modern Art, 1900 to 1950",
+      "units": 4.0,
+      "description": "Lecture, three hours. Inquiry into 20th-century modernism from Fauvism to abstract expressionism. Topics include primitivism, gender, and sexuality in modernist art; origins of abstraction, collage, photomontage, and ready-made; rise of automatism and chance procedures; art, utopia, and political revolution; antimodernism and fascism; mass culture, machine paradigm, and work of art\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C129B",
+      "dept": "ART HIS",
+      "number": "C129B",
+      "title": "Dada, 1915 to 1923",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Introduction to modernism and historical avant-garde of early 20th century, tracing in detail emergence of Dada avant-garde in its various geographical locales during and after World War I. Visual art, literature, film, and performance addressed, with special attention to invention of series\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C129C",
+      "dept": "ART HIS",
+      "number": "C129C",
+      "title": "Surrealism, 1924 to 1939",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Study of art, literature, and film associated with surrealist movement in France, with special attention to dissident surrealism of writer and philosopher Georges Bataille, as well as to challenge to art history posed by surrealism\u2019s engagement with lessons of psychoanalysis. Concurrently scheduled\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C131A",
+      "dept": "ART HIS",
+      "number": "C131A",
+      "title": "Contemporary Art, 1940s to 1950s",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 23. Study of major artistic and cultural trends following World War II in U.S. and Europe, covering abstract expressionism to pop art. Concurrently scheduled with course C231A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 23.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 23"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C131B",
+      "dept": "ART HIS",
+      "number": "C131B",
+      "title": "Contemporary Art, 1960s to 1970s",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 23. Study of ambitions and contexts of pop art, minimalism, conceptual art, feminist art, performance, land art, and more. Concurrently scheduled with course C231B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 23.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 23"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C131C",
+      "dept": "ART HIS",
+      "number": "C131C",
+      "title": "Contemporary Art, 1980s to 1990s",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 23. Study of politics of representation at end of century, covering dominant strategies and trends in postmodernist art. Concurrently scheduled with course C231C. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 23.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 23"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C133A",
+      "dept": "ART HIS",
+      "number": "C133A",
+      "title": "American Art before Civil War",
+      "units": 4.0,
+      "description": "Lecture, three hours. Painting, sculpture, and architecture in U.S. from Colonial period through Civil War. Concurrently scheduled with course C233A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C133B",
+      "dept": "ART HIS",
+      "number": "C133B",
+      "title": "American Art in Gilded Age, 1860 to 1900",
+      "units": 4.0,
+      "description": "Lecture, three hours. Painting, sculpture, and architecture in U.S. from Civil War to turn of century. Concurrently scheduled with course C233B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C133C",
+      "dept": "ART HIS",
+      "number": "C133C",
+      "title": "American Art, 1900 to 1945",
+      "units": 4.0,
+      "description": "Lecture, three hours. Painting, sculpture, and photography in U.S. from 1900 to 1945. Concurrently scheduled with course C233C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C136A",
+      "dept": "ART HIS",
+      "number": "C136A",
+      "title": "Selected Topics in African American Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in African American art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C236A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C139B",
+      "dept": "ART HIS",
+      "number": "C139B",
+      "title": "Aztec Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 27. Painting, sculpture, architecture, and other arts of Nahuatl-speaking peoples of central Mexico, with emphasis on their social and historical context and major scholarly debates. Concurrently scheduled with course C239B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 27.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 27"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C139C",
+      "dept": "ART HIS",
+      "number": "C139C",
+      "title": "Inca Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Exploration of art, architecture, and urbanism of Incas from their empire\u2019s height in late 15th century to their political and cultural fragmentation during Spanish occupation of Andes (1532 to 1824). Concurrently scheduled with course C239C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C140",
+      "dept": "ART HIS",
+      "number": "C140",
+      "title": "Selected Topics in Arts of Indigenous Americas",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in artistic production of Native people across Americas that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C240A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C142A",
+      "dept": "ART HIS",
+      "number": "C142A",
+      "title": "Mexican Art in Modern Age",
+      "units": 4.0,
+      "description": "Lecture, three hours. Mexican art of 19th and 20th centuries, from foundation of academy in 1785 to present day. Study of art and revolution, muralism, surrealism, indigenism, postcolonialism, and postmodernism in painting, sculpture, prints, photography, and architecture. Concurrently scheduled with course C242A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C142B",
+      "dept": "ART HIS",
+      "number": "C142B",
+      "title": "Latin American Art of 20th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Mainstream modern and contemporary art and architecture of selected Latin American countries, including both modernist and postmodernist forms, considered in context of social and political concerns, both national and international. Concurrently scheduled with course C242B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C145A",
+      "dept": "ART HIS",
+      "number": "C145A",
+      "title": "Architecture and Urbanism in Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of African built environment at various moments and in different places from about 200 CE to present, with emphasis on cultural, social, and historical contexts of architecture, gender, and space, and contemporary African cities. Concurrently scheduled with course C245A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C145B",
+      "dept": "ART HIS",
+      "number": "C145B",
+      "title": "Contemporary Arts of Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Survey of African visual practices since mid-20th century, with special emphasis on changing meaning of art object, status of African artist, global reception of contemporary African art, and very definitions of contemporary African art. Concurrently scheduled with course C245B. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C146A",
+      "dept": "ART HIS",
+      "number": "C146A",
+      "title": "Selected Topics in African Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in African art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C246A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148A",
+      "dept": "ART HIS",
+      "number": "C148A",
+      "title": "Art and Material Culture, Neolithic to 210 BC",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Genesis of Chinese civilization in light of new archaeological finds, including sites and works of art (e.g., ceramics, bronzes, jades). Concurrently scheduled with course C248A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148B",
+      "dept": "ART HIS",
+      "number": "C148B",
+      "title": "Art and Material Culture of Early Imperial China, 210 BC to AD 906",
+      "units": 4.0,
+      "description": "Lecture, three hours. Palaces and tombs of early imperial dynasties, impact of Buddhist art (cave temples), rise of new media and technologies. Concurrently scheduled with course C248B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148C",
+      "dept": "ART HIS",
+      "number": "C148C",
+      "title": "Art and Material Culture of Late Imperial China, 906 to 1911",
+      "units": 4.0,
+      "description": "Lecture, three hours. Secular and religious (Buddhist and Taoist) architecture, painting, sculpture, and various luxury industries (lacquer, porcelain, textiles, jade, bronze, furniture, wood and bamboo carving, etc.). Concurrently scheduled with course C248C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148D",
+      "dept": "ART HIS",
+      "number": "C148D",
+      "title": "Advanced Chinese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study in Chinese painting and sculpture. Concurrently scheduled with course C248D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C148E",
+      "dept": "ART HIS",
+      "number": "C148E",
+      "title": "Art in Modern China",
+      "units": 4.0,
+      "description": "Lecture, three hours. Concentrated look at major schools and masters of Chinese art from turn of 20th century to present, with focus on interaction with foreign cultures and issues of self-identity, assimilation, modernity, tradition, and continuity. Consideration of recent developments in Chinese art in global context. Concurrently scheduled with course\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C149",
+      "dept": "ART HIS",
+      "number": "C149",
+      "title": "Selected Topics in Chinese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in Chinese art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C249A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C150B",
+      "dept": "ART HIS",
+      "number": "C150B",
+      "title": "Advanced Japanese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 150A. Study in Japanese painting and sculpture. Concurrently scheduled with course C250. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 150A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 150A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C151",
+      "dept": "ART HIS",
+      "number": "C151",
+      "title": "Selected Topics in Japanese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Variable topics in Japanese art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C251A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C152B",
+      "dept": "ART HIS",
+      "number": "C152B",
+      "title": "History of Korean Painting",
+      "units": 4.0,
+      "description": "Lecture, three hours. Limited to juniors/seniors. Korean painting history from Three Kingdoms period to 19th century, examined within cultural and sociopolitical contexts. Special emphasis on diversity of topics and social status of artists during Choson dynasty (1392 to 1910). Concurrently scheduled with course C252A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C152C",
+      "dept": "ART HIS",
+      "number": "C152C",
+      "title": "History of Korean Ceramics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Limited to juniors/seniors. History of Korean ceramics from Neolithic period to 19th century, with special emphasis on technological and stylistic developments. Concurrently scheduled with course C252B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C152D",
+      "dept": "ART HIS",
+      "number": "C152D",
+      "title": "History of Korean Buddhist Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Limited to juniors/seniors. History of Korean Buddhist art from Three Kingdoms period to Choson dynasty, with special emphasis on Buddhist iconography and relationship between sculpture, painting, and architecture. Concurrently scheduled with course C252C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C153",
+      "dept": "ART HIS",
+      "number": "C153",
+      "title": "Selected Topics in Korean Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Limited to juniors/seniors. Variable topics in Korean art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C253A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C154C",
+      "dept": "ART HIS",
+      "number": "C154C",
+      "title": "Advanced Indian Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 154A. Study in Indian sculpture and architecture. Concurrently scheduled with course C254A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 154A.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 154A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C155",
+      "dept": "ART HIS",
+      "number": "C155",
+      "title": "Selected Topics in South and Southeast Asian Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in South and Southeast Asian art that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C255A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C158A",
+      "dept": "ART HIS",
+      "number": "C158A",
+      "title": "Selected Topics in Asian Arts and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in Asian arts and architecture that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C258A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C160",
+      "dept": "ART HIS",
+      "number": "C160",
+      "title": "Art and Empire",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Examination of relationship between art and imperial ideologies and introduction to current issues in colonial studies and postcolonial criticism. Concurrently scheduled with course C260A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C170A",
+      "dept": "ART HIS",
+      "number": "C170A",
+      "title": "Museum Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Introduction to museology as critical practice, with emphasis on history and theory of museums and impact of culture and society on current museum theory and practice. Concurrently scheduled with course C270A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS CM115A",
+      "dept": "ART HIS",
+      "number": "CM115A",
+      "title": "Late Antique Art and Architecture",
+      "units": 4.0,
+      "description": "(Same as Classics M153L.) Lecture, three hours. Art and architecture of late Roman Empire and early Christian world. Concurrently scheduled with course C215A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS CM135A",
+      "dept": "ART HIS",
+      "number": "CM135A",
+      "title": "African American Art before 1900",
+      "units": 4.0,
+      "description": "(Same as African American Studies CM135A.) Lecture, three hours. Detailed inquiry into work to circa 1900 of African American artists whose works provide insightful and critical commentary about major features of American life and society. Concurrently scheduled with course CM235A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS CM135B",
+      "dept": "ART HIS",
+      "number": "CM135B",
+      "title": "African American Art, 1900 to 1963",
+      "units": 4.0,
+      "description": "(Same as African American Studies CM135B.) Lecture, three hours. Detailed inquiry into work of African American artists from Columbian Exposition to 1963 March on Washington within context of social, political, and cultural engagement, as well as in codification of modern black life in U.S. Concurrently scheduled with course CM235B. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS CM139A",
+      "dept": "ART HIS",
+      "number": "CM139A",
+      "title": "Maya Art and Architecture",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M137.) Lecture, three hours. Requisite: course 27. Study of art of selected Maya-speaking cultures of southern Mesoamerica from circa 2000 BC to Conquest, with particular emphasis on history and iconography. Concurrently scheduled with course C239A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 27.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 27"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS CM141",
+      "dept": "ART HIS",
+      "number": "CM141",
+      "title": "Colonial Latin American Art",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M187B.) Lecture, three hours; discussion, one hour (when scheduled). Art and architecture of colonial Americas from 16th to 18th century. Concurrently scheduled with course C241. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M110A",
+      "dept": "ART HIS",
+      "number": "M110A",
+      "title": "Art and Architecture of Ancient Egypt, Predynastic Period to New Kingdom",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East CM101A.) Lecture, three hours. Study of architecture, sculpture, painting, and minor arts during Predynastic period and Old Kingdom. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M110B",
+      "dept": "ART HIS",
+      "number": "M110B",
+      "title": "Art and Architecture of Ancient Egypt, New Kingdom to Greco-Roman Period",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East CM101B.) Lecture, three hours. Study of architecture, sculpture, painting, and minor arts from New Kingdom to Greco-Roman period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M110C",
+      "dept": "ART HIS",
+      "number": "M110C",
+      "title": "Ancient Egyptian Temple and City of Thebes",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M101C.) Lecture, four hours; fieldwork, one hour. Focus on ancient temples of city of Thebes (modern day Luxor). Theban temples are some of best-preserved cult buildings in all of Egypt, and their study illuminates traditions of artistic representation, architectural development, and social and political transformations\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M111",
+      "dept": "ART HIS",
+      "number": "M111",
+      "title": "Minoan Art and Archaeology",
+      "units": 4.0,
+      "description": "(Same as Classics M153A.) Lecture, three hours. Requisite: course 20 or Classics 10 or 51A. Study of development of art and architecture in Minoan Crete from circa 3000 to 1000 BC. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20 or Classics 10 or 51A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M112A",
+      "dept": "ART HIS",
+      "number": "M112A",
+      "title": "Mycenaean Art and Archaeology",
+      "units": 4.0,
+      "description": "(Same as Classics M153B.) Lecture, three hours. Requisite: course 20 or Classics 10 or 51A. Study of development of art and architecture in Mycenaean Greece from circa 2000 to 1000 BC. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20 or Classics 10 or 51A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ART HIS 20",
+            "CLASSIC 10",
+            "ART HIS 51A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M112B",
+      "dept": "ART HIS",
+      "number": "M112B",
+      "title": "Archaic Greek Art and Archaeology",
+      "units": 4.0,
+      "description": "(Same as Classics M153C.) Lecture, three hours. Requisite: course 20 or Classics 10 or 51A. Study of development of art and architecture of Greek world from approximately 800 through 490 BC. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20 or Classics 10 or 51A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ART HIS 20",
+            "CLASSICS 10",
+            "ART HIS 51A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M112C",
+      "dept": "ART HIS",
+      "number": "M112C",
+      "title": "Classical Greek Art and Archaeology",
+      "units": 4.0,
+      "description": "(Same as Classics M153D.) Lecture, three hours. Requisite: course 20 or Classics 10 or 51A. Study of development of art and architecture of Greek world from approximately 490 through 350 BC. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20 or Classics 10 or 51A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ART HIS 20",
+            "CLASSICS 10",
+            "ART HIS 51A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M112D",
+      "dept": "ART HIS",
+      "number": "M112D",
+      "title": "Hellenistic Greek Art and Archaeology",
+      "units": 4.0,
+      "description": "(Same as Classics M153E.) Lecture, three hours. Requisite: course 20 or Classics 10 or 51A. Study of development of art and architecture of Greek world from middle of 4th century BC, including transmittal of Greek art forms to Romans. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20 or Classics 10 or 51A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ART HIS 20",
+            "CLASSICS 10",
+            "ART HIS 51A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M113A",
+      "dept": "ART HIS",
+      "number": "M113A",
+      "title": "Etruscan Art and Archaeology",
+      "units": 4.0,
+      "description": "(Same as Classics M153F.) Lecture, three hours. Arts of Italic peninsula from circa 1000 BC to end of Roman Republic. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M113B",
+      "dept": "ART HIS",
+      "number": "M113B",
+      "title": "Roman Art and Archaeology",
+      "units": 4.0,
+      "description": "(Same as Classics M153G.) Lecture, three hours. Requisite: course 20 or Classics 20 or 51B. Art and architecture of Rome and its Empire from circa 300 BC to AD 300. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20 or Classics 20 or 51B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ART HIS 20",
+            "CLASSICS 20",
+            "ART HIS 51B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M114A",
+      "dept": "ART HIS",
+      "number": "M114A",
+      "title": "Classical Archaeology: Greco-Roman Architecture",
+      "units": 4.0,
+      "description": "(Same as Classics M153I.) Lecture, three hours. Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A. Knowledge of Greek and Latin not required. General introduction to study of Aegean, Greek, and Roman architecture, sculpture, and painting. May be repeated for credit with department consent. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ART HIS 20",
+            "CLASSICS 10",
+            "CLASSICS 20",
+            "CLASSICS 51A",
+            "CLASSICS 51B",
+            "HIST 1A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M114B",
+      "dept": "ART HIS",
+      "number": "M114B",
+      "title": "Classical Archaeology: Greco-Roman Sculpture",
+      "units": 4.0,
+      "description": "(Same as Classics M153J.) Lecture, three hours. Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A. Knowledge of Greek and Latin not required. General introduction to study of Aegean, Greek, and Roman architecture, sculpture, and painting. May be repeated for credit with department consent. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ART HIS 20",
+            "CLASSIC 10",
+            "CLASSIC 20",
+            "CLASSIC 51A",
+            "CLASSIC 51B",
+            "HIST 1A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M114C",
+      "dept": "ART HIS",
+      "number": "M114C",
+      "title": "Classical Archaeology: Greco-Roman Painting",
+      "units": 4.0,
+      "description": "(Same as Classics M153K.) Lecture, three hours. Knowledge of Greek and Latin not required. General introduction to study of Aegean, Greek, and Roman architecture, sculpture, and painting. May be repeated for credit with department consent. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M118A",
+      "dept": "ART HIS",
+      "number": "M118A",
+      "title": "Medieval Armenian Art",
+      "units": 4.0,
+      "description": "(Same as Armenian M172.) Lecture, three hours. Examination of cultural and historical impact of Armenian miniature paintings. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M118B",
+      "dept": "ART HIS",
+      "number": "M118B",
+      "title": "Armenian Painting, 17th to 20th Century",
+      "units": 4.0,
+      "description": "(Same as Armenian M173.) Lecture, three hours. Overview of development of modern Armenian painting out of its matrix in 17th and 18th centuries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M127C",
+      "dept": "ART HIS",
+      "number": "M127C",
+      "title": "Cultural and Intellectual History of Modern Europe, 19th Century",
+      "units": 4.0,
+      "description": "(Same as History M122E.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Climates of taste and climates of opinion. Educational, moral, and religious attitudes; art, thought, and manners of time in historical context. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

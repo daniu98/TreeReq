@@ -1,163 +1,192 @@
-import { calcFontSize, LABEL_MAX_PX, LABEL_MIN_PX } from "./nodeUtils.js";
-import notStartedIcon from "../../assets/CategoryNode/not-started.svg";
-import inProgressIcon from "../../assets/CategoryNode/in-progress.svg";
-import completeIcon from "../../assets/CategoryNode/complete.svg";
+import { calcFontSize } from "./nodeUtils.js";
+import {
+  IconCompleted,
+  IconInProgress,
+  IconUnfulfilled,
+} from "../tree/StatusIcons.jsx";
 
-const INNER_WIDTH_OVERARCHING = 121; // 167px inner - 2*23px padding
-const INNER_WIDTH_CATEGORY = 164;    // 210px inner - 2*23px padding
+/**
+ * CategoryNode — two visual variants matching the Figma design:
+ *
+ *  "overarching"  (root / section hubs):
+ *    220px outer circle — gradient ring (#85b110→#358162) + gradient-filled
+ *    inner circle (~172px) + centered white label text. No icon, no %.
+ *
+ *  "category"  (department nodes):
+ *    220px circle — 10px solid white border, solid fill that reflects status
+ *    (gray / lime-green / dark-green), status icon (48px) + label + "X% complete".
+ */
 
-// Overarching Category: Figma specs - 7.41px border, 26.7px padding, 167px inner
-const stylesOverarching = {
-  wrapper: {
-    display: "inline-flex",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: "26.7px",
-    borderRadius: "50%",
-    boxSizing: "border-box",
-    border: "7.41px solid var(--border-color, #85b110)",
-  },
-  inner: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: "8px",
-    width: "167px",
-    height: "167px",
-    borderRadius: "50%",
-    padding: "23px",
-    boxSizing: "border-box",
-    flexShrink: 0,
-    background: "var(--bg, linear-gradient(180deg, #85b110 0%, #358162 100%))",
-  },
-  name: {
-    fontFamily: "Inter, system-ui, sans-serif",
-    fontWeight: 700,
-    lineHeight: "normal",
-    color: "#ffffff",
-    textAlign: "center",
-    wordBreak: "break-word",
-    margin: 0,
-  },
-  completion: {
-    fontFamily: "Inter, system-ui, sans-serif",
-    fontSize: "12px",
-    fontWeight: 400,
-    lineHeight: "normal",
-    color: "rgba(255,255,255,0.85)",
-    textAlign: "center",
-    margin: 0,
-  },
-};
+// Inner text-area widths for font-size calculation.
+const INNER_WIDTH_OVERARCHING = 126; // 172px inner circle - 2*23px padding
+const INNER_WIDTH_CATEGORY    = 120; // approx usable text width inside 220px circle
 
-// Regular Category: Figma specs - 10px border, 5px padding, 210px inner
-const stylesCategory = {
-  wrapper: {
-    display: "inline-flex",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: "5px",
-    borderRadius: "50%",
-    boxSizing: "border-box",
-    border: "10px solid var(--border-color, rgba(255,255,255,0.5))",
-  },
-  inner: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: "10px",
-    width: "210px",
-    height: "210px",
-    borderRadius: "50%",
-    padding: "23px",
-    boxSizing: "border-box",
-    flexShrink: 0,
-    background: "var(--bg, #9a9a9a)",
-  },
-  logo: {
-    width: "48px",
-    height: "48px",
-    display: "block",
-    flexShrink: 0,
-  },
-  name: {
-    fontFamily: "Inter, system-ui, sans-serif",
-    fontWeight: 700,
-    lineHeight: "normal",
-    color: "#ffffff",
-    textAlign: "center",
-    wordBreak: "break-word",
-    margin: 0,
-  },
-  completion: {
-    fontFamily: "Inter, system-ui, sans-serif",
-    fontSize: "14px",
-    fontWeight: 400,
-    lineHeight: "normal",
-    color: "#ffffff",
-    textAlign: "center",
-    margin: 0,
-  },
-};
+const GRAD = "linear-gradient(180deg, #85b110 0%, #358162 100%)";
+
+// ─── Overarching (section/root) ─────────────────────────────────────────────
+
+function OverarchingNode({ categoryName }) {
+  const labelSize = calcFontSize(categoryName, 20, 11, INNER_WIDTH_OVERARCHING);
+
+  return (
+    // Outer gradient ring (7px "stroke" via padding)
+    <div
+      style={{
+        width: 220,
+        height: 220,
+        borderRadius: "50%",
+        background: GRAD,
+        padding: 7,
+        boxSizing: "border-box",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexShrink: 0,
+      }}
+    >
+      {/* White gap separating ring from inner fill */}
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          borderRadius: "50%",
+          background: "#ffffff",
+          padding: 17,
+          boxSizing: "border-box",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {/* Gradient-filled inner circle */}
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            borderRadius: "50%",
+            background: GRAD,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: 12,
+            boxSizing: "border-box",
+          }}
+        >
+          <span
+            style={{
+              fontFamily: "Inter, system-ui, sans-serif",
+              fontSize: labelSize,
+              fontWeight: 700,
+              color: "#ffffff",
+              textAlign: "center",
+              lineHeight: 1.25,
+              wordBreak: "break-word",
+              margin: 0,
+            }}
+          >
+            {categoryName}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Regular category (department) ──────────────────────────────────────────
+
+function StatusIcon({ completion }) {
+  if (completion === 100) return <IconCompleted bg="#ffffff" color="#358162" size={48} />;
+  if (completion > 0)    return <IconInProgress bg="#ffffff" color="#85B110" size={48} />;
+  return <IconUnfulfilled bg="transparent" color="#ffffff" size={48} />;
+}
+
+function DepartmentNode({ categoryName, completionPercentage }) {
+  const clamped = Math.max(0, Math.min(100,
+    typeof completionPercentage === "number"
+      ? completionPercentage
+      : parseInt(completionPercentage, 10) || 0
+  ));
+
+  let bgColor;
+  if (clamped === 100)    bgColor = "#358162";
+  else if (clamped > 0)  bgColor = "#85B110";
+  else                   bgColor = "#9A9A9A";
+
+  const labelSize = calcFontSize(categoryName, 20, 11, INNER_WIDTH_CATEGORY);
+
+  return (
+    <div
+      style={{
+        width: 220,
+        height: 220,
+        borderRadius: "50%",
+        border: "10px solid #ffffff",
+        background: bgColor,
+        boxSizing: "border-box",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 10,
+        flexShrink: 0,
+      }}
+    >
+      <StatusIcon completion={clamped} />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 3,
+          maxWidth: INNER_WIDTH_CATEGORY,
+        }}
+      >
+        <span
+          style={{
+            fontFamily: "Inter, system-ui, sans-serif",
+            fontSize: labelSize,
+            fontWeight: 700,
+            color: "#ffffff",
+            textAlign: "center",
+            lineHeight: 1.25,
+            wordBreak: "break-word",
+            margin: 0,
+          }}
+        >
+          {categoryName}
+        </span>
+        <span
+          style={{
+            fontFamily: "Inter, system-ui, sans-serif",
+            fontSize: 14,
+            fontWeight: 400,
+            color: "#ffffff",
+            textAlign: "center",
+            margin: 0,
+          }}
+        >
+          {clamped}% complete
+        </span>
+      </div>
+    </div>
+  );
+}
+
+// ─── Public export ───────────────────────────────────────────────────────────
 
 export function CategoryNode({
   categoryName,
-  color,
-  type = "category",               // * hidden: "overarching" | "category"
-  classNodesUnderCategory,        // * hidden: array of class node IDs
-  completionPercentage = 0,         // ^ optional: defaults to 0%
-  icon = null,                    // ^ optional: icon asset above category name (category type only)
+  type = "category",
+  completionPercentage = 0,
 }) {
-  const isOverarching = type === "overarching";
-  const styles = isOverarching ? stylesOverarching : stylesCategory;
-  const innerWidth = isOverarching ? INNER_WIDTH_OVERARCHING : INNER_WIDTH_CATEGORY;
-  
-  // Clamp completion to 0-100 range
-  const clampedCompletion = Math.max(0, Math.min(100, 
-    typeof completionPercentage === "number" 
-      ? completionPercentage 
-      : parseInt(completionPercentage, 10) || 0));
-  
-  // Background color based on type and completion
-  const defaultOverarchingBg = "linear-gradient(180deg, #85B110 0%, #358162 100%)";
-  let bgColor;
-  if (!isOverarching) {
-    // Category: completion drives background color
-    if (clampedCompletion === 0) bgColor = "#9A9A9A";
-    else if (clampedCompletion === 100) bgColor = "#358162";
-    else bgColor = "#85B110"; // 1-99%
-  } else {
-    // Overarching: use color prop or default gradient
-    bgColor = color || defaultOverarchingBg;
+  if (type === "overarching") {
+    return <OverarchingNode categoryName={categoryName} />;
   }
-  
-  const labelSize = calcFontSize(categoryName, LABEL_MAX_PX, LABEL_MIN_PX, innerWidth);
-  
-  // Parse completion for display using clamped value (only show for category type)
-  const completionText = !isOverarching ? `${clampedCompletion}% complete` : null;
-
   return (
-    <div style={{ ...styles.wrapper, "--border-color": color, "--bg": bgColor }}>
-      <div style={styles.inner}>
-        {!isOverarching && !icon && (
-          <img 
-            src={clampedCompletion === 0 ? notStartedIcon : 
-                 clampedCompletion === 100 ? completeIcon : 
-                 inProgressIcon} 
-            alt="" 
-            style={styles.logo} 
-          />
-        )}
-        {!isOverarching && icon && <img src={icon} alt="" style={styles.logo} />}
-        <span style={{ ...styles.name, fontSize: `${labelSize}px` }}>
-          {categoryName}
-        </span>
-        {completionText && (
-          <span style={styles.completion}>{completionText}</span>
-        )}
-      </div>
-    </div>
+    <DepartmentNode
+      categoryName={categoryName}
+      completionPercentage={completionPercentage}
+    />
   );
 }

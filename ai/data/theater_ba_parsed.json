@@ -1,0 +1,434 @@
+{
+  "major_id": "theater-ba",
+  "major_name": "Theater BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/TheaterBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "THEATER 11",
+        "THEATER 12",
+        "THEATER 13",
+        "THEATER 14A",
+        "THEATER 14B",
+        "THEATER 14C",
+        "THEATER 50"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "THEATER 101A",
+        "THEATER 101B"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "THEATER 102A",
+            "THEATER 102B",
+            "THEATER 102C",
+            "THEATER 102D",
+            "THEATER 102E",
+            "THEATER 102F",
+            "THEATER 102G",
+            "THEATER 102H",
+            "THEATER 102I",
+            "THEATER 102J",
+            "THEATER 102K",
+            "THEATER 103",
+            "THEATER 104",
+            "THEATER 105",
+            "THEATER 106",
+            "THEATER 107",
+            "THEATER 108",
+            "THEATER 109",
+            "THEATER 110",
+            "THEATER 111",
+            "THEATER 112",
+            "THEATER 113"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "THEATER 150A",
+            "THEATER 150B",
+            "THEATER 150C",
+            "THEATER 150D",
+            "THEATER 173A",
+            "THEATER 173B",
+            "THEATER 174B",
+            "THEATER 174C"
+          ]
+        },
+        {
+          "choose_n": null,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": 1,
+      "courses": [
+        "THEATER 131C",
+        "THEATER 163C",
+        "THEATER 180"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "THEATER": [
+      "THEATER 101A",
+      "THEATER 101B",
+      "THEATER 11",
+      "THEATER 12",
+      "THEATER 13",
+      "THEATER 131C",
+      "THEATER 14A",
+      "THEATER 14B",
+      "THEATER 14C",
+      "THEATER 150A",
+      "THEATER 150B",
+      "THEATER 150C",
+      "THEATER 150D",
+      "THEATER 163C",
+      "THEATER 173A",
+      "THEATER 173B",
+      "THEATER 174B",
+      "THEATER 174C",
+      "THEATER 180",
+      "THEATER 50"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "THEATER 101A",
+      "dept": "THEATER",
+      "number": "101A",
+      "title": "Global Histories of Theater and Performance I",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to histories of theater and performance from across world, with emphasis on ancient world through 18th century. Introduction to global aesthetic theories and historiographical research methods. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "THEATER 180"
+      ]
+    },
+    {
+      "course_id": "THEATER 101B",
+      "dept": "THEATER",
+      "number": "101B",
+      "title": "Global Histories of Theater and Performance II",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to histories and historiographies of theater and performance from across world, with emphasis from 18th century through 21st century. Introduction to representational modalities from melodrama to performance art and theoretical approaches from Marxism to poststructuralism. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "THEATER 180"
+      ]
+    },
+    {
+      "course_id": "THEATER 11",
+      "dept": "THEATER",
+      "number": "11",
+      "title": "Approaches to Interpretation of Theater and Performance: Global Perspective",
+      "units": 5.0,
+      "description": "Seminar, four hours. Introduction to basic methods of interpretation in theater and performance throughout world. Topics illustrated by faculty members and guest speakers, visits to off-campus theaters, and reading from contemporary plays. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 12",
+      "dept": "THEATER",
+      "number": "12",
+      "title": "Introduction to Performance",
+      "units": 4.0,
+      "description": "Lecture, two hours; studio, four hours. Investigation of phenomenon of performance and role of performer in theatrical events, including interpretation of drama through performance. Examination of various forms of theatrical performance and styles of expression, and development of acting, voice, and movement skills. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 13",
+      "dept": "THEATER",
+      "number": "13",
+      "title": "Play Reading and Analysis",
+      "units": 5.0,
+      "description": "Lecture, three hours. Provides base for subsequent study in theater. Development of techniques of play reading and habits of scholarship useful to further study in each of theater\u2019s subdisciplines, including acting, directing, design, playwriting, and critical study. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 131C",
+      "dept": "THEATER",
+      "number": "131C",
+      "title": "Playwriting: Full-Length Play Capstone",
+      "units": 5.0,
+      "description": "Studio, three hours. Requisite: course 131A. Limited to juniors/seniors. Same as course 131B, but taken for capstone credit. Completion of writing of full-length plays begun in course 131A, with rehearsed readings of student capstone plays. Letter grading.",
+      "prereqs_raw": "Requisite: course 131A.",
+      "prereqs_parsed": {
+        "required": [
+          "THEATER 131A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 14A",
+      "dept": "THEATER",
+      "number": "14A",
+      "title": "Introduction to Design",
+      "units": 5.0,
+      "description": "Lecture, three hours; studio, six hours. Exploration of visual interpretation of drama. Study of styles and techniques of design, collaborative role of designer, principles of design for scenery, lighting, costumes, and sound. Both technical and aesthetic groundwork for further study. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "THEATER 173A",
+        "THEATER 173B"
+      ]
+    },
+    {
+      "course_id": "THEATER 14B",
+      "dept": "THEATER",
+      "number": "14B",
+      "title": "Introduction to Design",
+      "units": 5.0,
+      "description": "Lecture, three hours; studio, six hours. Exploration of visual interpretation of drama. Study of styles and techniques of design, collaborative role of designer, principles of design for scenery, lighting, costumes, and sound. Both technical and aesthetic groundwork for further study. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "THEATER 173A",
+        "THEATER 173B"
+      ]
+    },
+    {
+      "course_id": "THEATER 14C",
+      "dept": "THEATER",
+      "number": "14C",
+      "title": "Introduction to Design",
+      "units": 5.0,
+      "description": "Lecture, three hours; studio, six hours. Exploration of visual interpretation of drama. Study of styles and techniques of design, collaborative role of designer, principles of design for scenery, lighting, costumes, and sound. Both technical and aesthetic groundwork for further study. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "THEATER 173A",
+        "THEATER 173B"
+      ]
+    },
+    {
+      "course_id": "THEATER 150A",
+      "dept": "THEATER",
+      "number": "150A",
+      "title": "Theater Production and Performance",
+      "units": 1.0,
+      "description": "Laboratory, three to six hours. Laboratory experience in various aspects of theater production, including performance in project or production, stage management, assistant director, dramaturg, member of crew, or assignment as designer or assistant on production. May be repeated 15 times for credit. Combination of courses 150A, 150B, 150C, and 150D\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 150B",
+      "dept": "THEATER",
+      "number": "150B",
+      "title": "Theater Production and Performance",
+      "units": 2.0,
+      "description": "Laboratory, six to nine hours. Laboratory experience in various aspects of theater production, including performance in project or production, stage management, assistant director, dramaturg, member of crew, or assignment as designer or assistant on production. May be repeated seven times for credit. Combination of courses 150A, 150B, 150C, and 150D\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 150C",
+      "dept": "THEATER",
+      "number": "150C",
+      "title": "Theater Production and Performance",
+      "units": 3.0,
+      "description": "Laboratory, nine to 12 hours. Laboratory experience in various aspects of theater production, including performance in project or production, stage management, assistant director, dramaturg, member of crew, or assignment as designer or assistant on production. May be repeated four times for credit. Combination of courses 150A, 150B, 150C, and 150D\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 150D",
+      "dept": "THEATER",
+      "number": "150D",
+      "title": "Theater Production and Performance",
+      "units": 4.0,
+      "description": "Laboratory, 12 to 16 hours. Laboratory experience in various aspects of theater production, including performance in project or production, stage management, assistant director, dramaturg, member of crew, or assignment as designer or assistant on production. May be repeated three times for credit. Combination of courses 150A, 150B, 150C, and 150D\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 163C",
+      "dept": "THEATER",
+      "number": "163C",
+      "title": "Directing for Stage",
+      "units": 4.0,
+      "description": "Lecture/studio, four hours. Requisite: course 15. Culminating development of directorial methods, with particular emphasis on challenges of style in text and production. Students direct scenes under laboratory conditions in alternative stage configurations. Letter grading.",
+      "prereqs_raw": "Requisite: course 15.",
+      "prereqs_parsed": {
+        "required": [
+          "THEATER 15"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 173A",
+      "dept": "THEATER",
+      "number": "173A",
+      "title": "Design Assignment: Assistant Designer",
+      "units": 2.0,
+      "description": "Studio, six hours. Requisites: courses 14A, 14B, 14C. Laboratory experience as assistant designer, including participation in preparation and realization of scenic, lighting, costume, or sound designs. May be repeated twice. Letter grading.",
+      "prereqs_raw": "Requisites: courses 14A, 14B, 14C.",
+      "prereqs_parsed": {
+        "required": [
+          "THEATER 14A",
+          "THEATER 14B",
+          "THEATER 14C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 173B",
+      "dept": "THEATER",
+      "number": "173B",
+      "title": "Production Design Assignment: Designer",
+      "units": 2.0,
+      "description": "Studio, six hours. Requisites: courses 14A, 14B, 14C. Laboratory experience as designer, including preparation and realization of scenic, lighting, costume, or sound designs. May be repeated twice. Letter grading.",
+      "prereqs_raw": "Requisites: courses 14A, 14B, 14C.",
+      "prereqs_parsed": {
+        "required": [
+          "THEATER 14A",
+          "THEATER 14B",
+          "THEATER 14C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 174B",
+      "dept": "THEATER",
+      "number": "174B",
+      "title": "Project in Stage Management",
+      "units": 3.0,
+      "description": "Studio, nine hours. Requisite: course 174A. Laboratory experience in professional duties of assistant stage manager, including participation as assistant stage manager in preproduction, rehearsal, and performance phases of productions. May be repeated once for credit. Letter grading.",
+      "prereqs_raw": "Requisite: course 174A.",
+      "prereqs_parsed": {
+        "required": [
+          "THEATER 174A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 174C",
+      "dept": "THEATER",
+      "number": "174C",
+      "title": "Project in Stage Management",
+      "units": 4.0,
+      "description": "Studio, 12 hours. Requisite: course 174A. Laboratory experience in professional duties of stage manager, including participation as stage manager in preproduction, rehearsal, and performance phases of productions. Problems of unions, auditions, organization, scheduling, and responsibilities of lengthy run. May be repeated three times for credit. Letter grading.",
+      "prereqs_raw": "Requisite: course 174A.",
+      "prereqs_parsed": {
+        "required": [
+          "THEATER 174A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 180",
+      "dept": "THEATER",
+      "number": "180",
+      "title": "Senior Project",
+      "units": 4.0,
+      "description": "Lecture or studio, three hours. Requisites: courses 101A, 101B. Preparation of conceptual or creative project to provide culminating experience in production of creative or research work. May be repeated twice for credit. Letter grading.",
+      "prereqs_raw": "Requisites: courses 101A, 101B.",
+      "prereqs_parsed": {
+        "required": [
+          "THEATER 101A",
+          "THEATER 101B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 50",
+      "dept": "THEATER",
+      "number": "50",
+      "title": "Theater Production",
+      "units": 1.0,
+      "description": "Laboratory, three to six hours. Laboratory experience in various aspects of theater production, including stage management or member of production crew. May be repeated for maximum of 8 units. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

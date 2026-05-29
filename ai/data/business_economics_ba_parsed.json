@@ -1,0 +1,531 @@
+{
+  "major_id": "business-economics-ba",
+  "major_name": "Business Economics BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/BusinessEconomicsBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ECON 1",
+        "ECON 2",
+        "ECON 11",
+        "ECON 41",
+        "ECON 101",
+        "MGMT 1A",
+        "MGMT 1B",
+        "MATH 31A",
+        "MATH 31AL",
+        "MATH 31B"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "MATH 31A",
+            "MATH 31AL"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ECON 102",
+        "ECON 103",
+        "ECON 103L",
+        "ECON 104",
+        "ECON 104L",
+        "ENGCOMP 131B"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "ECON 106"
+          ]
+        },
+        {
+          "choose_n": 5,
+          "courses": [
+            "ECON 106",
+            "MGMT 108",
+            "MGMT 109",
+            "MGMT 120A",
+            "MGMT 120B",
+            "MGMT 122",
+            "MGMT 123",
+            "MGMT 124",
+            "MGMT 126",
+            "MGMT 127A",
+            "MGMT 127B",
+            "MGMT 127C",
+            "MGMT 130A",
+            "MGMT 140",
+            "MGMT 159",
+            "MGMT 160",
+            "MGMT 161",
+            "MGMT 162",
+            "MGMT 163",
+            "MGMT 164",
+            "MGMT 165",
+            "MGMT 167",
+            "MGMT 168",
+            "MGMT 170"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [
+        "ECON 198A",
+        "ECON 198B"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ECON": [
+      "ECON 1",
+      "ECON 101",
+      "ECON 102",
+      "ECON 103",
+      "ECON 103L",
+      "ECON 104",
+      "ECON 104L",
+      "ECON 11",
+      "ECON 198A",
+      "ECON 198B",
+      "ECON 2",
+      "ECON 41"
+    ],
+    "ENGCOMP": [
+      "ENGCOMP 131B"
+    ],
+    "MATH": [
+      "MATH 31A",
+      "MATH 31AL",
+      "MATH 31B"
+    ],
+    "MGMT": [
+      "MGMT 1A",
+      "MGMT 1B"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ECON 1",
+      "dept": "ECON",
+      "number": "1",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on allocation of resources and distribution of income through price system. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ECON 11"
+      ]
+    },
+    {
+      "course_id": "ECON 101",
+      "dept": "ECON",
+      "number": "101",
+      "title": "Microeconomic Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 11. Theory of factor pricing and income distribution, general equilibrium, implications of pricing process for optimum allocation of resources, game theory, and interest and capital. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 11.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 102",
+        "ECON 198A"
+      ]
+    },
+    {
+      "course_id": "ECON 102",
+      "dept": "ECON",
+      "number": "102",
+      "title": "Macroeconomic Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 2, 101. Theory of income, employment, and price level. Analysis of secular growth and business fluctuations; introduction to monetary and fiscal policy. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 2, 101.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 2",
+          "ECON 101"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 198A"
+      ]
+    },
+    {
+      "course_id": "ECON 103",
+      "dept": "ECON",
+      "number": "103",
+      "title": "Introduction to Econometrics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103L. Introduction to theory and practice of univariate regression analysis with emphasis on its use in economics. Introduction to method of least\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11"
+        ],
+        "corequisites": [
+          "ECON 103L"
+        ],
+        "one_of": [
+          [
+            "ECON 41"
+          ],
+          [
+            "MATH 170A",
+            "MATH 170B"
+          ],
+          [
+            "MATH 170E",
+            "MATH 170S"
+          ],
+          [
+            "STAT 100A",
+            "STAT 100B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 103L",
+        "ECON 104",
+        "ECON 104L"
+      ]
+    },
+    {
+      "course_id": "ECON 103L",
+      "dept": "ECON",
+      "number": "103L",
+      "title": "Econometrics Laboratory",
+      "units": 1.0,
+      "description": "Lecture, one hour; laboratory, one hour. Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103. Econometric analysis of case-based studies. Hands-on data collection and problem solving. Use of econometric software. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11"
+        ],
+        "corequisites": [
+          "ECON 103"
+        ],
+        "one_of": [
+          [
+            "ECON 41"
+          ],
+          [
+            "MATH 170A",
+            "MATH 170B"
+          ],
+          [
+            "MATH 170E",
+            "MATH 170S"
+          ],
+          [
+            "STAT 100A",
+            "STAT 100B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 103"
+      ]
+    },
+    {
+      "course_id": "ECON 104",
+      "dept": "ECON",
+      "number": "104",
+      "title": "Data Science for Economists",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Enforced requisites: courses 11, 103. Enforced corequisite: course 104L. In-depth discussion of multivariate regression. Introduction to estimation of multivariate regression, and confidence intervals and hypothesis tests in context of multivariate regression. Discussion of instrumental variables and binary choice models. Emphasis on hands-on experience on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 11, 103. Enforced corequisite: course 104L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 104L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 104L"
+      ]
+    },
+    {
+      "course_id": "ECON 104L",
+      "dept": "ECON",
+      "number": "104L",
+      "title": "Data Science for Economists Laboratory",
+      "units": 1.0,
+      "description": "Lecture, one hour; laboratory, one hour. Enforced requisites: courses 11, 103. Enforced corequisite: course 104. Econometric analysis of case-based studies. Hands-on data collection and problem solving. Use of econometric software. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 11, 103. Enforced corequisite: course 104.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 104"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 104"
+      ]
+    },
+    {
+      "course_id": "ECON 11",
+      "dept": "ECON",
+      "number": "11",
+      "title": "Microeconomic Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 1, Mathematics 31B, with grades of C or better. Laws of demand, supply, returns, and costs; price and output determination in different market situations. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1, Mathematics 31B, with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 1",
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 101",
+        "ECON 103",
+        "ECON 103L",
+        "ECON 104",
+        "ECON 104L",
+        "ECON 198A"
+      ]
+    },
+    {
+      "course_id": "ECON 198A",
+      "dept": "ECON",
+      "number": "198A",
+      "title": "Honors Research in Economics I",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisites: courses 11, 101, 102. Limited to senior departmental honors program students. First term of two-term sequence in which students develop honors thesis or comprehensive research project under direct supervision of faculty member. Individual contract required. In Progress grading (credit to be given only on completion of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 11, 101, 102.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 101",
+          "ECON 102"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 198B"
+      ]
+    },
+    {
+      "course_id": "ECON 198B",
+      "dept": "ECON",
+      "number": "198B",
+      "title": "Honors Research in Economics II",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisite: course 198A. Limited to senior departmental honors program students. Second term of two-term sequence in which students complete honors thesis or comprehensive research project under direct supervision of faculty member. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 2",
+      "dept": "ECON",
+      "number": "2",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 1. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on aggregative economics, including national income, monetary and fiscal policy, and international trade. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ECON 102"
+      ]
+    },
+    {
+      "course_id": "ECON 41",
+      "dept": "ECON",
+      "number": "41",
+      "title": "Probability and Statistics for Economists",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B, with grades of C or better. Not open to students with credit for former Statistics 11. Introduction to theory and practice of mathematical statistics with emphasis on its use in economics. Introduction of basic statistical concepts such as random\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B, with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 103",
+        "ECON 103L"
+      ]
+    },
+    {
+      "course_id": "ENGCOMP 131B",
+      "dept": "ENGCOMP",
+      "number": "131B",
+      "title": "Specialized Writing: Business and Social Policy",
+      "units": 5.0,
+      "description": "Lecture, four hours. Requisite: satisfaction of Entry-Level Writing and English Composition requirements. Designed for juniors/seniors. Advanced writing course designed to help students develop stylistic, formal, and argumentative sophistication in various rhetorical contexts, including different sections that emphasize rhetorical values of major professions and research areas. May be taken independently for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: satisfaction of Entry-Level Writing and English Composition requirements.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 41",
+        "MATH 31B"
+      ]
+    },
+    {
+      "course_id": "MATH 31AL",
+      "dept": "MATH",
+      "number": "31AL",
+      "title": "Differential and Integral Calculus Laboratory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 11",
+        "ECON 41"
+      ]
+    },
+    {
+      "course_id": "MGMT 1A",
+      "dept": "MGMT",
+      "number": "1A",
+      "title": "Principles of Accounting",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open to freshmen. Introduction to financial accounting principles, including preparation and analysis of financial transactions and financial statements. Valuation and recording of asset-related transactions, including cash, receivables, marketable securities, inventories, and long-lived assets. Current liabilities. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MGMT 1B"
+      ]
+    },
+    {
+      "course_id": "MGMT 1B",
+      "dept": "MGMT",
+      "number": "1B",
+      "title": "Principles of Accounting",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1A. Not open to freshmen. Completion of balance sheet with emphasis on debt and equity, including in-depth introduction to time value of money concepts. Introduction to partnership and individual income tax accounting. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1A.",
+      "prereqs_parsed": {
+        "required": [
+          "MGMT 1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}
