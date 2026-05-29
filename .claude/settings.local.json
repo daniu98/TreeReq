@@ -30,7 +30,14 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); reqs=d.get\\('requirements',[]\\); [print\\(r\\) for r in reqs if r.get\\('elective_groups'\\)]\")",
       "Bash(python -c ':*)",
       "Bash(python3 -c ':*)",
-      "Bash(mkdir -p /c/temp)"
+      "Bash(mkdir -p /c/temp)",
+      "Bash(grep -E '\\\\.jsx$|\\\\.js$')",
+      "Bash(head -5 /c/Users/cchen/GitHub/TreeReq/TreeReq/frontend/src/components/pages/majors/*.jsx)",
+      "Bash(grep -E \"\\\\.\\(js|jsx\\)$\")",
+      "Bash(ls -1 /c/Users/cchen/GitHub/TreeReq/TreeReq/frontend/src/components/pages/*.jsx)",
+      "Bash(grep -E \"\\\\.\\(jsx|js\\)$\")",
+      "Bash(grep -l \"NodeDetailPanel\\\\|PrereqEdge\\\\|RootNode\\\\|SectionNode\\\\|TreeEdge\\\\|StatusIcons\" /c/Users/cchen/GitHub/TreeReq/TreeReq/frontend/src/**/*.jsx /c/Users/cchen/GitHub/TreeReq/TreeReq/frontend/src/**/*.js)",
+      "Bash(bash /tmp/check_imports.sh)"
     ]
   }
 }
