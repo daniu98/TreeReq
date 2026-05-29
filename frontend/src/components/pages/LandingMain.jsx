@@ -1,6 +1,75 @@
-import { MOCK_REVISIT_TREES } from "../../data/mockTrees.js";
+import { useState } from "react";
 
 const font = { fontFamily: "var(--font-ui)", fontWeight: 400 };
+
+function ActionCard({ title, subtitle, accent = "#358162", onClick }) {
+  const [hovered, setHovered] = useState(false);
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      style={{
+        flex: "1 1 160px",
+        maxWidth: 240,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        gap: 6,
+        padding: "18px 20px",
+        background: hovered ? "rgba(255,255,255,0.98)" : "rgba(255,255,255,0.85)",
+        boxShadow: hovered
+          ? "0px 6px 18px rgba(0,0,0,0.13)"
+          : "0px 4px 4px rgba(0,0,0,0.10)",
+        borderRadius: 16,
+        border: `2px solid ${accent}55`,
+        cursor: "pointer",
+        textAlign: "left",
+        transition: "box-shadow 150ms, background 150ms",
+      }}
+    >
+      <span style={{ color: "#000", fontSize: 15, fontWeight: 500, ...font }}>{title}</span>
+      {subtitle && (
+        <span style={{ color: "#9A9A9A", fontSize: 12, ...font }}>{subtitle}</span>
+      )}
+      <span style={{ color: accent, fontSize: 13, marginTop: 4, ...font }}>Open →</span>
+    </button>
+  );
+}
+
+function CoursePill({ label }) {
+  return (
+    <span style={{
+      display: "inline-block",
+      padding: "4px 10px",
+      background: "rgba(53,129,98,0.08)",
+      border: "1px solid rgba(53,129,98,0.22)",
+      borderRadius: 99,
+      fontSize: 12,
+      color: "#2a6650",
+      ...font,
+    }}>
+      {label}
+    </span>
+  );
+}
+
+function SectionLabel({ children }) {
+  return (
+    <h2 style={{
+      margin: "0 0 12px",
+      fontSize: 11,
+      fontWeight: 600,
+      letterSpacing: "0.06em",
+      textTransform: "uppercase",
+      color: "#BBBBBB",
+      ...font,
+    }}>
+      {children}
+    </h2>
+  );
+}
 
 function BackgroundBlobs() {
   const blob = (style) => (
@@ -50,7 +119,20 @@ function BackgroundBlobs() {
   );
 }
 
-function UnitsBar({ completed = 75, total = 180 }) {
+function computeProgress(profile) {
+  const uclaUnits = (profile?.uclaCourses?.length ?? 0) * 4;
+  const apUnits = (profile?.apClasses?.length ?? 0) * 8;
+  const ibUnits = (profile?.ibClasses?.length ?? 0) * 8;
+  const completed = uclaUnits + apUnits + ibUnits;
+  let standing;
+  if (completed >= 135) standing = "Senior";
+  else if (completed >= 90) standing = "Junior";
+  else if (completed >= 45) standing = "Sophomore";
+  else standing = "Freshman";
+  return { completed, standing };
+}
+
+function UnitsBar({ completed = 0, total = 180 }) {
   const chartH = 220;
   const fillH = Math.round((completed / total) * chartH);
   const ticks = [180, 175, 150, 125, 100, 75, 50, 25, 0];
@@ -117,18 +199,24 @@ function UnitsBar({ completed = 75, total = 180 }) {
   );
 }
 
-const REVISIT_TREES = [
-  { id: "aerospace", label: "Aerospace engineering with minor..." },
-  { id: "env-sci", label: "Environmental science engineering..." },
-  { id: "mech-aero", label: "Mechanical engineering aero..." },
-];
-
 export default function LandingMain({
   onPlantNewTree,
   onOpenTree,
   onOpenProfile,
-  profileLabel = "Your profile",
+  onOpenMajor,
+  profileLabel = "Guest",
+  userProfile = null,
 }) {
+  const { completed, standing } = computeProgress(userProfile);
+  const majorName = userProfile?.major ?? null;
+  const majorId = userProfile?.majorId ?? null;
+  const hasProgress = !!(userProfile?.uclaCourses?.length || userProfile?.apClasses?.length || userProfile?.ibClasses?.length);
+  const apClasses = userProfile?.apClasses ?? [];
+  const ibClasses = userProfile?.ibClasses ?? [];
+  const uclaCourses = userProfile?.uclaCourses ?? [];
+  const admitTerm = userProfile?.admitTerm && userProfile.admitTerm !== "—" ? userProfile.admitTerm : null;
+  const gradTerm = userProfile?.gradTerm && userProfile.gradTerm !== "—" ? userProfile.gradTerm : null;
+
   return (
     <main
       style={{
@@ -189,30 +277,12 @@ export default function LandingMain({
               color: "#000",
               fontSize: 28,
               fontWeight: 400,
-              margin: "0 0 20px",
+              margin: "0 0 0",
               ...font,
             }}
           >
-            Welcome back, Steve.
+            Welcome back.
           </h1>
-          <button
-            type="button"
-            onClick={onPlantNewTree}
-            style={{
-              height: 50,
-              padding: "11px 14px",
-              background: "#85B110",
-              boxShadow: "0px 4px 13.7px rgba(0, 0, 0, 0.25)",
-              borderRadius: 27,
-              border: "3px solid rgba(133, 177, 16, 0.59)",
-              color: "#fff",
-              fontSize: 16,
-              ...font,
-              cursor: "pointer",
-            }}
-          >
-            plant new tree
-          </button>
         </div>
 
         <div
@@ -233,56 +303,100 @@ export default function LandingMain({
           <div style={{ display: "flex", flexWrap: "wrap", gap: 16, alignItems: "flex-start" }}>
             <div style={{ flex: "1 1 200px", display: "flex", flexDirection: "column", gap: 16 }}>
               <div style={{ color: "#000", fontSize: 20, fontWeight: 500, ...font }}>Current progress:</div>
-              <div style={{ color: "#000", fontSize: 16, ...font }}>Major: Cognitive Science, B.S.</div>
+              <div style={{ color: "#000", fontSize: 16, ...font }}>
+                Major: {majorName ?? "—"}
+              </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 8 }}>
-                <div style={{ color: "#7C7C7C", fontSize: 16, ...font }}>Completed Units: 75</div>
-                <div style={{ color: "#7C7C7C", fontSize: 16, ...font }}>Unit Standing: Sophomore</div>
+                <div style={{ color: "#7C7C7C", fontSize: 16, ...font }}>
+                  Completed Units: {hasProgress ? completed : "—"}
+                </div>
+                <div style={{ color: "#7C7C7C", fontSize: 16, ...font }}>
+                  Unit Standing: {hasProgress ? standing : "—"}
+                </div>
               </div>
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
               <span style={{ fontSize: 12, color: "#000", ...font }}>total units</span>
-              <UnitsBar />
+              <UnitsBar completed={hasProgress ? completed : 0} />
             </div>
           </div>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-          <h2 style={{ color: "#7C7C7C", fontSize: 20, fontWeight: 400, margin: 0, ...font }}>Revisit...</h2>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 22, alignItems: "center" }}>
-            {MOCK_REVISIT_TREES.map((item) => (
-              <button
-                key={item.id}
-                type="button"
-                onClick={() => onOpenTree?.(item.id)}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 12,
-                  maxWidth: "100%",
-                  border: "none",
-                  background: "transparent",
-                  cursor: "pointer",
-                  padding: 0,
-                  textAlign: "left",
-                }}
-              >
-                <div
-                  style={{
-                    width: 275,
-                    maxWidth: "40vw",
-                    height: 67,
-                    background: "rgba(255, 255, 255, 0.5)",
-                    boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                    borderRadius: 9,
-                    flexShrink: 0,
-                  }}
-                  aria-hidden
-                />
-                <span style={{ color: "#000", fontSize: 14, ...font }}>{item.label}</span>
-              </button>
-            ))}
+        {/* Quick actions */}
+        <div style={{ marginBottom: 36 }}>
+          <SectionLabel>Quick actions</SectionLabel>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
+            {majorId && (
+              <ActionCard
+                title={majorName ?? "Your major"}
+                subtitle="View prerequisite tree"
+                accent="#358162"
+                onClick={() => onOpenMajor?.(majorId)}
+              />
+            )}
+            <ActionCard
+              title="New tree"
+              subtitle="Start a fresh degree plan"
+              accent="#85B110"
+              onClick={onPlantNewTree}
+            />
           </div>
         </div>
+
+        {/* Term info row */}
+        {(admitTerm || gradTerm) && (
+          <div style={{ marginBottom: 36 }}>
+            <SectionLabel>Timeline</SectionLabel>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 24 }}>
+              {admitTerm && (
+                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                  <span style={{ fontSize: 11, color: "#BBBBBB", letterSpacing: "0.04em", textTransform: "uppercase", ...font }}>Admitted</span>
+                  <span style={{ fontSize: 15, color: "#3A3A3A", ...font }}>{admitTerm}</span>
+                </div>
+              )}
+              {gradTerm && (
+                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                  <span style={{ fontSize: 11, color: "#BBBBBB", letterSpacing: "0.04em", textTransform: "uppercase", ...font }}>Expected graduation</span>
+                  <span style={{ fontSize: 15, color: "#3A3A3A", ...font }}>{gradTerm}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Completed courses */}
+        {hasProgress && (
+          <div>
+            <SectionLabel>Your completed courses</SectionLabel>
+            <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+              {uclaCourses.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 12, color: "#9A9A9A", marginBottom: 8, ...font }}>UCLA Courses</div>
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                    {uclaCourses.map(c => <CoursePill key={c} label={c} />)}
+                  </div>
+                </div>
+              )}
+              {apClasses.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 12, color: "#9A9A9A", marginBottom: 8, ...font }}>AP Credits</div>
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                    {apClasses.map(c => <CoursePill key={c} label={c} />)}
+                  </div>
+                </div>
+              )}
+              {ibClasses.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 12, color: "#9A9A9A", marginBottom: 8, ...font }}>IB Credits</div>
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                    {ibClasses.map(c => <CoursePill key={c} label={c} />)}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
       </div>
     </main>
   );

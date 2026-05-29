@@ -1,3 +1,6 @@
+import { useState } from "react";
+import ProfileEdit from "./ProfileEdit.jsx";
+
 function EditIcon() {
   return (
     <svg className="profile-edit-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
@@ -57,10 +60,24 @@ function ChipList({ items, emptyLabel }) {
   );
 }
 
-export default function ProfileMain({ onClose, profile }) {
+export default function ProfileMain({ onClose, profile, onProfileUpdate }) {
+  const [editing, setEditing] = useState(false);
   const firstName = profile?.displayName?.split(" ")[0] ?? "there";
   const uclaCourses = profile?.uclaCourses ?? [];
   const prepCount = uclaCourses.length;
+
+  if (editing) {
+    return (
+      <ProfileEdit
+        profile={profile}
+        onDiscard={() => setEditing(false)}
+        onSave={(updated) => {
+          onProfileUpdate?.(updated);
+          setEditing(false);
+        }}
+      />
+    );
+  }
 
   if (!profile) {
     return (
@@ -90,7 +107,7 @@ export default function ProfileMain({ onClose, profile }) {
             <h2 id="profile-info-heading" className="profile-card__title">
               Profile Information
             </h2>
-            <button type="button" className="profile-edit-btn" aria-label="Edit profile information">
+            <button type="button" className="profile-edit-btn" aria-label="Edit profile information" onClick={() => setEditing(true)}>
               <EditIcon />
             </button>
           </div>
@@ -117,7 +134,7 @@ export default function ProfileMain({ onClose, profile }) {
         </section>
 
         <section className="profile-academic" aria-labelledby="profile-academic-heading">
-          <SectionHeading title="Academic Information" onEdit={() => {}} />
+          <SectionHeading title="Academic Information" onEdit={() => setEditing(true)} />
 
           <article className="profile-card profile-card--ucla">
             <h3 className="profile-card__subtitle">UCLA Courses Taken:</h3>
