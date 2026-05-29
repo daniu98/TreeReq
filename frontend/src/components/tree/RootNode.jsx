@@ -1,13 +1,10 @@
 import { CategoryNode } from "../ui/CategoryNode.jsx";
 
 /**
- * Major root node (e.g. "Cognitive Science"). Same overarching circle style
- * as section hubs but at ~50% scale. Reuses CategoryNode wrapped in a
- * CSS transform so all visual specs (gradient, border, typography) stay
- * Figma-accurate.
+ * Major root node (e.g. "Cognitive Science"). Uses the same overarching circle
+ * style as section hubs — 220px gradient ring + gradient fill — at the same
+ * scale so all nodes in the tree are visually consistent.
  */
-const SCALE = 0.82;
-
 export function RootNode({ name, isActive = false, onClick }) {
   return (
     <div
@@ -18,8 +15,6 @@ export function RootNode({ name, isActive = false, onClick }) {
         outlineOffset: 2,
         borderRadius: "50%",
         display: "inline-block",
-        transform: `scale(${SCALE})`,
-        transformOrigin: "center",
       }}
     >
       <CategoryNode categoryName={name} type="overarching" />

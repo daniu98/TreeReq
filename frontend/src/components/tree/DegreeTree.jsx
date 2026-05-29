@@ -23,6 +23,7 @@ export function DegreeTree({
   const [error, setError] = useState(null);
   const [statusMap, setStatusMap] = useState({});
   const [selectedNodeId, setSelectedNodeId] = useState(null);
+  const [hoveredCourseId, setHoveredCourseId] = useState(null);
 
   useEffect(() => {
     if (mockResponse) return;
@@ -83,6 +84,14 @@ export function DegreeTree({
     setSelectedNodeId(courseId);
   }, []);
 
+  const handleCourseMouseEnter = useCallback((courseId) => {
+    setHoveredCourseId(courseId);
+  }, []);
+
+  const handleCourseMouseLeave = useCallback(() => {
+    setHoveredCourseId(null);
+  }, []);
+
   if (loading) return (
     <div style={stateStyle.wrap}><p style={stateStyle.text}>Loading {majorName ?? majorId}…</p></div>
   );
@@ -96,8 +105,15 @@ export function DegreeTree({
   );
   if (!layout) return null;
 
-  const { nodes, edges, crossBranchEdges, totalWidth, totalHeight, nodeById, enriched } = layout;
+  const { nodes, edges, crossBranchEdges, totalWidth, totalHeight, nodeById } = layout;
   const selectedNode = selectedNodeId ? nodeById?.get(selectedNodeId) : null;
+
+  // Cross-branch (cross-dept) prereq edges are only shown when hovering a course.
+  const visibleCrossEdges = hoveredCourseId
+    ? (crossBranchEdges ?? []).filter(
+        (e) => e.source === hoveredCourseId || e.target === hoveredCourseId
+      )
+    : [];
 
   return (
     <>
@@ -115,7 +131,7 @@ export function DegreeTree({
               color={statusMap[e.sourceNode?.id] === "completed" ? "#348162" : "#85b110"}
             />
           ))}
-          {(crossBranchEdges ?? []).map((e) => {
+          {visibleCrossEdges.map((e) => {
             const src = nodeById?.get(e.source);
             const tgt = nodeById?.get(e.target);
             if (!src || !tgt) return null;
@@ -137,6 +153,8 @@ export function DegreeTree({
             isSelected={node.id === selectedNodeId}
             statusMap={statusMap}
             onClick={handleNodeClick}
+            onMouseEnter={handleCourseMouseEnter}
+            onMouseLeave={handleCourseMouseLeave}
           />
         ))}
       </div>
@@ -156,7 +174,7 @@ export function DegreeTree({
   );
 }
 
-function PositionedNode({ node, isSelected, statusMap, onClick }) {
+function PositionedNode({ node, isSelected, onClick, onMouseEnter, onMouseLeave }) {
   return (
     <div
       style={{
@@ -167,13 +185,15 @@ function PositionedNode({ node, isSelected, statusMap, onClick }) {
         cursor: "pointer",
       }}
       onClick={() => onClick(node)}
+      onMouseEnter={node.kind === "course" ? () => onMouseEnter(node.id) : undefined}
+      onMouseLeave={node.kind === "course" ? () => onMouseLeave() : undefined}
     >
-      {renderNode(node, isSelected, statusMap)}
+      {renderNode(node, isSelected)}
     </div>
   );
 }
 
-function renderNode(node, isSelected, statusMap) {
+function renderNode(node, isSelected) {
   const circleRing = isSelected
     ? { outline: "3px solid #FFD66B", outlineOffset: 4, borderRadius: "50%" }
     : {};

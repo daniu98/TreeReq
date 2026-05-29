@@ -23,7 +23,10 @@
       "mcp__plugin_figma_figma__get_metadata",
       "mcp__plugin_figma_figma__get_screenshot",
       "Bash(curl *)",
-      "mcp__plugin_figma_figma__use_figma"
+      "mcp__plugin_figma_figma__use_figma",
+      "WebFetch(domain:www.figma.com)",
+      "WebFetch(domain:api.figma.com)",
+      "Bash(node -e ':*)"
     ]
   }
 }

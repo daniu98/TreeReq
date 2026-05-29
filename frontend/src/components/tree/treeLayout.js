@@ -1,21 +1,18 @@
 import { hierarchy, tree as d3tree } from "d3-hierarchy";
 
-// Actual rendered outer diameters / dimensions for each node kind.
-// CategoryNode (regular):     90px inner + 2*4px padding + 2*5px border = 108px
-// CategoryNode (overarching): 110px inner + 2*7px padding + 2*5px border = 134px
-// RootNode: overarching * 0.82 ≈ 110px
-// ClassNode (minimal pill):   ~140px wide × 26px tall
+// Outer rendered diameters / dimensions for each node kind (px).
+// All circle nodes are now 220px (matching Figma). Course pills are ~220px wide × 85px tall.
 const NODE_KIND_SIZE = {
-  root:     { w: 110, h: 110 },
-  section:  { w: 134, h: 134 },
-  category: { w: 108, h: 108 },
-  course:   { w: 150, h: 26   },
+  root:     { w: 220, h: 220 },
+  section:  { w: 220, h: 220 },
+  category: { w: 220, h: 220 },
+  course:   { w: 220, h: 85  },
 };
 
-// nodeSize vertical slot: must be ≥ the largest circle at that depth (category = 108px)
-// so adjacent 1-course categories get 120px separation → no overlap.
-const VERTICAL_SLOT  = 120; // px per leaf node (course)
-const HORIZONTAL_GAP = 70;  // extra horizontal space between depth columns
+// Vertical slot per leaf node: course pill is 85px tall; 240px gives comfortable spacing.
+const VERTICAL_SLOT  = 240;
+// Extra horizontal space between depth columns (edge-to-edge gap between circles/pills).
+const HORIZONTAL_GAP = 80;
 
 export function layoutTree(rootDerived) {
   const root = hierarchy(rootDerived);
@@ -26,7 +23,7 @@ export function layoutTree(rootDerived) {
   ]);
   layout(root);
 
-  // Swap axes: d3 lays out vertically, we want left→right.
+  // Swap axes: d3 lays out vertically; we want left→right.
   const positioned = root.descendants().map((d) => {
     const size = NODE_KIND_SIZE[d.data.kind] ?? NODE_KIND_SIZE.course;
     return {
@@ -51,7 +48,7 @@ export function layoutTree(rootDerived) {
   const ys = positioned.map((n) => n.y);
   const minX = Math.min(...xs);
   const minY = Math.min(...ys);
-  const margin = 60;
+  const margin = 80;
   for (const n of positioned) {
     n.x = n.x - minX + margin;
     n.y = n.y - minY + margin;
