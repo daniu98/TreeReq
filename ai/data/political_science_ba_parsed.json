@@ -1,0 +1,270 @@
+{
+  "major_id": "political-science-ba",
+  "major_name": "Political Science BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/PoliticalScienceBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "POL SCI 6"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 4,
+          "courses": [
+            "POL SCI 10",
+            "POL SCI 20",
+            "POL SCI 30",
+            "POL SCI 40",
+            "POL SCI 50"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "POL SCI 6",
+            "STATS 10",
+            "STATS 12"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": 10,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 10,
+          "courses": [
+            "POL SCI M105",
+            "POL SCI 106",
+            "POL SCI 107",
+            "POL SCI 108",
+            "POL SCI 109",
+            "POL SCI 110",
+            "POL SCI 111",
+            "POL SCI 112",
+            "POL SCI 113",
+            "POL SCI 114",
+            "POL SCI 115",
+            "POL SCI 116",
+            "POL SCI 117",
+            "POL SCI 118",
+            "POL SCI 119",
+            "POL SCI 120",
+            "POL SCI 121",
+            "POL SCI 122",
+            "POL SCI 123",
+            "POL SCI 124",
+            "POL SCI 125",
+            "POL SCI 126",
+            "POL SCI 127",
+            "POL SCI 128",
+            "POL SCI 129",
+            "POL SCI 130",
+            "POL SCI 131",
+            "POL SCI 132",
+            "POL SCI 133",
+            "POL SCI 134",
+            "POL SCI 135",
+            "POL SCI 136",
+            "POL SCI 137",
+            "POL SCI 138",
+            "POL SCI 139",
+            "POL SCI 140",
+            "POL SCI 141",
+            "POL SCI 142",
+            "POL SCI 143",
+            "POL SCI 144",
+            "POL SCI 145",
+            "POL SCI 146",
+            "POL SCI 147",
+            "POL SCI 148",
+            "POL SCI 149",
+            "POL SCI 150",
+            "POL SCI 151",
+            "POL SCI 152",
+            "POL SCI 153",
+            "POL SCI 154",
+            "POL SCI 155",
+            "POL SCI 156",
+            "POL SCI 157",
+            "POL SCI 158",
+            "POL SCI 159",
+            "POL SCI 160",
+            "POL SCI 161",
+            "POL SCI 162",
+            "POL SCI 163",
+            "POL SCI 164",
+            "POL SCI 165",
+            "POL SCI 166",
+            "POL SCI 167",
+            "POL SCI 168",
+            "POL SCI 169",
+            "POL SCI 170",
+            "POL SCI 171",
+            "POL SCI 172",
+            "POL SCI 173",
+            "POL SCI 174",
+            "POL SCI 175",
+            "POL SCI 176",
+            "POL SCI 177",
+            "POL SCI 178",
+            "POL SCI 179",
+            "POL SCI 180",
+            "POL SCI 181",
+            "POL SCI 182",
+            "POL SCI 183",
+            "POL SCI 184",
+            "POL SCI 185",
+            "POL SCI 186",
+            "POL SCI 187",
+            "POL SCI 188",
+            "POL SCI 189",
+            "POL SCI 190",
+            "POL SCI 191",
+            "POL SCI 192",
+            "POL SCI 193",
+            "POL SCI 194",
+            "POL SCI 195",
+            "POL SCI 196",
+            "POL SCI 197",
+            "POL SCI 198",
+            "POL SCI 199"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "POL SCI": [
+      "POL SCI 10",
+      "POL SCI 20",
+      "POL SCI 30",
+      "POL SCI 40",
+      "POL SCI 50",
+      "POL SCI 6"
+    ],
+    "STATS": [
+      "STATS 10",
+      "STATS 12"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "POL SCI 10",
+      "dept": "POL SCI",
+      "number": "10",
+      "title": "Introduction to Political Theory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Exposition and analysis of selected political theorists and concepts from Plato to the present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 20",
+      "dept": "POL SCI",
+      "number": "20",
+      "title": "World Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Required of all students concentrating in Field II. Introduction to problems of world politics. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 30",
+      "dept": "POL SCI",
+      "number": "30",
+      "title": "Politics and Strategy",
+      "units": 5.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Introduction to study of strategic interaction in political applications. Use of game theory and other formal modeling strategies to understand politics. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 40",
+      "dept": "POL SCI",
+      "number": "40",
+      "title": "Introduction to American Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Basic institutions and processes of democratic politics. Treatment of themes such as constitutionalism, representation, participation, and leadership coupled with particular emphasis on the American case. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 50",
+      "dept": "POL SCI",
+      "number": "50",
+      "title": "Introduction to Comparative Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50R. Comparative study of constitutional principles, governmental institutions, and political processes in selected countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 6",
+      "dept": "POL SCI",
+      "number": "6",
+      "title": "Introduction to Data Analysis",
+      "units": 5.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Not open for credit to students with credit for course 6R. Introduction to collection and analysis of political data, with emphasis on application of statistical reasoning to study of relationships among political variables. Use of computer as aid in analyzing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 12",
+      "dept": "STATS",
+      "number": "12",
+      "title": "Introduction to Statistical Methods for Geography and Environmental Studies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

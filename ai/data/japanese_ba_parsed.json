@@ -1,0 +1,1183 @@
+{
+  "major_id": "japanese-ba",
+  "major_name": "Japanese BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/JapaneseBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "JAPAN 6",
+            "JAPAN 10"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ASIAN 30",
+            "JAPAN 50",
+            "JAPAN 70",
+            "JAPAN 75",
+            "JAPAN 80"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 5,
+          "courses": [
+            "JAPAN 100A",
+            "JAPAN 100B",
+            "JAPAN 100C",
+            "JAPAN 100R",
+            "JAPAN 100S",
+            "JAPAN 101A",
+            "JAPAN 101B",
+            "JAPAN 101C",
+            "JAPAN 101S",
+            "JAPAN 103A",
+            "JAPAN 103B",
+            "JAPAN 104",
+            "JAPAN 105A",
+            "JAPAN 105B",
+            "JAPAN 110A",
+            "JAPAN 110B",
+            "JAPAN M120",
+            "JAPAN CM123",
+            "JAPAN 130A",
+            "JAPAN 130B",
+            "JAPAN 140A",
+            "JAPAN 140B",
+            "JAPAN 140C",
+            "JAPAN C149",
+            "JAPAN 165"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "JAPAN C150",
+            "JAPAN 151",
+            "JAPAN 154",
+            "JAPAN M156",
+            "JAPAN 157",
+            "JAPAN C159",
+            "JAPAN 170",
+            "JAPAN 172",
+            "JAPAN 174",
+            "JAPAN 191A"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "JAPAN C112",
+            "JAPAN CM122",
+            "JAPAN CM123",
+            "JAPAN CM127",
+            "JAPAN 155",
+            "JAPAN CM160",
+            "JAPAN 161",
+            "JAPAN 165",
+            "JAPAN C171",
+            "JAPAN C182",
+            "JAPAN 191B",
+            "JAPAN 191C"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ASIAN": [
+      "ASIAN 198A",
+      "ASIAN 198B",
+      "ASIAN 198C",
+      "ASIAN 30"
+    ],
+    "JAPAN": [
+      "JAPAN 10",
+      "JAPAN 100A",
+      "JAPAN 100B",
+      "JAPAN 100C",
+      "JAPAN 100R",
+      "JAPAN 100S",
+      "JAPAN 101A",
+      "JAPAN 101B",
+      "JAPAN 101C",
+      "JAPAN 101S",
+      "JAPAN 103A",
+      "JAPAN 103B",
+      "JAPAN 104",
+      "JAPAN 105A",
+      "JAPAN 105B",
+      "JAPAN 110A",
+      "JAPAN 110B",
+      "JAPAN 130A",
+      "JAPAN 130B",
+      "JAPAN 140A",
+      "JAPAN 140B",
+      "JAPAN 140C",
+      "JAPAN 151",
+      "JAPAN 154",
+      "JAPAN 155",
+      "JAPAN 157",
+      "JAPAN 161",
+      "JAPAN 165",
+      "JAPAN 170",
+      "JAPAN 172",
+      "JAPAN 174",
+      "JAPAN 191A",
+      "JAPAN 191B",
+      "JAPAN 191C",
+      "JAPAN 50",
+      "JAPAN 6",
+      "JAPAN 70",
+      "JAPAN 75",
+      "JAPAN 80",
+      "JAPAN C112",
+      "JAPAN C149",
+      "JAPAN C150",
+      "JAPAN C159",
+      "JAPAN C171",
+      "JAPAN C182",
+      "JAPAN CM122",
+      "JAPAN CM123",
+      "JAPAN CM127",
+      "JAPAN CM160",
+      "JAPAN M120",
+      "JAPAN M156"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ASIAN 198A",
+      "dept": "ASIAN",
+      "number": "198A",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Preparation: one undergraduate departmental seminar. Limited to junior/senior departmental majors. Development of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ASIAN 198B"
+      ]
+    },
+    {
+      "course_id": "ASIAN 198B",
+      "dept": "ASIAN",
+      "number": "198B",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Enforced requisite: course 198A. Limited to junior/senior departmental majors. Continuation of work initiated in course 198A. Presentation of research and relevant progress to supervising faculty member. May be repeated for credit. Individual contract required. In Progress grading (credit to be given only on completion of course 198C).",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIAN 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ASIAN 198C"
+      ]
+    },
+    {
+      "course_id": "ASIAN 198C",
+      "dept": "ASIAN",
+      "number": "198C",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Enforced requisite: course 198B. Limited to junior/senior departmental majors. Completion of research developed in courses 198A, 198B. Presentation of honors project to supervising faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIAN 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 30",
+      "dept": "ASIAN",
+      "number": "30",
+      "title": "Languages and Cultures of Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Comparative perspective on Asian languages, with emphasis on three major East Asian languages\u2014Chinese, Japanese, and Korean\u2014to show what they share and how they differ in terms of linguistic features, historical development, and larger cultural settings in which these three languages are used. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 10",
+      "dept": "JAPAN",
+      "number": "10",
+      "title": "Intermediate Modern Japanese: Intensive",
+      "units": 15.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 3 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Intensive course equivalent to courses 4, 5, and 6. Readings in modern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3 with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "JAPAN 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "JAPAN 100A",
+        "JAPAN 100R",
+        "JAPAN CM123"
+      ]
+    },
+    {
+      "course_id": "JAPAN 100A",
+      "dept": "JAPAN",
+      "number": "100A",
+      "title": "Advanced Modern Japanese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 6 or 10 with grade of C or better or Japanese placement test. Course 100A with grade of C or better or Japanese placement test is enforced requisite to 100B; course 100B with grade of C or better or Japanese placement test\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 6 or 10 with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 6",
+            "JAPAN 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "JAPAN 100B"
+      ]
+    },
+    {
+      "course_id": "JAPAN 100B",
+      "dept": "JAPAN",
+      "number": "100B",
+      "title": "Advanced Modern Japanese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100A with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Learning Japanese language with emphasis on sociocultural issues of contemporary Japanese society. Materials\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 100A with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100A"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "JAPAN 100C"
+      ]
+    },
+    {
+      "course_id": "JAPAN 100C",
+      "dept": "JAPAN",
+      "number": "100C",
+      "title": "Advanced Modern Japanese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100B with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Learning Japanese language with emphasis on sociocultural issues of contemporary Japanese society. Materials\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 100B with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100B"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "JAPAN 101A",
+        "JAPAN 101B",
+        "JAPAN 101C",
+        "JAPAN 101S",
+        "JAPAN 103A",
+        "JAPAN 103B",
+        "JAPAN 104",
+        "JAPAN 110A",
+        "JAPAN 130A",
+        "JAPAN 130B",
+        "JAPAN C171"
+      ]
+    },
+    {
+      "course_id": "JAPAN 100R",
+      "dept": "JAPAN",
+      "number": "100R",
+      "title": "Third-Year Advanced Reading in Modern Japanese",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test. Not open to students with credit for course 100A or who have learned, from whatever source, enough Japanese to qualify for more advanced courses. May be taken concurrently with course 100A.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 6",
+            "JAPAN 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 100S",
+      "dept": "JAPAN",
+      "number": "100S",
+      "title": "Advanced Modern Japanese: Intensive",
+      "units": 12.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Intensive course equivalent to courses 100A, 100B, and 100C. Learning\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "JAPAN 101A",
+        "JAPAN 101B",
+        "JAPAN 101C",
+        "JAPAN 101S",
+        "JAPAN 103A",
+        "JAPAN 103B",
+        "JAPAN 104",
+        "JAPAN 110A",
+        "JAPAN 130A",
+        "JAPAN 130B"
+      ]
+    },
+    {
+      "course_id": "JAPAN 101A",
+      "dept": "JAPAN",
+      "number": "101A",
+      "title": "Fourth-Year Japanese: Advanced Reading",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 101B",
+      "dept": "JAPAN",
+      "number": "101B",
+      "title": "Fourth-Year Japanese: Advanced Reading",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 101C",
+      "dept": "JAPAN",
+      "number": "101C",
+      "title": "Fourth-Year Japanese: Advanced Reading",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 101S",
+      "dept": "JAPAN",
+      "number": "101S",
+      "title": "Fourth-Year Japanese: Advanced Reading\u00e2\u20ac\u201dIntensive",
+      "units": 12.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 103A",
+      "dept": "JAPAN",
+      "number": "103A",
+      "title": "Fourth-Year Japanese: Advanced Speaking I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better. Development of listening and speaking abilities for students who need focused attention to these skills. Also suitable for graduate students who need to advance their public speaking ability. Not intended for those\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 103B",
+      "dept": "JAPAN",
+      "number": "103B",
+      "title": "Fourth-Year Japanese: Advanced Speaking II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better. Development of listening and speaking abilities for students who need focused attention to these skills. Also suitable for graduate students who need to advance their public speaking ability. Not intended for those\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 104",
+      "dept": "JAPAN",
+      "number": "104",
+      "title": "Business Japanese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Designed to improve skills in Japanese in context of business transactions. To be successful business person, one must be equipped with advanced specialized oral and written communication skills\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 105A",
+      "dept": "JAPAN",
+      "number": "105A",
+      "title": "Advanced Reading and Writing for Japanese-Heritage Speakers",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced preparation: Japanese placement test. Not open to students who have taken 100 series, 101 series, and/or 103 series courses or 104. Designed for advanced-level Japanese-heritage learners or nonheritage learners who are fluent in daily spoken Japanese. Emphasis on building vocabulary knowledge of Kanji,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 105B",
+      "dept": "JAPAN",
+      "number": "105B",
+      "title": "Advanced Reading and Writing for Japanese-Heritage Speakers",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced preparation: Japanese placement test. Not open to students who have taken 100 series, 101 series, and/or 103 series courses or 104. Designed for advanced-level Japanese-heritage learners or nonheritage learners who are fluent in daily spoken Japanese. Emphasis on building vocabulary knowledge of Kanji,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 110A",
+      "dept": "JAPAN",
+      "number": "110A",
+      "title": "Introduction to Classical Japanese: Basic Grammar",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S or Japanese placement test. Introduction to fundamentals of classical Japanese. Grammar and reading of selected premodern texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "JAPAN 110B",
+        "JAPAN 140A",
+        "JAPAN 140B",
+        "JAPAN 165",
+        "JAPAN C149"
+      ]
+    },
+    {
+      "course_id": "JAPAN 110B",
+      "dept": "JAPAN",
+      "number": "110B",
+      "title": "Introduction to Classical Japanese: Reading Proficiency",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 110A. Grammar and readings of selected premodern texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": [
+          "JAPAN 110A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 130A",
+      "dept": "JAPAN",
+      "number": "130A",
+      "title": "Readings in Modern Japanese Literature",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 100C or 100S or Japanese placement test. Readings and discussion of works by modern Japanese writers. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 130B",
+      "dept": "JAPAN",
+      "number": "130B",
+      "title": "Readings in Modern Japanese Literature",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 100C or 100S or Japanese placement test. Readings and discussion of works by modern Japanese writers. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100S or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C",
+            "JAPAN 100S"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 140A",
+      "dept": "JAPAN",
+      "number": "140A",
+      "title": "Readings in Classical Japanese Literature: Heian",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 110A. Readings and discussion of works of classical Japanese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": [
+          "JAPAN 110A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 140B",
+      "dept": "JAPAN",
+      "number": "140B",
+      "title": "Readings in Classical Japanese Literature: Medieval",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 110A. Readings and discussion of works of medieval Japanese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": [
+          "JAPAN 110A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 140C",
+      "dept": "JAPAN",
+      "number": "140C",
+      "title": "Readings in Classical Japanese Literature: Edo",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 110A. Readings and discussion of works of early modern Japanese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 151",
+      "dept": "JAPAN",
+      "number": "151",
+      "title": "Japanese Literature in Translation: Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Japanese not required. Survey of Japanese literature from 16th century to post-World War II. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH COMP 3",
+            "ENGLISH COMP 3H",
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 154",
+      "dept": "JAPAN",
+      "number": "154",
+      "title": "Postwar Japanese Culture through Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Japanese not required. Use of fiction and film to explore Japanese culture in postwar era in broad cross-disciplinary and cross-cultural context. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H",
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 155",
+      "dept": "JAPAN",
+      "number": "155",
+      "title": "Topics in Japanese Cinema",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; film viewing, two hours. Knowledge of Japanese not required. Critical and historical examination of Japanese cinema. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 157",
+      "dept": "JAPAN",
+      "number": "157",
+      "title": "Classical Japanese Drama: Great Tradition",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Japanese not required. Readings in major genres of Japanese theater and exploration of its influence on 20th-century drama and theater around world. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 161",
+      "dept": "JAPAN",
+      "number": "161",
+      "title": "Religious Life in Modern Japan",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Religious transformations accompanying rapid industrialization, urbanization, militarism, and defeat in Pacific War, including analyses of Shinto mythology, secular positivism, Buddhist reform movements, new religions, and continuing role of traditional village/family religious rites. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 165",
+      "dept": "JAPAN",
+      "number": "165",
+      "title": "Introduction to Japanese Buddhist Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 110A or Chinese 165 or Japanese placement test. Readings in premodern Buddhist texts written by Japanese in Sino-Japanese or Kambun and mixed Japanese/Chinese literary styles concerning textual commentaries, doctrinal treatises, hagiographies, temple histories, etc. Coverage varies. May be repeated for credit\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 110A or Chinese 165 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "JAPAN 110A",
+          "CHIN 165"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 170",
+      "dept": "JAPAN",
+      "number": "170",
+      "title": "Japanese Tales of Supernatural",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Readings of fictional works that feature supernatural beings, including Shinto gods, Buddhas, boddhisatvas, Yin-yang diviners, ghosts, various types of demons, shape-shifting foxes and raccoon dogs, snakes, and dragons. Exploration of different treatments of supernatural themes from ancient to modern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 172",
+      "dept": "JAPAN",
+      "number": "172",
+      "title": "Fiction and Plays of Floating World",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 50. Examination of broad selection of popular fiction and theater from late 17th to early 19th century, with focus on theme of floating world (ukiyo) of entertainment, including pleasure quarters, theater district, and realm of fiction. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "JAPAN 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 174",
+      "dept": "JAPAN",
+      "number": "174",
+      "title": "Classical Japanese Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Examination of classical poetry of Nara and Heian periods, with focus on poetry anthology called Man\u2019yoshu (Collection of Myriad Ages, 8th century) and on Kokinwakashu (Collection of Ancient and Modern Japanese Poems, early 10th century). Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 191A",
+      "dept": "JAPAN",
+      "number": "191A",
+      "title": "Variable Topics Research Seminars: Classical Japan",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminar on selected topics in premodern Japanese literature and thought. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 191B",
+      "dept": "JAPAN",
+      "number": "191B",
+      "title": "Variable Topics Research Seminars: Modern Japan",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminar on selected topics on modern Japan. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 191C",
+      "dept": "JAPAN",
+      "number": "191C",
+      "title": "Variable Topics Research Seminars: Personalities in Japanese Civilization",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminar on selected topics. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 50",
+      "dept": "JAPAN",
+      "number": "50",
+      "title": "Japanese Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Survey of development of Japanese culture and its relationship to Asiatic mainland. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "JAPAN 172"
+      ]
+    },
+    {
+      "course_id": "JAPAN 6",
+      "dept": "JAPAN",
+      "number": "6",
+      "title": "Intermediate Modern Japanese",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 5 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5 with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "JAPAN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "JAPAN 100A",
+        "JAPAN 100R"
+      ]
+    },
+    {
+      "course_id": "JAPAN 70",
+      "dept": "JAPAN",
+      "number": "70",
+      "title": "Images of Japan: Literature and Film",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese culture, literature, or language not required. Introduction to visual and textual images of Japan\u2019s literary heritage, including documentary and feature films based on Japan\u2019s literary classics. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 75",
+      "dept": "JAPAN",
+      "number": "75",
+      "title": "Anime",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Discussion and analysis of seminal works of Japanese animation, or anime, created from 1980s to present. Engagement with works in variety of styles, and that deal with broad range of themes. Reading and discussion of recent scholarship on anime produced by scholars working in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 80",
+      "dept": "JAPAN",
+      "number": "80",
+      "title": "How Does It Move? Action and Moving Image in Modern Japan",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. How is action constituted on the screen? How has modern technological media informed and transformed our experience and understanding of action? Exploration of how our experience and conception of action is mediated by technological aesthetic media by tracing history of portrayal and experience of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN C112",
+      "dept": "JAPAN",
+      "number": "C112",
+      "title": "Japanese Urban History and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Japanese not required. Japanese urban history and culture, with special emphasis on cities of Nara, Kyoto, Edo/Tokyo, and Nagasaki. Concurrently scheduled with course C212. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN C149",
+      "dept": "JAPAN",
+      "number": "C149",
+      "title": "Introduction to Kambun and Other Literary Styles",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 110A. Introduction to Kambun, Japanese literary rendering of premodern Sino-Japanese, and Sorobun, epistolary style. Concurrently scheduled with course C249. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": [
+          "JAPAN 110A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN C150",
+      "dept": "JAPAN",
+      "number": "C150",
+      "title": "Topics in Japanese Literature and Philosophy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Discussion of philosophical topics such as experience, identity, value, technology, in light of Japanese literary texts. Concurrently scheduled with course C250. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN C159",
+      "dept": "JAPAN",
+      "number": "C159",
+      "title": "Variable Topics in Culture and Society in Japan",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Examination of relationship between culture (art, literature, film) and society in Japan. Reading, audio and visual material, discussion, and development of culminating project. May be repeated for credit with topic change. Concurrently scheduled with course C259. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN C171",
+      "dept": "JAPAN",
+      "number": "C171",
+      "title": "Topics in Japanese Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100C or Japanese placement test. Advanced course that explores Japanese culture through in-depth reading of Japanese-language texts and/or visual documents. Topics include literature, religion, folklore, cultural history, language, and society. Concurrently scheduled with course C271. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 100C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN C182",
+      "dept": "JAPAN",
+      "number": "C182",
+      "title": "Japanese Folklore",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Lectures/discussions on native religious rituals (festivals) and observances of Japanese, with special emphasis on artistic behavior. Discussion of Shinto, Shinto/Buddhist syncretism, and other non-Buddhist belief systems. Concurrently scheduled with course C282. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM122",
+      "dept": "JAPAN",
+      "number": "CM122",
+      "title": "Japanese Phonology and Morphology",
+      "units": 4.0,
+      "description": "(Same as Linguistics M176A.) Lecture, three hours; discussion, one hour. Recommended preparation: Linguistics 20. Enforced requisite: course 3 or 8 or Japanese placement test. Survey of Japanese phonetics, phonology, and morphology. Concurrently scheduled with course C222. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3 or 8 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 3",
+            "JAPAN 8"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM123",
+      "dept": "JAPAN",
+      "number": "CM123",
+      "title": "Structure of Japanese",
+      "units": 4.0,
+      "description": "(Same as Linguistics M176B.) Lecture, three hours; discussion, one hour. Enforced requisite: course 4 or 10 or Japanese placement test. Functional linguistic analysis of grammatical structures of Japanese, often in form of contrastive analysis of Japanese, English, and other languages. Concurrently scheduled with course C223. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 4 or 10 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 4",
+            "JAPAN 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM127",
+      "dept": "JAPAN",
+      "number": "CM127",
+      "title": "Contrastive Analysis of Japanese and Korean",
+      "units": 4.0,
+      "description": "(Same as Korean CM127 and Linguistics M178.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM160",
+      "dept": "JAPAN",
+      "number": "CM160",
+      "title": "Japanese Buddhism",
+      "units": 4.0,
+      "description": "(Same as Religion M161B.) Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Development of Buddhism in Japan in its cultural context, with emphasis on key ideas and teachings. Concurrently scheduled with course C260. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN M120",
+      "dept": "JAPAN",
+      "number": "M120",
+      "title": "Introduction to Japanese Linguistics",
+      "units": 4.0,
+      "description": "(Same as Linguistics M116.) Lecture, three hours; discussion, one hour. Enforced requisite: course 3 or 8 or Japanese placement test. Introduction to Japanese grammar and sociolinguistics through reading, discussion, and problem solving in phonology, syntax, semantics, and discourse pragmatics. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3 or 8 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 3",
+            "JAPAN 8"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN M156",
+      "dept": "JAPAN",
+      "number": "M156",
+      "title": "Literature and Technology",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M176.) Lecture, three hours. Knowledge of Japanese not required. Examination of representation of technology in 20th-century fiction. Discussion of impact of technology on shifting images of gender, subjectivity, and national identity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

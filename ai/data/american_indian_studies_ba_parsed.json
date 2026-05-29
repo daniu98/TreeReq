@@ -1,0 +1,1187 @@
+{
+  "major_id": "american-indian-studies-ba",
+  "major_name": "American Indian Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/AmericanIndianStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "AM IND M10"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "ANTHRO 3",
+            "GENDER 10",
+            "POL SCI 40",
+            "STATS 12"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "AM IND M161"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "ANTHRO M150",
+            "ANTHRO 155",
+            "LING 114"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "AM IND 140",
+            "AM IND 158",
+            "AM IND C170",
+            "HIST 149A",
+            "HIST 149B",
+            "HIST 157B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "AM IND C120",
+            "AM IND C121",
+            "AM IND C130",
+            "AM IND C175",
+            "AM IND C178",
+            "ANTHRO 160A",
+            "ANTHRO 162"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "AM IND 180",
+            "ART HIS 137",
+            "ART HIS CM139A",
+            "ART HIS C139B",
+            "ENGL 106",
+            "ETHNMUS 106A"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "AM IND C122XP"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AF AMER": [
+      "AF AMER M164"
+    ],
+    "AM IND": [
+      "AM IND 140",
+      "AM IND 158",
+      "AM IND 180",
+      "AM IND 198A",
+      "AM IND 198B",
+      "AM IND 198C",
+      "AM IND 199C",
+      "AM IND C120",
+      "AM IND C121",
+      "AM IND C122XP",
+      "AM IND C130",
+      "AM IND C170",
+      "AM IND C175",
+      "AM IND C178",
+      "AM IND M10",
+      "AM IND M161"
+    ],
+    "ANTHRO": [
+      "ANTHRO 138P",
+      "ANTHRO 143",
+      "ANTHRO 145S",
+      "ANTHRO 155",
+      "ANTHRO 160A",
+      "ANTHRO 162",
+      "ANTHRO 3",
+      "ANTHRO M145Q",
+      "ANTHRO M150"
+    ],
+    "ART HIS": [
+      "ART HIS 100",
+      "ART HIS 137",
+      "ART HIS C139B",
+      "ART HIS CM139A"
+    ],
+    "ASIA AM": [
+      "ASIA AM 130A",
+      "ASIA AM 131A",
+      "ASIA AM 132A",
+      "ASIA AM 133",
+      "ASIA AM 134",
+      "ASIA AM M130B",
+      "ASIA AM M130C"
+    ],
+    "COM LIT": [
+      "COM LIT 100"
+    ],
+    "ENGL": [
+      "ENGL 106"
+    ],
+    "ETHNMUS": [
+      "ETHNMUS 106A",
+      "ETHNMUS 106B"
+    ],
+    "FILM TV": [
+      "FILM TV 128"
+    ],
+    "GENDER": [
+      "GENDER 10",
+      "GENDER 130",
+      "GENDER 168"
+    ],
+    "GEOG": [
+      "GEOG M126"
+    ],
+    "HIST": [
+      "HIST 135A",
+      "HIST 149A",
+      "HIST 149B",
+      "HIST 157B"
+    ],
+    "LING": [
+      "LING 114",
+      "LING 160"
+    ],
+    "POL SCI": [
+      "POL SCI 170A",
+      "POL SCI 40"
+    ],
+    "SOCIOL": [
+      "SOCIOL 106A",
+      "SOCIOL 113",
+      "SOCIOL 154",
+      "SOCIOL 156",
+      "SOCIOL 157",
+      "SOCIOL M162"
+    ],
+    "STATS": [
+      "STATS 12"
+    ],
+    "THEATER": [
+      "THEATER 103F",
+      "THEATER 107"
+    ],
+    "WL ARTS": [
+      "WL ARTS 195"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AF AMER M164",
+      "dept": "AF AMER",
+      "number": "M164",
+      "title": "Afro-American Experience in U.S.",
+      "units": 4.0,
+      "description": "(Same as Anthropology M144Q.) Lecture, three hours. Promotes understanding of contemporary sociocultural forms among Afro-Americans in U.S. by presenting comparative and diachronic perspective on Afro-American experience in New World. Emphasis on utilization of anthropological concepts and methods in understanding origins and maintenance of particular patterns of adaptation among black Americans.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND 140",
+      "dept": "AM IND",
+      "number": "140",
+      "title": "Federal Indian Law and Policy",
+      "units": 4.0,
+      "description": "Lecture, four hours. Through readings, discussion, and Native guest lecturers, introduction to fundamental concepts and history of federal Indian law and policy. Investigation of contemporary policies and legal issues and exploration of Native responses to policy and law. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND 158",
+      "dept": "AM IND",
+      "number": "158",
+      "title": "Nation Building",
+      "units": 4.0,
+      "description": "Lecture, three hours; fieldwork/research, nine hours. Limited to junior/senior American Indian Studies majors. Examination of historical interplay of federal policies with tribal cultures that has shaped political development of American Indian tribal nations. Current developments within Indian nations, including restructuring government, developing economies, and asserting cultural sovereignty to be subject\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND 180",
+      "dept": "AM IND",
+      "number": "180",
+      "title": "Introduction to and Practicum in Native American Languages",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Development of ability to converse, read, and write at elementary level in Native American languages. Introduction to both phonological and grammatical structures, vocabulary, and cultural patterns of using language as symbolic guide to culture. May be repeated with language change and approval of interdepartmental\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND 198A",
+      "dept": "AM IND",
+      "number": "198A",
+      "title": "Honors Research in American Indian Studies",
+      "units": 4.0,
+      "description": "Tutorial, one hour; activity, three hours. Course 198A is enforced requisite to 198B, which is enforced requisite to 198C. Limited to senior honors program students. Development of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AM IND 198B"
+      ]
+    },
+    {
+      "course_id": "AM IND 198B",
+      "dept": "AM IND",
+      "number": "198B",
+      "title": "Honors Research in American Indian Studies",
+      "units": 4.0,
+      "description": "Tutorial, one hour; activity, three hours. Enforced requisite: course 198A. Limited to senior honors program students. Continued development of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "AM IND 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AM IND 198C"
+      ]
+    },
+    {
+      "course_id": "AM IND 198C",
+      "dept": "AM IND",
+      "number": "198C",
+      "title": "Honors Research in American Indian Studies",
+      "units": 4.0,
+      "description": "Tutorial, one hour; activity, three hours. Enforced requisite: course 198B. Limited to senior honors program students. Completion of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "AM IND 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND 199C",
+      "dept": "AM IND",
+      "number": "199C",
+      "title": "Individual Studies: Capstone Synthesis",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Preparation: successful completion of eight upper-division major courses. Limited to senior American Indian Studies majors. Faculty members help students relate their course-derived academic experience to their original research/service efforts involving Native American communities. Completion of research paper and presentation of student work at year-end Research Symposium required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND C120",
+      "dept": "AM IND",
+      "number": "C120",
+      "title": "Working in Tribal Communities: Introduction",
+      "units": 4.0,
+      "description": "Lecture, four hours. Through readings, discussion, and Native guest lecturers, students learn to participate within Native American communities engaged in political, social, and cultural processes of change and preservation. Development of proposal for Native nation-building project. Concurrently scheduled with course C220. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND C121",
+      "dept": "AM IND",
+      "number": "C121",
+      "title": "Working in Tribal Communities: Preparing for Fieldwork",
+      "units": 4.0,
+      "description": "Lecture, four hours. Through readings, discussion, Native guest lecturers, and project participation, introduction to rules of conduct and skills necessary to successfully work or carry out community service projects for Native American communities and organizations. Concurrently scheduled with course C221. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AM IND C122XP"
+      ]
+    },
+    {
+      "course_id": "AM IND C122XP",
+      "dept": "AM IND",
+      "number": "C122XP",
+      "title": "Working in Tribal Communities: Community-Engaged Learning",
+      "units": 4.0,
+      "description": "Seminar, one hour; fieldwork, four hours. Enforced requisite: course C121. Recommended: course C120. Participation in community service learning project within Native American communities and organizations where students are mentored and supported by faculty members, other students, and project directors toward completing assigned service learning tasks and contributing to project activities.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course C121.",
+      "prereqs_parsed": {
+        "required": [
+          "AM IND C121"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND C130",
+      "dept": "AM IND",
+      "number": "C130",
+      "title": "California Indian Strategies for Contemporary Challenges",
+      "units": 4.0,
+      "description": "Seminar, three hours. Through readings, discussion, and Native guest lecturers, introduction to contemporary issues and processes of self-directed social change and political, cultural, legal, and economic processes of nation building in contemporary California Native communities. Concurrently scheduled with course C230. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND C170",
+      "dept": "AM IND",
+      "number": "C170",
+      "title": "California Indian History",
+      "units": 4.0,
+      "description": "Lecture, four hours. Introduction to overview of California Indian history, specific tribal community histories, and/or contemporary California Indian history through readings, discussion, and Native guest lecturers. May be repeated for credit with topic change and consent of interdepartmental chair. Concurrently scheduled with course C270. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND C175",
+      "dept": "AM IND",
+      "number": "C175",
+      "title": "Cultures of Native Southern California",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to Southern California indigenous societies through readings, discussion, guest lecturers, and direct community participation. May be repeated for credit with topic and/or instructor change and consent of interdepartmental chair. Concurrently scheduled with course C275. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND C178",
+      "dept": "AM IND",
+      "number": "C178",
+      "title": "California Experiences in Native Cultural Resource Management",
+      "units": 4.0,
+      "description": "Seminar, three hours. Exploration of creation and implementation of laws that affect cultural resource management in California, such as California Environmental Quality Act (CEQA), Native American Graves Protection and Repatriation Act (NAGPRA), AB 978 (California NAGPRA), American Indian Religious Freedom Act, National Environmental Policy Act (NEPA), and National Historic Preservation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AM IND M10",
+      "dept": "AM IND",
+      "number": "M10",
+      "title": "Introduction to American Indian Studies",
+      "units": 5.0,
+      "description": "(Same as World Arts and Cultures M23.) Lecture, three hours; discussion, one hour; activity, one hour. Survey of selected Native North American cultures from pre-Western contact to contemporary period, with particular emphasis on early cultural diversity and diverse patterns of political, linguistic, social, legal, and cultural change in postcontact period.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AM IND M161"
+      ]
+    },
+    {
+      "course_id": "AM IND M161",
+      "dept": "AM IND",
+      "number": "M161",
+      "title": "Comparative American Indian Societies",
+      "units": 4.0,
+      "description": "(Same as Sociology M161.) Lecture, three hours. Requisite: course M10 or Sociology 1. Comparative and historical study of political, economic, and cultural change in indigenous North American societies. Several theories of social change, applied to selected case studies. Letter grading.",
+      "prereqs_raw": "Requisite: course M10 or Sociology 1.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "AM IND M10",
+          "SOC 1"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 138P",
+      "dept": "ANTHRO",
+      "number": "138P",
+      "title": "Field Methods in Cultural Anthropology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Introduction to skills and tools of data ascertainment through fieldwork in cultural anthropology. Emphasis on techniques, methods, and concepts of ethnographical research and how basic observational information is systematized for presentation, analysis, and cross-cultural comparison. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 143",
+      "dept": "ANTHRO",
+      "number": "143",
+      "title": "Economic Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3. Introduction to anthropological perspectives for interpretation of economic life and institutions. Economic facts to be placed in their larger social, political, and cultural contexts; examination of modes of production, distribution, and consumption of goods and services in their relation to social networks, power structures,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 145S",
+      "dept": "ANTHRO",
+      "number": "145S",
+      "title": "Culture, Gender, Sexuality",
+      "units": 4.0,
+      "description": "Lecture, three hours. Comparative analysis of role of environment, history, and culture in structuring of patterns of gender and sexuality. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 155",
+      "dept": "ANTHRO",
+      "number": "155",
+      "title": "Native American Languages and Their Speakers",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 4 or American Indian Studies M10. Introduction and comparative analysis of sociocultural aspects of language ideologies and language use in indigenous speech communities through Americas. Examination of cultural diversity of discourse practices for both everyday forms of speaking as well as special registers used in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 4 or American Indian Studies M10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "ANTHRO 4",
+          "AMIND ST M10"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 160A",
+      "dept": "ANTHRO",
+      "number": "160A",
+      "title": "Native North Americans",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Consideration of diversity of Native American societies north of Mexico, including their origins, formation, and development. Particular attention to subsistence systems and their relationship to social institutions and cultural practices, especially religion. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 162",
+      "dept": "ANTHRO",
+      "number": "162",
+      "title": "Ethnography of South America",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to ethnography of South American Indians, with special emphasis on Lowland South America. Survey of history and development of man and society in this world area and examination of exemplary cultures symptomatic of various levels of cultural achievement. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 3",
+      "dept": "ANTHRO",
+      "number": "3",
+      "title": "Culture and Society",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor\u2019s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 143"
+      ]
+    },
+    {
+      "course_id": "ANTHRO M145Q",
+      "dept": "ANTHRO",
+      "number": "M145Q",
+      "title": "Selected Topics in Gender Systems",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M154Q.) Lecture, three hours. Recommended preparation: prior anthropology or gender studies courses. Designed for junior/senior social sciences majors. Comparative study of women\u2019s lives and gender systems and cultures from anthropological perspective. Critical review of relevant theoretical issues using ethnography, case study, and presentations. Consult Schedule of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO M150",
+      "dept": "ANTHRO",
+      "number": "M150",
+      "title": "Language in Culture",
+      "units": 5.0,
+      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 4 or Linguistics 20.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ANTHRO 4",
+            "LING 20"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 100",
+      "dept": "ART HIS",
+      "number": "100",
+      "title": "Art Historical Theories and Methodologies",
+      "units": 4.0,
+      "description": "Seminar, three hours. Requisites: three courses from 20 through 31. Critical examination of history of discipline of art history, with studies of various theoretical, critical, and methodological approaches to visual arts. Letter grading.",
+      "prereqs_raw": "Requisites: three courses from 20 through 31.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ART HIS 20",
+            "ART HIS 21",
+            "ART HIS 22",
+            "ART HIS 23",
+            "ART HIS 24",
+            "ART HIS 25",
+            "ART HIS 26",
+            "ART HIS 27",
+            "ART HIS 28",
+            "ART HIS 29",
+            "ART HIS 30",
+            "ART HIS 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 137",
+      "dept": "ART HIS",
+      "number": "137",
+      "title": "Arts of Native North America",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of painting, sculpture, and other arts from Inuit to peoples of Caribbean and Southwestern U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C139B",
+      "dept": "ART HIS",
+      "number": "C139B",
+      "title": "Aztec Art and Architecture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 27. Painting, sculpture, architecture, and other arts of Nahuatl-speaking peoples of central Mexico, with emphasis on their social and historical context and major scholarly debates. Concurrently scheduled with course C239B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 27.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 27"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS CM139A",
+      "dept": "ART HIS",
+      "number": "CM139A",
+      "title": "Maya Art and Architecture",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M137.) Lecture, three hours. Requisite: course 27. Study of art of selected Maya-speaking cultures of southern Mesoamerica from circa 2000 BC to Conquest, with particular emphasis on history and iconography. Concurrently scheduled with course C239A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 27.",
+      "prereqs_parsed": {
+        "required": [
+          "ART HIS 27"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 130A",
+      "dept": "ASIA AM",
+      "number": "130A",
+      "title": "Chinese American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Chinese Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Chinese Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 131A",
+      "dept": "ASIA AM",
+      "number": "131A",
+      "title": "Japanese American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Japanese Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Japanese Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 132A",
+      "dept": "ASIA AM",
+      "number": "132A",
+      "title": "Korean American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Korean Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Korean Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 133",
+      "dept": "ASIA AM",
+      "number": "133",
+      "title": "Pilipino American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Pilipino Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Pilipino Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 134",
+      "dept": "ASIA AM",
+      "number": "134",
+      "title": "Vietnamese American Experience",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of immigration history, settlement patterns, and experiences of Vietnamese Americans. Examination of historical and contemporary sociocultural, economic, and political issues as they affect status of Vietnamese Americans and their community. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM M130B",
+      "dept": "ASIA AM",
+      "number": "M130B",
+      "title": "Chinese Immigrant Literature and Film",
+      "units": 4.0,
+      "description": "(Same as Chinese M153 and Comparative Literature M171.) Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. In-depth look at Chinese immigrant experience by reading literature and watching films. Theories of diaspora, gender, and race to inform thinking and discussion of relevant issues. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM M130C",
+      "dept": "ASIA AM",
+      "number": "M130C",
+      "title": "Chinese Immigration",
+      "units": 4.0,
+      "description": "(Same as Sociology M153.) Lecture, three hours; discussion, one hour. Survey of sociological studies of Chinese immigration, with focus on international context, organization, and institutions of Chinese America and its interactions with social environment. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 100",
+      "dept": "COM LIT",
+      "number": "100",
+      "title": "Introduction to Literary and Critical Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours. Preparation: satisfaction of Entry-Level Writing and College Writing requirements. Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc. Seminar-style introduction to discipline of comparative literature presented through series of texts illustrative of its formation and practice. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM LIT 1",
+            "COM LIT 2",
+            "ENGLISH 10",
+            "SPANISH 60"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 106",
+      "dept": "ENGL",
+      "number": "106",
+      "title": "Studies in Native American and Indigenous Literatures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of Native American and/or transnational indigenous literary and cultural expression. Topics may include oral traditions and histories, decolonization and sovereignty, identity and place in comparative perspectives, and multiple genres and forms such as novel,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 106A",
+      "dept": "ETHNMUS",
+      "number": "106A",
+      "title": "Traditional North American Indian Music",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Native North American traditional music and its role in tribal societies. California, Southwest, Pacific Northwest, Northern and Southern Plains, Great Lakes/Eastern Woodlands, and Southeastern culture areas included. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 106B",
+      "dept": "ETHNMUS",
+      "number": "106B",
+      "title": "Contemporary North American Indian Music",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Contemporary Native North American musical expression, including popular styles (folk, country, rock), intertribal Indian musical genres (powwow), syncretic religious music, and traditional/historic Pan-Indian music. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 128",
+      "dept": "FILM TV",
+      "number": "128",
+      "title": "Media and Ethnicity",
+      "units": 4.0,
+      "description": "Lecture, three hours. Utilizing Asian American experience, exploration of impact and uses of media on contemporary American ethnic communities. Role and techniques of media influence besides community utilization and production. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER 10",
+      "dept": "GENDER",
+      "number": "10",
+      "title": "Introduction to Gender Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to key concepts in study of sex and gender. Exploration of topics such as gender socialization, body image, sexualities, masculinities, and women\u2019s subordination. Special emphasis on interaction of gender with other identity markers such as race, nation, ethnicity, sexuality, class, and other differences.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GENDER 130",
+        "GENDER 168"
+      ]
+    },
+    {
+      "course_id": "GENDER 130",
+      "dept": "GENDER",
+      "number": "130",
+      "title": "Women of Color in the U.S.",
+      "units": 4.0,
+      "description": "Lecture/discussion, three hours. Requisite: course 10. Exploration of experiences of African American, Asian American, Chicana, and Native American women in order to assess intersections of race, ethnicity, class, and gender. Contemporary and/or historical and/or theoretical perspectives on racism and its relation to feminism as defined by women of color. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "GENDER 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER 168",
+      "dept": "GENDER",
+      "number": "168",
+      "title": "Feminist Economics in Globalizing World",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: satisfaction of Letters and Science Writing II requirement. Requisite: course 10. Designed for juniors/seniors. Overview of field of feminist economics, with emphasis on development experiences in globalizing world economy. Overview of gender inequalities such as gender division of labor in paid and unpaid work, patterns of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "GENDER 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M126",
+      "dept": "GEOG",
+      "number": "M126",
+      "title": "Environmental Change",
+      "units": 4.0,
+      "description": "(Same as Environment M126.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of natural forces producing environmental changes over past two million years. How present landscape reflects past conditions. Effects of environmental change on people. Increasing importance of human activity in environmental modification. Focus on impact of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 135A",
+      "dept": "HIST",
+      "number": "135A",
+      "title": "Europe and World: Exploration and Conquest, 1400 to 1700",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. First phase of European expansion in Americas, Africa, and Eurasia. Analysis of motives and methods of expansion, differing patterns of European settlement, including plantation economy, and development of new commercial networks, including Atlantic slave trade. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 149A",
+      "dept": "HIST",
+      "number": "149A",
+      "title": "North American Indian History, Precontact to 1830",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. History of Native Americans from contact to present, with emphasis on historical dimensions of culture change, Indian political processes, and continuity of Native American cultures. Focus on selected Indian peoples in each period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 149B",
+      "dept": "HIST",
+      "number": "149B",
+      "title": "North American Indian History, 1830 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. History of Native Americans from contact to present, with emphasis on historical dimensions of culture change, Indian political processes, and continuity of Native American cultures. Focus on selected Indian peoples in each period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 157B",
+      "dept": "HIST",
+      "number": "157B",
+      "title": "Indians of Colonial Mexico",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social and cultural history of Indians of Mexico, especially central Mexico, from time of European conquest until Mexican independence, with emphasis on internal view of Indian groups and patterns on basis of records produced by Indians themselves.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 114",
+      "dept": "LING",
+      "number": "114",
+      "title": "American Indigenous Linguistics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Strongly recommended preparation: course 20. Survey of genetic, areal, and typological classifications of American indigenous languages; writing systems for American indigenous languages; American indigenous languages in social and historical context. One or more languages may be investigated in detail. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 160",
+      "dept": "LING",
+      "number": "160",
+      "title": "Field Methods",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 102 or 103, 119A or 120A, 119B or 120B. Analysis of language unknown to members of class from data elicited from native speaker of that language. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 102 or 103, 119A or 120A, 119B or 120B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 102",
+            "LING 103"
+          ],
+          [
+            "LING 119A",
+            "LING 120A"
+          ],
+          [
+            "LING 119B",
+            "LING 120B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 170A",
+      "dept": "POL SCI",
+      "number": "170A",
+      "title": "Studies in Statistical Analysis of Political Data",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Enforced requisite: course 6 or 6R. Designed for juniors/seniors. Use of statistical methods to interpret data and test theories from various fields in political science and use of quantitative evidence in construction of convincing and truthful arguments related to world\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 or 6R.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "POL SCI 6",
+            "POL SCI 6R"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 40",
+      "dept": "POL SCI",
+      "number": "40",
+      "title": "Introduction to American Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Basic institutions and processes of democratic politics. Treatment of themes such as constitutionalism, representation, participation, and leadership coupled with particular emphasis on the American case. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 106A",
+      "dept": "SOCIOL",
+      "number": "106A",
+      "title": "Field Research Methods I",
+      "units": 6.0,
+      "description": "Lecture, two hours; discussion, two hours; fieldwork, eight to 10 hours. Research practicum in which students write field notes on their experiences in and observations of intensive internship field placement. Readings focus on fieldwork roles and relations, observing and describing, writing field notes, field interviewing, ethical issues, and preliminary data\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 113",
+      "dept": "SOCIOL",
+      "number": "113",
+      "title": "Statistical and Computer Methods for Social Research",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Requisite: Statistics 10. Continuation of Statistics 10, covering more advanced statistical techniques such as multiple regression, analysis of variance, or factor analysis. Content varies. Students learn how to use computer and write papers analyzing prepared data sets. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Statistics 10.",
+      "prereqs_parsed": {
+        "required": [
+          "STAT 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 154",
+      "dept": "SOCIOL",
+      "number": "154",
+      "title": "Race and Ethnicity in Latin America",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in political, economic, and social lives of Latin American nations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 156",
+      "dept": "SOCIOL",
+      "number": "156",
+      "title": "Race and Ethnicity in American Life",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in the U.S., including interplay between racial and ethnic structures and meanings. Special attention to comparison of African American and European American experiences and to transformation of Asian American and Latino communities and the nation generally, wrought by renewal\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 157",
+      "dept": "SOCIOL",
+      "number": "157",
+      "title": "Social Stratification",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Analysis of American social structure in terms of evaluational differentiation. Topics include criteria for differentiation, bases for evaluation, types of stratification, composition of strata and status systems, mobility, consequences of stratification, and problems of methodology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M162",
+      "dept": "SOCIOL",
+      "number": "M162",
+      "title": "Sociology of Gender",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M162.) Lecture, three hours; discussion, one hour. Enforced requisite: course 1 or Gender Studies 10. Examination of processes by which gender is socially constructed. Topics include distinction between biological sex and sociological gender, causes and consequences of gender inequality, and recent changes in gender relations in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 1 or Gender Studies 10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SOCIOL 1",
+            "GENDER ST 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 12",
+      "dept": "STATS",
+      "number": "12",
+      "title": "Introduction to Statistical Methods for Geography and Environmental Studies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 103F",
+      "dept": "THEATER",
+      "number": "103F",
+      "title": "Native American Theater",
+      "units": 5.0,
+      "description": "Lecture, three hours. Study of American Indian theater as evolving art form. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THEATER 107",
+      "dept": "THEATER",
+      "number": "107",
+      "title": "Drama of Diversity",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Investigation of diversity in American society as manifested in dramatic works and theatrical presentations. P/NP or Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 195",
+      "dept": "WL ARTS",
+      "number": "195",
+      "title": "Community or Corporate Internships in World Arts and Cultures",
+      "units": 2.0,
+      "description": "Tutorial, six hours. Internship in supervised setting in community agency or business. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

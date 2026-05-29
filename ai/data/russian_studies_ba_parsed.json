@@ -1,0 +1,909 @@
+{
+  "major_id": "russian-studies-ba",
+  "major_name": "Russian Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/RussianStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "RUSSN 6",
+            "RUSSN 20"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "RUSSN 25",
+            "RUSSN 25W",
+            "RUSSN 90A",
+            "RUSSN 90B",
+            "RUSSN 90BW"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 3,
+          "courses": [
+            "RUSSN 100A",
+            "RUSSN 100B",
+            "RUSSN 100C",
+            "RUSSN 101A",
+            "RUSSN 101B",
+            "RUSSN 101C",
+            "RUSSN 102A",
+            "RUSSN 102B",
+            "RUSSN 102C",
+            "RUSSN 103A",
+            "RUSSN 103B",
+            "RUSSN 103C",
+            "RUSSN 107A",
+            "RUSSN 107B",
+            "RUSSN 107C",
+            "RUSSN 108"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "RUSSN 102A",
+            "RUSSN 102B",
+            "RUSSN 102C",
+            "RUSSN 103A",
+            "RUSSN 103B",
+            "RUSSN 103C",
+            "RUSSN 107A",
+            "RUSSN 107B",
+            "RUSSN 107C",
+            "RUSSN 108",
+            "RUSSN M118",
+            "RUSSN 119",
+            "RUSSN 120",
+            "RUSSN 121",
+            "RUSSN 122",
+            "RUSSN C124C",
+            "RUSSN C124D",
+            "RUSSN CM124G",
+            "RUSSN C124N",
+            "RUSSN C124P",
+            "RUSSN C124T",
+            "RUSSN 129"
+          ]
+        },
+        {
+          "choose_n": 4,
+          "courses": [
+            "HIST M127A",
+            "HIST 127B",
+            "HIST 127C",
+            "HIST 127D",
+            "POL SCI 156A",
+            "SLAVC CM114"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SLAVC 191TA",
+        "SLAVC 191TB",
+        "SLAVC 191TC"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "HIST": [
+      "HIST 127B",
+      "HIST 127C",
+      "HIST 127D",
+      "HIST M127A"
+    ],
+    "POL SCI": [
+      "POL SCI 156A"
+    ],
+    "RUSSN": [
+      "RUSSN 100A",
+      "RUSSN 100B",
+      "RUSSN 100C",
+      "RUSSN 101A",
+      "RUSSN 101B",
+      "RUSSN 101C",
+      "RUSSN 102A",
+      "RUSSN 102B",
+      "RUSSN 102C",
+      "RUSSN 103A",
+      "RUSSN 103B",
+      "RUSSN 103C",
+      "RUSSN 107A",
+      "RUSSN 107B",
+      "RUSSN 107C",
+      "RUSSN 108",
+      "RUSSN 119",
+      "RUSSN 120",
+      "RUSSN 121",
+      "RUSSN 122",
+      "RUSSN 129",
+      "RUSSN 20",
+      "RUSSN 25",
+      "RUSSN 25W",
+      "RUSSN 6",
+      "RUSSN 90A",
+      "RUSSN 90B",
+      "RUSSN 90BW",
+      "RUSSN C124C",
+      "RUSSN C124D",
+      "RUSSN C124N",
+      "RUSSN C124P",
+      "RUSSN C124T",
+      "RUSSN CM124G",
+      "RUSSN M118"
+    ],
+    "SLAVC": [
+      "SLAVC 191TA",
+      "SLAVC 191TB",
+      "SLAVC 191TC",
+      "SLAVC 198A",
+      "SLAVC 198B",
+      "SLAVC 198C",
+      "SLAVC CM114"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "HIST 127B",
+      "dept": "HIST",
+      "number": "127B",
+      "title": "History of Russia: Imperial Russia from Peter the Great to Nicholas II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Westernization of state and society; centralization at home and expansion abroad; peasant problem; beginnings of industrialization; movements of political and social protest; non-Russian peoples; political reforms and social changes; Revolution of 1905; Russia in World War I; fall of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 127C",
+      "dept": "HIST",
+      "number": "127C",
+      "title": "History of Russia: Revolutionary Russia and Soviet Union",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Revolutions of 1917, Civil War, consolidation of Bolshevik Regime; succession crisis and ascendancy of Stalin, collectivization and industrialization; foreign policy and World War II; death of Stalin, de-Stalinization, developments since; stagnation or stability? P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 127D",
+      "dept": "HIST",
+      "number": "127D",
+      "title": "History of Russia: Culture and Society in Imperial Russia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course 127B or Russian 90A or 119. Designed for juniors/seniors. Thematic examination of culture and society in Russia during era of state-sponsored Westernization (1689 to 1917). Topics include nobility, peasantry, and village life from serfdom to postemancipation era, urban society,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M127A",
+      "dept": "HIST",
+      "number": "M127A",
+      "title": "History of Russia, Origins to Rise of Muscovy",
+      "units": 4.0,
+      "description": "(Same as Russian M118.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors.\u00a0Kievan Rus\u2019 and its culture, Appanage principalities and towns; Mongol invasion; unification of Russian state by Muscovy, Autocracy and its Servitors; serfdom. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 156A",
+      "dept": "POL SCI",
+      "number": "156A",
+      "title": "Government and Politics of Post-Communist States: Russia",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Intensive study of institutions and political development in Russia, with special attention to legacy of Soviet Union. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 100A",
+      "dept": "RUSSN",
+      "number": "100A",
+      "title": "Literacy in Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Course 100A or Russian placement test is enforced requisite to 100B; course 100B or Russian placement test is enforced requisite to 100C. For students who speak Russian but have difficulty reading and writing. Focus on improving reading and writing skills, increasing vocabulary, and developing speaking skills required\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "RUSSN 100B"
+      ]
+    },
+    {
+      "course_id": "RUSSN 100B",
+      "dept": "RUSSN",
+      "number": "100B",
+      "title": "Literacy in Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100A or Russian placement test. For students who speak Russian but have difficulty reading and writing. Focus on improving reading and writing skills, increasing vocabulary, and developing speaking skills required for academic discourse. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100A or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 100A",
+            "Russian placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 100C"
+      ]
+    },
+    {
+      "course_id": "RUSSN 100C",
+      "dept": "RUSSN",
+      "number": "100C",
+      "title": "Literacy in Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100B or Russian placement test. For students who speak Russian but have difficulty reading and writing. Focus on improving reading and writing skills, increasing vocabulary, and developing speaking skills required for academic discourse. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100B or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 100B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 101A",
+      "dept": "RUSSN",
+      "number": "101A",
+      "title": "Third-Year Russian",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: course 6 or Russian placement test. Course 101A or Russian placement test is enforced requisite to 101B; course 101B or Russian placement test is enforced requisite to 101C. Advanced grammar, reading, and conversation, with strong multimedia component. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 6 or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 6",
+            "Russian placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 101B"
+      ]
+    },
+    {
+      "course_id": "RUSSN 101B",
+      "dept": "RUSSN",
+      "number": "101B",
+      "title": "Third-Year Russian",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: course 101A or Russian placement test. Advanced grammar, reading, and conversation, with strong multimedia component. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101A or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 101A",
+            "Russian placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 101C"
+      ]
+    },
+    {
+      "course_id": "RUSSN 101C",
+      "dept": "RUSSN",
+      "number": "101C",
+      "title": "Third-Year Russian",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: course 101B or Russian placement test. Advanced grammar, reading, and conversation, with strong multimedia component. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101B or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 101B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 102A",
+      "dept": "RUSSN",
+      "number": "102A",
+      "title": "Topics in Advanced/Superior Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Russian placement test. Course 102A or Russian placement test is enforced requisite to 102B; course 102B or Russian placement test is enforced requisite to 102C. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101C or Russian placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "RUSSN 102B"
+      ]
+    },
+    {
+      "course_id": "RUSSN 102B",
+      "dept": "RUSSN",
+      "number": "102B",
+      "title": "Topics in Advanced/Superior Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 102A or Russian placement test. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction and nonfiction, films, and videos, and use of Internet. May be taken independently and may be repeated for credit. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 102A or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 102A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 102C"
+      ]
+    },
+    {
+      "course_id": "RUSSN 102C",
+      "dept": "RUSSN",
+      "number": "102C",
+      "title": "Topics in Advanced/Superior Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 102B or Russian placement test. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction and nonfiction, films, and videos, and use of Internet. May be taken independently and may be repeated for credit. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 102B or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 102B",
+            "Russian placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 103A",
+      "dept": "RUSSN",
+      "number": "103A",
+      "title": "Russian for Native and Near-Native Speakers: Russian National Identity",
+      "units": 4.0,
+      "description": "Lecture, three hours. Course 103A is not requisite to 103B, which is not requisite to 103C. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. Readings in literature, philosophy, criticism, film. May be repeated for credit with topic and/or instructor\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 103B",
+      "dept": "RUSSN",
+      "number": "103B",
+      "title": "Russian for Native and Near-Native Speakers: Literature and Film",
+      "units": 4.0,
+      "description": "Lecture, three hours. Course 103A is not requisite to 103B. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. Film adaptations of Russian literature. Readings and screenings. May be repeated for credit with topic and/or instructor change. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 103C",
+      "dept": "RUSSN",
+      "number": "103C",
+      "title": "Russian for Native and Near-Native Speakers: Special Topics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Course 103B is not requisite to 103C. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 107A",
+      "dept": "RUSSN",
+      "number": "107A",
+      "title": "Russian for Social and Cultural Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: third-year Russian. Lectures and readings in Russian. Exploration of texts and media in social sciences and culture, with emphasis on press, television, and Internet. Each course may be taken independently and may be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 107B",
+      "dept": "RUSSN",
+      "number": "107B",
+      "title": "Russian for Social and Cultural Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: third-year Russian. Lectures and readings in Russian. Exploration of texts and media in social sciences and culture, with emphasis on press, television, and Internet. Each course may be taken independently and may be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 107C",
+      "dept": "RUSSN",
+      "number": "107C",
+      "title": "Russian for Social and Cultural Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: third-year Russian. Lectures and readings in Russian. Exploration of texts and media in social sciences and culture, with emphasis on press, television, and Internet. Each course may be taken independently and may be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 108",
+      "dept": "RUSSN",
+      "number": "108",
+      "title": "Russian for Business: Language and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Discussion of economics and business in Russia, language of advertising, business and official correspondence. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 119",
+      "dept": "RUSSN",
+      "number": "119",
+      "title": "Golden Age and Great Realists",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Russian majors are advised to take this course in their sophomore year. Lectures and readings in English. Survey of 19th-century Russian literature (Pushkin, Gogol, Tolstoy, Dostoevsky, Chekhov) in its cultural, political, and social contexts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 120",
+      "dept": "RUSSN",
+      "number": "120",
+      "title": "Literature and Revolution",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Russian majors are advised to take this course in their sophomore year. Lectures and readings in English. Major works of the 20th century (Belyi, Pasternak, Bulgakov, Solzhenitsyn, and others) from prerevolutionary avant-garde to the present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 121",
+      "dept": "RUSSN",
+      "number": "121",
+      "title": "Russian Pop Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Overview of Russian popular culture today, with examination of status of Russia\u2019s classic(al) traditions for artists and audiences working in modern Russia. Death of one tradition and attempts at creation of another lead away from written word into neighboring\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 122",
+      "dept": "RUSSN",
+      "number": "122",
+      "title": "Siberia",
+      "units": 5.0,
+      "description": "Lecture, three hours. Introductory survey in which current cultural and ecological issues are situated in their geographical and historical background, including analysis of Siberian human geography before first contact with European colonizers and development of modes of interaction among different cultural groups. Reading in English of selection of literary works\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 129",
+      "dept": "RUSSN",
+      "number": "129",
+      "title": "Animation and Music Video",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Lectures and readings in English. Humanities have recently passed through so-called visual turn: traditional emphases on language(s) in field have been reconsidered in light of society\u2019s increasingly visual workings. New attitude toward our own changing culture (i.e., toward its future) has\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 20",
+      "dept": "RUSSN",
+      "number": "20",
+      "title": "Intensive Intermediate Russian",
+      "units": 12.0,
+      "description": "Lecture, 19 hours. Intermediate instruction in reading, writing, and speaking Russian equivalent to courses 4, 5, 6. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 25",
+      "dept": "RUSSN",
+      "number": "25",
+      "title": "Great Russian Novel",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 25W. Designed for nonmajors. Knowledge of Russian not required. Study of major works by great 19th-century Russian novelists. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 25W",
+      "dept": "RUSSN",
+      "number": "25W",
+      "title": "Great Russian Novel",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 25. Designed for nonmajors. Knowledge of Russian not required. Study of major works by great 19th-century Russian novelists. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 6",
+      "dept": "RUSSN",
+      "number": "6",
+      "title": "Intermediate Russian",
+      "units": 5.0,
+      "description": "Lecture, five hours; laboratory, one hour. Requisite: course 5 or Russian placement test. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5 or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 5",
+            "Russian placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 101A"
+      ]
+    },
+    {
+      "course_id": "RUSSN 90A",
+      "dept": "RUSSN",
+      "number": "90A",
+      "title": "Introduction to Russian Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to Russian culture and society from earliest times to 1917. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 90B",
+      "dept": "RUSSN",
+      "number": "90B",
+      "title": "Russian Culture in 20th Century",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 90BW. Survey of literature, theater, cinema, television, press, music, and arts. Emphasis on contemporary period, with constant reference to Russian and early Soviet antecedents. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 90BW",
+      "dept": "RUSSN",
+      "number": "90BW",
+      "title": "Russian Culture in 20th Century",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 90B. Survey of literature, theater, cinema, television, press, music, and arts. Emphasis on contemporary period, with constant reference to Russian and early Soviet antecedents. Weekly discussions focus on varied approaches\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124C",
+      "dept": "RUSSN",
+      "number": "C124C",
+      "title": "Studies in Russian Literature: Chekhov",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Survey of short stories, novellas, and major plays (The Seagull, Uncle Vanya, Three Sisters, The Cherry Orchard), with discussion of Russian and American productions. Concurrently scheduled with course C224C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124D",
+      "dept": "RUSSN",
+      "number": "C124D",
+      "title": "Studies in Russian Literature: Dostoevsky",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. In-depth reading of major fictional works such as Crime and Punishment, Notes from the Underground, and The Brothers Karamazov. Concurrently scheduled with course C224D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124N",
+      "dept": "RUSSN",
+      "number": "C124N",
+      "title": "Studies in Russian Literature: Nabokov",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Russian novelist (The Gift), American novelist (Lolita), autobiographer (Speak Memory), and critic. Concurrently scheduled with course C277. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124P",
+      "dept": "RUSSN",
+      "number": "C124P",
+      "title": "Studies in Russian Literature: Pushkin",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Major works in all genres, including lyric poetry, narrative poems, plays, prose fiction, and selected letters. Concurrently scheduled with course C224P. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124T",
+      "dept": "RUSSN",
+      "number": "C124T",
+      "title": "Studies in Russian Literature: Tolstoy",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Early and late stories and novellas, excerpts from the diaries and one major novel such as War and Peace or Anna Karenina. Concurrently scheduled with course C224T. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN CM124G",
+      "dept": "RUSSN",
+      "number": "CM124G",
+      "title": "Studies in Little Russian Literature: Gogol",
+      "units": 4.0,
+      "description": "(Formerly numbered C124G.) (Same as Ukrainian CM124G.) Lecture, three hours. Lectures and readings in English. Short stories, novel Dead Souls, and selected plays. Concurrently scheduled with course CM224G. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN M118",
+      "dept": "RUSSN",
+      "number": "M118",
+      "title": "History of Russia, Origins to Rise of Muscovy",
+      "units": 4.0,
+      "description": "(Same as History M127A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Kievan Rus\u2019 and its culture, Appanage principalities and towns; Mongol invasion; unification of Russian state by Muscovy, Autocracy and its Servitors; serfdom. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SLAVC 191TA",
+      "dept": "SLAVC",
+      "number": "191TA",
+      "title": "Senior Capstone Thesis in Slavic Languages and Literatures",
+      "units": 2.0,
+      "description": "Seminar, three hours. Limited to senior departmental majors. Planning and completion of senior capstone thesis. Introduction to research methods and presentation skills; use of student target language for research required. Verbal and written presentations required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SLAVC 191TB"
+      ]
+    },
+    {
+      "course_id": "SLAVC 191TB",
+      "dept": "SLAVC",
+      "number": "191TB",
+      "title": "Senior Capstone Thesis in Slavic Languages and Literatures",
+      "units": 2.0,
+      "description": "Seminar, three hours. Enforced requisite: course 191TA. Limited to senior departmental majors. Editing and completion of senior capstone thesis. Use of student target language for research required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 191TA.",
+      "prereqs_parsed": {
+        "required": [
+          "SLAVC 191TA"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SLAVC 191TC"
+      ]
+    },
+    {
+      "course_id": "SLAVC 191TC",
+      "dept": "SLAVC",
+      "number": "191TC",
+      "title": "Senior Capstone Thesis in Slavic Languages and Literatures",
+      "units": 2.0,
+      "description": "Seminar, three hours. Enforced requisite: course 191TB. Limited to senior departmental majors. Editing and completion of senior capstone thesis. Use of student target language for research required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 191TB.",
+      "prereqs_parsed": {
+        "required": [
+          "SLAVC 191TB"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SLAVC 198A",
+      "dept": "SLAVC",
+      "number": "198A",
+      "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Limited to senior departmental honors program students. Development of research bibliography and survey of literature in field of Slavic, East European, and Eurasian languages and cultures. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to report on progress and discuss readings. Individual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SLAVC 198B",
+        "SLAVC 198C"
+      ]
+    },
+    {
+      "course_id": "SLAVC 198B",
+      "dept": "SLAVC",
+      "number": "198B",
+      "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisite: course 198A. Limited to senior departmental honors program students. Research and writing field of Slavic, East European, and Eurasian languages and cultures under direct supervision of faculty mentor. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to report on their research,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "SLAVC 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SLAVC 198C"
+      ]
+    },
+    {
+      "course_id": "SLAVC 198C",
+      "dept": "SLAVC",
+      "number": "198C",
+      "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisites: courses 198A, 198B. Limited to senior departmental honors program students. Completion of honors thesis in field of Slavic, East European, and Eurasian languages and cultures. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to share drafts and revise writing. Thesis must\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 198A, 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "SLAVC 198A",
+          "SLAVC 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SLAVC CM114",
+      "dept": "SLAVC",
+      "number": "CM114",
+      "title": "Teaching and Learning of Heritage Languages",
+      "units": 4.0,
+      "description": "(Same as Asian CM124 and Near Eastern Languages CM114.) Lecture, three hours. Consideration of issues relevant to heritage language learners (HLL) and to heritage language (HL) instruction. Readings and discussion on such topics as definitions of HLs and HLLs; linguistic, demographic, sociolinguistic, and sociocultural profile of HLLs, particularly HL groups\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

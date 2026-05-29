@@ -1,0 +1,172 @@
+{
+  "major_id": "philosophy-ba",
+  "major_name": "Philosophy BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/PhilosophyBA",
+  "requirements": [
+    {
+      "category": "PHILOS",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PHILOS 100A",
+        "PHILOS 100B",
+        "PHILOS 100C",
+        "PHILOS 198A",
+        "PHILOS 198B",
+        "PHILOS 21",
+        "PHILOS 22",
+        "PHILOS 31",
+        "PHILOS 7"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "PHILOS": [
+      "PHILOS 100A",
+      "PHILOS 100B",
+      "PHILOS 100C",
+      "PHILOS 198A",
+      "PHILOS 198B",
+      "PHILOS 21",
+      "PHILOS 22",
+      "PHILOS 31",
+      "PHILOS 7"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "PHILOS 100A",
+      "dept": "PHILOS",
+      "number": "100A",
+      "title": "History of Greek Philosophy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: one philosophy course. Survey of origins of Greek metaphysics from pre-Socratics through Plato and Aristotle. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PHILOS 100B"
+      ]
+    },
+    {
+      "course_id": "PHILOS 100B",
+      "dept": "PHILOS",
+      "number": "100B",
+      "title": "Medieval and Early Modern Philosophy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: one philosophy course. Strongly recommended requisite: course 100A. Survey of development and transformation of Greek metaphysics and epistemology within context of philosophical theology, and transition from medieval to early modern period. Special emphasis on Augustine, Anselm, Aquinas, and Descartes. P/NP or letter grading.",
+      "prereqs_raw": "Strongly recommended requisite: course 100A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": [
+          "PHILOS 100A"
+        ]
+      },
+      "prereq_for": [
+        "PHILOS 100C"
+      ]
+    },
+    {
+      "course_id": "PHILOS 100C",
+      "dept": "PHILOS",
+      "number": "100C",
+      "title": "History of Modern Philosophy, 1650 to 1800",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: one philosophy course. Strongly recommended requisite: course 100B. Courses 100A, 100B, and 100C should be taken in immediately successive terms if possible. Survey of development of metaphysics and theory of knowledge from 1650 to 1800, including Locke and/or Berkeley, Malebranche and/or Leibniz, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Strongly recommended requisite: course 100B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": [
+          "PHILOS 100B"
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 198A",
+      "dept": "PHILOS",
+      "number": "198A",
+      "title": "Honors Research in Philosophy",
+      "units": 2.0,
+      "description": "Tutorial, two hours. Limited to junior/senior philosophy honors program students. To be taken in conjunction with one upper-division philosophy lecture course, either concurrently or in subsequent term, under direct supervision of lecture course instructor. Advanced work related to lecture course, further reading, and preparation of 12- to 15-page paper representing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 198B",
+      "dept": "PHILOS",
+      "number": "198B",
+      "title": "Honors Research in Philosophy",
+      "units": 2.0,
+      "description": "Tutorial, two hours. Limited to junior/senior philosophy honors program students. To be taken in conjunction with one upper-division philosophy lecture course, either concurrently or in subsequent term, under direct supervision of lecture course instructor. Advanced work related to lecture course, further reading, and preparation of 12- to 15-page paper representing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 21",
+      "dept": "PHILOS",
+      "number": "21",
+      "title": "Skepticism and Rationality",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Can we know anything with certainty? How can we justify any of our beliefs? Introduction to study of these and related questions through works of some great philosophers of modern period, such as Descartes, Hume, Leibniz, or Berkeley. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 22",
+      "dept": "PHILOS",
+      "number": "22",
+      "title": "Introduction to Ethical Theory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 22W. Recommended or required for many upper-division courses in Group III. Systematic introduction to ethical theory, including discussion of egoism, utilitarianism, justice, responsibility, meaning of ethical terms, relativism, etc. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 31",
+      "dept": "PHILOS",
+      "number": "31",
+      "title": "Logic, First Course",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Recommended for students who plan to pursue more advanced studies in logic. Elements of symbolic logic, sentential and quantificational; forms of reasoning and structure of language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 7",
+      "dept": "PHILOS",
+      "number": "7",
+      "title": "Introduction to Philosophy of Mind",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introductory study of philosophical issues about nature of the mind and its relation to the body, including materialism, functionalism, behaviorism, determinism and free will, nature of psychological knowledge. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

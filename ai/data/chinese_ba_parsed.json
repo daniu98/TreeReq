@@ -1,0 +1,1057 @@
+{
+  "major_id": "chinese-ba",
+  "major_name": "Chinese BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/ChineseBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "CHIN 6",
+        "CHIN 6A",
+        "CHIN 10"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ASIAN 30",
+            "CHIN 50",
+            "CHIN M60",
+            "CHIN M60W",
+            "CHIN 70"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 5,
+          "courses": [
+            "CHIN 100A",
+            "CHIN 100B",
+            "CHIN 100C",
+            "CHIN 100I",
+            "CHIN 101A",
+            "CHIN 101B",
+            "CHIN 102A",
+            "CHIN C107A",
+            "CHIN C120",
+            "CHIN 130A",
+            "CHIN 130B",
+            "CHIN 135",
+            "CHIN 110A",
+            "CHIN 110B",
+            "CHIN 110C",
+            "CHIN 140A",
+            "CHIN 140B",
+            "CHIN 140C",
+            "CHIN 140D",
+            "CHIN 165"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHIN 130A",
+            "CHIN 130B",
+            "CHIN 131",
+            "CHIN 135",
+            "CHIN 140A",
+            "CHIN 140B",
+            "CHIN 140C",
+            "CHIN 140D",
+            "CHIN C150A",
+            "CHIN C150B",
+            "CHIN 151",
+            "CHIN 152",
+            "CHIN M153"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "CHIN C138",
+            "CHIN 139",
+            "CHIN 154",
+            "CHIN 155",
+            "CHIN C156",
+            "CHIN CM160",
+            "CHIN 165",
+            "CHIN 174",
+            "CHIN C175",
+            "CHIN 176",
+            "CHIN 180",
+            "CHIN 184",
+            "CHIN 185",
+            "CHIN 186",
+            "CHIN 187",
+            "CHIN 191A",
+            "CHIN 191B"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ASIAN": [
+      "ASIAN 198A",
+      "ASIAN 198B",
+      "ASIAN 198C",
+      "ASIAN 30"
+    ],
+    "CHIN": [
+      "CHIN 10",
+      "CHIN 100A",
+      "CHIN 100B",
+      "CHIN 100C",
+      "CHIN 100I",
+      "CHIN 101A",
+      "CHIN 101B",
+      "CHIN 102A",
+      "CHIN 110A",
+      "CHIN 110B",
+      "CHIN 110C",
+      "CHIN 130A",
+      "CHIN 130B",
+      "CHIN 131",
+      "CHIN 135",
+      "CHIN 139",
+      "CHIN 140A",
+      "CHIN 140B",
+      "CHIN 140C",
+      "CHIN 140D",
+      "CHIN 151",
+      "CHIN 152",
+      "CHIN 154",
+      "CHIN 155",
+      "CHIN 165",
+      "CHIN 174",
+      "CHIN 176",
+      "CHIN 180",
+      "CHIN 184",
+      "CHIN 185",
+      "CHIN 186",
+      "CHIN 187",
+      "CHIN 191A",
+      "CHIN 191B",
+      "CHIN 50",
+      "CHIN 6",
+      "CHIN 6A",
+      "CHIN 70",
+      "CHIN C107A",
+      "CHIN C120",
+      "CHIN C138",
+      "CHIN C150A",
+      "CHIN C150B",
+      "CHIN C156",
+      "CHIN C175",
+      "CHIN CM160",
+      "CHIN M153",
+      "CHIN M60",
+      "CHIN M60W"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ASIAN 198A",
+      "dept": "ASIAN",
+      "number": "198A",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Preparation: one undergraduate departmental seminar. Limited to junior/senior departmental majors. Development of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ASIAN 198B"
+      ]
+    },
+    {
+      "course_id": "ASIAN 198B",
+      "dept": "ASIAN",
+      "number": "198B",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Enforced requisite: course 198A. Limited to junior/senior departmental majors. Continuation of work initiated in course 198A. Presentation of research and relevant progress to supervising faculty member. May be repeated for credit. Individual contract required. In Progress grading (credit to be given only on completion of course 198C).",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIAN 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ASIAN 198C"
+      ]
+    },
+    {
+      "course_id": "ASIAN 198C",
+      "dept": "ASIAN",
+      "number": "198C",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Enforced requisite: course 198B. Limited to junior/senior departmental majors. Completion of research developed in courses 198A, 198B. Presentation of honors project to supervising faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIAN 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 30",
+      "dept": "ASIAN",
+      "number": "30",
+      "title": "Languages and Cultures of Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Comparative perspective on Asian languages, with emphasis on three major East Asian languages\u2014Chinese, Japanese, and Korean\u2014to show what they share and how they differ in terms of linguistic features, historical development, and larger cultural settings in which these three languages are used. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 10",
+      "dept": "CHIN",
+      "number": "10",
+      "title": "Intermediate Modern Chinese: Intensive",
+      "units": 15.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Recommended preparation: course 3, 3A, or 8, or Chinese placement test or courses equivalent to elementary-level Chinese. Second-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Intensive course equivalent to courses 4, 5,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CHIN 100A",
+        "CHIN 100I",
+        "CHIN 102A"
+      ]
+    },
+    {
+      "course_id": "CHIN 100A",
+      "dept": "CHIN",
+      "number": "100A",
+      "title": "Advanced Modern Chinese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 6 or 10 with grade of C or better or Chinese placement test. Course 100A with grade of C or better or Chinese placement test is enforced requisite to 100B; course 100B with grade of C or better or Chinese placement\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 or 10 with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 6",
+            "CHIN 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHIN 100B"
+      ]
+    },
+    {
+      "course_id": "CHIN 100B",
+      "dept": "CHIN",
+      "number": "100B",
+      "title": "Advanced Modern Chinese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100A with grade of C or better or Chinese placement test. Third-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Materials selected from contemporary Chinese publications, with emphasis on social\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100A with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHIN 100C",
+        "CHIN 130A"
+      ]
+    },
+    {
+      "course_id": "CHIN 100C",
+      "dept": "CHIN",
+      "number": "100C",
+      "title": "Advanced Modern Chinese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B with grade of C or better or Chinese placement test. Third-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Materials selected from contemporary Chinese publications, with emphasis on social\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100B with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 100B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHIN 101A",
+        "CHIN 101B",
+        "CHIN 135"
+      ]
+    },
+    {
+      "course_id": "CHIN 100I",
+      "dept": "CHIN",
+      "number": "100I",
+      "title": "Advanced Modern Chinese: Intensive",
+      "units": 12.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 6 or 10 with grade of C or better or Chinese placement test. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Intensive course equivalent to courses 100A, 100B, and 100C. Materials\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 or 10 with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 6",
+            "CHIN 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHIN 101A",
+        "CHIN 101B",
+        "CHIN 135"
+      ]
+    },
+    {
+      "course_id": "CHIN 101A",
+      "dept": "CHIN",
+      "number": "101A",
+      "title": "Advanced Readings in Modern Chinese",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, two hours. Requisite: course 100C or 100F or 100I or Chinese placement test. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research on China.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 100C or 100F or 100I or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 100C",
+            "CHIN 100F",
+            "CHIN 100I"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 101B",
+      "dept": "CHIN",
+      "number": "101B",
+      "title": "Advanced Readings in Modern Chinese",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, two hours. Requisite: course 100C or 100F or 100I or Chinese placement test. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research on China.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 100C or 100F or 100I or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CHIN 100C",
+          "CHIN 100F",
+          "CHIN 100I"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHIN C107A"
+      ]
+    },
+    {
+      "course_id": "CHIN 102A",
+      "dept": "CHIN",
+      "number": "102A",
+      "title": "Advanced Chinese for International Business",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 6 or 10 with grade C or better or Chinese placement test. Not open to native speakers. Designed to improve student language skills in service of business practice and ground language learning in authentic social cultural settings. Focus on oral and written\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 6 or 10 with grade C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 6",
+            "CHIN 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 110A",
+      "dept": "CHIN",
+      "number": "110A",
+      "title": "Introduction to Classical Chinese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3 or Chinese placement test. Course 110A is enforced requisite to 110B, which is enforced requisite to 110C. Grammar and readings in selected premodern texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3 or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CHIN 110B"
+      ]
+    },
+    {
+      "course_id": "CHIN 110B",
+      "dept": "CHIN",
+      "number": "110B",
+      "title": "Introduction to Classical Chinese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 110A. Grammar and readings in selected premodern texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 110A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHIN 110C"
+      ]
+    },
+    {
+      "course_id": "CHIN 110C",
+      "dept": "CHIN",
+      "number": "110C",
+      "title": "Introduction to Classical Chinese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 110B. Grammar and readings in selected premodern texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110B.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 110B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHIN 140A",
+        "CHIN 140C",
+        "CHIN 140D"
+      ]
+    },
+    {
+      "course_id": "CHIN 130A",
+      "dept": "CHIN",
+      "number": "130A",
+      "title": "Readings in Modern Chinese Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Chinese placement test. Readings and discussion of works of modern Chinese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100B or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 100B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 130B",
+      "dept": "CHIN",
+      "number": "130B",
+      "title": "Readings in Modern Chinese Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Chinese placement test. Readings and discussion of works of modern Chinese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100B or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 131",
+      "dept": "CHIN",
+      "number": "131",
+      "title": "World Sinophone Literature: Theories and Texts",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Readings in original language. Exploration of Sinophone as analytic category for literature written in Sinitic languages. Theories of Sinophone and literary texts from Taiwan, Hong Kong, Malaysia, China, and elsewhere. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 135",
+      "dept": "CHIN",
+      "number": "135",
+      "title": "Chinese-Language Film and Culture",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour; film viewing, three hours. Enforced requisite: course 100C or 100I or Chinese placement test. Viewing and discussion of Chinese films, along with relevant readings in Chinese. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or 100I or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 100C",
+            "CHIN 100I"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 139",
+      "dept": "CHIN",
+      "number": "139",
+      "title": "Gardens in China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: course 50. Interdisciplinary survey of historic and literary gardens in China, with focus on English translations of texts by native writers and recent Western scholarship. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 140A",
+      "dept": "CHIN",
+      "number": "140A",
+      "title": "Readings in Classical Chinese Literature: Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 110C. Advanced classical Chinese. Readings and discussion of works of premodern Chinese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110C.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 110C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 140B",
+      "dept": "CHIN",
+      "number": "140B",
+      "title": "Readings in Classical Chinese Literature: Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 110C. Advanced classical Chinese. Readings and discussion of works of premodern Chinese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 140C",
+      "dept": "CHIN",
+      "number": "140C",
+      "title": "Readings in Classical Chinese Literature: Fiction",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 110C. Advanced classical Chinese. Readings and discussion of works of premodern Chinese literature. Each course may be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110C.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 110C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 140D",
+      "dept": "CHIN",
+      "number": "140D",
+      "title": "Readings in Classical Chinese Literature: Philosophical Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 110C. Advanced classical Chinese. Readings and discussion of works of premodern Chinese literature. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 110C.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 110C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 151",
+      "dept": "CHIN",
+      "number": "151",
+      "title": "Chinese Literature in Translation: Modern Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Chinese not required. Lectures and reading of representative works from 1900 to present in English translation. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGCOMP 3",
+            "ENGCOMP 3H",
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 152",
+      "dept": "CHIN",
+      "number": "152",
+      "title": "Topics in Contemporary Chinese Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Knowledge of Chinese not required. Investigation of various topics in contemporary Chinese literature and culture, including politics and poetics of Chinese postmodernism, nativism, feminism, mass culture, and media. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 154",
+      "dept": "CHIN",
+      "number": "154",
+      "title": "Introduction to Chinese Cinema",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour; film viewing, three hours. Knowledge of Chinese not required. History of Chinese-language cinemas, with emphasis on mainland China. Examination of film style and aesthetics, as well as contexts of industry, economics, politics, culture, and society. May not be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 155",
+      "dept": "CHIN",
+      "number": "155",
+      "title": "Topics in Chinese Cinema",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour; film viewing, three hours. Knowledge of Chinese not required. Critical study of films from China, Hong Kong, Taiwan, and Chinese diaspora. Examination of aesthetics, genres, directors and stars, other arts and media, and cultural and political histories. May be repeated for credit with topic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 165",
+      "dept": "CHIN",
+      "number": "165",
+      "title": "Introduction to Chinese Buddhist Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 100A or 110B or Japanese 110A or Korean 100A or Chinese placement test. Readings in premodern Buddhist texts written in literary Chinese and taken from translated Indian sutras, indigenous exegetical materials, Chinese apocryphal scriptures, and Ch\u2019an writings. Problems in translation from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 174",
+      "dept": "CHIN",
+      "number": "174",
+      "title": "Chinese Strategic Thought",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Introduction to early Chinese narratives and theories of military, diplomatic, and rhetorical strategy. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 176",
+      "dept": "CHIN",
+      "number": "176",
+      "title": "Neo-Confucianism",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Examination of movement to revitalize and reinterpret teachings of Confucius during Tang, Song, Yuan, and Ming dynasties, with consideration of both neo-Confucian philosophy and social action. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 180",
+      "dept": "CHIN",
+      "number": "180",
+      "title": "Chinese Mythology and Supernatural",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Survey of corpus of traditional Chinese mythology, with focus on examples preserved in variety of early texts, later evolutions in dramatic and fictional works, and evidence from visual arts. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 184",
+      "dept": "CHIN",
+      "number": "184",
+      "title": "Crime, Law, and Punishment in Traditional China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preventing crime and administering justice are important parts of any society, but these are not straightforward or simple processes. What is crime? Are there crimes so terrible that they merit special kinds of punishment? How is punishment decided and by whom? What happens if\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 185",
+      "dept": "CHIN",
+      "number": "185",
+      "title": "Food and Love in Chinese Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Based on studies of cultural, historical, anthropological, and archaeological materials, introduction to how Chinese have been engaging themselves in fields of food eating and love making. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 186",
+      "dept": "CHIN",
+      "number": "186",
+      "title": "Archaeology in China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Early Chinese study of their own past, types of artifacts, beginnings of scientific archaeology, and surveys of major excavations of sites of all periods. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 187",
+      "dept": "CHIN",
+      "number": "187",
+      "title": "Chinese Etymology and Calligraphy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 3. Coverage of (1) development of Chinese writing system from pottery inscriptions 6,000 years ago to modern simplified forms and studies of six scripts principles that were used to form Chinese characters and (2) aesthetic training of calligraphic art and its\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 191A",
+      "dept": "CHIN",
+      "number": "191A",
+      "title": "Variable Topics Research Seminars: Classical China",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for juniors/seniors. Research seminar on selected topics in premodern Chinese literature, thought, and culture. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 191B",
+      "dept": "CHIN",
+      "number": "191B",
+      "title": "Variable Topics Research Seminars: 20th-Century China and Taiwan",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for juniors/seniors. Research seminar on selected topics in modern and contemporary literature and culture from China and Taiwan. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 50",
+      "dept": "CHIN",
+      "number": "50",
+      "title": "Chinese Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50W. Knowledge of Chinese not required. Introduction to most important aspects of Chinese culture. Topics include early Chinese civilization, historical development of Chinese society, issues of ethnicity, Chinese language and philosophy, and early scientific\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 6",
+      "dept": "CHIN",
+      "number": "6",
+      "title": "Intermediate Modern Chinese",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 5 with grade of C or better or Chinese placement test. Second-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5 with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHIN 100A",
+        "CHIN 100I",
+        "CHIN 102A"
+      ]
+    },
+    {
+      "course_id": "CHIN 6A",
+      "dept": "CHIN",
+      "number": "6A",
+      "title": "Intermediate Modern Chinese for Advanced Students",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 5A with grade of C or better or Chinese placement test. Second-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Continuation of course 5A. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 70",
+      "dept": "CHIN",
+      "number": "70",
+      "title": "Introduction to Traditional Chinese Literature",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 70W. Prior knowledge of Chinese culture, literature, or language not required. Introduction to pre-20th-century Chinese literary traditions, including selections from poetry, prose, fiction, and drama. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C107A",
+      "dept": "CHIN",
+      "number": "C107A",
+      "title": "Academic/Professional Chinese",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 101B or Chinese placement test. Intended to improve reading and writing skills in specific academic and professional subject areas for students who have studied general Chinese at advanced level, with coverage in Chinese humanities and social sciences, science and technology, medicine,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101B or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHIN 101B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C120",
+      "dept": "CHIN",
+      "number": "C120",
+      "title": "Introduction to Chinese Linguistics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: one to two years of college-level Chinese. Introduction to Chinese sound system, writing system and its reform, regional differences, major structural features, language in society and in cultural practices. Concurrently scheduled with course C240. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C138",
+      "dept": "CHIN",
+      "number": "C138",
+      "title": "Travel Writing in Premodern China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: course 50. Exploration of travel writing in China, with focus on English translations of works by native writers and by foreign visitors through centuries. Concurrently scheduled with course C238. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C150A",
+      "dept": "CHIN",
+      "number": "C150A",
+      "title": "Lyrical Traditions",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Readings in English translation of poetic and critical writings of traditional China, with emphasis on development of subjectivity and modes of address. Concurrently scheduled with course C250A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C150B",
+      "dept": "CHIN",
+      "number": "C150B",
+      "title": "Chinese Literature in Translation: Traditional Narrative and Fiction",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Examination of formation and development of Chinese narrative traditions from Tang to mid-Qing periods (7th-18th centuries). Readings from biographical writings, fiction, drama, legal cases, etc., with emphasis on different narrative conventions and their cultural assumptions and intersections. Exploration of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C156",
+      "dept": "CHIN",
+      "number": "C156",
+      "title": "Variable Topics in Culture and Society in Taiwan",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for seniors. Knowledge of Chinese not required. Examination of relationship between culture (art, literature, film) and society in Taiwan. Reading, audio and visual material, discussion, and development of culminating project. May be repeated for credit with topic change. Concurrently scheduled with course C257.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C175",
+      "dept": "CHIN",
+      "number": "C175",
+      "title": "Introduction to Chinese Thought",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Survey of Chinese thought as represented in texts of Zhou through early Han periods (circa 1000 to 100 BCE), with focus on invention of Confucian tradition (including Five Classics) and on defenses of that tradition against challenges from Mohists,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN CM160",
+      "dept": "CHIN",
+      "number": "CM160",
+      "title": "Chinese Buddhism",
+      "units": 4.0,
+      "description": "(Same as Religion M161A.) Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Introduction and development of Buddhism in China, interaction between Buddhism and Chinese culture, rise of Chinese schools of Buddhism. Concurrently scheduled with course C260. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN M153",
+      "dept": "CHIN",
+      "number": "M153",
+      "title": "Chinese Immigrant Literature and Film",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M130B and Comparative Literature M171.) Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. In-depth look at Chinese immigrant experience by reading literature and watching films. Theories of diaspora, gender, and race to inform thinking and discussion of relevant issues. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN M60",
+      "dept": "CHIN",
+      "number": "M60",
+      "title": "Introduction to Chinese Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M60B.) Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course M60W. Knowledge of Chinese not required. General survey of religious life in China, with emphasis on everyday religious practice over doctrine, and themes common to Buddhism, Daoism, and Confucianism. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN M60W",
+      "dept": "CHIN",
+      "number": "M60W",
+      "title": "Introduction to Chinese Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M61W.) Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course M60. Knowledge of Chinese not required. General survey of religious life in China, with emphasis on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH 3",
+            "ENGLISH 3H",
+            "ENGLISH 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

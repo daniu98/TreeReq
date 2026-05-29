@@ -1,0 +1,1126 @@
+{
+  "major_id": "sociology-ba",
+  "major_name": "Sociology BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/SociologyBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SOCIOL 1",
+        "SOCIOL 20"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "POL SCI 6",
+            "STATS 10",
+            "STATS 13"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SOCIOL 101",
+        "SOCIOL 102"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "SOCIOL 106A",
+            "SOCIOL 106B",
+            "SOCIOL 110",
+            "SOCIOL 111",
+            "SOCIOL 112",
+            "SOCIOL 113",
+            "SOCIOL CM124A",
+            "SOCIOL 191H",
+            "STATS 112"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "SOCIOL 111",
+            "SOCIOL CM124A",
+            "SOCIOL CM125",
+            "SOCIOL 126",
+            "SOCIOL 130",
+            "SOCIOL 132",
+            "SOCIOL 133",
+            "SOCIOL 134",
+            "SOCIOL 140",
+            "SOCIOL 152"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "SOCIOL 116",
+            "SOCIOL 121",
+            "SOCIOL M139",
+            "SOCIOL 140",
+            "SOCIOL 143",
+            "SOCIOL 151",
+            "SOCIOL 158",
+            "SOCIOL 172",
+            "SOCIOL 173",
+            "SOCIOL M174",
+            "SOCIOL M175",
+            "SOCIOL M176",
+            "SOCIOL 181B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "SOCIOL M115",
+            "SOCIOL 122",
+            "SOCIOL 123",
+            "SOCIOL M139",
+            "SOCIOL 147A",
+            "SOCIOL M155",
+            "SOCIOL 156",
+            "SOCIOL 157",
+            "SOCIOL M161",
+            "SOCIOL M162",
+            "SOCIOL M164",
+            "SOCIOL M165",
+            "SOCIOL 181A",
+            "SOCIOL 182",
+            "SOCIOL 183",
+            "SOCIOL 185",
+            "SOCIOL 186"
+          ]
+        },
+        {
+          "choose_n": 5,
+          "courses": [
+            "SOCIOL 106A",
+            "SOCIOL 106B",
+            "SOCIOL 110",
+            "SOCIOL 111",
+            "SOCIOL 112",
+            "SOCIOL 113",
+            "SOCIOL CM124A",
+            "SOCIOL CM125",
+            "SOCIOL 126",
+            "SOCIOL 130",
+            "SOCIOL 132",
+            "SOCIOL 133",
+            "SOCIOL 134",
+            "SOCIOL 140",
+            "SOCIOL 152",
+            "SOCIOL 116",
+            "SOCIOL 121",
+            "SOCIOL M139",
+            "SOCIOL 143",
+            "SOCIOL 151",
+            "SOCIOL 158",
+            "SOCIOL 172",
+            "SOCIOL 173",
+            "SOCIOL M174",
+            "SOCIOL M175",
+            "SOCIOL M176",
+            "SOCIOL 181B",
+            "SOCIOL M115",
+            "SOCIOL 122",
+            "SOCIOL 123",
+            "SOCIOL 147A",
+            "SOCIOL M155",
+            "SOCIOL 156",
+            "SOCIOL 157",
+            "SOCIOL M161",
+            "SOCIOL M162",
+            "SOCIOL M164",
+            "SOCIOL M165",
+            "SOCIOL 181A",
+            "SOCIOL 182",
+            "SOCIOL 183",
+            "SOCIOL 185",
+            "SOCIOL 186",
+            "SOCIOL 191H",
+            "STATS 112"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "COMPTNG": [
+      "COMPTNG 10A",
+      "COMPTNG 10B",
+      "COMPTNG 10C"
+    ],
+    "POL SCI": [
+      "POL SCI 6"
+    ],
+    "SOCIOL": [
+      "SOCIOL 1",
+      "SOCIOL 101",
+      "SOCIOL 102",
+      "SOCIOL 106A",
+      "SOCIOL 106B",
+      "SOCIOL 110",
+      "SOCIOL 111",
+      "SOCIOL 112",
+      "SOCIOL 113",
+      "SOCIOL 116",
+      "SOCIOL 121",
+      "SOCIOL 122",
+      "SOCIOL 123",
+      "SOCIOL 126",
+      "SOCIOL 130",
+      "SOCIOL 132",
+      "SOCIOL 133",
+      "SOCIOL 134",
+      "SOCIOL 140",
+      "SOCIOL 143",
+      "SOCIOL 147A",
+      "SOCIOL 151",
+      "SOCIOL 152",
+      "SOCIOL 156",
+      "SOCIOL 157",
+      "SOCIOL 158",
+      "SOCIOL 172",
+      "SOCIOL 173",
+      "SOCIOL 181A",
+      "SOCIOL 181B",
+      "SOCIOL 182",
+      "SOCIOL 183",
+      "SOCIOL 185",
+      "SOCIOL 186",
+      "SOCIOL 191H",
+      "SOCIOL 198A",
+      "SOCIOL 198B",
+      "SOCIOL 198C",
+      "SOCIOL 20",
+      "SOCIOL CM124A",
+      "SOCIOL CM125",
+      "SOCIOL M115",
+      "SOCIOL M139",
+      "SOCIOL M155",
+      "SOCIOL M161",
+      "SOCIOL M162",
+      "SOCIOL M164",
+      "SOCIOL M165",
+      "SOCIOL M174",
+      "SOCIOL M175",
+      "SOCIOL M176"
+    ],
+    "STATS": [
+      "STATS 10",
+      "STATS 112",
+      "STATS 13"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "COMPTNG 10A",
+      "dept": "COMPTNG",
+      "number": "10A",
+      "title": "Introduction to Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 10B",
+      "dept": "COMPTNG",
+      "number": "10B",
+      "title": "Intermediate Programming",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM SCI 10A",
+            "COM SCI 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMPTNG 10C"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10C",
+      "dept": "COMPTNG",
+      "number": "10C",
+      "title": "Advanced Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "COMPTNG 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 6",
+      "dept": "POL SCI",
+      "number": "6",
+      "title": "Introduction to Data Analysis",
+      "units": 5.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Not open for credit to students with credit for course 6R. Introduction to collection and analysis of political data, with emphasis on application of statistical reasoning to study of relationships among political variables. Use of computer as aid in analyzing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 1",
+      "dept": "SOCIOL",
+      "number": "1",
+      "title": "Introductory Sociology",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Survey of characteristics of social life, processes of social interaction, and tools of sociological investigation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 133",
+        "SOCIOL 143",
+        "SOCIOL 183",
+        "SOCIOL M161",
+        "SOCIOL M162"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 101",
+      "dept": "SOCIOL",
+      "number": "101",
+      "title": "Development of Sociological Theory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Comparative survey of basic concepts and theories in sociology from 1850 to 1920. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 102",
+        "SOCIOL 143"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 102",
+      "dept": "SOCIOL",
+      "number": "102",
+      "title": "Contemporary Sociological Theory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 101. Critical examination of significant theoretical formulations from 1920 to present. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 101.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 101"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 106A",
+      "dept": "SOCIOL",
+      "number": "106A",
+      "title": "Field Research Methods I",
+      "units": 6.0,
+      "description": "Lecture, two hours; discussion, two hours; fieldwork, eight to 10 hours. Research practicum in which students write field notes on their experiences in and observations of intensive internship field placement. Readings focus on fieldwork roles and relations, observing and describing, writing field notes, field interviewing, ethical issues, and preliminary data\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 106B"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 106B",
+      "dept": "SOCIOL",
+      "number": "106B",
+      "title": "Field Research Methods II",
+      "units": 6.0,
+      "description": "Lecture, two hours; discussion, two hours; fieldwork, 10 hours. Requisite: course 106A. Collection and analysis of both field notes and unstructured interview data from student field placement. Use of techniques of qualitative data analysis, including qualitative coding, analytic memoing, and grounded theory methods, to analyze these materials and to write\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 106A.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 106A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 110",
+      "dept": "SOCIOL",
+      "number": "110",
+      "title": "Comparative and Historical Methods",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 101. Introduction to range of comparative and historical methods alongside broader questions and issues in this area of sociology. Students learn about using theories to analyze real-world cases; making comparisons between societies and other social units; developing sociological explanations for historical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 111",
+      "dept": "SOCIOL",
+      "number": "111",
+      "title": "Social Networks",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Analysis of how social networks create social structure, how social actors utilize them, and their unexpected effects. Topics include job search, firm efficiency, and social movements. Visualization programs, computer simulations, and research project. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 112",
+      "dept": "SOCIOL",
+      "number": "112",
+      "title": "Introduction to Mathematical Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Requisites: Mathematics 2, 3A (course whose content includes introductions to probability theory, matrix algebra, and differential and integral calculus), Statistics 10. Mathematical treatment of several sociological phenomena, such as occupational mobility, population growth, organizational structure, and friendship patterns, each covered in some detail, including\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 2, 3A (course whose content includes introductions to probability theory, matrix algebra, and differential and integral calculus), Statistics 10.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 2",
+          "MATH 3A",
+          "STATS 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 113",
+      "dept": "SOCIOL",
+      "number": "113",
+      "title": "Statistical and Computer Methods for Social Research",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Requisite: Statistics 10. Continuation of Statistics 10, covering more advanced statistical techniques such as multiple regression, analysis of variance, or factor analysis. Content varies. Students learn how to use computer and write papers analyzing prepared data sets. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Statistics 10.",
+      "prereqs_parsed": {
+        "required": [
+          "STAT 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 116",
+      "dept": "SOCIOL",
+      "number": "116",
+      "title": "Social Demography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Studies of past, present, and future trends in population growth. Sociological theories of causes and consequences of population growth and redistribution. Emphasis on correlates of fertility, mortality, and migration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 121",
+      "dept": "SOCIOL",
+      "number": "121",
+      "title": "Sociology of Religion",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of classic and contemporary work in social scientific study of religion. Analysis of definition of religion, role of religion in modern life, and role of categories like Islam in contemporary U.S. politics. Focus on complicated question of what it means to say someone\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 122",
+      "dept": "SOCIOL",
+      "number": "122",
+      "title": "Sociology of Violence",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of macro-, meso-, and micro-level theories of violence, why states organize violence, why civilizations participate in violence, and physical, structural, and symbolic violence. Discussion of how various social categories such as race, ethnicity, religion, class, gender, and sex are implicated in violence and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 123",
+      "dept": "SOCIOL",
+      "number": "123",
+      "title": "Social Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. How does social change occur? This question is linked to fundamental debates in sociology about structure (degree to which individual\u2019s actions are constrained by social forces) and agency (degree to which individuals can choose their own courses of action). Major theories (Marxist, Weberian, demographic,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 126",
+      "dept": "SOCIOL",
+      "number": "126",
+      "title": "Study of Norms",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Properties of norms, of normatively governed conduct, of lay and professional methods for describing, producing, using, and validating norms in contrasting settings of socially organized activities; relevance of these properties for programmatic problems of analytic sociology. Fieldwork required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 130",
+      "dept": "SOCIOL",
+      "number": "130",
+      "title": "Self and Society",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of social processes shaping experience, definition, and enactment of self and personal identity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 132",
+      "dept": "SOCIOL",
+      "number": "132",
+      "title": "Social Psychology: Sociological Approaches",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of contribution of sociologists to theory and research in social psychology, including theories of social control; conformity and deviation; reference groups; and interaction process. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 133",
+      "dept": "SOCIOL",
+      "number": "133",
+      "title": "Collective Behavior",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Designed for juniors/seniors. Characteristics of crowds, mobs, publics, social movements, and revolutions; their relation to social unrest and their role in developing and changing social organization. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 134",
+      "dept": "SOCIOL",
+      "number": "134",
+      "title": "Culture and Personality",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Designed for juniors/seniors. Theories of relation of variations in personality to culture and group life, in primitive and modern societies, and influence of social role on behavior. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 140",
+      "dept": "SOCIOL",
+      "number": "140",
+      "title": "Negotiating Medical Care: Physician-Patient Conversations",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Overview of how physician-patient interaction influences kinds of treatment patients receive. Focus on routine primary care medical visits and study of how some of our most significant health-care epidemics are affected by communication that takes place in these everyday medical visits. Topics include how\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 143",
+      "dept": "SOCIOL",
+      "number": "143",
+      "title": "Human Health and Society",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1, 20, 101. Exploration of long-run historical trends in relationship between human health and social organization, drawing on historical, anthropological, demographic, and sociological concepts, theories, and data. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 1, 20, 101.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1",
+          "SOCIOL 20",
+          "SOCIOL 101"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 147A",
+      "dept": "SOCIOL",
+      "number": "147A",
+      "title": "Sociology of Crime",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Sociological theories of social origins, organization, and meanings of crime and criminal behaviors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 151",
+      "dept": "SOCIOL",
+      "number": "151",
+      "title": "Comparative Immigration",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of immigration of Europeans, Asians, and Hispanics to the U.S. since the mid-19th century. Overview of immigration experience on ethno-racial groups that migrated voluntarily to this country, with emphasis on immediate postimmigration settlement. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 152"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 152",
+      "dept": "SOCIOL",
+      "number": "152",
+      "title": "Comparative Acculturation and Assimilation",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 151. Comparison of acculturation and assimilation of Europeans, Africans, Mexicans, and Asians in the U.S., with emphasis on long-term cultural consequences of immigration. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 151.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 151"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 156",
+      "dept": "SOCIOL",
+      "number": "156",
+      "title": "Race and Ethnicity in American Life",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in the U.S., including interplay between racial and ethnic structures and meanings. Special attention to comparison of African American and European American experiences and to transformation of Asian American and Latino communities and the nation generally, wrought by renewal\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 157",
+      "dept": "SOCIOL",
+      "number": "157",
+      "title": "Social Stratification",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Analysis of American social structure in terms of evaluational differentiation. Topics include criteria for differentiation, bases for evaluation, types of stratification, composition of strata and status systems, mobility, consequences of stratification, and problems of methodology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 158",
+      "dept": "SOCIOL",
+      "number": "158",
+      "title": "Urban Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Description and analysis of urbanization and urbanism in the U.S. and world. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 172",
+      "dept": "SOCIOL",
+      "number": "172",
+      "title": "Entrepreneurship",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Description and analysis of entrepreneurship, with special reference to historical origins, ideology, international comparisons, women and ethnic minority participation, legal and illegal forms, public and private auspices. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 173",
+      "dept": "SOCIOL",
+      "number": "173",
+      "title": "Economy and Society",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Sociology of economic life, with emphasis on principal economic institutions of the U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 181A",
+      "dept": "SOCIOL",
+      "number": "181A",
+      "title": "Sociology of Global China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Analyses of how domestic developments create impetus for China\u2019s global expansion, and assessment of global China\u2019s variegated and uneven consequences. Concrete case studies include Belt and Road Initiative, soft power and cultural diplomacy, internal colonization of Hong Kong and Xinjiang, China\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 181B",
+      "dept": "SOCIOL",
+      "number": "181B",
+      "title": "Sociology of Contemporary China",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Survey of changes in Chinese society from beginning of 20th century to present. Topics include social mobility and inequality, family and household, and population. Emphasis on changes post-Reform Era and in present. Focus on interaction of economic and political change plus\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 182",
+      "dept": "SOCIOL",
+      "number": "182",
+      "title": "Political Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Contributions of sociology to study of politics, including analysis of political aspects of social systems, social context of action, and social bases of power. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 183",
+      "dept": "SOCIOL",
+      "number": "183",
+      "title": "Comparative and Historical Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Survey of central themes of comparative and historical studies in sociology. Various aspects of development of modern society, including development of nation-state, emergence of capitalism, industrialization, and population growth. Variation in contemporary society, viewed from variety of theoretical perspectives. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 185",
+      "dept": "SOCIOL",
+      "number": "185",
+      "title": "American Society",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Analysis of major institutions in the U.S. in historical and international perspective, with emphasis on topics such as industrialization, work, state, politics, community, family, religion, and American culture. Theories of social change, conflict, and order applied to case of the U.S. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 186",
+      "dept": "SOCIOL",
+      "number": "186",
+      "title": "Latin American Societies",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Social structure and social conflict in Latin America, with special attention to racial and class structures and dilemmas of economic and political development. Country and specific focus varies each term. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191H",
+      "dept": "SOCIOL",
+      "number": "191H",
+      "title": "Honors Seminars: Sociology",
+      "units": 4.0,
+      "description": "Seminar, three hours. In-depth introduction to process of producing scholarly sociological research for students who intend to write undergraduate thesis for departmental honors. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 198B",
+        "SOCIOL 198C"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 198A",
+      "dept": "SOCIOL",
+      "number": "198A",
+      "title": "Honors Research in Sociology",
+      "units": 4.0,
+      "description": "Tutorial, one hour. Requisite: course 191H. Limited to sociology honors program students. Design of research project to serve as student\u2019s honors thesis. Research proposal, detailed bibliography, and regular meetings with sponsoring faculty member required. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 191H.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 198B"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 198B",
+      "dept": "SOCIOL",
+      "number": "198B",
+      "title": "Honors Research in Sociology",
+      "units": 4.0,
+      "description": "Tutorial, one hour. Requisites: courses 191H, 198A. Limited to sociology honors program students. Continuation of work initiated in course 198A. Development of honors thesis in consultation with instructor. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisites: courses 191H, 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 191H",
+          "SOCIOL 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SOCIOL 198C"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 198C",
+      "dept": "SOCIOL",
+      "number": "198C",
+      "title": "Honors Research in Sociology",
+      "units": 4.0,
+      "description": "Tutorial, one hour. Requisites: courses 191H, 198B. Limited to sociology honors program students. Completion of honors thesis under direct supervision of honors faculty director. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisites: courses 191H, 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 191H",
+          "SOCIOL 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 20",
+      "dept": "SOCIOL",
+      "number": "20",
+      "title": "Introduction to Sociological Research Methods",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to methods used in contemporary sociological research, with focus on issues of research design, data collection, and analysis of data. Fieldwork may be required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 143"
+      ]
+    },
+    {
+      "course_id": "SOCIOL CM124A",
+      "dept": "SOCIOL",
+      "number": "CM124A",
+      "title": "Conversational Structures I",
+      "units": 4.0,
+      "description": "(Same as Communication M144A.) Lecture, three hours; discussion, one hour. Introduction to various structures employed in organization of conversational interaction, such as turn-taking, action sequencing, and repair. Concurrently scheduled with course C244A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL CM125",
+      "dept": "SOCIOL",
+      "number": "CM125",
+      "title": "Talk and Social Institutions",
+      "units": 4.0,
+      "description": "(Same as Communication M125.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Practices of communication and social interaction in number of major institutional sites in contemporary society. Setting varies but may include emergency services, police and courts, medicine, news interviews, and political oratory. Concurrently scheduled with course C258. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M115",
+      "dept": "SOCIOL",
+      "number": "M115",
+      "title": "Environmental Sociology",
+      "units": 4.0,
+      "description": "(Same as Environment M133 and Society and Genetics M133.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M139",
+      "dept": "SOCIOL",
+      "number": "M139",
+      "title": "Asian Community: Border-Crossing, Diasporic Formation, and Social Transformation",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M179.) Lecture, three hours; discussion, one hour. Exploration of critical issues facing broad Asian community, in context of globalization and international migration, through social science lens of migration studies and diaspora studies. Examination of how movements of people, ideas, capital, and goods create new trends\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M155",
+      "dept": "SOCIOL",
+      "number": "M155",
+      "title": "Latinos in U.S.",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M155A.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of history and social conditions of Latinos in Los Angeles as well as nationally, with particular emphasis on their location in larger social structure and on comparisons with other minority groups. Topics\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M161",
+      "dept": "SOCIOL",
+      "number": "M161",
+      "title": "Comparative American Indian Societies",
+      "units": 4.0,
+      "description": "(Same as American Indian Studies M161.) Lecture, three hours. Requisite: course 1 or American Indian Studies M10. Comparative and historical study of political, economic, and cultural change in indigenous North American societies. Several theories of social change, applied to selected case studies. Letter grading.",
+      "prereqs_raw": "Requisite: course 1 or American Indian Studies M10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SOCIOL 1",
+          "AM IND ST M10"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M162",
+      "dept": "SOCIOL",
+      "number": "M162",
+      "title": "Sociology of Gender",
+      "units": 5.0,
+      "description": "(Same as Gender Studies M162.) Lecture, three hours; discussion, one hour. Enforced requisite: course 1 or Gender Studies 10. Examination of processes by which gender is socially constructed. Topics include distinction between biological sex and sociological gender, causes and consequences of gender inequality, and recent changes in gender relations in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 1 or Gender Studies 10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SOCIOL 1",
+            "GENDER ST 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M164",
+      "dept": "SOCIOL",
+      "number": "M164",
+      "title": "Politics of Reproduction and Everyday Life",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M164.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Social and human reproduction is global policy issue. Government efforts to influence reproduction are important feature of modern state: political intervention into private life, intimacy, and sexuality. Exploration of politics of reproduction\u2014intersection between politics and life\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M165",
+      "dept": "SOCIOL",
+      "number": "M165",
+      "title": "Sociology of Race and Labor",
+      "units": 4.0,
+      "description": "(Same as African American Studies M165 and Labor Studies M165.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Exploration of relationship between race/ethnicity, employment, and U.S. labor movement. Analysis of underlying racial divisions in workforce and how they evolved historically. Consideration of circumstances under which workers and unions have\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M174",
+      "dept": "SOCIOL",
+      "number": "M174",
+      "title": "Sociology of Family",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M174.) Lecture, three hours; discussion, one hour. Theory and research dealing with modern family, its structure, and functions, including historical changes, variant family patterns, family as institution, and influence of contemporary society on family. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M175",
+      "dept": "SOCIOL",
+      "number": "M175",
+      "title": "Sociology of Education",
+      "units": 5.0,
+      "description": "(Same as Education M108.) Lecture, four hours; discussion, one hour. Study of how U.S. educational system both promotes socioeconomic opportunities and maintains socioeconomic inequalities: historical and theoretical perspectives on role of education in U.S. society; trends in educational attainment; ways in which family background, class, race, and gender affect educational\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M176",
+      "dept": "SOCIOL",
+      "number": "M176",
+      "title": "Sociology of Mass Communication",
+      "units": 4.0,
+      "description": "(Same as Communication M147.) Lecture, four hours; discussion, one hour (when scheduled). Studies in relationship between mass communication and social organization. Topics include history and organization of major media institutions, social forces that shape production of mass media news and entertainment, selected studies in media content, and effects of media\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 112",
+        "STATS 112"
+      ]
+    },
+    {
+      "course_id": "STATS 112",
+      "dept": "STATS",
+      "number": "112",
+      "title": "Statistics: Window to Understanding Diversity",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Requisite: one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Limited to juniors/seniors. Statistical methods in social sciences, including regression, multivariate techniques, logistic regression, and data-handling\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 10",
+            "STATS 12",
+            "STATS 13",
+            "ECON 11",
+            "ECON 41",
+            "PSYCH 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 13",
+      "dept": "STATS",
+      "number": "13",
+      "title": "Introduction to Statistical Methods for Life and Health Sciences",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 112"
+      ]
+    }
+  ]
+}

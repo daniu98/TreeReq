@@ -1,0 +1,3726 @@
+{
+  "major_id": "marine-biology-bs",
+  "major_name": "Marine Biology BS",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/MarineBiologyBS",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LIFESCI 7A",
+        "LIFESCI 7B",
+        "LIFESCI 7C",
+        "LIFESCI 7L"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "A&O SCI 1",
+            "EPS SCI 15"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHEM 14A",
+            "CHEM 14B",
+            "CHEM 14C",
+            "CHEM 14D",
+            "CHEM 20A",
+            "CHEM 20B",
+            "CHEM 20L",
+            "CHEM 30A",
+            "CHEM 30AL",
+            "CHEM 30B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LIFESCI 30A",
+            "LIFESCI 30B",
+            "MATH 3A",
+            "MATH 3B",
+            "MATH 3C",
+            "MATH 31A",
+            "MATH 31AL",
+            "MATH 31B",
+            "MATH 32A"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LIFESCI 40",
+            "STATS 13"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "PHYSICS 1A",
+            "PHYSICS 1B",
+            "PHYSICS 1C",
+            "PHYSICS 4AL",
+            "PHYSICS 4BL",
+            "PHYSICS 5A",
+            "PHYSICS 5B",
+            "PHYSICS 5C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "EE BIOL 109",
+        "EE BIOL 109L"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "EE BIOL 101",
+            "EE BIOL 105",
+            "EE BIOL 110",
+            "EE BIOL 112",
+            "EE BIOL 136",
+            "EE BIOL 170",
+            "EE BIOL 181"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "EE BIOL 101",
+            "EE BIOL 105",
+            "EE BIOL 110",
+            "EE BIOL 112",
+            "EE BIOL 136",
+            "EE BIOL 170",
+            "EE BIOL 181"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "EE BIOL 105",
+            "EE BIOL 110",
+            "EE BIOL 112",
+            "EE BIOL 136",
+            "EE BIOL 170",
+            "EE BIOL 181"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "EE BIOL 105",
+            "EE BIOL 110",
+            "EE BIOL 112",
+            "EE BIOL 136",
+            "EE BIOL 170",
+            "EE BIOL 181"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "A&O SCI": [
+      "A&O SCI 1",
+      "A&O SCI 102",
+      "A&O SCI 103",
+      "A&O SCI 104",
+      "A&O SCI 130",
+      "A&O SCI M105",
+      "A&O SCI M106"
+    ],
+    "ANTHRO": [
+      "ANTHRO 128P",
+      "ANTHRO M128S"
+    ],
+    "BIOENGR": [
+      "BIOENGR CM186"
+    ],
+    "C&S BIO": [
+      "C&S BIO M186"
+    ],
+    "CHEM": [
+      "CHEM 103",
+      "CHEM 14A",
+      "CHEM 14B",
+      "CHEM 14C",
+      "CHEM 14D",
+      "CHEM 153A",
+      "CHEM 20A",
+      "CHEM 20B",
+      "CHEM 20L",
+      "CHEM 30A",
+      "CHEM 30AL",
+      "CHEM 30B"
+    ],
+    "COM SCI": [
+      "COM SCI CM186"
+    ],
+    "COMPTNG": [
+      "COMPTNG 10A",
+      "COMPTNG 10B",
+      "COMPTNG 10C"
+    ],
+    "EE BIOL": [
+      "EE BIOL 100",
+      "EE BIOL 101",
+      "EE BIOL 102",
+      "EE BIOL 104",
+      "EE BIOL 105",
+      "EE BIOL 106",
+      "EE BIOL 107",
+      "EE BIOL 109",
+      "EE BIOL 109L",
+      "EE BIOL 110",
+      "EE BIOL 112",
+      "EE BIOL 113B",
+      "EE BIOL 114B",
+      "EE BIOL 116",
+      "EE BIOL 117",
+      "EE BIOL 118",
+      "EE BIOL 120",
+      "EE BIOL 121",
+      "EE BIOL 122",
+      "EE BIOL 123A",
+      "EE BIOL 123B",
+      "EE BIOL 124A",
+      "EE BIOL 124B",
+      "EE BIOL 125",
+      "EE BIOL 128",
+      "EE BIOL 129",
+      "EE BIOL 130",
+      "EE BIOL 132",
+      "EE BIOL 133",
+      "EE BIOL 134B",
+      "EE BIOL 136",
+      "EE BIOL 137",
+      "EE BIOL 140",
+      "EE BIOL 142",
+      "EE BIOL 143",
+      "EE BIOL 144",
+      "EE BIOL 144L",
+      "EE BIOL 147",
+      "EE BIOL 148",
+      "EE BIOL 149",
+      "EE BIOL 150",
+      "EE BIOL 150L",
+      "EE BIOL 151A",
+      "EE BIOL 151B",
+      "EE BIOL 152",
+      "EE BIOL 153",
+      "EE BIOL 154",
+      "EE BIOL 155",
+      "EE BIOL 161",
+      "EE BIOL 161L",
+      "EE BIOL 162",
+      "EE BIOL 163",
+      "EE BIOL 164",
+      "EE BIOL 165",
+      "EE BIOL 170",
+      "EE BIOL 175",
+      "EE BIOL 181",
+      "EE BIOL 182",
+      "EE BIOL 183",
+      "EE BIOL 184",
+      "EE BIOL 185",
+      "EE BIOL 186",
+      "EE BIOL 198A",
+      "EE BIOL 198B",
+      "EE BIOL 199",
+      "EE BIOL C119A",
+      "EE BIOL C119B",
+      "EE BIOL C126",
+      "EE BIOL C135",
+      "EE BIOL C146",
+      "EE BIOL C172",
+      "EE BIOL C174",
+      "EE BIOL CM173",
+      "EE BIOL M131",
+      "EE BIOL M139",
+      "EE BIOL M157",
+      "EE BIOL M178"
+    ],
+    "EPS SCI": [
+      "EPS SCI 100",
+      "EPS SCI 116",
+      "EPS SCI 119",
+      "EPS SCI 15",
+      "EPS SCI 153",
+      "EPS SCI C141",
+      "EPS SCI CM173"
+    ],
+    "GEOG": [
+      "GEOG 101",
+      "GEOG 130",
+      "GEOG 182A",
+      "GEOG M110",
+      "GEOG M118"
+    ],
+    "LIFESCI": [
+      "LIFESCI 107",
+      "LIFESCI 30A",
+      "LIFESCI 30B",
+      "LIFESCI 40",
+      "LIFESCI 7A",
+      "LIFESCI 7B",
+      "LIFESCI 7C",
+      "LIFESCI 7L"
+    ],
+    "MATH": [
+      "MATH 31A",
+      "MATH 31AL",
+      "MATH 31B",
+      "MATH 32A",
+      "MATH 3A",
+      "MATH 3B",
+      "MATH 3C"
+    ],
+    "MCD BIO": [
+      "MCD BIO 172"
+    ],
+    "MECH&AE": [
+      "MECH&AE 103",
+      "MECH&AE 150A"
+    ],
+    "PHYSCI": [
+      "PHYSCI 166"
+    ],
+    "PHYSICS": [
+      "PHYSICS 1A",
+      "PHYSICS 1B",
+      "PHYSICS 1C",
+      "PHYSICS 4AL",
+      "PHYSICS 4BL",
+      "PHYSICS 5A",
+      "PHYSICS 5B",
+      "PHYSICS 5C"
+    ],
+    "PSYCH": [
+      "PSYCH 186A",
+      "PSYCH 186B"
+    ],
+    "SOC GEN": [
+      "SOC GEN M142"
+    ],
+    "STATS": [
+      "STATS 13"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "A&O SCI 1",
+      "dept": "A&O SCI",
+      "number": "1",
+      "title": "Climate Change: From Puzzles to Policy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Overview of fundamentals of Earth\u2019s climate, including greenhouse effect, water and chemical cycles, outstanding features of atmospheric and ocean circulation, and feedback between different system components. Exciting and contentious scientific puzzles of climate system, including causes of ice ages, greenhouse warming, and el ni\u00f1o.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI 102",
+      "dept": "A&O SCI",
+      "number": "102",
+      "title": "Climate Change and Climate Modeling",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: Mathematics 3C or 32A, Physics 1B or 6C, with grades of C or better. Global environmental issues in climate change due to human activities or natural climate variations. Quantitative introduction to new science of climate modeling to understand and predict these changes.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: Mathematics 3C or 32A, Physics 1B or 6C, with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 3C",
+            "MATH 32A"
+          ],
+          [
+            "PHYS 1B",
+            "PHYS 6C"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI 103",
+      "dept": "A&O SCI",
+      "number": "103",
+      "title": "Physical Oceanography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Mathematics 3B or 31B. Introductory course for physical sciences, life sciences, or engineering majors interested in environmental issues. Observations of temperature, salinity, density, and currents. Methods. Wind-driven and geostrophic currents. California Current and Gulf Stream. Internal waves. Surface waves and tides. Air/sea interactions.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Mathematics 3B or 31B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 3B",
+            "MATH 31B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI 104",
+      "dept": "A&O SCI",
+      "number": "104",
+      "title": "Fundamentals of Air and Water Pollution",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Chemistry 14B or 20B. Chemistry and physics of air and water pollution, including photochemistry, acid rain, air pollution meteorology and dispersion, groundwater and surface water pollution, chemical cycling, air/water interface, global atmospheric change. Letter grading.",
+      "prereqs_raw": "Requisite: Chemistry 14B or 20B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14B",
+            "CHEM 20B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI 130",
+      "dept": "A&O SCI",
+      "number": "130",
+      "title": "California's Ocean",
+      "units": 4.0,
+      "description": "Lecture, four hours. Recommended requisite: course 103 or M105. Circulation, biogeochemistry, biota, water quality, measurement techniques, computational modeling, conservation, and management for California\u2019s coastal ocean, including coastal measurement cruise and term project (paper and presentation). Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI M105",
+      "dept": "A&O SCI",
+      "number": "M105",
+      "title": "Introduction to Chemical Oceanography",
+      "units": 4.0,
+      "description": "(Same as Ecology and Evolutionary Biology M139.) Lecture, three hours; discussion, one hour. Introductory course for physical sciences, life sciences, and engineering majors interested in oceanic environment. Chemical composition of oceans and nature of physical, chemical, and biological processes governing this composition in past and present. Cycles of major and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "A&O SCI M106",
+      "dept": "A&O SCI",
+      "number": "M106",
+      "title": "Applied Climatology: Principles of Climate Impact on Natural Environment",
+      "units": 4.0,
+      "description": "(Same as Geography M118.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of knowledge and tools to solve complex problems in contemporary applied climatology, including current practices, influence of climate on environment, and human influence on changing climates. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 128P",
+      "dept": "ANTHRO",
+      "number": "128P",
+      "title": "Primate Behavior Nonhuman to Human",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Review of primate behavior as known from laboratory and field studies. Theoretical issues of animal behavior, with special reference to nonhuman primates. Discussion of human behavior as product of such evolutionary processes. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO M128S",
+      "dept": "ANTHRO",
+      "number": "M128S",
+      "title": "Primate Genetics, Ecology, and Conservation",
+      "units": 4.0,
+      "description": "(Same as Society and Genetics M142.) Seminar, three hours. Focus on genetic research on wild primates at different geographic scales, using readings from primary literature on primate genetics, ecology, and behavior. Study of paternity and kinship, intrapopulational variation, population genetics, biogeography, systematics, phylogenetics/phylogenomics and comparative genomics. Utility and appropriateness of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "BIOENGR CM186",
+      "dept": "BIOENGR",
+      "number": "CM186",
+      "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+      "units": 5.0,
+      "description": "(Same as Computational and Systems Biology M186, Computer Science CM186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO M186",
+      "dept": "C&S BIO",
+      "number": "M186",
+      "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+      "units": 5.0,
+      "description": "(Same as Bioengineering CM186, Computer Science CM186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and computer simulation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 103",
+      "dept": "CHEM",
+      "number": "103",
+      "title": "Environmental Chemistry",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisites: courses 30B, 30BL, 110A, 153A (or 153AH), 153L. Chemical aspects of air and water pollution, solid waste disposal, energy resources, and pesticide effects. Chemical reactions in environment and effect of chemical processes on environment. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 30B, 30BL, 110A, 153A (or 153AH), 153L.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 30B",
+          "CHEM 30BL",
+          "CHEM 110A",
+          "CHEM 153L"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 153A",
+            "CHEM 153AH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 14A",
+      "dept": "CHEM",
+      "number": "14A",
+      "title": "General Chemistry for Life Scientists I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "LIFE SCI 30A",
+          "MATH 3A",
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 20B",
+        "EE BIOL 137",
+        "EE BIOL 147",
+        "EE BIOL 148",
+        "EE BIOL 150",
+        "EE BIOL 153",
+        "EE BIOL CM173",
+        "EPS SCI CM173",
+        "LIFESCI 107"
+      ]
+    },
+    {
+      "course_id": "CHEM 14B",
+      "dept": "CHEM",
+      "number": "14B",
+      "title": "General Chemistry for Life Scientists II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "A&O SCI 104",
+        "CHEM 14C",
+        "EE BIOL 137",
+        "EE BIOL 147",
+        "EE BIOL 148",
+        "EE BIOL 153",
+        "EE BIOL 165",
+        "EE BIOL CM173",
+        "EPS SCI CM173",
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 14C",
+      "dept": "CHEM",
+      "number": "14C",
+      "title": "Structure of Organic Molecules",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C\u2013 or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14D",
+        "EE BIOL 137",
+        "EE BIOL 150"
+      ]
+    },
+    {
+      "course_id": "CHEM 14D",
+      "dept": "CHEM",
+      "number": "14D",
+      "title": "Organic Reactions and Pharmaceuticals",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14C with grade of C\u2013 or better. Organic reactions, nucleophilic and electrophilic substitutions and additions; electrophilic aromatic substitutions, carbonyl reactions, catalysis, molecular basis of drug action, and organic chemistry of pharmaceuticals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14C with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 153A",
+        "EE BIOL 137",
+        "EE BIOL 170"
+      ]
+    },
+    {
+      "course_id": "CHEM 153A",
+      "dept": "CHEM",
+      "number": "153A",
+      "title": "Biochemistry: Introduction to Structure, Enzymes, and Metabolism",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C\u2013 or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CHEM 14D",
+          "CHEM 30B"
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 103"
+      ]
+    },
+    {
+      "course_id": "CHEM 20A",
+      "dept": "CHEM",
+      "number": "20A",
+      "title": "Chemical Structure",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 20B",
+        "EE BIOL 137",
+        "EE BIOL 147",
+        "EE BIOL 148",
+        "EE BIOL 150",
+        "EE BIOL 153",
+        "EE BIOL CM173",
+        "EPS SCI CM173",
+        "LIFESCI 107"
+      ]
+    },
+    {
+      "course_id": "CHEM 20B",
+      "dept": "CHEM",
+      "number": "20B",
+      "title": "Chemical Energetics and Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 104",
+        "CHEM 30A",
+        "CHEM 30AL",
+        "EE BIOL 137",
+        "EE BIOL 147",
+        "EE BIOL 148",
+        "EE BIOL 153",
+        "EE BIOL 165",
+        "EE BIOL CM173",
+        "EPS SCI CM173",
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 20L",
+      "dept": "CHEM",
+      "number": "20L",
+      "title": "General Chemistry Laboratory",
+      "units": 3.0,
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "prereqs_parsed": {
+        "required": [
+          {
+            "one_of": [
+              "CHEM 14A",
+              "CHEM 20A"
+            ]
+          }
+        ],
+        "corequisites": [
+          {
+            "one_of": [
+              "CHEM 14B",
+              "CHEM 20B"
+            ]
+          }
+        ],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 30AL",
+        "EE BIOL 137",
+        "EE BIOL 147",
+        "EE BIOL 148",
+        "EE BIOL 153"
+      ]
+    },
+    {
+      "course_id": "CHEM 30A",
+      "dept": "CHEM",
+      "number": "30A",
+      "title": "Organic Chemistry I: Structure and Reactivity",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 20B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 30AL",
+        "CHEM 30B",
+        "EE BIOL 137",
+        "EE BIOL 150",
+        "LIFESCI 107"
+      ]
+    },
+    {
+      "course_id": "CHEM 30AL",
+      "dept": "CHEM",
+      "number": "30AL",
+      "title": "General Chemistry Laboratory II",
+      "units": 4.0,
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 20B",
+          "CHEM 20L",
+          "CHEM 30A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 20BH"
+          ],
+          [
+            "CHEM 30AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 137",
+        "EE BIOL 147",
+        "EE BIOL 148",
+        "EE BIOL 165",
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 30B",
+      "dept": "CHEM",
+      "number": "30B",
+      "title": "Organic Chemistry II: Reactivity, Synthesis, and Spectroscopy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CHEM 30A",
+          "CHEM 30AH"
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 103",
+        "CHEM 153A",
+        "EE BIOL 137",
+        "EE BIOL 170"
+      ]
+    },
+    {
+      "course_id": "COM SCI CM186",
+      "dept": "COM SCI",
+      "number": "CM186",
+      "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+      "units": 5.0,
+      "description": "(Same as Bioengineering CM186, Computational and Systems Biology M186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 10A",
+      "dept": "COMPTNG",
+      "number": "10A",
+      "title": "Introduction to Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 10B",
+      "dept": "COMPTNG",
+      "number": "10B",
+      "title": "Intermediate Programming",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM SCI 10A",
+            "COM SCI 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 10C",
+      "dept": "COMPTNG",
+      "number": "10C",
+      "title": "Advanced Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 10B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 100",
+      "dept": "EE BIOL",
+      "number": "100",
+      "title": "Introduction to Ecology and Behavior",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 7B. Not open for credit to students with credit for course 118, 122, 124A, 124B, 125, C126, 129, 132, 134B, 136, or 151B. Introduction to methods and topics in ecology and behavior. Growth and regulation of populations, organization of communities and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 118",
+        "EE BIOL 122",
+        "EE BIOL 124A",
+        "EE BIOL 124B",
+        "EE BIOL 125",
+        "EE BIOL 129",
+        "EE BIOL 132",
+        "EE BIOL 136",
+        "EE BIOL 151B",
+        "EE BIOL 183",
+        "EE BIOL C126"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 101",
+      "dept": "EE BIOL",
+      "number": "101",
+      "title": "Marine Botany",
+      "units": 6.0,
+      "description": "Lecture, four hours; laboratory, six hours; three to four field trips. Requisite: Life Sciences 1 or 7B. Introduction to biology and ecology of marine plants, including algae, sea grasses, and mangroves, with focus on form and function of marine plants and their ecological role in different marine habitats and ecosystems.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 102",
+      "dept": "EE BIOL",
+      "number": "102",
+      "title": "Biology of Marine Invertebrates",
+      "units": 4.0,
+      "description": "Five-week intensive course. Lecture, five hours; laboratory, 15 hours. Requisite: Life Sciences 1 or 7B. Morphology, systematics, life histories and natural history, ecology, behavior, and physiology of marine invertebrates. Given off campus at marine science center. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 104",
+      "dept": "EE BIOL",
+      "number": "104",
+      "title": "Plants and People",
+      "units": 4.0,
+      "description": "Lecture, two and one half hours; discussion, one hour. Enforced requisites: Life Sciences 7A, 7B, 7C. Exploration of the diversity of plants that have strong cultural ties, provide significant economies, and exist at the intersection of war and industry. Examination of their ecological, evolutionary, and economic histories; and study of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: Life Sciences 7A, 7B, 7C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 105",
+      "dept": "EE BIOL",
+      "number": "105",
+      "title": "Biology of Invertebrates",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory/field trips, six hours. Requisite: Life Sciences 1 or 7B. Introduction to systematics, evolution, natural history, morphology, and physiology of invertebrates. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 106",
+        "EE BIOL 107"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 106",
+      "dept": "EE BIOL",
+      "number": "106",
+      "title": "Experimental Marine Invertebrate Biology",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, 12 hours. Requisites: course 105, Physiological Science 166 (may be taken concurrently). Offered either as 6-unit quarter-long course or as 4-unit Marine Biology Quarter course. Advanced course of natural history, physiology, biochemistry of invertebrates, with emphasis on independent laboratory and field investigations. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: course 105, Physiological Science 166 (may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 105"
+        ],
+        "corequisites": [
+          "PHYS SCI 166"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 107",
+      "dept": "EE BIOL",
+      "number": "107",
+      "title": "Evolution, Development, and Function of Invertebrate Animals",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, three hours; three weekend field trips. Requisite: course 105 or completion of Marine Biology Quarter. Advanced invertebrate biology course exploring evolutionary relationship of animal groups and evolution of marine species, comparative development and developmental genetics of invertebrate form, and form and function as they relate to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 105 or completion of Marine Biology Quarter.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "EE BIOL 105"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 109",
+      "dept": "EE BIOL",
+      "number": "109",
+      "title": "Introduction to Marine Science",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Strongly recommended for prospective Marine Biology Quarter students. Introduction to physical and biological world of 70 percent of planet: oceans. Designed to be integrative, with focus on geological evolution of seas, physical and chemical properties of water, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 109L",
+      "dept": "EE BIOL",
+      "number": "109L",
+      "title": "Introduction to Marine Science Laboratory",
+      "units": 4.0,
+      "description": "Laboratory, three hours; four field trips. Requisites: course 109 (may be taken concurrently), Life Sciences 1 or 7B. Introduction to marine environments and methods used to study them. Exploration of variety of concepts in marine science, ranging from oceanography to behavior, primary productivity, and marine biodiversity, with emphasis on experimental\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 109 (may be taken concurrently), Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 110",
+      "dept": "EE BIOL",
+      "number": "110",
+      "title": "Vertebrate Morphology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, five hours. Requisites: Life Sciences 1, 2, and 3, or 7A and 7B. Study of vertebrate morphology, function, and evolution from viewpoint of comparative anatomy of adult forms, biomechanics, development, and paleontology. Laboratory study of selected vertebrates. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 1, 2, and 3, or 7A and 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 2",
+            "LIFE SCI 3"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 112",
+      "dept": "EE BIOL",
+      "number": "112",
+      "title": "Ichthyology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, six hours; field trips. Requisite: Life Sciences 1 or 7B. Highly recommended: courses 110, 111. Biology of freshwater and marine fishes, with emphasis on their evolution, systematics, morphology, zoogeography, and ecology. Field trips to examine fishes of Southern California shoreline, tidepools, and coastal streams. Letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 113B",
+      "dept": "EE BIOL",
+      "number": "113B",
+      "title": "Field Herpetology",
+      "units": 8.0,
+      "description": "Requisite: Life Sciences 1. Recommended: courses 100, 111. Two weeks of off-campus research projects followed by two-week lecture course and offered only as part of Field Biology Quarter. Biology, particularly ecology and behavior, of reptiles and amphibians in their natural habitat. Students carry out supervised research projects, then write up\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 114B",
+      "dept": "EE BIOL",
+      "number": "114B",
+      "title": "Field Ornithology",
+      "units": 8.0,
+      "description": "Requisite: Life Sciences 1. Recommended: course 100. Two to three weeks of off-campus research projects followed by lecture course and offered only as part of Field Biology Quarter. Biology, particularly ecology and behavior, of birds in their natural habitat. Letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 116",
+      "dept": "EE BIOL",
+      "number": "116",
+      "title": "Conservation Biology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: Life Sciences 1 or 7B. Recommended: course 100. Not open for credit to students with credit for Environment 121. Study of ecological and evolutionary principles as they apply to preservation of genetic, species, and ecosystem diversity. Discussion sections focus on interactions of science,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 117",
+      "dept": "EE BIOL",
+      "number": "117",
+      "title": "Evolution of Vertebrates",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, three hours. Recommended requisite: course 110. Survey of origin and evolution of vertebrates through examination of fossil record. Focus on fossil record of tetrapods, with emphasis on anatomical and physiological transformations in amphibians, reptiles, birds, and mammals. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 118",
+      "dept": "EE BIOL",
+      "number": "118",
+      "title": "Plant Adaptations",
+      "units": 8.0,
+      "description": "Lecture, one hour; field trip, 10 hours. Requisite: course 100. Five-week course offered only as part of Field Biology Quarter. Field-oriented introduction to mechanisms by which vascular plants adapt themselves to their abiotic and biotic environments using community, population, and ecophysiological levels of integration. Letter grading.",
+      "prereqs_raw": "Requisite: course 100.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 120",
+      "dept": "EE BIOL",
+      "number": "120",
+      "title": "Evolution",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Mathematics 3A and 3B (or 31A or Life Sciences 30B). Not open for credit to students with credit for course 185. Designed for departmental majors specializing in environmental and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Mathematics 3A and 3B (or 31A or Life Sciences 30B).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 2",
+            "LIFE SCI 3",
+            "LIFE SCI 4",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [],
+        "additional": {
+          "math_requirement": {
+            "required": [
+              "MATH 3A",
+              "MATH 3B"
+            ],
+            "one_of": [
+              [
+                "MATH 31A",
+                "LIFE SCI 30B"
+              ]
+            ]
+          }
+        }
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 121",
+      "dept": "EE BIOL",
+      "number": "121",
+      "title": "Molecular Evolution",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A and 23L. Molecular biology, with emphasis on evolutionary aspects. DNA replication, RNA transcription, protein synthesis, gene expression, and molecular evolution. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 3",
+            "LIFE SCI 4",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 122",
+      "dept": "EE BIOL",
+      "number": "122",
+      "title": "Ecology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 100, Life Sciences 1 or 7B, Mathematics 3B or 31A or Life Sciences 30B. Highly recommended: Mathematics 31B, 32A. Designed for departmental majors specializing in environmental and population biology. Introduction to population and community ecology, with emphasis on growth and distributions of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B, Mathematics 3B or 31A or Life Sciences 30B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ],
+          [
+            "MATH 3B",
+            "MATH 31A",
+            "LIFE SCI 30B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 123A",
+      "dept": "EE BIOL",
+      "number": "123A",
+      "title": "Field Marine Ecology",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory, 15 hours. Recommended requisites: courses 100, 122. Offered either as 4- or 8-unit five-week intensive course given off campus as part of Marine Biology Quarter that is in residence at research station located outside continental U.S. Survey of current topics in marine ecology, including analysis of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 123B",
+      "dept": "EE BIOL",
+      "number": "123B",
+      "title": "Field Marine Ecology",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory, 15 hours. Recommended requisites: courses 100, 122. Offered either as 4- or 8-unit five-week intensive course given off campus as part of Marine Biology Quarter that is in residence at research station located within U.S., including Alaska and Hawaii. Survey of current topics in marine ecology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 124A",
+      "dept": "EE BIOL",
+      "number": "124A",
+      "title": "Field Ecology",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory or field trip, 15 hours. Requisites: course 100, Life Sciences 1 or 7B. Recommended: courses 111, 120, 122. Offered as part of Field Biology Quarter that is in residence at research station located outside continental U.S. for part of or for duration of term. Field and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 124B",
+      "dept": "EE BIOL",
+      "number": "124B",
+      "title": "Field Ecology",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory or field trip, 15 hours. Requisites: course 100, Life Sciences 1 or 7B. Recommended: courses 111, 120, 122. Offered as part of Field Biology Quarter that is in residence at research station located within U.S., including Alaska and Hawaii, for part of or for duration of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 125",
+      "dept": "EE BIOL",
+      "number": "125",
+      "title": "Tropical Animal Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 100, Life Sciences 1 or 7B. Offered either as 4-unit quarter-long course or as 8-unit Field Biology Quarter course. Animal communication behavior, tropical vertebrate biology, and evolution of information processing systems. Eight-unit course covers same basic lecture material in five or six\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 128",
+      "dept": "EE BIOL",
+      "number": "128",
+      "title": "Plant Physiological Ecology",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, three hours; one two-day field trip. Requisites: Life Sciences 1 or 7B, Physics 1C and 4BL, or 5B or 6C. Study of plant/environment interactions under natural conditions. Transpiration and photosynthesis, leaf temperatures, and water movement in soil/plant/atmosphere continuum. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 1 or 7B, Physics 1C and 4BL, or 5B or 6C.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ],
+          [
+            "PHYSICS 4BL",
+            "PHYSICS 5B",
+            "PHYSICS 6C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 129",
+      "dept": "EE BIOL",
+      "number": "129",
+      "title": "Animal Behavior",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 100, Life Sciences 1 or 7B. Introduction to behavioral ecology. Methods and results of evolutionary approaches to study of animal behavior, including foraging strategies, social competition, sexual selection, mating systems, cooperation, and social organization. Letter grading.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 130",
+      "dept": "EE BIOL",
+      "number": "130",
+      "title": "Principles of Systematic Biology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: Life Sciences 1 or 7B. Recommended: courses 120, 135. Concepts, principles, and methods of comparative biology as they apply to inference of evolutionary relationships among organisms. Principles and application of biological nomenclature. Letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 132",
+      "dept": "EE BIOL",
+      "number": "132",
+      "title": "Field Behavioral Ecology",
+      "units": 8.0,
+      "description": "Lecture, two hours; laboratory/field trip, 10 hours. Requisites: course 100, Life Sciences 1 or 7B. Recommended: course 129. Five-week course offered only as part of Field Biology Quarter. Field research in behavioral ecology, emphasizing animal communication. Design and execution of individual and small group field projects during extended field trip.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 133",
+      "dept": "EE BIOL",
+      "number": "133",
+      "title": "Elements of Theoretical and Computational Biology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 1, 2, 3, 4, 23L, and Mathematics 3A, 3B, and 3C, or 31A and 31B, or Life Sciences 30B. Strongly recommended: elementary statistics course. Introduction of basic core mathematical ideas and models necessary to understand contemporary ecology and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 1, 2, 3, 4, 23L, and Mathematics 3A, 3B, and 3C, or 31A and 31B, or Life Sciences 30B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 134B",
+      "dept": "EE BIOL",
+      "number": "134B",
+      "title": "Field Physiological Ecology of Desert Animals",
+      "units": 8.0,
+      "description": "Fieldwork, 15 hours. Requisite: Life Sciences 1 or 7B. Recommended: course 100. Two weeks of off-campus research projects with two-week lecture course (four hours per day) and offered only as part of Field Biology Quarter. Consideration of physiological, behavioral, morphological, and ecological mechanisms desert animals use to enhance their survival\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 136",
+      "dept": "EE BIOL",
+      "number": "136",
+      "title": "Ecological Restoration",
+      "units": 6.0,
+      "description": "Lecture, two and one half hours; laboratory, three hours; three field trips. Requisites: course 100, Life Sciences 1 or 7B. Study of ecosystems that have been degraded by overuse or unsustainable extraction of natural resources, foundation of restoration ecology including historical knowledge, reference sites, soil preparation, biodiversity, California natives, succession,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 137",
+      "dept": "EE BIOL",
+      "number": "137",
+      "title": "Chemical Communication",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14A, 14B, 14BL, 14C, 14CL, and 14D, or 20A, 20B, 20L, 30A, 30AL, 30B, and 30BL, Life Sciences 1, 2, 3, 23L. Chemical signals are most important means by which organisms communicate. Exploration of how chemical signals are produced, transported, and influence\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14A, 14B, 14BL, 14C, 14CL, and 14D, or 20A, 20B, 20L, 30A, 30AL, 30B, and 30BL, Life Sciences 1, 2, 3, 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14B",
+            "CHEM 14BL",
+            "CHEM 14C",
+            "CHEM 14CL",
+            "CHEM 14D"
+          ],
+          [
+            "CHEM 20A",
+            "CHEM 20B",
+            "CHEM 20L",
+            "CHEM 30A",
+            "CHEM 30AL",
+            "CHEM 30B",
+            "CHEM 30BL"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [],
+        "additional_required": [
+          "LIFE SCI 1",
+          "LIFE SCI 2",
+          "LIFE SCI 3",
+          "LIFE SCI 23L"
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 140",
+      "dept": "EE BIOL",
+      "number": "140",
+      "title": "Biology of Marine Mammals",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Examination of evolution, systematics, natural history, anatomy, physiology, and conservation of mammals secondarily adapted to life in oceans: cetaceans, pinnipeds, sirenians, marine otters, and polar bear. Through lectures and readings from recent primary literature, students gain understanding of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 142",
+      "dept": "EE BIOL",
+      "number": "142",
+      "title": "Aquatic Communities",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Overview of species and communities in marine and freshwater environments. Exploration of interactions of physical and biological factors that shape communities and how scientists test hypotheses. Emphasis on critical reading of primary literature. Letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 143",
+      "dept": "EE BIOL",
+      "number": "143",
+      "title": "Viral Ecology and Evolution",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 7A, 7B, 7C, 23L. Viruses are most common biological entity on planet, and have broad-ranging ecological and evolutionary environmental and medical impacts. This makes understanding roles of viruses central to understanding how ecosystems work, how microorganisms change over time in face\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 7A, 7B, 7C, 23L.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C",
+          "LIFE SCI 23L"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 144",
+      "dept": "EE BIOL",
+      "number": "144",
+      "title": "Prehistoric California",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; field trips. Requisite: Life Sciences 7B. Recommended: course 100. Survey of history of life as illustrated in fossil record of California. Emphasis on how faunas have changed over time, especially during periods of diversification and extinction. Relation of influence of major events of geologic,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 144L"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 144L",
+      "dept": "EE BIOL",
+      "number": "144L",
+      "title": "Prehistoric California Laboratory",
+      "units": 4.0,
+      "description": "Laboratory, three hours. Corequisite: course 144. Survey of major groups of organisms from oceans and on land that can be found in fossil record of California, and relation of them to some of major events in history of life. Emphasis on how faunas have changed over time, especially during periods\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Corequisite: course 144.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "EE BIOL 144"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 147",
+      "dept": "EE BIOL",
+      "number": "147",
+      "title": "Biological Oceanography",
+      "units": 4.0,
+      "description": "Five-week intensive course. Lecture, five hours; laboratory, 15 hours. Requisites: Chemistry 14A, 14B, and 14BL, or 20A, 20B, 20L, and 30AL, Life Sciences 1, 3, 23L. Lectures include physical, chemical, and biological factors affecting abundance and distribution of organisms in marine environment. Laboratory includes experimental studies of local marine organisms,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14A, 14B, and 14BL, or 20A, 20B, 20L, and 30AL, Life Sciences 1, 3, 23L.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14B",
+          "CHEM 14BL",
+          "LIFE SCI 1",
+          "LIFE SCI 3",
+          "LIFE SCI 23L"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 20A",
+            "CHEM 20B",
+            "CHEM 20L",
+            "CHEM 30AL"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 148",
+      "dept": "EE BIOL",
+      "number": "148",
+      "title": "Biology of Marine Plants",
+      "units": 4.0,
+      "description": "Five-week intensive course. Lecture, five hours; laboratory, 15 hours. Requisites: Chemistry 14A, 14B, and 14BL, or 20A, 20B, 20L, and 30AL, Life Sciences 1, 3, and 23L, or 7A, 7B, and 23L. Introduction to general biology of marine algae, including basics of structure reproduction, life histories, systematics, and introduction to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14A, 14B, and 14BL, or 20A, 20B, 20L, and 30AL, Life Sciences 1, 3, and 23L, or 7A, 7B, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14B",
+            "CHEM 14BL"
+          ],
+          [
+            "CHEM 20A",
+            "CHEM 20B",
+            "CHEM 20L",
+            "CHEM 30AL"
+          ],
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 3",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 149",
+      "dept": "EE BIOL",
+      "number": "149",
+      "title": "Evolutionary Genomics",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Requisites: Life Sciences 7A, 7B, 7C, 23L. Evolutionary genomics is study of variation and changes in genomic sequences due to natural selection pressures. Virtually all organisms on this planet experience evolutionary pressures. Evolutionary pressures act on genomic variation, and in turn can change genomic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 7A, 7B, 7C, 23L.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C",
+          "LIFE SCI 23L"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 150",
+      "dept": "EE BIOL",
+      "number": "150",
+      "title": "Principles of Genetics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14A or 20A, 14C or 30A, Life Sciences 7A, 7B, 7C, 23L. Genetics in most diverse and inclusive of biological sciences. Fields as divergent as medicine and evolution require understanding of fundamental concepts of heredity as they apply to individuals and populations.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14A or 20A, 14C or 30A, Life Sciences 7A, 7B, 7C, 23L.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C",
+          "LIFE SCI 23L"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 20A"
+          ],
+          [
+            "CHEM 14C",
+            "CHEM 30A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 150L"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 150L",
+      "dept": "EE BIOL",
+      "number": "150L",
+      "title": "Principles of Genetics Laboratory",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Corequisite: course 150. Genetics is most diverse and most inclusive of biological sciences. Fields as divergent as medicine and evolution require understanding of fundamental concepts of heredity as they apply to individuals and populations, and skills to ask and answer questions using genetic techniques. Letter grading.",
+      "prereqs_raw": "Corequisite: course 150.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "EE BIOL 150"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 151A",
+      "dept": "EE BIOL",
+      "number": "151A",
+      "title": "Tropical Ecology",
+      "units": 4.0,
+      "description": "Lecture, one hour; discussion, two hours. Requisite: Life Sciences 1 or 7B. Broad introduction to biodiversity, community structure, and dynamics and ecosystem function of range of tropical forest habitats. Discussion of such themes as biogeography, forest structure, plant growth forms, animal communities, herbivory, forest dynamics, and disturbance regimes. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 151B",
+      "dept": "EE BIOL",
+      "number": "151B",
+      "title": "Field Tropical Ecology",
+      "units": 8.0,
+      "description": "Lecture, three hours; fieldwork, five hours. Requisites: course 100, Life Sciences 1 or 7B. Two weeks of off-campus research projects followed by two-week lecture course and offered only as part of Field Biology Quarter. Introduction to biodiversity, community structure, and dynamics and ecosystem function in tropical forest habitat. Letter grading.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 152",
+      "dept": "EE BIOL",
+      "number": "152",
+      "title": "World Vegetation Ecology and Ecophysiology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Diversity of physiological and ecological adaptations in biomes of world, explaining distribution and dynamics of world vegetation types. Focus on processes across scales from cells to ecosystem to globe, instrumentation for environmental and ecophysiological measurements, and experiments used\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 153",
+      "dept": "EE BIOL",
+      "number": "153",
+      "title": "Physics and Chemistry of Biotic Environments",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14A, 14B, and 14BL (or 20A, 20B, and 20L), Life Sciences 1. Recommended: Life Sciences 2, 3, 4, 23L, Physics 6A. Chemical and physical principles that are critical to functional responses by organisms to their habitats. Focus is integrative, providing comprehensive training\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14A, 14B, and 14BL (or 20A, 20B, and 20L), Life Sciences 1.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14B",
+          "CHEM 14BL",
+          "LIFE SCI 1"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 20A",
+            "CHEM 20B",
+            "CHEM 20L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 154",
+      "dept": "EE BIOL",
+      "number": "154",
+      "title": "California Ecosystems",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory or field trip, four hours. Requisite: Life Sciences 1 or 7B. Recommended: course 100. Introduction to structure, biodiversity, and dynamics of California ecosystems, with focus on Southern California, and impact of human activities on these systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 155",
+      "dept": "EE BIOL",
+      "number": "155",
+      "title": "Community Ecology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Recommended: course 100 or 122. Community ecology is study of biodiversity in ecological context: structure and dynamics of natural species assemblages in space and time, and ecological and evolutionary mechanisms that determine which species are present or absent\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 161",
+      "dept": "EE BIOL",
+      "number": "161",
+      "title": "Plant Ecology",
+      "units": 4.0,
+      "description": "Lecture, two and one half hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Introduction to ecology of terrestrial plants, covering individuals, populations, communities, and global processes. Topics include plant form and function, seed dormancy and population dynamics, life histories, disturbance and succession, community structure and dynamics, and global\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 161L"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 161L",
+      "dept": "EE BIOL",
+      "number": "161L",
+      "title": "Plant Ecology Laboratory",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: course 161 (may be taken concurrently), Life Sciences 7B. Introduction to foundational principles, theory, and field application of ecology. Emphasis on ecology of terrestrial plants, use of these principles to predict consequences, and uncertainties associated with human-caused changes in environment. Examination of both biotic and abiotic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 161 (may be taken concurrently), Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 7B"
+        ],
+        "corequisites": [
+          "EE BIOL 161"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 162",
+      "dept": "EE BIOL",
+      "number": "162",
+      "title": "Plant Physiology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 1, 2, 3, and 23L, or 7A, 7B, 7C, and 23L. Basic aspects of plant function, including photochemical, biochemical, and physiological aspects of photosynthesis. Carbon and nitrogen metabolism and its regulation; organellar interactions and compartmentation. Water relations, ion transport, flowering, hormone\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 1, 2, 3, and 23L, or 7A, 7B, 7C, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 2",
+            "LIFE SCI 3",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 163",
+      "dept": "EE BIOL",
+      "number": "163",
+      "title": "Biology of Marine Tetrapods",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory and fieldwork, 15 hours. Requisites: Chemistry 14A, 14B, and 14BL, or 20A, 20B, 20L, and 30AL, Life Sciences 1, 3, and 23L, or 7A, 7B, and 23L. Highly recommended: course 111. Five-week intensive course offered only as part of Marine Biology Quarter. Survey of higher vertebrates\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14A, 14B, and 14BL, or 20A, 20B, 20L, and 30AL, Life Sciences 1, 3, and 23L, or 7A, 7B, and 23L.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 164",
+      "dept": "EE BIOL",
+      "number": "164",
+      "title": "Field Biology of Marine Fishes",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory, 15 hours. Requisite: Life Sciences 1. Recommended: Mathematics 3A, 3B, 3C. Five-week intensive course offered only as part of Marine Biology Quarter. Selected aspects of natural history, ecology, and behavior of diverse assemblage of local marine fishes. Fieldwork strongly emphasized. Given off campus at marine science\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 165",
+      "dept": "EE BIOL",
+      "number": "165",
+      "title": "Ecological Physiology of Marine Vertebrates",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory, 15 hours. Requisites: Chemistry 14B and 14BL, or 20B and 30AL, Life Sciences 1, 3, 23L. Recommended: Life Sciences 30B or Mathematics 3C or 32A, and Physics 1C and 4BL, or 6C or 6CH. Five-week intensive course offered only as part of Marine Biology Quarter. Introduction\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14B and 14BL, or 20B and 30AL, Life Sciences 1, 3, 23L.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 1",
+          "LIFE SCI 3",
+          "LIFE SCI 23L"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14B",
+            "CHEM 14BL"
+          ],
+          [
+            "CHEM 20B",
+            "CHEM 30AL"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 170",
+      "dept": "EE BIOL",
+      "number": "170",
+      "title": "Animal Environmental Physiology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, six hours. Requisites: Chemistry 14D, or 30B and 30BL, Life Sciences 1, 2, 3, 4, and 23L, or Life Sciences 7A, 7B, 7C, and 23L, 30B or Mathematics 3C or 32A, Physics 1C and 4BL, or 5B or 6C or 6CH. Not open for credit to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14D, or 30B and 30BL, Life Sciences 1, 2, 3, 4, and 23L, or Life Sciences 7A, 7B, 7C, and 23L, 30B or Mathematics 3C or 32A, Physics 1C and 4BL, or 5B or 6C or 6CH.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14D",
+          "LIFE SCI 1",
+          "LIFE SCI 2",
+          "LIFE SCI 3",
+          "LIFE SCI 4",
+          "PHYSICS 1C",
+          "PHYSICS 4BL"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 30B",
+            "CHEM 30BL"
+          ],
+          [
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C"
+          ],
+          [
+            "CHEM 30B",
+            "MATH 3C",
+            "MATH 32A"
+          ],
+          [
+            "PHYSICS 5B",
+            "PHYSICS 6C",
+            "PHYSICS 6CH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 175",
+      "dept": "EE BIOL",
+      "number": "175",
+      "title": "Evolutionary Dynamics of Sex",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Fitness dynamics of reproduction when females and males are in conflict over reproductive decisions, with focus on animals with human examples as appropriate. Emphasis on natural selection thinking, sexual selection, and origins of sexual conflict, including Fisherian sex\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 181",
+      "dept": "EE BIOL",
+      "number": "181",
+      "title": "Parasitology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, six hours. Requisites: Life Sciences 1, 3, and 23L, or 7A, 7B, and 23L. Introduction to principles, biology, and evolution of infectiousness, symbiosis, and parasitism, emphasizing protozoan and helminth parasites, including those of man. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 1, 3, and 23L, or 7A, 7B, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 3",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 182",
+      "dept": "EE BIOL",
+      "number": "182",
+      "title": "Marine Parasitology",
+      "units": 4.0,
+      "description": "Lecture, five hours; laboratory, 15 hours. Requisite: Life Sciences 1 or 7B. Recommended: courses 112, 181. Five-week intensive course offered only as part of Marine Biology Quarter. Introduction to natural history and ecology of host-parasite interaction involving intertidal fish hosts. Laboratory includes collection and preparation techniques. Given off-campus at marine\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 183",
+      "dept": "EE BIOL",
+      "number": "183",
+      "title": "Finding Ecological Solutions to Environmental Problems",
+      "units": 4.0,
+      "description": "Seminar, two hours; discussion, two and one half hours. Requisite: course 100. Ecological practicum in which students work in teams with client (e.g., non-profit, governmental) to research and propose solutions to diverse ecological problems. Students learn practical skills to apply ecological science to solving of diverse and interdisciplinary environmental problems,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 100.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 184",
+      "dept": "EE BIOL",
+      "number": "184",
+      "title": "Evolution, Development, and Disease",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 7B. Recommended requisite: course 103, 110, 120, M157, C174, or 185. Exploration of developmental mechanisms underlying evolution of animal design, including impacts of environment on these mechanisms. Exploration of what happens to animal form, including that of humans, when these developmental\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 185",
+      "dept": "EE BIOL",
+      "number": "185",
+      "title": "Evolutionary Medicine",
+      "units": 4.0,
+      "description": "Lecture, two and one half hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Not open for credit to students with credit for course 120. Designed for departmental majors specializing in environmental and population biology and in medicine. Introduction to mechanics and processes of evolution, with emphasis on natural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 186",
+      "dept": "EE BIOL",
+      "number": "186",
+      "title": "Evolutionary Medicine: Clinical Perspective on Medical, Surgical, and Psychiatric Disorders",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. From breast cancer and heart failure to self-injury, obsessive-compulsive and eating disorders, all contemporary medical issues have evolutionary roots. Understanding of application of evolutionary thought to issues faced by physicians, veterinarians, psychologists, and other healthcare providers. Development of awareness and understanding of evolutionary roots\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 198A",
+      "dept": "EE BIOL",
+      "number": "198A",
+      "title": "Honors Research in Ecology and Evolutionary Biology",
+      "units": 4.0,
+      "description": "Tutorial, 12 hours. Limited to juniors/seniors. Supervised individual research designed to broaden and deepen students\u2019 knowledge of some phase of biology. Must be taken with Ecology and Evolutionary Biology Department faculty for at least two terms and for total of at least 8 units. Eight units may be applied toward\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 198B",
+      "dept": "EE BIOL",
+      "number": "198B",
+      "title": "Honors Research in Ecology and Evolutionary Biology",
+      "units": 4.0,
+      "description": "Tutorial, 12 hours. Limited to juniors/seniors. Supervised individual research designed to broaden and deepen students\u2019 knowledge of some phase of biology. Must be taken with Ecology and Evolutionary Biology Department faculty for at least two terms and for total of at least 8 units. Eight units may be applied toward\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 199",
+      "dept": "EE BIOL",
+      "number": "199",
+      "title": "Directed Research in Ecology and Evolutionary Biology",
+      "units": 2.0,
+      "description": "Tutorial, six to 12 hours. Preparation: submission of written proposal outlining study or research to be undertaken. Studies to involve laboratory or field-related research, not literature surveys or library research. Proposal to be developed in consultation with instructor and submitted for approval to undergraduate adviser before day instruction begins in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C119A",
+      "dept": "EE BIOL",
+      "number": "C119A",
+      "title": "Mathematical and Computational Modeling in Ecology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 30B or Mathematics 3B or 31A. Recommended: courses 100, 122, Life Sciences 1 or 7B, Mathematics 3C. Introduction to modeling dynamics of ecological systems, including formulation and analysis of mathematical models, basic techniques of scientific programming, probability and stochastic modeling, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 30B or Mathematics 3B or 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C119B",
+      "dept": "EE BIOL",
+      "number": "C119B",
+      "title": "Modeling in Ecological Research",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, two hours. Recommended requisite: course C119A. Advanced techniques in mathematical and computational modeling of ecological dynamics and other population dynamic problems. Independent research projects developed by students. Topics include model formulation, stochastic models, fitting models to data, sensitivity analysis, presentation of model results, and other topics\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C126",
+      "dept": "EE BIOL",
+      "number": "C126",
+      "title": "Behavioral Ecology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 100, Life Sciences 1 or 7B, Mathematics 3C or 32A or Life Sciences 30B. Recommended: course 129. Offered either as 4-unit quarter-long course or as 8-unit Field Biology Quarter course. Evolutionary perspective of behavioral ecology, with extended consideration of selfish DNA, conflict\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B, Mathematics 3C or 32A or Life Sciences 30B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ],
+          [
+            "MATH 3C",
+            "MATH 32A",
+            "LIFE SCI 30B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C135",
+      "dept": "EE BIOL",
+      "number": "C135",
+      "title": "Population Genetics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: Life Sciences 4 or 7A. Strongly recommended: course 100, Mathematics 31A, and 31B or Life Sciences 30B. Basic principles of genetics of population, dealing with genetic structure of natural populations and mechanisms of evolution. Equilibrium conditions and forces altering gene frequencies, polygenic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: Life Sciences 4 or 7A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 4",
+          "LIFE SCI 7A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C146",
+      "dept": "EE BIOL",
+      "number": "C146",
+      "title": "Conservation Genetics",
+      "units": 4.0,
+      "description": "Lecture three hours; discussion, one hour. Requisites: course 150 or Life Sciences 107, Life Sciences 7A, 7B, 7C. Conservation genetics is interdisciplinary field that integrates genetic methods and concepts from population genetics, evolutionary biology, molecular ecology, and systematics to understand how to conserve and manage populations and species of natural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 150 or Life Sciences 107, Life Sciences 7A, 7B, 7C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C172",
+      "dept": "EE BIOL",
+      "number": "C172",
+      "title": "Advanced Statistics in Ecology and Evolutionary Biology",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Enforced Requisite: Life Sciences 40 or Statistics 10 or 13. Overview of and application of advanced statistical methods that go beyond linear models and mean comparison, including bootstrapping, permutations, Bayesian statistics, mixed models, clustering, and network analysis. At course end students should be able\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced Requisite: Life Sciences 40 or Statistics 10 or 13.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 40",
+            "STAT 10",
+            "STAT 13"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C174",
+      "dept": "EE BIOL",
+      "number": "C174",
+      "title": "Comparative Biology and Macroevolution",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Requisite: Life Sciences 1 or 7B. Recommended: one introductory statistics course. Modern comparative biology provides framework for studying broad questions in evolution\u2014How do body shapes evolve? What are dynamics of evolutionary arms race? Why are there so many species in tropics? Why are there\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL CM173",
+      "dept": "EE BIOL",
+      "number": "CM173",
+      "title": "Earth Process and Evolutionary History",
+      "units": 6.0,
+      "description": "(Same as Earth, Planetary, and Space Sciences CM173.) Lecture, four hours; laboratory, three hours. Requisites: Chemistry 14A, 14B (or 20A, 20B), Life Sciences 1, 2, 3, and 4, or 7A, 7B, and 7C (or 7A and introductory course in geology). Exploration of relationship between physical processes, such as tectonics and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14A, 14B (or 20A, 20B), Life Sciences 1, 2, 3, and 4, or 7A, 7B, and 7C (or 7A and introductory course in geology).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14B"
+          ],
+          [
+            "CHEM 20A",
+            "CHEM 20B"
+          ],
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 2",
+            "LIFE SCI 3",
+            "LIFE SCI 4"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C"
+          ],
+          [
+            "LIFE SCI 7A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL M131",
+      "dept": "EE BIOL",
+      "number": "M131",
+      "title": "Ecosystem Ecology",
+      "units": 4.0,
+      "description": "(Same as Geography M110.) Lecture, three hours; field trips. Requisite: Geography 1 or Life Sciences 7B. Designed for juniors/seniors. Development of principles of ecosystem ecology, with focus on understanding links between ecosystem structure and function. Emphasis on energy and water balances, nutrient cycling, plant-soil-microbe interactions, landscape heterogeneity, and human disturbance\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Geography 1 or Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GEOG 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL M139",
+      "dept": "EE BIOL",
+      "number": "M139",
+      "title": "Introduction to Chemical Oceanography",
+      "units": 4.0,
+      "description": "(Same as Atmospheric and Oceanic Sciences M105.) Lecture, three hours; discussion, one hour. Introductory course for physical sciences, life sciences, and engineering majors interested in oceanic environment. Chemical composition of oceans and nature of physical, chemical, and biological processes governing this composition in past and present. Cycles of major and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL M157",
+      "dept": "EE BIOL",
+      "number": "M157",
+      "title": "Biology of Superheroes: Exploring Limits of Form and Function",
+      "units": 4.0,
+      "description": "(Same as Society and Genetics M157.) Lecture, four hours; discussion, one hour. Requisites: Life Sciences 1 and 4, or 7A and 7B. Combines topics posed in popular graphic novels, movies, and television with primary scientific literature to explore bizarre phenomena in natural world and delve into basic scientific theory and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 1 and 4, or 7A and 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 4"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL M178",
+      "dept": "EE BIOL",
+      "number": "M178",
+      "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+      "units": 5.0,
+      "description": "(Same as Bioengineering CM186, Computational and Systems Biology M186, and Computer Science CM186.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and computer simulation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 100",
+      "dept": "EPS SCI",
+      "number": "100",
+      "title": "Principles of Earth Science",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for nonmajors. Not open to students with credit for course 1. Fundamentals of physical geology and Earth history; major problems of geology, such as continental drift and development of large-scale features of Earth; physical and biological evolution. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 116",
+      "dept": "EPS SCI",
+      "number": "116",
+      "title": "Paleontology",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours; field trips. Requisite: Life Sciences 7A or 7B. Review of major groups of fossil organisms and their significance in geology and biology. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 7A or 7B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 119",
+      "dept": "EPS SCI",
+      "number": "119",
+      "title": "Continental Drift and Plate Tectonics",
+      "units": 4.0,
+      "description": "Lecture, three hours; computer laboratory/discussion, one hour. Requisite: course 1, or any course from 3 through 17, 20, or Clusters 70A. Designed for juniors/seniors in physical sciences. Exploration of history and phenomenology of plate tectonics theory, with particular focus on obervables and kinematics. Evidence supporting plate tectonics theory (magnetic anomalies,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1, or any course from 3 through 17, 20, or Clusters 70A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "EPS SCI 1",
+            "EPS SCI 3",
+            "EPS SCI 4",
+            "EPS SCI 5",
+            "EPS SCI 6",
+            "EPS SCI 7",
+            "EPS SCI 8",
+            "EPS SCI 9",
+            "EPS SCI 10",
+            "EPS SCI 11",
+            "EPS SCI 12",
+            "EPS SCI 13",
+            "EPS SCI 14",
+            "EPS SCI 15",
+            "EPS SCI 16",
+            "EPS SCI 17",
+            "EPS SCI 20",
+            "EPS SCI 70A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 15",
+      "dept": "EPS SCI",
+      "number": "15",
+      "title": "Blue Planet: Introduction to Oceanography",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Not open for credit to students with credit for or currently enrolled in Ecology and Evolutionary Biology 25. General introduction to geological, physical, chemical, and biological processes and history of Earth\u2019s global ocean system. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EPS SCI 119"
+      ]
+    },
+    {
+      "course_id": "EPS SCI 153",
+      "dept": "EPS SCI",
+      "number": "153",
+      "title": "Oceans and Atmospheres",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 30A and 30B, or Mathematics 31A, 31B, and 32A; and Physics 1A, 1B, and 1C, or 1AH, 1BH, and 1CH, or 5A, 5B, and 5C. Physics of Earth\u2019s oceans and atmosphere; biogeochemical cycles, atmospheric radiation and climate, energetics and dynamics of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A and 30B, or Mathematics 31A, 31B, and 32A; and Physics 1A, 1B, and 1C, or 1AH, 1BH, and 1CH, or 5A, 5B, and 5C.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A"
+          ],
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1BH",
+            "PHYSICS 1CH"
+          ],
+          [
+            "PHYSICS 5A",
+            "PHYSICS 5B",
+            "PHYSICS 5C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI C141",
+      "dept": "EPS SCI",
+      "number": "C141",
+      "title": "Basin Analysis",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Requisites: courses 103B, 111. Mechanisms of sedimentary basin development, flexural and thermal subsidence, isostasy, subsidence analysis, quantitative basin modeling, sediment provenance, tectonic settings. Concurrently scheduled with course C241. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 103B, 111.",
+      "prereqs_parsed": {
+        "required": [
+          "EPS SCI 103B",
+          "EPS SCI 111"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI CM173",
+      "dept": "EPS SCI",
+      "number": "CM173",
+      "title": "Earth Process and Evolutionary History",
+      "units": 6.0,
+      "description": "(Same as Ecology and Evolutionary Biology CM173.) Lecture, four hours; laboratory, three hours. Requisites: Chemistry 14A, 14B (or 20A, 20B), Life Sciences 1, 2, 3, and 4, or 7A, 7B, and 7C (or 7A and introductory course in geology). Exploration of relationship between physical processes, such as tectonics and climate,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14A, 14B (or 20A, 20B), Life Sciences 1, 2, 3, and 4, or 7A, 7B, and 7C (or 7A and introductory course in geology).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14B"
+          ],
+          [
+            "CHEM 20A",
+            "CHEM 20B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [],
+        "notes": "Also requires one of: (Life Sciences 1, 2, 3, and 4) OR (Life Sciences 7A, 7B, and 7C) OR (Life Sciences 7A and introductory course in geology)"
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 101",
+      "dept": "GEOG",
+      "number": "101",
+      "title": "Principles of Geomorphology",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 1. Study of processes that shape world\u2019s landforms, with emphasis on weathering, mass movement and fluvial erosion, transport, deposition; energy and material transfers; space and time considerations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 130",
+      "dept": "GEOG",
+      "number": "130",
+      "title": "Food and Environment",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Thematic orientation to food systems and their role in environmental and cultural transformations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 182A",
+      "dept": "GEOG",
+      "number": "182A",
+      "title": "Introduction to Remote Sensing",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, one hour. Enforced requisite: course 7. Introduction to fast-growing field of environmental monitoring from space. Application of Landsat, radar, Global Positioning System (GPS), and Earth Observing System satellites to land-use change, oceanography, meteorology, and environmental monitoring. Introduction to digital image-processing and imaging geographic information systems (GIS)\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 7.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 7"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M110",
+      "dept": "GEOG",
+      "number": "M110",
+      "title": "Ecosystem Ecology",
+      "units": 4.0,
+      "description": "(Same as Ecology and Evolutionary Biology M131.) Lecture, three hours; field trips. Requisite: course 1 or Life Sciences 7B. Designed for juniors/seniors. Development of principles of ecosystem ecology, with focus on understanding links between ecosystem structure and function. Emphasis on energy and water balances, nutrient cycling, plant-soil-microbe interactions, landscape heterogeneity,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1 or Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GEOG 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M118",
+      "dept": "GEOG",
+      "number": "M118",
+      "title": "Applied Climatology: Principles of Climate Impact on Natural Environment",
+      "units": 4.0,
+      "description": "(Same as Atmospheric and Oceanic Sciences M106.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of knowledge and tools to solve complex problems in contemporary applied climatology, including current practices, influence of climate on environment, and human influence on changing climates. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 107",
+      "dept": "LIFESCI",
+      "number": "107",
+      "title": "Genetics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Requisites: courses 7C, 23L, Chemistry 14A (or 20A), 14C (or 30A). Not open for credit to students with credit for course 4. Advanced Mendelian genetics, recombination, biochemical genetics, mutation, DNA, genetic code, gene regulation, genes in populations. Letter grading.",
+      "prereqs_raw": "Requisites: courses 7C, 23L, Chemistry 14A (or 20A), 14C (or 30A).",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7C",
+          "LIFESCI 23L",
+          "CHEM 14A",
+          "LIFESCI 14C"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 20A"
+          ],
+          [
+            "LIFESCI 14C",
+            "CHEM 30A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 30A",
+      "dept": "LIFESCI",
+      "number": "30A",
+      "title": "Mathematics for Life Scientists",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LIFESCI 30B",
+        "LIFESCI 40"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 30B",
+      "dept": "LIFESCI",
+      "number": "30B",
+      "title": "Mathematics for Life Scientists",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Enforced requisite: course 30A. Introduction to concept of matrices and linear transformations to equip students with some basic tools to understand dynamics of multivariable nonlinear systems. Examples from ecological, physiological, chemical, and other systems. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 30A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 30A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 40",
+      "dept": "LIFESCI",
+      "number": "40",
+      "title": "Statistics of Biological Systems",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 30A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 30A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7A",
+      "dept": "LIFESCI",
+      "number": "7A",
+      "title": "Cell and Molecular Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Introduction to basic principles of cell structure and cell biology, biochemistry, and molecular biology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LIFESCI 7B"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 7B",
+      "dept": "LIFESCI",
+      "number": "7B",
+      "title": "Genetics, Evolution, and Ecology",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, 80 minutes. Enforced requisite: course 7A. Principles of Mendelian inheritance and population genetics. Introduction to principles and mechanisms of evolution by natural selection, population, behavioral, and community ecology, and biodiversity, including major taxa and their evolutionary, ecological, and physiological relationships. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 7A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LIFESCI 7C",
+        "LIFESCI 7L"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 7C",
+      "dept": "LIFESCI",
+      "number": "7C",
+      "title": "Physiology and Human Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Enforced requisite: course 7B. Organization of cells into tissues and organs and principles of physiology of organ systems. Introduction to human genetics and genomics. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LIFESCI 107"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 7L",
+      "dept": "LIFESCI",
+      "number": "7L",
+      "title": "Introduction to Laboratory and Scientific Methodology",
+      "units": 3.0,
+      "description": "(Formerly numbered 23L.) Lecture, one hour; laboratory, three hours. Requisite: course 7B. Recommended to be taken concurrently with course 7C. Introductory life sciences laboratory designed for undergraduate students. Opportunity to conduct wet-laboratory and cutting-edge bioinformatics laboratory experiments. Students work in groups of three conducting experiments in areas of physiology, metabolism,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "BIOENGR CM186",
+        "C&S BIO M186",
+        "CHEM 14A",
+        "CHEM 20A",
+        "CHEM 20B",
+        "COM SCI CM186",
+        "EE BIOL 122",
+        "EE BIOL C119A",
+        "EE BIOL M178",
+        "EPS SCI 153",
+        "MATH 31B",
+        "MATH 32A",
+        "PSYCH 186B"
+      ]
+    },
+    {
+      "course_id": "MATH 31AL",
+      "dept": "MATH",
+      "number": "31AL",
+      "title": "Differential and Integral Calculus Laboratory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 103",
+        "BIOENGR CM186",
+        "C&S BIO M186",
+        "CHEM 20B",
+        "COM SCI CM186",
+        "EE BIOL M178",
+        "EPS SCI 153",
+        "PHYSICS 1B",
+        "PSYCH 186B"
+      ]
+    },
+    {
+      "course_id": "MATH 32A",
+      "dept": "MATH",
+      "number": "32A",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 102",
+        "BIOENGR CM186",
+        "C&S BIO M186",
+        "COM SCI CM186",
+        "EE BIOL 170",
+        "EE BIOL C126",
+        "EE BIOL M178",
+        "EPS SCI 153",
+        "PHYSICS 1B",
+        "PHYSICS 1C"
+      ]
+    },
+    {
+      "course_id": "MATH 3A",
+      "dept": "MATH",
+      "number": "3A",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14A",
+        "MATH 3B",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MATH 3B",
+      "dept": "MATH",
+      "number": "3B",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C\u2013 or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 3A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "A&O SCI 103",
+        "EE BIOL 122",
+        "EE BIOL C119A",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MATH 3C",
+      "dept": "MATH",
+      "number": "3C",
+      "title": "Ordinary Differential Equations with Linear Algebra for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C\u2013 or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "A&O SCI 102",
+        "EE BIOL 170",
+        "EE BIOL C126",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MCD BIO 172",
+      "dept": "MCD BIO",
+      "number": "172",
+      "title": "Genomics and Bioinformatics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 144 or 165B or Chemistry 153B or Microbiology 132. Genomics is study of complete repertoire of molecules in cells. Topics include human and yeast genomes and genetic approaches to study of function of individual genes, fundamental bioinformatics algorithms used to study relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 144 or 165B or Chemistry 153B or Microbiology 132.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MECH&AE 103",
+      "dept": "MECH&AE",
+      "number": "103",
+      "title": "Elementary Fluid Mechanics",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 32B, 33A, Physics 1B. Introductory course dealing with application of principles of mechanics to flow of compressible and incompressible fluids. Letter grading.",
+      "prereqs_raw": "Requisites: Mathematics 32B, 33A, Physics 1B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33A",
+          "PHYS 1B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MECH&AE 150A"
+      ]
+    },
+    {
+      "course_id": "MECH&AE 150A",
+      "dept": "MECH&AE",
+      "number": "150A",
+      "title": "Intermediate Fluid Mechanics",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 82, 103. Basic equations governing fluid motion. Fundamental solutions of Navier-Stokes equations. Lubrication theory. Elementary potential flow theory. Boundary layers. Turbulent flow in pipes and boundary layers. Compressible flow: normal shocks, channel flow with friction or heat\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 82, 103.",
+      "prereqs_parsed": {
+        "required": [
+          "MECH&AE 82",
+          "MECH&AE 103"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 166",
+      "dept": "PHYSCI",
+      "number": "166",
+      "title": "Animal Physiology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, five hours. Requisites: Chemistry 14B and 14BL, or 20B and 30AL, 153A, Life Sciences 7A, 7B, 7C, Physics 1C and 4BL, or 5C. Not open for credit to students with credit for Ecology and Evolutionary Biology 170 or to Physiological Science majors. Introduction to physiological principles,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14B and 14BL, or 20B and 30AL, 153A, Life Sciences 7A, 7B, 7C, Physics 1C and 4BL, or 5C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14B",
+            "CHEM 14BL"
+          ],
+          [
+            "CHEM 20B",
+            "CHEM 30AL"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [],
+        "additional_required": [
+          "CHEM 153A",
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C"
+        ],
+        "additional_one_of": [
+          [
+            "PHYSICS 1C",
+            "PHYSICS 4BL"
+          ],
+          [
+            "PHYSICS 5C"
+          ]
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "dept": "PHYSICS",
+      "number": "1A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EPS SCI 153",
+        "PHYSICS 1B",
+        "PHYSICS 1C",
+        "PHYSICS 4AL",
+        "PHYSICS 4BL"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1B",
+      "dept": "PHYSICS",
+      "number": "1B",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Fluid mechanics, oscillation, mechanical waves, and sound. Electric charge, field and potential, capacitors, and dielectrics. Currents and resistance, direct-current circuits. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EPS SCI 153",
+        "PHYSICS 1C",
+        "PHYSICS 4AL",
+        "PHYSICS 4BL"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1C",
+      "dept": "PHYSICS",
+      "number": "1C",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 128",
+        "EE BIOL 170",
+        "EPS SCI 153",
+        "PHYSICS 4BL"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 4AL",
+      "dept": "PHYSICS",
+      "number": "4AL",
+      "title": "Physics Laboratory for Scientists and Engineers: Mechanics",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisite: course 1A or 1AH. Enforced corequisite: course 1B or 1BH. Computerized measurements of uniform and accelerated motion, including oscillations. Analysis of data and comparison of results to predictions, including least-squares fitting. Conception, execution, and presentation of creative projects involving motion. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1A or 1AH. Enforced corequisite: course 1B or 1BH.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1AH"
+        ],
+        "corequisites": [
+          "PHYSICS 1B",
+          "PHYSICS 1BH"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 4BL",
+      "dept": "PHYSICS",
+      "number": "4BL",
+      "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "PHYSICS 1C",
+          "PHYSICS 1CH"
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1A",
+            "PHYSICS 1AH"
+          ],
+          [
+            "PHYSICS 1B",
+            "PHYSICS 1BH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 128",
+        "EE BIOL 170"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5A",
+      "dept": "PHYSICS",
+      "number": "5A",
+      "title": "Physics for Life Sciences Majors: Mechanics and Energy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently). Statics and dynamics of forces, motion, energy, including thermal energy, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 3C"
+        ],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EPS SCI 153",
+        "PHYSICS 5B",
+        "PHYSICS 5C"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5B",
+      "dept": "PHYSICS",
+      "number": "5B",
+      "title": "Physics for Life Sciences Majors: Thermodynamics, Fluids, Waves, Light, and Optics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisite: course 5A. Thermal properties of matter, free energy, fluids, ideal gas, diffusion, oscillations, waves, sounds, light, and optics, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 128",
+        "EE BIOL 170",
+        "EPS SCI 153"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5C",
+      "dept": "PHYSICS",
+      "number": "5C",
+      "title": "Physics for Life Sciences Majors: Electricity, Magnetism, and Modern Physics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisite: course 5A. Electrostatics in vacuum and in water. Electricity, circuits, magnetism, quantum, atomic and nuclear physics, radioactivity, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EPS SCI 153"
+      ]
+    },
+    {
+      "course_id": "PSYCH 186A",
+      "dept": "PSYCH",
+      "number": "186A",
+      "title": "Cognitive Science Laboratory: Introduction to Theory and Simulation",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 85, 100A, 100B, Program in Computing 10A, 10B. Designed for junior/senior departmental majors. Models of cognition within framework of explanation at multiple levels of abstraction. Examples of elementary models in multiple psychological domains (e.g., visual perception, categorization, learning, reasoning, and problem solving). Types of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 85, 100A, 100B, Program in Computing 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 85",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "COM SCI 10A",
+          "COM SCI 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 186B",
+      "dept": "PSYCH",
+      "number": "186B",
+      "title": "Cognitive Science Laboratory: Neural Networks",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 85, 100A, 100B, Mathematics 31A, 31B, Program in Computing 10A, 10B. Designed for junior/senior departmental majors. Laboratory experience in neural network modeling of perception and cognition. Specific topics include essential neurophysiology, basic architectures, learning, and programming techniques. Principles illustrated and discussed in context of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 85, 100A, 100B, Mathematics 31A, 31B, Program in Computing 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 85",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "MATH 31A",
+          "MATH 31B",
+          "COM SCI 10A",
+          "COM SCI 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOC GEN M142",
+      "dept": "SOC GEN",
+      "number": "M142",
+      "title": "Primate Genetics, Ecology, and Conservation",
+      "units": 4.0,
+      "description": "(Same as Anthropology M128S.) Seminar, three hours. Focus on genetic research on wild primates at different geographic scales, using readings from primary literature on primate genetics, ecology, and behavior. Study of paternity and kinship, intrapopulational variation, population genetics, biogeography, systematics, phylogenetics/phylogenomics and comparative genomics. Utility and appropriateness of various markers\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 13",
+      "dept": "STATS",
+      "number": "13",
+      "title": "Introduction to Statistical Methods for Life and Health Sciences",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

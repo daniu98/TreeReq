@@ -1,0 +1,1935 @@
+{
+  "major_id": "f8-music-performance-bm",
+  "major_name": "F8 Music Performance BM",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/MusicPerformanceBM",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "MUSC M6A",
+        "MUSC M6B",
+        "MUSC M6C"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC 20A",
+            "MUSC 20B",
+            "MUSC 20C",
+            "MUSC 21A",
+            "MUSC 21B",
+            "MUSC 21C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC 60A",
+            "MUSC 60B",
+            "MUSC 60C",
+            "MUSC 60D",
+            "MUSC 60E",
+            "MUSC 60F",
+            "MUSC 60G",
+            "MUSC 60H",
+            "MUSC 60I",
+            "MUSC 60J",
+            "MUSC 60K",
+            "MUSC 60L",
+            "MUSC 60M",
+            "MUSC 60N",
+            "MUSC 60O",
+            "MUSC 60P",
+            "MUSC 60Q",
+            "MUSC 60R",
+            "MUSC 60S",
+            "MUSC 60T",
+            "MUSC 60U",
+            "MUSC 61A",
+            "MUSC 61B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC C175A",
+            "MUSC C175B",
+            "MUSC C175C",
+            "MUSC C175D",
+            "MUSC C175E",
+            "MUSC C175F",
+            "MUSC C175G",
+            "MUSC C171",
+            "MUSC C186A"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC C185A",
+            "MUSC C185B",
+            "MUSC C185C",
+            "MUSC C185D",
+            "MUSC C185E",
+            "MUSC 185F",
+            "MUSC C185G",
+            "MUSC 185H"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC 74A",
+            "MUSC 74B",
+            "MUSC 74C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC 120A",
+            "MUSC 120B",
+            "MUSC 120C",
+            "MUSC 102A",
+            "MUSC 102B",
+            "MUSC 102C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "MUSC": [
+      "MUSC 102A",
+      "MUSC 102B",
+      "MUSC 102C",
+      "MUSC 120A",
+      "MUSC 120B",
+      "MUSC 120C",
+      "MUSC 140A",
+      "MUSC 140B",
+      "MUSC 140C",
+      "MUSC 160A",
+      "MUSC 160B",
+      "MUSC 160C",
+      "MUSC 160D",
+      "MUSC 160E",
+      "MUSC 160F",
+      "MUSC 160G",
+      "MUSC 160H",
+      "MUSC 160I",
+      "MUSC 160J",
+      "MUSC 160K",
+      "MUSC 160L",
+      "MUSC 160M",
+      "MUSC 160N",
+      "MUSC 160O",
+      "MUSC 160P",
+      "MUSC 160Q",
+      "MUSC 160R",
+      "MUSC 160S",
+      "MUSC 160T",
+      "MUSC 160U",
+      "MUSC 161A",
+      "MUSC 161B",
+      "MUSC 167A",
+      "MUSC 167B",
+      "MUSC 167C",
+      "MUSC 167D",
+      "MUSC 167E",
+      "MUSC 167F",
+      "MUSC 167G",
+      "MUSC 167H",
+      "MUSC 167I",
+      "MUSC 167J",
+      "MUSC 167K",
+      "MUSC 167L",
+      "MUSC 167M",
+      "MUSC 167N",
+      "MUSC 167O",
+      "MUSC 167P",
+      "MUSC 167Q",
+      "MUSC 167R",
+      "MUSC 167S",
+      "MUSC 167T",
+      "MUSC 167U",
+      "MUSC 168",
+      "MUSC 185F",
+      "MUSC 185H",
+      "MUSC 20A",
+      "MUSC 20B",
+      "MUSC 20C",
+      "MUSC 21A",
+      "MUSC 21B",
+      "MUSC 21C",
+      "MUSC 60A",
+      "MUSC 60B",
+      "MUSC 60C",
+      "MUSC 60D",
+      "MUSC 60E",
+      "MUSC 60F",
+      "MUSC 60G",
+      "MUSC 60H",
+      "MUSC 60I",
+      "MUSC 60J",
+      "MUSC 60K",
+      "MUSC 60L",
+      "MUSC 60M",
+      "MUSC 60N",
+      "MUSC 60O",
+      "MUSC 60P",
+      "MUSC 60Q",
+      "MUSC 60R",
+      "MUSC 60S",
+      "MUSC 60T",
+      "MUSC 60U",
+      "MUSC 61A",
+      "MUSC 61B",
+      "MUSC 74A",
+      "MUSC 74B",
+      "MUSC 74C",
+      "MUSC C158A",
+      "MUSC C158B",
+      "MUSC C158C",
+      "MUSC C158D",
+      "MUSC C158E",
+      "MUSC C158F",
+      "MUSC C158G",
+      "MUSC C171",
+      "MUSC C175A",
+      "MUSC C175B",
+      "MUSC C175C",
+      "MUSC C175D",
+      "MUSC C175E",
+      "MUSC C175F",
+      "MUSC C175G",
+      "MUSC C185A",
+      "MUSC C185B",
+      "MUSC C185C",
+      "MUSC C185D",
+      "MUSC C185E",
+      "MUSC C185G",
+      "MUSC C186A",
+      "MUSC M6A",
+      "MUSC M6B",
+      "MUSC M6C"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "MUSC 102A",
+      "dept": "MUSC",
+      "number": "102A",
+      "title": "Advanced Musicianship I",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C. Course 102A is enforced requisite to 102B, which is enforced requisite to 102C. Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M6A, M6B, M6C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC M6A",
+          "MUSC M6B",
+          "MUSC M6C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 102B",
+        "MUSC 102C"
+      ]
+    },
+    {
+      "course_id": "MUSC 102B",
+      "dept": "MUSC",
+      "number": "102B",
+      "title": "Advanced Musicianship II",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C, 102A (102A with grade of C- or better). Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and modal improvisation, keyboard skills. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M6A, M6B, M6C, 102A (102A with grade of C- or better).",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC M6A",
+          "MUSC M6B",
+          "MUSC M6C",
+          "MUSC 102A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 102C"
+      ]
+    },
+    {
+      "course_id": "MUSC 102C",
+      "dept": "MUSC",
+      "number": "102C",
+      "title": "Advanced Musicianship III",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C, 102A, 102B (102A, 102B with grades of C- or better). Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and modal improvisation, keyboard skills. Letter grading.",
+      "prereqs_raw": "Enforced requisites: courses M6A, M6B, M6C, 102A, 102B (102A, 102B with grades of C- or better).",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 6A",
+          "MUSC 6B",
+          "MUSC 6C",
+          "MUSC 102A",
+          "MUSC 102B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 120A",
+      "dept": "MUSC",
+      "number": "120A",
+      "title": "Music Theory IV",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, four hours. Preparation: passing score on departmental first-year examination. Requisite: course 20C with grade of C (2.0) or better. Theory: baroque counterpoint including chorale prelude; two-part invention; exposition and first modulation of three-part invention; canonic principles; analysis of inventions, canons, and fugues. Musicianship: sight-singing of extended\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 20C with grade of C (2.0) or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 20C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 120B"
+      ]
+    },
+    {
+      "course_id": "MUSC 120B",
+      "dept": "MUSC",
+      "number": "120B",
+      "title": "Music Theory V",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, four hours. Requisite: course 120A with grade of C (2.0) or better. Theory: advanced chromatic harmony including development of harmony from 1850; analytical projects; style composition. Musicianship: advanced score reading; advanced harmonic dictation; preparation for departmental examination. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120A with grade of C (2.0) or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 120C"
+      ]
+    },
+    {
+      "course_id": "MUSC 120C",
+      "dept": "MUSC",
+      "number": "120C",
+      "title": "Music Theory VI",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; listening, two hours. Requisite: course 120B with grade of C (2.0) or better. 20th-century harmonic language, including nonfunctional harmony, polytonality, free atonality, serialism, and minimalism. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120B with grade of C (2.0) or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 120B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 140A",
+      "dept": "MUSC",
+      "number": "140A",
+      "title": "History and Analysis of Western Music to 1700",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6C. Students must receive grade of C or better to proceed to next course in sequence. Survey of Western music from its beginnings to 1700; examination of representative compositions within their cultural contexts and development of analytical methods appropriate to each repertory.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course M6C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 140B"
+      ]
+    },
+    {
+      "course_id": "MUSC 140B",
+      "dept": "MUSC",
+      "number": "140B",
+      "title": "History and Analysis of Western Music, 1700 to 1800",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Enforced requisite: course 140A with grade of C or better. Survey of Western music from 1700 to 1890; examination of representative compositions within their cultural contexts and development of analytical methods appropriate to each repertory. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 140A with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 140A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 140C"
+      ]
+    },
+    {
+      "course_id": "MUSC 140C",
+      "dept": "MUSC",
+      "number": "140C",
+      "title": "History and Analysis of Western Music, 1890 to Present",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Enforced requisite: course 140B with grade of C or better. Survey of Western music from 1890 to present; examination of representative compositions within their cultural contexts and development of analytical methods appropriate to each repertory. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 140B with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 140B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160A",
+      "dept": "MUSC",
+      "number": "160A",
+      "title": "Advanced Instrumental Studio: Flute",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160B",
+      "dept": "MUSC",
+      "number": "160B",
+      "title": "Advanced Instrumental Studio: Oboe",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160C",
+      "dept": "MUSC",
+      "number": "160C",
+      "title": "Advanced Instrumental Studio: Bassoon",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160D",
+      "dept": "MUSC",
+      "number": "160D",
+      "title": "Advanced Instrumental Studio: Clarinet",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160E",
+      "dept": "MUSC",
+      "number": "160E",
+      "title": "Advanced Instrumental Studio: Saxophone",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160F",
+      "dept": "MUSC",
+      "number": "160F",
+      "title": "Advanced Instrumental Studio: French Horn",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160G",
+      "dept": "MUSC",
+      "number": "160G",
+      "title": "Advanced Instrumental Studio: Trumpet",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160H",
+      "dept": "MUSC",
+      "number": "160H",
+      "title": "Advanced Instrumental Studio: Trombone",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160I",
+      "dept": "MUSC",
+      "number": "160I",
+      "title": "Advanced Instrumental Studio: Tuba/Euphonium",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160J",
+      "dept": "MUSC",
+      "number": "160J",
+      "title": "Advanced Instrumental Studio: Percussion",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160K",
+      "dept": "MUSC",
+      "number": "160K",
+      "title": "Advanced Instrumental Studio: Violin",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160L",
+      "dept": "MUSC",
+      "number": "160L",
+      "title": "Advanced Instrumental Studio: Viola",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160M",
+      "dept": "MUSC",
+      "number": "160M",
+      "title": "Advanced Instrumental Studio: Cello",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160N",
+      "dept": "MUSC",
+      "number": "160N",
+      "title": "Advanced Instrumental Studio: String Bass",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160O",
+      "dept": "MUSC",
+      "number": "160O",
+      "title": "Advanced Instrumental Studio: Harp",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160P",
+      "dept": "MUSC",
+      "number": "160P",
+      "title": "Advanced Instrumental Studio: Guitar",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160Q",
+      "dept": "MUSC",
+      "number": "160Q",
+      "title": "Advanced Instrumental Studio: Lute",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160R",
+      "dept": "MUSC",
+      "number": "160R",
+      "title": "Advanced Instrumental Studio: Viola da Gamba",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 160S",
+      "dept": "MUSC",
+      "number": "160S",
+      "title": "Advanced Instrumental Studio: Piano",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC C171"
+      ]
+    },
+    {
+      "course_id": "MUSC 160T",
+      "dept": "MUSC",
+      "number": "160T",
+      "title": "Advanced Instrumental Studio: Organ",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC C171"
+      ]
+    },
+    {
+      "course_id": "MUSC 160U",
+      "dept": "MUSC",
+      "number": "160U",
+      "title": "Advanced Instrumental Studio: Harpsichord",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC C171"
+      ]
+    },
+    {
+      "course_id": "MUSC 161A",
+      "dept": "MUSC",
+      "number": "161A",
+      "title": "Advanced Voice Studio",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 161B or 161C. Limited to upper-division Music Education majors and Music Performance majors specializing in voice. Voice techniques and health, including breath control, pitch accuracy, range, resonance, and flexibility. May be repeated for credit for maximum of 10 units.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Corequisite: course 161B or 161C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MUSC 161B",
+          "MUSC 161C"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 161B"
+      ]
+    },
+    {
+      "course_id": "MUSC 161B",
+      "dept": "MUSC",
+      "number": "161B",
+      "title": "Advanced Vocal Coaching",
+      "units": 1.0,
+      "description": "Studio, one hour; outside practice, three hours. Corequisite: course 161A. Limited to upper-division Music Performance majors specializing in voice. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters and by jury examination in spring quarter. May\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Corequisite: course 161A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MUSC 161A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 161A",
+        "MUSC 168"
+      ]
+    },
+    {
+      "course_id": "MUSC 167A",
+      "dept": "MUSC",
+      "number": "167A",
+      "title": "Capstone Instrumental Recital: Flute",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167B",
+      "dept": "MUSC",
+      "number": "167B",
+      "title": "Capstone Instrumental Recital: Oboe",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167C",
+      "dept": "MUSC",
+      "number": "167C",
+      "title": "Capstone Instrumental Recital: Bassoon",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167D",
+      "dept": "MUSC",
+      "number": "167D",
+      "title": "Capstone Instrumental Recital: Clarinet",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167E",
+      "dept": "MUSC",
+      "number": "167E",
+      "title": "Capstone Instrumental Recital: Saxophone",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167F",
+      "dept": "MUSC",
+      "number": "167F",
+      "title": "Capstone Instrumental Recital: French Horn",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167G",
+      "dept": "MUSC",
+      "number": "167G",
+      "title": "Capstone Instrumental Recital: Trumpet",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167H",
+      "dept": "MUSC",
+      "number": "167H",
+      "title": "Capstone Instrumental Recital: Trombone",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167I",
+      "dept": "MUSC",
+      "number": "167I",
+      "title": "Capstone Instrumental Recital: Tuba/Euphonium",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167J",
+      "dept": "MUSC",
+      "number": "167J",
+      "title": "Capstone Instrumental Recital: Percussion",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167K",
+      "dept": "MUSC",
+      "number": "167K",
+      "title": "Capstone Instrumental Recital: Violin",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167L",
+      "dept": "MUSC",
+      "number": "167L",
+      "title": "Capstone Instrumental Recital: Viola",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167M",
+      "dept": "MUSC",
+      "number": "167M",
+      "title": "Capstone Instrumental Recital: Cello",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167N",
+      "dept": "MUSC",
+      "number": "167N",
+      "title": "Capstone Instrumental Recital: String Bass",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167O",
+      "dept": "MUSC",
+      "number": "167O",
+      "title": "Capstone Instrumental Recital: Harp",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167P",
+      "dept": "MUSC",
+      "number": "167P",
+      "title": "Capstone Instrumental Recital: Guitar",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167Q",
+      "dept": "MUSC",
+      "number": "167Q",
+      "title": "Capstone Instrumental Recital: Lute",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167R",
+      "dept": "MUSC",
+      "number": "167R",
+      "title": "Capstone Instrumental Recital: Viola da Gamba",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167S",
+      "dept": "MUSC",
+      "number": "167S",
+      "title": "Capstone Instrumental Recital: Piano",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167T",
+      "dept": "MUSC",
+      "number": "167T",
+      "title": "Capstone Instrumental Recital: Organ",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 167U",
+      "dept": "MUSC",
+      "number": "167U",
+      "title": "Capstone Instrumental Recital: Harpsichord",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 168",
+      "dept": "MUSC",
+      "number": "168",
+      "title": "Capstone Voice Recital",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 161B. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Corequisite: course 161B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MUSC 161B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 185F",
+      "dept": "MUSC",
+      "number": "185F",
+      "title": "Symphonic Band",
+      "units": 2.0,
+      "description": "Activity, two hours. Preparation: audition. Group performance of instrumental music scored for band. May be repeated for credit without limitation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 185H",
+      "dept": "MUSC",
+      "number": "185H",
+      "title": "Marching and Varsity Bands",
+      "units": 2.0,
+      "description": "Activity, six hours. Preparation: audition. Group performance of special band arrangements for football and basketball games as well as special events. May be repeated for credit without limitation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 20A",
+      "dept": "MUSC",
+      "number": "20A",
+      "title": "Music Theory I",
+      "units": 3.0,
+      "description": "Lecture, four hours. Preparation: passing score on departmental examination. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Students must receive grade of C or better to proceed to next course in sequence. Theory: species counterpoint through fifth species; description of triads and inversions. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 20B"
+      ]
+    },
+    {
+      "course_id": "MUSC 20B",
+      "dept": "MUSC",
+      "number": "20B",
+      "title": "Music Theory II",
+      "units": 3.0,
+      "description": "Lecture, four hours. Enforced requisite: course 20A with grade of C or better. Theory: diatonic harmony through secondary dominants and diminished sevenths; modulations to dominant and relative keys; writing of four-part chorales; style composition in baroque dance forms; introduction to figured bass notation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20A with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 20A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 20C"
+      ]
+    },
+    {
+      "course_id": "MUSC 20C",
+      "dept": "MUSC",
+      "number": "20C",
+      "title": "Music Theory III",
+      "units": 3.0,
+      "description": "Lecture, four hours. Enforced requisite: course 20B with grade of C or better. Theory: chromatic harmony including development of tonality, 1800 to 1850; appropriate analysis and style composition. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 20B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 120A"
+      ]
+    },
+    {
+      "course_id": "MUSC 21A",
+      "dept": "MUSC",
+      "number": "21A",
+      "title": "Project Approach to Music Theory I",
+      "units": 3.0,
+      "description": "Lecture, four hours. Requisite: passing score on departmental examination. Course 21A is enforced requisite to 21B, which is enforced requisite to 21C. Students must receive grade of C or better to proceed to next course in sequence. Theory fundamentals through project approach. Letter grading.",
+      "prereqs_raw": "Requisite: passing score on departmental examination.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 21B",
+        "MUSC 21C"
+      ]
+    },
+    {
+      "course_id": "MUSC 21B",
+      "dept": "MUSC",
+      "number": "21B",
+      "title": "Project Approach to Music Theory II",
+      "units": 3.0,
+      "description": "Lecture, four hours. Enforced requisite: course 21A with grade of C or better. Students must receive grade of C or better to proceed to next course in sequence. Theory fundamentals through project approach. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 21A with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 21A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 21C"
+      ]
+    },
+    {
+      "course_id": "MUSC 21C",
+      "dept": "MUSC",
+      "number": "21C",
+      "title": "Project Approach to Music Theory III",
+      "units": 3.0,
+      "description": "Lecture, four hours. Enforced requisites: courses 21A, 21B with grades of C or better. Theory fundamentals through project approach. Letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 21A, 21B with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 21A",
+          "MUSC 21B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60A",
+      "dept": "MUSC",
+      "number": "60A",
+      "title": "Instrumental Studio: Flute",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60B",
+      "dept": "MUSC",
+      "number": "60B",
+      "title": "Instrumental Studio: Oboe",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60C",
+      "dept": "MUSC",
+      "number": "60C",
+      "title": "Instrumental Studio: Bassoon",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60D",
+      "dept": "MUSC",
+      "number": "60D",
+      "title": "Instrumental Studio: Clarinet",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60E",
+      "dept": "MUSC",
+      "number": "60E",
+      "title": "Instrumental Studio: Saxophone",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60F",
+      "dept": "MUSC",
+      "number": "60F",
+      "title": "Instrumental Studio: French Horn",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60G",
+      "dept": "MUSC",
+      "number": "60G",
+      "title": "Instrumental Studio: Trumpet",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60H",
+      "dept": "MUSC",
+      "number": "60H",
+      "title": "Instrumental Studio: Trombone",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60I",
+      "dept": "MUSC",
+      "number": "60I",
+      "title": "Instrumental Studio: Tuba/Euphonium",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60J",
+      "dept": "MUSC",
+      "number": "60J",
+      "title": "Instrumental Studio: Percussion",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60K",
+      "dept": "MUSC",
+      "number": "60K",
+      "title": "Instrumental Studio: Violin",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60L",
+      "dept": "MUSC",
+      "number": "60L",
+      "title": "Instrumental Studio: Viola",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60M",
+      "dept": "MUSC",
+      "number": "60M",
+      "title": "Instrumental Studio: Cello",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60N",
+      "dept": "MUSC",
+      "number": "60N",
+      "title": "Instrumental Studio: String Bass",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60O",
+      "dept": "MUSC",
+      "number": "60O",
+      "title": "Instrumental Studio: Harp",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60P",
+      "dept": "MUSC",
+      "number": "60P",
+      "title": "Instrumental Studio: Guitar",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60Q",
+      "dept": "MUSC",
+      "number": "60Q",
+      "title": "Instrumental Studio: Lute",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60R",
+      "dept": "MUSC",
+      "number": "60R",
+      "title": "Instrumental Studio: Viola da Gamba",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 60S",
+      "dept": "MUSC",
+      "number": "60S",
+      "title": "Instrumental Studio: Piano",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC C171"
+      ]
+    },
+    {
+      "course_id": "MUSC 60T",
+      "dept": "MUSC",
+      "number": "60T",
+      "title": "Instrumental Studio: Organ",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC C171"
+      ]
+    },
+    {
+      "course_id": "MUSC 60U",
+      "dept": "MUSC",
+      "number": "60U",
+      "title": "Instrumental Studio: Harpsichord",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC C171"
+      ]
+    },
+    {
+      "course_id": "MUSC 61A",
+      "dept": "MUSC",
+      "number": "61A",
+      "title": "Voice Studio",
+      "units": 2.0,
+      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 61B or 61C. Limited to lower-division Music Performance majors specializing in voice and Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Corequisite: course 61B or 61C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MUSC 61B",
+          "MUSC 61C"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 61B",
+      "dept": "MUSC",
+      "number": "61B",
+      "title": "Voice Coaching",
+      "units": 1.0,
+      "description": "Studio, one hour; outside practice, three hours. Corequisite: course 61A. Limited to lower-division Music Performance majors specializing in voice and Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters and by jury examination\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Corequisite: course 61A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 61A"
+      ]
+    },
+    {
+      "course_id": "MUSC 74A",
+      "dept": "MUSC",
+      "number": "74A",
+      "title": "Introduction to Singing Diction: English and Italian",
+      "units": 2.0,
+      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of English and Italian skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 74B",
+      "dept": "MUSC",
+      "number": "74B",
+      "title": "Introduction to Singing Diction: German",
+      "units": 2.0,
+      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of German skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early music, recitative,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 74C",
+      "dept": "MUSC",
+      "number": "74C",
+      "title": "Introduction to Singing Diction: French",
+      "units": 2.0,
+      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of French skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early music, recitative,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC C158A",
+        "MUSC C158B",
+        "MUSC C158C",
+        "MUSC C158E",
+        "MUSC C158F",
+        "MUSC C158G"
+      ]
+    },
+    {
+      "course_id": "MUSC C158A",
+      "dept": "MUSC",
+      "number": "C158A",
+      "title": "Advanced Vocal Repertoire, Diction, and Interpretation: English",
+      "units": 2.0,
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 74C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 74C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C158B",
+      "dept": "MUSC",
+      "number": "C158B",
+      "title": "Advanced Vocal Repertoire, Diction, and Interpretation: French",
+      "units": 2.0,
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 74C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 74C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C158C",
+      "dept": "MUSC",
+      "number": "C158C",
+      "title": "Advanced Vocal Repertoire, Diction, and Interpretation: German",
+      "units": 2.0,
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 74C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 74C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C158D",
+      "dept": "MUSC",
+      "number": "C158D",
+      "title": "Advanced Vocal Repertoire, Diction, and Interpretation: Italian",
+      "units": 2.0,
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 74C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C158E",
+      "dept": "MUSC",
+      "number": "C158E",
+      "title": "Advanced Vocal Repertoire, Diction, and Interpretation: Spanish",
+      "units": 2.0,
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 74C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 74C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C158F",
+      "dept": "MUSC",
+      "number": "C158F",
+      "title": "Advanced Vocal Repertoire, Diction, and Interpretation: Russian",
+      "units": 2.0,
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 74C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 74C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C158G",
+      "dept": "MUSC",
+      "number": "C158G",
+      "title": "Advanced Vocal Repertoire, Diction, and Interpretation: Other Languages",
+      "units": 2.0,
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 74C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 74C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C171",
+      "dept": "MUSC",
+      "number": "C171",
+      "title": "Selected Topics in Keyboard Literature",
+      "units": 2.0,
+      "description": "Lecture, two hours. Enforced corequisite: one course from 60S, 60T, 60U, 160S, 160T, 160U. In-depth study of selected topics in keyboard literature, concentrating on problems of performance through analysis, historical and comparative studies, and actual performances by participants. May be repeated for credit. May be concurrently scheduled with course C271.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced corequisite: one course from 60S, 60T, 60U, 160S, 160T, 160U.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MUSC 60S",
+          "MUSC 60T",
+          "MUSC 60U",
+          "MUSC 160S",
+          "MUSC 160T",
+          "MUSC 160U"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C175A",
+      "dept": "MUSC",
+      "number": "C175A",
+      "title": "Chamber Ensembles: Brass",
+      "units": 1.0,
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485A. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C175B",
+      "dept": "MUSC",
+      "number": "C175B",
+      "title": "Chamber Ensembles: Guitar",
+      "units": 1.0,
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485B. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C175C",
+      "dept": "MUSC",
+      "number": "C175C",
+      "title": "Chamber Ensembles: Piano",
+      "units": 1.0,
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485C. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C175D",
+      "dept": "MUSC",
+      "number": "C175D",
+      "title": "Chamber Ensembles: Percussion",
+      "units": 1.0,
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485D. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C175E",
+      "dept": "MUSC",
+      "number": "C175E",
+      "title": "Chamber Ensembles: Strings",
+      "units": 1.0,
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485E. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C175F",
+      "dept": "MUSC",
+      "number": "C175F",
+      "title": "Chamber Ensembles: Woodwinds",
+      "units": 1.0,
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485F. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C175G",
+      "dept": "MUSC",
+      "number": "C175G",
+      "title": "Chamber Ensembles: Flux Contemporary",
+      "units": 1.0,
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485G. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185A",
+      "dept": "MUSC",
+      "number": "C185A",
+      "title": "UCLA Chorale",
+      "units": 2.0,
+      "description": "Activity, four hours. Preparation: audition. Large mixed ensemble performing choral music of all periods appropriate for concert choral ensemble. May be repeated for credit without limitation. May be concurrently scheduled with course C480A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185B",
+      "dept": "MUSC",
+      "number": "C185B",
+      "title": "Chamber Singers",
+      "units": 2.0,
+      "description": "Activity, four hours. Preparation: audition. Designed primarily for Music Performance majors. Select mixed ensemble performing chamber choral music of all periods. May be repeated for credit without limitation. May be concurrently scheduled with course C480B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185C",
+      "dept": "MUSC",
+      "number": "C185C",
+      "title": "Opera Workshop",
+      "units": 2.0,
+      "description": "Activity, six hours. Preparation: audition. Rehearsal and performance of scenes and complete operas, as well as repertoire, stage movement, and foreign language diction coaching. May be repeated for credit without limitation. May be concurrently scheduled with course C480C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185D",
+      "dept": "MUSC",
+      "number": "C185D",
+      "title": "Symphony Orchestra",
+      "units": 2.0,
+      "description": "Activity, three hours. Preparation: audition. Group performance of symphonic orchestral literature. May be repeated for credit without limitation. May be concurrently scheduled with course C480D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185E",
+      "dept": "MUSC",
+      "number": "C185E",
+      "title": "Philharmonia",
+      "units": 2.0,
+      "description": "Activity, six hours. Preparation: audition. Designed primarily for Music Performance majors. Group performance of symphonic orchestral literature, as well as orchestral accompaniment for operatic and major choral works. May be repeated for credit without limitation. May be concurrently scheduled with course C480E. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185G",
+      "dept": "MUSC",
+      "number": "C185G",
+      "title": "Wind Ensemble",
+      "units": 2.0,
+      "description": "Activity, six hours. Preparation: audition. Group performance of concert literature for wind ensemble. May be repeated for credit without limitation. May be concurrently scheduled with course C480G. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C186A",
+      "dept": "MUSC",
+      "number": "C186A",
+      "title": "Piano/Keyboard Accompanying",
+      "units": 2.0,
+      "description": "Activity, four hours; outside study, two hours. Collaboration with large ensembles, instrumentalists, and/or vocalists in role of accompanists. Performance includes, but is not limited to, lessons, rehearsals, special studio performance projects, master classes, concerts, auditions, juries, and recitals. May be repeated for maximum of 12 units. Concurrently scheduled with course\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC M6A",
+      "dept": "MUSC",
+      "number": "M6A",
+      "title": "Introduction to Global Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6A and Musicology M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C\u2013 or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 102A",
+        "MUSC 102B",
+        "MUSC M6B"
+      ]
+    },
+    {
+      "course_id": "MUSC M6B",
+      "dept": "MUSC",
+      "number": "M6B",
+      "title": "Introduction to Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6B and Musicology M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC M6A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 102A",
+        "MUSC 102B",
+        "MUSC M6C"
+      ]
+    },
+    {
+      "course_id": "MUSC M6C",
+      "dept": "MUSC",
+      "number": "M6C",
+      "title": "Introduction to Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6C and Musicology M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC M6B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 102A",
+        "MUSC 102B"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "major_id": "public-health-ba",
+  "major_name": "Public Health BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/PublicHealthBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PUB HLT 50A",
+        "PUB HLT 50B",
+        "COMM 1"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHEM 3",
+            "CHEM 14A",
+            "CHEM 17"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LIFESCI 7A",
+            "LIFESCI 15"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "STATS 10",
+            "STATS 13"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": []
+        },
+        {
+          "choose_n": 1,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "BIOSTAT 120",
+        "COM HLT 120",
+        "ENV HLT 120",
+        "EPIDEM 120",
+        "HLT POL 120",
+        "PUB HLT 195CE"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 3,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PUB HLT 185A",
+        "PUB HLT 185B"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "BIOSTAT": [
+      "BIOSTAT 120"
+    ],
+    "CHEM": [
+      "CHEM 14A",
+      "CHEM 17",
+      "CHEM 3"
+    ],
+    "COM HLT": [
+      "COM HLT 120"
+    ],
+    "COMM": [
+      "COMM 1"
+    ],
+    "ENV HLT": [
+      "ENV HLT 120"
+    ],
+    "EPIDEM": [
+      "EPIDEM 120"
+    ],
+    "HLT POL": [
+      "HLT POL 120"
+    ],
+    "LIFESCI": [
+      "LIFESCI 15",
+      "LIFESCI 7A"
+    ],
+    "PUB HLT": [
+      "PUB HLT 185A",
+      "PUB HLT 185B",
+      "PUB HLT 195CE",
+      "PUB HLT 198",
+      "PUB HLT 50A",
+      "PUB HLT 50B"
+    ],
+    "STATS": [
+      "STATS 10",
+      "STATS 13"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "BIOSTAT 120",
+      "dept": "BIOSTAT",
+      "number": "120",
+      "title": "Biostatistics in Public Health",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Limited to Public Health majors. Not open for credit to students with credit for course 100A. Introduction to basic concepts in biostatistical analysis, presentation of data, and biostatistical aspects of design of public health studies. Special emphasis on application of biostatistical concepts to public\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 14A",
+      "dept": "CHEM",
+      "number": "14A",
+      "title": "General Chemistry for Life Scientists I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "LIFE SCI 30A",
+          "MATH 3A",
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 17",
+      "dept": "CHEM",
+      "number": "17",
+      "title": "Chemical Principles",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to chemical principles: numbers, measurements, chemical calculations, gas laws, solutions, acids, bases, and salts, molecular structure, and nomenclature. Collaborative learning and problem solving; introduction to chemistry laboratory practice. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 3",
+      "dept": "CHEM",
+      "number": "3",
+      "title": "Material World",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Focus on most important advances made by humans in developing new molecules and materials, and how these discoveries affect our everyday life. These include development of paints, polymers, metals, fuels, drugs, energetic materials, radioactive substances, poisons, and many more. Connections are made between interplay\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM HLT 120",
+      "dept": "COM HLT",
+      "number": "120",
+      "title": "Promoting Healthy Communities",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: Public Health 50B. Limited to Public Health majors. Not open for credit to students with credit for course 100. Comprehensive overview of concepts, empirical research, and public health practice in community health sciences, with emphasis on social context and determinants of population health\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Public Health 50B.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB HLT 50B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 1",
+      "dept": "COMM",
+      "number": "1",
+      "title": "Principles of Oral Communication",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisite: satisfaction of Entry-Level Writing requirement. Examination of foundations of communication and public speaking. Consideration of number of basic theories related to study of communication and development of skills to enable composition and delivery of speeches in accordance with specific rhetorical concepts. Improvement of ability to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: satisfaction of Entry-Level Writing requirement.",
+      "prereqs_parsed": {
+        "required": [
+          "Entry-Level Writing requirement"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENV HLT 120",
+      "dept": "ENV HLT",
+      "number": "120",
+      "title": "Environment and Health",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Limited to Public Health majors. Not open for credit to students with credit for course 100. Examination of scientific principles and methods of field, as well as translation of science to environmental health practice. Topics include environmental stressors and their health effects, regulations and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPIDEM 120",
+      "dept": "EPIDEM",
+      "number": "120",
+      "title": "Epidemiology in Public Health",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, two hours. Requisite: Public Health 50B. Limited to Public Health majors. Not open for credit to students with credit for course 100. Introduction to main principles of epidemiology, including foundational concepts and terminology, and exploration of key historical developments of field. Survey of major study designs\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Public Health 50B.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB HEALTH 50B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HLT POL 120",
+      "dept": "HLT POL",
+      "number": "120",
+      "title": "Health Care Systems: Structures, Functions, and Policies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: Public Health 50B. Limited to Public Health majors. Not open for credit to students with credit for course 100. Introduction to health policy and management focusing on basic concepts underlying health care organization, finance, and policy. Topics include development of U.S. health care\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Public Health 50B.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB HLT 50B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 15",
+      "dept": "LIFESCI",
+      "number": "15",
+      "title": "Life: Concepts and Issues",
+      "units": 5.0,
+      "description": "Lecture, two and one half hours; discussion, 75 minutes. Introduction to important concepts and issues in the field for non-life sciences majors. Topics include chemistry of life, genetics, physiology, evolution, and ecology\u2014all explored in lecture and debates, with writing component. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7A",
+      "dept": "LIFESCI",
+      "number": "7A",
+      "title": "Cell and Molecular Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Introduction to basic principles of cell structure and cell biology, biochemistry, and molecular biology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB HLT 185A",
+      "dept": "PUB HLT",
+      "number": "185A",
+      "title": "Public Health Capstone I",
+      "units": 4.0,
+      "description": "Seminar, three hours; discussion, one hour. Limited to Public Health majors. Enrollment by consent of school. Culminating experience for students to apply acquired content knowledge and skills to public health problem or issue. Students bring accumulated public health knowledge, skills, and methodological tools to individual or group project theme that\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PUB HLT 185B"
+      ]
+    },
+    {
+      "course_id": "PUB HLT 185B",
+      "dept": "PUB HLT",
+      "number": "185B",
+      "title": "Public Health Capstone II",
+      "units": 4.0,
+      "description": "Seminar, three hours; discussion, one hour. Enforced requisite: course 185A. Students continue independent, or group work related on theme developed in course 185A. Students share in-progress work and continue to receive guidance from instructor and peer feedback. Students participate in school-sponsored poster session by presenting project outcomes to school and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 185A.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB HLT 185A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB HLT 195CE",
+      "dept": "PUB HLT",
+      "number": "195CE",
+      "title": "Community and Corporate Internship in Public Health",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged; fieldwork, eight to 10 hours. Limited to Public Health majors and minors. Internship in corporate, governmental, or nonprofit setting coordinated through Center for Community Engagement. Students complete weekly written assignments, attend biweekly meetings with graduate student coordinator, and write final research paper. Faculty of record and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB HLT 198",
+      "dept": "PUB HLT",
+      "number": "198",
+      "title": "Honors Research in Public Health",
+      "units": 4.0,
+      "description": "Tutorial, one hour. Limited to Public Health majors or minors. Development and completion of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB HLT 50A",
+      "dept": "PUB HLT",
+      "number": "50A",
+      "title": "Introduction to Public Health I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Systematic exploration of history, philosophy, development, and scope of public health in U.S. and globally. Emphasis on scientific, social, and legal basis for public health practice, including strategies for advancing individual, community, and environmental public health. Survey of core public health functions and essential\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PUB HLT 50B"
+      ]
+    },
+    {
+      "course_id": "PUB HLT 50B",
+      "dept": "PUB HLT",
+      "number": "50B",
+      "title": "Introduction to Public Health II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 50A. Exploration of contemporary public health issues and challenges in U.S. and elsewhere with goal to acquaint students with current public health functions, issues, policies, practices, and current strategies for advancing people\u2019s health. Letter grading.",
+      "prereqs_raw": "Requisite: course 50A.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB HLT 50A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COM HLT 120",
+        "HLT POL 120"
+      ]
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 13",
+      "dept": "STATS",
+      "number": "13",
+      "title": "Introduction to Statistical Methods for Life and Health Sciences",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

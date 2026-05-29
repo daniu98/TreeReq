@@ -1,0 +1,965 @@
+{
+  "major_id": "linguistics-and-english-ba",
+  "major_name": "Linguistics and English BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/LinguisticsandEnglishBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LING 20",
+        "ENGL 4W",
+        "ENGL 4HW",
+        "ENGL 10A",
+        "ENGL 10B",
+        "ENGL 10C"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LING 103",
+        "LING 110",
+        "LING 120A",
+        "LING 120B",
+        "LING 165A",
+        "LING 165B",
+        "LING 200A",
+        "LING 200B",
+        "LING 185A",
+        "MATH 61"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "LING 103",
+            "LING 110",
+            "LING 120A",
+            "LING 120B",
+            "LING 165A",
+            "LING 165B",
+            "LING 200A",
+            "LING 200B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LING 104",
+            "LING 127",
+            "LING 132",
+            "LING 165A",
+            "LING 165B",
+            "LING 165C",
+            "LING 180",
+            "LING 185B"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ENGL 113A",
+            "ENGL 120",
+            "ENGL 141B",
+            "LING 170"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "ENGL 113A",
+            "ENGL 120",
+            "ENGL 140A",
+            "ENGL 140B",
+            "ENGL 141B",
+            "ENGL 150A",
+            "ENGL 150B",
+            "ENGL 151",
+            "ENGL 150",
+            "ENGL 160",
+            "ENGL 170"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [
+        "LING 198A",
+        "LING 198B",
+        "LING 199"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "COM SCI": [
+      "COM SCI 31",
+      "COM SCI 32"
+    ],
+    "COMPTNG": [
+      "COMPTNG 10A",
+      "COMPTNG 10B",
+      "COMPTNG 10C"
+    ],
+    "ENGL": [
+      "ENGL 10A",
+      "ENGL 10B",
+      "ENGL 10C",
+      "ENGL 113A",
+      "ENGL 120",
+      "ENGL 140A",
+      "ENGL 140B",
+      "ENGL 141B",
+      "ENGL 150A",
+      "ENGL 150B",
+      "ENGL 151",
+      "ENGL 4HW",
+      "ENGL 4W"
+    ],
+    "LING": [
+      "LING 103",
+      "LING 110",
+      "LING 120A",
+      "LING 120B",
+      "LING 127",
+      "LING 132",
+      "LING 165A",
+      "LING 165B",
+      "LING 165C",
+      "LING 170",
+      "LING 180",
+      "LING 185A",
+      "LING 185B",
+      "LING 198A",
+      "LING 198B",
+      "LING 199",
+      "LING 20",
+      "LING 200A",
+      "LING 200B",
+      "LING C104"
+    ],
+    "MATH": [
+      "MATH 61"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "COM SCI 31",
+      "dept": "COM SCI",
+      "number": "31",
+      "title": "Introduction to Computer Science I",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COM SCI 32"
+      ]
+    },
+    {
+      "course_id": "COM SCI 32",
+      "dept": "COM SCI",
+      "number": "32",
+      "title": "Introduction to Computer Science II",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 31.",
+      "prereqs_parsed": {
+        "required": [
+          "COM SCI 31"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 185A"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10A",
+      "dept": "COMPTNG",
+      "number": "10A",
+      "title": "Introduction to Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COMPTNG 10B"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10B",
+      "dept": "COMPTNG",
+      "number": "10B",
+      "title": "Intermediate Programming",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "COMPTNG 10A",
+          "COMPTNG 31"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COMPTNG 10C"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10C",
+      "dept": "COMPTNG",
+      "number": "10C",
+      "title": "Advanced Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "COMPTNG 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 10A",
+      "dept": "ENGL",
+      "number": "10A",
+      "title": "Literatures in English to 1700",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: English Composition 3 or 3H, English 4W or 4HW. Survey of major writers and genres, with emphasis on tools for literary analysis such as close reading, argumentation, historical and social context, and critical writing. Minimum of three papers (three to five pages\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: English Composition 3 or 3H, English 4W or 4HW.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ],
+          [
+            "ENGL 4W",
+            "ENGL 4HW"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 10B",
+        "ENGL 120",
+        "ENGL 140A",
+        "ENGL 140B",
+        "ENGL 150A",
+        "ENGL 150B",
+        "ENGL 151"
+      ]
+    },
+    {
+      "course_id": "ENGL 10B",
+      "dept": "ENGL",
+      "number": "10B",
+      "title": "Literatures in English, 1700 to 1850",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: English Composition 3 or 3H, English 4W or 4HW, 10A. Survey of major writers and genres, with emphasis on tools for literary analysis such as close reading, argumentation, historical and social context, and critical writing. Minimum of three papers (three to five\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: English Composition 3 or 3H, English 4W or 4HW, 10A.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 3",
+          "ENGL 4W",
+          "ENGL 10A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ],
+          [
+            "ENGL 4W",
+            "ENGL 4HW"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 120",
+        "ENGL 140A",
+        "ENGL 140B",
+        "ENGL 150A",
+        "ENGL 150B",
+        "ENGL 151"
+      ]
+    },
+    {
+      "course_id": "ENGL 10C",
+      "dept": "ENGL",
+      "number": "10C",
+      "title": "Literatures in English, 1850 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 4W, English Composition 3. Recommended requisites: courses 10A, 10B. Survey of major writers and genres, with emphasis on tools for literary analysis such as close reading, argumentation, historical and social context, and critical writing. Minimum of three papers (three to five\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 4W, English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 4W",
+          "ENGL 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 113A",
+      "dept": "ENGL",
+      "number": "113A",
+      "title": "History of English Language",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study directed toward English majors of main features in grammatical, lexical, and phonetic condition of English language from Indo-European time to present. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 120",
+      "dept": "ENGL",
+      "number": "120",
+      "title": "History of Aesthetics and Critical Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Investigation of texts and ideas in history of aesthetics, critical theory, and interpretation from Greeks through 18th century. Readings may include Gorgias, Plato, Aristotle, Longinus, Biblical hermeneutics, Hume, Descartes, Kant, Schiller, and Hegel. May not be repeated\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 140A",
+      "dept": "ENGL",
+      "number": "140A",
+      "title": "Chaucer: Canterbury Tales",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Introductory study of Chaucer\u2019s language, versification, and historical and literary background, including analysis and discussion of his long major poem, Canterbury Tales. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 140B",
+      "dept": "ENGL",
+      "number": "140B",
+      "title": "Chaucer: Troilus and Criseyde and Selected Minor Works",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Intensive study of Troilus and Criseyde and selected minor works of Chaucer, such as Book of the Duchess, House of Fame, Parliament of Fowls, etc. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 141B",
+      "dept": "ENGL",
+      "number": "141B",
+      "title": "Introduction to Old English Language and Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 10A, 10B. Introductory study of Old English language and literature, including grammar and vocabulary, reading and translation of poetry and prose, and discussion of literatures and cultures of Anglo-Saxon England. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 150A",
+      "dept": "ENGL",
+      "number": "150A",
+      "title": "Shakespeare: Poems and Early Plays",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Intensive study of selected poems and representative comedies, histories, and tragedies through Hamlet. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 150B",
+      "dept": "ENGL",
+      "number": "150B",
+      "title": "Shakespeare: Later Plays",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Intensive study of representative problem plays, major tragedies, Roman plays, and romances. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 151",
+      "dept": "ENGL",
+      "number": "151",
+      "title": "Milton",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Study of major works of Milton, with emphasis on Paradise Lost. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 4HW",
+      "dept": "ENGL",
+      "number": "4HW",
+      "title": "Critical Reading and Writing (Honors)",
+      "units": 5.0,
+      "description": "Lecture, four hours. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Introduction to literary analysis, with close reading and carefully written exposition of selections from principal modes of literature: poetry, prose fiction, and drama. Minimum of four papers (three to five pages each) and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H",
+            "ENGL 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 10A",
+        "ENGL 10B"
+      ]
+    },
+    {
+      "course_id": "ENGL 4W",
+      "dept": "ENGL",
+      "number": "4W",
+      "title": "Critical Reading and Writing",
+      "units": 5.0,
+      "description": "Lecture, four hours. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Introduction to literary analysis, with close reading and carefully written exposition of selections from principal modes of literature: poetry, prose fiction, and drama. Minimum of 15 to 20 pages of revised writing. Satisfies\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H",
+            "ENGL 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ENGL 10A",
+        "ENGL 10B",
+        "ENGL 10C"
+      ]
+    },
+    {
+      "course_id": "LING 103",
+      "dept": "LING",
+      "number": "103",
+      "title": "Introduction to General Phonetics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 102. Phonetics of variety of languages and phonetic phenomena that occur in languages of world. Extensive practice in perception and production of such phenomena. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LING 110",
+        "LING 120A",
+        "LING C104"
+      ]
+    },
+    {
+      "course_id": "LING 110",
+      "dept": "LING",
+      "number": "110",
+      "title": "Introduction to Historical Linguistics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 102 or 103, 119A or 120A. Methods and theories appropriate to historical study of language, such as comparative method and method of internal reconstruction. Sound change, grammatical change, semantic change. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 20, 102 or 103, 119A or 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 102",
+            "LING 103"
+          ],
+          [
+            "LING 119A",
+            "LING 120A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 120A",
+      "dept": "LING",
+      "number": "120A",
+      "title": "Phonology I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 103. Introduction to phonological theory and analysis. Rules, representations, underlying forms, derivations. Justification of phonological analyses. Emphasis on practical skills with problem sets. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 20, 103.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20",
+          "LING 103"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 110",
+        "LING 165A"
+      ]
+    },
+    {
+      "course_id": "LING 120B",
+      "dept": "LING",
+      "number": "120B",
+      "title": "Syntax I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Course 120A is not requisite to 120B. Descriptive analysis of morphological and syntactic structures in natural languages; emphasis on insight into nature of such structures rather than linguistics formalization. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 165B",
+        "LING 180",
+        "LING 185A"
+      ]
+    },
+    {
+      "course_id": "LING 127",
+      "dept": "LING",
+      "number": "127",
+      "title": "Syntactic Typology and Universals",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 132",
+      "dept": "LING",
+      "number": "132",
+      "title": "Language Processing",
+      "units": 5.0,
+      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 20, 119A or 120A, 119B or 120B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 165A",
+      "dept": "LING",
+      "number": "165A",
+      "title": "Phonology II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120A. To be taken in term following completion of course 120A or as soon as possible thereafter. Further study in phonological theory and analysis: autosegmental theory, syllable structure, metrical theory, interface of phonology and grammar. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 198A"
+      ]
+    },
+    {
+      "course_id": "LING 165B",
+      "dept": "LING",
+      "number": "165B",
+      "title": "Syntax II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 120B.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 198A"
+      ]
+    },
+    {
+      "course_id": "LING 165C",
+      "dept": "LING",
+      "number": "165C",
+      "title": "Semantics II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120C. Recommended for students who plan to do graduate work in linguistics. Further study in relevant logics, relations between sentences, lexical semantics, tense and aspect, adverbs, modality and intensionality. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120C.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 170",
+      "dept": "LING",
+      "number": "170",
+      "title": "Language and Society: Introduction to Sociolinguistics",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of patterned covariation of language and society; social dialects and social styles in language; problems of multilingual societies. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 180",
+      "dept": "LING",
+      "number": "180",
+      "title": "Mathematical Structures in Language I",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 119B or 120B. Recommended: Philosophy 31. Prior mathematics knowledge not assumed. Mathematical introduction to phonology, syntax, and semantics. Elementary material on logic, sets, functions, relations, and trees. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 119B or 120B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 119B",
+            "LING 120B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 185A",
+      "dept": "LING",
+      "number": "185A",
+      "title": "Computational Linguistics I",
+      "units": 5.0,
+      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 120B, Program in Computing 10C (or Computer Science 32).",
+      "prereqs_parsed": {
+        "required": [
+          "LING 120B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COMP PROG 10C",
+            "COM SCI 32"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 185B"
+      ]
+    },
+    {
+      "course_id": "LING 185B",
+      "dept": "LING",
+      "number": "185B",
+      "title": "Computational Linguistics II",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 185A. Extension of material in course 185A, with emphasis on computational analysis of current tools and frameworks used in linguistic theory and their cognitive interpretations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 185A.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 185A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 198A",
+      "dept": "LING",
+      "number": "198A",
+      "title": "Honors Research in Linguistics I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite or corequisite: course 165A (or 200A) or 165B (or 200B).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 165A",
+            "LING 200A"
+          ],
+          [
+            "LING 165B",
+            "LING 200B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LING 198B"
+      ]
+    },
+    {
+      "course_id": "LING 198B",
+      "dept": "LING",
+      "number": "198B",
+      "title": "Honors Research in Linguistics II",
+      "units": 2.0,
+      "description": "Tutorial, to be arranged. Requisite: course 198A. Limited to juniors/seniors. Completion of honors thesis or comprehensive research project begun in course 198A under direct supervision of faculty member. Consult professor in charge to enroll. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "LING 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 199",
+      "dept": "LING",
+      "number": "199",
+      "title": "Directed Research or Senior Project in Linguistics",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to senior Linguistics majors. Supervised individual research or investigation of linguistic topic selected by student under guidance of faculty mentor. Culminating paper required. Consult professor in charge to enroll. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 20",
+      "dept": "LING",
+      "number": "20",
+      "title": "Introduction to Linguistic Analysis",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Introduction to theory and methods of linguistics: universal properties of human language; phonetic, phonological, morphological, syntactic, and semantic structures and analysis; nature and form of grammar. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LING 110",
+        "LING 120A",
+        "LING 120B",
+        "LING 127",
+        "LING 170"
+      ]
+    },
+    {
+      "course_id": "LING 200A",
+      "dept": "LING",
+      "number": "200A",
+      "title": "Phonological Theory I",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: graduate linguistics student or grade of A in course 120A or equivalent course in phonology. Courses 200A and 201A form two-course survey of current research in phonological theory. Interaction of phonology with morphology and syntax, syllable structure, stress. S/U or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LING 198A"
+      ]
+    },
+    {
+      "course_id": "LING 200B",
+      "dept": "LING",
+      "number": "200B",
+      "title": "Syntactic Theory I",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: graduate linguistics student or grade of A in course 120B or equivalent course in syntax. In-depth introduction to selected topics in theory of constituent structure and syntax of predicates, arguments, and grammatical relations. Topics include levels of representation, X-bar theory, case theory, thematic roles, the lexicon,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LING 198A"
+      ]
+    },
+    {
+      "course_id": "LING C104",
+      "dept": "LING",
+      "number": "C104",
+      "title": "Experimental Phonetics",
+      "units": 5.0,
+      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 102 or 103.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LING 102",
+          "LING 103"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 61",
+      "dept": "MATH",
+      "number": "61",
+      "title": "Introduction to Discrete Structures",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Not open for credit to students with credit for course 180 or 184. Discrete structures commonly used in computer science and mathematics, including sets and relations, permutations and combinations, graphs and trees, induction. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 31A, 31B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

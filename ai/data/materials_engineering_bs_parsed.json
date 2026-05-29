@@ -1,0 +1,1673 @@
+{
+  "major_id": "materials-engineering-bs",
+  "major_name": "Materials Engineering BS",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/MaterialsEngineeringBS",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "CHEM 20A",
+        "CHEM 20B",
+        "CHEM 20L",
+        "MAT SCI 10",
+        "MAT SCI 90L",
+        "MATH 31A",
+        "MATH 31B",
+        "MATH 32A",
+        "MATH 32B",
+        "MATH 33A",
+        "PHYSICS 1A",
+        "PHYSICS 1B",
+        "PHYSICS 1C"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "C&EE M20",
+            "COM SCI 31",
+            "MECH&AE M20"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MATH 33B",
+            "MECH&AE 82"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "C&EE 91",
+        "C&EE 108",
+        "EC ENGR 100",
+        "MAT SCI 104",
+        "MAT SCI 110",
+        "MAT SCI 110L",
+        "MAT SCI 120",
+        "MAT SCI 130",
+        "MAT SCI 131",
+        "MAT SCI 131L",
+        "MAT SCI 132",
+        "MAT SCI 143A",
+        "MAT SCI 150",
+        "MAT SCI 160",
+        "MAT SCI 140A",
+        "MAT SCI 140B"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "C&EE 103",
+            "EC ENGR 102",
+            "MATH 132",
+            "MECH&AE 182B",
+            "MECH&AE 182C"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "MAT SCI 121L",
+            "MAT SCI 141L",
+            "MAT SCI 143L",
+            "MAT SCI 161L",
+            "MAT SCI 199"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": []
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "CH ENGR CM114",
+            "C&EE 130",
+            "C&EE 135A",
+            "EC ENGR 2",
+            "EC ENGR 123A",
+            "EC ENGR 123B",
+            "MAT SCI 105"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "MAT SCI 140A",
+        "MAT SCI 140B"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "C&EE": [
+      "C&EE 103",
+      "C&EE 108",
+      "C&EE 130",
+      "C&EE 135A",
+      "C&EE 91",
+      "C&EE M20"
+    ],
+    "CH ENGR": [
+      "CH ENGR CM114"
+    ],
+    "CHEM": [
+      "CHEM 20A",
+      "CHEM 20B",
+      "CHEM 20L",
+      "CHEM 30A",
+      "CHEM 30AL"
+    ],
+    "COM SCI": [
+      "COM SCI 31"
+    ],
+    "EC ENGR": [
+      "EC ENGR 100",
+      "EC ENGR 101A",
+      "EC ENGR 102",
+      "EC ENGR 110",
+      "EC ENGR 121B",
+      "EC ENGR 123A",
+      "EC ENGR 123B",
+      "EC ENGR 131A",
+      "EC ENGR 2"
+    ],
+    "MAT SCI": [
+      "MAT SCI 10",
+      "MAT SCI 104",
+      "MAT SCI 105",
+      "MAT SCI 110",
+      "MAT SCI 110L",
+      "MAT SCI 120",
+      "MAT SCI 121",
+      "MAT SCI 121L",
+      "MAT SCI 122",
+      "MAT SCI 130",
+      "MAT SCI 131",
+      "MAT SCI 131L",
+      "MAT SCI 132",
+      "MAT SCI 140A",
+      "MAT SCI 140B",
+      "MAT SCI 141L",
+      "MAT SCI 143A",
+      "MAT SCI 143L",
+      "MAT SCI 150",
+      "MAT SCI 151",
+      "MAT SCI 160",
+      "MAT SCI 161",
+      "MAT SCI 161L",
+      "MAT SCI 162",
+      "MAT SCI 170",
+      "MAT SCI 171",
+      "MAT SCI 199",
+      "MAT SCI 90L",
+      "MAT SCI C111",
+      "MAT SCI C112"
+    ],
+    "MATH": [
+      "MATH 132",
+      "MATH 170A",
+      "MATH 31A",
+      "MATH 31B",
+      "MATH 32A",
+      "MATH 32B",
+      "MATH 33A",
+      "MATH 33B"
+    ],
+    "MECH&AE": [
+      "MECH&AE 101",
+      "MECH&AE 156A",
+      "MECH&AE 166C",
+      "MECH&AE 182B",
+      "MECH&AE 182C",
+      "MECH&AE 82",
+      "MECH&AE M20"
+    ],
+    "PHYSICS": [
+      "PHYSICS 1A",
+      "PHYSICS 1B",
+      "PHYSICS 1C"
+    ],
+    "STATS": [
+      "STATS 100A"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "C&EE 103",
+      "dept": "C&EE",
+      "number": "103",
+      "title": "Applied Numerical Computing and Modeling in Civil and Environmental Engineering",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course M20 (or Computer Science 31), Mathematics 33B or Mechanical and Aerospace Engineering 82 (either may be taken concurrently). Introduction to numerical computing with specific applications in civil and environmental engineering. Topics include error and computer arithmetic, root finding,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M20 (or Computer Science 31), Mathematics 33B or Mechanical and Aerospace Engineering 82 (either may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [
+          "C&EE M20"
+        ],
+        "corequisites": [
+          "MATH 33B",
+          "MAE 82"
+        ],
+        "one_of": [
+          [
+            "COM SCI 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE 108",
+      "dept": "C&EE",
+      "number": "108",
+      "title": "Introduction to Mechanics of Deformable Solids",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Mathematics 32B, Physics 1A. Review of equilibrium principles; forces and moments transmitted by slender members. Concepts of stress and strain. Stress-strain relations with focus on linear elasticity. Transformation of stress and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 91 or Mechanical and Aerospace Engineering 101, Mathematics 32B, Physics 1A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "PHYSICS 1A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "C&EE 91",
+            "MAE 101"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&EE 130",
+        "C&EE 135A"
+      ]
+    },
+    {
+      "course_id": "C&EE 130",
+      "dept": "C&EE",
+      "number": "130",
+      "title": "Elementary Structural Mechanics",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 108. Analysis of stress and strain, phenomenological material behavior, extension, bending, and transverse shear stresses in beams with general cross-sections, shear center, deflection of beams, torsion of beams, warping, column instability and failure. Letter grading.",
+      "prereqs_raw": "Requisite: course 108.",
+      "prereqs_parsed": {
+        "required": [
+          "C&EE 108"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE 135A",
+      "dept": "C&EE",
+      "number": "135A",
+      "title": "Elementary Structural Analysis",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 108. Introduction to structural analysis; classification of structural elements; analysis of statically determinate trusses, beams, and frames; deflections in elementary structures; virtual work; analysis of indeterminate structures using force method; introduction to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M20 (or Computer Science 31), 108.",
+      "prereqs_parsed": {
+        "required": [
+          "C&EE M20",
+          "C&EE 108"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "C&EE M20",
+            "COM SCI 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE 91",
+      "dept": "C&EE",
+      "number": "91",
+      "title": "Statics",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 31A, 31B, Physics 1A. Newtonian mechanics, vector representation, and resultant forces and moments. Free-body diagrams and equilibrium, internal loads and equilibrium in trusses, frames, and beams. Planar and nonplanar systems, distributed forces, determinate and indeterminate force systems, shear\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 31A, 31B, Physics 1A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B",
+          "PHYSICS 1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&EE 108"
+      ]
+    },
+    {
+      "course_id": "C&EE M20",
+      "dept": "C&EE",
+      "number": "M20",
+      "title": "Introduction to Computer Programming with MATLAB",
+      "units": 4.0,
+      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&EE 103",
+        "C&EE 135A"
+      ]
+    },
+    {
+      "course_id": "CH ENGR CM114",
+      "dept": "CH ENGR",
+      "number": "CM114",
+      "title": "Electrochemical Processes",
+      "units": 4.0,
+      "description": "(Same as Materials Science CM163.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 102B, Mechanical and Aerospace Engineering 105A (or Materials Science 130). Fundamentals of electrochemistry and engineering applications to industrial electrochemical processes. Primary emphasis on fundamental approach to analyze electrochemical processes. Specific topics include electrochemical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 102B, Mechanical and Aerospace Engineering 105A (or Materials Science 130).",
+      "prereqs_parsed": {
+        "required": [
+          "CH ENGR 102B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MAE 105A",
+            "MAT SCI 130"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 20A",
+      "dept": "CHEM",
+      "number": "20A",
+      "title": "Chemical Structure",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 20B",
+        "MAT SCI 105"
+      ]
+    },
+    {
+      "course_id": "CHEM 20B",
+      "dept": "CHEM",
+      "number": "20B",
+      "title": "Chemical Energetics and Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 30A",
+        "MAT SCI 105"
+      ]
+    },
+    {
+      "course_id": "CHEM 20L",
+      "dept": "CHEM",
+      "number": "20L",
+      "title": "General Chemistry Laboratory",
+      "units": 3.0,
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 30A",
+      "dept": "CHEM",
+      "number": "30A",
+      "title": "Organic Chemistry I: Structure and Reactivity",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 20B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 30AL",
+      "dept": "CHEM",
+      "number": "30AL",
+      "title": "General Chemistry Laboratory II",
+      "units": 4.0,
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI 31",
+      "dept": "COM SCI",
+      "number": "31",
+      "title": "Introduction to Computer Science I",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "C&EE 103",
+        "C&EE 135A",
+        "MECH&AE 182C"
+      ]
+    },
+    {
+      "course_id": "EC ENGR 100",
+      "dept": "EC ENGR",
+      "number": "100",
+      "title": "Electrical and Electronic Circuits",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Mathematics 33A, 33B or Mechanical and Aerospace Engineering 82, Physics 1C. Not open for credit to students with credit for course 110. Electrical quantities, linear circuit elements, circuit principles, signal waveforms, transient and steady state circuit behavior, semiconductor diodes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 33A, 33B or Mechanical and Aerospace Engineering 82, Physics 1C.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A",
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 33B",
+            "MAE 82"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR 101A",
+      "dept": "EC ENGR",
+      "number": "101A",
+      "title": "Engineering Electromagnetics",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: Mathematics 32A and 32B, or 33A and 33B, Physics 1C. Electromagnetic field concepts, waves and phasors, transmission lines and Smith chart, transient responses, vector analysis, introduction to Maxwell equations, static and quasi-static electric and magnetic fields. Letter grading.",
+      "prereqs_raw": "Requisites: Mathematics 32A and 32B, or 33A and 33B, Physics 1C.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 32A",
+            "MATH 32B"
+          ],
+          [
+            "MATH 33A",
+            "MATH 33B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR 102",
+      "dept": "EC ENGR",
+      "number": "102",
+      "title": "Systems and Signals",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Mathematics 33A. Corequisite: Mathematics 33B. Elements of differential equations, first- and second-order equations, variation of parameters method and method of undetermined coefficients, existence and uniqueness. Systems: input/output description, linearity, time-invariance, and causality. Impulse response functions, superposition and convolution integrals.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Mathematics 33A. Corequisite: Mathematics 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [
+          "MATH 33B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EC ENGR 110"
+      ]
+    },
+    {
+      "course_id": "EC ENGR 110",
+      "dept": "EC ENGR",
+      "number": "110",
+      "title": "Circuit Theory II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Enforced requisites: courses 10, M16 (or Computer Science M51A), 102. Corequisite: course 111L (enforced only for Computer Science and Engineering and Electrical Engineering majors). Sinusoidal excitation and phasors, AC steady state analysis, AC steady state power, network functions, poles and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10, M16 (or Computer Science M51A), 102. Corequisite: course 111L (enforced only for Computer Science and Engineering and Electrical Engineering majors).",
+      "prereqs_parsed": {
+        "required": [
+          "EC ENGR 10",
+          "EC ENGR 102"
+        ],
+        "corequisites": [
+          "EC ENGR 111L"
+        ],
+        "one_of": [
+          [
+            "EC ENGR M16",
+            "COM SCI M51A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR 121B",
+      "dept": "EC ENGR",
+      "number": "121B",
+      "title": "Principles of Semiconductor Device Design",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Enforced requisite: course 2. Introduction to principles of operation of bipolar and MOS transistors, equivalent circuits, high-frequency behavior, voltage limitations. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 2.",
+      "prereqs_parsed": {
+        "required": [
+          "EC ENGR 2"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR 123A",
+      "dept": "EC ENGR",
+      "number": "123A",
+      "title": "Fundamentals of Solid-State I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisite: course 2 or Physics 1C. Limited to junior/senior engineering majors. Fundamentals of solid-state, introduction to quantum mechanics and quantum statistics applied to solid-state. Crystal structure, energy levels in solids, and band theory and semiconductor properties. Letter grading.",
+      "prereqs_raw": "Requisite: course 2 or Physics 1C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "EC ENGR 2",
+            "PHYSICS 1C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR 123B",
+      "dept": "EC ENGR",
+      "number": "123B",
+      "title": "Fundamentals of Solid-State II",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Enforced requisite: course 123A. Discussion of solid-state properties, lattice vibrations, thermal properties, dielectric, magnetic, and superconducting properties. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 123A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR 131A",
+      "dept": "EC ENGR",
+      "number": "131A",
+      "title": "Probability and Statistics",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Requisites: Mathematics 32B, 33B. Introduction to basic concepts of probability, including random variables and vectors, distributions and densities, moments, characteristic functions, and limit theorems. Applications to communication, control, and signal processing. Introduction to computer simulation and generation of random events.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 32B, 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR 2",
+      "dept": "EC ENGR",
+      "number": "2",
+      "title": "Physics for Electrical Engineers",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Physics 1C. Introduction to concepts of modern physics necessary to understand solid-state devices, including elementary quantum theory, Fermi energies, and concepts of electrons in solids. Discussion of electrical properties of semiconductors leading to operation of junction devices. Letter grading.",
+      "prereqs_raw": "Requisite: Physics 1C.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EC ENGR 121B",
+        "EC ENGR 123A"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 10",
+      "dept": "MAT SCI",
+      "number": "10",
+      "title": "Freshman Seminar: New Materials",
+      "units": 1.0,
+      "description": "Seminar, one hour; outside study, two hours. Preparation: high school chemistry and physics. Not open to students with credit for course 104. Introduction to basic concepts of materials science and new materials vital to advanced technology. Microstructural analysis and various material properties discussed in conjunction with such applications as biomedical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 104",
+      "dept": "MAT SCI",
+      "number": "104",
+      "title": "Science of Engineering Materials",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MAT SCI 110",
+        "MAT SCI 110L",
+        "MAT SCI 120",
+        "MAT SCI 122",
+        "MAT SCI 130",
+        "MAT SCI 151",
+        "MAT SCI 160",
+        "MAT SCI 162"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 105",
+      "dept": "MAT SCI",
+      "number": "105",
+      "title": "Principles of Nanoscience and Nanotechnology",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Chemistry 20A, 20B, Physics 1C. Introduction to underlying science encompassing structure, properties, and fabrication of technologically important nanoscale systems. New phenomena that emerge in very small systems (typically with feature sizes below few hundred nanometers) explained using basic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: Chemistry 20A, 20B, Physics 1C.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 20A",
+          "CHEM 20B",
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 110",
+      "dept": "MAT SCI",
+      "number": "110",
+      "title": "Introduction to Materials Characterization A (Crystal Structure, Nanostructures, and X-Ray Scattering)",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 104. Modern methods of materials characterization; fundamentals of crystallography, properties of X rays, X-ray scattering; powder method, Laue method; determination of crystal structures; phase diagram determination; high-resolution X-ray diffraction methods; X-ray spectroscopy; design of materials characterization procedures.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 104.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 104"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MAT SCI 120"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 110L",
+      "dept": "MAT SCI",
+      "number": "110L",
+      "title": "Introduction to Materials Characterization A Laboratory",
+      "units": 2.0,
+      "description": "Laboratory, four hours; outside study, two hours. Enforced requisite: course 104. Experimental techniques and analysis of materials through X-ray scattering techniques; powder method, crystal structure determination, high-resolution X-ray diffraction methods, and special projects. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 104.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 104"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 120",
+      "dept": "MAT SCI",
+      "number": "120",
+      "title": "Physics of Materials",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 104, 110 (or Chemistry 113A). Introduction to electrical, optical, and magnetic properties of solids. Free electron model, introduction to band theory and Schr\u00f6dinger wave equation. Crystal bonding and lattice vibrations. Mechanisms and characterization of electrical conductivity, optical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 104, 110 (or Chemistry 113A).",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 104"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MAT SCI 110",
+            "CHEM 113A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MAT SCI 121"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 121",
+      "dept": "MAT SCI",
+      "number": "121",
+      "title": "Materials Science of Semiconductors",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 120. Structure and properties of elemental and compound semiconductors. Electrical and optical properties, defect chemistry, and doping. Electronic materials analysis and characterization, including electrical, optical, and ion-beam techniques. Heterostructures, band-gap engineering, development of new materials for optoelectronic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 120.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 120"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MAT SCI 121L"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 121L",
+      "dept": "MAT SCI",
+      "number": "121L",
+      "title": "Materials Science of Semiconductors Laboratory",
+      "units": 2.0,
+      "description": "Lecture, 30 minutes; discussion, 30 minutes; laboratory, two hours; outside study, three hours. Enforced corequisite: course 121. Experiments conducted on materials characterization, including measurements of contact resistance, dielectric constant, and thin film biaxial modulus and CTE. Letter grading.",
+      "prereqs_raw": "Enforced corequisite: course 121.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MAT SCI 121"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 122",
+      "dept": "MAT SCI",
+      "number": "122",
+      "title": "Principles of Electronic Materials Processing",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 104. Description of basic semiconductor materials for device processing; preparation and characterization of silicon, III-V compounds, and films. Discussion of principles of CVD, MOCVD, LPE, and MBE; metals and dielectrics. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 104.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 104"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 130",
+      "dept": "MAT SCI",
+      "number": "130",
+      "title": "Phase Relations in Solids",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 104. Summary of thermodynamic laws, equilibrium criteria, solution thermodynamics, mass-action law, binary and ternary phase diagrams, glass transitions. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 104.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 104"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CH ENGR CM114",
+        "MAT SCI 160"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 131",
+      "dept": "MAT SCI",
+      "number": "131",
+      "title": "Diffusion and Diffusion-Controlled Reactions",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 130 or Chemistry 110A. Diffusion in metals and ionic solids, nucleation and growth theory; precipitation from solid solution, eutectoid decomposition, design of heat treatment processes of alloys, growth of intermediate phases, gas-solid reactions, design of oxidation-resistant alloys,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 130 or Chemistry 110A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MAT SCI 131L",
+        "MAT SCI 132"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 131L",
+      "dept": "MAT SCI",
+      "number": "131L",
+      "title": "Diffusion and Diffusion-Controlled Reactions Laboratory",
+      "units": 2.0,
+      "description": "Laboratory, two hours; outside study, four hours. Enforced corequisite: course 131. Design of heat-treating cycles and performing experiments to study interdiffusion, growth of intermediate phases, recrystallization, and grain growth in metals. Analysis of data. Comparison of results with theory. Letter grading.",
+      "prereqs_raw": "Enforced corequisite: course 131.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MAT SCI 131"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 132",
+      "dept": "MAT SCI",
+      "number": "132",
+      "title": "Structure and Properties of Metallic Alloys",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Enforced requisite: course 131. Physical metallurgy of steels, lightweight alloys (Al and Ti), and superalloys. Strengthening mechanisms, microstructural control methods for strength and toughness improvement. Grain boundary segregation. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 131.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 131"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MAT SCI 140A"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 140A",
+      "dept": "MAT SCI",
+      "number": "140A",
+      "title": "Materials Selection and Engineering Design A",
+      "units": 3.0,
+      "description": "Lecture, two hours; laboratory, two hours; outside study, five hours. Enforced requisites: two courses from 132, 150, 160. Explicit guidance among myriad materials available for design in engineering. Properties and applications of steels, nonferrous alloys, polymeric, ceramic, and composite materials, coatings. Materials selection, treatment, and serviceability emphasized as part of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: two courses from 132, 150, 160.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MAT SCI 132",
+            "MAT SCI 150",
+            "MAT SCI 160"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MAT SCI 140B"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 140B",
+      "dept": "MAT SCI",
+      "number": "140B",
+      "title": "Materials Selection and Engineering Design B",
+      "units": 3.0,
+      "description": "Lecture, two hours; laboratory, two hours; outside study, five hours. Enforced requisite: course 140A. Explicit guidance among myriad materials available for design in engineering. Properties and applications of steels, nonferrous alloys, polymeric, ceramic, and composite materials, coatings. Materials selection, treatment, and serviceability emphasized as part of successful design. Design projects.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 140A.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 140A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 141L",
+      "dept": "MAT SCI",
+      "number": "141L",
+      "title": "Computer Methods and Instrumentation in Materials Science",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Preparation: knowledge of BASIC or C or assembly language. Limited to junior/senior Materials Science and Engineering majors. Interface and control techniques, real-time data acquisition and processing, computer-aided testing. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 143A",
+      "dept": "MAT SCI",
+      "number": "143A",
+      "title": "Mechanical Behavior of Materials",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: course 104, Mechanical and Aerospace Engineering 101. Plastic flow of metals under simple and combined loading, strain rate and temperature effects, dislocations, fracture, microstructural effects, mechanical and thermal treatment of steel for engineering applications. Letter grading.",
+      "prereqs_raw": "Enforced requisites: course 104, Mechanical and Aerospace Engineering 101.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MAT SCI 143L"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 143L",
+      "dept": "MAT SCI",
+      "number": "143L",
+      "title": "Mechanical Behavior Laboratory",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Requisites: courses 90L, 143A (may be taken concurrently). Methods of characterizing mechanical behavior of various materials; elastic and plastic deformation, fracture toughness, fatigue, and creep. Letter grading.",
+      "prereqs_raw": "Requisites: courses 90L, 143A (may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 90L"
+        ],
+        "corequisites": [
+          "MAT SCI 143A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 150",
+      "dept": "MAT SCI",
+      "number": "150",
+      "title": "Introduction to Polymers",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Polymerization mechanisms, molecular weight and distribution, chemical structure and bonding, structure crystallinity, and morphology and their effects on physical properties. Glassy polymers, springy polymers, elastomers, adhesives. Fiber forming polymers, polymer processing technology, plasticiation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MAT SCI 140A"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 151",
+      "dept": "MAT SCI",
+      "number": "151",
+      "title": "Structure and Properties of Composite Materials",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Preparation: at least two courses from 132, 143A, 150, 160. Requisite: course 104. Relationship between structure and mechanical properties of composite materials with fiber and particulate reinforcement. Properties of fiber, matrix, and interfaces. Selection of macrostructures and material systems. Letter grading.",
+      "prereqs_raw": "Requisite: course 104.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 104"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 160",
+      "dept": "MAT SCI",
+      "number": "160",
+      "title": "Introduction to Ceramics and Glasses",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 104, 130. Introduction to ceramics and glasses being used as important materials of engineering, processing techniques, and unique properties. Examples of design and control of properties for certain specific applications in engineering. Letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 104, 130.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 104",
+          "MAT SCI 130"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MAT SCI 140A",
+        "MAT SCI 161"
+      ]
+    },
+    {
+      "course_id": "MAT SCI 161",
+      "dept": "MAT SCI",
+      "number": "161",
+      "title": "Processing of Ceramics and Glasses",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 160. Study of processes used in fabrication of ceramics and glasses for structural applications, optics, and electronics. Processing operations, including modern techniques of powder synthesis, greenware forming, sintering, glass melting. Microstructure properties relations in ceramics. Fracture analysis and design with ceramics. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 160.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 160"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 161L",
+      "dept": "MAT SCI",
+      "number": "161L",
+      "title": "Laboratory in Ceramics",
+      "units": 2.0,
+      "description": "Laboratory, four hours. Requisite: course 160. Recommended corequisite: course 161. Processing of common ceramics and glasses. Attainment of specific properties through process control for engineering applications. Quantitative characterization and selection of raw materials. Slip casting and extrusion of clay bodies. Sintering of powders. Glass melting and fabrication. Determination of chemical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 160.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 162",
+      "dept": "MAT SCI",
+      "number": "162",
+      "title": "Electronic Ceramics",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Requisites: course 104, Physics 1C. Utilization of ceramics in microelectronics; thick film and thin film resistors, capacitors, and substrates; design and processing of electronic ceramics and packaging; magnetic ceramics; ferroelectric ceramics and electro-optic devices; optical wave guide applications and designs. Letter grading.",
+      "prereqs_raw": "Requisites: course 104, Physics 1C.",
+      "prereqs_parsed": {
+        "required": [
+          "MAT SCI 104",
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 170",
+      "dept": "MAT SCI",
+      "number": "170",
+      "title": "Engaging Elements of Communication: Oral Communication",
+      "units": 2.0,
+      "description": "Lecture, one hour; discussion, one hour; outside study, four hours. Comprehensive oral presentation and communication skills provided by building on strengths of individual personal styles in creation of positive interpersonal relations. Skill set prepares students for different types of academic and professional presentations for wide range of audiences. Learning environment\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 171",
+      "dept": "MAT SCI",
+      "number": "171",
+      "title": "Engaging Elements of Communication: Writing for Technical Community",
+      "units": 2.0,
+      "description": "Lecture, one hour; discussion, one hour; outside study, four hours. Comprehensive technical writing skills on subjects specific to field of materials science and engineering. Students write review term paper in selected subject field of materials science and engineering from given set of journal publications. Instruction leads students through several crucial\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 199",
+      "dept": "MAT SCI",
+      "number": "199",
+      "title": "Directed Research in Materials Science and Engineering",
+      "units": 2.0,
+      "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. Occasional field trips may be arranged. May be repeated for credit with school approval. Individual contract required; enrollment petitions available in Office of Academic and Student Affairs. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI 90L",
+      "dept": "MAT SCI",
+      "number": "90L",
+      "title": "Physical Measurement in Materials Engineering",
+      "units": 2.0,
+      "description": "Laboratory, four hours; outside study, two hours. Various physical measurement methods used in materials science and engineering. Mechanical, thermal, electrical, magnetic, and optical techniques. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MAT SCI 143L"
+      ]
+    },
+    {
+      "course_id": "MAT SCI C111",
+      "dept": "MAT SCI",
+      "number": "C111",
+      "title": "Introduction to Materials Characterization B (Electron Microscopy)",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Characterization of microstructure and microchemistry of materials; transmission electron microscopy; reciprocal lattice, electron diffraction, stereographic projection, direct observation of defects in crystals, replicas; scanning electron microscopy: emissive and reflective modes; chemical analysis; electron optics of both instruments. Concurrently scheduled with course C211. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MAT SCI C112",
+      "dept": "MAT SCI",
+      "number": "C112",
+      "title": "Cultural Materials Science II: Characterization Methods in Conservation of Materials",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: general chemistry, inorganic and organic chemistry, materials science. Principles and methods of materials characterization in conservation: optical and electron microscopy, X-ray and electron spectroscopy, X-ray diffraction, infrared spectroscopy, reflectance spectroscopy and multispectral imaging spectroscopy, chromatography, design of archaeological and ethnographic materials characterization procedures. Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 132",
+      "dept": "MATH",
+      "number": "132",
+      "title": "Complex Analysis for Applications",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B. Introduction to basic formulas and calculation procedures of complex analysis of one variable relevant to applications. Topics include Cauchy/Riemann equations, Cauchy integral formula, power series expansion, contour integrals, residue calculus.",
+      "prereqs_raw": "Requisites: courses 32B, 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 170A",
+      "dept": "MATH",
+      "number": "170A",
+      "title": "Probability Theory I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33A, 131A. Not open to students with credit for course 170E, Electrical and Computer Engineering 131A, or Statistics 100A. Rigorous presentation of probability theory based on real analysis. Probability space, probability and conditional probability, independence, Bayes\u2019 rule, discrete and continuous random\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 32B, 33A, 131A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33A",
+          "MATH 131A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&EE 91",
+        "CHEM 20A",
+        "CHEM 20B",
+        "MATH 31B",
+        "MATH 32A",
+        "MECH&AE 101",
+        "PHYSICS 1A"
+      ]
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&EE 91",
+        "CHEM 20B",
+        "MATH 33A",
+        "MECH&AE 101",
+        "PHYSICS 1A",
+        "PHYSICS 1B"
+      ]
+    },
+    {
+      "course_id": "MATH 32A",
+      "dept": "MATH",
+      "number": "32A",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "EC ENGR 101A",
+        "MATH 33A",
+        "PHYSICS 1A",
+        "PHYSICS 1B",
+        "PHYSICS 1C"
+      ]
+    },
+    {
+      "course_id": "MATH 32B",
+      "dept": "MATH",
+      "number": "32B",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "C&EE 108",
+        "EC ENGR 101A",
+        "EC ENGR 131A",
+        "MATH 132",
+        "MATH 170A",
+        "PHYSICS 1B",
+        "PHYSICS 1C",
+        "STATS 100A"
+      ]
+    },
+    {
+      "course_id": "MATH 33A",
+      "dept": "MATH",
+      "number": "33A",
+      "title": "Linear Algebra and Applications",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 3B",
+            "MATH 31B",
+            "MATH 32A"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&EE M20",
+        "EC ENGR 100",
+        "EC ENGR 101A",
+        "EC ENGR 102",
+        "MATH 170A",
+        "MECH&AE M20",
+        "PHYSICS 1C",
+        "STATS 100A"
+      ]
+    },
+    {
+      "course_id": "MATH 33B",
+      "dept": "MATH",
+      "number": "33B",
+      "title": "Differential Equations",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "C&EE 103",
+        "EC ENGR 100",
+        "EC ENGR 101A",
+        "EC ENGR 102",
+        "EC ENGR 131A",
+        "MATH 132"
+      ]
+    },
+    {
+      "course_id": "MECH&AE 101",
+      "dept": "MECH&AE",
+      "number": "101",
+      "title": "Statics and Strength of Materials",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 31A, 31B, Physics 1A. Review of vector representation of forces, resultant force and moment, equilibrium of concurrent and nonconcurrent forces. Area moments and products of inertia. Support reactions, free-body diagrams. Forces in simple models of mechanical and aerospace\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 31A, 31B, Physics 1A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B",
+          "PHYS 1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MECH&AE 156A"
+      ]
+    },
+    {
+      "course_id": "MECH&AE 156A",
+      "dept": "MECH&AE",
+      "number": "156A",
+      "title": "Advanced Strength of Materials",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 82, 101. Not open to students with credit for course 166A. Concepts of stress, strain, and material behavior. Stresses in loaded beams with symmetric and asymmetric cross sections. Torsion of cylinders and thin-walled structures, shear flow. Stresses in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 82, 101.",
+      "prereqs_parsed": {
+        "required": [
+          "MECH&AE 82",
+          "MECH&AE 101"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MECH&AE 166C"
+      ]
+    },
+    {
+      "course_id": "MECH&AE 166C",
+      "dept": "MECH&AE",
+      "number": "166C",
+      "title": "Design of Composite Structures",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 156A or 166A. History of composites, stress-strain relations for composite materials, bending and extension of symmetric laminates, failure analysis, design examples and design studies, buckling of composite components, nonsymmetric laminates, micromechanics of composites. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 156A or 166A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MECH&AE 156A",
+            "MECH&AE 166A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MECH&AE 182B",
+      "dept": "MECH&AE",
+      "number": "182B",
+      "title": "Mathematics of Engineering",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 82. Analytical methods for solving partial differential equations arising in engineering. Separation of variables, eigenvalue problems, Sturm/Liouville theory. Development and use of special functions. Representation by means of orthonormal functions; Galerkin method. Use of Green\u2019s function and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 82.",
+      "prereqs_parsed": {
+        "required": [
+          "MECH&AE 82"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MECH&AE 182C",
+      "dept": "MECH&AE",
+      "number": "182C",
+      "title": "Numerical Methods for Engineering Applications",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses M20 (or Civil Engineering M20 or Computer Science 31), 82. Basic topics from numerical analysis having wide application in solution of practical engineering problems, computer arithmetic, and errors. Solution of linear and nonlinear systems. Algebraic eigenvalue problem.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M20 (or Civil Engineering M20 or Computer Science 31), 82.",
+      "prereqs_parsed": {
+        "required": [
+          "MECH&AE 20",
+          "MECH&AE 82"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MECH&AE 20",
+            "CIV ENG 20",
+            "COM SCI 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MECH&AE 82",
+      "dept": "MECH&AE",
+      "number": "82",
+      "title": "Mathematics of Engineering",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Mathematics 33A. Recommended requisite: course M20. Methods of solving ordinary differential equations in engineering. Review of matrix algebra, eigenvalues, and eigenvectors. Solution of systems of first-order ordinary differential equations using matrix methods. Introduction to Laplace transforms and their application\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MECH&AE 156A",
+        "MECH&AE 182B",
+        "MECH&AE 182C"
+      ]
+    },
+    {
+      "course_id": "MECH&AE M20",
+      "dept": "MECH&AE",
+      "number": "M20",
+      "title": "Introduction to Computer Programming with MATLAB",
+      "units": 4.0,
+      "description": "(Same as Civil Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient codes. Introduction\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "dept": "PHYSICS",
+      "number": "1A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&EE 108",
+        "C&EE 91",
+        "PHYSICS 1B",
+        "PHYSICS 1C"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1B",
+      "dept": "PHYSICS",
+      "number": "1B",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Fluid mechanics, oscillation, mechanical waves, and sound. Electric charge, field and potential, capacitors, and dielectrics. Currents and resistance, direct-current circuits. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1C"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1C",
+      "dept": "PHYSICS",
+      "number": "1C",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EC ENGR 100",
+        "EC ENGR 101A",
+        "EC ENGR 123A",
+        "EC ENGR 2",
+        "MAT SCI 105",
+        "MAT SCI 162"
+      ]
+    },
+    {
+      "course_id": "STATS 100A",
+      "dept": "STATS",
+      "number": "100A",
+      "title": "Introduction to Probability",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 32B, 33A. Not open to students with credit for Electrical Engineering 131A or Mathematics 170A; open to graduate students. Students may receive credit for only two of following: course 100A, former course 110A, Biostatistics 100A. Probability distributions, random variables, vectors, and expectation.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 32B, 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

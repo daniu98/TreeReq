@@ -1,0 +1,1486 @@
+{
+  "major_id": "psychology-ba",
+  "major_name": "Psychology BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/PsychologyBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PSYCH 10",
+        "PSYCH 100A",
+        "PSYCH 100B"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHEM 14A",
+            "CHEM 17",
+            "CHEM 20A",
+            "PHYSICS 1A",
+            "PHYSICS 5A",
+            "PHYSICS 10",
+            "PHYSICS 11"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LIFESCI 7A",
+            "LIFESCI 15",
+            "PHYSCI 3"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "PHILOS 1",
+            "PHILOS 2",
+            "PHILOS 3",
+            "PHILOS 4",
+            "PHILOS 5",
+            "PHILOS 6",
+            "PHILOS 7",
+            "PHILOS 8",
+            "PHILOS 9",
+            "PHILOS 21",
+            "PHILOS 22",
+            "PHILOS 22W",
+            "PHILOS 23",
+            "PHILOS 31"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "COMPTNG 10A",
+            "STATS 10"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 5,
+          "courses": [
+            "PSYCH 110",
+            "PSYCH 115",
+            "PSYCH 120A",
+            "PSYCH 120B",
+            "PSYCH 127A",
+            "PSYCH 127B",
+            "PSYCH 127C",
+            "PSYCH 130",
+            "PSYCH 135",
+            "PSYCH 150",
+            "PSYCH 155A",
+            "PSYCH 155B",
+            "PSYCH M117A",
+            "PSYCH M117B",
+            "PSYCH M117C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "PSYCH 101",
+            "PSYCH 111",
+            "PSYCH M116A",
+            "PSYCH 116B",
+            "PSYCH 121",
+            "PSYCH 126",
+            "PSYCH 131",
+            "PSYCH 136A",
+            "PSYCH 136B",
+            "PSYCH M136C",
+            "PSYCH 151",
+            "PSYCH 158",
+            "PSYCH 186A",
+            "PSYCH 186B",
+            "PSYCH 186C",
+            "PSYCH 186D",
+            "PSYCH 186E"
+          ]
+        },
+        {
+          "choose_n": 4,
+          "courses": [
+            "PSYCH 101",
+            "PSYCH 102",
+            "PSYCH 103",
+            "PSYCH 104",
+            "PSYCH 105",
+            "PSYCH 106",
+            "PSYCH 107",
+            "PSYCH 108",
+            "PSYCH 109",
+            "PSYCH 110",
+            "PSYCH 111",
+            "PSYCH 115",
+            "PSYCH 120A",
+            "PSYCH 120B",
+            "PSYCH 121",
+            "PSYCH 126",
+            "PSYCH 127A",
+            "PSYCH 127B",
+            "PSYCH 127C",
+            "PSYCH 130",
+            "PSYCH 131",
+            "PSYCH 135",
+            "PSYCH 136A",
+            "PSYCH 136B",
+            "PSYCH M136C",
+            "PSYCH 150",
+            "PSYCH 151",
+            "PSYCH 155A",
+            "PSYCH 155B",
+            "PSYCH 158",
+            "PSYCH 186A",
+            "PSYCH 186B",
+            "PSYCH 186C",
+            "PSYCH 186D",
+            "PSYCH 186E",
+            "PSYCH 188",
+            "PSYCH 199B"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "CHEM": [
+      "CHEM 14A",
+      "CHEM 17",
+      "CHEM 20A"
+    ],
+    "COMPTNG": [
+      "COMPTNG 10A"
+    ],
+    "LIFESCI": [
+      "LIFESCI 15",
+      "LIFESCI 7A"
+    ],
+    "PHILOS": [
+      "PHILOS 1",
+      "PHILOS 2",
+      "PHILOS 21",
+      "PHILOS 22",
+      "PHILOS 22W",
+      "PHILOS 23",
+      "PHILOS 3",
+      "PHILOS 31",
+      "PHILOS 4",
+      "PHILOS 5",
+      "PHILOS 6",
+      "PHILOS 7",
+      "PHILOS 8",
+      "PHILOS 9"
+    ],
+    "PHYSCI": [
+      "PHYSCI 3"
+    ],
+    "PHYSICS": [
+      "PHYSICS 10",
+      "PHYSICS 11",
+      "PHYSICS 1A",
+      "PHYSICS 5A"
+    ],
+    "PSYCH": [
+      "PSYCH 10",
+      "PSYCH 100A",
+      "PSYCH 100B",
+      "PSYCH 101",
+      "PSYCH 110",
+      "PSYCH 111",
+      "PSYCH 115",
+      "PSYCH 116B",
+      "PSYCH 120A",
+      "PSYCH 120B",
+      "PSYCH 121",
+      "PSYCH 126",
+      "PSYCH 127A",
+      "PSYCH 127B",
+      "PSYCH 127C",
+      "PSYCH 130",
+      "PSYCH 131",
+      "PSYCH 135",
+      "PSYCH 136A",
+      "PSYCH 136B",
+      "PSYCH 150",
+      "PSYCH 151",
+      "PSYCH 155A",
+      "PSYCH 155B",
+      "PSYCH 158",
+      "PSYCH 186A",
+      "PSYCH 186B",
+      "PSYCH 186C",
+      "PSYCH 186D",
+      "PSYCH 186E",
+      "PSYCH 191AH",
+      "PSYCH 191BH",
+      "PSYCH 191CH",
+      "PSYCH 199B",
+      "PSYCH M116A",
+      "PSYCH M117A",
+      "PSYCH M117B",
+      "PSYCH M117C",
+      "PSYCH M136C"
+    ],
+    "STATS": [
+      "STATS 10"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "CHEM 14A",
+      "dept": "CHEM",
+      "number": "14A",
+      "title": "General Chemistry for Life Scientists I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "LIFE SCI 30A",
+          "MATH 3A",
+          "MATH 31A"
+        ],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "MATH 3A",
+            "MATH 31A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 17",
+      "dept": "CHEM",
+      "number": "17",
+      "title": "Chemical Principles",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to chemical principles: numbers, measurements, chemical calculations, gas laws, solutions, acids, bases, and salts, molecular structure, and nomenclature. Collaborative learning and problem solving; introduction to chemistry laboratory practice. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 20A",
+      "dept": "CHEM",
+      "number": "20A",
+      "title": "Chemical Structure",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 10A",
+      "dept": "COMPTNG",
+      "number": "10A",
+      "title": "Introduction to Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 15",
+      "dept": "LIFESCI",
+      "number": "15",
+      "title": "Life: Concepts and Issues",
+      "units": 5.0,
+      "description": "Lecture, two and one half hours; discussion, 75 minutes. Introduction to important concepts and issues in the field for non-life sciences majors. Topics include chemistry of life, genetics, physiology, evolution, and ecology\u2014all explored in lecture and debates, with writing component. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7A",
+      "dept": "LIFESCI",
+      "number": "7A",
+      "title": "Cell and Molecular Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Introduction to basic principles of cell structure and cell biology, biochemistry, and molecular biology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 1",
+      "dept": "PHILOS",
+      "number": "1",
+      "title": "Beginnings of Western Philosophy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Origins of Greek cosmology and philosophy, beginnings of systematic thought and scientific investigation concerning such questions as origin and nature of the material world, concept of laws of nature, possibility and extent of knowledge. Concentration on pre-Socratic philosophers, particularly Anaximander, Heraclitus, the Pythagoreans, Parmenides,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 2",
+      "dept": "PHILOS",
+      "number": "2",
+      "title": "Introduction to Philosophy of Religion",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Introductory study of such topics as nature and grounds of religious belief, relation between religion and ethics, nature and existence of God, problem of evil, and what can be learned from religious experience. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 21",
+      "dept": "PHILOS",
+      "number": "21",
+      "title": "Skepticism and Rationality",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Can we know anything with certainty? How can we justify any of our beliefs? Introduction to study of these and related questions through works of some great philosophers of modern period, such as Descartes, Hume, Leibniz, or Berkeley. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 22",
+      "dept": "PHILOS",
+      "number": "22",
+      "title": "Introduction to Ethical Theory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 22W. Recommended or required for many upper-division courses in Group III. Systematic introduction to ethical theory, including discussion of egoism, utilitarianism, justice, responsibility, meaning of ethical terms, relativism, etc. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 22W",
+      "dept": "PHILOS",
+      "number": "22W",
+      "title": "Introduction to Ethical Theory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Limited to freshmen/sophomores. Not open for credit to students with credit for course 22. Introduction to major ethical theories in Western thought. Examination of works of Plato, Aristotle, Hume, Kant,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H",
+            "ENGL 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 23",
+      "dept": "PHILOS",
+      "number": "23",
+      "title": "Meaning and Communication",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Theory of meaning and its relationship to philosophy more generally; nature, origins, and acquisition of language. Additional topics may include nonlinguistic and nonhuman systems of communication; theories of interpretation in law, literature, and art; use of theoretical terms in science. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 3",
+      "dept": "PHILOS",
+      "number": "3",
+      "title": "Historical Introduction to Philosophy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Historical introduction to Western philosophy based on classical texts dealing with major problems, related thematically and studied in chronological order: properties of rational argument, existence of God, problem of knowledge, nature of causality, relation between mind and body, possibility of justice, and others. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 31",
+      "dept": "PHILOS",
+      "number": "31",
+      "title": "Logic, First Course",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Recommended for students who plan to pursue more advanced studies in logic. Elements of symbolic logic, sentential and quantificational; forms of reasoning and structure of language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 4",
+      "dept": "PHILOS",
+      "number": "4",
+      "title": "Philosophical Analysis of Contemporary Moral Issues",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Critical study of principles and arguments advanced in discussion of current moral issues. Possible topics include revolutionary violence, rules of warfare, sexual morality, right of privacy, punishment, nuclear warfare and deterrence, abortion and mercy killing, experimentation with human subjects, rights of women. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 5",
+      "dept": "PHILOS",
+      "number": "5",
+      "title": "Philosophy in Literature",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Philosophical inquiry into such themes as freedom, responsibility, guilt, love, self-knowledge and self-deception, death, and meaning of life through examination of great literary works in Western tradition. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 6",
+      "dept": "PHILOS",
+      "number": "6",
+      "title": "Introduction to Political Philosophy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Study of some classical or contemporary works in political philosophy. Questions that may be discussed include What is justice? Why obey the law? Which form of government is best? How much personal freedom should be allowed in society? P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 7",
+      "dept": "PHILOS",
+      "number": "7",
+      "title": "Introduction to Philosophy of Mind",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introductory study of philosophical issues about nature of the mind and its relation to the body, including materialism, functionalism, behaviorism, determinism and free will, nature of psychological knowledge. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 8",
+      "dept": "PHILOS",
+      "number": "8",
+      "title": "Introduction to Philosophy of Science",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Study of selected problems concerning the character and reliability of scientific understanding, such as nature of scientific theory and explanation, reality of theoretical entities, inductive confirmation of hypotheses, and occurrence of scientific revolutions. Discussion at nontechnical level of episodes from history of science. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 9",
+      "dept": "PHILOS",
+      "number": "9",
+      "title": "Principles of Critical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Nature of arguments: how to analyze them and assess soundness of reasoning they represent. Common fallacies that often occur in arguments discussed in light of what counts as good deductive or inductive inference. Other topics include use of language in argumentation to arouse emotions\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 3",
+      "dept": "PHYSCI",
+      "number": "3",
+      "title": "Introduction to Human Physiology",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Not open to Physiological Science majors. Courses 3 and 5 may be taken independently, concurrently, or in either sequence. Understanding of human body, its organization from molecular to cellular to tissues and organs, and how component parts function in integrated manner to permit life\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 10",
+      "dept": "PHYSICS",
+      "number": "10",
+      "title": "Physics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 1A, 1AH, 5A, or 6A. Special mathematical preparation beyond that necessary for admission to University in freshman standing not required. Topics include planetary motion, Newton laws, gravitation, electricity and magnetism, wave motion, light, sound,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 11",
+      "dept": "PHYSICS",
+      "number": "11",
+      "title": "Revolutions in Physics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of modern physics intended for general UCLA students. Overview of classical physics from late 19th century and its growing set of dilemmas. Revolutions of relativity and quantum mechanics that have led to much deeper understanding of structure and evolution of our Universe. Specific\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "dept": "PHYSICS",
+      "number": "1A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 5A",
+      "dept": "PHYSICS",
+      "number": "5A",
+      "title": "Physics for Life Sciences Majors: Mechanics and Energy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently). Statics and dynamics of forces, motion, energy, including thermal energy, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 3C"
+        ],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 10",
+      "dept": "PSYCH",
+      "number": "10",
+      "title": "Introductory Psychology",
+      "units": 4.0,
+      "description": "Lecture, four hours. General introduction including topics in cognitive, experimental, personality, developmental, social, and clinical psychology; six hours of psychological research and a grade of C or better required of all departmental premajors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PSYCH 100A",
+        "PSYCH 100B",
+        "PSYCH 110",
+        "PSYCH 111",
+        "PSYCH 116B",
+        "PSYCH 120A",
+        "PSYCH 120B",
+        "PSYCH 126",
+        "PSYCH 127A",
+        "PSYCH 127B",
+        "PSYCH 127C",
+        "PSYCH 130",
+        "PSYCH 131",
+        "PSYCH 135",
+        "PSYCH 136A",
+        "PSYCH 151",
+        "PSYCH 186A",
+        "PSYCH 186B",
+        "PSYCH 186C",
+        "PSYCH 186E",
+        "PSYCH M116A"
+      ]
+    },
+    {
+      "course_id": "PSYCH 100A",
+      "dept": "PSYCH",
+      "number": "100A",
+      "title": "Psychological Statistics",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisites: course 10 with a grade of C or better, and one course from Mathematics 2, Program in Computing 10A, Statistics 10, or one term of calculus. Designed for premajors. Basic statistical procedures and their application to research and practice in various areas of psychology. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 10 with a grade of C or better, and one course from Mathematics 2, Program in Computing 10A, Statistics 10, or one term of calculus.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 2",
+            "COM SCI 10A",
+            "STAT 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 110",
+        "PSYCH 111",
+        "PSYCH 115",
+        "PSYCH 116B",
+        "PSYCH 120A",
+        "PSYCH 120B",
+        "PSYCH 126",
+        "PSYCH 130",
+        "PSYCH 131",
+        "PSYCH 135",
+        "PSYCH 136A",
+        "PSYCH 151",
+        "PSYCH 186A",
+        "PSYCH 186B",
+        "PSYCH 186C",
+        "PSYCH 186E",
+        "PSYCH M116A"
+      ]
+    },
+    {
+      "course_id": "PSYCH 100B",
+      "dept": "PSYCH",
+      "number": "100B",
+      "title": "Research Methods in Psychology",
+      "units": 5.0,
+      "description": "Lecture, two hours; laboratory, two hours. Enforced requisite: course 10, with grade of C or better. Introduction to research methods and critical analysis in psychology. Lecture and laboratory topics include experimental and nonexperimental research methods, statistical design and analysis as applied to a broad range of basic and applied research\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 10, with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 111",
+        "PSYCH 116B",
+        "PSYCH 126",
+        "PSYCH 131",
+        "PSYCH 136A",
+        "PSYCH 151",
+        "PSYCH 186A",
+        "PSYCH 186B",
+        "PSYCH 186C",
+        "PSYCH 186E",
+        "PSYCH M116A"
+      ]
+    },
+    {
+      "course_id": "PSYCH 101",
+      "dept": "PSYCH",
+      "number": "101",
+      "title": "General Psychology Laboratory",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 100A, 100B. General laboratory course for psychology students to acquire key concepts in psychology through active participation in enriched environment. Use of current technologies (e.g., Web-based teaching, interactive computer demonstrations) in challenging atmosphere to learn how mind works. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 110",
+      "dept": "PSYCH",
+      "number": "110",
+      "title": "Fundamentals of Learning",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Experimental findings on animal and human conditioning; retention and transfer of training; relation of learning and motivation. Intended to provide empirical basis for theory and research in this area. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 111"
+      ]
+    },
+    {
+      "course_id": "PSYCH 111",
+      "dept": "PSYCH",
+      "number": "111",
+      "title": "Learning Laboratory",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, three hours. Requisites: courses 10, 100A, 100B, 110. Designed for departmental majors. Laboratory experience with techniques in study of learning, especially with animals. Letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, 110.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "PSYCH 110"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 115",
+      "dept": "PSYCH",
+      "number": "115",
+      "title": "Principles of Behavioral Neuroscience",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: course 100A, Life Sciences 2 or 7A or 15. Not open to students with credit for course M117A (or Molecular, Cell, and Developmental Biology M175A or Neuroscience M101A or Physiological Science M180A). Designed for juniors/seniors. Nervous system anatomy, physiology, pharmacology, and their relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100A, Life Sciences 2 or 7A or 15.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 2",
+            "LIFE SCI 7A",
+            "LIFE SCI 15"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 116B",
+        "PSYCH M116A"
+      ]
+    },
+    {
+      "course_id": "PSYCH 116B",
+      "dept": "PSYCH",
+      "number": "116B",
+      "title": "Human Neuropsychology Laboratory",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 100A, 100B, 115. Not open for credit to students with credit for 116A. Focus on human neural function in health and disease. Concentration on neural underpinnings of behaviors unique to humans. Hands-on empirical investigations of neural functions in which students themselves serve as subjects.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, 115.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "PSYCH 115"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 120A",
+      "dept": "PSYCH",
+      "number": "120A",
+      "title": "Cognitive Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Survey of cognitive psychology: how people acquire, represent, transform, and use verbal and nonverbal information. Perception, attention, imagery, memory, representation of knowledge, language, action, decision making, thinking. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 120B",
+      "dept": "PSYCH",
+      "number": "120B",
+      "title": "Sensation and Perception",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Acquisition of information about physical world through basic sensory mechanisms and perceptual processes. Perception of objects, surfaces, space, motion, and events. Connections between information, computations, and biological mechanisms in vision, audition, and other systems. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 121",
+      "dept": "PSYCH",
+      "number": "121",
+      "title": "Laboratory in Cognitive Psychology",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 100A, 100B, 120A or 120B. Designed for Psychology and Cognitive Science majors. Laboratory experience with methods and phenomena from research on human perception, memory, and cognition. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, 120A or 120B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 126",
+      "dept": "PSYCH",
+      "number": "126",
+      "title": "Clinical Psychology Laboratory",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 100A, 100B, and 127A or 127B or 127C. Designed for departmental majors. Methods, designs, and issues in conduct of clinical psychology research. Students develop and conduct research. Content varies by instructor, with concentration on one of following: schizophrenia, mood disorders, anxiety disorders, childhood disorders,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, and 127A or 127B or 127C.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 100B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "PSYCH 127A",
+          "PSYCH 127B",
+          "PSYCH 127C"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 127A",
+      "dept": "PSYCH",
+      "number": "127A",
+      "title": "Clinical Psychological Science",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 10. Not open for credit to students with credit for course 127B or 127C. Study of psychological disorders (e.g., depression, anxiety, substance use disorders, schizophrenia) across lifespan, including role of biological, behavioral, social, cognitive, and cultural factors, diagnosis and treatment approaches. Discussion\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 126"
+      ]
+    },
+    {
+      "course_id": "PSYCH 127B",
+      "dept": "PSYCH",
+      "number": "127B",
+      "title": "Clinical Psychological Science: Biological Bases",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 10. Not open for credit to students with credit for course 127A or 127C. Study of Biological processes involved in etiology, presentation, and course of psychiatric disorders, and biological targets or mechanisms of treatment. Emphasis on clinical neuroscience and behavioral genetics as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 126"
+      ]
+    },
+    {
+      "course_id": "PSYCH 127C",
+      "dept": "PSYCH",
+      "number": "127C",
+      "title": "Clinical Psychological Science: Developmental Perspectives",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 10. Not open for credit to students with credit for course 127A or 127B. Study of abnormal child development from infancy through adolescence and early adulthood. Clinical disorders include behavioral disorders, depression/anxiety, alcohol/substance disorders, eating disorders, and autism spectrum disorder. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 126"
+      ]
+    },
+    {
+      "course_id": "PSYCH 130",
+      "dept": "PSYCH",
+      "number": "130",
+      "title": "Developmental Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Elaboration of developmental aspects of physical, mental, social, and emotional growth from birth to adolescence. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 131"
+      ]
+    },
+    {
+      "course_id": "PSYCH 131",
+      "dept": "PSYCH",
+      "number": "131",
+      "title": "Research in Developmental Psychology",
+      "units": 4.0,
+      "description": "Discussion, one hour; laboratory, three hours. Requisites: courses 10, 100A, 100B, and 130 or one course from 133A through 133I. Designed for Psychology and Cognitive Science majors. Forms of scientific writing; ethics of research, especially with minors; special advantages and problems of asking developmental research questions; relevant methodologies for experimental\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, and 130 or one course from 133A through 133I.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "PSYCH 130"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "PSYCH 133A",
+          "PSYCH 133B",
+          "PSYCH 133C",
+          "PSYCH 133D",
+          "PSYCH 133E",
+          "PSYCH 133F",
+          "PSYCH 133G",
+          "PSYCH 133H",
+          "PSYCH 133I"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 135",
+      "dept": "PSYCH",
+      "number": "135",
+      "title": "Social Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Interrelationships between the individual and his social environment. Social influences on motivation, perception, and behavior. Development and change of attitudes and opinions. Psychological analysis of small groups, social stratification, and mass phenomena. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 136A"
+      ]
+    },
+    {
+      "course_id": "PSYCH 136A",
+      "dept": "PSYCH",
+      "number": "136A",
+      "title": "Social Psychology Laboratory",
+      "units": 4.0,
+      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 10, 100A, 100B, 135. Designed for Psychology majors. Introduction to research designs and methods used to test social psychological hypothesis, including experiments, observation, content analysis, and/or questionnaires. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, 135.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "PSYCH 135"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 136B",
+      "dept": "PSYCH",
+      "number": "136B",
+      "title": "Nonexperimental Methods in Social Psychology",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Requisites: courses 10, 100A, 100B, 135. Designed for Psychology majors. Research experience with nonexperimental methods for study of social attitudes or behavior, including fieldwork with survey research, naturalistic observation, or questionnaires. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, 135.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 150",
+      "dept": "PSYCH",
+      "number": "150",
+      "title": "Introduction to Health Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 10. Areas of health, illness, treatment, and delivery of treatment that can be elucidated by understanding of psychological concepts and research, psychological perspective on these problems, and how psychological perspective might be enlarged and extended in medical area. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 10.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PSYCH 151"
+      ]
+    },
+    {
+      "course_id": "PSYCH 151",
+      "dept": "PSYCH",
+      "number": "151",
+      "title": "Research Methods in Health Psychology",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses 10, 100A, 100B, 150. Research methods used in health psychology, including experimental, quasi-experimental, and nonexperimental methods. Examples and projects from health psychology. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10, 100A, 100B, 150.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "PSYCH 150"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 155A",
+      "dept": "PSYCH",
+      "number": "155A",
+      "title": "Social Neuroscience",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 155B",
+      "dept": "PSYCH",
+      "number": "155B",
+      "title": "Psychology and Neuroscience of Emotion",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 158",
+      "dept": "PSYCH",
+      "number": "158",
+      "title": "Social and Affective Neuroscience Laboratory",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 186A",
+      "dept": "PSYCH",
+      "number": "186A",
+      "title": "Cognitive Science Laboratory: Introduction to Theory and Simulation",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 85, 100A, 100B, Program in Computing 10A, 10B. Designed for junior/senior departmental majors. Models of cognition within framework of explanation at multiple levels of abstraction. Examples of elementary models in multiple psychological domains (e.g., visual perception, categorization, learning, reasoning, and problem solving). Types of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 85, 100A, 100B, Program in Computing 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 85",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "COM SCI 10A",
+          "COM SCI 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 186B",
+      "dept": "PSYCH",
+      "number": "186B",
+      "title": "Cognitive Science Laboratory: Neural Networks",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 85, 100A, 100B, Mathematics 31A, 31B, Program in Computing 10A, 10B. Designed for junior/senior departmental majors. Laboratory experience in neural network modeling of perception and cognition. Specific topics include essential neurophysiology, basic architectures, learning, and programming techniques. Principles illustrated and discussed in context of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 85, 100A, 100B, Mathematics 31A, 31B, Program in Computing 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 85",
+          "PSYCH 100A",
+          "PSYCH 100B",
+          "MATH 31A",
+          "MATH 31B",
+          "COM SCI 10A",
+          "COM SCI 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 186C",
+      "dept": "PSYCH",
+      "number": "186C",
+      "title": "Cognitive Science Laboratory: Psychophysical Theories and Methods",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Requisites: courses 10, 85, 100A, 100B. Designed for junior/senior departmental majors. Lectures and laboratory work that examine perceptual measurement procedures (psychophysical methods) and cognitive processing and decision models on which procedures are based, with particular emphasis on signal detection theory and its applications. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 85, 100A, 100B.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 85",
+          "PSYCH 100A",
+          "PSYCH 100B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 186D",
+      "dept": "PSYCH",
+      "number": "186D",
+      "title": "Laboratory in Functional Neuroimaging",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Enforced requisites: courses 10, 100A, 100B. Limited to departmental majors. Introduction to study of brain with functional resonance imaging (fMRI). All major aspects to be discussed, from physical basis of MR signal to data analysis. Letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10, 100A, 100B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 186E",
+      "dept": "PSYCH",
+      "number": "186E",
+      "title": "Introduction to Learning Theories",
+      "units": 4.0,
+      "description": "Laboratory, four hours. Requisites: courses 10, 100A, 100B. Introduction to major learning theories including behaviorism, information processing, and Piagetian constructivism. Analysis of strengths and weaknesses of the theories, and study of their practical implications on teaching practices. For example, how instruction would be designed in a behaviorist perspective; and how\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 100B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 191AH",
+      "dept": "PSYCH",
+      "number": "191AH",
+      "title": "Departmental Honors Research Seminars",
+      "units": 2.0,
+      "description": "Seminar, two hours. Enforced corequisite: course 198. Course 191AH is requisite to 191BH, which is requisite to 191CH. Limited to psychology honors program students. Opportunity for development and analysis of creative ideas through individual research projects with faculty sponsor and discussion of student and faculty research presentations. Information and applications\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced corequisite: course 198.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "PSYCH 198"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 191BH"
+      ]
+    },
+    {
+      "course_id": "PSYCH 191BH",
+      "dept": "PSYCH",
+      "number": "191BH",
+      "title": "Departmental Honors Research Seminars",
+      "units": 2.0,
+      "description": "Seminar, two hours. Requisite: course 191AH. Enforced corequisite: course 198. Limited to psychology honors program students. Opportunity for development and analysis of creative ideas through individual research projects with faculty sponsor and discussion of student and faculty research presentations. Information and applications may be obtained from Undergraduate Advising Office, 1531\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 191AH. Enforced corequisite: course 198.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 191AH"
+        ],
+        "corequisites": [
+          "PSYCH 198"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 191CH"
+      ]
+    },
+    {
+      "course_id": "PSYCH 191CH",
+      "dept": "PSYCH",
+      "number": "191CH",
+      "title": "Departmental Honors Research Seminars",
+      "units": 2.0,
+      "description": "Seminar, two hours. Requisite: course 191BH. Enforced corequisite: course 198. Limited to psychology honors program students. Opportunity for development and analysis of creative ideas through individual research projects with faculty sponsor and discussion of student and faculty research presentations. Information and applications may be obtained from Undergraduate Advising Office, 1531\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 191BH. Enforced corequisite: course 198.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 191BH"
+        ],
+        "corequisites": [
+          "PSYCH 198"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 199B",
+      "dept": "PSYCH",
+      "number": "199B",
+      "title": "Senior Project in Psychology",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research under guidance of psychology faculty mentor. Culminating paper required. Only one 4-unit 199 course may be taken per term. May be taken only once for letter grade. Individual contract required. Information and contracts may be obtained from Undergraduate Advising Office,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M116A",
+      "dept": "PSYCH",
+      "number": "M116A",
+      "title": "Behavioral Neuroscience Laboratory",
+      "units": 4.0,
+      "description": "(Formerly numbered 116.) (Same as Neuroscience M116A.) Lecture, one hour; laboratory, three hours. Requisites: courses 10, 100A, 100B, and 115, or Neuroscience M101A and M101B (M101B may be taken concurrently). Not open for credit to students with credit for course 116B. Designed for Psychobiology, Psychology, and Neuroscience majors. Laboratory experience\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10, 100A, 100B, and 115, or Neuroscience M101A and M101B (M101B may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "PSYCH M101B"
+        ],
+        "one_of": [
+          [
+            "PSYCH 10",
+            "PSYCH 100A",
+            "PSYCH 100B",
+            "PSYCH 115"
+          ],
+          [
+            "PSYCH M101A",
+            "PSYCH M101B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M117A",
+      "dept": "PSYCH",
+      "number": "M117A",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dCellular and Systems Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Neuroscience M101A, and Physiological Science M180A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C\u2013 or better to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7C"
+        ],
+        "corequisites": [
+          "CHEM 14C"
+        ],
+        "one_of": [
+          [
+            "CHEM 14C",
+            "CHEM 30A"
+          ],
+          [
+            "PHYSICS 1B",
+            "PHYSICS 1BH",
+            "PHYSICS 5C",
+            "PHYSICS 6B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH M117B",
+        "PSYCH M117C"
+      ]
+    },
+    {
+      "course_id": "PSYCH M117B",
+      "dept": "PSYCH",
+      "number": "M117B",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dMolecular and Developmental Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Neuroscience M101B, Molecular, Cell, and Developmental Biology M175B, and Physiological Science M180B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M117A (with grade of C\u2013 or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M117A (with grade of C\u2013 or better), Life Sciences 7C.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH M117A",
+          "LIFE SCI 7C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M117C",
+      "dept": "PSYCH",
+      "number": "M117C",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dBehavioral and Cognitive Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Neuroscience M101C, Molecular, Cell, and Developmental Biology M175C, and Physiological Science M180C.) Lecture, four hours; discussion, 90 minutes. Requisites: course M117A with grade of C\u2013 or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: course M117A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH M117A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH M136C",
+      "dept": "PSYCH",
+      "number": "M136C",
+      "title": "Experiments in Racial and Ethnic Politics",
+      "units": 4.0,
+      "description": "(Same as Political Science M183.) Lecture, three hours; laboratory, one hour. Research practicum consisting of designing, analyzing, and reporting effective research results. Topics include studying people\u2019s political attitudes, beliefs, and behaviors through carefully-designed experiments. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

@@ -1,0 +1,1277 @@
+{
+  "major_id": "geography-environmental-studies-ba",
+  "major_name": "Geography/Environmental Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/GeographyEnvironmentalStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "GEOG 5",
+        "GEOG 7",
+        "STATS 12"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "GEOG 1",
+            "GEOG 2"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "GEOG 3",
+            "GEOG 4",
+            "GEOG 6"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 6,
+          "courses": [
+            "GEOG 101",
+            "GEOG M102",
+            "GEOG M103",
+            "GEOG 106",
+            "GEOG 107",
+            "GEOG 108",
+            "GEOG 109",
+            "GEOG M110",
+            "GEOG 116",
+            "GEOG 117",
+            "GEOG M118",
+            "GEOG 120",
+            "GEOG M125",
+            "GEOG M126",
+            "GEOG M127",
+            "GEOG 130",
+            "GEOG M131",
+            "GEOG 133",
+            "GEOG 135",
+            "GEOG 136",
+            "GEOG 138",
+            "GEOG 139B",
+            "GEOG 139C"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "GEOG 140",
+            "GEOG 141",
+            "GEOG M142",
+            "GEOG M144",
+            "GEOG 145",
+            "GEOG 148",
+            "GEOG 150",
+            "GEOG 151",
+            "GEOG M153",
+            "GEOG 158",
+            "GEOG 159",
+            "GEOG 160",
+            "GEOG 161",
+            "GEOG 162",
+            "GEOG 169A",
+            "GEOG 173A"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "GEOG 180",
+            "GEOG 181A",
+            "GEOG 181B",
+            "GEOG 181C",
+            "GEOG 182A",
+            "GEOG 182B",
+            "GEOG 182C",
+            "GEOG 184",
+            "GEOG 185",
+            "GEOG M186"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "GEOG 145",
+            "GEOG 171A",
+            "GEOG 171B",
+            "GEOG 171C",
+            "GEOG 172A",
+            "GEOG 172C",
+            "GEOG 173A",
+            "GEOG 174A",
+            "GEOG 175A",
+            "GEOG 175B",
+            "GEOG 176A"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "GEOG": [
+      "GEOG 1",
+      "GEOG 101",
+      "GEOG 106",
+      "GEOG 107",
+      "GEOG 108",
+      "GEOG 109",
+      "GEOG 116",
+      "GEOG 117",
+      "GEOG 120",
+      "GEOG 130",
+      "GEOG 133",
+      "GEOG 135",
+      "GEOG 136",
+      "GEOG 138",
+      "GEOG 139B",
+      "GEOG 139C",
+      "GEOG 140",
+      "GEOG 141",
+      "GEOG 145",
+      "GEOG 148",
+      "GEOG 150",
+      "GEOG 151",
+      "GEOG 158",
+      "GEOG 159",
+      "GEOG 160",
+      "GEOG 161",
+      "GEOG 162",
+      "GEOG 169A",
+      "GEOG 171A",
+      "GEOG 171B",
+      "GEOG 171C",
+      "GEOG 172A",
+      "GEOG 172C",
+      "GEOG 173A",
+      "GEOG 174A",
+      "GEOG 175A",
+      "GEOG 175B",
+      "GEOG 176A",
+      "GEOG 180",
+      "GEOG 181A",
+      "GEOG 181B",
+      "GEOG 181C",
+      "GEOG 182A",
+      "GEOG 182B",
+      "GEOG 182C",
+      "GEOG 184",
+      "GEOG 185",
+      "GEOG 198A",
+      "GEOG 198B",
+      "GEOG 2",
+      "GEOG 3",
+      "GEOG 4",
+      "GEOG 5",
+      "GEOG 6",
+      "GEOG 7",
+      "GEOG M102",
+      "GEOG M103",
+      "GEOG M110",
+      "GEOG M118",
+      "GEOG M125",
+      "GEOG M126",
+      "GEOG M127",
+      "GEOG M131",
+      "GEOG M142",
+      "GEOG M144",
+      "GEOG M153",
+      "GEOG M186"
+    ],
+    "STATS": [
+      "STATS 12"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "GEOG 1",
+      "dept": "GEOG",
+      "number": "1",
+      "title": "Earth's Physical Environment",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Study of Earth\u2019s physical environment, with particular reference to nature and distribution of landforms and climate and their significance to people. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 101",
+        "GEOG 108",
+        "GEOG 109",
+        "GEOG M103",
+        "GEOG M110"
+      ]
+    },
+    {
+      "course_id": "GEOG 101",
+      "dept": "GEOG",
+      "number": "101",
+      "title": "Principles of Geomorphology",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 1. Study of processes that shape world\u2019s landforms, with emphasis on weathering, mass movement and fluvial erosion, transport, deposition; energy and material transfers; space and time considerations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 106",
+      "dept": "GEOG",
+      "number": "106",
+      "title": "World Vegetation",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Limited to juniors/seniors. Characteristics, distribution, environmental and cultural relationships of world\u2019s principal vegetation patterns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 107",
+      "dept": "GEOG",
+      "number": "107",
+      "title": "Forest Ecosystems",
+      "units": 4.0,
+      "description": "Lecture, three hours; field trips. Requisite: course 2 or Life Sciences 7B. Designed for juniors/seniors. Evaluation of ecological principles as they apply to forests. Emphasis on constraints of physical environment, biotic interactions, succession, disturbances, and long-term environmental change. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 2 or Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GEOG 2",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 108",
+      "dept": "GEOG",
+      "number": "108",
+      "title": "Analytical Animal Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 1, 2 or Life Sciences 7B, Statistics 12. Designed for juniors/seniors. Analysis of processes of expanding and contracting distribution areas. Focus on island biogeography and its implications for biodiversity trends in natural and anthropogenic environments. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 1, 2 or Life Sciences 7B, Statistics 12.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 1",
+          "STAT 12"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GEOG 2",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 109",
+      "dept": "GEOG",
+      "number": "109",
+      "title": "Biogeography of Plant and Animal Invasions",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 1 or 2 or 5. Examination of theories and examples of invasion of new environments by plants and animals introduced through natural processes or by human activity. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1 or 2 or 5.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "GEOG 1",
+          "GEOG 2",
+          "GEOG 5"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 116",
+      "dept": "GEOG",
+      "number": "116",
+      "title": "Climatology",
+      "units": 4.0,
+      "description": "(Formerly numbered 104.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of many relations between climate and world of man. Application of basic energy budget concepts to microclimates of relevance to ecosystems of agriculture, animals, man, and urban places. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 117",
+      "dept": "GEOG",
+      "number": "117",
+      "title": "Tropical Climatology",
+      "units": 4.0,
+      "description": "Lecture, three hours. In-depth exploration of development of tropical climate, with special reference to hurricanes, El Ni\u00f1o-Southern Oscillation (ENSO), and monsoons. Examination of human interaction with tropical climate processes and human-induced climate change in tropics. Use of climatological information to foster sound environmental management of climate-related resources in tropics. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 120",
+      "dept": "GEOG",
+      "number": "120",
+      "title": "Hydrology",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Given the ongoing climate change, human water utilization, and land use, freshwater resources for human society face substantial challenges. Comprehensive study of the hydrological cycle on Earth and exploration of its drivers, which offers insights for the future of water on Earth. Field projects\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 130",
+      "dept": "GEOG",
+      "number": "130",
+      "title": "Food and Environment",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Thematic orientation to food systems and their role in environmental and cultural transformations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 133",
+      "dept": "GEOG",
+      "number": "133",
+      "title": "Humid Tropics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 2 or 5 or Life Sciences 7B. Designed for juniors/seniors. Examination of humid tropics, with emphasis on rainforests, their ecological principles, and forms of land use. Letter grading.",
+      "prereqs_raw": "Requisite: course 2 or 5 or Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GEOG 2",
+            "GEOG 5",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 135",
+      "dept": "GEOG",
+      "number": "135",
+      "title": "Africa and African Diaspora in Americas",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Historical-geographical examination of Africa\u2019s role in Americas, with emphasis on environment, agriculture, food systems, and medicinal crops. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 136",
+      "dept": "GEOG",
+      "number": "136",
+      "title": "Health and Global Environment",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Impact of environment and lifestyle on individual health examined from geographical perspective, with examples from both developed and developing countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 138",
+      "dept": "GEOG",
+      "number": "138",
+      "title": "Wildlife Conservation in Eastern and Southern Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 5. Designed for juniors/seniors. Analysis of tropical ecosystems of eastern Africa, including wildlife communities, vegetation, climate, and human impact. Discussion of national park systems and their natural and anthropogenic ecological dynamics. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 139B",
+      "dept": "GEOG",
+      "number": "139B",
+      "title": "Problems in Geography: Biogeography",
+      "units": 4.0,
+      "description": "Seminar, three hours; reading period, one hour. Preparation: completion of three courses in one concentration. Limited to seniors. Seminar course in which students carry out intensive research projects developed from courses within one concentration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 139C",
+      "dept": "GEOG",
+      "number": "139C",
+      "title": "Problems in Geography: Culture and Environment in Modern World",
+      "units": 4.0,
+      "description": "Seminar, three hours; reading period, one hour. Preparation: completion of three courses in one concentration. Limited to seniors. Seminar course in which students carry out intensive research projects developed from courses within one concentration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 140",
+      "dept": "GEOG",
+      "number": "140",
+      "title": "Social Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Study of spatiality of social differences such as race, class, gender, age, sexuality, location. Critical explorations of identity, social categories, and spatial structures. Importance of space and place in social life. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 141",
+      "dept": "GEOG",
+      "number": "141",
+      "title": "Cultural Geography of Modern World",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors and graduate students. Historical and structural approach to cultural geography of modern world system, with particular emphasis on structure and functioning of its core, semi-periphery, and periphery. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 145",
+      "dept": "GEOG",
+      "number": "145",
+      "title": "Slavery and Human Trafficking",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours (when scheduled); reading period, one hour. Offered either as 4-unit course without discussion sessions or 5-unit course with discussion sessions. Requisite: one course from 3, 4, Anthropology 3, Gender Studies 10, or Sociology 1. Limited to juniors/seniors. Exploration of how, why, and to what\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from 3, 4, Anthropology 3, Gender Studies 10, or Sociology 1.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GEOG 3",
+            "GEOG 4",
+            "ANTHRO 3",
+            "GENDER ST 10",
+            "SOC 1"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 148",
+      "dept": "GEOG",
+      "number": "148",
+      "title": "Political Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Spatiality of political activity, spatial constitution of political power, control over space as central component to political struggles. Studies at local, national, state, and global scales. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 150",
+      "dept": "GEOG",
+      "number": "150",
+      "title": "Economic Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 4. Designed for juniors/seniors. Geographical aspects of economic production and growth. General theory of space-economy. Land-use processes. Location of industry. Regional development. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 4.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 151",
+      "dept": "GEOG",
+      "number": "151",
+      "title": "Uneven Development Geographies: Prosperity and Impoverishment in Third World",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours (when scheduled). Geographical perspective on part of globe commonly called Third World (Global South). How development has shaped livelihood possibilities and practices, by global processes stretching back centuries, and transformative possibilities of Third World agency. World societies seek to transform Third World into their\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 158",
+      "dept": "GEOG",
+      "number": "158",
+      "title": "Population Geography",
+      "units": 4.0,
+      "description": "(Formerly numbered 142.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of social and behavioral perspectives influencing people in their patterns of demographic change, migration, and mobility, with special emphasis on spatial relationships and selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 159",
+      "dept": "GEOG",
+      "number": "159",
+      "title": "Population in Interacting World",
+      "units": 4.0,
+      "description": "Lecture, three hours. Provides multidisciplinary understanding of and appreciation for human population phenomena and problems in different parts of world and at different geographical scales\u2014from local to global. Particular emphasis on understanding and critically reflecting on (1) contemporary population problems at global, national, and local scale, including both dramatic decline\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 160",
+      "dept": "GEOG",
+      "number": "160",
+      "title": "Urban Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Analysis of development, functions, spatial patterns, and geographic problems of cities. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 161",
+      "dept": "GEOG",
+      "number": "161",
+      "title": "Cities and Social Difference",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Consideration of how a city comes to look and feel the way it does, who gets to claim space, and the role of race and movements for social justice in this process. Examination of the way that race and inequality are built into the\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 162",
+      "dept": "GEOG",
+      "number": "162",
+      "title": "Ethnicity in American Cities",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Limited to juniors/seniors. Designed to encourage and facilitate critical thinking about geographical aspects of ethnicity in contemporary America. Use of comparative perspective to explain changing distribution, social, economic, and political behavior, and adjustment problems ethnic groups face in contemporary American cities. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 169A",
+      "dept": "GEOG",
+      "number": "169A",
+      "title": "Problems in Geography: Urban and Regional Development Studies",
+      "units": 4.0,
+      "description": "Seminar, three hours; reading period, one hour. Preparation: completion of three courses in one concentration. Limited to seniors. Seminar course in which students carry out intensive research projects developed from courses within one concentration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 171A",
+      "dept": "GEOG",
+      "number": "171A",
+      "title": "North America",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Delimitation and analysis of principal geographic regions of U.S. and Canada. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 171B",
+      "dept": "GEOG",
+      "number": "171B",
+      "title": "California",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Limited to juniors/seniors. Systematic and regional treatment of geography of California, including physical, cultural, and economic aspects and detailed studies of various regions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 171C",
+      "dept": "GEOG",
+      "number": "171C",
+      "title": "Metropolitan Los Angeles",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of origins, growth processes, internal structure and pattern, interactions, environmental and spatial problems of Los Angeles metropolitan area. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 172A",
+      "dept": "GEOG",
+      "number": "172A",
+      "title": "Spanish South America",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Designed for juniors/seniors. Introduction to the changing geography of Spanish-speaking South America\u2014a far from homogeneous cultural region, and one with widely varying levels of wealth. The approach taken to the region is historical and contemporary, to identify the most important factors shaping South American\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 172C",
+      "dept": "GEOG",
+      "number": "172C",
+      "title": "Brazil",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of geographic factors, physical and cultural, that are basic to understanding historical development of Portuguese South America and contemporary economic and cultural geography of Brazil. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 173A",
+      "dept": "GEOG",
+      "number": "173A",
+      "title": "Cities of Europe",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Limited to juniors/seniors. Urbanization of Europe, growth of city systems and internal spatial structure, functions, and geographic problems of contemporary European cities. Particular attention to historical development and landscapes of capital cities such as Rome, Paris, and Berlin. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 174A",
+      "dept": "GEOG",
+      "number": "174A",
+      "title": "The Mediterranean World",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of geographic factors, physical and cultural, that are basic to understanding historical development of Mediterranean region, with emphasis on 1500s to present. Introduction to great disputes in history and ecology centered on this region and character of two shores\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 175A",
+      "dept": "GEOG",
+      "number": "175A",
+      "title": "Japan in World: Culture, Place, and Global Connections",
+      "units": 4.0,
+      "description": "(Formerly numbered 139.) Lecture, three hours; reading period, one hour. Focus on questions of culture and place in Japan. Exploration of ways that these questions\u2014and Japan itself\u2014have been shaped by historical and contemporary interactions involving people in both Japan and other parts of world. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 175B",
+      "dept": "GEOG",
+      "number": "175B",
+      "title": "Contemporary China",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Systematic geographic analysis of elements of landscape, resources, population, and socioeconomic characteristics of People\u2019s Republic of China. Dynamics that have led to China\u2019s major role in East Asian and international scene, with special attention to China-Japan and Sino-American relations and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 176A",
+      "dept": "GEOG",
+      "number": "176A",
+      "title": "Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Limited to juniors/seniors. Regional synthesis with varying emphasis on people of South or Southeast Asia in their physical, biotic, and cultural environment and its dynamic transformation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 180",
+      "dept": "GEOG",
+      "number": "180",
+      "title": "Cartography",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, four hours. Enforced requisite: course 7. Designed for juniors/seniors. Survey of field of cartography. Theory and construction of map projections, compilation procedures, principles of generalization, symbolization, terrain representation, lettering, drafting and scribing, and map reproduction methods. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 7.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 7"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 181A",
+      "dept": "GEOG",
+      "number": "181A",
+      "title": "Intermediate Geographic Information Systems",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Enforced requisite: course 7. Extension of basic concepts presented in course 7. How geographic and spatial analyses inform, integrate, and extend scientific inquiry in physical, life, and social sciences. Discussion of range of decisions and critical judgments necessary to carry out sound spatial analyses.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 7.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 7"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "GEOG 181B",
+        "GEOG 181C"
+      ]
+    },
+    {
+      "course_id": "GEOG 181B",
+      "dept": "GEOG",
+      "number": "181B",
+      "title": "Advanced Geographic Information Systems",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 181A. Introduction to full geographic information systems (GIS) functionality, using ARC/INFO on UNIX workstations. Spatial manipulation, query, and computation of datasets carried out in project-oriented approach. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 181A.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 181A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 181C",
+      "dept": "GEOG",
+      "number": "181C",
+      "title": "Geographic Information Systems Programming and Development",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Enforced requisite: course 181A. Introduction to fundamental concepts and architecture of programming objects in widely used geographic information systems (GIS), and programming in GIS environment. Topics include GIS customization and development using variety of programming languages. Lectures followed by laboratory exercises. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 181A.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 181A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 182A",
+      "dept": "GEOG",
+      "number": "182A",
+      "title": "Introduction to Remote Sensing",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, one hour. Enforced requisite: course 7. Introduction to fast-growing field of environmental monitoring from space. Application of Landsat, radar, Global Positioning System (GPS), and Earth Observing System satellites to land-use change, oceanography, meteorology, and environmental monitoring. Introduction to digital image-processing and imaging geographic information systems (GIS)\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 7.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 7"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "GEOG 182B",
+        "GEOG 182C",
+        "GEOG 185"
+      ]
+    },
+    {
+      "course_id": "GEOG 182B",
+      "dept": "GEOG",
+      "number": "182B",
+      "title": "Remote Sensing: Digital Image Processing and Analysis",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, one hour. Enforced requisite: course 182A. Digital processing methods for manipulating and analyzing image data. Topics include statistical description, geometric and radiometric correction, classification, image enhancement and filtering, and change detection schemes. Reinforcement of procedures presented in lecture with laboratory exercises and student project. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 182A.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 182A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 182C",
+      "dept": "GEOG",
+      "number": "182C",
+      "title": "Advanced Remote Sensing",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 182A. Remote sensing in visible and infrared wavelength regions to understand basic concepts of radiation propagation and interaction with matter, how digital remote sensing images are acquired, and constraints on available data and data analysis. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 182A.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 182A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 184",
+      "dept": "GEOG",
+      "number": "184",
+      "title": "Environmental Modeling",
+      "units": 4.0,
+      "description": "Lecture, one hour; laboratory, two hours. Presentation of basic concepts related to computer modeling of biogeochemical cycles, geomorphic processes, and other phenomena relevant to changing Earth and its inhabitants. Laboratory exercises include building basic computer models and working with existing models. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 185",
+      "dept": "GEOG",
+      "number": "185",
+      "title": "Field Methods in Physical Geography",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, three hours. Enforced requisite: course 182A. Examination of field procedures and concepts used in observation, measurement, analysis, and interpretation of physical phenomena pertinent to natural and built environment. Topics vary from year to year and may include soils, geomorphology, and field methods in geographic information science.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 182A.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 182A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 198A",
+      "dept": "GEOG",
+      "number": "198A",
+      "title": "Honors Research in Geography I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.25 grade-point average overall, at least five upper-division geography courses with 3.5 grade-point average. Limited to juniors/seniors. Development and completion of honors thesis or comprehensive research project under direct supervision of one or two faculty members. May be repeated for maximum of 16 units. Individual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 198B",
+      "dept": "GEOG",
+      "number": "198B",
+      "title": "Honors Research in Geography II",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.25 grade-point average overall, at least five upper-division geography courses with 3.5 grade-point average. Limited to juniors/seniors. Development and completion of honors thesis or comprehensive research project under direct supervision of one or two faculty members. May be repeated for maximum of 16 units. Individual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 2",
+      "dept": "GEOG",
+      "number": "2",
+      "title": "Biodiversity in Changing World",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Biogeographic exploration of plant and animal diversity and conservation issues on continents and islands around world. Study of physical, biotic, and human factors responsible for evolution, persistence, and extinction of species and ecological communities. Analysis of effects of human activity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 107",
+        "GEOG 108",
+        "GEOG 109",
+        "GEOG 133",
+        "GEOG M103"
+      ]
+    },
+    {
+      "course_id": "GEOG 3",
+      "dept": "GEOG",
+      "number": "3",
+      "title": "Cultural Geography",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to cultural geography of modern world, with examination of key concepts of space, place, and landscape as these have shaped and been shaped by connections between societies and their natural environments. Examples from variety of landscapes and places since 1800 and especially from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 145",
+        "GEOG M153"
+      ]
+    },
+    {
+      "course_id": "GEOG 4",
+      "dept": "GEOG",
+      "number": "4",
+      "title": "Globalization: Regional Development and World Economy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Economic geography explores spatial distribution of all forms of human productive activity at number of geographical scales\u2014local, regional, national, and global. Key theme is impact of increasingly powerful global economic forces on organization of production. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 145",
+        "GEOG 150",
+        "GEOG M153"
+      ]
+    },
+    {
+      "course_id": "GEOG 5",
+      "dept": "GEOG",
+      "number": "5",
+      "title": "People and Earth's Ecosystems",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Exploration of ways in which human activity impacts natural environment and how modification of environment can eventually have significant consequences for human activity. Examination, using case studies, of real environmental problems that confront us today. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 109",
+        "GEOG 133",
+        "GEOG 138"
+      ]
+    },
+    {
+      "course_id": "GEOG 6",
+      "dept": "GEOG",
+      "number": "6",
+      "title": "World Regions: Concepts and Contemporary Issues",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Interdisciplinary and historical approach to modern peoples, their differences in wealth or poverty, and their local origins of food production. Brief introduction to physical geography and biogeography of each region. Discussion of each region\u2019s peoples, languages, foods, prehistories, and histories. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 7",
+      "dept": "GEOG",
+      "number": "7",
+      "title": "Introduction to Geographic Information Systems",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Designed for freshmen/sophomores. Introduction to fundamental principles and concepts necessary to carry out sound geographic analysis with geographic information systems (GIS). Reinforcement of key issues in GIS, such as geographic coordinate systems, map projections, spatial analysis, and visualization of spatial data. Laboratory exercises use\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 180",
+        "GEOG 181A",
+        "GEOG 182A"
+      ]
+    },
+    {
+      "course_id": "GEOG M102",
+      "dept": "GEOG",
+      "number": "M102",
+      "title": "Soils and Environment",
+      "units": 4.0,
+      "description": "(Same as Ecology and Evolutionary Biology M127 and Environment M102.) Lecture, three hours; discussion, one hour; field trips. General treatment of soils and environmental implications: soil development, morphology, and worldwide distribution of soil orders; physical, chemical, hydrologic, and biological properties; water use, erosion, and pollution; management of soils as related\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M103",
+      "dept": "GEOG",
+      "number": "M103",
+      "title": "Soil and Water Conservation",
+      "units": 4.0,
+      "description": "(Same as Environment M103.) Lecture, three hours; discussion, one hour. Enforced requisite: one course from course 1, 2, Environment 10, Life Sciences 7B. Designed for juniors/seniors. Systematic study of processes of and hazards posed by erosion, sedimentation, development, and pollution and techniques needed to conserve soil and maintain environmental quality.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from course 1, 2, Environment 10, Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GEOG 1",
+            "GEOG 2",
+            "GEOG 10",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M110",
+      "dept": "GEOG",
+      "number": "M110",
+      "title": "Ecosystem Ecology",
+      "units": 4.0,
+      "description": "(Same as Ecology and Evolutionary Biology M131.) Lecture, three hours; field trips. Requisite: course 1 or Life Sciences 7B. Designed for juniors/seniors. Development of principles of ecosystem ecology, with focus on understanding links between ecosystem structure and function. Emphasis on energy and water balances, nutrient cycling, plant-soil-microbe interactions, landscape heterogeneity,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1 or Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "GEOG 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M118",
+      "dept": "GEOG",
+      "number": "M118",
+      "title": "Applied Climatology: Principles of Climate Impact on Natural Environment",
+      "units": 4.0,
+      "description": "(Same as Atmospheric and Oceanic Sciences M106.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of knowledge and tools to solve complex problems in contemporary applied climatology, including current practices, influence of climate on environment, and human influence on changing climates. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M125",
+      "dept": "GEOG",
+      "number": "M125",
+      "title": "Environmentalism: Past, Present, and Future",
+      "units": 4.0,
+      "description": "(Same as Environment M125 and Urban Planning M165.) Lecture, three hours; discussion, one hour. Exploration of history and origin of major environmental ideas, movements or countermovements they spawned, and new and changing nature of modern environmentalism. Introduction to early ideas of environment, how rise of modern sciences reshaped environmental thought,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M126",
+      "dept": "GEOG",
+      "number": "M126",
+      "title": "Environmental Change",
+      "units": 4.0,
+      "description": "(Same as Environment M126.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of natural forces producing environmental changes over past two million years. How present landscape reflects past conditions. Effects of environmental change on people. Increasing importance of human activity in environmental modification. Focus on impact of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M127",
+      "dept": "GEOG",
+      "number": "M127",
+      "title": "Global Environment and Development: Problems and Issues",
+      "units": 4.0,
+      "description": "(Same as Urban Planning CM166.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Questions of population, resource use, Third World poverty, and environment. Analysis of global economic restructuring and its connections to changing organization of production and resulting environmental impacts. Case studies from Africa, Latin America, Asia, and U.S.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M131",
+      "dept": "GEOG",
+      "number": "M131",
+      "title": "Human Impact on Biophysical Environment",
+      "units": 4.0,
+      "description": "(Same as Environment M131.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of history, mechanisms, and consequences of interactions between humans and environment. Exploration in depth of three thematic topics (deforestation, desertification, and greenhouse gas increase and ozone depletion) and four major subjects (soil, biodiversity, water, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M142",
+      "dept": "GEOG",
+      "number": "M142",
+      "title": "(When) Do Leaders Make Differences?",
+      "units": 5.0,
+      "description": "(Formerly numbered M153.) (Same as Anthropology M148 and Honors Collegium M152.) Lecture, two hours; discussion, two hours. Examination of leaders who did or did not succeed in effecting change, as background to understanding conditions under which leaders can make differences. Comparison of political leaders, business chief executive officers, sports coaches,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M144",
+      "dept": "GEOG",
+      "number": "M144",
+      "title": "Feminist Geography",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M146.) Lecture, three hours; discussion, one hour. Critical engagement of gender as concept of geographic inquiry. Gender as spatial process, analysis of feminist geographic theory and methods, landscapes of gender, challenges of representing gender. Spaces of femininity, masculinity, and sexuality. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M153",
+      "dept": "GEOG",
+      "number": "M153",
+      "title": "Transportation Geography",
+      "units": 4.0,
+      "description": "(Same as Urban Planning M150.) Lecture, three hours. Requisite: course 3 or 4. Designed for juniors/seniors. Study of geographical aspects of transportation, with focus on characteristics and functions of various modes and on complexities of intra-urban transport. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3 or 4.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "GEOG 3",
+          "GEOG 4"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M186",
+      "dept": "GEOG",
+      "number": "M186",
+      "title": "Introduction to Spatial Statistics",
+      "units": 4.0,
+      "description": "(Same as Statistics M171.) Lecture, three hours; laboratory, one hour. Requisite: one course from Statistics 10, 12, 13. Introduction to methods of measurement and interpretation of geographic distributions and associations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: one course from Statistics 10, 12, 13.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 10",
+            "STATS 12",
+            "STATS 13"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 12",
+      "dept": "STATS",
+      "number": "12",
+      "title": "Introduction to Statistical Methods for Geography and Environmental Studies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG M186"
+      ]
+    }
+  ]
+}

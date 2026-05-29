@@ -1,0 +1,690 @@
+{
+  "major_id": "anthropology-ba",
+  "major_name": "Anthropology BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/AnthropologyBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ANTHRO 1",
+        "ANTHRO 2",
+        "ANTHRO 3",
+        "ANTHRO 4"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "ANTHRO 130",
+            "ANTHRO 131",
+            "ANTHRO 132",
+            "ANTHRO 133",
+            "ANTHRO 134",
+            "ANTHRO 135",
+            "ANTHRO 136A",
+            "ANTHRO 138P",
+            "ANTHRO 139",
+            "ANTHRO 140",
+            "ANTHRO 141",
+            "ANTHRO 142",
+            "ANTHRO 143",
+            "ANTHRO 144",
+            "ANTHRO 145",
+            "ANTHRO 146",
+            "ANTHRO 147",
+            "ANTHRO 148",
+            "ANTHRO 149"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ANTHRO 110",
+            "ANTHRO 111",
+            "ANTHRO 112",
+            "ANTHRO 113",
+            "ANTHRO 114",
+            "ANTHRO 115",
+            "ANTHRO 116",
+            "ANTHRO 117",
+            "ANTHRO 118",
+            "ANTHRO 119"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ANTHRO 120",
+            "ANTHRO 121",
+            "ANTHRO 122",
+            "ANTHRO 123",
+            "ANTHRO 124",
+            "ANTHRO 124Q",
+            "ANTHRO 125",
+            "ANTHRO 126",
+            "ANTHRO 126P",
+            "ANTHRO 127",
+            "ANTHRO 128",
+            "ANTHRO 129"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ANTHRO 150",
+            "ANTHRO M150",
+            "ANTHRO 151",
+            "ANTHRO 152",
+            "ANTHRO 153",
+            "ANTHRO 154",
+            "ANTHRO 155",
+            "ANTHRO 156",
+            "ANTHRO 157",
+            "ANTHRO 158",
+            "ANTHRO 159"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ANTHRO 160",
+            "ANTHRO 161",
+            "ANTHRO 162",
+            "ANTHRO 163",
+            "ANTHRO 164",
+            "ANTHRO 165",
+            "ANTHRO 166",
+            "ANTHRO 167",
+            "ANTHRO 168",
+            "ANTHRO 169"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ANTHRO 100",
+            "ANTHRO 110",
+            "ANTHRO 111",
+            "ANTHRO 120",
+            "ANTHRO 124Q",
+            "ANTHRO 130",
+            "ANTHRO 131",
+            "ANTHRO 136A",
+            "ANTHRO 140",
+            "ANTHRO M150"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ANTHRO 110",
+            "ANTHRO CM110Q",
+            "ANTHRO C117",
+            "ANTHRO 126P",
+            "ANTHRO 135",
+            "ANTHRO 138P",
+            "ANTHRO M138Q",
+            "ANTHRO 151",
+            "ANTHRO 195CE"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "ANTHRO 100",
+            "ANTHRO 110",
+            "ANTHRO 111",
+            "ANTHRO 112",
+            "ANTHRO 113",
+            "ANTHRO 114",
+            "ANTHRO 115",
+            "ANTHRO 116",
+            "ANTHRO 117",
+            "ANTHRO 118",
+            "ANTHRO 119",
+            "ANTHRO 120",
+            "ANTHRO 121",
+            "ANTHRO 122",
+            "ANTHRO 123",
+            "ANTHRO 124",
+            "ANTHRO 124Q",
+            "ANTHRO 125",
+            "ANTHRO 126",
+            "ANTHRO 126P",
+            "ANTHRO 127",
+            "ANTHRO 128",
+            "ANTHRO 129",
+            "ANTHRO 130",
+            "ANTHRO 131",
+            "ANTHRO 132",
+            "ANTHRO 133",
+            "ANTHRO 134",
+            "ANTHRO 135",
+            "ANTHRO 136A",
+            "ANTHRO 138P",
+            "ANTHRO 139",
+            "ANTHRO 140",
+            "ANTHRO 141",
+            "ANTHRO 142",
+            "ANTHRO 143",
+            "ANTHRO 144",
+            "ANTHRO 145",
+            "ANTHRO 146",
+            "ANTHRO 147",
+            "ANTHRO 148",
+            "ANTHRO 149",
+            "ANTHRO 150",
+            "ANTHRO M150",
+            "ANTHRO 151",
+            "ANTHRO 152",
+            "ANTHRO 153",
+            "ANTHRO 154",
+            "ANTHRO 155",
+            "ANTHRO 156",
+            "ANTHRO 157",
+            "ANTHRO 158",
+            "ANTHRO 159",
+            "ANTHRO 160",
+            "ANTHRO 161",
+            "ANTHRO 162",
+            "ANTHRO 163",
+            "ANTHRO 164",
+            "ANTHRO 165",
+            "ANTHRO 166",
+            "ANTHRO 167",
+            "ANTHRO 168",
+            "ANTHRO 169",
+            "ANTHRO 195CE",
+            "ANTHRO CM110Q",
+            "ANTHRO C117",
+            "ANTHRO M138Q"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ANTHRO": [
+      "ANTHRO 1",
+      "ANTHRO 100",
+      "ANTHRO 110",
+      "ANTHRO 111",
+      "ANTHRO 120",
+      "ANTHRO 124Q",
+      "ANTHRO 126P",
+      "ANTHRO 130",
+      "ANTHRO 131",
+      "ANTHRO 135",
+      "ANTHRO 136A",
+      "ANTHRO 138P",
+      "ANTHRO 140",
+      "ANTHRO 151",
+      "ANTHRO 189",
+      "ANTHRO 191HA",
+      "ANTHRO 191HB",
+      "ANTHRO 191HC",
+      "ANTHRO 191HD",
+      "ANTHRO 195CE",
+      "ANTHRO 2",
+      "ANTHRO 3",
+      "ANTHRO 4",
+      "ANTHRO 89",
+      "ANTHRO C117",
+      "ANTHRO CM110Q",
+      "ANTHRO M138Q",
+      "ANTHRO M150"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ANTHRO 1",
+      "dept": "ANTHRO",
+      "number": "1",
+      "title": "Human Evolution",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor\u2019s degrees. Evolutionary processes and evolutionary past of human species. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 120"
+      ]
+    },
+    {
+      "course_id": "ANTHRO 100",
+      "dept": "ANTHRO",
+      "number": "100",
+      "title": "History of Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Brief survey of development of Western social science, particularly anthropology, from Greek and Roman thought to emergence of evolutionary theory and concept of culture in late 19th century. Root paradigm of Western social science and its influence on such notables as Durkheim,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 110",
+      "dept": "ANTHRO",
+      "number": "110",
+      "title": "Principles of Archaeology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 2. Intended for students interested in conceptual structure of scientific archaeology. Archaeological method and theory with emphasis on what archaeologists do and how and why they do it. Consideration of field strategies, formation processes, chronological frameworks, and other crucial principles\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 2.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 2"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 111",
+      "dept": "ANTHRO",
+      "number": "111",
+      "title": "Theory in Anthropological Archaeology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 2. Method and theory with emphasis on archaeology within context of anthropology. Themes include theoretical developments over last 50 years, structure of archaeological reasoning, and selective survey of work on problems of general anthropological interest. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 2.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 2"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 120",
+      "dept": "ANTHRO",
+      "number": "120",
+      "title": "Survey of Biological Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 1. Limited to juniors and seniors. In-depth survey of theory and research in biological anthropology, including evolutionary theory, genetics, primatology, human evolution, and human behavior. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 124Q",
+      "dept": "ANTHRO",
+      "number": "124Q",
+      "title": "Evolutionary Psychology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Recommended requisite: course 1. Survey of research in evolutionary psychology. Review of relevant theory in evolution and genetics. Emphasis on empirical studies of modern human behavior from evolutionary perspective, including social behavior, decision making, language, culture, and child development. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 126P",
+      "dept": "ANTHRO",
+      "number": "126P",
+      "title": "Paleopathology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Evidence of disease and trauma, as preserved in skeletal remains of ancient and modern human populations. Discussions of medical procedures (trepanation), health status, ethnic mutilation (cranial deformation, footbinding), cannibalism, and sacrifice and roles such activities have played in human societies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 130",
+      "dept": "ANTHRO",
+      "number": "130",
+      "title": "Study of Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 131",
+      "dept": "ANTHRO",
+      "number": "131",
+      "title": "Critical Social Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3. Limited to juniors/seniors. In-depth introduction to work of classic social theorists, Karl Marx and Max Weber. Examination of their influence on anthropology. Exploration of recent attempts to synthesize both perspectives. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 135",
+      "dept": "ANTHRO",
+      "number": "135",
+      "title": "Visual Anthropology: Documentary Photography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Photographs in anthropology serve many purposes: as primary data, illustrations of words in books, documentation for disappearing cultures, evidence of fieldwork, material objects for museum exhibitions, and even works of art. Topics include relationships between subject and treatment of image, between art\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 136A",
+      "dept": "ANTHRO",
+      "number": "136A",
+      "title": "Introduction to Psychological Anthropology: Historical Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Limited to juniors/seniors. Survey of field of psychological anthropology, with emphasis on early foundations and historical development of field. Topics include study of personality, pathology and deviance, altered states of consciousness, cognition, motivation, and emotion in different cultural settings.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 138P",
+      "dept": "ANTHRO",
+      "number": "138P",
+      "title": "Field Methods in Cultural Anthropology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Introduction to skills and tools of data ascertainment through fieldwork in cultural anthropology. Emphasis on techniques, methods, and concepts of ethnographical research and how basic observational information is systematized for presentation, analysis, and cross-cultural comparison. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 140",
+      "dept": "ANTHRO",
+      "number": "140",
+      "title": "Study of Social Systems",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 3. Introduction to more specialized social anthropology courses. Evaluation of variation in sociocultural systems, with special emphasis on forms of inequality. Basic frameworks of anthropological analysis; historical context and development of social anthropology discipline. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 151",
+      "dept": "ANTHRO",
+      "number": "151",
+      "title": "Ethnography of Everyday Speech",
+      "units": 5.0,
+      "description": "Lecture, three hours; fieldwork. Requisite: course 4. Designed for juniors/seniors. Course has two interrelated objectives: (1) to introduce students to ethnography of communication\u2014description and analysis of situated communicative behavior\u2014and sociocultural knowledge that it reflects and (2) to train students to recognize, describe, and analyze relevant linguistic, proxemic, and kinesic aspects\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 4.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 189",
+      "dept": "ANTHRO",
+      "number": "189",
+      "title": "Advanced Honors Seminars",
+      "units": 1.0,
+      "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 191HA",
+      "dept": "ANTHRO",
+      "number": "191HA",
+      "title": "Beginning Seminar",
+      "units": 4.0,
+      "description": "Seminar, three hours. Limited to anthropology honors program students. Survey of major research strategies in anthropology to aid honors students in developing research proposals. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 191HB",
+      "dept": "ANTHRO",
+      "number": "191HB",
+      "title": "Field Methods",
+      "units": 4.0,
+      "description": "Seminar, three hours. Limited to anthropology honors program students. Survey of major field methods in anthropology to prepare students to conduct their own field research. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 191HC",
+      "dept": "ANTHRO",
+      "number": "191HC",
+      "title": "Data Analysis",
+      "units": 4.0,
+      "description": "Seminar, three hours. Limited to anthropology honors program students. Survey of major forms of data analysis in anthropology to aid honors students in analysis of their own research data. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 191HD",
+      "dept": "ANTHRO",
+      "number": "191HD",
+      "title": "Writing for Anthropology",
+      "units": 4.0,
+      "description": "Seminar, three hours. Limited to anthropology honors program students. Teaching of writing skills, with focus on how to write honors theses. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 195CE",
+      "dept": "ANTHRO",
+      "number": "195CE",
+      "title": "Community and Corporate Internships in Anthropology",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged; fieldwork, eight to 10 hours. Limited to juniors/seniors. Internship in corporate, governmental, or nonprofit setting coordinated through Center for Community Engagement. Students complete weekly written assignments, attend biweekly meetings with graduate student instructor, and write final research paper. Faculty mentor and graduate student instructor construct series\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 2",
+      "dept": "ANTHRO",
+      "number": "2",
+      "title": "Archaeology: Introduction",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; one field trip. Required as preparation for both bachelor\u2019s degrees. General survey of field and laboratory methods, theory, and major findings of anthropological archaeology, including case-study guest lectures presented by several campus archaeologists. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 110",
+        "ANTHRO 111"
+      ]
+    },
+    {
+      "course_id": "ANTHRO 3",
+      "dept": "ANTHRO",
+      "number": "3",
+      "title": "Culture and Society",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor\u2019s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 130",
+        "ANTHRO 131",
+        "ANTHRO 136A",
+        "ANTHRO 140"
+      ]
+    },
+    {
+      "course_id": "ANTHRO 4",
+      "dept": "ANTHRO",
+      "number": "4",
+      "title": "Culture and Communication",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor\u2019s degrees. Introduction to study of communication from anthropological perspective. Formal linguistic methods compared with ethnographically oriented methods focused on context-bound temporal unfolding of communicative activities. Topics include language in everyday life and ritual events, socialization, literacy, multilingualism, miscommunication,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 151",
+        "ANTHRO M150"
+      ]
+    },
+    {
+      "course_id": "ANTHRO 89",
+      "dept": "ANTHRO",
+      "number": "89",
+      "title": "Honors Seminars",
+      "units": 1.0,
+      "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO C117",
+      "dept": "ANTHRO",
+      "number": "C117",
+      "title": "Selected Laboratory Topics in Archaeology",
+      "units": 4.0,
+      "description": "Lecture, one hour; laboratory, two hours. Specialized analysis of particular classes of cultural remains. Topic may be one of following: zooarchaeology, paleoethnobotany, ceramics, lithic analysis, rock art. Laboratory experience with collections and data. May be repeated for credit with topic change. Concurrently scheduled with course CM217. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO CM110Q",
+      "dept": "ANTHRO",
+      "number": "CM110Q",
+      "title": "Introduction to Archaeological Sciences",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East CM169.) Lecture, three hours. Basic understanding of newly introduced methods and techniques throughout field of archaeology to implement them and to appreciate and evaluate results of their use by others who have embedded them in their scholarly publications or theoretical models. Systematic instruction in digital\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO M138Q",
+      "dept": "ANTHRO",
+      "number": "M138Q",
+      "title": "Fieldwork in Asian American and Pacific Islander Communities",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M143A.) Lecture, three hours; discussion, one hour. Introduction to qualitative research methods and application of techniques in data collection, analysis, and reporting. Critical reflection of issues related to identity, migration, multiculturalism, tourism, and indigenous rights. Field excursions and guest lecturers from local community included. Given\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO M150",
+      "dept": "ANTHRO",
+      "number": "M150",
+      "title": "Language in Culture",
+      "units": 5.0,
+      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 4 or Linguistics 20.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ANTHRO 4",
+            "LING 20"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}
