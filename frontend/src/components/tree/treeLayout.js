@@ -12,22 +12,20 @@ const NODE_KIND_SIZE = {
   course:   { w: 150, h: 26   },
 };
 
-// Left-to-right layout: depth increases horizontally, siblings spread vertically.
-// VERTICAL_SLOT: vertical space per leaf node — must be ≥ tallest node at that
-// depth so adjacent siblings don't overlap (category circles are 108px).
-// DEPTH_GAP: horizontal distance between depth levels.
-const VERTICAL_SLOT = 46;  // px per leaf node (vertical spread)
-const DEPTH_GAP     = 160; // px between depth levels (horizontal)
+// Top-to-bottom layout: root at top, sections spread horizontally below it,
+// categories and courses continue downward.
+// HORIZONTAL_SLOT: horizontal space per leaf node (sibling spread left-right).
+// DEPTH_GAP: vertical distance between depth levels (top-to-bottom).
+const HORIZONTAL_SLOT = 180; // px per leaf node (horizontal spread)
+const DEPTH_GAP       = 170; // px between depth levels (vertical)
 
 export function layoutTree(rootDerived) {
   const root = hierarchy(rootDerived);
 
-  // nodeSize([x-slot, y-slot]): d3 uses x for sibling spread, y for depth.
-  // We swap axes so depth goes left→right and siblings spread top→bottom.
-  const layout = d3tree().nodeSize([VERTICAL_SLOT, DEPTH_GAP]);
+  // No axis swap — d3's x is horizontal (sibling spread), y is vertical (depth).
+  const layout = d3tree().nodeSize([HORIZONTAL_SLOT, DEPTH_GAP]);
   layout(root);
 
-  // Swap axes: d3's y (depth) → our x (horizontal), d3's x (siblings) → our y (vertical).
   const positioned = root.descendants().map((d) => {
     const size = NODE_KIND_SIZE[d.data.kind] ?? NODE_KIND_SIZE.course;
     return {
@@ -38,8 +36,8 @@ export function layoutTree(rootDerived) {
       completionPercentage: d.data.completionPercentage,
       completed:            d.data.completed,
       unmetPrereqs:         d.data.unmetPrereqs,
-      x:      d.y,   // depth → horizontal
-      y:      d.x,   // siblings → vertical
+      x:      d.x,
+      y:      d.y,
       width:  size.w,
       height: size.h,
       depth:  d.depth,
