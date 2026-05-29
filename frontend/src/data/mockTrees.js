@@ -186,6 +186,25 @@ export function filterTrees(trees, query) {
 }
 
 const RECENTS_STORAGE_KEY = "treereq-sidebar-recents";
+const RECENT_TIMESTAMPS_KEY = "treereq-recent-timestamps";
+
+export function loadRecentTimestamps() {
+  try {
+    const raw = localStorage.getItem(RECENT_TIMESTAMPS_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+export function saveRecentTimestamp(id) {
+  try {
+    const existing = loadRecentTimestamps();
+    localStorage.setItem(RECENT_TIMESTAMPS_KEY, JSON.stringify({ ...existing, [id]: Date.now() }));
+  } catch {
+    /* ignore */
+  }
+}
 
 export function loadRecentIds() {
   try {

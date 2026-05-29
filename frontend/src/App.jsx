@@ -11,8 +11,10 @@ import {
   bumpRecentIds,
   getTreeById,
   loadRecentIds,
+  loadRecentTimestamps,
   resolveRecentTrees,
   saveRecentIds,
+  saveRecentTimestamp,
 } from "./data/mockTrees.js";
 import {
   loadStoredProfile,
@@ -104,6 +106,7 @@ function AppHome({
   route,
   navigate,
   recents,
+  recentTimestamps,
   forests,
   openTree,
   openMajor,
@@ -147,7 +150,8 @@ function AppHome({
           onOpenMajor={openMajor}
           profileLabel={userProfile?.displayName ?? "Guest"}
           userProfile={userProfile}
-          recentMajors={forests}
+          recents={recents}
+          recentTimestamps={recentTimestamps ?? {}}
         />
       ) : null}
 
@@ -183,6 +187,7 @@ export default function App() {
   const [showProfile, setShowProfile] = useState(false);
 
   const recents = useMemo(() => resolveRecentTrees(recentIds), [recentIds]);
+  const [recentTimestamps, setRecentTimestamps] = useState(loadRecentTimestamps);
   const [recentMajors, setRecentMajors] = useState(loadRecentMajors);
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeTree = activeTreeId ? getTreeById(activeTreeId) : null;
@@ -236,6 +241,8 @@ export default function App() {
       if (!getTreeById(treeId)) return;
       navigate("tree", treeId);
       setRecentIds((prev) => bumpRecentIds(prev, treeId));
+      saveRecentTimestamp(treeId);
+      setRecentTimestamps(loadRecentTimestamps());
     },
     [navigate]
   );
@@ -308,6 +315,7 @@ export default function App() {
             route={route}
             navigate={navigate}
             recents={recents}
+            recentTimestamps={recentTimestamps}
             forests={allMyTrees}
             openTree={openTree}
             openMajor={openMajor}
