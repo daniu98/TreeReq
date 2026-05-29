@@ -1,932 +1,406 @@
-function ActionButton({ label, variant, onClick }) {
-  const isSave = variant === "save";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { fetchAcademicOptions } from "../../services/onboardingApi.js";
+
+const FONT = "Inter, system-ui, var(--font-ui), sans-serif";
+
+const inputStyle = {
+  flex: 1,
+  padding: "6px 10px",
+  border: "1px solid #D8D8D8",
+  borderRadius: 7,
+  background: "#F8F8F8",
+  fontSize: 13,
+  fontFamily: FONT,
+  color: "#333",
+  outline: "none",
+  minWidth: 0,
+  width: "100%",
+};
+
+// ── Generic form field ────────────────────────────────────────────────────────
+
+function Field({ label, value, onChange, placeholder, readOnly = false }) {
+  const [focused, setFocused] = useState(false);
+  return (
+    <div className="profile-info-row">
+      <span className="profile-info-row__label">{label}:</span>
+      {readOnly ? (
+        <span className="profile-info-row__value" style={{ color: "#888" }}>{value || "—"}</span>
+      ) : (
+        <input
+          value={value}
+          onChange={e => onChange(e.target.value)}
+          placeholder={placeholder}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
+          style={{ ...inputStyle, ...(focused ? { borderColor: "#81B3E8", background: "#fff" } : {}) }}
+        />
+      )}
+    </div>
+  );
+}
+
+function SelectField({ label, value, onChange, options }) {
+  return (
+    <div className="profile-info-row">
+      <span className="profile-info-row__label">{label}:</span>
+      <select
+        value={value}
+        onChange={e => onChange(e.target.value)}
+        style={{ ...inputStyle, cursor: "pointer" }}
+      >
+        <option value="">— select —</option>
+        {options.map(o => <option key={o} value={o}>{o}</option>)}
+      </select>
+    </div>
+  );
+}
+
+// ── Searchable dropdown ───────────────────────────────────────────────────────
+
+function SearchDropdown({ options, selected, onAdd, placeholder, loading, error }) {
+  const [query, setQuery] = useState("");
+  const [open, setOpen] = useState(false);
+  const wrapRef = useRef(null);
+
+  useEffect(() => {
+    function handleClick(e) {
+      if (wrapRef.current && !wrapRef.current.contains(e.target)) {
+        setOpen(false);
+        setQuery("");
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  const filtered = useMemo(() => {
+    if (!query.trim()) return [];
+    const q = query.toLowerCase();
+    return options
+      .filter(o => o.label.toLowerCase().includes(q) && !selected.includes(o.label))
+      .slice(0, 8);
+  }, [options, query, selected]);
+
+  return (
+    <div ref={wrapRef} style={{ position: "relative", flex: 1 }}>
+      <input
+        value={query}
+        onChange={e => { setQuery(e.target.value); setOpen(true); }}
+        onFocus={() => setOpen(true)}
+        placeholder={loading ? "Loading options…" : error ? "Could not load options" : placeholder}
+        disabled={loading || !!error}
+        style={inputStyle}
+      />
+      {open && filtered.length > 0 && (
+        <div style={{
+          position: "absolute",
+          top: "calc(100% + 4px)",
+          left: 0,
+          right: 0,
+          background: "#fff",
+          border: "1px solid #D8D8D8",
+          borderRadius: 8,
+          boxShadow: "0px 4px 14px rgba(0,0,0,0.10)",
+          maxHeight: 220,
+          overflowY: "auto",
+          zIndex: 200,
+        }}>
+          {filtered.map(o => (
+            <DropdownOption
+              key={o.value ?? o.label}
+              label={o.label}
+              onSelect={() => {
+                onAdd(o.label);
+                setQuery("");
+                setOpen(false);
+              }}
+            />
+          ))}
+        </div>
+      )}
+      {open && query.trim() && filtered.length === 0 && !loading && (
+        <div style={{
+          position: "absolute",
+          top: "calc(100% + 4px)",
+          left: 0,
+          right: 0,
+          background: "#fff",
+          border: "1px solid #D8D8D8",
+          borderRadius: 8,
+          padding: "10px 12px",
+          fontSize: 13,
+          color: "#AAAAAA",
+          fontFamily: FONT,
+          zIndex: 200,
+        }}>
+          No results for "{query}"
+        </div>
+      )}
+    </div>
+  );
+}
+
+function DropdownOption({ label, onSelect }) {
+  const [hovered, setHovered] = useState(false);
   return (
     <button
       type="button"
-      onClick={onClick}
+      onMouseDown={e => { e.preventDefault(); onSelect(); }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
       style={{
-        width: isSave ? 48 : 64,
-        height: 26,
-        paddingLeft: 10,
-        paddingRight: 10,
-        paddingTop: 4,
-        paddingBottom: 4,
-        background: isSave ? "#85B110" : "#8B8B8B",
-        borderRadius: 4,
+        display: "block",
+        width: "100%",
+        padding: "8px 12px",
         border: "none",
+        background: hovered ? "#F0F7FF" : "transparent",
+        textAlign: "left",
         cursor: "pointer",
-        justifyContent: "center",
-        alignItems: "center",
-        display: "flex",
+        fontSize: 13,
+        fontFamily: FONT,
+        color: "#333",
       }}
     >
-      <span
-        style={{
-          textAlign: "center",
-          color: "black",
-          fontSize: 14,
-          fontFamily: "Google Sans Flex",
-          fontWeight: "400",
-        }}
-      >
-        {label}
-      </span>
+      {label}
     </button>
   );
 }
 
-function EditableField({ label, value, labelFont = "Google Sans Flex" }) {
+// ── Course chip with remove ───────────────────────────────────────────────────
+
+function EditableChip({ label, onRemove }) {
   return (
-    <div
-      style={{
-        justifyContent: "flex-start",
-        alignItems: "center",
-        gap: 14,
-        display: "inline-flex",
-      }}
-    >
-      <div>
-        <span
-          style={{
-            color: "black",
-            fontSize: 16,
-            fontFamily: labelFont,
-            fontWeight: "500",
-          }}
-        >
-          {label}
-        </span>
-        <span
-          style={{
-            color: "black",
-            fontSize: 16,
-            fontFamily: "Google Sans Flex",
-            fontWeight: "600",
-          }}
-        >
-          :
-        </span>
-      </div>
-      <div
-        style={{
-          height: 27,
-          paddingLeft: 10,
-          paddingRight: 10,
-          paddingTop: 5,
-          paddingBottom: 5,
-          background: "#D9D9D9",
-          borderRadius: 7,
-          justifyContent: "center",
-          alignItems: "center",
-          display: "flex",
-        }}
+    <span className="profile-chip" style={{ display: "inline-flex", alignItems: "center", gap: 5, paddingRight: 6 }}>
+      {label}
+      <button
+        type="button"
+        onClick={onRemove}
+        aria-label={`Remove ${label}`}
+        style={{ border: "none", background: "transparent", cursor: "pointer", padding: 0, color: "#999", fontSize: 14, lineHeight: 1 }}
       >
-        <div
-          style={{
-            textAlign: "center",
-            color: "black",
-            fontSize: 16,
-            fontFamily: "Google Sans Flex",
-            fontWeight: "400",
-          }}
-        >
-          {value}
-        </div>
-      </div>
-    </div>
+        ×
+      </button>
+    </span>
   );
 }
 
-function CourseTag({ label }) {
+// ── Course section (compact card with search dropdown) ────────────────────────
+
+function CourseSection({ title, courses, onAdd, onRemove, options, loading, error, placeholder }) {
   return (
-    <div
-      style={{
-        paddingLeft: 9,
-        paddingRight: 9,
-        paddingTop: 6,
-        paddingBottom: 6,
-        background: "#8FCE9C",
-        borderRadius: 11,
-        display: "inline-flex",
-      }}
-    >
-      <div
-        style={{
-          justifyContent: "flex-start",
-          alignItems: "center",
-          gap: 2,
-          display: "inline-flex",
-        }}
-      >
-        <div
-          style={{
-            color: "black",
-            fontSize: 16,
-            fontFamily: "Google Sans Flex",
-            fontWeight: "400",
-          }}
-        >
-          {label}
-        </div>
-        <div
-          style={{
-            width: 16.07,
-            height: 16.07,
-            position: "relative",
-            overflow: "hidden",
-          }}
-          aria-hidden
-        >
-          <div
-            style={{
-              width: 7.03,
-              height: 7.03,
-              left: 4.52,
-              top: 4.52,
-              position: "absolute",
-              outline: "1px black solid",
-              outlineOffset: "-0.50px",
-            }}
-          />
-        </div>
+    <article className="profile-card profile-card--compact">
+      <h3 className="profile-card__subtitle">{title}:</h3>
+      <div className="profile-chip-list" style={{ marginBottom: 10, minHeight: 24 }}>
+        {courses.length === 0
+          ? <p className="profile-empty-list">None added yet.</p>
+          : courses.map(c => <EditableChip key={c} label={c} onRemove={() => onRemove(c)} />)
+        }
       </div>
-    </div>
+      <SearchDropdown
+        options={options}
+        selected={courses}
+        onAdd={onAdd}
+        placeholder={placeholder}
+        loading={loading}
+        error={error}
+      />
+    </article>
   );
 }
 
-export default function ProfileEdit({ onDiscard, onSave }) {
-  const apCourses = [
-    "AP Statistics",
-    "AP Chemistry",
-    "AP World History",
-    "AP Calculus AB",
-    "AP Calculus BC",
-  ];
+// ── Close icon ────────────────────────────────────────────────────────────────
+
+function CloseIcon() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+// ── Main component ────────────────────────────────────────────────────────────
+
+export default function ProfileEdit({ profile, onSave, onDiscard }) {
+  const nameParts = (profile?.fullName ?? "").split(" ");
+  const [firstName, setFirstName] = useState(nameParts[0] ?? "");
+  const [lastName, setLastName] = useState(nameParts.slice(1).join(" ") ?? "");
+  const [minor, setMinor] = useState(profile?.minor === "N/A" ? "" : (profile?.minor ?? ""));
+  const [admitTerm, setAdmitTerm] = useState(profile?.admitTerm === "—" ? "" : (profile?.admitTerm ?? ""));
+  const [admitLevel, setAdmitLevel] = useState(profile?.admitLevel === "—" ? "" : (profile?.admitLevel ?? ""));
+  const [gradTerm, setGradTerm] = useState(profile?.gradTerm === "—" ? "" : (profile?.gradTerm ?? ""));
+  const [apClasses, setApClasses] = useState([...(profile?.apClasses ?? [])]);
+  const [ibClasses, setIbClasses] = useState([...(profile?.ibClasses ?? [])]);
+  const [uclaCourses, setUclaCourses] = useState([...(profile?.uclaCourses ?? [])]);
+
+  const [academicOptions, setAcademicOptions] = useState({ apExams: [], ibExams: [], uclaCourses: [] });
+  const [optionsLoading, setOptionsLoading] = useState(true);
+  const [optionsError, setOptionsError] = useState("");
+
+  useEffect(() => {
+    fetchAcademicOptions()
+      .then(data => {
+        setAcademicOptions({
+          apExams: data.apExams ?? [],
+          ibExams: data.ibExams ?? [],
+          uclaCourses: data.uclaCourses ?? [],
+        });
+        setOptionsLoading(false);
+      })
+      .catch(() => {
+        setOptionsError("Could not load options");
+        setOptionsLoading(false);
+      });
+  }, []);
+
+  function handleSave() {
+    const first = firstName.trim();
+    const last = lastName.trim();
+    const fullName = [first, last].filter(Boolean).join(" ") || profile?.fullName || "Student";
+    const lastInitial = last ? `${last.charAt(0).toUpperCase()}.` : "";
+    const displayName = first && lastInitial ? `${first} ${lastInitial}` : fullName;
+    const major = profile?.major ?? "—";
+    const majorFocus = major.split(",")[0]?.trim() || major;
+
+    onSave?.({
+      ...profile,
+      displayName,
+      fullName,
+      majorFocus,
+      minor: minor.trim() || "N/A",
+      admitTerm: admitTerm.trim() || "—",
+      admitLevel: admitLevel.trim() || "—",
+      gradTerm: gradTerm.trim() || "—",
+      apClasses,
+      ibClasses,
+      uclaCourses,
+    });
+  }
+
+  const previewName = [firstName, lastName].filter(Boolean).join(" ") || "—";
+  const loading = optionsLoading;
+  const err = optionsError || "";
 
   return (
-    <div
-      style={{
-        flex: 1,
-        minWidth: 0,
-        minHeight: 0,
-        overflow: "auto",
-        padding: "20px 38px 48px",
-        position: "relative",
-        background: "white",
-      }}
-    >
-      <div
-        style={{
-          width: "100%",
-          maxWidth: 870,
-          margin: "0 auto",
-          background: "rgba(129, 178, 232, 0.20)",
-          borderRadius: 10,
-          outline: "4px #2764A6 solid",
-          outlineOffset: "-4px",
-          padding: "53px 40px",
-          display: "flex",
-          flexDirection: "column",
-          gap: 32,
-        }}
-      >
-        <div
-          style={{
-            alignSelf: "stretch",
-            justifyContent: "space-between",
-            alignItems: "center",
-            display: "inline-flex",
-          }}
-        >
-          <div
-            style={{
-              color: "black",
-              fontSize: 28,
-              fontFamily: "Google Sans Flex",
-              fontWeight: "400",
-            }}
-          >
-            Welcome to your profile, Steve!
+    <main className="profile-page">
+      <div className="profile-shell">
+        <header className="profile-shell__header">
+          <h1 className="profile-shell__title">Edit Profile</h1>
+          <button type="button" className="profile-shell__close" onClick={onDiscard} aria-label="Discard changes">
+            <CloseIcon />
+          </button>
+        </header>
+
+        {/* ── Profile Information ── */}
+        <section className="profile-card" aria-labelledby="edit-info-heading">
+          <div className="profile-card__head">
+            <h2 id="edit-info-heading" className="profile-card__title">Profile Information</h2>
           </div>
-          {onDiscard && (
-            <button
-              type="button"
-              onClick={onDiscard}
-              aria-label="Close"
-              style={{
-                width: 21,
-                height: 21,
-                position: "relative",
-                overflow: "hidden",
-                border: "none",
-                background: "transparent",
-                cursor: "pointer",
-                padding: 0,
-                flexShrink: 0,
-              }}
-            >
-              <div
-                style={{
-                  width: 15.58,
-                  height: 15.58,
-                  left: 2.71,
-                  top: 2.71,
-                  position: "absolute",
-                  outline: "4px black solid",
-                  outlineOffset: "-2px",
-                }}
-              />
-            </button>
-          )}
-        </div>
-
-        <div
-          style={{
-            alignSelf: "stretch",
-            minHeight: 237,
-            paddingTop: 27,
-            paddingBottom: 53,
-            paddingLeft: 21,
-            paddingRight: 8,
-            background: "white",
-            boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-            borderRadius: 25,
-            outline: "2px #384B07 solid",
-            outlineOffset: "-2px",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            alignItems: "flex-start",
-            gap: 10,
-            display: "flex",
-          }}
-        >
-          <div
-            style={{
-              width: "100%",
-              maxWidth: 736,
-              flexDirection: "column",
-              justifyContent: "flex-start",
-              alignItems: "flex-start",
-              gap: 34,
-              display: "flex",
-            }}
-          >
-            <div
-              style={{
-                alignSelf: "stretch",
-                height: 29,
-                justifyContent: "flex-start",
-                alignItems: "flex-start",
-                gap: 12,
-                display: "inline-flex",
-              }}
-            >
-              <div
-                style={{
-                  color: "black",
-                  fontSize: 20,
-                  fontFamily: "Google Sans Flex",
-                  fontWeight: "600",
-                }}
-              >
-                Profile Information
-              </div>
-              <div
-                style={{
-                  height: 29,
-                  justifyContent: "flex-start",
-                  alignItems: "center",
-                  gap: 7,
-                  display: "flex",
-                }}
-              >
-                <ActionButton label="Discard" onClick={onDiscard} />
-                <ActionButton label="Save" variant="save" onClick={onSave} />
-              </div>
+          <div className="profile-card__body profile-card__body--info">
+            <div className="profile-identity">
+              <div className="profile-avatar" aria-hidden />
+              <span className="profile-identity__name">{previewName}</span>
             </div>
-
-            <div
-              style={{
-                alignSelf: "stretch",
-                justifyContent: "flex-start",
-                alignItems: "center",
-                gap: 42,
-                display: "inline-flex",
-                flexWrap: "wrap",
-              }}
-            >
-              <div
-                style={{
-                  justifyContent: "flex-start",
-                  alignItems: "center",
-                  gap: 9,
-                  display: "flex",
-                }}
-              >
-                <div
-                  style={{
-                    width: 58,
-                    height: 58,
-                    background: "#D9D9D9",
-                    borderRadius: 9999,
-                    flexShrink: 0,
-                  }}
-                  aria-hidden
+            <div className="profile-info-grid">
+              <div className="profile-info-col">
+                <Field label="First name" value={firstName} onChange={setFirstName} placeholder="First name" />
+                <Field label="Last name" value={lastName} onChange={setLastName} placeholder="Last name" />
+                <Field label="Major" value={profile?.major ?? "—"} readOnly />
+                <Field label="Minor" value={minor} onChange={setMinor} placeholder="e.g. Computer Science" />
+              </div>
+              <div className="profile-info-col">
+                <Field label="Admit term" value={admitTerm} onChange={setAdmitTerm} placeholder="e.g. Fall 2024" />
+                <SelectField
+                  label="Admit level"
+                  value={admitLevel}
+                  onChange={setAdmitLevel}
+                  options={["Freshman", "Sophomore", "Junior", "Senior", "Transfer"]}
                 />
-                <div
-                  style={{
-                    color: "black",
-                    fontSize: 36,
-                    fontFamily: "Google Sans Flex",
-                    fontWeight: "500",
-                  }}
-                >
-                  🐻
-                </div>
-                <div
-                  style={{
-                    flexDirection: "column",
-                    justifyContent: "flex-start",
-                    alignItems: "flex-start",
-                    gap: 5,
-                    display: "inline-flex",
-                  }}
-                >
-                  <div
-                    style={{
-                      color: "black",
-                      fontSize: 20,
-                      fontFamily: "Google Sans Flex",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Steve M.
-                  </div>
-                </div>
-              </div>
-
-              <div
-                style={{
-                  flex: "1 1 0",
-                  minWidth: 280,
-                  justifyContent: "flex-start",
-                  alignItems: "flex-start",
-                  gap: 9,
-                  display: "flex",
-                  flexWrap: "wrap",
-                }}
-              >
-                <div
-                  style={{
-                    width: 260,
-                    padding: 10,
-                    flexDirection: "column",
-                    justifyContent: "flex-start",
-                    alignItems: "flex-start",
-                    gap: 12,
-                    display: "inline-flex",
-                  }}
-                >
-                  <EditableField label="Name" value="Steve Man" />
-                  <EditableField label="Major" value="Cognitive Science, B.S." />
-                  <EditableField label="Minor" value="N/A" />
-                </div>
-
-                <div
-                  style={{
-                    width: 266,
-                    padding: 10,
-                    flexDirection: "column",
-                    justifyContent: "flex-start",
-                    alignItems: "flex-start",
-                    gap: 12,
-                    display: "inline-flex",
-                  }}
-                >
-                  <div
-                    style={{
-                      width: 196,
-                      height: 27,
-                      position: "relative",
-                    }}
-                  >
-                    <div
-                      style={{
-                        width: 97,
-                        left: 0,
-                        top: 4,
-                        position: "absolute",
-                        color: "black",
-                        fontSize: 16,
-                        fontFamily: "Inter",
-                        fontWeight: "500",
-                      }}
-                    >
-                      Admit Term:
-                    </div>
-                    <div
-                      style={{
-                        height: 27,
-                        paddingLeft: 10,
-                        paddingRight: 10,
-                        paddingTop: 5,
-                        paddingBottom: 5,
-                        left: 111,
-                        top: 0,
-                        position: "absolute",
-                        background: "#D9D9D9",
-                        borderRadius: 7,
-                        justifyContent: "center",
-                        alignItems: "center",
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          textAlign: "center",
-                          color: "black",
-                          fontSize: 16,
-                          fontFamily: "Google Sans Flex",
-                          fontWeight: "400",
-                        }}
-                      >
-                        Fall 2024
-                      </div>
-                    </div>
-                  </div>
-                  <EditableField
-                    label="Admit Level"
-                    value="Sophomore"
-                    labelFont="Inter"
-                  />
-                  <EditableField
-                    label="Graduation Term"
-                    value="Spring 2028"
-                    labelFont="Inter"
-                  />
-                </div>
+                <Field label="Graduation term" value={gradTerm} onChange={setGradTerm} placeholder="e.g. Spring 2028" />
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div
-          style={{
-            alignSelf: "stretch",
-            position: "relative",
-            minHeight: 571,
-          }}
-        >
-          <div
-            style={{
-              justifyContent: "flex-start",
-              alignItems: "flex-start",
-              gap: 12,
-              display: "inline-flex",
-              marginBottom: 50,
-            }}
+        {/* ── Academic Information ── */}
+        <section className="profile-academic" aria-labelledby="edit-academic-heading">
+          <div className="profile-section-heading">
+            <h2 id="edit-academic-heading" className="profile-section-heading__title">Academic Information</h2>
+          </div>
+
+          <article className="profile-card profile-card--ucla">
+            <h3 className="profile-card__subtitle">UCLA Courses Taken:</h3>
+            <div className="profile-ucla-layout">
+              <div className="profile-ucla-copy">
+                <p className="profile-ucla-copy__text">
+                  Add UCLA courses you have already completed. These count toward your unit total.
+                </p>
+                <p className="profile-ucla-copy__major">
+                  <strong>For Major:</strong> {profile?.majorFocus ?? profile?.major ?? "—"}
+                </p>
+              </div>
+              <div style={{ flex: "1 1 260px", minWidth: 0, display: "flex", flexDirection: "column", gap: 10 }}>
+                <div className="profile-chip-list" style={{ minHeight: 24 }}>
+                  {uclaCourses.length === 0
+                    ? <p className="profile-empty-list">None added yet.</p>
+                    : uclaCourses.map(c => (
+                        <EditableChip key={c} label={c} onRemove={() => setUclaCourses(prev => prev.filter(x => x !== c))} />
+                      ))
+                  }
+                </div>
+                <SearchDropdown
+                  options={academicOptions.uclaCourses}
+                  selected={uclaCourses}
+                  onAdd={c => setUclaCourses(prev => prev.includes(c) ? prev : [...prev, c])}
+                  placeholder="Search UCLA courses…"
+                  loading={loading}
+                  error={err}
+                />
+              </div>
+            </div>
+          </article>
+
+          <div className="profile-dual-row">
+            <CourseSection
+              title="AP Classes"
+              courses={apClasses}
+              onAdd={c => setApClasses(prev => prev.includes(c) ? prev : [...prev, c])}
+              onRemove={c => setApClasses(prev => prev.filter(x => x !== c))}
+              options={academicOptions.apExams}
+              loading={loading}
+              error={err}
+              placeholder="Search AP exams…"
+            />
+            <CourseSection
+              title="IB Classes"
+              courses={ibClasses}
+              onAdd={c => setIbClasses(prev => prev.includes(c) ? prev : [...prev, c])}
+              onRemove={c => setIbClasses(prev => prev.filter(x => x !== c))}
+              options={academicOptions.ibExams}
+              loading={loading}
+              error={err}
+              placeholder="Search IB exams…"
+            />
+          </div>
+        </section>
+
+        <div style={{ display: "flex", justifyContent: "flex-end", gap: 12, paddingTop: 8, paddingBottom: 32 }}>
+          <button
+            type="button"
+            onClick={onDiscard}
+            style={{ padding: "9px 20px", borderRadius: 8, border: "1px solid #D0D0D0", background: "#fff", fontSize: 14, fontFamily: FONT, cursor: "pointer", color: "#555" }}
           >
-            <div
-              style={{
-                color: "black",
-                fontSize: 20,
-                fontFamily: "Google Sans Flex",
-                fontWeight: "600",
-              }}
-            >
-              Academic Information
-            </div>
-            <ActionButton label="Discard" onClick={onDiscard} />
-            <ActionButton label="Save" variant="save" onClick={onSave} />
-          </div>
-
-          <div
-            style={{
-              width: "100%",
-              maxWidth: 790,
-              flexDirection: "column",
-              justifyContent: "flex-start",
-              alignItems: "flex-start",
-              gap: 14,
-              display: "inline-flex",
-            }}
+            Discard
+          </button>
+          <button
+            type="button"
+            onClick={handleSave}
+            style={{ padding: "9px 20px", borderRadius: 8, border: "none", background: "#358162", fontSize: 14, fontFamily: FONT, cursor: "pointer", color: "#fff", fontWeight: 500 }}
           >
-            <div
-              style={{
-                alignSelf: "stretch",
-                padding: 20,
-                background: "white",
-                boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                borderRadius: 20,
-                outline: "2px #85B110 solid",
-                outlineOffset: "-2px",
-                justifyContent: "space-between",
-                alignItems: "flex-start",
-                display: "inline-flex",
-                flexWrap: "wrap",
-                gap: 20,
-              }}
-            >
-              <div
-                style={{
-                  width: 333,
-                  minWidth: 240,
-                  flexDirection: "column",
-                  justifyContent: "flex-start",
-                  alignItems: "flex-start",
-                  gap: 10,
-                  display: "inline-flex",
-                }}
-              >
-                <div
-                  style={{
-                    flexDirection: "column",
-                    justifyContent: "flex-start",
-                    alignItems: "flex-start",
-                    gap: 11,
-                    display: "flex",
-                  }}
-                >
-                  <div
-                    style={{
-                      color: "black",
-                      fontSize: 20,
-                      fontFamily: "Google Sans Flex",
-                      fontWeight: "500",
-                    }}
-                  >
-                    UCLA Courses Taken:
-                  </div>
-                  <div
-                    style={{
-                      color: "black",
-                      fontSize: 16,
-                      fontFamily: "Google Sans Flex",
-                      fontWeight: "400",
-                    }}
-                  >
-                    Courses update along with trees when a selected course is
-                    marked as &ldquo;Completed&rdquo;.
-                  </div>
-                  <div>
-                    <span
-                      style={{
-                        color: "#3E3E3E",
-                        fontSize: 16,
-                        fontFamily: "Google Sans Flex",
-                        fontWeight: "400",
-                      }}
-                    >
-                      For Major:{" "}
-                    </span>
-                    <span
-                      style={{
-                        color: "black",
-                        fontSize: 16,
-                        fontFamily: "Google Sans Flex",
-                        fontWeight: "600",
-                      }}
-                    >
-                      Cognitive Science
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                style={{
-                  width: 393,
-                  maxWidth: "100%",
-                  padding: "19px 26px",
-                  background:
-                    "linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #85B110",
-                  borderRadius: 10,
-                  outline: "1px #358162 solid",
-                  outlineOffset: "-1px",
-                  flexDirection: "column",
-                  display: "inline-flex",
-                }}
-              >
-                <div
-                  style={{
-                    flexDirection: "column",
-                    justifyContent: "flex-start",
-                    alignItems: "flex-start",
-                    gap: 21,
-                    display: "flex",
-                  }}
-                >
-                  <div
-                    style={{
-                      flexDirection: "column",
-                      gap: 11,
-                      display: "flex",
-                    }}
-                  >
-                    <div
-                      style={{
-                        color: "black",
-                        fontSize: 16,
-                        fontFamily: "Google Sans Flex",
-                        fontWeight: "700",
-                      }}
-                    >
-                      Completed Preparation Courses: (10/10)
-                    </div>
-                    <div
-                      style={{
-                        color: "black",
-                        fontSize: 16,
-                        fontFamily: "Google Sans Flex",
-                        fontWeight: "400",
-                      }}
-                    >
-                      LIFESCI 15
-                      <br />
-                      MATH 31B
-                      <br />
-                      PHILOS 7
-                      <br />
-                      LING 20
-                      <br />
-                      CS 31, CS 32
-                      <br />
-                      PSYCH 10, PSYCH 85, PSYCH 100A, PSYCH 100B
-                    </div>
-                  </div>
-                  <div style={{ display: "flex", flexDirection: "column" }}>
-                    <div
-                      style={{
-                        color: "black",
-                        fontSize: 16,
-                        fontFamily: "Google Sans Flex",
-                        fontWeight: "700",
-                      }}
-                    >
-                      Completed Major Courses: (0/10)
-                    </div>
-                    <div
-                      style={{
-                        color: "black",
-                        fontSize: 16,
-                        fontFamily: "Google Sans Flex",
-                        fontWeight: "400",
-                      }}
-                    >
-                      None yet!
-                    </div>
-                  </div>
-                  <div
-                    style={{
-                      flexDirection: "column",
-                      gap: 11,
-                      display: "flex",
-                    }}
-                  >
-                    <div
-                      style={{
-                        color: "black",
-                        fontSize: 16,
-                        fontFamily: "Google Sans Flex",
-                        fontWeight: "700",
-                      }}
-                    >
-                      Completed General Education Courses: (7/12)
-                    </div>
-                    <div
-                      style={{
-                        color: "black",
-                        fontSize: 16,
-                        fontFamily: "Google Sans Flex",
-                        fontWeight: "400",
-                      }}
-                    >
-                      ANTHRO 4
-                      <br />
-                      PHILOS 7
-                      <br />
-                      JAPAN 70
-                      <br />
-                      RUSSN 90A
-                      <br />
-                      CLASSICS 20
-                      <br />
-                      ART&amp;ARC 10
-                      <br />
-                      EPSSCI 1
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              style={{
-                alignSelf: "stretch",
-                justifyContent: "flex-start",
-                alignItems: "flex-start",
-                gap: 32,
-                display: "inline-flex",
-                flexWrap: "wrap",
-              }}
-            >
-              <div
-                style={{
-                  width: 371,
-                  minWidth: 280,
-                  flex: "1 1 320px",
-                  padding: 20,
-                  background: "white",
-                  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                  borderRadius: 20,
-                  outline: "2px #85B110 solid",
-                  outlineOffset: "-2px",
-                  flexDirection: "column",
-                  gap: 10,
-                  display: "inline-flex",
-                }}
-              >
-                <div
-                  style={{
-                    flexDirection: "column",
-                    alignItems: "flex-start",
-                    gap: 11,
-                    display: "flex",
-                    width: "100%",
-                  }}
-                >
-                  <div
-                    style={{
-                      alignSelf: "stretch",
-                      justifyContent: "flex-start",
-                      alignItems: "center",
-                      gap: 11,
-                      display: "inline-flex",
-                    }}
-                  >
-                    <div
-                      style={{
-                        color: "black",
-                        fontSize: 20,
-                        fontFamily: "Inter",
-                        fontWeight: "700",
-                      }}
-                    >
-                      AP Classes Taken:
-                    </div>
-                    <button
-                      type="button"
-                      style={{
-                        width: 84,
-                        height: 26,
-                        padding: "4px 6px",
-                        background: "#2764A6",
-                        borderRadius: 6,
-                        border: "none",
-                        cursor: "pointer",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        display: "flex",
-                      }}
-                    >
-                      <span
-                        style={{
-                          color: "white",
-                          fontSize: 14,
-                          fontFamily: "Google Sans Flex",
-                          fontWeight: "400",
-                        }}
-                      >
-                        Add New
-                      </span>
-                    </button>
-                  </div>
-                  <div
-                    style={{
-                      color: "#3E3E3E",
-                      fontSize: 16,
-                      fontFamily: "Google Sans Flex",
-                      fontWeight: "400",
-                    }}
-                  >
-                    Saved list:
-                  </div>
-                  <div
-                    style={{
-                      justifyContent: "flex-start",
-                      alignItems: "flex-start",
-                      gap: 7,
-                      display: "inline-flex",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    {apCourses.map((course) => (
-                      <CourseTag key={course} label={course} />
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              <div
-                style={{
-                  width: 387,
-                  minWidth: 280,
-                  flex: "1 1 320px",
-                  padding: 20,
-                  background: "white",
-                  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                  borderRadius: 20,
-                  outline: "2px #85B110 solid",
-                  outlineOffset: "-2px",
-                  flexDirection: "column",
-                  gap: 10,
-                  display: "inline-flex",
-                }}
-              >
-                <div
-                  style={{
-                    flexDirection: "column",
-                    alignItems: "flex-start",
-                    gap: 11,
-                    display: "flex",
-                    width: "100%",
-                  }}
-                >
-                  <div
-                    style={{
-                      alignSelf: "stretch",
-                      justifyContent: "flex-start",
-                      alignItems: "center",
-                      gap: 11,
-                      display: "inline-flex",
-                    }}
-                  >
-                    <div
-                      style={{
-                        color: "black",
-                        fontSize: 20,
-                        fontFamily: "Inter",
-                        fontWeight: "700",
-                      }}
-                    >
-                      IB Classes Taken:
-                    </div>
-                    <button
-                      type="button"
-                      style={{
-                        width: 84,
-                        height: 26,
-                        padding: "4px 6px",
-                        background: "#2764A6",
-                        borderRadius: 6,
-                        border: "none",
-                        cursor: "pointer",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        display: "flex",
-                      }}
-                    >
-                      <span
-                        style={{
-                          color: "white",
-                          fontSize: 14,
-                          fontFamily: "Google Sans Flex",
-                          fontWeight: "400",
-                        }}
-                      >
-                        Add New
-                      </span>
-                    </button>
-                  </div>
-                  <div
-                    style={{
-                      color: "#3E3E3E",
-                      fontSize: 16,
-                      fontFamily: "Google Sans Flex",
-                      fontWeight: "400",
-                    }}
-                  >
-                    Saved list:
-                  </div>
-                  <div
-                    style={{
-                      justifyContent: "flex-start",
-                      alignItems: "flex-start",
-                      gap: 7,
-                      display: "inline-flex",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    {["IB Mathematics", "IB English"].map((course) => (
-                      <CourseTag key={course} label={course} />
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            Save changes
+          </button>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

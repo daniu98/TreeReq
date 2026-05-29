@@ -44,6 +44,7 @@ export function mapOnboardingToProfile({ profile, academic }) {
     displayName,
     fullName,
     major,
+    majorId: profile.major?.value ?? null,
     minor,
     admitTerm: profile.admitTerm?.trim() || "—",
     admitLevel: profile.admitLevel?.trim() || "—",
@@ -52,5 +53,15 @@ export function mapOnboardingToProfile({ profile, academic }) {
     uclaCourses,
     apClasses: apRaw.map((v) => (v.startsWith("AP ") ? v : `AP ${v}`)),
     ibClasses: ibRaw.map((v) => (v.startsWith("IB ") ? v : `IB ${v}`)),
+  };
+}
+
+export function makeGuestProfile(major) {
+  if (!major?.value || !major?.label) return null;
+  return {
+    displayName: null,
+    fullName: null,
+    major: major.label,
+    majorId: major.value,
   };
 }

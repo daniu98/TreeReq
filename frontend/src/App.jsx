@@ -6,15 +6,15 @@ import TreeViewMain from "./components/pages/TreeViewMain.jsx";
 import AppSidebar from "./components/layout/AppSidebar.jsx";
 import TreeSetupMain from "./pages/TreeSetupMain.jsx";
 import {
-  MOCK_ALL_TREES,
-  MOCK_FORESTS,
   bumpRecentIds,
   getTreeById,
   loadRecentIds,
   resolveRecentTrees,
+  saveRecentIds,
 } from "./data/mockTrees.js";
 import {
   loadStoredProfile,
+  makeGuestProfile,
   mapOnboardingToProfile,
   saveStoredProfile,
 } from "./data/userProfile.js";
@@ -29,14 +29,15 @@ const MAJORS = Object.keys(majorModules).reduce((acc, filePath) => {
   return acc;
 }, {});
 
+function userForests(userProfile) {
+  if (!userProfile?.majorId || !userProfile?.major) return [];
+  return [{ id: userProfile.majorId, name: userProfile.major, majorId: userProfile.majorId }];
+}
+
 function AppHome({
   route,
   navigate,
   recents,
-  searchQuery,
-  setSearchQuery,
-  searchOpen,
-  setSearchOpen,
   openTree,
   goHome,
   activeTree,
@@ -44,27 +45,32 @@ function AppHome({
   userProfile,
   onCloseProfile,
   onOpenProfile,
+  onProfileUpdate,
 }) {
   const activeTreeId = route.view === "tree" ? route.treeId : null;
+  const activeMajorId = MAJORS[route.view?.toLowerCase()] ? route.view : null;
   const MajorComponent = !showProfile ? MAJORS[route.view?.toLowerCase()] : null;
+  const forests = userForests(userProfile);
 
   return (
     <>
       <AppSidebar
-        forests={MOCK_FORESTS}
-        allTrees={MOCK_ALL_TREES}
+        forests={forests}
         recents={recents}
         activeTreeId={activeTreeId}
-        searchQuery={searchQuery}
-        searchOpen={searchOpen}
-        onSearchQueryChange={setSearchQuery}
-        onSearchOpenChange={setSearchOpen}
+        activeMajorId={activeMajorId}
+        onHome={goHome}
         onOpenTree={openTree}
+        onOpenMajor={(majorId) => navigate(majorId)}
         onNewTree={() => navigate("setup")}
       />
 
       {showProfile ? (
-        <ProfileMain profile={userProfile} onClose={onCloseProfile} />
+        <ProfileMain
+          profile={userProfile}
+          onClose={onCloseProfile}
+          onProfileUpdate={onProfileUpdate}
+        />
       ) : null}
 
       {!showProfile && route.view === "landing" ? (
@@ -72,7 +78,9 @@ function AppHome({
           onPlantNewTree={() => navigate("setup")}
           onOpenTree={openTree}
           onOpenProfile={onOpenProfile}
-          profileLabel={userProfile?.displayName}
+          onOpenMajor={(majorId) => navigate(majorId)}
+          profileLabel={userProfile?.displayName ?? "Guest"}
+          userProfile={userProfile}
         />
       ) : null}
 
@@ -98,9 +106,6 @@ export default function App() {
   
   const [route, setRoute] = useState(() => parseLocation());
   const [recentIds, setRecentIds] = useState(loadRecentIds);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [searchOpen, setSearchOpen] = useState(false);
-  
   const [userProfile, setUserProfile] = useState(initialProfile);
   const [showProfile, setShowProfile] = useState(false);
 
@@ -176,7 +181,15 @@ export default function App() {
       saveStoredProfile(mapped);
       setUserProfile(mapped);
       setShowProfile(true);
+    } else if (data?.skipped && data?.major) {
+      const guest = makeGuestProfile(data.major);
+      if (guest) {
+        saveStoredProfile(guest);
+        setUserProfile(guest);
+      }
     }
+    saveRecentIds([]);
+    setRecentIds([]);
     setOnboardingVisible(false);
   }, []);
 
@@ -191,6 +204,11 @@ export default function App() {
     setShowProfile(true);
   }, []);
 
+  const handleProfileUpdate = useCallback((updated) => {
+    saveStoredProfile(updated);
+    setUserProfile(updated);
+  }, []);
+
   return (
     <div className="app-transition-root">
       {homeRevealed ? (
@@ -202,10 +220,6 @@ export default function App() {
             route={route}
             navigate={navigate}
             recents={recents}
-            searchQuery={searchQuery}
-            setSearchQuery={setSearchQuery}
-            searchOpen={searchOpen}
-            setSearchOpen={setSearchOpen}
             openTree={openTree}
             goHome={goHome}
             activeTree={activeTree}
@@ -213,6 +227,7 @@ export default function App() {
             userProfile={userProfile}
             onCloseProfile={handleCloseProfile}
             onOpenProfile={handleOpenProfile}
+            onProfileUpdate={handleProfileUpdate}
           />
         </div>
       ) : null}

@@ -190,12 +190,12 @@ const RECENTS_STORAGE_KEY = "treereq-sidebar-recents";
 export function loadRecentIds() {
   try {
     const raw = localStorage.getItem(RECENTS_STORAGE_KEY);
-    if (!raw) return [...MOCK_RECENT_IDS];
+    if (!raw) return [];
     const parsed = JSON.parse(raw);
-    if (!Array.isArray(parsed)) return [...MOCK_RECENT_IDS];
+    if (!Array.isArray(parsed)) return [];
     return parsed.filter((id) => getTreeById(id));
   } catch {
-    return [...MOCK_RECENT_IDS];
+    return [];
   }
 }
 
