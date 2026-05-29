@@ -1,0 +1,259 @@
+{
+  "major_id": "world-arts-and-cultures-ba",
+  "major_name": "World Arts and Cultures BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/WorldArtsandCulturesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "WL ARTS 1",
+        "WL ARTS 2",
+        "WL ARTS 20",
+        "WL ARTS 24",
+        "WL ARTS 33"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "WL ARTS 102",
+        "WL ARTS 104",
+        "WL ARTS 124",
+        "WL ARTS 185"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "WL ARTS 100A",
+            "WL ARTS 100B"
+          ]
+        },
+        {
+          "choose_n": null,
+          "courses": [],
+          "note": "25 units of electives from any World Arts and Cultures elective courses or other upper-division courses with faculty approval"
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": 1,
+      "courses": [
+        "WL ARTS 186A",
+        "WL ARTS 186B"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "WL ARTS": [
+      "WL ARTS 1",
+      "WL ARTS 100A",
+      "WL ARTS 100B",
+      "WL ARTS 102",
+      "WL ARTS 104",
+      "WL ARTS 124",
+      "WL ARTS 185",
+      "WL ARTS 186A",
+      "WL ARTS 186B",
+      "WL ARTS 2",
+      "WL ARTS 20",
+      "WL ARTS 24",
+      "WL ARTS 33"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "WL ARTS 1",
+      "dept": "WL ARTS",
+      "number": "1",
+      "title": "Introduction to World Arts and Cultures",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of concepts and theories involved in intercultural, interdisciplinary study of art, aesthetics, and performance. Examination of interactions among various modes of creative expression, role of style in daily life, performative representation of cultural identity and difference, and interaction of diverse artistic traditions. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 100A",
+      "dept": "WL ARTS",
+      "number": "100A",
+      "title": "Art as Social Action",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Discussion of what constitutes artist\u2019s social responsibility and in what ways art is qualified to engage in direct political action. Study of tension between powers of this world and powers of art. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 100B",
+      "dept": "WL ARTS",
+      "number": "100B",
+      "title": "Art as Moral Action",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Designed for juniors/seniors. One\u2019s ability to distinguish between right and wrong action is culturally intuited, nurtured, and developed. Study of cultural strategies of moral engagement, persuasion, and inquiry in personal and public life, including acts of conscience and civil disobedience. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 102",
+      "dept": "WL ARTS",
+      "number": "102",
+      "title": "Upper-Division Seminar",
+      "units": 5.0,
+      "description": "Seminar, three hours. Variable topics seminar with focus on advanced practice-based research in arts. In-depth investigations of topics addressing variable array of art genres including drawing, musical composition, painting, performance poetry, photography, sculpture, stand-up comedy, and theater. Research inquiry methods emphasize creation of art works supported by readings, assigned written\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 104",
+      "dept": "WL ARTS",
+      "number": "104",
+      "title": "Representations: Theories and Practices",
+      "units": 5.0,
+      "description": "Lecture, three hours. Enforced requisite: course 20. Limited to juniors/seniors. Advanced survey into performance, postcolonial, and gender theories to critically analyze issues of representation, specifically interrogating divides and overlaps between intellectual and artistic practice and mixing theory with practice. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "WL ARTS 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 124",
+      "dept": "WL ARTS",
+      "number": "124",
+      "title": "Introduction to Field-Based Research Methods",
+      "units": 5.0,
+      "description": "Lecture, three hours. Introduction to methods, techniques, and issues in conducting field-based research, including nature, uses, and limitations of major data-gathering procedures, ethical concerns, sampling, checks and controls, teamwork, interventions, and results as not only tangible and impersonal outcomes of inquiry but also personal and intangible. Through readings, discussion, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 185",
+      "dept": "WL ARTS",
+      "number": "185",
+      "title": "Junior-Year Proposal",
+      "units": 1.0,
+      "description": "Lecture, 90 minutes; outside study, 90 minutes. Limited to World Arts and Cultures majors. Planning and execution of proposal (either senior focus or senior honors project) for senior-year study, with attention to exploring resources of department and University as whole. May be repeated once for credit. P/NP grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 186A",
+      "dept": "WL ARTS",
+      "number": "186A",
+      "title": "Senior Praxis Projects in World Arts and Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; outside study, 11 hours. Course 186A is requisite to 186B. Limited to senior World Arts and Cultures majors. Application of concepts and content from interdisciplinary major to individual projects. Methodologies may include critical, comparative, ethnographic, and performance approaches. Lecture/seminar format with World Arts and Cultures faculty during\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "WL ARTS 186B"
+      ]
+    },
+    {
+      "course_id": "WL ARTS 186B",
+      "dept": "WL ARTS",
+      "number": "186B",
+      "title": "Senior Praxis Projects in World Arts and Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; outside study, 11 hours. Requisite: course 186A. Limited to senior World Arts and Cultures majors. Application of concepts and content from interdisciplinary major to individual projects. Methodologies may include critical, comparative, ethnographic, and performance approaches. Faculty-directed presentations of individual projects during second term. Letter grading.",
+      "prereqs_raw": "Requisite: course 186A.",
+      "prereqs_parsed": {
+        "required": [
+          "WL ARTS 186A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 2",
+      "dept": "WL ARTS",
+      "number": "2",
+      "title": "Lower-Division Seminar",
+      "units": 5.0,
+      "description": "Seminar, four hours; outside study, 11 hours. Variable topics seminar with focus on scholarly and practice-based research in arts. In-depth investigations of topics ranging from body in cultural context, interdisciplinary art-making, visual cultures, oral genres, material culture, study of culture and performance, including individual and cultural identity through arts, creation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 20",
+      "dept": "WL ARTS",
+      "number": "20",
+      "title": "Culture: Introduction",
+      "units": 5.0,
+      "description": "Lecture, four hours. Introduction to key concepts and major theoretical and methodological debates that characterize field of cultural studies, including discussion of notions of culture, popular culture, subculture, youth culture, hegemony, gender, race, class, and national identity. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "WL ARTS 104"
+      ]
+    },
+    {
+      "course_id": "WL ARTS 24",
+      "dept": "WL ARTS",
+      "number": "24",
+      "title": "World Arts, Local Lives",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Use of Fowler Museum\u2019s long-term exhibition entitled \u201cIntersections: World Arts/Local Lives\u201d as object of study to examine many insights that arts can offer into social, political, and religious experience. Drawing heavily on cultures of Africa, Asia, Pacific, and indigenous Americas, both ancient and contemporary,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 33",
+      "dept": "WL ARTS",
+      "number": "33",
+      "title": "Colonialisms and Resistance",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to study of indigenous worldviews as they are expressed through art, mythology, ritual, health practice, languages, and ecology. With examples spanning globe, consideration of issues of colonialism, tradition, religious change, and legal and social implications of epistemological differences between people. Examination of critical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

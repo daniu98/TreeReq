@@ -1,0 +1,1562 @@
+{
+  "major_id": "chicana-and-chicano-studies-ba",
+  "major_name": "Chicana and Chicano Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/ChicanaandChicanoStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "CCAS 10A",
+        "CCAS 10B",
+        "SPAN 5"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "CCAS 101",
+        "CCAS 191"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "CCAS 100XP",
+            "CCAS M170XP"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": []
+        },
+        {
+          "choose_n": 4,
+          "courses": [
+            "CCAS CM110",
+            "CCAS 120",
+            "CCAS M124",
+            "CCAS M125",
+            "CCAS M126",
+            "CCAS M132",
+            "CCAS 143",
+            "CCAS M144",
+            "CCAS CM147",
+            "CCAS 151",
+            "CCAS 152",
+            "CCAS 153A",
+            "CCAS M154",
+            "CCAS M155A",
+            "CCAS M156A",
+            "CCAS 163",
+            "CCAS 176",
+            "CCAS 184"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "CCAS CM110",
+            "CCAS 120",
+            "CCAS M124",
+            "CCAS M125",
+            "CCAS M126",
+            "CCAS M132",
+            "CCAS 143",
+            "CCAS M144",
+            "CCAS CM147",
+            "CCAS 151",
+            "CCAS 152",
+            "CCAS 153A",
+            "CCAS M154",
+            "CCAS M155A",
+            "CCAS M156A",
+            "CCAS 163",
+            "CCAS 176",
+            "CCAS 184",
+            "CCAS M103C",
+            "CCAS M103D",
+            "CCAS M103G",
+            "CCAS 104",
+            "CCAS M108A",
+            "CCAS M115",
+            "CCAS M116",
+            "CCAS 117",
+            "CCAS CM135",
+            "CCAS M175",
+            "CCAS M185",
+            "CCAS M186A",
+            "CCAS M186AL",
+            "CCAS M186B"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "CCAS": [
+      "CCAS 100XP",
+      "CCAS 101",
+      "CCAS 104",
+      "CCAS 109",
+      "CCAS 10A",
+      "CCAS 10B",
+      "CCAS 111",
+      "CCAS 117",
+      "CCAS 120",
+      "CCAS 123",
+      "CCAS 131",
+      "CCAS 142",
+      "CCAS 143",
+      "CCAS 145B",
+      "CCAS 146",
+      "CCAS 149",
+      "CCAS 150",
+      "CCAS 151",
+      "CCAS 152",
+      "CCAS 153A",
+      "CCAS 157",
+      "CCAS 160",
+      "CCAS 163",
+      "CCAS 165",
+      "CCAS 166",
+      "CCAS 168A",
+      "CCAS 168B",
+      "CCAS 169",
+      "CCAS 171",
+      "CCAS 174AX",
+      "CCAS 174BX",
+      "CCAS 176",
+      "CCAS 178",
+      "CCAS 181",
+      "CCAS 184",
+      "CCAS 191",
+      "CCAS 198A",
+      "CCAS 198B",
+      "CCAS 198C",
+      "CCAS 199",
+      "CCAS C141",
+      "CCAS C179",
+      "CCAS CM106",
+      "CCAS CM110",
+      "CCAS CM135",
+      "CCAS CM147",
+      "CCAS CM177",
+      "CCAS M102",
+      "CCAS M103C",
+      "CCAS M103D",
+      "CCAS M103G",
+      "CCAS M105A",
+      "CCAS M105C",
+      "CCAS M108A",
+      "CCAS M114",
+      "CCAS M115",
+      "CCAS M116",
+      "CCAS M119",
+      "CCAS M121",
+      "CCAS M122",
+      "CCAS M124",
+      "CCAS M125",
+      "CCAS M126",
+      "CCAS M127",
+      "CCAS M128",
+      "CCAS M130",
+      "CCAS M132",
+      "CCAS M133",
+      "CCAS M139",
+      "CCAS M144",
+      "CCAS M148",
+      "CCAS M154",
+      "CCAS M155A",
+      "CCAS M156A",
+      "CCAS M156B",
+      "CCAS M158",
+      "CCAS M159A",
+      "CCAS M159B",
+      "CCAS M170XP",
+      "CCAS M173",
+      "CCAS M175",
+      "CCAS M183",
+      "CCAS M185",
+      "CCAS M186A",
+      "CCAS M186AL",
+      "CCAS M186B",
+      "CCAS M186BL",
+      "CCAS M186C",
+      "CCAS M186CL",
+      "CCAS M187"
+    ],
+    "SPAN": [
+      "SPAN 5"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "CCAS 100XP",
+      "dept": "CCAS",
+      "number": "100XP",
+      "title": "Barrio Organization and Service Learning",
+      "units": 5.0,
+      "description": "Seminar, two hours; discussion, two hours; field placement, six hours. Limited to juniors/seniors. Service learning placement in community-based organization, labor union, or service-oriented nonprofit organization. Study of role that these organizations play in improvement and change of Chicana/Chicano communities. Students meet on regular basis with instructors and provide periodic reports\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 101",
+      "dept": "CCAS",
+      "number": "101",
+      "title": "Theoretical Concepts in Chicana/Chicano Studies",
+      "units": 5.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies 101.) Lecture, four hours; discussion, one hour. Requisite: course 10A or 10B. Survey of different theoretical approaches to field of Chicana and Chicano studies. Letter grading.",
+      "prereqs_raw": "Requisite: course 10A or 10B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CCAS 10A",
+          "CCAS 10B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CCAS 169",
+        "CCAS 198A"
+      ]
+    },
+    {
+      "course_id": "CCAS 104",
+      "dept": "CCAS",
+      "number": "104",
+      "title": "Comedy and Culture: Your Humorous Life",
+      "units": 4.0,
+      "description": "Lecture, four hours. How to mine unique humorous life adventures from students\u2019 cultural identities and turn those distinct experiences into humorous literature. Students acquire skills to read their stories out loud, with emphasis on comedy in their pieces through art of storytelling and performance. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 109",
+      "dept": "CCAS",
+      "number": "109",
+      "title": "Chicana/Chicano Folklore",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of roots of Chicana/Chicano folklore in Mexican oral tradition in mid-19th century and development of Chicana/Chicano folklore to present day. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 10A",
+      "dept": "CCAS",
+      "number": "10A",
+      "title": "Introduction to Chicana/Chicano Studies: History and Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Interdisciplinary survey of diverse historical experiences, cultural factors, and ethnic/racial paradigms, including indigenousness, gender, sexuality, language, and borders, that help shape Chicana/Chicano identities. Emphasis on critical reading and writing skills. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CCAS 101",
+        "CCAS 198A",
+        "CCAS CM110"
+      ]
+    },
+    {
+      "course_id": "CCAS 10B",
+      "dept": "CCAS",
+      "number": "10B",
+      "title": "Introduction to Chicana/Chicano Studies: Social Structure and Contemporary Conditions",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Multidisciplinary examination of representation, ideologies, and material conditions of Chicanas/Chicanos, including colonialism, race, labor, immigration, poverty, assimilation, and patriarchy. Emphasis on critical reading and writing skills. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CCAS 101",
+        "CCAS 198A"
+      ]
+    },
+    {
+      "course_id": "CCAS 111",
+      "dept": "CCAS",
+      "number": "111",
+      "title": "Chicana/Chicano and Latina/Latino Intellectual Traditions",
+      "units": 5.0,
+      "description": "Lecture, five hours. General view of philosophical, cultural, and social thought as well as intellectual traditions in Americas. Roles of writers as intellectuals and cultural/political strategists, and as definers of (national) identity, social reality, and struggles of liberation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 117",
+      "dept": "CCAS",
+      "number": "117",
+      "title": "Chicana/Chicano Images in Mexican Film and Literature",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: adequate understanding of Spanish-language films without English subtitles. Throughout its rich history, spanning more than 100 years, Mexican cinema has produced great variety of films that deal with Chicana/Chicano experience. Like its U.S. counterpart, Mexican cinematic discourse portrayal of Chicanas/Chicanos has been plagued by use of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 120",
+      "dept": "CCAS",
+      "number": "120",
+      "title": "Immigration and Chicano Community",
+      "units": 4.0,
+      "description": "Lecture, three hours. Discussion on relationship between international immigration and development of Chicana/Chicano community. Examination of U.S. immigration policy and relationship between Mexican-origin population and other Latin American immigrants. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 123",
+      "dept": "CCAS",
+      "number": "123",
+      "title": "Applied Research Methods in Latino Communities",
+      "units": 4.0,
+      "description": "Lecture, three hours. Through combination of lectures, key readings, and several experiments, introduction to several applied research methods that are highly effective in producing sound and methodologically rigorous studies on poor and/or Latino communities, including important data that can be used for critical analysis and policy recommendations. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 131",
+      "dept": "CCAS",
+      "number": "131",
+      "title": "Barrio Popular Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Construction of model by which to organize study of Chicana/Chicano popular culture by focusing on barrio as metaphor for community. Examination of beliefs, myths, and values of Chicana/Chicano culture and representations in icons, heroes, legends, stereotypes, and popular art forms through literature, film, video, music, mass media,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 142",
+      "dept": "CCAS",
+      "number": "142",
+      "title": "Mesoamerican Literature",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: reading knowledge of Spanish (level 4). Survey of premises of Mesoamerican literatures, including myths, lyrics, poetry, religious celebrations, rituals, and drama, specifically of Aztec and Mayan peoples prior to European contact. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 143",
+      "dept": "CCAS",
+      "number": "143",
+      "title": "Mestizaje: History of Diverse Racial/Cultural Roots of Mexico",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Historical examination of diverse racial and cultural roots of Chicanas and Chicanos. Utilizing theoretical frameworks of mestizaje, Aztl\u00e1n, indigenismo, La Raza C\u00f3smica, and la tercera ra\u00edz, examination of some important groups who have contributed to formation of Mexican national culture. Development of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 145B",
+      "dept": "CCAS",
+      "number": "145B",
+      "title": "Literature of Chicana/Chicano Movement",
+      "units": 4.0,
+      "description": "(Formerly numbered M145B.) Lecture, three hours. Examination of literature of Chicana/Chicano movement covering period from first manifestations of Chicano artistic production in 1965 with el Teatro Campesino through rise of women\u2019s writing, including work by Cherrie Moraga (1983), Helena Maria Viramontes (1985), and Sandra Cisneros (1991). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 146",
+      "dept": "CCAS",
+      "number": "146",
+      "title": "Chicano Narrative",
+      "units": 4.0,
+      "description": "(Formerly numbered M146.) Lecture, three hours. Introduction to major Chicano narrative genres\u2014novel, romance, satire, autobiography, cronic\u00f3n/semblanza, Chicana detective novel, and Chicana solidarity fiction. Texts examined within their own geographic, cultural, and historical contexts, as well as within history of narrative forms. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 149",
+      "dept": "CCAS",
+      "number": "149",
+      "title": "Gendered Politics and Chicana/Latina Political Participation",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of Chicanas and Latinas as participants, organizers, and leaders in communities, workplaces, labor unions, and government. Survey of Chicanas/Latinas in politics and as policymakers in appointed and elected offices. Analysis of gendering of politics and political behavior. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 150",
+      "dept": "CCAS",
+      "number": "150",
+      "title": "Affirmative Action: History and Politics",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Historical examination of political economic context in which affirmative action policies and programs were conceived and implemented. Review of impact on Chicanas/Chicanos, Latinas/Latinos, and other communities. Specific analysis of university admissions, hiring and contracting practices, and state initiatives. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 151",
+      "dept": "CCAS",
+      "number": "151",
+      "title": "Human Rights in Americas",
+      "units": 4.0,
+      "description": "Lecture, four hours. International human rights laws in North, Central, and South America and U.S. foreign policy in context of historical, political, social, and legal issues and court decisions involving U.S. and its role and relations with governments and institutions. Historical and contemporary development of regional and international law, institutions,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 152",
+      "dept": "CCAS",
+      "number": "152",
+      "title": "Disposable People: U.S. Deportation and Repatriation Campaigns",
+      "units": 4.0,
+      "description": "Seminar, four hours. Examination of U.S. deportation campaigns targeted at Mexican, Central American, and other Latin American workers, residents, and U.S.-born citizens. Addresses various periods of large-scale, highly-organized deportation and repatriation efforts including Great Depression in 1930s, Operation Wetback in 1950s, Central American Minors (CAM) program, Deferred Action for Childhood\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 153A",
+      "dept": "CCAS",
+      "number": "153A",
+      "title": "Central Americans in U.S.",
+      "units": 4.0,
+      "description": "Lecture, four hours. Interdisciplinary survey of social, historical, political, economic, educational, and cultural experiences of Central American immigrants and their children in U.S. Introduction to several contemporary experiences and issues in U.S. Central American communities. With focus mostly on Guatemalan, Honduran, and Salvadoran immigrants, exploration of social structures that constrain\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 157",
+      "dept": "CCAS",
+      "number": "157",
+      "title": "Chicano Movement and Its Political Legacies",
+      "units": 4.0,
+      "description": "Lecture, four hours. Collective examination of Chicano Movement of 1960s and 1970s and analysis of its political legacies. Grounded in historiographic inquiry and social movement theory, investigation of mobilization of diverse sectors of el movimiento, including students, workers, artists, youth, community activists, and women. Exploration of myriad issues and struggles\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 160",
+      "dept": "CCAS",
+      "number": "160",
+      "title": "Introduction to Chicana/Chicano Speech in American Society",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 163",
+      "dept": "CCAS",
+      "number": "163",
+      "title": "Bilingual Advantage: Spanish Language Topics on Chicana/Chicano and Latin American Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: Spanish 4. Review of Spanish language literature, newsprint, radio, and television in U.S., providing for student development of academic skills in Spanish. Comparison with Spanish language mass media in other parts of world. Letter grading.",
+      "prereqs_raw": "Requisite: Spanish 4.",
+      "prereqs_parsed": {
+        "required": [
+          "SPANISH 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 165",
+      "dept": "CCAS",
+      "number": "165",
+      "title": "Latinas and Latinos in Public Education",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of language issues pertinent to educational systems, including language inequity, literacy, testing, and socialization, as well as institutional ideologies. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 166",
+      "dept": "CCAS",
+      "number": "166",
+      "title": "Paulo Freire for Chicana/Chicano Classroom",
+      "units": 4.0,
+      "description": "Seminar, four hours. Introduction to pedagogy of Paulo Freire and examination of historical and contemporary problems circumscribing Chicana/Chicano education. Central focus to offer Freirian alternative to answer theoretical, methodological, practical, and policy questions about schooling of Chicanas/Chicanos in U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 168A",
+      "dept": "CCAS",
+      "number": "168A",
+      "title": "Latinos: Print Media",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of systemic (mis)representations of Latinos by print media source (Los Angeles Times) by means of critical discourse analysis and metaphor theory. Investigation of empirical basis for theories of racism in language in this context. Student projects range from immigration to education and crime to culture. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CCAS 168B"
+      ]
+    },
+    {
+      "course_id": "CCAS 168B",
+      "dept": "CCAS",
+      "number": "168B",
+      "title": "Latinos: Television News",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 168A. Study of multimodal (visual, graphic, spoken, audio, and text) images disseminated by television news programs to learn how nation comes to their understanding of Latinos. Development of critical visual interpretive acuity through semiotics training and analysis of actual television news stories. Letter grading.",
+      "prereqs_raw": "Requisite: course 168A.",
+      "prereqs_parsed": {
+        "required": [
+          "CCAS 168A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 169",
+      "dept": "CCAS",
+      "number": "169",
+      "title": "Representations of Indigenous Peoples in Americas",
+      "units": 4.0,
+      "description": "Lecture, four hours. Strongly recommended requisite: course 101. Introduction to different forms of representation of indigenous peoples and their presence in Americas, with emphasis on Mesoamerica and Andes. How indigenous images are expressed, perceived, and constructed at point of contact with Europeans during development of indigenismo and in current period.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Strongly recommended requisite: course 101.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": [
+          "CCAS 101"
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 171",
+      "dept": "CCAS",
+      "number": "171",
+      "title": "Humor as Social Control",
+      "units": 4.0,
+      "description": "Lecture, four hours. Hegemonic humor directs laughter of more powerful people against those with less power. In this case laughter becomes weapon used against Latinos and immigrants. With rise of Latinos in last decade, there has been increase of various guises of anti-Latino hegemonic humor in commercial mass-mediated popular culture.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 174AX",
+      "dept": "CCAS",
+      "number": "174AX",
+      "title": "Restoring Civility: Understanding, Using, and Resolving Conflict",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, three hours. Course 174AX is enforced requisite to 174BX. Designed for students who want to learn principles of dialogue and mediation, as alternatives to violence, and practice how to apply them in educational settings. In Progress grading (credit to be given only on completion of course\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CCAS 174BX"
+      ]
+    },
+    {
+      "course_id": "CCAS 174BX",
+      "dept": "CCAS",
+      "number": "174BX",
+      "title": "Restoring Civility: Understanding, Using, and Resolving Conflict",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, three hours. Enforced requisite: course 174AX. Designed for students who want to learn principles of dialogue and mediation, as alternatives to violence, and practice how to apply them in educational settings. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 174AX.",
+      "prereqs_parsed": {
+        "required": [
+          "CCAS 174AX"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 176",
+      "dept": "CCAS",
+      "number": "176",
+      "title": "Globalization and Transnationalism: Local Historical Dynamics and Praxis",
+      "units": 4.0,
+      "description": "Lecture, four hours. Analysis of dynamics of Chicana/Chicano transnational community formation in comparative global perspective, explored both as historical result of and key future actor in localized dynamics of transnationalization in California\u2019s relation to world. Analysis of Chicana/Chicano experience in California as both highly linked node and localized microcosm of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 178",
+      "dept": "CCAS",
+      "number": "178",
+      "title": "Latinas/Latinos and Law: Comparative and Historical Perspectives",
+      "units": 4.0,
+      "description": "Lecture, four hours. Survey of experiences of Latinas/Latinos with U.S. legal system. Examination of landmark appellate decisions and litigation efforts in jury service, voting rights, language, public accommodations, education, and other areas. Critical assessment of role of legal principles and litigation in improving Latina/Latino position within U.S. society. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 181",
+      "dept": "CCAS",
+      "number": "181",
+      "title": "History of Chicana/Chicano Los Angeles, 20th Century",
+      "units": 4.0,
+      "description": "Lecture, four hours. History of Mexican American people in 20th-century Los Angeles. Readings and lectures emphasize formation of regional identity among Mexican Americans in Los Angeles and their significance to emergence of multicultural metropolis. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 184",
+      "dept": "CCAS",
+      "number": "184",
+      "title": "History of U.S./Mexican Borderlands",
+      "units": 4.0,
+      "description": "Lecture, four hours. Survey of historic and geographic diversity of Chicana/Chicano identity and culture, with emphasis on regional communities of California, New Mexico, and Texas in Spanish/Mexican borderlands as situated within U.S. national context. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 191",
+      "dept": "CCAS",
+      "number": "191",
+      "title": "Variable Topics Research Seminars: Chicana/o and Central American Studies",
+      "units": 4.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Research seminar organized around readings and engaged discussion of critical topic of interest in field. Exploration of issue, its theoretical implication for field, and practical implications for communities. Final research project required. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 198A",
+      "dept": "CCAS",
+      "number": "198A",
+      "title": "Honors Research in Chicana/Chicano and Central American Studies: Thesis Conceptualization",
+      "units": 2.0,
+      "description": "Tutorial, one hour. Requisites: courses 10A, 10B, 101, and 89 or 189. Limited to junior/senior honors program students. Conceptualization and formulation of project in Fall Quarter under direct supervision of faculty member. Preliminary data collection on topic and production of proposal for thesis required. May be repeated for credit. Individual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 10A, 10B, 101, and 89 or 189.",
+      "prereqs_parsed": {
+        "required": [
+          "CCAS 10A",
+          "CCAS 10B",
+          "CCAS 101"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CCAS 89",
+            "CCAS 189"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CCAS 198B"
+      ]
+    },
+    {
+      "course_id": "CCAS 198B",
+      "dept": "CCAS",
+      "number": "198B",
+      "title": "Honors Research in Chicana/Chicano and Central American Studies: Annotated Bibliography/Literature Review",
+      "units": 2.0,
+      "description": "Tutorial, one hour. Requisite: course 198A. Limited to junior/senior honors program students. Development of research skills in Winter Quarter to produce extensive annotated bibliography or literature review on thesis topic. Weekly meetings with faculty member to discuss research and develop outline, argument, and structure of thesis. May be repeated for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "CCAS 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CCAS 198C"
+      ]
+    },
+    {
+      "course_id": "CCAS 198C",
+      "dept": "CCAS",
+      "number": "198C",
+      "title": "Honors Research in Chicana/Chicano and Central American Studies: Writing and Revision",
+      "units": 2.0,
+      "description": "Tutorial, one hour. Requisite: course 198B. Limited to junior/senior honors program students. Writing, revision, and completion of departmental honors thesis in Spring Quarter to specification and satisfaction of thesis committee. Public presentation and defense of thesis required. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "CCAS 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 199",
+      "dept": "CCAS",
+      "number": "199",
+      "title": "Directed Research or Senior Project in Chicana/Chicano and Central American Studies",
+      "units": 2.0,
+      "description": "Tutorial, two hours. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS C141",
+      "dept": "CCAS",
+      "number": "C141",
+      "title": "Chicana and Latin American Women's Narrative",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: reading knowledge of Spanish (level 4). Analyses, comparisons, and discussion of narrative literary production of U.S. Chicana writers and their Latin American counterparts in English and Spanish, with particular focus on how each group deals with gender, ethnic, and class issues. Concurrently scheduled with course C251.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS C179",
+      "dept": "CCAS",
+      "number": "C179",
+      "title": "Language Politics and Policies in U.S.: Comparative History",
+      "units": 4.0,
+      "description": "Lecture, four hours. Historical overview of national and institutional language policies, especially schooling, in U.S. as context to understanding social, legal, and political constraints on bilingualism. Definitions and development of language policy and planning, history of general and educational language policies in U.S., demographic profile of language diversity, and current\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS CM106",
+      "dept": "CCAS",
+      "number": "CM106",
+      "title": "Health in Chicano/Latino Population",
+      "units": 4.0,
+      "description": "(Same as Public Health M106.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Examination of Chicano/Latino health status through life expectancy, causes of death, reportable diseases, services utilization, provider supply, and risk behaviors within demographic/immigration changes. Binational review of health effects in U.S. and Mexico. Concurrently scheduled with course\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS CM110",
+      "dept": "CCAS",
+      "number": "CM110",
+      "title": "Chicana Feminism",
+      "units": 4.0,
+      "description": "(Same as Gender Studies CM132A.) Lecture, four hours. Enforced requisite: course 10A or Gender Studies 10. Examination of theories and practices of women who identify as Chicana feminist. Analysis of writings of Chicanas who do not identify as feminist but whose practices attend to gender inequities faced by Chicanas both\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 10A or Gender Studies 10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CCAS 10A",
+          "GENDER ST 10"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS CM135",
+      "dept": "CCAS",
+      "number": "CM135",
+      "title": "Bilingual Writing Workshop",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M135C and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M135.) Seminar, four hours. Limited to juniors/seniors. Writing sample required; access to course web page mandatory; need not be bilingual to enroll. Technical instruction, analysis, and theoretical discussion of bilingual creative expression through genre of short fiction.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS CM147",
+      "dept": "CCAS",
+      "number": "CM147",
+      "title": "Transnational Women's Organizing in Americas",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M147C.) Lecture, four hours. Feminist theories of transnational organizing. Examination of gender and race as central to processes of globalization and essential to economic and political struggles encompassed in transnational power relations. Exploration of how questions of race and gender influence global economic policies and impact\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS CM177",
+      "dept": "CCAS",
+      "number": "CM177",
+      "title": "Latino Social Policy",
+      "units": 4.0,
+      "description": "(Same as Public Affairs M142.) Lecture, three hours; discussion, one hour (when scheduled). Examination of social welfare of Latinos (Chicanos, Puerto Ricans, and Cubans) in U.S. through assessment and critical analysis of social policy issues affecting them. Survey of social, economic, cultural, and political circumstances affecting ability of Latinos to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M102",
+      "dept": "CCAS",
+      "number": "M102",
+      "title": "Mexican Americans and Schools",
+      "units": 4.0,
+      "description": "(Same as Education M102.) Seminar, two hours; discussion, two hours. Theoretical and empirical overview of Chicana/Chicano educational issues in U.S., with special emphasis on disentangling effects of race, gender, class, and immigrant status on Chicana/Chicano educational attainment and achievement. Examination of how historical, social, political, and economic forces impact Chicana/Chicano\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M103C",
+      "dept": "CCAS",
+      "number": "M103C",
+      "title": "Origins and Evolution of Chicano Theater",
+      "units": 5.0,
+      "description": "(Same as Theater M103C.) Lecture, three hours. Designed for juniors/seniors. Exploration of development of Chicano theater from its beginning in legends and rituals of ancient Mexico to work of Luis Valdez (late 1960s). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M103D",
+      "dept": "CCAS",
+      "number": "M103D",
+      "title": "Contemporary Chicano Theater: Beginning of Chicano Theater Movement",
+      "units": 5.0,
+      "description": "(Same as Theater M103D.) Lecture, three hours; discussion, one hour (when scheduled). Analysis and discussion of historical and political events from 1965 to 1980, as well as theatrical traditions that led to emergence of Chicano theater. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M103G",
+      "dept": "CCAS",
+      "number": "M103G",
+      "title": "Contemporary Chicano Theater: Chicano Theater since 1980",
+      "units": 5.0,
+      "description": "(Same as Theater M103G.) Lecture, three hours. Analysis and discussion of Chicano theater since 1980, including discussion of Chicana playwrights, magic realism, Chicano comedy, and Chicano performance art. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M105A",
+      "dept": "CCAS",
+      "number": "M105A",
+      "title": "Early Chicana/Chicano Literature, 1400 to 1920",
+      "units": 5.0,
+      "description": "(Same as English M105A.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Survey of Chicana/Chicano literature from poetry of Triple Alliance and Aztec Empire through end of Mexican Revolution (1920), including oral and written forms (poetry, corridos, testimonios, folklore, novels, short stories, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M105C",
+      "dept": "CCAS",
+      "number": "M105C",
+      "title": "Chicana/Chicano Literature since el Movimiento, 1970s to Present",
+      "units": 5.0,
+      "description": "(Same as English M105C.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of Chicana/Chicano literature since 1970s, with particular emphasis on how queer and feminist activism as well as Central and South American migration have shaped 21st-century chicanidad. Oral, written, and graphic fiction, poetry,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M108A",
+      "dept": "CCAS",
+      "number": "M108A",
+      "title": "Music of Latin America: Mexico, Central America, and Caribbean Isles",
+      "units": 5.0,
+      "description": "(Same as Ethnomusicology M108A.) Lecture, four hours; discussion, one hour. Survey of traditional and contemporary musical culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M114",
+      "dept": "CCAS",
+      "number": "M114",
+      "title": "Chicanos in Film/Video",
+      "units": 5.0,
+      "description": "(Same as Film and Television M117.) Lectures/screenings, five hours; discussion, one hour. Goal is to gain nuanced understanding of Chicano cinema as political, socioeconomic, cultural, and aesthetic practice. Examination of representation of Mexican Americans and Chicanos in four Hollywood genres\u2014silent greaser films, social problem films, Westerns, and gang films\u2014that are\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M115",
+      "dept": "CCAS",
+      "number": "M115",
+      "title": "Musical Aesthetics in Los Angeles",
+      "units": 4.0,
+      "description": "(Same as Ethnomusicology M115.) Lecture, three hours. Confronting aesthetics from classical perspective of art as intuition, examination on cross-cultural basis of diverse musical contexts within vast multicultural metropolis of Los Angeles, with focus on various musical networks and specific experiences of Chicano/Latino, African American, American Indian, Asian, rock culture, Western\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M116",
+      "dept": "CCAS",
+      "number": "M116",
+      "title": "Chicano/Latino Music in U.S.",
+      "units": 5.0,
+      "description": "(Same as Ethnomusicology M116.) Lecture, four hours; discussion, one hour. Historical and analytical examination of musical expression of Latino peoples who have inhabited present geographical boundaries of U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M119",
+      "dept": "CCAS",
+      "number": "M119",
+      "title": "Chicano/Latino Community Formation: Critical Perspectives and Oral Histories",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M123.) Lecture, four hours. Analysis of historical formation and development of Chicano/Latino communities in 20th century, with focus on labor, immigration, economic structures, electoral politics, and international dimensions. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M121",
+      "dept": "CCAS",
+      "number": "M121",
+      "title": "Issues in Latina/Latino Poverty: Mexican and Central American Voices from Los Angeles",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M121 and Urban Planning M140.) Lecture, four hours. Examination of key issues (work, housing, and neighborhoods) in urban poverty, with particular focus on Mexican and Central American immigrant populations in Los Angeles. Exploration of major theoretical models that explain urban poverty and application of them in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M122",
+      "dept": "CCAS",
+      "number": "M122",
+      "title": "Planning Issues in Latina/Latino Communities: Preserving and Strengthening Community Assets in Mexican and Salvadoran Los Angeles",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M122 and Urban Planning M171.) Lecture, four hours. How community and economic development interact, role of assets in community development, and unique synergies and pitfalls that enable or disable communities from developing to their potential. How to strengthen and how to preserve community resources in Pico-Union\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M124",
+      "dept": "CCAS",
+      "number": "M124",
+      "title": "Latinx Immigration Policy and Politics",
+      "units": 4.0,
+      "description": "(Same as Honors Collegium M143.) Lecture, four hours. Critical introduction to U.S. immigration policies and politics, and their disproportionate impacts on Latinx community. Topics include some of root causes of Latin American migration; federal, state, and local immigration lawmaking; and how race, gender, and sexuality impact and are impacted by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M125",
+      "dept": "CCAS",
+      "number": "M125",
+      "title": "U.S./Mexico Relations",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M125.) Lecture, four hours. Examination of complex dynamics in relationship between Mexico and U.S., using political economy approach to study of asymmetrical integration between advanced industrial economies and developing countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M126",
+      "dept": "CCAS",
+      "number": "M126",
+      "title": "Politics of Crisis: Migration, Identity, and Religion",
+      "units": 4.0,
+      "description": "(Same as Honors Collegium M145.) Lecture, three hours. Examination of individual and collective religious response of Latin Americans and Latinas/Latinos in U.S. to dislocations, displacements, and fragmentation produced by conquest, colonization, underdevelopment, globalization, and migration. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M127",
+      "dept": "CCAS",
+      "number": "M127",
+      "title": "Farmworker Movements, Social Justice, and United Farm Workers Legacy",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M127.) Lecture, four hours. Designed for juniors/seniors. Historical and social context of farmworker organizing, including its multiracial origins and its influence on fight for equality of working women. Specific focus on organizing of United Farm Workers and Farm Laborers Organizing Committee, and their relationship to AFL-CIO,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M128",
+      "dept": "CCAS",
+      "number": "M128",
+      "title": "Race, Gender, and U.S. Labor",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M128.) Lecture, four hours. Designed for juniors/seniors. Introduction to history and organization of labor movement in U.S. and North America. Discussion of race, class, and gender issues raised within movement, and various strategies for social change and economic equity pursued through organized labor and other means.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M130",
+      "dept": "CCAS",
+      "number": "M130",
+      "title": "Worker Center Movement: Next Wave Organizing for Justice for Immigrant Workers",
+      "units": 4.0,
+      "description": "(Same as African American Studies M167, Asian American Studies M163, and Labor Studies M167.) Seminar, three hours. Development of theoretical and practical understanding of worker center movement, with focus on historical factors that have led to emergence and growth of worker centers. Role of worker centers in promoting multiethnic and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M132",
+      "dept": "CCAS",
+      "number": "M132",
+      "title": "Border Consciousness",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M132.) (Same as Lesbian, Gay, Bisexual, Transgender, and Queer Studies M132.) Lecture, three hours; discussion, one hour (when scheduled). Investigation through history, popular culture, and mass media of bilingual and bicultural identities produced by geographical and cultural space between Mexico and U.S. Special attention\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M133",
+      "dept": "CCAS",
+      "number": "M133",
+      "title": "Chicana Lesbian Literature",
+      "units": 4.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M133.) (Same as Gender Studies M133 and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M133.) Lecture, four hours. Exploration of intersection of radical First and Third World feminist politics, lesbian sexuality and its relationship to Chicana identity, representation of lesbianism in Chicana literature, meaning\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M139",
+      "dept": "CCAS",
+      "number": "M139",
+      "title": "Topics in Chicana/Chicano and/or Latina/Latino Literature",
+      "units": 5.0,
+      "description": "(Same as English M191B.) Seminar, three or four hours. Enforced requisite: English Composition 3. Variable specialized studies course in Chicana/Chicano and/or Latina/Latino literature. Topics may include labor and literature; Chicana/Chicano visions of Los Angeles; immigration, migration, and exile; autobiography and historical change; Chicana/Chicano journalism; literary New Mexico; specific literary genres.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M144",
+      "dept": "CCAS",
+      "number": "M144",
+      "title": "Women's Movement in Latin America",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M144 and Labor Studies M144.) Lecture, four hours. Course on women\u2019s movements and feminism in Latin America and Caribbean to examine diverse social movements and locations from which women have launched political and gender struggles. Discussion of forms of feminism and women\u2019s consciousness that have emerged\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M148",
+      "dept": "CCAS",
+      "number": "M148",
+      "title": "Politics of Struggle: Race, Solidarity, and Resistance",
+      "units": 4.0,
+      "description": "(Same as African American Studies M148.) Lecture, four hours. Examination of Chicana/Chicano intergroup relations and political coalitions with other Latinos, African Americans, Asian and Pacific Islanders, and Euro-Americans, especially in communities undergoing rapid changes in demographic composition. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M154",
+      "dept": "CCAS",
+      "number": "M154",
+      "title": "Contemporary Issues among Chicanas",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M132B.) Lecture, two and one half hours. Requisite: Gender Studies 10. Overview of conditions facing Chicanas in U.S., including issues on family, immigration, reproduction, employment conditions. Comparative analysis with other Latinas. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Gender Studies 10.",
+      "prereqs_parsed": {
+        "required": [
+          "GENDER ST 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M155A",
+      "dept": "CCAS",
+      "number": "M155A",
+      "title": "Latinos in U.S.",
+      "units": 4.0,
+      "description": "(Same as Sociology M155.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of history and social conditions of Latinos in Los Angeles as well as nationally, with particular emphasis on their location in larger social structure and on comparisons with other minority groups. Topics include migration, family, education,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M156A",
+      "dept": "CCAS",
+      "number": "M156A",
+      "title": "Immigrant Rights, Labor, and Higher Education",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M166A and Labor Studies M166A.) Lecture, three hours; discussion, one hour. New immigrant rights movement, with particular attention to labor and higher education. Overview of history of immigrant rights movement and examination of development of coalition efforts between labor movement and immigrant rights movement nationally\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CCAS M156B"
+      ]
+    },
+    {
+      "course_id": "CCAS M156B",
+      "dept": "CCAS",
+      "number": "M156B",
+      "title": "Research on Immigration Rights, Labor, and Higher Education",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M166B and Labor Studies M166B.) Seminar, two hours. Requisite: course M156A. Expansion of research conducted by students in course M156A involving oral histories, research on immigration/labor/higher education, and evaluation of legislation and legal issues impacting undocumented students. Letter grading.",
+      "prereqs_raw": "Requisite: course M156A.",
+      "prereqs_parsed": {
+        "required": [
+          "CCAS M156A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M158",
+      "dept": "CCAS",
+      "number": "M158",
+      "title": "Chicana Historiography",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M157 and History M151D.) Lecture, four hours. Examination of Chicana historiography, looking closely at how practice of writing of history has placed Chicanas into particular narratives. Using Chicana feminist approaches to study of history, revisiting of specific historical periods and moments such as Spanish Conquest, Mexican\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M159A",
+      "dept": "CCAS",
+      "number": "M159A",
+      "title": "History of Chicano Peoples",
+      "units": 4.0,
+      "description": "(Same as History M151A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey lecture course on historical development of Mexican (Chicano) community and people of Mexican descent (Indio-Mestizo-Mulato) north of Rio through 17th, 18th, and 19th centuries, with special focus on labor and politics. Provides integrated understanding\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M159B",
+      "dept": "CCAS",
+      "number": "M159B",
+      "title": "History of Chicano Peoples",
+      "units": 4.0,
+      "description": "(Same as History M151B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey lecture course on historical development of Mexican (Chicano) community and people of Mexican descent in U.S. through 20th century, with special focus on labor and politics. Provides integrated understanding of change over time in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M170XP",
+      "dept": "CCAS",
+      "number": "M170XP",
+      "title": "Topics in Community Engagement",
+      "units": 5.0,
+      "description": "(Formerly numbered Chicana and Chicano Studies M170SL.) (Same as Spanish M172XP.) Seminar, four hours; field project, four to six hours. Requisite: Spanish 25. Introduction to community engagement in various forms. Exploration of methods of community involvement and change making processes within variety of professional contexts in community. Students engage in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Spanish 25.",
+      "prereqs_parsed": {
+        "required": [
+          "SPANISH 25"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M173",
+      "dept": "CCAS",
+      "number": "M173",
+      "title": "Nonviolence and Social Movements",
+      "units": 4.0,
+      "description": "(Same as African American Studies M173 and Labor Studies M173.) Lecture, three hours; discussion, one hour. Overview of nonviolence and its impact on social movements both historically and in its present context in contemporary society, featuring lectures, conversations, films, readings, and guest speakers. Exploration of some historic contributions of civil\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M175",
+      "dept": "CCAS",
+      "number": "M175",
+      "title": "Chicana Art and Artists",
+      "units": 4.0,
+      "description": "(Same as Art M184 and World Arts and Cultures M128.) Lecture, four hours. Introduction to Chicana art and artists. Examination of Chicana aesthetic. Chicana artists have developed unique experience and identity as artists and Chicanas. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M183",
+      "dept": "CCAS",
+      "number": "M183",
+      "title": "History of Los Angeles",
+      "units": 4.0,
+      "description": "(Same as History M155.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social, economic, cultural, and political development of Los Angeles and its environs from time of its founding to present. Emphasis on diverse peoples of area, changing physical environment, various interpretations of city, and Los Angeles\u2019\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M185",
+      "dept": "CCAS",
+      "number": "M185",
+      "title": "Whose Monument Where: Course on Public Art",
+      "units": 4.0,
+      "description": "(Same as Art M185 and World Arts and Cultures M126.) Lecture, four hours. Recommended corequisite: course M186A, M186B, or M186C. Examination of public monuments in U.S. as basis for cultural insight and critique of American values from perspective of artist. Use of urban Los Angeles as textbook in urban space\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M186A",
+      "dept": "CCAS",
+      "number": "M186A",
+      "title": "Beyond Mexican Mural: Beginning Muralism and Community Development",
+      "units": 4.0,
+      "description": "(Same as Art M186A and World Arts and Cultures M125A.) Studio/lecture, four hours. Corequisite: course M186AL. Investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community. Students research, design, and work with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Corequisite: course M186AL.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "CCAS M186AL"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CCAS M186AL"
+      ]
+    },
+    {
+      "course_id": "CCAS M186AL",
+      "dept": "CCAS",
+      "number": "M186AL",
+      "title": "Beyond Mexican Mural: Beginning Muralism and Community Laboratory",
+      "units": 4.0,
+      "description": "(Same as Art M186AL and World Arts and Cultures M125AL.) Laboratory, four hours. Corequisite: course M186A. Course M186AL is requisite to M186BL, which is requisite to M186CL. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Corequisite: course M186A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "CCAS M186A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CCAS M186A"
+      ]
+    },
+    {
+      "course_id": "CCAS M186B",
+      "dept": "CCAS",
+      "number": "M186B",
+      "title": "Beyond Mexican Mural: Intermediate Muralism and Community Development",
+      "units": 4.0,
+      "description": "(Same as Art M186B and World Arts and Cultures M125B.) Studio/lecture, four hours. Requisites: courses M186A, M186AL. Corequisite: course M186BL. Continuation of investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses M186A, M186AL. Corequisite: course M186BL.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 186A",
+          "MATH 186AL"
+        ],
+        "corequisites": [
+          "MATH 186BL"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M186BL",
+      "dept": "CCAS",
+      "number": "M186BL",
+      "title": "Beyond Mexican Mural: Intermediate Muralism and Community Laboratory",
+      "units": 4.0,
+      "description": "(Same as Art M186BL and World Arts and Cultures M125BL.) Laboratory, four hours. Requisites: courses M186A, M186AL. Corequisite: course M186B. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based setting. Open to students during scheduled hours\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses M186A, M186AL. Corequisite: course M186B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 186A",
+          "MATH 186AL"
+        ],
+        "corequisites": [
+          "MATH 186B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CCAS M186CL"
+      ]
+    },
+    {
+      "course_id": "CCAS M186C",
+      "dept": "CCAS",
+      "number": "M186C",
+      "title": "Beyond Mexican Mural: Advanced Muralism and Community Development",
+      "units": 4.0,
+      "description": "(Same as Art M186C and World Arts and Cultures M125C.) Studio/lecture, six hours. Requisites: courses M186B, M186BL. Corequisite: course M186CL. Continuation of investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses M186B, M186BL. Corequisite: course M186CL.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 186B",
+          "MATH 186BL"
+        ],
+        "corequisites": [
+          "MATH 186CL"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M186CL",
+      "dept": "CCAS",
+      "number": "M186CL",
+      "title": "Beyond Mexican Mural: Advanced Muralism and Community Laboratory",
+      "units": 2.0,
+      "description": "(Same as Art M186CL and World Arts and Cultures M125CL.) Laboratory, two hours. Requisite: course M186BL. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based setting. Open to students during scheduled hours with laboratory tech support,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course M186BL.",
+      "prereqs_parsed": {
+        "required": [
+          "CCAS M186BL"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M187",
+      "dept": "CCAS",
+      "number": "M187",
+      "title": "Latino Metropolis: Architecture and Urbanism in Americas",
+      "units": 4.0,
+      "description": "(Same as History M151E and Urban Planning M187.) Lecture, four hours. Introduction to history of architecture and urbanism in Americas, from fabled cities of Aztec empire to barrios of 21st-century Los Angeles and Miami. Emphasis on role of cities in Latina/Latino experience and uses of architecture and city planning to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 5",
+      "dept": "SPAN",
+      "number": "5",
+      "title": "Intermediate Spanish",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Taught in Spanish. Laboratory is online. Intermediate Spanish language and culture course designed to increase communicative ability. Acquisition of cultural competence and introduction to study of literature. Comprehension of conversations and stretches of connected discourse, reading of texts with minimum use of dictionary, writing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

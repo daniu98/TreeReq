@@ -1,0 +1,1336 @@
+{
+  "major_id": "korean-ba",
+  "major_name": "Korean BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/KoreanBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "KOREA 6",
+            "KOREA 6A",
+            "KOREA 10"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ASIAN 30",
+            "KOREA 40",
+            "KOREA 50",
+            "KOREA M60",
+            "KOREA 70",
+            "KOREA 80"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 5,
+          "courses": [
+            "KOREA 100A",
+            "KOREA 100B",
+            "KOREA 100C",
+            "KOREA 101A",
+            "KOREA 101B",
+            "KOREA 101C",
+            "KOREA 102A",
+            "KOREA 102B",
+            "KOREA 102C",
+            "KOREA 103A",
+            "KOREA 103B",
+            "KOREA 103C",
+            "KOREA 104",
+            "KOREA C105A",
+            "KOREA C105B",
+            "KOREA C105C",
+            "KOREA 106A",
+            "KOREA 106B",
+            "KOREA 106C",
+            "KOREA 107A",
+            "KOREA 107B",
+            "KOREA 107C",
+            "KOREA CM120",
+            "KOREA 124",
+            "KOREA 165",
+            "KOREA 176",
+            "KOREA 178"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "KOREA 130A",
+            "KOREA 130B",
+            "KOREA C150",
+            "KOREA C151"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "KOREA CM127",
+            "KOREA C149",
+            "KOREA 154",
+            "KOREA 155",
+            "KOREA CM160",
+            "KOREA 165",
+            "KOREA 172",
+            "KOREA 175",
+            "KOREA C177",
+            "KOREA 180A",
+            "KOREA 180B",
+            "KOREA 180C",
+            "KOREA 181",
+            "KOREA 182",
+            "KOREA 183",
+            "KOREA 184A",
+            "KOREA 184B",
+            "KOREA 185",
+            "KOREA M186",
+            "KOREA 187",
+            "KOREA 191A",
+            "KOREA 191B"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ASIAN": [
+      "ASIAN 198A",
+      "ASIAN 198B",
+      "ASIAN 198C",
+      "ASIAN 30"
+    ],
+    "KOREA": [
+      "KOREA 10",
+      "KOREA 100A",
+      "KOREA 100B",
+      "KOREA 100C",
+      "KOREA 101A",
+      "KOREA 101B",
+      "KOREA 101C",
+      "KOREA 102A",
+      "KOREA 102B",
+      "KOREA 102C",
+      "KOREA 103A",
+      "KOREA 103B",
+      "KOREA 103C",
+      "KOREA 104",
+      "KOREA 106A",
+      "KOREA 106B",
+      "KOREA 106C",
+      "KOREA 107A",
+      "KOREA 107B",
+      "KOREA 107C",
+      "KOREA 124",
+      "KOREA 130A",
+      "KOREA 130B",
+      "KOREA 154",
+      "KOREA 155",
+      "KOREA 165",
+      "KOREA 172",
+      "KOREA 175",
+      "KOREA 176",
+      "KOREA 178",
+      "KOREA 180A",
+      "KOREA 180B",
+      "KOREA 180C",
+      "KOREA 181",
+      "KOREA 182",
+      "KOREA 183",
+      "KOREA 184A",
+      "KOREA 184B",
+      "KOREA 185",
+      "KOREA 187",
+      "KOREA 191A",
+      "KOREA 191B",
+      "KOREA 40",
+      "KOREA 50",
+      "KOREA 6",
+      "KOREA 6A",
+      "KOREA 70",
+      "KOREA 80",
+      "KOREA C105A",
+      "KOREA C105B",
+      "KOREA C105C",
+      "KOREA C149",
+      "KOREA C150",
+      "KOREA C151",
+      "KOREA C177",
+      "KOREA CM120",
+      "KOREA CM127",
+      "KOREA CM160",
+      "KOREA M186",
+      "KOREA M60"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ASIAN 198A",
+      "dept": "ASIAN",
+      "number": "198A",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Preparation: one undergraduate departmental seminar. Limited to junior/senior departmental majors. Development of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ASIAN 198B"
+      ]
+    },
+    {
+      "course_id": "ASIAN 198B",
+      "dept": "ASIAN",
+      "number": "198B",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Enforced requisite: course 198A. Limited to junior/senior departmental majors. Continuation of work initiated in course 198A. Presentation of research and relevant progress to supervising faculty member. May be repeated for credit. Individual contract required. In Progress grading (credit to be given only on completion of course 198C).",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIAN 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ASIAN 198C"
+      ]
+    },
+    {
+      "course_id": "ASIAN 198C",
+      "dept": "ASIAN",
+      "number": "198C",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Enforced requisite: course 198B. Limited to junior/senior departmental majors. Completion of research developed in courses 198A, 198B. Presentation of honors project to supervising faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIAN 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 30",
+      "dept": "ASIAN",
+      "number": "30",
+      "title": "Languages and Cultures of Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Comparative perspective on Asian languages, with emphasis on three major East Asian languages\u2014Chinese, Japanese, and Korean\u2014to show what they share and how they differ in terms of linguistic features, historical development, and larger cultural settings in which these three languages are used. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 10",
+      "dept": "KOREA",
+      "number": "10",
+      "title": "Intermediate Modern Korean: Intensive",
+      "units": 15.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Recommended preparation: course 3, 3A, or 8, or Korean placement test, or courses equivalent to elementary-level Korean. Second-year Korean. Not open to students who have learned, from whatever source, enough Korean to qualify for more advanced courses. Intensive course equivalent to courses 4, 5,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "KOREA 100A",
+        "KOREA 102A",
+        "KOREA 102B",
+        "KOREA 102C"
+      ]
+    },
+    {
+      "course_id": "KOREA 100A",
+      "dept": "KOREA",
+      "number": "100A",
+      "title": "Advanced Modern Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 6, 6A, or 10 with grade of C or better or Korean placement test. Course 100A with grade of C or better or Korean placement test is enforced requisite to 100B; course 100B with grade of C or better or Korean placement\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 6, 6A, or 10 with grade of C or better or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 6",
+            "KOREA 6A",
+            "KOREA 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA 100B"
+      ]
+    },
+    {
+      "course_id": "KOREA 100B",
+      "dept": "KOREA",
+      "number": "100B",
+      "title": "Advanced Modern Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100A with grade of C or better or Korean placement test. Not open to students who have learned, from whatever source, enough Korean to qualify for more advanced courses. Continuation of courses 6/6A. Readings of modern prose and poetry, with emphasis on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 100A with grade of C or better or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 100A"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA 100C"
+      ]
+    },
+    {
+      "course_id": "KOREA 100C",
+      "dept": "KOREA",
+      "number": "100C",
+      "title": "Advanced Modern Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100B with grade of C or better or Korean placement test. Not open to students who have learned, from whatever source, enough Korean to qualify for more advanced courses. Continuation of courses 6/6A. Readings of modern prose and poetry, with emphasis on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 100B with grade of C or better or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 100B"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA 101A",
+        "KOREA 101B",
+        "KOREA 101C",
+        "KOREA 130A",
+        "KOREA 130B",
+        "KOREA 176"
+      ]
+    },
+    {
+      "course_id": "KOREA 101A",
+      "dept": "KOREA",
+      "number": "101A",
+      "title": "Fourth Year Korean: Advanced Speaking, Listening, Reading, and Writing",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100C or Korean placement test. Advanced readings and discussion for students planning to do advanced coursework or research on Korea. Topics selected from magazines, journals, and books related to humanities and social sciences. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 100C",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA 178"
+      ]
+    },
+    {
+      "course_id": "KOREA 101B",
+      "dept": "KOREA",
+      "number": "101B",
+      "title": "Fourth Year Korean: Advanced Speaking, Listening, Reading, and Writing",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100C or Korean placement test. Advanced readings and discussion for students planning to do advanced coursework or research on Korea. Topics selected from magazines, journals, and books related to humanities and social sciences. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 100C",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 101C",
+      "dept": "KOREA",
+      "number": "101C",
+      "title": "Fourth Year Korean: Advanced Speaking, Listening, Reading, and Writing",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100C or Korean placement test. Advanced readings and discussion for students planning to do advanced coursework or research on Korea. Topics selected from magazines, journals, and books related to humanities and social sciences. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 100C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA C105A",
+        "KOREA C105B",
+        "KOREA C105C"
+      ]
+    },
+    {
+      "course_id": "KOREA 102A",
+      "dept": "KOREA",
+      "number": "102A",
+      "title": "Advanced Korean Conversation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 6 or 6A or 10 or Korean placement test. Not open to students who attended elementary school in Korea for more than two years or who have learned, from whatever source, enough Korean to qualify for more advanced courses. Designed to improve spoken proficiency. May\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 6 or 6A or 10 or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 6",
+            "KOREA 6A",
+            "KOREA 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 102B",
+      "dept": "KOREA",
+      "number": "102B",
+      "title": "Advanced Korean Conversation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 6 or 6A or 10 or Korean placement test. Not open to students who attended elementary school in Korea for more than two years or who have learned, from whatever source, enough Korean to qualify for more advanced courses. Designed to improve spoken proficiency. May\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 6 or 6A or 10 or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 6",
+            "KOREA 6A",
+            "KOREA 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 102C",
+      "dept": "KOREA",
+      "number": "102C",
+      "title": "Advanced Korean Conversation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 6 or 6A or 10 or Korean placement test. Not open to students who attended elementary school in Korea for more than two years or who have learned, from whatever source, enough Korean to qualify for more advanced courses. Designed to improve spoken proficiency. May\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 6 or 6A or 10 or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 6",
+            "KOREA 6A",
+            "KOREA 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 103A",
+      "dept": "KOREA",
+      "number": "103A",
+      "title": "Learning Sino-Korean Characters",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: Korean 6 or 6A or Korean placement test. Course 103A or Korean placement test is requisite to 103B; course 103B or Korean placement test is requisite to 103C. Does not replace and may be taken concurrently with Korean 100A, 100B, and 100C. Sino-Korean\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Korean 6 or 6A or Korean placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "KOREA 103B"
+      ]
+    },
+    {
+      "course_id": "KOREA 103B",
+      "dept": "KOREA",
+      "number": "103B",
+      "title": "Learning Sino-Korean Characters",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: course 103A or Korean placement test. Sino-Korean vocabulary and characters necessary for advanced and superior level of knowledge in Korean. Sino-Korean characters are used differently from same Chinese characters used in contemporary China in terms of pronunciation, meaning, and word formation. Professional-level Korean\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 103A or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 103A",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA 103C"
+      ]
+    },
+    {
+      "course_id": "KOREA 103C",
+      "dept": "KOREA",
+      "number": "103C",
+      "title": "Learning Sino-Korean Characters",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: course 103B or Korean placement test. Sino-Korean vocabulary and characters necessary for advanced and superior level of knowledge in Korean. Sino-Korean characters are used differently from same Chinese characters used in contemporary China in terms of pronunciation, meaning, and word formation. Professional-level Korean\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 103B or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 103B",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 104",
+      "dept": "KOREA",
+      "number": "104",
+      "title": "Variable Topics in Advanced Korean: Languages, Society, and Culture",
+      "units": 4.0,
+      "description": "(Formerly numbered 104A.) Lecture, three hours; discussion, one hour. Enforced requisite: course 6 or Korean placement test. Taught in Korean. Content-based language study exploring variable topics in Korean language, society, and culture. Emphasis on advanced use of Korean reading, writing, listening, and speaking. Materials include representative examples of diverse genres\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 6 or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 6",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 106A",
+      "dept": "KOREA",
+      "number": "106A",
+      "title": "Superior Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 101C. May not be taken concurrently with course 102A, 102B, or 102C. Use of speaking, listening, reading, and writing skills to participate effectively, or understand without difficulty any practical, social, and professional topics, whether those topics are familiar or not. May be taken independently\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 106B",
+      "dept": "KOREA",
+      "number": "106B",
+      "title": "Superior Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 101C. May not be taken concurrently with course 102A, 102B, or 102C. Use of speaking, listening, reading, and writing skills to participate effectively, or understand without difficulty any practical, social, and professional topics, whether those topics are familiar or not. May be taken independently\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 106C",
+      "dept": "KOREA",
+      "number": "106C",
+      "title": "Superior Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 101C. May not be taken concurrently with course 102A, 102B, or 102C. Use of speaking, listening, reading, and writing skills to participate effectively, or understand without difficulty any practical, social, and professional topics, whether those topics are familiar or not. May be taken independently\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 107A",
+      "dept": "KOREA",
+      "number": "107A",
+      "title": "Professional/Academic Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 101C or Korean placement test. Course 107A or Korean placement test is requisite to 107B; course 107B or Korean placement test is requisite to 107C. May not be taken concurrently with course 102A, 102B, or 102C. Development of professional and academic proficiency in oral and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 101C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "KOREA 107B"
+      ]
+    },
+    {
+      "course_id": "KOREA 107B",
+      "dept": "KOREA",
+      "number": "107B",
+      "title": "Professional/Academic Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 107A or Korean placement test. May not be taken concurrently with course 102A, 102B, or 102C. Development of professional and academic proficiency in oral and written Korean to understand many sociolinguistic and cultural references as well as variety of styles and forms pertinent to professional\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 107A or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 107A",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA 107C"
+      ]
+    },
+    {
+      "course_id": "KOREA 107C",
+      "dept": "KOREA",
+      "number": "107C",
+      "title": "Professional/Academic Korean",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 107B or Korean placement test. May not be taken concurrently with course 102A, 102B, or 102C. Development of professional and academic proficiency in oral and written Korean to understand many sociolinguistic and cultural references as well as variety of styles and forms pertinent to professional\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 107B or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 107B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 124",
+      "dept": "KOREA",
+      "number": "124",
+      "title": "Topics in Korean Language and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: one to two years of college-level Korean. Introduction of basic concepts in sociocultural linguistics, discourse analysis, and multimedia resources to analyze Korean language and culture. Study to increase understanding of variety of sociocultural variables of Korean language. Exploration of interrelationship among language,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 130A",
+      "dept": "KOREA",
+      "number": "130A",
+      "title": "Readings in Modern Korean Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisites: course 100C or Korean placement test, English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Readings and discussion of major modern Korean literary texts. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisites: course 100C or Korean placement test, English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 100C",
+            "Korean placement test"
+          ],
+          [
+            "ENGLISH COMP 3",
+            "ENGLISH COMP 3H"
+          ],
+          [
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 130B",
+      "dept": "KOREA",
+      "number": "130B",
+      "title": "Readings in Modern Korean Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisites: course 100C or Korean placement test, English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Readings and discussion of major modern Korean literary texts. May be taken independently for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisites: course 100C or Korean placement test, English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 100C",
+            "Korean placement test"
+          ],
+          [
+            "ENGL COMP 3",
+            "ENGL COMP 3H"
+          ],
+          [
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 154",
+      "dept": "KOREA",
+      "number": "154",
+      "title": "Contemporary Korean Culture through Literature and Film",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Korean not required. Use of fiction and film to explore contemporary Korean culture in cross-cultural context. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 155",
+      "dept": "KOREA",
+      "number": "155",
+      "title": "Topics in Korean Cinema",
+      "units": 4.0,
+      "description": "Lecture, one hour; discussion, one hour; film viewing, three hours. Knowledge of Korean not required. Historical and critical survey of Korean cinema, examining intersection between 20th-century Korean history, politics, and filmmaking. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 165",
+      "dept": "KOREA",
+      "number": "165",
+      "title": "Introduction to Korean Buddhist Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 100A or Chinese 110C or Korean placement test. Introduction to reading premodern Korean Buddhist texts written in Sino-Korean and taken from indigenous doxographic materials and philosophical writings, Korean Buddhist apocryphal scriptures, native exegetical commentaries, and Son (Zen) texts. Coverage varies. Texts\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 172",
+      "dept": "KOREA",
+      "number": "172",
+      "title": "Topics in Korean Christianity",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Historical development of Christianity in Korea, beliefs and practices, impact of Christianity on modern Korean culture and society. Coverage varies. May be repeated for credit with consent of instructor. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 175",
+      "dept": "KOREA",
+      "number": "175",
+      "title": "Intellectual History of Premodern Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. General survey of Korean thought from earliest records to 19th century, including shamanism, Taoism, Buddhism, Christianity, and neo-Confucianism. Korean traditions and those found in India, China, Japan, and West. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 176",
+      "dept": "KOREA",
+      "number": "176",
+      "title": "Introduction to Korean Confucian Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100C or Chinese 110C or Korean placement test. Reading in premodern Koryo and Choson texts on politics, society, and culture. Coverage varies. Texts may be read in either Sino-Korean or literary Chinese. May be repeated with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100C or Chinese 110C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 100C",
+            "CHIN 110C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 178",
+      "dept": "KOREA",
+      "number": "178",
+      "title": "Introduction to Modern Korean Historiography",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 101A or C105A or Korean placement test. Introduction to major Korean language historiographical works on Korean history in modern period. Coverage varies. May be repeated with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101A or C105A or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 101A",
+            "KOREA C105A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 180A",
+      "dept": "KOREA",
+      "number": "180A",
+      "title": "History of Korea through 1259",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of evolution of Korean culture and society within context of political and institutional industry. Consideration of both higher and popular culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 180B",
+      "dept": "KOREA",
+      "number": "180B",
+      "title": "History of Korea, 1260 through 1876",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of evolution of Korean culture and society within context of political and institutional industry. Consideration of both higher and popular culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 180C",
+      "dept": "KOREA",
+      "number": "180C",
+      "title": "History of Korea since 1876",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of evolution of Korean culture and society within context of political and institutional industry. Consideration of both higher and popular culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 181",
+      "dept": "KOREA",
+      "number": "181",
+      "title": "Reading Korean Cultural Landscape",
+      "units": 4,
+      "description": "Sorry, something went wrong on our end. We are currently working to fix the problem and apologize for the inconvenience.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 182",
+      "dept": "KOREA",
+      "number": "182",
+      "title": "1894 Kabo Reforms: History at Crossroads of Civilizations",
+      "units": 4.0,
+      "description": "Seminar, three hours. Knowledge of Korean not required. Examination of modernizing reforms adopted in Korea in 1894. Consideration of conflict among radical Westernizers who had studied in Japan and U.S., moderate reformers who followed Chinese model of adopting Western technology to defend Confucian order, and orthodox Confucians who strongly opposed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 183",
+      "dept": "KOREA",
+      "number": "183",
+      "title": "Korean Folklore",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of Korean folklore and its perspectives and methods\u2014oral literature, performing folk arts, social folk custom, and material culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 184A",
+      "dept": "KOREA",
+      "number": "184A",
+      "title": "Women in History: Premodern Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of premodern Korean history from perspective of women. Consideration of how gender roles and identities were socially (re)constructed over time, with focus on continual negotiation by women and men within larger processes of political, social, and cultural changes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 184B",
+      "dept": "KOREA",
+      "number": "184B",
+      "title": "Women in History: Modern Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Examination of modern Korean history from perspective of women since mid-19th century. Consideration of how gender roles and identities were socially (re)constructed over time, with focus on continual negotiation by women and men within larger processes of political, social,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 185",
+      "dept": "KOREA",
+      "number": "185",
+      "title": "Education and Society in Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Korean not required. Coverage of historical legacies and current realities of education in Korea. Topics include Confucian background, colonial education, role of education in rapid economic development, views on education as vehicle for social mobility, and problems related to excessive emphasis on education. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 187",
+      "dept": "KOREA",
+      "number": "187",
+      "title": "Popular and Folk Religion in Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Introduction to history, forms, and scholarship concerning folk religion in Korea. Exploration of forms of popular and folk religion in Korea, including shamanism, ancestor worship, and contemporary religions. Consideration of fortune-telling, geomancy, and spirit belief. P/NP (undergraduates), S/U (graduates),\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 191A",
+      "dept": "KOREA",
+      "number": "191A",
+      "title": "Variable Topics Research Seminars: Premodern or Early Modern Korea",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminar on selected topics in premodern or early modern Korea. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 191B",
+      "dept": "KOREA",
+      "number": "191B",
+      "title": "Variable Topics Research Seminars: Contemporary Korean History",
+      "units": 4.0,
+      "description": "Seminar, three hours. Research seminar on selected topics in modern Korean history. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 40",
+      "dept": "KOREA",
+      "number": "40",
+      "title": "Korean Wave: Globalization of South Korean Popular Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Introduction to Korean popular culture and its relationship to transnational social and political contexts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 50",
+      "dept": "KOREA",
+      "number": "50",
+      "title": "History of Korean Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. General survey of development of Korean culture within context of political, social, and economic history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "KOREA C177"
+      ]
+    },
+    {
+      "course_id": "KOREA 6",
+      "dept": "KOREA",
+      "number": "6",
+      "title": "Intermediate Modern Korean",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 5 with grade of C or better or Korean placement test. Not open to students who have learned, from whatever source, enough Korean to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "KOREA 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA 100A",
+        "KOREA 102A",
+        "KOREA 102B",
+        "KOREA 102C",
+        "KOREA 104"
+      ]
+    },
+    {
+      "course_id": "KOREA 6A",
+      "dept": "KOREA",
+      "number": "6A",
+      "title": "Intermediate Korean for Korean Speakers",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 5A with grade of C or better or Korean placement test. Not open to students who attended elementary school in Korea for more than one year or who have learned, from whatever source, enough Korean to qualify for more advanced courses. Designed for Korean-heritage\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 5A with grade of C or better or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "KOREA 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C"
+      },
+      "prereq_for": [
+        "KOREA 100A",
+        "KOREA 102A",
+        "KOREA 102B",
+        "KOREA 102C"
+      ]
+    },
+    {
+      "course_id": "KOREA 70",
+      "dept": "KOREA",
+      "number": "70",
+      "title": "Images of Korea",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean culture, literature, or language not required. Introduction to visual and textual representations of Korea. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 80",
+      "dept": "KOREA",
+      "number": "80",
+      "title": "Introduction to Korean Cinema",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Broad overview of Korean film history, from beginning of 20th century into present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C105A",
+      "dept": "KOREA",
+      "number": "C105A",
+      "title": "Reading Korean Academic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Korean placement test. Intended to improve reading skills for students who have studied Korean to advanced level, with coverage in Korean of materials on Korean history, culture, and society. May be taken independently for credit. Concurrently scheduled with course C205A. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 101C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "KOREA 178"
+      ]
+    },
+    {
+      "course_id": "KOREA C105B",
+      "dept": "KOREA",
+      "number": "C105B",
+      "title": "Reading Korean Academic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Korean placement test. Intended to improve reading skills for students who have studied Korean to advanced level, with coverage in Korean of materials on Korean history, culture, and society. May be taken independently for credit. Concurrently scheduled with course C205B. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 101C",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C105C",
+      "dept": "KOREA",
+      "number": "C105C",
+      "title": "Reading Korean Academic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Korean placement test. Intended to improve reading skills for students who have studied Korean to advanced level, with coverage in Korean of materials on Korean history, culture, and society. May be taken independently for credit. Concurrently scheduled with course C205C. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101C or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "KOREA 101C",
+            "Korean placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C149",
+      "dept": "KOREA",
+      "number": "C149",
+      "title": "Readings of Sino-Korean and Korean Sources of Modern Korea",
+      "units": 4.0,
+      "description": "Seminar, three hours. Recommended preparation: reading knowledge of Korean and basic classical Chinese. Readings and discussions of Sino-Korean and Korean texts published in modern Korean newspapers, magazines, and books from 1885 to 1970. Concurrently scheduled with course C249. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C150",
+      "dept": "KOREA",
+      "number": "C150",
+      "title": "Korean Literature in Translation: Classical",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Korean not required. Survey of premodern Korean literature from beginning to 19th century. Concurrently scheduled with course C250. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C151",
+      "dept": "KOREA",
+      "number": "C151",
+      "title": "Korean Literature in Translation: Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D. Knowledge of Korean not required. Survey of modern and contemporary Korean literature. Concurrently scheduled with course C251. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3 or 3H or one course from Comparative Literature 1A, 1B, 1C, 1D.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H",
+            "COMP LIT 1A",
+            "COMP LIT 1B",
+            "COMP LIT 1C",
+            "COMP LIT 1D"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA C177",
+      "dept": "KOREA",
+      "number": "C177",
+      "title": "Intellectual History of Modern Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 50. Knowledge of Korean not required. Survey of Korean thought in late 19th and 20th centuries, including religious thought, political thought, feminism, nationalism, and economic thinking and practice. Concurrently scheduled with course C277. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "KOREA 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA CM120",
+      "dept": "KOREA",
+      "number": "CM120",
+      "title": "Structure of Korean",
+      "units": 4.0,
+      "description": "(Same as Linguistics M177.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Korean, or one year of Korean and some knowledge of linguistics. Discussion of major syntactic, semantic, and pragmatic characteristics of Korean in light of linguistic universals, with brief introduction to formation, typological features, and phonological\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA CM127",
+      "dept": "KOREA",
+      "number": "CM127",
+      "title": "Contrastive Analysis of Japanese and Korean",
+      "units": 4.0,
+      "description": "(Same as Japanese CM127 and Linguistics M178.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA CM160",
+      "dept": "KOREA",
+      "number": "CM160",
+      "title": "Korean Buddhism",
+      "units": 4.0,
+      "description": "(Same as Religion M161C.) Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Introduction and development of Buddhism in Korea, interactions between indigenous Korean culture and Sinitic traditions of Buddhism, Korean syntheses of imported Buddhist theological systems and meditative techniques, and independent Son (Zen) schools of Korea. Concurrently\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA M186",
+      "dept": "KOREA",
+      "number": "M186",
+      "title": "Korea and Vietnam: Comparative Modern Histories",
+      "units": 4.0,
+      "description": "(Same as Vietnamese M186.) Seminar, three hours. Comparative survey of intertwined and parallel histories of Korea and Vietnam, organized chronologically, but structured around key themes that serve as basis for comparison. Modern experiences of colonized Vietnam and Korea have many significant parallels, including imposition of colonial control, transition to modernized\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA M60",
+      "dept": "KOREA",
+      "number": "M60",
+      "title": "Introduction to Korean Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M60C.) Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. General survey of history of religions in Korea\u2014Shamanism, Buddhism, Confucianism, Daoism, Christianity, Tonghak, and some new religions\u2014with focus on religious doctrines, practices, Korean characteristics, and social impacts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

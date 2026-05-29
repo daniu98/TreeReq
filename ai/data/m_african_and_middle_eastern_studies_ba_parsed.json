@@ -1,0 +1,3333 @@
+{
+  "major_id": "m-african-and-middle-eastern-studies-ba",
+  "major_name": "M African and Middle Eastern Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/AfricanandMiddleEasternStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "I A STD 1"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ART HIS 28",
+            "HIST 9D",
+            "HIST 10B",
+            "HIST 97F",
+            "HIST 97J",
+            "M E STD M50CW",
+            "PORTGSE 40A"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ECON 1",
+            "ECON 2",
+            "GEOG 4",
+            "GEOG 6",
+            "POL SCI 50",
+            "SOCIOL 1"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ANTHRO 3",
+            "COM LIT 1D",
+            "COM LIT 2DW",
+            "COM LIT 4DW",
+            "ETHNMUS 5",
+            "ETHNMUS M25",
+            "GEOG 3",
+            "HIST 2B",
+            "HIST 22",
+            "WL ARTS 20",
+            "WL ARTS 33"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ARABIC 102C",
+            "ARMENIA 102C",
+            "ARMENIA 105C",
+            "HEBREW 102C",
+            "IRANIAN 102C",
+            "TURKIC 102C",
+            "TURKIC 112C",
+            "TURKIC 116C"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 7,
+          "courses": [
+            "ARABIC M110",
+            "ARABIC 120",
+            "ARABIC C141",
+            "ARABIC M151",
+            "ARMENIA 150A",
+            "ARMENIA C151",
+            "ARMENIA C152",
+            "ARMENIA C153"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": 1,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AN N EA": [
+      "AN N EA 124",
+      "AN N EA 150B",
+      "AN N EA C165",
+      "AN N EA M130"
+    ],
+    "ANTHRO": [
+      "ANTHRO 130",
+      "ANTHRO 135",
+      "ANTHRO 140",
+      "ANTHRO 143",
+      "ANTHRO 146",
+      "ANTHRO 147",
+      "ANTHRO 166P",
+      "ANTHRO 167",
+      "ANTHRO 3",
+      "ANTHRO M166Q"
+    ],
+    "ARABIC": [
+      "ARABIC 102C",
+      "ARABIC 120",
+      "ARABIC 130",
+      "ARABIC 132",
+      "ARABIC 150",
+      "ARABIC C141",
+      "ARABIC M110",
+      "ARABIC M151"
+    ],
+    "ARMENIA": [
+      "ARMENIA 102C",
+      "ARMENIA 105C",
+      "ARMENIA 130",
+      "ARMENIA 131",
+      "ARMENIA 150A",
+      "ARMENIA 160A",
+      "ARMENIA 160B",
+      "ARMENIA C151",
+      "ARMENIA C152",
+      "ARMENIA C153",
+      "ARMENIA C155"
+    ],
+    "ART HIS": [
+      "ART HIS 119A",
+      "ART HIS 28",
+      "ART HIS C120",
+      "ART HIS C145A",
+      "ART HIS C145B",
+      "ART HIS C160",
+      "ART HIS M110A",
+      "ART HIS M110B"
+    ],
+    "COM LIT": [
+      "COM LIT 100",
+      "COM LIT 169",
+      "COM LIT 1D",
+      "COM LIT 2DW",
+      "COM LIT 4DW",
+      "COM LIT M148",
+      "COM LIT M162"
+    ],
+    "COMM": [
+      "COMM 179"
+    ],
+    "ECON": [
+      "ECON 1",
+      "ECON 111",
+      "ECON 112",
+      "ECON 121",
+      "ECON 122",
+      "ECON 2"
+    ],
+    "ENVIRON": [
+      "ENVIRON 134",
+      "ENVIRON M133"
+    ],
+    "ETHNMUS": [
+      "ETHNMUS 136A",
+      "ETHNMUS 161E",
+      "ETHNMUS 161L",
+      "ETHNMUS 161N",
+      "ETHNMUS 5",
+      "ETHNMUS C136B",
+      "ETHNMUS M25"
+    ],
+    "FILM TV": [
+      "FILM TV 112"
+    ],
+    "FRNCH": [
+      "FRNCH 121",
+      "FRNCH 142",
+      "FRNCH 160"
+    ],
+    "GEOG": [
+      "GEOG 135",
+      "GEOG 138",
+      "GEOG 139C",
+      "GEOG 140",
+      "GEOG 141",
+      "GEOG 148",
+      "GEOG 150",
+      "GEOG 158",
+      "GEOG 161",
+      "GEOG 3",
+      "GEOG 4",
+      "GEOG 6",
+      "GEOG M127",
+      "GEOG M131"
+    ],
+    "HEBREW": [
+      "HEBREW 102C",
+      "HEBREW 130",
+      "HEBREW 135",
+      "HEBREW C140",
+      "HEBREW M113"
+    ],
+    "HIST": [
+      "HIST 105A",
+      "HIST 105B",
+      "HIST 105C",
+      "HIST 107A",
+      "HIST 107C",
+      "HIST 107D",
+      "HIST 108A",
+      "HIST 108B",
+      "HIST 109B",
+      "HIST 10B",
+      "HIST 111A",
+      "HIST 111B",
+      "HIST 111C",
+      "HIST 116A",
+      "HIST 116B",
+      "HIST 164B",
+      "HIST 164D",
+      "HIST 164E",
+      "HIST 166A",
+      "HIST 166B",
+      "HIST 167A",
+      "HIST 167B",
+      "HIST 167C",
+      "HIST 168A",
+      "HIST 168B",
+      "HIST 22",
+      "HIST 2B",
+      "HIST 97F",
+      "HIST 97J",
+      "HIST 9D",
+      "HIST M103A",
+      "HIST M103B",
+      "HIST M106",
+      "HIST M184D",
+      "HIST M186B"
+    ],
+    "HNRS": [
+      "HNRS M152",
+      "HNRS M157"
+    ],
+    "I A STD": [
+      "I A STD 1",
+      "I A STD 191",
+      "I A STD 198A",
+      "I A STD 198B",
+      "I A STD 198C"
+    ],
+    "INTL DV": [
+      "INTL DV 110",
+      "INTL DV 130"
+    ],
+    "IRANIAN": [
+      "IRANIAN 102C",
+      "IRANIAN 120",
+      "IRANIAN 131",
+      "IRANIAN 140",
+      "IRANIAN 141",
+      "IRANIAN 142",
+      "IRANIAN 150A",
+      "IRANIAN 150B",
+      "IRANIAN M110A",
+      "IRANIAN M110B",
+      "IRANIAN M110C"
+    ],
+    "ISLM ST": [
+      "ISLM ST 130",
+      "ISLM ST C151"
+    ],
+    "JEWISH": [
+      "JEWISH 140A",
+      "JEWISH 140B",
+      "JEWISH 143",
+      "JEWISH 150B",
+      "JEWISH 151B",
+      "JEWISH 175",
+      "JEWISH M142",
+      "JEWISH M144",
+      "JEWISH M150A",
+      "JEWISH M151A",
+      "JEWISH M155",
+      "JEWISH M182A",
+      "JEWISH M182B",
+      "JEWISH M182C",
+      "JEWISH M184B"
+    ],
+    "M E STD": [
+      "M E STD M50CW"
+    ],
+    "MGMT": [
+      "MGMT 109",
+      "MGMT 127C"
+    ],
+    "POL SCI": [
+      "POL SCI 123A",
+      "POL SCI 124A",
+      "POL SCI 125A",
+      "POL SCI 126",
+      "POL SCI 129",
+      "POL SCI 132A",
+      "POL SCI 134",
+      "POL SCI 137A",
+      "POL SCI 150",
+      "POL SCI 151A",
+      "POL SCI 151B",
+      "POL SCI 151C",
+      "POL SCI 157",
+      "POL SCI 165",
+      "POL SCI 166",
+      "POL SCI 167D",
+      "POL SCI 168",
+      "POL SCI 50",
+      "POL SCI M122B",
+      "POL SCI M167C"
+    ],
+    "PORTGSE": [
+      "PORTGSE 40A"
+    ],
+    "SOCIOL": [
+      "SOCIOL 1",
+      "SOCIOL 116",
+      "SOCIOL 151",
+      "SOCIOL 154",
+      "SOCIOL 182",
+      "SOCIOL 183",
+      "SOCIOL 191D",
+      "SOCIOL 191F"
+    ],
+    "TURKIC": [
+      "TURKIC 102C",
+      "TURKIC 112C",
+      "TURKIC 116C",
+      "TURKIC 160",
+      "TURKIC 165",
+      "TURKIC 170",
+      "TURKIC 180"
+    ],
+    "URBN PL": [
+      "URBN PL M165"
+    ],
+    "WL ARTS": [
+      "WL ARTS 20",
+      "WL ARTS 33",
+      "WL ARTS C139"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AN N EA 124",
+      "dept": "AN N EA",
+      "number": "124",
+      "title": "Middle Egyptian Technical Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 121C. Reading of Middle Egyptian technical literature in hieroglyphic transcription. Medical, veterinary, mathematical, and astronomical texts included. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 121C.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 121C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 150B",
+      "dept": "AN N EA",
+      "number": "150B",
+      "title": "Survey of Ancient Near Eastern Literatures in English: Egypt",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: familiarity with Egyptian history. Enforced requisites: courses M103A, M103B. Survey of 3,000 years of ancient Egyptian literature. Reading of Egyptian texts in translation to study Egypt\u2019s intellectual history and trace transformations in its construction of cultural identity. Topics include invention of writing, autobiography, wisdom texts, narratives,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M103A, M103B.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA M103A",
+          "AN N EA M103B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA C165",
+      "dept": "AN N EA",
+      "number": "C165",
+      "title": "Egyptian Archaeology",
+      "units": 4.0,
+      "description": "Seminar, three hours. Opportunity to research aspects of topics in ancient Egyptian archaeology. Topics vary each year. May be repeated for credit. Concurrently scheduled with course C266. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M130",
+      "dept": "AN N EA",
+      "number": "M130",
+      "title": "Ancient Egyptian Religion",
+      "units": 5.0,
+      "description": "(Same as Religion M132.) Lecture, three hours; discussion, one hour. Introduction to religious beliefs, practices, and sentiments of ancient Egypt to study Egyptian religion as coherent system of thought and sphere of action that once served as meaningful and relevant framework for understanding physical reality and human life for inhabitants\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 130",
+      "dept": "ANTHRO",
+      "number": "130",
+      "title": "Study of Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 135",
+      "dept": "ANTHRO",
+      "number": "135",
+      "title": "Visual Anthropology: Documentary Photography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Photographs in anthropology serve many purposes: as primary data, illustrations of words in books, documentation for disappearing cultures, evidence of fieldwork, material objects for museum exhibitions, and even works of art. Topics include relationships between subject and treatment of image, between art\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 140",
+      "dept": "ANTHRO",
+      "number": "140",
+      "title": "Study of Social Systems",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 3. Introduction to more specialized social anthropology courses. Evaluation of variation in sociocultural systems, with special emphasis on forms of inequality. Basic frameworks of anthropological analysis; historical context and development of social anthropology discipline. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 143",
+      "dept": "ANTHRO",
+      "number": "143",
+      "title": "Economic Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3. Introduction to anthropological perspectives for interpretation of economic life and institutions. Economic facts to be placed in their larger social, political, and cultural contexts; examination of modes of production, distribution, and consumption of goods and services in their relation to social networks, power structures,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 146",
+      "dept": "ANTHRO",
+      "number": "146",
+      "title": "Urban Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for junior/senior social sciences majors. Introduction to modern industrial cities and urban life. Examination of notion of urban space in context of social relations by drawing from historical and cross-cultural urban ethnographies. Urban space is created according to needs of capital\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 147",
+      "dept": "ANTHRO",
+      "number": "147",
+      "title": "Development Anthropology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. Comparative study of planned and unplanned development, in particular as it affects rural societies. Emphasis on impact of capital, technological change and gender differences, economic differentiation and class, urban/rural relations, and migration. Discussion of theoretical issues\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 166P",
+      "dept": "ANTHRO",
+      "number": "166P",
+      "title": "Sub-Saharan Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours. Issues of ecology and political economy; continuing impacts of colonialism, nationalism, and current challenges for development; changes in social relations. Examination of Africa\u2019s significance to development of anthropology. Cultural background for understanding events in contemporary Africa provided. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 167",
+      "dept": "ANTHRO",
+      "number": "167",
+      "title": "Culture Area of Middle East",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of Middle East has suggested many theories as to developmental history of humankind, evolution of human society, birth of monotheism, and origin of agriculture, trade, and cities. Presentation of anthropological material relevant to understanding Middle East as culture area, and Islam as basis of its shared\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 3",
+      "dept": "ANTHRO",
+      "number": "3",
+      "title": "Culture and Society",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor\u2019s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 130",
+        "ANTHRO 140",
+        "ANTHRO 143",
+        "ANTHRO 147"
+      ]
+    },
+    {
+      "course_id": "ANTHRO M166Q",
+      "dept": "ANTHRO",
+      "number": "M166Q",
+      "title": "Culture Area of Maghrib (North Africa)",
+      "units": 4.0,
+      "description": "(Same as Arabic M171 and History M108C.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 102C",
+      "dept": "ARABIC",
+      "number": "102C",
+      "title": "Intermediate Standard Arabic",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 102B. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Intermediate formal Arabic, including listening, speaking, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102B.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 102B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ARABIC C141"
+      ]
+    },
+    {
+      "course_id": "ARABIC 120",
+      "dept": "ARABIC",
+      "number": "120",
+      "title": "Islamic Texts",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 103C. Readings from Qur\u2019an, Tafsir, Hadith, Fiqh. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "Requisite: course 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 130",
+      "dept": "ARABIC",
+      "number": "130",
+      "title": "Classical Arabic Texts",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 103C. Readings from premodern literary texts, with grammatical and syntactical analysis. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "Requisite: course 103C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 132",
+      "dept": "ARABIC",
+      "number": "132",
+      "title": "Philosophical and Kalam Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 120. Readings in premodern philosophy and theology. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC 150",
+      "dept": "ARABIC",
+      "number": "150",
+      "title": "Classical Arabic Literature in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Readings in English; knowledge of Arabic not required. Survey of premodern Arabic cultural production in its political, religious, and social contexts. Coverage of pre-Islamic Arabia, rise of Islam, and major themes of Southwest Asian history, along with significant figures and moments in literature and culture of premodern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC C141",
+      "dept": "ARABIC",
+      "number": "C141",
+      "title": "Modern Arabic Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Conducted in English and Arabic, with all required readings in original Arabic only. Readings in modern Arabic literature, variably organized across or around particular trends, genres, topics, canonical authors, regional, or national literatures, mixing thematic and formal analyses of literary and critical texts and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC M110",
+      "dept": "ARABIC",
+      "number": "M110",
+      "title": "One Thousand and One Nights/Alf Layla Wa-Layla",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M110.) Lecture, three hours. Knowledge of Arabic not required. Since its appearance in Europe in 1704, One Thousand and One Nights is most well-known work of Arabic literature in West. Examination of cycle of tales more commonly known as Arabian Nights, including history of its translation,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARABIC M151",
+      "dept": "ARABIC",
+      "number": "M151",
+      "title": "Modern Arabic Literature in English",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M167.) Lecture, three hours. Designed for upper-division literature majors. Topics may include constructions of otherness in modern Arab culture; East-West debate; memory, trauma, and mourning; violence, narrative, and ethics; globalization, oil, and cultural insurgency; Arab culture in transnational context or questions of reception, exoticism, translation, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 102C",
+      "dept": "ARMENIA",
+      "number": "102C",
+      "title": "Intermediate Modern Western Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 1C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Reading of selected texts, composition, and conversation. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ARMENIA 160A",
+        "ARMENIA 160B"
+      ]
+    },
+    {
+      "course_id": "ARMENIA 105C",
+      "dept": "ARMENIA",
+      "number": "105C",
+      "title": "Intermediate Modern Eastern Armenian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended requisite: course 4C. Students with knowledge of Eastern or Western Armenian (from elementary or high school) should contact instructor to determine appropriate enrollment level. Continuing introduction to Armenian grammar, with greater attention to readings from short stories and simple newspaper articles and film viewing on video.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 130",
+      "dept": "ARMENIA",
+      "number": "130",
+      "title": "Armenian Civilization under Bagratid Dynasty, 884 to 1064",
+      "units": 4.0,
+      "description": "Lecture, four hours. Interdisciplinary investigation of interface between sociopolitical and economic factors in creation of works of art (literature, art, architecture, etc.) and social function these works performed in this important period of Armenian history. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 131",
+      "dept": "ARMENIA",
+      "number": "131",
+      "title": "Armenian Civilization in Cilician Period, 1080 to 1375",
+      "units": 4.0,
+      "description": "Lecture, four hours. Interdisciplinary investigation of rise and fall of unique form of Armenian polity established outside homeland and examination of degree to which its social structure and cultural and aesthetic norms were impacted by those of West (Byzantium, Western Europe) and East (Crusader states, Seljuqs, Mamluks, Mongols). Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 150A",
+      "dept": "ARMENIA",
+      "number": "150A",
+      "title": "Survey of Armenian Literature in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Armenian not required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 160A",
+      "dept": "ARMENIA",
+      "number": "160A",
+      "title": "Armenian Literature of 19th and 20th Centuries",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Reading of texts and discussion of various genres of modern Armenian literature within context of Armenian cultural renaissance. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARMENIA 102A",
+          "ARMENIA 102B",
+          "ARMENIA 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA 160B",
+      "dept": "ARMENIA",
+      "number": "160B",
+      "title": "Armenian Literature of 19th and 20th Centuries",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Reading of texts and discussion of various genres of modern Armenian literature within context of Armenian cultural renaissance. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARMENIA 102A",
+          "ARMENIA 102B",
+          "ARMENIA 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA C151",
+      "dept": "ARMENIA",
+      "number": "C151",
+      "title": "Armenian Literature and Canon Formation",
+      "units": 4.0,
+      "description": "Lecture, four hours. Discussion of fundamental themes and genres around which Armenian literary tradition evolved and modalities by which this has been transformed in course of last two centuries as result of exposure to European thought and expressive forms. Concurrently scheduled with course C251. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA C152",
+      "dept": "ARMENIA",
+      "number": "C152",
+      "title": "Modern Armenian Drama as Vehicle for Social Critique",
+      "units": 4.0,
+      "description": "Lecture, four hours. Readings of selected plays from 1668 to 1992 from three main genres of tragedy, comedy, and serious drama and featuring works by most significant Armenian playwrights, with focus on their role as commentators on contemporary mores and as agents for social reform. Concurrently scheduled with course C252.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA C153",
+      "dept": "ARMENIA",
+      "number": "C153",
+      "title": "Art, Politics, and Nationalism in Modern Armenian Literature",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of role of literature in modern Armenian society in service to cause or causes, as propaganda for various ideologies, as art for art\u2019s sake, etc. Exploration of contrasting aesthetics implicit in these differing interpretations. Concurrently scheduled with course C253. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARMENIA C155",
+      "dept": "ARMENIA",
+      "number": "C155",
+      "title": "Issues in Armenian American Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, four hours. Preparation: reading knowledge of modern Eastern and Western Armenian. Theoretically informed exploration of some of most salient questions related to Armenian American community as reflected in its literature and other cultural artifacts in interaction with its pluralistic American ambience. Concurrently scheduled with course C255. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 119A",
+      "dept": "ART HIS",
+      "number": "119A",
+      "title": "Western Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. From Tigris and Euphrates Rivers to Spain, 7th to 16th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 28",
+      "dept": "ART HIS",
+      "number": "28",
+      "title": "Arts of Africa",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. Introduction to arts and architecture of Africa. Examination of social and historical contexts of their production. Introduction to body of information within framework of conceptual problem through series of case studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C120",
+      "dept": "ART HIS",
+      "number": "C120",
+      "title": "Selected Topics in Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in Islamic art and architecture that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C220A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C145A",
+      "dept": "ART HIS",
+      "number": "C145A",
+      "title": "Architecture and Urbanism in Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of African built environment at various moments and in different places from about 200 CE to present, with emphasis on cultural, social, and historical contexts of architecture, gender, and space, and contemporary African cities. Concurrently scheduled with course C245A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C145B",
+      "dept": "ART HIS",
+      "number": "C145B",
+      "title": "Contemporary Arts of Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Survey of African visual practices since mid-20th century, with special emphasis on changing meaning of art object, status of African artist, global reception of contemporary African art, and very definitions of contemporary African art. Concurrently scheduled with course C245B. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C160",
+      "dept": "ART HIS",
+      "number": "C160",
+      "title": "Art and Empire",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Examination of relationship between art and imperial ideologies and introduction to current issues in colonial studies and postcolonial criticism. Concurrently scheduled with course C260A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M110A",
+      "dept": "ART HIS",
+      "number": "M110A",
+      "title": "Art and Architecture of Ancient Egypt, Predynastic Period to New Kingdom",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East CM101A.) Lecture, three hours. Study of architecture, sculpture, painting, and minor arts during Predynastic period and Old Kingdom. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS M110B",
+      "dept": "ART HIS",
+      "number": "M110B",
+      "title": "Art and Architecture of Ancient Egypt, New Kingdom to Greco-Roman Period",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East CM101B.) Lecture, three hours. Study of architecture, sculpture, painting, and minor arts from New Kingdom to Greco-Roman period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 100",
+      "dept": "COM LIT",
+      "number": "100",
+      "title": "Introduction to Literary and Critical Theory",
+      "units": 5.0,
+      "description": "Lecture, four hours. Preparation: satisfaction of Entry-Level Writing and College Writing requirements. Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc. Seminar-style introduction to discipline of comparative literature presented through series of texts illustrative of its formation and practice. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM LIT 1",
+            "COM LIT 2",
+            "ENGLISH 10",
+            "SPANISH 60"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 169",
+      "dept": "COM LIT",
+      "number": "169",
+      "title": "Continental African Authors",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from 1A, 1B, 1C, 2AW, 2BW, 2CW, or English Composition 3 or 3H. Introduction to new set of African authors and attempt to discern similarities or differences they may have with major authors such as Achebe, Ngugi, Armath, Soyinka, etc. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: one course from 1A, 1B, 1C, 2AW, 2BW, 2CW, or English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM LIT 1A",
+            "COM LIT 1B",
+            "COM LIT 1C",
+            "COM LIT 2AW",
+            "COM LIT 2BW",
+            "COM LIT 2CW",
+            "ENGLISH COMP 3",
+            "ENGLISH COMP 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 1D",
+      "dept": "COM LIT",
+      "number": "1D",
+      "title": "Great Books from World at Large",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: satisfaction of Entry-Level Writing requirement. Not open for credit to students with credit for course 2DW or 4DW. Study of major literary texts usually overlooked in courses that focus only on canon of Western literature. Texts from at least three of following\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: satisfaction of Entry-Level Writing requirement.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 2DW",
+      "dept": "COM LIT",
+      "number": "2DW",
+      "title": "Survey of Literature: Great Books from World at Large",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, two hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 1D or 4DW. Study of major literary texts usually overlooked in courses that focus only on canon of Western literature, with emphasis on literary analysis and expository writing. Texts\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT 4DW",
+      "dept": "COM LIT",
+      "number": "4DW",
+      "title": "Literature and Writing: Great Books from World at Large",
+      "units": 5.0,
+      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 1D or 2DW. Study and discussion of major literary texts usually overlooked in courses that focus only on canon of Western literature, with emphasis on literary analysis and expository writing. Texts from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT M148",
+      "dept": "COM LIT",
+      "number": "M148",
+      "title": "Contemporary Arab Film and Song",
+      "units": 4.0,
+      "description": "(Same as Arabic M148.) Seminar, three hours. Exploration of conjunctions between contemporary Arab film and song and between popular cultures and cultures of commitment (Iltizam), with possible focus on specific genres such as realist/neorealist Arab film; feminist Arab film or popular Arab film and song; topics such as nation, gender,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM LIT M162",
+      "dept": "COM LIT",
+      "number": "M162",
+      "title": "Israel Seen through Its Literature",
+      "units": 4.0,
+      "description": "(Same as Jewish Studies M162.) Lecture, three hours. Attempt to impart profound understanding of Israel as seen through its literature. Examination of variety of literary texts\u2014stories, novels, and poems\u2014and reading of them in context of their historical backgrounds. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMM 179",
+      "dept": "COMM",
+      "number": "179",
+      "title": "Images of U.S.",
+      "units": 4.0,
+      "description": "Lecture, four hours. Awareness of international role of U.S. necessitates clear understanding of way our nation is perceived by others. Exploration of roots of U.S. images in minds of people abroad. Analysis of influences that contribute to images and ways in which images affect practical matters. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 1",
+      "dept": "ECON",
+      "number": "1",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on allocation of resources and distribution of income through price system. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ECON 2"
+      ]
+    },
+    {
+      "course_id": "ECON 111",
+      "dept": "ECON",
+      "number": "111",
+      "title": "Theories of Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 11, 101, 103. Corequisite: course 111L. Application of theoretical and empirical tools from microeconomics to provide insights into problems confronting low-income countries today and to evaluate policies that are likely to be effective in improving well-being of poorest on globe. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 11, 101, 103. Corequisite: course 111L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 101",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 111L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 112"
+      ]
+    },
+    {
+      "course_id": "ECON 112",
+      "dept": "ECON",
+      "number": "112",
+      "title": "Policies for Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102 or 111. Suggested strategies for economic development: inflation, balanced growth, industry versus agriculture, import substitution, export-oriented expansion, foreign aid, and others. Selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102 or 111.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ECON 102",
+            "ECON 111"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 121",
+      "dept": "ECON",
+      "number": "121",
+      "title": "International Trade Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 101. Corequisite: course 121L. Not open to students with credit for former course 120. Theory of international trade: bases, direction, terms, volume, and gains of trade. Effects of tariffs, quantitative restrictions, and international integration. Effects of free and restricted trade on economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 101. Corequisite: course 121L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 101"
+        ],
+        "corequisites": [
+          "ECON 121L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 122",
+      "dept": "ECON",
+      "number": "122",
+      "title": "International Finance",
+      "units": 4.0,
+      "description": "Lecture, three hours. Python is commonly used programming language for data science. It is powerful and easy to learn tool that can be applied to make simple histograms or fit complicated machine learning models. Introduction to using Python for basic data exploration, analysis, and visualization. Emphasis on applications with economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 2",
+      "dept": "ECON",
+      "number": "2",
+      "title": "Principles of Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 1. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on aggregative economics, including national income, monetary and fiscal policy, and international trade. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON 134",
+      "dept": "ENVIRON",
+      "number": "134",
+      "title": "Environmental Economics with Data Analysis",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: one course from Economics 41, Life Sciences 40, Political Science 6, Statistics 10, 12, 13, or other statistical analysis course approved by instructor. Examination of challenges of balancing environmental protection with wants and needs of people in economy. Focus on how to design efficient public policies\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: one course from Economics 41, Life Sciences 40, Political Science 6, Statistics 10, 12, 13, or other statistical analysis course approved by instructor.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ECON 41",
+            "LIFE SCI 40",
+            "POL SCI 6",
+            "STATS 10",
+            "STATS 12",
+            "STATS 13"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENVIRON M133",
+      "dept": "ENVIRON",
+      "number": "M133",
+      "title": "Environmental Sociology",
+      "units": 4.0,
+      "description": "(Same as Society and Genetics M133 and Sociology M115.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 136A",
+      "dept": "ETHNMUS",
+      "number": "136A",
+      "title": "Music of Africa",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Introduction to music of Africa through general discussion of select topics such as continent and its peoples, function, musician, instruments, musical structure and related arts, and contemporary music. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 161E",
+      "dept": "ETHNMUS",
+      "number": "161E",
+      "title": "Advanced World Music Performance Organizations: Music and Dance of Ghana",
+      "units": 2.0,
+      "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 161L",
+      "dept": "ETHNMUS",
+      "number": "161L",
+      "title": "Advanced World Music Performance Organizations: Music of Persia",
+      "units": 2.0,
+      "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 161N",
+      "dept": "ETHNMUS",
+      "number": "161N",
+      "title": "Advanced World Music Performance Organizations: Music of Near East",
+      "units": 2.0,
+      "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 5",
+      "dept": "ETHNMUS",
+      "number": "5",
+      "title": "Music Around World",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Overview of world\u2019s musical traditions by selecting one or two case studies from each of nine musical world regions: Pacific, East Asia, Southeast Asia, South Asia, Middle East, Africa, Europe, Latin America, and U.S. and Canada. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS C136B",
+      "dept": "ETHNMUS",
+      "number": "C136B",
+      "title": "Music of Africa",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Introduction to music of various African cultures and regions. Through readings, lectures, viewing of films, and analysis of music, students gain greater understanding of diverse musical traditions found on African continent and become more cognizant of contributions that people of Africa have made\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS M25",
+      "dept": "ETHNMUS",
+      "number": "M25",
+      "title": "Global Pop",
+      "units": 5.0,
+      "description": "(Same as Global Jazz Studies M25.) Lecture, four hours; discussion, one hour. Development of world music or world beat, including its meaning and importance to contemporary culture as well as its history and impact. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILM TV 112",
+      "dept": "FILM TV",
+      "number": "112",
+      "title": "Film and Social Change",
+      "units": 6.0,
+      "description": "Lecture/screenings, six hours; discussion, one hour. Development of documentary and dramatic films in relation to and as force in social development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 121",
+      "dept": "FRNCH",
+      "number": "121",
+      "title": "Studies in Francophone Cultures and Literatures",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of Francophone cultures and literatures, including works by poets, playwrights, and novelists from Caribbean, North Africa, Quebec, and sub-Saharan Africa, immigrant narratives, and colonialism and postcolonial studies. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 142",
+      "dept": "FRNCH",
+      "number": "142",
+      "title": "Francophone Cinema",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of Francophone (Africa, Caribbean, postcolonial communities in France) cinema and cinematographers in generic, thematic, and sociocultural aspects. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FRNCH 160",
+      "dept": "FRNCH",
+      "number": "160",
+      "title": "Francophone Cultures in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of historical, anthropological, legal, literary, or filmic texts to provide students with broad view of some main issues in field of colonial and postcolonial Francophone studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 135",
+      "dept": "GEOG",
+      "number": "135",
+      "title": "Africa and African Diaspora in Americas",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Historical-geographical examination of Africa\u2019s role in Americas, with emphasis on environment, agriculture, food systems, and medicinal crops. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 138",
+      "dept": "GEOG",
+      "number": "138",
+      "title": "Wildlife Conservation in Eastern and Southern Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 5. Designed for juniors/seniors. Analysis of tropical ecosystems of eastern Africa, including wildlife communities, vegetation, climate, and human impact. Discussion of national park systems and their natural and anthropogenic ecological dynamics. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 139C",
+      "dept": "GEOG",
+      "number": "139C",
+      "title": "Problems in Geography: Culture and Environment in Modern World",
+      "units": 4.0,
+      "description": "Seminar, three hours; reading period, one hour. Preparation: completion of three courses in one concentration. Limited to seniors. Seminar course in which students carry out intensive research projects developed from courses within one concentration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 140",
+      "dept": "GEOG",
+      "number": "140",
+      "title": "Social Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Study of spatiality of social differences such as race, class, gender, age, sexuality, location. Critical explorations of identity, social categories, and spatial structures. Importance of space and place in social life. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 141",
+      "dept": "GEOG",
+      "number": "141",
+      "title": "Cultural Geography of Modern World",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors and graduate students. Historical and structural approach to cultural geography of modern world system, with particular emphasis on structure and functioning of its core, semi-periphery, and periphery. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 148",
+      "dept": "GEOG",
+      "number": "148",
+      "title": "Political Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Spatiality of political activity, spatial constitution of political power, control over space as central component to political struggles. Studies at local, national, state, and global scales. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 150",
+      "dept": "GEOG",
+      "number": "150",
+      "title": "Economic Geography",
+      "units": 4.0,
+      "description": "Lecture, three hours; reading period, one hour. Requisite: course 4. Designed for juniors/seniors. Geographical aspects of economic production and growth. General theory of space-economy. Land-use processes. Location of industry. Regional development. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 4.",
+      "prereqs_parsed": {
+        "required": [
+          "GEOG 4"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 158",
+      "dept": "GEOG",
+      "number": "158",
+      "title": "Population Geography",
+      "units": 4.0,
+      "description": "(Formerly numbered 142.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Study of social and behavioral perspectives influencing people in their patterns of demographic change, migration, and mobility, with special emphasis on spatial relationships and selected case studies. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 161",
+      "dept": "GEOG",
+      "number": "161",
+      "title": "Cities and Social Difference",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Consideration of how a city comes to look and feel the way it does, who gets to claim space, and the role of race and movements for social justice in this process. Examination of the way that race and inequality are built into the\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 3",
+      "dept": "GEOG",
+      "number": "3",
+      "title": "Cultural Geography",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to cultural geography of modern world, with examination of key concepts of space, place, and landscape as these have shaped and been shaped by connections between societies and their natural environments. Examples from variety of landscapes and places since 1800 and especially from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 4",
+      "dept": "GEOG",
+      "number": "4",
+      "title": "Globalization: Regional Development and World Economy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Economic geography explores spatial distribution of all forms of human productive activity at number of geographical scales\u2014local, regional, national, and global. Key theme is impact of increasingly powerful global economic forces on organization of production. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GEOG 150"
+      ]
+    },
+    {
+      "course_id": "GEOG 6",
+      "dept": "GEOG",
+      "number": "6",
+      "title": "World Regions: Concepts and Contemporary Issues",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Interdisciplinary and historical approach to modern peoples, their differences in wealth or poverty, and their local origins of food production. Brief introduction to physical geography and biogeography of each region. Discussion of each region\u2019s peoples, languages, foods, prehistories, and histories. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M127",
+      "dept": "GEOG",
+      "number": "M127",
+      "title": "Global Environment and Development: Problems and Issues",
+      "units": 4.0,
+      "description": "(Same as Urban Planning CM166.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Questions of population, resource use, Third World poverty, and environment. Analysis of global economic restructuring and its connections to changing organization of production and resulting environmental impacts. Case studies from Africa, Latin America, Asia, and U.S.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M131",
+      "dept": "GEOG",
+      "number": "M131",
+      "title": "Human Impact on Biophysical Environment",
+      "units": 4.0,
+      "description": "(Same as Environment M131.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of history, mechanisms, and consequences of interactions between humans and environment. Exploration in depth of three thematic topics (deforestation, desertification, and greenhouse gas increase and ozone depletion) and four major subjects (soil, biodiversity, water, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 102C",
+      "dept": "HEBREW",
+      "number": "102C",
+      "title": "Intermediate Hebrew",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 102B or Hebrew placement test. Not open to native speakers. Amplification of grammar; reading of texts from modern literature. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 102B or Hebrew placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 102B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 130",
+      "dept": "HEBREW",
+      "number": "130",
+      "title": "Rabbinic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in Mishnah, Talmud, and/or Midrash. May be repeated for credit.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 103A",
+          "HEBREW 103B",
+          "HEBREW 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 135",
+      "dept": "HEBREW",
+      "number": "135",
+      "title": "Medieval Hebrew Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in medieval Hebrew prose and poetry. May be repeated for maximum of 16 units. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 103A",
+          "HEBREW 103B",
+          "HEBREW 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW C140",
+      "dept": "HEBREW",
+      "number": "C140",
+      "title": "Modern Hebrew Poetry and Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, and 103C, or equivalent knowledge of Hebrew. Study of major Hebrew writers of past 100 years. May be repeated for credit. Concurrently scheduled with course C240. Letter grading.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, and 103C, or equivalent knowledge of Hebrew.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "HEBREW 103A",
+            "HEBREW 103B",
+            "HEBREW 103C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW M113",
+      "dept": "HEBREW",
+      "number": "M113",
+      "title": "Contemporary Israeli Short Stories/Novellas and Films in English",
+      "units": 5.0,
+      "description": "(Same as Jewish Studies M113.) Lecture, three hours; laboratory, two hours. Exploration of Israeli short stories/novellas and films (translated into English) written since mid-1980s that use, each to varying degree, postmodernist techniques to undermine predominance of modernist-Zionist narrative. Recycling and reexamination of Israeli condition and Zionist condition and skepticism about\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105A",
+      "dept": "HIST",
+      "number": "105A",
+      "title": "Survey of Middle East, 500 to Present: 500 to 1300",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105B",
+      "dept": "HIST",
+      "number": "105B",
+      "title": "Survey of Middle East, 500 to Present: 1300 to 1700",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 105C",
+      "dept": "HIST",
+      "number": "105C",
+      "title": "Survey of Middle East, 500 to Present: 1700 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Background and circumstances of rise of Islam, creation of Islamic Empire, and its development. Rise of Dynastic Successor States and Modern Nation States. Social, intellectual, political, and economic development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107A",
+      "dept": "HIST",
+      "number": "107A",
+      "title": "Armenian History: Armenia in Ancient and Medieval Times, 2nd Millennium BC to AD 11th Century",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107C",
+      "dept": "HIST",
+      "number": "107C",
+      "title": "Armenian History: Armenia in Modern and Contemporary Times, 19th and 20th Centuries",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Armenian question and genocide, national republic, Soviet Armenia, and dispersion. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 107D",
+      "dept": "HIST",
+      "number": "107D",
+      "title": "Introduction to Armenian Oral History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Uses and techniques of Armenian oral history; preinterview, interview, and postinterview procedures; methods of compilation and evaluation. Field assignments, interviews, and summaries and/or paper based on interviews. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 108A",
+      "dept": "HIST",
+      "number": "108A",
+      "title": "History of North Africa from Islamic Conquest",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of political, social, economic, and religious history of Islamic West (Maghrib) from Muslim conquest in 7th and 8th centuries CE until 1578. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 108B",
+      "dept": "HIST",
+      "number": "108B",
+      "title": "History of Islamic Iberia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of political, social, economic, religious, artistic, and literary history of Islamic culture in Western Europe. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 109B",
+      "dept": "HIST",
+      "number": "109B",
+      "title": "History of Israeli-Palestinian Conflict, 1881 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of origins of Arab-Israeli dispute from mid-19th century through founding of state of Israel and expulsion/flight of three quarters of million Palestinians from their homes. Exploration of social history of Palestine up to Zionist colonization, origins of Zionism\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 10B",
+      "dept": "HIST",
+      "number": "10B",
+      "title": "History of Africa, 1800 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Not open for credit to students with credit for course 10BH or 10BW. Survey of social, economic, and political developments in Africa since 1800, with focus on slave trade, imperialism and colonialism, and nationalism and independence. Attention to different ideologies (nationalism, socialism, apartheid), rural/urban\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111A",
+      "dept": "HIST",
+      "number": "111A",
+      "title": "Topics in Middle Eastern History: Premodern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of major issues in history of Middle East. May be repeated for maximum of 16 units with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111B",
+      "dept": "HIST",
+      "number": "111B",
+      "title": "Topics in Middle Eastern History: Early Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of Istanbul in Ottoman period (1453 to 1923); relationship between history and literary imagination and view of history as dialogue between past and present; scholarly debate on urban history of early-modern Middle East; introduction to corpus of theories\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 111C",
+      "dept": "HIST",
+      "number": "111C",
+      "title": "Topics in Middle Eastern History: Modern",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Middle East underwent widespread social, economic, and cultural changes during 19th century that propelled society, at least portions of society and aspects of its social/cultural life, in entirely new direction. Examination of those changes to understand exactly what modernity\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 116A",
+      "dept": "HIST",
+      "number": "116A",
+      "title": "Byzantine History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political, socioeconomic, religious, and cultural continuity in millennial history of Byzantium. Reforms of Diocletian. Byzantium\u2019s relations with Latin Europe, Slavs, Sassanids, Arabs, and Turks. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 116B",
+      "dept": "HIST",
+      "number": "116B",
+      "title": "Byzantine History",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political, socioeconomic, religious, and cultural continuity in millennial history of Byzantium. Reforms of Diocletian. Byzantium\u2019s relations with Latin Europe, Slavs, Sassanids, Arabs, and Turks. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 164B",
+      "dept": "HIST",
+      "number": "164B",
+      "title": "Topics in African History: Africa and Slave Trade",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Preparation: one prior course in African history at UCLA. Designed for juniors/seniors. Social, economic, political, and cultural impact of slave trade on African society, with emphasis on Atlantic trade without neglecting those of ancient Mediterranean, Islamic, and Indian Ocean worlds. Abolition and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 164D",
+      "dept": "HIST",
+      "number": "164D",
+      "title": "Topics in African History: Africa and Diaspora in Global and Comparative Perspective",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Preparation: one prior course in African history at UCLA. Designed for juniors/seniors. Forced migration of Africans through overseas slave trade was formative event of modern world. Exploration of that experience and its lasting consequences by placing it in its global context\u2014African, American,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 164E",
+      "dept": "HIST",
+      "number": "164E",
+      "title": "Topics in African History: Africa, 1945 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Preparation: one prior course in African history at UCLA. Designed for juniors/seniors. History of Africa south of Sahara from end of World War II to present. Last phases of colonial rule in Africa, African nationalism, Pan-Africanism, liberation movements, and achievement of independence.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 166A",
+      "dept": "HIST",
+      "number": "166A",
+      "title": "History of West Africa: West Africa, Earliest Times to 1800",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 166B",
+      "dept": "HIST",
+      "number": "166B",
+      "title": "History of West Africa: West Africa since 1800",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 167A",
+      "dept": "HIST",
+      "number": "167A",
+      "title": "History of Northeast Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of history of Ethiopia, Sudan, and Somalia in regional context of northeast Africa from earliest times to present, with emphasis on economy and society, evolution of state, and significance of Christianity and Islam. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 167B",
+      "dept": "HIST",
+      "number": "167B",
+      "title": "History of East Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of cultural diversity of east Africa from earliest times to growth of complex societies, its place within wider Indian Ocean system, and colonial conquest to gaining of independence and postcolonial challenges. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 167C",
+      "dept": "HIST",
+      "number": "167C",
+      "title": "History of Central Africa",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of history of central Africa from earliest times, with emphasis on establishment of agriculture, growth of trade, rise of states, and incorporation of region into world economy. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 168A",
+      "dept": "HIST",
+      "number": "168A",
+      "title": "History of Southern Africa, Origins to 1870",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Attention to social and economic as well as political aspects. Origins of South African peoples and their interactions to 1870. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 168B",
+      "dept": "HIST",
+      "number": "168B",
+      "title": "History of Southern Africa since 1870",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Attention to social and economic as well as political aspects. Interactions between inhabitants of southern Africa since 1870. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 22",
+      "dept": "HIST",
+      "number": "22",
+      "title": "Contemporary World History, 1760 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Broad thematic survey of world history since the mid-18th century. Examination, through lecture and discussion, of global implications of imperialism, total war, nationalism, cultural change, decolonization, changes in women\u2019s rights and roles, and eclipse of world communism. Designed to introduce students to historical study,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 2B",
+      "dept": "HIST",
+      "number": "2B",
+      "title": "Social Knowledge and Social Power",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. History of social knowledge and social power in the 19th and 20th centuries. Everyday ideas and practices about human nature, common sense, and community and relation of those practices to social thought, social engineering, and social science. Themes include development of social knowledges through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 97F",
+      "dept": "HIST",
+      "number": "97F",
+      "title": "Introduction to Historical Practice: Variable Topics in Near Eastern History",
+      "units": 4.0,
+      "description": "Seminar, three hours. Discussion classes of no more than 15 students. Introduction to study of history, with emphasis on historical theory and research methods. Variable topics courses; consult Schedule of Classes for topics to be offered in specific term. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 97J",
+      "dept": "HIST",
+      "number": "97J",
+      "title": "Introduction to Historical Practice: Variable Topics in African History",
+      "units": 4.0,
+      "description": "Seminar, three hours. Discussion classes of no more than 15 students. Introduction to study of history, with emphasis on historical theory and research methods. Variable topics courses; consult Schedule of Classes for topics to be offered in specific term. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9D",
+      "dept": "HIST",
+      "number": "9D",
+      "title": "Introduction to Asian Civilizations: History of Middle East",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to history of Muslim world from advent of Islam to present day. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M103A",
+      "dept": "HIST",
+      "number": "M103A",
+      "title": "History of Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M103A.) Lecture, three hours; discussion, one hour (when scheduled). Course M103A is not requisite to M103B. Designed for juniors/seniors. Political and cultural institutions of ancient Egypt and ideas on which they were based. Chronological discussion of Prehistory, Old and Middle Kingdom. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M103B",
+      "dept": "HIST",
+      "number": "M103B",
+      "title": "History of Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M103B.) Lecture, three hours; discussion, one hour (when scheduled). Course M103A is not requisite to M103B. Designed for juniors/seniors. Political and cultural institutions of ancient Egypt and ideas on which they were based. New Kingdom and Late period until 332 BC. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M106",
+      "dept": "HIST",
+      "number": "M106",
+      "title": "Premodern Islam",
+      "units": 4.0,
+      "description": "(Same as Religion M106A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of early development of Islam with special attention to doctrine of nature of God, human responsibility, guidance, revelation and religious authority, duties of believers, ritual, law, sectarian movements, mysticism, and popular religion. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M184D",
+      "dept": "HIST",
+      "number": "M184D",
+      "title": "History of Zionism and State of Israel",
+      "units": 4.0,
+      "description": "(Same as Jewish Studies M184D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of history of State of Israel from 1948 to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M186B",
+      "dept": "HIST",
+      "number": "M186B",
+      "title": "Global Feminism, 1850 to Present",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M186B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to movements for women\u2019s rights (educational, political, economic, sexual, and reproductive) around world and over one and one half centuries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS M152",
+      "dept": "HNRS",
+      "number": "M152",
+      "title": "(When) Do Leaders Make Differences?",
+      "units": 5.0,
+      "description": "(Same as Anthropology M148 and Geography M142.) Lecture, two hours; discussion, two hours. Examination of leaders who did or did not succeed in effecting change, as background to understanding conditions under which leaders can make differences. Comparison of political leaders, business chief executive officers, sports coaches, and religious leaders. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS M157",
+      "dept": "HNRS",
+      "number": "M157",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "(Same as Political Science M132B.) Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Role of great powers in Middle East, with emphasis on American, Soviet, and West European policies since 1945. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 1",
+      "dept": "I A STD",
+      "number": "1",
+      "title": "Introduction to International and Area Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to international and area studies from interdisciplinary framework, covering themes related to international politics and markets, as well as international societies and cultures, to illuminate and clarify profoundly international character of world we live in and to introduce set of contemporary issues and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "I A STD 191"
+      ]
+    },
+    {
+      "course_id": "I A STD 191",
+      "dept": "I A STD",
+      "number": "191",
+      "title": "Variable Topics Senior Research Seminars: International and Area Studies",
+      "units": 4.0,
+      "description": "Seminar, three hours. Enforced requisite: course 1. Limited to senior international and area studies majors. Organized on topics basis with readings, discussions, papers, and development of culminating project. May not be repeated for credit. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "I A STD 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 198A",
+      "dept": "I A STD",
+      "number": "198A",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to international and area studies honors program students. Supervised individual research or investigation under guidance of faculty mentor. Development and planning of honors thesis. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "I A STD 198B"
+      ]
+    },
+    {
+      "course_id": "I A STD 198B",
+      "dept": "I A STD",
+      "number": "198B",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Enforced requisite: course 198A. Limited to international and area studies honors program students. Supervised individual research or investigation under guidance of faculty mentor. Continued development and refinement of honors thesis. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "I A STD 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "I A STD 198C",
+      "dept": "I A STD",
+      "number": "198C",
+      "title": "Honors Research in International and Area Studies",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Enforced requisite: course 198B. Limited to international and area studies honors program students. Final drafting and submission of completed honors thesis. Culminating paper of 35 to 50 pages required. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV 110",
+      "dept": "INTL DV",
+      "number": "110",
+      "title": "Culture, Power, and Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Broad introduction to theoretical traditions in development studies, with focus on dynamics of culture, power, markets, states and social movements, with selected case studies in developing nations and comparative case analysis across Global South and North. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INTL DV 130",
+      "dept": "INTL DV",
+      "number": "130",
+      "title": "Theory and History in International Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Social scientific survey of debates over policies contributing to economic development and underdevelopment. Topics include measurement and statistics, social and industrial policies, inequality, poverty, and historical differences for development paths across Europe, Asia, Africa, and Latin America. Letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "INTL DV 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 102C",
+      "dept": "IRANIAN",
+      "number": "102C",
+      "title": "Intermediate Persian",
+      "units": 5.0,
+      "description": "Lecture, six hours. Requisite: course 102B. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102B.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "IRANIAN 140",
+        "IRANIAN 141",
+        "IRANIAN 142"
+      ]
+    },
+    {
+      "course_id": "IRANIAN 120",
+      "dept": "IRANIAN",
+      "number": "120",
+      "title": "Comparative Study of Six Major Persian Poets",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Preparation: knowledge of Persian. Lectures in Persian, readings in English and Persian. Comparative study of six major Persian poets from 10th to 14th century who shaped sense of Persian identity and delineated chief distinguishing characteristics of Persian thought and culture. May be repeated for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 131",
+      "dept": "IRANIAN",
+      "number": "131",
+      "title": "Introduction to Judeo-Persian: Literature and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: knowledge of Persian equivalent to course 102C. Introduction to history of Judeo-Persian literature and culture to prepare students to read Judeo-Persian texts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 140",
+      "dept": "IRANIAN",
+      "number": "140",
+      "title": "Persian Belles Lettres (Adabiyyat)",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Study of major Persian poets and prose writers: prose\u2014Sohravardi, Hamad\u00e2ni, Nasafi, Ir\u00e2qi, and others; poetry\u2014H\u00e2fez, Sa\u2019di, R\u00fbmi, Bah\u00e2r, Dehkhoda, and others. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 141",
+      "dept": "IRANIAN",
+      "number": "141",
+      "title": "Persian Analytical Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Study of selected analytical and expository prose texts, with emphasis on philosophy, sciences, literary criticism, and history. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 142",
+      "dept": "IRANIAN",
+      "number": "142",
+      "title": "Persian Popular Ethics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 102C. Study of major Persian works on popular ethics that have helped shape normative social, cultural, and political values in Iranian civilization. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "IRANIAN 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 150A",
+      "dept": "IRANIAN",
+      "number": "150A",
+      "title": "Survey of Persian Literature in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Persian not required. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 150B",
+      "dept": "IRANIAN",
+      "number": "150B",
+      "title": "Survey of Persian Literature in English",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Persian not required. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110A",
+      "dept": "IRANIAN",
+      "number": "M110A",
+      "title": "Iranian Civilization: History of Achaemenid Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110A and History M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire\u2019s religions, and Greco-Persian interactions. Further accents on Cyrus\u2019 empire and Darius\u2019 world\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110B",
+      "dept": "IRANIAN",
+      "number": "M110B",
+      "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110B and History M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN M110C",
+      "dept": "IRANIAN",
+      "number": "M110C",
+      "title": "Iranian Civilization: History of Early Sasanian Empire\u00e2\u20ac\u201dFrom Ardashir I to Rise of Peroz (circa 224-459 CE)",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M110C and History M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire\u2019s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ISLM ST 130",
+      "dept": "ISLM ST",
+      "number": "130",
+      "title": "Shi'a in Islamic History",
+      "units": 4.0,
+      "description": "Seminar, three hours; discussion, one hour. Rise and development of Shi\u2019a Islam, its doctrines, and practices; major branches: Twelvers, Ismailis, Zaydis; their contribution to Islamic thought and civilization; modern trends of reinterpretation and reform. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ISLM ST C151",
+      "dept": "ISLM ST",
+      "number": "C151",
+      "title": "Islamic Thought",
+      "units": 4.0,
+      "description": "(Formerly numbered 151.) Lecture, three hours. Recommended requisite: introductory course on Islam or instructor consent. Introduction to major fields of inquiry and debate in Islamic studies (e.g., exegesis, Hadith, law, theology, Sufism). Focus on selected topics of debate such as nature of God, jihad, hijab, or pilgrimage. Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 140A",
+      "dept": "JEWISH",
+      "number": "140A",
+      "title": "American Jewish History, 1654 to 1914",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of social and cultural history of American Jewish community from its inception to the present, with emphasis on integration of successive immigrants and development of institutions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 140B",
+      "dept": "JEWISH",
+      "number": "140B",
+      "title": "American Jewish History, 1914 to the Present",
+      "units": 4.0,
+      "description": "Lecture, three hours. Examination of social and cultural history of American Jewish community from its inception to the present, with emphasis on integration of successive immigrants and development of institutions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 143",
+      "dept": "JEWISH",
+      "number": "143",
+      "title": "Introduction to Jewish Folklore",
+      "units": 4.0,
+      "description": "Lecture, three hours. Nature of Jewish folklore; narrative, folk song, folk art, folk religion, and methods and perspectives used in their analysis. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 150B",
+      "dept": "JEWISH",
+      "number": "150B",
+      "title": "Hebrew Literature in English: Rabbinic Judaism",
+      "units": 4.0,
+      "description": "Lecture, three hours. Topics include emergence of rabbinic Judaism; its original literary forms; rabbinic worldview; forms of medieval rabbinic literature; modern Jewish religious movements and their attitude to rabbinic Judaism. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 151B",
+      "dept": "JEWISH",
+      "number": "151B",
+      "title": "Modern Jewish Literature in English: Israeli Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Study of translations from Hebrew literature written in Israel and reflecting cardinal facets of Israeli life: social issues, security problems, identity of the state, role of individual. Analysis of formal aspects of each work. May be taken independently for credit.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 175",
+      "dept": "JEWISH",
+      "number": "175",
+      "title": "Modern Israeli Literature Made into Films",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Reading, analysis, and discussion of modern Israeli literature that was made into films, including literary works of prominent Israeli authors (S. Yizhar, A.B. Yehoshua, Amos Oz, and Yitzhak Ben Ner) that were translated to English and had filmic adaptations. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M142",
+      "dept": "JEWISH",
+      "number": "M142",
+      "title": "Modern Israel: Politics, Society, Culture",
+      "units": 4.0,
+      "description": "(Same as Middle Eastern Studies M142.) Lecture, three hours. Examination of evolution of Israel\u2014its changing society, volatile domestic and foreign politics, and dynamic culture\u2014from its foundation in 1948 to present, in context of global political and cultural change and changing Jewish world. Tension between Israel\u2019s conception of itself as Jewish\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M144",
+      "dept": "JEWISH",
+      "number": "M144",
+      "title": "Zionism: Ideology and Practice in Making of Jewish State",
+      "units": 4.0,
+      "description": "(Same as Middle Eastern Studies M144.) Lecture, three hours; discussion, one hour. History of Zionism on backdrop of European, world, and Jewish histories from ideological origins to political, cultural, and social foundations of State of Israel. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M150A",
+      "dept": "JEWISH",
+      "number": "M150A",
+      "title": "Hebrew Literature in English: Literary Traditions of Ancient Israel\u00e2\u20ac\u201dBible and Apocrypha",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M101.) Lecture, three hours. Study of literary culture of ancient Israel through examination of principal compositional strategies of Hebrew Bible and Apocrypha (read in translation). May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M151A",
+      "dept": "JEWISH",
+      "number": "M151A",
+      "title": "Modern Jewish Literature in English: Diaspora Literature",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M166.) Lecture, three hours. Study of literary responses of Jews to modernity, its challenges, and threats. Readings in texts originally written in English or translated from Hebrew, Yiddish, German, Russian, French, and Italian. Analysis of formal aspects of each work. May be taken independently for credit.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M155",
+      "dept": "JEWISH",
+      "number": "M155",
+      "title": "Angels, Demons, and End of World: Magic, Mysticism, and Apocalypse in Jewish Traditions",
+      "units": 4.0,
+      "description": "(Same as Religion M155.) Lecture, three hours. Focus on popular Jewish traditions of magic, mysticism, apocalypse, and various contours of Judaism\u2019s textual and material traditions in antiquity. Examination of texts and objects from Hebrew Bible to modern discussions of Kabbalah and end of world, concentrating on Jewish antiquity. Discussion of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182A",
+      "dept": "JEWISH",
+      "number": "M182A",
+      "title": "Ancient Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182A and Religion M182A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social, political, and religious developments. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182B",
+      "dept": "JEWISH",
+      "number": "M182B",
+      "title": "Medieval Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182B and Religion M182B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of unfolding of Jewish history from rise of Christianity to expulsion of Jews from Spain in 1492. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182C",
+      "dept": "JEWISH",
+      "number": "M182C",
+      "title": "Modern Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of early modern Jewish history beginning with enormously repercussive expulsion of Jews from Spain in 1492, followed by transformations in Jewish society and identity over five centuries in Europe and Middle East, and concluding\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M184B",
+      "dept": "JEWISH",
+      "number": "M184B",
+      "title": "History of Anti-Semitism",
+      "units": 4.0,
+      "description": "(Same as History M184B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of origins and historical development of anti-Semitism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50CW",
+      "dept": "M E STD",
+      "number": "M50CW",
+      "title": "Making and Studying Modern Middle East",
+      "units": 5.0,
+      "description": "(Same as Anthropology M67W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Survey of modern Middle Eastern cultures through readings and films from Middle East and North Africa. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MGMT 109",
+      "dept": "MGMT",
+      "number": "109",
+      "title": "International Business Law",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended requisite: course 108. Study of international business legal environment, including general overview of international laws and organizations and comprehensive review of U.S. regulations of international business transactions. Special emphasis on international litigation, commercial transactions, regulation of investments, multinational corporations, and international banking. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MGMT 127C",
+      "dept": "MGMT",
+      "number": "127C",
+      "title": "International Taxation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended requisite: course 127A. Study of two principle areas of international taxation from U.S. regulatory perspective: taxation of American citizens and companies conducting business in international arena (outbound transactions) and taxation of foreign nationals and companies who invest or conduct business in the U.S. (inbound transactions). P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 123A",
+      "dept": "POL SCI",
+      "number": "123A",
+      "title": "International Law",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Study of nature and place of international law in conduct of international relations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 124A",
+      "dept": "POL SCI",
+      "number": "124A",
+      "title": "International Political Economy",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Study of political aspects of international economic issues. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 125A",
+      "dept": "POL SCI",
+      "number": "125A",
+      "title": "Arms Control and International Security",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Arms control in context of international security in nuclear age. Nuclear arms race; relationship between deterrence doctrines and nuclear war; roles of technology and ideology; nuclear proliferation; outer space. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 126",
+      "dept": "POL SCI",
+      "number": "126",
+      "title": "Peace and War",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Theory and research on causes of war and conditions of peace.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 129",
+      "dept": "POL SCI",
+      "number": "129",
+      "title": "Diplomacy and War",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20 or 137A. Designed for juniors/seniors. Analysis of role of diplomacy in great power politics, history of diplomatic institutions, advantages of public and private diplomacy, bilateral and multilateral settings, and theory and practice of deterrence and coercion. Use\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 20 or 137A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "POL SCI 20",
+            "POL SCI 137A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 132A",
+      "dept": "POL SCI",
+      "number": "132A",
+      "title": "International Relations of Middle East",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 20. Designed for juniors/seniors. Contemporary regional issues and conflicts, with particular attention to inter-Arab politics, Arab-Israeli problem, and Persian Gulf area.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 134",
+      "dept": "POL SCI",
+      "number": "134",
+      "title": "Foreign Policy Decision Making and Tools of Statecraft",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 120A. Designed for juniors/seniors. Contrasts purposive and process models of individual and group decision making. Impact of strategic interaction and situational factors on foreign policy decision making. Implications for policy choice of tools of statecraft (i.e., threats/promises, military/economic/diplomacy).\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 137A",
+      "dept": "POL SCI",
+      "number": "137A",
+      "title": "International Relations Theory",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of various theoretical approaches to international relations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 129"
+      ]
+    },
+    {
+      "course_id": "POL SCI 150",
+      "dept": "POL SCI",
+      "number": "150",
+      "title": "Political Violence",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of one or several different uses of violence in revolutionary process: demonstrations, mass uprisings, coup d\u2019etat, assassination, and terrorism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 151A",
+      "dept": "POL SCI",
+      "number": "151A",
+      "title": "African Politics: Government and Politics of Africa",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparative study of government and politics in contemporary Africa, with special attention to state/society relations, interaction of politics and economic development, political institutions, and conflict and conflict resolution. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 151B",
+      "dept": "POL SCI",
+      "number": "151B",
+      "title": "African Politics: Political Economy of Africa",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of interactions of economic and political factors in African development, with special attention to political basis of inappropriate economic policy during early post-independence period and change toward a more appropriate economic strategy in recent times. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 151C",
+      "dept": "POL SCI",
+      "number": "151C",
+      "title": "African Politics: Special Topics in African Politics",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Consult Schedule of Classes for topics to be offered in a specific term. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 157",
+      "dept": "POL SCI",
+      "number": "157",
+      "title": "Government and Politics in the Middle East",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparative study of government in the Arab States, Turkey, Israel, and Iran. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 165",
+      "dept": "POL SCI",
+      "number": "165",
+      "title": "Islam and Politics",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Religious and spiritual foundations of Islamic legal and political institutions; legitimacy of historical and contemporary Islamic regimes, movements, and ideologies; political strategies of Islamic activism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 166",
+      "dept": "POL SCI",
+      "number": "166",
+      "title": "Comparative Constitutional Design",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Comparison of major institutional structures such as presidentialism versus parliamentarism, unicameralism versus bicameralism, two-party versus multiparty systems, federal versus unitary systems, plurality versus proportional electoral systems, etc. Method of analysis is rational choice (political actors are assumed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 167D",
+      "dept": "POL SCI",
+      "number": "167D",
+      "title": "Political Institutions and Economic Development",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Preparation: one statistics course. Designed for juniors/seniors. Data analytic approach to question of why some countries are rich and others are poor, with special attention to evidence about how governments and political institutions affect economic development. May be applied toward\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 168",
+      "dept": "POL SCI",
+      "number": "168",
+      "title": "Comparative Political Analysis",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Requisites: two courses in Field IV, or course 50 and one course in Field IV. Designed for juniors/seniors. Major approaches to study of comparative politics. Concepts and methodology of comparative analysis. Letter grading.",
+      "prereqs_raw": "Requisites: two courses in Field IV, or course 50 and one course in Field IV.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "POL SCI 50"
+          ],
+          []
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 50",
+      "dept": "POL SCI",
+      "number": "50",
+      "title": "Introduction to Comparative Politics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50R. Comparative study of constitutional principles, governmental institutions, and political processes in selected countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "POL SCI 168",
+        "POL SCI M167C"
+      ]
+    },
+    {
+      "course_id": "POL SCI M122B",
+      "dept": "POL SCI",
+      "number": "M122B",
+      "title": "Global Environment and World Politics",
+      "units": 4.0,
+      "description": "(Same as Environment M161.) Lecture, three or four hours; discussion, one hour (when scheduled). Recommended requisite: course 20. Politics and policy of major global environmental issues such as climate change, integrating law, policy, and political science perspectives. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI M167C",
+      "dept": "POL SCI",
+      "number": "M167C",
+      "title": "Political Economy of Development",
+      "units": 4.0,
+      "description": "(Same as International Development Studies M120.) Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 50. Political economy approach to puzzle of why some countries are rich and others are poor and why, among latter, some have been able to achieve rapid rates of economic growth and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 50.",
+      "prereqs_parsed": {
+        "required": [
+          "POL SCI 50"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 40A",
+      "dept": "PORTGSE",
+      "number": "40A",
+      "title": "Portuguese, Brazilian, and African Literature in Translation: Portuguese and Portuguese-African Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Reading and discussion of selected works in translation. Papers and examinations in English. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 1",
+      "dept": "SOCIOL",
+      "number": "1",
+      "title": "Introductory Sociology",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Survey of characteristics of social life, processes of social interaction, and tools of sociological investigation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SOCIOL 183"
+      ]
+    },
+    {
+      "course_id": "SOCIOL 116",
+      "dept": "SOCIOL",
+      "number": "116",
+      "title": "Social Demography",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Studies of past, present, and future trends in population growth. Sociological theories of causes and consequences of population growth and redistribution. Emphasis on correlates of fertility, mortality, and migration. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 151",
+      "dept": "SOCIOL",
+      "number": "151",
+      "title": "Comparative Immigration",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of immigration of Europeans, Asians, and Hispanics to the U.S. since the mid-19th century. Overview of immigration experience on ethno-racial groups that migrated voluntarily to this country, with emphasis on immediate postimmigration settlement. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 154",
+      "dept": "SOCIOL",
+      "number": "154",
+      "title": "Race and Ethnicity in Latin America",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in political, economic, and social lives of Latin American nations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 182",
+      "dept": "SOCIOL",
+      "number": "182",
+      "title": "Political Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Contributions of sociology to study of politics, including analysis of political aspects of social systems, social context of action, and social bases of power. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 183",
+      "dept": "SOCIOL",
+      "number": "183",
+      "title": "Comparative and Historical Sociology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Survey of central themes of comparative and historical studies in sociology. Various aspects of development of modern society, including development of nation-state, emergence of capitalism, industrialization, and population growth. Variation in contemporary society, viewed from variety of theoretical perspectives. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191D",
+      "dept": "SOCIOL",
+      "number": "191D",
+      "title": "Undergraduate Seminar: Sociology of Development",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Taught in Spanish. Selected topics on development in Third World from global perspective. Reading, discussion, and development of culminating project. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 191F",
+      "dept": "SOCIOL",
+      "number": "191F",
+      "title": "Undergraduate Seminar: Sociology of Globalization",
+      "units": 5.0,
+      "description": "Seminar, three hours. Limited to juniors/seniors. Great extension of social relations across globe has occurred over last 50 years. What are causes and mechanisms of this process, how far has it transformed human societies, and how far will it go in future? Economic, cultural, political, and military aspects of globalization,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 102C",
+      "dept": "TURKIC",
+      "number": "102C",
+      "title": "Intermediate Turkish",
+      "units": 4.0,
+      "description": "Lecture, five hours. Requisites: courses 101A, 101B, 101C. Builds upon previous coursework while introducing more complex language structures and deeper cultural discussions. Students are exposed to a variety of authentic texts, videos, and dialogues, helping them engage in more advanced discussions and written tasks. Grammar topics include reported speech, conditional\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 101A, 101B, 101C.",
+      "prereqs_parsed": {
+        "required": [
+          "TURKIC 101A",
+          "TURKIC 101B",
+          "TURKIC 101C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 112C",
+      "dept": "TURKIC",
+      "number": "112C",
+      "title": "Advanced Uzbek",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Descriptive Uzbek grammar, reading, and analysis of Uzbek literary and folkloric texts. High-style composition and conversation.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 116C",
+      "dept": "TURKIC",
+      "number": "116C",
+      "title": "Advanced Azeri",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: placement test. Proficiency-based course in descriptive Azeri grammar. Reading and analysis of Azeri literary and folkloric texts in new writing system. High-style composition and conversation. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 160",
+      "dept": "TURKIC",
+      "number": "160",
+      "title": "Turkish Tradition",
+      "units": 4.0,
+      "description": "Lecture/discussion. Preparation: entrance examination. Survey of cultural history of the Turks, as seen primarily through their literature, from their early history to the present.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 165",
+      "dept": "TURKIC",
+      "number": "165",
+      "title": "Islamic Literary Heritage of Central Asia",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, one hour. Systematic survey of Islamic documents produced in Turkish and Persian in Central Asia, with reading of primary sources in English translation. Study of special characteristics of Central Asian Islam.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 170",
+      "dept": "TURKIC",
+      "number": "170",
+      "title": "Turco-Mongolian Nomadic Empires",
+      "units": 4.0,
+      "description": "Lecture, three hours. Required of students in Turkic program. Survey of history of Turkic and Mongolian dominions from the 3rd century BC to AD 19th century (Hsiung-nu, Hsien-pi, Juan-Juan, T\u2019u-Chueh, Uyghur, Khitan, Karakhanid, Seljuq, Kara-Khitay, Khorazmian, Jengiz-Khanite).",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "TURKIC 180",
+      "dept": "TURKIC",
+      "number": "180",
+      "title": "Modern Turkic Languages and Peoples",
+      "units": 4.0,
+      "description": "Lecture, three hours. Required of students in Turkic program and recommended for students in Soviet studies. Ethnic and linguistic survey of the Turkic peoples.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "URBN PL M165",
+      "dept": "URBN PL",
+      "number": "M165",
+      "title": "Environmentalism: Past, Present, and Future",
+      "units": 4.0,
+      "description": "(Same as Environment M125 and Geography M125.) Lecture, three hours; discussion, one hour. Exploration of history and origin of major environmental ideas, movements or countermovements they spawned, and new and changing nature of modern environmentalism. Introduction to early ideas of environment, how rise of modern sciences reshaped environmental thought, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 20",
+      "dept": "WL ARTS",
+      "number": "20",
+      "title": "Culture: Introduction",
+      "units": 5.0,
+      "description": "Lecture, four hours. Introduction to key concepts and major theoretical and methodological debates that characterize field of cultural studies, including discussion of notions of culture, popular culture, subculture, youth culture, hegemony, gender, race, class, and national identity. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS 33",
+      "dept": "WL ARTS",
+      "number": "33",
+      "title": "Colonialisms and Resistance",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to study of indigenous worldviews as they are expressed through art, mythology, ritual, health practice, languages, and ecology. With examples spanning globe, consideration of issues of colonialism, tradition, religious change, and legal and social implications of epistemological differences between people. Examination of critical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS C139",
+      "dept": "WL ARTS",
+      "number": "C139",
+      "title": "Afro-Caribbean Ritual Arts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Introduction to diaspora African religions, with particular attention to Caribbean culture. Lectures, readings, and video material focus on performance of ritual and its expression in religious art. Concurrently scheduled with course C239. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

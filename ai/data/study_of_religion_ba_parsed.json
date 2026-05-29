@@ -1,0 +1,2027 @@
+{
+  "major_id": "study-of-religion-ba",
+  "major_name": "Study of Religion BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/StudyofReligionBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "RELIGN M4",
+        "RELIGN 11"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "RELIGN M4",
+            "RELIGN 11"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "AN N EA 10W",
+            "ANTHRO 3",
+            "ASIAN M60",
+            "HIST 1A",
+            "HIST 1B",
+            "HIST 1C",
+            "HIST 9A",
+            "HIST 9C",
+            "HIST 9D",
+            "HIST 9E",
+            "HIST M10A",
+            "HIST 10B",
+            "HIST 11A",
+            "HIST 11B",
+            "PHILOS 2",
+            "PHILOS 21",
+            "RELIGN M10",
+            "RELIGN M20",
+            "RELIGN M40",
+            "RELIGN M50",
+            "RELIGN 55",
+            "RELIGN M60A",
+            "RELIGN M60B",
+            "RELIGN M60C",
+            "RELIGN M60D",
+            "RELIGN M60E",
+            "RELIGN M60W",
+            "RELIGN M61",
+            "RELIGN M61W",
+            "RELIGN M70"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "RELIGN 101"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ANTHRO 130",
+            "ANTHRO 142P",
+            "RELIGN 110",
+            "RELIGN 120",
+            "RELIGN 150",
+            "RELIGN 160",
+            "RELIGN 177",
+            "RELIGN 180",
+            "RELIGN M186C"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "AN N EA 162",
+            "ANTHRO 114P",
+            "ANTHRO 162",
+            "ANTHRO 168P",
+            "ARABIC 120",
+            "ART HIS CM115A",
+            "ART HIS C120",
+            "ART HIS 150A",
+            "ART HIS 152A",
+            "ART HIS 154A",
+            "ART HIS 154B",
+            "ART HIS 156",
+            "ASIAN 151",
+            "ASIAN 162",
+            "CHIN 165",
+            "CHIN C175",
+            "CLASSIC 166A",
+            "CLASSIC 166B",
+            "CLASSIC M167",
+            "ENGL 111A",
+            "ENGL 111B",
+            "ENGL 111C",
+            "ENGL 145",
+            "ENGL 156",
+            "GREEK 130",
+            "HEBREW 120",
+            "HEBREW 130",
+            "HIST 108A",
+            "HIST 121B",
+            "HIST 174A",
+            "HIST M182C",
+            "HIST 185B",
+            "IRANIAN 170",
+            "JAPAN 161",
+            "JEWISH M150A",
+            "KOREA 165",
+            "KOREA 172",
+            "PHILOS 100B",
+            "PHILOS 104",
+            "PHILOS 107",
+            "PHILOS 155A",
+            "RELIGN M105A",
+            "RELIGN M105B",
+            "RELIGN M105C",
+            "RELIGN M106A",
+            "RELIGN M107",
+            "RELIGN M108",
+            "RELIGN 110",
+            "RELIGN 113",
+            "RELIGN M115",
+            "RELIGN M118B",
+            "RELIGN M132",
+            "RELIGN M133",
+            "RELIGN M135",
+            "RELIGN 140",
+            "RELIGN M142C",
+            "RELIGN M155",
+            "RELIGN 156",
+            "RELIGN 158",
+            "RELIGN M161A",
+            "RELIGN M161B"
+          ]
+        },
+        {
+          "choose_n": 6,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AN N EA": [
+      "AN N EA 10W",
+      "AN N EA 162"
+    ],
+    "ANTHRO": [
+      "ANTHRO 114P",
+      "ANTHRO 130",
+      "ANTHRO 142P",
+      "ANTHRO 162",
+      "ANTHRO 168P",
+      "ANTHRO 3"
+    ],
+    "ARABIC": [
+      "ARABIC 120"
+    ],
+    "ART HIS": [
+      "ART HIS 150A",
+      "ART HIS 152A",
+      "ART HIS 154A",
+      "ART HIS 154B",
+      "ART HIS 156",
+      "ART HIS C120",
+      "ART HIS CM115A"
+    ],
+    "ASIAN": [
+      "ASIAN 151",
+      "ASIAN 162",
+      "ASIAN M60"
+    ],
+    "CHIN": [
+      "CHIN 165",
+      "CHIN C175"
+    ],
+    "CLASSIC": [
+      "CLASSIC 166A",
+      "CLASSIC 166B",
+      "CLASSIC M167"
+    ],
+    "ENGL": [
+      "ENGL 111A",
+      "ENGL 111B",
+      "ENGL 111C",
+      "ENGL 145",
+      "ENGL 156"
+    ],
+    "GREEK": [
+      "GREEK 130"
+    ],
+    "HEBREW": [
+      "HEBREW 120",
+      "HEBREW 130"
+    ],
+    "HIST": [
+      "HIST 108A",
+      "HIST 10B",
+      "HIST 11A",
+      "HIST 11B",
+      "HIST 121B",
+      "HIST 174A",
+      "HIST 185B",
+      "HIST 1A",
+      "HIST 1B",
+      "HIST 1C",
+      "HIST 9A",
+      "HIST 9C",
+      "HIST 9D",
+      "HIST 9E",
+      "HIST M10A",
+      "HIST M182C"
+    ],
+    "IRANIAN": [
+      "IRANIAN 170"
+    ],
+    "JAPAN": [
+      "JAPAN 161"
+    ],
+    "JEWISH": [
+      "JEWISH M150A"
+    ],
+    "KOREA": [
+      "KOREA 165",
+      "KOREA 172"
+    ],
+    "PHILOS": [
+      "PHILOS 100B",
+      "PHILOS 104",
+      "PHILOS 107",
+      "PHILOS 155A",
+      "PHILOS 2",
+      "PHILOS 21"
+    ],
+    "RELIGN": [
+      "RELIGN 101",
+      "RELIGN 11",
+      "RELIGN 110",
+      "RELIGN 113",
+      "RELIGN 120",
+      "RELIGN 140",
+      "RELIGN 150",
+      "RELIGN 156",
+      "RELIGN 158",
+      "RELIGN 160",
+      "RELIGN 177",
+      "RELIGN 180",
+      "RELIGN 191",
+      "RELIGN 198",
+      "RELIGN 55",
+      "RELIGN M10",
+      "RELIGN M105A",
+      "RELIGN M105B",
+      "RELIGN M105C",
+      "RELIGN M106A",
+      "RELIGN M107",
+      "RELIGN M108",
+      "RELIGN M115",
+      "RELIGN M118B",
+      "RELIGN M132",
+      "RELIGN M133",
+      "RELIGN M135",
+      "RELIGN M142C",
+      "RELIGN M155",
+      "RELIGN M161A",
+      "RELIGN M161B",
+      "RELIGN M161C",
+      "RELIGN M161D",
+      "RELIGN M172",
+      "RELIGN M173C",
+      "RELIGN M174D",
+      "RELIGN M174E",
+      "RELIGN M175",
+      "RELIGN M178",
+      "RELIGN M179",
+      "RELIGN M182A",
+      "RELIGN M182B",
+      "RELIGN M184A",
+      "RELIGN M185D",
+      "RELIGN M186A",
+      "RELIGN M186B",
+      "RELIGN M186C",
+      "RELIGN M20",
+      "RELIGN M4",
+      "RELIGN M40",
+      "RELIGN M50",
+      "RELIGN M60A",
+      "RELIGN M60B",
+      "RELIGN M60C",
+      "RELIGN M60D",
+      "RELIGN M60E",
+      "RELIGN M60W",
+      "RELIGN M61",
+      "RELIGN M61W",
+      "RELIGN M70"
+    ],
+    "WL ARTS": [
+      "WL ARTS C142",
+      "WL ARTS C151"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AN N EA 10W",
+      "dept": "AN N EA",
+      "number": "10W",
+      "title": "Jerusalem: Holy City",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 12W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 162",
+      "dept": "AN N EA",
+      "number": "162",
+      "title": "Archaeology, Identity, and Bible",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction of archaeological record of southern Levant (ancient Israel) from Bronze Age through Achaemenid Period (circa 2500-332 BC) in combination with current understandings of genre, authorship, and historical value of Hebrew Bible. Ancient Israelite identities are traced through combination of archaeological and textual sources.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 114P",
+      "dept": "ANTHRO",
+      "number": "114P",
+      "title": "Ancient Civilizations of Mesoamerica",
+      "units": 4.0,
+      "description": "Lecture, three hours. Archaeology of pre-Hispanic native cultures of Mesoamerica from late Pleistocene through Spanish conquest, with emphasis on formative sociopolitical developments, classic period civilizations, and Aztec society as revealed by archaeology and early Spanish writing. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 130",
+      "dept": "ANTHRO",
+      "number": "130",
+      "title": "Study of Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 142P",
+      "dept": "ANTHRO",
+      "number": "142P",
+      "title": "Anthropology of Religion",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of various methodologies in comparative study of religious ideologies and action systems, including understanding particular religions through descriptive and structural approaches, and identification of social and psychological factors that may account for variation in religious systems cross-culturally. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 162",
+      "dept": "ANTHRO",
+      "number": "162",
+      "title": "Ethnography of South America",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to ethnography of South American Indians, with special emphasis on Lowland South America. Survey of history and development of man and society in this world area and examination of exemplary cultures symptomatic of various levels of cultural achievement. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 168P",
+      "dept": "ANTHRO",
+      "number": "168P",
+      "title": "Cultures of Pacific",
+      "units": 4.0,
+      "description": "Lecture, three hours. Four major culture areas of Australia, Melanesia, Polynesia, and Micronesia. General geographical features, prehistory, and language distribution of whole region. Distinctive sociocultural features of each culture area presented in context of their adaptive significance. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 3",
+      "dept": "ANTHRO",
+      "number": "3",
+      "title": "Culture and Society",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor\u2019s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ANTHRO 130"
+      ]
+    },
+    {
+      "course_id": "ARABIC 120",
+      "dept": "ARABIC",
+      "number": "120",
+      "title": "Islamic Texts",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 103C. Readings from Qur\u2019an, Tafsir, Hadith, Fiqh. May be repeated for credit. Letter grading.",
+      "prereqs_raw": "Requisite: course 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "ARABIC 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 150A",
+      "dept": "ART HIS",
+      "number": "150A",
+      "title": "Japanese Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Japanese art from its beginning in prehistory through 19th century. Emphasis on development of Buddhist art and its relationship with culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 152A",
+      "dept": "ART HIS",
+      "number": "152A",
+      "title": "Arts of Korea",
+      "units": 4.0,
+      "description": "Lecture, three hours; museum field trip. Introduction to arts and archaeology on Korean peninsula from Neolithic beginnings to early 20th century through analysis and discussion of selection of monuments and objects within technological, stylistic, religious, cultural, and sociopolitical contexts. Examination of construction of concepts of history and art under colonial\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 154A",
+      "dept": "ART HIS",
+      "number": "154A",
+      "title": "Early Art of India",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of Indian art from Indus Valley cultures to 10th century. Emphasis on Buddhist and Hindu backgrounds of arts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 154B",
+      "dept": "ART HIS",
+      "number": "154B",
+      "title": "Later Art of India",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Survey of Indian art from 10th to 19th century. Decline of Buddhist art, last efflorescence of Hindu architecture, Muslim painting and architecture, and Rajput painting. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS 156",
+      "dept": "ART HIS",
+      "number": "156",
+      "title": "Arts of Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Not open to freshmen. Southeast Asian art from its beginning in prehistory through 19th century. Study of art of selected cultures from Burma, Malaysia, Thailand, Cambodia, Vietnam, and Indonesia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS C120",
+      "dept": "ART HIS",
+      "number": "C120",
+      "title": "Selected Topics in Islamic Art",
+      "units": 4.0,
+      "description": "Lecture, three hours. Variable topics in Islamic art and architecture that reflect interests of individual regular and/or visiting faculty members. May be repeated twice for credit. Concurrently scheduled with course C220A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ART HIS CM115A",
+      "dept": "ART HIS",
+      "number": "CM115A",
+      "title": "Late Antique Art and Architecture",
+      "units": 4.0,
+      "description": "(Same as Classics M153L.) Lecture, three hours. Art and architecture of late Roman Empire and early Christian world. Concurrently scheduled with course C215A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 151",
+      "dept": "ASIAN",
+      "number": "151",
+      "title": "Buddhist Literature in Translation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: prior course on Buddhism or traditional Asian religions. Knowledge of Asian languages not required. Readings from variety of Buddhist literature of Indic and non-Indic origin, with emphasis on key Buddhist themes and critical issues in cross-cultural interpretations of Asian religious texts. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 162",
+      "dept": "ASIAN",
+      "number": "162",
+      "title": "Buddhist Meditation Traditions",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. Survey of theory and practice of meditation in Buddhism, with emphasis on Theravada and Zen schools. Topics include various typologies of meditation, symbiotic relationship between meditation and soteriology, and processes by which doctrinal innovation prompts changes in meditative\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN M60",
+      "dept": "ASIAN",
+      "number": "M60",
+      "title": "Introduction to Buddhism",
+      "units": 5.0,
+      "description": "(Same as Religion M60A.) Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course M60W. Knowledge of Asian languages not required. General survey of development of Buddhism in India, with focus on those religious doctrines and meditative practices most essential to various Asian traditions\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 165",
+      "dept": "CHIN",
+      "number": "165",
+      "title": "Introduction to Chinese Buddhist Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 100A or 110B or Japanese 110A or Korean 100A or Chinese placement test. Readings in premodern Buddhist texts written in literary Chinese and taken from translated Indian sutras, indigenous exegetical materials, Chinese apocryphal scriptures, and Ch\u2019an writings. Problems in translation from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C175",
+      "dept": "CHIN",
+      "number": "C175",
+      "title": "Introduction to Chinese Thought",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Survey of Chinese thought as represented in texts of Zhou through early Han periods (circa 1000 to 100 BCE), with focus on invention of Confucian tradition (including Five Classics) and on defenses of that tradition against challenges from Mohists,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 166A",
+      "dept": "CLASSIC",
+      "number": "166A",
+      "title": "Greek Religion",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 10 or 30. Study of religion of ancient Greeks. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 10 or 30.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CLASSIC 10",
+          "CLASSIC 30"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC 166B",
+      "dept": "CLASSIC",
+      "number": "166B",
+      "title": "Roman Religion",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 20. Study of religion of ancient Romans. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "CLASSIC 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLASSIC M167",
+      "dept": "CLASSIC",
+      "number": "M167",
+      "title": "Magic in Ancient World",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M167.) Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 10 or 20. Exploration of art of influencing natural course of events by occult means as practiced in ancient world at large. Coverage of beliefs in supernatural forces, rites aimed at controlling these forces\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10 or 20.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CLASSIC 10",
+            "CLASSIC 20"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 111A",
+      "dept": "ENGL",
+      "number": "111A",
+      "title": "Hebrew Bible in Translation",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Literary study of Hebrew Bible (Old Testament), with emphasis on literary devices and narrative structures in relation to Judaic historical, political, psychological, philosophical, and theological themes. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 111B",
+      "dept": "ENGL",
+      "number": "111B",
+      "title": "Christian Biblical Texts in Translation",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Literary study of canonical New Testament and other Christian texts (deuterocanonical, apocryphal, gnostic, etc.), with emphasis on literary devices and narrative structures in relation to Judeo-Christian historical, political, psychological, philosophical, and theological themes. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 111C",
+      "dept": "ENGL",
+      "number": "111C",
+      "title": "Topics in Biblical Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Recommended: course 111A or 111B. Study of topics in Hebrew Bible and/or New Testament, with attention to particular literary themes, motifs, genres, and modes of interpretation. Discussion of influence of Bible on discrete periods or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 145",
+      "dept": "ENGL",
+      "number": "145",
+      "title": "Medieval Literatures of Devotion and Dissent",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Exploration of devotional genres and their complex relationships with traditions of dissent in medieval English culture, encompassing hagiography, vision, conversion narrative, interreligious debate, heresy trials, and Lollard manifestos and translations. Texts may include Dream of Rood, South\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 156",
+      "dept": "ENGL",
+      "number": "156",
+      "title": "Devotion and Dissent",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 10A, 10B. Examination of religious thought and practice associated with Reformation and Counter-Reformation enterprises in early modern period and consideration of how various types of writing\u2014poems, prayer books, sermons, historical chronicles, essays, travel narratives, trial records\u2014reflect and assess religious\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 10A, 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGL 10A",
+          "ENGL 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GREEK 130",
+      "dept": "GREEK",
+      "number": "130",
+      "title": "Readings in New Testament",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "GREEK 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 120",
+      "dept": "HEBREW",
+      "number": "120",
+      "title": "Biblical Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Translation and analysis of biblical texts, with attention to aspects of grammar, style, and interpretation.",
+      "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102A",
+          "HEBREW 102B",
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 130",
+      "dept": "HEBREW",
+      "number": "130",
+      "title": "Rabbinic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in Mishnah, Talmud, and/or Midrash. May be repeated for credit.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 108A",
+      "dept": "HIST",
+      "number": "108A",
+      "title": "History of North Africa from Islamic Conquest",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of political, social, economic, and religious history of Islamic West (Maghrib) from Muslim conquest in 7th and 8th centuries CE until 1578. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 10B",
+      "dept": "HIST",
+      "number": "10B",
+      "title": "History of Africa, 1800 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Not open for credit to students with credit for course 10BH or 10BW. Survey of social, economic, and political developments in Africa since 1800, with focus on slave trade, imperialism and colonialism, and nationalism and independence. Attention to different ideologies (nationalism, socialism, apartheid), rural/urban\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 11A",
+      "dept": "HIST",
+      "number": "11A",
+      "title": "History of China: To 1000",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Survey of early history of China\u2014genesis of characteristic Chinese institutions and modes of thought from antiquity to 1000. Focus on social, political, intellectual, and economic aspects of early and middle empires. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 11B",
+      "dept": "HIST",
+      "number": "11B",
+      "title": "History of China, circa 1000 to 2000",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of later history of China\u2014evolution of characteristic Chinese institutions and modes of thought from circa 1000 to 2000. Focus on social, political, intellectual, cultural, and economic aspects of early modern regimes and empires and rise of modern China into contemporary era. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 121B",
+      "dept": "HIST",
+      "number": "121B",
+      "title": "History of Modern Europe: Baroque Culture and Absolutist Politics, 1600 to 1715",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Changing nature of state and social domination; redeployment of military violence; strategies of population discipline; absolutism and baroque culture; new forms of bureaucratic intervention; representation of family, sexuality, and body; witch persecutions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 174A",
+      "dept": "HIST",
+      "number": "174A",
+      "title": "Early History of India",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to civilization and institutions of India. Survey of history and culture of South Asian subcontinent from earliest times to founding of Mughal Empire. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 185B",
+      "dept": "HIST",
+      "number": "185B",
+      "title": "Religions of South and Southeast Asia",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Topics vary from year to year and include religion of Veda; Brahmanism; (later) Hinduism. Consult Schedule of Classes for specifics. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 1A",
+      "dept": "HIST",
+      "number": "1A",
+      "title": "Introduction to Western Civilization: Ancient Civilizations, Prehistory to circa AD 843",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Survey of diverse cultures that shaped foundation of Western civilization to onset of 9th century AD. Investigation of first civilizations in Near East and Egypt. Analysis of worlds of Greeks and Romans. Examination of ways in which western European societies created new syntheses through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 1B",
+      "dept": "HIST",
+      "number": "1B",
+      "title": "Introduction to Western Civilization: Circa 843 to circa 1715",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to history of the West and its connections to rest of world from 843 to 1715. Profound social, political, cultural, and intellectual changes that affected development of modern world. Topics covered include economic, social, and cultural aspects of feudal system; relationship between Church\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 1C",
+      "dept": "HIST",
+      "number": "1C",
+      "title": "Introduction to Western Civilization: Circa 1715 to Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to history of the West and its connection to rest of world after 1715, during period of sweeping political, social, and cultural tensions and transformations. Topics covered include industrialization, rise of nationalism and mass politics, revolutionary movements, urbanization, mass global migrations, European expansion\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9A",
+      "dept": "HIST",
+      "number": "9A",
+      "title": "Introduction to Asian Civilizations: History of India",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introductory survey for beginning students of major cultural, social, and political ideas, traditions, and institutions of Indic civilization. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9C",
+      "dept": "HIST",
+      "number": "9C",
+      "title": "Introduction to Asian Civilizations: History of Japan",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Survey of Japanese history from earliest recorded time to the present, with emphasis on development of Japan as a cultural daughter of China. Attention to manner in which Chinese culture was Japanized and aspects of Japanese civilization which became unique. Creation of the modern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9D",
+      "dept": "HIST",
+      "number": "9D",
+      "title": "Introduction to Asian Civilizations: History of Middle East",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to history of Muslim world from advent of Islam to present day. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 9E",
+      "dept": "HIST",
+      "number": "9E",
+      "title": "Introduction to Asian Civilizations: Southeast Asian Crossroads",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Overview history of a region united by its wet tropical environment and divided by great religious, cultural, and political pluralism, with focus on Vietnamese, Thai, Filipino, Khmer, Burmese, and Malayo-Indonesian patterns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M10A",
+      "dept": "HIST",
+      "number": "M10A",
+      "title": "History of Africa to 1800",
+      "units": 5.0,
+      "description": "(Same as African American Studies M10A.) Lecture, three hours; discussion, one hour. Exploration of development of African societies from earliest times to late 18th century. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M182C",
+      "dept": "HIST",
+      "number": "M182C",
+      "title": "Modern Jewish History",
+      "units": 4.0,
+      "description": "(Same as Jewish Studies M182C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of early modern Jewish history beginning with enormously repercussive expulsion of Jews from Spain in 1492, followed by transformations in Jewish society and identity over five centuries in Europe and Middle East, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 170",
+      "dept": "IRANIAN",
+      "number": "170",
+      "title": "Religion in Ancient Iran",
+      "units": 4.0,
+      "description": "History of religion in Iran from the beginning to the Mohammedan conquest; Indo-Iranian background, Zoroastrianism, Manichaeism, Mazdakism.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 161",
+      "dept": "JAPAN",
+      "number": "161",
+      "title": "Religious Life in Modern Japan",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Religious transformations accompanying rapid industrialization, urbanization, militarism, and defeat in Pacific War, including analyses of Shinto mythology, secular positivism, Buddhist reform movements, new religions, and continuing role of traditional village/family religious rites. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M150A",
+      "dept": "JEWISH",
+      "number": "M150A",
+      "title": "Hebrew Literature in English: Literary Traditions of Ancient Israel\u00e2\u20ac\u201dBible and Apocrypha",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M101.) Lecture, three hours. Study of literary culture of ancient Israel through examination of principal compositional strategies of Hebrew Bible and Apocrypha (read in translation). May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 165",
+      "dept": "KOREA",
+      "number": "165",
+      "title": "Introduction to Korean Buddhist Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 100A or Chinese 110C or Korean placement test. Introduction to reading premodern Korean Buddhist texts written in Sino-Korean and taken from indigenous doxographic materials and philosophical writings, Korean Buddhist apocryphal scriptures, native exegetical commentaries, and Son (Zen) texts. Coverage varies. Texts\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 172",
+      "dept": "KOREA",
+      "number": "172",
+      "title": "Topics in Korean Christianity",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Historical development of Christianity in Korea, beliefs and practices, impact of Christianity on modern Korean culture and society. Coverage varies. May be repeated for credit with consent of instructor. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 100B",
+      "dept": "PHILOS",
+      "number": "100B",
+      "title": "Medieval and Early Modern Philosophy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: one philosophy course. Strongly recommended requisite: course 100A. Survey of development and transformation of Greek metaphysics and epistemology within context of philosophical theology, and transition from medieval to early modern period. Special emphasis on Augustine, Anselm, Aquinas, and Descartes. P/NP or letter grading.",
+      "prereqs_raw": "Strongly recommended requisite: course 100A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": [
+          "PHILOS 100A"
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 104",
+      "dept": "PHILOS",
+      "number": "104",
+      "title": "Topics in Islamic Philosophy",
+      "units": 4.0,
+      "description": "Lecture, three to four hours; discussion, one hour (when scheduled). Preparation: one philosophy course. Development of philosophy within orbit of Islam from beginning of interaction of Islam with ancient philosophy to period of hegemony of Ottoman Empire. Figures examined may vary but usually include many of al-Kindi, Ibn Sina (Avicenna),\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 107",
+      "dept": "PHILOS",
+      "number": "107",
+      "title": "Topics in Medieval Philosophy",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Preparation: one philosophy course. Recommended requisite: course 105 or 106. Study of philosophy and theology of one medieval philosopher such as Augustine, Anselm, Abelard, Aquinas, Scotus, or Ockham, or study of one single area such as logic or theory of knowledge in several medieval\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 155A",
+      "dept": "PHILOS",
+      "number": "155A",
+      "title": "Medical Ethics",
+      "units": 4.0,
+      "description": "Lecture, three to four hours; discussion, one hour (when scheduled). Course 155A is not requisite to 155B. Examination of philosophical issues raised by problems of medical ethics, such as abortion, euthanasia, and medical experimentation. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 2",
+      "dept": "PHILOS",
+      "number": "2",
+      "title": "Introduction to Philosophy of Religion",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Introductory study of such topics as nature and grounds of religious belief, relation between religion and ethics, nature and existence of God, problem of evil, and what can be learned from religious experience. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHILOS 21",
+      "dept": "PHILOS",
+      "number": "21",
+      "title": "Skepticism and Rationality",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Can we know anything with certainty? How can we justify any of our beliefs? Introduction to study of these and related questions through works of some great philosophers of modern period, such as Descartes, Hume, Leibniz, or Berkeley. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 101",
+      "dept": "RELIGN",
+      "number": "101",
+      "title": "History of Study of Religion",
+      "units": 4.0,
+      "description": "Lecture, four hours. Recommended requisite: History 4. Survey of major modern theories, methods, and approaches to study of religion to situate them within their own historical, philosophical, and social contexts. Critical consideration of changing and contested meanings of term religion and its relationship to such categories as science and magic,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 11",
+      "dept": "RELIGN",
+      "number": "11",
+      "title": "Religion in Los Angeles",
+      "units": 5.0,
+      "description": "Lecture, four hours. Introduction to varieties of religious experience in Los Angeles and its environs. Presentations, required readings, and (where possible) site visits to examine selected faiths and spiritual practices throughout Southern California and provide deeper understanding of myriad ways that sacred is made manifest and encountered. Foundational academic orientations\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 110",
+      "dept": "RELIGN",
+      "number": "110",
+      "title": "Religion and Violence",
+      "units": 4.0,
+      "description": "Seminar, three hours; discussion, one hour. Exploration of capacity of religion to mobilize and legitimate violence. Materials include theoretical texts by Rene Girard, Walter Burkert, Jonathan Z. Smith, and David Rapoport and case studies dealing with religion and violence in India, Northern Ireland, Egypt, Lebanon, Israel, Palestine, Sri Lanka, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 113",
+      "dept": "RELIGN",
+      "number": "113",
+      "title": "In Search of Meaning: From Holy Texts to Hollywood",
+      "units": 5.0,
+      "description": "Lecture, two and one half hours. Exploration of topics such as existence of a higher being, meaning of life, one\u2019s role in world, one\u2019s obligations to others, human nature, and existence of evil. Examination of texts ranging from scriptures to film that reflect religious, philosophical, and secular ways people\u2014over centuries\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 120",
+      "dept": "RELIGN",
+      "number": "120",
+      "title": "Judaism, Christianity, and Islam: Comparative Approach",
+      "units": 4.0,
+      "description": "Seminar, three hours. Introduction to analysis of complex relationship of Judaism, Christianity, and Islam as living traditions whose historical origins, current interactions, and future development continue to shape spiritual, cultural, political, and social aspects of human civilization in 21st century. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 140",
+      "dept": "RELIGN",
+      "number": "140",
+      "title": "Undergraduate Seminar: Study of Religion",
+      "units": 4.0,
+      "description": "Seminar, three hours. Interdisciplinary approach to some major topics in study of religion, such as religion and politics, mysticism, ideas of revelation, myth and religion, worship and ritual. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 150",
+      "dept": "RELIGN",
+      "number": "150",
+      "title": "Women, Gender, and Religion",
+      "units": 4.0,
+      "description": "Lecture, four hours. Investigation and consideration of roles, status, and representations of women and gender in one or more religious traditions. Examination of how cultural conceptions of gender as well as social realities (as far as they can be known) for women and men in particular historical periods shape and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 156",
+      "dept": "RELIGN",
+      "number": "156",
+      "title": "Religion and Liberation",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, 30 minutes. Study traces ways religion and liberation have been understood to connect in the later 20th-century phenomenon called liberation theology. Started by James Cone\u2019s embrace of Christian Black Power movement in the U.S. and Gustavo Guti\u00e9rrez\u2019s Latin American theology against poverty, this method of religious\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 158",
+      "dept": "RELIGN",
+      "number": "158",
+      "title": "The Bible in Justice Movements",
+      "units": 4.0,
+      "description": "Lecture, two and one half hours. Examination of various ways 20th-century justice and liberation movements in the U.S. engaged the Bible as a resource, roadblock, and inspiration. From the Puerto Rican freedom fighting Young Lords and the Black Power movement to the largely white Catholic Worker Movement, the Bible has\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 160",
+      "dept": "RELIGN",
+      "number": "160",
+      "title": "Religion, Film, and Media",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of complex relationship between religious traditions and various media (e.g., print, film, photography, television, radio, and electronic) as they have intersected in specific historical and cultural contexts. Illumination of role of media in forming and expressing religious ideas, practices, and identities. Topics may include representations of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 177",
+      "dept": "RELIGN",
+      "number": "177",
+      "title": "Variable Topics in Religion",
+      "units": 4.0,
+      "description": "Seminar, three hours. Interdisciplinary approach to some major topics in study of religion, such as religion and science, religion and society, politics, mysticism, ideas of revelation, scripture, myth and religion, worship and ritual. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 180",
+      "dept": "RELIGN",
+      "number": "180",
+      "title": "Religion and Modern Critical Thought",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of how various traditions of modern critical thought inform academic study of religion, with primary focus on philosophical analysis of religious belief and practice and its relation to other areas of theoretical discussion, such as philosophy of language, discourse analysis, epistemology, metaphysics, ethics, practice theory, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 191",
+      "dept": "RELIGN",
+      "number": "191",
+      "title": "Variable Topics Research Seminars: Study of Religion",
+      "units": 4.0,
+      "description": "Seminar, four hours. Preparation: completion of preparation for major courses and at least half of upper-division courses required for major (including theory and method courses). Designed for senior majors. Seminar on central method and/or theme in study of religion. Refinement and integration of this knowledge by means of close reading\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 198",
+      "dept": "RELIGN",
+      "number": "198",
+      "title": "Honors Research in Religion",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Limited to juniors/seniors. Development and completion of 40-page honors thesis under direct supervision of faculty member. Must be taken twice to receive departmental honors program credit. Individual contract required. May be repeated for maximum of 12 units. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN 55",
+      "dept": "RELIGN",
+      "number": "55",
+      "title": "Spirit of Medicine",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of relationship between medicine, religion, and society; how religion is help or hindrance to health; and what health care might look like beyond biomedical clinic. Examination of historical entwinement of religion, medicine, and society in Western antiquity to early modern period; disentanglement in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M10",
+      "dept": "RELIGN",
+      "number": "M10",
+      "title": "Introduction to Judaism",
+      "units": 5.0,
+      "description": "(Same as Jewish Studies M10.) Lecture, three hours; discussion, one hour. Judaism\u2019s basic beliefs, institutions, and practices. Topics include development of biblical and rabbinic Judaism; concepts of god, sin, repentance, prayer, and the messiah; history of Talmud and synagogue; evolution of folk beliefs and year-cycle and life-cycle practices. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M105A",
+      "dept": "RELIGN",
+      "number": "M105A",
+      "title": "Bah\u00c3\u00a1'\u00c3\u00ad Faith in Iran: Historical and Sociological Survey",
+      "units": 4.0,
+      "description": "(Same as Iranian M105A.) Lecture, three hours. Readings in English. Rise and development of B\u00e1b\u00ed and Bah\u00e1\u2019\u00ed religions in context of 19th century Iran. Focus on personalities of B\u00e1b, Bah\u00e1\u2019u\u2019ll\u00e1h, and \u2018Abdu\u2019l-Bah\u00e1. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M105B",
+      "dept": "RELIGN",
+      "number": "M105B",
+      "title": "Bah\u00c3\u00a1'\u00c3\u00ad Faith in Iran: Survey of Bah\u00c3\u00a1'\u00c3\u00ad Scriptures and Thought",
+      "units": 4.0,
+      "description": "(Same as Iranian M105B.) Lecture, three hours. Readings in English. Analysis of major writings by B\u00e1b, Bah\u00e1\u2019u\u2019ll\u00e1h, and \u2018Abdu\u2019l-Bah\u00e1. Emphasis on mystical and social principles. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M105C",
+      "dept": "RELIGN",
+      "number": "M105C",
+      "title": "Bah\u00c3\u00a1'\u00c3\u00ad Faith in Iran: 20th-Century Iran and the Bah\u00c3\u00a1'\u00c3\u00ads",
+      "units": 4.0,
+      "description": "(Same as Iranian M105C.) Lecture, three hours. Readings in English. Focus on history of 20th-century Iran beginning with constitutional revolution, development and persecution of Bah\u00e1\u2019\u00ed community, and latter\u2019s relation to reform movements in Iran. May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M106A",
+      "dept": "RELIGN",
+      "number": "M106A",
+      "title": "Premodern Islam",
+      "units": 4.0,
+      "description": "(Same as History M106.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of early development of Islam with special attention to doctrine of nature of God, human responsibility, guidance, revelation and religious authority, duties of believers, ritual, law, sectarian movements, mysticism, and popular religion. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M107",
+      "dept": "RELIGN",
+      "number": "M107",
+      "title": "Islam in West",
+      "units": 5.0,
+      "description": "(Same as Islamic Studies CM107.) Lecture, three hours; discussion, one hour. Acquisition of understanding of basic doctrines and practices of Islam. Survey of history of Islam in West, with focus on U.S. and France. Analysis of issues relevant to growth and development of selected Muslim communities in West. Exposure to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M108",
+      "dept": "RELIGN",
+      "number": "M108",
+      "title": "Qur'an",
+      "units": 4.0,
+      "description": "(Same as Arabic CM106.) Lecture, three hours. Introduction to Qur\u2019an, its early history, and form and function as scripture in Muslim history, civilization, and culture. Focus also on Qur\u2019anic interpretation, its relationship to Islamic law, and Qur\u2019an in contemporary discourses such as human rights, feminism, and contemporary reform movements. Primary\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M115",
+      "dept": "RELIGN",
+      "number": "M115",
+      "title": "Islam and Other Religions",
+      "units": 5.0,
+      "description": "(Same as Islamic Studies CM115.) Lecture, three hours; discussion, one hour. Students gain familiarity with historical cases and modes of interaction between Muslims and non-Muslims in plural societies. Consideration of axis questions such as how does Qur\u2019an reflect religious plurality; how does it situate Islam vis-\u00e0-vis its alternatives; what encounters\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M118B",
+      "dept": "RELIGN",
+      "number": "M118B",
+      "title": "Kierkegaard and Philosophy of Religion",
+      "units": 4.0,
+      "description": "(Same as Philosophy M118B.) Lecture, three to four hours; discussion, one hour (when scheduled). Preparation: one philosophy course. Study of selected works of Kierkegaard on philosophy of religion, with emphasis on interpretation of texts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M132",
+      "dept": "RELIGN",
+      "number": "M132",
+      "title": "Ancient Egyptian Religion",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M130.) Lecture, three hours; discussion, one hour. Introduction to religious beliefs, practices, and sentiments of ancient Egypt to study Egyptian religion as coherent system of thought and sphere of action that once served as meaningful and relevant framework for understanding physical reality and human life\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M133",
+      "dept": "RELIGN",
+      "number": "M133",
+      "title": "Bible and Qur'an",
+      "units": 4.0,
+      "description": "(Same as Middle Eastern Studies M133.) Lecture, three hours. Survey of Hebrew Bible/Old Testament, New Testament, and Qur\u2019an to familiarize students with content of scriptures of Judaism, Christianity, and Islam, and sociocultural background from which these multifarious texts emerged, and to explore major themes and consider variety of approaches to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M135",
+      "dept": "RELIGN",
+      "number": "M135",
+      "title": "Religion in Ancient Israel",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M135.) Lecture, three hours. Introductory survey of various ancient Israelite religious beliefs and practices, their origin, and development, with special attention to diversity of religious practice in ancient Israel and Canaan during 1st millennium BCE. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M142C",
+      "dept": "RELIGN",
+      "number": "M142C",
+      "title": "History of Religion in U.S.",
+      "units": 4.0,
+      "description": "(Same as History M142C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Consideration of religious dimension of people\u2019s experience in U.S. Examination of number of religious traditions that have been important in this country, with emphasis on relating developments in religion to other aspects of American culture.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M155",
+      "dept": "RELIGN",
+      "number": "M155",
+      "title": "Angels, Demons, and End of World: Magic, Mysticism, and Apocalypse in Jewish Traditions",
+      "units": 4.0,
+      "description": "(Same as Jewish Studies M155.) Lecture, three hours. Focus on popular Jewish traditions of magic, mysticism, apocalypse, and various contours of Judaism\u2019s textual and material traditions in antiquity. Examination of texts and objects from Hebrew Bible to modern discussions of Kabbalah and end of world, concentrating on Jewish antiquity. Discussion\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M161A",
+      "dept": "RELIGN",
+      "number": "M161A",
+      "title": "Chinese Buddhism",
+      "units": 4.0,
+      "description": "(Same as Chinese CM160.) Lecture, three hours; discussion, one hour. Knowledge of Chinese not required. Introduction and development of Buddhism in China, interaction between Buddhism and Chinese culture, rise of Chinese schools of Buddhism. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M161B",
+      "dept": "RELIGN",
+      "number": "M161B",
+      "title": "Japanese Buddhism",
+      "units": 4.0,
+      "description": "(Same as Japanese CM160.) Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Development of Buddhism in Japan in its cultural context, with emphasis on key ideas and teachings. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M161C",
+      "dept": "RELIGN",
+      "number": "M161C",
+      "title": "Korean Buddhism",
+      "units": 4.0,
+      "description": "(Same as Korean CM160.) Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Introduction and development of Buddhism in Korea, interactions between indigenous Korean culture and Sinitic traditions of Buddhism, Korean syntheses of imported Buddhist theological systems and meditative techniques, and independent Son (Zen) schools of Korea. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M161D",
+      "dept": "RELIGN",
+      "number": "M161D",
+      "title": "Buddhism in India",
+      "units": 4.0,
+      "description": "(Same as South Asian CM160.) Lecture, three hours; discussion, one hour. Knowledge of Indian languages not required. Overview of social and doctrinal history of Buddhism from its origin to its disappearance in India, based not only on texts but on archaeological, art historical, and inscriptional sources. Examination of both formal\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M172",
+      "dept": "RELIGN",
+      "number": "M172",
+      "title": "Bible and Its Interpreters",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M170.) Lecture, three hours. Knowledge of original languages not required. Bible (Old and New Testaments) as book. Canon, text, and versions. Linguistic, literary, historical, and religious approaches to Bible study. Survey of history of interpretation from antiquity to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M173C",
+      "dept": "RELIGN",
+      "number": "M173C",
+      "title": "Shinto, Buddhism, and Japanese Folk Religion",
+      "units": 4.0,
+      "description": "(Same as History M173C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social dimension of various Ways, great and little: Shinto\u2019s connection with cultural nationalism, Buddhism\u2019s medieval Reformation and Zen\u2019s relation to warrior culture, folk religious aspects such as shamanism, ancestor worship, and millenarianism. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M174D",
+      "dept": "RELIGN",
+      "number": "M174D",
+      "title": "Indo-Islamic Interactions, 700 to 1750",
+      "units": 4.0,
+      "description": "(Same as History M174D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Historical introduction to Muslim communities of what eventually became nations of India, Pakistan, and Bangladesh. Topics include social, political, religious, and cultural history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M174E",
+      "dept": "RELIGN",
+      "number": "M174E",
+      "title": "Indo-Islamic Interactions, 1750 to 1950",
+      "units": 4.0,
+      "description": "(Same as History M174E.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of interplay of factors that, from Christian missionaries to Islamic madrasa schools and colonial rebellions, gave shape to multifaceted Muslim reformation in context of colonial modernity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M175",
+      "dept": "RELIGN",
+      "number": "M175",
+      "title": "Topics in Philosophy of Religion",
+      "units": 4.0,
+      "description": "(Same as Philosophy M175.) Lecture, three hours; discussion, one hour. Requisite: Philosophy 21 or 22. Intensive investigation of one or two topics or works in philosophy of religion, such as attributes of God, arguments for or against existence of God, or relation between religion and ethics. Topics announced each term.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Philosophy 21 or 22.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PHIL 21",
+            "PHIL 22"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M178",
+      "dept": "RELIGN",
+      "number": "M178",
+      "title": "Variable Topics",
+      "units": 4.0,
+      "description": "(Same as Middle Eastern Studies M178.) Seminar, three hours. Interdisciplinary approach to some major topics in study of religion and Middle Eastern studies. May be repeated for credit with topic change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M179",
+      "dept": "RELIGN",
+      "number": "M179",
+      "title": "Topics in Moral Philosophy: Evil",
+      "units": 4.0,
+      "description": "(Same as Philosophy M152B.) Lecture, three to four hours; discussion, one hour (when scheduled). Preparation: one philosophy course. Exploration of philosophical issues raised by topic of evil actions and/or evil people. Issues may include nature of evil, problem of evil and theodicies, responsibility for evil and problem of free will,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M182A",
+      "dept": "RELIGN",
+      "number": "M182A",
+      "title": "Ancient Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182A and Jewish Studies M182A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social, political, and religious developments. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M182B",
+      "dept": "RELIGN",
+      "number": "M182B",
+      "title": "Medieval Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182B and Jewish Studies M182B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of unfolding of Jewish history from rise of Christianity to expulsion of Jews from Spain in 1492. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M184A",
+      "dept": "RELIGN",
+      "number": "M184A",
+      "title": "Jewish Civilization: Encounter with Great World Cultures",
+      "units": 4.0,
+      "description": "(Same as History M184A and Jewish Studies M184A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of dynamic and millennia-old interaction of Jews with great world cultures. Creative adaptations that have lent Jewish culture its distinct and various forms. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M185D",
+      "dept": "RELIGN",
+      "number": "M185D",
+      "title": "Religions of Ancient Near East",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East M185D and History M185D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Main polytheistic systems of ancient Near East, with emphasis on Mesopotamia and Syria and with reference to religion of ancient Israel: varying concepts of divinity, hierarchies of gods, prayer and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M186A",
+      "dept": "RELIGN",
+      "number": "M186A",
+      "title": "History of Early Christians",
+      "units": 4.0,
+      "description": "(Same as History M185F.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Christian movement from its origins to circa 160 CE, stressing its continuity/discontinuity with Judaism, various responses to Jesus of Nazareth, writings produced during this period, movement\u2019s encounters with its religious, social, and political world, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M186B",
+      "dept": "RELIGN",
+      "number": "M186B",
+      "title": "Religious Environment of Early Christians",
+      "units": 4.0,
+      "description": "(Same as History M185G.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Rich variety in religious practice and thought in Mediterranean world of 1st century CE as in context of developing Christian movement. Topics include Pharisees, Qumran, Philo, Stoics, Epicureans, traditional Greek and Roman religions, mysteries, astrology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M186C",
+      "dept": "RELIGN",
+      "number": "M186C",
+      "title": "Jesus of Nazareth in Historical Research",
+      "units": 4.0,
+      "description": "(Same as History M185I.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course M185F. Designed for juniors/seniors. Stimulated by significant post-Enlightenment historical evaluations, students are led into firsthand knowledge (in translation) of various multilayered sources for reconstruction of life, teaching, and initial impact of Jesus of Nazareth in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M20",
+      "dept": "RELIGN",
+      "number": "M20",
+      "title": "Introduction to Islam",
+      "units": 5.0,
+      "description": "(Same as Islamic Studies M20.) Lecture, three hours; discussion, one hour. Genesis of Islam, its doctrines, and practices, with readings from Qur\u2019an and Hadith; schools of law and theology; piety and Sufism; reform and modernism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M4",
+      "dept": "RELIGN",
+      "number": "M4",
+      "title": "Introduction to History of Religions",
+      "units": 5.0,
+      "description": "(Same as History M4.) Lecture, three hours; discussion, two hours. Comparative study of eight major religious traditions, with emphasis on their beginnings and subsequent decisive changes in their respective historical developments and interactions. Equips students with intellectual tools necessary for thinking analytically, empathetically, and comparatively about fascinating human phenomena identified\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M40",
+      "dept": "RELIGN",
+      "number": "M40",
+      "title": "Christianities East and West",
+      "units": 5.0,
+      "description": "(Same as Slavic M40.) Lecture, three hours; discussion, one hour. Survey of three major historical branches of Christianity\u2014Eastern and Oriental Orthodoxy, Roman Catholicism, and Protestantism, contrasting how history, dogma, culture, and community structures develop in those three traditions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M50",
+      "dept": "RELIGN",
+      "number": "M50",
+      "title": "Origins of Judaism, Christianity, and Islam",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M50B and Middle Eastern Studies M50B.) Lecture, three hours; discussion, one hour. Examination of three major monotheisms of Western cultures\u2014Judaism, Christianity, and Islam\u2014historically and comparatively. Development, teachings, and ritual practices of each tradition up to and including medieval period. Composition and development of various sacred\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M60A",
+      "dept": "RELIGN",
+      "number": "M60A",
+      "title": "Introduction to Buddhism",
+      "units": 5.0,
+      "description": "(Same as Asian M60.) Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course M60W. Knowledge of Asian languages not required. General survey of development of Buddhism in India, with focus on those religious doctrines and meditative practices most essential to various Asian traditions\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M60B",
+      "dept": "RELIGN",
+      "number": "M60B",
+      "title": "Introduction to Chinese Religions",
+      "units": 5.0,
+      "description": "(Same as Chinese M60.) Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course M61W. Knowledge of Chinese not required. General survey of religious life in China, with emphasis on everyday religious practice over doctrine, and themes common to Buddhism, Daoism, and Confucianism. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M60C",
+      "dept": "RELIGN",
+      "number": "M60C",
+      "title": "Introduction to Korean Religions",
+      "units": 5.0,
+      "description": "(Same as Korean M60.) Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. General survey of history of religions in Korea\u2014Shamanism, Buddhism, Confucianism, Daoism, Christianity, Tonghak, and some new religions\u2014with focus on religious doctrines, practices, Korean characteristics, and social impacts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M60D",
+      "dept": "RELIGN",
+      "number": "M60D",
+      "title": "Religion in Classical India: Introduction",
+      "units": 5.0,
+      "description": "(Same as South Asian M60.) Lecture, three hours; discussion, one hour. Introduction to religions of classical India\u2014Vedic, Brahmanical, Hindu, Jain, and Buddhist\u2014paying equal attention to change and continuity, with emphasis on chronological development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M60E",
+      "dept": "RELIGN",
+      "number": "M60E",
+      "title": "Religious Traditions in Southeast Asia",
+      "units": 4.0,
+      "description": "(Same as Southeast Asian M60.) Lecture, three hours. Introduction to historical development and contemporary practice of religions in Southeast Asia. Examination of indigenous religious beliefs and major textually based religions introduced to region, including Hinduism, Buddhism, Islam, and Christianity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M60W",
+      "dept": "RELIGN",
+      "number": "M60W",
+      "title": "Introduction to Buddhism",
+      "units": 5.0,
+      "description": "(Same as Asian M60W.) Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course M60A. Knowledge of Asian languages not required. General survey of Buddhist worldview and lifestyle, with focus\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLSH 3",
+            "ENGLSH 3H",
+            "ENGLSH 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M61",
+      "dept": "RELIGN",
+      "number": "M61",
+      "title": "Introduction to Zen Buddhism",
+      "units": 5.0,
+      "description": "(Same as Asian M61.) Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. Introduction to Zen traditions and to interplay between Zen and other fundamental cultural and religious concerns in East Asia. Topics include role of Zen within Buddhist thought and practice, artistic and literary arts, society,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M61W",
+      "dept": "RELIGN",
+      "number": "M61W",
+      "title": "Introduction to Chinese Religions",
+      "units": 5.0,
+      "description": "(Same as Chinese M60W.) Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course M60B. Knowledge of Chinese not required. General survey of religious life in China, with emphasis on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH 3",
+            "ENGLISH 3H",
+            "ENGLISH 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M70",
+      "dept": "RELIGN",
+      "number": "M70",
+      "title": "Demons, Fear, and Uncanny in Ancient World",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M70.) Lecture, three hours; discussion, one hour. Consideration of place of demons and fear in several different societies and cultures in ancient world: Mesopotamia; ancient Egypt, Greece, and Rome; and Biblical and early Jewish contexts. Investigation into why demons and monsters existed in these cultures;\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS C142",
+      "dept": "WL ARTS",
+      "number": "C142",
+      "title": "Myth and Ritual",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Designed for juniors/seniors. Myths make sense of world and its peoples, purposes, and places. Rituals embody and activate myths through dramatic transformative devices. Concurrently scheduled with course C242. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "WL ARTS C151",
+      "dept": "WL ARTS",
+      "number": "C151",
+      "title": "Ethnography of Religions",
+      "units": 4.0,
+      "description": "Lecture, three hours. Religions are cultural systems helping people to cope with misfortune, deal with death, and find fulfillment in life. Case studies reveal commonalities across cultures as cosmologies define moral being in world, divination determines causes of difficulty, spirit mediumship embodies divine intervention, and sacred arts render deities tangible.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

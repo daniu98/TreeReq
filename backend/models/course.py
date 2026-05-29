@@ -37,6 +37,7 @@ class TreeEdge(BaseModel):
 
 class RequirementInfo(BaseModel):
     category: str
+    section: str | None = None
     type: str = "required"
     choose_n: int | None = None
     courses: list[str] = []

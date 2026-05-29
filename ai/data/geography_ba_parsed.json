@@ -1,0 +1,166 @@
+{
+  "major_id": "geography-ba",
+  "major_name": "Geography BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/GeographyBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "STATS 12"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "GEOG 1",
+            "GEOG 2"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "GEOG 3",
+            "GEOG 4",
+            "GEOG 6"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": 11,
+      "courses": [],
+      "elective_groups": []
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "GEOG": [
+      "GEOG 1",
+      "GEOG 198A",
+      "GEOG 198B",
+      "GEOG 2",
+      "GEOG 3",
+      "GEOG 4",
+      "GEOG 6"
+    ],
+    "STATS": [
+      "STATS 12"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "GEOG 1",
+      "dept": "GEOG",
+      "number": "1",
+      "title": "Earth's Physical Environment",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Study of Earth\u2019s physical environment, with particular reference to nature and distribution of landforms and climate and their significance to people. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 198A",
+      "dept": "GEOG",
+      "number": "198A",
+      "title": "Honors Research in Geography I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.25 grade-point average overall, at least five upper-division geography courses with 3.5 grade-point average. Limited to juniors/seniors. Development and completion of honors thesis or comprehensive research project under direct supervision of one or two faculty members. May be repeated for maximum of 16 units. Individual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 198B",
+      "dept": "GEOG",
+      "number": "198B",
+      "title": "Honors Research in Geography II",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: 3.25 grade-point average overall, at least five upper-division geography courses with 3.5 grade-point average. Limited to juniors/seniors. Development and completion of honors thesis or comprehensive research project under direct supervision of one or two faculty members. May be repeated for maximum of 16 units. Individual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 2",
+      "dept": "GEOG",
+      "number": "2",
+      "title": "Biodiversity in Changing World",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Biogeographic exploration of plant and animal diversity and conservation issues on continents and islands around world. Study of physical, biotic, and human factors responsible for evolution, persistence, and extinction of species and ecological communities. Analysis of effects of human activity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 3",
+      "dept": "GEOG",
+      "number": "3",
+      "title": "Cultural Geography",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to cultural geography of modern world, with examination of key concepts of space, place, and landscape as these have shaped and been shaped by connections between societies and their natural environments. Examples from variety of landscapes and places since 1800 and especially from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 4",
+      "dept": "GEOG",
+      "number": "4",
+      "title": "Globalization: Regional Development and World Economy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Economic geography explores spatial distribution of all forms of human productive activity at number of geographical scales\u2014local, regional, national, and global. Key theme is impact of increasingly powerful global economic forces on organization of production. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 6",
+      "dept": "GEOG",
+      "number": "6",
+      "title": "World Regions: Concepts and Contemporary Issues",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Interdisciplinary and historical approach to modern peoples, their differences in wealth or poverty, and their local origins of food production. Brief introduction to physical geography and biogeography of each region. Discussion of each region\u2019s peoples, languages, foods, prehistories, and histories. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 12",
+      "dept": "STATS",
+      "number": "12",
+      "title": "Introduction to Statistical Methods for Geography and Environmental Studies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

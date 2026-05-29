@@ -34,6 +34,18 @@ function userForests(userProfile) {
   return [{ id: userProfile.majorId, name: userProfile.major, majorId: userProfile.majorId }];
 }
 
+const majorModules = import.meta.glob('/src/components/pages/majors/*.jsx', { eager: true });
+const MAJORS = Object.keys(majorModules).reduce((acc, filePath) => {
+  const fileName = filePath.match(/\/majors\/(.+)\.jsx$/)[1].toLowerCase();
+  acc[fileName] = majorModules[filePath].default;
+  return acc;
+}, {});
+
+function userForests(userProfile) {
+  if (!userProfile?.majorId || !userProfile?.major) return [];
+  return [{ id: userProfile.majorId, name: userProfile.major, majorId: userProfile.majorId }];
+}
+
 function AppHome({
   route,
   navigate,
@@ -103,7 +115,7 @@ export default function App() {
   const [onboardingVisible, setOnboardingVisible] = useState(!initialProfile);
   const [homeRevealed, setHomeRevealed] = useState(!!initialProfile);
   const [homeEntered, setHomeEntered] = useState(!!initialProfile);
-  
+
   const [route, setRoute] = useState(() => parseLocation());
   const [recentIds, setRecentIds] = useState(loadRecentIds);
   const [userProfile, setUserProfile] = useState(initialProfile);
@@ -142,7 +154,7 @@ export default function App() {
       document.title = "TreeReq — New tree";
       return;
     }
-    
+
     if (route.view && MAJORS[route.view.toLowerCase()]) {
       const formattedTitle = route.view
         .split("-")
