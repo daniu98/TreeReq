@@ -1,7 +1,4 @@
-import { hierarchy, tree as d3tree } from "d3-hierarchy";
-
-// Outer rendered diameters / dimensions for each node kind (px).
-// All circle nodes are now 220px (matching Figma). Course pills are ~220px wide × 85px tall.
+// Actual rendered outer diameters / dimensions for each node kind.
 const NODE_KIND_SIZE = {
   root:     { w: 220, h: 220 },
   section:  { w: 220, h: 220 },
@@ -9,70 +6,96 @@ const NODE_KIND_SIZE = {
   course:   { w: 220, h: 85  },
 };
 
-// Vertical slot per leaf node: course pill is 85px tall; 240px gives comfortable spacing.
-const VERTICAL_SLOT  = 240;
-// Extra horizontal space between depth columns (edge-to-edge gap between circles/pills).
-const HORIZONTAL_GAP = 80;
+// Spine: root + sections in a horizontal row.
+const SECTION_SPACING  = 260; // horizontal gap center-to-center between spine nodes
+const ROOT_SECTION_GAP = 180; // gap from root center to first section center
+
+// Categories: split above/below their section, stacked vertically.
+const CAT_FIRST_OFFSET = 110; // distance from spine center to first category center
+const CAT_SPACING      = 116; // vertical gap between adjacent categories on same side
+
+// Courses: pill stack to the right of each category.
+const COURSE_X_OFFSET  = 160; // horizontal distance from category center to course center
+const COURSE_Y_SPACING = 34;  // vertical gap between adjacent course pills
+
+const MARGIN = 80;
+
+function makeNode(data, x, y, depth) {
+  const size = NODE_KIND_SIZE[data.kind] ?? NODE_KIND_SIZE.course;
+  return {
+    id:                   data.id,
+    kind:                 data.kind,
+    data:                 data.data,
+    status:               data.status,
+    completionPercentage: data.completionPercentage,
+    completed:            data.completed,
+    unmetPrereqs:         data.unmetPrereqs,
+    x,
+    y,
+    width:  size.w,
+    height: size.h,
+    depth,
+  };
+}
+
+function makeEdge(src, tgt) {
+  return { id: `${src.id}->${tgt.id}`, sourceNode: src, targetNode: tgt };
+}
 
 export function layoutTree(rootDerived) {
-  const root = hierarchy(rootDerived);
+  const nodes = [];
+  const edges = [];
 
-  const layout = d3tree().nodeSize([
-    VERTICAL_SLOT,
-    NODE_KIND_SIZE.category.w + HORIZONTAL_GAP,
-  ]);
-  layout(root);
+  // ── Spine ─────────────────────────────────────────────────────────────────
+  const spineY  = 0;
+  const rootNode = makeNode(rootDerived, 0, spineY, 0);
+  nodes.push(rootNode);
 
-  // Swap axes: d3 lays out vertically; we want left→right.
-  const positioned = root.descendants().map((d) => {
-    const size = NODE_KIND_SIZE[d.data.kind] ?? NODE_KIND_SIZE.course;
-    return {
-      id:                   d.data.id,
-      kind:                 d.data.kind,
-      data:                 d.data.data,
-      status:               d.data.status,
-      completionPercentage: d.data.completionPercentage,
-      completed:            d.data.completed,
-      unmetPrereqs:         d.data.unmetPrereqs,
-      x:     d.y,   // swapped
-      y:     d.x,   // swapped
-      width: size.w,
-      height: size.h,
-      depth: d.depth,
-      _hierarchyNode: d,
-    };
+  const sections = rootDerived.children ?? [];
+
+  sections.forEach((sectionData, si) => {
+    const secX = ROOT_SECTION_GAP + si * SECTION_SPACING;
+    const secNode = makeNode(sectionData, secX, spineY, 1);
+    nodes.push(secNode);
+    edges.push(makeEdge(rootNode, secNode));
+
+    // ── Categories: half above spine, half below ───────────────────────────
+    const categories = sectionData.children ?? [];
+    const aboveCount = Math.ceil(categories.length / 2);
+
+    categories.forEach((catData, ci) => {
+      const above   = ci < aboveCount;
+      const idx     = above ? ci : ci - aboveCount;
+      const dir     = above ? -1 : 1;
+      const catY    = spineY + dir * (CAT_FIRST_OFFSET + idx * CAT_SPACING);
+      const catNode = makeNode(catData, secX, catY, 2);
+      nodes.push(catNode);
+      edges.push(makeEdge(secNode, catNode));
+
+      // ── Courses: pill stack to the right of each category ─────────────
+      const courses = catData.children ?? [];
+      const totalH  = (courses.length - 1) * COURSE_Y_SPACING;
+      courses.forEach((courseData, cri) => {
+        const courseX = secX + COURSE_X_OFFSET;
+        const courseY = catY - totalH / 2 + cri * COURSE_Y_SPACING;
+        const courseNode = makeNode(courseData, courseX, courseY, 3);
+        nodes.push(courseNode);
+        edges.push(makeEdge(catNode, courseNode));
+      });
+    });
   });
 
-  // Normalize so min-x and min-y start at a margin.
-  const xs = positioned.map((n) => n.x);
-  const ys = positioned.map((n) => n.y);
-  const minX = Math.min(...xs);
-  const minY = Math.min(...ys);
-  const margin = 80;
-  for (const n of positioned) {
-    n.x = n.x - minX + margin;
-    n.y = n.y - minY + margin;
+  // ── Normalize so top-left starts at MARGIN ────────────────────────────────
+  const minX = Math.min(...nodes.map((n) => n.x - n.width  / 2));
+  const minY = Math.min(...nodes.map((n) => n.y - n.height / 2));
+  for (const n of nodes) {
+    n.x = n.x - minX + MARGIN;
+    n.y = n.y - minY + MARGIN;
   }
 
-  // Build parent→child edges from hierarchy.
-  const nodeById = new Map(positioned.map((n) => [n.id, n]));
-  const edges = [];
-  for (const n of positioned) {
-    const hn = n._hierarchyNode;
-    if (!hn.parent) continue;
-    const parent = nodeById.get(hn.parent.data.id);
-    if (!parent) continue;
-    edges.push({
-      id: `${parent.id}->${n.id}`,
-      sourceNode: parent,
-      targetNode: n,
-    });
-  }
+  const nodeById    = new Map(nodes.map((n) => [n.id, n]));
+  const totalWidth  = Math.max(...nodes.map((n) => n.x + n.width  / 2)) + MARGIN;
+  const totalHeight = Math.max(...nodes.map((n) => n.y + n.height / 2)) + MARGIN;
 
-  const totalWidth  = Math.max(...positioned.map((n) => n.x + n.width  / 2)) + margin;
-  const totalHeight = Math.max(...positioned.map((n) => n.y + n.height / 2)) + margin;
-
-  for (const n of positioned) delete n._hierarchyNode;
-
-  return { nodes: positioned, edges, totalWidth, totalHeight, nodeById };
+  return { nodes, edges, totalWidth, totalHeight, nodeById };
 }

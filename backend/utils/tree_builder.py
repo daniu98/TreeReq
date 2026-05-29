@@ -33,6 +33,12 @@ DEPT_LABELS: dict[str, str] = {
     "LIFESCI": "Life Sciences",
     "STATS": "Statistics",
     "ENGR": "Engineering",
+    "EC ENGR": "Electrical Engineering",
+    "C&EE": "Civil Engineering",
+    "MECH&AE": "Mechanical Engineering",
+    "MAT SCI": "Materials Science",
+    "CHEM ENGR": "Chemical Engineering",
+    "BIOENGR": "Bioengineering",
 }
 
 DEPT_SORT = [
@@ -90,6 +96,56 @@ def _category_label(section: str, dept: str, choose_n: int | None, rtype: str) -
     if rtype == "elective" and choose_n:
         return f"{label} (choose {choose_n})"
     return label
+
+
+def _elective_group_label(section: str, courses: list[str], choose_n: int) -> str:
+    """Generate a display label for an elective group based on its departments."""
+    depts = list(dict.fromkeys(parse_dept(c) for c in courses))  # ordered, unique
+    if len(depts) == 1:
+        return f"{_dept_label(depts[0])} (choose {choose_n})"
+    if len(depts) == 2:
+        return f"{_dept_label(depts[0])} or {_dept_label(depts[1])} (choose {choose_n})"
+    return f"Technical Breadth (choose {choose_n})"
+
+
+def _expand_elective_groups(requirements: list[dict]) -> list[dict]:
+    """
+    Expand each requirement's elective_groups into separate requirement dicts
+    alongside the requirement's required courses, so enrich_requirements sees them.
+    """
+    expanded: list[dict] = []
+    for req in requirements:
+        category = req.get("category", "")
+        courses = [c for c in (req.get("courses") or []) if c]
+        rtype = req.get("type", "required")
+        choose_n = req.get("choose_n")
+
+        # Required courses go in as-is (enrich_requirements splits by dept)
+        if courses:
+            expanded.append({
+                "category": category,
+                "type": rtype,
+                "choose_n": choose_n,
+                "courses": courses,
+            })
+
+        # Each elective_group becomes its own requirement entry, sectioned under
+        # the parent category so buildHierarchy places it in the right section hub.
+        for group in req.get("elective_groups") or []:
+            g_courses = [c for c in (group.get("courses") or []) if c]
+            g_choose_n = group.get("choose_n")
+            if not g_courses or not g_choose_n:
+                continue
+            label = _elective_group_label(category, g_courses, g_choose_n)
+            expanded.append({
+                "section": category,   # parent section hub
+                "category": label,
+                "type": "elective",
+                "choose_n": g_choose_n,
+                "courses": g_courses,
+            })
+
+    return expanded
 
 
 def _edges_among(course_ids: list[str], all_edges: list[dict]) -> list[tuple[str, str]]:
@@ -218,10 +274,11 @@ async def build_major_tree(db, major_id: str) -> PrereqTreeResponse:
     edges: list[TreeEdge] = []
     visited: set[str] = set()
 
+    # Collect all courses that are elective (from both courses lists and elective_groups)
     elective_courses: set[str] = set()
-    for req_category in major.get("requirements", []):
-        if req_category.get("type") == "elective" or req_category.get("choose_n"):
-            for cid in req_category.get("courses", []):
+    for req in major.get("requirements", []):
+        for group in req.get("elective_groups") or []:
+            for cid in group.get("courses") or []:
                 elective_courses.add(cid)
 
     async def walk_prereqs(cid: str) -> None:
@@ -269,12 +326,17 @@ async def build_major_tree(db, major_id: str) -> PrereqTreeResponse:
                 edges.append(TreeEdge(source=option_id, target=cid, type="one_of"))
                 await walk_prereqs(option_id)
 
-    for req_category in major.get("requirements", []):
-        for course_id in req_category.get("courses", []):
+    # Walk prereqs for all courses: required + elective_groups
+    for req in major.get("requirements", []):
+        for course_id in req.get("courses") or []:
             await walk_prereqs(course_id)
+        for group in req.get("elective_groups") or []:
+            for course_id in group.get("courses") or []:
+                await walk_prereqs(course_id)
 
     edge_dicts = [{"source": e.source, "target": e.target, "type": e.type} for e in edges]
-    enriched = enrich_requirements(major.get("requirements", []), edge_dicts)
+    expanded = _expand_elective_groups(major.get("requirements", []))
+    enriched = enrich_requirements(expanded, edge_dicts)
 
     return PrereqTreeResponse(
         root=major_id,
