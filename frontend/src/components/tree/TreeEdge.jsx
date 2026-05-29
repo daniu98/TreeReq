@@ -1,33 +1,18 @@
 /**
- * Smooth bezier connector. Picks horizontal or vertical orientation based on
- * the dominant axis between source and target, connecting from the nearest
- * edge of each node.
+ * Standard parent → child elbow connector. Horizontal jog from the parent's
+ * right edge, vertical drop to the child's row, then horizontal into the
+ * child's left edge. Arrow head at the destination.
  */
-export function TreeEdge({ source, target, color = "#85b110", strokeWidth = 2.5 }) {
-  const dx = target.x - source.x;
-  const dy = target.y - source.y;
+export function TreeEdge({ source, target, color = "#85b110", strokeWidth = 3 }) {
+  const sx = source.x + source.width / 2;
+  const sy = source.y;
+  const tx = target.x - target.width / 2;
+  const ty = target.y;
 
-  let path;
+  // Mid-x where the vertical jog happens.
+  const midX = sx + (tx - sx) / 2;
 
-  if (Math.abs(dy) > Math.abs(dx)) {
-    // Mostly vertical (section ↔ category): connect top/bottom edges.
-    const fromBottom = dy > 0;
-    const sx = source.x;
-    const sy = fromBottom ? source.y + source.height / 2 : source.y - source.height / 2;
-    const tx = target.x;
-    const ty = fromBottom ? target.y - target.height / 2 : target.y + target.height / 2;
-    const cy = (sy + ty) / 2;
-    path = `M ${sx},${sy} C ${sx},${cy} ${tx},${cy} ${tx},${ty}`;
-  } else {
-    // Mostly horizontal (root → section, category → course): connect left/right edges.
-    const toRight = dx > 0;
-    const sx = toRight ? source.x + source.width / 2 : source.x - source.width / 2;
-    const sy = source.y;
-    const tx = toRight ? target.x - target.width / 2 : target.x + target.width / 2;
-    const ty = target.y;
-    const cx = (sx + tx) / 2;
-    path = `M ${sx},${sy} C ${cx},${sy} ${cx},${ty} ${tx},${ty}`;
-  }
+  const path = `M ${sx},${sy} L ${midX},${sy} L ${midX},${ty} L ${tx},${ty}`;
 
   return (
     <path
@@ -36,6 +21,7 @@ export function TreeEdge({ source, target, color = "#85b110", strokeWidth = 2.5 
       strokeWidth={strokeWidth}
       fill="none"
       strokeLinecap="round"
+      strokeLinejoin="round"
     />
   );
 }
