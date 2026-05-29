@@ -6,8 +6,10 @@
  *  - edges: [{ source, target, type }]   // type: required | corequisite | one_of
  *  - requirements: [{ category, type, choose_n, courses, section? }]
  */
+import { apiUrl } from "./apiBase.js";
+
 export async function fetchMajorTree(majorId) {
-  const url = `/api/majors/${encodeURIComponent(majorId)}/tree`;
+  const url = apiUrl(`/api/majors/${encodeURIComponent(majorId)}/tree`);
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error(`Failed to load tree for ${majorId} (${response.status})`);
@@ -20,7 +22,7 @@ export async function fetchMajorTree(majorId) {
  * Backend endpoint to be implemented: POST /api/courses/{course_id}/completion
  */
 export async function setCourseCompletion(courseId, completed) {
-  const url = `/api/courses/${encodeURIComponent(courseId)}/completion`;
+  const url = apiUrl(`/api/courses/${encodeURIComponent(courseId)}/completion`);
   const response = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
