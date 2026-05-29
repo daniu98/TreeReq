@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { fetchMajors } from "../../services/majorsApi.js";
 
 const text = { color: "#7C7C7C", fontSize: 16, fontFamily: "var(--font-ui)", fontWeight: 400 };
 const sectionLabel = { color: "#9A9A9A", fontSize: 16, fontFamily: "var(--font-section)", fontWeight: 400 };
@@ -33,6 +34,19 @@ function TreeIcon() {
   );
 }
 
+function CollapseIcon({ collapsed }) {
+  return (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
+      <rect x="2" y="2" width="16" height="16" rx="3" stroke="#9A9A9A" strokeWidth="1.5" />
+      <line x1="7" y1="2" x2="7" y2="18" stroke="#9A9A9A" strokeWidth="1.5" />
+      <path
+        d={collapsed ? "M10 8l3 3-3 3" : "M12 8l-3 3 3 3"}
+        stroke="#9A9A9A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 function NavRow({ icon, label, active, onClick, title }) {
   return (
     <button
@@ -62,15 +76,7 @@ function NavRow({ icon, label, active, onClick, title }) {
 }
 
 function Divider() {
-  return (
-    <div
-      style={{
-        width: "100%",
-        height: 0,
-        borderTop: "1px solid #D9D9D9",
-      }}
-    />
-  );
+  return <div style={{ width: "100%", height: 0, borderTop: "1px solid #D9D9D9" }} />;
 }
 
 export default function AppSidebar({
@@ -78,33 +84,50 @@ export default function AppSidebar({
   allTrees = [],
   recents = [],
   activeTreeId,
+  activeMajorId,
+  pinnedMajor,       // { id, name } — selected major shown at top of Forests
   searchQuery = "",
   searchOpen = false,
   onSearchQueryChange,
   onSearchOpenChange,
   onOpenTree,
+  onOpenMajor,
   onNewTree,
 }) {
   const searchInputRef = useRef(null);
+  const [collapsed, setCollapsed] = useState(false);
+  const [allMajors, setAllMajors] = useState([]);
+
+  // Fetch all majors for search
+  useEffect(() => {
+    fetchMajors()
+      .then((data) => {
+        if (Array.isArray(data)) setAllMajors(data);
+      })
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
-    if (searchOpen && searchInputRef.current) {
-      searchInputRef.current.focus();
-    }
+    if (searchOpen && searchInputRef.current) searchInputRef.current.focus();
   }, [searchOpen]);
 
   const showSearchResults = searchQuery.trim().length > 0;
+
   const searchResults = useMemo(() => {
-    if (!showSearchResults) return [];
+    if (!showSearchResults) return { trees: [], majors: [] };
     const q = searchQuery.trim().toLowerCase();
     const seen = new Set();
     const combined = allTrees.length > 0 ? allTrees : [...forests, ...recents];
-    return combined.filter((t) => {
+    const trees = combined.filter((t) => {
       if (seen.has(t.id)) return false;
       seen.add(t.id);
       return t.name.toLowerCase().includes(q) || (t.major && t.major.toLowerCase().includes(q));
     });
-  }, [allTrees, forests, recents, searchQuery, showSearchResults]);
+    const majors = allMajors.filter((m) =>
+      m.name.toLowerCase().includes(q) || m.major_id.toLowerCase().includes(q)
+    ).slice(0, 8);
+    return { trees, majors };
+  }, [allTrees, forests, recents, allMajors, searchQuery, showSearchResults]);
 
   const filteredForests = useMemo(() => {
     if (!searchQuery.trim()) return forests;
@@ -122,6 +145,33 @@ export default function AppSidebar({
     );
   }, [recents, searchQuery]);
 
+  if (collapsed) {
+    return (
+      <aside style={{
+        width: 56,
+        flexShrink: 0,
+        minHeight: "100vh",
+        background: "#fff",
+        borderRight: "1px solid #EAEAEA",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        paddingTop: 16,
+        gap: 16,
+      }}>
+        <img src="/images/LOGO.png" alt="TreeReq" style={{ width: 32, height: 32, objectFit: "contain" }} />
+        <button
+          type="button"
+          aria-label="Expand sidebar"
+          onClick={() => setCollapsed(false)}
+          style={{ border: "none", background: "transparent", cursor: "pointer", padding: 4 }}
+        >
+          <CollapseIcon collapsed={true} />
+        </button>
+      </aside>
+    );
+  }
+
   return (
     <aside
       style={{
@@ -134,60 +184,34 @@ export default function AppSidebar({
         flexDirection: "column",
       }}
     >
-      <div
-        style={{
-          height: 65,
-          padding: "15px 40px",
-          borderBottom: "1px solid #D9D9D9",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
-      >
-        <div
-          style={{
-            width: 30,
-            height: 30,
-            background: "#85B110",
-            borderRadius: 9999,
-          }}
-          aria-hidden
-        />
+      {/* Header */}
+      <div style={{
+        height: 65,
+        padding: "15px 40px",
+        borderBottom: "1px solid #D9D9D9",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+      }}>
+        <img src="/images/LOGO.png" alt="TreeReq" style={{ height: 34, objectFit: "contain" }} />
         <button
           type="button"
-          aria-label="Toggle layout"
-          style={{
-            width: 30,
-            height: 30,
-            border: "none",
-            background: "transparent",
-            cursor: "pointer",
-            display: "grid",
-            placeItems: "center",
-          }}
+          aria-label="Collapse sidebar"
+          onClick={() => setCollapsed(true)}
+          style={{ border: "none", background: "transparent", cursor: "pointer", padding: 4 }}
         >
-          <span
-            style={{
-              width: 22,
-              height: 22,
-              border: "2px solid #9A9A9A",
-              borderRadius: 2,
-            }}
-            aria-hidden
-          />
+          <CollapseIcon collapsed={false} />
         </button>
       </div>
 
-      <div
-        style={{
-          padding: "36px 40px 40px",
-          display: "flex",
-          flexDirection: "column",
-          gap: 25,
-          flex: 1,
-          overflowY: "auto",
-        }}
-      >
+      <div style={{
+        padding: "36px 40px 40px",
+        display: "flex",
+        flexDirection: "column",
+        gap: 25,
+        flex: 1,
+        overflowY: "auto",
+      }}>
         <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
           <NavRow icon={<PlusIcon />} label="New tree" onClick={onNewTree} />
           <NavRow
@@ -203,8 +227,8 @@ export default function AppSidebar({
                 type="search"
                 value={searchQuery}
                 onChange={(e) => onSearchQueryChange?.(e.target.value)}
-                placeholder="Search trees..."
-                aria-label="Search trees"
+                placeholder="Search majors & trees…"
+                aria-label="Search majors and trees"
                 style={{
                   width: "100%",
                   boxSizing: "border-box",
@@ -224,25 +248,40 @@ export default function AppSidebar({
           <>
             <Divider />
             <div style={{ display: "flex", flexDirection: "column", gap: 15 }}>
-              <div style={{ paddingLeft: 8, paddingRight: 8 }}>
-                <span style={sectionLabel}>Results</span>
-              </div>
+              <div style={{ paddingLeft: 8 }}><span style={sectionLabel}>Majors</span></div>
               <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
-                {searchResults.length === 0 ? (
-                  <p style={{ ...text, padding: "0 8px", fontSize: 14, margin: 0 }}>No trees found.</p>
+                {searchResults.majors.length === 0 ? (
+                  <p style={{ ...text, padding: "0 8px", fontSize: 14, margin: 0 }}>No majors found.</p>
                 ) : (
-                  searchResults.map((tree) => (
+                  searchResults.majors.map((m) => (
                     <NavRow
-                      key={tree.id}
+                      key={m.major_id}
                       icon={<TreeIcon />}
-                      label={truncateLabel(tree.name)}
-                      title={tree.name}
-                      active={activeTreeId === tree.id}
-                      onClick={() => onOpenTree?.(tree.id)}
+                      label={truncateLabel(m.name)}
+                      title={m.name}
+                      active={activeMajorId === m.major_id}
+                      onClick={() => onOpenMajor?.(m.major_id, m.name)}
                     />
                   ))
                 )}
               </div>
+              {searchResults.trees.length > 0 && (
+                <>
+                  <div style={{ paddingLeft: 8 }}><span style={sectionLabel}>Saved trees</span></div>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+                    {searchResults.trees.map((tree) => (
+                      <NavRow
+                        key={tree.id}
+                        icon={<TreeIcon />}
+                        label={truncateLabel(tree.name)}
+                        title={tree.name}
+                        active={activeTreeId === tree.id}
+                        onClick={() => onOpenTree?.(tree.id)}
+                      />
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
           </>
         ) : null}
@@ -250,11 +289,19 @@ export default function AppSidebar({
         <Divider />
 
         <div style={{ display: "flex", flexDirection: "column", gap: 15 }}>
-          <div style={{ paddingLeft: 8, paddingRight: 8 }}>
-            <span style={sectionLabel}>Forests</span>
-          </div>
+          <div style={{ paddingLeft: 8 }}><span style={sectionLabel}>Forests</span></div>
           <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
-            {filteredForests.length === 0 ? (
+            {/* Pinned major from guest selection shown first */}
+            {pinnedMajor && (
+              <NavRow
+                icon={<TreeIcon />}
+                label={truncateLabel(pinnedMajor.name)}
+                title={pinnedMajor.name}
+                active={activeMajorId === pinnedMajor.id}
+                onClick={() => onOpenMajor?.(pinnedMajor.id, pinnedMajor.name)}
+              />
+            )}
+            {filteredForests.length === 0 && !pinnedMajor ? (
               <p style={{ ...text, padding: "0 8px", fontSize: 14, margin: 0 }}>No forests match.</p>
             ) : (
               filteredForests.map((tree) => (
@@ -273,9 +320,7 @@ export default function AppSidebar({
         <Divider />
 
         <div style={{ display: "flex", flexDirection: "column", gap: 15 }}>
-          <div style={{ paddingLeft: 8, paddingRight: 8 }}>
-            <span style={sectionLabel}>Recents</span>
-          </div>
+          <div style={{ paddingLeft: 8 }}><span style={sectionLabel}>Recents</span></div>
           <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
             {filteredRecents.length === 0 ? (
               <p style={{ ...text, padding: "0 8px", fontSize: 14, margin: 0 }}>No recent trees.</p>

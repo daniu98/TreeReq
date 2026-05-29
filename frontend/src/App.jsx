@@ -39,14 +39,17 @@ function AppHome({
   searchOpen,
   setSearchOpen,
   openTree,
+  openMajor,
   goHome,
   activeTree,
   showProfile,
   userProfile,
   onCloseProfile,
   onOpenProfile,
+  pinnedMajor,
 }) {
   const activeTreeId = route.view === "tree" ? route.treeId : null;
+  const activeMajorId = MAJORS[route.view?.toLowerCase()] ? route.view : null;
   const MajorComponent = !showProfile ? MAJORS[route.view?.toLowerCase()] : null;
 
   return (
@@ -56,11 +59,14 @@ function AppHome({
         allTrees={MOCK_ALL_TREES}
         recents={recents}
         activeTreeId={activeTreeId}
+        activeMajorId={activeMajorId}
+        pinnedMajor={pinnedMajor}
         searchQuery={searchQuery}
         searchOpen={searchOpen}
         onSearchQueryChange={setSearchQuery}
         onSearchOpenChange={setSearchOpen}
         onOpenTree={openTree}
+        onOpenMajor={openMajor}
         onNewTree={() => navigate("setup")}
       />
 
@@ -85,7 +91,13 @@ function AppHome({
         <TreeSetupMain onBack={goHome} />
       ) : null}
 
-      {MajorComponent ? <MajorTreePage majorId={route.view} onBack={goHome} /> : null}
+      {MajorComponent ? (
+        <MajorTreePage
+          majorId={route.view}
+          majorName={pinnedMajor?.id === route.view ? pinnedMajor.name : undefined}
+          onBack={goHome}
+        />
+      ) : null}
     </>
   );
 }
@@ -100,9 +112,10 @@ export default function App() {
   const [recentIds, setRecentIds] = useState(loadRecentIds);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
-  
   const [userProfile, setUserProfile] = useState(initialProfile);
   const [showProfile, setShowProfile] = useState(false);
+  // Major pinned from guest selection — shown at top of Forests
+  const [pinnedMajor, setPinnedMajor] = useState(null);
 
   const recents = useMemo(() => resolveRecentTrees(recentIds), [recentIds]);
   const activeTreeId = route.view === "tree" ? route.treeId : null;
@@ -114,6 +127,12 @@ export default function App() {
     setRoute({ view, treeId: view === "tree" ? treeId : null });
   }, []);
 
+  // Navigate to a major's tree page and pin it in the sidebar
+  const openMajor = useCallback((majorId, majorName) => {
+    navigate(majorId);
+    setPinnedMajor({ id: majorId, name: majorName });
+  }, [navigate]);
+
   useEffect(() => {
     const onPopState = () => setRoute(parseLocation());
     window.addEventListener("popstate", onPopState);
@@ -121,53 +140,29 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (onboardingVisible) {
-      document.title = "TreeReq";
-      return;
-    }
-    if (showProfile) {
-      document.title = "TreeReq — Profile";
-      return;
-    }
-    if (route.view === "tree" && activeTree) {
-      document.title = getTreeDocumentTitle(activeTree);
-      return;
-    }
-    if (route.view === "setup") {
-      document.title = "TreeReq — New tree";
-      return;
-    }
-    
+    if (onboardingVisible) { document.title = "TreeReq"; return; }
+    if (showProfile) { document.title = "TreeReq — Profile"; return; }
+    if (route.view === "tree" && activeTree) { document.title = getTreeDocumentTitle(activeTree); return; }
+    if (route.view === "setup") { document.title = "TreeReq — New tree"; return; }
     if (route.view && MAJORS[route.view.toLowerCase()]) {
-      const formattedTitle = route.view
-        .split("-")
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(" ");
-      document.title = `TreeReq — ${formattedTitle}`;
+      const name = route.view.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      document.title = `TreeReq — ${name}`;
       return;
     }
-
     document.title = "TreeReq — Home";
   }, [onboardingVisible, showProfile, route.view, activeTree]);
 
-  const openTree = useCallback(
-    (treeId) => {
-      if (!getTreeById(treeId)) return;
-      navigate("tree", treeId);
-      setRecentIds((prev) => bumpRecentIds(prev, treeId));
-    },
-    [navigate]
-  );
-
-  const goHome = useCallback(() => {
-    navigate("landing");
+  const openTree = useCallback((treeId) => {
+    if (!getTreeById(treeId)) return;
+    navigate("tree", treeId);
+    setRecentIds((prev) => bumpRecentIds(prev, treeId));
   }, [navigate]);
+
+  const goHome = useCallback(() => navigate("landing"), [navigate]);
 
   const handleOnboardingExitStart = useCallback(() => {
     setHomeRevealed(true);
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => setHomeEntered(true));
-    });
+    requestAnimationFrame(() => requestAnimationFrame(() => setHomeEntered(true)));
   }, []);
 
   const handleOnboardingComplete = useCallback((data) => {
@@ -177,8 +172,14 @@ export default function App() {
       setUserProfile(mapped);
       setShowProfile(true);
     }
+    // If guest signed in with a selected major, pin it and navigate to it
+    if (data?.majorId && data?.majorName) {
+      setPinnedMajor({ id: data.majorId, name: data.majorName });
+      // Navigate after home is revealed
+      setTimeout(() => navigate(data.majorId), 50);
+    }
     setOnboardingVisible(false);
-  }, []);
+  }, [navigate]);
 
   const handleCloseProfile = useCallback(() => {
     setShowProfile(false);
@@ -207,12 +208,14 @@ export default function App() {
             searchOpen={searchOpen}
             setSearchOpen={setSearchOpen}
             openTree={openTree}
+            openMajor={openMajor}
             goHome={goHome}
             activeTree={activeTree}
             showProfile={showProfile}
             userProfile={userProfile}
             onCloseProfile={handleCloseProfile}
             onOpenProfile={handleOpenProfile}
+            pinnedMajor={pinnedMajor}
           />
         </div>
       ) : null}

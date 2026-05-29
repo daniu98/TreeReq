@@ -250,7 +250,7 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSs
 	);
 	sessionStorage.setItem("treereq-sso-token", "is-guest");
         sessionStorage.setItem("treereq-sso-email", guestEmail);
-	onSkipOnboarding(data.email);
+	onSkipOnboarding(data.email, form.major?.value, form.major?.label);
     } catch (error) {
 	console.error("Failed to save onboarding data:", error);
 	return;
@@ -282,12 +282,17 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSs
   const [form, setForm] = useState({
     major: null,
   });
-  const handleSkipToMainApp = useCallback((userEmail) => {
+  const handleSkipToMainApp = useCallback((userEmail, selectedMajorId, selectedMajorName) => {
     if (exitingToHome) return;
     setExitingToHome(true);
     onExitStart?.();
     window.setTimeout(() => {
-      onComplete?.({ skipped: true, email: userEmail }); 
+      onComplete?.({
+        skipped: true,
+        email: userEmail,
+        majorId: selectedMajorId ?? null,
+        majorName: selectedMajorName ?? null,
+      });
     }, HOME_EXIT_MS);
   }, [exitingToHome, onExitStart, onComplete]);
 
@@ -690,12 +695,17 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   const [email, setEmail] = useState("");
   const [ssoToken, setSsoToken] = useState("");
   const [isCheckingAuth, setIsCheckingAuth] = useState(true);
-  const handleSkipToMainApp = useCallback((userEmail) => {
+  const handleSkipToMainApp = useCallback((userEmail, selectedMajorId, selectedMajorName) => {
     if (exitingToHome) return;
     setExitingToHome(true);
     onExitStart?.();
     window.setTimeout(() => {
-      onComplete?.({ skipped: true, email: userEmail }); 
+      onComplete?.({
+        skipped: true,
+        email: userEmail,
+        majorId: selectedMajorId ?? null,
+        majorName: selectedMajorName ?? null,
+      });
     }, HOME_EXIT_MS);
   }, [exitingToHome, onExitStart, onComplete]);
 
