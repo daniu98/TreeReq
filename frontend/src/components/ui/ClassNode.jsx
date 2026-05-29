@@ -5,6 +5,63 @@ import {
   IconUnfulfilled,
 } from "../tree/StatusIcons.jsx";
 
+const FONT = "Inter, system-ui, sans-serif";
+
+/** Stacked collapsed view shown when a category has more than 7 courses. */
+export function CourseStack({ hiddenCount, onExpand }) {
+  return (
+    <div
+      onClick={(e) => { e.stopPropagation(); onExpand(); }}
+      title={`Show ${hiddenCount} more courses`}
+      style={{ position: "relative", width: 220, height: 70, cursor: "pointer" }}
+    >
+      {[2, 1, 0].map((i) => (
+        <div key={i} style={{
+          position: "absolute",
+          top: i * 8,
+          left: i * 5,
+          right: -i * 5,
+          height: 52,
+          borderRadius: 999,
+          border: "2px solid #d0d0d0",
+          background: i === 0 ? "#fff" : "#f5f5f5",
+          boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
+        }} />
+      ))}
+      <div style={{
+        position: "absolute",
+        top: -8,
+        right: 6,
+        background: "#348162",
+        color: "#fff",
+        borderRadius: 12,
+        padding: "2px 10px",
+        fontSize: 11,
+        fontWeight: 700,
+        fontFamily: FONT,
+      }}>
+        +{hiddenCount} more
+      </div>
+      <div style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontFamily: FONT,
+        fontSize: 12,
+        fontWeight: 600,
+        color: "#888",
+      }}>
+        Click to expand
+      </div>
+    </div>
+  );
+}
+
 /**
  * Course pill matching the Figma "Course Node" design: a horizontal white
  * pill with a colored status icon on the left and the course name + status

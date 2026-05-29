@@ -8,7 +8,7 @@ import { layoutTree } from "./treeLayout.js";
 import { RootNode } from "./RootNode.jsx";
 import { SectionNode } from "./SectionNode.jsx";
 import { CategoryNode } from "../ui/CategoryNode.jsx";
-import { ClassNode } from "../ui/ClassNode.jsx";
+import { ClassNode, CourseStack } from "../ui/ClassNode.jsx";
 import { TreeEdge } from "./TreeEdge.jsx";
 import { PrereqEdge } from "./PrereqEdge.jsx";
 import { NodeDetailPanel } from "./NodeDetailPanel.jsx";
@@ -24,6 +24,9 @@ export function DegreeTree({
   const [statusMap, setStatusMap] = useState({});
   const [selectedNodeId, setSelectedNodeId] = useState(null);
   const [hoveredCourseId, setHoveredCourseId] = useState(null);
+  const [expandedCategories, setExpandedCategories] = useState(new Set());
+
+  const COLLAPSE_THRESHOLD = 7;
 
   useEffect(() => {
     if (mockResponse) return;
@@ -108,6 +111,60 @@ export function DegreeTree({
   const { nodes, edges, crossBranchEdges, totalWidth, totalHeight, nodeById } = layout;
   const selectedNode = selectedNodeId ? nodeById?.get(selectedNodeId) : null;
 
+  // Map each category to its direct course children (sorted by Y position).
+  const categoryDirectCourses = useMemo(() => {
+    const map = new Map();
+    for (const edge of edges) {
+      if (edge.sourceNode.kind === "category" && edge.targetNode.kind === "course") {
+        const catId = edge.sourceNode.id;
+        if (!map.has(catId)) map.set(catId, []);
+        map.get(catId).push(edge.targetNode);
+      }
+    }
+    // Sort each bucket by Y so first 7 are the topmost courses.
+    for (const arr of map.values()) arr.sort((a, b) => a.y - b.y);
+    return map;
+  }, [edges]);
+
+  // Set of node IDs that should be hidden (beyond threshold in a collapsed category).
+  const hiddenNodeIds = useMemo(() => {
+    const hidden = new Set();
+    for (const [catId, directCourses] of categoryDirectCourses) {
+      if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
+      if (expandedCategories.has(catId)) continue;
+      const toHide = directCourses.slice(COLLAPSE_THRESHOLD);
+      const queue = toHide.map((n) => n.id);
+      while (queue.length) {
+        const id = queue.shift();
+        if (hidden.has(id)) continue;
+        hidden.add(id);
+        for (const e of edges) {
+          if (e.sourceNode.id === id && e.targetNode.kind === "course") {
+            queue.push(e.targetNode.id);
+          }
+        }
+      }
+    }
+    return hidden;
+  }, [categoryDirectCourses, expandedCategories, edges]);
+
+  // Stack placeholder info for each collapsed category that exceeds the threshold.
+  const stackInfo = useMemo(() => {
+    const stacks = [];
+    for (const [catId, directCourses] of categoryDirectCourses) {
+      if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
+      if (expandedCategories.has(catId)) continue;
+      const lastVisible = directCourses[COLLAPSE_THRESHOLD - 1];
+      stacks.push({
+        catId,
+        hiddenCount: directCourses.length - COLLAPSE_THRESHOLD,
+        x: lastVisible.x,
+        y: lastVisible.y + lastVisible.height + 20,
+      });
+    }
+    return stacks;
+  }, [categoryDirectCourses, expandedCategories]);
+
   // Cross-branch (cross-dept) prereq edges are only shown when hovering a course.
   const visibleCrossEdges = hoveredCourseId
     ? (crossBranchEdges ?? []).filter(
@@ -123,14 +180,16 @@ export function DegreeTree({
           height={totalHeight}
           style={{ position: "absolute", inset: 0, pointerEvents: "none" }}
         >
-          {edges.map((e) => (
-            <TreeEdge
-              key={e.id}
-              source={e.sourceNode}
-              target={e.targetNode}
-              color={statusMap[e.sourceNode?.id] === "completed" ? "#348162" : "#85b110"}
-            />
-          ))}
+          {edges
+            .filter((e) => !hiddenNodeIds.has(e.targetNode.id) && !hiddenNodeIds.has(e.sourceNode.id))
+            .map((e) => (
+              <TreeEdge
+                key={e.id}
+                source={e.sourceNode}
+                target={e.targetNode}
+                color={statusMap[e.sourceNode?.id] === "completed" ? "#348162" : "#85b110"}
+              />
+            ))}
           {visibleCrossEdges.map((e) => {
             const src = nodeById?.get(e.source);
             const tgt = nodeById?.get(e.target);
@@ -146,16 +205,38 @@ export function DegreeTree({
           })}
         </svg>
 
-        {nodes.map((node) => (
-          <PositionedNode
-            key={node.id}
-            node={node}
-            isSelected={node.id === selectedNodeId}
-            statusMap={statusMap}
-            onClick={handleNodeClick}
-            onMouseEnter={handleCourseMouseEnter}
-            onMouseLeave={handleCourseMouseLeave}
-          />
+        {nodes
+          .filter((node) => !hiddenNodeIds.has(node.id))
+          .map((node) => (
+            <PositionedNode
+              key={node.id}
+              node={node}
+              isSelected={node.id === selectedNodeId}
+              statusMap={statusMap}
+              onClick={handleNodeClick}
+              onMouseEnter={handleCourseMouseEnter}
+              onMouseLeave={handleCourseMouseLeave}
+            />
+          ))}
+
+        {/* Collapsed-category stack placeholders */}
+        {stackInfo.map((s) => (
+          <div
+            key={`stack:${s.catId}`}
+            style={{
+              position: "absolute",
+              left: s.x,
+              top: s.y,
+              transform: "translate(-50%, 0)",
+            }}
+          >
+            <CourseStack
+              hiddenCount={s.hiddenCount}
+              onExpand={() =>
+                setExpandedCategories((prev) => new Set([...prev, s.catId]))
+              }
+            />
+          </div>
         ))}
       </div>
 
