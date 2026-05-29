@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { fetchMajorTree, setCourseCompletion } from "../../services/treeApi.js";
 import { enrichTreeResponse } from "../../utils/enrichTreeResponse.js";
@@ -13,6 +13,11 @@ import { TreeEdge } from "./TreeEdge.jsx";
 import { PrereqEdge } from "./PrereqEdge.jsx";
 import { NodeDetailPanel } from "./NodeDetailPanel.jsx";
 
+// How long to hover before the course expands (ms)
+const HOVER_EXPAND_DELAY = 500;
+// Scale factor when a course is expanded (~33% smaller than original 1.25)
+const EXPAND_SCALE = 1.17;
+
 export function DegreeTree({
   majorId,
   majorName,
@@ -23,7 +28,17 @@ export function DegreeTree({
   const [error, setError] = useState(null);
   const [statusMap, setStatusMap] = useState({});
   const [selectedNodeId, setSelectedNodeId] = useState(null);
+
+  // lockedCourseId: clicked course — stays expanded until clicked again or another is clicked
+  const [lockedCourseId, setLockedCourseId] = useState(null);
+  // hoveredCourseId: course under the pointer — shows arrows immediately
   const [hoveredCourseId, setHoveredCourseId] = useState(null);
+  // hoverExpandedId: set after HOVER_EXPAND_DELAY ms — triggers visual enlargement
+  const [hoverExpandedId, setHoverExpandedId] = useState(null);
+  const hoverTimerRef = useRef(null);
+  // Ref mirrors lockedCourseId for synchronous checks in mouse event handlers
+  // (React state updates are async, so mouseleave could see stale lockedCourseId)
+  const lockedRef = useRef(null);
 
   useEffect(() => {
     if (mockResponse) return;
@@ -51,9 +66,9 @@ export function DegreeTree({
     const { root, crossBranchEdges } = buildHierarchy(enriched, majorName);
     const prereqIndex = buildPrereqIndex(enriched.edges ?? []);
     const derived = deriveStatuses(root, statusMap, prereqIndex);
-    const positioned = layoutTree(derived);
+    const positioned = layoutTree(derived, lockedCourseId);
     return { ...positioned, crossBranchEdges, enriched };
-  }, [apiResponse, majorName, statusMap]);
+  }, [apiResponse, majorName, statusMap, lockedCourseId]);
 
   const handleStatusChange = useCallback(async (courseId, newStatus) => {
     const prev = statusMap[courseId] ?? "unfulfilled";
@@ -77,6 +92,22 @@ export function DegreeTree({
   }, [statusMap]);
 
   const handleNodeClick = useCallback((node) => {
+    if (node.kind === "course") {
+      clearTimeout(hoverTimerRef.current);
+      if (lockedRef.current === node.id) {
+        // Unlock: revert to normal hover state
+        lockedRef.current = null;
+        setLockedCourseId(null);
+        setHoveredCourseId(null);
+        setHoverExpandedId(null);
+      } else {
+        // Lock: reuse hover state paths, bypass the delay
+        lockedRef.current = node.id;
+        setLockedCourseId(node.id);
+        setHoveredCourseId(node.id);   // arrows on
+        setHoverExpandedId(node.id);   // expand immediately (no timer needed)
+      }
+    }
     setSelectedNodeId((prev) => prev === node.id ? null : node.id);
   }, []);
 
@@ -84,12 +115,20 @@ export function DegreeTree({
     setSelectedNodeId(courseId);
   }, []);
 
+  // While a course is locked, ignore all hover events on other courses so
+  // only one course can ever be expanded at a time.
   const handleCourseMouseEnter = useCallback((courseId) => {
+    if (lockedRef.current) return;
     setHoveredCourseId(courseId);
+    clearTimeout(hoverTimerRef.current);
+    hoverTimerRef.current = setTimeout(() => setHoverExpandedId(courseId), HOVER_EXPAND_DELAY);
   }, []);
 
   const handleCourseMouseLeave = useCallback(() => {
+    if (lockedRef.current) return;
+    clearTimeout(hoverTimerRef.current);
     setHoveredCourseId(null);
+    setHoverExpandedId(null);
   }, []);
 
   if (loading) return (
@@ -108,10 +147,12 @@ export function DegreeTree({
   const { nodes, edges, crossBranchEdges, totalWidth, totalHeight, nodeById } = layout;
   const selectedNode = selectedNodeId ? nodeById?.get(selectedNodeId) : null;
 
-  // Cross-branch (cross-dept) prereq edges are only shown when hovering a course.
-  const visibleCrossEdges = hoveredCourseId
+  // Arrows: show immediately on hover; stay locked after click
+  const activeCourseId = lockedCourseId ?? hoveredCourseId;
+
+  const visibleCrossEdges = activeCourseId
     ? (crossBranchEdges ?? []).filter(
-        (e) => e.source === hoveredCourseId || e.target === hoveredCourseId
+        (e) => e.source === activeCourseId || e.target === activeCourseId
       )
     : [];
 
@@ -146,17 +187,25 @@ export function DegreeTree({
           })}
         </svg>
 
-        {nodes.map((node) => (
-          <PositionedNode
-            key={node.id}
-            node={node}
-            isSelected={node.id === selectedNodeId}
-            statusMap={statusMap}
-            onClick={handleNodeClick}
-            onMouseEnter={handleCourseMouseEnter}
-            onMouseLeave={handleCourseMouseLeave}
-          />
-        ))}
+        {nodes.map((node) => {
+          const isLocked = node.id === lockedCourseId;
+          // Only expand via hover when nothing is locked (one expanded at a time)
+          const isHoverExpanded = !lockedCourseId && node.id === hoverExpandedId;
+          const isExpanded = isLocked || isHoverExpanded;
+          return (
+            <PositionedNode
+              key={node.id}
+              node={node}
+              isSelected={node.id === selectedNodeId}
+              isExpanded={isExpanded}
+              isLocked={isLocked}
+              statusMap={statusMap}
+              onClick={handleNodeClick}
+              onMouseEnter={handleCourseMouseEnter}
+              onMouseLeave={handleCourseMouseLeave}
+            />
+          );
+        })}
       </div>
 
       {selectedNode && createPortal(
@@ -174,26 +223,31 @@ export function DegreeTree({
   );
 }
 
-function PositionedNode({ node, isSelected, onClick, onMouseEnter, onMouseLeave }) {
+function PositionedNode({ node, isSelected, isExpanded, isLocked, onClick, onMouseEnter, onMouseLeave }) {
+  const scale = isExpanded ? EXPAND_SCALE : 1;
   return (
     <div
       style={{
         position: "absolute",
         left: node.x,
         top: node.y,
-        transform: "translate(-50%, -50%)",
+        transform: `translate(-50%, -50%) scale(${scale})`,
+        transformOrigin: "center center",
+        transition: "transform 0.2s ease",
         cursor: "pointer",
+        zIndex: isExpanded ? 10 : 1,
       }}
       onClick={() => onClick(node)}
+      onPointerDown={(e) => e.stopPropagation()}
       onMouseEnter={node.kind === "course" ? () => onMouseEnter(node.id) : undefined}
       onMouseLeave={node.kind === "course" ? () => onMouseLeave() : undefined}
     >
-      {renderNode(node, isSelected)}
+      {renderNode(node, isSelected, isLocked)}
     </div>
   );
 }
 
-function renderNode(node, isSelected) {
+function renderNode(node, isSelected, isLocked) {
   const circleRing = isSelected
     ? { outline: "3px solid #FFD66B", outlineOffset: 4, borderRadius: "50%" }
     : {};
@@ -217,7 +271,9 @@ function renderNode(node, isSelected) {
 
     case "course": {
       const status = courseStatusLabel(node.status);
-      const courseRing = isSelected
+      const courseRing = isLocked
+        ? { outline: "2.5px solid #FFD66B", outlineOffset: 4, borderRadius: 50 }
+        : isSelected
         ? { outline: "2px solid #FFD66B", outlineOffset: 3, borderRadius: 50 }
         : {};
       return (

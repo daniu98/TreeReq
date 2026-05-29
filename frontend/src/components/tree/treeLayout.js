@@ -6,6 +6,10 @@ const NODE_KIND_SIZE = {
   course:   { w: 220, h: 85  },
 };
 
+// Extra Y-slot space (px) distributed symmetrically around a clicked/expanded course.
+// Half goes before the course, half after, so neighbours push away equally.
+const EXPAND_EXTRA = 20;
+
 const SECTION_R = NODE_KIND_SIZE.section.w / 2;   // 110
 const CAT_R     = NODE_KIND_SIZE.category.h / 2;  // 110
 const COURSE_W  = NODE_KIND_SIZE.course.w;         // 220
@@ -54,6 +58,15 @@ function makeEdge(src, tgt) {
   return { id: `${src.id}->${tgt.id}`, sourceNode: src, targetNode: tgt };
 }
 
+/** Returns true if any node in a course subtree has the given id. */
+function containsCourse(node, id) {
+  if (node.id === id) return true;
+  for (const child of node.children ?? []) {
+    if (containsCourse(child, id)) return true;
+  }
+  return false;
+}
+
 /** Number of leaf courses (no in-category children) in a course subtree. */
 function countLeaves(courseData) {
   const ch = courseData.children ?? [];
@@ -79,11 +92,12 @@ function chainDepth(courseData) {
  * Without the second term the boundary lands at the outermost course's
  * CENTER, so adjacent categories' pill edges overlap by one course_h/2.
  */
-function categoryHalfSpan(catData) {
+function categoryHalfSpan(catData, expandedId = null) {
   const roots = catData.children ?? [];
   if (roots.length === 0) return CAT_R;
   const totalLeaves = roots.reduce((s, r) => s + countLeaves(r), 0);
-  const courseH     = Math.max(0, totalLeaves - 1) * COURSE_Y_SPACING;
+  const hasExpanded = expandedId != null && roots.some(r => containsCourse(r, expandedId));
+  const courseH     = Math.max(0, totalLeaves - 1) * COURSE_Y_SPACING + (hasExpanded ? EXPAND_EXTRA : 0);
   const courseNodeR = NODE_KIND_SIZE.course.h / 2;  // 42.5 px
   return Math.max(CAT_R, courseH / 2 + courseNodeR);
 }
@@ -110,55 +124,66 @@ function sectionMaxChainDepth(sectionData) {
  *   Pass 1 – assign Y positions via leaf-slot counting (bottom-up).
  *   Pass 2 – create nodes and edges top-down so each node knows its parent.
  */
-function layoutCategoryCourses(catNode, catData, secX, catY, nodes, edges) {
+function layoutCategoryCourses(catNode, catData, secX, catY, nodes, edges, expandedId = null) {
   const roots = catData.children ?? [];
   if (roots.length === 0) return;
 
-  const totalLeaves = roots.reduce((s, r) => s + countLeaves(r), 0);
-  const totalH      = Math.max(0, totalLeaves - 1) * COURSE_Y_SPACING;
-  const topY        = catY - totalH / 2;
+  // Pass 1: assign relative Y positions using variable slot heights.
+  // EXPAND_EXTRA is split evenly before and after the expanded leaf so that
+  // the gaps to both neighbours grow symmetrically.
+  let cumY = 0;
+  let isFirstLeaf = true;
 
-  // Pass 1: assign Y by counting leaf slots bottom-up
-  let slot = 0;
-  function assignY(courseData) {
+  function assignRelY(courseData) {
     const ch = courseData.children ?? [];
-    const nLeaves  = countLeaves(courseData);
-    const slotStart = slot;
+    const childResults = ch.map(c => assignRelY(c));
 
-    const childResults = ch.map(c => assignY(c));
-
-    let y;
+    let relY;
     if (ch.length === 0) {
-      // Leaf: own slot
-      y = topY + slot * COURSE_Y_SPACING;
-      slot++;
+      const isExpanded = expandedId != null && courseData.id === expandedId;
+      // Add half the extra space before (skip for very first leaf — nothing above it)
+      if (isExpanded && !isFirstLeaf) cumY += EXPAND_EXTRA / 2;
+      relY = cumY;
+      // Add the regular spacing plus half the extra space after
+      cumY += COURSE_Y_SPACING + (isExpanded ? EXPAND_EXTRA / 2 : 0);
+      isFirstLeaf = false;
     } else {
-      // Interior: vertically centered over its leaf range
-      y = topY + (slotStart * 2 + nLeaves - 1) / 2 * COURSE_Y_SPACING;
+      // Interior node: center vertically over its children
+      const firstChildRelY = childResults[0].relY;
+      const lastChildRelY  = childResults[childResults.length - 1].relY;
+      relY = (firstChildRelY + lastChildRelY) / 2;
     }
-    return { courseData, y, childResults };
+    return { courseData, relY, childResults };
   }
-  const rootResults = roots.map(r => assignY(r));
+
+  const rootResults = roots.map(r => assignRelY(r));
+
+  // Gather all leaf relYs to find the actual span and center it on catY
+  function collectLeafRelYs(result) {
+    if (result.childResults.length === 0) return [result.relY];
+    return result.childResults.flatMap(r => collectLeafRelYs(r));
+  }
+  const allLeafRelYs = rootResults.flatMap(r => collectLeafRelYs(r));
+  const firstY = allLeafRelYs[0];
+  const lastY  = allLeafRelYs[allLeafRelYs.length - 1];
+  const topY   = catY - (lastY - firstY) / 2 - firstY; // center cluster on catY
 
   // Pass 2: create nodes and edges top-down
   function createNodes(result, depth, parentNode) {
-    const { courseData, y, childResults } = result;
+    const { courseData, relY, childResults } = result;
     const x          = secX + COURSE_X_OFFSET + depth * COURSE_COL_SPACING;
+    const y          = topY + relY;
     const courseNode = makeNode(courseData, x, y, 3);
     nodes.push(courseNode);
     edges.push(makeEdge(parentNode, courseNode));
-    for (const child of childResults) {
-      createNodes(child, depth + 1, courseNode);
-    }
+    for (const child of childResults) createNodes(child, depth + 1, courseNode);
   }
-  for (const result of rootResults) {
-    createNodes(result, 0, catNode);
-  }
+  for (const result of rootResults) createNodes(result, 0, catNode);
 }
 
 // ── Main layout ───────────────────────────────────────────────────────────────
 
-export function layoutTree(rootDerived) {
+export function layoutTree(rootDerived, expandedCourseId = null) {
   const nodes = [];
   const edges = [];
 
@@ -187,24 +212,24 @@ export function layoutTree(rootDerived) {
     // Above the spine (idx 0 = closest to spine, growing upward)
     let aboveBoundary = spineY - SECTION_R - SECTION_CAT_GAP;
     for (const catData of aboveCats) {
-      const hs      = categoryHalfSpan(catData);
+      const hs      = categoryHalfSpan(catData, expandedCourseId);
       const catY    = aboveBoundary - hs;   // center
       const catNode = makeNode(catData, secX, catY, 2);
       nodes.push(catNode);
       edges.push(makeEdge(secNode, catNode));
-      layoutCategoryCourses(catNode, catData, secX, catY, nodes, edges);
+      layoutCategoryCourses(catNode, catData, secX, catY, nodes, edges, expandedCourseId);
       aboveBoundary = catY - hs - CAT_CAT_GAP;
     }
 
     // Below the spine (idx 0 = closest to spine, growing downward)
     let belowBoundary = spineY + SECTION_R + SECTION_CAT_GAP;
     for (const catData of belowCats) {
-      const hs      = categoryHalfSpan(catData);
+      const hs      = categoryHalfSpan(catData, expandedCourseId);
       const catY    = belowBoundary + hs;   // center
       const catNode = makeNode(catData, secX, catY, 2);
       nodes.push(catNode);
       edges.push(makeEdge(secNode, catNode));
-      layoutCategoryCourses(catNode, catData, secX, catY, nodes, edges);
+      layoutCategoryCourses(catNode, catData, secX, catY, nodes, edges, expandedCourseId);
       belowBoundary = catY + hs + CAT_CAT_GAP;
     }
 
