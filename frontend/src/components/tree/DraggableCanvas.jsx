@@ -103,17 +103,18 @@ export function DraggableCanvas({ children, background = "#fafafa" }) {
     };
   }
 
+  const DRAG_THRESHOLD = 5; // px — below this is a click, not a drag
+
   const handlePointerDown = (e) => {
     if (e.button !== 0) return;
-    e.currentTarget.setPointerCapture(e.pointerId);
     dragStateRef.current = {
       active: true,
+      captured: false,
       startX: e.clientX,
       startY: e.clientY,
       originX: offset.x,
       originY: offset.y,
     };
-    setIsDragging(true);
   };
 
   const handlePointerMove = (e) => {
@@ -121,12 +122,21 @@ export function DraggableCanvas({ children, background = "#fafafa" }) {
     if (!ds.active) return;
     const dx = e.clientX - ds.startX;
     const dy = e.clientY - ds.startY;
+    // Only start dragging after threshold — preserves click events on nodes.
+    if (!ds.captured && Math.hypot(dx, dy) < DRAG_THRESHOLD) return;
+    if (!ds.captured) {
+      ds.captured = true;
+      e.currentTarget.setPointerCapture(e.pointerId);
+      setIsDragging(true);
+    }
     setOffset(clampOffset({ x: ds.originX + dx, y: ds.originY + dy }, scaleRef.current, sizeRef.current));
   };
 
   const endDrag = (e) => {
-    if (dragStateRef.current.active) {
-      dragStateRef.current.active = false;
+    const ds = dragStateRef.current;
+    if (!ds.active) return;
+    ds.active = false;
+    if (ds.captured) {
       setIsDragging(false);
       try { e.currentTarget.releasePointerCapture(e.pointerId); } catch {}
     }

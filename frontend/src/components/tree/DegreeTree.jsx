@@ -8,7 +8,7 @@ import { layoutTree } from "./treeLayout.js";
 import { RootNode } from "./RootNode.jsx";
 import { SectionNode } from "./SectionNode.jsx";
 import { CategoryNode } from "../ui/CategoryNode.jsx";
-import { ClassNode } from "../ui/ClassNode.jsx";
+import { ClassNode, CourseStack } from "../ui/ClassNode.jsx";
 import { TreeEdge } from "./TreeEdge.jsx";
 import { PrereqEdge } from "./PrereqEdge.jsx";
 import { NodeDetailPanel } from "./NodeDetailPanel.jsx";
@@ -39,6 +39,9 @@ export function DegreeTree({
   // Ref mirrors lockedCourseId for synchronous checks in mouse event handlers
   // (React state updates are async, so mouseleave could see stale lockedCourseId)
   const lockedRef = useRef(null);
+
+  const [expandedCategories, setExpandedCategories] = useState(new Set());
+  const COLLAPSE_THRESHOLD = 7;
 
   useEffect(() => {
     if (mockResponse) return;
@@ -131,6 +134,67 @@ export function DegreeTree({
     setHoverExpandedId(null);
   }, []);
 
+  // ── All hooks must run before any early return ────────────────────────────
+
+  const edges = layout?.edges ?? [];
+
+  // Map each category to its direct course children (sorted by Y).
+  const categoryDirectCourses = useMemo(() => {
+    const map = new Map();
+    for (const edge of edges) {
+      if (edge.sourceNode.kind === "category" && edge.targetNode.kind === "course") {
+        const catId = edge.sourceNode.id;
+        if (!map.has(catId)) map.set(catId, []);
+        map.get(catId).push(edge.targetNode);
+      }
+    }
+    for (const arr of map.values()) arr.sort((a, b) => a.y - b.y);
+    return map;
+  }, [edges]);
+
+  // IDs hidden because their category has >threshold courses and is collapsed.
+  // ALL courses in such a category are hidden (not just the excess).
+  const hiddenNodeIds = useMemo(() => {
+    const hidden = new Set();
+    for (const [catId, directCourses] of categoryDirectCourses) {
+      if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
+      if (expandedCategories.has(catId)) continue;
+      // Hide every direct course and all its descendants.
+      const queue = directCourses.map((n) => n.id);
+      while (queue.length) {
+        const id = queue.shift();
+        if (hidden.has(id)) continue;
+        hidden.add(id);
+        for (const e of edges) {
+          if (e.sourceNode.id === id && e.targetNode.kind === "course")
+            queue.push(e.targetNode.id);
+        }
+      }
+    }
+    return hidden;
+  }, [categoryDirectCourses, expandedCategories, edges]);
+
+  // Stack placeholder — positioned at the category center, shows total count.
+  const stackInfo = useMemo(() => {
+    const stacks = [];
+    for (const [catId, directCourses] of categoryDirectCourses) {
+      if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
+      if (expandedCategories.has(catId)) continue;
+      // Place the stack to the right of the category node.
+      const catNode = layout?.nodes?.find((n) => n.id === catId);
+      if (!catNode) continue;
+      stacks.push({
+        catId,
+        hiddenCount: directCourses.length,
+        x: catNode.x + catNode.width / 2 + 140,
+        y: catNode.y,
+      });
+    }
+    return stacks;
+  }, [categoryDirectCourses, expandedCategories, layout]);
+
+  // ── Early returns (after all hooks) ───────────────────────────────────────
+
   if (loading) return (
     <div style={stateStyle.wrap}><p style={stateStyle.text}>Loading {majorName ?? majorId}…</p></div>
   );
@@ -144,7 +208,7 @@ export function DegreeTree({
   );
   if (!layout) return null;
 
-  const { nodes, edges, crossBranchEdges, totalWidth, totalHeight, nodeById } = layout;
+  const { nodes, crossBranchEdges, totalWidth, totalHeight, nodeById } = layout;
   const selectedNode = selectedNodeId ? nodeById?.get(selectedNodeId) : null;
 
   // Arrows: show immediately on hover; stay locked after click
@@ -164,14 +228,16 @@ export function DegreeTree({
           height={totalHeight}
           style={{ position: "absolute", inset: 0, pointerEvents: "none" }}
         >
-          {edges.map((e) => (
-            <TreeEdge
-              key={e.id}
-              source={e.sourceNode}
-              target={e.targetNode}
-              color={statusMap[e.sourceNode?.id] === "completed" ? "#348162" : "#85b110"}
-            />
-          ))}
+          {edges
+            .filter((e) => !hiddenNodeIds.has(e.targetNode.id) && !hiddenNodeIds.has(e.sourceNode.id))
+            .map((e) => (
+              <TreeEdge
+                key={e.id}
+                source={e.sourceNode}
+                target={e.targetNode}
+                color={statusMap[e.sourceNode?.id] === "completed" ? "#348162" : "#85b110"}
+              />
+            ))}
           {visibleCrossEdges.map((e) => {
             const src = nodeById?.get(e.source);
             const tgt = nodeById?.get(e.target);
@@ -187,25 +253,46 @@ export function DegreeTree({
           })}
         </svg>
 
-        {nodes.map((node) => {
-          const isLocked = node.id === lockedCourseId;
-          // Only expand via hover when nothing is locked (one expanded at a time)
-          const isHoverExpanded = !lockedCourseId && node.id === hoverExpandedId;
-          const isExpanded = isLocked || isHoverExpanded;
-          return (
-            <PositionedNode
-              key={node.id}
-              node={node}
-              isSelected={node.id === selectedNodeId}
-              isExpanded={isExpanded}
-              isLocked={isLocked}
-              statusMap={statusMap}
-              onClick={handleNodeClick}
-              onMouseEnter={handleCourseMouseEnter}
-              onMouseLeave={handleCourseMouseLeave}
+        {nodes
+          .filter((node) => !hiddenNodeIds.has(node.id))
+          .map((node) => {
+            const isLocked = node.id === lockedCourseId;
+            const isHoverExpanded = !lockedCourseId && node.id === hoverExpandedId;
+            const isExpanded = isLocked || isHoverExpanded;
+            return (
+              <PositionedNode
+                key={node.id}
+                node={node}
+                isSelected={node.id === selectedNodeId}
+                isExpanded={isExpanded}
+                isLocked={isLocked}
+                statusMap={statusMap}
+                onClick={handleNodeClick}
+                onMouseEnter={handleCourseMouseEnter}
+                onMouseLeave={handleCourseMouseLeave}
+              />
+            );
+          })}
+
+        {/* Collapsed-category stack placeholders */}
+        {stackInfo.map((s) => (
+          <div
+            key={`stack:${s.catId}`}
+            style={{
+              position: "absolute",
+              left: s.x,
+              top: s.y,
+              transform: "translate(-50%, 0)",
+            }}
+          >
+            <CourseStack
+              hiddenCount={s.hiddenCount}
+              onExpand={() =>
+                setExpandedCategories((prev) => new Set([...prev, s.catId]))
+              }
             />
-          );
-        })}
+          </div>
+        ))}
       </div>
 
       {selectedNode && createPortal(
