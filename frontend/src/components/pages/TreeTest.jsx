@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { DegreeTree } from "../tree/DegreeTree.jsx";
 import { DraggableCanvas } from "../tree/DraggableCanvas.jsx";
+import { fetchMajors } from "../../services/majorsApi.js";
 
 const font = "Inter, system-ui, sans-serif";
 
@@ -14,8 +15,7 @@ export default function TreeTest() {
   const [majorId, setMajorId] = useState(FALLBACK[0].major_id);
 
   useEffect(() => {
-    fetch("/api/majors")
-      .then((r) => r.json())
+    fetchMajors()
       .then((data) => {
         if (Array.isArray(data) && data.length > 0) {
           const sorted = [...data].sort((a, b) => a.name.localeCompare(b.name));
