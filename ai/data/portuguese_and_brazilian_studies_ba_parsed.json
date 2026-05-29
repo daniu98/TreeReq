@@ -1,0 +1,380 @@
+{
+  "major_id": "portuguese-and-brazilian-studies-ba",
+  "major_name": "Portuguese and Brazilian Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/PortugueseandBrazilianStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PORTGSE 46"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "PORTGSE 25",
+            "PORTGSE 26",
+            "PORTGSE 27"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "PORTGSE 100A",
+            "PORTGSE 100B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "PORTGSE 130A",
+            "PORTGSE 130B"
+          ]
+        },
+        {
+          "choose_n": 7,
+          "courses": [
+            "PORTGSE 100A",
+            "PORTGSE 100B",
+            "PORTGSE 130A",
+            "PORTGSE 130B",
+            "PORTGSE 101",
+            "PORTGSE 102",
+            "PORTGSE 103",
+            "PORTGSE 104",
+            "PORTGSE 105",
+            "PORTGSE 106",
+            "PORTGSE 107",
+            "PORTGSE 108",
+            "PORTGSE 109",
+            "PORTGSE 110",
+            "PORTGSE 111",
+            "PORTGSE 112",
+            "PORTGSE 113",
+            "PORTGSE 114",
+            "PORTGSE 115",
+            "PORTGSE 116",
+            "PORTGSE 117",
+            "PORTGSE 118",
+            "PORTGSE 119",
+            "PORTGSE 120",
+            "PORTGSE 121",
+            "PORTGSE 122",
+            "PORTGSE 123",
+            "PORTGSE 124",
+            "PORTGSE 125",
+            "PORTGSE 126",
+            "PORTGSE 127",
+            "PORTGSE 128",
+            "PORTGSE 129",
+            "PORTGSE 131",
+            "PORTGSE 132",
+            "PORTGSE 133",
+            "PORTGSE 134",
+            "PORTGSE 135",
+            "PORTGSE 136",
+            "PORTGSE 137",
+            "PORTGSE 138",
+            "PORTGSE 139",
+            "PORTGSE 140",
+            "PORTGSE 141",
+            "PORTGSE 142",
+            "PORTGSE 143",
+            "PORTGSE 144",
+            "PORTGSE 145",
+            "PORTGSE 146",
+            "PORTGSE 147",
+            "PORTGSE 148",
+            "PORTGSE 149",
+            "PORTGSE 150",
+            "PORTGSE 151",
+            "PORTGSE 152",
+            "PORTGSE 153",
+            "PORTGSE 154",
+            "PORTGSE 155",
+            "PORTGSE 156",
+            "PORTGSE 157",
+            "PORTGSE 158",
+            "PORTGSE 159",
+            "PORTGSE 160",
+            "PORTGSE 161",
+            "PORTGSE 162",
+            "PORTGSE 163",
+            "PORTGSE 164",
+            "PORTGSE 165",
+            "PORTGSE 166",
+            "PORTGSE 167",
+            "PORTGSE 168",
+            "PORTGSE 169",
+            "PORTGSE 170",
+            "PORTGSE 171",
+            "PORTGSE 172",
+            "PORTGSE 173",
+            "PORTGSE 174",
+            "PORTGSE 175",
+            "PORTGSE 176",
+            "PORTGSE 177",
+            "PORTGSE 178",
+            "PORTGSE 179",
+            "PORTGSE 180",
+            "PORTGSE 181",
+            "PORTGSE 182",
+            "PORTGSE 183",
+            "PORTGSE 184",
+            "PORTGSE 185",
+            "PORTGSE 186",
+            "PORTGSE 187",
+            "PORTGSE 188",
+            "PORTGSE 189",
+            "PORTGSE 190",
+            "PORTGSE 191",
+            "PORTGSE 192",
+            "PORTGSE 193",
+            "PORTGSE 194",
+            "PORTGSE 195",
+            "PORTGSE 196",
+            "PORTGSE 197",
+            "PORTGSE 199"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "PORTGSE": [
+      "PORTGSE 100A",
+      "PORTGSE 100B",
+      "PORTGSE 130A",
+      "PORTGSE 130B",
+      "PORTGSE 198A",
+      "PORTGSE 198B",
+      "PORTGSE 25",
+      "PORTGSE 26",
+      "PORTGSE 27",
+      "PORTGSE 46"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "PORTGSE 100A",
+      "dept": "PORTGSE",
+      "number": "100A",
+      "title": "Phonology and Morphology",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisite: course 27. Analysis of phonetic, phonemic, and morphological systems of Portuguese. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 27.",
+      "prereqs_parsed": {
+        "required": [
+          "PORTGSE 27"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 100B",
+      "dept": "PORTGSE",
+      "number": "100B",
+      "title": "Syntax",
+      "units": 4.0,
+      "description": "Lecture, four hours. Enforced requisite: course 27. Review of patterns of Portuguese language. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 27.",
+      "prereqs_parsed": {
+        "required": [
+          "PORTGSE 27"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 130A",
+      "dept": "PORTGSE",
+      "number": "130A",
+      "title": "Introduction to Literature in Portuguese",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 25 or 26 or 27. Introduction to principal themes, currents, and authors from Brazil in context of Portuguese-speaking world. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 25 or 26 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PORTGSE 25",
+            "PORTGSE 26",
+            "PORTGSE 27"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 130B",
+      "dept": "PORTGSE",
+      "number": "130B",
+      "title": "Introduction to Literature in Portuguese",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 25 or 26 or 27. Introduction to principal themes, currents, and authors from Brazil in context of Portuguese-speaking world. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 25 or 26 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "PORTGSE 25",
+          "PORTGSE 26",
+          "PORTGSE 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 198A",
+      "dept": "PORTGSE",
+      "number": "198A",
+      "title": "Senior Honors Research in Portuguese I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PORTGSE 198B"
+      ]
+    },
+    {
+      "course_id": "PORTGSE 198B",
+      "dept": "PORTGSE",
+      "number": "198B",
+      "title": "Senior Honors Research in Portuguese II",
+      "units": 2.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Enforced requisite: course 198A. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "PORTGSE 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 25",
+      "dept": "PORTGSE",
+      "number": "25",
+      "title": "Advanced Portuguese",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 3 or 11B. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3 or 11B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PORTGSE 3",
+            "PORTGSE 11B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PORTGSE 130A",
+        "PORTGSE 130B"
+      ]
+    },
+    {
+      "course_id": "PORTGSE 26",
+      "dept": "PORTGSE",
+      "number": "26",
+      "title": "Language and Popular Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3 or 11B. Development of speaking, reading, and writing skills. Structured in thematic units, with songs, videos, and specific vocabulary emphasizing questions of Brazilian cultural identity. Letter grading.",
+      "prereqs_raw": "Requisite: course 3 or 11B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "PORTGSE 3",
+          "PORTGSE 11B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PORTGSE 130A",
+        "PORTGSE 130B"
+      ]
+    },
+    {
+      "course_id": "PORTGSE 27",
+      "dept": "PORTGSE",
+      "number": "27",
+      "title": "Writing Studies: Afro-Luso-Brazilian World",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3 or 11B. Further development of communicative skills, especially writing. Discussions and activities increase knowledge and ability to comprehend variety of forms of cultural production in Portuguese language. Students continue to acquire cultural competence. Introduction to study of literature, with specific focus on themes and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3 or 11B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PORTGSE 3",
+            "PORTGSE 11B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PORTGSE 100A",
+        "PORTGSE 100B",
+        "PORTGSE 130A",
+        "PORTGSE 130B"
+      ]
+    },
+    {
+      "course_id": "PORTGSE 46",
+      "dept": "PORTGSE",
+      "number": "46",
+      "title": "Brazil and Portuguese-Speaking World",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Taught in English. Topical analysis of cultural history of Brazil in context of Portuguese-speaking world, with emphasis on comparative, trans-Atlantic relations, social development, and artistic manifestations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

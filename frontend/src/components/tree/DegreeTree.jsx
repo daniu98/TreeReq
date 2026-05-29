@@ -22,6 +22,7 @@ export function DegreeTree({
   majorId,
   majorName,
   mockResponse,
+  onFirstCategoryReady,
 }) {
   const [apiResponse, setApiResponse] = useState(mockResponse ?? null);
   const [loading, setLoading] = useState(!mockResponse);
@@ -133,6 +134,12 @@ export function DegreeTree({
     setHoveredCourseId(null);
     setHoverExpandedId(null);
   }, []);
+
+  useEffect(() => {
+    if (!layout || !onFirstCategoryReady) return;
+    const firstCat = layout.nodes.find((n) => n.kind === "category");
+    if (firstCat) onFirstCategoryReady({ x: firstCat.x, y: firstCat.y });
+  }, [layout, onFirstCategoryReady]);
 
   // ── All hooks must run before any early return ────────────────────────────
 
@@ -302,7 +309,13 @@ export function DegreeTree({
           nodeById={nodeById}
           onStatusChange={handleStatusChange}
           onNavigate={handleNavigate}
-          onClose={() => setSelectedNodeId(null)}
+          onClose={() => {
+            setSelectedNodeId(null);
+            lockedRef.current = null;
+            setLockedCourseId(null);
+            setHoveredCourseId(null);
+            setHoverExpandedId(null);
+          }}
         />,
         document.body
       )}

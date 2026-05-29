@@ -1,0 +1,757 @@
+{
+  "major_id": "music-composition-ba",
+  "major_name": "Music Composition BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/MusicCompositionBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "MUSC M6A",
+        "MUSC M6B",
+        "MUSC M6C",
+        "MUSC 20A",
+        "MUSC 20B",
+        "MUSC 20C",
+        "MUSC 66",
+        "MUSC C185A",
+        "MUSC C185B",
+        "MUSC C185C",
+        "MUSC C185D",
+        "MUSC C185E",
+        "MUSC 185F",
+        "MUSC C185G",
+        "MUSC 185H"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC 60A",
+            "MUSC 60B",
+            "MUSC 60C",
+            "MUSC 60D",
+            "MUSC 60E",
+            "MUSC 60F",
+            "MUSC 60G",
+            "MUSC 60H",
+            "MUSC 60I",
+            "MUSC 60J",
+            "MUSC 60K",
+            "MUSC 60L",
+            "MUSC 60M",
+            "MUSC 60N",
+            "MUSC 60O",
+            "MUSC 60P",
+            "MUSC 60Q",
+            "MUSC 60R",
+            "MUSC 60S",
+            "MUSC 60T",
+            "MUSC 60U"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "MUSC 120A",
+        "MUSC 120B",
+        "MUSC 120C",
+        "MUSCLG 125A",
+        "MUSCLG 125B",
+        "MUSCLG 125C",
+        "MUSC 166",
+        "MUSC 106A",
+        "MUSC 106B",
+        "MUSC 116",
+        "MUSC C176"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC 104A",
+            "MUSC 104B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MUSC 124A",
+            "MUSC 124B",
+            "MUSC 124C"
+          ]
+        },
+        {
+          "choose_n": 4,
+          "courses": []
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "MUSC 169"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "MUSC": [
+      "MUSC 104A",
+      "MUSC 104B",
+      "MUSC 106A",
+      "MUSC 106B",
+      "MUSC 116",
+      "MUSC 120A",
+      "MUSC 120B",
+      "MUSC 120C",
+      "MUSC 124A",
+      "MUSC 124B",
+      "MUSC 124C",
+      "MUSC 166",
+      "MUSC 169",
+      "MUSC 185F",
+      "MUSC 185H",
+      "MUSC 20A",
+      "MUSC 20B",
+      "MUSC 20C",
+      "MUSC 66",
+      "MUSC C176",
+      "MUSC C185A",
+      "MUSC C185B",
+      "MUSC C185C",
+      "MUSC C185D",
+      "MUSC C185E",
+      "MUSC C185G",
+      "MUSC M6A",
+      "MUSC M6B",
+      "MUSC M6C"
+    ],
+    "MUSCLG": [
+      "MUSCLG 125A",
+      "MUSCLG 125B",
+      "MUSCLG 125C"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "MUSC 104A",
+      "dept": "MUSC",
+      "number": "104A",
+      "title": "Modal Counterpoint",
+      "units": 3.0,
+      "description": "Lecture, three hours. Requisites: courses 102C and 111C, or 120C. In-depth exploration of styles and techniques of counterpoint of 15th and 16th centuries through writing and analysis of important forms of period, including species, canon, free counterpoint, cantus, firmus, point of imitation, motet, ricercare, etc. Letter grading.",
+      "prereqs_raw": "Requisites: courses 102C and 111C, or 120C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MUSC 102C",
+            "MUSC 111C"
+          ],
+          [
+            "MUSC 120C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 104B",
+      "dept": "MUSC",
+      "number": "104B",
+      "title": "Special Topics in Counterpoint",
+      "units": 3.0,
+      "description": "Lecture, three hours. Requisites: courses 102C and 111C, or 120C. In-depth exploration of polyphonic styles and textures since 1750, with emphasis on late-19th- and 20th-century modes of expression, through writing and analysis. Letter grading.",
+      "prereqs_raw": "Requisites: courses 102C and 111C, or 120C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MUSC 102C",
+            "MUSC 111C"
+          ],
+          [
+            "MUSC 120C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 106A",
+      "dept": "MUSC",
+      "number": "106A",
+      "title": "Orchestration I",
+      "units": 4.0,
+      "description": "Discussion, three hours. Requisites: courses 102C and 111C, or 120C. Ranges and characteristics of instruments, with exercises in scoring. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 102C and 111C, or 120C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MUSC 102C",
+            "MUSC 111C"
+          ],
+          [
+            "MUSC 120C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 106B"
+      ]
+    },
+    {
+      "course_id": "MUSC 106B",
+      "dept": "MUSC",
+      "number": "106B",
+      "title": "Orchestration II",
+      "units": 4.0,
+      "description": "Discussion, three hours. Requisites: courses 102C and 111C, or 120C; and 106A. Scoring and analysis for ensembles and full orchestra. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 102C and 111C, or 120C; and 106A.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 106A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MUSC 102C",
+            "MUSC 111C"
+          ],
+          [
+            "MUSC 120C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 124B",
+        "MUSC 124C"
+      ]
+    },
+    {
+      "course_id": "MUSC 116",
+      "dept": "MUSC",
+      "number": "116",
+      "title": "Introduction to Conducting",
+      "units": 2.0,
+      "description": "Lecture, three hours. Requisites: courses 20A, 20B, 20C, 120A. Fundamentals of conducting, including basic skills, techniques, analysis, and repertoire. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 20A, 20B, 20C, 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 20A",
+          "MUSC 20B",
+          "MUSC 20C",
+          "MUSC 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 120A",
+      "dept": "MUSC",
+      "number": "120A",
+      "title": "Music Theory IV",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, four hours. Preparation: passing score on departmental first-year examination. Requisite: course 20C with grade of C (2.0) or better. Theory: baroque counterpoint including chorale prelude; two-part invention; exposition and first modulation of three-part invention; canonic principles; analysis of inventions, canons, and fugues. Musicianship: sight-singing of extended\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 20C with grade of C (2.0) or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 116",
+        "MUSC 120B"
+      ]
+    },
+    {
+      "course_id": "MUSC 120B",
+      "dept": "MUSC",
+      "number": "120B",
+      "title": "Music Theory V",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, four hours. Requisite: course 120A with grade of C (2.0) or better. Theory: advanced chromatic harmony including development of harmony from 1850; analytical projects; style composition. Musicianship: advanced score reading; advanced harmonic dictation; preparation for departmental examination. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120A with grade of C (2.0) or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 120C"
+      ]
+    },
+    {
+      "course_id": "MUSC 120C",
+      "dept": "MUSC",
+      "number": "120C",
+      "title": "Music Theory VI",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; listening, two hours. Requisite: course 120B with grade of C (2.0) or better. 20th-century harmonic language, including nonfunctional harmony, polytonality, free atonality, serialism, and minimalism. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120B with grade of C (2.0) or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 120B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 104A",
+        "MUSC 104B",
+        "MUSC 106A",
+        "MUSC 106B",
+        "MUSC 124B",
+        "MUSC 124C"
+      ]
+    },
+    {
+      "course_id": "MUSC 124A",
+      "dept": "MUSC",
+      "number": "124A",
+      "title": "Scoring for Symphony Orchestra",
+      "units": 4.0,
+      "description": "Discussion, three hours. Requisites: courses 106B, 120C (accelerated section), 123C. Practical applications in scoring for symphony orchestra. Preparation and production of parts and full scores. At least one reading by UCLA Philharmonia Orchestra scheduled. Letter grading.",
+      "prereqs_raw": "Requisites: courses 106B, 120C (accelerated section), 123C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 169"
+      ]
+    },
+    {
+      "course_id": "MUSC 124B",
+      "dept": "MUSC",
+      "number": "124B",
+      "title": "Scoring for Wind Ensemble",
+      "units": 4.0,
+      "description": "Discussion, three hours. Requisites: courses 106B, 120C (accelerated section), 123C. Practical applications in scoring for large wind ensembles. Preparation and production of score and parts. May include percussion. At least one reading by UCLA Wind Ensemble scheduled. Letter grading.",
+      "prereqs_raw": "Requisites: courses 106B, 120C (accelerated section), 123C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 106B",
+          "MUSC 120C",
+          "MUSC 123C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 169"
+      ]
+    },
+    {
+      "course_id": "MUSC 124C",
+      "dept": "MUSC",
+      "number": "124C",
+      "title": "Scoring and Arranging for Choral Ensemble",
+      "units": 4.0,
+      "description": "Discussion, three hours. Requisites: 106B, 120C (accelerated section), 123C. Practical applications in scoring and arranging for choral ensembles, including a capella as well as chorus with instruments. Preparation and production of score and parts. At least one reading by UCLA Chorale or other choral group scheduled. Letter grading.",
+      "prereqs_raw": "Requisites: 106B, 120C (accelerated section), 123C.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 106B",
+          "MUSC 120C",
+          "MUSC 123C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 169"
+      ]
+    },
+    {
+      "course_id": "MUSC 166",
+      "dept": "MUSC",
+      "number": "166",
+      "title": "Advanced Composition Studio",
+      "units": 2.0,
+      "description": "Studio, one hour; outside study, five hours. Enforced requisite: course 66 (6 units). Limited to junior/senior music composition students. One-on-one composition lessons with assignments and compositions tailored to student progress and level of achievement. Lessons address counterpoint, voice-leading, harmonic and melodic construction, orchestration, form, texture, style, notation, and performance feasibility.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 66 (6 units).",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 66"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 169"
+      ]
+    },
+    {
+      "course_id": "MUSC 169",
+      "dept": "MUSC",
+      "number": "169",
+      "title": "Capstone Composition Recital",
+      "units": 2.0,
+      "description": "Studio, one hour; outside study, five hours. Enforced requisites: courses 124A or 124B or 124C, and 166 (at least 10 units). Limited to senior Music Composition majors. Planning and completion of senior capstone recital comprising at least 30 minutes of original music with program notes. Preparation for capstone recital, as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 124A or 124B or 124C, and 166 (at least 10 units).",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 166"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MUSC 124A",
+            "MUSC 124B",
+            "MUSC 124C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 185F",
+      "dept": "MUSC",
+      "number": "185F",
+      "title": "Symphonic Band",
+      "units": 2.0,
+      "description": "Activity, two hours. Preparation: audition. Group performance of instrumental music scored for band. May be repeated for credit without limitation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 185H",
+      "dept": "MUSC",
+      "number": "185H",
+      "title": "Marching and Varsity Bands",
+      "units": 2.0,
+      "description": "Activity, six hours. Preparation: audition. Group performance of special band arrangements for football and basketball games as well as special events. May be repeated for credit without limitation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC 20A",
+      "dept": "MUSC",
+      "number": "20A",
+      "title": "Music Theory I",
+      "units": 3.0,
+      "description": "Lecture, four hours. Preparation: passing score on departmental examination. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Students must receive grade of C or better to proceed to next course in sequence. Theory: species counterpoint through fifth species; description of triads and inversions. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 116",
+        "MUSC 20B"
+      ]
+    },
+    {
+      "course_id": "MUSC 20B",
+      "dept": "MUSC",
+      "number": "20B",
+      "title": "Music Theory II",
+      "units": 3.0,
+      "description": "Lecture, four hours. Enforced requisite: course 20A with grade of C or better. Theory: diatonic harmony through secondary dominants and diminished sevenths; modulations to dominant and relative keys; writing of four-part chorales; style composition in baroque dance forms; introduction to figured bass notation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20A with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 20A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 116",
+        "MUSC 20C"
+      ]
+    },
+    {
+      "course_id": "MUSC 20C",
+      "dept": "MUSC",
+      "number": "20C",
+      "title": "Music Theory III",
+      "units": 3.0,
+      "description": "Lecture, four hours. Enforced requisite: course 20B with grade of C or better. Theory: chromatic harmony including development of tonality, 1800 to 1850; appropriate analysis and style composition. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC 20B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC 116"
+      ]
+    },
+    {
+      "course_id": "MUSC 66",
+      "dept": "MUSC",
+      "number": "66",
+      "title": "Composition Studio",
+      "units": 2.0,
+      "description": "Studio, one hour per week to be arranged with instructor; outside study, five hours. Enforced requisites: courses 20A, 20B, and 20C, or 21A, 21B, and 21C. Limited to Music Composition students and designed for sophomores. One-on-one composition lessons with assignments and compositions tailored to student progress and level of achievement.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 20A, 20B, and 20C, or 21A, 21B, and 21C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC 166"
+      ]
+    },
+    {
+      "course_id": "MUSC C176",
+      "dept": "MUSC",
+      "number": "C176",
+      "title": "Electronic Music Composition",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Preparation: advanced experience and accomplishment in serious composition (art music), two years of music theory. Limited to music composition majors. Exercises in electroacoustic orchestration, meta-pitch composition, notation software (Sibelius), sequencing and film scoring software (Logic), text collages (ProTools), and final project. May be concurrently\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185A",
+      "dept": "MUSC",
+      "number": "C185A",
+      "title": "UCLA Chorale",
+      "units": 2.0,
+      "description": "Activity, four hours. Preparation: audition. Large mixed ensemble performing choral music of all periods appropriate for concert choral ensemble. May be repeated for credit without limitation. May be concurrently scheduled with course C480A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185B",
+      "dept": "MUSC",
+      "number": "C185B",
+      "title": "Chamber Singers",
+      "units": 2.0,
+      "description": "Activity, four hours. Preparation: audition. Designed primarily for Music Performance majors. Select mixed ensemble performing chamber choral music of all periods. May be repeated for credit without limitation. May be concurrently scheduled with course C480B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185C",
+      "dept": "MUSC",
+      "number": "C185C",
+      "title": "Opera Workshop",
+      "units": 2.0,
+      "description": "Activity, six hours. Preparation: audition. Rehearsal and performance of scenes and complete operas, as well as repertoire, stage movement, and foreign language diction coaching. May be repeated for credit without limitation. May be concurrently scheduled with course C480C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185D",
+      "dept": "MUSC",
+      "number": "C185D",
+      "title": "Symphony Orchestra",
+      "units": 2.0,
+      "description": "Activity, three hours. Preparation: audition. Group performance of symphonic orchestral literature. May be repeated for credit without limitation. May be concurrently scheduled with course C480D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185E",
+      "dept": "MUSC",
+      "number": "C185E",
+      "title": "Philharmonia",
+      "units": 2.0,
+      "description": "Activity, six hours. Preparation: audition. Designed primarily for Music Performance majors. Group performance of symphonic orchestral literature, as well as orchestral accompaniment for operatic and major choral works. May be repeated for credit without limitation. May be concurrently scheduled with course C480E. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC C185G",
+      "dept": "MUSC",
+      "number": "C185G",
+      "title": "Wind Ensemble",
+      "units": 2.0,
+      "description": "Activity, six hours. Preparation: audition. Group performance of concert literature for wind ensemble. May be repeated for credit without limitation. May be concurrently scheduled with course C480G. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC M6A",
+      "dept": "MUSC",
+      "number": "M6A",
+      "title": "Introduction to Global Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6A and Musicology M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C\u2013 or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC M6B"
+      ]
+    },
+    {
+      "course_id": "MUSC M6B",
+      "dept": "MUSC",
+      "number": "M6B",
+      "title": "Introduction to Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6B and Musicology M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC M6A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC M6C"
+      ]
+    },
+    {
+      "course_id": "MUSC M6C",
+      "dept": "MUSC",
+      "number": "M6C",
+      "title": "Introduction to Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6C and Musicology M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC M6B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSCLG 125A",
+      "dept": "MUSCLG",
+      "number": "125A",
+      "title": "History of Western Music: Era of Church and Patron",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6A (may be taken concurrently). Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in era\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course M6A (may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MUSCLG M6A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSCLG 125B"
+      ]
+    },
+    {
+      "course_id": "MUSCLG 125B",
+      "dept": "MUSCLG",
+      "number": "125B",
+      "title": "History of Western Music: Era of Empires and Marketplaces",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6B (may be taken concurrently), 125A. Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course M6B (may be taken concurrently), 125A.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSCLG M6B",
+          "MUSCLG 125A"
+        ],
+        "corequisites": [
+          "MUSCLG M6B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSCLG 125C"
+      ]
+    },
+    {
+      "course_id": "MUSCLG 125C",
+      "dept": "MUSCLG",
+      "number": "125C",
+      "title": "History of Western Music: Modern and Postmodern Era",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6C (may be taken concurrently), 125B. Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course M6C (may be taken concurrently), 125B.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSCLG M6C",
+          "MUSCLG 125B"
+        ],
+        "corequisites": [
+          "MUSCLG M6C"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

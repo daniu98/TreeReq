@@ -1,0 +1,731 @@
+{
+  "major_id": "spanish-and-community-and-culture-ba",
+  "major_name": "Spanish and Community and Culture BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/SpanishandCommunityandCultureBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SPAN 42",
+        "SPAN 44"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "SPAN M35",
+            "PORTGSE M35"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "SPAN 119",
+        "SPAN M165XP",
+        "SPAN M172XP"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "SPAN 100A",
+            "SPAN 100B"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "SPAN 130",
+            "SPAN 135",
+            "SPAN 140",
+            "SPAN 150",
+            "SPAN 155",
+            "SPAN 160",
+            "SPAN 170",
+            "SPAN 175",
+            "SPAN 180",
+            "SPAN 195"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "CCAS 100XP",
+            "CCAS CM106",
+            "CCAS M119",
+            "CCAS 120",
+            "CCAS M121",
+            "CCAS M122",
+            "CCAS 131",
+            "CCAS M144",
+            "CCAS 149",
+            "CCAS 181",
+            "SOCIOL M155"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "CCAS": [
+      "CCAS 100XP",
+      "CCAS 120",
+      "CCAS 131",
+      "CCAS 149",
+      "CCAS 181",
+      "CCAS CM106",
+      "CCAS M119",
+      "CCAS M121",
+      "CCAS M122",
+      "CCAS M144"
+    ],
+    "PORTGSE": [
+      "PORTGSE 198A",
+      "PORTGSE M35"
+    ],
+    "SOCIOL": [
+      "SOCIOL M155"
+    ],
+    "SPAN": [
+      "SPAN 100A",
+      "SPAN 100B",
+      "SPAN 119",
+      "SPAN 130",
+      "SPAN 135",
+      "SPAN 140",
+      "SPAN 150",
+      "SPAN 155",
+      "SPAN 160",
+      "SPAN 170",
+      "SPAN 175",
+      "SPAN 180",
+      "SPAN 195",
+      "SPAN 198A",
+      "SPAN 25",
+      "SPAN 27",
+      "SPAN 42",
+      "SPAN 44",
+      "SPAN M165XP",
+      "SPAN M172XP",
+      "SPAN M35"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "CCAS 100XP",
+      "dept": "CCAS",
+      "number": "100XP",
+      "title": "Barrio Organization and Service Learning",
+      "units": 5.0,
+      "description": "Seminar, two hours; discussion, two hours; field placement, six hours. Limited to juniors/seniors. Service learning placement in community-based organization, labor union, or service-oriented nonprofit organization. Study of role that these organizations play in improvement and change of Chicana/Chicano communities. Students meet on regular basis with instructors and provide periodic reports\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 120",
+      "dept": "CCAS",
+      "number": "120",
+      "title": "Immigration and Chicano Community",
+      "units": 4.0,
+      "description": "Lecture, three hours. Discussion on relationship between international immigration and development of Chicana/Chicano community. Examination of U.S. immigration policy and relationship between Mexican-origin population and other Latin American immigrants. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 131",
+      "dept": "CCAS",
+      "number": "131",
+      "title": "Barrio Popular Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Construction of model by which to organize study of Chicana/Chicano popular culture by focusing on barrio as metaphor for community. Examination of beliefs, myths, and values of Chicana/Chicano culture and representations in icons, heroes, legends, stereotypes, and popular art forms through literature, film, video, music, mass media,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 149",
+      "dept": "CCAS",
+      "number": "149",
+      "title": "Gendered Politics and Chicana/Latina Political Participation",
+      "units": 4.0,
+      "description": "Lecture, four hours. Examination of Chicanas and Latinas as participants, organizers, and leaders in communities, workplaces, labor unions, and government. Survey of Chicanas/Latinas in politics and as policymakers in appointed and elected offices. Analysis of gendering of politics and political behavior. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 181",
+      "dept": "CCAS",
+      "number": "181",
+      "title": "History of Chicana/Chicano Los Angeles, 20th Century",
+      "units": 4.0,
+      "description": "Lecture, four hours. History of Mexican American people in 20th-century Los Angeles. Readings and lectures emphasize formation of regional identity among Mexican Americans in Los Angeles and their significance to emergence of multicultural metropolis. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS CM106",
+      "dept": "CCAS",
+      "number": "CM106",
+      "title": "Health in Chicano/Latino Population",
+      "units": 4.0,
+      "description": "(Same as Public Health M106.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Examination of Chicano/Latino health status through life expectancy, causes of death, reportable diseases, services utilization, provider supply, and risk behaviors within demographic/immigration changes. Binational review of health effects in U.S. and Mexico. Concurrently scheduled with course\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M119",
+      "dept": "CCAS",
+      "number": "M119",
+      "title": "Chicano/Latino Community Formation: Critical Perspectives and Oral Histories",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M123.) Lecture, four hours. Analysis of historical formation and development of Chicano/Latino communities in 20th century, with focus on labor, immigration, economic structures, electoral politics, and international dimensions. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M121",
+      "dept": "CCAS",
+      "number": "M121",
+      "title": "Issues in Latina/Latino Poverty: Mexican and Central American Voices from Los Angeles",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M121 and Urban Planning M140.) Lecture, four hours. Examination of key issues (work, housing, and neighborhoods) in urban poverty, with particular focus on Mexican and Central American immigrant populations in Los Angeles. Exploration of major theoretical models that explain urban poverty and application of them in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M122",
+      "dept": "CCAS",
+      "number": "M122",
+      "title": "Planning Issues in Latina/Latino Communities: Preserving and Strengthening Community Assets in Mexican and Salvadoran Los Angeles",
+      "units": 4.0,
+      "description": "(Same as Labor Studies M122 and Urban Planning M171.) Lecture, four hours. How community and economic development interact, role of assets in community development, and unique synergies and pitfalls that enable or disable communities from developing to their potential. How to strengthen and how to preserve community resources in Pico-Union\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS M144",
+      "dept": "CCAS",
+      "number": "M144",
+      "title": "Women's Movement in Latin America",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M144 and Labor Studies M144.) Lecture, four hours. Course on women\u2019s movements and feminism in Latin America and Caribbean to examine diverse social movements and locations from which women have launched political and gender struggles. Discussion of forms of feminism and women\u2019s consciousness that have emerged\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE 198A",
+      "dept": "PORTGSE",
+      "number": "198A",
+      "title": "Senior Honors Research in Portuguese I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PORTGSE M35",
+      "dept": "PORTGSE",
+      "number": "M35",
+      "title": "Spanish, Portuguese, and Nature of Language",
+      "units": 5.0,
+      "description": "(Same as Spanish M35.) Lecture, three hours; discussion, one hour. Introduction to language study within context of Romance languages, focusing on Spanish and Portuguese. Nature of language: structure, diversity, evolution, social and cultural settings, literary uses. Study of language and its relation to other areas of human knowledge. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M155",
+      "dept": "SOCIOL",
+      "number": "M155",
+      "title": "Latinos in U.S.",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M155A.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of history and social conditions of Latinos in Los Angeles as well as nationally, with particular emphasis on their location in larger social structure and on comparisons with other minority groups. Topics\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 100A",
+      "dept": "SPAN",
+      "number": "100A",
+      "title": "Introduction to Study of Spanish Grammar: Phonology and Morphology",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course M35. Analysis of phonemic and morphological systems of Spanish. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M35.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN M35"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 100B",
+      "dept": "SPAN",
+      "number": "100B",
+      "title": "Introduction to Study of Spanish Grammar: Syntax",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course M35. Study of syntactical systems of Spanish. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M35.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN M35"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 119",
+      "dept": "SPAN",
+      "number": "119",
+      "title": "Introduction to Literary Analysis",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 25 or 27. Introduction to methods of analyzing literary work in Spanish, Spanish-American, and Chicana/Chicano literature. Special attention to four major genres: poetry, narrative, drama, and essay. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 25",
+          "SPAN 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 130",
+        "SPAN 135",
+        "SPAN 150",
+        "SPAN 175",
+        "SPAN 180"
+      ]
+    },
+    {
+      "course_id": "SPAN 130",
+      "dept": "SPAN",
+      "number": "130",
+      "title": "Topics in Medieval Studies",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisites: courses 25 or 27, and 119. Exploration of medieval Iberian literatures: lyric poetry, prose, and history of peninsula, with emphasis on its literary and linguistic diversity. Possible topics include Convivencia (peaceful coexistence), Europe and Orient, beginnings of Inquisition, oral versus written traditions, origins of Hispano-Christian expansion\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 25 or 27, and 119.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 119"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 135",
+      "dept": "SPAN",
+      "number": "135",
+      "title": "Topics in Early Modern Studies",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 25 or 27, and 119. Exploration of 16th and 17th centuries, with focus on early modern period of Spain and Spanish America. Possible topics include Spanish colonization and indigenous responses, transatlantic literary and visual baroque, race and religion in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 25 or 27, and 119.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 119"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 140",
+      "dept": "SPAN",
+      "number": "140",
+      "title": "Topics in Modern Studies",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisites: courses 25 or 27, and 119. Exploration of major literary movements and writers of 18th and 19th centuries in Spain and Spanish America. Possible topics include Enlightenment, Romanticism, nation-building literature, realism and naturalism, and works by Cadalso, Concolorcorvo, Lizardi, Larra, Sarmiento, B\u00e9cquer, Isaacs, Mera, Villaverde, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 25 or 27, and 119.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 150",
+      "dept": "SPAN",
+      "number": "150",
+      "title": "Topics in Contemporary Studies",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 25 or 27, and 119. Exploration of main trends that characterize contemporary Latin American and Spanish literatures and cultures and main concepts used to address them. Possible topics include transculturation and heterogeneity, race and ethnicity, vanguard movements, lettered and popular\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 25 or 27, and 119.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 119"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 155",
+      "dept": "SPAN",
+      "number": "155",
+      "title": "Topics in U.S. Latina/o Studies",
+      "units": 4.0,
+      "description": "(Formerly numbered 155C.) Lecture, four hours. Enforced requisite: course 25 or 27. Exploration of spread of Spanish-American literature and culture throughout North America, including literatures that are outgrowth of civil rights movements of 1960s, recent demographic changes, new transnational identities, and mixed citizenships of U.S. Latinas and Latinos. Chicano, Puerto\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 25",
+          "SPAN 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 160",
+      "dept": "SPAN",
+      "number": "160",
+      "title": "Topics in Spanish Linguistics",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 25 or 27. Exploration of origin of language, how Spanish is acquired, evolution of Spanish from Latin to early modern period, how Spanish varies in world, how to teach Spanish, Spanish in contact with other languages. Possible topics include Spanish in Los Angeles, history of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 25",
+          "SPAN 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 170",
+      "dept": "SPAN",
+      "number": "170",
+      "title": "Topics in Interdisciplinary and Transhistorical Studies",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 25 or 27, 119. Comparative study of cultural production in Latin American, Afro-Luso-Brazilian, and Iberian contexts across diverse historical periods, regional, and ethnic traditions, and aesthetic modes. Possible topics include Afrolatinidad; diaspora; feminism; folklore; gender; globalization; indigeneity and indigenous studies\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 25 or 27, 119.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 175",
+      "dept": "SPAN",
+      "number": "175",
+      "title": "Topics in Creative Writing and Translation",
+      "units": 4.0,
+      "description": "Seminar, three hours. Requisites: courses 25 or 27, and 119. Exploration of art of translation or creative writing. Guest speakers or instructors include professional literary translators, poets, novelists, playwrights, and filmmakers who discuss theory, methodology, and practice of their art. May be repeated for credit with topic change. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 25 or 27, and 119.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 119"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 180",
+      "dept": "SPAN",
+      "number": "180",
+      "title": "Topics in Visual Culture",
+      "units": 4.0,
+      "description": "(Formerly numbered M180.) Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 25 or 27, 119. Study of visual knowledge production in Latin America and Iberia as complex relation between visual subjects, practices, and representation. Objects of analysis may include architecture and urban design, digital media and other technologies,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 25 or 27, 119.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 119"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 195",
+      "dept": "SPAN",
+      "number": "195",
+      "title": "Community Internships in Spanish",
+      "units": 4.0,
+      "description": "Tutorial, one hour; fieldwork, 10 hours. Requisite: course 25 or 27. Limited to juniors/seniors. Internship in supervised setting in community agency or business. Students meet on regular basis with instructor and provide journal of their experience. Final research paper required. May be repeated for credit. Individual contract with supervising faculty\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 25",
+          "SPAN 27"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 198A",
+      "dept": "SPAN",
+      "number": "198A",
+      "title": "Senior Honors Research in Spanish I",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 25",
+      "dept": "SPAN",
+      "number": "25",
+      "title": "Advanced Spanish Composition",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 5. Emphasis on development of communicative abilities, both verbal and written, as well as on increasing comprehension of variety of forms of cultural production in Spanish language and on preparation for more advanced Spanish courses. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 119",
+        "SPAN 130",
+        "SPAN 135",
+        "SPAN 150",
+        "SPAN 155",
+        "SPAN 160",
+        "SPAN 175",
+        "SPAN 180",
+        "SPAN 195",
+        "SPAN M165XP",
+        "SPAN M172XP"
+      ]
+    },
+    {
+      "course_id": "SPAN 27",
+      "dept": "SPAN",
+      "number": "27",
+      "title": "Advanced Spanish Composition for Heritage Speakers",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 7B or equivalent. Not open for credit to students with credit for course 25. Practice in reading and writing of Spanish for students with oral proficiency in Spanish (in lieu of course 25). P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 7B or equivalent.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "SPAN 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SPAN 119",
+        "SPAN 130",
+        "SPAN 135",
+        "SPAN 150",
+        "SPAN 155",
+        "SPAN 160",
+        "SPAN 175",
+        "SPAN 180",
+        "SPAN 195",
+        "SPAN M165XP"
+      ]
+    },
+    {
+      "course_id": "SPAN 42",
+      "dept": "SPAN",
+      "number": "42",
+      "title": "Iberian Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spain, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 44",
+      "dept": "SPAN",
+      "number": "44",
+      "title": "Latin American Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spanish America, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN M165XP",
+      "dept": "SPAN",
+      "number": "M165XP",
+      "title": "Taking It to Street: Spanish in Community",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M167XP.) Seminar, three hours; fieldwork, 10 hours. Enforced requisite: course 25 or 27. Service learning course to give students opportunity to use cultural and linguistic knowledge acquired in Spanish classes in real-world settings. Students required to spend minimum of eight to 10 hours\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 25 or 27.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SPAN 25",
+            "SPAN 27"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN M172XP",
+      "dept": "SPAN",
+      "number": "M172XP",
+      "title": "Topics in Community Engagement",
+      "units": 5.0,
+      "description": "(Formerly numbered M172SL.) (Same as Chicana/o and Central American Studies M170XP.) Seminar, four hours; field project, four to six hours. Requisite: course 25. Introduction to community engagement in various forms. Exploration of methods of community involvement and change making processes within variety of professional contexts in community. Students engage in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 25.",
+      "prereqs_parsed": {
+        "required": [
+          "SPAN 25"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN M35",
+      "dept": "SPAN",
+      "number": "M35",
+      "title": "Spanish, Portuguese, and Nature of Language",
+      "units": 5.0,
+      "description": "(Same as Portuguese M35.) Lecture, three hours; discussion, one hour. Introduction to language study within context of Romance languages, focusing on Spanish and Portuguese. Nature of language: structure, diversity, evolution, social and cultural settings, literary uses. Study of language and its relation to other areas of human knowledge. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SPAN 100A",
+        "SPAN 100B"
+      ]
+    }
+  ]
+}

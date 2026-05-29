@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useCallback } from "react";
 import { fetchMajors } from "../../services/majorsApi.js";
 
 const FONT = "Inter, system-ui, var(--font-ui), sans-serif";
@@ -18,14 +18,6 @@ function HomeIcon({ size = 14, color = "#9A9A9A" }) {
   return (
     <svg width={size} height={size} viewBox="0 0 14 14" fill="none" aria-hidden>
       <path d="M1.5 7L7 2L12.5 7V12.5H9V9H5V12.5H1.5V7Z" stroke={color} strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function PlusIcon({ size = 14, color = "#9A9A9A" }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 14 14" fill="none" aria-hidden>
-      <path d="M7 1v12M1 7h12" stroke={color} strokeWidth="1.5" strokeLinecap="round" />
     </svg>
   );
 }
@@ -159,13 +151,14 @@ export default function AppSidebar({
   onHome,
   onOpenTree,
   onOpenMajor,
-  onNewTree,
 }) {
   const [collapsed, setCollapsed] = useState(false);
   const [allMajors, setAllMajors] = useState([]);
   const [majorsLoading, setMajorsLoading] = useState(true);
   const [majorsError, setMajorsError] = useState(false);
   const [localSearch, setLocalSearch] = useState("");
+  const [searchOpen, setSearchOpen] = useState(false);
+  const blurTimerRef = useRef(null);
 
   useEffect(() => {
     fetchMajors()
@@ -177,6 +170,13 @@ export default function AppSidebar({
         setMajorsError(true);
         setMajorsLoading(false);
       });
+  }, []);
+
+  const handleSearchBlur = useCallback(() => {
+    blurTimerRef.current = setTimeout(() => {
+      setSearchOpen(false);
+      setLocalSearch("");
+    }, 150);
   }, []);
 
   const query = localSearch.trim().toLowerCase();
@@ -206,6 +206,12 @@ export default function AppSidebar({
 
   const isHome = !activeTreeId && !activeMajorId;
 
+  function closeSearch() {
+    clearTimeout(blurTimerRef.current);
+    setSearchOpen(false);
+    setLocalSearch("");
+  }
+
   if (collapsed) {
     return (
       <aside style={{
@@ -221,6 +227,8 @@ export default function AppSidebar({
         alignItems: "center",
         paddingTop: 16,
         gap: 12,
+        zIndex: 10,
+        transition: "width 200ms ease",
       }}>
         <img src="/images/LOGO.png" alt="TreeReq" style={{ width: 28, height: 28, objectFit: "contain" }} />
         <div style={{ width: "100%", height: 1, background: "#EAEAEA" }} />
@@ -248,6 +256,8 @@ export default function AppSidebar({
       display: "flex",
       flexDirection: "column",
       overflow: "hidden",
+      zIndex: 10,
+      transition: "width 200ms ease",
     }}>
       {/* Header */}
       <div style={{
@@ -270,51 +280,77 @@ export default function AppSidebar({
         </button>
       </div>
 
-      {/* Search */}
-      <div style={{ padding: "12px 12px 8px", flexShrink: 0 }}>
-        <div style={{
-          display: "flex",
-          alignItems: "center",
-          gap: 8,
-          padding: "8px 12px",
-          borderRadius: 8,
-          background: "#F0F0F0",
-          border: "1px solid transparent",
-        }}>
-          <SearchIcon />
-          <input
-            type="search"
-            value={localSearch}
-            onChange={e => setLocalSearch(e.target.value)}
-            placeholder="Search majors & trees…"
-            aria-label="Search majors and trees"
-            style={{
-              flex: 1,
-              border: "none",
-              background: "transparent",
-              outline: "none",
-              fontFamily: FONT,
-              fontSize: 13,
-              color: "#333",
-            }}
-          />
-          {localSearch && (
-            <button
-              onClick={() => setLocalSearch("")}
-              style={{ border: "none", background: "transparent", cursor: "pointer", padding: 0, color: "#AAA", fontSize: 14, lineHeight: 1 }}
-            >
-              ×
-            </button>
-          )}
-        </div>
-      </div>
-
       {/* Scrollable content */}
       <div style={{ flex: 1, overflowY: "auto", padding: "4px 12px 24px" }}>
 
+        {/* ── Nav rows ── */}
+        <div style={{ marginBottom: 4 }}>
+          <SidebarRow
+            icon={<HomeIcon color={isHome ? "#358162" : "#9A9A9A"} />}
+            label="Home"
+            active={isHome}
+            onClick={onHome}
+          />
+
+          {searchOpen ? (
+            /* Search input — replaces the Search button in-place */
+            <div style={{
+              width: "100%",
+              padding: "8px 10px",
+              borderRadius: 8,
+              display: "flex",
+              alignItems: "center",
+              gap: 10,
+              background: "rgba(53, 129, 98, 0.10)",
+              boxSizing: "border-box",
+            }}>
+              <span style={{ flexShrink: 0, display: "flex", alignItems: "center" }}>
+                <SearchIcon size={14} color="#358162" />
+              </span>
+              <input
+                // eslint-disable-next-line jsx-a11y/no-autofocus
+                autoFocus
+                type="search"
+                value={localSearch}
+                onChange={e => setLocalSearch(e.target.value)}
+                onBlur={handleSearchBlur}
+                onKeyDown={e => { if (e.key === "Escape") closeSearch(); }}
+                placeholder="Search majors & trees…"
+                aria-label="Search majors and trees"
+                style={{
+                  flex: 1,
+                  minWidth: 0,
+                  border: "none",
+                  background: "transparent",
+                  outline: "none",
+                  fontFamily: FONT,
+                  fontSize: 14,
+                  fontWeight: 400,
+                  color: "#3A3A3A",
+                }}
+              />
+              {localSearch && (
+                <button
+                  onMouseDown={e => e.preventDefault()}
+                  onClick={() => setLocalSearch("")}
+                  style={{ border: "none", background: "transparent", cursor: "pointer", padding: 0, color: "#AAA", fontSize: 14, lineHeight: 1, flexShrink: 0 }}
+                >
+                  ×
+                </button>
+              )}
+            </div>
+          ) : (
+            <SidebarRow
+              icon={<SearchIcon size={14} color="#9A9A9A"  />}
+              label="Search"
+              onClick={() => setSearchOpen(true)}
+            />
+          )}
+        </div>
+
         {hasQuery ? (
           /* ── Search results ── */
-          <div>
+          <div onMouseDown={e => e.preventDefault()}>
             <div style={{ marginBottom: 16 }}>
               <SectionHeader label="Majors" />
               {majorsLoading ? (
@@ -332,7 +368,10 @@ export default function AppSidebar({
                     icon={<TreeLeafIcon color={activeMajorId === m.major_id ? "#358162" : "#9A9A9A"} />}
                     label={m.name}
                     active={activeMajorId === m.major_id}
-                    onClick={() => onOpenMajor?.(m.major_id)}
+                    onClick={() => {
+                      onOpenMajor?.(m.major_id, m.name);
+                      closeSearch();
+                    }}
                   />
                 ))
               ) : (
@@ -356,7 +395,11 @@ export default function AppSidebar({
                       label={t.name}
                       subtitle={t.major}
                       active={isActive}
-                      onClick={() => t.majorId ? onOpenMajor?.(t.majorId) : onOpenTree?.(t.id)}
+                      onClick={() => {
+                        if (t.majorId) onOpenMajor?.(t.majorId, t.name);
+                        else onOpenTree?.(t.id);
+                        closeSearch();
+                      }}
                     />
                   );
                 })}
@@ -370,22 +413,8 @@ export default function AppSidebar({
             )}
           </div>
         ) : (
-          /* ── Normal navigation ── */
+          /* ── Normal navigation (My Trees + Recent) ── */
           <>
-            <div style={{ marginBottom: 4 }}>
-              <SidebarRow
-                icon={<HomeIcon color={isHome ? "#358162" : "#9A9A9A"} />}
-                label="Home"
-                active={isHome}
-                onClick={onHome}
-              />
-              <SidebarRow
-                icon={<PlusIcon />}
-                label="New Tree"
-                onClick={onNewTree}
-              />
-            </div>
-
             <Divider />
 
             <div style={{ marginBottom: 20 }}>
@@ -406,7 +435,7 @@ export default function AppSidebar({
                       label={tree.name}
                       subtitle={tree.major}
                       active={isActive}
-                      onClick={() => tree.majorId ? onOpenMajor?.(tree.majorId) : onOpenTree?.(tree.id)}
+                      onClick={() => tree.majorId ? onOpenMajor?.(tree.majorId, tree.name) : onOpenTree?.(tree.id)}
                     />
                   );
                 })

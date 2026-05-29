@@ -1,0 +1,470 @@
+{
+  "major_id": "public-affairs-ba",
+  "major_name": "Public Affairs BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/PublicAffairsBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PUB AFF 40",
+        "PUB AFF 60",
+        "PUB AFF 80"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 3,
+          "courses": [
+            "PUB AFF 10",
+            "PUB AFF 20",
+            "PUB AFF 30",
+            "PUB AFF 50",
+            "PUB AFF 70"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PUB AFF 115",
+        "PUB AFF 116"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "PUB AFF M109",
+            "PUB AFF 110",
+            "PUB AFF 111",
+            "PUB AFF 112",
+            "PUB AFF 113",
+            "PUB AFF 114"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "PUB AFF 100",
+            "PUB AFF 101",
+            "PUB AFF 102",
+            "PUB AFF 103",
+            "PUB AFF 104",
+            "PUB AFF 105",
+            "PUB AFF 106",
+            "PUB AFF 107",
+            "PUB AFF 108"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "PUB AFF 187AX",
+        "PUB AFF 187BX",
+        "PUB AFF 187CX"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "PUB AFF": [
+      "PUB AFF 10",
+      "PUB AFF 110",
+      "PUB AFF 111",
+      "PUB AFF 112",
+      "PUB AFF 113",
+      "PUB AFF 114",
+      "PUB AFF 115",
+      "PUB AFF 116",
+      "PUB AFF 187AX",
+      "PUB AFF 187BX",
+      "PUB AFF 187CX",
+      "PUB AFF 198A",
+      "PUB AFF 198B",
+      "PUB AFF 198C",
+      "PUB AFF 20",
+      "PUB AFF 30",
+      "PUB AFF 40",
+      "PUB AFF 50",
+      "PUB AFF 60",
+      "PUB AFF 70",
+      "PUB AFF 80",
+      "PUB AFF M109"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "PUB AFF 10",
+      "dept": "PUB AFF",
+      "number": "10",
+      "title": "Social Problems and Social Change",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to social scientific approaches to study of social problems and their solutions. Using selected contemporary social problems as cases, and drawing on variety of sources (such as scholarly readings, video clips, and guest speakers), exploration of how social problems and their solutions come\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 110",
+      "dept": "PUB AFF",
+      "number": "110",
+      "title": "Urban Revolution: Space and Society in Global Context",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of potentialities and challenges of 21st-century urban revolution in global context. Introduction of theoretical frameworks and conceptual methods used by urban studies and planning to study cities and urban transformations, and historical and contemporary analysis of urbanization to learn about key urban processes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 111",
+      "dept": "PUB AFF",
+      "number": "111",
+      "title": "Microeconomics: Market Failures and Inequality",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 40 (or Economics 1 or 11 or equivalent introductory economics course), 60 (or Political Science 6 or Statistics 10 or equivalent introductory statistics course). Introduction to economic theory for policy analysis. Broad focus on evaluating rationale for government intervention in economy, in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 40 (or Economics 1 or 11 or equivalent introductory economics course), 60 (or Political Science 6 or Statistics 10 or equivalent introductory statistics course).",
+      "prereqs_parsed": {
+        "required": [
+          "PUB AFF 40",
+          "PUB AFF 60"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ECON 1",
+            "ECON 11"
+          ],
+          [
+            "POL SCI 6",
+            "STAT 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 112",
+      "dept": "PUB AFF",
+      "number": "112",
+      "title": "Social Movements",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to theories, real-life examples, and applied skills for understanding and contributing to social movements. Examination of how and why social movements emerge; how and why people join, lead, stay, or drop out of movements; and strategies and tactics by which social movements enact\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 113",
+      "dept": "PUB AFF",
+      "number": "113",
+      "title": "Policy Analysis: Approaches to Addressing Social Problems",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to applied policy analysis designed to train students in logic of public policy analysis, introduce them to general skills required to do policy analysis, and to prepare them in persuasive presentation of their work. Development of skills fundamental to effective policy analysis and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 114",
+      "dept": "PUB AFF",
+      "number": "114",
+      "title": "People, Organizations, and Systems",
+      "units": 4.0,
+      "description": "Lecture, three hours. Theoretical approaches to human service organizations to explore social ecology of helping relationships and problem-solving processes in which helpers and clients in organizations engage. Examination of organizational structures/function. Study of interplay between individual clients, organizations, larger systems, and social and cultural backdrop. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 115",
+      "dept": "PUB AFF",
+      "number": "115",
+      "title": "Using Quantitative Methods to Understand Social Problems and their Potential Solutions",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: course 60 or equivalent introductory statistics course. Course in R preferred. Introduction to multivariate quantitative research models used to answer questions in social science. Students gain practical and intuitive understanding of multivariate regression, program evaluation, and research methods, and apply knowledge by analyzing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 60 or equivalent introductory statistics course.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PUB AFF 60"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PUB AFF 198A",
+        "PUB AFF 198B",
+        "PUB AFF 198C"
+      ]
+    },
+    {
+      "course_id": "PUB AFF 116",
+      "dept": "PUB AFF",
+      "number": "116",
+      "title": "Using Qualitative Methods to Understand Social Problems and Their Potential Solutions",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Introduction to qualitative research methods with focus on ethnographic observations, interviewing, and focus groups. Students practice conducting variety of qualitative methods. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PUB AFF 198A",
+        "PUB AFF 198B",
+        "PUB AFF 198C"
+      ]
+    },
+    {
+      "course_id": "PUB AFF 187AX",
+      "dept": "PUB AFF",
+      "number": "187AX",
+      "title": "Experiential Learning Capstone",
+      "units": 5.0,
+      "description": "(Formerly numbered 187A.) Lecture, two hours; discussion, one hour. Course 187AX is requisite to 187BX, which is requisite to 187CX. Limited to and required for senior Public Affairs majors. Students apply public affairs course concepts and methods to internship experience; refine understanding of concepts and methods based on internship experience;\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PUB AFF 187BX"
+      ]
+    },
+    {
+      "course_id": "PUB AFF 187BX",
+      "dept": "PUB AFF",
+      "number": "187BX",
+      "title": "Experiential Learning Capstone",
+      "units": 5.0,
+      "description": "(Formerly numbered 187B.) Lecture, two hours; discussion, one hour. Requisite: course 187AX. Limited to and required for senior Public Affairs majors. Students apply public affairs course concepts and methods to internship experience; refine understanding of concepts and methods based on internship experience; gain new knowledge about specific topics related to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 187AX.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB AFF 187AX"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PUB AFF 187CX"
+      ]
+    },
+    {
+      "course_id": "PUB AFF 187CX",
+      "dept": "PUB AFF",
+      "number": "187CX",
+      "title": "Experiential Learning Capstone",
+      "units": 5.0,
+      "description": "(Formerly numbered 187C.) Lecture, two hours; discussion, one hour. Requisite: course 187BX. Limited to and required for senior Public Affairs majors. Students apply public affairs course concepts and methods to internship experience; refine understanding of concepts and methods based on internship experience; gain new knowledge about specific topics related to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 187BX.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB AFF 187BX"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 198A",
+      "dept": "PUB AFF",
+      "number": "198A",
+      "title": "Honors Research in Public Affairs",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to senior Public Affairs majors. Requisites: courses 115, 116. Course 198A is requisite to 198B, which is requisite to 198C. Development and completion of research project and thesis under direct supervision of faculty member. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisites: courses 115, 116.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB AFF 115",
+          "PUB AFF 116"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PUB AFF 198B"
+      ]
+    },
+    {
+      "course_id": "PUB AFF 198B",
+      "dept": "PUB AFF",
+      "number": "198B",
+      "title": "Honors Research in Public Affairs",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to senior Public Affairs majors. Requisites: courses 115, 116, 198A. Development and completion of research project and thesis under direct supervision of faculty member. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisites: courses 115, 116, 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB AFF 115",
+          "PUB AFF 116",
+          "PUB AFF 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PUB AFF 198C"
+      ]
+    },
+    {
+      "course_id": "PUB AFF 198C",
+      "dept": "PUB AFF",
+      "number": "198C",
+      "title": "Honors Research in Public Affairs",
+      "units": 4.0,
+      "description": "Tutorial, to be arranged. Limited to senior Public Affairs majors. Requisites: courses 115, 116, 198B. Development and completion of research project and thesis under direct supervision of faculty member. Individual contract required. Letter grading.",
+      "prereqs_raw": "Requisites: courses 115, 116, 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "PUB AFF 115",
+          "PUB AFF 116",
+          "PUB AFF 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 20",
+      "dept": "PUB AFF",
+      "number": "20",
+      "title": "Power, Politics, and Policy Change",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to key institutions of government, politics, and policy in U.S., covering their history, contemporary forms, and internal dynamics. Includes various scales and branches of government as well as institutions that exercise power and influence in public decision making and social action, such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 30",
+      "dept": "PUB AFF",
+      "number": "30",
+      "title": "Comparative Analysis of Wealth, Policy, and Power",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of strategic interactions that give rise to social problems around world, what can be done to address them, and how different polities have tried (and sometimes failed) to mount effective response. Applications include climate change, antivaccination movement, protest and repression, war and formation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 40",
+      "dept": "PUB AFF",
+      "number": "40",
+      "title": "Microeconomics for Public Affairs",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to principles of microeconomics with focus on social and policy problems. Study of decisions by firms and individuals, and implications for allocation of resources. Application of economic models to public issues such as social safety net, minimum wage, education, inequality, and poverty. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PUB AFF 111"
+      ]
+    },
+    {
+      "course_id": "PUB AFF 50",
+      "dept": "PUB AFF",
+      "number": "50",
+      "title": "Foundations and Debates in Public Thought",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction of core concepts of democracy and equality and challenges to implementation posed by race, class, and gender inequality. Review of standards by which political systems can be judged to be democratic and identification of obstacles to their mutual implementation. Focus on inequality, its\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 60",
+      "dept": "PUB AFF",
+      "number": "60",
+      "title": "Using Data to Learn about Society: Introduction to Empirical Research and Statistics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Not open for credit to students with credit for Economics 41, Political Science 6, Statistics 10, 12, 13, or 15. Introduction to statistics through examination of topics of public interest. Familiarization with research design principles and hands-on data analysis using statistical software. Students learn\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PUB AFF 111",
+        "PUB AFF 115"
+      ]
+    },
+    {
+      "course_id": "PUB AFF 70",
+      "dept": "PUB AFF",
+      "number": "70",
+      "title": "Information, Evidence, and Persuasion",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of sources and varieties of knowledge produced in social sciences. Evaluation of types of evidence, arguments, and persuasion on social problems and public issues. Examination of public life of evidence and arguments by different actors in social policy-making, persuasion, and propaganda process. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF 80",
+      "dept": "PUB AFF",
+      "number": "80",
+      "title": "How Social Environments Shape Human Development",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Overview of major theoretical, conceptual, and empirical traditions in study of human development. Exploration of how diverse cultural, social, socioeconomic, and historical contexts interact with biological, cognitive, and psychological processes to affect individuals during key developmental periods (such as early childhood, childhood, adolescence, early\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB AFF M109",
+      "dept": "PUB AFF",
+      "number": "M109",
+      "title": "Introduction to Cities and Planning",
+      "units": 4.0,
+      "description": "(Same as Urban Planning M120.) Lecture, three hours; discussion, one hour. Survey of urban history and evolution in U.S., urban social theory, current growth trends, system of cities, urban economy and economic restructuring, traditional and alternative location theories, urban transportation, and residential location and segregation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

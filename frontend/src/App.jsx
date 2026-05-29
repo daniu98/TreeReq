@@ -5,6 +5,8 @@ import ProfileMain from "./components/pages/ProfileMain.jsx";
 import TreeViewMain from "./components/pages/TreeViewMain.jsx";
 import AppSidebar from "./components/layout/AppSidebar.jsx";
 import TreeSetupMain from "./pages/TreeSetupMain.jsx";
+import { DegreeTree } from "./components/tree/DegreeTree.jsx";
+import { DraggableCanvas } from "./components/tree/DraggableCanvas.jsx";
 import {
   bumpRecentIds,
   getTreeById,
@@ -20,37 +22,91 @@ import {
 } from "./data/userProfile.js";
 import { getTreeDocumentTitle, parseLocation, pathForView } from "./lib/routes.js";
 import "./styles/variables.css";
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-const majorModules = import.meta.glob('/src/components/pages/majors/*.jsx', { eager: true });
-const MAJORS = Object.keys(majorModules).reduce((acc, filePath) => {
-  const fileName = filePath.match(/\/majors\/(.+)\.jsx$/)[1].toLowerCase();
-  acc[fileName] = majorModules[filePath].default;
-  return acc;
-}, {});
+const KNOWN_VIEWS = new Set(["landing", "tree", "setup"]);
+const RECENT_MAJORS_KEY = "treereq-recent-majors";
 
-function userForests(userProfile) {
-  if (!userProfile?.majorId || !userProfile?.major) return [];
-  return [{ id: userProfile.majorId, name: userProfile.major, majorId: userProfile.majorId }];
+function loadRecentMajors() {
+  try {
+    const raw = localStorage.getItem(RECENT_MAJORS_KEY);
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch { return []; }
 }
 
-const majorModules = import.meta.glob('/src/components/pages/majors/*.jsx', { eager: true });
-const MAJORS = Object.keys(majorModules).reduce((acc, filePath) => {
-  const fileName = filePath.match(/\/majors\/(.+)\.jsx$/)[1].toLowerCase();
-  acc[fileName] = majorModules[filePath].default;
-  return acc;
-}, {});
+function saveRecentMajors(items) {
+  try { localStorage.setItem(RECENT_MAJORS_KEY, JSON.stringify(items)); } catch {}
+}
 
-function userForests(userProfile) {
-  if (!userProfile?.majorId || !userProfile?.major) return [];
-  return [{ id: userProfile.majorId, name: userProfile.major, majorId: userProfile.majorId }];
+function MajorTreePage({ majorId, majorName, onBack }) {
+  const [focusPoint, setFocusPoint] = useState(null);
+
+  useEffect(() => { setFocusPoint(null); }, [majorId]);
+
+  const displayName = majorName ?? majorId
+    .split("-")
+    .map((w) => (/^(ba|bs|bm|ma|ms|mba|mfa|phd)$/i.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)))
+    .join(" ");
+
+  return (
+    <div style={{ flex: 1, display: "flex", flexDirection: "column", minWidth: 0, height: "100vh", overflow: "hidden" }}>
+      <div style={{
+        height: 52,
+        padding: "0 20px",
+        borderBottom: "1px solid #EAEAEA",
+        display: "flex",
+        alignItems: "center",
+        gap: 16,
+        background: "#FAFAFA",
+        flexShrink: 0,
+        zIndex: 1,
+      }}>
+        <button
+          type="button"
+          onClick={onBack}
+          style={{
+            border: "none",
+            background: "transparent",
+            cursor: "pointer",
+            fontFamily: "Inter, system-ui, sans-serif",
+            fontSize: 14,
+            color: "#666",
+            padding: "4px 0",
+            display: "flex",
+            alignItems: "center",
+            gap: 6,
+          }}
+        >
+          ← Back
+        </button>
+        <span style={{
+          fontFamily: "Inter, system-ui, sans-serif",
+          fontSize: 15,
+          fontWeight: 500,
+          color: "#1A1A1A",
+          overflow: "hidden",
+          textOverflow: "ellipsis",
+          whiteSpace: "nowrap",
+        }}>
+          {displayName}
+        </span>
+      </div>
+      <div style={{ flex: 1, position: "relative", minHeight: 0 }}>
+        <DraggableCanvas focusPoint={focusPoint}>
+          <DegreeTree majorId={majorId} majorName={displayName} onFirstCategoryReady={setFocusPoint} />
+        </DraggableCanvas>
+      </div>
+    </div>
+  );
 }
 
 function AppHome({
   route,
   navigate,
   recents,
+  forests,
   openTree,
+  openMajor,
   goHome,
   activeTree,
   showProfile,
@@ -60,9 +116,8 @@ function AppHome({
   onProfileUpdate,
 }) {
   const activeTreeId = route.view === "tree" ? route.treeId : null;
-  const activeMajorId = MAJORS[route.view?.toLowerCase()] ? route.view : null;
-  const MajorComponent = !showProfile ? MAJORS[route.view?.toLowerCase()] : null;
-  const forests = userForests(userProfile);
+  const activeMajorId = !KNOWN_VIEWS.has(route.view) && route.view ? route.view : null;
+  const isMajorView = !showProfile && !!activeMajorId;
 
   return (
     <>
@@ -73,8 +128,7 @@ function AppHome({
         activeMajorId={activeMajorId}
         onHome={goHome}
         onOpenTree={openTree}
-        onOpenMajor={(majorId) => navigate(majorId)}
-        onNewTree={() => navigate("setup")}
+        onOpenMajor={openMajor}
       />
 
       {showProfile ? (
@@ -90,9 +144,10 @@ function AppHome({
           onPlantNewTree={() => navigate("setup")}
           onOpenTree={openTree}
           onOpenProfile={onOpenProfile}
-          onOpenMajor={(majorId) => navigate(majorId)}
+          onOpenMajor={openMajor}
           profileLabel={userProfile?.displayName ?? "Guest"}
           userProfile={userProfile}
+          recentMajors={forests}
         />
       ) : null}
 
@@ -104,7 +159,13 @@ function AppHome({
         <TreeSetupMain onBack={goHome} />
       ) : null}
 
-      {MajorComponent ? <MajorComponent onBack={goHome} /> : null}
+      {isMajorView ? (
+        <MajorTreePage
+          majorId={route.view}
+          majorName={route.majorName}
+          onBack={goHome}
+        />
+      ) : null}
     </>
   );
 }
@@ -122,13 +183,20 @@ export default function App() {
   const [showProfile, setShowProfile] = useState(false);
 
   const recents = useMemo(() => resolveRecentTrees(recentIds), [recentIds]);
+  const [recentMajors, setRecentMajors] = useState(loadRecentMajors);
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeTree = activeTreeId ? getTreeById(activeTreeId) : null;
 
-  const navigate = useCallback((view, treeId = null) => {
+  const allMyTrees = useMemo(() => {
+    if (!userProfile?.majorId || !userProfile?.major) return recentMajors;
+    if (recentMajors.some((m) => m.id === userProfile.majorId)) return recentMajors;
+    return [...recentMajors, { id: userProfile.majorId, name: userProfile.major, majorId: userProfile.majorId }];
+  }, [userProfile, recentMajors]);
+
+  const navigate = useCallback((view, treeId = null, meta = null) => {
     const path = pathForView(view, treeId);
-    window.history.pushState({ view, treeId }, "", path);
-    setRoute({ view, treeId: view === "tree" ? treeId : null });
+    window.history.pushState({ view, treeId, ...meta }, "", path);
+    setRoute({ view, treeId: view === "tree" ? treeId : null, ...(meta ?? {}) });
   }, []);
 
   useEffect(() => {
@@ -150,22 +218,18 @@ export default function App() {
       document.title = getTreeDocumentTitle(activeTree);
       return;
     }
-    if (route.view === "setup") {
-      document.title = "TreeReq — New tree";
-      return;
-    }
 
-    if (route.view && MAJORS[route.view.toLowerCase()]) {
-      const formattedTitle = route.view
+    if (route.view && !KNOWN_VIEWS.has(route.view)) {
+      const name = route.majorName ?? route.view
         .split("-")
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .map((w) => (/^(ba|bs|bm|ma|ms|mba|mfa|phd)$/i.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)))
         .join(" ");
-      document.title = `TreeReq — ${formattedTitle}`;
+      document.title = `TreeReq — ${name}`;
       return;
     }
 
     document.title = "TreeReq — Home";
-  }, [onboardingVisible, showProfile, route.view, activeTree]);
+  }, [onboardingVisible, showProfile, route.view, route.majorName, activeTree]);
 
   const openTree = useCallback(
     (treeId) => {
@@ -176,7 +240,19 @@ export default function App() {
     [navigate]
   );
 
+  const openMajor = useCallback((majorId, majorName) => {
+    navigate(majorId, null, majorName ? { majorName } : null);
+    setRecentMajors((prev) => {
+      const name = majorName ?? majorId.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      const item = { id: majorId, name, majorId };
+      const next = [item, ...prev.filter((m) => m.id !== majorId)].slice(0, 10);
+      saveRecentMajors(next);
+      return next;
+    });
+  }, [navigate]);
+
   const goHome = useCallback(() => {
+    setShowProfile(false);
     navigate("landing");
   }, [navigate]);
 
@@ -232,7 +308,9 @@ export default function App() {
             route={route}
             navigate={navigate}
             recents={recents}
+            forests={allMyTrees}
             openTree={openTree}
+            openMajor={openMajor}
             goHome={goHome}
             activeTree={activeTree}
             showProfile={showProfile}

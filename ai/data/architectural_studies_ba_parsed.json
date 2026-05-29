@@ -1,0 +1,234 @@
+{
+  "major_id": "architectural-studies-ba",
+  "major_name": "Architectural Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/ArchitecturalStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ARCH&UD 10A",
+        "ARCH&UD 10B",
+        "ARCH&UD 30"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ARCH&UD 121",
+        "ARCH&UD 122",
+        "ARCH&UD 123",
+        "ARCH&UD 131",
+        "ARCH&UD 132",
+        "ARCH&UD 133",
+        "ARCH&UD 141",
+        "ARCH&UD 142",
+        "ARCH&UD 143"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ARCH&UD": [
+      "ARCH&UD 10A",
+      "ARCH&UD 10B",
+      "ARCH&UD 121",
+      "ARCH&UD 122",
+      "ARCH&UD 123",
+      "ARCH&UD 131",
+      "ARCH&UD 132",
+      "ARCH&UD 133",
+      "ARCH&UD 141",
+      "ARCH&UD 142",
+      "ARCH&UD 143",
+      "ARCH&UD 30"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ARCH&UD 10A",
+      "dept": "ARCH&UD",
+      "number": "10A",
+      "title": "Histories of Architecture and Urbanism I",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Exploration of developments in global architecture and urban design from prehistory to 1600 and critical reflection on terms such as building, architecture, city, history, and culture. Focus on world context, construction and technology, and history of architectural ideas. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 10B",
+      "dept": "ARCH&UD",
+      "number": "10B",
+      "title": "Histories of Architecture and Urbanism II",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Survey of architectural and urban history from 1600 to present in global context. Exploration of buildings, cities, spaces, artifacts, landscapes, and ideas through their relation to geopolitical conditions and through their relation to theories of design. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 121",
+      "dept": "ARCH&UD",
+      "number": "121",
+      "title": "Studio I",
+      "units": 6.0,
+      "description": "Studio, eight hours; outside study, 10 hours. Limited to Architectural Studies majors. Introduction to basic architectural design principles and problem solving: how to control point, line, surface, and volume to shape spaces for human use. Visual analysis as tool for discussing and understanding organization. Techniques of repetition, variation, order, scale,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ARCH&UD 122",
+        "ARCH&UD 123"
+      ]
+    },
+    {
+      "course_id": "ARCH&UD 122",
+      "dept": "ARCH&UD",
+      "number": "122",
+      "title": "Studio II",
+      "units": 6.0,
+      "description": "Studio, eight hours; outside study, 10 hours. Enforced requisite: course 121. Limited to Architectural Studies majors. Issues of inhabitation, domesticity, and program. Architectural precedents and principles of spatial organization. Relationship of architectural form to human body and role of architectural space in choreography of human activity. Understanding and application of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 121.",
+      "prereqs_parsed": {
+        "required": [
+          "ARCH&UD 121"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ARCH&UD 123"
+      ]
+    },
+    {
+      "course_id": "ARCH&UD 123",
+      "dept": "ARCH&UD",
+      "number": "123",
+      "title": "Studio III",
+      "units": 6.0,
+      "description": "Studio, eight hours; outside study, 10 hours. Enforced requisites: courses 121, 122. Limited to Architectural Studies majors. Introduction to disciplinary issues, techniques, and organizations of landscape and how those can influence design of building and site. Development of material and temporal characteristics of architecture relative to role those play in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 121, 122.",
+      "prereqs_parsed": {
+        "required": [
+          "ARCH&UD 121",
+          "ARCH&UD 122"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 131",
+      "dept": "ARCH&UD",
+      "number": "131",
+      "title": "Issues in Contemporary Design",
+      "units": 5.0,
+      "description": "Lecture, three hours; outside study, 12 hours. Limited to Architectural Studies majors. How global design culture today operates as part of set of spatial, economic, political, and social discourses. From development of cities to new formal languages in architecture, consequences of fact that great percentage of our lives is spent\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 132",
+      "dept": "ARCH&UD",
+      "number": "132",
+      "title": "Histories of Housing and Domesticity: 19th Century to the Present",
+      "units": 5.0,
+      "description": "Lecture, three hours; outside study, 12 hours. Limited to Architectural Studies majors or with consent of instructor. Investigation of relationship between architecture, political economy, and the environment through the medium of housing, from 19th-century philanthropy to cooperative, municipal, and national enterprise. Focus on worldwide examples spanning two centuries, study connects\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 133",
+      "dept": "ARCH&UD",
+      "number": "133",
+      "title": "Spatial Justice and the City",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, one hour; outside study, 12 hours. Limited to Architectural Studies majors or with consent of instructor. Global cities today, and American cities in particular, are shaped by infrastructure, property, public space, residential and commercial development, preservation, and territoriality. These are the material artifacts not only of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 141",
+      "dept": "ARCH&UD",
+      "number": "141",
+      "title": "Technology I: Projections",
+      "units": 5.0,
+      "description": "Laboratory, four hours; outside study, 11 hours. Limited to Architectural Studies majors. Introduction to techniques of spatial representation as they relate to architectural design. How to communicate using two- and three-dimensional drawing and modeling. Analog and digital techniques and opportunity afforded by moving between both. Analog techniques include orthographic and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 142",
+      "dept": "ARCH&UD",
+      "number": "142",
+      "title": "Technology II: Building Materials and Methods",
+      "units": 5.0,
+      "description": "Laboratory, four hours; outside study, 11 hours. Limited to Architectural Studies majors. Introduction to construction systems and materials in relation to design, such as framed, bearing wall, or hybrid systems. Graphic conventions and organization of construction documents. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 143",
+      "dept": "ARCH&UD",
+      "number": "143",
+      "title": "Technology III: Digital Technology",
+      "units": 5.0,
+      "description": "Laboratory, four hours; outside study, 11 hours. Limited to Architectural Studies majors. Overview of three-dimensional computer-aided visualization concepts, teaching applications of AutoCAD and Maya and their use relative to process of design and visual communication. Basic representation methods and tools and introduction to additional concepts required to dynamically interact with\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ARCH&UD 30",
+      "dept": "ARCH&UD",
+      "number": "30",
+      "title": "Introduction to Architectural Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Exploration of role of built environment in social, cultural, and political life: how buildings are constructed, what they mean, effects they have on world, and ways they imagine new futures and shape private and public life. Focus on series of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

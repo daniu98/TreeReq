@@ -1,0 +1,1543 @@
+{
+  "major_id": "labor-studies-ba",
+  "major_name": "Labor Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/LaborStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LBR STD 10"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "AF AMER 1",
+            "AF AMER M5",
+            "ASIA AM 10",
+            "ASIA AM 20",
+            "ASIA AM 40",
+            "ASIA AM 50",
+            "CCAS 10B",
+            "GENDER 10",
+            "GEOG 4",
+            "HIST 2B",
+            "HIST 8B",
+            "HIST 12A",
+            "HIST 12B",
+            "HIST 12C",
+            "HNRS 82",
+            "POL SCI 60",
+            "PUB PLC 10A",
+            "PUB PLC 10B",
+            "SOCIOL M5",
+            "SOCIOL 51",
+            "SPAN 44",
+            "LBR STD 96W"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "LBR STD M1A",
+            "LBR STD M1B",
+            "LBR STD M1CW"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LBR STD 101"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 5,
+          "courses": [
+            "LBR STD M105",
+            "LBR STD M114C",
+            "LBR STD M116",
+            "LBR STD M117",
+            "LBR STD M119XP",
+            "LBR STD M121",
+            "LBR STD M122",
+            "LBR STD M123",
+            "LBR STD M125",
+            "LBR STD 126",
+            "LBR STD M127",
+            "LBR STD M128",
+            "LBR STD M129",
+            "LBR STD M134XP",
+            "LBR STD M136",
+            "LBR STD 140",
+            "LBR STD M143",
+            "LBR STD M144",
+            "LBR STD M149",
+            "LBR STD 152",
+            "LBR STD 153",
+            "LBR STD M165",
+            "LBR STD M166A",
+            "LBR STD M166B",
+            "LBR STD M166C",
+            "LBR STD M167",
+            "LBR STD 168",
+            "LBR STD M170",
+            "LBR STD M171",
+            "LBR STD M173",
+            "LBR STD 174",
+            "LBR STD M175",
+            "LBR STD M176",
+            "LBR STD 177",
+            "LBR STD 179A",
+            "LBR STD 179B",
+            "LBR STD M180",
+            "LBR STD 181",
+            "LBR STD 182",
+            "LBR STD 183",
+            "LBR STD 187",
+            "LBR STD 188",
+            "LBR STD 191",
+            "LBR STD 194A",
+            "LBR STD 194B"
+          ]
+        },
+        {
+          "choose_n": 5,
+          "courses": [
+            "LBR STD M105",
+            "LBR STD M114C",
+            "LBR STD M116",
+            "LBR STD M117",
+            "LBR STD M119XP",
+            "LBR STD M121",
+            "LBR STD M122",
+            "LBR STD M123",
+            "LBR STD M125",
+            "LBR STD 126",
+            "LBR STD M127",
+            "LBR STD M128",
+            "LBR STD M129",
+            "LBR STD M134XP",
+            "LBR STD M136",
+            "LBR STD 140",
+            "LBR STD M143",
+            "LBR STD M144",
+            "LBR STD M149",
+            "LBR STD 152",
+            "LBR STD 153",
+            "LBR STD M165",
+            "LBR STD M166A",
+            "LBR STD M166B",
+            "LBR STD M166C",
+            "LBR STD M167",
+            "LBR STD 168",
+            "LBR STD M170",
+            "LBR STD M171",
+            "LBR STD M173",
+            "LBR STD 174",
+            "LBR STD M175",
+            "LBR STD M176",
+            "LBR STD 177",
+            "LBR STD 179A",
+            "LBR STD 179B",
+            "LBR STD M180",
+            "LBR STD 181",
+            "LBR STD 182",
+            "LBR STD 183",
+            "LBR STD 187",
+            "LBR STD 188",
+            "LBR STD 191",
+            "LBR STD 194A",
+            "LBR STD 194B"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AF AMER": [
+      "AF AMER 1",
+      "AF AMER CM113XP",
+      "AF AMER M5"
+    ],
+    "ASIA AM": [
+      "ASIA AM 10",
+      "ASIA AM 113",
+      "ASIA AM 20",
+      "ASIA AM 40",
+      "ASIA AM 50"
+    ],
+    "CCAS": [
+      "CCAS 10B"
+    ],
+    "ECON": [
+      "ECON 150",
+      "ECON 151"
+    ],
+    "GENDER": [
+      "GENDER 10",
+      "GENDER 102",
+      "GENDER M137E",
+      "GENDER M163"
+    ],
+    "GEOG": [
+      "GEOG 4"
+    ],
+    "HIST": [
+      "HIST 12A",
+      "HIST 12B",
+      "HIST 12C",
+      "HIST 141B",
+      "HIST 146A",
+      "HIST 146C",
+      "HIST 2B",
+      "HIST 8B",
+      "HIST M150C"
+    ],
+    "HNRS": [
+      "HNRS 82"
+    ],
+    "LBR STD": [
+      "LBR STD 10",
+      "LBR STD 101",
+      "LBR STD 126",
+      "LBR STD 140",
+      "LBR STD 152",
+      "LBR STD 153",
+      "LBR STD 168",
+      "LBR STD 174",
+      "LBR STD 177",
+      "LBR STD 179A",
+      "LBR STD 179B",
+      "LBR STD 181",
+      "LBR STD 182",
+      "LBR STD 183",
+      "LBR STD 187",
+      "LBR STD 188",
+      "LBR STD 191",
+      "LBR STD 194A",
+      "LBR STD 194B",
+      "LBR STD 195B",
+      "LBR STD 199",
+      "LBR STD 96W",
+      "LBR STD M105",
+      "LBR STD M114C",
+      "LBR STD M116",
+      "LBR STD M117",
+      "LBR STD M119XP",
+      "LBR STD M121",
+      "LBR STD M122",
+      "LBR STD M123",
+      "LBR STD M125",
+      "LBR STD M127",
+      "LBR STD M128",
+      "LBR STD M129",
+      "LBR STD M134XP",
+      "LBR STD M136",
+      "LBR STD M143",
+      "LBR STD M144",
+      "LBR STD M149",
+      "LBR STD M165",
+      "LBR STD M166A",
+      "LBR STD M166B",
+      "LBR STD M166C",
+      "LBR STD M167",
+      "LBR STD M170",
+      "LBR STD M171",
+      "LBR STD M173",
+      "LBR STD M175",
+      "LBR STD M176",
+      "LBR STD M180",
+      "LBR STD M1A",
+      "LBR STD M1B",
+      "LBR STD M1CW"
+    ],
+    "POL SCI": [
+      "POL SCI 116A",
+      "POL SCI 60"
+    ],
+    "PUB PLC": [
+      "PUB PLC 10A",
+      "PUB PLC 10B"
+    ],
+    "SOCIOL": [
+      "SOCIOL 157",
+      "SOCIOL 171",
+      "SOCIOL 173",
+      "SOCIOL 51",
+      "SOCIOL M163",
+      "SOCIOL M5"
+    ],
+    "SPAN": [
+      "SPAN 44"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AF AMER 1",
+      "dept": "AF AMER",
+      "number": "1",
+      "title": "Introduction to Black Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction of methods, theories, conceptual frameworks, and key debates in black studies. Interrogation of how race structures notions of identity and meaning of blackness in relation to class, gender, and sexuality; essential role of African people in development of capitalism, liberalism, and democracy; what\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AF AMER CM113XP",
+      "dept": "AF AMER",
+      "number": "CM113XP",
+      "title": "Narratives of Justice: Disrupting School-to-Prison Pipeline\u00e2\u20ac\u201dArts, Activism, and Agency",
+      "units": 4.0,
+      "description": "(Same as Education CM125XP.) Lecture, four hours; discussion, one hour. Exploration of policies and practices, art and activism, and other forms of agency engaging school-to-prison pipeline. Concurrently scheduled with course CM213XP. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AF AMER M5",
+      "dept": "AF AMER",
+      "number": "M5",
+      "title": "Social Organization of Black Communities",
+      "units": 5.0,
+      "description": "(Same as Sociology M5.) Lecture, four hours; discussion, one hour; field trips. Analysis and interpretation of social organization of black communities, with focus on origins and development of black communities, competing theories and research findings, defining characteristics and contemporary issues. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 10",
+      "dept": "ASIA AM",
+      "number": "10",
+      "title": "History of Asian Americans",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 10W. Multidisciplinary examination of history of Asians and Pacific Islanders in U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 113",
+      "dept": "ASIA AM",
+      "number": "113",
+      "title": "Asian Americans and Law",
+      "units": 4.0,
+      "description": "Lecture, four hours. Introduction to Asian American political identity and critical race theory\u2014study of race and representation in making of modern American law and legal meaning. Survey of federal cases, legislation, and regulations pertaining to race, gender, and sexuality in Asian American community formations and relationality towards communities of color\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 20",
+      "dept": "ASIA AM",
+      "number": "20",
+      "title": "Contemporary Asian American Communities",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Multidisciplinary introduction to contemporary Asian American populations and communities in U.S. Topics include contemporary immigration, demographic trends, sociocultural, economic, and political issues, and interethnic relations. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 40",
+      "dept": "ASIA AM",
+      "number": "40",
+      "title": "Asian American Movement",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Using Asian American movement of late 1960s and 1970s as lens, introduction to social history methods, including role of oral history, documentary films, and archival history, and analysis of primary and secondary sources. Asian American movement situated within larger frame of social change of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIA AM 50",
+      "dept": "ASIA AM",
+      "number": "50",
+      "title": "Asian American Women",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Overview of history of feminist theory and intersection of gender, class, race/ethnicity from cross-cultural perspectives, with focus on Asian American women\u2019s lived experiences in U.S. Topics include Asian American women\u2019s roles in family life, work, community organization, social change, and cultural creativity. Examination of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CCAS 10B",
+      "dept": "CCAS",
+      "number": "10B",
+      "title": "Introduction to Chicana/Chicano Studies: Social Structure and Contemporary Conditions",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Multidisciplinary examination of representation, ideologies, and material conditions of Chicanas/Chicanos, including colonialism, race, labor, immigration, poverty, assimilation, and patriarchy. Emphasis on critical reading and writing skills. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ECON 150",
+      "dept": "ECON",
+      "number": "150",
+      "title": "Labor Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 11, 101, 103. Enforced corequisite: course 150L. Supply and demand for labor. Analysis of government, union, and other constraints on competitive system of wage determination. Wage level and structure. Wages and human capital theory. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 11, 101, 103. Enforced corequisite: course 150L.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 11",
+          "ECON 101",
+          "ECON 103"
+        ],
+        "corequisites": [
+          "ECON 150L"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ECON 151"
+      ]
+    },
+    {
+      "course_id": "ECON 151",
+      "dept": "ECON",
+      "number": "151",
+      "title": "Topics in Labor Economics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 101, 150. Selected topics in labor theory; income distribution; business cycles and unemployment; investments in human capital and life cycles; migration; human fertility; marriage and divorce, etc. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 101, 150.",
+      "prereqs_parsed": {
+        "required": [
+          "ECON 101",
+          "ECON 150"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER 10",
+      "dept": "GENDER",
+      "number": "10",
+      "title": "Introduction to Gender Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to key concepts in study of sex and gender. Exploration of topics such as gender socialization, body image, sexualities, masculinities, and women\u2019s subordination. Special emphasis on interaction of gender with other identity markers such as race, nation, ethnicity, sexuality, class, and other differences.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GENDER 102",
+        "GENDER M137E",
+        "GENDER M163"
+      ]
+    },
+    {
+      "course_id": "GENDER 102",
+      "dept": "GENDER",
+      "number": "102",
+      "title": "Power",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Consideration of how feminist social movements have identified and challenged gender-based subordination and ways feminist theorists have conceived and critiqued traditional theories of power. How have women\u2019s and other social movements defined and challenged social, political, and economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 10.",
+      "prereqs_parsed": {
+        "required": [
+          "GENDER 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M137E",
+      "dept": "GENDER",
+      "number": "M137E",
+      "title": "Work Behavior of Women and Men",
+      "units": 4.0,
+      "description": "(Same as Psychology M137E.) Lecture, two and one half hours. Requisite: course 10 or Psychology 10. Designed for seniors. Examination of work behavior of women and men. Topics include antecedents of career choice, job findings, leadership, performance evaluation, discrimination and evaluation bias, job satisfaction, and interdependence of work and family\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10 or Psychology 10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "GENDER 10",
+          "PSYCH 10"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GENDER M163",
+      "dept": "GENDER",
+      "number": "M163",
+      "title": "Gender and Work",
+      "units": 4.0,
+      "description": "(Same as Sociology M163.) Lecture, three hours. Requisite: course 10 or Sociology 1. Exploration of relationship of gender to work, concentrating on the U.S. experience but also including some comparative material. Particular emphasis on analysis of causes and consequences of job segregation by gender and of wage inequality. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10 or Sociology 1.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GENDER 10",
+            "SOC 1"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 4",
+      "dept": "GEOG",
+      "number": "4",
+      "title": "Globalization: Regional Development and World Economy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Economic geography explores spatial distribution of all forms of human productive activity at number of geographical scales\u2014local, regional, national, and global. Key theme is impact of increasingly powerful global economic forces on organization of production. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 12A",
+      "dept": "HIST",
+      "number": "12A",
+      "title": "Inequality: History of Mass Imprisonment",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Beginning with end of U.S.-Mexican War (1848) and ending with beginning of World War II, historical analysis from days when Los Angeles first became U.S. town until 1940s when Los Angeles first became global epicenter of human confinement. Exploration of major eras and turning\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 12B",
+      "dept": "HIST",
+      "number": "12B",
+      "title": "Inequality: History of Neoliberalism",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Exploration of origins, ideas, and consequences of neoliberalism\u2014theory that society is best organized on principles of free trade, deregulation, and privatization. Combination of political, economic, and intellectual history to construct genealogy of neoliberal thinking by attending to 18th- and 19th-century liberalism, colonialism, imperialism, rise\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 12C",
+      "dept": "HIST",
+      "number": "12C",
+      "title": "Inequality: Global History of Anti-Colonial Thought and Struggle",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Ongoing growth and normalization of poverty, violence, and racial hatred in neo-liberal present have direct linkage to earlier moment when colonial rule of previous century brought about global structure of inequality. Examination of some of most important voices of anti-colonial and anti-imperialist struggle from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 141B",
+      "dept": "HIST",
+      "number": "141B",
+      "title": "American Economic History, 1910 to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Dynamics of change in dual economy, with focus in greater detail on interrelationships between macro and micro developments in economy and on growing interdependency between U.S. and world economy from 1910 to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 146A",
+      "dept": "HIST",
+      "number": "146A",
+      "title": "American Working Class Movements",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Major episodes in social, trade union, and cultural history of American working class from Colonial times to present, with emphasis on both organized and unorganized labor, history of Knights of Labor, AFL-CIO, and development of labor politics. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 146C",
+      "dept": "HIST",
+      "number": "146C",
+      "title": "Migrant Nation: How Mobility Shapes American Society, Politics, and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Thematic and chronological survey of immigration and internal migration, cultures of racial and ethnic stratification, migrant political activism, and policies that govern migration, citizenship, and exclusion in U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 2B",
+      "dept": "HIST",
+      "number": "2B",
+      "title": "Social Knowledge and Social Power",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. History of social knowledge and social power in the 19th and 20th centuries. Everyday ideas and practices about human nature, common sense, and community and relation of those practices to social thought, social engineering, and social science. Themes include development of social knowledges through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 8B",
+      "dept": "HIST",
+      "number": "8B",
+      "title": "Modern Latin America",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introductory survey of social, political, and economic history of Latin America after independence, region that includes Mexico, Central and South America, and Caribbean. Formation of independent nation states and political regimes and quest for sovereignty and its challenges in shadow of U.S., approached from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST M150C",
+      "dept": "HIST",
+      "number": "M150C",
+      "title": "Introduction to Afro-American History",
+      "units": 4.0,
+      "description": "(Same as African American Studies M158C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of Afro-American experience, with emphasis on three great transitions of Afro-American life: transition from Africa to New World slavery, transition from slavery to freedom, and transition from rural to urban milieus. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNRS 82",
+      "dept": "HNRS",
+      "number": "82",
+      "title": "Community and Labor Development from Ground Up",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to practical applications of community development and outreach efforts in Los Angeles area, with projects from Community Outreach Partnership Center within School of Public Policy and Social Research. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 10",
+      "dept": "LBR STD",
+      "number": "10",
+      "title": "Introduction to Labor Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Assumptions about work, including why some work is favored, whether those with good jobs really are better people than those without, and how this understanding of work and value came to be common sense. Unpacking of these and other assumptions about work, value, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 101",
+      "dept": "LBR STD",
+      "number": "101",
+      "title": "Introduction to Labor and Social Movements in Los Angeles",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Students gain exposure to concepts of social justice, social movements, and workers and labor issues in context of global city of Los Angeles. In-depth examination of experience of workers and role of labor movement in Los Angeles, both historically and currently. Topics include changing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 126",
+      "dept": "LBR STD",
+      "number": "126",
+      "title": "Farm Worker Transnational Struggle",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Focus on historical and contemporary issues farm workers face in restructured economy, and class, racial, and gender dynamics that shape their work experiences and economic and political opportunities in society at large. Study also covers gender, race, and class conflicts in workplace and during\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 140",
+      "dept": "LBR STD",
+      "number": "140",
+      "title": "Working It: Women, Work, and Family",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Examination of working women in U.S. history from 19th-century midwives to 21st-century sex workers through film, oral history, and traditional forms of scholarship. Exploration of personal and work life of women from variety of intersectional categories including class, race, ethnicity, sexuality, and immigration status\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 152",
+      "dept": "LBR STD",
+      "number": "152",
+      "title": "Work, Social Justice, and Arts",
+      "units": 4.0,
+      "description": "Lecture, three hours; field visit. Analysis of how art (in cartoons, poster art, murals, photography, film, visual art, theater, performance, dance, and music) has been influential in popular movements for economic, racial, and social justice by artists, workers\u2019 groups, American labor movement, and other social movements such as civil rights,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 153",
+      "dept": "LBR STD",
+      "number": "153",
+      "title": "Stories of Struggle: Work, Class, and Narrative in Contemporary America",
+      "units": 4.0,
+      "description": "Lecture, three hours. Overview of contemporary working narratives. Investigation of how working-class Americans from diverse backgrounds have narrated their struggles with poverty, education, work, parenthood, bodily suffering, and war. Inquiry into what readers can learn from these struggles as students, writers, and activists. Emphasis on 21st-century narratives. Analysis of variety\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 168",
+      "dept": "LBR STD",
+      "number": "168",
+      "title": "Law and Politics of Immigration: Migrants and Inevitable Evolution of Collective and Individual Rights",
+      "units": 4.0,
+      "description": "Lecture, three hours. With immigration and rights of migrants at center of current political and legal debates throughout world, study offers critical introduction to inevitable evolution of law and policy resulting from\u2014and in reaction to\u2014movement of immigrants. Endows students with wide array of analytical tools with which to engage current\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 174",
+      "dept": "LBR STD",
+      "number": "174",
+      "title": "Labor and Employment Law",
+      "units": 4.0,
+      "description": "Lecture, three hours. Using combination of cases, statutes, news articles, films, and oral history, introduction to history of organized labor; current debates and trends; and basic structure of laws, regulations, and cases that govern organizing to improve workplace conditions. Study covers primary federal acts and court cases that govern strikes,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 177",
+      "dept": "LBR STD",
+      "number": "177",
+      "title": "Spirituality, Mindfulness, Self-Care, and Social Justice",
+      "units": 4.0,
+      "description": "Seminar, three hours. Exploration of role of spirituality and mindfulness practice in labor and immigrant rights movements. Focus on teachings of St. Francis of Assisi, Mahatma Gandhi, Martin Luther King, Thich Nhat Hanh, and other spiritual leaders. Uses specific case studies and workshop experiences. Includes videos and guest lectures by\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 179A",
+      "dept": "LBR STD",
+      "number": "179A",
+      "title": "Neoliberalism, Social Justice, and Transformative Politics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Focus on the study of forms of community organizing in the context of neoliberalism that promote transformational politics committed to achieving a more inclusive form of democracy and a greater level of social justice. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 179B",
+      "dept": "LBR STD",
+      "number": "179B",
+      "title": "Doing Democracy: Politics of Resistance, Protest, and Social Movements",
+      "units": 4.0,
+      "description": "Lecture, three hours.\u00a0Focus on study of the nature and characteristics of social movements as a form of political resistance, with emphasis on late 20th- and early 21st-century pro-democratic modes of collective action. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 181",
+      "dept": "LBR STD",
+      "number": "181",
+      "title": "Researching Labor and Labor Movements",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introductory examination of research methodologies used by social scientists to study labor and worker rights movements. Topics include ethics and research designs; data collection methods (e.g., in-depth interviews, surveys, archival research, and ethnography); how to write and present research; and how research can be used to promote\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 182",
+      "dept": "LBR STD",
+      "number": "182",
+      "title": "Oral History for Social Change",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to field of oral history and its role in social movements. Students receive hands-on experience through independent fieldwork where they design, execute, and process oral history research project on contemporary topics such as immigration, work, housing, incarceration, and social movements. Through reading and discussion students learn\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 183",
+      "dept": "LBR STD",
+      "number": "183",
+      "title": "Workers and Jobs in Southern California",
+      "units": 4.0,
+      "description": "Lecture, three hours. Los Angeles County has one of the largest, more important, and most dynamic regional economies in the U.S. and the world. Exploration of the ways its regional economy functions by looking into the key industries that make the Southern California economy hum. Study of the ways in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 187",
+      "dept": "LBR STD",
+      "number": "187",
+      "title": "Special Courses in Labor Studies",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Program-sponsored experimental or temporary courses, such as those taught by visiting faculty members. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 188",
+      "dept": "LBR STD",
+      "number": "188",
+      "title": "Special Courses in Labor Studies",
+      "units": 4.0,
+      "description": "Seminar, four hours. Program-sponsored experimental or temporary courses, such as those taught by visiting faculty members. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 191",
+      "dept": "LBR STD",
+      "number": "191",
+      "title": "Labor Studies: Research Principles, Methods, and Practices",
+      "units": 4.0,
+      "description": "Seminar, three hours. Labor Studies capstone senior research project with a focus on the fundamentals of social science research methods. Through lectures, key readings, and in-class exercises, students develop an understanding of critical debates regarding the role of research within socioeconomic and political contexts that impact workers, organizations, and communities\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 194A",
+      "dept": "LBR STD",
+      "number": "194A",
+      "title": "Research Group Seminars: Labor Summer Research Program",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for undergraduate students who are part of Labor Summer Research program. Discussion of qualitative applied research methods used by union researchers and scholars engaged in labor relations and workplace studies. Through combination of lectures, key readings, and active participation in hands-on research fieldwork, development of understanding\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 194B",
+      "dept": "LBR STD",
+      "number": "194B",
+      "title": "Research Group Seminars in Labor Studies",
+      "units": 4.0,
+      "description": "Seminar, three hours. Designed for undergraduate students who are part of a research group. Discussion of research methods and current literature in field of labor studies or of research of faculty members and/or students. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 195B",
+      "dept": "LBR STD",
+      "number": "195B",
+      "title": "Community or Corporate Internships in Labor Studies",
+      "units": 2.0,
+      "description": "Tutorial, to be arranged; internship, up to 15 hours. Limited to juniors/seniors. Internship in supervised setting in community agency, labor union, or other organization concerned with work and employment issues. Placements to be arranged by instructor. Students meet on regular basis with instructor and provide periodic written reports on their\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 199",
+      "dept": "LBR STD",
+      "number": "199",
+      "title": "Directed Research in Labor Studies",
+      "units": 2.0,
+      "description": "Tutorial, one hour. Limited to juniors/seniors. Supervised individual research under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD 96W",
+      "dept": "LBR STD",
+      "number": "96W",
+      "title": "Writing and Research for Labor Studies",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: English Composition 3. Introduction to elements of effective academic writing and opportunity to practice this writing in a collaborative workshop environment. Student confidence is built in their own abilities to communicate academic research and writing to non-academic and activist audiences, and to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M105",
+      "dept": "LBR STD",
+      "number": "M105",
+      "title": "American Working Class Movements",
+      "units": 4,
+      "description": "",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M114C",
+      "dept": "LBR STD",
+      "number": "M114C",
+      "title": "African American Political Thought",
+      "units": 4.0,
+      "description": "(Same as African American Studies M114C and Political Science M180A.) Lecture, three or four hours; discussion, one hour (when scheduled). Intensive introduction to African American political thought, with focus on major ideological trends and political philosophies as they have been applied and interpreted by African Americans. Debates and conflicts in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M116",
+      "dept": "LBR STD",
+      "number": "M116",
+      "title": "Asian American Social Movements",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M116.) Lecture, three hours. Designed for juniors/seniors. Examination of several dimensions of Asian American social movements, including grassroots, mass movement character, political and social vision, and social and political relevance to current issues. How movement participants linked struggle for change with own personal transformation and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M117",
+      "dept": "LBR STD",
+      "number": "M117",
+      "title": "Negotiation",
+      "units": 4.0,
+      "description": "(Same as Communication M117.) Lecture, four hours. Art and science of negotiation in securing agreements between independent parties. Theory and practice that underlies successful negotiation. Experiential course in which students learn broad array of negotiation skills, including identifying one\u2019s own (and others\u2019) communication style, identifying and incorporating components of successful\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M119XP",
+      "dept": "LBR STD",
+      "number": "M119XP",
+      "title": "Asian American and Pacific Islander Labor Issues",
+      "units": 4.0,
+      "description": "(Formerly numbered M119.) (Same as Asian American Studies M119XP.) Lecture, three hours. Examination of historical and contemporary labor issues in Asian and Pacific Islander American communities, with emphasis on key role that Asian and Pacific Islander American students can play in supporting labor struggles of low-income immigrants. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M121",
+      "dept": "LBR STD",
+      "number": "M121",
+      "title": "Issues in Latina/Latino Poverty: Mexican and Central American Voices from Los Angeles",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M121 and Urban Planning M140.) Lecture, four hours. Examination of key issues (work, housing, and neighborhoods) in urban poverty, with particular focus on Mexican and Central American immigrant populations in Los Angeles. Exploration of major theoretical models that explain urban poverty and application\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M122",
+      "dept": "LBR STD",
+      "number": "M122",
+      "title": "Planning Issues in Latina/Latino Communities: Preserving and Strengthening Community Assets in Mexican and Salvadoran Los Angeles",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M122 and Urban Planning M171.) Lecture, four hours. How community and economic development interact, role of assets in community development, and unique synergies and pitfalls that enable or disable communities from developing to their potential. How to strengthen and how to preserve community\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M123",
+      "dept": "LBR STD",
+      "number": "M123",
+      "title": "Chicano/Latino Community Formation: Critical Perspectives and Oral Histories",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M119.) Lecture, four hours. Analysis of historical formation and development of Chicano/Latino communities in 20th century, with focus on labor, immigration, economic structures, electoral politics, and international dimensions. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M125",
+      "dept": "LBR STD",
+      "number": "M125",
+      "title": "U.S./Mexico Relations",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M125.) Lecture, four hours. Examination of complex dynamics in relationship between Mexico and U.S., using political economy approach to study of asymmetrical integration between advanced industrial economies and developing countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M127",
+      "dept": "LBR STD",
+      "number": "M127",
+      "title": "Farmworker Movements, Social Justice, and United Farm Workers Legacy",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M127.) Lecture, four hours. Designed for juniors/seniors. Historical and social context of farmworker organizing, including its multiracial origins and its influence on fight for equality of working women. Specific focus on organizing of United Farm Workers and Farm Laborers Organizing Committee, and their\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M128",
+      "dept": "LBR STD",
+      "number": "M128",
+      "title": "Race, Gender, and U.S. Labor",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M128.) Lecture, four hours. Designed for juniors/seniors. Introduction to history and organization of labor movement in U.S. and North America. Discussion of race, class, and gender issues raised within movement, and various strategies for social change and economic equity pursued through organized labor\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M129",
+      "dept": "LBR STD",
+      "number": "M129",
+      "title": "Community-Engaged Research Methods",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M129 and Public Affairs M117C.) Lecture, four hours. Students are trained in designing, drafting, piloting, and administering new survey focused on transitions to adulthood. Written in collaboration with labor and community partners serving Latinx, Asian Americans and Pacific Islanders, Black, and Indigenous youth\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M134XP",
+      "dept": "LBR STD",
+      "number": "M134XP",
+      "title": "Engaging Immigrants and Their Families",
+      "units": 5.0,
+      "description": "(Same as Chicana/o and Central American Studies M134XP and Community Engagement and Social Change M134XP.) Lecture, two hours; discussion, two hours; field placement, two hours. Survey and exploration of immigrant landscape in Los Angeles\u2014truly global city acting in part to buffer, settle, and incorporate immigrants in daily life. Focus on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M136",
+      "dept": "LBR STD",
+      "number": "M136",
+      "title": "Working Families and Educational Inequalities in Urban Schools",
+      "units": 4.0,
+      "description": "(Same as Education M136.) Seminar, three hours; fieldwork, five hours. Exploration of complex relationship between working-class and poor communities and inequalities in American urban schools. Drawing on multiple disciplinary frameworks that address issues of race, ethnicity, and immigration, schools viewed as sites where inequalities are produced and resisted. Review of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M143",
+      "dept": "LBR STD",
+      "number": "M143",
+      "title": "Class and Gender in Care Work",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M162, Chicana/o and Central American Studies M128B, and Gender Studies M140C.) Lecture, three hours; discussion, one hour. Examination of how gender, race, class, and citizenship status shape domestic labor in U.S. Examination of domestic worker experiences through film, fiction, and traditional scholarship. Investigation of why\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M144",
+      "dept": "LBR STD",
+      "number": "M144",
+      "title": "Women's Movement in Latin America",
+      "units": 4.0,
+      "description": "(Same as Chicana/o and Central American Studies M144 and Gender Studies M144.) Lecture, four hours. Course on women\u2019s movements and feminism in Latin America and Caribbean to examine diverse social movements and locations from which women have launched political and gender struggles. Discussion of forms of feminism and women\u2019s consciousness\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M149",
+      "dept": "LBR STD",
+      "number": "M149",
+      "title": "Media: Gender, Race, Class, and Sexuality",
+      "units": 5.0,
+      "description": "(Same as Communication M149 and Gender Studies M149.) Lecture, four hours; activity, one hour. Limited to junior/senior Communication and Gender Studies majors and Labor Studies minors. Examination of manner in which media culture induces people to perceive various dominant and dominated and/or colonized groups of people. Ways in which women,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M165",
+      "dept": "LBR STD",
+      "number": "M165",
+      "title": "Sociology of Race and Labor",
+      "units": 4.0,
+      "description": "(Same as African American Studies M165 and Sociology M165.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Exploration of relationship between race/ethnicity, employment, and U.S. labor movement. Analysis of underlying racial divisions in workforce and how they evolved historically. Consideration of circumstances under which workers and unions have excluded\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M166A",
+      "dept": "LBR STD",
+      "number": "M166A",
+      "title": "Immigrant Rights, Labor, and Higher Education",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M166A and Chicana/o and Central American Studies M156A.) Lecture, three hours; discussion, one hour. New immigrant rights movement, with particular attention to labor and higher education. Overview of history of immigrant rights movement and examination of development of coalition efforts between labor movement and immigrant\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LBR STD M166B"
+      ]
+    },
+    {
+      "course_id": "LBR STD M166B",
+      "dept": "LBR STD",
+      "number": "M166B",
+      "title": "Research on Immigration Rights, Labor, and Higher Education",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M166B and Chicana/o and Central American Studies M156B.) Seminar, two hours. Requisite: course M166A. Expansion of research conducted by students in course M166A involving oral histories, research on immigration/labor/higher education, and evaluation of legislation and legal issues impacting undocumented students. Letter grading.",
+      "prereqs_raw": "Requisite: course M166A.",
+      "prereqs_parsed": {
+        "required": [
+          "LBR STD M166A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M166C",
+      "dept": "LBR STD",
+      "number": "M166C",
+      "title": "Research on Immigrant Students and Higher Education",
+      "units": 4.0,
+      "description": "(Same as Asian American Studies M166C and Chicana/o and Central American Studies M156C.) Seminar, three hours. Enforced requisites: courses M166A, M166B. Expansion of research conducted by students in courses M166A and M166B involving oral histories, research on immigration/labor/higher education, and evaluation of legislation and legal issues impacting undocumented students. Designed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M166A, M166B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M167",
+      "dept": "LBR STD",
+      "number": "M167",
+      "title": "Worker Center Movement: Next Wave Organizing for Justice for Immigrant Workers",
+      "units": 4.0,
+      "description": "(Same as African American Studies M167, Asian American Studies M163, and Chicana/o and Central American Studies M130.) Seminar, three hours. Development of theoretical and practical understanding of worker center movement, with focus on historical factors that have led to emergence and growth of worker centers. Role of worker centers in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M170",
+      "dept": "LBR STD",
+      "number": "M170",
+      "title": "Improving Worker Health: Social Movements, Policy Debates, and Public Health",
+      "units": 4.0,
+      "description": "(Same as Community Health Sciences CM170.) Lecture, three hours; fieldwork, two hours. Examination of intersection between work, health, and environment, analysis of social causes of health disparities, investigation of historical trends and social movements, interpretation of current policy debates, and development of innovative interventions. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M171",
+      "dept": "LBR STD",
+      "number": "M171",
+      "title": "Labor and Economic Development",
+      "units": 4.0,
+      "description": "(Same as Urban Planning CM172.) Lecture, three hours. Exploration of economic development and identification of ways that labor and labor unions directly and indirectly influence and shape economic development. Wide range of roles that labor plays, and could play, in promoting and supporting economic development for all. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M173",
+      "dept": "LBR STD",
+      "number": "M173",
+      "title": "Nonviolence and Social Movements",
+      "units": 4.0,
+      "description": "(Same as African American Studies M173 and Chicana/o and Central American Studies M173.) Lecture, three hours; discussion, one hour. Overview of nonviolence and its impact on social movements both historically and in its present context in contemporary society, featuring lectures, conversations, films, readings, and guest speakers. Exploration of some historic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M175",
+      "dept": "LBR STD",
+      "number": "M175",
+      "title": "Agitational Communication",
+      "units": 4.0,
+      "description": "(Same as Communication M165.) Lecture, four hours; discussion, one hour (when scheduled). Theory of agitation; agitation as force for change in existing institutions and policies in democratic society. Intensive study of selected agitational movements and technique and content of their communications. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M176",
+      "dept": "LBR STD",
+      "number": "M176",
+      "title": "Visual Communication and Social Advocacy",
+      "units": 4.0,
+      "description": "(Same as Communication M176.) Lecture, four hours. Visual communication reaches diverse audiences in communicating major social and political topics. Cartoons, posters, murals, and documentary photography have had powerful world impact. Survey of all four genres of visual communications as features of modern mass media. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M180",
+      "dept": "LBR STD",
+      "number": "M180",
+      "title": "Southern California Regional Economy",
+      "units": 4.0,
+      "description": "(Same as Urban Planning CM137.) Lecture, three hours. Introduction to regional economy, with emphasis on Los Angeles. Key economic sectors, labor market composition, and review of conflicting portrayals depicting dynamics of region. Two all-day bus tours of key economic regions and guest lectures by regional experts included. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LBR STD M1A",
+      "dept": "LBR STD",
+      "number": "M1A",
+      "title": "Work, Labor, and Social Justice in U.S.",
+      "units": 6.0,
+      "description": "(Same as Clusters M24A.) Lecture, three hours; discussion, two hours. Course M1A is enforced requisite to M1B, which is enforced requisite to M1CW. Limited to first-year freshmen. Exploration of ways in which work has been transformed over last century, impact of this transformation on working people, and role of labor\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LBR STD M1B"
+      ]
+    },
+    {
+      "course_id": "LBR STD M1B",
+      "dept": "LBR STD",
+      "number": "M1B",
+      "title": "Work, Labor, and Social Justice in U.S.",
+      "units": 6.0,
+      "description": "(Same as Clusters M24B.) Lecture, three hours; discussion, two hours. Enforced requisite: course M1A. Limited to first-year freshmen. Exploration of ways in which work has been transformed over last century, impact of this transformation on working people, and role of labor movement as force for social justice. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course M1A.",
+      "prereqs_parsed": {
+        "required": [
+          "LBR STD M1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "LBR STD M1CW"
+      ]
+    },
+    {
+      "course_id": "LBR STD M1CW",
+      "dept": "LBR STD",
+      "number": "M1CW",
+      "title": "Work, Labor, and Social Justice in U.S.: Special Topics",
+      "units": 6.0,
+      "description": "(Same as Clusters M24CW.) Seminar, three hours. Enforced requisite: course M1B. Limited to first-year freshmen. Topics include labor law/history, gender, race, and workplace. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course M1B.",
+      "prereqs_parsed": {
+        "required": [
+          "LBR STD M1B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 116A",
+      "dept": "POL SCI",
+      "number": "116A",
+      "title": "Marxism",
+      "units": 4.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Critical analysis of origins, nature, and development of Marxist political theory. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POL SCI 60",
+      "dept": "POL SCI",
+      "number": "60",
+      "title": "Ethics and Governance",
+      "units": 5.0,
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). To study question of can\u2019t we all just get along, students play games of cooperation, coordination, collaboration, and competition and examine whether and how diversity, disagreement, and democracy influence game play, to understand under what conditions diversity feeds productively or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB PLC 10A",
+      "dept": "PUB PLC",
+      "number": "10A",
+      "title": "Introduction to Policy Analysis",
+      "units": 5.0,
+      "description": "Lecture, three hours; workshops and outside study, three hours. Overview of contemporary policy analysis to develop analytical skills with applications in business, economics, government, law, and medicine. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PUB PLC 10B",
+      "dept": "PUB PLC",
+      "number": "10B",
+      "title": "California Policy Issues",
+      "units": 4.0,
+      "description": "Lecture, three hours; outside study, nine hours. Application of policy analysis to California issues. Guest lectures from practitioners and academics along with readings and videos. Student written reports and oral presentations required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 157",
+      "dept": "SOCIOL",
+      "number": "157",
+      "title": "Social Stratification",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Analysis of American social structure in terms of evaluational differentiation. Topics include criteria for differentiation, bases for evaluation, types of stratification, composition of strata and status systems, mobility, consequences of stratification, and problems of methodology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 171",
+      "dept": "SOCIOL",
+      "number": "171",
+      "title": "Occupations and Professions",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Description and analysis of representative occupations and professions, with emphasis on contemporary U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 173",
+      "dept": "SOCIOL",
+      "number": "173",
+      "title": "Economy and Society",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Sociology of economic life, with emphasis on principal economic institutions of the U.S. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL 51",
+      "dept": "SOCIOL",
+      "number": "51",
+      "title": "Sociology of Migration",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to fundamental theories, themes, and research methods used in sociological research through comparative study of international migration. Examination of theoretical debates and empirical analysis of causes and consequences of transnational migration in countries of origin and destination, with focus on issues of race,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M163",
+      "dept": "SOCIOL",
+      "number": "M163",
+      "title": "Gender and Work",
+      "units": 4.0,
+      "description": "(Same as Gender Studies M163.) Lecture, three hours. Requisite: course 1 or Gender Studies 10. Exploration of relationship of gender to work, concentrating on the U.S. experience but also including some comparative material. Particular emphasis on analysis of causes and consequences of job segregation by gender and of wage inequality.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 1 or Gender Studies 10.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "SOCIOL 1",
+            "GENDER ST 10"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SOCIOL M5",
+      "dept": "SOCIOL",
+      "number": "M5",
+      "title": "Social Organization of Black Communities",
+      "units": 5.0,
+      "description": "(Same as African American Studies M5.) Lecture, four hours; discussion, one hour; field trips. Analysis and interpretation of social organization of black communities, with focus on origins and development of black communities, competing theories and research findings, defining characteristics and contemporary issues. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SPAN 44",
+      "dept": "SPAN",
+      "number": "44",
+      "title": "Latin American Cultures",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spanish America, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

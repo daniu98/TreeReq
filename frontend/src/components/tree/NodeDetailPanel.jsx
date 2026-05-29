@@ -1,4 +1,7 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { fetchCourseDetails } from "../../services/treeApi.js";
+
+const STATUS_OPTIONS = ["unfulfilled", "planned", "in_progress", "completed"];
 
 const STATUS_CONFIG = {
   unfulfilled: { label: "Unfulfilled", color: "#9a9a9a", bg: "#f0f0f0" },
@@ -9,6 +12,8 @@ const STATUS_CONFIG = {
 };
 
 const FONT = "Inter, system-ui, sans-serif";
+
+// ── Small helpers ─────────────────────────────────────────────────────────────
 
 function StatusDot({ status, size = 10 }) {
   const cfg = STATUS_CONFIG[status] ?? STATUS_CONFIG.unfulfilled;
@@ -26,37 +31,21 @@ function StatusDot({ status, size = 10 }) {
   );
 }
 
-function StatusChip({ status, active, onClick }) {
-  const cfg = STATUS_CONFIG[status] ?? STATUS_CONFIG.unfulfilled;
-  return (
-    <button
-      onClick={onClick}
-      style={{
-        fontFamily: FONT,
-        fontSize: 12,
-        fontWeight: active ? 600 : 400,
-        color: active ? cfg.color : "#888",
-        background: active ? cfg.bg : "transparent",
-        border: `1.5px solid ${active ? cfg.color : "#ddd"}`,
-        borderRadius: 20,
-        padding: "4px 10px",
-        cursor: "pointer",
-        transition: "all 120ms",
-        whiteSpace: "nowrap",
-      }}
-    >
-      {cfg.label}
-    </button>
-  );
-}
-
 function Divider() {
   return <div style={{ borderTop: "1px solid #f0f0f0", margin: "14px 0" }} />;
 }
 
-function SectionLabel({ children }) {
+function SectionLabel({ children, bold }) {
   return (
-    <div style={{ fontFamily: FONT, fontSize: 11, fontWeight: 600, color: "#aaa", textTransform: "uppercase", letterSpacing: "0.6px", marginBottom: 8 }}>
+    <div style={{
+      fontFamily: FONT,
+      fontSize: bold ? 13 : 11,
+      fontWeight: bold ? 700 : 600,
+      color: bold ? "#222" : "#aaa",
+      textTransform: bold ? "none" : "uppercase",
+      letterSpacing: bold ? 0 : "0.6px",
+      marginBottom: 8,
+    }}>
       {children}
     </div>
   );
@@ -78,53 +67,146 @@ function ProgressBar({ pct }) {
   );
 }
 
+// ── Status dropdown ───────────────────────────────────────────────────────────
+
+function StatusDropdown({ courseId, currentStatus, onStatusChange }) {
+  const selectStatus = currentStatus === "locked" ? "unfulfilled" : currentStatus;
+  const cfg = STATUS_CONFIG[selectStatus] ?? STATUS_CONFIG.unfulfilled;
+  return (
+    <div style={{ position: "relative", display: "inline-flex", alignItems: "center" }}>
+      <select
+        value={selectStatus}
+        onChange={(e) => onStatusChange(courseId, e.target.value)}
+        style={{
+          fontFamily: FONT,
+          fontSize: 12,
+          fontWeight: 600,
+          color: cfg.color,
+          background: cfg.bg,
+          border: `1.5px solid ${cfg.color}`,
+          borderRadius: 20,
+          padding: "5px 26px 5px 11px",
+          cursor: "pointer",
+          outline: "none",
+          appearance: "none",
+          WebkitAppearance: "none",
+          MozAppearance: "none",
+        }}
+      >
+        {STATUS_OPTIONS.map((s) => (
+          <option key={s} value={s}>{STATUS_CONFIG[s].label}</option>
+        ))}
+      </select>
+      <span style={{
+        position: "absolute",
+        right: 9,
+        top: "50%",
+        transform: "translateY(-50%)",
+        pointerEvents: "none",
+        color: cfg.color,
+        fontSize: 9,
+        lineHeight: 1,
+      }}>▾</span>
+    </div>
+  );
+}
+
+// ── Prereq row (clickable) ────────────────────────────────────────────────────
+
+function PrereqRow({ pid, statusMap, nodeById, onNavigate }) {
+  const [hovered, setHovered] = useState(false);
+  const pNode = nodeById?.get(pid);
+  const pStatus = statusMap[pid] ?? (pNode?.status === "locked" ? "locked" : "unfulfilled");
+  const pCfg = STATUS_CONFIG[pStatus] ?? STATUS_CONFIG.unfulfilled;
+  const canNavigate = !!pNode;
+
+  return (
+    <div
+      onClick={() => canNavigate && onNavigate(pid)}
+      onMouseEnter={() => canNavigate && setHovered(true)}
+      onMouseLeave={() => canNavigate && setHovered(false)}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: 8,
+        padding: "7px 10px",
+        borderRadius: 8,
+        border: "1px solid #ebebeb",
+        background: hovered ? "#f0f7f4" : "#fafafa",
+        cursor: canNavigate ? "pointer" : "default",
+        transition: "background 100ms",
+      }}
+    >
+      <StatusDot status={pStatus} size={8} />
+      <span style={{ fontFamily: FONT, fontSize: 13, fontWeight: 500, color: "#333", flex: 1 }}>
+        {pid}
+      </span>
+      <span style={{ fontFamily: FONT, fontSize: 11, color: pCfg.color, fontWeight: 600, flexShrink: 0 }}>
+        {pCfg.label}
+      </span>
+      {canNavigate && (
+        <span style={{ color: "#ccc", fontSize: 12, flexShrink: 0 }}>→</span>
+      )}
+    </div>
+  );
+}
+
 // ── Course panel ──────────────────────────────────────────────────────────────
 
 function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) {
   const courseId = node.id;
   const d = node.data;
   const effectiveStatus = statusMap[courseId] ?? (node.status === "locked" ? "locked" : "unfulfilled");
-  const statusCfg = STATUS_CONFIG[effectiveStatus] ?? STATUS_CONFIG.unfulfilled;
 
-  const prereqIds = (node.unmetPrereqs ?? []).concat(
-    // also show met prereqs: find all edges targeting this course
-    // We can derive from nodeById: check which nodes list this node as a prerequisite
-    // Simpler: use the node's data if available
-  ).filter(Boolean);
+  const [details, setDetails] = useState(null);
+  const [detailsLoading, setDetailsLoading] = useState(true);
 
-  // Build prereq list from unmetPrereqs + any completed ones we can derive
-  const allPrereqIds = node.allPrereqIds ?? node.unmetPrereqs ?? [];
+  useEffect(() => {
+    let cancelled = false;
+    setDetails(null);
+    setDetailsLoading(true);
+    fetchCourseDetails(courseId)
+      .then((data) => { if (!cancelled) { setDetails(data); setDetailsLoading(false); } })
+      .catch(() => { if (!cancelled) setDetailsLoading(false); });
+    return () => { cancelled = true; };
+  }, [courseId]);
+
+  const prereqsParsed = details?.prereqs_parsed;
+  const requiredPrereqs = prereqsParsed?.required ?? [];
+  const oneOfGroups = prereqsParsed?.one_of ?? [];
+  const corequisites = prereqsParsed?.corequisites ?? [];
+  const hasPrereqs = requiredPrereqs.length > 0 || oneOfGroups.length > 0;
+  const hasCoreqs = corequisites.length > 0;
 
   return (
     <div>
-      {/* Header */}
-      <div style={{ marginBottom: 20 }}>
-        <div style={{ fontFamily: FONT, fontSize: 10, fontWeight: 600, color: "#aaa", textTransform: "uppercase", letterSpacing: "0.8px", marginBottom: 6 }}>
+      {/* ── Header ── */}
+      <div style={{ marginBottom: 16 }}>
+        <div style={{
+          fontFamily: FONT, fontSize: 10, fontWeight: 600, color: "#aaa",
+          textTransform: "uppercase", letterSpacing: "0.8px", marginBottom: 6,
+        }}>
           {d.dept}
         </div>
-        <div style={{ fontFamily: FONT, fontSize: 22, fontWeight: 800, color: "#111", lineHeight: 1.15, marginBottom: 4 }}>
-          {d.dept} {d.number}
+
+        {/* Course code + status dropdown in same row */}
+        <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 10, marginBottom: 4 }}>
+          <div style={{ fontFamily: FONT, fontSize: 22, fontWeight: 800, color: "#111", lineHeight: 1.15 }}>
+            {d.dept} {d.number}
+          </div>
+          <div style={{ flexShrink: 0, paddingTop: 3 }}>
+            <StatusDropdown courseId={courseId} currentStatus={effectiveStatus} onStatusChange={onStatusChange} />
+          </div>
         </div>
+
         {d.title && (
-          <div style={{ fontFamily: FONT, fontSize: 13, color: "#666", lineHeight: 1.4, marginBottom: 12 }}>
+          <div style={{ fontFamily: FONT, fontSize: 13, color: "#666", lineHeight: 1.4, marginBottom: 10 }}>
             {d.title}
           </div>
         )}
+
+        {/* Badges */}
         <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: 6 }}>
-          <span
-            style={{
-              fontFamily: FONT,
-              fontSize: 11,
-              color: statusCfg.color,
-              background: statusCfg.bg,
-              border: `1.5px solid ${statusCfg.color}`,
-              borderRadius: 20,
-              padding: "3px 10px",
-              fontWeight: 600,
-            }}
-          >
-            {statusCfg.label}
-          </span>
           {d.units > 0 && (
             <span style={{ fontFamily: FONT, fontSize: 11, color: "#999", background: "#f5f5f5", border: "1px solid #e8e8e8", borderRadius: 20, padding: "3px 10px" }}>
               {d.units} units
@@ -135,83 +217,82 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
               Elective
             </span>
           )}
+          {effectiveStatus === "locked" && (
+            <span style={{ fontFamily: FONT, fontSize: 11, color: "#c47a00" }}>
+              ⚠ Prerequisites unmet — can still mark manually
+            </span>
+          )}
         </div>
       </div>
 
       <Divider />
 
-      {/* Status controls */}
-      <SectionLabel>Mark as</SectionLabel>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 4 }}>
-        {["unfulfilled", "planned", "in_progress", "completed"].map((s) => (
-          <StatusChip
-            key={s}
-            status={s}
-            active={(statusMap[courseId] ?? "unfulfilled") === s}
-            onClick={() => onStatusChange(courseId, s)}
-          />
-        ))}
-      </div>
-      {effectiveStatus === "locked" && (
-        <div style={{ fontFamily: FONT, fontSize: 12, color: "#c47a00", marginTop: 6 }}>
-          ⚠ Prerequisites not yet completed — you can still mark this manually.
-        </div>
-      )}
-
-      {/* Enforced prereqs as clickable chips */}
-      {node.unmetPrereqs?.length > 0 && (
+      {/* ── Description ── */}
+      {detailsLoading ? (
+        <div style={{ fontFamily: FONT, fontSize: 12, color: "#ccc", marginBottom: 14 }}>Loading…</div>
+      ) : details?.description ? (
         <>
-          <Divider />
-          <SectionLabel>Enforced Prerequisites</SectionLabel>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-            {node.unmetPrereqs.map((pid) => {
-              const pNode = nodeById?.get(pid);
-              const pStatus = statusMap[pid] ?? "unfulfilled";
-              return (
-                <button
-                  key={pid}
-                  onClick={() => onNavigate(pid)}
-                  style={{
-                    fontFamily: FONT,
-                    fontSize: 12,
-                    color: "#444",
-                    background: "#f5f5f5",
-                    border: "1px solid #ddd",
-                    borderRadius: 20,
-                    padding: "4px 10px",
-                    cursor: "pointer",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 5,
-                  }}
-                >
-                  <StatusDot status={pStatus} size={7} />
-                  {pid}
-                </button>
-              );
-            })}
-          </div>
-        </>
-      )}
-
-      {/* Description */}
-      {d.description && (
-        <>
-          <Divider />
           <SectionLabel>Description</SectionLabel>
-          <div style={{ fontFamily: FONT, fontSize: 13, color: "#555", lineHeight: 1.6 }}>
-            {d.description.length > 400 ? d.description.slice(0, 400) + "…" : d.description}
+          <div style={{ fontFamily: FONT, fontSize: 13, color: "#555", lineHeight: 1.65, marginBottom: 4 }}>
+            {details.description}
           </div>
+          <Divider />
+        </>
+      ) : (
+        <Divider />
+      )}
+
+      {/* ── Enforced Prerequisites ── */}
+      {!detailsLoading && hasPrereqs && (
+        <>
+          <SectionLabel bold>Enforced prerequisites:</SectionLabel>
+
+          {/* Required (all must be done) */}
+          {requiredPrereqs.length > 0 && (
+            <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: oneOfGroups.length > 0 ? 12 : 0 }}>
+              {requiredPrereqs.map((pid) => (
+                <PrereqRow key={pid} pid={pid} statusMap={statusMap} nodeById={nodeById} onNavigate={onNavigate} />
+              ))}
+            </div>
+          )}
+
+          {/* One-of groups — each group is separate */}
+          {oneOfGroups.map((group, i) => (
+            <div key={i} style={{ marginBottom: i < oneOfGroups.length - 1 ? 14 : 0 }}>
+              <div style={{ fontFamily: FONT, fontSize: 11, color: "#aaa", marginBottom: 6, marginTop: requiredPrereqs.length > 0 || i > 0 ? 0 : 0 }}>
+                One course from:
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                {group.map((pid) => (
+                  <PrereqRow key={pid} pid={pid} statusMap={statusMap} nodeById={nodeById} onNavigate={onNavigate} />
+                ))}
+              </div>
+            </div>
+          ))}
+
+          <Divider />
         </>
       )}
 
-      {/* Advanced Preparation (raw prereq text) */}
-      {d.prereqs_raw && (
+      {/* ── Enforced Corequisites ── */}
+      {!detailsLoading && hasCoreqs && (
         <>
+          <SectionLabel bold>Enforced corequisites:</SectionLabel>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            {corequisites.map((pid) => (
+              <PrereqRow key={pid} pid={pid} statusMap={statusMap} nodeById={nodeById} onNavigate={onNavigate} />
+            ))}
+          </div>
           <Divider />
-          <SectionLabel>Advanced Preparation</SectionLabel>
-          <div style={{ fontFamily: FONT, fontSize: 13, color: "#555", lineHeight: 1.5 }}>
-            {d.prereqs_raw}
+        </>
+      )}
+
+      {/* ── Raw prereq text (fallback context) ── */}
+      {details?.prereqs_raw && (
+        <>
+          <SectionLabel>Advanced preparation</SectionLabel>
+          <div style={{ fontFamily: FONT, fontSize: 12, color: "#888", lineHeight: 1.55 }}>
+            {details.prereqs_raw}
           </div>
         </>
       )}
@@ -229,7 +310,6 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, onNavigate }
 
   return (
     <div>
-      {/* Header */}
       <div style={{ marginBottom: 20 }}>
         {d.section && (
           <div style={{ fontFamily: FONT, fontSize: 10, fontWeight: 600, color: "#aaa", textTransform: "uppercase", letterSpacing: "0.8px", marginBottom: 6 }}>
@@ -256,7 +336,6 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, onNavigate }
 
       <Divider />
 
-      {/* Course list */}
       <SectionLabel>Courses</SectionLabel>
       {courses.length === 0 ? (
         <div style={{ fontFamily: FONT, fontSize: 13, color: "#aaa" }}>No courses listed</div>
@@ -270,15 +349,7 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, onNavigate }
             return (
               <div
                 key={cid}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 10,
-                  padding: "8px 10px",
-                  borderRadius: 8,
-                  cursor: "pointer",
-                  transition: "background 100ms",
-                }}
+                style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 10px", borderRadius: 8, cursor: "pointer", transition: "background 100ms" }}
                 onMouseEnter={(e) => e.currentTarget.style.background = "#f7f7f7"}
                 onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
                 onClick={() => onNavigate(cid)}
@@ -293,17 +364,7 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, onNavigate }
                   )}
                 </div>
                 <button
-                  style={{
-                    background: "none",
-                    border: "none",
-                    padding: "2px 4px",
-                    cursor: "pointer",
-                    fontFamily: FONT,
-                    fontSize: 13,
-                    color: stCfg.color,
-                    flexShrink: 0,
-                    borderRadius: 4,
-                  }}
+                  style={{ background: "none", border: "none", padding: "2px 4px", cursor: "pointer", fontFamily: FONT, fontSize: 13, color: stCfg.color, flexShrink: 0, borderRadius: 4 }}
                   title={st === "completed" ? "Mark unfulfilled" : "Mark completed"}
                   onClick={(e) => { e.stopPropagation(); onStatusChange(cid, st === "completed" ? "unfulfilled" : "completed"); }}
                 >
@@ -345,7 +406,6 @@ function SectionPanel({ node }) {
 export function NodeDetailPanel({ node, statusMap, nodeById, onStatusChange, onNavigate, onClose }) {
   const panelRef = useRef(null);
 
-  // Close on Escape
   useEffect(() => {
     const handler = (e) => { if (e.key === "Escape") onClose(); };
     window.addEventListener("keydown", handler);
@@ -404,22 +464,10 @@ export function NodeDetailPanel({ node, statusMap, nodeById, onStatusChange, onN
       {/* Scrollable body */}
       <div style={{ flex: 1, overflowY: "auto", padding: "24px 22px 40px" }}>
         {node.kind === "course" && (
-          <CoursePanel
-            node={node}
-            statusMap={statusMap}
-            nodeById={nodeById}
-            onStatusChange={onStatusChange}
-            onNavigate={onNavigate}
-          />
+          <CoursePanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onNavigate={onNavigate} />
         )}
-        {(node.kind === "category") && (
-          <CategoryPanel
-            node={node}
-            statusMap={statusMap}
-            nodeById={nodeById}
-            onStatusChange={onStatusChange}
-            onNavigate={onNavigate}
-          />
+        {node.kind === "category" && (
+          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onNavigate={onNavigate} />
         )}
         {(node.kind === "section" || node.kind === "root") && (
           <SectionPanel node={node} />

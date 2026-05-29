@@ -1,0 +1,799 @@
+{
+  "major_id": "global-jazz-studies-ba",
+  "major_name": "Global Jazz Studies BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/GlobalJazzStudiesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "MUSC M6A",
+        "MUSC M6B",
+        "MUSC M6C",
+        "GJ STDS M110A",
+        "GJ STDS M110B"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "ETHNMUS 20B",
+            "ETHNMUS 20C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ETHNMUS 91E",
+            "ETHNMUS 91P"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ETHNMUS 68A",
+            "ETHNMUS 68B",
+            "ETHNMUS 68C",
+            "ETHNMUS 68D",
+            "ETHNMUS 68E",
+            "ETHNMUS 68F",
+            "ETHNMUS 68G",
+            "ETHNMUS 68H",
+            "ETHNMUS 68I",
+            "ETHNMUS 68J",
+            "ETHNMUS 68K",
+            "ETHNMUS 68L",
+            "ETHNMUS 68M",
+            "ETHNMUS 68N",
+            "ETHNMUS 68O",
+            "ETHNMUS 91A",
+            "ETHNMUS 91B",
+            "ETHNMUS 91C",
+            "ETHNMUS 91D",
+            "ETHNMUS 91F",
+            "ETHNMUS 91G",
+            "ETHNMUS 91H",
+            "ETHNMUS 91I",
+            "ETHNMUS 91J",
+            "ETHNMUS 91K",
+            "ETHNMUS 91L",
+            "ETHNMUS 91M",
+            "ETHNMUS 91N",
+            "ETHNMUS 91O",
+            "ETHNMUS 91Q",
+            "ETHNMUS 91R",
+            "ETHNMUS 91S",
+            "ETHNMUS 91T",
+            "ETHNMUS 91U",
+            "ETHNMUS 91V",
+            "ETHNMUS 91W",
+            "ETHNMUS 91X",
+            "ETHNMUS 91Y",
+            "ETHNMUS 91Z"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "GJ STDS 71A",
+            "GJ STDS 71B",
+            "GJ STDS 71C",
+            "GJ STDS 71D",
+            "GJ STDS 71E",
+            "GJ STDS 71F",
+            "GJ STDS 71G",
+            "GJ STDS 71H",
+            "GJ STDS 71I"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "GJ STDS 101",
+        "GJ STDS 125"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 3,
+          "courses": [
+            "GJ STDS 171A",
+            "GJ STDS 171B",
+            "GJ STDS 171C",
+            "GJ STDS 171D",
+            "GJ STDS 171E",
+            "GJ STDS 171F",
+            "GJ STDS 171G",
+            "GJ STDS 171H",
+            "GJ STDS 171I"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "GJ STDS 175"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "GJ STDS 176A",
+            "GJ STDS 176B",
+            "GJ STDS 176C",
+            "GJ STDS 176D",
+            "GJ STDS 176E",
+            "GJ STDS 176F",
+            "GJ STDS 176G"
+          ]
+        },
+        {
+          "choose_n": 6,
+          "courses": [
+            "GJ STDS 122A",
+            "GJ STDS 122B",
+            "GJ STDS 122C",
+            "GJ STDS 127A",
+            "GJ STDS 127B",
+            "GJ STDS 127C",
+            "GJ STDS 129A",
+            "GJ STDS 129B",
+            "GJ STDS 129C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "AF AMER 108",
+            "AF AMER M150D",
+            "AF AMER M158C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "GJ STDS M109",
+            "GJ STDS M119",
+            "GJ STDS M130",
+            "GJ STDS M131",
+            "GJ STDS 165",
+            "GJ STDS 188",
+            "GJ STDS 199"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MSC IND 2",
+            "MSC IND 104A",
+            "MSC IND 107A",
+            "MSC IND 115A"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "GJ STDS 186A",
+        "GJ STDS 186B"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AF AMER": [
+      "AF AMER 108",
+      "AF AMER M150D",
+      "AF AMER M158C"
+    ],
+    "ETHNMUS": [
+      "ETHNMUS 20B",
+      "ETHNMUS 20C",
+      "ETHNMUS 91E",
+      "ETHNMUS 91P"
+    ],
+    "GJ STDS": [
+      "GJ STDS 101",
+      "GJ STDS 122A",
+      "GJ STDS 122B",
+      "GJ STDS 122C",
+      "GJ STDS 125",
+      "GJ STDS 127A",
+      "GJ STDS 127B",
+      "GJ STDS 127C",
+      "GJ STDS 129A",
+      "GJ STDS 129B",
+      "GJ STDS 129C",
+      "GJ STDS 165",
+      "GJ STDS 175",
+      "GJ STDS 186A",
+      "GJ STDS 186B",
+      "GJ STDS 188",
+      "GJ STDS 199",
+      "GJ STDS M109",
+      "GJ STDS M110A",
+      "GJ STDS M110B",
+      "GJ STDS M119",
+      "GJ STDS M130",
+      "GJ STDS M131"
+    ],
+    "MSC IND": [
+      "MSC IND 104A",
+      "MSC IND 107A",
+      "MSC IND 115A",
+      "MSC IND 2"
+    ],
+    "MUSC": [
+      "MUSC M6A",
+      "MUSC M6B",
+      "MUSC M6C"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AF AMER 108",
+      "dept": "AF AMER",
+      "number": "108",
+      "title": "Jazz and Political Imagination",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. How has jazz come to symbolize so many different political tendencies\u2014freedom and democratic values, threat to order and civil society, possibility of integration and racial harmony, Black liberation and nationalism, conservatism, surrealism, socialism, etc., throughout 20th century? What about jazz enables people to read\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AF AMER M150D",
+      "dept": "AF AMER",
+      "number": "M150D",
+      "title": "Recent African American Urban History: Funk Music and Politics of Black Popular Culture",
+      "units": 4.0,
+      "description": "(Same as History M150D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Exploration of musical genre known as funk that emerged in its popular form during late 1960s and reached popular high point, in black culture, during 1970s. Funk, fusion of gospel, blues, jazz, rhythm and blues,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AF AMER M158C",
+      "dept": "AF AMER",
+      "number": "M158C",
+      "title": "Introduction to Afro-American History",
+      "units": 4.0,
+      "description": "(Same as History M150C.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of Afro-American experience, with emphasis on three great transitions of Afro-American life: transition from Africa to New World slavery, transition from slavery to freedom, and transition from rural to urban milieus. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 20B",
+      "dept": "ETHNMUS",
+      "number": "20B",
+      "title": "Musical Cultures of World: Africa and Near East",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Enforced requisites: courses 10A and 10B, or Music 20C with grades of C or better. Traditional and popular musics from many different countries, with introduction to basic ethnomusicological concepts and development of listening and analytical skills. Letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A and 10B, or Music 20C with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          {
+            "courses": [
+              "ETHNMUS 10A",
+              "ETHNMUS 10B"
+            ],
+            "min_grade": "C"
+          },
+          {
+            "courses": [
+              "MUS 20C"
+            ],
+            "min_grade": "C"
+          }
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 20C",
+      "dept": "ETHNMUS",
+      "number": "20C",
+      "title": "Musical Cultures of World: Asia",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Enforced requisites: courses 10A and 10B, or Music 20C with grades of C or better. Traditional and popular musics from many different countries, with introduction to basic ethnomusicological concepts and development of listening and analytical skills. Letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 10A and 10B, or Music 20C with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ETHNMUS 10A",
+            "ETHNMUS 10B"
+          ],
+          [
+            "MUS 20C"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 91E",
+      "dept": "ETHNMUS",
+      "number": "91E",
+      "title": "World Music Performance Organizations: Music and Dance of Ghana",
+      "units": 2.0,
+      "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ETHNMUS 91P",
+      "dept": "ETHNMUS",
+      "number": "91P",
+      "title": "World Music Performance Organizations: African American Music Ensemble",
+      "units": 2.0,
+      "description": "Activity, three hours. Performance of diverse range of vocal repertoire including spirituals, gospel, freedom/Civil Rights songs, and other works by African-diasporic composers, including anthems, hymn arrangements, and various forms of contemporary choral music. Tracing development of this music from 1600s to present, African American choral music is medium performed a\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 101",
+      "dept": "GJ STDS",
+      "number": "101",
+      "title": "Cross-Cultural Perspectives in Jazz",
+      "units": 4.0,
+      "description": "Lecture, four hours. Exploration of assimilation and retention of jazz from U.S. in various countries, with particular emphasis on cultural and social features that form basis for new jazz-ethnic music blends. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 122A",
+      "dept": "GJ STDS",
+      "number": "122A",
+      "title": "Jazz Styles and Analysis: Early Jazz to Swing Era",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Limited to Global Jazz Studies majors or consent of instructor. In-depth analysis of jazz styles and repertoire intended for students with music backgrounds. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 122B",
+      "dept": "GJ STDS",
+      "number": "122B",
+      "title": "Jazz Styles and Analysis: Bebop to Avant-garde",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Limited to Global Jazz Studies majors or consent of instructor. In-depth analysis of jazz styles and repertoire intended for students with music backgrounds. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 122C",
+      "dept": "GJ STDS",
+      "number": "122C",
+      "title": "Jazz Styles and Analysis: Jazz since Sixties",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Limited to Global Jazz Studies majors or consent of instructor. In-depth analysis of jazz styles and repertoire intended for students with music backgrounds. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 125",
+      "dept": "GJ STDS",
+      "number": "125",
+      "title": "Jazz Arranging and Orchestration",
+      "units": 4.0,
+      "description": "Lecture, three hours. Limited to Global Jazz Studies majors. Study of specific instruments and their unique use and application in jazz (jazz notation and terminology, transposition, woodwind doublings, brass mutes, etc.). Analysis of different writing techniques and approaches that distinguish different sub-styles of jazz from one another. Assignments focus on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 127A",
+      "dept": "GJ STDS",
+      "number": "127A",
+      "title": "Jazz Keyboard Harmony I",
+      "units": 2.0,
+      "description": "Laboratory, two hours; outside study, four hours. Course 127A with grade of C or better is requisite to 127B; course 127B with grade of C or better is requisite to 127C. Study of jazz harmony through use of piano keyboard. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GJ STDS 127B"
+      ]
+    },
+    {
+      "course_id": "GJ STDS 127B",
+      "dept": "GJ STDS",
+      "number": "127B",
+      "title": "Jazz Keyboard Harmony II",
+      "units": 2.0,
+      "description": "Laboratory, two hours; outside study, four hours. Requisite: course 127A with grade of C or better. Study of jazz harmony through use of piano keyboard. Letter grading.",
+      "prereqs_raw": "Requisite: course 127A with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "GJ STDS 127A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "GJ STDS 127C"
+      ]
+    },
+    {
+      "course_id": "GJ STDS 127C",
+      "dept": "GJ STDS",
+      "number": "127C",
+      "title": "Jazz Keyboard Harmony III",
+      "units": 2.0,
+      "description": "Laboratory, two hours; outside study, four hours. Requisite: course 127B with grade of C or better. Study of jazz harmony through use of piano keyboard. Letter grading.",
+      "prereqs_raw": "Requisite: course 127B with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "GJ STDS 127B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 129A",
+      "dept": "GJ STDS",
+      "number": "129A",
+      "title": "Jazz Theory and Improvisation I",
+      "units": 2.0,
+      "description": "Lecture, four hours; outside study, eight hours. Elements of jazz theory and improvisation. Basic jazz harmonic constructions, as well as melodic, rhythmic, and harmonic concepts, and how to apply those elements to personal efforts in improvisation. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "GJ STDS 129B"
+      ]
+    },
+    {
+      "course_id": "GJ STDS 129B",
+      "dept": "GJ STDS",
+      "number": "129B",
+      "title": "Jazz Theory and Improvisation II",
+      "units": 2.0,
+      "description": "Lecture, four hours; outside study, eight hours. Requisite: course 129A with grade of C or better. Elements of jazz theory and improvisation. Medium-level jazz harmonic constructions. Letter grading.",
+      "prereqs_raw": "Requisite: course 129A with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "GJ STDS 129A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "GJ STDS 129C"
+      ]
+    },
+    {
+      "course_id": "GJ STDS 129C",
+      "dept": "GJ STDS",
+      "number": "129C",
+      "title": "Jazz Theory and Improvisation III",
+      "units": 2.0,
+      "description": "Lecture, four hours; outside study, eight hours. Requisite: course 129B with grade of C or better. Elements of jazz theory and improvisation. Advanced-level jazz harmonic constructions. Letter grading.",
+      "prereqs_raw": "Requisite: course 129B with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "GJ STDS 129B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 165",
+      "dept": "GJ STDS",
+      "number": "165",
+      "title": "Selected Topics in Composition",
+      "units": 4.0,
+      "description": "Lecture, four hours; outside study, eight hours. Preparation: experience and accomplishment in composition. Evaluation of important musical concepts and approaches to enable students to develop greater compositional technique and understanding. Ways composers of jazz, European classical, and other musical genres have successfully approached use of extended compositional forms. Examination of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 175",
+      "dept": "GJ STDS",
+      "number": "175",
+      "title": "Jazz Combo",
+      "units": 2.0,
+      "description": "Activity, two hours; laboratory, four hours. Preparation: audition. Exploration of composition and improvisation more intensely in smaller jazz combination groups of four to eight musicians. May be repeated for maximum of 12 units. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 186A",
+      "dept": "GJ STDS",
+      "number": "186A",
+      "title": "Capstone Seminar",
+      "units": 3.0,
+      "description": "Seminar, two hours; outside study, seven hours. Limited to senior Global Jazz Studies majors. With approval from faculty advisers, students develop and prepare one-hour recital consistent with global dimension of major, and reflect on process. In lieu of recital, students may develop research-based project, which includes comparable public event (e.g.,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 186B",
+      "dept": "GJ STDS",
+      "number": "186B",
+      "title": "Capstone",
+      "units": 1.0,
+      "description": "Seminar, two hours; outside study, seven hours. Limited to senior Global Jazz Studies majors. With approval from faculty advisers, students perform (or have compositions performed in) one-hour recital consistent with global dimensions of major, contributing substantial program notes. Students who have developed alternative capstone projects present work in public event\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 188",
+      "dept": "GJ STDS",
+      "number": "188",
+      "title": "Special Topics in Global Jazz Studies",
+      "units": 2.0,
+      "description": "Lecture, two to four hours; outside study, four to eight hours. Selected topics in global jazz studies. Consult Schedule of Classes for topics and instructors. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS 199",
+      "dept": "GJ STDS",
+      "number": "199",
+      "title": "Directed Research or Senior Project in Global Jazz Studies",
+      "units": 2.0,
+      "description": "Tutorial, to be arranged. Limited to junior/senior Global Jazz Studies majors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for maximum of 8 units. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS M109",
+      "dept": "GJ STDS",
+      "number": "M109",
+      "title": "Jazz in Gendered Perspectives",
+      "units": 4.0,
+      "description": "(Same as African American Studies M109, Gender Studies M109, and Global Jazz Studies M109.) Lecture, four hours; discussion, one hour. Examination of the intersectionality of race, gender, class, sexuality, age, disability, positionality, and gendered notions about improvisation, instrumental/vocal performance, and composition and their impact on the historical development of jazz.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS M110A",
+      "dept": "GJ STDS",
+      "number": "M110A",
+      "title": "African American Musical Heritage",
+      "units": 5.0,
+      "description": "(Formerly numbered M12A.) (Same as African American Studies M116A and Ethnomusicology M110A.) Lecture, four hours; discussion, one hour. Sociocultural history and survey of African American music covering Africa and its impact on Americas; music of 17th through 19th centuries; minstrelsy and its impact on representation of blacks in film, television,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS M110B",
+      "dept": "GJ STDS",
+      "number": "M110B",
+      "title": "African American Musical Heritage",
+      "units": 5.0,
+      "description": "(Formerly numbered M12B.) (Same as African American Studies M116B and Ethnomusicology M110B.) Lecture, four hours; discussion, one hour. Sociocultural history and survey of African American music covering blues, pre-1947 jazz styles, rhythm \u2018n\u2019 blues, soul, funk, disco, hip-hop, and symbiotic relationship between recording industry and effects of cultural politics on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS M119",
+      "dept": "GJ STDS",
+      "number": "M119",
+      "title": "Cultural History of Rap",
+      "units": 5.0,
+      "description": "(Same as African American Studies M107 and Ethnomusicology M119.) Lecture, four hours; discussion, one hour. Introduction to development of rap music and hip-hop culture, with emphasis on musical and verbal qualities, philosophical and political ideologies, gender representation, and influences on cinema and popular culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS M130",
+      "dept": "GJ STDS",
+      "number": "M130",
+      "title": "Culture of Jazz Aesthetics",
+      "units": 4.0,
+      "description": "(Same as Anthropology M158 and Ethnomusicology M130.) Lecture, three hours. Recommended requisite: Anthropology 3 or 4 or Ethnomusicology 20A or 20B or 20C. Aesthetics of jazz from point of view of musicians who shaped jazz as art form in 20th century. Listening to and interacting with professional jazz musicians who\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GJ STDS M131",
+      "dept": "GJ STDS",
+      "number": "M131",
+      "title": "Development of Latin Jazz",
+      "units": 4.0,
+      "description": "(Same as Ethnomusicology M131 and Music M131.) Lecture, four hours; discussion, one hour. Survey of historical and stylistic development of musical style referred to today as Latin jazz. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MSC IND 104A",
+      "dept": "MSC IND",
+      "number": "104A",
+      "title": "Music and Law",
+      "units": 4.0,
+      "description": "Seminar, three hours; outside study, nine hours. Fundamentals of American law as it applies to entertainment business, with special attention to music and its use in film, television, and new media. Legal relationships in entertainment business and basic business practices. Exploration of legal aspects of process of producing works in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MSC IND 107A",
+      "dept": "MSC IND",
+      "number": "107A",
+      "title": "Engineering and Production Fundamentals",
+      "units": 4.0,
+      "description": "Lecture, two hours; studio, one hour; outside study, nine hours. Introduction to basic acoustic principles, practical techniques, and working procedures for equipment used in contemporary music production, including microphones, mixers, recorders, synthesizers, and sequencers. Basic sound processing operations (equalization, compression, distortion, reverberation). Operating principles of most popular systems of music\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MSC IND 115A",
+      "dept": "MSC IND",
+      "number": "115A",
+      "title": "Art of Music Production I",
+      "units": 4.0,
+      "description": "(Formerly numbered 115.) Lecture, three hours; studio, two hours. Exploration of techniques, methods, and process of music production and larger issues in art of making music. Students learn how to foster and capture performance and emotion in music through variety of methods and tools, including artistic direction in studio and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MSC IND 2",
+      "dept": "MSC IND",
+      "number": "2",
+      "title": "Music Industry Fundamentals",
+      "units": 4.0,
+      "description": "(Formerly numbered 102.) Lecture, three hours; discussion, one hour. Introduction to current music industry. Overview of career paths, monetization strategies, organizational behavior, and entrepreneurial thinking. Designed to serve as gateway for music industry degree programs. Students familiarize themselves with basic functions of industry that are covered in greater detail in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MUSC M6A",
+      "dept": "MUSC",
+      "number": "M6A",
+      "title": "Introduction to Global Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6A and Musicology M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C\u2013 or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MUSC M6B"
+      ]
+    },
+    {
+      "course_id": "MUSC M6B",
+      "dept": "MUSC",
+      "number": "M6B",
+      "title": "Introduction to Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6B and Musicology M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC M6A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MUSC M6C"
+      ]
+    },
+    {
+      "course_id": "MUSC M6C",
+      "dept": "MUSC",
+      "number": "M6C",
+      "title": "Introduction to Musicianship",
+      "units": 2.0,
+      "description": "(Same as Ethnomusicology M6C and Musicology M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MUSC M6B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

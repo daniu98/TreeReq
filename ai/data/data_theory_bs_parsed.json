@@ -1,0 +1,1267 @@
+{
+  "major_id": "data-theory-bs",
+  "major_name": "Data Theory BS",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/DataTheoryBS",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "MATH 31A",
+        "MATH 31B",
+        "MATH 32A",
+        "MATH 32B",
+        "MATH 33A",
+        "MATH 42",
+        "MATH 115A",
+        "STATS 20",
+        "STATS 21"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "STATS 10",
+            "STATS 12",
+            "STATS 13",
+            "STATS 15"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "MATH 118",
+        "MATH 131A",
+        "MATH 156",
+        "STATS 101A",
+        "STATS 101C",
+        "STATS 102A",
+        "STATS 102B",
+        "STATS 147",
+        "STATS 184"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "MATH 170E",
+            "MATH 170S",
+            "STATS 100A",
+            "STATS 100B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MATH 151A",
+            "MATH 151B",
+            "MATH 164",
+            "MATH 168",
+            "MATH 171",
+            "MATH 174E",
+            "MATH 178A",
+            "MATH 178B",
+            "MATH 178C",
+            "MATH 179",
+            "MATH 182"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "STATS 100C",
+            "STATS 101B",
+            "STATS 102C",
+            "STATS 151",
+            "STATS 152",
+            "STATS 153",
+            "STATS 154",
+            "STATS 155",
+            "STATS 156",
+            "STATS 157",
+            "STATS 158",
+            "STATS 159",
+            "STATS 160",
+            "STATS 161",
+            "STATS 162",
+            "STATS 163",
+            "STATS 164",
+            "STATS 165",
+            "STATS 166",
+            "STATS 167",
+            "STATS 168",
+            "STATS 169",
+            "STATS 170",
+            "STATS 171",
+            "STATS 172",
+            "STATS 173",
+            "STATS 174",
+            "STATS 175",
+            "STATS 176",
+            "STATS 177",
+            "STATS 178",
+            "STATS 179",
+            "STATS 180",
+            "STATS 181",
+            "STATS 183",
+            "STATS 184",
+            "STATS 185",
+            "STATS 187",
+            "STATS 188",
+            "STATS 190",
+            "STATS 191",
+            "STATS 192",
+            "STATS 193",
+            "STATS 194",
+            "STATS 195",
+            "STATS 196",
+            "STATS 197",
+            "STATS 198",
+            "STATS 199"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "MATH 151A",
+            "MATH 151B",
+            "MATH 164",
+            "MATH 168",
+            "MATH 171",
+            "MATH 174E",
+            "MATH 178A",
+            "MATH 178B",
+            "MATH 178C",
+            "MATH 179",
+            "MATH 182",
+            "STATS 100C",
+            "STATS 101B",
+            "STATS 102C",
+            "STATS 151",
+            "STATS 152",
+            "STATS 153",
+            "STATS 154",
+            "STATS 155",
+            "STATS 156",
+            "STATS 157",
+            "STATS 158",
+            "STATS 159",
+            "STATS 160",
+            "STATS 161",
+            "STATS 162",
+            "STATS 163",
+            "STATS 164",
+            "STATS 165",
+            "STATS 166",
+            "STATS 167",
+            "STATS 168",
+            "STATS 169",
+            "STATS 170",
+            "STATS 171",
+            "STATS 172",
+            "STATS 173",
+            "STATS 174",
+            "STATS 175",
+            "STATS 176",
+            "STATS 177",
+            "STATS 178",
+            "STATS 179",
+            "STATS 180",
+            "STATS 181",
+            "STATS 183",
+            "STATS 184",
+            "STATS 185",
+            "STATS 187",
+            "STATS 188",
+            "STATS 190",
+            "STATS 191",
+            "STATS 192",
+            "STATS 193",
+            "STATS 194",
+            "STATS 195",
+            "STATS 196",
+            "STATS 197",
+            "STATS 198",
+            "STATS 199"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": 1,
+      "courses": [
+        "MATH M148",
+        "STATS M148"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "MATH": [
+      "MATH 115A",
+      "MATH 118",
+      "MATH 131A",
+      "MATH 151A",
+      "MATH 151B",
+      "MATH 156",
+      "MATH 164",
+      "MATH 168",
+      "MATH 170E",
+      "MATH 170S",
+      "MATH 171",
+      "MATH 174E",
+      "MATH 178A",
+      "MATH 178B",
+      "MATH 178C",
+      "MATH 179",
+      "MATH 182",
+      "MATH 31A",
+      "MATH 31B",
+      "MATH 32A",
+      "MATH 32B",
+      "MATH 33A",
+      "MATH 42",
+      "MATH M148"
+    ],
+    "STATS": [
+      "STATS 10",
+      "STATS 100A",
+      "STATS 100B",
+      "STATS 100C",
+      "STATS 101A",
+      "STATS 101B",
+      "STATS 101C",
+      "STATS 102A",
+      "STATS 102B",
+      "STATS 102C",
+      "STATS 12",
+      "STATS 13",
+      "STATS 147",
+      "STATS 15",
+      "STATS 184",
+      "STATS 20",
+      "STATS 21",
+      "STATS M148"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "MATH 115A",
+      "dept": "MATH",
+      "number": "115A",
+      "title": "Linear Algebra",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: course 33A. Techniques of proof, abstract vector spaces, linear transformations, and matrices; determinants; inner product spaces; eigenvector theory. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 118",
+        "MATH 151A",
+        "MATH 156",
+        "MATH 164"
+      ]
+    },
+    {
+      "course_id": "MATH 118",
+      "dept": "MATH",
+      "number": "118",
+      "title": "Mathematical Methods of Data Theory",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 42, 115A. Introduction to computational methods for data problems with focus on linear algebra and optimization. Matrix and tensor factorization, PageRank, assorted other topics in matrices, linear programming, unconstrained optimization, constrained optimization, integer optimization, dynamic programming, and stochastic optimization. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 42, 115A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 42",
+          "MATH 115A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH M148",
+        "STATS M148"
+      ]
+    },
+    {
+      "course_id": "MATH 131A",
+      "dept": "MATH",
+      "number": "131A",
+      "title": "Analysis",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B. Recommended: course 115A. Rigorous introduction to foundations of real analysis; real numbers, point set topology in Euclidean space, functions, continuity. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 32B, 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 164",
+        "MATH M148"
+      ]
+    },
+    {
+      "course_id": "MATH 151A",
+      "dept": "MATH",
+      "number": "151A",
+      "title": "Applied Numerical Methods",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33B",
+          "MATH 115A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PIC 10A",
+            "COM SCI 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 151B"
+      ]
+    },
+    {
+      "course_id": "MATH 151B",
+      "dept": "MATH",
+      "number": "151B",
+      "title": "Applied Numerical Methods",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 151A. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Letter grading.",
+      "prereqs_raw": "Requisite: course 151A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 151A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 156",
+      "dept": "MATH",
+      "number": "156",
+      "title": "Machine Learning",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 115A, 164, 170A or 170E or Statistics 100A, and Computer Science 31 or Program in Computing 10A. Strongly recommended requisite: Program in Computing 16A or Statistics 21. Introductory course on mathematical models for pattern recognition and machine learning. Topics include parametric and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 115A, 164, 170A or 170E or Statistics 100A, and Computer Science 31 or Program in Computing 10A. Strongly recommended requisite: Program in Computing 16A or Statistics 21.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 115A",
+          "MATH 164",
+          "COM SCI 31"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170A",
+            "MATH 170E",
+            "STAT 100A"
+          ],
+          [
+            "COM SCI 31",
+            "PIC 10A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [
+          "PIC 16A",
+          "STAT 21"
+        ]
+      },
+      "prereq_for": [
+        "MATH M148",
+        "STATS 147",
+        "STATS 184",
+        "STATS M148"
+      ]
+    },
+    {
+      "course_id": "MATH 164",
+      "dept": "MATH",
+      "number": "164",
+      "title": "Optimization",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 115A, 131A. Not open for credit to students with credit for former Electrical Engineering 136. Fundamentals of optimization. Linear programming: basic solutions, simplex method, duality theory. Unconstrained optimization, Newton method for minimization. Nonlinear programming, optimality conditions for constrained problems. Additional topics\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 115A, 131A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 115A",
+          "MATH 131A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 156"
+      ]
+    },
+    {
+      "course_id": "MATH 168",
+      "dept": "MATH",
+      "number": "168",
+      "title": "Introduction to Networks",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 115A, 170E (or 170A or Electrical and Computer Engineering 131A or Statistics 100A). Introduction to network science (including theory, computation, and applications), which can be used to study complex systems of interacting agents. Study of networks in technology, social, information, biological, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 115A, 170E (or 170A or Electrical and Computer Engineering 131A or Statistics 100A).",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 170E",
+      "dept": "MATH",
+      "number": "170E",
+      "title": "Introduction to Probability and Statistics 1: Probability",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 32B. Highly recommended: course 61 or 70. Not open to students with credit for course 170A, Electrical and Computer Engineering 131A, or Statistics 100A. Introduction to probability theory with emphasis on topics relevant to applications. Topics include discrete (binomial, Poisson, etc.) and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 156",
+        "MATH 170S",
+        "MATH 171",
+        "MATH 174E",
+        "MATH 178A",
+        "STATS 100B"
+      ]
+    },
+    {
+      "course_id": "MATH 170S",
+      "dept": "MATH",
+      "number": "170S",
+      "title": "Introduction to Probability and Statistics 2: Statistics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A. Not open to students with credit for Statistics 100B. Introduction to statistics. Topics include sampling, estimation (maximum likelihood and Bayesian), properties of estimators, regression, confidence intervals, hypotheses testing, analysis of variance. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170A",
+            "MATH 170E",
+            "STAT 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 178B",
+        "STATS 100C",
+        "STATS 102C",
+        "STATS 147",
+        "STATS 184",
+        "STATS M148"
+      ]
+    },
+    {
+      "course_id": "MATH 171",
+      "dept": "MATH",
+      "number": "171",
+      "title": "Stochastic Processes",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 170E (or 170A or Statistics 100A). Discrete Markov chains, continuous-time Markov chains, renewal theory. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 33A, 170E (or 170A or Statistics 100A).",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170E",
+            "MATH 170A",
+            "STAT 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 174E",
+      "dept": "MATH",
+      "number": "174E",
+      "title": "Mathematics of Finance for Mathematics/Economics Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 33A, and 170A or 170E or Statistics 100A. Not open for credit to students with credit for course 174A, Economics 141, or Statistics C183/C283. Mathematical modeling of financial securities in discrete and continuous time. Forwards, futures, hedging, swaps, uses and pricing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 33A, and 170A or 170E or Statistics 100A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "MATH 170A",
+          "MATH 170E",
+          "STAT 100A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 178A",
+      "dept": "MATH",
+      "number": "178A",
+      "title": "Foundations of Actuarial Mathematics: Life Insurance and Annuities",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 170A or 170E (or Statistics 100A), 175 or 177. Introduction to mathematics associated with long-term insurance coverages. Single- and multiple-life survival models, annuities, premium calculations and policy values, reserves, pension plans and retirement benefits. Letter grading.",
+      "prereqs_raw": "Requisites: courses 32B, 170A or 170E (or Statistics 100A), 175 or 177.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 175"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170A",
+            "MATH 170E",
+            "STAT 100A"
+          ],
+          [
+            "MATH 175",
+            "MATH 177"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 178B"
+      ]
+    },
+    {
+      "course_id": "MATH 178B",
+      "dept": "MATH",
+      "number": "178B",
+      "title": "Foundations of Actuarial Mathematics: Additional Topics in Long-Term Actuarial Mathematics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 170B or 170S (or Statistics 100B), 178A. Multistate models, covers pensions, health insurances, and profit-testing. Study of probability distributions employed most commonly in actuarial theory. Beginning study of short-term actuarial mathematics. Letter grading.",
+      "prereqs_raw": "Requisites: courses 170B or 170S (or Statistics 100B), 178A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 178A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170B",
+            "MATH 170S",
+            "STAT 100B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 178C"
+      ]
+    },
+    {
+      "course_id": "MATH 178C",
+      "dept": "MATH",
+      "number": "178C",
+      "title": "Foundations of Actuarial Mathematics: Loss Models",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 178B. Study of loss models associated with actuarial problems. Covers severity, frequency, and aggregate loss models, parameter estimation (frequentist, Bayesian), model selection, and credibility. Letter grading.",
+      "prereqs_raw": "Requisite: course 178B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 178B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 179",
+      "dept": "MATH",
+      "number": "179",
+      "title": "Advanced Topic in Financial Mathematics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 174E. Continuation of course 174E. In-depth study of risk measures and instruments of risk management in investment portfolios and corporate financial structure. Exotic and real options, value at risk, mean-variance analysis, portfolio optimization, risk analysis, capital asset pricing model, market efficiency, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 174E.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 182",
+      "dept": "MATH",
+      "number": "182",
+      "title": "Algorithms",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3C or 32A, and 61. Not open for credit to students with credit for Computer Science 180. Graphs, greedy algorithms, divide and conquer algorithms, dynamic programming, network flow. Emphasis on designing efficient algorithms useful in diverse areas such as bioinformatics and allocation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3C or 32A, and 61.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 61"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "MATH 3C",
+          "MATH 32A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 170S",
+        "MATH 31B",
+        "MATH 32A",
+        "MATH 42"
+      ]
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 170S",
+        "MATH 32B",
+        "MATH 33A",
+        "MATH 42"
+      ]
+    },
+    {
+      "course_id": "MATH 32A",
+      "dept": "MATH",
+      "number": "32A",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 182",
+        "MATH 32B",
+        "MATH 33A",
+        "MATH 42"
+      ]
+    },
+    {
+      "course_id": "MATH 32B",
+      "dept": "MATH",
+      "number": "32B",
+      "title": "Calculus of Several Variables",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 131A",
+        "MATH 151A",
+        "MATH 170E",
+        "MATH 178A",
+        "MATH 42",
+        "STATS 100A"
+      ]
+    },
+    {
+      "course_id": "MATH 33A",
+      "dept": "MATH",
+      "number": "33A",
+      "title": "Linear Algebra and Applications",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "MATH 3B",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 115A",
+        "MATH 171",
+        "MATH 174E",
+        "MATH 42",
+        "STATS 100A",
+        "STATS 102A"
+      ]
+    },
+    {
+      "course_id": "MATH 42",
+      "dept": "MATH",
+      "number": "42",
+      "title": "Introduction to Data-Driven Mathematical Modeling: Life, Universe, and Everything",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, 32A, 32B, 33A, one statistics course from Statistics 10, 12, 13, one programming course from Computer Science 31, Program in Computing 10A, Statistics 20. Introduction to data-driven mathematical modeling combing data analysis with mechanistic modeling of phenomena from various applications.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 31A, 31B, 32A, 32B, 33A, one statistics course from Statistics 10, 12, 13, one programming course from Computer Science 31, Program in Computing 10A, Statistics 20.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B",
+          "MATH 32A",
+          "MATH 32B",
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STAT 10",
+            "STAT 12",
+            "STAT 13"
+          ],
+          [
+            "COM SCI 31",
+            "PIC 10A",
+            "STAT 20"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 118"
+      ]
+    },
+    {
+      "course_id": "MATH M148",
+      "dept": "MATH",
+      "number": "M148",
+      "title": "Experience of Data Science",
+      "units": 4.0,
+      "description": "(Same as Statistics M148.) Lecture, four hours. Requisites: courses 118, 131A, 156 or Statistics 101C, 170S or Statistics 100B, Statistics 101A. Students solve real data science problems for community- or campus-based clients. Students work in small groups with faculty member and client to frame client\u2019s question in data science terms,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 118, 131A, 156 or Statistics 101C, 170S or Statistics 100B, Statistics 101A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 118",
+            "MATH 131A",
+            "MATH 156"
+          ],
+          [
+            "STAT 101C"
+          ],
+          [
+            "STAT 170S"
+          ],
+          [
+            "STAT 100B",
+            "STAT 101A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 102A",
+        "STATS 20"
+      ]
+    },
+    {
+      "course_id": "STATS 100A",
+      "dept": "STATS",
+      "number": "100A",
+      "title": "Introduction to Probability",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 32B, 33A. Not open to students with credit for Electrical Engineering 131A or Mathematics 170A; open to graduate students. Students may receive credit for only two of following: course 100A, former course 110A, Biostatistics 100A. Probability distributions, random variables, vectors, and expectation.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Mathematics 32B, 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "STATS 100B"
+      ]
+    },
+    {
+      "course_id": "STATS 100B",
+      "dept": "STATS",
+      "number": "100B",
+      "title": "Introduction to Mathematical Statistics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100A or Mathematics 170A or 170E. Survey sampling, estimation, testing, data summary, one- and two-sample problems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 100A or Mathematics 170A or 170E.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 100A",
+            "MATH 170A",
+            "MATH 170E"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "STATS 100C",
+        "STATS 102C",
+        "STATS 147",
+        "STATS 184",
+        "STATS M148"
+      ]
+    },
+    {
+      "course_id": "STATS 100C",
+      "dept": "STATS",
+      "number": "100C",
+      "title": "Linear Models",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Mathematics 170S. Theory of linear models, with emphasis on matrix approach to linear regression. Topics include model fitting, extra sums of squares principle, testing general linear hypothesis in regression, inference procedures, Gauss/Markov theorem, examination of residuals, principle component regression,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 100B or Mathematics 170S.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 100B",
+            "MATH 170S"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 101A",
+      "dept": "STATS",
+      "number": "101A",
+      "title": "Introduction to Data Analysis and Regression",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20. Recommended: course 102A. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 101B",
+        "STATS 101C",
+        "STATS 147",
+        "STATS 184",
+        "STATS M148"
+      ]
+    },
+    {
+      "course_id": "STATS 101B",
+      "dept": "STATS",
+      "number": "101B",
+      "title": "Introduction to Design and Analysis of Experiment",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 101A. Fundamentals of collecting data, including components of experiments, randomization and blocking, completely randomized design and ANOVA, multiple comparisons, power and sample size, and block designs. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101A.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 101A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 101C",
+      "dept": "STATS",
+      "number": "101C",
+      "title": "Introduction to Statistical Models and Data Mining",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 101A. Recommended: course 101B. Designed for juniors/seniors. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and generalized linear model (e.g., logistic regression). Special attention to modern extensions of regression, including regression diagnostics, graphical procedures, and bootstrapping for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101A.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 101A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "STATS 147",
+        "STATS 184",
+        "STATS M148"
+      ]
+    },
+    {
+      "course_id": "STATS 102A",
+      "dept": "STATS",
+      "number": "102A",
+      "title": "Introduction to Computational Statistics with R",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: course 20, Mathematics 33A, and one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Introduction to computational statistics through numerical methods and computationally intensive methods for statistical problems.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 20, Mathematics 33A, and one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 20",
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 10",
+            "STATS 12",
+            "STATS 13",
+            "ECON 11",
+            "ECON 41",
+            "PSYCH 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "STATS 102C"
+      ]
+    },
+    {
+      "course_id": "STATS 102B",
+      "dept": "STATS",
+      "number": "102B",
+      "title": "Introduction to Computation and Optimization for Statistics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 100B (or Mathematics 170S), 102A, Mathematics 33A. Introduction to computational methods and optimization useful for statisticians. Use of computer programming to solve statistical problems. Topics include vector/matrix computation, multivariate normal distribution, principal component analysis, clustering analysis, gradient-based optimization, EM algorithm for missing\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 100B (or Mathematics 170S), 102A, Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 102C",
+      "dept": "STATS",
+      "number": "102C",
+      "title": "Introduction to Monte Carlo Methods",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 100B (or Mathematics 170S), 102A. Introduction to Markov chain Monte Carlo (MCMC) algorithms for scientific computing. Generation of random numbers from specific distribution. Rejection sampling and importance sampling and their roles in MCMC. Markov chain theory and convergence properties. Metropolis and Gibbs\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 100B (or Mathematics 170S), 102A.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 102A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 100B",
+            "MATH 170S"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 12",
+      "dept": "STATS",
+      "number": "12",
+      "title": "Introduction to Statistical Methods for Geography and Environmental Studies",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 102A",
+        "STATS 20"
+      ]
+    },
+    {
+      "course_id": "STATS 13",
+      "dept": "STATS",
+      "number": "13",
+      "title": "Introduction to Statistical Methods for Life and Health Sciences",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 102A",
+        "STATS 20"
+      ]
+    },
+    {
+      "course_id": "STATS 147",
+      "dept": "STATS",
+      "number": "147",
+      "title": "Data Technologies for Data Scientists",
+      "units": 2.0,
+      "description": "Lecture, two hours. Requisites: courses 100B or Mathematics 170S, 101A, 101C or Mathematics 156. Limited to seniors. Introduction to variety of tools and technologies used in data science. Prepares students for applied project work. Topics include use of collaborative repository hosting services allowing access control; secure cloud services platforms that\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 100B or Mathematics 170S, 101A, 101C or Mathematics 156.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 101A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 100B",
+            "MATH 170S"
+          ],
+          [
+            "STATS 101C",
+            "MATH 156"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 15",
+      "dept": "STATS",
+      "number": "15",
+      "title": "Introduction to Data Science",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, one hour. Preparation: three years of high school mathematics. Not open to students with credit for course 10, 12, 13, or former course 10H, 11, or 14. Introduction to data science, including data management, data modeling, data visualization, communication of findings, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 20"
+      ]
+    },
+    {
+      "course_id": "STATS 184",
+      "dept": "STATS",
+      "number": "184",
+      "title": "Societal Impacts of Data",
+      "units": 2.0,
+      "description": "Lecture, two hours. Requisites: courses 100B or Mathematics 170S, 101A, 101C or Mathematics 156. Consideration of impacts that data collected today have upon individuals and society. Rapid increase in scale and types of data collected has impacted commerce and society in new ways. Consideration of economic, social and ethical, legal\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 100B or Mathematics 170S, 101A, 101C or Mathematics 156.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 101A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 100B",
+            "MATH 170S"
+          ],
+          [
+            "STATS 101C",
+            "MATH 156"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 20",
+      "dept": "STATS",
+      "number": "20",
+      "title": "Introduction to Statistical Programming with R",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Designed to prepare students for upper-division work in statistics. Introduction to use of R, including data management, simple\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 10",
+            "STATS 12",
+            "STATS 13",
+            "STATS 15",
+            "ECON 41",
+            "PSYCH 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "STATS 102A",
+        "STATS 21"
+      ]
+    },
+    {
+      "course_id": "STATS 21",
+      "dept": "STATS",
+      "number": "21",
+      "title": "Python and Other Technologies for Data Science",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20. Covers use of Python and other technologies for data analysis and data science. Focus on programming with Python and selection of its libraries: NumPy, pandas, matplotlib, and scikit-learn, for purpose of data processing, data cleaning, data analysis, and machine learning.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS M148",
+      "dept": "STATS",
+      "number": "M148",
+      "title": "Experience of Data Science",
+      "units": 4.0,
+      "description": "(Same as Mathematics M148.) Lecture, four hours. Requisites: courses 100B or Mathematics 170S, 101A, 101C or Mathematics 156, Mathematics 118, 131A. Students solve real data science problems for community- or campus-based clients. Students work in small groups with faculty member and client to frame client\u2019s question in data science terms,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 100B or Mathematics 170S, 101A, 101C or Mathematics 156, Mathematics 118, 131A.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 101A",
+          "STATS 101C",
+          "STATS 131A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 100B",
+            "MATH 170S"
+          ],
+          [
+            "STATS 101C",
+            "MATH 156"
+          ],
+          [
+            "MATH 118"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

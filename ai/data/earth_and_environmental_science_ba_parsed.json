@@ -1,0 +1,837 @@
+{
+  "major_id": "earth-and-environmental-science-ba",
+  "major_name": "Earth and Environmental Science BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/EarthandEnvironmentalScienceBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "EPS SCI 1",
+        "CHEM 14A",
+        "CHEM 14B",
+        "CHEM 14BL",
+        "CHEM 20A",
+        "CHEM 20B",
+        "CHEM 20L",
+        "MATH 3A",
+        "MATH 3B",
+        "MATH 31A",
+        "MATH 31B",
+        "PHYSICS 1A",
+        "PHYSICS 5A",
+        "EPS SCI 51",
+        "EPS SCI 61",
+        "EPS SCI M71",
+        "C&EE M20"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "EPS SCI 1",
+            "CLUSTER 70A",
+            "EPS SCI 3",
+            "EPS SCI 4",
+            "EPS SCI 5",
+            "EPS SCI 6",
+            "EPS SCI 7",
+            "EPS SCI 8",
+            "EPS SCI 9",
+            "EPS SCI 10",
+            "EPS SCI 11",
+            "EPS SCI 12",
+            "EPS SCI 13",
+            "EPS SCI 14",
+            "EPS SCI 15",
+            "EPS SCI 16",
+            "EPS SCI 17"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "EPS SCI 51",
+            "EPS SCI 61",
+            "EPS SCI M71",
+            "C&EE M20"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHEM 14A",
+            "CHEM 14B",
+            "CHEM 14BL",
+            "CHEM 20A",
+            "CHEM 20B",
+            "CHEM 20L"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "MATH 3A",
+            "MATH 3B",
+            "MATH 31A",
+            "MATH 31B"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "PHYSICS 1A",
+            "PHYSICS 5A"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 2,
+          "courses": [
+            "EPS SCI 103A",
+            "EPS SCI 103B",
+            "EPS SCI 111",
+            "EPS SCI 112"
+          ]
+        },
+        {
+          "choose_n": 4,
+          "courses": [
+            "EPS SCI 100",
+            "EPS SCI 101",
+            "EPS SCI 102",
+            "EPS SCI 103A",
+            "EPS SCI 103B",
+            "EPS SCI 104",
+            "EPS SCI 105",
+            "EPS SCI 106",
+            "EPS SCI 107",
+            "EPS SCI 108",
+            "EPS SCI 109",
+            "EPS SCI 110",
+            "EPS SCI 111",
+            "EPS SCI 112",
+            "EPS SCI 113",
+            "EPS SCI 114",
+            "EPS SCI 115",
+            "EPS SCI 116",
+            "EPS SCI 117",
+            "EPS SCI 118",
+            "EPS SCI 119",
+            "EPS SCI 120",
+            "EPS SCI 121",
+            "EPS SCI 122",
+            "EPS SCI 123",
+            "EPS SCI 124",
+            "EPS SCI 125",
+            "EPS SCI 126",
+            "EPS SCI 127",
+            "EPS SCI 128",
+            "EPS SCI 129",
+            "EPS SCI 130",
+            "EPS SCI 131",
+            "EPS SCI 132",
+            "EPS SCI 133",
+            "EPS SCI 134",
+            "EPS SCI 135",
+            "EPS SCI 136",
+            "EPS SCI 137",
+            "EPS SCI 138",
+            "EPS SCI 139",
+            "EPS SCI 140",
+            "EPS SCI 141",
+            "EPS SCI 142",
+            "EPS SCI 143",
+            "EPS SCI 144",
+            "EPS SCI 145",
+            "EPS SCI 146",
+            "EPS SCI 147",
+            "EPS SCI 148",
+            "EPS SCI 149",
+            "EPS SCI 150",
+            "EPS SCI 151",
+            "EPS SCI 152",
+            "EPS SCI 153",
+            "EPS SCI 154",
+            "EPS SCI 155",
+            "EPS SCI 156",
+            "EPS SCI 157",
+            "EPS SCI 158",
+            "EPS SCI 159",
+            "EPS SCI 160",
+            "EPS SCI 161",
+            "EPS SCI 162",
+            "EPS SCI 163",
+            "EPS SCI 164",
+            "EPS SCI 165",
+            "EPS SCI 166",
+            "EPS SCI 167",
+            "EPS SCI 168",
+            "EPS SCI 169",
+            "EPS SCI 170",
+            "EPS SCI 171",
+            "EPS SCI 172",
+            "EPS SCI 173",
+            "EPS SCI 174",
+            "EPS SCI 175",
+            "EPS SCI 176",
+            "EPS SCI 177",
+            "EPS SCI 178",
+            "EPS SCI 179",
+            "EPS SCI 180",
+            "EPS SCI 181",
+            "EPS SCI 182",
+            "EPS SCI 183",
+            "EPS SCI 184",
+            "EPS SCI 185",
+            "EPS SCI 186"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "GEOG 101",
+            "GEOG M102",
+            "GEOG M103",
+            "GEOG 116",
+            "GEOG 120",
+            "GEOG M126",
+            "GEOG M131",
+            "GEOG 136"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "EPS SCI 199"
+      ],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "C&EE": [
+      "C&EE M20"
+    ],
+    "CHEM": [
+      "CHEM 14A",
+      "CHEM 14B",
+      "CHEM 14BL",
+      "CHEM 20A",
+      "CHEM 20B",
+      "CHEM 20L"
+    ],
+    "CLUSTER": [
+      "CLUSTER 70A"
+    ],
+    "EPS SCI": [
+      "EPS SCI 1",
+      "EPS SCI 103A",
+      "EPS SCI 103B",
+      "EPS SCI 111",
+      "EPS SCI 112",
+      "EPS SCI 199",
+      "EPS SCI 51",
+      "EPS SCI 61",
+      "EPS SCI M71"
+    ],
+    "GEOG": [
+      "GEOG 101",
+      "GEOG 116",
+      "GEOG 120",
+      "GEOG 136",
+      "GEOG M102",
+      "GEOG M103",
+      "GEOG M126",
+      "GEOG M131"
+    ],
+    "MATH": [
+      "MATH 31A",
+      "MATH 31B",
+      "MATH 3A",
+      "MATH 3B"
+    ],
+    "PHYSICS": [
+      "PHYSICS 1A",
+      "PHYSICS 5A"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "C&EE M20",
+      "dept": "C&EE",
+      "number": "M20",
+      "title": "Introduction to Computer Programming with MATLAB",
+      "units": 4.0,
+      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 14A",
+      "dept": "CHEM",
+      "number": "14A",
+      "title": "General Chemistry for Life Scientists I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "LIFE SCI 30A",
+          "MATH 3A",
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "CHEM 14BL"
+      ]
+    },
+    {
+      "course_id": "CHEM 14B",
+      "dept": "CHEM",
+      "number": "14B",
+      "title": "General Chemistry for Life Scientists II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH"
+        ],
+        "corequisites": [
+          "LIFE SCI 30B",
+          "MATH 3B",
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ],
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31B"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14BL"
+      ]
+    },
+    {
+      "course_id": "CHEM 14BL",
+      "dept": "CHEM",
+      "number": "14BL",
+      "title": "General and Organic Chemistry Laboratory I",
+      "units": 3.0,
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "CHEM 14B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 20A",
+      "dept": "CHEM",
+      "number": "20A",
+      "title": "Chemical Structure",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM Diagnostic Test"
+        ],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "CHEM 14BL"
+      ]
+    },
+    {
+      "course_id": "CHEM 20B",
+      "dept": "CHEM",
+      "number": "20B",
+      "title": "Chemical Energetics and Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 20L",
+      "dept": "CHEM",
+      "number": "20L",
+      "title": "General Chemistry Laboratory",
+      "units": 3.0,
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          {
+            "one_of": [
+              "CHEM 14B",
+              "CHEM 20B"
+            ]
+          }
+        ],
+        "one_of": [
+          {
+            "course": "CHEM 14A",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CHEM 20A",
+            "min_grade": "C-"
+          }
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CLUSTER 70A",
+      "dept": "CLUSTER",
+      "number": "70A",
+      "title": "Evolution of Cosmos and Life",
+      "units": 6.0,
+      "description": "Lecture, three hours; discussion, two hours. Course 70A is enforced requisite to 70B, which is enforced requisite to 70CW or 70DW. Limited to first-year freshmen. Use of concept of evolution, as it applies to biological organisms, Earth, solar system, and universe itself, to introduce students to both life and physical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 1",
+      "dept": "EPS SCI",
+      "number": "1",
+      "title": "Introduction to Earth Science",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours; field days. Not open to students with credit for or currently enrolled in course 100. Elements of Earth science; study of Earth materials; nature and interpretation of geologic evidence; study of geologic processes; historical aspects of geology. Mandatory field trips introduce students to solving\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 103A",
+      "dept": "EPS SCI",
+      "number": "103A",
+      "title": "Igneous Petrology",
+      "units": 5.0,
+      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: Chemistry 14B and 14BL, or 20B and 20L. Mineralogy, chemical composition, and field occurrence of igneous rocks with reference to their origin by melting in earth. Introduction to thermodynamics as applied to petrology. Formation of magma,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 51.",
+      "prereqs_parsed": {
+        "required": [
+          "EPS SCI 51"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 103B",
+      "dept": "EPS SCI",
+      "number": "103B",
+      "title": "Sedimentary Petrology",
+      "units": 5.0,
+      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: course 61. Study of sedimentary rocks based on characteristics of sedimentary particles and dynamics of depositional processes. Lectures focus on development of depositional facies models, and laboratories emphasize recognition of sedimentary deposits from each major depositional\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 51.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 111",
+      "dept": "EPS SCI",
+      "number": "111",
+      "title": "Stratigraphic and Field Geology",
+      "units": 6.0,
+      "description": "Lecture, two hours; laboratory, three hours; fieldwork, eight hours per week. Requisite: course 61. Recommended: 112. Principles of stratigraphy; geologic mapping of selected area; preparation of geologic report. Letter grading.",
+      "prereqs_raw": "Requisite: course 61.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 112",
+      "dept": "EPS SCI",
+      "number": "112",
+      "title": "Structural Geology",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, six hours. Recommended: course 61. Planar and linear structures at different scales in sedimentary, metamorphic, and igneous rocks. Faults and folds, their description, classification, and kinematic and dynamic analysis. Deformation, strength, fracture, and rheological properties of rocks. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 199",
+      "dept": "EPS SCI",
+      "number": "199",
+      "title": "Directed Research or Senior Project in Earth, Planetary, and Space Sciences",
+      "units": 2.0,
+      "description": "Tutorial, two hours. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI 51",
+      "dept": "EPS SCI",
+      "number": "51",
+      "title": "Mineralogy: Earth and Planetary Materials",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, four hours. Recommended requisite: course 1, or any course from 3 through 17, 20, or Clusters 70A, and completion of chemistry requirement. Principles of mineralogy. Mineral structure and bonding and crystal chemistry, with focus on materials of interest for Earth and planetary sciences and major rock-forming\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "EPS SCI 103A"
+      ]
+    },
+    {
+      "course_id": "EPS SCI 61",
+      "dept": "EPS SCI",
+      "number": "61",
+      "title": "Geologic Maps",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, three hours; five field days. Recommended: course 1 (or any course from 3 through 17, 20, or Clusters 70A). Planning, creation, and interpretation of geologic maps, including both practical and philosophical problems that arise. Topographic and geologic mapping in the field. Interpretation of published maps in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPS SCI M71",
+      "dept": "EPS SCI",
+      "number": "M71",
+      "title": "Introduction to Computing for Geoscientists",
+      "units": 4.0,
+      "description": "(Same as Atmospheric and Oceanic Sciences M71.) Lecture, four hours; outside computing study, six to 10 hours. Introduction to writing programs, visualization of geoscience data, and comparison with models. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 101",
+      "dept": "GEOG",
+      "number": "101",
+      "title": "Principles of Geomorphology",
+      "units": 4.0,
+      "description": "(Formerly numbered 100.) Lecture, three hours; reading period, one hour. Requisite: course 1. Study of processes that shape world\u2019s landforms, with emphasis on weathering, mass movement and fluvial erosion, transport, deposition; energy and material transfers; space and time considerations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 1.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 116",
+      "dept": "GEOG",
+      "number": "116",
+      "title": "Climatology",
+      "units": 4.0,
+      "description": "(Formerly numbered 104.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of many relations between climate and world of man. Application of basic energy budget concepts to microclimates of relevance to ecosystems of agriculture, animals, man, and urban places. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 120",
+      "dept": "GEOG",
+      "number": "120",
+      "title": "Hydrology",
+      "units": 4.0,
+      "description": "(Formerly numbered 105.) Lecture, three hours. Requisites: course 116, Statistics 12. Role of water in geographic systems: hydrologic phenomena in relation to climate, landforms, soils, vegetation, and cultural processes and impacts on landscape. Field projects required. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: course 116, Statistics 12.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG 136",
+      "dept": "GEOG",
+      "number": "136",
+      "title": "Health and Global Environment",
+      "units": 4.0,
+      "description": "(Formerly numbered 125.) Lecture, three hours; reading period, one hour. Impact of environment and lifestyle on individual health examined from geographical perspective, with examples from both developed and developing countries. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M102",
+      "dept": "GEOG",
+      "number": "M102",
+      "title": "Soils and Environment",
+      "units": 4.0,
+      "description": "(Formerly numbered M127.) (Same as Ecology and Evolutionary Biology M127 and Environment M102.) Lecture, three hours; discussion, one hour; field trips. General treatment of soils and environmental implications: soil development, morphology, and worldwide distribution of soil orders; physical, chemical, hydrologic, and biological properties; water use, erosion, and pollution; management of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M103",
+      "dept": "GEOG",
+      "number": "M103",
+      "title": "Soil and Water Conservation",
+      "units": 4.0,
+      "description": "(Formerly numbered M107.) (Same as Environment M103.) Lecture, three hours; discussion, one hour. Enforced requisite: one course from course 1, 2, Environment 10, Life Sciences 7B. Designed for juniors/seniors. Systematic study of processes of and hazards posed by erosion, sedimentation, development, and pollution and techniques needed to conserve soil and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from course 1, 2, Environment 10, Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M126",
+      "dept": "GEOG",
+      "number": "M126",
+      "title": "Environmental Change",
+      "units": 4.0,
+      "description": "(Formerly numbered M131.) (Same as Environment M126.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of natural forces producing environmental changes over past two million years. How present landscape reflects past conditions. Effects of environmental change on people. Increasing importance of human activity in environmental modification. Focus\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GEOG M131",
+      "dept": "GEOG",
+      "number": "M131",
+      "title": "Human Impact on Biophysical Environment",
+      "units": 4.0,
+      "description": "(Formerly numbered M109.) (Same as Environment M131.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of history, mechanisms, and consequences of interactions between humans and environment. Exploration in depth of three thematic topics (deforestation, desertification, and greenhouse gas increase and ozone depletion) and four major subjects (soil,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14A",
+        "CHEM 20A",
+        "MATH 31B",
+        "PHYSICS 1A"
+      ]
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "PHYSICS 1A"
+      ]
+    },
+    {
+      "course_id": "MATH 3A",
+      "dept": "MATH",
+      "number": "3A",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14A",
+        "MATH 3B",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "MATH 3B",
+      "dept": "MATH",
+      "number": "3B",
+      "title": "Calculus for Life Sciences Students",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C\u2013 or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 3A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "PHYSICS 5A"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "dept": "PHYSICS",
+      "number": "1A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 5A",
+      "dept": "PHYSICS",
+      "number": "5A",
+      "title": "Physics for Life Sciences Majors: Mechanics and Energy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently). Statics and dynamics of forces, motion, energy, including thermal energy, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "MATH 3C"
+        ],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

@@ -16,7 +16,7 @@ const MIN_SCALE = 0.3;
 const MAX_SCALE = 2.5;
 const WHEEL_ZOOM_STEP = 0.0015; // higher = faster zoom
 
-export function DraggableCanvas({ children, background = "#fafafa" }) {
+export function DraggableCanvas({ children, background = "#fafafa", focusPoint = null }) {
   const viewportRef = useRef(null);
   const contentRef = useRef(null);
 
@@ -86,6 +86,19 @@ export function DraggableCanvas({ children, background = "#fafafa" }) {
     return () => v.removeEventListener("wheel", onWheel);
   }, []);
 
+  // When a focusPoint arrives (content-space {x,y}), pan to center it in the viewport.
+  useEffect(() => {
+    if (!focusPoint) return;
+    const { vw, vh } = sizeRef.current;
+    if (!vw || !vh) return;
+    const s = scaleRef.current;
+    setOffset(clampOffset(
+      { x: vw / 2 - focusPoint.x * s, y: vh / 2 - focusPoint.y * s },
+      s,
+      sizeRef.current,
+    ));
+  }, [focusPoint]); // eslint-disable-line react-hooks/exhaustive-deps
+
   function clampOffset({ x, y }, s, sizes) {
     const { vw, vh, cw, ch } = sizes;
     const scaledW = cw * s;
@@ -150,7 +163,7 @@ export function DraggableCanvas({ children, background = "#fafafa" }) {
       onPointerUp={endDrag}
       onPointerCancel={endDrag}
       style={{
-        position: "fixed",
+        position: "absolute",
         inset: 0,
         background,
         overflow: "hidden",

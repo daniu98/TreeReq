@@ -1,0 +1,1389 @@
+{
+  "major_id": "central-and-east-european-languages-and-cultures-ba",
+  "major_name": "Central and East European Languages and Cultures BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/CentralandEastEuropeanLanguagesandCulturesBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": 1,
+      "courses": [
+        "C&EE ST 91",
+        "SLAVC 90"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "CZCH 101A",
+            "CZCH 101B",
+            "CZCH 101C",
+            "HNGAR 101A",
+            "HNGAR 101B",
+            "HNGAR 101C",
+            "POLSH 101A",
+            "POLSH 101B",
+            "POLSH 101C",
+            "ROMANIA 101A",
+            "ROMANIA 101B",
+            "ROMANIA 101C",
+            "ROMANIA 103",
+            "SRB CRO 101A",
+            "SRB CRO 101B",
+            "SRB CRO 101C",
+            "SRB CRO 103",
+            "UKRN 101A",
+            "UKRN 101B",
+            "UKRN 101C"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "CZCH 102A",
+            "CZCH 102B",
+            "CZCH 102C",
+            "HNGAR 102A",
+            "HNGAR 102B",
+            "HNGAR 102C",
+            "POLSH 102A",
+            "POLSH 102B",
+            "POLSH 102C",
+            "ROMANIA 102A",
+            "ROMANIA 102B",
+            "ROMANIA 102C",
+            "SRB CRO 102A",
+            "SRB CRO 102B",
+            "SRB CRO 102C",
+            "UKRN 102A",
+            "UKRN 102B",
+            "UKRN 102C",
+            "RUSSN 100A",
+            "RUSSN 100B",
+            "RUSSN 100C",
+            "RUSSN 101A",
+            "RUSSN 101B",
+            "RUSSN 101C",
+            "RUSSN 102A",
+            "RUSSN 102B",
+            "RUSSN 102C",
+            "RUSSN 103A",
+            "RUSSN 103B",
+            "RUSSN 103C",
+            "RUSSN 130A",
+            "RUSSN 140A"
+          ]
+        },
+        {
+          "choose_n": 3,
+          "courses": [
+            "C&EE ST M120",
+            "C&EE ST M125",
+            "C&EE ST CM126",
+            "CZCH 155",
+            "HIST 120A",
+            "HIST 120B",
+            "HIST 120C",
+            "HIST 120D",
+            "POLSH 152A",
+            "POLSH 152B",
+            "POLSH 152C",
+            "ROMANIA 152",
+            "RUSSN CM124G",
+            "UKRN 152",
+            "RUSSN M118",
+            "RUSSN 119",
+            "RUSSN 120",
+            "RUSSN C124C",
+            "RUSSN C124D",
+            "RUSSN C124N"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "C&EE ST": [
+      "C&EE ST 91",
+      "C&EE ST CM126",
+      "C&EE ST M120",
+      "C&EE ST M125"
+    ],
+    "CZCH": [
+      "CZCH 101A",
+      "CZCH 101B",
+      "CZCH 101C",
+      "CZCH 102A",
+      "CZCH 102B",
+      "CZCH 102C",
+      "CZCH 155"
+    ],
+    "HIST": [
+      "HIST 120A",
+      "HIST 120B",
+      "HIST 120C",
+      "HIST 120D"
+    ],
+    "HNGAR": [
+      "HNGAR 101A",
+      "HNGAR 101B",
+      "HNGAR 101C",
+      "HNGAR 102A",
+      "HNGAR 102B",
+      "HNGAR 102C"
+    ],
+    "POLSH": [
+      "POLSH 101A",
+      "POLSH 101B",
+      "POLSH 101C",
+      "POLSH 102A",
+      "POLSH 102B",
+      "POLSH 102C",
+      "POLSH 152A",
+      "POLSH 152B",
+      "POLSH 152C"
+    ],
+    "ROMANIA": [
+      "ROMANIA 101A",
+      "ROMANIA 101B",
+      "ROMANIA 101C",
+      "ROMANIA 102A",
+      "ROMANIA 102B",
+      "ROMANIA 102C",
+      "ROMANIA 103",
+      "ROMANIA 152"
+    ],
+    "RUSSN": [
+      "RUSSN 100A",
+      "RUSSN 100B",
+      "RUSSN 100C",
+      "RUSSN 101A",
+      "RUSSN 101B",
+      "RUSSN 101C",
+      "RUSSN 102A",
+      "RUSSN 102B",
+      "RUSSN 102C",
+      "RUSSN 103A",
+      "RUSSN 103B",
+      "RUSSN 103C",
+      "RUSSN 119",
+      "RUSSN 120",
+      "RUSSN 130A",
+      "RUSSN 140A",
+      "RUSSN C124C",
+      "RUSSN C124D",
+      "RUSSN C124N",
+      "RUSSN C124T",
+      "RUSSN CM124G",
+      "RUSSN M118"
+    ],
+    "SLAVC": [
+      "SLAVC 191TA",
+      "SLAVC 191TB",
+      "SLAVC 191TC",
+      "SLAVC 198A",
+      "SLAVC 198B",
+      "SLAVC 198C",
+      "SLAVC 90"
+    ],
+    "SRB CRO": [
+      "SRB CRO 101A",
+      "SRB CRO 101B",
+      "SRB CRO 101C",
+      "SRB CRO 102A",
+      "SRB CRO 102B",
+      "SRB CRO 102C",
+      "SRB CRO 103"
+    ],
+    "UKRN": [
+      "UKRN 101A",
+      "UKRN 101B",
+      "UKRN 101C",
+      "UKRN 102A",
+      "UKRN 102B",
+      "UKRN 102C",
+      "UKRN 152"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "C&EE ST 91",
+      "dept": "C&EE ST",
+      "number": "91",
+      "title": "Culture and Society in Central and Eastern Europe",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Interdisciplinary introduction to main themes and concepts of Central and East European studies, including historical background, nation states and ethnic groups, and languages spoken in area. Focus on politics, society, and culture in communist and early post-communist periods: party control and dissidence; national economic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE ST CM126",
+      "dept": "C&EE ST",
+      "number": "CM126",
+      "title": "Cold-War Central European Culture",
+      "units": 4.0,
+      "description": "(Formerly numbered C126.) (Same as European Languages and Transcultural Studies CM126.) Lecture, three hours. Examination of cold-war Central European culture through prism of prose fiction, essays, and film from 1947 to 1989. Analysis of strategies of Polish, Czech, Hungarian, and East German writers as articulation of tensions, contradictions, and compromises\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE ST M120",
+      "dept": "C&EE ST",
+      "number": "M120",
+      "title": "Women and Literature in Southeastern Europe",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M120.) Seminar, three hours. Examination of changing roles of women in Balkan countries (Albania, Bosnia-Herzegovina, Bulgaria, Croatia, Greece, Macedonia, Montenegro, Romania, Serbia, Slovenia, Turkey) in last forty years. Emphasis on cultural, social, political, and economic factors affecting women\u2019s roles during countries\u2019 transition from agricultural to industrial\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&EE ST M125",
+      "dept": "C&EE ST",
+      "number": "M125",
+      "title": "Interwar Central European Prose",
+      "units": 4.0,
+      "description": "(Formerly numbered 125.) (Same as European Languages and Transcultural Studies M125.) Lecture, three hours. Analysis of selected novels, stories, plays, and essays of representative authors of 1920s and 1930s in translation. Special attention to relation between literature and historical and ethnic concerns. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CZCH 101A",
+      "dept": "CZCH",
+      "number": "101A",
+      "title": "Introduction to Czech Language and Culture",
+      "units": 5.0,
+      "description": "Lecture, five hours. Course 101A is recommended preparation for 101B, which is recommended preparation for 101C. Each course may be waived with consent of instructor. Beginning Czech language course with strong cultural component. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CZCH 101B",
+      "dept": "CZCH",
+      "number": "101B",
+      "title": "Introduction to Czech Language and Culture",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: course 101A (may be waived with consent of instructor). Beginning Czech language course with strong cultural component. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CZCH 101C",
+      "dept": "CZCH",
+      "number": "101C",
+      "title": "Introduction to Czech Language and Culture",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: courses 101A, 101B (may be waived with consent of instructor). Beginning Czech language course with strong cultural component. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CZCH 102A",
+      "dept": "CZCH",
+      "number": "102A",
+      "title": "Advanced Czech",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 101C (may be waived with consent of instructor). Course 102A is recommended preparation for 102B, which is recommended preparation for 102C. Each course may be waived with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CZCH 102B",
+      "dept": "CZCH",
+      "number": "102B",
+      "title": "Advanced Czech",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 102A (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CZCH 102C",
+      "dept": "CZCH",
+      "number": "102C",
+      "title": "Advanced Czech",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CZCH 155",
+      "dept": "CZCH",
+      "number": "155",
+      "title": "Survey of Czech Literature from Middle Ages to Present",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120A",
+      "dept": "HIST",
+      "number": "120A",
+      "title": "East-Central Europe: Long 19th Century, 1780 to 1914",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis of characteristics of peripheral 19th-century capitalism, effort to modernize and catch up, and factors and consequences of its partial failure in economy, politics, and culture. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120B",
+      "dept": "HIST",
+      "number": "120B",
+      "title": "East-Central Europe: Short 20th Century, 1918 to 1990",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Analysis and interpretation of stormy history of crisis zone of Europe where wars, revolts and revolutions, and different types of extremisms led to historical detour: 70 years of departure from Western values and at last effort to turn back\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120C",
+      "dept": "HIST",
+      "number": "120C",
+      "title": "East-Central Europe in Transition, 1988 to 1993",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. State-socialism and Soviet domination collapsed in East-Central Europe in 1989. Analysis of cause and consequence of collapse, as well as road of transformation in seven (now 12) countries of region; international circumstances and domestic political, social, and economic processes.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIST 120D",
+      "dept": "HIST",
+      "number": "120D",
+      "title": "Film and History: Central and Eastern Europe, 1945 to 1989",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Postwar history of central and eastern Europe (1945 to 1989), using eight Czech, Polish, and Hungarian films to explore life under state socialist modernization dictatorship. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNGAR 101A",
+      "dept": "HNGAR",
+      "number": "101A",
+      "title": "Elementary Hungarian",
+      "units": 4.0,
+      "description": "Lecture, three to four hours. Course 101A is recommended preparation for 101B, which is recommended preparation for 101C. Each course may be waived with consent of instructor. Introduction to grammar; instruction in speaking, listening, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNGAR 101B",
+      "dept": "HNGAR",
+      "number": "101B",
+      "title": "Elementary Hungarian",
+      "units": 4.0,
+      "description": "Lecture, three to four hours. Recommended preparation: course 101A (may be waived with consent of instructor). Introduction to grammar; instruction in speaking, listening, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNGAR 101C",
+      "dept": "HNGAR",
+      "number": "101C",
+      "title": "Elementary Hungarian",
+      "units": 4.0,
+      "description": "Lecture, three to four hours. Recommended preparation: courses 101A, 101B (may be waived with consent of instructor). Introduction to grammar; instruction in speaking, listening, reading, and writing. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNGAR 102A",
+      "dept": "HNGAR",
+      "number": "102A",
+      "title": "Advanced Hungarian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 101C (may be waived with consent of instructor). Course 102A is recommended preparation for 102B, which is recommended preparation for 102C. Each course may be waived with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNGAR 102B",
+      "dept": "HNGAR",
+      "number": "102B",
+      "title": "Advanced Hungarian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 102A (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HNGAR 102C",
+      "dept": "HNGAR",
+      "number": "102C",
+      "title": "Advanced Hungarian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 101A",
+      "dept": "POLSH",
+      "number": "101A",
+      "title": "Elementary Polish",
+      "units": 5.0,
+      "description": "Lecture, five hours. Course 101A is recommended preparation for 101B, which is recommended preparation for 101C. Each course may be waived with consent of instructor. Basic course in Polish language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 101B",
+      "dept": "POLSH",
+      "number": "101B",
+      "title": "Elementary Polish",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: course 101A (may be waived with consent of instructor). Basic course in Polish language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 101C",
+      "dept": "POLSH",
+      "number": "101C",
+      "title": "Elementary Polish",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: courses 101A, 101B (may be waived with consent of instructor). Basic course in Polish language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 102A",
+      "dept": "POLSH",
+      "number": "102A",
+      "title": "Advanced Polish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 101C (may be waived with consent of instructor). Course 102A is recommended preparation for 102B, which is recommended preparation for 102C. Each course may be waived with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 102B",
+      "dept": "POLSH",
+      "number": "102B",
+      "title": "Advanced Polish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 102A (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 102C",
+      "dept": "POLSH",
+      "number": "102C",
+      "title": "Advanced Polish",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 152A",
+      "dept": "POLSH",
+      "number": "152A",
+      "title": "Survey of Polish Literature: From the Middle Ages to Neoclassicism",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 152B",
+      "dept": "POLSH",
+      "number": "152B",
+      "title": "Survey of Polish Literature: Reimagining a Nation",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Readings in 19th-century Polish literature and culture. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "POLSH 152C",
+      "dept": "POLSH",
+      "number": "152C",
+      "title": "Survey of Polish Literature: Dreaming, Mocking, and Writing \"as if\"",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Readings in modern Polish literature and culture. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 101A",
+      "dept": "ROMANIA",
+      "number": "101A",
+      "title": "Elementary Romanian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Course 101A is recommended preparation for 101B, which is recommended preparation for 101C. Each course may be waived with consent of instructor. Basic course in Romanian language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 101B",
+      "dept": "ROMANIA",
+      "number": "101B",
+      "title": "Elementary Romanian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: course 101A (may be waived with consent of instructor). Basic course in Romanian language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 101C",
+      "dept": "ROMANIA",
+      "number": "101C",
+      "title": "Elementary Romanian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: courses 101A, 101B (may be waived with consent of instructor). Basic course in Romanian language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 102A",
+      "dept": "ROMANIA",
+      "number": "102A",
+      "title": "Advanced Romanian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: course 101C (may be waived with consent of instructor). Course 102A is recommended preparation for 102B, which is recommended preparation for 102C. Each course may be waived with consent of instructor. Differences between oral and written discourse, expansion of students\u2019 general and academic vocabulary, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 102B",
+      "dept": "ROMANIA",
+      "number": "102B",
+      "title": "Advanced Romanian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: course 102A (may be waived with consent of instructor). Differences between oral and written discourse, expansion of students\u2019 general and academic vocabulary, and increase of range of grammatical structures for use in speaking and writing. Cultural information to be included in readings. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 102C",
+      "dept": "ROMANIA",
+      "number": "102C",
+      "title": "Advanced Romanian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). Differences between oral and written discourse, expansion of students\u2019 general and academic vocabulary, and increase of range of grammatical structures for use in speaking and writing. Cultural information to be included in readings. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 103",
+      "dept": "ROMANIA",
+      "number": "103",
+      "title": "Intensive Elementary Romanian",
+      "units": 12.0,
+      "description": "Lecture, 25 hours. Intensive basic course in Romanian equivalent to courses 101A, 101B, 101C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ROMANIA 152",
+      "dept": "ROMANIA",
+      "number": "152",
+      "title": "Survey of Romanian Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Survey of Romanian literature from Middle Ages to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 100A",
+      "dept": "RUSSN",
+      "number": "100A",
+      "title": "Literacy in Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Course 100A or Russian placement test is enforced requisite to 100B; course 100B or Russian placement test is enforced requisite to 100C. For students who speak Russian but have difficulty reading and writing. Focus on improving reading and writing skills, increasing vocabulary, and developing speaking skills required\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "RUSSN 100B"
+      ]
+    },
+    {
+      "course_id": "RUSSN 100B",
+      "dept": "RUSSN",
+      "number": "100B",
+      "title": "Literacy in Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100A or Russian placement test. For students who speak Russian but have difficulty reading and writing. Focus on improving reading and writing skills, increasing vocabulary, and developing speaking skills required for academic discourse. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100A or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "RUSSN 100A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 100C"
+      ]
+    },
+    {
+      "course_id": "RUSSN 100C",
+      "dept": "RUSSN",
+      "number": "100C",
+      "title": "Literacy in Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 100B or Russian placement test. For students who speak Russian but have difficulty reading and writing. Focus on improving reading and writing skills, increasing vocabulary, and developing speaking skills required for academic discourse. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100B or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 100B",
+            "Russian placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 101A",
+      "dept": "RUSSN",
+      "number": "101A",
+      "title": "Third-Year Russian",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: course 6 or Russian placement test. Course 101A or Russian placement test is enforced requisite to 101B; course 101B or Russian placement test is enforced requisite to 101C. Advanced grammar, reading, and conversation, with strong multimedia component. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 6 or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 6",
+            "Russian placement test"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 101B"
+      ]
+    },
+    {
+      "course_id": "RUSSN 101B",
+      "dept": "RUSSN",
+      "number": "101B",
+      "title": "Third-Year Russian",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: course 101A or Russian placement test. Advanced grammar, reading, and conversation, with strong multimedia component. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101A or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 101A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 101C"
+      ]
+    },
+    {
+      "course_id": "RUSSN 101C",
+      "dept": "RUSSN",
+      "number": "101C",
+      "title": "Third-Year Russian",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours. Enforced requisite: course 101B or Russian placement test. Advanced grammar, reading, and conversation, with strong multimedia component. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 101B or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 101B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 102A"
+      ]
+    },
+    {
+      "course_id": "RUSSN 102A",
+      "dept": "RUSSN",
+      "number": "102A",
+      "title": "Topics in Advanced/Superior Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Russian placement test. Course 102A or Russian placement test is enforced requisite to 102B; course 102B or Russian placement test is enforced requisite to 102C. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101C or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 101C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 102B"
+      ]
+    },
+    {
+      "course_id": "RUSSN 102B",
+      "dept": "RUSSN",
+      "number": "102B",
+      "title": "Topics in Advanced/Superior Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 102A or Russian placement test. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction and nonfiction, films, and videos, and use of Internet. May be taken independently and may be repeated for credit. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 102A or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 102A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "RUSSN 102C"
+      ]
+    },
+    {
+      "course_id": "RUSSN 102C",
+      "dept": "RUSSN",
+      "number": "102C",
+      "title": "Topics in Advanced/Superior Russian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Enforced requisite: course 102B or Russian placement test. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction and nonfiction, films, and videos, and use of Internet. May be taken independently and may be repeated for credit. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 102B or Russian placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "RUSSN 102B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 103A",
+      "dept": "RUSSN",
+      "number": "103A",
+      "title": "Russian for Native and Near-Native Speakers: Russian National Identity",
+      "units": 4.0,
+      "description": "Lecture, three hours. Course 103A is not requisite to 103B, which is not requisite to 103C. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. Readings in literature, philosophy, criticism, film. May be repeated for credit with topic and/or instructor\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 103B",
+      "dept": "RUSSN",
+      "number": "103B",
+      "title": "Russian for Native and Near-Native Speakers: Literature and Film",
+      "units": 4.0,
+      "description": "Lecture, three hours. Course 103A is not requisite to 103B. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. Film adaptations of Russian literature. Readings and screenings. May be repeated for credit with topic and/or instructor change. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 103C",
+      "dept": "RUSSN",
+      "number": "103C",
+      "title": "Russian for Native and Near-Native Speakers: Special Topics",
+      "units": 4.0,
+      "description": "Lecture, three hours. Course 103B is not requisite to 103C. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 119",
+      "dept": "RUSSN",
+      "number": "119",
+      "title": "Golden Age and Great Realists",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Russian majors are advised to take this course in their sophomore year. Lectures and readings in English. Survey of 19th-century Russian literature (Pushkin, Gogol, Tolstoy, Dostoevsky, Chekhov) in its cultural, political, and social contexts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 120",
+      "dept": "RUSSN",
+      "number": "120",
+      "title": "Literature and Revolution",
+      "units": 4.0,
+      "description": "Lecture, three hours. Designed for juniors/seniors. Russian majors are advised to take this course in their sophomore year. Lectures and readings in English. Major works of the 20th century (Belyi, Pasternak, Bulgakov, Solzhenitsyn, and others) from prerevolutionary avant-garde to the present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 130A",
+      "dept": "RUSSN",
+      "number": "130A",
+      "title": "Russian Poetry: Introduction to Analysis of Russian Poetry",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. Role of biography, cultural subtexts, rhetoric, and form in interpreting poetic texts. May be repeated for credit with topic and/or instructor change.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN 140A",
+      "dept": "RUSSN",
+      "number": "140A",
+      "title": "Russian Prose Fiction: Introduction to Analysis of Russian Narrative Prose",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: third-year Russian recommended. Lectures and readings in Russian. Close analysis of genre, narrative, and rhetorical strategies and interplay of literature, history, and culture. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124C",
+      "dept": "RUSSN",
+      "number": "C124C",
+      "title": "Studies in Russian Literature: Chekhov",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Survey of short stories, novellas, and major plays (The Seagull, Uncle Vanya, Three Sisters, The Cherry Orchard), with discussion of Russian and American productions. Concurrently scheduled with course C224C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124D",
+      "dept": "RUSSN",
+      "number": "C124D",
+      "title": "Studies in Russian Literature: Dostoevsky",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. In-depth reading of major fictional works such as Crime and Punishment, Notes from the Underground, and The Brothers Karamazov. Concurrently scheduled with course C224D. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124N",
+      "dept": "RUSSN",
+      "number": "C124N",
+      "title": "Studies in Russian Literature: Nabokov",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Russian novelist (The Gift), American novelist (Lolita), autobiographer (Speak Memory), and critic. Concurrently scheduled with course C277. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN C124T",
+      "dept": "RUSSN",
+      "number": "C124T",
+      "title": "Studies in Russian Literature: Tolstoy",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Early and late stories and novellas, excerpts from the diaries and one major novel such as War and Peace or Anna Karenina. Concurrently scheduled with course C224T. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN CM124G",
+      "dept": "RUSSN",
+      "number": "CM124G",
+      "title": "Studies in Little Russian Literature: Gogol",
+      "units": 4.0,
+      "description": "(Formerly numbered C124G.) (Same as Ukrainian CM124G.) Lecture, three hours. Lectures and readings in English. Short stories, novel Dead Souls, and selected plays. Concurrently scheduled with course CM224G. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RUSSN M118",
+      "dept": "RUSSN",
+      "number": "M118",
+      "title": "History of Russia, Origins to Rise of Muscovy",
+      "units": 4.0,
+      "description": "(Same as History M127A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Kievan Rus\u2019 and its culture, Appanage principalities and towns; Mongol invasion; unification of Russian state by Muscovy, Autocracy and its Servitors; serfdom. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SLAVC 191TA",
+      "dept": "SLAVC",
+      "number": "191TA",
+      "title": "Senior Capstone Thesis in Slavic Languages and Literatures",
+      "units": 2.0,
+      "description": "Seminar, three hours. Limited to senior departmental majors. Planning and completion of senior capstone thesis. Introduction to research methods and presentation skills; use of student target language for research required. Verbal and written presentations required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SLAVC 191TB"
+      ]
+    },
+    {
+      "course_id": "SLAVC 191TB",
+      "dept": "SLAVC",
+      "number": "191TB",
+      "title": "Senior Capstone Thesis in Slavic Languages and Literatures",
+      "units": 2.0,
+      "description": "Seminar, three hours. Enforced requisite: course 191TA. Limited to senior departmental majors. Editing and completion of senior capstone thesis. Use of student target language for research required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 191TA.",
+      "prereqs_parsed": {
+        "required": [
+          "SLAVC 191TA"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SLAVC 191TC"
+      ]
+    },
+    {
+      "course_id": "SLAVC 191TC",
+      "dept": "SLAVC",
+      "number": "191TC",
+      "title": "Senior Capstone Thesis in Slavic Languages and Literatures",
+      "units": 2.0,
+      "description": "Seminar, three hours. Enforced requisite: course 191TB. Limited to senior departmental majors. Editing and completion of senior capstone thesis. Use of student target language for research required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 191TB.",
+      "prereqs_parsed": {
+        "required": [
+          "SLAVC 191TB"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SLAVC 198A",
+      "dept": "SLAVC",
+      "number": "198A",
+      "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Limited to senior departmental honors program students. Development of research bibliography and survey of literature in field of Slavic, East European, and Eurasian languages and cultures. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to report on progress and discuss readings. Individual\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "SLAVC 198B",
+        "SLAVC 198C"
+      ]
+    },
+    {
+      "course_id": "SLAVC 198B",
+      "dept": "SLAVC",
+      "number": "198B",
+      "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisite: course 198A. Limited to senior departmental honors program students. Research and writing field of Slavic, East European, and Eurasian languages and cultures under direct supervision of faculty mentor. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to report on their research,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "SLAVC 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "SLAVC 198C"
+      ]
+    },
+    {
+      "course_id": "SLAVC 198C",
+      "dept": "SLAVC",
+      "number": "198C",
+      "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Requisites: courses 198A, 198B. Limited to senior departmental honors program students. Completion of honors thesis in field of Slavic, East European, and Eurasian languages and cultures. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to share drafts and revise writing. Thesis must\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 198A, 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "SLAVC 198A",
+          "SLAVC 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SLAVC 90",
+      "dept": "SLAVC",
+      "number": "90",
+      "title": "Introduction to Slavic Cultures",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introductory survey of social and cultural institutions of Slavic peoples and their historical background. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SRB CRO 101A",
+      "dept": "SRB CRO",
+      "number": "101A",
+      "title": "Elementary Serbian/Croatian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Course 101A is recommended preparation for 101B, which is recommended preparation for 101C. Each course may be waived with consent of instructor. Basic course in Serbian/Croatian. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SRB CRO 101B",
+      "dept": "SRB CRO",
+      "number": "101B",
+      "title": "Elementary Serbian/Croatian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: course 101A (may be waived with consent of instructor). Basic course in Serbian/Croatian. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SRB CRO 101C",
+      "dept": "SRB CRO",
+      "number": "101C",
+      "title": "Elementary Serbian/Croatian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: courses 101A, 101B (may be waived with consent of instructor). Basic course in Serbian/Croatian. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SRB CRO 102A",
+      "dept": "SRB CRO",
+      "number": "102A",
+      "title": "Advanced Serbian/Croatian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 101C (may be waived with consent of instructor). Course 102A is recommended preparation for 102B, which is recommended preparation for 102C. Each course may be waived with consent of instructor. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SRB CRO 102B",
+      "dept": "SRB CRO",
+      "number": "102B",
+      "title": "Advanced Serbian/Croatian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 102A (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SRB CRO 102C",
+      "dept": "SRB CRO",
+      "number": "102C",
+      "title": "Advanced Serbian/Croatian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SRB CRO 103",
+      "dept": "SRB CRO",
+      "number": "103",
+      "title": "Intensive Elementary Bosnian, Serbian, Croatian",
+      "units": 12.0,
+      "description": "Lecture, 25 hours. Intensive basic course in Bosnian, Serbian, Croatian equivalent to courses 101A, 101B, 101C. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "UKRN 101A",
+      "dept": "UKRN",
+      "number": "101A",
+      "title": "Elementary Ukrainian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Course 101A is recommended preparation for 101B, which is recommended preparation for 101C. Each course may be waived with consent of instructor. Basic course in Ukrainian language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "UKRN 101B",
+      "dept": "UKRN",
+      "number": "101B",
+      "title": "Elementary Ukrainian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: course 101A (may be waived with consent of instructor). Basic course in Ukrainian language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "UKRN 101C",
+      "dept": "UKRN",
+      "number": "101C",
+      "title": "Elementary Ukrainian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Recommended preparation: courses 101A, 101B (may be waived with consent of instructor). Basic course in Ukrainian language. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "UKRN 102A",
+      "dept": "UKRN",
+      "number": "102A",
+      "title": "Advanced Ukrainian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 101C (may be waived with consent of instructor). Course 102A is recommended preparation for 102B, which is recommended preparation for 102C. Each course may be waived with consent of instructor. Development of advanced listening, speaking, reading, and writing skills. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "UKRN 102B",
+      "dept": "UKRN",
+      "number": "102B",
+      "title": "Advanced Ukrainian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: course 102A (may be waived with consent of instructor). Development of advanced listening, speaking, reading, and writing skills. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "UKRN 102C",
+      "dept": "UKRN",
+      "number": "102C",
+      "title": "Advanced Ukrainian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Recommended preparation: courses 102A, 102B (may be waived with consent of instructor). Development of advanced listening, speaking, reading, and writing skills. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "UKRN 152",
+      "dept": "UKRN",
+      "number": "152",
+      "title": "Ukrainian Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Lectures and readings in English. Survey of writers, literary trends, and issues in Ukrainian literature from the late 18th century to the present. Special attention to works of such major figures as Kotlyarevsky, Shevchenko, Franko, Ukrainka, and Tychyna.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

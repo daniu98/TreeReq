@@ -6,12 +6,25 @@
  *  - edges: [{ source, target, type }]   // type: required | corequisite | one_of
  *  - requirements: [{ category, type, choose_n, courses, section? }]
  */
+import { apiUrl } from "./apiBase.js";
+
 export async function fetchMajorTree(majorId) {
-  const url = `/api/majors/${encodeURIComponent(majorId)}/tree`;
+  const url = apiUrl(`/api/majors/${encodeURIComponent(majorId)}/tree`);
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error(`Failed to load tree for ${majorId} (${response.status})`);
   }
+  return response.json();
+}
+
+/**
+ * Fetch full course details (description, prereqs_parsed, etc.) for a single course.
+ */
+export async function fetchCourseDetails(courseId) {
+  const encodedId = courseId.replace(/ /g, "+");
+  const url = apiUrl(`/api/courses/${encodedId}`);
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`${response.status}`);
   return response.json();
 }
 

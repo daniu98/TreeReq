@@ -223,7 +223,7 @@ export default function LandingMain({
         flex: 1,
         position: "relative",
         background: "#fff",
-        overflow: "auto",
+        overflow: "visible",
         minWidth: 0,
       }}
     >

@@ -1,0 +1,2879 @@
+{
+  "major_id": "computational-biology-bs",
+  "major_name": "Computational Biology BS",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/ComputationalBiologyBS",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "C&S BIO 10",
+        "LIFESCI 7A",
+        "LIFESCI 7B",
+        "LIFESCI 7C"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHEM 14A",
+            "CHEM 14B",
+            "CHEM 20A",
+            "CHEM 20B",
+            "CHEM 20L"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "COM SCI 31",
+            "COMPTNG 10A"
+          ]
+        },
+        {
+          "choose_n": "5-6",
+          "courses": [
+            "C&S BIO M32",
+            "LIFESCI 30A",
+            "LIFESCI 30B",
+            "LIFESCI 40",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B",
+            "MATH 31A",
+            "MATH 31AL"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "BIOENGR": [
+      "BIOENGR C102"
+    ],
+    "BIOMATH": [
+      "BIOMATH 206"
+    ],
+    "C&S BIO": [
+      "C&S BIO 10",
+      "C&S BIO 100",
+      "C&S BIO 185",
+      "C&S BIO 195",
+      "C&S BIO 198A",
+      "C&S BIO 198B",
+      "C&S BIO 199",
+      "C&S BIO M130",
+      "C&S BIO M150",
+      "C&S BIO M178",
+      "C&S BIO M184",
+      "C&S BIO M186",
+      "C&S BIO M187",
+      "C&S BIO M32"
+    ],
+    "CHEM": [
+      "CHEM 14A",
+      "CHEM 14B",
+      "CHEM 153A",
+      "CHEM 153B",
+      "CHEM 20A",
+      "CHEM 20B",
+      "CHEM 20L"
+    ],
+    "COM SCI": [
+      "COM SCI 161",
+      "COM SCI 168",
+      "COM SCI 180",
+      "COM SCI 226",
+      "COM SCI 31",
+      "COM SCI 32",
+      "COM SCI C121",
+      "COM SCI C122",
+      "COM SCI C124",
+      "COM SCI M146",
+      "COM SCI M182"
+    ],
+    "COMPTNG": [
+      "COMPTNG 10A",
+      "COMPTNG 10B",
+      "COMPTNG 10C"
+    ],
+    "EC ENGR": [
+      "EC ENGR 102",
+      "EC ENGR 113",
+      "EC ENGR C143A",
+      "EC ENGR C147A"
+    ],
+    "EE BIOL": [
+      "EE BIOL 100",
+      "EE BIOL 116",
+      "EE BIOL 120",
+      "EE BIOL 129",
+      "EE BIOL 161",
+      "EE BIOL 170",
+      "EE BIOL C119A",
+      "EE BIOL C119B",
+      "EE BIOL C135",
+      "EE BIOL C172",
+      "EE BIOL C174"
+    ],
+    "EPIDEM": [
+      "EPIDEM 100"
+    ],
+    "LIFESCI": [
+      "LIFESCI 107",
+      "LIFESCI 30A",
+      "LIFESCI 30B",
+      "LIFESCI 40",
+      "LIFESCI 7A",
+      "LIFESCI 7B",
+      "LIFESCI 7C"
+    ],
+    "MATH": [
+      "MATH 134",
+      "MATH 135",
+      "MATH 136",
+      "MATH 142",
+      "MATH 146",
+      "MATH 155",
+      "MATH 156",
+      "MATH 164",
+      "MATH 168",
+      "MATH 171",
+      "MATH 182",
+      "MATH 31A",
+      "MATH 31AL",
+      "MATH 31B",
+      "MATH 33A",
+      "MATH 33B",
+      "MATH M32T"
+    ],
+    "MCD BIO": [
+      "MCD BIO 100",
+      "MCD BIO 138",
+      "MCD BIO 144",
+      "MCD BIO 165A",
+      "MCD BIO 187AL",
+      "MCD BIO CM156",
+      "MCD BIO M140"
+    ],
+    "MIMG": [
+      "MIMG 101",
+      "MIMG 102",
+      "MIMG 168",
+      "MIMG 185A"
+    ],
+    "NEURO": [
+      "NEURO 205",
+      "NEURO 260"
+    ],
+    "NEUROSC": [
+      "NEUROSC 102",
+      "NEUROSC M101A",
+      "NEUROSC M101B"
+    ],
+    "PHYSCI": [
+      "PHYSCI 125",
+      "PHYSCI 149",
+      "PHYSCI 166",
+      "PHYSCI C144"
+    ],
+    "PHYSICS": [
+      "PHYSICS 1A",
+      "PHYSICS 1AH",
+      "PHYSICS 1B",
+      "PHYSICS 1BH",
+      "PHYSICS 1C",
+      "PHYSICS 1CH",
+      "PHYSICS 5A",
+      "PHYSICS 5B",
+      "PHYSICS 5C",
+      "PHYSICS C186"
+    ],
+    "PSYCH": [
+      "PSYCH 115",
+      "PSYCH 119M"
+    ],
+    "STATS": [
+      "STATS 10",
+      "STATS 101A",
+      "STATS 101C",
+      "STATS C161",
+      "STATS M254"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "BIOENGR C102",
+      "dept": "BIOENGR",
+      "number": "C102",
+      "title": "Physiology for Engineers",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: human molecular biology, biochemistry, and cell biology. Not open for credit to Physiological Science majors. Broad overview of basic biological activities and organization of human body in system (organ/tissue) to system basis, with particular emphasis on molecular basis. Modeling/simulation of functional aspect of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "BIOMATH 206",
+      "dept": "BIOMATH",
+      "number": "206",
+      "title": "Introduction to Mathematical Oncology",
+      "units": 4.0,
+      "description": "Lecture, four hours; computer laboratory, two hours. Preparation: ordinary partial differential equations, one computer programming course. Deterministic and stochastic modeling of cell metabolism, colony growth, and responses to radio-, chemo-, and immunotherapeutic agents applied to carcinogenesis, therapy, emergence of resistance to therapy. Simulation, optimization methods introduced. Current literature review. S/U\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO 10",
+      "dept": "C&S BIO",
+      "number": "10",
+      "title": "Preparation for Research in Computational Biology",
+      "units": 3.0,
+      "description": "Lecture, two and one half hours. Provides students with basic understanding of several computational tools used in molecular biology research. Focus on practical application of these tools rather than deep theoretical understanding. Creates more inclusive and accessible experience for learners. Students are introduced to computational tools for carrying out research\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO 100",
+      "dept": "C&S BIO",
+      "number": "100",
+      "title": "Data Science and Statistics for Life Scientists",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Requisites: Computer Science 31 or Program in Computing 10A; Life Sciences 30A and 30B, or Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Life Sciences 40 or Psychology 100A or Statistics 10 or 13. Modern statistics and data science study that builds\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Computer Science 31 or Program in Computing 10A; Life Sciences 30A and 30B, or Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Life Sciences 40 or Psychology 100A or Statistics 10 or 13.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM SCI 31",
+            "PIC 10A"
+          ],
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B",
+            "MATH 3C"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A"
+          ],
+          [
+            "LIFE SCI 40",
+            "PSYCH 100A",
+            "STAT 10",
+            "STAT 13"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO 185",
+      "dept": "C&S BIO",
+      "number": "185",
+      "title": "Thesis Research Opportunities in Computational and Systems Biology",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, two hours. Requisites: course M184, Life Sciences 7C, Mathematics 33A, 33B. Introduction to interdisciplinary laboratory research methods and research opportunities in computational and systems biology to prepare and initiate students for active engagement in research. Presentation of potential projects by faculty members and student visits to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M184, Life Sciences 7C, Mathematics 33A, 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "C&S BIO M184",
+          "LIFE SCI 7C",
+          "MATH 33A",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO 195",
+      "dept": "C&S BIO",
+      "number": "195",
+      "title": "Community or Corporate Internships in Computational and Systems Biology",
+      "units": 4.0,
+      "description": "Tutorial, eight hours. Limited to juniors/seniors. Supervised internship under guidance of faculty mentor. Further supervision to be provided by organization for which students are doing internship. Students may be required to meet on regular basis with instructor and provide periodic reports of their experience. Culminating report/project required. May be repeated\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO 198A",
+      "dept": "C&S BIO",
+      "number": "198A",
+      "title": "Honors Research in Computational and Systems Biology",
+      "units": 4.0,
+      "description": "Tutorial, 12 hours. Requisite: course M150. Limited to Computational and Systems Biology students. Supervised individual research involving extensive reading and development of honors thesis or comprehensive project under guidance of faculty mentor. Maximum of 8 units of courses 198A and 198B may be applied toward major. Individual contract required. In\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course M150.",
+      "prereqs_parsed": {
+        "required": [
+          "C&S BIO M150"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO 198B"
+      ]
+    },
+    {
+      "course_id": "C&S BIO 198B",
+      "dept": "C&S BIO",
+      "number": "198B",
+      "title": "Honors Research in Computational and Systems Biology",
+      "units": 4.0,
+      "description": "Tutorial, 12 hours. Requisite: course 198A. Continued reading and research culminating in honors thesis under direct supervision of faculty member. Maximum of 8 units of courses 198A and 198B may be applied toward major. Individual contact required. Letter grading.",
+      "prereqs_raw": "Requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "C&S BIO 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO 199",
+      "dept": "C&S BIO",
+      "number": "199",
+      "title": "Directed Research in Computational and Systems Biology",
+      "units": 4.0,
+      "description": "Tutorial, 12 hours. Limited to juniors/seniors. Supervised individual research under guidance of faculty mentor. Culminating report/thesis required. May be repeated for credit. Four units may be applied toward major requirements. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "C&S BIO M187"
+      ]
+    },
+    {
+      "course_id": "C&S BIO M130",
+      "dept": "C&S BIO",
+      "number": "M130",
+      "title": "Fundamentals of Digital Imaging and Image Processing",
+      "units": 5.0,
+      "description": "(Same as Molecular, Cell, and Developmental Biology M130.) Lecture, three hours; laboratory, two hours. Requisites: Life Sciences 7A, 7B, 7C, and Life Sciences 30A, 30B, and 40 or Statistics 13, or Mathematics 3A, 3B, and 3C, or Mathematics 31A, 31B, and 32A or 33A. Digital imaging has become integral tool\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 7A, 7B, 7C, and Life Sciences 30A, 30B, and 40 or Statistics 13, or Mathematics 3A, 3B, and 3C, or Mathematics 31A, 31B, and 32A or 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C",
+          "LIFE SCI 30A",
+          "LIFE SCI 30B",
+          "LIFE SCI 40"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STAT 13"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B",
+            "MATH 3C"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 33A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO M150",
+      "dept": "C&S BIO",
+      "number": "M150",
+      "title": "Biological Modeling: Mathematical and Computational Approaches",
+      "units": 5.0,
+      "description": "(Same as Ecology and Evolutionary Biology M159.) Lecture, four hours; laboratory, three hours. Requisites: Life Sciences 7A, 7B, 7C, Mathematics 33A and 33B, with grades of C or better. Recommended Requisites: Physics 1A, 1B, and 1C, or 5A, 5B, and 5C, with grades of C or better. Students learn how\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 7A, 7B, 7C, Mathematics 33A and 33B, with grades of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C",
+          "MATH 33A",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO 198A",
+        "C&S BIO M187"
+      ]
+    },
+    {
+      "course_id": "C&S BIO M178",
+      "dept": "C&S BIO",
+      "number": "M178",
+      "title": "Quantitative Regulatory Biology and Signal Transduction",
+      "units": 4.0,
+      "description": "(Same as Microbiology M178 and Physiological Science M178.) Lecture, three hours; laboratory, one hour. Requisites: Life Sciences 7A, 7B, 7C, 30A, 30B. Introduction to key biological regulatory circuit motifs and systems biology concepts that are critical to understanding how cellular responses are controlled. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 7A, 7B, 7C, 30A, 30B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C",
+          "LIFE SCI 30A",
+          "LIFE SCI 30B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO M184",
+      "dept": "C&S BIO",
+      "number": "M184",
+      "title": "Introduction to Computational and Systems Biology",
+      "units": 2.0,
+      "description": "(Same as Bioengineering M184 and Computer Science M184.) Lecture, two hours; outside study, four hours. Enforced requisites: one course from Civil Engineering M20, Computer Science 31, Mechanical and Aerospace Engineering M20, or Program in Computing 10A; and Life Sciences 30B or Mathematics 3B or 31B. Survey course designed to introduce\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: one course from Civil Engineering M20, Computer Science 31, Mechanical and Aerospace Engineering M20, or Program in Computing 10A; and Life Sciences 30B or Mathematics 3B or 31B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CIV ENG M20",
+            "COM SCI 31",
+            "MAE M20",
+            "COMP 10A"
+          ],
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO 185"
+      ]
+    },
+    {
+      "course_id": "C&S BIO M186",
+      "dept": "C&S BIO",
+      "number": "M186",
+      "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+      "units": 5.0,
+      "description": "(Same as Bioengineering CM186, Computer Science CM186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and computer simulation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A",
+            "MATH 33A",
+            "MATH 33B"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH M32T",
+            "MATH 33A",
+            "MATH 33B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO M187"
+      ]
+    },
+    {
+      "course_id": "C&S BIO M187",
+      "dept": "C&S BIO",
+      "number": "M187",
+      "title": "Research Communication in Computational and Systems Biology",
+      "units": 4.0,
+      "description": "(Same as Bioengineering CM187 and Computer Science CM187.) Lecture, four hours; outside study, eight hours. Requisites: course M150 or M186 or Computer Science M182; and research experience (course 199, Bioengineering, Computer Science 199, or equivalent). Closely directed, interactive, and real research experience in active quantitative systems biology research laboratory. Direction\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M150 or M186 or Computer Science M182; and research experience (course 199, Bioengineering, Computer Science 199, or equivalent).",
+      "prereqs_parsed": {
+        "required": [
+          "C&S BIO 199"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "C&S BIO M150",
+          "C&S BIO M186",
+          "COM SCI M182"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "C&S BIO M32",
+      "dept": "C&S BIO",
+      "number": "M32",
+      "title": "Essential Calculus for Mathematical Biologists",
+      "units": 4.0,
+      "description": "(Same as Mathematics M32T and Life Sciences M32.) Lecture, three hours; discussion, one hour. Requisites: Life Sciences 30A, 30B. Not open to students with credit for Mathematics 31A, 31B, 32A, or 32B. Designed for life sciences students. Methods and results of single and multivariable calculus essential for quantitative training in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 30A",
+          "LIFE SCI 30B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 14A",
+      "dept": "CHEM",
+      "number": "14A",
+      "title": "General Chemistry for Life Scientists I",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "LIFE SCI 30A",
+          "MATH 3A",
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "CHEM 20B",
+        "LIFESCI 107",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "CHEM 14B",
+      "dept": "CHEM",
+      "number": "14B",
+      "title": "General Chemistry for Life Scientists II",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH"
+        ],
+        "corequisites": [
+          "LIFE SCI 30B",
+          "MATH 3B",
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ],
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31B"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 153A",
+      "dept": "CHEM",
+      "number": "153A",
+      "title": "Biochemistry: Introduction to Structure, Enzymes, and Metabolism",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C\u2013 or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "CHEM 153B",
+        "MIMG 185A"
+      ]
+    },
+    {
+      "course_id": "CHEM 153B",
+      "dept": "CHEM",
+      "number": "153B",
+      "title": "Biochemistry: DNA, RNA, and Protein Synthesis",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisite: course 153A or 153AH. Recommended: Life Sciences 2, 3, and 23L, or 7A and 7B. Nucleotide metabolism; DNA replication; DNA repair; transcription machinery; regulation of transcription; RNA structure and processing; protein synthesis and processing. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 153A or 153AH.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CHEM 153A",
+          "CHEM 153AH"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHEM 20A",
+      "dept": "CHEM",
+      "number": "20A",
+      "title": "Chemical Structure",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 99"
+        ],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "CHEM 14B",
+        "CHEM 20B",
+        "LIFESCI 107",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "CHEM 20B",
+      "dept": "CHEM",
+      "number": "20B",
+      "title": "Chemical Energetics and Change",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSCI 166"
+      ]
+    },
+    {
+      "course_id": "CHEM 20L",
+      "dept": "CHEM",
+      "number": "20L",
+      "title": "General Chemistry Laboratory",
+      "units": 3.0,
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI 161",
+      "dept": "COM SCI",
+      "number": "161",
+      "title": "Fundamentals of Artificial Intelligence",
+      "units": 4.0,
+      "description": "Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 180. Introduction to fundamental problem solving and knowledge representation paradigms of artificial intelligence. Introduction to Lisp with regular programming assignments. State-space and problem reduction methods, brute-force and heuristic search, planning techniques, two-player games. Knowledge structures including predicate\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 180.",
+      "prereqs_parsed": {
+        "required": [
+          "COM SCI 180"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI 168",
+      "dept": "COM SCI",
+      "number": "168",
+      "title": "Computational Methods for Medical Imaging",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, Mathematics 33A, one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, 170E, or Statistics 100A. Theory and practice of image\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, Mathematics 33A, one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, 170E, or Statistics 100A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI 180",
+      "dept": "COM SCI",
+      "number": "180",
+      "title": "Introduction to Algorithms and Complexity",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: course 32, Mathematics 61. Designed for junior/senior Computer Science majors. Introduction to design and analysis of algorithms. Design techniques: divide-and-conquer, greedy method, dynamic programming; selection of prototypical algorithms; choice of data structures and representations; complexity measures: time, space,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 32, Mathematics 61.",
+      "prereqs_parsed": {
+        "required": [
+          "COM SCI 32",
+          "MATH 61"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COM SCI 161"
+      ]
+    },
+    {
+      "course_id": "COM SCI 226",
+      "dept": "COM SCI",
+      "number": "226",
+      "title": "Machine Learning in Computational Genomics",
+      "units": 4.0,
+      "description": "(Formerly numbered M226.) Lecture, four hours; outside study, eight hours. Enforced requisite: course 32 or Program in Computing 10C with grade of C\u2013 or better. Recommended: one course from Biostatistics 100A, 110A, Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, or Statistics 100A. Familiarity with probability, statistics, linear\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 32 or Program in Computing 10C with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM SCI 32"
+          ],
+          [
+            "PIC 10C"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI 31",
+      "dept": "COM SCI",
+      "number": "31",
+      "title": "Introduction to Computer Science I",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "C&S BIO 100",
+        "C&S BIO M184",
+        "COM SCI 32",
+        "MATH 155",
+        "MATH 156"
+      ]
+    },
+    {
+      "course_id": "COM SCI 32",
+      "dept": "COM SCI",
+      "number": "32",
+      "title": "Introduction to Computer Science II",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 31.",
+      "prereqs_parsed": {
+        "required": [
+          "COM SCI 31"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "COM SCI 180",
+        "COM SCI 226",
+        "COM SCI M146"
+      ]
+    },
+    {
+      "course_id": "COM SCI C121",
+      "dept": "COM SCI",
+      "number": "C121",
+      "title": "Probabilistic Models in Computational Genomics",
+      "units": 4.0,
+      "description": "(Formerly numbered CM121.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
+      "prereqs_parsed": {
+        "required": [
+          {
+            "one_of": [
+              "COM SCI 32",
+              "PROGRAM IN COMPUTING 10C"
+            ]
+          },
+          {
+            "one_of": [
+              "CEE 110",
+              "ECE 131A",
+              "MATH 170A",
+              "MATH 170E",
+              "STAT 100A"
+            ]
+          }
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI C122",
+      "dept": "COM SCI",
+      "number": "C122",
+      "title": "Algorithms in Computational Genomics",
+      "units": 4.0,
+      "description": "(Formerly numbered CM122.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Course C121 is not\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
+      "prereqs_parsed": {
+        "required": [
+          {
+            "one_of": [
+              "COM SCI 32",
+              "COMP PROG 10C"
+            ]
+          },
+          {
+            "one_of": [
+              "C E 110",
+              "ECE 131A",
+              "MATH 170A",
+              "MATH 170E",
+              "STAT 100A"
+            ]
+          }
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI C124",
+      "dept": "COM SCI",
+      "number": "C124",
+      "title": "Machine Learning Applications in Genetics",
+      "units": 4.0,
+      "description": "(Formerly numbered CM124.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, Mathematics 33A, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, Mathematics 33A, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI M146",
+      "dept": "COM SCI",
+      "number": "M146",
+      "title": "Introduction to Machine Learning",
+      "units": 4.0,
+      "description": "(Same as Electrical and Computer Engineering M146.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C; Civil and Environmental Engineering 110 or Electrical and Computer Engineering 131A or Mathematics 170A or 170E or Statistics 100A; Mathematics 33A. Introduction to breadth of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C; Civil and Environmental Engineering 110 or Electrical and Computer Engineering 131A or Mathematics 170A or 170E or Statistics 100A; Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COM SCI 32",
+            "PROGRAM IN COMPUTING 10C"
+          ],
+          [
+            "CEE 110",
+            "ECE 131A",
+            "MATH 170A",
+            "MATH 170E",
+            "STATS 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COM SCI M182",
+      "dept": "COM SCI",
+      "number": "M182",
+      "title": "Dynamic Biosystem Modeling and Simulation Methodology",
+      "units": 4.0,
+      "description": "(Same as Bioengineering M182.) Lecture, four hours; discussion, one hour; laboratory, two hours; outside study, five hours. Requisites: Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B. Recommended requisite or corequisite: Mathematics 3C, 32A, or 32T. For undergraduate students in life, computational, engineering, and mathematical\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30A",
+            "LIFE SCI 30B"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B"
+          ],
+          [
+            "COM SCI 31A",
+            "COM SCI 31B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO M187"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10A",
+      "dept": "COMPTNG",
+      "number": "10A",
+      "title": "Introduction to Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "COMPTNG 10B",
+      "dept": "COMPTNG",
+      "number": "10B",
+      "title": "Intermediate Programming",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "COMPTNG 10C"
+      ]
+    },
+    {
+      "course_id": "COMPTNG 10C",
+      "dept": "COMPTNG",
+      "number": "10C",
+      "title": "Advanced Programming",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 10B.",
+      "prereqs_parsed": {
+        "required": [
+          "COMPTNG 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR 102",
+      "dept": "EC ENGR",
+      "number": "102",
+      "title": "Systems and Signals",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Mathematics 33A. Corequisite: Mathematics 33B. Elements of differential equations, first- and second-order equations, variation of parameters method and method of undetermined coefficients, existence and uniqueness. Systems: input/output description, linearity, time-invariance, and causality. Impulse response functions, superposition and convolution integrals.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Mathematics 33A. Corequisite: Mathematics 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [
+          "MATH 33B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EC ENGR 113"
+      ]
+    },
+    {
+      "course_id": "EC ENGR 113",
+      "dept": "EC ENGR",
+      "number": "113",
+      "title": "Digital Signal Processing",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 102. Relationship between continuous-time and discrete-time signals. Z-transform. Discrete Fourier transform. Fast Fourier transform. Structures for digital filtering. Introduction to digital filter design techniques. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 102.",
+      "prereqs_parsed": {
+        "required": [
+          "EC ENGR 102"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR C143A",
+      "dept": "EC ENGR",
+      "number": "C143A",
+      "title": "Neural Signal Processing",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 131A, Mathematics 33A. Topics include fundamental properties of electrical activity in neurons; technology for measuring neural activity; spiking statistics and Poisson processes; generative models and classification; regression and Kalman filtering; principal components analysis, factor analysis, and expectation maximization.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 131A, Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "EC ENGR 131A",
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EC ENGR C147A",
+      "dept": "EC ENGR",
+      "number": "C147A",
+      "title": "Neural Networks and Deep Learning",
+      "units": 4,
+      "description": "The UCLA General Catalog is published annually in PDF and HTML formats. Every effort has been made to ensure the accuracy of the information presented in the UCLA General Catalog. However, all courses, course descriptions, instructor designations, curricular degree requirements, and fees described herein are subject to change or deletion without notice. Department websites referenced herein are published independently and may not reflect approved curricula and courses information. Consult this Catalog for the most current, officially approved courses and curricula.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 100",
+      "dept": "EE BIOL",
+      "number": "100",
+      "title": "Introduction to Ecology and Behavior",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 7B. Not open for credit to students with credit for course 118, 122, 124A, 124B, 125, C126, 129, 132, 134B, 136, or 151B. Introduction to methods and topics in ecology and behavior. Growth and regulation of populations, organization of communities and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 129"
+      ]
+    },
+    {
+      "course_id": "EE BIOL 116",
+      "dept": "EE BIOL",
+      "number": "116",
+      "title": "Conservation Biology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisite: Life Sciences 1 or 7B. Recommended: course 100. Not open for credit to students with credit for Environment 121. Study of ecological and evolutionary principles as they apply to preservation of genetic, species, and ecosystem diversity. Discussion sections focus on interactions of science,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 120",
+      "dept": "EE BIOL",
+      "number": "120",
+      "title": "Evolution",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Mathematics 3A and 3B (or 31A or Life Sciences 30B). Not open for credit to students with credit for course 185. Designed for departmental majors specializing in environmental and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Mathematics 3A and 3B (or 31A or Life Sciences 30B).",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 2",
+            "LIFE SCI 3",
+            "LIFE SCI 4",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [],
+        "additional": {
+          "math_requirement": [
+            [
+              "MATH 3A",
+              "MATH 3B"
+            ],
+            [
+              "MATH 31A"
+            ],
+            [
+              "LIFE SCI 30B"
+            ]
+          ]
+        }
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 129",
+      "dept": "EE BIOL",
+      "number": "129",
+      "title": "Animal Behavior",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 100, Life Sciences 1 or 7B. Introduction to behavioral ecology. Methods and results of evolutionary approaches to study of animal behavior, including foraging strategies, social competition, sexual selection, mating systems, cooperation, and social organization. Letter grading.",
+      "prereqs_raw": "Requisites: course 100, Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [
+          "EE BIOL 100"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 1",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 161",
+      "dept": "EE BIOL",
+      "number": "161",
+      "title": "Plant Ecology",
+      "units": 4.0,
+      "description": "Lecture, two and one half hours; discussion, one hour. Requisite: Life Sciences 1 or 7B. Introduction to ecology of terrestrial plants, covering individuals, populations, communities, and global processes. Topics include plant form and function, seed dormancy and population dynamics, life histories, disturbance and succession, community structure and dynamics, and global\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL 170",
+      "dept": "EE BIOL",
+      "number": "170",
+      "title": "Animal Environmental Physiology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, six hours. Requisites: Chemistry 14D, or 30B and 30BL, Life Sciences 1, 2, 3, 4, and 23L, or Life Sciences 7A, 7B, 7C, and 23L, 30B or Mathematics 3C or 32A, Physics 1C and 4BL, or 5B or 6C or 6CH. Not open for credit to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14D, or 30B and 30BL, Life Sciences 1, 2, 3, 4, and 23L, or Life Sciences 7A, 7B, 7C, and 23L, 30B or Mathematics 3C or 32A, Physics 1C and 4BL, or 5B or 6C or 6CH.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 14D",
+          "LIFE SCI 1",
+          "LIFE SCI 2",
+          "LIFE SCI 3",
+          "LIFE SCI 4",
+          "PHYSICS 1C",
+          "PHYSICS 4BL"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 30B",
+            "CHEM 30BL"
+          ],
+          [
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C",
+            "LIFE SCI 23L"
+          ],
+          [
+            "CHEM 30B",
+            "MATH 3C",
+            "MATH 32A"
+          ],
+          [
+            "PHYSICS 5B",
+            "PHYSICS 6C",
+            "PHYSICS 6CH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C119A",
+      "dept": "EE BIOL",
+      "number": "C119A",
+      "title": "Mathematical and Computational Modeling in Ecology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 30B or Mathematics 3B or 31A. Recommended: courses 100, 122, Life Sciences 1 or 7B, Mathematics 3C. Introduction to modeling dynamics of ecological systems, including formulation and analysis of mathematical models, basic techniques of scientific programming, probability and stochastic modeling, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 30B or Mathematics 3B or 31A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 30B",
+            "MATH 3B",
+            "MATH 31A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C119B",
+      "dept": "EE BIOL",
+      "number": "C119B",
+      "title": "Modeling in Ecological Research",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, two hours. Recommended requisite: course C119A. Advanced techniques in mathematical and computational modeling of ecological dynamics and other population dynamic problems. Independent research projects developed by students. Topics include model formulation, stochastic models, fitting models to data, sensitivity analysis, presentation of model results, and other topics\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C135",
+      "dept": "EE BIOL",
+      "number": "C135",
+      "title": "Population Genetics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: Life Sciences 4 or 7A. Strongly recommended: course 100, Mathematics 31A, and 31B or Life Sciences 30B. Basic principles of genetics of population, dealing with genetic structure of natural populations and mechanisms of evolution. Equilibrium conditions and forces altering gene frequencies, polygenic\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: Life Sciences 4 or 7A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C172",
+      "dept": "EE BIOL",
+      "number": "C172",
+      "title": "Advanced Statistics in Ecology and Evolutionary Biology",
+      "units": 4.0,
+      "description": "Lecture, two hours; laboratory, two hours. Enforced Requisite: Life Sciences 40 or Statistics 10 or 13. Overview of and application of advanced statistical methods that go beyond linear models and mean comparison, including bootstrapping, permutations, Bayesian statistics, mixed models, clustering, and network analysis. At course end students should be able\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced Requisite: Life Sciences 40 or Statistics 10 or 13.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 40",
+            "STAT 10",
+            "STAT 13"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EE BIOL C174",
+      "dept": "EE BIOL",
+      "number": "C174",
+      "title": "Comparative Biology and Macroevolution",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, three hours. Requisite: Life Sciences 1 or 7B. Recommended: one introductory statistics course. Modern comparative biology provides framework for studying broad questions in evolution\u2014How do body shapes evolve? What are dynamics of evolutionary arms race? Why are there so many species in tropics? Why are there\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Life Sciences 1 or 7B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 1",
+          "LIFE SCI 7B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "EPIDEM 100",
+      "dept": "EPIDEM",
+      "number": "100",
+      "title": "Principles of Epidemiology",
+      "units": 4.0,
+      "description": "Lecture, four hours; discussion, two hours. Preparation: one full biological sciences course. Limited to nonmajors. Not open for credit to students with credit for course 120. Introductory course to provide qualified undergraduate students with broad and comprehensive overview of concepts of epidemiology including evaluating public health problems in terms of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 107",
+      "dept": "LIFESCI",
+      "number": "107",
+      "title": "Genetics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Requisites: courses 7C, 23L, Chemistry 14A (or 20A), 14C (or 30A). Not open for credit to students with credit for course 4. Advanced Mendelian genetics, recombination, biochemical genetics, mutation, DNA, genetic code, gene regulation, genes in populations. Letter grading.",
+      "prereqs_raw": "Requisites: courses 7C, 23L, Chemistry 14A (or 20A), 14C (or 30A).",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7C",
+          "LIFESCI 23L",
+          "LIFESCI 14C",
+          "CHEM 14A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 20A"
+          ],
+          [
+            "LIFESCI 30A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 30A",
+      "dept": "LIFESCI",
+      "number": "30A",
+      "title": "Mathematics for Life Scientists",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LIFESCI 107",
+        "LIFESCI 30B",
+        "LIFESCI 40"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 30B",
+      "dept": "LIFESCI",
+      "number": "30B",
+      "title": "Mathematics for Life Scientists",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Enforced requisite: course 30A. Introduction to concept of matrices and linear transformations to equip students with some basic tools to understand dynamics of multivariable nonlinear systems. Examples from ecological, physiological, chemical, and other systems. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 30A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 30A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 40",
+      "dept": "LIFESCI",
+      "number": "40",
+      "title": "Statistics of Biological Systems",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 30A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 30A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7A",
+      "dept": "LIFESCI",
+      "number": "7A",
+      "title": "Cell and Molecular Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Introduction to basic principles of cell structure and cell biology, biochemistry, and molecular biology. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LIFESCI 7B"
+      ]
+    },
+    {
+      "course_id": "LIFESCI 7B",
+      "dept": "LIFESCI",
+      "number": "7B",
+      "title": "Genetics, Evolution, and Ecology",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, 80 minutes. Enforced requisite: course 7A. Principles of Mendelian inheritance and population genetics. Introduction to principles and mechanisms of evolution by natural selection, population, behavioral, and community ecology, and biodiversity, including major taxa and their evolutionary, ecological, and physiological relationships. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 7A.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFESCI 7A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LIFESCI 7C",
+      "dept": "LIFESCI",
+      "number": "7C",
+      "title": "Physiology and Human Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, 75 minutes. Enforced requisite: course 7B. Organization of cells into tissues and organs and principles of physiology of organ systems. Introduction to human genetics and genomics. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 7B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "LIFESCI 107"
+      ]
+    },
+    {
+      "course_id": "MATH 134",
+      "dept": "MATH",
+      "number": "134",
+      "title": "Linear and Nonlinear Systems of Differential Equations",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 33B. Dynamical systems analysis of nonlinear systems of differential equations. One- and two- dimensional flows. Fixed points, limit cycles, and stability analysis. Bifurcations and normal forms. Elementary geometrical and topological results. Applications to problems in biology, chemistry, physics, and other fields. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 135",
+      "dept": "MATH",
+      "number": "135",
+      "title": "Ordinary Differential Equations",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 33B. Selected topics in differential equations. Laplace transforms, existence and uniqueness theorems, Fourier series, separation of variable solutions to partial differential equations, Sturm/Liouville theory, calculus of variations, two-point boundary value problems, Green\u2019s functions. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 33A, 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 136",
+      "dept": "MATH",
+      "number": "136",
+      "title": "Partial Differential Equations",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 33B. Linear partial differential equations, boundary and initial value problems; wave equation, heat equation, and Laplace equation; separation of variables, eigenfunction expansions; selected topics, as method of characteristics for nonlinear equations.",
+      "prereqs_raw": "Requisites: courses 33A, 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 142",
+      "dept": "MATH",
+      "number": "142",
+      "title": "Mathematical Modeling",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B. Introduction to fundamental principles and spirit of applied mathematics. Emphasis on manner in which mathematical models are constructed for physical problems. Illustrations from many fields of endeavor, such as physical sciences, biology, economics, and traffic dynamics.",
+      "prereqs_raw": "Requisites: courses 32B, 33B.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 146",
+      "dept": "MATH",
+      "number": "146",
+      "title": "Methods of Applied Mathematics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B. Integral equations, Green\u2019s function, and calculus of variations. Selected applications from control theory, optics, dynamical systems, and other engineering problems.",
+      "prereqs_raw": "Requisites: courses 32B, 33B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 155",
+      "dept": "MATH",
+      "number": "155",
+      "title": "Mathematical Imaging",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31. Imaging geometry. Image transforms. Enhancement, restoration, and segmentation. Descriptors. Morphology. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 32B",
+          "MATH 33B",
+          "MATH 115A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PROGRAM IN COMPUTING 10A",
+            "COM SCI 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 156",
+      "dept": "MATH",
+      "number": "156",
+      "title": "Machine Learning",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 115A, 164, 170A or 170E or Statistics 100A, and Computer Science 31 or Program in Computing 10A. Strongly recommended requisite: Program in Computing 16A or Statistics 21. Introductory course on mathematical models for pattern recognition and machine learning. Topics include parametric and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 115A, 164, 170A or 170E or Statistics 100A, and Computer Science 31 or Program in Computing 10A. Strongly recommended requisite: Program in Computing 16A or Statistics 21.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 115A",
+          "MATH 164"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170A",
+            "MATH 170E",
+            "STAT 100A"
+          ],
+          [
+            "COM SCI 31",
+            "PIC 10A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [
+          "PIC 16A",
+          "STAT 21"
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 164",
+      "dept": "MATH",
+      "number": "164",
+      "title": "Optimization",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 115A, 131A. Not open for credit to students with credit for former Electrical Engineering 136. Fundamentals of optimization. Linear programming: basic solutions, simplex method, duality theory. Unconstrained optimization, Newton method for minimization. Nonlinear programming, optimality conditions for constrained problems. Additional topics\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 115A, 131A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 115A",
+          "MATH 131A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "MATH 156"
+      ]
+    },
+    {
+      "course_id": "MATH 168",
+      "dept": "MATH",
+      "number": "168",
+      "title": "Introduction to Networks",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 115A, 170E (or 170A or Electrical and Computer Engineering 131A or Statistics 100A). Introduction to network science (including theory, computation, and applications), which can be used to study complex systems of interacting agents. Study of networks in technology, social, information, biological, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 115A, 170E (or 170A or Electrical and Computer Engineering 131A or Statistics 100A).",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 115A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170E",
+            "MATH 170A",
+            "ELEC ENG 131A",
+            "STATS 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 171",
+      "dept": "MATH",
+      "number": "171",
+      "title": "Stochastic Processes",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 170E (or 170A or Statistics 100A). Discrete Markov chains, continuous-time Markov chains, renewal theory. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 33A, 170E (or 170A or Statistics 100A).",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170E",
+            "MATH 170A",
+            "STAT 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 182",
+      "dept": "MATH",
+      "number": "182",
+      "title": "Algorithms",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3C or 32A, and 61. Not open for credit to students with credit for Computer Science 180. Graphs, greedy algorithms, divide and conquer algorithms, dynamic programming, network flow. Emphasis on designing efficient algorithms useful in diverse areas such as bioinformatics and allocation\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3C or 32A, and 61.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 61"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "MATH 3C",
+          "MATH 32A"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31A",
+      "dept": "MATH",
+      "number": "31A",
+      "title": "Differential and Integral Calculus",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO 100",
+        "C&S BIO M130",
+        "C&S BIO M186",
+        "CHEM 14A",
+        "CHEM 20A",
+        "CHEM 20B",
+        "EE BIOL C119A",
+        "MATH 31B",
+        "PHYSICS 1A"
+      ]
+    },
+    {
+      "course_id": "MATH 31AL",
+      "dept": "MATH",
+      "number": "31AL",
+      "title": "Differential and Integral Calculus Laboratory",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MATH 31B",
+      "dept": "MATH",
+      "number": "31B",
+      "title": "Integration and Infinite Series",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO 100",
+        "C&S BIO M130",
+        "C&S BIO M184",
+        "C&S BIO M186",
+        "CHEM 14B",
+        "CHEM 20B",
+        "MATH 33B",
+        "PHYSICS 1A",
+        "PHYSICS 1B",
+        "PHYSICS 1BH"
+      ]
+    },
+    {
+      "course_id": "MATH 33A",
+      "dept": "MATH",
+      "number": "33A",
+      "title": "Linear Algebra and Applications",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "C&S BIO 185",
+        "C&S BIO M130",
+        "C&S BIO M150",
+        "C&S BIO M186",
+        "COM SCI M146",
+        "EC ENGR 102",
+        "EC ENGR C143A",
+        "MATH 135",
+        "MATH 136",
+        "MATH 171",
+        "PHYSICS 1C",
+        "PHYSICS 1CH",
+        "PHYSICS C186",
+        "STATS C161"
+      ]
+    },
+    {
+      "course_id": "MATH 33B",
+      "dept": "MATH",
+      "number": "33B",
+      "title": "Differential Equations",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO 185",
+        "C&S BIO M150",
+        "C&S BIO M186",
+        "EC ENGR 102",
+        "MATH 134",
+        "MATH 135",
+        "MATH 136",
+        "MATH 142",
+        "MATH 155"
+      ]
+    },
+    {
+      "course_id": "MATH M32T",
+      "dept": "MATH",
+      "number": "M32T",
+      "title": "Essential Calculus for Mathematical Biologists",
+      "units": 4.0,
+      "description": "(Same as Computational and Systems Biology M32 and Life Sciences M32.) Lecture, three hours; discussion, one hour. Requisites: Life Sciences 30A, 30B. Not open to students with credit for course 31A, 31B, 32A, or 32B. Designed for life sciences students. Methods and results of single and multivariable calculus essential for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 30A",
+          "LIFE SCI 30B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "C&S BIO M186"
+      ]
+    },
+    {
+      "course_id": "MCD BIO 100",
+      "dept": "MCD BIO",
+      "number": "100",
+      "title": "Introduction to Cell Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Not open for credit to Molecular, Cell, and Developmental Biology majors or to students with credit for course 165A. Analysis of cell organization, structure, and function at molecular level. Cell membranes\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C",
+            "MCD BIO 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO 138",
+      "dept": "MCD BIO",
+      "number": "138",
+      "title": "Developmental Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Development of understanding of fundamental molecular mechanisms and cellular activities guiding formation of complex organism from single fertilized egg. Development of model organisms to understand conserved nature of developmental decisions\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C",
+            "MCD BIO 23L",
+            "MCD BIO 107"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO 144",
+      "dept": "MCD BIO",
+      "number": "144",
+      "title": "Molecular Biology of Cellular Processes",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Not open for credit to students with credit for Chemistry 153B. Development of thorough understanding of fundamentals of modern molecular biology both from perspective of known molecular mechanisms for regulating\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C",
+            "MCD BIO 23L",
+            "MCD BIO 107"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO 165A",
+      "dept": "MCD BIO",
+      "number": "165A",
+      "title": "Biology of Cells",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14D or 30B, Life Sciences 3, or 7A, 7B, and 7C. Not open for credit to students with credit for course 100. Molecular basis of cellular structure and function, with focus on each individual cellular organelle, as well as interaction of cells\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14D or 30B, Life Sciences 3, or 7A, 7B, and 7C.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "MCD BIO M140"
+      ]
+    },
+    {
+      "course_id": "MCD BIO 187AL",
+      "dept": "MCD BIO",
+      "number": "187AL",
+      "title": "Research Immersion Laboratory in Genomic Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; laboratory, six hours. Requisites: Life Sciences 4 or 107, 23L. Course 187AL is requisite to 187BL. Limited to Molecular, Cell, and Developmental Biology majors. Introduction to cutting-edge genomic technologies and bioinformatics methods and resources for genome annotation. Students propose original research projects related to gene annotation and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 4 or 107, 23L.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 23L"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 4",
+            "LIFE SCI 107"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO CM156",
+      "dept": "MCD BIO",
+      "number": "CM156",
+      "title": "Human Genetics and Genomics",
+      "units": 5.0,
+      "description": "(Same as Microbiology CM156.) Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C. Application of genetic principles in human populations, with emphasis on genomics, family studies, positional cloning, Mendelian and common diseases, cancer genetics, animal models, cytogenetics, pharmacogenetics, population genetics, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MCD BIO M140",
+      "dept": "MCD BIO",
+      "number": "M140",
+      "title": "Cancer Cell Biology",
+      "units": 5.0,
+      "description": "(Same as Biological Chemistry M140.) Lecture, three hours; discussion, one hour. Requisite: course 165A. Cancer causes and genetics. Effects of cell transformation on cell growth and metabolism. Altered cell cycle, metabolism, and differentiation pathways in cancer cells. Tumor microenvironment contributions to cancer malignancy, including angiogenesis, metastasis, and immune system evasion.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 165A.",
+      "prereqs_parsed": {
+        "required": [
+          "MCD BIO 165A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MIMG 101",
+      "dept": "MIMG",
+      "number": "101",
+      "title": "Introductory Microbiology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3 and 4, or 7A, 7B, and 23L. Historical foundations of microbiology; introduction to bacterial structure, physiology, biochemistry, genetics, and ecology. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 3 and 4, or 7A, 7B, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 3",
+            "LIFE SCI 4"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MIMG 102",
+      "dept": "MIMG",
+      "number": "102",
+      "title": "Introductory Virology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, or 7A, 7B, and 23L with grades of C\u2013 or better. Biological properties of bacterial and animal viruses, replication, methods of detection, interactions with host cells and multicellular hosts. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 3, or 7A, 7B, and 23L with grades of C\u2013 or better.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 3"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MIMG 168",
+      "dept": "MIMG",
+      "number": "168",
+      "title": "Molecular Parasitology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3 and 4, or 7A, 7B, and 23L. Survey of parasitic protozoa not only as parasites that interact with host, but also as model systems for analysis of basic biological phenomena such as gene regulation, molecular development, cell-cell interactions, molecular evolution,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 3 and 4, or 7A, 7B, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 3",
+            "LIFE SCI 4"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "MIMG 185A",
+      "dept": "MIMG",
+      "number": "185A",
+      "title": "Immunology",
+      "units": 5.0,
+      "description": "(Formerly numbered C185A.) Lecture, three hours; discussion, 90 minutes. Requisites: Chemistry 153A, Life Sciences 7A, 7B, 7C, 7L. Comprehensive study of experimental immunobiology and immunochemistry; cellular and molecular aspects of humoral and cellular immune reactions. Letter grading.",
+      "prereqs_raw": "Requisites: Chemistry 153A, Life Sciences 7A, 7B, 7C, 7L.",
+      "prereqs_parsed": {
+        "required": [
+          "CHEM 153A",
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C",
+          "LIFE SCI 7L"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NEURO 205",
+      "dept": "NEURO",
+      "number": "205",
+      "title": "Systems Neuroscience",
+      "units": 4.0,
+      "description": "Lecture/discussion, four hours. Introduction to fundamentals of systems neuroscience, with emphasis on integration of molecular mechanisms, cellular processes, anatomical circuits, and behavioral analysis to understand function of neural systems. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NEURO 260",
+      "dept": "NEURO",
+      "number": "260",
+      "title": "Introduction to Signal Processing for Neuroscientists",
+      "units": 4.0,
+      "description": "Lecture, four hours. Limited to Neuroscience graduate students. Introductory principles for handling some common types of time-varying data used to measure brain activity (spikes, local field potentials, calcium transients). Analysis of data with simple computer scripts for team-based projects. May not be repeated for credit. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NEUROSC 102",
+      "dept": "NEUROSC",
+      "number": "102",
+      "title": "Introduction to Functional Anatomy of Central Nervous System",
+      "units": 4.0,
+      "description": "Lecture, three hours; laboratory, 90 minutes. Requisite: Life Sciences 2 or 7C. Corequisite: course M101A. Not open to freshmen. Overview of human nervous system, brain development, anatomy and function, pathology. Introduction to brain circuits involved in fear and anxiety, memory, sensory, motor activities. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Life Sciences 2 or 7C. Corequisite: course M101A.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [
+          "NEUROSC M101A"
+        ],
+        "one_of": [
+          [
+            "LIFE SCI 2",
+            "LIFE SCI 7C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NEUROSC M101A",
+      "dept": "NEUROSC",
+      "number": "M101A",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dCellular and Systems Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C\u2013 or better to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "NEUROSC 102",
+        "NEUROSC M101B"
+      ]
+    },
+    {
+      "course_id": "NEUROSC M101B",
+      "dept": "NEUROSC",
+      "number": "M101B",
+      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dMolecular and Developmental Neuroscience",
+      "units": 5.0,
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M101A (with grade of C\u2013 or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M101A (with grade of C\u2013 or better), Life Sciences 7C.",
+      "prereqs_parsed": {
+        "required": [
+          "NEUROSC M101A",
+          "LIFE SCI 7C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 125",
+      "dept": "PHYSCI",
+      "number": "125",
+      "title": "Molecular Systems Biology",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Quantitative description of molecular systems that underlie myriad phenotypes in living cells. Topics include various -omics fields and high-throughput technologies, network biology, and synthetic biology. Introductory lectures on molecular biology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Life Sciences 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 2",
+            "LIFE SCI 3",
+            "LIFE SCI 4",
+            "LIFE SCI 23L"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C",
+            "LIFE SCI 23L"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 149",
+      "dept": "PHYSCI",
+      "number": "149",
+      "title": "Systems Biology and Mechanisms of Major Cardiometabolic Diseases",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 7A, 7B, 7C. Strongly recommended: Chemistry 153A. Designed for juniors/seniors. Integration of principles gained through basic science curriculum with modern systems biology concepts, approaches, and presently understood mechanisms of selected human cardiovascular disease, diabetes, and obesity. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 7A, 7B, 7C.",
+      "prereqs_parsed": {
+        "required": [
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI 166",
+      "dept": "PHYSCI",
+      "number": "166",
+      "title": "Animal Physiology",
+      "units": 6.0,
+      "description": "Lecture, three hours; laboratory, five hours. Requisites: Chemistry 14B and 14BL, or 20B and 30AL, 153A, Life Sciences 7A, 7B, 7C, Physics 1C and 4BL, or 5C. Not open for credit to students with credit for Ecology and Evolutionary Biology 170 or to Physiological Science majors. Introduction to physiological principles,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: Chemistry 14B and 14BL, or 20B and 30AL, 153A, Life Sciences 7A, 7B, 7C, Physics 1C and 4BL, or 5C.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 14B",
+            "CHEM 14BL"
+          ],
+          [
+            "CHEM 20B",
+            "CHEM 30AL"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": [],
+        "additional_required": [
+          "CHEM 153A",
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C"
+        ],
+        "additional_one_of": [
+          [
+            "PHYS 1C",
+            "PHYS 4BL"
+          ],
+          [
+            "PHYS 5C"
+          ]
+        ]
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSCI C144",
+      "dept": "PHYSCI",
+      "number": "C144",
+      "title": "Neural Control of Physiological Systems",
+      "units": 4.0,
+      "description": "Lecture, four hours. Requisite: course 111B or M180B. Role of central nervous system in control of respiration, circulation, sexual function, and bladder control. Material for each section to be developed by combination of lecture and open discussion. Concurrently scheduled with course C244. Letter grading.",
+      "prereqs_raw": "Requisite: course 111B or M180B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "PHYSCI 111B",
+          "PHYSCI 180B"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 1A",
+      "dept": "PHYSICS",
+      "number": "1A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1B",
+        "PHYSICS 1BH",
+        "PHYSICS 1C",
+        "PHYSICS 1CH",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1AH",
+      "dept": "PHYSICS",
+      "number": "1AH",
+      "title": "Physics for Scientists and Engineers: Mechanics (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Recommended corequisite: Mathematics 32B. Enriched preparation for upper-division physics courses. Same material as course 1A but in greater depth; recommended for Physics majors and other students desiring such coverage. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PHYSICS 1BH",
+        "PHYSICS 1CH"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1B",
+      "dept": "PHYSICS",
+      "number": "1B",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Fluid mechanics, oscillation, mechanical waves, and sound. Electric charge, field and potential, capacitors, and dielectrics. Currents and resistance, direct-current circuits. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1C",
+        "PHYSICS 1CH",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1BH",
+      "dept": "PHYSICS",
+      "number": "1BH",
+      "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Recommended corequisite: Mathematics 33A. Enriched preparation for upper-division physics courses. Same material as course 1B but in greater depth; recommended for Physics majors and other students desiring such coverage. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1AH",
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS 1CH"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1C",
+      "dept": "PHYSICS",
+      "number": "1C",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 170",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 1CH",
+      "dept": "PHYSICS",
+      "number": "1CH",
+      "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity (Honors)",
+      "units": 5.0,
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Recommended corequisite: Mathematics 33B. Enriched preparation for upper-division physics courses. Same material as course 1C but in greater depth; recommended for Physics majors and other students desiring such\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 1AH",
+          "PHYSICS 1A",
+          "PHYSICS 1BH",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1A"
+          ],
+          [
+            "PHYSICS 1BH",
+            "PHYSICS 1B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PHYSICS 5A",
+      "dept": "PHYSICS",
+      "number": "5A",
+      "title": "Physics for Life Sciences Majors: Mechanics and Energy",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently). Statics and dynamics of forces, motion, energy, including thermal energy, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 30A, 30B, or Mathematics 3A, 3B, 3C (3C may be taken concurrently).",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "PHYSICS 5B",
+        "PHYSICS 5C",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5B",
+      "dept": "PHYSICS",
+      "number": "5B",
+      "title": "Physics for Life Sciences Majors: Thermodynamics, Fluids, Waves, Light, and Optics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisite: course 5A. Thermal properties of matter, free energy, fluids, ideal gas, diffusion, oscillations, waves, sounds, light, and optics, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "EE BIOL 170",
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS 5C",
+      "dept": "PHYSICS",
+      "number": "5C",
+      "title": "Physics for Life Sciences Majors: Electricity, Magnetism, and Modern Physics",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisite: course 5A. Electrostatics in vacuum and in water. Electricity, circuits, magnetism, quantum, atomic and nuclear physics, radioactivity, with applications to biological and biochemical systems. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5A.",
+      "prereqs_parsed": {
+        "required": [
+          "PHYSICS 5A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PHYSICS C186"
+      ]
+    },
+    {
+      "course_id": "PHYSICS C186",
+      "dept": "PHYSICS",
+      "number": "C186",
+      "title": "Neurophysics: Brain-Mind Problem",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A. How does mind emerge from brain? Provides summary of basic biophysics of neurons, synapses, and plasticity. Introduction to commonly\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "MATH 3A",
+          "MATH 3B",
+          "MATH 3C",
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PHYSICS 1A",
+            "PHYSICS 1B",
+            "PHYSICS 1C"
+          ],
+          [
+            "PHYSICS 5A",
+            "PHYSICS 5B",
+            "PHYSICS 5C"
+          ],
+          [
+            "PHYSICS 6A",
+            "PHYSICS 6B",
+            "PHYSICS 6C"
+          ],
+          [
+            "CHEM 14A",
+            "CHEM 20A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "PSYCH 115",
+      "dept": "PSYCH",
+      "number": "115",
+      "title": "Principles of Behavioral Neuroscience",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: course 100A, Life Sciences 2 or 7A or 15. Not open to students with credit for course M117A (or Molecular, Cell, and Developmental Biology M175A or Neuroscience M101A or Physiological Science M180A). Designed for juniors/seniors. Nervous system anatomy, physiology, pharmacology, and their relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 100A, Life Sciences 2 or 7A or 15.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 100A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          "LIFE SCI 2",
+          "LIFE SCI 7A",
+          "LIFE SCI 15"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "PSYCH 119M"
+      ]
+    },
+    {
+      "course_id": "PSYCH 119M",
+      "dept": "PSYCH",
+      "number": "119M",
+      "title": "Neural Circuits of Learning and Memory",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 115. Designed for juniors/seniors. Introduction to classical and current literature on mechanisms of learning and memory from individual brain systems to circuits. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 115.",
+      "prereqs_parsed": {
+        "required": [
+          "PSYCH 115"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS 10",
+      "dept": "STATS",
+      "number": "10",
+      "title": "Introduction to Statistical Reasoning",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "STATS 101A"
+      ]
+    },
+    {
+      "course_id": "STATS 101A",
+      "dept": "STATS",
+      "number": "101A",
+      "title": "Introduction to Data Analysis and Regression",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20. Recommended: course 102A. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 10",
+            "STATS 12",
+            "STATS 13",
+            "STATS 15",
+            "ECON 41",
+            "PSY 100A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "STATS 101C"
+      ]
+    },
+    {
+      "course_id": "STATS 101C",
+      "dept": "STATS",
+      "number": "101C",
+      "title": "Introduction to Statistical Models and Data Mining",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 101A. Recommended: course 101B. Designed for juniors/seniors. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and generalized linear model (e.g., logistic regression). Special attention to modern extensions of regression, including regression diagnostics, graphical procedures, and bootstrapping for\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 101A.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 101A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS C161",
+      "dept": "STATS",
+      "number": "C161",
+      "title": "Introduction to Pattern Recognition and Machine Learning",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: course 100B, Mathematics 33A. Introduction to pattern analysis and machine intelligence designed for advanced undergraduate and graduate students. Concurrently scheduled with course C261. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: course 100B, Mathematics 33A.",
+      "prereqs_parsed": {
+        "required": [
+          "STATS 100B",
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "STATS M254",
+      "dept": "STATS",
+      "number": "M254",
+      "title": "Statistical Methods in Computational Biology",
+      "units": 4.0,
+      "description": "(Same as Bioinformatics M223 and Biomathematics M271.) Lecture, three hours; discussion, one hour. Preparation: elementary probability concepts. Requisite: course 100A or 200A or Bioinformatics M221. Introduction to statistical methods developed and widely applied in several branches of computational biology, such as gene expression, sequence alignment, motif discovery, comparative genomics, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 100A or 200A or Bioinformatics M221.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STATS 100A",
+            "STATS 200A",
+            "BIOINF M221"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

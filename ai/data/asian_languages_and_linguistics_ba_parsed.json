@@ -1,0 +1,894 @@
+{
+  "major_id": "asian-languages-and-linguistics-ba",
+  "major_name": "Asian Languages and Linguistics BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/AsianLanguagesandLinguisticsBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "LING 20"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 1,
+          "courses": [
+            "CHIN 6",
+            "CHIN 10",
+            "FILIPNO 6",
+            "HIN-URD 100C",
+            "INDO 6",
+            "JAPAN 6",
+            "JAPAN 10",
+            "KOREA 6",
+            "KOREA 10",
+            "THAI 6",
+            "VIETMSE 6"
+          ]
+        },
+        {
+          "choose_n": 1,
+          "courses": [
+            "ASIAN 30",
+            "CHIN 50",
+            "JAPAN 50",
+            "JAPAN 70",
+            "KOREA 50",
+            "SEASIAN 70",
+            "ASIAN M60",
+            "ASIAN M60W",
+            "ASIAN M61",
+            "CHIN M60",
+            "CHIN M60W",
+            "KOREA M60",
+            "S ASIAN M60",
+            "SEASIAN M60",
+            "JAPAN 75",
+            "JAPAN 80",
+            "KOREA 40",
+            "KOREA 70",
+            "KOREA 80"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [
+        "ASIAN 100",
+        "ASIAN 104"
+      ],
+      "elective_groups": [
+        {
+          "choose_n": 5,
+          "courses": [
+            "CHIN 6",
+            "CHIN 10",
+            "FILIPNO 6",
+            "HIN-URD 100C",
+            "INDO 6",
+            "JAPAN 6",
+            "JAPAN 10",
+            "KOREA 6",
+            "KOREA 10",
+            "THAI 6",
+            "VIETMSE 6"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ASIAN CM124",
+            "CHIN 103",
+            "CHIN C120",
+            "JAPAN M120",
+            "JAPAN CM122",
+            "JAPAN CM123",
+            "JAPAN CM127",
+            "KOREA CM120",
+            "KOREA 124",
+            "S ASIAN 170"
+          ]
+        },
+        {
+          "choose_n": 2,
+          "courses": [
+            "ASIAN CM124",
+            "CHIN 103",
+            "CHIN C120",
+            "JAPAN M120",
+            "JAPAN CM122",
+            "JAPAN CM123",
+            "JAPAN CM127",
+            "KOREA CM120",
+            "KOREA 124",
+            "S ASIAN 170",
+            "LING 20"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "elective",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "ASIAN": [
+      "ASIAN 100",
+      "ASIAN 104",
+      "ASIAN 198A",
+      "ASIAN 198B",
+      "ASIAN 198C",
+      "ASIAN 30",
+      "ASIAN CM124",
+      "ASIAN M60",
+      "ASIAN M60W",
+      "ASIAN M61"
+    ],
+    "CHIN": [
+      "CHIN 10",
+      "CHIN 103",
+      "CHIN 50",
+      "CHIN 6",
+      "CHIN C120",
+      "CHIN M60",
+      "CHIN M60W"
+    ],
+    "FILIPNO": [
+      "FILIPNO 6"
+    ],
+    "HIN-URD": [
+      "HIN-URD 100C"
+    ],
+    "INDO": [
+      "INDO 6"
+    ],
+    "JAPAN": [
+      "JAPAN 10",
+      "JAPAN 50",
+      "JAPAN 6",
+      "JAPAN 70",
+      "JAPAN 75",
+      "JAPAN 80",
+      "JAPAN CM122",
+      "JAPAN CM123",
+      "JAPAN CM127",
+      "JAPAN M120"
+    ],
+    "KOREA": [
+      "KOREA 10",
+      "KOREA 124",
+      "KOREA 40",
+      "KOREA 50",
+      "KOREA 6",
+      "KOREA 70",
+      "KOREA 80",
+      "KOREA CM120",
+      "KOREA M60"
+    ],
+    "LING": [
+      "LING 20"
+    ],
+    "S ASIAN": [
+      "S ASIAN 170",
+      "S ASIAN M60"
+    ],
+    "SEASIAN": [
+      "SEASIAN 70",
+      "SEASIAN M60"
+    ],
+    "THAI": [
+      "THAI 6"
+    ],
+    "VIETMSE": [
+      "VIETMSE 6"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "ASIAN 100",
+      "dept": "ASIAN",
+      "number": "100",
+      "title": "Methods in Asian Linguistics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Research methodologies for dealing with Asian languages, with emphases on bibliographical, data, and professional resources, issues in analyzing and presenting language examples, explaining language phenomena beyond what is observed, cross-linguistic comparisons, oral presentation skills, and writing reports in organized ways. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 104",
+      "dept": "ASIAN",
+      "number": "104",
+      "title": "Asian Language Pedagogy",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Required of all Asian Languages and Linguistics majors. Current issues in teaching Asian languages. Pedagogical grammar, curricular development, social, cultural, and cognitive foundations of Asian language acquisition, best practices in teaching Asian language writing systems, special issues in teaching heritage students, comparisons of K-12\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 198A",
+      "dept": "ASIAN",
+      "number": "198A",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Preparation: one undergraduate departmental seminar. Limited to junior/senior departmental majors. Development of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "ASIAN 198B"
+      ]
+    },
+    {
+      "course_id": "ASIAN 198B",
+      "dept": "ASIAN",
+      "number": "198B",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Enforced requisite: course 198A. Limited to junior/senior departmental majors. Continuation of work initiated in course 198A. Presentation of research and relevant progress to supervising faculty member. May be repeated for credit. Individual contract required. In Progress grading (credit to be given only on completion of course 198C).",
+      "prereqs_raw": "Enforced requisite: course 198A.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIAN 198A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "ASIAN 198C"
+      ]
+    },
+    {
+      "course_id": "ASIAN 198C",
+      "dept": "ASIAN",
+      "number": "198C",
+      "title": "Honors Research in Asian Languages and Cultures",
+      "units": 4.0,
+      "description": "Tutorial, three hours. Enforced requisite: course 198B. Limited to junior/senior departmental majors. Completion of research developed in courses 198A, 198B. Presentation of honors project to supervising faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 198B.",
+      "prereqs_parsed": {
+        "required": [
+          "ASIAN 198B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN 30",
+      "dept": "ASIAN",
+      "number": "30",
+      "title": "Languages and Cultures of Asia",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Comparative perspective on Asian languages, with emphasis on three major East Asian languages\u2014Chinese, Japanese, and Korean\u2014to show what they share and how they differ in terms of linguistic features, historical development, and larger cultural settings in which these three languages are used. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN CM124",
+      "dept": "ASIAN",
+      "number": "CM124",
+      "title": "Teaching and Learning of Heritage Languages",
+      "units": 4.0,
+      "description": "(Same as Near Eastern Languages CM114 and Slavic CM114.) Lecture, three hours. Consideration of issues relevant to heritage language learners (HLL) and to heritage language (HL) instruction. Readings and discussion on such topics as definitions of HLs and HLLs; linguistic, demographic, sociolinguistic, and sociocultural profile of HLLs, particularly HL groups\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN M60",
+      "dept": "ASIAN",
+      "number": "M60",
+      "title": "Introduction to Buddhism",
+      "units": 5.0,
+      "description": "(Same as Religion M60A.) Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course M60W. Knowledge of Asian languages not required. General survey of development of Buddhism in India, with focus on those religious doctrines and meditative practices most essential to various Asian traditions\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN M60W",
+      "dept": "ASIAN",
+      "number": "M60W",
+      "title": "Introduction to Buddhism",
+      "units": 5.0,
+      "description": "(Same as Religion M60W.) Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course M60. Knowledge of Asian languages not required. General survey of Buddhist worldview and lifestyle, with focus\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENG COMP 3",
+            "ENG COMP 3H",
+            "ENG 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ASIAN M61",
+      "dept": "ASIAN",
+      "number": "M61",
+      "title": "Introduction to Zen Buddhism",
+      "units": 5.0,
+      "description": "(Same as Religion M61.) Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. Introduction to Zen traditions and to interplay between Zen and other fundamental cultural and religious concerns in East Asia. Topics include role of Zen within Buddhist thought and practice, artistic and literary arts, society,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 10",
+      "dept": "CHIN",
+      "number": "10",
+      "title": "Intermediate Modern Chinese: Intensive",
+      "units": 15.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Recommended preparation: course 3, 3A, or 8, or Chinese placement test or courses equivalent to elementary-level Chinese. Second-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Intensive course equivalent to courses 4, 5,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 103",
+      "dept": "CHIN",
+      "number": "103",
+      "title": "Topics in Chinese Language and Culture",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, two hours. Recommended preparation: one to two years of college-level Chinese. Chinese language and culture for special purposes. Exploration of interdependent relation between Chinese language and culture. Introduction to basic concepts in sociocultural linguistics, discourse analysis, and technology to analyze Chinese language and cultural conventions expressed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 50",
+      "dept": "CHIN",
+      "number": "50",
+      "title": "Chinese Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50W. Knowledge of Chinese not required. Introduction to most important aspects of Chinese culture. Topics include early Chinese civilization, historical development of Chinese society, issues of ethnicity, Chinese language and philosophy, and early scientific\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN 6",
+      "dept": "CHIN",
+      "number": "6",
+      "title": "Intermediate Modern Chinese",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 5 with grade of C or better or Chinese placement test. Second-year Chinese. Not open to students who have learned, from whatever source, enough Chinese to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5 with grade of C or better or Chinese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "CHIN 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN C120",
+      "dept": "CHIN",
+      "number": "C120",
+      "title": "Introduction to Chinese Linguistics",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: one to two years of college-level Chinese. Introduction to Chinese sound system, writing system and its reform, regional differences, major structural features, language in society and in cultural practices. Concurrently scheduled with course C240. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN M60",
+      "dept": "CHIN",
+      "number": "M60",
+      "title": "Introduction to Chinese Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M60B.) Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course M60W. Knowledge of Chinese not required. General survey of religious life in China, with emphasis on everyday religious practice over doctrine, and themes common to Buddhism, Daoism, and Confucianism. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "CHIN M60W",
+      "dept": "CHIN",
+      "number": "M60W",
+      "title": "Introduction to Chinese Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M61W.) Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course M60. Knowledge of Chinese not required. General survey of religious life in China, with emphasis on\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H or English as a Second Language 36.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGLISH COMP 3",
+            "ENGLISH COMP 3H",
+            "ESL 36"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "FILIPNO 6",
+      "dept": "FILIPNO",
+      "number": "6",
+      "title": "Intermediate Filipino",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Filipino/Tagalog grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "FILIPNO 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HIN-URD 100C",
+      "dept": "HIN-URD",
+      "number": "100C",
+      "title": "Intermediate Hindi-Urdu",
+      "units": 4.0,
+      "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 100B with grade of C or better. Reinforcement of basic Hindi grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 100B with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "HIN-URD 100B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "INDO 6",
+      "dept": "INDO",
+      "number": "6",
+      "title": "Intermediate Indonesian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 5. Designed to expand language skills acquired in introductory courses and to equip students with good command of communicative competence in Indonesian. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5.",
+      "prereqs_parsed": {
+        "required": [
+          "INDO 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 10",
+      "dept": "JAPAN",
+      "number": "10",
+      "title": "Intermediate Modern Japanese: Intensive",
+      "units": 15.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 3 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Intensive course equivalent to courses 4, 5, and 6. Readings in modern\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3 with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "JAPAN 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 50",
+      "dept": "JAPAN",
+      "number": "50",
+      "title": "Japanese Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Survey of development of Japanese culture and its relationship to Asiatic mainland. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 6",
+      "dept": "JAPAN",
+      "number": "6",
+      "title": "Intermediate Modern Japanese",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 5 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 5 with grade of C or better or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 70",
+      "dept": "JAPAN",
+      "number": "70",
+      "title": "Images of Japan: Literature and Film",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese culture, literature, or language not required. Introduction to visual and textual images of Japan\u2019s literary heritage, including documentary and feature films based on Japan\u2019s literary classics. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 75",
+      "dept": "JAPAN",
+      "number": "75",
+      "title": "Anime",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Discussion and analysis of seminal works of Japanese animation, or anime, created from 1980s to present. Engagement with works in variety of styles, and that deal with broad range of themes. Reading and discussion of recent scholarship on anime produced by scholars working in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN 80",
+      "dept": "JAPAN",
+      "number": "80",
+      "title": "How Does It Move? Action and Moving Image in Modern Japan",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. How is action constituted on the screen? How has modern technological media informed and transformed our experience and understanding of action? Exploration of how our experience and conception of action is mediated by technological aesthetic media by tracing history of portrayal and experience of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM122",
+      "dept": "JAPAN",
+      "number": "CM122",
+      "title": "Japanese Phonology and Morphology",
+      "units": 4.0,
+      "description": "(Same as Linguistics M176A.) Lecture, three hours; discussion, one hour. Recommended preparation: Linguistics 20. Enforced requisite: course 3 or 8 or Japanese placement test. Survey of Japanese phonetics, phonology, and morphology. Concurrently scheduled with course C222. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3 or 8 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 3",
+            "JAPAN 8"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM123",
+      "dept": "JAPAN",
+      "number": "CM123",
+      "title": "Structure of Japanese",
+      "units": 4.0,
+      "description": "(Same as Linguistics M176B.) Lecture, three hours; discussion, one hour. Enforced requisite: course 4 or 10 or Japanese placement test. Functional linguistic analysis of grammatical structures of Japanese, often in form of contrastive analysis of Japanese, English, and other languages. Concurrently scheduled with course C223. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 4 or 10 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN CM127",
+      "dept": "JAPAN",
+      "number": "CM127",
+      "title": "Contrastive Analysis of Japanese and Korean",
+      "units": 4.0,
+      "description": "(Same as Korean CM127 and Linguistics M178.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JAPAN M120",
+      "dept": "JAPAN",
+      "number": "M120",
+      "title": "Introduction to Japanese Linguistics",
+      "units": 4.0,
+      "description": "(Same as Linguistics M116.) Lecture, three hours; discussion, one hour. Enforced requisite: course 3 or 8 or Japanese placement test. Introduction to Japanese grammar and sociolinguistics through reading, discussion, and problem solving in phonology, syntax, semantics, and discourse pragmatics. Letter grading.",
+      "prereqs_raw": "Enforced requisite: course 3 or 8 or Japanese placement test.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "JAPAN 3",
+          "JAPAN 8"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 10",
+      "dept": "KOREA",
+      "number": "10",
+      "title": "Intermediate Modern Korean: Intensive",
+      "units": 15.0,
+      "description": "Lecture, 10 hours; discussion, 10 hours. Recommended preparation: course 3, 3A, or 8, or Korean placement test, or courses equivalent to elementary-level Korean. Second-year Korean. Not open to students who have learned, from whatever source, enough Korean to qualify for more advanced courses. Intensive course equivalent to courses 4, 5,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 124",
+      "dept": "KOREA",
+      "number": "124",
+      "title": "Topics in Korean Language and Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Recommended preparation: one to two years of college-level Korean. Introduction of basic concepts in sociocultural linguistics, discourse analysis, and multimedia resources to analyze Korean language and culture. Study to increase understanding of variety of sociocultural variables of Korean language. Exploration of interrelationship among language,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 40",
+      "dept": "KOREA",
+      "number": "40",
+      "title": "Korean Wave: Globalization of South Korean Popular Culture",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. Introduction to Korean popular culture and its relationship to transnational social and political contexts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 50",
+      "dept": "KOREA",
+      "number": "50",
+      "title": "History of Korean Civilization",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean not required. General survey of development of Korean culture within context of political, social, and economic history. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 6",
+      "dept": "KOREA",
+      "number": "6",
+      "title": "Intermediate Modern Korean",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 5 with grade of C or better or Korean placement test. Not open to students who have learned, from whatever source, enough Korean to qualify for more advanced courses. Continuation of course 5. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better or Korean placement test.",
+      "prereqs_parsed": {
+        "required": [
+          "KOREA 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 70",
+      "dept": "KOREA",
+      "number": "70",
+      "title": "Images of Korea",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Korean culture, literature, or language not required. Introduction to visual and textual representations of Korea. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA 80",
+      "dept": "KOREA",
+      "number": "80",
+      "title": "Introduction to Korean Cinema",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Broad overview of Korean film history, from beginning of 20th century into present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA CM120",
+      "dept": "KOREA",
+      "number": "CM120",
+      "title": "Structure of Korean",
+      "units": 4.0,
+      "description": "(Same as Linguistics M177.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Korean, or one year of Korean and some knowledge of linguistics. Discussion of major syntactic, semantic, and pragmatic characteristics of Korean in light of linguistic universals, with brief introduction to formation, typological features, and phonological\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "KOREA M60",
+      "dept": "KOREA",
+      "number": "M60",
+      "title": "Introduction to Korean Religions",
+      "units": 5.0,
+      "description": "(Same as Religion M60C.) Lecture, three hours; discussion, one hour. Knowledge of Asian languages not required. General survey of history of religions in Korea\u2014Shamanism, Buddhism, Confucianism, Daoism, Christianity, Tonghak, and some new religions\u2014with focus on religious doctrines, practices, Korean characteristics, and social impacts. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "LING 20",
+      "dept": "LING",
+      "number": "20",
+      "title": "Introduction to Linguistic Analysis",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Introduction to theory and methods of linguistics: universal properties of human language; phonetic, phonological, morphological, syntactic, and semantic structures and analysis; nature and form of grammar. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "S ASIAN 170",
+      "dept": "S ASIAN",
+      "number": "170",
+      "title": "Variable Topics in South Asian Linguistics, Languages, and Cultures",
+      "units": 4.0,
+      "description": "Lecture, three hours. Knowledge of Hindi/Urdu may be required. Critical analysis of language and culture in South Asian linguistic area, exploring notions of India as linguistic area and as cultural area. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "S ASIAN M60",
+      "dept": "S ASIAN",
+      "number": "M60",
+      "title": "Religion in Classical India: Introduction",
+      "units": 5.0,
+      "description": "(Same as Religion M60D.) Lecture, three hours; discussion, one hour. Introduction to religions of classical India\u2014Vedic, Brahmanical, Hindu, Jain, and Buddhist\u2014paying equal attention to change and continuity, with emphasis on chronological development. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN 70",
+      "dept": "SEASIAN",
+      "number": "70",
+      "title": "Modern Southeast Asian Literature",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to modern literatures of Southeast Asia. Designed to expose students to range of literatures, predominantly novels and short stories, that were written across this region in response to dramatic changes caused by colonialism and its aftermath. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEASIAN M60",
+      "dept": "SEASIAN",
+      "number": "M60",
+      "title": "Religious Traditions in Southeast Asia",
+      "units": 4.0,
+      "description": "(Same as Religion M60E.) Lecture, three hours. Introduction to historical development and contemporary practice of religions in Southeast Asia. Examination of indigenous religious beliefs and major textually based religions introduced to region, including Hinduism, Buddhism, Islam, and Christianity. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "THAI 6",
+      "dept": "THAI",
+      "number": "6",
+      "title": "Intermediate Thai",
+      "units": 5.0,
+      "description": "Lecture, five hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Thai grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "THAI 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "VIETMSE 6",
+      "dept": "VIETMSE",
+      "number": "6",
+      "title": "Intermediate Vietnamese",
+      "units": 5.0,
+      "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Vietnamese grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 5 with grade of C or better.",
+      "prereqs_parsed": {
+        "required": [
+          "VIETMSE 5"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
+      },
+      "prereq_for": []
+    }
+  ]
+}

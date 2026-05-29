@@ -1,0 +1,1692 @@
+{
+  "major_id": "ancient-near-east-and-egyptology-ba",
+  "major_name": "Ancient Near East and Egyptology BA",
+  "url": "https://catalog.registrar.ucla.edu/major/2025/AncientNearEastandEgyptologyBA",
+  "requirements": [
+    {
+      "category": "Preparation for the Major",
+      "type": "required",
+      "choose_n": 3,
+      "courses": [
+        "AN N EA 10W",
+        "AN N EA 12W",
+        "AN N EA 14",
+        "AN N EA 14W",
+        "AN N EA 15",
+        "AN N EA 15W",
+        "AN N EA M60",
+        "AN N EA M60W",
+        "AN N EA M70",
+        "M E STD M50A",
+        "M E STD M50B",
+        "NR EAST M20"
+      ],
+      "elective_groups": []
+    },
+    {
+      "category": "The Major",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": [
+        {
+          "choose_n": 4,
+          "courses": [
+            "AN N EA CM101A",
+            "AN N EA CM101B",
+            "AN N EA M101C",
+            "AN N EA M105",
+            "AN N EA 160",
+            "AN N EA 161",
+            "AN N EA 162",
+            "AN N EA CM163",
+            "AN N EA M164",
+            "AN N EA C165",
+            "AN N EA M166",
+            "AN N EA CM169",
+            "ISLM ST M111",
+            "ISLM ST M112",
+            "AN N EA M103A",
+            "AN N EA M103B",
+            "AN N EA M104A",
+            "AN N EA M104B",
+            "AN N EA M104C",
+            "AN N EA M104D",
+            "AN N EA C106A",
+            "AN N EA M110A",
+            "AN N EA M110B",
+            "AN N EA M110C",
+            "JEWISH M182A",
+            "AN N EA 120A",
+            "AN N EA 120B",
+            "AN N EA 120C",
+            "AN N EA 140A",
+            "AN N EA 140B",
+            "AN N EA 140C",
+            "AN N EA M168A",
+            "HEBREW 110A",
+            "HEBREW 110B",
+            "HEBREW 110C",
+            "SEMITIC M140A",
+            "SEMITIC 140B",
+            "AN N EA M150A",
+            "AN N EA 150B",
+            "JEWISH M150A",
+            "JEWISH 170",
+            "AN N EA M130",
+            "AN N EA M135",
+            "AN N EA M167",
+            "AN N EA M170",
+            "AN N EA M185D",
+            "IRANIAN 170",
+            "JEWISH M155"
+          ]
+        },
+        {
+          "choose_n": 6,
+          "courses": [
+            "AN N EA 121A",
+            "AN N EA 121B",
+            "AN N EA 121C",
+            "AN N EA C123A",
+            "AN N EA C123B",
+            "AN N EA 124",
+            "AN N EA 125A",
+            "AN N EA M125B",
+            "AN N EA M125C",
+            "AN N EA 175",
+            "AN N EA C177",
+            "AN N EA M179",
+            "ANTHRO 110",
+            "ANTHRO CM110Q",
+            "ANTHRO 111",
+            "ANTHRO 112R",
+            "ANTHRO 130",
+            "ANTHRO M150",
+            "ENGL 111A",
+            "ENGL 111B",
+            "ENGL 111C",
+            "GREEK 130",
+            "HEBREW 125",
+            "HEBREW 130",
+            "HEBREW 135",
+            "HEBREW 188FL",
+            "RELIGN M186A",
+            "RELIGN M186B",
+            "RELIGN M186C",
+            "SEMITIC 130",
+            "SEMITIC 141",
+            "SEMITIC 142"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Capstone",
+      "type": "required",
+      "choose_n": null,
+      "courses": [],
+      "elective_groups": []
+    }
+  ],
+  "by_department": {
+    "AN N EA": [
+      "AN N EA 10W",
+      "AN N EA 120A",
+      "AN N EA 120B",
+      "AN N EA 120C",
+      "AN N EA 121A",
+      "AN N EA 121B",
+      "AN N EA 121C",
+      "AN N EA 124",
+      "AN N EA 125A",
+      "AN N EA 12W",
+      "AN N EA 14",
+      "AN N EA 140A",
+      "AN N EA 140B",
+      "AN N EA 140C",
+      "AN N EA 14W",
+      "AN N EA 15",
+      "AN N EA 150B",
+      "AN N EA 15W",
+      "AN N EA 160",
+      "AN N EA 161",
+      "AN N EA 162",
+      "AN N EA 175",
+      "AN N EA C106A",
+      "AN N EA C123A",
+      "AN N EA C123B",
+      "AN N EA C165",
+      "AN N EA C177",
+      "AN N EA CM101A",
+      "AN N EA CM101B",
+      "AN N EA CM163",
+      "AN N EA CM169",
+      "AN N EA M101C",
+      "AN N EA M103A",
+      "AN N EA M103B",
+      "AN N EA M104A",
+      "AN N EA M104B",
+      "AN N EA M104C",
+      "AN N EA M104D",
+      "AN N EA M105",
+      "AN N EA M110A",
+      "AN N EA M110B",
+      "AN N EA M110C",
+      "AN N EA M125B",
+      "AN N EA M125C",
+      "AN N EA M130",
+      "AN N EA M135",
+      "AN N EA M150A",
+      "AN N EA M164",
+      "AN N EA M166",
+      "AN N EA M167",
+      "AN N EA M168A",
+      "AN N EA M170",
+      "AN N EA M179",
+      "AN N EA M185D",
+      "AN N EA M60",
+      "AN N EA M60W",
+      "AN N EA M70"
+    ],
+    "ANTHRO": [
+      "ANTHRO 110",
+      "ANTHRO 111",
+      "ANTHRO 112R",
+      "ANTHRO 130",
+      "ANTHRO CM110Q",
+      "ANTHRO M150"
+    ],
+    "ENGL": [
+      "ENGL 111A",
+      "ENGL 111B",
+      "ENGL 111C"
+    ],
+    "GREEK": [
+      "GREEK 130"
+    ],
+    "HEBREW": [
+      "HEBREW 110A",
+      "HEBREW 110B",
+      "HEBREW 110C",
+      "HEBREW 125",
+      "HEBREW 130",
+      "HEBREW 135",
+      "HEBREW 188FL"
+    ],
+    "IRANIAN": [
+      "IRANIAN 170"
+    ],
+    "ISLM ST": [
+      "ISLM ST M111",
+      "ISLM ST M112"
+    ],
+    "JEWISH": [
+      "JEWISH 170",
+      "JEWISH M150A",
+      "JEWISH M155",
+      "JEWISH M182A"
+    ],
+    "M E STD": [
+      "M E STD M50A",
+      "M E STD M50B"
+    ],
+    "NR EAST": [
+      "NR EAST M20"
+    ],
+    "RELIGN": [
+      "RELIGN M186A",
+      "RELIGN M186B",
+      "RELIGN M186C"
+    ],
+    "SEMITIC": [
+      "SEMITIC 130",
+      "SEMITIC 140B",
+      "SEMITIC 141",
+      "SEMITIC 142",
+      "SEMITIC M140A"
+    ]
+  },
+  "courses": [
+    {
+      "course_id": "AN N EA 10W",
+      "dept": "AN N EA",
+      "number": "10W",
+      "title": "Jerusalem: Holy City",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 12W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 120A",
+      "dept": "AN N EA",
+      "number": "120A",
+      "title": "Elementary Ancient Egyptian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Course 120A is requisite to 120B, which is requisite to 120C. Introduction to hieroglyphic script and phonology and morphology of Middle Egyptian. Basic rules of Middle Egyptian syntax, with focus on nominal, adjectival, and adverbial sentences. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA 120B"
+      ]
+    },
+    {
+      "course_id": "AN N EA 120B",
+      "dept": "AN N EA",
+      "number": "120B",
+      "title": "Elementary Ancient Egyptian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Requisite: course 120A. Verbal system and syntax of verbal sentences of Middle Egyptian. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120A.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 120A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AN N EA 120C"
+      ]
+    },
+    {
+      "course_id": "AN N EA 120C",
+      "dept": "AN N EA",
+      "number": "120C",
+      "title": "Elementary Ancient Egyptian",
+      "units": 5.0,
+      "description": "Lecture, five hours. Requisite: course 120B. Reading of authentic Egyptian texts to deepen knowledge of Egyptian grammar and to acquire familiarity with aims and methods of philology, study of ancient texts. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120B.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 120B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AN N EA 121A"
+      ]
+    },
+    {
+      "course_id": "AN N EA 121A",
+      "dept": "AN N EA",
+      "number": "121A",
+      "title": "Intermediate Ancient Egyptian Readings",
+      "units": 5.0,
+      "description": "Lecture, three hours. Requisite: course 120C. Course 121A is requisite to 121B, which is requisite to 121C. Thematic readings in ancient Egyptian historical, religious, and literary texts. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 120C.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 120C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AN N EA 121B"
+      ]
+    },
+    {
+      "course_id": "AN N EA 121B",
+      "dept": "AN N EA",
+      "number": "121B",
+      "title": "Intermediate Ancient Egyptian Readings",
+      "units": 5.0,
+      "description": "Lecture, three hours. Requisite: course 121A. Thematic readings in ancient Egyptian historical, religious, and literary texts. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 121A.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 121A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AN N EA 121C"
+      ]
+    },
+    {
+      "course_id": "AN N EA 121C",
+      "dept": "AN N EA",
+      "number": "121C",
+      "title": "Intermediate Ancient Egyptian Readings",
+      "units": 5.0,
+      "description": "Lecture, three hours. Requisite: course 121B. Thematic readings in ancient Egyptian historical, religious, and literary texts. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 121B.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 121B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AN N EA 124"
+      ]
+    },
+    {
+      "course_id": "AN N EA 124",
+      "dept": "AN N EA",
+      "number": "124",
+      "title": "Middle Egyptian Technical Literature",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 121C. Reading of Middle Egyptian technical literature in hieroglyphic transcription. Medical, veterinary, mathematical, and astronomical texts included. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 121C.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 121C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 125A",
+      "dept": "AN N EA",
+      "number": "125A",
+      "title": "Digital Cultural Mapping Core Course A: Place, Time, and Digital World",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction to how emerging digital mapping technologies like geographic information systems (GIS), virtual globes, and three-dimensional modeling are being utilized as new means of inquiry in the humanities and social sciences. Provides students with critical apparatus needed to effectively, responsibly, and heuristically use technology\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA M125B"
+      ]
+    },
+    {
+      "course_id": "AN N EA 12W",
+      "dept": "AN N EA",
+      "number": "12W",
+      "title": "Jerusalem: Holy City",
+      "units": 5.0,
+      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 10W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected by literary and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLISH COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 14",
+      "dept": "AN N EA",
+      "number": "14",
+      "title": "Medicine, Magic, and Science in Ancient Times",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 14W. Overview of history of medicine and sciences, focusing especially on Ancient Near East, China, and Meso-America. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 140A",
+      "dept": "AN N EA",
+      "number": "140A",
+      "title": "Elementary Sumerian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to Sumerian, oldest cuneiform language, with examples attested in Mesopotamia from 3rd millennium BCE to 1st century CE. Elementary grammar, syntax, and overview of cuneiform as used by Sumerian. Focus on structure of nominal and verbal chain, through reading of basic royal inscriptions and other texts.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 140B",
+      "dept": "AN N EA",
+      "number": "140B",
+      "title": "Elementary Sumerian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: Semitics 140A, 140B. Elementary grammar and reading of royal inscriptions, letters, and administrative texts from Ur III period. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Semitics 140A, 140B.",
+      "prereqs_parsed": {
+        "required": [
+          "SEMIT 140A",
+          "SEMIT 140B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 140C",
+      "dept": "AN N EA",
+      "number": "140C",
+      "title": "Elementary Sumerian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: Semitics 140A, 140B. Elementary grammar and reading of royal inscriptions, letters, and administrative texts from Ur III period. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: Semitics 140A, 140B.",
+      "prereqs_parsed": {
+        "required": [
+          "SEMITIC 140A",
+          "SEMITIC 140B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 14W",
+      "dept": "AN N EA",
+      "number": "14W",
+      "title": "Medicine, Magic, and Science in Ancient Times",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 14. Overview of history of medicine and sciences, focusing especially on Ancient Near East, China, and Meso-America. Satisfies Writing II requirement. Letter grading.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 15",
+      "dept": "AN N EA",
+      "number": "15",
+      "title": "Women and Power in Ancient World",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Not open for credit to students with credit for course 15W. Examination of how feminine power confronts masculine dominance within complex social systems in ancient world. To gain political power, some female rulers used their sexuality to gain access to important men. Other women\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 150B",
+      "dept": "AN N EA",
+      "number": "150B",
+      "title": "Survey of Ancient Near Eastern Literatures in English: Egypt",
+      "units": 4.0,
+      "description": "Lecture, three hours. Preparation: familiarity with Egyptian history. Enforced requisites: courses M103A, M103B. Survey of 3,000 years of ancient Egyptian literature. Reading of Egyptian texts in translation to study Egypt\u2019s intellectual history and trace transformations in its construction of cultural identity. Topics include invention of writing, autobiography, wisdom texts, narratives,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses M103A, M103B.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA M103A",
+          "AN N EA M103B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 15W",
+      "dept": "AN N EA",
+      "number": "15W",
+      "title": "Women and Power in Ancient World",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 15. Examination of how feminine power confronts masculine dominance within complex social systems in ancient world. To gain political power, some female rulers used their sexuality to gain access to\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 160",
+      "dept": "AN N EA",
+      "number": "160",
+      "title": "Origins of Agriculture",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: Anthropology 8. Overview of prehistory of ancient Near East, with focus on human origins, origins of agriculture, and first cities. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: Anthropology 8.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 8"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 161",
+      "dept": "AN N EA",
+      "number": "161",
+      "title": "Archaeology of Prehistoric Mesopotamia",
+      "units": 4.0,
+      "description": "Lecture, three hours. Survey of prehistoric archaeological periods in Mesopotamia. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 162",
+      "dept": "AN N EA",
+      "number": "162",
+      "title": "Archaeology, Identity, and Bible",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. Introduction of archaeological record of southern Levant (ancient Israel) from Bronze Age through Achaemenid Period (circa 2500-332 BC) in combination with current understandings of genre, authorship, and historical value of Hebrew Bible. Ancient Israelite identities are traced through combination of archaeological and textual sources.\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA 175",
+      "dept": "AN N EA",
+      "number": "175",
+      "title": "Conceptions of Race in Ancient Egypt",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussions, one hour. Exploration of how racial hierarchies are created and maintained within context of ancient Egyptian culture. Race of ancient Egyptians is still at stake and tied to larger issues of racial and ethnic inequalities, prejudices, and oppression. Examination of modern issues invites comparison with conception\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA C106A",
+      "dept": "AN N EA",
+      "number": "C106A",
+      "title": "Earliest Empires: Mesopotamian History in 3rd Millennium",
+      "units": 5.0,
+      "description": "Lecture, three hours; discussion, one hour. In-depth study of the history of ancient Mesopotamia, from the earliest textual and material evidence to the end of the Ur III state circa 2000 BCE. Particular focus on rise of cities in Mesopotamia and formation of the first major unified polities, such as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA C123A",
+      "dept": "AN N EA",
+      "number": "C123A",
+      "title": "Coptic",
+      "units": 5.0,
+      "description": "Lecture, three hours. Introduction to Coptic, final phase of Egyptian language, which is attested in writing from circa 300 to 1400 CE. Devoted to learning Coptic alphabet, grammar, and vocabulary (Sahidic dialect), with particular emphasis on historical linguistics. Concurrently scheduled with course C223A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA C123B"
+      ]
+    },
+    {
+      "course_id": "AN N EA C123B",
+      "dept": "AN N EA",
+      "number": "C123B",
+      "title": "Coptic",
+      "units": 5.0,
+      "description": "Lecture, three hours. Requisite: course C123A. Introduction to Coptic, final phase of Egyptian language, which is attested in writing from circa 300 to 1400 CE. Introduction to variety of Coptic textual genres, from hagiographies to homilies, magical spells, private letters, legal contracts, and Gnostic Gospels found in Nag Hammadi. Readings\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course C123A.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA C123A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA C165",
+      "dept": "AN N EA",
+      "number": "C165",
+      "title": "Egyptian Archaeology",
+      "units": 4.0,
+      "description": "Seminar, three hours. Opportunity to research aspects of topics in ancient Egyptian archaeology. Topics vary each year. May be repeated for credit. Concurrently scheduled with course C266. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA C177",
+      "dept": "AN N EA",
+      "number": "C177",
+      "title": "Variable Topics in Ancient Near East",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour. Variable topics; consult Schedule of Classes for topics to be offered in specific term. Concurrently scheduled with course C277. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA CM101A",
+      "dept": "AN N EA",
+      "number": "CM101A",
+      "title": "Art and Architecture of Ancient Egypt, Predynastic Period to New Kingdom",
+      "units": 4.0,
+      "description": "(Same as Art History M110A.) Lecture, three hours. Study of architecture, sculpture, painting, and minor arts during Predynastic period and Old Kingdom. May be repeated for credit with consent of instructor. Concurrently scheduled with course C267A. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA CM101B",
+      "dept": "AN N EA",
+      "number": "CM101B",
+      "title": "Art and Architecture of Ancient Egypt, New Kingdom to Greco-Roman Period",
+      "units": 4.0,
+      "description": "(Same as Art History M110B.) Lecture, three hours. Study of architecture, sculpture, painting, and minor arts from New Kingdom to Greco-Roman period. Concurrently scheduled with course C267B. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA CM163",
+      "dept": "AN N EA",
+      "number": "CM163",
+      "title": "Archaeology of Iran",
+      "units": 4.0,
+      "description": "(Same as Iranian CM163.) Lecture, three hours. Designed to introduce students to Iranian archaeology from prehistoric through Achaemenid times. Concurrently scheduled with course CM259. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA CM169",
+      "dept": "AN N EA",
+      "number": "CM169",
+      "title": "Introduction to Archaeological Sciences",
+      "units": 4.0,
+      "description": "(Same as Anthropology CM110Q.) Lecture, three hours. Basic understanding of newly introduced methods and techniques throughout field of archaeology to implement them and to appreciate and evaluate results of their use by others who have embedded them in their scholarly publications or theoretical models. Systematic instruction in digital data management\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M101C",
+      "dept": "AN N EA",
+      "number": "M101C",
+      "title": "Ancient Egyptian Temple and City of Thebes",
+      "units": 4.0,
+      "description": "(Same as Art History M110C.) Lecture, four hours; fieldwork, one hour. Focus on ancient temples of city of Thebes (modern day Luxor). Theban temples are some of best-preserved cult buildings in all of Egypt, and their study illuminates traditions of artistic representation, architectural development, and social and political transformations echoed\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M103A",
+      "dept": "AN N EA",
+      "number": "M103A",
+      "title": "History of Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as History M103A.) Lecture, three hours; discussion, one hour (when scheduled). Course M103A is not requisite to M103B. Designed for juniors/seniors. Political and cultural institutions of ancient Egypt and ideas on which they were based. Chronological discussion of Prehistory, Old and Middle Kingdom. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA 150B"
+      ]
+    },
+    {
+      "course_id": "AN N EA M103B",
+      "dept": "AN N EA",
+      "number": "M103B",
+      "title": "History of Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as History M103B.) Lecture, three hours; discussion, one hour (when scheduled). Course M103A is not requisite to M103B. Designed for juniors/seniors. Political and cultural institutions of ancient Egypt and ideas on which they were based. New Kingdom and Late period until 332 BC. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA 150B"
+      ]
+    },
+    {
+      "course_id": "AN N EA M104A",
+      "dept": "AN N EA",
+      "number": "M104A",
+      "title": "History of Ancient Mesopotamia and Syria",
+      "units": 4.0,
+      "description": "(Same as History M104A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Political and cultural development of Fertile Crescent, including Palestine, from Late Uruk to neo-Babylonian period. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M104B",
+      "dept": "AN N EA",
+      "number": "M104B",
+      "title": "Sumerians",
+      "units": 4.0,
+      "description": "(Same as History M104B.) Lecture, three hours. Designed for juniors/seniors. Overview of Sumer and related cultures of Greater Mesopotamia in 4th and 3rd millennia BCE, with focus on rich cultural history of region and integration of archaeological, art historical, and written records. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M104C",
+      "dept": "AN N EA",
+      "number": "M104C",
+      "title": "Babylonians",
+      "units": 4.0,
+      "description": "(Same as History M104C.) Lecture, three hours. Designed for juniors/seniors. Overview of Babylonia and cultural history of region from late 3rd millennium BCE to invasion of Cyrus in 539 BCE, with focus on history and archaeology of region, urban structure, literature, and legal practices. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M104D",
+      "dept": "AN N EA",
+      "number": "M104D",
+      "title": "Assyrians",
+      "units": 4.0,
+      "description": "(Same as History M104D.) Lecture, three hours. Designed for juniors/seniors. Overview of Assyrian cultural history from its origins to end of Neo-Assyrian period (circa 612 BCE), with focus on rise, mechanics, and decline of Neo-Assyrian Empire, which at its peak ruled ancient Near East from Zagros to Egypt. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M105",
+      "dept": "AN N EA",
+      "number": "M105",
+      "title": "Archaeology of Egypt and Sudan",
+      "units": 4.0,
+      "description": "(Same as Anthropology M115.) Lecture, two hours; laboratory, three hours. Ancient Egypt is well known for iconic archaeological sites such as Giza Pyramids and Tomb of Tutankhamun. From these and thousands of less well-known sites, enormous variety of archaeological information can be gained. Through discussion of particular archaeological themes, regions,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M110A",
+      "dept": "AN N EA",
+      "number": "M110A",
+      "title": "Iranian Civilization: History of Achaemenid Empire",
+      "units": 4.0,
+      "description": "(Same as History M110A and Iranian M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire\u2019s religions, and Greco-Persian interactions. Further accents on Cyrus\u2019 empire and Darius\u2019 world order, age\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M110B",
+      "dept": "AN N EA",
+      "number": "M110B",
+      "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
+      "units": 4.0,
+      "description": "(Same as History M110B and Iranian M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise and Arsacid\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M110C",
+      "dept": "AN N EA",
+      "number": "M110C",
+      "title": "Iranian Civilization: History of Early Sasanian Empire\u00e2\u20ac\u201dFrom Ardashir I to Rise of Peroz (circa 224-459 CE)",
+      "units": 4.0,
+      "description": "(Same as History M110C and Iranian M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire\u2019s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions, Persia and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M125B",
+      "dept": "AN N EA",
+      "number": "M125B",
+      "title": "Digital Cultural Mapping Core Course B: Google Earth, Geographic Information Systems, Hypercities, and Timelines",
+      "units": 4.0,
+      "description": "(Same as Architecture and Urban Design M125B.) Laboratory, three hours; discussion, one hour. Enforced requisite: course 125A. Hands-on laboratory-based investigation of emerging digital mapping technologies, including instruction in Web-based mapping applications, virtual globes, and geographic information systems (GIS). Critique and creation of maps of cultural phenomena, applying skills students learned\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 125A.",
+      "prereqs_parsed": {
+        "required": [
+          "AN N EA 125A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "AN N EA M125C"
+      ]
+    },
+    {
+      "course_id": "AN N EA M125C",
+      "dept": "AN N EA",
+      "number": "M125C",
+      "title": "Digital Cultural Mapping Core Course C: Summer Research",
+      "units": 4.0,
+      "description": "(Same as Architecture and Urban Design M125C.) Laboratory, three hours; fieldwork, one hour. Enforced requisite: course M125B or Architecture and Urban Design M125B. Participation in collaborative geographic information systems (GIS) research project in humanities or social sciences using skills learned in courses 125A and M125B. Gathering and input of datasets\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M125B or Architecture and Urban Design M125B.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "AN N EA M125B",
+            "ARCH UD M125B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M130",
+      "dept": "AN N EA",
+      "number": "M130",
+      "title": "Ancient Egyptian Religion",
+      "units": 5.0,
+      "description": "(Same as Religion M132.) Lecture, three hours; discussion, one hour. Introduction to religious beliefs, practices, and sentiments of ancient Egypt to study Egyptian religion as coherent system of thought and sphere of action that once served as meaningful and relevant framework for understanding physical reality and human life for inhabitants\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M135",
+      "dept": "AN N EA",
+      "number": "M135",
+      "title": "Religion in Ancient Israel",
+      "units": 4.0,
+      "description": "(Same as Religion M135.) Lecture, three hours. Introductory survey of various ancient Israelite religious beliefs and practices, their origin, and development, with special attention to diversity of religious practice in ancient Israel and Canaan during 1st millennium BCE. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M150A",
+      "dept": "AN N EA",
+      "number": "M150A",
+      "title": "Heroes, Gods, and Monsters: Literature and Epic in Mesopotamia",
+      "units": 4.0,
+      "description": "(Formerly numbered 150A.) (Same as Study of Religion M150A.) Lecture, three hours. Survey of literary texts and traditions the ancient Near East, specifically Mesopotamia, from Old Akkadian (circa 2300 BCE) to Neo-Babylonian (circa 600 BCE) period. Texts read in English translation include literary texts, royal inscriptions, incantations, royal and divine\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M164",
+      "dept": "AN N EA",
+      "number": "M164",
+      "title": "Archaeology of Levant",
+      "units": 4.0,
+      "description": "(Formerly numbered 164.) (Same as Archeology M164, Art History M111E, and Middle Eastern Studies M164.) Lecture, three hours. Survey of archaeology of Levant from late fifth millennium through arrival of Alexander the Great (circa 4500-332 BC). Examination of social, economic, political, and cultural developments through archaeological finds from geographic region\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M166",
+      "dept": "AN N EA",
+      "number": "M166",
+      "title": "Art and Death in Ancient Egypt",
+      "units": 4.0,
+      "description": "(Same as Art History M110D.) Lecture, four hours. Ways of death, burial, funerary ritual, and afterlife beliefs in ancient Egypt, as well as in ancient Near East and Nubia, with focus on ancient visual materials\u2014both objects and architecture\u2014from Predynastic to Roman periods. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M167",
+      "dept": "AN N EA",
+      "number": "M167",
+      "title": "Magic in Ancient World",
+      "units": 4.0,
+      "description": "(Same as Classics M167.) Lecture, three hours; discussion, one hour (when scheduled). Requisite: Classics 10 or 20. Exploration of art of influencing natural course of events by occult means as practiced in ancient world at large. Coverage of beliefs in supernatural forces, rites aimed at controlling these forces effectively, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: Classics 10 or 20.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          "CLASS 10",
+          "CLASS 20"
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M168A",
+      "dept": "AN N EA",
+      "number": "M168A",
+      "title": "Elementary Hittite",
+      "units": 4.0,
+      "description": "(Formerly numbered M168.) (Same as Indo-European Studies M168A.) Lecture, three hours. Recommended preparation: knowledge of language with case system. Introduction to Hittite grammar by series of graded lessons covering morphology and syntax, followed by readings of selected texts from variety of genres. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M170",
+      "dept": "AN N EA",
+      "number": "M170",
+      "title": "Bible and Its Interpreters",
+      "units": 4.0,
+      "description": "(Same as Religion M172.) Lecture, three hours. Knowledge of original languages not required. Bible (Old and New Testaments) as book. Canon, text, and versions. Linguistic, literary, historical, and religious approaches to Bible study. Survey of history of interpretation from antiquity to present. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M179",
+      "dept": "AN N EA",
+      "number": "M179",
+      "title": "Cultural Heritage and Identity Representation: Creating Fowler and Virtual Exhibit",
+      "units": 4.0,
+      "description": "(Same as Art History M179.) Lecture, three hours; discussion, one hour. Exploration of what it takes to run museum and create exhibit. Introduction to different types of museum work, ranging from collecting and curation, to research, conservation, presentation, visitor experience, and management. Students jointly create exhibit based on Fowler Museum\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M185D",
+      "dept": "AN N EA",
+      "number": "M185D",
+      "title": "Religions of Ancient Near East",
+      "units": 4.0,
+      "description": "(Same as History M185D and Religion M185D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Main polytheistic systems of ancient Near East, with emphasis on Mesopotamia and Syria and with reference to religion of ancient Israel: varying concepts of divinity, hierarchies of gods, prayer and cult, magics,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M60",
+      "dept": "AN N EA",
+      "number": "M60",
+      "title": "Achaemenid Civilization and Empire of Alexander",
+      "units": 5.0,
+      "description": "(Same as History M60 and Iranian M60.) Lecture, three hours; discussion, one hour. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was ended by Alexander the Great, whose campaigns were as transformative as they were violent. Alexander\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M60W",
+      "dept": "AN N EA",
+      "number": "M60W",
+      "title": "Achaemenid Civilization and Empire of Alexander",
+      "units": 5.0,
+      "description": "(Same as History M60W and Iranian M60W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course M60. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: English Composition 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ENGLCOMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "AN N EA M70",
+      "dept": "AN N EA",
+      "number": "M70",
+      "title": "Demons, Fear, and Uncanny in Ancient World",
+      "units": 5.0,
+      "description": "(Same as Religion M70.) Lecture, three hours; discussion, one hour. Consideration of place of demons and fear in several different societies and cultures in ancient world: Mesopotamia; ancient Egypt, Greece, and Rome; and Biblical and early Jewish contexts. Investigation into why demons and monsters existed in these cultures; how they\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 110",
+      "dept": "ANTHRO",
+      "number": "110",
+      "title": "Principles of Archaeology",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 2. Intended for students interested in conceptual structure of scientific archaeology. Archaeological method and theory with emphasis on what archaeologists do and how and why they do it. Consideration of field strategies, formation processes, chronological frameworks, and other crucial principles\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 2.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 2"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 111",
+      "dept": "ANTHRO",
+      "number": "111",
+      "title": "Theory in Anthropological Archaeology",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 2. Method and theory with emphasis on archaeology within context of anthropology. Themes include theoretical developments over last 50 years, structure of archaeological reasoning, and selective survey of work on problems of general anthropological interest. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 2.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 2"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 112R",
+      "dept": "ANTHRO",
+      "number": "112R",
+      "title": "Cities Past and Present",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 2 or 3. Examination of ancient and modern cities to evaluate how urban form developed and continues to thrive as human social phenomenon. Contemporary observations compared with archaeological case studies, including South America, Asia, Africa, and ancient Near East. P/NP\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 2 or 3.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO 130",
+      "dept": "ANTHRO",
+      "number": "130",
+      "title": "Study of Culture",
+      "units": 4.0,
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "ANTHRO 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO CM110Q",
+      "dept": "ANTHRO",
+      "number": "CM110Q",
+      "title": "Introduction to Archaeological Sciences",
+      "units": 4.0,
+      "description": "(Same as Ancient Near East CM169.) Lecture, three hours. Basic understanding of newly introduced methods and techniques throughout field of archaeology to implement them and to appreciate and evaluate results of their use by others who have embedded them in their scholarly publications or theoretical models. Systematic instruction in digital\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ANTHRO M150",
+      "dept": "ANTHRO",
+      "number": "M150",
+      "title": "Language in Culture",
+      "units": 5.0,
+      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 4 or Linguistics 20.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ANTHRO 4",
+            "LING 20"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 111A",
+      "dept": "ENGL",
+      "number": "111A",
+      "title": "Hebrew Bible in Translation",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Literary study of Hebrew Bible (Old Testament), with emphasis on literary devices and narrative structures in relation to Judaic historical, political, psychological, philosophical, and theological themes. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 111B",
+      "dept": "ENGL",
+      "number": "111B",
+      "title": "Christian Biblical Texts in Translation",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Literary study of canonical New Testament and other Christian texts (deuterocanonical, apocryphal, gnostic, etc.), with emphasis on literary devices and narrative structures in relation to Judeo-Christian historical, political, psychological, philosophical, and theological themes. P/NP or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ENGL 111C",
+      "dept": "ENGL",
+      "number": "111C",
+      "title": "Topics in Biblical Literature",
+      "units": 5.0,
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Recommended: course 111A or 111B. Study of topics in Hebrew Bible and/or New Testament, with attention to particular literary themes, motifs, genres, and modes of interpretation. Discussion of influence of Bible on discrete periods or\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "GREEK 130",
+      "dept": "GREEK",
+      "number": "130",
+      "title": "Readings in New Testament",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 3. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3.",
+      "prereqs_parsed": {
+        "required": [
+          "GREEK 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 110A",
+      "dept": "HEBREW",
+      "number": "110A",
+      "title": "Introduction to Biblical Hebrew: Phonology, Morphology, and Structure of Biblical Hebrew",
+      "units": 4.0,
+      "description": "Lecture, three hours. Phonology, morphology, and structure of biblical Hebrew. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "HEBREW 110B",
+        "HEBREW 110C"
+      ]
+    },
+    {
+      "course_id": "HEBREW 110B",
+      "dept": "HEBREW",
+      "number": "110B",
+      "title": "Introduction to Biblical Hebrew: Readings of Biblical Prose Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 110A. Continuation of course 110A. Readings of biblical prose texts. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 110A.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 110A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": [
+        "HEBREW 110C"
+      ]
+    },
+    {
+      "course_id": "HEBREW 110C",
+      "dept": "HEBREW",
+      "number": "110C",
+      "title": "Readings in Biblical Hebrew",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 110A, 110B. Continuation of course 110B. Reading of prose texts from Hebrew Bible, particularly from Former Prophets (Joshua-Kings). Introduction to certain aspects of historical grammar of biblical Hebrew. Reading and translation of variety of texts from different historical periods of Hebrew language, including texts from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 110A, 110B.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 110A",
+          "HEBREW 110B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 125",
+      "dept": "HEBREW",
+      "number": "125",
+      "title": "Hebrew Bible with Medieval Commentaries",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisite: course 103C. Hebrew Bible with the commentaries of Rashi, Ibn Ezra, and/or Nahmanides. May be repeated for maximum of 16 units. Letter grading.",
+      "prereqs_raw": "Requisite: course 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 130",
+      "dept": "HEBREW",
+      "number": "130",
+      "title": "Rabbinic Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in Mishnah, Talmud, and/or Midrash. May be repeated for credit.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 103A",
+          "HEBREW 103B",
+          "HEBREW 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 135",
+      "dept": "HEBREW",
+      "number": "135",
+      "title": "Medieval Hebrew Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: courses 103A, 103B, 103C. Readings in medieval Hebrew prose and poetry. May be repeated for maximum of 16 units. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 103A, 103B, 103C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 103A",
+          "HEBREW 103B",
+          "HEBREW 103C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "HEBREW 188FL",
+      "dept": "HEBREW",
+      "number": "188FL",
+      "title": "Special Studies: Readings in Hebrew",
+      "units": 2.0,
+      "description": "Seminar, two hours. Requisite: course 102C. Students must be concurrently enrolled in an affiliated main course. Primary readings and advanced training in Hebrew. Additional work in Hebrew to enrich and augment work assigned in main course, including reading, writing, and other exercises in Hebrew. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "IRANIAN 170",
+      "dept": "IRANIAN",
+      "number": "170",
+      "title": "Religion in Ancient Iran",
+      "units": 4.0,
+      "description": "History of religion in Iran from the beginning to the Mohammedan conquest; Indo-Iranian background, Zoroastrianism, Manichaeism, Mazdakism.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ISLM ST M111",
+      "dept": "ISLM ST",
+      "number": "M111",
+      "title": "Introduction to Islamic Archaeology",
+      "units": 4.0,
+      "description": "(Same as Art History M119C and Middle Eastern Studies M111.) Lecture, three hours. From earliest monuments of Islam in Arabia and Jerusalem to humble remains of small Egyptian port, broad focus on archaeological and standing remains in central Islamic lands (primarily Syria, Egypt, and Iraq), Turkey, Iran, North Africa, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "ISLM ST M112",
+      "dept": "ISLM ST",
+      "number": "M112",
+      "title": "Archaeology and Art of Christian and Islamic Egypt",
+      "units": 4.0,
+      "description": "(Same as Archaeology M112, Art History M119D, and Middle Eastern Studies M112.) Lecture, three hours. Culture of Egypt transformed gradually after Muslim conquest in mid-7th century CE. According to material evidence such as ceramics, textiles, architectural forms, and building techniques, it is functionally impossible to separate pre-Islamic Christian Egypt from\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH 170",
+      "dept": "JEWISH",
+      "number": "170",
+      "title": "Dead Sea Scrolls and Early Judaism",
+      "units": 4.0,
+      "description": "Lecture, three hours. Introduction to Dead Sea Scrolls in English translation. Survey of literature, community of Khirbet Qumran, and their place in early Judaism. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M150A",
+      "dept": "JEWISH",
+      "number": "M150A",
+      "title": "Hebrew Literature in English: Literary Traditions of Ancient Israel\u00e2\u20ac\u201dBible and Apocrypha",
+      "units": 4.0,
+      "description": "(Same as Comparative Literature M101.) Lecture, three hours. Study of literary culture of ancient Israel through examination of principal compositional strategies of Hebrew Bible and Apocrypha (read in translation). May be taken independently for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M155",
+      "dept": "JEWISH",
+      "number": "M155",
+      "title": "Angels, Demons, and End of World: Magic, Mysticism, and Apocalypse in Jewish Traditions",
+      "units": 4.0,
+      "description": "(Same as Religion M155.) Lecture, three hours. Focus on popular Jewish traditions of magic, mysticism, apocalypse, and various contours of Judaism\u2019s textual and material traditions in antiquity. Examination of texts and objects from Hebrew Bible to modern discussions of Kabbalah and end of world, concentrating on Jewish antiquity. Discussion of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "JEWISH M182A",
+      "dept": "JEWISH",
+      "number": "M182A",
+      "title": "Ancient Jewish History",
+      "units": 4.0,
+      "description": "(Same as History M182A and Religion M182A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social, political, and religious developments. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50A",
+      "dept": "M E STD",
+      "number": "M50A",
+      "title": "First Civilizations",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M50A.) Lecture, three hours; discussion, one hour. Survey of great civilizations of ancient Near East\u2014Egypt, Israel, and Mesopotamia\u2014with attention to emergence of writing, monotheism, and urban societies. Letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "M E STD M50B",
+      "dept": "M E STD",
+      "number": "M50B",
+      "title": "Origins of Judaism, Christianity, and Islam",
+      "units": 5.0,
+      "description": "(Same as Ancient Near East M50B and Religion M50.) Lecture, three hours; discussion, one hour. Examination of three major monotheisms of Western cultures\u2014Judaism, Christianity, and Islam\u2014historically and comparatively. Development, teachings, and ritual practices of each tradition up to and including medieval period. Composition and development of various sacred texts, highlighting\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "NR EAST M20",
+      "dept": "NR EAST",
+      "number": "M20",
+      "title": "Visible Language: Study of Writing",
+      "units": 5.0,
+      "description": "(Same as Asian M20, Indo-European Studies M20, Slavic M20, and Southeast Asian M20.) Lecture, three hours; discussion, one hour. Consideration of concrete means of language representation in writing systems. Earliest representations of language known are those of Near East dating to end of 4th millennium BC. While literate civilizations of\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M186A",
+      "dept": "RELIGN",
+      "number": "M186A",
+      "title": "History of Early Christians",
+      "units": 4.0,
+      "description": "(Same as History M185F.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Christian movement from its origins to circa 160 CE, stressing its continuity/discontinuity with Judaism, various responses to Jesus of Nazareth, writings produced during this period, movement\u2019s encounters with its religious, social, and political world, and\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M186B",
+      "dept": "RELIGN",
+      "number": "M186B",
+      "title": "Religious Environment of Early Christians",
+      "units": 4.0,
+      "description": "(Same as History M185G.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Rich variety in religious practice and thought in Mediterranean world of 1st century CE as in context of developing Christian movement. Topics include Pharisees, Qumran, Philo, Stoics, Epicureans, traditional Greek and Roman religions, mysteries, astrology,\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "RELIGN M186C",
+      "dept": "RELIGN",
+      "number": "M186C",
+      "title": "Jesus of Nazareth in Historical Research",
+      "units": 4.0,
+      "description": "(Same as History M185I.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course M185F. Designed for juniors/seniors. Stimulated by significant post-Enlightenment historical evaluations, students are led into firsthand knowledge (in translation) of various multilayered sources for reconstruction of life, teaching, and initial impact of Jesus of Nazareth in\u2026 For more content click the Read More button below.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC 130",
+      "dept": "SEMITIC",
+      "number": "130",
+      "title": "Biblical Aramaic",
+      "units": 4.0,
+      "description": "Lecture, three hours. Requisites: Hebrew 102A, 102B, 102C. Grammar of biblical Aramaic and reading of texts.",
+      "prereqs_raw": "Requisites: Hebrew 102A, 102B, 102C.",
+      "prereqs_parsed": {
+        "required": [
+          "HEBREW 102A",
+          "HEBREW 102B",
+          "HEBREW 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC 140B",
+      "dept": "SEMITIC",
+      "number": "140B",
+      "title": "Elementary Akkadian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Elementary grammar and reading of texts in standard Babylonian.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": [
+        "AN N EA 140C"
+      ]
+    },
+    {
+      "course_id": "SEMITIC 141",
+      "dept": "SEMITIC",
+      "number": "141",
+      "title": "Advanced Akkadian",
+      "units": 4.0,
+      "description": "Lecture, three hours. Advanced Akkadian syntax and grammar; reading of Akkadian historical and literary texts. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC 142",
+      "dept": "SEMITIC",
+      "number": "142",
+      "title": "Akkadian Literary Texts",
+      "units": 4.0,
+      "description": "Lecture, three hours. Selected readings from Akkadian myths and epics, with introduction to historical tradition of works and their literary structure. May be repeated for credit. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    },
+    {
+      "course_id": "SEMITIC M140A",
+      "dept": "SEMITIC",
+      "number": "M140A",
+      "title": "Elementary Akkadian",
+      "units": 4.0,
+      "description": "(Formerly numbered 140A.) (Same as Ancient Near East M141.) Lecture, three hours. Elementary grammar and reading of texts in standard Babylonian. P/NP or letter grading.",
+      "prereqs_raw": "",
+      "prereqs_parsed": {
+        "required": []
+      },
+      "prereq_for": []
+    }
+  ]
+}
