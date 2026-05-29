@@ -5,7 +5,7 @@ import {
   IconUnfulfilled,
 } from "../tree/StatusIcons.jsx";
 
-const FONT = "Inter, system-ui, sans-serif";
+const FONT = '"Google Sans Flex", Inter, system-ui, sans-serif';
 
 /** Stacked collapsed view shown when a category has more than 7 courses. */
 export function CourseStack({ hiddenCount, onExpand }) {
@@ -131,7 +131,7 @@ export function ClassNode({ courseName, status, onClick, onMouseEnter, onMouseLe
       <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
         <span
           style={{
-            fontFamily: "Inter, system-ui, sans-serif",
+            fontFamily: FONT,
             fontSize: 20,
             fontWeight: 700,
             color: "#000",
@@ -142,7 +142,7 @@ export function ClassNode({ courseName, status, onClick, onMouseEnter, onMouseLe
         </span>
         <span
           style={{
-            fontFamily: "Inter, system-ui, sans-serif",
+            fontFamily: FONT,
             fontSize: 16,
             color: "#9A9A9A",
             lineHeight: 1,

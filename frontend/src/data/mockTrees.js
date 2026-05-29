@@ -187,6 +187,25 @@ export function filterTrees(trees, query) {
 
 const RECENTS_STORAGE_KEY = "treereq-sidebar-recents";
 const RECENT_TIMESTAMPS_KEY = "treereq-recent-timestamps";
+const MAJOR_TIMESTAMPS_KEY = "treereq-major-timestamps";
+
+export function loadMajorTimestamps() {
+  try {
+    const raw = localStorage.getItem(MAJOR_TIMESTAMPS_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+export function saveMajorTimestamp(id) {
+  try {
+    const existing = loadMajorTimestamps();
+    localStorage.setItem(MAJOR_TIMESTAMPS_KEY, JSON.stringify({ ...existing, [id]: Date.now() }));
+  } catch {
+    /* ignore */
+  }
+}
 
 export function loadRecentTimestamps() {
   try {
@@ -209,12 +228,13 @@ export function saveRecentTimestamp(id) {
 export function loadRecentIds() {
   try {
     const raw = localStorage.getItem(RECENTS_STORAGE_KEY);
-    if (!raw) return [];
+    if (!raw) return MOCK_RECENT_IDS;
     const parsed = JSON.parse(raw);
-    if (!Array.isArray(parsed)) return [];
-    return parsed.filter((id) => getTreeById(id));
+    if (!Array.isArray(parsed)) return MOCK_RECENT_IDS;
+    const valid = parsed.filter((id) => getTreeById(id));
+    return valid.length > 0 ? valid : MOCK_RECENT_IDS;
   } catch {
-    return [];
+    return MOCK_RECENT_IDS;
   }
 }
 

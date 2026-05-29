@@ -75,7 +75,7 @@ function OverarchingNode({ categoryName }) {
         >
           <span
             style={{
-              fontFamily: "Inter, system-ui, sans-serif",
+              fontFamily: '"Google Sans Flex", Inter, system-ui, sans-serif',
               fontSize: labelSize,
               fontWeight: 700,
               color: "#ffffff",
@@ -95,10 +95,13 @@ function OverarchingNode({ categoryName }) {
 
 // ─── Regular category (department) ──────────────────────────────────────────
 
-function StatusIcon({ completion }) {
+function StatusIcon({ completion, bgColor }) {
+  // Icon disc is white on a colored node background so it stands out clearly.
+  // Incomplete: CircleWrap matches the node bg so the white circle path itself
+  // forms the visible disc boundary (matching Figma's no-fill icon frame).
   if (completion === 100) return <IconCompleted bg="#ffffff" color="#358162" size={48} />;
   if (completion > 0)    return <IconInProgress bg="#ffffff" color="#85B110" size={48} />;
-  return <IconUnfulfilled bg="transparent" color="#ffffff" size={48} />;
+  return <IconUnfulfilled bg={bgColor} color="#ffffff" size={48} />;
 }
 
 function DepartmentNode({ categoryName, completionPercentage }) {
@@ -113,7 +116,12 @@ function DepartmentNode({ categoryName, completionPercentage }) {
   else if (clamped > 0)  bgColor = "#85B110";
   else                   bgColor = "#9A9A9A";
 
-  const labelSize = calcFontSize(categoryName, 20, 11, INNER_WIDTH_CATEGORY);
+  // Usable height for the label text. Generous padding is intentional: the
+  // sqrt formula assumes perfect char-packing, but real word-wrap wastes space
+  // on short words that don't fill the line. A conservative 72px budget keeps
+  // long labels (5+ lines) from pushing "X% complete" off the bottom of the circle.
+  const LABEL_HEIGHT = 72;
+  const labelSize = calcFontSize(categoryName, 20, 11, INNER_WIDTH_CATEGORY, LABEL_HEIGHT);
 
   return (
     <div
@@ -121,7 +129,7 @@ function DepartmentNode({ categoryName, completionPercentage }) {
         width: 220,
         height: 220,
         borderRadius: "50%",
-        border: "10px solid #ffffff",
+        border: "10px solid rgba(255,255,255,0.5)",
         background: bgColor,
         boxSizing: "border-box",
         display: "flex",
@@ -130,9 +138,10 @@ function DepartmentNode({ categoryName, completionPercentage }) {
         justifyContent: "center",
         gap: 10,
         flexShrink: 0,
+        overflow: "hidden",
       }}
     >
-      <StatusIcon completion={clamped} />
+      <StatusIcon completion={clamped} bgColor={bgColor} />
       <div
         style={{
           display: "flex",
@@ -144,7 +153,7 @@ function DepartmentNode({ categoryName, completionPercentage }) {
       >
         <span
           style={{
-            fontFamily: "Inter, system-ui, sans-serif",
+            fontFamily: '"Google Sans Flex", Inter, system-ui, sans-serif',
             fontSize: labelSize,
             fontWeight: 700,
             color: "#ffffff",
@@ -158,7 +167,7 @@ function DepartmentNode({ categoryName, completionPercentage }) {
         </span>
         <span
           style={{
-            fontFamily: "Inter, system-ui, sans-serif",
+            fontFamily: '"Google Sans Flex", Inter, system-ui, sans-serif',
             fontSize: 14,
             fontWeight: 400,
             color: "#ffffff",

@@ -28,7 +28,9 @@
       "WebFetch(domain:api.figma.com)",
       "Bash(node -e ':*)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); reqs=d.get\\('requirements',[]\\); [print\\(r\\) for r in reqs if r.get\\('elective_groups'\\)]\")",
-      "Bash(python -c ':*)"
+      "Bash(python -c ':*)",
+      "Bash(python3 -c ':*)",
+      "Bash(mkdir -p /c/temp)"
     ]
   }
 }

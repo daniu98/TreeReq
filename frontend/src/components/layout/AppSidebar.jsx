@@ -145,7 +145,6 @@ function Divider() {
 export default function AppSidebar({
   forests = [],
   allTrees = [],
-  recents = [],
   activeTreeId,
   activeMajorId,
   onHome,
@@ -191,18 +190,15 @@ export default function AppSidebar({
 
   const treeResults = useMemo(() => {
     if (!hasQuery) return [];
-    const combined = allTrees.length > 0 ? allTrees : [...forests, ...recents];
+    const combined = allTrees.length > 0 ? allTrees : forests;
     const seen = new Set();
     return combined.filter(t => {
       if (seen.has(t.id)) return false;
       seen.add(t.id);
       return t.name.toLowerCase().includes(query) || (t.major && t.major.toLowerCase().includes(query));
     });
-  }, [allTrees, forests, recents, query, hasQuery]);
+  }, [allTrees, forests, query, hasQuery]);
 
-  // Exclude from recents any tree already shown in My Trees
-  const forestIds = useMemo(() => new Set(forests.map(t => t.id)), [forests]);
-  const dedupedRecents = useMemo(() => recents.filter(t => !forestIds.has(t.id)), [recents, forestIds]);
 
   const isHome = !activeTreeId && !activeMajorId;
 
@@ -442,24 +438,6 @@ export default function AppSidebar({
               )}
             </div>
 
-            {dedupedRecents.length > 0 && (
-              <>
-                <Divider />
-                <div>
-                  <SectionHeader label="Recent" />
-                  {dedupedRecents.map(tree => (
-                    <SidebarRow
-                      key={tree.id}
-                      icon={<TreeLeafIcon color={activeTreeId === tree.id ? "#358162" : "#9A9A9A"} />}
-                      label={tree.name}
-                      subtitle={tree.major}
-                      active={activeTreeId === tree.id}
-                      onClick={() => onOpenTree?.(tree.id)}
-                    />
-                  ))}
-                </div>
-              </>
-            )}
           </>
         )}
       </div>

@@ -8,13 +8,9 @@ import TreeSetupMain from "./pages/TreeSetupMain.jsx";
 import { DegreeTree } from "./components/tree/DegreeTree.jsx";
 import { DraggableCanvas } from "./components/tree/DraggableCanvas.jsx";
 import {
-  bumpRecentIds,
   getTreeById,
-  loadRecentIds,
-  loadRecentTimestamps,
-  resolveRecentTrees,
-  saveRecentIds,
-  saveRecentTimestamp,
+  loadMajorTimestamps,
+  saveMajorTimestamp,
 } from "./data/mockTrees.js";
 import {
   loadStoredProfile,
@@ -105,9 +101,8 @@ function MajorTreePage({ majorId, majorName, onBack }) {
 function AppHome({
   route,
   navigate,
-  recents,
-  recentTimestamps,
   forests,
+  forestTimestamps,
   openTree,
   openMajor,
   goHome,
@@ -126,7 +121,6 @@ function AppHome({
     <>
       <AppSidebar
         forests={forests}
-        recents={recents}
         activeTreeId={activeTreeId}
         activeMajorId={activeMajorId}
         onHome={goHome}
@@ -146,12 +140,11 @@ function AppHome({
         <LandingMain
           onPlantNewTree={() => navigate("setup")}
           onOpenTree={openTree}
-          onOpenProfile={onOpenProfile}
           onOpenMajor={openMajor}
-          profileLabel={userProfile?.displayName ?? "Guest"}
+          onOpenProfile={onOpenProfile}
           userProfile={userProfile}
-          recents={recents}
-          recentTimestamps={recentTimestamps ?? {}}
+          forests={forests}
+          forestTimestamps={forestTimestamps ?? {}}
         />
       ) : null}
 
@@ -182,12 +175,10 @@ export default function App() {
   const [homeEntered, setHomeEntered] = useState(!!initialProfile);
 
   const [route, setRoute] = useState(() => parseLocation());
-  const [recentIds, setRecentIds] = useState(loadRecentIds);
   const [userProfile, setUserProfile] = useState(initialProfile);
   const [showProfile, setShowProfile] = useState(false);
 
-  const recents = useMemo(() => resolveRecentTrees(recentIds), [recentIds]);
-  const [recentTimestamps, setRecentTimestamps] = useState(loadRecentTimestamps);
+  const [majorTimestamps, setMajorTimestamps] = useState(loadMajorTimestamps);
   const [recentMajors, setRecentMajors] = useState(loadRecentMajors);
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeTree = activeTreeId ? getTreeById(activeTreeId) : null;
@@ -239,15 +230,14 @@ export default function App() {
   const openTree = useCallback(
     (treeId) => {
       if (!getTreeById(treeId)) return;
+      setShowProfile(false);
       navigate("tree", treeId);
-      setRecentIds((prev) => bumpRecentIds(prev, treeId));
-      saveRecentTimestamp(treeId);
-      setRecentTimestamps(loadRecentTimestamps());
     },
     [navigate]
   );
 
   const openMajor = useCallback((majorId, majorName) => {
+    setShowProfile(false);
     navigate(majorId, null, majorName ? { majorName } : null);
     setRecentMajors((prev) => {
       const name = majorName ?? majorId.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
@@ -256,6 +246,8 @@ export default function App() {
       saveRecentMajors(next);
       return next;
     });
+    saveMajorTimestamp(majorId);
+    setMajorTimestamps(loadMajorTimestamps());
   }, [navigate]);
 
   const goHome = useCallback(() => {
@@ -283,8 +275,6 @@ export default function App() {
         setUserProfile(guest);
       }
     }
-    saveRecentIds([]);
-    setRecentIds([]);
     setOnboardingVisible(false);
   }, []);
 
@@ -314,9 +304,8 @@ export default function App() {
           <AppHome
             route={route}
             navigate={navigate}
-            recents={recents}
-            recentTimestamps={recentTimestamps}
             forests={allMyTrees}
+            forestTimestamps={majorTimestamps}
             openTree={openTree}
             openMajor={openMajor}
             goHome={goHome}

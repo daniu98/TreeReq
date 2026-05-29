@@ -109,6 +109,8 @@ export function buildHierarchy(apiResponse, majorName) {
           name: req.category,
           type: req.type ?? "required",
           choose_n: req.choose_n ?? null,
+          courses: catCourses,
+          section: sectionName,
         },
         children: [...courseChildren, ...remaining],
       };

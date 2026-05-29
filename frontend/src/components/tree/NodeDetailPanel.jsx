@@ -302,74 +302,90 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
 
 // ── Category panel ────────────────────────────────────────────────────────────
 
-function CategoryPanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) {
+function CourseCheckbox({ completed }) {
+  const green = "#85B110";
+  const gray = "#9A9A9A";
+  return (
+    <div style={{
+      width: 14,
+      height: 14,
+      borderRadius: 2,
+      flexShrink: 0,
+      background: completed ? green : "#fff",
+      border: `1px solid ${completed ? green : gray}`,
+      boxSizing: "border-box",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}>
+      {completed && (
+        <svg width="8" height="6" viewBox="0 0 8 6" fill="none">
+          <path d="M1 3L3 5L7 1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      )}
+    </div>
+  );
+}
+
+function CategoryPanel({ node, statusMap, nodeById, onStatusChange }) {
   const d = node.data;
-  const pct = node.completionPercentage ?? 0;
   const courses = d.courses ?? [];
-  const completed = courses.filter((cid) => statusMap[cid] === "completed").length;
+  const completedCount = courses.filter((cid) => statusMap[cid] === "completed").length;
+  const required = d.choose_n ?? courses.length;
+  const pct = required > 0 ? Math.min(100, Math.round((completedCount / required) * 100)) : 0;
+
+  const subtitle = d.choose_n != null
+    ? `Complete ${d.choose_n} of the following ${courses.length} courses.`
+    : `Complete the following ${courses.length} course${courses.length !== 1 ? "s" : ""}.`;
 
   return (
     <div>
-      <div style={{ marginBottom: 20 }}>
+      {/* Header */}
+      <div style={{ marginBottom: 16 }}>
         {d.section && (
           <div style={{ fontFamily: FONT, fontSize: 10, fontWeight: 600, color: "#aaa", textTransform: "uppercase", letterSpacing: "0.8px", marginBottom: 6 }}>
             {d.section}
           </div>
         )}
-        <div style={{ fontFamily: FONT, fontSize: 20, fontWeight: 800, color: "#111", lineHeight: 1.2, marginBottom: 12 }}>
-          {d.name}
-        </div>
-        <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-          {d.choose_n != null && (
-            <span style={{ fontFamily: FONT, fontSize: 11, color: "#7b5ea7", background: "#f3eeff", border: "1px solid #c4b0ee", borderRadius: 20, padding: "3px 10px", fontWeight: 600 }}>
-              Choose {d.choose_n} of {courses.length}
-            </span>
-          )}
-          <span style={{ fontFamily: FONT, fontSize: 12, color: pct === 100 ? "#348162" : "#888" }}>
-            {completed} / {courses.length} completed
+        <div style={{ fontFamily: FONT, fontSize: 20, fontWeight: 800, color: "#111", lineHeight: 1.2, marginBottom: 4 }}>
+          {d.name}{" "}
+          <span style={{ fontWeight: 400, color: "#9A9A9A" }}>
+            ({Math.min(completedCount, required)}/{required})
           </span>
         </div>
-        <div style={{ marginTop: 8 }}>
-          <ProgressBar pct={pct} />
+        <div style={{ fontFamily: FONT, fontSize: 14, color: "#9A9A9A", marginBottom: 14 }}>
+          {subtitle}
         </div>
+        <ProgressBar pct={pct} />
       </div>
 
       <Divider />
 
-      <SectionLabel>Courses</SectionLabel>
+      {/* Course list */}
       {courses.length === 0 ? (
         <div style={{ fontFamily: FONT, fontSize: 13, color: "#aaa" }}>No courses listed</div>
       ) : (
-        <div style={{ display: "flex", flexDirection: "column", gap: 1 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, background: "#FAFAFA", borderRadius: 8, padding: 15 }}>
           {courses.map((cid) => {
             const cn = nodeById?.get(cid);
             const st = statusMap[cid] ?? (cn?.status === "locked" ? "locked" : "unfulfilled");
+            const isCompleted = st === "completed";
             const title = cn?.data?.title ?? "";
-            const stCfg = STATUS_CONFIG[st] ?? STATUS_CONFIG.unfulfilled;
+            const green = "#85B110";
+
             return (
               <div
                 key={cid}
-                style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 10px", borderRadius: 8, cursor: "pointer", transition: "background 100ms" }}
-                onMouseEnter={(e) => e.currentTarget.style.background = "#f7f7f7"}
-                onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
-                onClick={() => onNavigate(cid)}
+                style={{ display: "flex", alignItems: "center", gap: 8, cursor: "pointer", userSelect: "none" }}
+                onClick={() => onStatusChange(cid, isCompleted ? "unfulfilled" : "completed")}
               >
-                <StatusDot status={st} size={9} />
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontFamily: FONT, fontSize: 13, fontWeight: 600, color: "#222" }}>{cid}</div>
+                <CourseCheckbox completed={isCompleted} />
+                <span style={{ fontFamily: FONT, fontSize: 14, lineHeight: "24px", minWidth: 0, flex: 1 }}>
+                  <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{cid}</span>
                   {title && (
-                    <div style={{ fontFamily: FONT, fontSize: 11, color: "#999", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-                      {title}
-                    </div>
+                    <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> - {title}</span>
                   )}
-                </div>
-                <button
-                  style={{ background: "none", border: "none", padding: "2px 4px", cursor: "pointer", fontFamily: FONT, fontSize: 13, color: stCfg.color, flexShrink: 0, borderRadius: 4 }}
-                  title={st === "completed" ? "Mark unfulfilled" : "Mark completed"}
-                  onClick={(e) => { e.stopPropagation(); onStatusChange(cid, st === "completed" ? "unfulfilled" : "completed"); }}
-                >
-                  {st === "completed" ? "✓" : "○"}
-                </button>
+                </span>
               </div>
             );
           })}

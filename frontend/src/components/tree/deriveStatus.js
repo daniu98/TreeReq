@@ -36,17 +36,20 @@ export function deriveStatuses(rootHierarchy, statusMap, prereqIndex) {
       else status = "unfulfilled";
 
       const completed = status === "completed";
+      const visitedChildren = (node.children ?? []).map(visit);
+      const childTotal = visitedChildren.reduce((s, c) => s + (c.totalCourses ?? 0), 0);
+      const childCompleted = visitedChildren.reduce((s, c) => s + (c.completedCourses ?? 0), 0);
       return {
         ...node,
         status,
         completed,
         completionPercentage: completed ? 100 : 0,
-        totalCourses: 1,
-        completedCourses: completed ? 1 : 0,
+        totalCourses: 1 + childTotal,
+        completedCourses: (completed ? 1 : 0) + childCompleted,
         unmetPrereqs: requiredPrereqs
           .filter((p) => statusMap[p.source] !== "completed")
           .map((p) => p.source),
-        children: (node.children ?? []).map(visit),
+        children: visitedChildren,
       };
     }
 
@@ -56,8 +59,13 @@ export function deriveStatuses(rootHierarchy, statusMap, prereqIndex) {
       (sum, c) => sum + (c.completedCourses ?? 0),
       0
     );
+    // For "choose N of M" categories, use choose_n as the denominator so that
+    // completing N courses registers as 100% rather than requiring all M.
+    const required = node.kind === "category" && node.data?.choose_n != null
+      ? node.data.choose_n
+      : totalCourses;
     const completionPercentage =
-      totalCourses === 0 ? 0 : Math.round((completedCourses / totalCourses) * 100);
+      required === 0 ? 0 : Math.min(100, Math.round((completedCourses / required) * 100));
     const status =
       completionPercentage === 100
         ? "completed"

@@ -85,13 +85,8 @@ export function DegreeTree({
     try {
       if (newStatus === "completed") await setCourseCompletion(courseId, true);
       else if (prev === "completed") await setCourseCompletion(courseId, false);
-    } catch (err) {
-      setStatusMap((m) => {
-        const copy = { ...m };
-        if (prev === "unfulfilled") delete copy[courseId];
-        else copy[courseId] = prev;
-        return copy;
-      });
+    } catch {
+      // Persistence endpoint not yet implemented — keep the optimistic local update.
     }
   }, [statusMap]);
 

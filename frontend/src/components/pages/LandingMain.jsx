@@ -46,11 +46,23 @@ function computeProgress(profile) {
 
 // ── Icons ─────────────────────────────────────────────────────────────────────
 
-function LeafIcon({ size = 20, color = "#fff" }) {
+// Sprout / seedling icon used in the CTA button and tree cards
+function SproutIcon({ size = 20, color = "#fff" }) {
   return (
     <svg width={size} height={size} viewBox="0 0 20 20" fill="none" aria-hidden>
-      <path d="M10 2C6 2 2 6 2 10c0 4 3 7 7 7a7 7 0 000-14z" fill={color} />
-      <path d="M10 17V10M10 10C10 7 12 5 15 4" stroke={color} strokeWidth="1.5" strokeLinecap="round" />
+      {/* stem */}
+      <path d="M10 17V9" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
+      {/* right leaf */}
+      <path
+        d="M10 9C10 6 12.5 3.5 16 3.5C16 7 13.5 9.5 10 9Z"
+        fill={color}
+      />
+      {/* left leaf */}
+      <path
+        d="M10 12C10 9.5 7.5 7 4 7C4 10.5 6.5 13 10 12Z"
+        fill={color}
+        opacity="0.75"
+      />
     </svg>
   );
 }
@@ -58,12 +70,45 @@ function LeafIcon({ size = 20, color = "#fff" }) {
 function ChevronRight({ size = 16, color = "#B0B0B0" }) {
   return (
     <svg width={size} height={size} viewBox="0 0 16 16" fill="none" aria-hidden>
-      <path d="M6 4l4 4-4 4" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path
+        d="M6 4l4 4-4 4"
+        stroke={color}
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
 
 // ── Sub-components ────────────────────────────────────────────────────────────
+
+// Shows only the icon portion of LOGO.png (the spinning-arrows mark,
+// occupying roughly the leftmost 28% of the full-width image).
+function TreeReqIcon({ size = 44 }) {
+  // The spinning-arrows icon occupies roughly the leftmost 80% of the
+  // image height as width. Clip to that width to hide the "TreeReq" text.
+  const clipWidth = Math.round(size * 0.8);
+  return (
+    <div
+      aria-hidden
+      style={{
+        width: clipWidth,
+        height: size,
+        overflow: "hidden",
+        flexShrink: 0,
+        display: "flex",
+        alignItems: "center",
+      }}
+    >
+      <img
+        src="/images/LOGO.png"
+        alt=""
+        style={{ height: size, width: "auto", display: "block" }}
+      />
+    </div>
+  );
+}
 
 function ProfileButton({ initials, name, onClick }) {
   return (
@@ -74,7 +119,7 @@ function ProfileButton({ initials, name, onClick }) {
         display: "flex",
         alignItems: "center",
         gap: 10,
-        padding: "7px 16px 7px 7px",
+        padding: "7px 18px 7px 7px",
         background: "#fff",
         borderRadius: 9999,
         border: "1px solid #E5E5E5",
@@ -102,7 +147,9 @@ function ProfileButton({ initials, name, onClick }) {
       >
         {initials}
       </div>
-      <span style={{ fontSize: 15, color: "#1a1a1a", fontWeight: 500, ...font }}>{name}</span>
+      <span style={{ fontSize: 15, color: "#1a1a1a", fontWeight: 500, ...font }}>
+        {name}
+      </span>
     </button>
   );
 }
@@ -121,18 +168,23 @@ function PlantButton({ onClick }) {
         justifyContent: "center",
         gap: 10,
         width: "100%",
-        maxWidth: 500,
+        maxWidth: 520,
         padding: "15px 32px",
-        background: hovered ? "#3a6b24" : "#4a7c2f",
+        background: hovered
+          ? "linear-gradient(90deg, #2f5a1e 0%, #5a9e30 100%)"
+          : "linear-gradient(90deg, #3a6b24 0%, #6aaa38 100%)",
         borderRadius: 9999,
         border: "none",
         cursor: "pointer",
-        transition: "background 150ms",
+        transition: "background 150ms, filter 150ms",
+        filter: hovered ? "brightness(1.05)" : "none",
         ...font,
       }}
     >
-      <LeafIcon size={20} color="#fff" />
-      <span style={{ color: "#fff", fontSize: 16, fontWeight: 600, ...font }}>Plant a new tree</span>
+      <SproutIcon size={20} color="#fff" />
+      <span style={{ color: "#fff", fontSize: 16, fontWeight: 600, ...font }}>
+        Plant a new tree
+      </span>
     </button>
   );
 }
@@ -141,19 +193,19 @@ function ProgressStatsCard({ completed, standing, hasProgress }) {
   return (
     <div
       style={{
-        flex: "1 1 200px",
+        flex: "1 1 220px",
         background: "#fff",
         borderRadius: 14,
         border: "1px solid #E8E8E8",
-        padding: "20px 24px",
+        padding: "22px 28px",
         display: "flex",
         flexDirection: "column",
-        gap: 12,
+        gap: 14,
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <span style={{ fontSize: 14, color: "#9A9A9A", ...font }}>Completed Units</span>
-        <span style={{ fontSize: 20, fontWeight: 700, color: "#1a1a1a", ...font }}>
+        <span style={{ fontSize: 22, fontWeight: 700, color: "#1a1a1a", ...font }}>
           {hasProgress ? completed : "—"}
         </span>
       </div>
@@ -172,11 +224,11 @@ function TotalUnitsCard({ completed, total = 180, hasProgress }) {
   return (
     <div
       style={{
-        flex: "1 1 200px",
+        flex: "2 1 300px",
         background: "#fff",
         borderRadius: 14,
         border: "1px solid #E8E8E8",
-        padding: "20px 24px",
+        padding: "22px 28px",
         display: "flex",
         flexDirection: "column",
         gap: 14,
@@ -203,7 +255,7 @@ function TotalUnitsCard({ completed, total = 180, hasProgress }) {
               top: 0,
               bottom: 0,
               width: `${pct}%`,
-              background: "#4a7c2f",
+              background: "linear-gradient(90deg, #3a6b24, #6aaa38)",
               borderRadius: 9999,
               transition: "width 600ms ease",
             }}
@@ -217,22 +269,22 @@ function TotalUnitsCard({ completed, total = 180, hasProgress }) {
   );
 }
 
-function RecentTreeCard({ tree, timestamp, onOpenTree }) {
+function RecentTreeCard({ tree, timestamp, onOpen }) {
   const [hovered, setHovered] = useState(false);
   const ago = timeAgo(timestamp);
   return (
     <button
       type="button"
-      onClick={() => onOpenTree?.(tree.id)}
+      onClick={() => onOpen?.()}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
-        flex: "1 1 200px",
+        flex: "1 1 220px",
         display: "flex",
         alignItems: "center",
         gap: 14,
-        padding: "14px 16px",
-        background: hovered ? "#f8fdf5" : "#fff",
+        padding: "16px 18px",
+        background: hovered ? "#f4faf0" : "#fff",
         borderRadius: 14,
         border: "1px solid #E8E8E8",
         boxShadow: hovered ? "0 2px 12px rgba(0,0,0,0.07)" : "none",
@@ -243,8 +295,8 @@ function RecentTreeCard({ tree, timestamp, onOpenTree }) {
     >
       <div
         style={{
-          width: 44,
-          height: 44,
+          width: 46,
+          height: 46,
           borderRadius: 10,
           background: "rgba(74, 124, 47, 0.1)",
           display: "flex",
@@ -253,7 +305,7 @@ function RecentTreeCard({ tree, timestamp, onOpenTree }) {
           flexShrink: 0,
         }}
       >
-        <LeafIcon size={22} color="#4a7c2f" />
+        <SproutIcon size={22} color="#4a7c2f" />
       </div>
       <div style={{ flex: 1, minWidth: 0 }}>
         <div
@@ -269,11 +321,9 @@ function RecentTreeCard({ tree, timestamp, onOpenTree }) {
         >
           {tree.name}
         </div>
-        {ago && (
-          <div style={{ fontSize: 12, color: "#9A9A9A", marginTop: 2, ...font }}>
-            Last viewed {ago}
-          </div>
-        )}
+        <div style={{ fontSize: 12, color: "#9A9A9A", marginTop: 3, ...font }}>
+          {ago ? `Last viewed ${ago}` : "Recently viewed"}
+        </div>
       </div>
       <ChevronRight />
     </button>
@@ -285,10 +335,11 @@ function RecentTreeCard({ tree, timestamp, onOpenTree }) {
 export default function LandingMain({
   onPlantNewTree,
   onOpenTree,
+  onOpenMajor,
   onOpenProfile,
   userProfile = null,
-  recents = [],
-  recentTimestamps = {},
+  forests = [],
+  forestTimestamps = {},
 }) {
   const { completed, standing } = computeProgress(userProfile);
   const majorName = userProfile?.major ?? null;
@@ -302,7 +353,7 @@ export default function LandingMain({
   const initials = getInitials(userProfile?.displayName, userProfile?.fullName);
   const displayName = userProfile?.displayName ?? "Guest";
 
-  const recentTwo = recents.slice(0, 2);
+  const recentTwo = forests.slice(0, 2);
 
   return (
     <main
@@ -318,8 +369,8 @@ export default function LandingMain({
         style={{
           position: "relative",
           zIndex: 1,
-          padding: "28px 40px 56px",
-          maxWidth: 860,
+          padding: "28px 48px 56px 48px",
+          maxWidth: 1100,
         }}
       >
         {/* Profile button */}
@@ -338,17 +389,10 @@ export default function LandingMain({
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-            <img
-              src="/images/LOGO.png"
-              alt=""
-              aria-hidden
-              style={{ width: 48, height: 48, objectFit: "contain" }}
-            />
-            <h1 style={{ fontSize: 34, fontWeight: 700, margin: 0, color: "#1a1a1a", ...font }}>
+            <TreeReqIcon size={48} />
+            <h1 style={{ fontSize: 36, fontWeight: 700, margin: 0, color: "#1a1a1a", ...font }}>
               Welcome back,{" "}
-              <span style={{ color: "#4a7c2f" }}>
-                {firstName ?? "Guest"}.
-              </span>
+              <span style={{ color: "#4a7c2f" }}>{firstName ?? "Guest"}.</span>
             </h1>
           </div>
           <PlantButton onClick={onPlantNewTree} />
@@ -378,7 +422,11 @@ export default function LandingMain({
             )}
           </div>
           <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
-            <ProgressStatsCard completed={completed} standing={standing} hasProgress={hasProgress} />
+            <ProgressStatsCard
+              completed={completed}
+              standing={standing}
+              hasProgress={hasProgress}
+            />
             <TotalUnitsCard completed={completed} total={180} hasProgress={hasProgress} />
           </div>
         </div>
@@ -386,7 +434,9 @@ export default function LandingMain({
         {/* Revisit your trees */}
         {recentTwo.length > 0 && (
           <div>
-            <div style={{ fontSize: 15, fontWeight: 600, color: "#3a3a3a", marginBottom: 14, ...font }}>
+            <div
+              style={{ fontSize: 15, fontWeight: 600, color: "#3a3a3a", marginBottom: 14, ...font }}
+            >
               Revisit your trees
             </div>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
@@ -394,8 +444,12 @@ export default function LandingMain({
                 <RecentTreeCard
                   key={tree.id}
                   tree={tree}
-                  timestamp={recentTimestamps[tree.id]}
-                  onOpenTree={onOpenTree}
+                  timestamp={forestTimestamps[tree.id]}
+                  onOpen={() =>
+                    tree.majorId
+                      ? onOpenMajor?.(tree.majorId, tree.name)
+                      : onOpenTree?.(tree.id)
+                  }
                 />
               ))}
             </div>
