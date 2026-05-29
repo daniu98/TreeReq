@@ -98,7 +98,7 @@ def _category_label(section: str, dept: str, choose_n: int | None, rtype: str) -
     return label
 
 
-def _elective_group_label(section: str, courses: list[str], choose_n: int) -> str:
+def _elective_group_label(section: str, courses: list[str], choose_n: int | str) -> str:
     """Generate a display label for an elective group based on its departments."""
     depts = list(dict.fromkeys(parse_dept(c) for c in courses))  # ordered, unique
     if len(depts) == 1:
