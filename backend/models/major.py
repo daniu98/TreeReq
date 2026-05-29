@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 
 class ElectiveGroup(BaseModel):
-    choose_n: int
+    choose_n: int | None = None
     courses: list[str]
 
 
