@@ -113,13 +113,15 @@ export function DegreeTree({
     return map;
   }, [edges]);
 
-  // IDs hidden because they exceed the collapse threshold.
+  // IDs hidden because their category has >threshold courses and is collapsed.
+  // ALL courses in such a category are hidden (not just the excess).
   const hiddenNodeIds = useMemo(() => {
     const hidden = new Set();
     for (const [catId, directCourses] of categoryDirectCourses) {
       if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
       if (expandedCategories.has(catId)) continue;
-      const queue = directCourses.slice(COLLAPSE_THRESHOLD).map((n) => n.id);
+      // Hide every direct course and all its descendants.
+      const queue = directCourses.map((n) => n.id);
       while (queue.length) {
         const id = queue.shift();
         if (hidden.has(id)) continue;
@@ -133,22 +135,24 @@ export function DegreeTree({
     return hidden;
   }, [categoryDirectCourses, expandedCategories, edges]);
 
-  // Stack placeholder positions for collapsed categories.
+  // Stack placeholder — positioned at the category center, shows total count.
   const stackInfo = useMemo(() => {
     const stacks = [];
     for (const [catId, directCourses] of categoryDirectCourses) {
       if (directCourses.length <= COLLAPSE_THRESHOLD) continue;
       if (expandedCategories.has(catId)) continue;
-      const last = directCourses[COLLAPSE_THRESHOLD - 1];
+      // Place the stack to the right of the category node.
+      const catNode = layout?.nodes?.find((n) => n.id === catId);
+      if (!catNode) continue;
       stacks.push({
         catId,
-        hiddenCount: directCourses.length - COLLAPSE_THRESHOLD,
-        x: last.x,
-        y: last.y + last.height + 20,
+        hiddenCount: directCourses.length,
+        x: catNode.x + catNode.width / 2 + 140,
+        y: catNode.y,
       });
     }
     return stacks;
-  }, [categoryDirectCourses, expandedCategories]);
+  }, [categoryDirectCourses, expandedCategories, layout]);
 
   // ── Early returns (after all hooks) ───────────────────────────────────────
 
