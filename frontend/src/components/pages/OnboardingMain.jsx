@@ -266,10 +266,9 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSs
 	setLoadState("loading");
 	setLoadError("");
         const majors_raw = await fetchMajors();
-	const fetchedMajors = majors_raw.map(item => ({
-	  value: item.major_id,
-	  label: item.name
-	}));
+	const fetchedMajors = majors_raw
+	  .map(item => ({ value: item.major_id, label: item.name }))
+	  .sort((a, b) => a.label.localeCompare(b.label));
 	if (cancelled) return;
 	setMajors(fetchedMajors);
 	setLoadState("ready");
@@ -438,10 +437,9 @@ function OnboardingProfileStep({ onContinue }) {
 	setLoadState("loading");
 	setLoadError("");
         const majors_raw = await fetchMajors();
-	const fetchedMajors = majors_raw.map(item => ({
-	  value: item.major_id,
-	  label: item.name
-	}));
+	const fetchedMajors = majors_raw
+	  .map(item => ({ value: item.major_id, label: item.name }))
+	  .sort((a, b) => a.label.localeCompare(b.label));
 	if (cancelled) return;
 	setMajors(fetchedMajors);
 	setLoadState("ready");
