@@ -5,7 +5,7 @@ import OnboardingMain from "./components/pages/OnboardingMain.jsx";
 import ProfileMain from "./components/pages/ProfileMain.jsx";
 import TreeViewMain from "./components/pages/TreeViewMain.jsx";
 import AppSidebar from "./components/layout/AppSidebar.jsx";
-import TreeSetupMain from "./pages/TreeSetupMain.jsx";
+import TreeSetupMain from "./components/pages/TreeSetupMain.jsx";
 import { DegreeTree } from "./components/tree/DegreeTree.jsx";
 import { DraggableCanvas } from "./components/tree/DraggableCanvas.jsx";
 import {
