@@ -331,6 +331,16 @@ export default function App() {
   const handleProfileUpdate = useCallback((updated) => {
     saveStoredProfile(updated);
     setUserProfile(updated);
+    if (updated?.majorId && updated?.major) {
+      setRecentMajors((prev) => {
+        const item = { id: updated.majorId, name: updated.major, majorId: updated.majorId };
+        const next = [item, ...prev.filter((m) => m.id !== updated.majorId)].slice(0, 10);
+        saveRecentMajors(next);
+        return next;
+      });
+      saveMajorTimestamp(updated.majorId);
+      setMajorTimestamps(loadMajorTimestamps());
+    }
   }, []);
 
   const handleSignOut = useCallback(() => {

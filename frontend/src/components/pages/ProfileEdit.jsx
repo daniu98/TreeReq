@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { fetchAcademicOptions } from "../../services/onboardingApi.js";
+import { fetchMajors } from "../../services/majorsApi.js";
 
 const FONT = "Inter, system-ui, var(--font-ui), sans-serif";
 
@@ -225,6 +226,7 @@ export default function ProfileEdit({ profile, onSave, onDiscard }) {
   const nameParts = (profile?.fullName ?? "").split(" ");
   const [firstName, setFirstName] = useState(nameParts[0] ?? "");
   const [lastName, setLastName] = useState(nameParts.slice(1).join(" ") ?? "");
+  const [major, setMajor] = useState(profile?.major && profile.major !== "—" ? profile.major : "");
   const [minor, setMinor] = useState(profile?.minor === "N/A" ? "" : (profile?.minor ?? ""));
   const [admitTerm, setAdmitTerm] = useState(profile?.admitTerm === "—" ? "" : (profile?.admitTerm ?? ""));
   const [admitLevel, setAdmitLevel] = useState(profile?.admitLevel === "—" ? "" : (profile?.admitLevel ?? ""));
@@ -236,6 +238,9 @@ export default function ProfileEdit({ profile, onSave, onDiscard }) {
   const [academicOptions, setAcademicOptions] = useState({ apExams: [], ibExams: [], uclaCourses: [] });
   const [optionsLoading, setOptionsLoading] = useState(true);
   const [optionsError, setOptionsError] = useState("");
+  const [majorId, setMajorId] = useState(profile?.majorId ?? null);
+  const [majorOptions, setMajorOptions] = useState([]);
+  const [majorsLoading, setMajorsLoading] = useState(true);
 
   useEffect(() => {
     fetchAcademicOptions()
@@ -253,19 +258,30 @@ export default function ProfileEdit({ profile, onSave, onDiscard }) {
       });
   }, []);
 
+  useEffect(() => {
+    fetchMajors()
+      .then(data => {
+        setMajorOptions(Array.isArray(data) ? data.map(m => ({ value: m.major_id, label: m.name })) : []);
+        setMajorsLoading(false);
+      })
+      .catch(() => setMajorsLoading(false));
+  }, []);
+
   function handleSave() {
     const first = firstName.trim();
     const last = lastName.trim();
     const fullName = [first, last].filter(Boolean).join(" ") || profile?.fullName || "Student";
     const lastInitial = last ? `${last.charAt(0).toUpperCase()}.` : "";
     const displayName = first && lastInitial ? `${first} ${lastInitial}` : fullName;
-    const major = profile?.major ?? "—";
-    const majorFocus = major.split(",")[0]?.trim() || major;
+    const savedMajor = major.trim() || profile?.major || "—";
+    const majorFocus = savedMajor.split(",")[0]?.trim() || savedMajor;
 
     onSave?.({
       ...profile,
       displayName,
       fullName,
+      major: savedMajor,
+      majorId: majorId ?? profile?.majorId ?? null,
       majorFocus,
       minor: minor.trim() || "N/A",
       admitTerm: admitTerm.trim() || "—",
@@ -305,7 +321,27 @@ export default function ProfileEdit({ profile, onSave, onDiscard }) {
               <div className="profile-info-col">
                 <Field label="First name" value={firstName} onChange={setFirstName} placeholder="First name" />
                 <Field label="Last name" value={lastName} onChange={setLastName} placeholder="Last name" />
-                <Field label="Major" value={profile?.major ?? "—"} readOnly />
+                <div className="profile-info-row">
+                  <span className="profile-info-row__label">Major:</span>
+                  <SearchDropdown
+                    options={majorOptions}
+                    selected={[]}
+                    onAdd={(label) => {
+                      setMajor(label);
+                      const opt = majorOptions.find(o => o.label === label);
+                      setMajorId(opt?.value ?? null);
+                    }}
+                    placeholder={majorsLoading ? "Loading majors…" : major || "Search for a major…"}
+                    loading={majorsLoading}
+                    error=""
+                  />
+                </div>
+                {major && (
+                  <div className="profile-info-row">
+                    <span className="profile-info-row__label" />
+                    <span style={{ fontSize: 13, color: "#358162", fontFamily: FONT }}>{major}</span>
+                  </div>
+                )}
                 <Field label="Minor" value={minor} onChange={setMinor} placeholder="e.g. Computer Science" />
               </div>
               <div className="profile-info-col">
