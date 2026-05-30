@@ -396,12 +396,9 @@ export default function LandingMain({
         }}
       >
         {/* Profile / Sign-in button */}
-        <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 48 }}>
-          {isGuest ? (
-            <SignInButton onClick={onSignIn} />
-          ) : (
-            <ProfileButton initials={initials} name={displayName} onClick={onOpenProfile} />
-          )}
+        <div style={{ display: "flex", justifyContent: "flex-end", alignItems: "center", gap: 10, marginBottom: 48 }}>
+          {isGuest && <SignInButton onClick={onSignIn} />}
+          <ProfileButton initials={initials} name={displayName} onClick={onOpenProfile} />
         </div>
 
         {/* Welcome + CTA */}
