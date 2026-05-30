@@ -233,7 +233,16 @@ export default function AppSidebar({
         zIndex: 10,
         transition: "width 200ms ease",
       }}>
-        <img src="/images/LOGO.png" alt="TreeReq" style={{ width: 28, height: 28, objectFit: "contain" }} />
+        <button
+          type="button"
+          aria-label="Go home"
+          onClick={onHome}
+          style={{ border: "none", background: "transparent", cursor: "pointer", padding: 0, display: "flex", borderRadius: 6 }}
+          onMouseEnter={e => e.currentTarget.style.transform = "scale(1.12)"}
+          onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+        >
+          <img src="/images/LOGO.png" alt="TreeReq" style={{ width: 28, height: 28, objectFit: "contain", transition: "transform 150ms ease" }} />
+        </button>
         <div style={{ width: "100%", height: 1, background: "#EAEAEA" }} />
         <button
           type="button"
@@ -272,7 +281,16 @@ export default function AppSidebar({
         justifyContent: "space-between",
         flexShrink: 0,
       }}>
-        <img src="/images/LOGO.png" alt="TreeReq" style={{ height: 30, objectFit: "contain" }} />
+        <button
+          type="button"
+          aria-label="Go home"
+          onClick={onHome}
+          style={{ border: "none", background: "transparent", cursor: "pointer", padding: 0, display: "flex", borderRadius: 6 }}
+          onMouseEnter={e => e.currentTarget.querySelector("img").style.transform = "scale(1.1)"}
+          onMouseLeave={e => e.currentTarget.querySelector("img").style.transform = "scale(1)"}
+        >
+          <img src="/images/LOGO.png" alt="TreeReq" style={{ height: 30, objectFit: "contain", transition: "transform 150ms ease" }} />
+        </button>
         <button
           type="button"
           aria-label="Collapse sidebar"
