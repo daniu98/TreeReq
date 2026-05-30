@@ -79,7 +79,7 @@ async def main():
     if len(sys.argv) > 1:
         files = sys.argv[1:]
     else:
-        files = sorted(glob.glob("../ai/data/*_parsed.json"))
+        files = sorted(glob.glob("../../ai/data/*_parsed.json"))
 
     if not files:
         print("No parsed JSON files found in ../ai/data/")
