@@ -60,7 +60,7 @@ function ChipList({ items, emptyLabel }) {
   );
 }
 
-export default function ProfileMain({ onClose, profile, onProfileUpdate, onSignOut }) {
+export default function ProfileMain({ onClose, profile, onProfileUpdate, onSignOut, onSignIn }) {
   const [editing, setEditing] = useState(false);
   const isGuest = !profile?.displayName && !profile?.fullName;
   const firstName = profile?.displayName?.split(" ")[0] ?? "there";
@@ -175,13 +175,17 @@ export default function ProfileMain({ onClose, profile, onProfileUpdate, onSignO
           </div>
         </section>
 
-        {!isGuest && (
-          <div className="profile-signout-row">
+        <div className="profile-signout-row">
+          {isGuest ? (
+            <button type="button" className="profile-signin-btn" onClick={onSignIn}>
+              Sign In
+            </button>
+          ) : (
             <button type="button" className="profile-signout-btn" onClick={onSignOut}>
               Sign Out
             </button>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </main>
   );

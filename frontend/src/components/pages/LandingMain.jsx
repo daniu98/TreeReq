@@ -146,33 +146,6 @@ function ProfileButton({ initials, name, onClick }) {
   );
 }
 
-function SignInButton({ onClick }) {
-  const [hovered, setHovered] = useState(false);
-  return (
-    <button
-      type="button"
-      onClick={() => onClick?.()}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      style={{
-        display: "flex",
-        alignItems: "center",
-        gap: 8,
-        padding: "9px 20px",
-        background: hovered ? "#2f6b4e" : "#358162",
-        borderRadius: 9999,
-        border: "none",
-        cursor: "pointer",
-        transition: "background 150ms",
-        ...font,
-      }}
-    >
-      <span style={{ fontSize: 14, fontWeight: 600, color: "#fff", ...font }}>
-        Sign in
-      </span>
-    </button>
-  );
-}
 
 function PlantButton({ onClick }) {
   const [hovered, setHovered] = useState(false);
@@ -357,7 +330,6 @@ export default function LandingMain({
   onOpenTree,
   onOpenMajor,
   onOpenProfile,
-  onSignIn,
   userProfile = null,
   forests = [],
   forestTimestamps = {},
@@ -373,8 +345,6 @@ export default function LandingMain({
   const firstName = getFirstName(userProfile?.displayName, userProfile?.fullName);
   const initials = getInitials(userProfile?.displayName, userProfile?.fullName);
   const displayName = userProfile?.displayName ?? "Guest";
-  const isGuest = !userProfile?.displayName && !userProfile?.fullName;
-
   const recentTwo = forests.slice(0, 2);
 
   return (
@@ -395,9 +365,8 @@ export default function LandingMain({
           maxWidth: 1100,
         }}
       >
-        {/* Profile / Sign-in button */}
-        <div style={{ display: "flex", justifyContent: "flex-end", alignItems: "center", gap: 10, marginBottom: 48 }}>
-          {isGuest && <SignInButton onClick={onSignIn} />}
+        {/* Profile button */}
+        <div style={{ display: "flex", justifyContent: "flex-end", alignItems: "center", marginBottom: 48 }}>
           <ProfileButton initials={initials} name={displayName} onClick={onOpenProfile} />
         </div>
 

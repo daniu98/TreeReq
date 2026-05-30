@@ -120,6 +120,7 @@ function AppHome({
   onOpenProfile,
   onProfileUpdate,
   onSignOut,
+  onSignIn,
   searchTrigger,
   onPlantNewTree,
 }) {
@@ -145,6 +146,7 @@ function AppHome({
           onClose={onCloseProfile}
           onProfileUpdate={onProfileUpdate}
           onSignOut={onSignOut}
+          onSignIn={onSignIn}
         />
       ) : null}
 
@@ -154,7 +156,6 @@ function AppHome({
           onOpenTree={openTree}
           onOpenMajor={openMajor}
           onOpenProfile={onOpenProfile}
-          onSignIn={onSignOut}
           userProfile={userProfile}
           forests={forests}
           forestTimestamps={forestTimestamps ?? {}}
@@ -331,6 +332,13 @@ export default function App() {
     navigate("landing");
   }, [navigate]);
 
+  const handleSignIn = useCallback(() => {
+    setShowProfile(false);
+    setHomeRevealed(false);
+    setHomeEntered(false);
+    setOnboardingVisible(true);
+  }, []);
+
   return (
     <div className="app-transition-root">
       {homeRevealed ? (
@@ -352,6 +360,7 @@ export default function App() {
             onOpenProfile={handleOpenProfile}
             onProfileUpdate={handleProfileUpdate}
             onSignOut={handleSignOut}
+            onSignIn={handleSignIn}
             searchTrigger={searchTrigger}
             onPlantNewTree={() => setSearchTrigger((n) => n + 1)}
           />

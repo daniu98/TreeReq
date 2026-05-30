@@ -2196,3 +2196,21 @@ select.onboarding-academic-input:disabled {
   color: #fff;
 }
 
+.profile-signin-btn {
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #358162;
+  background: none;
+  border: 1.5px solid #358162;
+  border-radius: 8px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.profile-signin-btn:hover {
+  background: #358162;
+  color: #fff;
+}
+
