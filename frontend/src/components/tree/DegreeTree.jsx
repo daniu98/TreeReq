@@ -284,6 +284,7 @@ export function DegreeTree({
           onStackSelect={handleStackSelect}
           onStackRevert={handleStackRevert}
           allCourses={enriched?.nodes ?? []}
+          edges={edges}
           onClose={() => {
             setSelectedNodeId(null);
             lockedRef.current = null;

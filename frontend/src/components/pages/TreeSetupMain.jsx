@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { Button } from "../components/ui/Button.jsx";
-import { Select } from "../components/ui/Select.jsx";
+import { Button } from "../ui/Button.jsx";
+import { Select } from "../ui/Select.jsx";
 
 const majors = [
   { value: "physics", label: "Physics" },

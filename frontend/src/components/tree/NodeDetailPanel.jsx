@@ -441,29 +441,9 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelecti
         <div style={{ fontFamily: FONT, fontSize: 13, color: "#aaa" }}>No courses listed</div>
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: 10, background: "#FAFAFA", borderRadius: 8, padding: 15 }}>
-          {courses.map((cid) => {
-            const cn = nodeById?.get(cid);
-            const st = statusMap[cid] ?? (cn?.status === "locked" ? "locked" : "unfulfilled");
-            const isCompleted = st === "completed";
-            const title = cn?.data?.title ?? "";
-            const green = "#85B110";
-
-            return (
-              <div
-                key={cid}
-                style={{ display: "flex", alignItems: "center", gap: 8, cursor: "pointer", userSelect: "none" }}
-                onClick={() => onStatusChange(cid, isCompleted ? "unfulfilled" : "completed")}
-              >
-                <CourseCheckbox completed={isCompleted} />
-                <span style={{ fontFamily: FONT, fontSize: 14, lineHeight: "24px", minWidth: 0, flex: 1 }}>
-                  <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{cid}</span>
-                  {title && (
-                    <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> - {title}</span>
-                  )}
-                </span>
-              </div>
-            );
-          })}
+          {courses.map((cid) => (
+            <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} />
+          ))}
         </div>
       )}
     </div>
@@ -640,24 +620,183 @@ function AssignedStackSlotPanel({ node, statusMap, nodeById, onStatusChange, onN
   );
 }
 
-// ── Section / root panel ──────────────────────────────────────────────────────
+// ── Section / root panel ─────────────────────────────────────────────────────
 
-function SectionPanel({ node }) {
+/** Build [{sectionName, categories[]}] from tree edges for section/root nodes. */
+function buildGroups(node, edges) {
+  if (node.kind === "root") {
+    const secEdges = edges.filter(
+      (e) => e.sourceNode.id === node.id && e.targetNode.kind === "section"
+    );
+    return secEdges.map((se) => {
+      const catEdges = edges.filter(
+        (e) => e.sourceNode.id === se.targetNode.id && e.targetNode.kind === "category"
+      );
+      return { sectionName: se.targetNode.data.name, categories: catEdges.map((ce) => ce.targetNode) };
+    });
+  }
+  // section node
+  const catEdges = edges.filter(
+    (e) => e.sourceNode.id === node.id && e.targetNode.kind === "category"
+  );
+  return [{ sectionName: null, categories: catEdges.map((ce) => ce.targetNode) }];
+}
+
+/** Single course row — shared between CategoryPanel and SectionPanel. */
+function CourseRow({ courseId, statusMap, nodeById, onStatusChange }) {
+  const cn = nodeById?.get(courseId);
+  const st = statusMap[courseId] ?? (cn?.status === "locked" ? "locked" : "unfulfilled");
+  const isCompleted = st === "completed";
+  const title = cn?.data?.title ?? "";
+  const green = "#85B110";
+  return (
+    <div
+      style={{ display: "flex", alignItems: "center", gap: 8, cursor: "pointer", userSelect: "none" }}
+      onClick={() => onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed")}
+    >
+      <CourseCheckbox completed={isCompleted} />
+      <span style={{ fontFamily: FONT, fontSize: 13, lineHeight: "22px", minWidth: 0, flex: 1 }}>
+        <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{courseId}</span>
+        {title && (
+          <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> — {title}</span>
+        )}
+      </span>
+    </div>
+  );
+}
+
+/** Slot rows for a stack category — used inside SectionPanel category blocks. */
+function SlotRows({ catNode, stackSelections, statusMap, nodeById, onStatusChange }) {
+  const catId = catNode.id;
+  const chooseN = catNode.data.choose_n;
+  const catSels = stackSelections[catId] ?? [];
+  const green = "#85B110";
+
+  return Array.from({ length: chooseN }, (_, i) => {
+    const courseId = catSels[i] ?? null;
+    const isAssigned = !!courseId;
+    const isCompleted = isAssigned && statusMap[courseId] === "completed";
+    const cn = isAssigned ? nodeById?.get(courseId) : null;
+    const title = cn?.data?.title ?? "";
+
+    return (
+      <div
+        key={i}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 8,
+          cursor: isAssigned ? "pointer" : "default",
+          userSelect: "none",
+          opacity: isAssigned ? 1 : 0.45,
+        }}
+        onClick={isAssigned ? () => onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed") : undefined}
+      >
+        <CourseCheckbox completed={isCompleted} disabled={!isAssigned} />
+        <span style={{ fontFamily: FONT, fontSize: 13, lineHeight: "22px", minWidth: 0, flex: 1 }}>
+          {isAssigned ? (
+            <>
+              <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{courseId}</span>
+              {title && <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> — {title}</span>}
+            </>
+          ) : (
+            <span style={{ fontWeight: 500, color: "#BDBDBD", fontStyle: "italic" }}>
+              Slot {i + 1} — Select Course
+            </span>
+          )}
+        </span>
+      </div>
+    );
+  });
+}
+
+function SectionPanel({ node, statusMap, nodeById, edges, onStatusChange, stackSelections }) {
   const pct = node.completionPercentage ?? 0;
   const completed = node.completedCourses ?? 0;
   const total = node.totalCourses ?? 0;
+  const groups = buildGroups(node, edges);
+
   return (
     <div>
+      {/* Header */}
       <div style={{ fontFamily: FONT, fontSize: 10, fontWeight: 600, color: "#aaa", textTransform: "uppercase", letterSpacing: "0.8px", marginBottom: 6 }}>
         {node.kind === "root" ? "Degree" : "Section"}
       </div>
-      <div style={{ fontFamily: FONT, fontSize: 22, fontWeight: 800, color: "#111", lineHeight: 1.2, marginBottom: 12 }}>
+      <div style={{ fontFamily: FONT, fontSize: 22, fontWeight: 800, color: "#111", lineHeight: 1.2, marginBottom: 6 }}>
         {node.data.name}
       </div>
       <div style={{ fontFamily: FONT, fontSize: 12, color: pct === 100 ? "#348162" : "#888", marginBottom: 6 }}>
         {completed} / {total} courses completed
       </div>
       <ProgressBar pct={pct} />
+
+      <Divider />
+
+      {groups.map((group, gi) => (
+        <div key={gi}>
+          {/* Section sub-header (root node only — one per section) */}
+          {group.sectionName && (
+            <div style={{
+              fontFamily: FONT,
+              fontSize: 12,
+              fontWeight: 700,
+              color: "#555",
+              textTransform: "uppercase",
+              letterSpacing: "0.5px",
+              marginBottom: 10,
+              marginTop: gi > 0 ? 20 : 0,
+              paddingBottom: 6,
+              borderBottom: "1px solid #f0f0f0",
+            }}>
+              {group.sectionName}
+            </div>
+          )}
+
+          {group.categories.map((catNode) => {
+            const isStack = catNode.data.choose_n != null;
+            const displayName = catNode.data.name.replace(/\s*\(choose\s+\d+\)\s*$/i, "");
+            const courses = catNode.data.courses ?? [];
+            const chooseN = catNode.data.choose_n;
+            const catSels = stackSelections[catNode.id] ?? [];
+            const catCompleted = isStack
+              ? catSels.filter((cid) => cid && statusMap[cid] === "completed").length
+              : courses.filter((cid) => statusMap[cid] === "completed").length;
+            const catRequired = isStack ? chooseN : courses.length;
+
+            return (
+              <div key={catNode.id} style={{ marginBottom: 14 }}>
+                {/* Category subtitle */}
+                <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 6 }}>
+                  <span style={{
+                    fontFamily: FONT,
+                    fontSize: 11,
+                    fontWeight: 600,
+                    color: "#aaa",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.6px",
+                  }}>
+                    {displayName}
+                  </span>
+                  <span style={{ fontFamily: FONT, fontSize: 11, color: "#bbb" }}>
+                    {Math.min(catCompleted, catRequired)}/{catRequired}
+                  </span>
+                </div>
+
+                {/* Course rows */}
+                <div style={{ display: "flex", flexDirection: "column", gap: 8, background: "#FAFAFA", borderRadius: 8, padding: "10px 12px" }}>
+                  {isStack ? (
+                    <SlotRows catNode={catNode} stackSelections={stackSelections} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} />
+                  ) : (
+                    courses.map((cid) => (
+                      <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} />
+                    ))
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      ))}
     </div>
   );
 }
@@ -675,6 +814,7 @@ export function NodeDetailPanel({
   onStackSelect,
   onStackRevert,
   allCourses = [],
+  edges = [],
 }) {
   const panelRef = useRef(null);
 
@@ -748,7 +888,7 @@ export function NodeDetailPanel({
           <AssignedStackSlotPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onNavigate={onNavigate} onStackRevert={onStackRevert} />
         )}
         {(node.kind === "section" || node.kind === "root") && (
-          <SectionPanel node={node} />
+          <SectionPanel node={node} statusMap={statusMap} nodeById={nodeById} edges={edges} onStatusChange={onStatusChange} stackSelections={stackSelections} />
         )}
       </div>
     </div>
