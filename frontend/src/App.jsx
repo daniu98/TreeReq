@@ -18,6 +18,7 @@ import {
   makeGuestProfile,
   mapOnboardingToProfile,
   saveStoredProfile,
+  loadLocalProfileSync,
 } from "./data/userProfile.js";
 import { getTreeDocumentTitle, parseLocation, pathForView } from "./lib/routes.js";
 import "./styles/variables.css";
@@ -182,7 +183,7 @@ function AppHome({
 }
 
 export default function App() {
-  const initialProfile = loadStoredProfile();
+  const initialProfile = loadLocalProfileSync();
 
   const [onboardingVisible, setOnboardingVisible] = useState(!initialProfile);
   const [homeRevealed, setHomeRevealed] = useState(!!initialProfile);
@@ -197,7 +198,15 @@ export default function App() {
   const [searchTrigger, setSearchTrigger] = useState(0);
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeTree = activeTreeId ? getTreeById(activeTreeId) : null;
-
+  useEffect(() => { // written by gemini
+    async function syncProfile() {
+      const freshProfile = await loadStoredProfile();
+      if (freshProfile) {
+        setUserProfile(freshProfile);
+      }
+    }
+    syncProfile();
+  }, []);
   const allMyTrees = useMemo(() => {
     if (!userProfile?.majorId || !userProfile?.major) return recentMajors;
     if (recentMajors.some((m) => m.id === userProfile.majorId)) return recentMajors;
@@ -277,11 +286,15 @@ export default function App() {
     });
   }, []);
 
-  const handleOnboardingComplete = useCallback((data) => {
+  const handleOnboardingComplete = useCallback(async (data) => {
     if (data?.profile && data?.academic) {
       const mapped = mapOnboardingToProfile(data);
-      saveStoredProfile(mapped);
-      setUserProfile(mapped);
+      const stored = await loadStoredProfile();
+      if (stored) setUserProfile(stored);
+      else{
+        saveStoredProfile(mapped);
+        setUserProfile(mapped);
+      }
       setShowProfile(true);
     } else if (data?.skipped && data?.major) {
       const guest = makeGuestProfile(data.major);
@@ -298,8 +311,8 @@ export default function App() {
     navigate("landing");
   }, [navigate]);
 
-  const handleOpenProfile = useCallback(() => {
-    const stored = loadStoredProfile();
+  const handleOpenProfile = useCallback(async () => {
+    const stored = await loadStoredProfile();
     if (stored) setUserProfile(stored);
     setShowProfile(true);
   }, []);
@@ -319,7 +332,6 @@ export default function App() {
     setOnboardingVisible(true);
     navigate("landing");
   }, [navigate]);
-
   return (
     <div className="app-transition-root">
       {homeRevealed ? (
