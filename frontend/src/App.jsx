@@ -322,6 +322,7 @@ export default function App() {
   const handleSignOut = useCallback(() => {
     googleLogout();
     localStorage.clear();
+    sessionStorage.clear();
     setUserProfile(null);
     setShowProfile(false);
     setHomeRevealed(false);
