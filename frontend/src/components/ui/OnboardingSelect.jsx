@@ -106,7 +106,10 @@ function AcademicChip({ label, onRemove }) {
         onClick={onRemove}
         aria-label={`Remove ${label}`}
       >
-        <span className="onboarding-academic-chip-x" aria-hidden />
+        <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden fill="none">
+          <line x1="1" y1="1" x2="9" y2="9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+          <line x1="9" y1="1" x2="1" y2="9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
       </button>
     </span>
   );
