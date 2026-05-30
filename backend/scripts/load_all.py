@@ -23,7 +23,7 @@ DB_NAME = os.getenv("DB_NAME", "treereq_dev")
 
 
 async def load_file(db, filepath):
-    with open(filepath) as f:
+    with open(filepath, encoding="utf-8") as f:
         data = json.load(f)
 
     major_name = data.get("major_name", "Unknown")
