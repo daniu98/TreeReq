@@ -207,7 +207,7 @@
       "number": "10",
       "title": "Introduction to Bioengineering",
       "units": 2.0,
-      "description": "Lecture, two hours; discussion, one hour; outside study, three hours. Preparation: high school biology, chemistry, mathematics, physics. Introduction to scientific and technological bases for established and emerging subfields of bioengineering, including biosensors, bioinstrumentation, and biosignal processing, biomechanics, biomaterials, tissue engineering, biotechnology, biological imaging, biomedical optics and lasers, neuroengineering, and biomolecular\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; discussion, one hour; outside study, three hours. Preparation: high school biology, chemistry, mathematics, physics. Introduction to scientific and technological bases for established and emerging subfields of bioengineering, including biosensors, bioinstrumentation, and biosignal processing, biomechanics, biomaterials, tissue engineering, biotechnology, biological imaging, biomedical optics and lasers, neuroengineering, and biomolecular… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -244,7 +244,7 @@
       "number": "110",
       "title": "Biotransport and Bioreaction Processes",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: course 100, Mathematics 33B. Introduction to analysis of fluid flow, heat transfer, mass transfer, binding events, and biochemical reactions in systems of interest to bioengineers, including cells, tissues, organs, human body, extracorporeal devices, tissue engineering systems, and bioartificial\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: course 100, Mathematics 33B. Introduction to analysis of fluid flow, heat transfer, mass transfer, binding events, and biochemical reactions in systems of interest to bioengineers, including cells, tissues, organs, human body, extracorporeal devices, tissue engineering systems, and bioartificial… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: course 100, Mathematics 33B.",
       "prereqs_parsed": {
         "required": [
@@ -267,7 +267,7 @@
       "number": "120",
       "title": "Biomedical Transducers",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 32B, Physics 1C. Principles of transduction of various physical and biomedical parameters into electrical signals. Theory and design of basic circuits to amplify, measure, and filter these signals. Theory of operation and design of electrocardiogram, blood pressure\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 32B, Physics 1C. Principles of transduction of various physical and biomedical parameters into electrical signals. Theory and design of basic circuits to amplify, measure, and filter these signals. Theory of operation and design of electrocardiogram, blood pressure… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: Mathematics 32B, Physics 1C.",
       "prereqs_parsed": {
         "required": [
@@ -290,7 +290,7 @@
       "number": "121",
       "title": "Introduction to Microcontrollers",
       "units": 4.0,
-      "description": "Lecture, one hour; discussion, one hour; laboratory, three hours. Requisites: Civil and Environmental Engineering M20 or Mechanical and Aerospace Engineering M20 or Computer Science 31, and Electrical and Computer Engineering 100, or equivalent. Project-based hands-on introduction to basic and advanced concepts involved in development of projects using microcontrollers for projects\u2026 For more content click the Read More button below.",
+      "description": "Lecture, one hour; discussion, one hour; laboratory, three hours. Requisites: Civil and Environmental Engineering M20 or Mechanical and Aerospace Engineering M20 or Computer Science 31, and Electrical and Computer Engineering 100, or equivalent. Project-based hands-on introduction to basic and advanced concepts involved in development of projects using microcontrollers for projects… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Civil and Environmental Engineering M20 or Mechanical and Aerospace Engineering M20 or Computer Science 31, and Electrical and Computer Engineering 100, or equivalent.",
       "prereqs_parsed": {
         "required": [
@@ -337,7 +337,7 @@
       "number": "132",
       "title": "Nanogenerators for Bioengineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Addresses fundamentals, materials, processes, manufacturing, and devices fabrication for nanogenerators. Showcases key biomedical applications, in particular, nanogenerators made for circulatory system, neural system, cell modulation, microbe disinfection, and biodegradable electronics. Functionality of nanogenerators can serve for energy, sensing, and therapy\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Addresses fundamentals, materials, processes, manufacturing, and devices fabrication for nanogenerators. Showcases key biomedical applications, in particular, nanogenerators made for circulatory system, neural system, cell modulation, microbe disinfection, and biodegradable electronics. Functionality of nanogenerators can serve for energy, sensing, and therapy… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -350,7 +350,7 @@
       "number": "167L",
       "title": "Bioengineering Laboratory",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: Chemistry 20L. Laboratory experiments in fluorescence microscopy, bioconjugation, soft lithography, and cell culture culminate in design of engineered surface for cell growth. Introduction to techniques used in laboratories and their underlying physical or chemical properties. Case studies connect\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: Chemistry 20L. Laboratory experiments in fluorescence microscopy, bioconjugation, soft lithography, and cell culture culminate in design of engineered surface for cell growth. Introduction to techniques used in laboratories and their underlying physical or chemical properties. Case studies connect… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: Chemistry 20L.",
       "prereqs_parsed": {
         "required": [
@@ -371,7 +371,7 @@
       "number": "170",
       "title": "Cell Engineering and Laboratory",
       "units": 4.0,
-      "description": "Lecture, four hours; laboratory, four hours; outside study, four hours. Preparation: general background on cell biology, calculus, and differential equations. Comprehensive introduction of cell engineering. Topics include quantitative and experimental analysis of cell behavior such as cell growth, migration and differentiation, biomaterial fabrication, cell-material interactions, cell signaling, tissue remodeling, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, four hours; outside study, four hours. Preparation: general background on cell biology, calculus, and differential equations. Comprehensive introduction of cell engineering. Topics include quantitative and experimental analysis of cell behavior such as cell growth, migration and differentiation, biomaterial fabrication, cell-material interactions, cell signaling, tissue remodeling, and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -384,7 +384,7 @@
       "number": "175",
       "title": "Machine Learning and Data-Driven Modeling in Bioengineering",
       "units": 4.0,
-      "description": "(Formerly numbered C175.) Lecture, four hours; laboratory, two hours; outside study, six hours. Requisites: Civil Engineering M20 or Mechanical and Aerospace Engineering M20 or Computer Science 31, Mathematics 32B, 33A. Overview of foundational data analysis and machine-learning methods in bioengineering, focusing on how these techniques can be applied to interpret\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered C175.) Lecture, four hours; laboratory, two hours; outside study, six hours. Requisites: Civil Engineering M20 or Mechanical and Aerospace Engineering M20 or Computer Science 31, Mathematics 32B, 33A. Overview of foundational data analysis and machine-learning methods in bioengineering, focusing on how these techniques can be applied to interpret… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Civil Engineering M20 or Mechanical and Aerospace Engineering M20 or Computer Science 31, Mathematics 32B, 33A.",
       "prereqs_parsed": {
         "required": [
@@ -413,7 +413,15 @@
       "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: course 100, Mathematics 33B, Physics 1C. Biocompatibility at systemic, tissue, cellular, and molecular levels. Biomechanical compatibility, stress/strain constitutive equations, cellular and molecular response to mechanical signals, biochemical and cellular compatibility, immune response. Letter grading.",
       "prereqs_raw": "Enforced requisites: course 100, Mathematics 33B, Physics 1C.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "BIOENGR 100",
+          "MATH 33B",
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "BIOENGR 177A"
@@ -425,7 +433,7 @@
       "number": "177A",
       "title": "Bioengineering Capstone Design I",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisites: courses 167L, 176. Lectures, seminars, and discussions on aspects of biomedical device and therapeutic design, including topics such as need finding, intellectual property, entrepreneurship, regulation, and project management. Working in teams, students develop innovative solutions to address current\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisites: courses 167L, 176. Lectures, seminars, and discussions on aspects of biomedical device and therapeutic design, including topics such as need finding, intellectual property, entrepreneurship, regulation, and project management. Working in teams, students develop innovative solutions to address current… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 167L, 176.",
       "prereqs_parsed": {
         "required": [
@@ -447,7 +455,7 @@
       "number": "177B",
       "title": "Bioengineering Capstone Design II",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: course 177A. Lectures, seminars, and discussions on aspects of biomedical device and therapeutic design, including meetings with scientific/clinical advisers and guest lectures from scientists in industry. Working in teams, students develop innovative solutions to address current problems in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: course 177A. Lectures, seminars, and discussions on aspects of biomedical device and therapeutic design, including meetings with scientific/clinical advisers and guest lectures from scientists in industry. Working in teams, students develop innovative solutions to address current problems in… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 177A.",
       "prereqs_parsed": {
         "required": [
@@ -466,7 +474,7 @@
       "number": "180",
       "title": "System Integration in Biology, Engineering, and Medicine I",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Enforced requisites: courses 100, 110, 120, Life Sciences 7A, Physics 1C. Corequisite: course 180L. Part I of two-part series. Molecular basis of normal physiology and pathophysiology, and engineering design principles of cardiovascular and pulmonary systems. Fundamental engineering principles of selected\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Enforced requisites: courses 100, 110, 120, Life Sciences 7A, Physics 1C. Corequisite: course 180L. Part I of two-part series. Molecular basis of normal physiology and pathophysiology, and engineering design principles of cardiovascular and pulmonary systems. Fundamental engineering principles of selected… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 100, 110, 120, Life Sciences 7A, Physics 1C. Corequisite: course 180L.",
       "prereqs_parsed": {
         "required": [
@@ -529,7 +537,7 @@
       "number": "C101",
       "title": "Engineering Principles for Drug Delivery",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 33B, Physics 1B. Application of engineering principles for designing and understanding delivery of therapeutics. Discussion of physics and mathematics required for understanding colloidal stability. Analysis of concepts related to both modeling and experimentation of endocytosis and intracellular\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 33B, Physics 1B. Application of engineering principles for designing and understanding delivery of therapeutics. Discussion of physics and mathematics required for understanding colloidal stability. Analysis of concepts related to both modeling and experimentation of endocytosis and intracellular… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: Mathematics 33B, Physics 1B.",
       "prereqs_parsed": {
         "required": [
@@ -549,7 +557,7 @@
       "number": "C102",
       "title": "Physiology for Engineers",
       "units": 4.0,
-      "description": "Lecture, three hours; laboratory, two hours. Preparation: human molecular biology, biochemistry, and cell biology. Not open for credit to Physiological Science majors. Broad overview of basic biological activities and organization of human body in system (organ/tissue) to system basis, with particular emphasis on molecular basis. Modeling/simulation of functional aspect of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: human molecular biology, biochemistry, and cell biology. Not open for credit to Physiological Science majors. Broad overview of basic biological activities and organization of human body in system (organ/tissue) to system basis, with particular emphasis on molecular basis. Modeling/simulation of functional aspect of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -562,7 +570,7 @@
       "number": "C104",
       "title": "Physical Chemistry of Biomacromolecules",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, 30A, Life Sciences 7A. To understand biological materials and design synthetic replacements, it is imperative to understand their physical chemistry. Biomacromolecules such as protein or DNA can be analyzed and characterized by applying fundamentals of polymer\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, 30A, Life Sciences 7A. To understand biological materials and design synthetic replacements, it is imperative to understand their physical chemistry. Biomacromolecules such as protein or DNA can be analyzed and characterized by applying fundamentals of polymer… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B, 30A, Life Sciences 7A.",
       "prereqs_parsed": {
         "required": [
@@ -586,10 +594,18 @@
       "number": "C105",
       "title": "Engineering of Bioconjugates",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Chemistry 20A, 20B, 20L. Highly recommended: one organic chemistry course. Bioconjugate chemistry is science of coupling biomolecules for wide range of applications. Oligonucleotides may be coupled to one surface in gene chip, or one protein may be coupled\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Chemistry 20A, 20B, 20L. Highly recommended: one organic chemistry course. Bioconjugate chemistry is science of coupling biomolecules for wide range of applications. Oligonucleotides may be coupled to one surface in gene chip, or one protein may be coupled… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: Chemistry 20A, 20B, 20L.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 20A",
+          "CHEM 20B",
+          "CHEM 20L"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "BIOENGR C107"
@@ -601,7 +617,7 @@
       "number": "C106",
       "title": "Topics in Bioelectricity for Bioengineers",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20B, Life Sciences 7A, Mathematics 33B, Physics 1C. Coverage in depth of physical processes associated with biological membranes and channel proteins, with specific emphasis on electrophysiology. Basic physical principles governing electrostatics in dielectric media, building on complexity to\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20B, Life Sciences 7A, Mathematics 33B, Physics 1C. Coverage in depth of physical processes associated with biological membranes and channel proteins, with specific emphasis on electrophysiology. Basic physical principles governing electrostatics in dielectric media, building on complexity to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20B, Life Sciences 7A, Mathematics 33B, Physics 1C.",
       "prereqs_parsed": {
         "required": [
@@ -623,7 +639,7 @@
       "number": "C107",
       "title": "Polymer Chemistry for Bioengineers",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course C104 or C105. Fundamental concepts of polymer synthesis, including step-growth, chain growth (ionic, radical, metal catalyzed), and ring-opening, with focus on factors that can be used to control chain length, chain length distribution, and chain-end functionality, chain copolymerization,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course C104 or C105. Fundamental concepts of polymer synthesis, including step-growth, chain growth (ionic, radical, metal catalyzed), and ring-opening, with focus on factors that can be used to control chain length, chain length distribution, and chain-end functionality, chain copolymerization,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course C104 or C105.",
       "prereqs_parsed": {
         "required": [],
@@ -645,7 +661,7 @@
       "number": "C131",
       "title": "Nanopore Sensing",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: courses 100, 120, Life Sciences 7A, Physics 1A, 1B, 1C. Analysis of sensors based on measurements of fluctuating ionic conductance through artificial or protein nanopores. Physics of pore conductance. Applications to single molecule detection and DNA sequencing. Review of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: courses 100, 120, Life Sciences 7A, Physics 1A, 1B, 1C. Analysis of sensors based on measurements of fluctuating ionic conductance through artificial or protein nanopores. Physics of pore conductance. Applications to single molecule detection and DNA sequencing. Review of… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 100, 120, Life Sciences 7A, Physics 1A, 1B, 1C.",
       "prereqs_parsed": {
         "required": [
@@ -669,7 +685,7 @@
       "number": "C135",
       "title": "Orthopaedic Biomechanical Engineering",
       "units": 4.0,
-      "description": "(Formerly numbered 125.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: Physics 1A, 1B. Overview of central topics of orthopaedic biomechanical engineering, with focus on orthopaedic implant performance and how to evaluate new and existing implants. Topics include orthopaedic and biomechanical terminology and basic anatomy; introduction to\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 125.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: Physics 1A, 1B. Overview of central topics of orthopaedic biomechanical engineering, with focus on orthopaedic implant performance and how to evaluate new and existing implants. Topics include orthopaedic and biomechanical terminology and basic anatomy; introduction to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Physics 1A, 1B.",
       "prereqs_parsed": {
         "required": [
@@ -689,7 +705,7 @@
       "number": "C139A",
       "title": "Biomolecular Materials Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Overview of chemical and physical foundations of biomolecular materials science that concern materials aspects of molecular biology, cell biology, and bioengineering. Understanding of different types of interactions that exist between biomolecules, such as van der Waals interactions, entropically modulated electrostatic\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Overview of chemical and physical foundations of biomolecular materials science that concern materials aspects of molecular biology, cell biology, and bioengineering. Understanding of different types of interactions that exist between biomolecules, such as van der Waals interactions, entropically modulated electrostatic… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -702,7 +718,7 @@
       "number": "C139B",
       "title": "Biomolecular Materials Science II",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Course C139A is not requisite to C139B. Overview of chemical and physical foundations of biomolecular materials science that concern materials aspects of molecular biology, cell biology, and bioengineering. Understanding of different basic types of biomolecules, with emphasis on nucleic acids,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Course C139A is not requisite to C139B. Overview of chemical and physical foundations of biomolecular materials science that concern materials aspects of molecular biology, cell biology, and bioengineering. Understanding of different basic types of biomolecules, with emphasis on nucleic acids,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -715,7 +731,7 @@
       "number": "C147",
       "title": "Applied Tissue Engineering: Clinical and Industrial Perspective",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: course CM102, Chemistry 20A, 20B, 20L, Life Sciences 7A. Overview of central topics of tissue engineering, with focus on how to build artificial tissues into regulated clinically viable products. Topics include biomaterials selection, cell source, delivery methods, FDA approval\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: course CM102, Chemistry 20A, 20B, 20L, Life Sciences 7A. Overview of central topics of tissue engineering, with focus on how to build artificial tissues into regulated clinically viable products. Topics include biomaterials selection, cell source, delivery methods, FDA approval… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course CM102, Chemistry 20A, 20B, 20L, Life Sciences 7A.",
       "prereqs_parsed": {
         "required": [
@@ -738,7 +754,7 @@
       "number": "C155",
       "title": "Fluid-Particle and Fluid-Structure Interactions in Microflows",
       "units": 4.0,
-      "description": "Lecture, four hours; laboratory, one hour; outside study, seven hours. Enforced requisite: course 110. Introduction to Navier/Stokes equations, assumptions, and simplifications. Analytical framework for calculating simple flows and numerical methods to solve and gain intuition for complex flows. Forces on particles in Stokes flow and finite-inertia flows. Flows induced around\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour; outside study, seven hours. Enforced requisite: course 110. Introduction to Navier/Stokes equations, assumptions, and simplifications. Analytical framework for calculating simple flows and numerical methods to solve and gain intuition for complex flows. Forces on particles in Stokes flow and finite-inertia flows. Flows induced around… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 110.",
       "prereqs_parsed": {
         "required": [
@@ -757,7 +773,7 @@
       "number": "C166",
       "title": "Wearable Bioelectronics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Practice of human health care may be on cusp of revolution, driven by unprecedented level of personalization enabled by advances in technology, specifically, transformation of wearable devices from curiosities that provide qualitative information for fitness enthusiasts to sophisticated systems that\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Practice of human health care may be on cusp of revolution, driven by unprecedented level of personalization enabled by advances in technology, specifically, transformation of wearable devices from curiosities that provide qualitative information for fitness enthusiasts to sophisticated systems that… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -789,7 +805,7 @@
       "number": "C183",
       "title": "Targeted Drug Delivery and Controlled Drug Release",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, 20L. New therapeutics require comprehensive understanding of modern biology, physiology, biomaterials, and engineering. Targeted delivery of genes and drugs and their controlled release are important in treatment of challenging diseases and relevant to tissue engineering and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, 20L. New therapeutics require comprehensive understanding of modern biology, physiology, biomaterials, and engineering. Targeted delivery of genes and drugs and their controlled release are important in treatment of challenging diseases and relevant to tissue engineering and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B, 20L.",
       "prereqs_parsed": {
         "required": [
@@ -810,7 +826,7 @@
       "number": "C185",
       "title": "Introduction to Tissue Engineering",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: course CM102 or CM202, Chemistry 20A, 20B, 20L. Tissue engineering applies principles of biology and physical sciences with engineering approach to regenerate tissues and organs. Guiding principles for proper selection of three basic components for tissue engineering: cells, scaffolds,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: course CM102 or CM202, Chemistry 20A, 20B, 20L. Tissue engineering applies principles of biology and physical sciences with engineering approach to regenerate tissues and organs. Guiding principles for proper selection of three basic components for tissue engineering: cells, scaffolds,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course CM102 or CM202, Chemistry 20A, 20B, 20L.",
       "prereqs_parsed": {
         "required": [
@@ -836,7 +852,7 @@
       "number": "CM140",
       "title": "Introduction to Biomechanics",
       "units": 4.0,
-      "description": "(Same as Mechanical and Aerospace Engineering CM140.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mechanical and Aerospace Engineering 101, 102, and 156A or 166A. Introduction to mechanical functions of human body; skeletal adaptations to optimize load transfer, mobility, and function. Dynamics and kinematics. Fluid mechanics applications.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Mechanical and Aerospace Engineering CM140.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mechanical and Aerospace Engineering 101, 102, and 156A or 166A. Introduction to mechanical functions of human body; skeletal adaptations to optimize load transfer, mobility, and function. Dynamics and kinematics. Fluid mechanics applications.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mechanical and Aerospace Engineering 101, 102, and 156A or 166A.",
       "prereqs_parsed": {
         "required": []
@@ -849,7 +865,7 @@
       "number": "CM145",
       "title": "Molecular Biotechnology for Engineers",
       "units": 4.0,
-      "description": "(Same as Chemical Engineering CM145.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemical Engineering 45 or Life Sciences 7C. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed\u2026 For more content click the Read More button below.",
+      "description": "(Same as Chemical Engineering CM145.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemical Engineering 45 or Life Sciences 7C. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Chemical Engineering 45 or Life Sciences 7C.",
       "prereqs_parsed": {
         "required": [],
@@ -871,7 +887,7 @@
       "number": "CM178",
       "title": "Introduction to Biomaterials",
       "units": 4.0,
-      "description": "(Same as Materials Science CM180.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface\u2026 For more content click the Read More button below.",
+      "description": "(Same as Materials Science CM180.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104.",
       "prereqs_parsed": {
         "required": [],
@@ -897,7 +913,7 @@
       "number": "CM186",
       "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
       "units": 5.0,
-      "description": "(Same as Computational and Systems Biology M186, Computer Science CM186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling\u2026 For more content click the Read More button below.",
+      "description": "(Same as Computational and Systems Biology M186, Computer Science CM186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B.",
       "prereqs_parsed": {
         "required": [],
@@ -945,7 +961,7 @@
       "number": "CM187",
       "title": "Research Communication in Computational and Systems Biology",
       "units": 4.0,
-      "description": "(Same as Computational and Systems Biology M187 and Computer Science CM187.) Lecture, four hours; outside study, eight hours. Requisites: course M182 or CM186 or Computational and Systems Biology M150; and research experience (course 199, Computational and Systems Biology 199, Computer Science 199, or equivalent). Closely directed, interactive, and real research\u2026 For more content click the Read More button below.",
+      "description": "(Same as Computational and Systems Biology M187 and Computer Science CM187.) Lecture, four hours; outside study, eight hours. Requisites: course M182 or CM186 or Computational and Systems Biology M150; and research experience (course 199, Computational and Systems Biology 199, Computer Science 199, or equivalent). Closely directed, interactive, and real research… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course M182 or CM186 or Computational and Systems Biology M150; and research experience (course 199, Computational and Systems Biology 199, Computer Science 199, or equivalent).",
       "prereqs_parsed": {
         "required": [
@@ -970,10 +986,20 @@
       "number": "M153",
       "title": "Introduction to Microscale and Nanoscale Manufacturing",
       "units": 4.0,
-      "description": "(Same as Chemical Engineering M153, Electrical and Computer Engineering M153, and Mechanical and Aerospace Engineering M183B.) Lecture, three hours; laboratory, four hours; outside study, five hours. Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL. Introduction to general manufacturing methods, mechanisms, constrains, and microfabrication and nanofabrication. Focus on concepts, physics,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Chemical Engineering M153, Electrical and Computer Engineering M153, and Mechanical and Aerospace Engineering M183B.) Lecture, three hours; laboratory, four hours; outside study, five hours. Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL. Introduction to general manufacturing methods, mechanisms, constrains, and microfabrication and nanofabrication. Focus on concepts, physics,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 20A",
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "PHYSICS 1C",
+          "PHYSICS 4AL"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -983,7 +1009,7 @@
       "number": "M182",
       "title": "Dynamic Biosystem Modeling and Simulation Methodology",
       "units": 4.0,
-      "description": "(Same as Computer Science M182.) Lecture, four hours; discussion, one hour; laboratory, two hours; outside study, five hours. Requisites: Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B. Recommended requisite or corequisite: Mathematics 3C, 32A, or 32T. For undergraduate students in life, computational, engineering, and\u2026 For more content click the Read More button below.",
+      "description": "(Same as Computer Science M182.) Lecture, four hours; discussion, one hour; laboratory, two hours; outside study, five hours. Requisites: Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B. Recommended requisite or corequisite: Mathematics 3C, 32A, or 32T. For undergraduate students in life, computational, engineering, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B.",
       "prereqs_parsed": {
         "required": [],
@@ -1015,7 +1041,7 @@
       "number": "M20",
       "title": "Introduction to Computer Programming with MATLAB",
       "units": 4.0,
-      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient\u2026 For more content click the Read More button below.",
+      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1034,7 +1060,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -1062,8 +1088,8 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -1098,8 +1124,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -1138,8 +1164,8 @@
       "number": "30A",
       "title": "Organic Chemistry I: Structure and Reactivity",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C– or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B"
@@ -1161,8 +1187,8 @@
       "number": "30AL",
       "title": "General Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -1189,8 +1215,8 @@
       "number": "30B",
       "title": "Organic Chemistry II: Reactivity, Synthesis, and Spectroscopy",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C– or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1211,7 +1237,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1227,10 +1253,18 @@
       "number": "102",
       "title": "Systems and Signals",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Mathematics 33A. Corequisite: Mathematics 33B. Elements of differential equations, first- and second-order equations, variation of parameters method and method of undetermined coefficients, existence and uniqueness. Systems: input/output description, linearity, time-invariance, and causality. Impulse response functions, superposition and convolution integrals.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Mathematics 33A. Corequisite: Mathematics 33B. Elements of differential equations, first- and second-order equations, variation of parameters method and method of undetermined coefficients, existence and uniqueness. Systems: input/output description, linearity, time-invariance, and causality. Impulse response functions, superposition and convolution integrals.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A. Corequisite: Mathematics 33B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [
+          "MATH 33B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1259,7 +1293,13 @@
       "description": "Lecture, three hours; discussion, 75 minutes. Enforced requisite: course 7B. Organization of cells into tissues and organs and principles of physiology of organ systems. Introduction to human genetics and genomics. Letter grading.",
       "prereqs_raw": "Enforced requisite: course 7B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LIFESCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1269,7 +1309,7 @@
       "number": "104",
       "title": "Science of Engineering Materials",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B.",
       "prereqs_parsed": {
         "required": [
@@ -1300,7 +1340,7 @@
       "number": "110",
       "title": "Introduction to Materials Characterization A (Crystal Structure, Nanostructures, and X-Ray Scattering)",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 104. Modern methods of materials characterization; fundamentals of crystallography, properties of X rays, X-ray scattering; powder method, Laue method; determination of crystal structures; phase diagram determination; high-resolution X-ray diffraction methods; X-ray spectroscopy; design of materials characterization procedures.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 104. Modern methods of materials characterization; fundamentals of crystallography, properties of X rays, X-ray scattering; powder method, Laue method; determination of crystal structures; phase diagram determination; high-resolution X-ray diffraction methods; X-ray spectroscopy; design of materials characterization procedures.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 104.",
       "prereqs_parsed": {
         "required": [
@@ -1321,7 +1361,7 @@
       "number": "120",
       "title": "Physics of Materials",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 104, 110 (or Chemistry 113A). Introduction to electrical, optical, and magnetic properties of solids. Free electron model, introduction to band theory and Schr\u00f6dinger wave equation. Crystal bonding and lattice vibrations. Mechanisms and characterization of electrical conductivity, optical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 104, 110 (or Chemistry 113A). Introduction to electrical, optical, and magnetic properties of solids. Free electron model, introduction to band theory and Schrödinger wave equation. Crystal bonding and lattice vibrations. Mechanisms and characterization of electrical conductivity, optical… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 104, 110 (or Chemistry 113A).",
       "prereqs_parsed": {
         "required": [
@@ -1388,7 +1428,14 @@
       "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: course 104, Mechanical and Aerospace Engineering 101. Plastic flow of metals under simple and combined loading, strain rate and temperature effects, dislocations, fracture, microstructural effects, mechanical and thermal treatment of steel for engineering applications. Letter grading.",
       "prereqs_raw": "Enforced requisites: course 104, Mechanical and Aerospace Engineering 101.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MAT SCI 104",
+          "MECH&AE 101"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1452,7 +1499,7 @@
       "number": "161",
       "title": "Processing of Ceramics and Glasses",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course 160. Study of processes used in fabrication of ceramics and glasses for structural applications, optics, and electronics. Processing operations, including modern techniques of powder synthesis, greenware forming, sintering, glass melting. Microstructure properties relations in ceramics. Fracture analysis and design with ceramics. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 160. Study of processes used in fabrication of ceramics and glasses for structural applications, optics, and electronics. Processing operations, including modern techniques of powder synthesis, greenware forming, sintering, glass melting. Microstructure properties relations in ceramics. Fracture analysis and design with ceramics. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 160.",
       "prereqs_parsed": {
         "required": [
@@ -1471,7 +1518,7 @@
       "number": "C111",
       "title": "Introduction to Materials Characterization B (Electron Microscopy)",
       "units": 4.0,
-      "description": "(Formerly numbered 111.) Lecture, four hours; outside study, eight hours. Characterization of microstructure and microchemistry of materials; transmission electron microscopy; reciprocal lattice, electron diffraction, stereographic projection, direct observation of defects in crystals, replicas; scanning electron microscopy: emissive and reflective modes; chemical analysis; electron optics of both instruments. Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 111.) Lecture, four hours; outside study, eight hours. Characterization of microstructure and microchemistry of materials; transmission electron microscopy; reciprocal lattice, electron diffraction, stereographic projection, direct observation of defects in crystals, replicas; scanning electron microscopy: emissive and reflective modes; chemical analysis; electron optics of both instruments. Concurrently scheduled with… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1484,8 +1531,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1513,8 +1560,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1540,8 +1587,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1566,10 +1613,17 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "BIOENGR 120",
@@ -1584,15 +1638,21 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "MATH 3B",
-          "MATH 31B",
-          "MATH 32A"
+          [
+            "MATH 3B"
+          ],
+          [
+            "MATH 31B"
+          ],
+          [
+            "MATH 32A"
+          ]
         ],
         "min_grade": "C-",
         "recommended": []
@@ -1612,8 +1672,8 @@
       "number": "33B",
       "title": "Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C– or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B"
@@ -1636,7 +1696,7 @@
       "number": "C187L",
       "title": "Nanoscale Fabrication, Characterization, and Biodetection Laboratory",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, three hours; outside study, seven hours. Multidisciplinary course that introduces laboratory techniques of nanoscale fabrication, characterization, and biodetection. Basic physical, chemical, and biological principles related to these techniques, top-down and bottom-up (self-assembly) nanofabrication, nanocharacterization (AEM, SEM, etc.), and optical and electrochemical biosensors. Students encouraged to create\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, three hours; outside study, seven hours. Multidisciplinary course that introduces laboratory techniques of nanoscale fabrication, characterization, and biodetection. Basic physical, chemical, and biological principles related to these techniques, top-down and bottom-up (self-assembly) nanofabrication, nanocharacterization (AEM, SEM, etc.), and optical and electrochemical biosensors. Students encouraged to create… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1649,7 +1709,7 @@
       "number": "M20",
       "title": "Introduction to Computer Programming with MATLAB",
       "units": 4.0,
-      "description": "(Same as Civil Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient codes. Introduction\u2026 For more content click the Read More button below.",
+      "description": "(Same as Civil Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient codes. Introduction… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1728,7 +1788,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [

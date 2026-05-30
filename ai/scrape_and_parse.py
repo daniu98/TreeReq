@@ -71,6 +71,36 @@ Rules:
 # GEMINI PARSING (runs in parallel)
 # ============================================================
 
+def _resolve_bare_course_ids(parsed: dict, dept: str) -> dict:
+    """
+    Post-process Gemini output: any course ID that is just a number (or letter+number)
+    without a department prefix gets the current course's department prepended.
+    e.g. "102A" -> "CH ENGR 102A",  "M20" -> "MECH&AE M20"
+    This fixes cases where Gemini returns bare numbers instead of full IDs.
+    """
+    import re
+    bare_num = re.compile(r'^[A-Z]?\d+[A-Z]?$')  # e.g. 102A, M20, 31B, C135
+
+    def fix_id(cid):
+        if isinstance(cid, str) and bare_num.match(cid.strip()):
+            return f"{dept} {cid.strip()}"
+        return cid
+
+    def fix_list(lst):
+        if not isinstance(lst, list):
+            return lst
+        return [fix_id(x) if isinstance(x, str) else
+                [fix_id(i) for i in x] if isinstance(x, list) else x
+                for x in lst]
+
+    return {
+        **parsed,
+        "required": fix_list(parsed.get("required", [])),
+        "corequisites": fix_list(parsed.get("corequisites", [])),
+        "one_of": [fix_list(g) if isinstance(g, list) else g for g in parsed.get("one_of", [])],
+    }
+
+
 def parse_prereq_single(course_id, prereqs_raw, dept):
     """Parse one prereq string. Returns (course_id, parsed_result)."""
     if not prereqs_raw.strip():
@@ -82,7 +112,8 @@ def parse_prereq_single(course_id, prereqs_raw, dept):
         text = response.text.strip()
         if text.startswith("```"):
             text = text.split("\n", 1)[1].rsplit("```", 1)[0]
-        return (course_id, json.loads(text))
+        result = json.loads(text)
+        return (course_id, _resolve_bare_course_ids(result, dept))
     except Exception as e:
         print(f"      Parse error for {course_id}: {e}")
         return (course_id, {"required": []})
