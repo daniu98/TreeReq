@@ -101,7 +101,6 @@ function MajorTreePage({ majorId, majorName, onBack }) {
 
 function AppHome({
   route,
-  navigate,
   forests,
   forestTimestamps,
   openTree,
@@ -114,6 +113,8 @@ function AppHome({
   onOpenProfile,
   onProfileUpdate,
   onSignOut,
+  searchTrigger,
+  onPlantNewTree,
 }) {
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeMajorId = !KNOWN_VIEWS.has(route.view) && route.view ? route.view : null;
@@ -128,6 +129,7 @@ function AppHome({
         onHome={goHome}
         onOpenTree={openTree}
         onOpenMajor={openMajor}
+        searchTrigger={searchTrigger}
       />
 
       {showProfile ? (
@@ -141,7 +143,7 @@ function AppHome({
 
       {!showProfile && route.view === "landing" ? (
         <LandingMain
-          onPlantNewTree={() => navigate("setup")}
+          onPlantNewTree={onPlantNewTree}
           onOpenTree={openTree}
           onOpenMajor={openMajor}
           onOpenProfile={onOpenProfile}
@@ -183,6 +185,7 @@ export default function App() {
 
   const [majorTimestamps, setMajorTimestamps] = useState(loadMajorTimestamps);
   const [recentMajors, setRecentMajors] = useState(loadRecentMajors);
+  const [searchTrigger, setSearchTrigger] = useState(0);
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeTree = activeTreeId ? getTreeById(activeTreeId) : null;
 
@@ -317,7 +320,6 @@ export default function App() {
         >
           <AppHome
             route={route}
-            navigate={navigate}
             forests={allMyTrees}
             forestTimestamps={majorTimestamps}
             openTree={openTree}
@@ -330,6 +332,8 @@ export default function App() {
             onOpenProfile={handleOpenProfile}
             onProfileUpdate={handleProfileUpdate}
             onSignOut={handleSignOut}
+            searchTrigger={searchTrigger}
+            onPlantNewTree={() => setSearchTrigger((n) => n + 1)}
           />
         </div>
       ) : null}

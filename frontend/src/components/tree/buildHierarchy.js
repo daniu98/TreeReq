@@ -90,26 +90,52 @@ export function buildHierarchy(apiResponse, majorName) {
     const categoryNodes = reqs.map((req) => {
       const catCourses = req.courses ?? [];
       const catCourseSet = new Set(catCourses);
-
-      // Root courses: those whose prereqs are all outside this category.
-      const rootIds = catCourses
-        .filter((cid) => !placedCourses.has(cid))
-        .filter((cid) => {
-          const prereqs = prereqsOf.get(cid) ?? [];
-          return !prereqs.some((p) => catCourseSet.has(p.source));
-        });
-
       const catKey = `${sectionName}::${req.category}`;
-      const courseChildren = rootIds.map((cid) => placeCourse(cid, catKey));
+      const catId  = `cat:${sectionName}:${req.category}`;
 
-      // Fallback: place any still-unplaced courses (cycles or orphaned nodes).
-      const remaining = catCourses
-        .filter((cid) => !placedCourses.has(cid))
-        .map((cid) => placeCourse(cid, catKey));
+      let courseChildren;
+
+      if (req.choose_n != null) {
+        // ── Stack category: emit choose_n slot nodes instead of real courses ──
+        // Mark all y courses as placed so they aren't rendered elsewhere.
+        for (const cid of catCourses) placedCourses.add(cid);
+
+        courseChildren = Array.from({ length: req.choose_n }, (_, i) => ({
+          kind: "stack_slot",
+          id: `slot:${catId}:${i}`,
+          data: {
+            slotIndex:        i,
+            chooseN:          req.choose_n,
+            availableCourses: catCourses,
+            catId,
+            catName:          req.category,
+            section:          sectionName,
+          },
+          children: [],
+        }));
+      } else {
+        // ── Regular category: existing prereq-chain logic ──────────────────
+        // Root courses: those whose prereqs are all outside this category.
+        const rootIds = catCourses
+          .filter((cid) => !placedCourses.has(cid))
+          .filter((cid) => {
+            const prereqs = prereqsOf.get(cid) ?? [];
+            return !prereqs.some((p) => catCourseSet.has(p.source));
+          });
+
+        const placed = rootIds.map((cid) => placeCourse(cid, catKey));
+
+        // Fallback: place any still-unplaced courses (cycles or orphaned nodes).
+        const remaining = catCourses
+          .filter((cid) => !placedCourses.has(cid))
+          .map((cid) => placeCourse(cid, catKey));
+
+        courseChildren = [...placed, ...remaining];
+      }
 
       return {
         kind: "category",
-        id: `cat:${sectionName}:${req.category}`,
+        id: catId,
         data: {
           name: req.category,
           type: req.type ?? "required",
@@ -117,7 +143,7 @@ export function buildHierarchy(apiResponse, majorName) {
           courses: catCourses,
           section: sectionName,
         },
-        children: [...courseChildren, ...remaining],
+        children: courseChildren,
       };
     });
 

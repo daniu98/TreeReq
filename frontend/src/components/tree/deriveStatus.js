@@ -17,8 +17,26 @@
  * A node also gets `completionPercentage` for category-level rendering.
  */
 
-export function deriveStatuses(rootHierarchy, statusMap, prereqIndex) {
+export function deriveStatuses(rootHierarchy, statusMap, prereqIndex, stackSelections = {}) {
   function visit(node) {
+    if (node.kind === "stack_slot") {
+      const assignedCourseId = stackSelections[node.data.catId]?.[node.data.slotIndex] ?? null;
+      const status = assignedCourseId
+        ? (statusMap[assignedCourseId] ?? "unfulfilled")
+        : "unfulfilled";
+      const completed = status === "completed";
+      return {
+        ...node,
+        assignedCourseId,
+        status,
+        completed,
+        completionPercentage: completed ? 100 : 0,
+        totalCourses:    1,
+        completedCourses: completed ? 1 : 0,
+        children: [],
+      };
+    }
+
     if (node.kind === "course") {
       const id = node.id;
       const explicit = statusMap[id]; // "planned" | "in_progress" | "completed" | undefined

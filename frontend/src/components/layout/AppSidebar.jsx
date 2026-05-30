@@ -150,6 +150,7 @@ export default function AppSidebar({
   onHome,
   onOpenTree,
   onOpenMajor,
+  searchTrigger = 0,
 }) {
   const [collapsed, setCollapsed] = useState(false);
   const [allMajors, setAllMajors] = useState([]);
@@ -158,6 +159,12 @@ export default function AppSidebar({
   const [localSearch, setLocalSearch] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
   const blurTimerRef = useRef(null);
+
+  useEffect(() => {
+    if (searchTrigger === 0) return;
+    setCollapsed(false);
+    setSearchOpen(true);
+  }, [searchTrigger]);
 
   useEffect(() => {
     fetchMajors()
@@ -282,9 +289,9 @@ export default function AppSidebar({
         {/* ── Nav rows ── */}
         <div style={{ marginBottom: 4 }}>
           <SidebarRow
-            icon={<HomeIcon color={isHome ? "#358162" : "#9A9A9A"} />}
+            icon={<HomeIcon color={isHome && !searchOpen ? "#358162" : "#9A9A9A"} />}
             label="Home"
-            active={isHome}
+            active={isHome && !searchOpen}
             onClick={onHome}
           />
 

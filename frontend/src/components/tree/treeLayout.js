@@ -1,9 +1,10 @@
 // Actual rendered outer diameters / dimensions for each node kind.
 const NODE_KIND_SIZE = {
-  root:     { w: 220, h: 220 },
-  section:  { w: 220, h: 220 },
-  category: { w: 220, h: 220 },
-  course:   { w: 220, h: 85  },
+  root:       { w: 220, h: 220 },
+  section:    { w: 220, h: 220 },
+  category:   { w: 220, h: 220 },
+  course:     { w: 220, h: 85  },
+  stack_slot: { w: 220, h: 85  },
 };
 
 // Extra Y-slot space (px) distributed symmetrically around a clicked/expanded course.
@@ -46,6 +47,7 @@ function makeNode(data, x, y, depth) {
     completionPercentage: data.completionPercentage,
     completed:            data.completed,
     unmetPrereqs:         data.unmetPrereqs,
+    assignedCourseId:     data.assignedCourseId,   // stack_slot only
     x,
     y,
     width:  size.w,

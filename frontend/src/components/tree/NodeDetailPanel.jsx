@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { fetchCourseDetails } from "../../services/treeApi.js";
 
 const STATUS_OPTIONS = ["unfulfilled", "planned", "in_progress", "completed"];
@@ -189,7 +189,6 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
           {d.dept}
         </div>
 
-        {/* Course code + status dropdown in same row */}
         <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 10, marginBottom: 4 }}>
           <div style={{ fontFamily: FONT, fontSize: 22, fontWeight: 800, color: "#111", lineHeight: 1.15 }}>
             {d.dept} {d.number}
@@ -205,7 +204,6 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
           </div>
         )}
 
-        {/* Badges */}
         <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: 6 }}>
           {d.units > 0 && (
             <span style={{ fontFamily: FONT, fontSize: 11, color: "#999", background: "#f5f5f5", border: "1px solid #e8e8e8", borderRadius: 20, padding: "3px 10px" }}>
@@ -227,7 +225,6 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
 
       <Divider />
 
-      {/* ── Description ── */}
       {detailsLoading ? (
         <div style={{ fontFamily: FONT, fontSize: 12, color: "#ccc", marginBottom: 14 }}>Loading…</div>
       ) : details?.description ? (
@@ -242,12 +239,10 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
         <Divider />
       )}
 
-      {/* ── Enforced Prerequisites ── */}
       {!detailsLoading && hasPrereqs && (
         <>
           <SectionLabel bold>Enforced prerequisites:</SectionLabel>
 
-          {/* Required (all must be done) */}
           {requiredPrereqs.length > 0 && (
             <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: oneOfGroups.length > 0 ? 12 : 0 }}>
               {requiredPrereqs.map((pid) => (
@@ -256,10 +251,9 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
             </div>
           )}
 
-          {/* One-of groups — each group is separate */}
           {oneOfGroups.map((group, i) => (
             <div key={i} style={{ marginBottom: i < oneOfGroups.length - 1 ? 14 : 0 }}>
-              <div style={{ fontFamily: FONT, fontSize: 11, color: "#aaa", marginBottom: 6, marginTop: requiredPrereqs.length > 0 || i > 0 ? 0 : 0 }}>
+              <div style={{ fontFamily: FONT, fontSize: 11, color: "#aaa", marginBottom: 6 }}>
                 One course from:
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
@@ -274,7 +268,6 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
         </>
       )}
 
-      {/* ── Enforced Corequisites ── */}
       {!detailsLoading && hasCoreqs && (
         <>
           <SectionLabel bold>Enforced corequisites:</SectionLabel>
@@ -287,7 +280,6 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
         </>
       )}
 
-      {/* ── Raw prereq text (fallback context) ── */}
       {details?.prereqs_raw && (
         <>
           <SectionLabel>Advanced preparation</SectionLabel>
@@ -302,23 +294,25 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
 
 // ── Category panel ────────────────────────────────────────────────────────────
 
-function CourseCheckbox({ completed }) {
+function CourseCheckbox({ completed, disabled }) {
   const green = "#85B110";
   const gray = "#9A9A9A";
+  const borderColor = disabled ? "#D0D0D0" : completed ? green : gray;
+  const bg = disabled ? "#f5f5f5" : completed ? green : "#fff";
   return (
     <div style={{
       width: 14,
       height: 14,
       borderRadius: 2,
       flexShrink: 0,
-      background: completed ? green : "#fff",
-      border: `1px solid ${completed ? green : gray}`,
+      background: bg,
+      border: `1px solid ${borderColor}`,
       boxSizing: "border-box",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
     }}>
-      {completed && (
+      {completed && !disabled && (
         <svg width="8" height="6" viewBox="0 0 8 6" fill="none">
           <path d="M1 3L3 5L7 1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
@@ -327,8 +321,91 @@ function CourseCheckbox({ completed }) {
   );
 }
 
-function CategoryPanel({ node, statusMap, nodeById, onStatusChange }) {
+function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelections }) {
   const d = node.data;
+  const isStack = d.choose_n != null;
+
+  if (isStack) {
+    // ── Stack category: show N slot rows ──────────────────────────────────
+    const catSelections = stackSelections[node.id] ?? [];
+    const completedCount = catSelections.filter(
+      (cid) => cid && statusMap[cid] === "completed"
+    ).length;
+    const required = d.choose_n;
+    const pct = required > 0 ? Math.min(100, Math.round((completedCount / required) * 100)) : 0;
+    const displayName = d.name.replace(/\s*\(choose\s+\d+\)\s*$/i, "");
+    const subtitle = `Choose ${required} of the following ${(d.courses ?? []).length} courses.`;
+
+    return (
+      <div>
+        <div style={{ marginBottom: 16 }}>
+          {d.section && (
+            <div style={{ fontFamily: FONT, fontSize: 10, fontWeight: 600, color: "#aaa", textTransform: "uppercase", letterSpacing: "0.8px", marginBottom: 6 }}>
+              {d.section}
+            </div>
+          )}
+          <div style={{ fontFamily: FONT, fontSize: 20, fontWeight: 800, color: "#111", lineHeight: 1.2, marginBottom: 4 }}>
+            {displayName}{" "}
+            <span style={{ fontWeight: 400, color: "#9A9A9A" }}>
+              ({Math.min(completedCount, required)}/{required})
+            </span>
+          </div>
+          <div style={{ fontFamily: FONT, fontSize: 14, color: "#9A9A9A", marginBottom: 14 }}>
+            {subtitle}
+          </div>
+          <ProgressBar pct={pct} />
+        </div>
+
+        <Divider />
+
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, background: "#FAFAFA", borderRadius: 8, padding: 15 }}>
+          {Array.from({ length: required }, (_, i) => {
+            const courseId = catSelections[i] ?? null;
+            const isAssigned = !!courseId;
+            const isCompleted = isAssigned && statusMap[courseId] === "completed";
+            const cn = isAssigned ? nodeById?.get(courseId) : null;
+            const title = cn?.data?.title ?? "";
+            const green = "#85B110";
+
+            return (
+              <div
+                key={i}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 8,
+                  cursor: isAssigned ? "pointer" : "default",
+                  userSelect: "none",
+                  opacity: isAssigned ? 1 : 0.5,
+                }}
+                onClick={isAssigned
+                  ? () => onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed")
+                  : undefined}
+              >
+                <CourseCheckbox completed={isCompleted} disabled={!isAssigned} />
+                <span style={{ fontFamily: FONT, fontSize: 14, lineHeight: "24px", minWidth: 0, flex: 1 }}>
+                  {isAssigned ? (
+                    <>
+                      <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{courseId}</span>
+                      {title && (
+                        <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> - {title}</span>
+                      )}
+                    </>
+                  ) : (
+                    <span style={{ fontWeight: 500, color: "#BDBDBD", fontStyle: "italic" }}>
+                      Slot {i + 1} — Select Course
+                    </span>
+                  )}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  // ── Regular category ──────────────────────────────────────────────────────
   const courses = d.courses ?? [];
   const completedCount = courses.filter((cid) => statusMap[cid] === "completed").length;
   const required = d.choose_n ?? courses.length;
@@ -340,7 +417,6 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange }) {
 
   return (
     <div>
-      {/* Header */}
       <div style={{ marginBottom: 16 }}>
         {d.section && (
           <div style={{ fontFamily: FONT, fontSize: 10, fontWeight: 600, color: "#aaa", textTransform: "uppercase", letterSpacing: "0.8px", marginBottom: 6 }}>
@@ -361,7 +437,6 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange }) {
 
       <Divider />
 
-      {/* Course list */}
       {courses.length === 0 ? (
         <div style={{ fontFamily: FONT, fontSize: 13, color: "#aaa" }}>No courses listed</div>
       ) : (
@@ -395,6 +470,176 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange }) {
   );
 }
 
+// ── Stack slot panels ─────────────────────────────────────────────────────────
+
+/**
+ * StackSlotPanel — shown when a slot is UNASSIGNED.
+ * Lists all available courses; clicking one immediately assigns it.
+ */
+function StackSlotPanel({ node, statusMap, allCourses, stackSelections, onStackSelect }) {
+  const d = node.data;
+  const catSelections = stackSelections[d.catId] ?? [];
+  // Courses already assigned to OTHER slots in this category (can't double-assign)
+  const otherSelectedSet = new Set(
+    catSelections.filter((cid, i) => i !== d.slotIndex && cid)
+  );
+
+  const courseInfoMap = useMemo(
+    () => new Map(allCourses.map((c) => [c.id, c])),
+    [allCourses]
+  );
+
+  const displayCatName = d.catName.replace(/\s*\(choose\s+\d+\)\s*$/i, "");
+
+  return (
+    <div>
+      {/* Header */}
+      <div style={{ marginBottom: 16 }}>
+        {d.section && (
+          <div style={{ fontFamily: FONT, fontSize: 10, fontWeight: 600, color: "#aaa", textTransform: "uppercase", letterSpacing: "0.8px", marginBottom: 6 }}>
+            {d.section}
+          </div>
+        )}
+        <div style={{ fontFamily: FONT, fontSize: 20, fontWeight: 800, color: "#111", lineHeight: 1.2, marginBottom: 4 }}>
+          {displayCatName}
+        </div>
+        <div style={{ fontFamily: FONT, fontSize: 14, color: "#9A9A9A", marginBottom: 4 }}>
+          Slot {d.slotIndex + 1} of {d.chooseN} — select one course below.
+        </div>
+        <div style={{ fontFamily: FONT, fontSize: 12, color: "#BDBDBD" }}>
+          {(d.availableCourses ?? []).length} courses available
+        </div>
+      </div>
+
+      <Divider />
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+        {(d.availableCourses ?? []).map((cid) => {
+          const info = courseInfoMap.get(cid);
+          const isDisabled = otherSelectedSet.has(cid);
+          return (
+            <CourseSelectionRow
+              key={cid}
+              courseId={cid}
+              title={info?.title ?? ""}
+              units={info?.units ?? 0}
+              disabled={isDisabled}
+              onSelect={() => !isDisabled && onStackSelect(d.catId, d.slotIndex, cid)}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function CourseSelectionRow({ courseId, title, units, disabled, onSelect }) {
+  const [hovered, setHovered] = useState(false);
+  return (
+    <div
+      onClick={onSelect}
+      onMouseEnter={() => !disabled && setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: 10,
+        padding: "10px 12px",
+        borderRadius: 8,
+        border: `1px solid ${hovered ? "#85B110" : "#ebebeb"}`,
+        background: disabled ? "#f9f9f9" : hovered ? "#f6fbea" : "#fafafa",
+        cursor: disabled ? "not-allowed" : "pointer",
+        transition: "border-color 100ms, background 100ms",
+        opacity: disabled ? 0.45 : 1,
+      }}
+    >
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{ fontFamily: FONT, fontSize: 14, fontWeight: 700, color: "#111" }}>
+          {courseId}
+        </div>
+        {title && (
+          <div style={{ fontFamily: FONT, fontSize: 12, color: "#888", marginTop: 2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+            {title}
+          </div>
+        )}
+      </div>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
+        {units > 0 && (
+          <span style={{ fontFamily: FONT, fontSize: 11, color: "#999", background: "#f0f0f0", borderRadius: 20, padding: "2px 8px" }}>
+            {units} units
+          </span>
+        )}
+        {disabled ? (
+          <span style={{ fontFamily: FONT, fontSize: 11, color: "#bbb" }}>assigned</span>
+        ) : (
+          <span style={{ color: hovered ? "#85B110" : "#ccc", fontSize: 14, transition: "color 100ms" }}>→</span>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/**
+ * AssignedStackSlotPanel — shown when a slot IS assigned.
+ * Renders a full CoursePanel for the assigned course + Revert button.
+ */
+function AssignedStackSlotPanel({ node, statusMap, nodeById, onStatusChange, onNavigate, onStackRevert }) {
+  const d = node.data;
+  const assignedId = node.assignedCourseId;
+
+  // Build a synthetic course node so CoursePanel can render without needing the
+  // assigned course to be in the tree's nodeById map.
+  const parts = assignedId.split(/\s+/);
+  const syntheticCourseNode = {
+    id: assignedId,
+    kind: "course",
+    data: {
+      dept:        parts.slice(0, -1).join(" "),
+      number:      parts[parts.length - 1] ?? "",
+      title:       "",  // CoursePanel fetches this from the API
+      units:       0,
+      is_elective: false,
+    },
+    status: statusMap[assignedId] ?? "unfulfilled",
+  };
+
+  return (
+    <div>
+      <CoursePanel
+        node={syntheticCourseNode}
+        statusMap={statusMap}
+        nodeById={nodeById}
+        onStatusChange={onStatusChange}
+        onNavigate={onNavigate}
+      />
+
+      <Divider />
+
+      {/* Revert button */}
+      <button
+        onClick={() => onStackRevert(d.catId, d.slotIndex)}
+        style={{
+          width: "100%",
+          padding: "10px 0",
+          fontFamily: FONT,
+          fontSize: 13,
+          fontWeight: 600,
+          color: "#888",
+          background: "#f5f5f5",
+          border: "1px solid #e0e0e0",
+          borderRadius: 8,
+          cursor: "pointer",
+          transition: "background 120ms, color 120ms",
+        }}
+        onMouseEnter={(e) => { e.currentTarget.style.background = "#ffe8e8"; e.currentTarget.style.color = "#c0392b"; }}
+        onMouseLeave={(e) => { e.currentTarget.style.background = "#f5f5f5"; e.currentTarget.style.color = "#888"; }}
+      >
+        ↩ Revert selection
+      </button>
+    </div>
+  );
+}
+
 // ── Section / root panel ──────────────────────────────────────────────────────
 
 function SectionPanel({ node }) {
@@ -419,7 +664,18 @@ function SectionPanel({ node }) {
 
 // ── Main panel ────────────────────────────────────────────────────────────────
 
-export function NodeDetailPanel({ node, statusMap, nodeById, onStatusChange, onNavigate, onClose }) {
+export function NodeDetailPanel({
+  node,
+  statusMap,
+  nodeById,
+  onStatusChange,
+  onNavigate,
+  onClose,
+  stackSelections = {},
+  onStackSelect,
+  onStackRevert,
+  allCourses = [],
+}) {
   const panelRef = useRef(null);
 
   useEffect(() => {
@@ -483,7 +739,13 @@ export function NodeDetailPanel({ node, statusMap, nodeById, onStatusChange, onN
           <CoursePanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onNavigate={onNavigate} />
         )}
         {node.kind === "category" && (
-          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onNavigate={onNavigate} />
+          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} stackSelections={stackSelections} />
+        )}
+        {node.kind === "stack_slot" && !node.assignedCourseId && (
+          <StackSlotPanel node={node} statusMap={statusMap} allCourses={allCourses} stackSelections={stackSelections} onStackSelect={onStackSelect} />
+        )}
+        {node.kind === "stack_slot" && node.assignedCourseId && (
+          <AssignedStackSlotPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onNavigate={onNavigate} onStackRevert={onStackRevert} />
         )}
         {(node.kind === "section" || node.kind === "root") && (
           <SectionPanel node={node} />
