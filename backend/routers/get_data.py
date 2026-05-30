@@ -12,14 +12,10 @@ class GetDataRequest(BaseModel):
 @router.post("/get-data")
 def get_data(data: GetDataRequest):
     db = get_sync_db()
-    usersWithEmail = db.users.find_one({"email": data.email})
-    try:
-        return {"message": usersWithEmail["local_storage"]}
-    except Exception as exc:
-        raise HTTPException(
-            status_code=503,
-            detail=f"Database error: {exc}",
-        ) from exc
-
-    if result.matched_count == 0:
-        return {"message": "User not found"}
+    user = db.users.find_one({"email": data.email})
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    local_storage = user.get("local_storage")
+    if local_storage is None:
+        raise HTTPException(status_code=404, detail="No profile data saved yet")
+    return {"message": local_storage}

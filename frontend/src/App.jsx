@@ -290,27 +290,23 @@ export default function App() {
 
   const handleOnboardingComplete = useCallback(async (data) => {
     if (data?.profile && data?.academic) {
-      // Fresh onboarding completed
+      // Fresh onboarding — always use the new data, never old stored data
       const mapped = mapOnboardingToProfile(data);
-      const stored = await loadStoredProfile();
-      if (stored) setUserProfile(stored);
-      else{
-        saveStoredProfile(mapped);
-        setUserProfile(mapped);
-      }
+      await saveStoredProfile(mapped);
+      setUserProfile(mapped);
       setShowProfile(true);
     } else if (data?.skipped && data?.profileData) {
-      // Returning authenticated user — use profile fetched from backend
+      // Returning authenticated user — profile fetched from backend
       const mapped = mapReturnedUserToProfile(data.profileData);
       if (mapped) {
-        saveStoredProfile(mapped);
+        await saveStoredProfile(mapped);
         setUserProfile(mapped);
       }
     } else if (data?.skipped && data?.major) {
       // Guest continuing without sign-in
       const guest = makeGuestProfile(data.major);
       if (guest) {
-        saveStoredProfile(guest);
+        await saveStoredProfile(guest);
         setUserProfile(guest);
       }
     }
@@ -356,8 +352,9 @@ export default function App() {
   }, [navigate]);
 
   const handleSignIn = useCallback(() => {
-    sessionStorage.removeItem("treereq-sso-token");
-    sessionStorage.removeItem("treereq-sso-email");
+    sessionStorage.clear();
+    localStorage.clear();
+    setUserProfile(null);
     setShowProfile(false);
     setHomeRevealed(false);
     setHomeEntered(false);

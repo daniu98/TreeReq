@@ -26,9 +26,11 @@ export async function loadStoredProfile() {
 
 export async function saveStoredProfile(profile) {
   try {
-    const email = sessionStorage.getItem("treereq-sso-email");
     localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(profile));
-    await updateData(email, JSON.parse(localStorage.getItem(PROFILE_STORAGE_KEY)));
+    const email = sessionStorage.getItem("treereq-sso-email");
+    if (email) {
+      await updateData(email, profile);
+    }
   } catch {
     /* ignore */
   }
