@@ -29,11 +29,15 @@ export function buildHierarchy(apiResponse, majorName) {
     dependentsOf.get(e.source).push({ target: e.target, type: e.type ?? "required" });
   }
 
-  // Course → its requirement category.
+  // Course → its requirement category key (section::category).
+  // Using a composite key ensures identically-named categories in different
+  // sections (e.g. "Computer Science or Electrical Engineering (choose 1)"
+  // appearing in both Prep and The Major) are treated as distinct buckets.
   const categoryOfCourse = new Map();
   for (const req of requirements) {
+    const key = `${req.section ?? DEFAULT_SECTION}::${req.category}`;
     for (const cid of req.courses ?? []) {
-      categoryOfCourse.set(cid, req.category);
+      categoryOfCourse.set(cid, key);
     }
   }
 
@@ -95,12 +99,13 @@ export function buildHierarchy(apiResponse, majorName) {
           return !prereqs.some((p) => catCourseSet.has(p.source));
         });
 
-      const courseChildren = rootIds.map((cid) => placeCourse(cid, req.category));
+      const catKey = `${sectionName}::${req.category}`;
+      const courseChildren = rootIds.map((cid) => placeCourse(cid, catKey));
 
       // Fallback: place any still-unplaced courses (cycles or orphaned nodes).
       const remaining = catCourses
         .filter((cid) => !placedCourses.has(cid))
-        .map((cid) => placeCourse(cid, req.category));
+        .map((cid) => placeCourse(cid, catKey));
 
       return {
         kind: "category",
