@@ -193,7 +193,7 @@
       "number": "1",
       "title": "Connections in Chemistry and Biochemistry",
       "units": 1.0,
-      "description": "Lecture, one hour. Students build academic skills, navigate challenges, and gain understanding needed to thrive in chemistry studies and beyond. As students begin their chemistry studies, it is crucial to not only master the fundamental concepts of the discipline but also to cultivate effective study habits, navigate academic challenges, build\u2026 For more content click the Read More button below.",
+      "description": "Lecture, one hour. Students build academic skills, navigate challenges, and gain understanding needed to thrive in chemistry studies and beyond. As students begin their chemistry studies, it is crucial to not only master the fundamental concepts of the discipline but also to cultivate effective study habits, navigate academic challenges, build… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -206,8 +206,8 @@
       "number": "110A",
       "title": "Physical Chemistry: Chemical Thermodynamics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisites: course 20B, Mathematics 32A or 3C (for life sciences majors), Physics 1A, 1B, and 1C (may be taken concurrently), or 1AH, 1BH, and 1CH (may be taken concurrently), or 5A, 5B, and 5C (may be taken concurrently), or 6A, 6B,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 20B, Mathematics 32A or 3C (for life sciences majors), Physics 1A, 1B, and 1C (may be taken concurrently), or 1AH, 1BH, and 1CH (may be taken concurrently), or 5A, 5B, and 5C (may be taken concurrently), or 6A, 6B,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisites: course 20B, Mathematics 32A or 3C (for life sciences majors), Physics 1A, 1B, and 1C (may be taken concurrently), or 1AH, 1BH, and 1CH (may be taken concurrently), or 5A, 5B, and 5C (may be taken concurrently), or 6A, 6B,… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 20B, Mathematics 32A or 3C (for life sciences majors), Physics 1A, 1B, and 1C (may be taken concurrently), or 1AH, 1BH, and 1CH (may be taken concurrently), or 5A, 5B, and 5C (may be taken concurrently), or 6A, 6B,… For more content click the Read More button below.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -264,8 +264,8 @@
       "number": "110B",
       "title": "Topics in Physical Chemistry",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisites: courses 110A, 113A, Mathematics 32B, all with grades of C\u2013 or better. Kinetic theory of gases, principles of statistical mechanics, statistical thermodynamics, equilibrium structure and free energy, macroscopic chemical kinetics. Interaction of radiation with matter, microwave spectroscopy, infrared and Raman\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: courses 110A, 113A, Mathematics 32B, all with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisites: courses 110A, 113A, Mathematics 32B, all with grades of C– or better. Kinetic theory of gases, principles of statistical mechanics, statistical thermodynamics, equilibrium structure and free energy, macroscopic chemical kinetics. Interaction of radiation with matter, microwave spectroscopy, infrared and Raman… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 110A, 113A, Mathematics 32B, all with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 110A",
@@ -289,8 +289,8 @@
       "number": "113A",
       "title": "Physical Chemistry: Introduction to Quantum Mechanics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: course 20B, Mathematics 32A, 32B, 33A, Physics 1A, 1B, and 1C, or 1AH, 1BH, and 1CH, or 5A, 5B, and 5C, or 6A, 6B, and 6C, with grades of C\u2013 or better. Departure from classical mechanics: Schr\u00f6dinger versus Newton equations; model systems: particle-in-box,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 20B, Mathematics 32A, 32B, 33A, Physics 1A, 1B, and 1C, or 1AH, 1BH, and 1CH, or 5A, 5B, and 5C, or 6A, 6B, and 6C, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: course 20B, Mathematics 32A, 32B, 33A, Physics 1A, 1B, and 1C, or 1AH, 1BH, and 1CH, or 5A, 5B, and 5C, or 6A, 6B, and 6C, with grades of C– or better. Departure from classical mechanics: Schrödinger versus Newton equations; model systems: particle-in-box,… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 20B, Mathematics 32A, 32B, 33A, Physics 1A, 1B, and 1C, or 1AH, 1BH, and 1CH, or 5A, 5B, and 5C, or 6A, 6B, and 6C, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -340,8 +340,8 @@
       "number": "114",
       "title": "Physical Chemistry Laboratory",
       "units": 5.0,
-      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 30AL, 110A, 113A, all with grades of C\u2013 or better. Enforced corequisite: course 110B. Lectures include techniques of physical measurement, error analysis and statistics, special topics. Laboratory includes spectroscopy, thermodynamic measurements, and chemical dynamics. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 30AL, 110A, 113A, all with grades of C\u2013 or better. Enforced corequisite: course 110B.",
+      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 30AL, 110A, 113A, all with grades of C– or better. Enforced corequisite: course 110B. Lectures include techniques of physical measurement, error analysis and statistics, special topics. Laboratory includes spectroscopy, thermodynamic measurements, and chemical dynamics. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 30AL, 110A, 113A, all with grades of C– or better. Enforced corequisite: course 110B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30AL",
@@ -363,8 +363,8 @@
       "number": "136",
       "title": "Organic Structural Methods",
       "units": 5.0,
-      "description": "Lecture, two hours; laboratory, eight hours. Requisites: courses 30C and 30CL, with grades of C\u2013 or better. Laboratory course in organic structure determination by chemical and spectroscopic methods; microtechniques. P/NP or letter grading.",
-      "prereqs_raw": "Requisites: courses 30C and 30CL, with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, eight hours. Requisites: courses 30C and 30CL, with grades of C– or better. Laboratory course in organic structure determination by chemical and spectroscopic methods; microtechniques. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 30C and 30CL, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30C",
@@ -383,8 +383,8 @@
       "number": "144",
       "title": "Practical and Theoretical Introductory Organic Synthesis",
       "units": 5.0,
-      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 30C and 30CL, with grades of C\u2013 or better. Lectures on modern synthetic reactions and processes, with emphasis on stereospecific methods for carbon-carbon bond formation. Laboratory methods of synthetic organic chemistry, including reaction techniques, synthesis of natural products, and molecules of\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: courses 30C and 30CL, with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 30C and 30CL, with grades of C– or better. Lectures on modern synthetic reactions and processes, with emphasis on stereospecific methods for carbon-carbon bond formation. Laboratory methods of synthetic organic chemistry, including reaction techniques, synthesis of natural products, and molecules of… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 30C and 30CL, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30C",
@@ -403,8 +403,8 @@
       "number": "171",
       "title": "Intermediate Inorganic Chemistry",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 30B with grade of C\u2013 or better. Chemical bonding; structure and bonding in solid state; main group, transition metal, lanthanide and actinide compounds and reactions; catalysis, spectroscopy, special topics. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 30B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 30B with grade of C– or better. Chemical bonding; structure and bonding in solid state; main group, transition metal, lanthanide and actinide compounds and reactions; catalysis, spectroscopy, special topics. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 30B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30B"
@@ -425,8 +425,8 @@
       "number": "184",
       "title": "Chemical Instrumentation",
       "units": 5.0,
-      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 30CL and 110A, with grades of C\u2013 or better. Theory and practice of instrumental techniques of chemical and structural analysis, including atomic absorption spectroscopy, gas chromatography, mass spectrometry, nuclear magnetic resonance, polarography, X-ray fluorescence, and other modern methods. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: courses 30CL and 110A, with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 30CL and 110A, with grades of C– or better. Theory and practice of instrumental techniques of chemical and structural analysis, including atomic absorption spectroscopy, gas chromatography, mass spectrometry, nuclear magnetic resonance, polarography, X-ray fluorescence, and other modern methods. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 30CL and 110A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30CL",
@@ -445,7 +445,7 @@
       "number": "193A",
       "title": "Journal Club Seminars: UC LEADS and MARC",
       "units": 2.0,
-      "description": "Seminar, three hours. Designed for juniors/seniors in undergraduate research training programs such as UC LEADS and MARC or those who have strong commitment to pursue graduate studies in natural sciences, engineering, or mathematics. Weekly reading and oral presentations of research or research papers selected from current literature. May be repeated\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Designed for juniors/seniors in undergraduate research training programs such as UC LEADS and MARC or those who have strong commitment to pursue graduate studies in natural sciences, engineering, or mathematics. Weekly reading and oral presentations of research or research papers selected from current literature. May be repeated… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -487,7 +487,7 @@
       "number": "196B",
       "title": "Research Apprenticeship in Chemistry and Biochemistry",
       "units": 2.0,
-      "description": "Tutorial, three hours per week per unit. Enforced requisite: course 196A (8 units). Limited to juniors/seniors. Research apprenticeship for upper-division students under guidance of faculty mentor. Consult department for additional information regarding requirements, enrollment petitions, and written proposal deadlines. May be taken for maximum of 4 units. Individual contract required.\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, three hours per week per unit. Enforced requisite: course 196A (8 units). Limited to juniors/seniors. Research apprenticeship for upper-division students under guidance of faculty mentor. Consult department for additional information regarding requirements, enrollment petitions, and written proposal deadlines. May be taken for maximum of 4 units. Individual contract required.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 196A (8 units).",
       "prereqs_parsed": {
         "required": [
@@ -525,7 +525,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -552,7 +552,13 @@
       "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background, high school physics, and three and one half years of high school mathematics. Enforced corequisite: Mathematics 31A. Honors course parallel to course 20A. P/NP or letter grading.",
       "prereqs_raw": "Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [
+          "MATH 31A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 20B",
@@ -565,8 +571,8 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -637,8 +643,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -663,8 +669,8 @@
       "number": "30A",
       "title": "Organic Chemistry I: Structure and Reactivity",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C– or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B"
@@ -686,8 +692,8 @@
       "number": "30AL",
       "title": "General Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -717,8 +723,8 @@
       "number": "30B",
       "title": "Organic Chemistry II: Reactivity, Synthesis, and Spectroscopy",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C– or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -744,8 +750,8 @@
       "number": "30BL",
       "title": "Organic Chemistry Laboratory I",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C\u2013 or better. Basic experimental techniques in organic synthesis (performing reactions, monitoring reactions, and conducting purifications) and spectroscopy (IR, NMR, mass spectrometry). Synthesis of known organic molecules on microscale level with focus on\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C– or better. Basic experimental techniques in organic synthesis (performing reactions, monitoring reactions, and conducting purifications) and spectroscopy (IR, NMR, mass spectrometry). Synthesis of known organic molecules on microscale level with focus on… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30AL",
@@ -769,8 +775,8 @@
       "number": "30C",
       "title": "Organic Chemistry III: Reactivity, Synthesis, and Biomolecules",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30B with grade of C\u2013 or better. Third term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Chemistry of enolates, enamines, dicarbonyl compounds, and amines. Molecular orbital theory and conjugated pi systems; UV/vis spectroscopy. Aromaticity and reactions of aromatic molecules.\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 30B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30B with grade of C– or better. Third term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Chemistry of enolates, enamines, dicarbonyl compounds, and amines. Molecular orbital theory and conjugated pi systems; UV/vis spectroscopy. Aromaticity and reactions of aromatic molecules.… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 30B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30B"
@@ -792,10 +798,19 @@
       "number": "30CL",
       "title": "Organic Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours. Enforced requisites: courses 30B and 30BL, with grades of C\u2013 or better. Enforced corequisite: course 30C. Modern techniques in synthetic organic and analytical organic chemistry. Semi-preparative scale, multistep synthesis of organic and organometallic molecules, including asymmetric catalysts. One- and two-dimensional multinuclear NMR techniques. Written\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: courses 30B and 30BL, with grades of C\u2013 or better. Enforced corequisite: course 30C.",
+      "description": "Lecture, two hours; laboratory, six hours. Enforced requisites: courses 30B and 30BL, with grades of C– or better. Enforced corequisite: course 30C. Modern techniques in synthetic organic and analytical organic chemistry. Semi-preparative scale, multistep synthesis of organic and organometallic molecules, including asymmetric catalysts. One- and two-dimensional multinuclear NMR techniques. Written… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 30B and 30BL, with grades of C– or better. Enforced corequisite: course 30C.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 30B",
+          "CHEM 30BL"
+        ],
+        "corequisites": [
+          "CHEM 30C"
+        ],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 136",
@@ -811,7 +826,7 @@
       "number": "C113B",
       "title": "Quantum Chemistry Methods",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisite: course 113A. Complete introduction to electronic structure theory methods used by general computational chemistry community, focusing primarily on ab initio methods. Students gain understanding of electronic structure methods and tools to identify which methods are suitable for which types of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisite: course 113A. Complete introduction to electronic structure theory methods used by general computational chemistry community, focusing primarily on ab initio methods. Students gain understanding of electronic structure methods and tools to identify which methods are suitable for which types of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 113A.",
       "prereqs_parsed": {
         "required": [
@@ -830,7 +845,7 @@
       "number": "C126A",
       "title": "Computational Methods for Chemists",
       "units": 4.0,
-      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 110A, 113A, Mathematics 33A. Covers some basics of scientific coding. Introduction to advanced applications provided through commercially available computational packages. Includes quantum mechanical techniques for chemistry, reactivity, spectroscopy, solid state calculations; statistical mechanical techniques for chemistry and biochemistry; python coding, basic algorithms,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 110A, 113A, Mathematics 33A. Covers some basics of scientific coding. Introduction to advanced applications provided through commercially available computational packages. Includes quantum mechanical techniques for chemistry, reactivity, spectroscopy, solid state calculations; statistical mechanical techniques for chemistry and biochemistry; python coding, basic algorithms,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 110A, 113A, Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -851,8 +866,8 @@
       "number": "C143A",
       "title": "Structure and Mechanism in Organic Chemistry",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 30C and 30CL (may be taken concurrently), 110B, and 113A, with grades of C\u2013 or better. Mechanisms of organic reactions. Acidity and acid catalysis; linear free energy relationships; isotope effects. Molecular orbital theory; photochemistry; pericyclic reactions. May be concurrently scheduled with course\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: courses 30C and 30CL (may be taken concurrently), 110B, and 113A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 30C and 30CL (may be taken concurrently), 110B, and 113A, with grades of C– or better. Mechanisms of organic reactions. Acidity and acid catalysis; linear free energy relationships; isotope effects. Molecular orbital theory; photochemistry; pericyclic reactions. May be concurrently scheduled with course… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 30C and 30CL (may be taken concurrently), 110B, and 113A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30C",
@@ -876,10 +891,17 @@
       "number": "C145",
       "title": "Theoretical and Computational Organic Chemistry",
       "units": 4.0,
-      "description": "Lecture, two hours; discussion, one hour; computer laboratory, one hour. Requisites: courses 30C, 113A. Applications of quantum mechanical concepts and methods to understand and predict organic structures and reactivities. Computational modeling methods, including laboratory experience with force-field and quantum mechanical computer calculations. Concurrently scheduled with course C245. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; discussion, one hour; computer laboratory, one hour. Requisites: courses 30C, 113A. Applications of quantum mechanical concepts and methods to understand and predict organic structures and reactivities. Computational modeling methods, including laboratory experience with force-field and quantum mechanical computer calculations. Concurrently scheduled with course C245. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 30C, 113A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 30C",
+          "CHEM 113A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -889,8 +911,8 @@
       "number": "C172",
       "title": "Advanced Inorganic Chemistry",
       "units": 4.0,
-      "description": "(Formerly numbered 172.) Lecture, three hours; discussion, one hour. Requisite: course 171 with grade of C\u2013 or better. Systematic approach to modern inorganic chemistry, structure and bonding of inorganic molecules and solids, structure/reactivity relationships, vibrational spectra of complexes, electronic structure and ligand-field theory, mechanisms of inorganic reactions, bonding and spectroscopy\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: course 171 with grade of C\u2013 or better.",
+      "description": "(Formerly numbered 172.) Lecture, three hours; discussion, one hour. Requisite: course 171 with grade of C– or better. Systematic approach to modern inorganic chemistry, structure and bonding of inorganic molecules and solids, structure/reactivity relationships, vibrational spectra of complexes, electronic structure and ligand-field theory, mechanisms of inorganic reactions, bonding and spectroscopy… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 171 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 171"
@@ -908,8 +930,8 @@
       "number": "C174",
       "title": "Inorganic and Metalorganic Laboratory Methods",
       "units": 5.0,
-      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 30CL and 171, with grades of C\u2013 or better. Synthesis of inorganic compounds, including air-sensitive materials; Schlenck techniques; chromatographic and ion exchange methods; spectroscopic characterization and literature applications. Concurrently scheduled with course C274. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 30CL and 171, with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 30CL and 171, with grades of C– or better. Synthesis of inorganic compounds, including air-sensitive materials; Schlenck techniques; chromatographic and ion exchange methods; spectroscopic characterization and literature applications. Concurrently scheduled with course C274. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 30CL and 171, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30CL",
@@ -928,8 +950,8 @@
       "number": "C175",
       "title": "Inorganic Reaction Mechanisms",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: courses 110A, 110B, 113A, and 172, with grades of C\u2013 or better. Survey of inorganic reactions; mechanistic principles; electronic structure of metal ions; transition-metal coordination chemistry; inner- and outer-sphere and chelate complexes; substitution, isomerization, and racemization reactions; stereochemistry; oxidation/reduction, free/radical, polymerization, and photochemical reactions of inorganic\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: courses 110A, 110B, 113A, and 172, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours. Requisites: courses 110A, 110B, 113A, and 172, with grades of C– or better. Survey of inorganic reactions; mechanistic principles; electronic structure of metal ions; transition-metal coordination chemistry; inner- and outer-sphere and chelate complexes; substitution, isomerization, and racemization reactions; stereochemistry; oxidation/reduction, free/radical, polymerization, and photochemical reactions of inorganic… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 110A, 110B, 113A, and 172, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 110A",
@@ -950,8 +972,8 @@
       "number": "C176",
       "title": "Group Theory and Applications to Inorganic Chemistry",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 113A and 172, with grades of C\u2013 or better. Group theoretical methods; molecular orbital theory; ligand-field theory; electronic spectroscopy; vibrational spectroscopy. May be concurrently scheduled with course C276A. P/NP or letter grading.",
-      "prereqs_raw": "Requisites: courses 113A and 172, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 113A and 172, with grades of C– or better. Group theoretical methods; molecular orbital theory; ligand-field theory; electronic spectroscopy; vibrational spectroscopy. May be concurrently scheduled with course C276A. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 113A and 172, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 113A",
@@ -970,8 +992,8 @@
       "number": "C180",
       "title": "Solid-State Chemistry",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 172 with grade of C\u2013 or better. Survey of new materials and methods for their preparation and characterization, with emphasis on band theory and its relationship to chemical, optical, transport, and magnetic properties, leading to deeper understanding of these materials. Concurrently scheduled with course C280.\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: course 172 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours. Requisite: course 172 with grade of C– or better. Survey of new materials and methods for their preparation and characterization, with emphasis on band theory and its relationship to chemical, optical, transport, and magnetic properties, leading to deeper understanding of these materials. Concurrently scheduled with course C280.… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 172 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 172"
@@ -989,7 +1011,7 @@
       "number": "C181",
       "title": "Polymer Chemistry",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 30B, 110A. Synthesis of organic and inorganic macromolecules, thermodynamic and statistical mechanical descriptions of unique properties of polymers, polymer characterization methods, and special topics such as conductive and biomedical polymers and polymeric reagents in synthesis. Concurrently scheduled with course C281. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 30B, 110A. Synthesis of organic and inorganic macromolecules, thermodynamic and statistical mechanical descriptions of unique properties of polymers, polymer characterization methods, and special topics such as conductive and biomedical polymers and polymeric reagents in synthesis. Concurrently scheduled with course C281. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 30B, 110A.",
       "prereqs_parsed": {
         "required": [
@@ -1022,8 +1044,8 @@
       "number": "C121",
       "title": "Probabilistic Models in Computational Genomics",
       "units": 4.0,
-      "description": "(Formerly numbered CM121.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
+      "description": "(Formerly numbered CM121.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C– or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C– or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
       "prereqs_parsed": {
         "required": [
           {
@@ -1073,14 +1095,18 @@
       "number": "10B",
       "title": "Intermediate Programming",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "COMPTNG 10A",
-          "COM SCI 31"
+          [
+            "COMPTNG 10A"
+          ],
+          [
+            "COM SCI 31"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1096,7 +1122,13 @@
       "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisite: course 10B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "COMPTNG 10B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1125,7 +1157,7 @@
       "number": "20A",
       "title": "Principles of Java Language with Applications",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
@@ -1147,7 +1179,7 @@
       "number": "104",
       "title": "Science of Engineering Materials",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B.",
       "prereqs_parsed": {
         "required": [
@@ -1177,7 +1209,7 @@
       "number": "110",
       "title": "Introduction to Materials Characterization A (Crystal Structure, Nanostructures, and X-Ray Scattering)",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 104. Modern methods of materials characterization; fundamentals of crystallography, properties of X rays, X-ray scattering; powder method, Laue method; determination of crystal structures; phase diagram determination; high-resolution X-ray diffraction methods; X-ray spectroscopy; design of materials characterization procedures.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 104. Modern methods of materials characterization; fundamentals of crystallography, properties of X rays, X-ray scattering; powder method, Laue method; determination of crystal structures; phase diagram determination; high-resolution X-ray diffraction methods; X-ray spectroscopy; design of materials characterization procedures.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 104.",
       "prereqs_parsed": {
         "required": [
@@ -1215,10 +1247,21 @@
       "number": "120",
       "title": "Physics of Materials",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 104, 110 (or Chemistry 113A). Introduction to electrical, optical, and magnetic properties of solids. Free electron model, introduction to band theory and Schr\u00f6dinger wave equation. Crystal bonding and lattice vibrations. Mechanisms and characterization of electrical conductivity, optical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 104, 110 (or Chemistry 113A). Introduction to electrical, optical, and magnetic properties of solids. Free electron model, introduction to band theory and Schrödinger wave equation. Crystal bonding and lattice vibrations. Mechanisms and characterization of electrical conductivity, optical… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 104, 110 (or Chemistry 113A).",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MAT SCI 104"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MAT SCI 110",
+            "CHEM 113A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "MAT SCI 121"
@@ -1230,7 +1273,7 @@
       "number": "121",
       "title": "Materials Science of Semiconductors",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 120. Structure and properties of elemental and compound semiconductors. Electrical and optical properties, defect chemistry, and doping. Electronic materials analysis and characterization, including electrical, optical, and ion-beam techniques. Heterostructures, band-gap engineering, development of new materials for optoelectronic\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 120. Structure and properties of elemental and compound semiconductors. Electrical and optical properties, defect chemistry, and doping. Electronic materials analysis and characterization, including electrical, optical, and ion-beam techniques. Heterostructures, band-gap engineering, development of new materials for optoelectronic… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 120.",
       "prereqs_parsed": {
         "required": [
@@ -1289,7 +1332,7 @@
       "number": "131",
       "title": "Diffusion and Diffusion-Controlled Reactions",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 130 or Chemistry 110A. Diffusion in metals and ionic solids, nucleation and growth theory; precipitation from solid solution, eutectoid decomposition, design of heat treatment processes of alloys, growth of intermediate phases, gas-solid reactions, design of oxidation-resistant alloys,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 130 or Chemistry 110A. Diffusion in metals and ionic solids, nucleation and growth theory; precipitation from solid solution, eutectoid decomposition, design of heat treatment processes of alloys, growth of intermediate phases, gas-solid reactions, design of oxidation-resistant alloys,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 130 or Chemistry 110A.",
       "prereqs_parsed": {
         "required": [],
@@ -1387,7 +1430,7 @@
       "number": "161L",
       "title": "Laboratory in Ceramics",
       "units": 2.0,
-      "description": "Laboratory, four hours. Requisite: course 160. Recommended corequisite: course 161. Processing of common ceramics and glasses. Attainment of specific properties through process control for engineering applications. Quantitative characterization and selection of raw materials. Slip casting and extrusion of clay bodies. Sintering of powders. Glass melting and fabrication. Determination of chemical\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Requisite: course 160. Recommended corequisite: course 161. Processing of common ceramics and glasses. Attainment of specific properties through process control for engineering applications. Quantitative characterization and selection of raw materials. Slip casting and extrusion of clay bodies. Sintering of powders. Glass melting and fabrication. Determination of chemical… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 160.",
       "prereqs_parsed": {
         "required": [
@@ -1426,7 +1469,7 @@
       "number": "C111",
       "title": "Introduction to Materials Characterization B (Electron Microscopy)",
       "units": 4.0,
-      "description": "(Formerly numbered 111.) Lecture, four hours; outside study, eight hours. Characterization of microstructure and microchemistry of materials; transmission electron microscopy; reciprocal lattice, electron diffraction, stereographic projection, direct observation of defects in crystals, replicas; scanning electron microscopy: emissive and reflective modes; chemical analysis; electron optics of both instruments. Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 111.) Lecture, four hours; outside study, eight hours. Characterization of microstructure and microchemistry of materials; transmission electron microscopy; reciprocal lattice, electron diffraction, stereographic projection, direct observation of defects in crystals, replicas; scanning electron microscopy: emissive and reflective modes; chemical analysis; electron optics of both instruments. Concurrently scheduled with… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1439,7 +1482,7 @@
       "number": "CM180",
       "title": "Introduction to Biomaterials",
       "units": 4.0,
-      "description": "(Same as Bioengineering CM178.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: course 104, or Chemistry 20A, 20B, and 20L. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface chemistry, processing\u2026 For more content click the Read More button below.",
+      "description": "(Same as Bioengineering CM178.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: course 104, or Chemistry 20A, 20B, and 20L. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface chemistry, processing… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 104, or Chemistry 20A, 20B, and 20L.",
       "prereqs_parsed": {
         "required": []
@@ -1452,8 +1495,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1480,8 +1523,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1506,8 +1549,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1533,8 +1576,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -1558,8 +1601,8 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1585,10 +1628,16 @@
       "number": "33B",
       "title": "Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C– or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1654,7 +1703,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1682,7 +1731,7 @@
       "number": "4BL",
       "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
       "prereqs_parsed": {
         "required": [],

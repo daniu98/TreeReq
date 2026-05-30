@@ -220,9 +220,69 @@ function PrereqRow({ pid, statusMap, nodeById, onNavigate }) {
   );
 }
 
+// ── Course notes ─────────────────────────────────────────────────────────────
+
+function CourseNotes({ courseId, userProfile, onProfileUpdate }) {
+  const [note, setNote] = useState(() => userProfile?.courseNotes?.[courseId] ?? "");
+  const [focused, setFocused] = useState(false);
+  const saveTimer = useRef(null);
+
+  useEffect(() => {
+    setNote(userProfile?.courseNotes?.[courseId] ?? "");
+  }, [courseId, userProfile]);
+
+  const MAX_NOTE_LENGTH = 2000;
+
+  function handleChange(e) {
+    const val = e.target.value.slice(0, MAX_NOTE_LENGTH);
+    setNote(val);
+    if (saveTimer.current) clearTimeout(saveTimer.current);
+    saveTimer.current = setTimeout(() => {
+      if (!onProfileUpdate || !userProfile) return;
+      const updated = { ...userProfile, courseNotes: { ...(userProfile.courseNotes ?? {}), [courseId]: val } };
+      if (!val.trim()) delete updated.courseNotes[courseId];
+      onProfileUpdate(updated);
+    }, 600);
+  }
+
+  if (!userProfile) return null;
+
+  return (
+    <div>
+      <Divider />
+      <SectionLabel>My Notes</SectionLabel>
+      <textarea
+        value={note}
+        onChange={handleChange}
+        onFocus={() => setFocused(true)}
+        onBlur={() => setFocused(false)}
+        placeholder="Add a personal note…"
+        rows={3}
+        style={{
+          width: "100%",
+          boxSizing: "border-box",
+          fontFamily: FONT,
+          fontSize: 13,
+          color: "#333",
+          background: focused ? "#fff" : "#fafafa",
+          border: `1px solid ${focused ? "#81B3E8" : "#e8e8e8"}`,
+          borderRadius: 8,
+          padding: "8px 10px",
+          resize: "vertical",
+          minHeight: 60,
+          maxHeight: 200,
+          outline: "none",
+          lineHeight: 1.55,
+          transition: "border-color 120ms, background 120ms",
+        }}
+      />
+    </div>
+  );
+}
+
 // ── Course panel ──────────────────────────────────────────────────────────────
 
-function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) {
+function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate, userProfile, onProfileUpdate }) {
   const courseId = node.id;
   const d = node.data;
   const effectiveStatus = statusMap[courseId] ?? (node.status === "locked" ? "locked" : "unfulfilled");
@@ -361,6 +421,8 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
           </div>
         </>
       )}
+
+      <CourseNotes courseId={courseId} userProfile={userProfile} onProfileUpdate={onProfileUpdate} />
     </div>
   );
 }
@@ -613,7 +675,7 @@ function CourseSelectionRow({ courseId, title, units, disabled, onSelect }) {
  * AssignedStackSlotPanel — shown when a slot IS assigned.
  * Renders a full CoursePanel for the assigned course + Revert button.
  */
-function AssignedStackSlotPanel({ node, statusMap, nodeById, onStatusChange, onNavigate, onStackRevert }) {
+function AssignedStackSlotPanel({ node, statusMap, nodeById, onStatusChange, onNavigate, onStackRevert, userProfile, onProfileUpdate }) {
   const d = node.data;
   const assignedId = node.assignedCourseId;
 
@@ -641,6 +703,8 @@ function AssignedStackSlotPanel({ node, statusMap, nodeById, onStatusChange, onN
         nodeById={nodeById}
         onStatusChange={onStatusChange}
         onNavigate={onNavigate}
+        userProfile={userProfile}
+        onProfileUpdate={onProfileUpdate}
       />
 
       <Divider />
@@ -930,6 +994,8 @@ export function NodeDetailPanel({
   onStackRevert,
   allCourses = [],
   edges = [],
+  userProfile,
+  onProfileUpdate,
 }) {
   const panelRef = useRef(null);
   const mousePos = useRef({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
@@ -957,6 +1023,7 @@ export function NodeDetailPanel({
     <div
       ref={panelRef}
       onMouseMove={(e) => { mousePos.current = { x: e.clientX, y: e.clientY }; }}
+      onPointerDown={(e) => e.stopPropagation()}
       style={{
         position: "fixed",
         top: 0,
@@ -1007,7 +1074,7 @@ export function NodeDetailPanel({
       {/* Scrollable body */}
       <div style={{ flex: 1, overflowY: "auto", padding: "24px 22px 40px" }}>
         {node.kind === "course" && (
-          <CoursePanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} />
+          <CoursePanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} userProfile={userProfile} onProfileUpdate={onProfileUpdate} />
         )}
         {node.kind === "category" && (
           <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} stackSelections={stackSelections} onWarn={showWarning} />
@@ -1016,7 +1083,7 @@ export function NodeDetailPanel({
           <StackSlotPanel node={node} statusMap={statusMap} allCourses={allCourses} stackSelections={stackSelections} onStackSelect={onStackSelect} />
         )}
         {node.kind === "stack_slot" && node.assignedCourseId && (
-          <AssignedStackSlotPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} onStackRevert={onStackRevert} />
+          <AssignedStackSlotPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} onStackRevert={onStackRevert} userProfile={userProfile} onProfileUpdate={onProfileUpdate} />
         )}
         {(node.kind === "section" || node.kind === "root") && (
           <SectionPanel node={node} statusMap={statusMap} nodeById={nodeById} edges={edges} onStatusChange={handleStatusChange} stackSelections={stackSelections} onWarn={showWarning} />

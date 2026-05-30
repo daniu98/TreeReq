@@ -145,7 +145,7 @@
       "number": "108",
       "title": "Introduction to Mechanics of Deformable Solids",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Mathematics 32B, Physics 1A. Review of equilibrium principles; forces and moments transmitted by slender members. Concepts of stress and strain. Stress-strain relations with focus on linear elasticity. Transformation of stress and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Mathematics 32B, Physics 1A. Review of equilibrium principles; forces and moments transmitted by slender members. Concepts of stress and strain. Stress-strain relations with focus on linear elasticity. Transformation of stress and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 91 or Mechanical and Aerospace Engineering 101, Mathematics 32B, Physics 1A.",
       "prereqs_parsed": {
         "required": [
@@ -213,7 +213,7 @@
       "number": "125",
       "title": "Fundamentals of Earthquake Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 135A. Overview of engineering seismology, including plate tectonics, faults, wave propagation, and earthquake strong ground motion. Development and selection of design ground motions using both probabilistic seismic hazard analysis and code-based methods. Overview of seismic design regulation and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 135A. Overview of engineering seismology, including plate tectonics, faults, wave propagation, and earthquake strong ground motion. Development and selection of design ground motions using both probabilistic seismic hazard analysis and code-based methods. Overview of seismic design regulation and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 135A.",
       "prereqs_parsed": {
         "required": [
@@ -232,7 +232,7 @@
       "number": "129L",
       "title": "Engineering Geomatics",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, four hours; outside study, six hours. Collection, processing, and analysis of geospatial data. Ellipsoid and geoid models of shape of Earth. Sea level, height, and geopotential surfaces. Elements and usage of topographic data and maps. Advanced global positioning systems (GPS) for high-precision mapping. Advanced laser-based light\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, four hours; outside study, six hours. Collection, processing, and analysis of geospatial data. Ellipsoid and geoid models of shape of Earth. Sea level, height, and geopotential surfaces. Elements and usage of topographic data and maps. Advanced global positioning systems (GPS) for high-precision mapping. Advanced laser-based light… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -245,7 +245,7 @@
       "number": "150",
       "title": "Introduction to Hydrology",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 107 (or Mechanical and Aerospace Engineering 103). Study of hydrologic cycle and relevant atmospheric processes, water and energy balance, radiation, precipitation formation, infiltration, evaporation, vegetation transpiration, groundwater flow, storm runoff, and flood\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 107 (or Mechanical and Aerospace Engineering 103). Study of hydrologic cycle and relevant atmospheric processes, water and energy balance, radiation, precipitation formation, infiltration, evaporation, vegetation transpiration, groundwater flow, storm runoff, and flood… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M20 (or Computer Science 31), 107 (or Mechanical and Aerospace Engineering 103).",
       "prereqs_parsed": {
         "required": [],
@@ -273,7 +273,7 @@
       "number": "151",
       "title": "Introduction to Water Resources Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 107 (or Mechanical and Aerospace Engineering 103), 150. Recommended: courses 103, 110. Principles of hydraulics, flow of water in open channels and pressure conduits, reservoirs and dams, hydraulic machinery, hydroelectric power. Introduction to system analysis and design\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 107 (or Mechanical and Aerospace Engineering 103), 150. Recommended: courses 103, 110. Principles of hydraulics, flow of water in open channels and pressure conduits, reservoirs and dams, hydraulic machinery, hydroelectric power. Introduction to system analysis and design… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 107 (or Mechanical and Aerospace Engineering 103), 150.",
       "prereqs_parsed": {
         "required": [
@@ -299,7 +299,7 @@
       "number": "C128",
       "title": "Geohazards and Infrastructure Resilience",
       "units": 4.0,
-      "description": "Lecture, four hours; outside study, eight hours. Requisite: course 120. Geologic characterization of soil and rock units. Relationships developed between landforms, active, past, and ancient geologic processes, ground and surface water, and properties of soil and rock. Geohazards associated with climate change, wildfires, landslides, volcanism, and earthquakes. Effects of geologic\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; outside study, eight hours. Requisite: course 120. Geologic characterization of soil and rock units. Relationships developed between landforms, active, past, and ancient geologic processes, ground and surface water, and properties of soil and rock. Geohazards associated with climate change, wildfires, landslides, volcanism, and earthquakes. Effects of geologic… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 120.",
       "prereqs_parsed": {
         "required": [
@@ -318,7 +318,7 @@
       "number": "C158",
       "title": "Coastal Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 107 or Mechanical and Aerospace Engineering 103, 151. Covers coastal water levels (tides, climate variability, storms, sea level rise, resonance), surface gravity waves (characteristics, transformation, spectra), coastal processes (overtopping, erosion, flooding), coastal protection (walls, nourishment, dunes, berms, nature-based\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 107 or Mechanical and Aerospace Engineering 103, 151. Covers coastal water levels (tides, climate variability, storms, sea level rise, resonance), surface gravity waves (characteristics, transformation, spectra), coastal processes (overtopping, erosion, flooding), coastal protection (walls, nourishment, dunes, berms, nature-based… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 107 or Mechanical and Aerospace Engineering 103, 151.",
       "prereqs_parsed": {
         "required": [
@@ -342,7 +342,7 @@
       "number": "M20",
       "title": "Introduction to Computer Programming with MATLAB",
       "units": 4.0,
-      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient\u2026 For more content click the Read More button below.",
+      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -363,7 +363,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [
@@ -386,10 +386,29 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 20L"
@@ -401,8 +420,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [
@@ -428,7 +447,7 @@
       "number": "70A",
       "title": "Evolution of Cosmos and Life",
       "units": 6.0,
-      "description": "Lecture, three hours; discussion, two hours. Course 70A is enforced requisite to 70B, which is enforced requisite to 70CW or 70DW. Limited to first-year freshmen. Use of concept of evolution, as it applies to biological organisms, Earth, solar system, and universe itself, to introduce students to both life and physical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours. Course 70A is enforced requisite to 70B, which is enforced requisite to 70CW or 70DW. Limited to first-year freshmen. Use of concept of evolution, as it applies to biological organisms, Earth, solar system, and universe itself, to introduce students to both life and physical… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -441,7 +460,7 @@
       "number": "1",
       "title": "Introduction to Earth Science",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours; field days. Not open to students with credit for or currently enrolled in course 100. Elements of Earth science; study of Earth materials; nature and interpretation of geologic evidence; study of geologic processes; historical aspects of geology. Mandatory field trips introduce students to solving\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours; field days. Not open to students with credit for or currently enrolled in course 100. Elements of Earth science; study of Earth materials; nature and interpretation of geologic evidence; study of geologic processes; historical aspects of geology. Mandatory field trips introduce students to solving… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -456,7 +475,7 @@
       "number": "103A",
       "title": "Igneous Petrology",
       "units": 5.0,
-      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: Chemistry 14B and 14BL, or 20B and 20L. Mineralogy, chemical composition, and field occurrence of igneous rocks with reference to their origin by melting in earth. Introduction to thermodynamics as applied to petrology. Formation of magma,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: Chemistry 14B and 14BL, or 20B and 20L. Mineralogy, chemical composition, and field occurrence of igneous rocks with reference to their origin by melting in earth. Introduction to thermodynamics as applied to petrology. Formation of magma,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 51.",
       "prereqs_parsed": {
         "required": [
@@ -477,7 +496,7 @@
       "number": "103B",
       "title": "Sedimentary Petrology",
       "units": 5.0,
-      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: course 61. Study of sedimentary rocks based on characteristics of sedimentary particles and dynamics of depositional processes. Lectures focus on development of depositional facies models, and laboratories emphasize recognition of sedimentary deposits from each major depositional\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: course 61. Study of sedimentary rocks based on characteristics of sedimentary particles and dynamics of depositional processes. Lectures focus on development of depositional facies models, and laboratories emphasize recognition of sedimentary deposits from each major depositional… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 51.",
       "prereqs_parsed": {
         "required": [
@@ -567,10 +586,47 @@
       "number": "136A",
       "title": "Applied Geophysics",
       "units": 4.0,
-      "description": "Lecture, three hours; laboratory, three hours. Requisites: course M71 or Civil and Environmental Engineering M20; Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Physics 1A, 1B, 4AL, and 4BL, or 5A and 5B. Recommended: course M171. Methods and knowledge involved in investigation of near-surface geophysics. Covers gravity fields,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, three hours. Requisites: course M71 or Civil and Environmental Engineering M20; Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Physics 1A, 1B, 4AL, and 4BL, or 5A and 5B. Recommended: course M171. Methods and knowledge involved in investigation of near-surface geophysics. Covers gravity fields,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course M71 or Civil and Environmental Engineering M20; Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Physics 1A, 1B, 4AL, and 4BL, or 5A and 5B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 3A",
+          "MATH 3B",
+          "MATH 3C",
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "PHYSICS 4AL",
+          "PHYSICS 4BL"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "EPS SCI M71",
+            "CEE M20"
+          ],
+          [
+            "MATH 3A",
+            "MATH 3B",
+            "MATH 3C"
+          ],
+          [
+            "MATH 31A",
+            "MATH 31B",
+            "MATH 32A"
+          ],
+          [
+            "PHYSICS 1A",
+            "PHYSICS 1B",
+            "PHYSICS 4AL",
+            "PHYSICS 4BL"
+          ],
+          [
+            "PHYSICS 5A",
+            "PHYSICS 5B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -580,14 +636,18 @@
       "number": "139",
       "title": "Engineering and Environmental Geology",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1 or 100. Recommended: course 111. Principles and practice of soil mechanics and foundation engineering in light of geologic conditions, recognition, prediction, and control or abatement of subsidence, landslides, earthquakes, and other geologic aspects of urban planning and subsurface disposal of liquids\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1 or 100. Recommended: course 111. Principles and practice of soil mechanics and foundation engineering in light of geologic conditions, recognition, prediction, and control or abatement of subsidence, landslides, earthquakes, and other geologic aspects of urban planning and subsurface disposal of liquids… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 1 or 100.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "EPS SCI 1",
-          "EPS SCI 100"
+          [
+            "EPS SCI 1"
+          ],
+          [
+            "EPS SCI 100"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -600,7 +660,7 @@
       "number": "51",
       "title": "Mineralogy: Earth and Planetary Materials",
       "units": 4.0,
-      "description": "Lecture, three hours; laboratory, four hours. Recommended requisite: course 1, or any course from 3 through 17, 20, or Clusters 70A, and completion of chemistry requirement. Principles of mineralogy. Mineral structure and bonding and crystal chemistry, with focus on materials of interest for Earth and planetary sciences and major rock-forming\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, four hours. Recommended requisite: course 1, or any course from 3 through 17, 20, or Clusters 70A, and completion of chemistry requirement. Principles of mineralogy. Mineral structure and bonding and crystal chemistry, with focus on materials of interest for Earth and planetary sciences and major rock-forming… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -616,7 +676,7 @@
       "number": "61",
       "title": "Geologic Maps",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, three hours; five field days. Recommended: course 1 (or any course from 3 through 17, 20, or Clusters 70A). Planning, creation, and interpretation of geologic maps, including both practical and philosophical problems that arise. Topographic and geologic mapping in the field. Interpretation of published maps in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, three hours; five field days. Recommended: course 1 (or any course from 3 through 17, 20, or Clusters 70A). Planning, creation, and interpretation of geologic maps, including both practical and philosophical problems that arise. Topographic and geologic mapping in the field. Interpretation of published maps in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -645,8 +705,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -671,8 +731,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -695,8 +755,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -720,8 +780,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -744,8 +804,8 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -822,7 +882,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -869,7 +929,7 @@
       "number": "4BL",
       "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
       "prereqs_parsed": {
         "required": [],

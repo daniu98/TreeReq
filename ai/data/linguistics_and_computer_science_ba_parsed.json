@@ -181,7 +181,7 @@
       "number": "161",
       "title": "Fundamentals of Artificial Intelligence",
       "units": 4.0,
-      "description": "Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 180. Introduction to fundamental problem solving and knowledge representation paradigms of artificial intelligence. Introduction to Lisp with regular programming assignments. State-space and problem reduction methods, brute-force and heuristic search, planning techniques, two-player games. Knowledge structures including predicate\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 180. Introduction to fundamental problem solving and knowledge representation paradigms of artificial intelligence. Introduction to Lisp with regular programming assignments. State-space and problem reduction methods, brute-force and heuristic search, planning techniques, two-player games. Knowledge structures including predicate… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 180.",
       "prereqs_parsed": {
         "required": [
@@ -200,7 +200,7 @@
       "number": "180",
       "title": "Introduction to Algorithms and Complexity",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: course 32, Mathematics 61. Designed for junior/senior Computer Science majors. Introduction to design and analysis of algorithms. Design techniques: divide-and-conquer, greedy method, dynamic programming; selection of prototypical algorithms; choice of data structures and representations; complexity measures: time, space,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: course 32, Mathematics 61. Designed for junior/senior Computer Science majors. Introduction to design and analysis of algorithms. Design techniques: divide-and-conquer, greedy method, dynamic programming; selection of prototypical algorithms; choice of data structures and representations; complexity measures: time, space,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: course 32, Mathematics 61.",
       "prereqs_parsed": {
         "required": [
@@ -242,7 +242,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -258,7 +258,7 @@
       "number": "32",
       "title": "Introduction to Computer Science II",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 31.",
       "prereqs_parsed": {
         "required": [
@@ -281,7 +281,7 @@
       "number": "33",
       "title": "Introduction to Computer Organization",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, nine hours. Enforced requisite: course 32. Introductory course on computer architecture, assembly language, and operating systems fundamentals. Number systems, machine language, and assembly language. Procedure calls, stacks, interrupts, and traps. Assemblers, linkers, and loaders. Operating systems concepts: processes and process management, input/output\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, nine hours. Enforced requisite: course 32. Introductory course on computer architecture, assembly language, and operating systems fundamentals. Number systems, machine language, and assembly language. Procedure calls, stacks, interrupts, and traps. Assemblers, linkers, and loaders. Operating systems concepts: processes and process management, input/output… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 32.",
       "prereqs_parsed": {
         "required": [
@@ -323,7 +323,7 @@
       "number": "102",
       "title": "Introduction to Applied Phonetics",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 103. Basics of articulation and acoustics of phonetic categories used in world\u2019s languages, including English in comparison with other languages. Practice in speech-sound perception and transcription using International\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 103. Basics of articulation and acoustics of phonetic categories used in world’s languages, including English in comparison with other languages. Practice in speech-sound perception and transcription using International… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 20.",
       "prereqs_parsed": {
         "required": [
@@ -365,10 +365,23 @@
       "number": "119A",
       "title": "Applied Phonology",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 20, and 102 or 103. Not open for credit to students with credit for course 120A. Sound structures and sound patterns in world\u2019s languages. Rules, rule ordering, features, syllable, and higher structure. Comparison of sound patterns of different languages.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 20, and 102 or 103. Not open for credit to students with credit for course 120A. Sound structures and sound patterns in world’s languages. Rules, rule ordering, features, syllable, and higher structure. Comparison of sound patterns of different languages.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 20, and 102 or 103.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 102"
+          ],
+          [
+            "LING 103"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "LING 132"
@@ -383,7 +396,14 @@
       "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 103. Introduction to phonological theory and analysis. Rules, representations, underlying forms, derivations. Justification of phonological analyses. Emphasis on practical skills with problem sets. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 20, 103.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20",
+          "LING 103"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "LING 132",
@@ -427,8 +447,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LING 119B",
-          "LING 120B"
+          [
+            "LING 119B"
+          ],
+          [
+            "LING 120B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -443,7 +467,7 @@
       "number": "127",
       "title": "Syntactic Typology and Universals",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 20.",
       "prereqs_parsed": {
         "required": [
@@ -462,7 +486,7 @@
       "number": "132",
       "title": "Language Processing",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20, 119A or 120A, 119B or 120B.",
       "prereqs_parsed": {
         "required": [
@@ -511,7 +535,7 @@
       "number": "165B",
       "title": "Syntax II",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 120B.",
       "prereqs_parsed": {
         "required": [
@@ -573,7 +597,7 @@
       "number": "185A",
       "title": "Computational Linguistics I",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 120B, Program in Computing 10C (or Computer Science 32).",
       "prereqs_parsed": {
         "required": [
@@ -618,7 +642,7 @@
       "number": "198A",
       "title": "Honors Research in Linguistics I",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive… For more content click the Read More button below.",
       "prereqs_raw": "Requisite or corequisite: course 165A (or 200A) or 165B (or 200B).",
       "prereqs_parsed": {
         "required": [],
@@ -697,14 +721,18 @@
       "number": "C104",
       "title": "Experimental Phonetics",
       "units": 5.0,
-      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102 or 103.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LING 102",
-          "LING 103"
+          [
+            "LING 102"
+          ],
+          [
+            "LING 103"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -717,8 +745,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -742,8 +770,8 @@
       "number": "31AL",
       "title": "Differential and Integral Calculus Laboratory",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Not open for credit to students with credit… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 1"
@@ -761,8 +789,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -805,7 +833,7 @@
       "number": "70",
       "title": "Introduction to Probability",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introduction to probability through applications and examples. Topics include laws of large numbers, statistics, chance trees, conditional probability, Bayes\u2019 rule, continuous and discrete random variables, jointly distributed random variables, multivariate normal and conditional distributions. In-depth discussion of betting schemes in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introduction to probability through applications and examples. Topics include laws of large numbers, statistics, chance trees, conditional probability, Bayes’ rule, continuous and discrete random variables, jointly distributed random variables, multivariate normal and conditional distributions. In-depth discussion of betting schemes in… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 31A, 31B.",
       "prereqs_parsed": {
         "required": [

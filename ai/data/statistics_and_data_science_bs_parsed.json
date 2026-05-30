@@ -225,7 +225,7 @@
       "number": "151A",
       "title": "Applied Numerical Methods",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [
@@ -272,7 +272,7 @@
       "number": "170B",
       "title": "Probability Theory II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 131A, 170A. Continuation of rigorous presentation of probability theory based on real analysis. Moments and generating functions; laws of large numbers, central limit theorem, and convergence in distribution; branching processes; random walks; Poisson and other random processes in continuous time. Advance\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 131A, 170A. Continuation of rigorous presentation of probability theory based on real analysis. Moments and generating functions; laws of large numbers, central limit theorem, and convergence in distribution; branching processes; random walks; Poisson and other random processes in continuous time. Advance… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 131A, 170A.",
       "prereqs_parsed": {
         "required": [
@@ -300,9 +300,15 @@
         ],
         "corequisites": [],
         "one_of": [
-          "MATH 170E",
-          "MATH 170A",
-          "STAT 100A"
+          [
+            "MATH 170E"
+          ],
+          [
+            "MATH 170A"
+          ],
+          [
+            "STAT 100A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -315,8 +321,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 1"
@@ -336,10 +342,16 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "MATH 32B"
@@ -351,8 +363,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -372,8 +384,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -396,10 +408,24 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 3B"
+          ],
+          [
+            "MATH 31B"
+          ],
+          [
+            "MATH 32A"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "MATH 171",
@@ -414,7 +440,7 @@
       "number": "100A",
       "title": "Introduction to Probability",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 32B, 33A. Not open to students with credit for Electrical Engineering 131A or Mathematics 170A; open to graduate students. Students may receive credit for only two of following: course 100A, former course 110A, Biostatistics 100A. Probability distributions, random variables, vectors, and expectation.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 32B, 33A. Not open to students with credit for Electrical Engineering 131A or Mathematics 170A; open to graduate students. Students may receive credit for only two of following: course 100A, former course 110A, Biostatistics 100A. Probability distributions, random variables, vectors, and expectation.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 32B, 33A.",
       "prereqs_parsed": {
         "required": [
@@ -442,9 +468,15 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "STATS 100A",
-          "MATH 170A",
-          "MATH 170E"
+          [
+            "STATS 100A"
+          ],
+          [
+            "MATH 170A"
+          ],
+          [
+            "MATH 170E"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -461,7 +493,7 @@
       "number": "100C",
       "title": "Linear Models",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Mathematics 170S. Theory of linear models, with emphasis on matrix approach to linear regression. Topics include model fitting, extra sums of squares principle, testing general linear hypothesis in regression, inference procedures, Gauss/Markov theorem, examination of residuals, principle component regression,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Mathematics 170S. Theory of linear models, with emphasis on matrix approach to linear regression. Topics include model fitting, extra sums of squares principle, testing general linear hypothesis in regression, inference procedures, Gauss/Markov theorem, examination of residuals, principle component regression,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100B or Mathematics 170S.",
       "prereqs_parsed": {
         "required": [],
@@ -483,7 +515,7 @@
       "number": "101A",
       "title": "Introduction to Data Analysis and Regression",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20. Recommended: course 102A. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20. Recommended: course 102A. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20.",
       "prereqs_parsed": {
         "required": [
@@ -491,12 +523,24 @@
         ],
         "corequisites": [],
         "one_of": [
-          "STATS 10",
-          "STATS 12",
-          "STATS 13",
-          "STATS 15",
-          "ECON 41",
-          "PSYCH 100A"
+          [
+            "STATS 10"
+          ],
+          [
+            "STATS 12"
+          ],
+          [
+            "STATS 13"
+          ],
+          [
+            "STATS 15"
+          ],
+          [
+            "ECON 41"
+          ],
+          [
+            "PSYCH 100A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -531,7 +575,7 @@
       "number": "101C",
       "title": "Introduction to Statistical Models and Data Mining",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 101A. Recommended: course 101B. Designed for juniors/seniors. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and generalized linear model (e.g., logistic regression). Special attention to modern extensions of regression, including regression diagnostics, graphical procedures, and bootstrapping for\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 101A. Recommended: course 101B. Designed for juniors/seniors. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and generalized linear model (e.g., logistic regression). Special attention to modern extensions of regression, including regression diagnostics, graphical procedures, and bootstrapping for… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 101A.",
       "prereqs_parsed": {
         "required": [
@@ -550,7 +594,7 @@
       "number": "102A",
       "title": "Introduction to Computational Statistics with R",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: course 20, Mathematics 33A, and one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Introduction to computational statistics through numerical methods and computationally intensive methods for statistical problems.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: course 20, Mathematics 33A, and one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Introduction to computational statistics through numerical methods and computationally intensive methods for statistical problems.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 20, Mathematics 33A, and one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination.",
       "prereqs_parsed": {
         "required": [
@@ -582,7 +626,7 @@
       "number": "102B",
       "title": "Introduction to Computation and Optimization for Statistics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 100B (or Mathematics 170S), 102A, Mathematics 33A. Introduction to computational methods and optimization useful for statisticians. Use of computer programming to solve statistical problems. Topics include vector/matrix computation, multivariate normal distribution, principal component analysis, clustering analysis, gradient-based optimization, EM algorithm for missing\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 100B (or Mathematics 170S), 102A, Mathematics 33A. Introduction to computational methods and optimization useful for statisticians. Use of computer programming to solve statistical problems. Topics include vector/matrix computation, multivariate normal distribution, principal component analysis, clustering analysis, gradient-based optimization, EM algorithm for missing… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 100B (or Mathematics 170S), 102A, Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -608,7 +652,7 @@
       "number": "102C",
       "title": "Introduction to Monte Carlo Methods",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 100B (or Mathematics 170S), 102A. Introduction to Markov chain Monte Carlo (MCMC) algorithms for scientific computing. Generation of random numbers from specific distribution. Rejection sampling and importance sampling and their roles in MCMC. Markov chain theory and convergence properties. Metropolis and Gibbs\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 100B (or Mathematics 170S), 102A. Introduction to Markov chain Monte Carlo (MCMC) algorithms for scientific computing. Generation of random numbers from specific distribution. Rejection sampling and importance sampling and their roles in MCMC. Markov chain theory and convergence properties. Metropolis and Gibbs… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 100B (or Mathematics 170S), 102A.",
       "prereqs_parsed": {
         "required": [
@@ -632,7 +676,7 @@
       "number": "20",
       "title": "Introduction to Statistical Programming with R",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Designed to prepare students for upper-division work in statistics. Introduction to use of R, including data management, simple\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Designed to prepare students for upper-division work in statistics. Introduction to use of R, including data management, simple… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination.",
       "prereqs_parsed": {
         "required": [],

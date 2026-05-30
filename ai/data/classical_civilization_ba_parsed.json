@@ -176,7 +176,7 @@
       "number": "191",
       "title": "Capstone Seminar: Classics",
       "units": 5.0,
-      "description": "Seminar, three hours. Requisites: courses 10, 20, at least four upper-division major courses. Limited to declared junior/senior departmental majors; minors may be admitted with consent of instructor. Topical research seminar on important themes, periods, genres of ancient Greek and Roman world. Intended to provide students with opportunity for serious engagement\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Requisites: courses 10, 20, at least four upper-division major courses. Limited to declared junior/senior departmental majors; minors may be admitted with consent of instructor. Topical research seminar on important themes, periods, genres of ancient Greek and Roman world. Intended to provide students with opportunity for serious engagement… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 20, at least four upper-division major courses.",
       "prereqs_parsed": {
         "required": [
@@ -198,7 +198,7 @@
       "number": "198A",
       "title": "Honors Research in Classics",
       "units": 2.0,
-      "description": "Tutorial, six hours. Requisite: course 191. Limited to junior/senior departmental honors program students. Tutorial under direct supervision of faculty member. Research and development of thesis outline in preparation of paper to be completed in course 198B. May be repeated for credit. Individual contract required. In Progress grading (credit to be\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, six hours. Requisite: course 191. Limited to junior/senior departmental honors program students. Tutorial under direct supervision of faculty member. Research and development of thesis outline in preparation of paper to be completed in course 198B. May be repeated for credit. Individual contract required. In Progress grading (credit to be… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 191.",
       "prereqs_parsed": {
         "required": [
@@ -238,7 +238,7 @@
       "number": "20",
       "title": "Discovering Romans",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Knowledge of Latin not required. Study of Roman life and culture from time of city\u2019s legendary foundations to end of classical antiquity. Readings focus on selections from works of ancient authors in translation. Lectures illustrated with images of art, architecture, and material culture. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Latin not required. Study of Roman life and culture from time of city’s legendary foundations to end of classical antiquity. Readings focus on selections from works of ancient authors in translation. Lectures illustrated with images of art, architecture, and material culture. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -343,7 +343,7 @@
       "number": "60",
       "title": "Fantastic Journey: Antiquity and Beyond",
       "units": 5.0,
-      "description": "Lecture, two and one half hours; discussion, one hour. Investigation of phenomenon of fantastic or imaginary journey, from Homer\u2019s Odyssey to Stanley Kubrick\u2019s 2001: A Space Odyssey. Examination of ways in which travel to strange or new worlds is presented through number of texts (and occasionally films) across different cultures\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two and one half hours; discussion, one hour. Investigation of phenomenon of fantastic or imaginary journey, from Homer’s Odyssey to Stanley Kubrick’s 2001: A Space Odyssey. Examination of ways in which travel to strange or new worlds is presented through number of texts (and occasionally films) across different cultures… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -356,7 +356,7 @@
       "number": "88GE",
       "title": "General Education Seminar Sequences",
       "units": 5.0,
-      "description": "Seminar, three hours. Focused study of one aspect of ancient Greek or Roman culture or reception of classical tradition. Topics are interdisciplinary in nature (literature, arts, religion, politics, culture) and make connections between ancient and postclassical eras. Topics include rediscovery of Pompeii and Herculaneum; Roman religion and literature; pleasures of\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Focused study of one aspect of ancient Greek or Roman culture or reception of classical tradition. Topics are interdisciplinary in nature (literature, arts, religion, politics, culture) and make connections between ancient and postclassical eras. Topics include rediscovery of Pompeii and Herculaneum; Roman religion and literature; pleasures of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -420,8 +420,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LATIN 2",
-          "LATIN 14"
+          [
+            "LATIN 2"
+          ],
+          [
+            "LATIN 14"
+          ]
         ],
         "min_grade": null,
         "recommended": []

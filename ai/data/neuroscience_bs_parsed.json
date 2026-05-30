@@ -344,7 +344,7 @@
       "number": "14A",
       "title": "General Chemistry for Life Scientists I",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
       "prereqs_parsed": {
         "required": [],
@@ -369,8 +369,8 @@
       "number": "14B",
       "title": "General Chemistry for Life Scientists II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better. Not open to students with credit for course 14BE, 20B,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -411,8 +411,8 @@
       "number": "14BL",
       "title": "General and Organic Chemistry Laboratory I",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C– or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C– or better. Enforced corequisite: course 14B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -442,8 +442,8 @@
       "number": "14C",
       "title": "Structure of Organic Molecules",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C\u2013 or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 14B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C– or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14B"
@@ -464,8 +464,8 @@
       "number": "14CL",
       "title": "General and Organic Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, four hours. Enforced requisites: courses 14B or 14BE, and 14BL; or 20B or 20BH, and 20L; and 14C (may be taken concurrently); all with grades of C\u2013 or better. Synthesis and analysis of compounds; purification by extraction, chromatography, recrystallization, and sublimation; characterization by mass spectroscopy, UV,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: courses 14B or 14BE, and 14BL; or 20B or 20BH, and 20L; and 14C (may be taken concurrently); all with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, four hours. Enforced requisites: courses 14B or 14BE, and 14BL; or 20B or 20BH, and 20L; and 14C (may be taken concurrently); all with grades of C– or better. Synthesis and analysis of compounds; purification by extraction, chromatography, recrystallization, and sublimation; characterization by mass spectroscopy, UV,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 14B or 14BE, and 14BL; or 20B or 20BH, and 20L; and 14C (may be taken concurrently); all with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14C"
@@ -502,8 +502,8 @@
       "number": "14D",
       "title": "Organic Reactions and Pharmaceuticals",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14C with grade of C\u2013 or better. Organic reactions, nucleophilic and electrophilic substitutions and additions; electrophilic aromatic substitutions, carbonyl reactions, catalysis, molecular basis of drug action, and organic chemistry of pharmaceuticals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14C with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14C with grade of C– or better. Organic reactions, nucleophilic and electrophilic substitutions and additions; electrophilic aromatic substitutions, carbonyl reactions, catalysis, molecular basis of drug action, and organic chemistry of pharmaceuticals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14C with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14C"
@@ -523,8 +523,8 @@
       "number": "153A",
       "title": "Biochemistry: Introduction to Structure, Enzymes, and Metabolism",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C\u2013 or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C\u2013 or better.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C– or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -549,7 +549,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [
@@ -574,8 +574,8 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -603,8 +603,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [
@@ -638,8 +638,8 @@
       "number": "30A",
       "title": "Organic Chemistry I: Structure and Reactivity",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C– or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B"
@@ -660,8 +660,8 @@
       "number": "30AL",
       "title": "General Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -688,8 +688,8 @@
       "number": "30B",
       "title": "Organic Chemistry II: Reactivity, Synthesis, and Spectroscopy",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C– or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -712,10 +712,22 @@
       "number": "30BL",
       "title": "Organic Chemistry Laboratory I",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C\u2013 or better. Basic experimental techniques in organic synthesis (performing reactions, monitoring reactions, and conducting purifications) and spectroscopy (IR, NMR, mass spectrometry). Synthesis of known organic molecules on microscale level with focus on\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C– or better. Basic experimental techniques in organic synthesis (performing reactions, monitoring reactions, and conducting purifications) and spectroscopy (IR, NMR, mass spectrometry). Synthesis of known organic molecules on microscale level with focus on… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 30AL",
+          "CHEM 30B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 30A",
+            "CHEM 30AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -725,7 +737,7 @@
       "number": "M139",
       "title": "Perspectives on Autism and Neurodiversity",
       "units": 4.0,
-      "description": "(Same as Psychology M139.) Seminar, three and one half hours. Genealogy of autism as diagnostic category and cultural phenomenon from its historical roots as new, rare, and obscure condition in early 1940s to its current contested status as minority identity and/or global epidemic. Examination of material sourced from various fields\u2026 For more content click the Read More button below.",
+      "description": "(Same as Psychology M139.) Seminar, three and one half hours. Genealogy of autism as diagnostic category and cultural phenomenon from its historical roots as new, rare, and obscure condition in early 1940s to its current contested status as minority identity and/or global epidemic. Examination of material sourced from various fields… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -738,7 +750,7 @@
       "number": "30A",
       "title": "Mathematics for Life Scientists",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -773,7 +785,7 @@
       "number": "40",
       "title": "Statistics of Biological Systems",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 30A.",
       "prereqs_parsed": {
         "required": [
@@ -831,7 +843,13 @@
       "description": "Lecture, three hours; discussion, 75 minutes. Enforced requisite: course 7B. Organization of cells into tissues and organs and principles of physiology of organ systems. Introduction to human genetics and genomics. Letter grading.",
       "prereqs_raw": "Enforced requisite: course 7B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LIFESCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -841,7 +859,7 @@
       "number": "7L",
       "title": "Introduction to Laboratory and Scientific Methodology",
       "units": 3.0,
-      "description": "(Formerly numbered 23L.) Lecture, one hour; laboratory, three hours. Requisite: course 7B. Recommended to be taken concurrently with course 7C. Introductory life sciences laboratory designed for undergraduate students. Opportunity to conduct wet-laboratory and cutting-edge bioinformatics laboratory experiments. Students work in groups of three conducting experiments in areas of physiology, metabolism,\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 23L.) Lecture, one hour; laboratory, three hours. Requisite: course 7B. Recommended to be taken concurrently with course 7C. Introductory life sciences laboratory designed for undergraduate students. Opportunity to conduct wet-laboratory and cutting-edge bioinformatics laboratory experiments. Students work in groups of three conducting experiments in areas of physiology, metabolism,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 7B.",
       "prereqs_parsed": {
         "required": [
@@ -860,8 +878,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -889,8 +907,8 @@
       "number": "31AL",
       "title": "Differential and Integral Calculus Laboratory",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Not open for credit to students with credit… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -910,8 +928,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -935,8 +953,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -959,8 +977,8 @@
       "number": "3A",
       "title": "Calculus for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C– or better. Not open for credit to students with credit in another… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -985,10 +1003,16 @@
       "number": "3B",
       "title": "Calculus for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C\u2013 or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 3A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C– or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3A with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 3A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 14B",
@@ -1004,8 +1028,8 @@
       "number": "3C",
       "title": "Ordinary Differential Equations with Linear Algebra for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C\u2013 or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 3B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C– or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 3B"
@@ -1027,7 +1051,7 @@
       "number": "M103",
       "title": "Music, Mind, and Brain",
       "units": 4.0,
-      "description": "(Same as Neuroscience M170.) Seminar, three hours; outside study, nine hours. Multidisciplinary approach to understanding brain mechanisms mediating music perception, performance, and cognition. Students\u2019 natural interest in music serves as springboard for learning basic concepts about theories of mind, and how brain works to determine perception of harmony and rhythm,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Neuroscience M170.) Seminar, three hours; outside study, nine hours. Multidisciplinary approach to understanding brain mechanisms mediating music perception, performance, and cognition. Students’ natural interest in music serves as springboard for learning basic concepts about theories of mind, and how brain works to determine perception of harmony and rhythm,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1040,7 +1064,7 @@
       "number": "101L",
       "title": "Neuroscience Laboratory",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, three hours. Requisites: courses M101A, M101B (M101B may be taken concurrently). Not open for credit to students with credit for Psychology 116. Introduction to laboratory methods in neuroscience. Laboratory exercises range from molecular and cell biological to behavioral. Hands-on experience with important methodology and experimental approaches\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, three hours. Requisites: courses M101A, M101B (M101B may be taken concurrently). Not open for credit to students with credit for Psychology 116. Introduction to laboratory methods in neuroscience. Laboratory exercises range from molecular and cell biological to behavioral. Hands-on experience with important methodology and experimental approaches… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M101A, M101B (M101B may be taken concurrently).",
       "prereqs_parsed": {
         "required": [
@@ -1087,7 +1111,7 @@
       "number": "140",
       "title": "Brain Injury and Recovery of Function",
       "units": 4.0,
-      "description": "Seminar, four hours. Requisite: course 102 or Psychology 116A or 116B. Inquiry into what recovery from brain injury specifically means, and if all recovery is same. Addresses history of how science evolved from basic localization of function to understanding more about brain functional recovery. Increases awareness of limitations and surprising\u2026 For more content click the Read More button below.",
+      "description": "Seminar, four hours. Requisite: course 102 or Psychology 116A or 116B. Inquiry into what recovery from brain injury specifically means, and if all recovery is same. Addresses history of how science evolved from basic localization of function to understanding more about brain functional recovery. Increases awareness of limitations and surprising… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102 or Psychology 116A or 116B.",
       "prereqs_parsed": {
         "required": [],
@@ -1110,7 +1134,7 @@
       "number": "142",
       "title": "Neurophilosophy: Introduction and Assessment from Neuroscience Perspective",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course M101A. Overview of philosophical issues and theories surrounding nature of mind and its relationship with body. Examination of case for relevance of current theoretical and experimental results in neuroscience and cognitive science to philosophy of mind. In particular, focus on variety of approaches to understanding\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course M101A. Overview of philosophical issues and theories surrounding nature of mind and its relationship with body. Examination of case for relevance of current theoretical and experimental results in neuroscience and cognitive science to philosophy of mind. In particular, focus on variety of approaches to understanding… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M101A.",
       "prereqs_parsed": {
         "required": []
@@ -1123,7 +1147,7 @@
       "number": "178",
       "title": "Human Electroencephalography and Evoked Potentials in Research and Clinical Diagnosis",
       "units": 4.0,
-      "description": "Seminar, four hours. Enforced requisite: course M101A. Not open for credit to students with credit for course 191A, seminar 1. Emphasis on human electroencephalogram (EEG) and various forms of sensory-evoked potentials. Introduction to number of experimental paradigms that allow for recording of different brain signals from brainstem to cortex. Letter\u2026 For more content click the Read More button below.",
+      "description": "Seminar, four hours. Enforced requisite: course M101A. Not open for credit to students with credit for course 191A, seminar 1. Emphasis on human electroencephalogram (EEG) and various forms of sensory-evoked potentials. Introduction to number of experimental paradigms that allow for recording of different brain signals from brainstem to cortex. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course M101A.",
       "prereqs_parsed": {
         "required": [
@@ -1161,7 +1185,7 @@
       "number": "180",
       "title": "Genetic, Molecular, and Genomic Approaches to Neural Development and Disease",
       "units": 4.0,
-      "description": "Seminar, three hours. Enforced requisites: courses M101A, M101B. Not open for credit to students with credit for course 191C, seminar 1. In-depth study of genetic, molecular, and genomic approaches to studying nervous system development and disease. Overview of current technologies used to generate mouse models for genetic and phenotypic analysis.\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Enforced requisites: courses M101A, M101B. Not open for credit to students with credit for course 191C, seminar 1. In-depth study of genetic, molecular, and genomic approaches to studying nervous system development and disease. Overview of current technologies used to generate mouse models for genetic and phenotypic analysis.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M101A, M101B.",
       "prereqs_parsed": {
         "required": [
@@ -1219,7 +1243,7 @@
       "number": "186",
       "title": "Neural Stem Cells: Biology, Diseases, and Therapies",
       "units": 4.0,
-      "description": "Lecture, two and one half hours. Preparation: background in biology and biochemistry. Enforced requisites: courses M101A, M101B. Designed for third- and fourth-year Neuroscience majors. Comprehensive coverage of stem cells of nervous system during development and adulthood, involvement of stem cells in diseases (e.g., brain tumors, Alzheimer\u2019s, Parkinson\u2019s), and use of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two and one half hours. Preparation: background in biology and biochemistry. Enforced requisites: courses M101A, M101B. Designed for third- and fourth-year Neuroscience majors. Comprehensive coverage of stem cells of nervous system during development and adulthood, involvement of stem cells in diseases (e.g., brain tumors, Alzheimer’s, Parkinson’s), and use of… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M101A, M101B.",
       "prereqs_parsed": {
         "required": [
@@ -1237,7 +1261,7 @@
       "course_id": "NEUROSC 191A",
       "dept": "NEUROSC",
       "number": "191A",
-      "title": "Variable Topics Research Seminars: Neuroscience\u00e2\u20ac\u201dBehavioral and Cognitive Neuroscience",
+      "title": "Variable Topics Research Seminars: Neuroscienceâ€”Behavioral and Cognitive Neuroscience",
       "units": 4.0,
       "description": "Seminar, three hours. Requisite: course M101A or Physiological Science 111A. Topics on one or more aspects of neuroscience. Reading, discussion, and development of culminating project. May be applied as elective only in specific area of group 2. May be repeated once for credit. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course M101A or Physiological Science 111A.",
@@ -1259,7 +1283,7 @@
       "course_id": "NEUROSC 191B",
       "dept": "NEUROSC",
       "number": "191B",
-      "title": "Variable Topics Research Seminars: Neuroscience\u00e2\u20ac\u201dSystems and Integrative Neuroscience",
+      "title": "Variable Topics Research Seminars: Neuroscienceâ€”Systems and Integrative Neuroscience",
       "units": 4.0,
       "description": "Seminar, three hours. Requisite: course M101A or Physiological Science 111A. Topics on one or more aspects of neuroscience. Reading, discussion, and development of culminating project. May be applied as elective only in specific area of group 2. May be repeated once for credit. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course M101A or Physiological Science 111A.",
@@ -1281,7 +1305,7 @@
       "course_id": "NEUROSC 191C",
       "dept": "NEUROSC",
       "number": "191C",
-      "title": "Variable Topics Research Seminars: Neuroscience\u00e2\u20ac\u201dMolecular, Cell, and Developmental Neuroscience",
+      "title": "Variable Topics Research Seminars: Neuroscienceâ€”Molecular, Cell, and Developmental Neuroscience",
       "units": 4.0,
       "description": "Seminar, three hours. Enforced requisite: course M101B. Topics on one or more aspects of neuroscience. Reading, discussion, and development of culminating project. May be applied as elective only in specific area of group 2. May be repeated once for credit. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisite: course M101B.",
@@ -1302,7 +1326,7 @@
       "number": "192BX",
       "title": "Project Brainstorm: Neuroscience K-12 Outreach",
       "units": 4.0,
-      "description": "(Formerly numbered 192B.) Seminar, one hour; fieldwork, three hours. Limited to juniors/senior Neuroscience majors selected for Project Brainstorm Capstone. Completion of this course in winter and spring quarters is required for successful completion of Project Brainstorm Capstone. Course to be supervised by faculty and teaching assistant advisers. Project Brainstorm is\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 192B.) Seminar, one hour; fieldwork, three hours. Limited to juniors/senior Neuroscience majors selected for Project Brainstorm Capstone. Completion of this course in winter and spring quarters is required for successful completion of Project Brainstorm Capstone. Course to be supervised by faculty and teaching assistant advisers. Project Brainstorm is… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1315,7 +1339,7 @@
       "number": "192CX",
       "title": "Drug Abuse and Society: Conveying Concepts to High School Students",
       "units": 4.0,
-      "description": "Seminar, four hours (seven weeks); fieldwork, four hours (three weeks). Enforced requisites: courses M101A, C177. Limited to junior/senior Neuroscience majors selected for DOPA Team capstone option. Preparation of students to give accurate, knowledgeable, and age-appropriate lectures in area of drug abuse to students at local high schools. Designed as followup\u2026 For more content click the Read More button below.",
+      "description": "Seminar, four hours (seven weeks); fieldwork, four hours (three weeks). Enforced requisites: courses M101A, C177. Limited to junior/senior Neuroscience majors selected for DOPA Team capstone option. Preparation of students to give accurate, knowledgeable, and age-appropriate lectures in area of drug abuse to students at local high schools. Designed as followup… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M101A, C177.",
       "prereqs_parsed": {
         "required": [
@@ -1335,7 +1359,7 @@
       "number": "198A",
       "title": "Honors Research in Neuroscience",
       "units": 4.0,
-      "description": "Tutorial, 12 hours minimum. Requisites: courses 99, M101A. Limited to neuroscience honors program students. Directed independent research involving extensive reading and development of honors thesis or comprehensive project under direct supervision of faculty member. For departmental honors, students must also take course 191H. Maximum of 8 units of courses 198A,\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours minimum. Requisites: courses 99, M101A. Limited to neuroscience honors program students. Directed independent research involving extensive reading and development of honors thesis or comprehensive project under direct supervision of faculty member. For departmental honors, students must also take course 191H. Maximum of 8 units of courses 198A,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 99, M101A.",
       "prereqs_parsed": {
         "required": [
@@ -1355,7 +1379,7 @@
       "number": "198B",
       "title": "Honors Research in Neuroscience",
       "units": 4.0,
-      "description": "Tutorial, 12 hours minimum in laboratory. Requisite: course 198A. Continued reading and research that culminate in honors thesis under direct supervision of faculty member. For departmental honors, students must also take course 191H. Maximum of 8 units of courses 198A, 198B, 199 may be applied toward major. Individual contract required.\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours minimum in laboratory. Requisite: course 198A. Continued reading and research that culminate in honors thesis under direct supervision of faculty member. For departmental honors, students must also take course 191H. Maximum of 8 units of courses 198A, 198B, 199 may be applied toward major. Individual contract required.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 198A.",
       "prereqs_parsed": {
         "required": []
@@ -1368,7 +1392,7 @@
       "number": "199A",
       "title": "Directed Research in Neuroscience",
       "units": 4.0,
-      "description": "Tutorial, 12 hours minimum. Enforced requisites: courses 99, M101A. Limited to junior/senior Neuroscience majors and minors with grades of B (3.0) or better. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. Maximum of 8 units of courses 198A, 198B, 199A, 199B may be\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours minimum. Enforced requisites: courses 99, M101A. Limited to junior/senior Neuroscience majors and minors with grades of B (3.0) or better. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. Maximum of 8 units of courses 198A, 198B, 199A, 199B may be… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 99, M101A.",
       "prereqs_parsed": {
         "required": [
@@ -1390,7 +1414,7 @@
       "number": "199B",
       "title": "Directed Research in Neuroscience",
       "units": 4.0,
-      "description": "Tutorial, 12 hours minimum. Enforced requisite: course 199A. Limited to junior/senior Neuroscience majors and minors with grades of B (3.0) or better. Continued supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. Maximum of 8 units of courses 198A, 198B, 199A, 199B may be\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours minimum. Enforced requisite: course 199A. Limited to junior/senior Neuroscience majors and minors with grades of B (3.0) or better. Continued supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. Maximum of 8 units of courses 198A, 198B, 199A, 199B may be… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 199A.",
       "prereqs_parsed": {
         "required": [
@@ -1409,7 +1433,7 @@
       "number": "C151",
       "title": "Computational Neuroscience for Interdisciplinary Scientists",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, one hour. Requisites: course M101A or Psychology 115; Life Sciences 30A and 30B, or Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Life Sciences 40 or Psychology 100A or Statistics 10 or 13. Designed for students in both experimental and computational tracks to acquire\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, one hour. Requisites: course M101A or Psychology 115; Life Sciences 30A and 30B, or Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Life Sciences 40 or Psychology 100A or Statistics 10 or 13. Designed for students in both experimental and computational tracks to acquire… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course M101A or Psychology 115; Life Sciences 30A and 30B, or Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Life Sciences 40 or Psychology 100A or Statistics 10 or 13.",
       "prereqs_parsed": {
         "required": [],
@@ -1451,7 +1475,7 @@
       "number": "C172",
       "title": "Neuroimaging and Brain Mapping",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course M101A (or Molecular, Cell, and Developmental Biology M175A or Physiological Science M180A or Psychology M117A) or Physiological Science 111A or Psychology 115. Strongly recommended: course 102. Theory, methods, applications, assumptions, and limitations of neuroimaging. Techniques, biological questions, and results. Brain structure, brain function, and their\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course M101A (or Molecular, Cell, and Developmental Biology M175A or Physiological Science M180A or Psychology M117A) or Physiological Science 111A or Psychology 115. Strongly recommended: course 102. Theory, methods, applications, assumptions, and limitations of neuroimaging. Techniques, biological questions, and results. Brain structure, brain function, and their… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M101A (or Molecular, Cell, and Developmental Biology M175A or Physiological Science M180A or Psychology M117A) or Physiological Science 111A or Psychology 115.",
       "prereqs_parsed": {
         "required": [],
@@ -1477,7 +1501,7 @@
       "number": "C177",
       "title": "Drugs of Abuse: Translational Neurobiology",
       "units": 4.0,
-      "description": "Lecture, four hours. Requisite: course M101A. Course ranges from synapse to society. Provides intensive didactic on current neuroscientific basis for understanding substance abuse and blends that material with relevant topics such as epidemiology, co-occurring disorders, treatment options, prevention, and public policies, with emphasis on communication of course materials to general\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Requisite: course M101A. Course ranges from synapse to society. Provides intensive didactic on current neuroscientific basis for understanding substance abuse and blends that material with relevant topics such as epidemiology, co-occurring disorders, treatment options, prevention, and public policies, with emphasis on communication of course materials to general… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M101A.",
       "prereqs_parsed": {
         "required": [
@@ -1498,7 +1522,7 @@
       "number": "CM123",
       "title": "Neurobiology of Sleep",
       "units": 4.0,
-      "description": "(Same as Physiological Science CM123.) Lecture, three hours; discussion, one hour. Requisites: courses M101A and M101B or Physiological Science 111A and 111B or consent of instructor. Detailed look into science of sleep. Cellular and molecular mechanisms of falling asleep, many discrete brain structures involved in control of sleep wakefulness, and\u2026 For more content click the Read More button below.",
+      "description": "(Same as Physiological Science CM123.) Lecture, three hours; discussion, one hour. Requisites: courses M101A and M101B or Physiological Science 111A and 111B or consent of instructor. Detailed look into science of sleep. Cellular and molecular mechanisms of falling asleep, many discrete brain structures involved in control of sleep wakefulness, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M101A and M101B or Physiological Science 111A and 111B or consent of instructor.",
       "prereqs_parsed": {
         "required": [],
@@ -1522,9 +1546,9 @@
       "course_id": "NEUROSC M101A",
       "dept": "NEUROSC",
       "number": "M101A",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dCellular and Systems Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Cellular and Systems Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C\u2013 or better to\u2026 For more content click the Read More button below.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C– or better to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B.",
       "prereqs_parsed": {
         "required": [
@@ -1577,10 +1601,10 @@
       "course_id": "NEUROSC M101B",
       "dept": "NEUROSC",
       "number": "M101B",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dMolecular and Developmental Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Molecular and Developmental Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M101A (with grade of C\u2013 or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course M101A (with grade of C\u2013 or better), Life Sciences 7C.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M101A (with grade of C– or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M101A (with grade of C– or better), Life Sciences 7C.",
       "prereqs_parsed": {
         "required": [
           "NEUROSC M101A",
@@ -1603,10 +1627,10 @@
       "course_id": "NEUROSC M101C",
       "dept": "NEUROSC",
       "number": "M101C",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dBehavioral and Cognitive Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Behavioral and Cognitive Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175C, Physiological Science M180C, and Psychology M117C.) Lecture, four hours; discussion, 90 minutes. Requisite: course M101A with grade of C\u2013 or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course M101A with grade of C\u2013 or better.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175C, Physiological Science M180C, and Psychology M117C.) Lecture, four hours; discussion, 90 minutes. Requisite: course M101A with grade of C– or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M101A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "NEUROSC M101A"
@@ -1624,7 +1648,7 @@
       "number": "M116A",
       "title": "Behavioral Neuroscience Laboratory",
       "units": 4.0,
-      "description": "(Same as Psychology M116A.) Lecture, one hour; laboratory, three hours. Requisites: courses M101A and M101B (M101B may be taken concurrently), or Psychology 10, 100A, 100B, and 115. Not open for credit to students with credit for Psychology 116B. Designed for Psychobiology, Psychology, and Neuroscience majors. Laboratory experience with various topics\u2026 For more content click the Read More button below.",
+      "description": "(Same as Psychology M116A.) Lecture, one hour; laboratory, three hours. Requisites: courses M101A and M101B (M101B may be taken concurrently), or Psychology 10, 100A, 100B, and 115. Not open for credit to students with credit for Psychology 116B. Designed for Psychobiology, Psychology, and Neuroscience majors. Laboratory experience with various topics… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M101A and M101B (M101B may be taken concurrently), or Psychology 10, 100A, 100B, and 115.",
       "prereqs_parsed": {
         "required": [],
@@ -1667,7 +1691,7 @@
       "number": "M119N",
       "title": "Visual System",
       "units": 4.0,
-      "description": "(Same as Psychology M119N.) Lecture, three hours. Requisite: course M101A or Physiological Science 111A or Psychology 115. Ability to image and analyze visual world is truly remarkable feat. Coverage of anatomy and physiology of visual processing from retina to visual cortex through lectures, extensive reading, and discussions. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "(Same as Psychology M119N.) Lecture, three hours. Requisite: course M101A or Physiological Science 111A or Psychology 115. Ability to image and analyze visual world is truly remarkable feat. Coverage of anatomy and physiology of visual processing from retina to visual cortex through lectures, extensive reading, and discussions. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M101A or Physiological Science 111A or Psychology 115.",
       "prereqs_parsed": {
         "required": [],
@@ -1713,7 +1737,7 @@
       "number": "M161",
       "title": "Personal Brain Management",
       "units": 4.0,
-      "description": "(Same as Psychiatry M182.) Seminar, four hours. Basic overview of brain function and consideration of some management methods that exist already, and what future may hold. New methods for predicting our own futures and modeling what if scenarios that might alter risks and benefits of different courses of action, based\u2026 For more content click the Read More button below.",
+      "description": "(Same as Psychiatry M182.) Seminar, four hours. Basic overview of brain function and consideration of some management methods that exist already, and what future may hold. New methods for predicting our own futures and modeling what if scenarios that might alter risks and benefits of different courses of action, based… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1726,7 +1750,7 @@
       "number": "M170",
       "title": "Music, Mind, and Brain",
       "units": 4.0,
-      "description": "(Same as Music Industry M103.) Seminar, three hours; outside study, nine hours. Multidisciplinary approach to understanding brain mechanisms mediating music perception, performance, and cognition. Students\u2019 natural interest in music serves as springboard for learning basic concepts about theories of mind, and how brain works to determine perception of harmony and\u2026 For more content click the Read More button below.",
+      "description": "(Same as Music Industry M103.) Seminar, three hours; outside study, nine hours. Multidisciplinary approach to understanding brain mechanisms mediating music perception, performance, and cognition. Students’ natural interest in music serves as springboard for learning basic concepts about theories of mind, and how brain works to determine perception of harmony and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1739,7 +1763,7 @@
       "number": "M176",
       "title": "Auditory Neuroscience of Speech Perception and Vocal Communication",
       "units": 4.0,
-      "description": "(Same as Physiological Science M176.) Lecture, two and one half hours; discussion, 90 minutes. Requisite: course M101A or Physiological Science 107. Interdisciplinary approach to understanding how humans and other animals communicate emotion and meaning using sound. Weekly research topics in disciplines of systems neuroscience, cognitive neuroscience, psychophysics, and psycholinguistics. Emphasis\u2026 For more content click the Read More button below.",
+      "description": "(Same as Physiological Science M176.) Lecture, two and one half hours; discussion, 90 minutes. Requisite: course M101A or Physiological Science 107. Interdisciplinary approach to understanding how humans and other animals communicate emotion and meaning using sound. Weekly research topics in disciplines of systems neuroscience, cognitive neuroscience, psychophysics, and psycholinguistics. Emphasis… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M101A or Physiological Science 107.",
       "prereqs_parsed": {
         "required": [],
@@ -1761,7 +1785,7 @@
       "number": "M187",
       "title": "Neurobiology of Bias and Discrimination",
       "units": 4.0,
-      "description": "(Same as Physiological Science M106 and Psychology M166.) Lecture, four hours. Limited to junior/senior neuroscience, physiological science, and psychology students. Exploration of aspects of mammalian brain function that generate preference, bias, and discrimination. Consideration of research at multiple levels of analysis from genetics to neural circuits to behavior. Discussion of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Physiological Science M106 and Psychology M166.) Lecture, four hours. Limited to junior/senior neuroscience, physiological science, and psychology students. Exploration of aspects of mammalian brain function that generate preference, bias, and discrimination. Consideration of research at multiple levels of analysis from genetics to neural circuits to behavior. Discussion of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1774,7 +1798,7 @@
       "number": "121",
       "title": "Disease Mechanisms and Therapies",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 153A, and Life Sciences 2, 3, and 4 or 7A, 7B, and 7C. Designed for junior/senior Biochemistry and life sciences majors. Use of disease mechanisms as pedagogical tools to develop higher-order knowledge of basic scientific concepts. Integration of concepts from genetics, molecular\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 153A, and Life Sciences 2, 3, and 4 or 7A, 7B, and 7C. Designed for junior/senior Biochemistry and life sciences majors. Use of disease mechanisms as pedagogical tools to develop higher-order knowledge of basic scientific concepts. Integration of concepts from genetics, molecular… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 153A, and Life Sciences 2, 3, and 4 or 7A, 7B, and 7C.",
       "prereqs_parsed": {
         "required": [
@@ -1824,7 +1848,7 @@
       "number": "146",
       "title": "Principles of Nervous System Development",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours. Requisites: courses 107 (or Neuroscience 102) and 111A (or M180A). Examination of construction of vertebrate nervous system as series of integrated steps beginning with several embryonic cells and culminating as complex highly ordered system. Topics include neurulation, regionalization, neurogenesis, migration, axonal outgrowth, and synapse\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours. Requisites: courses 107 (or Neuroscience 102) and 111A (or M180A). Examination of construction of vertebrate nervous system as series of integrated steps beginning with several embryonic cells and culminating as complex highly ordered system. Topics include neurulation, regionalization, neurogenesis, migration, axonal outgrowth, and synapse… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 107 (or Neuroscience 102) and 111A (or M180A).",
       "prereqs_parsed": {
         "required": [],
@@ -1901,7 +1925,7 @@
       "number": "174",
       "title": "Cell Biophysics in Physiology and Disease",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours. Requisites: Chemistry 153A, Life Sciences 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Physics 5A, 5B, and 5C, or 6A, 6B, and 6C. Search for information in biological research has traditionally focused on genes and biochemical pathways. While physical aspects of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours. Requisites: Chemistry 153A, Life Sciences 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Physics 5A, 5B, and 5C, or 6A, 6B, and 6C. Search for information in biological research has traditionally focused on genes and biochemical pathways. While physical aspects of… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 153A, Life Sciences 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L, Physics 5A, 5B, and 5C, or 6A, 6B, and 6C.",
       "prereqs_parsed": {
         "required": [
@@ -1941,14 +1965,18 @@
       "number": "175",
       "title": "Why Fido Can't Speak: Biological Evolution of Language",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 111A or Neuroscience M101A. Homo sapiens are only species currently on planet to possess language. Exploration of whether other species possess potential building blocks for language. Topics range from examination of how bees and ants signal about food sources to whether structured\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 111A or Neuroscience M101A. Homo sapiens are only species currently on planet to possess language. Exploration of whether other species possess potential building blocks for language. Topics range from examination of how bees and ants signal about food sources to whether structured… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 111A or Neuroscience M101A.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PHYSCI 111A",
-          "NEURO SCI M101A"
+          [
+            "PHYSCI 111A"
+          ],
+          [
+            "NEURO SCI M101A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1967,8 +1995,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PHYSCI 111A",
-          "PHYSCI 180A"
+          [
+            "PHYSCI 111A"
+          ],
+          [
+            "PHYSCI 180A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1981,7 +2013,7 @@
       "number": "C126",
       "title": "Biological Clocks",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 111A and 111B, or M180A and M180B. Most organisms, including humans, exhibit daily rhythms in physiology and behavior. In many cases these rhythms are generated from within organisms and are called circadian rhythms. Biological basis of these daily rhythms or circadian oscillations.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 111A and 111B, or M180A and M180B. Most organisms, including humans, exhibit daily rhythms in physiology and behavior. In many cases these rhythms are generated from within organisms and are called circadian rhythms. Biological basis of these daily rhythms or circadian oscillations.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 111A and 111B, or M180A and M180B.",
       "prereqs_parsed": {
         "required": [],
@@ -2007,7 +2039,7 @@
       "number": "C127",
       "title": "Neuroendocrinology of Reproduction",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 111B. Understanding of reproductive neuroendocrinology throughout mammalian lifespan, with emphasis as appropriate on human condition. Discussion of general concepts of endocrine feedback and feed-forward loops, sexual differentiation, and structure and function for components of hypothalamo-pituitary gonadal axis. Exploration of sex differences\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 111B. Understanding of reproductive neuroendocrinology throughout mammalian lifespan, with emphasis as appropriate on human condition. Discussion of general concepts of endocrine feedback and feed-forward loops, sexual differentiation, and structure and function for components of hypothalamo-pituitary gonadal axis. Exploration of sex differences… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 111B.",
       "prereqs_parsed": {
         "required": [
@@ -2026,7 +2058,7 @@
       "number": "C130",
       "title": "Sex Differences in Physiology and Disease",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: course 111B, Life Sciences 7A, 7B, 7C. Investigation of biological origins of sex differences in physiology (mostly vertebrate), and susceptibility to disease, including history of development of concepts to define sex, and interface between biological factors and effects of gendered environments. Topics include evolution of sex\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisites: course 111B, Life Sciences 7A, 7B, 7C. Investigation of biological origins of sex differences in physiology (mostly vertebrate), and susceptibility to disease, including history of development of concepts to define sex, and interface between biological factors and effects of gendered environments. Topics include evolution of sex… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 111B, Life Sciences 7A, 7B, 7C.",
       "prereqs_parsed": {
         "required": [
@@ -2070,7 +2102,7 @@
       "number": "CM123",
       "title": "Neurobiology of Sleep",
       "units": 4.0,
-      "description": "(Same as Neuroscience CM123.) Lecture, three hours; discussion, one hour. Requisites: courses M101A and M101B or 111A and 111B or consent of instructor. Detailed look into science of sleep. Cellular and molecular mechanisms of falling asleep, many discrete brain structures involved in control of sleep wakefulness, and homeostatic regulation of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Neuroscience CM123.) Lecture, three hours; discussion, one hour. Requisites: courses M101A and M101B or 111A and 111B or consent of instructor. Detailed look into science of sleep. Cellular and molecular mechanisms of falling asleep, many discrete brain structures involved in control of sleep wakefulness, and homeostatic regulation of… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M101A and M101B or 111A and 111B or consent of instructor.",
       "prereqs_parsed": {
         "required": [],
@@ -2096,7 +2128,7 @@
       "number": "M106",
       "title": "Neurobiology of Bias and Discrimination",
       "units": 4.0,
-      "description": "(Same as Neuroscience M187 and Psychology M166.) Lecture, four hours. Limited to junior/senior neuroscience, physiological science, and psychology students. Exploration of aspects of mammalian brain function that generate preference, bias, and discrimination. Consideration of research at multiple levels of analysis from genetics to neural circuits to behavior. Discussion of societal\u2026 For more content click the Read More button below.",
+      "description": "(Same as Neuroscience M187 and Psychology M166.) Lecture, four hours. Limited to junior/senior neuroscience, physiological science, and psychology students. Exploration of aspects of mammalian brain function that generate preference, bias, and discrimination. Consideration of research at multiple levels of analysis from genetics to neural circuits to behavior. Discussion of societal… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -2145,14 +2177,18 @@
       "number": "M176",
       "title": "Auditory Neuroscience of Speech Perception and Vocal Communication",
       "units": 4.0,
-      "description": "(Same as Neuroscience M176.) Lecture, two and one half hours; discussion, 90 minutes. Requisite: course 107 or Neuroscience M101A. Interdisciplinary approach to understanding how humans and other animals communicate emotion and meaning using sound. Weekly research topics in disciplines of systems neuroscience, cognitive neuroscience, psychophysics, and psycholinguistics. Emphasis on fundamental\u2026 For more content click the Read More button below.",
+      "description": "(Same as Neuroscience M176.) Lecture, two and one half hours; discussion, 90 minutes. Requisite: course 107 or Neuroscience M101A. Interdisciplinary approach to understanding how humans and other animals communicate emotion and meaning using sound. Weekly research topics in disciplines of systems neuroscience, cognitive neuroscience, psychophysics, and psycholinguistics. Emphasis on fundamental… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 107 or Neuroscience M101A.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PHYSCI 107",
-          "NEUROSCI M101A"
+          [
+            "PHYSCI 107"
+          ],
+          [
+            "NEUROSCI M101A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -2222,7 +2258,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -2272,7 +2308,7 @@
       "number": "4BL",
       "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
       "prereqs_parsed": {
         "required": [],
@@ -2376,7 +2412,7 @@
       "number": "C186",
       "title": "Neurophysics: Brain-Mind Problem",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A. How does mind emerge from brain? Provides summary of basic biophysics of neurons, synapses, and plasticity. Introduction to commonly\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A. How does mind emerge from brain? Provides summary of basic biophysics of neurons, synapses, and plasticity. Introduction to commonly… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A.",
       "prereqs_parsed": {
         "required": [
@@ -2439,7 +2475,7 @@
       "number": "112A",
       "title": "Basic Processes of Motivated Behavior",
       "units": 4.0,
-      "description": "Lecture, 90 minutes; discussion, 90 minutes. Requisites: courses 10, 100A, 110. Designed for juniors/seniors. Examination of some basic processes underlying motivated behavior, stressing environmental determinants of behaviors such as feeding, drinking, and reproduction-related behavior. Discussion of physiological mechanisms that contribute to such behaviors. Consideration of topics such as reinforcement, acquired\u2026 For more content click the Read More button below.",
+      "description": "Lecture, 90 minutes; discussion, 90 minutes. Requisites: courses 10, 100A, 110. Designed for juniors/seniors. Examination of some basic processes underlying motivated behavior, stressing environmental determinants of behaviors such as feeding, drinking, and reproduction-related behavior. Discussion of physiological mechanisms that contribute to such behaviors. Consideration of topics such as reinforcement, acquired… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 100A, 110.",
       "prereqs_parsed": {
         "required": [
@@ -2460,7 +2496,7 @@
       "number": "112B",
       "title": "Psychobiology of Fear and Anxiety",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: courses 10, 100A, 110. Recommended: course 115. Designed for juniors/seniors. Presentation of biological and behavioral approaches to fear and anxiety, taken from laboratory and applied research. In addition to overview of major principles from each approach, emphasis on areas in which significant research advances have recently\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisites: courses 10, 100A, 110. Recommended: course 115. Designed for juniors/seniors. Presentation of biological and behavioral approaches to fear and anxiety, taken from laboratory and applied research. In addition to overview of major principles from each approach, emphasis on areas in which significant research advances have recently… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 100A, 110.",
       "prereqs_parsed": {
         "required": [
@@ -2481,7 +2517,7 @@
       "number": "112C",
       "title": "Psychobiology of Anxiety and Depression",
       "units": 4.0,
-      "description": "Lecture, two and one half hours; discussion, 30 minutes. Requisites: courses 110 and 115, or Neuroscience M101A, M101B, and M101C. Limited to juniors/seniors. Presentation of biological and behavioral approaches to anxiety and depression, taken from laboratory and applied research. In addition to overview of major principles from each approach, emphasis\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two and one half hours; discussion, 30 minutes. Requisites: courses 110 and 115, or Neuroscience M101A, M101B, and M101C. Limited to juniors/seniors. Presentation of biological and behavioral approaches to anxiety and depression, taken from laboratory and applied research. In addition to overview of major principles from each approach, emphasis… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 110 and 115, or Neuroscience M101A, M101B, and M101C.",
       "prereqs_parsed": {
         "required": [],
@@ -2508,10 +2544,18 @@
       "number": "112E",
       "title": "Decision Making and Brain",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: courses 10, 100A, 110. Designed for juniors/seniors. Survey of neural mechanisms of value-based decision making from perspective of neoclassical economics. Discussion of theoretical models of valuation and decision making from economics and application to psychological and neuroscience studies of learning and decision making. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisites: courses 10, 100A, 110. Designed for juniors/seniors. Survey of neural mechanisms of value-based decision making from perspective of neoclassical economics. Discussion of theoretical models of valuation and decision making from economics and application to psychological and neuroscience studies of learning and decision making. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 100A, 110.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PSYCH 10",
+          "PSYCH 100A",
+          "PSYCH 110"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -2521,7 +2565,7 @@
       "number": "116B",
       "title": "Human Neuropsychology Laboratory",
       "units": 4.0,
-      "description": "Laboratory, four hours. Requisites: courses 10, 100A, 100B, 115. Not open for credit to students with credit for 116A. Focus on human neural function in health and disease. Concentration on neural underpinnings of behaviors unique to humans. Hands-on empirical investigations of neural functions in which students themselves serve as subjects.\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Requisites: courses 10, 100A, 100B, 115. Not open for credit to students with credit for 116A. Focus on human neural function in health and disease. Concentration on neural underpinnings of behaviors unique to humans. Hands-on empirical investigations of neural functions in which students themselves serve as subjects.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 100A, 100B, 115.",
       "prereqs_parsed": {
         "required": [
@@ -2570,8 +2614,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PSYCH 115",
-          "PSYCH 117C"
+          [
+            "PSYCH 115"
+          ],
+          [
+            "PSYCH 117C"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -2584,7 +2632,7 @@
       "number": "119B",
       "title": "How Brains Learn to Construct Models of Environment",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 115 or M117C. Designed for juniors/seniors. Every day we encounter something new. As result of these experiences, our brain builds cognitive models of our environment. This allows us to respond flexibly and efficiently when we encounter something similar in future. Discussion of types of models\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 115 or M117C. Designed for juniors/seniors. Every day we encounter something new. As result of these experiences, our brain builds cognitive models of our environment. This allows us to respond flexibly and efficiently when we encounter something similar in future. Discussion of types of models… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 115 or M117C.",
       "prereqs_parsed": {
         "required": [],
@@ -2628,7 +2676,7 @@
       "number": "119F",
       "title": "Neural Basis of Behavior",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 115. Designed for juniors/seniors. Presentation of current data and theory concerning how neuron circuits produce behavior. Mechanisms of perception, response selection, motor pattern generation, learning, and motivation, with emphasis on operation of these processes in well-defined neural circuits in animals and humans. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 115. Designed for juniors/seniors. Presentation of current data and theory concerning how neuron circuits produce behavior. Mechanisms of perception, response selection, motor pattern generation, learning, and motivation, with emphasis on operation of these processes in well-defined neural circuits in animals and humans. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 115.",
       "prereqs_parsed": {
         "required": [
@@ -2647,7 +2695,7 @@
       "number": "119I",
       "title": "Integration of Face and Brain",
       "units": 4.0,
-      "description": "Seminar, three hours. Requisite: course 115 or M117C. Faces play major role in social interactions in both humans and nonhuman primates and in other animals as well. Exploration of neuroanatomical, neurophysiological, and neurofunctional underpinnings of face processing (attractiveness, emotional expressions, facial skin, identity recognition, based on empirical studies that use\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Requisite: course 115 or M117C. Faces play major role in social interactions in both humans and nonhuman primates and in other animals as well. Exploration of neuroanatomical, neurophysiological, and neurofunctional underpinnings of face processing (attractiveness, emotional expressions, facial skin, identity recognition, based on empirical studies that use… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 115 or M117C.",
       "prereqs_parsed": {
         "required": [],
@@ -2669,7 +2717,7 @@
       "number": "119J",
       "title": "Brain Bugs: Understanding Brain through Its Flaws",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 115 or M117C. Designed for juniors/seniors. Psychology of brain flaws and limitations to understand how brain works by studying what it does well and understanding neuroscience of why brain is poorly suited to perform some tasks such as numerical calculations, memorizing lists and names, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 115 or M117C. Designed for juniors/seniors. Psychology of brain flaws and limitations to understand how brain works by studying what it does well and understanding neuroscience of why brain is poorly suited to perform some tasks such as numerical calculations, memorizing lists and names, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 115 or M117C.",
       "prereqs_parsed": {
         "required": [],
@@ -2710,7 +2758,7 @@
       "number": "119Q",
       "title": "Psychobiology of Sleep and Dreams",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 115. Designed for juniors/seniors. Study of measurement of sleep, comparison of sleep in mammal species and sleep in sub-mammalian species, circadian rhythms and circadian control of sleep, development and aging of sleep, brain anatomical and neurochemical control of sleep, effects of sleep deprivation, sleep in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 115. Designed for juniors/seniors. Study of measurement of sleep, comparison of sleep in mammal species and sleep in sub-mammalian species, circadian rhythms and circadian control of sleep, development and aging of sleep, brain anatomical and neurochemical control of sleep, effects of sleep deprivation, sleep in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 115.",
       "prereqs_parsed": {
         "required": [
@@ -2729,7 +2777,7 @@
       "number": "119U",
       "title": "Neural Correlates of Psychotic Disorders",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 115. Designed for juniors/seniors. Exploration of genetic, cellular, structural, and functional abnormalities associated with psychotic states, including those seen in schizophrenia spectrum disorders, bipolar disorder, and drug-induced psychosis. Focus on common and unique neural findings associated with these abnormal states. Study includes review of clinical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 115. Designed for juniors/seniors. Exploration of genetic, cellular, structural, and functional abnormalities associated with psychotic states, including those seen in schizophrenia spectrum disorders, bipolar disorder, and drug-induced psychosis. Focus on common and unique neural findings associated with these abnormal states. Study includes review of clinical… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 115.",
       "prereqs_parsed": {
         "required": [
@@ -2748,7 +2796,7 @@
       "number": "119Y",
       "title": "Psychobiology of Sexual Behavior",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 115. Broad overview of scientific study of sexual behavior, with emphases on evolutionary, biological, psychological, and social considerations. Topics include historical antecedents of sex research, evolution of sex, influence of sex hormones on brain and behavior, sexual development, and roles of genes and hormones on\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 115. Broad overview of scientific study of sexual behavior, with emphases on evolutionary, biological, psychological, and social considerations. Topics include historical antecedents of sex research, evolution of sex, influence of sex hormones on brain and behavior, sexual development, and roles of genes and hormones on… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 115.",
       "prereqs_parsed": {
         "required": [
@@ -2791,7 +2839,7 @@
       "number": "120B",
       "title": "Sensation and Perception",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Acquisition of information about physical world through basic sensory mechanisms and perceptual processes. Perception of objects, surfaces, space, motion, and events. Connections between information, computations, and biological mechanisms in vision, audition, and other systems. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 10, 100A. Designed for juniors/seniors. Acquisition of information about physical world through basic sensory mechanisms and perceptual processes. Perception of objects, surfaces, space, motion, and events. Connections between information, computations, and biological mechanisms in vision, audition, and other systems. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 100A.",
       "prereqs_parsed": {
         "required": [
@@ -2815,7 +2863,7 @@
       "number": "124A",
       "title": "Language as Cognitive Science",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: courses 100A, 100B, one programming course. Designed for junior/senior Cognitive Science majors. What mental mechanisms allow humans to transfer thoughts across minds through language? Through discussions and experiments, evaluation of behavioral, modeling, and neuroscientific data elucidating component processes of language system and its place within architecture\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisites: courses 100A, 100B, one programming course. Designed for junior/senior Cognitive Science majors. What mental mechanisms allow humans to transfer thoughts across minds through language? Through discussions and experiments, evaluation of behavioral, modeling, and neuroscientific data elucidating component processes of language system and its place within architecture… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 100A, 100B, one programming course.",
       "prereqs_parsed": {
         "required": [
@@ -2841,14 +2889,18 @@
       "number": "124B",
       "title": "Fundamentals of User Experience",
       "units": 4.0,
-      "description": "Lecture, four hours. Requisite: course 120A or 120B. Designed for juniors/seniors. Thorough introduction to core principles and methods in field of user experience research and design. This relatively new discipline has evolved as psychologists and designers have begun to place greater focus on understanding and anticipating needs of humans using\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Requisite: course 120A or 120B. Designed for juniors/seniors. Thorough introduction to core principles and methods in field of user experience research and design. This relatively new discipline has evolved as psychologists and designers have begun to place greater focus on understanding and anticipating needs of humans using… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 120A or 120B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PSYCH 120A",
-          "PSYCH 120B"
+          [
+            "PSYCH 120A"
+          ],
+          [
+            "PSYCH 120B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -2867,8 +2919,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PSYCH 120A",
-          "PSYCH 120B"
+          [
+            "PSYCH 120A"
+          ],
+          [
+            "PSYCH 120B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -2901,14 +2957,18 @@
       "number": "124K",
       "title": "Ethical, Legal, and Societal Implications of Cognitive Neuroscience",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 120A or 120B. Designed for juniors/seniors. Critical examination of current and potential use of neuroimaging data in legal system as means to assess memories, truthfulness, culpability, and probability of future criminal behavior. Consideration of personal and societal consequences of use of cognitively enhancing drugs, memory\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 120A or 120B. Designed for juniors/seniors. Critical examination of current and potential use of neuroimaging data in legal system as means to assess memories, truthfulness, culpability, and probability of future criminal behavior. Consideration of personal and societal consequences of use of cognitively enhancing drugs, memory… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 120A or 120B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PSYCH 120A",
-          "PSYCH 120B"
+          [
+            "PSYCH 120A"
+          ],
+          [
+            "PSYCH 120B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -2921,7 +2981,7 @@
       "number": "127B",
       "title": "Clinical Psychological Science: Biological Bases",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 10. Not open for credit to students with credit for course 127A or 127C. Study of Biological processes involved in etiology, presentation, and course of psychiatric disorders, and biological targets or mechanisms of treatment. Emphasis on clinical neuroscience and behavioral genetics as\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 10. Not open for credit to students with credit for course 127A or 127C. Study of Biological processes involved in etiology, presentation, and course of psychiatric disorders, and biological targets or mechanisms of treatment. Emphasis on clinical neuroscience and behavioral genetics as… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10.",
       "prereqs_parsed": {
         "required": [
@@ -2996,7 +3056,13 @@
       "description": "Lecture, three hours. Requisite: course 10. Limited to juniors/seniors. Exploration of how normative biological and hormonal changes during adolescence influence adolescent behavior and well-being. Focus specifically on puberty and sleep, which both lead to consequential effects on behavior, health, and brain development. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 10.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PSYCH 10"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -3006,7 +3072,7 @@
       "number": "M116A",
       "title": "Behavioral Neuroscience Laboratory",
       "units": 4.0,
-      "description": "(Formerly numbered 116.) (Same as Neuroscience M116A.) Lecture, one hour; laboratory, three hours. Requisites: courses 10, 100A, 100B, and 115, or Neuroscience M101A and M101B (M101B may be taken concurrently). Not open for credit to students with credit for course 116B. Designed for Psychobiology, Psychology, and Neuroscience majors. Laboratory experience\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 116.) (Same as Neuroscience M116A.) Lecture, one hour; laboratory, three hours. Requisites: courses 10, 100A, 100B, and 115, or Neuroscience M101A and M101B (M101B may be taken concurrently). Not open for credit to students with credit for course 116B. Designed for Psychobiology, Psychology, and Neuroscience majors. Laboratory experience… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 100A, 100B, and 115, or Neuroscience M101A and M101B (M101B may be taken concurrently).",
       "prereqs_parsed": {
         "required": [],
@@ -3049,15 +3115,21 @@
       "number": "M119N",
       "title": "Visual System",
       "units": 4.0,
-      "description": "(Same as Neuroscience M119N.) Lecture, three hours. Requisite: course 115 or Neuroscience M101A or Physiological Science 111A. Ability to image and analyze visual world is truly remarkable feat. Coverage of anatomy and physiology of visual processing from retina to visual cortex through lectures, extensive reading, and discussions. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "(Same as Neuroscience M119N.) Lecture, three hours. Requisite: course 115 or Neuroscience M101A or Physiological Science 111A. Ability to image and analyze visual world is truly remarkable feat. Coverage of anatomy and physiology of visual processing from retina to visual cortex through lectures, extensive reading, and discussions. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 115 or Neuroscience M101A or Physiological Science 111A.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PSYCH 115",
-          "NEURO SCI M101A",
-          "PHYS SCI 111A"
+          [
+            "PSYCH 115"
+          ],
+          [
+            "NEURO SCI M101A"
+          ],
+          [
+            "PHYS SCI 111A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -3070,7 +3142,7 @@
       "number": "M119O",
       "title": "Psychology of Aging",
       "units": 4.0,
-      "description": "(Same as Gerontology M119O.) Requisite: course 115. Designed for juniors/seniors. Aging refers to developmental changes occurring at end stages of life. Some alterations that occur represent improvement, others are detrimental. Examination of impact of aging process on mental phenomena and exploration of ways in which positive changes can be maximally\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gerontology M119O.) Requisite: course 115. Designed for juniors/seniors. Aging refers to developmental changes occurring at end stages of life. Some alterations that occur represent improvement, others are detrimental. Examination of impact of aging process on mental phenomena and exploration of ways in which positive changes can be maximally… For more content click the Read More button below.",
       "prereqs_raw": "(Same as Gerontology M119O.) Requisite: course 115.",
       "prereqs_parsed": {
         "required": [
@@ -3089,7 +3161,7 @@
       "number": "M119X",
       "title": "Biology and Behavioral Neuroscience of Aging",
       "units": 4.0,
-      "description": "(Same as Gerontology M119X.) Lecture, three hours. Designed for juniors/seniors. Biologic mechanisms of aging process and its terminal phase, death, have been increasingly studied in recent years. Establishment of what is known experimentally about biology and behavioral neuroscience of aging and evaluation of theories developed to account for this knowledge.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gerontology M119X.) Lecture, three hours. Designed for juniors/seniors. Biologic mechanisms of aging process and its terminal phase, death, have been increasingly studied in recent years. Establishment of what is known experimentally about biology and behavioral neuroscience of aging and evaluation of theories developed to account for this knowledge.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -3102,7 +3174,7 @@
       "number": "M139",
       "title": "Perspectives on Autism and Neurodiversity",
       "units": 4.0,
-      "description": "(Same as Disability Studies M139.) Seminar, three and one half hours. Genealogy of autism as diagnostic category and cultural phenomenon from its historical roots as new, rare, and obscure condition in early 1940s to its current contested status as minority identity and/or global epidemic. Examination of material sourced from various\u2026 For more content click the Read More button below.",
+      "description": "(Same as Disability Studies M139.) Seminar, three and one half hours. Genealogy of autism as diagnostic category and cultural phenomenon from its historical roots as new, rare, and obscure condition in early 1940s to its current contested status as minority identity and/or global epidemic. Examination of material sourced from various… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -3115,7 +3187,7 @@
       "number": "M166",
       "title": "Neurobiology of Bias and Discrimination",
       "units": 4.0,
-      "description": "(Same as Neuroscience M187 and Physiological Science M106.) Lecture, four hours. Limited to junior/senior neuroscience, physiological science, and psychology students. Exploration of aspects of mammalian brain function that generate preference, bias, and discrimination. Consideration of research at multiple levels of analysis from genetics to neural circuits to behavior. Discussion of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Neuroscience M187 and Physiological Science M106.) Lecture, four hours. Limited to junior/senior neuroscience, physiological science, and psychology students. Exploration of aspects of mammalian brain function that generate preference, bias, and discrimination. Consideration of research at multiple levels of analysis from genetics to neural circuits to behavior. Discussion of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -3128,7 +3200,7 @@
       "number": "174",
       "title": "Brain and Behavioral Health: Childhood and Adolescence",
       "units": 5.0,
-      "description": "Seminar, three hours. Limited to junior/senior Neuroscience or Psychology majors. Integration of problem-based learning approach to teach foundational information about application of brain and behavioral science to understanding and promotion of child and adolescent mental health. Exploration of integration of developmental psychopathology, applied treatment research, and public policy to identify\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Limited to junior/senior Neuroscience or Psychology majors. Integration of problem-based learning approach to teach foundational information about application of brain and behavioral science to understanding and promotion of child and adolescent mental health. Exploration of integration of developmental psychopathology, applied treatment research, and public policy to identify… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -3141,7 +3213,7 @@
       "number": "176",
       "title": "Brain and Behavioral Health: Adulthood and Aging",
       "units": 5.0,
-      "description": "Seminar, five hours. Limited to junior/senior Neuroscience or Psychology majors. Integration of problem-based learning approach to teach foundational information about application of brain and behavioral science to understanding and promotion of mental health during adulthood and aging. Exploration of integration of developmental psychopathology, applied treatment research, and public policy to\u2026 For more content click the Read More button below.",
+      "description": "Seminar, five hours. Limited to junior/senior Neuroscience or Psychology majors. Integration of problem-based learning approach to teach foundational information about application of brain and behavioral science to understanding and promotion of mental health during adulthood and aging. Exploration of integration of developmental psychopathology, applied treatment research, and public policy to… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -3154,7 +3226,7 @@
       "number": "M182",
       "title": "Personal Brain Management",
       "units": 4.0,
-      "description": "(Same as Neuroscience M161.) Seminar, four hours. Basic overview of brain function and consideration of some management methods that exist already, and what future may hold. New methods for predicting our own futures and modeling what if scenarios that might alter risks and benefits of different courses of action, based\u2026 For more content click the Read More button below.",
+      "description": "(Same as Neuroscience M161.) Seminar, four hours. Basic overview of brain function and consideration of some management methods that exist already, and what future may hold. New methods for predicting our own futures and modeling what if scenarios that might alter risks and benefits of different courses of action, based… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -3167,7 +3239,7 @@
       "number": "10",
       "title": "Introduction to Statistical Reasoning",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -3180,7 +3252,7 @@
       "number": "13",
       "title": "Introduction to Statistical Methods for Life and Health Sciences",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

@@ -245,9 +245,15 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PORTGSE 25",
-          "PORTGSE 26",
-          "PORTGSE 27"
+          [
+            "PORTGSE 25"
+          ],
+          [
+            "PORTGSE 26"
+          ],
+          [
+            "PORTGSE 27"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -260,7 +266,7 @@
       "number": "198A",
       "title": "Senior Honors Research in Portuguese I",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -325,8 +331,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PORTGSE 3",
-          "PORTGSE 11B"
+          [
+            "PORTGSE 3"
+          ],
+          [
+            "PORTGSE 11B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -342,7 +352,7 @@
       "number": "27",
       "title": "Writing Studies: Afro-Luso-Brazilian World",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 3 or 11B. Further development of communicative skills, especially writing. Discussions and activities increase knowledge and ability to comprehend variety of forms of cultural production in Portuguese language. Students continue to acquire cultural competence. Introduction to study of literature, with specific focus on themes and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 3 or 11B. Further development of communicative skills, especially writing. Discussions and activities increase knowledge and ability to comprehend variety of forms of cultural production in Portuguese language. Students continue to acquire cultural competence. Introduction to study of literature, with specific focus on themes and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 3 or 11B.",
       "prereqs_parsed": {
         "required": [],

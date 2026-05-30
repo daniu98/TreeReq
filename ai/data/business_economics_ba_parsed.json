@@ -184,7 +184,7 @@
       "number": "103",
       "title": "Introduction to Econometrics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103L. Introduction to theory and practice of univariate regression analysis with emphasis on its use in economics. Introduction to method of least\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103L. Introduction to theory and practice of univariate regression analysis with emphasis on its use in economics. Introduction to method of least… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 11, and 41 or Mathematics 170A and 170B or 170E and 170S or Statistics 100A and 100B. Enforced corequisite: 103L.",
       "prereqs_parsed": {
         "required": [
@@ -264,7 +264,7 @@
       "number": "104",
       "title": "Data Science for Economists",
       "units": 4.0,
-      "description": "Lecture, three hours; laboratory, one hour. Enforced requisites: courses 11, 103. Enforced corequisite: course 104L. In-depth discussion of multivariate regression. Introduction to estimation of multivariate regression, and confidence intervals and hypothesis tests in context of multivariate regression. Discussion of instrumental variables and binary choice models. Emphasis on hands-on experience on\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, one hour. Enforced requisites: courses 11, 103. Enforced corequisite: course 104L. In-depth discussion of multivariate regression. Introduction to estimation of multivariate regression, and confidence intervals and hypothesis tests in context of multivariate regression. Discussion of instrumental variables and binary choice models. Emphasis on hands-on experience on… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 11, 103. Enforced corequisite: course 104L.",
       "prereqs_parsed": {
         "required": [
@@ -339,7 +339,7 @@
       "number": "198A",
       "title": "Honors Research in Economics I",
       "units": 4.0,
-      "description": "Tutorial, three hours. Requisites: courses 11, 101, 102. Limited to senior departmental honors program students. First term of two-term sequence in which students develop honors thesis or comprehensive research project under direct supervision of faculty member. Individual contract required. In Progress grading (credit to be given only on completion of\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, three hours. Requisites: courses 11, 101, 102. Limited to senior departmental honors program students. First term of two-term sequence in which students develop honors thesis or comprehensive research project under direct supervision of faculty member. Individual contract required. In Progress grading (credit to be given only on completion of… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 11, 101, 102.",
       "prereqs_parsed": {
         "required": [
@@ -384,7 +384,13 @@
       "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 1. Introduction to principles of economic analysis, economic institutions, and issues of economic policy. Emphasis on aggregative economics, including national income, monetary and fiscal policy, and international trade. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisite: course 1.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "ECON 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "ECON 102"
@@ -396,7 +402,7 @@
       "number": "41",
       "title": "Probability and Statistics for Economists",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B, with grades of C or better. Not open to students with credit for former Statistics 11. Introduction to theory and practice of mathematical statistics with emphasis on its use in economics. Introduction of basic statistical concepts such as random\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B, with grades of C or better. Not open to students with credit for former Statistics 11. Introduction to theory and practice of mathematical statistics with emphasis on its use in economics. Introduction of basic statistical concepts such as random… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B, with grades of C or better.",
       "prereqs_parsed": {
         "required": [
@@ -419,7 +425,7 @@
       "number": "131B",
       "title": "Specialized Writing: Business and Social Policy",
       "units": 5.0,
-      "description": "Lecture, four hours. Requisite: satisfaction of Entry-Level Writing and English Composition requirements. Designed for juniors/seniors. Advanced writing course designed to help students develop stylistic, formal, and argumentative sophistication in various rhetorical contexts, including different sections that emphasize rhetorical values of major professions and research areas. May be taken independently for\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Requisite: satisfaction of Entry-Level Writing and English Composition requirements. Designed for juniors/seniors. Advanced writing course designed to help students develop stylistic, formal, and argumentative sophistication in various rhetorical contexts, including different sections that emphasize rhetorical values of major professions and research areas. May be taken independently for… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: satisfaction of Entry-Level Writing and English Composition requirements.",
       "prereqs_parsed": {
         "required": []
@@ -432,8 +438,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -456,8 +462,8 @@
       "number": "31AL",
       "title": "Differential and Integral Calculus Laboratory",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Not open for credit to students with credit… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -477,8 +483,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"

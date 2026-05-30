@@ -213,7 +213,7 @@
       "number": "100",
       "title": "Introduction to Biostatistics",
       "units": 4.0,
-      "description": "(Formerly numbered 100A.) Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: one biological or physical sciences course. Suitable for juniors/seniors. Limited to nonmajors. Not open for credit to students with credit for course 120. Students who have completed courses in statistics may enroll only with consent of instructor.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 100A.) Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: one biological or physical sciences course. Suitable for juniors/seniors. Limited to nonmajors. Not open for credit to students with credit for course 120. Students who have completed courses in statistics may enroll only with consent of instructor.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -226,7 +226,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -249,8 +249,8 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -285,8 +285,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -310,8 +310,8 @@
       "number": "30A",
       "title": "Organic Chemistry I: Structure and Reactivity",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C– or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B"
@@ -332,8 +332,8 @@
       "number": "30AL",
       "title": "General Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -360,8 +360,8 @@
       "number": "C121",
       "title": "Probabilistic Models in Computational Genomics",
       "units": 4.0,
-      "description": "(Formerly numbered CM121.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
+      "description": "(Formerly numbered CM121.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C– or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C– or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
       "prereqs_parsed": {
         "required": [
           {
@@ -393,7 +393,7 @@
       "number": "CM186",
       "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
       "units": 5.0,
-      "description": "(Same as Bioengineering CM186, Computational and Systems Biology M186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and\u2026 For more content click the Read More button below.",
+      "description": "(Same as Bioengineering CM186, Computational and Systems Biology M186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B.",
       "prereqs_parsed": {
         "required": [],
@@ -456,14 +456,18 @@
       "number": "10B",
       "title": "Intermediate Programming",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "COM SCI 10A",
-          "COM SCI 31"
+          [
+            "COM SCI 10A"
+          ],
+          [
+            "COM SCI 31"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -517,10 +521,19 @@
       "number": "16A",
       "title": "Python with Applications I",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C\u2013 or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 10A, Computer Science 31, or equivalent, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C– or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 10A, Computer Science 31, or equivalent, with grades of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "COMPTNG 10A",
+            "COMPTNG 31"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "COMPTNG 40A"
@@ -532,14 +545,18 @@
       "number": "20A",
       "title": "Principles of Java Language with Applications",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "COMPTNG 10A",
-          "COMPTNG 31"
+          [
+            "COMPTNG 10A"
+          ],
+          [
+            "COMPTNG 31"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -554,8 +571,8 @@
       "number": "40A",
       "title": "Introduction to Programming for Internet",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C\u2013 or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C– or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -582,7 +599,7 @@
       "number": "133",
       "title": "Elements of Theoretical and Computational Biology",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 1, 2, 3, 4, 23L, and Mathematics 3A, 3B, and 3C, or 31A and 31B, or Life Sciences 30B. Strongly recommended: elementary statistics course. Introduction of basic core mathematical ideas and models necessary to understand contemporary ecology and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, two hours. Requisites: Life Sciences 1, 2, 3, 4, 23L, and Mathematics 3A, 3B, and 3C, or 31A and 31B, or Life Sciences 30B. Strongly recommended: elementary statistics course. Introduction of basic core mathematical ideas and models necessary to understand contemporary ecology and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 1, 2, 3, 4, 23L, and Mathematics 3A, 3B, and 3C, or 31A and 31B, or Life Sciences 30B.",
       "prereqs_parsed": {
         "required": [
@@ -618,7 +635,7 @@
       "number": "C119A",
       "title": "Mathematical and Computational Modeling in Ecology",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 30B or Mathematics 3B or 31A. Recommended: courses 100, 122, Life Sciences 1 or 7B, Mathematics 3C. Introduction to modeling dynamics of ecological systems, including formulation and analysis of mathematical models, basic techniques of scientific programming, probability and stochastic modeling, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Life Sciences 30B or Mathematics 3B or 31A. Recommended: courses 100, 122, Life Sciences 1 or 7B, Mathematics 3C. Introduction to modeling dynamics of ecological systems, including formulation and analysis of mathematical models, basic techniques of scientific programming, probability and stochastic modeling, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Life Sciences 30B or Mathematics 3B or 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -641,7 +658,7 @@
       "number": "C135",
       "title": "Population Genetics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: Life Sciences 4 or 7A. Strongly recommended: course 100, Mathematics 31A, and 31B or Life Sciences 30B. Basic principles of genetics of population, dealing with genetic structure of natural populations and mechanisms of evolution. Equilibrium conditions and forces altering gene frequencies, polygenic\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: Life Sciences 4 or 7A. Strongly recommended: course 100, Mathematics 31A, and 31B or Life Sciences 30B. Basic principles of genetics of population, dealing with genetic structure of natural populations and mechanisms of evolution. Equilibrium conditions and forces altering gene frequencies, polygenic… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: Life Sciences 4 or 7A.",
       "prereqs_parsed": {
         "required": [],
@@ -663,7 +680,7 @@
       "number": "2B",
       "title": "Social Knowledge and Social Power",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours. History of social knowledge and social power in the 19th and 20th centuries. Everyday ideas and practices about human nature, common sense, and community and relation of those practices to social thought, social engineering, and social science. Themes include development of social knowledges through\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours. History of social knowledge and social power in the 19th and 20th centuries. Everyday ideas and practices about human nature, common sense, and community and relation of those practices to social thought, social engineering, and social science. Themes include development of social knowledges through… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -879,7 +896,7 @@
       "number": "134",
       "title": "Linear and Nonlinear Systems of Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 33B. Dynamical systems analysis of nonlinear systems of differential equations. One- and two- dimensional flows. Fixed points, limit cycles, and stability analysis. Bifurcations and normal forms. Elementary geometrical and topological results. Applications to problems in biology, chemistry, physics, and other fields. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 33B. Dynamical systems analysis of nonlinear systems of differential equations. One- and two- dimensional flows. Fixed points, limit cycles, and stability analysis. Bifurcations and normal forms. Elementary geometrical and topological results. Applications to problems in biology, chemistry, physics, and other fields. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 33B.",
       "prereqs_parsed": {
         "required": [
@@ -898,7 +915,7 @@
       "number": "151A",
       "title": "Applied Numerical Methods",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [
@@ -924,7 +941,7 @@
       "number": "170A",
       "title": "Probability Theory I",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33A, 131A. Not open to students with credit for course 170E, Electrical and Computer Engineering 131A, or Statistics 100A. Rigorous presentation of probability theory based on real analysis. Probability space, probability and conditional probability, independence, Bayes\u2019 rule, discrete and continuous random\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33A, 131A. Not open to students with credit for course 170E, Electrical and Computer Engineering 131A, or Statistics 100A. Rigorous presentation of probability theory based on real analysis. Probability space, probability and conditional probability, independence, Bayes’ rule, discrete and continuous random… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 32B, 33A, 131A.",
       "prereqs_parsed": {
         "required": [
@@ -948,7 +965,7 @@
       "number": "170B",
       "title": "Probability Theory II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 131A, 170A. Continuation of rigorous presentation of probability theory based on real analysis. Moments and generating functions; laws of large numbers, central limit theorem, and convergence in distribution; branching processes; random walks; Poisson and other random processes in continuous time. Advance\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 131A, 170A. Continuation of rigorous presentation of probability theory based on real analysis. Moments and generating functions; laws of large numbers, central limit theorem, and convergence in distribution; branching processes; random walks; Poisson and other random processes in continuous time. Advance… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 131A, 170A.",
       "prereqs_parsed": {
         "required": [
@@ -971,7 +988,15 @@
       "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, 61. Strongly recommended: course 115A. Designed for mathematics and computer science and engineering students. Graphs and trees. Planarity, graph colorings. Set systems. Ramsey theory. Random graphs. Linear algebra methods. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 31A, 31B, 61.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31A",
+          "MATH 31B",
+          "MATH 61"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -981,8 +1006,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1012,8 +1037,8 @@
       "number": "31AL",
       "title": "Differential and Integral Calculus Laboratory",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Not open for credit to students with credit… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1033,8 +1058,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1061,8 +1086,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1086,8 +1111,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -1111,8 +1136,8 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1138,10 +1163,16 @@
       "number": "33B",
       "title": "Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C– or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "COM SCI CM186",
@@ -1174,9 +1205,9 @@
       "course_id": "NEUROSC M101A",
       "dept": "NEUROSC",
       "number": "M101A",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dCellular and Systems Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Cellular and Systems Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C\u2013 or better to\u2026 For more content click the Read More button below.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C– or better to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B.",
       "prereqs_parsed": {
         "required": [
@@ -1209,10 +1240,10 @@
       "course_id": "NEUROSC M101B",
       "dept": "NEUROSC",
       "number": "M101B",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dMolecular and Developmental Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Molecular and Developmental Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M101A (with grade of C\u2013 or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course M101A (with grade of C\u2013 or better), Life Sciences 7C.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M101A (with grade of C– or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M101A (with grade of C– or better), Life Sciences 7C.",
       "prereqs_parsed": {
         "required": [
           "NEUROSC M101A",
@@ -1229,10 +1260,10 @@
       "course_id": "NEUROSC M101C",
       "dept": "NEUROSC",
       "number": "M101C",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dBehavioral and Cognitive Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Behavioral and Cognitive Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175C, Physiological Science M180C, and Psychology M117C.) Lecture, four hours; discussion, 90 minutes. Requisite: course M101A with grade of C\u2013 or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course M101A with grade of C\u2013 or better.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175C, Physiological Science M180C, and Psychology M117C.) Lecture, four hours; discussion, 90 minutes. Requisite: course M101A with grade of C– or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M101A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "NEUROSC M101A"
@@ -1250,7 +1281,7 @@
       "number": "M124",
       "title": "Philosophy of Science: Historical",
       "units": 4.0,
-      "description": "(Formerly numbered 124.) (Same as Chemistry M124.) Lecture, three to four hours; discussion, one hour (when scheduled). Preparation: one course in philosophy or a physical science. Historical introduction to philosophy of science. Discussion of general topics in context of actual episodes in development of natural sciences. May be repeated for\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 124.) (Same as Chemistry M124.) Lecture, three to four hours; discussion, one hour (when scheduled). Preparation: one course in philosophy or a physical science. Historical introduction to philosophy of science. Discussion of general topics in context of actual episodes in development of natural sciences. May be repeated for… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1292,7 +1323,16 @@
       "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A. Motion, Newton laws, work, energy, linear and angular momentum, rotation, equilibrium, gravitation. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: Mathematics 31A, 31B. Enforced corequisite: Mathematics 32A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31A",
+          "MATH 31B"
+        ],
+        "corequisites": [
+          "MATH 32A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "PHYSICS 1B"
@@ -1333,9 +1373,15 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "STATS 100A",
-          "MATH 170A",
-          "MATH 170E"
+          [
+            "STATS 100A"
+          ],
+          [
+            "MATH 170A"
+          ],
+          [
+            "MATH 170E"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1350,7 +1396,7 @@
       "number": "100C",
       "title": "Linear Models",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Mathematics 170S. Theory of linear models, with emphasis on matrix approach to linear regression. Topics include model fitting, extra sums of squares principle, testing general linear hypothesis in regression, inference procedures, Gauss/Markov theorem, examination of residuals, principle component regression,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Mathematics 170S. Theory of linear models, with emphasis on matrix approach to linear regression. Topics include model fitting, extra sums of squares principle, testing general linear hypothesis in regression, inference procedures, Gauss/Markov theorem, examination of residuals, principle component regression,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100B or Mathematics 170S.",
       "prereqs_parsed": {
         "required": [],
@@ -1372,7 +1418,7 @@
       "number": "101A",
       "title": "Introduction to Data Analysis and Regression",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20. Recommended: course 102A. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20. Recommended: course 102A. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: one course from course 10, 12, 13, 15, Economics 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination, and course 20.",
       "prereqs_parsed": {
         "required": [
@@ -1422,7 +1468,7 @@
       "number": "101C",
       "title": "Introduction to Statistical Models and Data Mining",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 101A. Recommended: course 101B. Designed for juniors/seniors. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and generalized linear model (e.g., logistic regression). Special attention to modern extensions of regression, including regression diagnostics, graphical procedures, and bootstrapping for\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 101A. Recommended: course 101B. Designed for juniors/seniors. Applied regression analysis, with emphasis on general linear model (e.g., multiple regression) and generalized linear model (e.g., logistic regression). Special attention to modern extensions of regression, including regression diagnostics, graphical procedures, and bootstrapping for… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 101A.",
       "prereqs_parsed": {
         "required": [

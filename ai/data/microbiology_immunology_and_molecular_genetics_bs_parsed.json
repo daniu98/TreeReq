@@ -331,7 +331,7 @@
       "number": "CM145",
       "title": "Molecular Biotechnology for Engineers",
       "units": 4.0,
-      "description": "(Same as Chemical Engineering CM145.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemical Engineering 45 or Life Sciences 7C. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed\u2026 For more content click the Read More button below.",
+      "description": "(Same as Chemical Engineering CM145.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemical Engineering 45 or Life Sciences 7C. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Chemical Engineering 45 or Life Sciences 7C.",
       "prereqs_parsed": {
         "required": [],
@@ -353,7 +353,7 @@
       "number": "CM178",
       "title": "Introduction to Biomaterials",
       "units": 4.0,
-      "description": "(Same as Materials Science CM180.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface\u2026 For more content click the Read More button below.",
+      "description": "(Same as Materials Science CM180.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104.",
       "prereqs_parsed": {
         "required": [],
@@ -379,7 +379,7 @@
       "number": "100",
       "title": "Introduction to Biostatistics",
       "units": 4.0,
-      "description": "(Formerly numbered 100A.) Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: one biological or physical sciences course. Suitable for juniors/seniors. Limited to nonmajors. Not open for credit to students with credit for course 120. Students who have completed courses in statistics may enroll only with consent of instructor.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 100A.) Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: one biological or physical sciences course. Suitable for juniors/seniors. Limited to nonmajors. Not open for credit to students with credit for course 120. Students who have completed courses in statistics may enroll only with consent of instructor.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -419,8 +419,8 @@
       "number": "110A",
       "title": "Physical Chemistry: Chemical Thermodynamics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisites: course 20B, Mathematics 32A or 3C (for life sciences majors), Physics 1A, 1B, and 1C (may be taken concurrently), or 1AH, 1BH, and 1CH (may be taken concurrently), or 5A, 5B, and 5C (may be taken concurrently), or 6A, 6B,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 20B, Mathematics 32A or 3C (for life sciences majors), Physics 1A, 1B, and 1C (may be taken concurrently), or 1AH, 1BH, and 1CH (may be taken concurrently), or 5A, 5B, and 5C (may be taken concurrently), or 6A, 6B,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; tutorial, one hour. Requisites: course 20B, Mathematics 32A or 3C (for life sciences majors), Physics 1A, 1B, and 1C (may be taken concurrently), or 1AH, 1BH, and 1CH (may be taken concurrently), or 5A, 5B, and 5C (may be taken concurrently), or 6A, 6B,… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 20B, Mathematics 32A or 3C (for life sciences majors), Physics 1A, 1B, and 1C (may be taken concurrently), or 1AH, 1BH, and 1CH (may be taken concurrently), or 5A, 5B, and 5C (may be taken concurrently), or 6A, 6B,… For more content click the Read More button below.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -465,8 +465,8 @@
       "number": "136",
       "title": "Organic Structural Methods",
       "units": 5.0,
-      "description": "Lecture, two hours; laboratory, eight hours. Requisites: courses 30C and 30CL, with grades of C\u2013 or better. Laboratory course in organic structure determination by chemical and spectroscopic methods; microtechniques. P/NP or letter grading.",
-      "prereqs_raw": "Requisites: courses 30C and 30CL, with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, eight hours. Requisites: courses 30C and 30CL, with grades of C– or better. Laboratory course in organic structure determination by chemical and spectroscopic methods; microtechniques. P/NP or letter grading.",
+      "prereqs_raw": "Requisites: courses 30C and 30CL, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30C",
@@ -485,7 +485,7 @@
       "number": "14A",
       "title": "General Chemistry for Life Scientists I",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
       "prereqs_parsed": {
         "required": [],
@@ -511,8 +511,8 @@
       "number": "14B",
       "title": "General Chemistry for Life Scientists II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better. Not open to students with credit for course 14BE, 20B,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -553,10 +553,30 @@
       "number": "14BL",
       "title": "General and Organic Chemistry Laboratory I",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C– or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C– or better. Enforced corequisite: course 14B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 14A",
+          "CHEM 20A",
+          "CHEM 20AH"
+        ],
+        "corequisites": [
+          "CHEM 14B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A"
+          ],
+          [
+            "CHEM 20A"
+          ],
+          [
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 153L",
@@ -569,8 +589,8 @@
       "number": "14C",
       "title": "Structure of Organic Molecules",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C\u2013 or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 14B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C– or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14B"
@@ -593,8 +613,8 @@
       "number": "14D",
       "title": "Organic Reactions and Pharmaceuticals",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14C with grade of C\u2013 or better. Organic reactions, nucleophilic and electrophilic substitutions and additions; electrophilic aromatic substitutions, carbonyl reactions, catalysis, molecular basis of drug action, and organic chemistry of pharmaceuticals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14C with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14C with grade of C– or better. Organic reactions, nucleophilic and electrophilic substitutions and additions; electrophilic aromatic substitutions, carbonyl reactions, catalysis, molecular basis of drug action, and organic chemistry of pharmaceuticals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14C with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14C"
@@ -616,8 +636,8 @@
       "number": "153A",
       "title": "Biochemistry: Introduction to Structure, Enzymes, and Metabolism",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C\u2013 or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C\u2013 or better.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C– or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -655,8 +675,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "CHEM 153A",
-          "CHEM 153AH"
+          [
+            "CHEM 153A"
+          ],
+          [
+            "CHEM 153AH"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -678,8 +702,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "CHEM 153A",
-          "CHEM 153AH"
+          [
+            "CHEM 153A"
+          ],
+          [
+            "CHEM 153AH"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -692,8 +720,8 @@
       "number": "153L",
       "title": "Biochemical Methods I",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, four hours. Requisites: courses 14BL or 20L and 30AL, and 153A or 153AH (may be taken concurrently), with grades of C\u2013 or better. Integrated term-long project involving biofuel production in bacteria. Purification of key enzyme for alcohol production from bacteria via affinity chromatography. Assessment of protein\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: courses 14BL or 20L and 30AL, and 153A or 153AH (may be taken concurrently), with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, four hours. Requisites: courses 14BL or 20L and 30AL, and 153A or 153AH (may be taken concurrently), with grades of C– or better. Integrated term-long project involving biofuel production in bacteria. Purification of key enzyme for alcohol production from bacteria via affinity chromatography. Assessment of protein… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 14BL or 20L and 30AL, and 153A or 153AH (may be taken concurrently), with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30AL"
@@ -723,8 +751,8 @@
       "number": "154",
       "title": "Biochemical Methods II",
       "units": 5.0,
-      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 153A or 153AH, 153B or 153BH, and 153L, with grades of C\u2013 or better. Recommended: course 156. Two to three major laboratory projects using biochemical laboratory techniques to investigate contemporary problems in biochemistry. Topics include transcription activation, molecular basis of DNA-protein\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: courses 153A or 153AH, 153B or 153BH, and 153L, with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, eight hours. Enforced requisites: courses 153A or 153AH, 153B or 153BH, and 153L, with grades of C– or better. Recommended: course 156. Two to three major laboratory projects using biochemical laboratory techniques to investigate contemporary problems in biochemistry. Topics include transcription activation, molecular basis of DNA-protein… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 153A or 153AH, 153B or 153BH, and 153L, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 153A",
@@ -773,8 +801,8 @@
       "number": "171",
       "title": "Intermediate Inorganic Chemistry",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 30B with grade of C\u2013 or better. Chemical bonding; structure and bonding in solid state; main group, transition metal, lanthanide and actinide compounds and reactions; catalysis, spectroscopy, special topics. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 30B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 30B with grade of C– or better. Chemical bonding; structure and bonding in solid state; main group, transition metal, lanthanide and actinide compounds and reactions; catalysis, spectroscopy, special topics. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 30B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30B"
@@ -794,7 +822,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [
@@ -821,10 +849,29 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "BIOENGR CM178",
@@ -841,8 +888,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -878,8 +925,8 @@
       "number": "30A",
       "title": "Organic Chemistry I: Structure and Reactivity",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C– or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B"
@@ -903,8 +950,8 @@
       "number": "30AL",
       "title": "General Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -934,8 +981,8 @@
       "number": "30B",
       "title": "Organic Chemistry II: Reactivity, Synthesis, and Spectroscopy",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C– or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -983,8 +1030,8 @@
       "number": "C172",
       "title": "Advanced Inorganic Chemistry",
       "units": 4.0,
-      "description": "(Formerly numbered 172.) Lecture, three hours; discussion, one hour. Requisite: course 171 with grade of C\u2013 or better. Systematic approach to modern inorganic chemistry, structure and bonding of inorganic molecules and solids, structure/reactivity relationships, vibrational spectra of complexes, electronic structure and ligand-field theory, mechanisms of inorganic reactions, bonding and spectroscopy\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: course 171 with grade of C\u2013 or better.",
+      "description": "(Formerly numbered 172.) Lecture, three hours; discussion, one hour. Requisite: course 171 with grade of C– or better. Systematic approach to modern inorganic chemistry, structure and bonding of inorganic molecules and solids, structure/reactivity relationships, vibrational spectra of complexes, electronic structure and ligand-field theory, mechanisms of inorganic reactions, bonding and spectroscopy… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: course 171 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 171"
@@ -1002,7 +1049,7 @@
       "number": "C181",
       "title": "Polymer Chemistry",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 30B, 110A. Synthesis of organic and inorganic macromolecules, thermodynamic and statistical mechanical descriptions of unique properties of polymers, polymer characterization methods, and special topics such as conductive and biomedical polymers and polymeric reagents in synthesis. Concurrently scheduled with course C281. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 30B, 110A. Synthesis of organic and inorganic macromolecules, thermodynamic and statistical mechanical descriptions of unique properties of polymers, polymer characterization methods, and special topics such as conductive and biomedical polymers and polymeric reagents in synthesis. Concurrently scheduled with course C281. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 30B, 110A.",
       "prereqs_parsed": {
         "required": [
@@ -1022,7 +1069,7 @@
       "number": "M117",
       "title": "Structure, Patterns, and Polyhedra",
       "units": 5.0,
-      "description": "(Same as Honors Collegium M180.) Lecture, four hours; laboratory, two hours. Exploration of structures and their geometric underpinnings, with examples and applications from architecture (space frames, domes), biology (enzyme complexes, viruses), chemistry (symmetry, molecular cages), design (tiling), engineering (space filling), and physics (crystal structures) to effect working knowledge of symmetry,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Honors Collegium M180.) Lecture, four hours; laboratory, two hours. Exploration of structures and their geometric underpinnings, with examples and applications from architecture (space frames, domes), biology (enzyme complexes, viruses), chemistry (symmetry, molecular cages), design (tiling), engineering (space filling), and physics (crystal structures) to effect working knowledge of symmetry,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1035,8 +1082,8 @@
       "number": "C121",
       "title": "Probabilistic Models in Computational Genomics",
       "units": 4.0,
-      "description": "(Formerly numbered CM121.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
+      "description": "(Formerly numbered CM121.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C– or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C– or better, and one course from Civil and Environmental Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
       "prereqs_parsed": {
         "required": [
           "COM SCI 32",
@@ -1044,11 +1091,21 @@
         ],
         "corequisites": [],
         "one_of": [
-          "CIVIL AND ENVIRONMENTAL ENGINEERING 110",
-          "ELECTRICAL AND COMPUTER ENGINEERING 131A",
-          "MATH 170A",
-          "MATH 170E",
-          "STATISTICS 100A"
+          [
+            "CIVIL AND ENVIRONMENTAL ENGINEERING 110"
+          ],
+          [
+            "ELECTRICAL AND COMPUTER ENGINEERING 131A"
+          ],
+          [
+            "MATH 170A"
+          ],
+          [
+            "MATH 170E"
+          ],
+          [
+            "STATISTICS 100A"
+          ]
         ],
         "min_grade": "C-",
         "recommended": []
@@ -1061,8 +1118,8 @@
       "number": "C122",
       "title": "Algorithms in Computational Genomics",
       "units": 4.0,
-      "description": "(Formerly numbered CM122.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Course C121 is not\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
+      "description": "(Formerly numbered CM122.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C– or better, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Course C121 is not… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C– or better, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
       "prereqs_parsed": {
         "required": [
           "COM SCI 32",
@@ -1070,11 +1127,21 @@
         ],
         "corequisites": [],
         "one_of": [
-          "CIV ENG 110",
-          "ELEC&COMP ENG 131A",
-          "MATH 170A",
-          "MATH 170E",
-          "STAT 100A"
+          [
+            "CIV ENG 110"
+          ],
+          [
+            "ELEC&COMP ENG 131A"
+          ],
+          [
+            "MATH 170A"
+          ],
+          [
+            "MATH 170E"
+          ],
+          [
+            "STAT 100A"
+          ]
         ],
         "min_grade": "C-",
         "recommended": []
@@ -1087,8 +1154,8 @@
       "number": "C124",
       "title": "Machine Learning Applications in Genetics",
       "units": 4.0,
-      "description": "(Formerly numbered CM124.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, Mathematics 33A, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C\u2013 or better, Mathematics 33A, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
+      "description": "(Formerly numbered CM124.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 32 or Program in Computing 10C with grade of C– or better, Mathematics 33A, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A. Prior knowledge… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 32 or Program in Computing 10C with grade of C– or better, Mathematics 33A, and one course from Civil Engineering 110, Electrical and Computer Engineering 131A, Mathematics 170A, Mathematics 170E, or Statistics 100A.",
       "prereqs_parsed": {
         "required": [
           "COM SCI 33A"
@@ -1145,7 +1212,7 @@
       "number": "137",
       "title": "Chemical Communication",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14A, 14B, 14BL, 14C, 14CL, and 14D, or 20A, 20B, 20L, 30A, 30AL, 30B, and 30BL, Life Sciences 1, 2, 3, 23L. Chemical signals are most important means by which organisms communicate. Exploration of how chemical signals are produced, transported, and influence\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14A, 14B, 14BL, 14C, 14CL, and 14D, or 20A, 20B, 20L, 30A, 30AL, 30B, and 30BL, Life Sciences 1, 2, 3, 23L. Chemical signals are most important means by which organisms communicate. Exploration of how chemical signals are produced, transported, and influence… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 14A, 14B, 14BL, 14C, 14CL, and 14D, or 20A, 20B, 20L, 30A, 30AL, 30B, and 30BL, Life Sciences 1, 2, 3, 23L.",
       "prereqs_parsed": {
         "required": [],
@@ -1186,7 +1253,7 @@
       "number": "162",
       "title": "Plant Physiology",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 1, 2, 3, and 23L, or 7A, 7B, 7C, and 23L. Basic aspects of plant function, including photochemical, biochemical, and physiological aspects of photosynthesis. Carbon and nitrogen metabolism and its regulation; organellar interactions and compartmentation. Water relations, ion transport, flowering, hormone\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 1, 2, 3, and 23L, or 7A, 7B, 7C, and 23L. Basic aspects of plant function, including photochemical, biochemical, and physiological aspects of photosynthesis. Carbon and nitrogen metabolism and its regulation; organellar interactions and compartmentation. Water relations, ion transport, flowering, hormone… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 1, 2, 3, and 23L, or 7A, 7B, 7C, and 23L.",
       "prereqs_parsed": {
         "required": [],
@@ -1216,10 +1283,21 @@
       "number": "C135",
       "title": "Population Genetics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: Life Sciences 4 or 7A. Strongly recommended: course 100, Mathematics 31A, and 31B or Life Sciences 30B. Basic principles of genetics of population, dealing with genetic structure of natural populations and mechanisms of evolution. Equilibrium conditions and forces altering gene frequencies, polygenic\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: Life Sciences 4 or 7A. Strongly recommended: course 100, Mathematics 31A, and 31B or Life Sciences 30B. Basic principles of genetics of population, dealing with genetic structure of natural populations and mechanisms of evolution. Equilibrium conditions and forces altering gene frequencies, polygenic… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: Life Sciences 4 or 7A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 4"
+          ],
+          [
+            "LIFE SCI 7A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1229,7 +1307,7 @@
       "number": "100",
       "title": "Principles of Epidemiology",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours. Preparation: one full biological sciences course. Limited to nonmajors. Not open for credit to students with credit for course 120. Introductory course to provide qualified undergraduate students with broad and comprehensive overview of concepts of epidemiology including evaluating public health problems in terms of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours. Preparation: one full biological sciences course. Limited to nonmajors. Not open for credit to students with credit for course 120. Introductory course to provide qualified undergraduate students with broad and comprehensive overview of concepts of epidemiology including evaluating public health problems in terms of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1291,7 +1369,7 @@
       "number": "30A",
       "title": "Mathematics for Life Scientists",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1326,7 +1404,7 @@
       "number": "40",
       "title": "Statistics of Biological Systems",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 30A.",
       "prereqs_parsed": {
         "required": [
@@ -1384,7 +1462,13 @@
       "description": "Lecture, three hours; discussion, 75 minutes. Enforced requisite: course 7B. Organization of cells into tissues and organs and principles of physiology of organ systems. Introduction to human genetics and genomics. Letter grading.",
       "prereqs_raw": "Enforced requisite: course 7B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LIFESCI 7B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "LIFESCI 107"
@@ -1396,7 +1480,7 @@
       "number": "7L",
       "title": "Introduction to Laboratory and Scientific Methodology",
       "units": 3.0,
-      "description": "(Formerly numbered 23L.) Lecture, one hour; laboratory, three hours. Requisite: course 7B. Recommended to be taken concurrently with course 7C. Introductory life sciences laboratory designed for undergraduate students. Opportunity to conduct wet-laboratory and cutting-edge bioinformatics laboratory experiments. Students work in groups of three conducting experiments in areas of physiology, metabolism,\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 23L.) Lecture, one hour; laboratory, three hours. Requisite: course 7B. Recommended to be taken concurrently with course 7C. Introductory life sciences laboratory designed for undergraduate students. Opportunity to conduct wet-laboratory and cutting-edge bioinformatics laboratory experiments. Students work in groups of three conducting experiments in areas of physiology, metabolism,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 7B.",
       "prereqs_parsed": {
         "required": [
@@ -1415,8 +1499,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 1"
@@ -1439,8 +1523,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1462,10 +1546,16 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "BIOENGR 100",
@@ -1481,8 +1571,8 @@
       "number": "3A",
       "title": "Calculus for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C– or better. Not open for credit to students with credit in another… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1506,8 +1596,8 @@
       "number": "3B",
       "title": "Calculus for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C\u2013 or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 3A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C– or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 3A"
@@ -1529,8 +1619,8 @@
       "number": "3C",
       "title": "Ordinary Differential Equations with Linear Algebra for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C\u2013 or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 3B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C– or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 3B"
@@ -1551,7 +1641,7 @@
       "number": "100",
       "title": "Introduction to Cell Biology",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Not open for credit to Molecular, Cell, and Developmental Biology majors or to students with credit for course 165A. Analysis of cell organization, structure, and function at molecular level. Cell membranes\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Not open for credit to Molecular, Cell, and Developmental Biology majors or to students with credit for course 165A. Analysis of cell organization, structure, and function at molecular level. Cell membranes… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, and 23L.",
       "prereqs_parsed": {
         "required": [],
@@ -1580,7 +1670,7 @@
       "number": "104AL",
       "title": "Research Immersion Laboratory in Developmental Biology",
       "units": 5.0,
-      "description": "Lecture, two hours; laboratory, eight hours. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Course 104AL is requisite to 104BL. Limited to Molecular, Cell, and Developmental Biology and Microbiology, Immunology, and Molecular Genetics majors. Discovery-based research using sea urchins as model system. Students determine\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, eight hours. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Course 104AL is requisite to 104BL. Limited to Molecular, Cell, and Developmental Biology and Microbiology, Immunology, and Molecular Genetics majors. Discovery-based research using sea urchins as model system. Students determine… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
       "prereqs_parsed": {
         "required": [],
@@ -1610,10 +1700,27 @@
       "number": "138",
       "title": "Developmental Biology",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Development of understanding of fundamental molecular mechanisms and cellular activities guiding formation of complex organism from single fertilized egg. Development of model organisms to understand conserved nature of developmental decisions\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Development of understanding of fundamental molecular mechanisms and cellular activities guiding formation of complex organism from single fertilized egg. Development of model organisms to understand conserved nature of developmental decisions… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MCD BIO 3",
+            "MCD BIO 4",
+            "MCD BIO 23L"
+          ],
+          [
+            "MCD BIO 7A",
+            "MCD BIO 7B",
+            "MCD BIO 7C",
+            "MCD BIO 23L",
+            "MCD BIO 107"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "MCD BIO 143"
@@ -1656,7 +1763,7 @@
       "number": "144",
       "title": "Molecular Biology of Cellular Processes",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Not open for credit to students with credit for Chemistry 153B. Development of thorough understanding of fundamentals of modern molecular biology both from perspective of known molecular mechanisms for regulating\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Not open for credit to students with credit for Chemistry 153B. Development of thorough understanding of fundamentals of modern molecular biology both from perspective of known molecular mechanisms for regulating… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
       "prereqs_parsed": {
         "required": [],
@@ -1688,7 +1795,7 @@
       "number": "165A",
       "title": "Biology of Cells",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14D or 30B, Life Sciences 3, or 7A, 7B, and 7C. Not open for credit to students with credit for course 100. Molecular basis of cellular structure and function, with focus on each individual cellular organelle, as well as interaction of cells\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 14D or 30B, Life Sciences 3, or 7A, 7B, and 7C. Not open for credit to students with credit for course 100. Molecular basis of cellular structure and function, with focus on each individual cellular organelle, as well as interaction of cells… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 14D or 30B, Life Sciences 3, or 7A, 7B, and 7C.",
       "prereqs_parsed": {
         "required": [
@@ -1719,10 +1826,17 @@
       "number": "168",
       "title": "Stem Cell Biology",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 138, 165A. State-of-art education of embryonic and adult stem cells and how these pluripotent/multipotent cells can be used to treat congenital defects, diseases, or injury in humans. Review of current knowledge of human and mouse embryonic stem cells and how they develop\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 138, 165A. State-of-art education of embryonic and adult stem cells and how these pluripotent/multipotent cells can be used to treat congenital defects, diseases, or injury in humans. Review of current knowledge of human and mouse embryonic stem cells and how they develop… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 138, 165A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MCD BIO 138",
+          "MCD BIO 165A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1732,16 +1846,24 @@
       "number": "172",
       "title": "Genomics and Bioinformatics",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 144 or 165B or Chemistry 153B or Microbiology 132. Genomics is study of complete repertoire of molecules in cells. Topics include human and yeast genomes and genetic approaches to study of function of individual genes, fundamental bioinformatics algorithms used to study relationship\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 144 or 165B or Chemistry 153B or Microbiology 132. Genomics is study of complete repertoire of molecules in cells. Topics include human and yeast genomes and genetic approaches to study of function of individual genes, fundamental bioinformatics algorithms used to study relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 144 or 165B or Chemistry 153B or Microbiology 132.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "MCD BIO 144",
-          "MCD BIO 165B",
-          "CHEM 153B",
-          "MICRO 132"
+          [
+            "MCD BIO 144"
+          ],
+          [
+            "MCD BIO 165B"
+          ],
+          [
+            "CHEM 153B"
+          ],
+          [
+            "MICRO 132"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1754,7 +1876,7 @@
       "number": "180A",
       "title": "Scientific Analysis and Communication I",
       "units": 2.0,
-      "description": "Seminar, two hours. Enforced corequisite: course 196A. Students read and discuss scientific articles and give presentations, introducing research topics using relevant primary literature. Critical aspects of research process, including record keeping, ethics, laboratory safety and citizenry, mechanics of scientific writing, diverse approaches to research, and project responsibilities and ownership. Acquisition\u2026 For more content click the Read More button below.",
+      "description": "Seminar, two hours. Enforced corequisite: course 196A. Students read and discuss scientific articles and give presentations, introducing research topics using relevant primary literature. Critical aspects of research process, including record keeping, ethics, laboratory safety and citizenry, mechanics of scientific writing, diverse approaches to research, and project responsibilities and ownership. Acquisition… For more content click the Read More button below.",
       "prereqs_raw": "Enforced corequisite: course 196A.",
       "prereqs_parsed": {
         "required": [],
@@ -1777,7 +1899,7 @@
       "number": "180B",
       "title": "Scientific Analysis and Communication II",
       "units": 2.0,
-      "description": "Seminar, two hours. Enforced requisites: courses 180A, 196A. Enforced corequisite: course 196B. Students give presentations similar to laboratory meeting or research symposium talk in which speakers discuss project goals, methodological approaches, results, and conclusions. How to write research papers as well as prepare and present scientific posters. Production of deliverables\u2026 For more content click the Read More button below.",
+      "description": "Seminar, two hours. Enforced requisites: courses 180A, 196A. Enforced corequisite: course 196B. Students give presentations similar to laboratory meeting or research symposium talk in which speakers discuss project goals, methodological approaches, results, and conclusions. How to write research papers as well as prepare and present scientific posters. Production of deliverables… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 180A, 196A. Enforced corequisite: course 196B.",
       "prereqs_parsed": {
         "required": [
@@ -1801,7 +1923,7 @@
       "number": "187AL",
       "title": "Research Immersion Laboratory in Genomic Biology",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, six hours. Requisites: Life Sciences 4 or 107, 23L. Course 187AL is requisite to 187BL. Limited to Molecular, Cell, and Developmental Biology majors. Introduction to cutting-edge genomic technologies and bioinformatics methods and resources for genome annotation. Students propose original research projects related to gene annotation and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, six hours. Requisites: Life Sciences 4 or 107, 23L. Course 187AL is requisite to 187BL. Limited to Molecular, Cell, and Developmental Biology majors. Introduction to cutting-edge genomic technologies and bioinformatics methods and resources for genome annotation. Students propose original research projects related to gene annotation and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 4 or 107, 23L.",
       "prereqs_parsed": {
         "required": [
@@ -1825,7 +1947,7 @@
       "number": "196A",
       "title": "Research Apprenticeship I in Molecular, Cell, and Developmental Biology",
       "units": 4.0,
-      "description": "Tutorial, 12 hours. Requisites: Life Sciences 3 and 4, or 7A, 7B, 7C, 23L, and 107, 3.0 premajor and/or major grade-point average, and at least one term of prior experience in same laboratory in which 196A research is to be conducted. Corequisite: course 180A. Course 196A is requisite to 196B.\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours. Requisites: Life Sciences 3 and 4, or 7A, 7B, 7C, 23L, and 107, 3.0 premajor and/or major grade-point average, and at least one term of prior experience in same laboratory in which 196A research is to be conducted. Corequisite: course 180A. Course 196A is requisite to 196B.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3 and 4, or 7A, 7B, 7C, 23L, and 107, 3.0 premajor and/or major grade-point average, and at least one term of prior experience in same laboratory in which 196A research is to be conducted. Corequisite: course 180A.",
       "prereqs_parsed": {
         "required": [
@@ -1884,7 +2006,7 @@
       "number": "C141",
       "title": "Molecular Basis of Plant Differentiation and Development",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 1, 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. In-depth study of basic processes of growth differentiation and development in plants and molecular mechanisms underlying these processes. Discussion of variety of plant systems, with focus on developing critical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 1, 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. In-depth study of basic processes of growth differentiation and development in plants and molecular mechanisms underlying these processes. Discussion of variety of plant systems, with focus on developing critical… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 1, 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
       "prereqs_parsed": {
         "required": [],
@@ -1915,7 +2037,7 @@
       "number": "C150",
       "title": "Plant Communication",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Most people think of plants as static organisms, yet they live in world of symbiosis and community. Plants change atmosphere, enrich soil, and communicate with insects, bacteria, and each other\u2014Earth\u2019s\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107. Most people think of plants as static organisms, yet they live in world of symbiosis and community. Plants change atmosphere, enrich soil, and communicate with insects, bacteria, and each other—Earth’s… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, 7C, 23L, and 107.",
       "prereqs_parsed": {
         "required": [],
@@ -1945,7 +2067,7 @@
       "number": "M140",
       "title": "Cancer Cell Biology",
       "units": 5.0,
-      "description": "(Same as Biological Chemistry M140.) Lecture, three hours; discussion, one hour. Requisite: course 165A. Cancer causes and genetics. Effects of cell transformation on cell growth and metabolism. Altered cell cycle, metabolism, and differentiation pathways in cancer cells. Tumor microenvironment contributions to cancer malignancy, including angiogenesis, metastasis, and immune system evasion.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Biological Chemistry M140.) Lecture, three hours; discussion, one hour. Requisite: course 165A. Cancer causes and genetics. Effects of cell transformation on cell growth and metabolism. Altered cell cycle, metabolism, and differentiation pathways in cancer cells. Tumor microenvironment contributions to cancer malignancy, including angiogenesis, metastasis, and immune system evasion.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 165A.",
       "prereqs_parsed": {
         "required": [
@@ -1962,12 +2084,31 @@
       "course_id": "MCD BIO M175A",
       "dept": "MCD BIO",
       "number": "M175A",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dCellular and Systems Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Cellular and Systems Neuroscience",
       "units": 5.0,
-      "description": "(Same as Neuroscience M101A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C\u2013 or better to proceed to next course\u2026 For more content click the Read More button below.",
+      "description": "(Same as Neuroscience M101A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C– or better to proceed to next course… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LIFE SCI 7C"
+        ],
+        "corequisites": [
+          "CHEM 14C"
+        ],
+        "one_of": [
+          [
+            "CHEM 14C",
+            "CHEM 30A"
+          ],
+          [
+            "PHYS 1B",
+            "PHYS 1BH",
+            "PHYS 5C",
+            "PHYS 6B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "MCD BIO M175B",
@@ -1978,10 +2119,10 @@
       "course_id": "MCD BIO M175B",
       "dept": "MCD BIO",
       "number": "M175B",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dMolecular and Developmental Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Molecular and Developmental Neuroscience",
       "units": 5.0,
-      "description": "(Same as Neuroscience M101B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M175A (with grade of C\u2013 or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular mechanisms: synaptic transmission, axonal\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course M175A (with grade of C\u2013 or better), Life Sciences 7C.",
+      "description": "(Same as Neuroscience M101B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M175A (with grade of C– or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular mechanisms: synaptic transmission, axonal… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M175A (with grade of C– or better), Life Sciences 7C.",
       "prereqs_parsed": {
         "required": [
           "MCD BIO M175A",
@@ -1998,10 +2139,10 @@
       "course_id": "MCD BIO M175C",
       "dept": "MCD BIO",
       "number": "M175C",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dBehavioral and Cognitive Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Behavioral and Cognitive Neuroscience",
       "units": 5.0,
-      "description": "(Same as Neuroscience M101C, Physiological Science M180C, and Psychology M117C.) Lecture, four hours; discussion, 90 minutes. Requisite: course M175A with grade of C\u2013 or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course M175A with grade of C\u2013 or better.",
+      "description": "(Same as Neuroscience M101C, Physiological Science M180C, and Psychology M117C.) Lecture, four hours; discussion, 90 minutes. Requisite: course M175A with grade of C– or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M175A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MCD BIO M175A"
@@ -2050,8 +2191,8 @@
       "number": "102",
       "title": "Introductory Virology",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, or 7A, 7B, and 23L with grades of C\u2013 or better. Biological properties of bacterial and animal viruses, replication, methods of detection, interactions with host cells and multicellular hosts. Letter grading.",
-      "prereqs_raw": "Requisites: Life Sciences 3, or 7A, 7B, and 23L with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, or 7A, 7B, and 23L with grades of C– or better. Biological properties of bacterial and animal viruses, replication, methods of detection, interactions with host cells and multicellular hosts. Letter grading.",
+      "prereqs_raw": "Requisites: Life Sciences 3, or 7A, 7B, and 23L with grades of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -2076,7 +2217,7 @@
       "number": "103AL",
       "title": "Research Immersion Laboratory in Virology",
       "units": 5.0,
-      "description": "Lecture, two and one half hours; laboratory, eight hours. Requisites: course 101, Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L. Course 103AL is requisite to 103BL. Limited to Microbiology, Immunology, and Molecular Genetics and Molecular, Cell, and Developmental Biology majors. Research-oriented laboratory experience designed to promote discovery\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two and one half hours; laboratory, eight hours. Requisites: course 101, Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L. Course 103AL is requisite to 103BL. Limited to Microbiology, Immunology, and Molecular Genetics and Molecular, Cell, and Developmental Biology majors. Research-oriented laboratory experience designed to promote discovery… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 101, Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L.",
       "prereqs_parsed": {
         "required": [
@@ -2108,7 +2249,7 @@
       "number": "103BL",
       "title": "Advanced Research Analysis in Virology",
       "units": 4.0,
-      "description": "Laboratory, six hours. Requisites: course 103AL, and Life Sciences 40 or Statistics 13. Limited to Microbiology, Immunology, and Molecular Genetics premajors and majors. Designed to provide students authentic, discovery-based research experience in life sciences. Investigation to be primarily computational in nature whereby students use bioinformatics or mathematical modeling software to\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, six hours. Requisites: course 103AL, and Life Sciences 40 or Statistics 13. Limited to Microbiology, Immunology, and Molecular Genetics premajors and majors. Designed to provide students authentic, discovery-based research experience in life sciences. Investigation to be primarily computational in nature whereby students use bioinformatics or mathematical modeling software to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 103AL, and Life Sciences 40 or Statistics 13.",
       "prereqs_parsed": {
         "required": [
@@ -2132,7 +2273,7 @@
       "number": "105",
       "title": "Biological Microscopy",
       "units": 4.0,
-      "description": "Lecture, four hours; laboratory, three hours (five weeks only). Requisite or corequisite: Physics 1C or 5B or 6C. Introduction to modern microscopy technologies used in biochemistry, medicine, microbiology, and nano research. Basic image formation principles of microscopy, methods for sample preparation, imaging, data acquisitions, and three-dimensional reconstruction and visualization. Fluoresce,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, three hours (five weeks only). Requisite or corequisite: Physics 1C or 5B or 6C. Introduction to modern microscopy technologies used in biochemistry, medicine, microbiology, and nano research. Basic image formation principles of microscopy, methods for sample preparation, imaging, data acquisitions, and three-dimensional reconstruction and visualization. Fluoresce,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite or corequisite: Physics 1C or 5B or 6C.",
       "prereqs_parsed": {
         "required": [],
@@ -2177,7 +2318,14 @@
       "description": "Lecture, three hours; discussion, one hour. Requisites: course 185A, Chemistry 153A. Viral pathogens that infect mammals. Viral entry into and replication in host cells. Host response and host/virus interaction. Pathogenic manifestations exhibited during viral infections. Letter grading.",
       "prereqs_raw": "Requisites: course 185A, Chemistry 153A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MIMG 185A",
+          "CHEM 153A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -2187,7 +2335,7 @@
       "number": "109AL",
       "title": "Research Immersion Laboratory in Microbiology",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, eight hours. Requisites: course 101, Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L. Course 109AL is enforced requisite to 109BL. Limited to Microbiology, Immunology, and Molecular Genetics premajors and majors and Molecular, Cell, and Developmental Biology majors. Research-oriented laboratory experience designed to promote\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, eight hours. Requisites: course 101, Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L. Course 109AL is enforced requisite to 109BL. Limited to Microbiology, Immunology, and Molecular Genetics premajors and majors and Molecular, Cell, and Developmental Biology majors. Research-oriented laboratory experience designed to promote… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 101, Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L.",
       "prereqs_parsed": {
         "required": [
@@ -2219,7 +2367,7 @@
       "number": "109BL",
       "title": "Advanced Research Analysis in Microbiology",
       "units": 4.0,
-      "description": "Laboratory, six hours. Requisites: course 109AL, Life Sciences 40 or Statistics 13. Limited to Microbiology, Immunology, and Molecular Genetics premajors and majors. Designed to provide students authentic, discovery-based research experience in life sciences. Investigation to be primarily computational in nature whereby students use bioinformatics or mathematical modeling software to interpret,\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, six hours. Requisites: course 109AL, Life Sciences 40 or Statistics 13. Limited to Microbiology, Immunology, and Molecular Genetics premajors and majors. Designed to provide students authentic, discovery-based research experience in life sciences. Investigation to be primarily computational in nature whereby students use bioinformatics or mathematical modeling software to interpret,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 109AL, Life Sciences 40 or Statistics 13.",
       "prereqs_parsed": {
         "required": [
@@ -2268,7 +2416,13 @@
       "description": "Lecture, three hours; discussion, one hour. Requisite: Chemistry 153A. Evolution, biodiversity, and sequencing of genomes; bacterial and viral genomes; bioenergetics; gene knockouts; genomics of antibiotic resistance; proteomics. Guest lecturers from department and related departments who discuss key papers with focus on their areas of expertise. Letter grading.",
       "prereqs_raw": "Requisite: Chemistry 153A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 153A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -2278,7 +2432,7 @@
       "number": "168",
       "title": "Molecular Parasitology",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3 and 4, or 7A, 7B, and 23L. Survey of parasitic protozoa not only as parasites that interact with host, but also as model systems for analysis of basic biological phenomena such as gene regulation, molecular development, cell-cell interactions, molecular evolution,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3 and 4, or 7A, 7B, and 23L. Survey of parasitic protozoa not only as parasites that interact with host, but also as model systems for analysis of basic biological phenomena such as gene regulation, molecular development, cell-cell interactions, molecular evolution,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3 and 4, or 7A, 7B, and 23L.",
       "prereqs_parsed": {
         "required": [],
@@ -2307,7 +2461,7 @@
       "number": "170",
       "title": "Cell and Gene Therapy",
       "units": 4.0,
-      "description": "Lecture, three and one half hours; discussion, one hour. Requisites: Chemistry 153A, Life Sciences 107. State-of-art study of stem cells and gene therapy, and approaches to treat congenital/genetic defects, diseases, or injuries in humans. Review of current knowledge of human stem cells and viral and non-viral gene delivery strategies, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three and one half hours; discussion, one hour. Requisites: Chemistry 153A, Life Sciences 107. State-of-art study of stem cells and gene therapy, and approaches to treat congenital/genetic defects, diseases, or injuries in humans. Review of current knowledge of human stem cells and viral and non-viral gene delivery strategies, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 153A, Life Sciences 107.",
       "prereqs_parsed": {
         "required": [
@@ -2356,7 +2510,7 @@
       "number": "180A",
       "title": "Scientific Analysis and Communication I",
       "units": 2.0,
-      "description": "Seminar, two hours. Enforced corequisite: course 196A or 198A. Students read and discuss scientific articles and give presentations, introducing research topics using relevant primary literature. Critical aspects of research process, including record keeping, ethics, laboratory safety and citizenry, mechanics of scientific writing, diverse approaches to research, and project responsibilities and\u2026 For more content click the Read More button below.",
+      "description": "Seminar, two hours. Enforced corequisite: course 196A or 198A. Students read and discuss scientific articles and give presentations, introducing research topics using relevant primary literature. Critical aspects of research process, including record keeping, ethics, laboratory safety and citizenry, mechanics of scientific writing, diverse approaches to research, and project responsibilities and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced corequisite: course 196A or 198A.",
       "prereqs_parsed": {
         "required": [],
@@ -2384,7 +2538,7 @@
       "number": "180B",
       "title": "Scientific Analysis and Communication II",
       "units": 2.0,
-      "description": "Seminar, two hours. Enforced requisites: course 180A, and Life Sciences 40 or Statistics 13. Enforced corequisite: course 196B or 198B. Students give presentations similar to laboratory meeting or research symposium talk in which speakers discuss project goals, methodological approaches, results, and conclusions. How to write research papers as well as\u2026 For more content click the Read More button below.",
+      "description": "Seminar, two hours. Enforced requisites: course 180A, and Life Sciences 40 or Statistics 13. Enforced corequisite: course 196B or 198B. Students give presentations similar to laboratory meeting or research symposium talk in which speakers discuss project goals, methodological approaches, results, and conclusions. How to write research papers as well as… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: course 180A, and Life Sciences 40 or Statistics 13. Enforced corequisite: course 196B or 198B.",
       "prereqs_parsed": {
         "required": [
@@ -2416,7 +2570,17 @@
       "description": "(Formerly numbered C185A.) Lecture, three hours; discussion, 90 minutes. Requisites: Chemistry 153A, Life Sciences 7A, 7B, 7C, 7L. Comprehensive study of experimental immunobiology and immunochemistry; cellular and molecular aspects of humoral and cellular immune reactions. Letter grading.",
       "prereqs_raw": "Requisites: Chemistry 153A, Life Sciences 7A, 7B, 7C, 7L.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 153A",
+          "LIFE SCI 7A",
+          "LIFE SCI 7B",
+          "LIFE SCI 7C",
+          "LIFE SCI 7L"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -2426,15 +2590,21 @@
       "number": "191H",
       "title": "Honors Research Seminars: Microbiology, Immunology, and Molecular Genetics",
       "units": 2.0,
-      "description": "Seminar, two hours. Requisite or corequisite: course 198A or 198B or 198C. Limited to senior microbiology, immunology, and molecular genetics honors program students. Discussion of current research literature, with focus on thesis topics/areas that students are working on as part of departmental honors requirements. One-hour presentation of student thesis research\u2026 For more content click the Read More button below.",
+      "description": "Seminar, two hours. Requisite or corequisite: course 198A or 198B or 198C. Limited to senior microbiology, immunology, and molecular genetics honors program students. Discussion of current research literature, with focus on thesis topics/areas that students are working on as part of departmental honors requirements. One-hour presentation of student thesis research… For more content click the Read More button below.",
       "prereqs_raw": "Requisite or corequisite: course 198A or 198B or 198C.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "MIMG 198A",
-          "MIMG 198B",
-          "MIMG 198C"
+          [
+            "MIMG 198A"
+          ],
+          [
+            "MIMG 198B"
+          ],
+          [
+            "MIMG 198C"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -2447,7 +2617,7 @@
       "number": "196A",
       "title": "Research Apprenticeship I in Microbiology, Immunology, and Molecular Genetics",
       "units": 4.0,
-      "description": "Tutorial, 12 hours. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L, 3.0 premajor and/or major grade-point average, and at least one term of prior experience in same laboratory in which 196A research is to be conducted. Enforced corequisite: course 180A. Course 196A is enforced requisite to\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L, 3.0 premajor and/or major grade-point average, and at least one term of prior experience in same laboratory in which 196A research is to be conducted. Enforced corequisite: course 180A. Course 196A is enforced requisite to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 23L, 3.0 premajor and/or major grade-point average, and at least one term of prior experience in same laboratory in which 196A research is to be conducted. Enforced corequisite: course 180A.",
       "prereqs_parsed": {
         "required": [
@@ -2485,7 +2655,7 @@
       "number": "196B",
       "title": "Research Apprenticeship II in Microbiology, Immunology, and Molecular Genetics",
       "units": 4.0,
-      "description": "Tutorial, 12 hours. Enforced requisite: course 196A. Enforced corequisite: course 180B. Expansion of scope, increasing depth, and implementation of independence in research to be performed in same laboratory as course 196A to facilitate learning and implementation of goals stated previously. Technical aspects vary depending on specific laboratory; however, all students\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours. Enforced requisite: course 196A. Enforced corequisite: course 180B. Expansion of scope, increasing depth, and implementation of independence in research to be performed in same laboratory as course 196A to facilitate learning and implementation of goals stated previously. Technical aspects vary depending on specific laboratory; however, all students… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 196A. Enforced corequisite: course 180B.",
       "prereqs_parsed": {
         "required": [
@@ -2508,7 +2678,7 @@
       "number": "198A",
       "title": "Honors Research in Microbiology, Immunology, and Molecular Genetics",
       "units": 4.0,
-      "description": "Tutorial, 12 hours. Course 198A is requisite to 198B, which is requisite to 198C. Limited to junior/senior microbiology, immunology, and molecular genetics honors program students. Directed individual research for departmental honors; students must have faculty sponsor. Progress report must be submitted to faculty sponsor at end of each of first\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours. Course 198A is requisite to 198B, which is requisite to 198C. Limited to junior/senior microbiology, immunology, and molecular genetics honors program students. Directed individual research for departmental honors; students must have faculty sponsor. Progress report must be submitted to faculty sponsor at end of each of first… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -2525,7 +2695,7 @@
       "number": "198B",
       "title": "Honors Research in Microbiology, Immunology, and Molecular Genetics",
       "units": 4.0,
-      "description": "Tutorial, 12 hours. Requisite: course 198A. Limited to junior/senior microbiology, immunology, and molecular genetics honors program students. Directed individual research for departmental honors; students must have faculty sponsor. Progress report must be submitted to faculty sponsor at end of each of first two terms, with honors thesis submitted at end\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours. Requisite: course 198A. Limited to junior/senior microbiology, immunology, and molecular genetics honors program students. Directed individual research for departmental honors; students must have faculty sponsor. Progress report must be submitted to faculty sponsor at end of each of first two terms, with honors thesis submitted at end… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 198A.",
       "prereqs_parsed": {
         "required": [
@@ -2548,7 +2718,7 @@
       "number": "198C",
       "title": "Honors Research in Microbiology, Immunology, and Molecular Genetics",
       "units": 4.0,
-      "description": "Tutorial, 12 hours. Requisite: course 198B. Limited to junior/senior microbiology, immunology, and molecular genetics honors program students. Directed individual research for departmental honors; students must have faculty sponsor. Progress report must be submitted to faculty sponsor at end of each of first two terms, with honors thesis submitted at end\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, 12 hours. Requisite: course 198B. Limited to junior/senior microbiology, immunology, and molecular genetics honors program students. Directed individual research for departmental honors; students must have faculty sponsor. Progress report must be submitted to faculty sponsor at end of each of first two terms, with honors thesis submitted at end… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 198B.",
       "prereqs_parsed": {
         "required": [
@@ -2582,10 +2752,23 @@
       "number": "C122",
       "title": "Mouse Molecular Genetics",
       "units": 2.0,
-      "description": "Seminar, two hours. Requisite: Life Sciences 4, or 7A, 7B, and 7C. Designed for students doing research with mice. During past 25 years, molecular revolution has greatly increased power and scope of mouse genetics, and today mouse is primary experimental model in virtually all fields of biology and biomedicine. Seminar\u2026 For more content click the Read More button below.",
+      "description": "Seminar, two hours. Requisite: Life Sciences 4, or 7A, 7B, and 7C. Designed for students doing research with mice. During past 25 years, molecular revolution has greatly increased power and scope of mouse genetics, and today mouse is primary experimental model in virtually all fields of biology and biomedicine. Seminar… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Life Sciences 4, or 7A, 7B, and 7C.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LIFE SCI 4"
+          ],
+          [
+            "LIFE SCI 7A",
+            "LIFE SCI 7B",
+            "LIFE SCI 7C"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -2595,7 +2778,7 @@
       "number": "C185B",
       "title": "Advanced Immunology and Applications",
       "units": 2.0,
-      "description": "Lecture, 90 minutes. Requisite: course C185A. Covers similarities and differences between host immune reactions to bacterial and viral infections, and balance required between immune and inflammatory responses. Discussion of various strategies to enhance our immune system against invasion by pathogens or cancer cells without triggering inflammatory and autoimmune diseases, including\u2026 For more content click the Read More button below.",
+      "description": "Lecture, 90 minutes. Requisite: course C185A. Covers similarities and differences between host immune reactions to bacterial and viral infections, and balance required between immune and inflammatory responses. Discussion of various strategies to enhance our immune system against invasion by pathogens or cancer cells without triggering inflammatory and autoimmune diseases, including… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course C185A.",
       "prereqs_parsed": {
         "required": [
@@ -2614,7 +2797,7 @@
       "number": "CM156",
       "title": "Human Genetics and Genomics",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology CM156.) Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C. Application of genetic principles in human populations, with emphasis on genomics, family studies, positional cloning, Mendelian and common diseases, cancer genetics, animal models, cytogenetics,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology CM156.) Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C. Application of genetic principles in human populations, with emphasis on genomics, family studies, positional cloning, Mendelian and common diseases, cancer genetics, animal models, cytogenetics,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C.",
       "prereqs_parsed": {
         "required": [],
@@ -2642,7 +2825,7 @@
       "number": "CM256",
       "title": "Human Genetics and Genomics",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology CM256.) Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C. Application of genetic principles in human populations, with emphasis on genomics, family studies, positional cloning, Mendelian and common diseases, cancer genetics, animal models, cytogenetics,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology CM256.) Lecture, three hours; discussion, one hour. Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C. Application of genetic principles in human populations, with emphasis on genomics, family studies, positional cloning, Mendelian and common diseases, cancer genetics, animal models, cytogenetics,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 3, 4, and 23L, or 7A, 7B, and 7C.",
       "prereqs_parsed": {
         "required": [],
@@ -2691,9 +2874,9 @@
       "course_id": "NEUROSC M101A",
       "dept": "NEUROSC",
       "number": "M101A",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dCellular and Systems Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Cellular and Systems Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C\u2013 or better to\u2026 For more content click the Read More button below.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175A, Physiological Science M180A, and Psychology M117A.) Lecture, four hours; discussion, 90 minutes. Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B. Students must receive grade of C– or better to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 14C or 30A (14C may be taken concurrently), Life Sciences 7C, Physics 1B or 1BH or 5C or 6B.",
       "prereqs_parsed": {
         "required": [
@@ -2726,10 +2909,10 @@
       "course_id": "NEUROSC M101B",
       "dept": "NEUROSC",
       "number": "M101B",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dMolecular and Developmental Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Molecular and Developmental Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M101A (with grade of C\u2013 or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course M101A (with grade of C\u2013 or better), Life Sciences 7C.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175B, Physiological Science M180B, and Psychology M117B.) Lecture, four hours; discussion, 90 minutes. Requisites: course M101A (with grade of C– or better), Life Sciences 7C. Molecular biology of channels and receptors: focus on voltage dependent channels and neurotransmitter receptors. Molecular biology of supramolecular… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course M101A (with grade of C– or better), Life Sciences 7C.",
       "prereqs_parsed": {
         "required": [
           "NEUROSC M101A",
@@ -2746,10 +2929,10 @@
       "course_id": "NEUROSC M101C",
       "dept": "NEUROSC",
       "number": "M101C",
-      "title": "Neuroscience: From Molecules to Mind\u00e2\u20ac\u201dBehavioral and Cognitive Neuroscience",
+      "title": "Neuroscience: From Molecules to Mindâ€”Behavioral and Cognitive Neuroscience",
       "units": 5.0,
-      "description": "(Same as Molecular, Cell, and Developmental Biology M175C, Physiological Science M180C, and Psychology M117C.) Lecture, four hours; discussion, 90 minutes. Requisite: course M101A with grade of C\u2013 or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course M101A with grade of C\u2013 or better.",
+      "description": "(Same as Molecular, Cell, and Developmental Biology M175C, Physiological Science M180C, and Psychology M117C.) Lecture, four hours; discussion, 90 minutes. Requisite: course M101A with grade of C– or better. Neural mechanisms underlying motivation, learning, and cognition. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course M101A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "NEUROSC M101A"
@@ -2767,7 +2950,7 @@
       "number": "121",
       "title": "Disease Mechanisms and Therapies",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 153A, and Life Sciences 2, 3, and 4 or 7A, 7B, and 7C. Designed for junior/senior Biochemistry and life sciences majors. Use of disease mechanisms as pedagogical tools to develop higher-order knowledge of basic scientific concepts. Integration of concepts from genetics, molecular\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Chemistry 153A, and Life Sciences 2, 3, and 4 or 7A, 7B, and 7C. Designed for junior/senior Biochemistry and life sciences majors. Use of disease mechanisms as pedagogical tools to develop higher-order knowledge of basic scientific concepts. Integration of concepts from genetics, molecular… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 153A, and Life Sciences 2, 3, and 4 or 7A, 7B, and 7C.",
       "prereqs_parsed": {
         "required": [
@@ -2797,7 +2980,7 @@
       "number": "124",
       "title": "Molecular Biology of Aging",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: Chemistry 153A, Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Discoveries of new science of aging biology, with examination of aging as plastic trait modulated by genes and physiological processes. Discussion of how these findings integrate with both nutritional modulation\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisites: Chemistry 153A, Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Discoveries of new science of aging biology, with examination of aging as plastic trait modulated by genes and physiological processes. Discussion of how these findings integrate with both nutritional modulation… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 153A, Life Sciences 1, 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L.",
       "prereqs_parsed": {
         "required": [
@@ -2830,7 +3013,7 @@
       "number": "125",
       "title": "Molecular Systems Biology",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Quantitative description of molecular systems that underlie myriad phenotypes in living cells. Topics include various -omics fields and high-throughput technologies, network biology, and synthetic biology. Introductory lectures on molecular biology,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Life Sciences 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L. Quantitative description of molecular systems that underlie myriad phenotypes in living cells. Topics include various -omics fields and high-throughput technologies, network biology, and synthetic biology. Introductory lectures on molecular biology,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 2, 3, 4, and 23L, or 7A, 7B, 7C, and 23L.",
       "prereqs_parsed": {
         "required": [],
@@ -2942,7 +3125,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -2971,7 +3154,26 @@
       "description": "Laboratory, four hours. Enforced requisite: course 1A or 1AH. Enforced corequisite: course 1B or 1BH. Computerized measurements of uniform and accelerated motion, including oscillations. Analysis of data and comparison of results to predictions, including least-squares fitting. Conception, execution, and presentation of creative projects involving motion. Letter grading.",
       "prereqs_raw": "Enforced requisite: course 1A or 1AH. Enforced corequisite: course 1B or 1BH.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B"
+        ],
+        "corequisites": [
+          "PHYSICS 1B",
+          "PHYSICS 1BH"
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1A",
+            "PHYSICS 1AH"
+          ],
+          [
+            "PHYSICS 1B",
+            "PHYSICS 1BH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -2981,7 +3183,7 @@
       "number": "4BL",
       "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
       "prereqs_parsed": {
         "required": [],
@@ -3089,7 +3291,7 @@
       "number": "100A",
       "title": "Introduction to Probability",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 32B, 33A. Not open to students with credit for Electrical Engineering 131A or Mathematics 170A; open to graduate students. Students may receive credit for only two of following: course 100A, former course 110A, Biostatistics 100A. Probability distributions, random variables, vectors, and expectation.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 32B, 33A. Not open to students with credit for Electrical Engineering 131A or Mathematics 170A; open to graduate students. Students may receive credit for only two of following: course 100A, former course 110A, Biostatistics 100A. Probability distributions, random variables, vectors, and expectation.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 32B, 33A.",
       "prereqs_parsed": {
         "required": [
@@ -3134,7 +3336,7 @@
       "number": "13",
       "title": "Introduction to Statistical Methods for Life and Health Sciences",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

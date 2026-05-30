@@ -149,7 +149,7 @@
       "number": "14A",
       "title": "General Chemistry for Life Scientists I",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
       "prereqs_parsed": {
         "required": [],
@@ -174,8 +174,8 @@
       "number": "14B",
       "title": "General Chemistry for Life Scientists II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better. Not open to students with credit for course 14BE, 20B,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -216,8 +216,8 @@
       "number": "14BL",
       "title": "General and Organic Chemistry Laboratory I",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C– or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C– or better. Enforced corequisite: course 14B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [
@@ -245,8 +245,8 @@
       "number": "14C",
       "title": "Structure of Organic Molecules",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C\u2013 or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 14B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14B with grade of C– or better. Not open to students with credit for course 30A. Continuing studies in structure of organic molecules, with emphasis on biological applications. Resonance, stereochemistry, conjugation, and aromaticity; spectroscopy (NMR, IR, and mass spectrometry); introduction to… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14B"
@@ -267,8 +267,8 @@
       "number": "14CL",
       "title": "General and Organic Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, four hours. Enforced requisites: courses 14B or 14BE, and 14BL; or 20B or 20BH, and 20L; and 14C (may be taken concurrently); all with grades of C\u2013 or better. Synthesis and analysis of compounds; purification by extraction, chromatography, recrystallization, and sublimation; characterization by mass spectroscopy, UV,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: courses 14B or 14BE, and 14BL; or 20B or 20BH, and 20L; and 14C (may be taken concurrently); all with grades of C\u2013 or better.",
+      "description": "Lecture, two hours; laboratory, four hours. Enforced requisites: courses 14B or 14BE, and 14BL; or 20B or 20BH, and 20L; and 14C (may be taken concurrently); all with grades of C– or better. Synthesis and analysis of compounds; purification by extraction, chromatography, recrystallization, and sublimation; characterization by mass spectroscopy, UV,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: courses 14B or 14BE, and 14BL; or 20B or 20BH, and 20L; and 14C (may be taken concurrently); all with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14C"
@@ -297,10 +297,16 @@
       "number": "14D",
       "title": "Organic Reactions and Pharmaceuticals",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14C with grade of C\u2013 or better. Organic reactions, nucleophilic and electrophilic substitutions and additions; electrophilic aromatic substitutions, carbonyl reactions, catalysis, molecular basis of drug action, and organic chemistry of pharmaceuticals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14C with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 14C with grade of C– or better. Organic reactions, nucleophilic and electrophilic substitutions and additions; electrophilic aromatic substitutions, carbonyl reactions, catalysis, molecular basis of drug action, and organic chemistry of pharmaceuticals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14C with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 14C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 153A",
@@ -313,8 +319,8 @@
       "number": "153A",
       "title": "Biochemistry: Introduction to Structure, Enzymes, and Metabolism",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C\u2013 or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C\u2013 or better.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 14D or 30B, with grade of C– or better. Recommended: Life Sciences 2, 3, and 23L, or 7A. Structure of proteins, carbohydrates, and lipids; enzyme catalysis and principles of metabolism, including glycolysis, citric acid cycle, and oxidative phosphorylation. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 14D or 30B, with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -335,7 +341,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -358,8 +364,8 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -387,8 +393,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [
@@ -421,8 +427,8 @@
       "number": "30A",
       "title": "Organic Chemistry I: Structure and Reactivity",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C\u2013 or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 20B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 20B with grade of C– or better. First term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Covalent bonding, shapes, stereochemistry, and acid/base properties of organic molecules. Properties, synthesis, and reactions of alkanes, cycloalkanes, alkenes, and alkynes. SN2, SN1, elimination,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 20B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B"
@@ -444,8 +450,8 @@
       "number": "30AL",
       "title": "General Chemistry Laboratory II",
       "units": 4.0,
-      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, six hours. Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better. Qualitative and quantitative analysis of chemical reactions and compounds, kinetics, separations, and spectroscopy. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 20B (or 20BH), 20L, and 30A (or 30AH), with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 20B",
@@ -474,10 +480,21 @@
       "number": "30B",
       "title": "Organic Chemistry II: Reactivity, Synthesis, and Spectroscopy",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 30A or 30AH, with grade of C– or better. Second term of organic chemistry for Chemistry, Biochemistry, and engineering majors. Properties, synthesis, and reactions of alcohols, ethers, sulfur compounds, aldehydes, ketones, carboxylic acids, and carboxylic acid derivatives. Organometallic compounds. Organic spectroscopy,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 30A or 30AH, with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "CHEM 30A"
+          ],
+          [
+            "CHEM 30AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 153A",
@@ -491,8 +508,8 @@
       "number": "30BL",
       "title": "Organic Chemistry Laboratory I",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C\u2013 or better. Basic experimental techniques in organic synthesis (performing reactions, monitoring reactions, and conducting purifications) and spectroscopy (IR, NMR, mass spectrometry). Synthesis of known organic molecules on microscale level with focus on\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C\u2013 or better.",
+      "description": "Lecture, one hour; laboratory, four hours. Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C– or better. Basic experimental techniques in organic synthesis (performing reactions, monitoring reactions, and conducting purifications) and spectroscopy (IR, NMR, mass spectrometry). Synthesis of known organic molecules on microscale level with focus on… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: courses 30A (or 30AH), 30AL and 30B, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 30AL",
@@ -516,7 +533,7 @@
       "number": "30A",
       "title": "Mathematics for Life Scientists",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours. Preparation: three years of high school mathematics (to algebra II), some basic familiarity with computers. Mathematical modeling as tool for understanding dynamics of biological systems. Fundamental concepts of single-variable calculus and development of single- and multi-variable differential equation models of dynamical processes in ecology,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -551,7 +568,7 @@
       "number": "40",
       "title": "Statistics of Biological Systems",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours. Requisite: course 30A. Designed for life sciences students. Introduction to statistics with emphasis on computer simulation of chance probabilities as replacement for traditional formula-based approach. Simulations allow for deeper understanding of statistical concepts, and are applicable to wider class of distributions and estimators. Students… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 30A.",
       "prereqs_parsed": {
         "required": [
@@ -626,7 +643,7 @@
       "number": "7L",
       "title": "Introduction to Laboratory and Scientific Methodology",
       "units": 3.0,
-      "description": "(Formerly numbered 23L.) Lecture, one hour; laboratory, three hours. Requisite: course 7B. Recommended to be taken concurrently with course 7C. Introductory life sciences laboratory designed for undergraduate students. Opportunity to conduct wet-laboratory and cutting-edge bioinformatics laboratory experiments. Students work in groups of three conducting experiments in areas of physiology, metabolism,\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 23L.) Lecture, one hour; laboratory, three hours. Requisite: course 7B. Recommended to be taken concurrently with course 7C. Introductory life sciences laboratory designed for undergraduate students. Opportunity to conduct wet-laboratory and cutting-edge bioinformatics laboratory experiments. Students work in groups of three conducting experiments in areas of physiology, metabolism,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 7B.",
       "prereqs_parsed": {
         "required": [
@@ -645,8 +662,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -673,8 +690,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -696,8 +713,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -718,10 +735,18 @@
       "number": "3A",
       "title": "Calculus for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C– or better. Not open for credit to students with credit in another… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 14A",
@@ -735,8 +760,8 @@
       "number": "3B",
       "title": "Calculus for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C\u2013 or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 3A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C– or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 3A"
@@ -758,8 +783,8 @@
       "number": "3C",
       "title": "Ordinary Differential Equations with Linear Algebra for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C\u2013 or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 3B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C– or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 3B"
@@ -779,7 +804,7 @@
       "number": "107",
       "title": "Systems Anatomy",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, three hours; tutorial, two hours. Requisites: Life Sciences 2 or 7C, and Physics 1A, 5A, or 6A. Students must receive grade of C or better to proceed to next course in series. Systems anatomy focused primarily on human anatomy. Topics include cardiorespiratory, reproductive, nervous, and skeletomuscular\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, three hours; tutorial, two hours. Requisites: Life Sciences 2 or 7C, and Physics 1A, 5A, or 6A. Students must receive grade of C or better to proceed to next course in series. Systems anatomy focused primarily on human anatomy. Topics include cardiorespiratory, reproductive, nervous, and skeletomuscular… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Life Sciences 2 or 7C, and Physics 1A, 5A, or 6A.",
       "prereqs_parsed": {
         "required": [],
@@ -808,7 +833,7 @@
       "number": "111A",
       "title": "Foundations in Physiological Science",
       "units": 6.0,
-      "description": "Lecture, four hours; discussion, two hours. Requisites: course 107, Chemistry 14C or 30A, Life Sciences 7A, 7B, 7C, Physics 1B or 5C or 6B. Students must receive grade of C or better to proceed to next course in series. Introduction to principles of muscular and neural physiology, including factors controlling\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours. Requisites: course 107, Chemistry 14C or 30A, Life Sciences 7A, 7B, 7C, Physics 1B or 5C or 6B. Students must receive grade of C or better to proceed to next course in series. Introduction to principles of muscular and neural physiology, including factors controlling… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 107, Chemistry 14C or 30A, Life Sciences 7A, 7B, 7C, Physics 1B or 5C or 6B.",
       "prereqs_parsed": {
         "required": [
@@ -869,8 +894,8 @@
       "number": "111L",
       "title": "Physiological Science Laboratory",
       "units": 3.0,
-      "description": "Laboratory, four hours. Requisites: courses 111A and 111B, with grades of C\u2013 or better. Required of Physiological Science majors. Designed to illustrate physiological principles studied in courses 111A, 111B. Letter grading.",
-      "prereqs_raw": "Requisites: courses 111A and 111B, with grades of C\u2013 or better.",
+      "description": "Laboratory, four hours. Requisites: courses 111A and 111B, with grades of C– or better. Required of Physiological Science majors. Designed to illustrate physiological principles studied in courses 111A, 111B. Letter grading.",
+      "prereqs_raw": "Requisites: courses 111A and 111B, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "PHYSCI 111A",
@@ -918,7 +943,17 @@
       "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Fluid mechanics, oscillation, mechanical waves, and sound. Electric charge, field and potential, capacitors, and dielectrics. Currents and resistance, direct-current circuits. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PHYSICS 1A",
+          "MATH 31B",
+          "MATH 32A"
+        ],
+        "corequisites": [
+          "MATH 32B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "PHYSCI 111A",
@@ -933,7 +968,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -991,7 +1026,7 @@
       "number": "4BL",
       "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
       "prereqs_parsed": {
         "required": [],
@@ -1091,7 +1126,7 @@
       "number": "13",
       "title": "Introduction to Statistical Methods for Life and Health Sciences",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

@@ -126,7 +126,7 @@
       "number": "101",
       "title": "Media Arts: Introduction",
       "units": 5.0,
-      "description": "Lecture, three hours; outside study, 12 hours. Limited to and required of Design | Media Arts majors. Survey of media arts, their history, aesthetics, and cultural roles from late-19th century to present. Investigation of media arts within broad historical and cultural framework. Discussion of parallels and links with other cultural\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; outside study, 12 hours. Limited to and required of Design | Media Arts majors. Survey of media arts, their history, aesthetics, and cultural roles from late-19th century to present. Investigation of media arts within broad historical and cultural framework. Discussion of parallels and links with other cultural… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -158,7 +158,7 @@
       "number": "104",
       "title": "Design Futures",
       "units": 5.0,
-      "description": "Lecture, three hours; outside study, 12 hours. Preparation: completion of preparation for major courses. Open to nonmajors with consent of instructor. Critical examination of design practice and theory of 20th and 21st centuries, incorporating historical as well as speculative methodologies. Consideration of how various design practices and techniques related to\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; outside study, 12 hours. Preparation: completion of preparation for major courses. Open to nonmajors with consent of instructor. Critical examination of design practice and theory of 20th and 21st centuries, incorporating historical as well as speculative methodologies. Consideration of how various design practices and techniques related to… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -190,7 +190,7 @@
       "number": "110",
       "title": "Tangible Media",
       "units": 5.0,
-      "description": "(Formerly numbered 152.) Studio, six hours; outside study, nine hours. Requisites: courses 22, 28, and 101 or 104. Through workshops, readings, lectures, critiques, and discussions, reevaluation of role of desktop computers (and their mice, trackpads, keyboards, screens, and gamepads) plays in forming our understanding of what is technically possible, sensible,\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 152.) Studio, six hours; outside study, nine hours. Requisites: courses 22, 28, and 101 or 104. Through workshops, readings, lectures, critiques, and discussions, reevaluation of role of desktop computers (and their mice, trackpads, keyboards, screens, and gamepads) plays in forming our understanding of what is technically possible, sensible,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 22, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -215,7 +215,7 @@
       "number": "111",
       "title": "Art and the Internet",
       "units": 5.0,
-      "description": "(Formerly numbered 161.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 28, 140. Exploration of creative, technical, and critical tools to realize Internet-based projects. Focus on students gaining deeper understanding of Internet as creative platform\u2014where did it come from, how does it\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 161.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 28, 140. Exploration of creative, technical, and critical tools to realize Internet-based projects. Focus on students gaining deeper understanding of Internet as creative platform—where did it come from, how does it… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 28, 140.",
       "prereqs_parsed": {
         "required": [
@@ -235,7 +235,7 @@
       "number": "112",
       "title": "Performing User",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of how technologies used daily choreograph actions, provoke performance, and open spaces for improvisation. Creation of performative gestures that reinterpret ideas of the user interacting with a system. Study is structured around four performance assignments,\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of how technologies used daily choreograph actions, provoke performance, and open spaces for improvisation. Creation of performative gestures that reinterpret ideas of the user interacting with a system. Study is structured around four performance assignments,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -263,7 +263,7 @@
       "number": "113",
       "title": "Generative Art",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Generative art is a form where the artist creates a system and the system creates the work. While not limited to artists working with code and software, it is the most prominent method of exploration. Examination\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Generative art is a form where the artist creates a system and the system creates the work. While not limited to artists working with code and software, it is the most prominent method of exploration. Examination… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -275,8 +275,12 @@
         ],
         "corequisites": [],
         "one_of": [
-          "DESMA 101",
-          "DESMA 104"
+          [
+            "DESMA 101"
+          ],
+          [
+            "DESMA 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -289,7 +293,7 @@
       "number": "114",
       "title": "Arts Research and Practice",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Arts research is an approach to inquiry\u2014a methodology that relies on artistic means to interrogate, reflect upon, and understand ideas, situations, relationships, experiences, and structures. Like traditional research, arts-based inquiry seeks to raise awareness, broaden insight\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Arts research is an approach to inquiry—a methodology that relies on artistic means to interrogate, reflect upon, and understand ideas, situations, relationships, experiences, and structures. Like traditional research, arts-based inquiry seeks to raise awareness, broaden insight… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -301,8 +305,12 @@
         ],
         "corequisites": [],
         "one_of": [
-          "DESMA 101",
-          "DESMA 104"
+          [
+            "DESMA 101"
+          ],
+          [
+            "DESMA 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -315,7 +323,7 @@
       "number": "115",
       "title": "Art and Science Collaboration",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Biodesigners use cells, DNA molecules, proteins, and living tissues to highlight ethical, social, and aesthetic issues that influence contemporary life. Introduction to how biodesign blurs distinctions between science and design through combination of design and scientific\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Biodesigners use cells, DNA molecules, proteins, and living tissues to highlight ethical, social, and aesthetic issues that influence contemporary life. Introduction to how biodesign blurs distinctions between science and design through combination of design and scientific… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": []
@@ -328,7 +336,7 @@
       "number": "116",
       "title": "Sonic Media",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Examination of realm of sound as an artistic medium. Exploration of its conceptual, theoretical, and practical dimensions. From exploring sound perception, memory, and human orientation to embracing everyday auditory encounters, study delves into various approaches for\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Examination of realm of sound as an artistic medium. Exploration of its conceptual, theoretical, and practical dimensions. From exploring sound perception, memory, and human orientation to embracing everyday auditory encounters, study delves into various approaches for… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -340,8 +348,12 @@
         ],
         "corequisites": [],
         "one_of": [
-          "DESMA 101",
-          "DESMA 104"
+          [
+            "DESMA 101"
+          ],
+          [
+            "DESMA 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -354,7 +366,7 @@
       "number": "125",
       "title": "Game Design",
       "units": 5.0,
-      "description": "(Formerly numbered 157.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, and 101 or 104. Introduction to game design, with focus on developing conceptual and practical skills that form basis for both digital and nondigital game development. Development of four\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 157.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, and 101 or 104. Introduction to game design, with focus on developing conceptual and practical skills that form basis for both digital and nondigital game development. Development of four… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 24, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -363,8 +375,12 @@
         ],
         "corequisites": [],
         "one_of": [
-          "DESMA 101",
-          "DESMA 104"
+          [
+            "DESMA 101"
+          ],
+          [
+            "DESMA 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -377,7 +393,7 @@
       "number": "126",
       "title": "Game Engine",
       "units": 5.0,
-      "description": "(Formerly numbered 158.) Studio, six hours; outside study, nine hours. Requisites: courses 28, and 101 or 104. Introduction of fundamentals of programming interactive projects in game development software. Focus on familiarizing students with game engines, computer programming concepts, player experience, and other skills that are foundational to making digital games.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 158.) Studio, six hours; outside study, nine hours. Requisites: courses 28, and 101 or 104. Introduction of fundamentals of programming interactive projects in game development software. Focus on familiarizing students with game engines, computer programming concepts, player experience, and other skills that are foundational to making digital games.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -401,14 +417,18 @@
       "number": "127",
       "title": "Interactive Animation",
       "units": 5.0,
-      "description": "(Formerly numbered 155.) Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Exploration of traditional and experimental animation techniques that are central to 2D and 3D interactive digital projects and video games. Development of skills and concepts that are integral to animation workflows and game engine animation\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 155.) Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Exploration of traditional and experimental animation techniques that are central to 2D and 3D interactive digital projects and video games. Development of skills and concepts that are integral to animation workflows and game engine animation… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 101 or 104.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "DESMA 101",
-          "DESMA 104"
+          [
+            "DESMA 101"
+          ],
+          [
+            "DESMA 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -421,7 +441,7 @@
       "number": "128",
       "title": "Worldbuilding",
       "units": 5.0,
-      "description": "Studio, six hours; outside study, nine hours. Requisites: courses 101 or 104, and 131. Worldbuilding is an art that has been around for thousands of years as a central component in ancient cosmologies, mythologies, and theologies. It thrives today within contexts of comics, computer games, serialized fiction, television series, theme\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, nine hours. Requisites: courses 101 or 104, and 131. Worldbuilding is an art that has been around for thousands of years as a central component in ancient cosmologies, mythologies, and theologies. It thrives today within contexts of comics, computer games, serialized fiction, television series, theme… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 101 or 104, and 131.",
       "prereqs_parsed": {
         "required": [
@@ -445,7 +465,7 @@
       "number": "129",
       "title": "Collaborative Game Lab",
       "units": 5.0,
-      "description": "Studio, six hours; outside study, nine hours. Requisites: courses 24 or 28, and 101 or 104. Focus on collaborative game design and development and discourse around collaboration and cooperation models. Games are complex interdisciplinary cultural artifacts and are often created through team based efforts merging many possible combinations of technical,\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, nine hours. Requisites: courses 24 or 28, and 101 or 104. Focus on collaborative game design and development and discourse around collaboration and cooperation models. Games are complex interdisciplinary cultural artifacts and are often created through team based efforts merging many possible combinations of technical,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 24 or 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -474,14 +494,18 @@
       "number": "130",
       "title": "Experiments in Virtuality",
       "units": 5.0,
-      "description": "Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Virtuality is a realm of potential, defined by its proximity to reality and our bodies\u2014it is not software or platform specific. Study provides a framework for students to develop projects that explore different kinds of virtual platforms and\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Virtuality is a realm of potential, defined by its proximity to reality and our bodies—it is not software or platform specific. Study provides a framework for students to develop projects that explore different kinds of virtual platforms and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 101 or 104.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "DESMA 101",
-          "DESMA 104"
+          [
+            "DESMA 101"
+          ],
+          [
+            "DESMA 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -494,7 +518,7 @@
       "number": "131",
       "title": "Three-Dimensional Modeling and Motion",
       "units": 5.0,
-      "description": "(Formerly numbered 156.) Studio, six hours; outside study, nine hours. Requisite: course 101 or 104. Introduction to theories of three-dimensional form, spatial design, and lighting, using three-dimensional visualization and video tools. Tools originally designed for motion to be used to construct form. Use of aspects of time, such as speed\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 156.) Studio, six hours; outside study, nine hours. Requisite: course 101 or 104. Introduction to theories of three-dimensional form, spatial design, and lighting, using three-dimensional visualization and video tools. Tools originally designed for motion to be used to construct form. Use of aspects of time, such as speed… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 101 or 104.",
       "prereqs_parsed": {
         "required": []
@@ -509,7 +533,7 @@
       "number": "140",
       "title": "Word + Image",
       "units": 5.0,
-      "description": "(Formerly numbered 154.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 21, 22, 25, and 101 or 104. Focus on relationship of type to content, image, and materials. Acquisition of knowledge of and sensitivity to typography in context of complex communication problems\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 154.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 21, 22, 25, and 101 or 104. Focus on relationship of type to content, image, and materials. Acquisition of knowledge of and sensitivity to typography in context of complex communication problems… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 25, and 101 or 104.",
       "prereqs_parsed": {
         "required": []
@@ -524,7 +548,7 @@
       "number": "141",
       "title": "Web Design and User Interface and Experience",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Online interaction today focuses on information through living, social platforms. Study goes beyond an average user\u2019s perspective to critically examine the web through historical, political, and social lenses. Students are encouraged to holistically approach the web\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Online interaction today focuses on information through living, social platforms. Study goes beyond an average user’s perspective to critically examine the web through historical, political, and social lenses. Students are encouraged to holistically approach the web… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -552,7 +576,7 @@
       "number": "142",
       "title": "Design Systems",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of the development of design identities in the form of multi-component, multi-stage, or cross-media projects. Development of series and systems that include visual and verbal components to create a cohesive identity across deliverables that either\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of the development of design identities in the form of multi-component, multi-stage, or cross-media projects. Development of series and systems that include visual and verbal components to create a cohesive identity across deliverables that either… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -580,7 +604,7 @@
       "number": "143",
       "title": "Disability and the Web",
       "units": 5.0,
-      "description": "Studio, six hours. Introduction to universal design, assistive technology, and disability justice. Students work hands-on in partnership with community organizations that support people with disabilities to learn about assistive technology, identify access issues, and prototype solutions on the web. Engagement with and expansion of existing accessibility best practices to interrogate\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Introduction to universal design, assistive technology, and disability justice. Students work hands-on in partnership with community organizations that support people with disabilities to learn about assistive technology, identify access issues, and prototype solutions on the web. Engagement with and expansion of existing accessibility best practices to interrogate… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -593,7 +617,7 @@
       "number": "144",
       "title": "Type in Motion",
       "units": 5.0,
-      "description": "Studio, six hours; outside study, nine hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Typographic vocabulary is expanded through the use of time-based composition, sound, and animation. The application of kinetic media enables motion, scale change, and sequence to typographic communication. By experiencing the rhythmic and\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, nine hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Typographic vocabulary is expanded through the use of time-based composition, sound, and animation. The application of kinetic media enables motion, scale change, and sequence to typographic communication. By experiencing the rhythmic and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -621,7 +645,7 @@
       "number": "145",
       "title": "Design Research",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Study of concepts and techniques of design research. Application of them individually and in groups to specific areas of interest. Emphasis on research methodologies for creative practices. Study maintains and strengthens attention to design research theory\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Study of concepts and techniques of design research. Application of them individually and in groups to specific areas of interest. Emphasis on research methodologies for creative practices. Study maintains and strengthens attention to design research theory… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 21, 22, 24, 25, 28, and 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -633,8 +657,12 @@
         ],
         "corequisites": [],
         "one_of": [
-          "DESMA 101",
-          "DESMA 104"
+          [
+            "DESMA 101"
+          ],
+          [
+            "DESMA 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -647,7 +675,7 @@
       "number": "146",
       "title": "Ecological Arts and Justice Practice",
       "units": 5.0,
-      "description": "Studio, six hours. Requisites: courses 25, 101 or 104. Investigation of ecological art practices grounded in environmental justice. Research of Southern California ecologies with historical and ongoing issues of environmental injustice. Students investigate environmental wrong-doings of the region, critically and creatively implement community-based design methods, do site visits, and engage\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours. Requisites: courses 25, 101 or 104. Investigation of ecological art practices grounded in environmental justice. Research of Southern California ecologies with historical and ongoing issues of environmental injustice. Students investigate environmental wrong-doings of the region, critically and creatively implement community-based design methods, do site visits, and engage… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 25, 101 or 104.",
       "prereqs_parsed": {
         "required": [
@@ -671,7 +699,7 @@
       "number": "150",
       "title": "Professional Practices",
       "units": 5.0,
-      "description": "Studio, six hours; outside study, nine hours. Exploration of issues in the business side of design media arts careers\u2014as a freelancer, full-time staffer, or one\u2019s own studio practice. Topics include understanding common studio structures and roles, developing studio credentials, billing and booking practices, proposal and contract writing, pricing models, and\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, nine hours. Exploration of issues in the business side of design media arts careers—as a freelancer, full-time staffer, or one’s own studio practice. Topics include understanding common studio structures and roles, developing studio credentials, billing and booking practices, proposal and contract writing, pricing models, and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -684,7 +712,7 @@
       "number": "159",
       "title": "Capstone Senior Project in Design Media Arts",
       "units": 5.0,
-      "description": "(Formerly numbered 159A.) Studio, six hours; outside study, nine hours. Requisites: courses 8, 10, 21, 22, 24, 25, 28, 101, and 104, and 160, 171, 172, or 173. Preparation: completion of preparation for major courses. Students should have completed six core, upper-division studio courses. Limited to seniors and should be\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 159A.) Studio, six hours; outside study, nine hours. Requisites: courses 8, 10, 21, 22, 24, 25, 28, 101, and 104, and 160, 171, 172, or 173. Preparation: completion of preparation for major courses. Students should have completed six core, upper-division studio courses. Limited to seniors and should be… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 8, 10, 21, 22, 24, 25, 28, 101, and 104, and 160, 171, 172, or 173.",
       "prereqs_parsed": {
         "required": [
@@ -700,10 +728,18 @@
         ],
         "corequisites": [],
         "one_of": [
-          "DESMA 160",
-          "DESMA 171",
-          "DESMA 172",
-          "DESMA 173"
+          [
+            "DESMA 160"
+          ],
+          [
+            "DESMA 171"
+          ],
+          [
+            "DESMA 172"
+          ],
+          [
+            "DESMA 173"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -716,14 +752,18 @@
       "number": "160",
       "title": "Special Topics in Design | Media Arts",
       "units": 5.0,
-      "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisite: course 101 or 104. Selected topics in design and media arts explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisite: course 101 or 104. Selected topics in design and media arts explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 101 or 104.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "DESMA 101",
-          "DESMA 104"
+          [
+            "DESMA 101"
+          ],
+          [
+            "DESMA 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -738,7 +778,7 @@
       "number": "21",
       "title": "Drawing and Color",
       "units": 4.0,
-      "description": "Studio, six hours; outside study, six hours. For drawing, exploration of relationship between concept and image creation while fostering development of sound drawing and observation skills. For color, exploration of development of fundamental skills in mixing and applying pigments with brush on watercolor paper, as well as use of computer\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, six hours. For drawing, exploration of relationship between concept and image creation while fostering development of sound drawing and observation skills. For color, exploration of development of fundamental skills in mixing and applying pigments with brush on watercolor paper, as well as use of computer… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -761,7 +801,7 @@
       "number": "22",
       "title": "Form",
       "units": 4.0,
-      "description": "Studio, six hours; outside study, six hours. Study combines aspects of industrial design, sculpture, engineering, fabrication, traditional crafts, and other practices to give students a survey of many different ways of making. Through assignments and projects investigating the affordances of materials and the potentials of fabrication, students engage with concepts\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, six hours. Study combines aspects of industrial design, sculpture, engineering, fabrication, traditional crafts, and other practices to give students a survey of many different ways of making. Through assignments and projects investigating the affordances of materials and the potentials of fabrication, students engage with concepts… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -785,7 +825,7 @@
       "number": "24",
       "title": "Motion",
       "units": 4.0,
-      "description": "Studio, six hours; outside study, six hours. Introduction and integration of design tools and digital technologies for application to visual thinking and fundamentals of design. Exploration of aesthetics and fundamentals of motion and application to design and media arts through introduction of basic concepts and tools for design of moving\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, six hours. Introduction and integration of design tools and digital technologies for application to visual thinking and fundamentals of design. Exploration of aesthetics and fundamentals of motion and application to design and media arts through introduction of basic concepts and tools for design of moving… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -810,7 +850,7 @@
       "number": "25",
       "title": "Typography",
       "units": 4.0,
-      "description": "Studio, six hours; outside study, six hours. Focus on three typographic basics: letter, text, and grid. Introduction to fundamentals of typography. Assignments designed to develop understanding of form, scale, and shape of letters as single elements and as texture in layout. Emphasis on grid (structure and layout) and information hierarchy\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, six hours. Focus on three typographic basics: letter, text, and grid. Introduction to fundamentals of typography. Assignments designed to develop understanding of form, scale, and shape of letters as single elements and as texture in layout. Emphasis on grid (structure and layout) and information hierarchy… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -834,7 +874,7 @@
       "number": "28",
       "title": "Interactivity",
       "units": 4.0,
-      "description": "Studio, six hours; outside study, six hours. Introduction to concept of interactivity and field of media art that follows history of computer as media for artistic exploration in relation to print, animation, and interactivity. Discussion of potential and ideas related to interactivity, with focus on required skills for creating interactive\u2026 For more content click the Read More button below.",
+      "description": "Studio, six hours; outside study, six hours. Introduction to concept of interactivity and field of media art that follows history of computer as media for artistic exploration in relation to print, animation, and interactivity. Discussion of potential and ideas related to interactivity, with focus on required skills for creating interactive… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -862,7 +902,7 @@
       "number": "8",
       "title": "Media Histories",
       "units": 5.0,
-      "description": "Lecture, three hours; outside study, 12 hours. Synthetic overview of optical media and aesthetic movements covering past two centuries: photography and industrialization/Romanticism (1850 to 1900), cinema and modernism (1900 to 1950), television and postmodernism (1950 to 2000), and digital media and unimodernism (2000 to 2050). How such movements can inform\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; outside study, 12 hours. Synthetic overview of optical media and aesthetic movements covering past two centuries: photography and industrialization/Romanticism (1850 to 1900), cinema and modernism (1900 to 1950), television and postmodernism (1950 to 2000), and digital media and unimodernism (2000 to 2050). How such movements can inform… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

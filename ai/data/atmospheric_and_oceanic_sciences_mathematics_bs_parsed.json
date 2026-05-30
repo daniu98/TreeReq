@@ -272,7 +272,7 @@
       "number": "1",
       "title": "Climate Change: From Puzzles to Policy",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Overview of fundamentals of Earth\u2019s climate, including greenhouse effect, water and chemical cycles, outstanding features of atmospheric and ocean circulation, and feedback between different system components. Exciting and contentious scientific puzzles of climate system, including causes of ice ages, greenhouse warming, and el ni\u00f1o.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Overview of fundamentals of Earth’s climate, including greenhouse effect, water and chemical cycles, outstanding features of atmospheric and ocean circulation, and feedback between different system components. Exciting and contentious scientific puzzles of climate system, including causes of ice ages, greenhouse warming, and el niño.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -285,7 +285,7 @@
       "number": "101",
       "title": "Fundamentals of Atmospheric Dynamics and Thermodynamics",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisites: Mathematics 3B or 31B or Life Sciences 30B, Physics 1B or 5B or 5C or 6B. Introduction to thermodynamics (flows of heat, energy, and work) and dynamics (winds) of atmosphere. Topics covered include hydrostatic balance, first law of thermodynamics, dry and moist adiabatic\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Requisites: Mathematics 3B or 31B or Life Sciences 30B, Physics 1B or 5B or 5C or 6B. Introduction to thermodynamics (flows of heat, energy, and work) and dynamics (winds) of atmosphere. Topics covered include hydrostatic balance, first law of thermodynamics, dry and moist adiabatic… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 3B or 31B or Life Sciences 30B, Physics 1B or 5B or 5C or 6B.",
       "prereqs_parsed": {
         "required": [],
@@ -319,7 +319,7 @@
       "number": "103",
       "title": "Physical Oceanography",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: Mathematics 3B or 31B. Introductory course for physical sciences, life sciences, or engineering majors interested in environmental issues. Observations of temperature, salinity, density, and currents. Methods. Wind-driven and geostrophic currents. California Current and Gulf Stream. Internal waves. Surface waves and tides. Air/sea interactions.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: Mathematics 3B or 31B. Introductory course for physical sciences, life sciences, or engineering majors interested in environmental issues. Observations of temperature, salinity, density, and currents. Methods. Wind-driven and geostrophic currents. California Current and Gulf Stream. Internal waves. Surface waves and tides. Air/sea interactions.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 3B or 31B.",
       "prereqs_parsed": {
         "required": [],
@@ -343,19 +343,33 @@
       "number": "112",
       "title": "Climate Change Assessment",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: one course from Life Sciences 30B, 40, Mathematics 3B, 31B, Statistics 10, 12, or 13. Recommended requisite: one course from 51, 101, 102, 103, 104, 105, M106, 107, Environment 175, or equivalent background for reading quantitative scientific literature in climate change. Projections of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: one course from Life Sciences 30B, 40, Mathematics 3B, 31B, Statistics 10, 12, or 13. Recommended requisite: one course from 51, 101, 102, 103, 104, 105, M106, 107, Environment 175, or equivalent background for reading quantitative scientific literature in climate change. Projections of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: one course from Life Sciences 30B, 40, Mathematics 3B, 31B, Statistics 10, 12, or 13.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LIFE SCI 30B",
-          "LIFE SCI 40",
-          "MATH 3B",
-          "MATH 31B",
-          "STAT 10",
-          "STAT 12",
-          "STAT 13"
+          [
+            "LIFE SCI 30B"
+          ],
+          [
+            "LIFE SCI 40"
+          ],
+          [
+            "MATH 3B"
+          ],
+          [
+            "MATH 31B"
+          ],
+          [
+            "STAT 10"
+          ],
+          [
+            "STAT 12"
+          ],
+          [
+            "STAT 13"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -422,7 +436,7 @@
       "number": "2",
       "title": "Air Pollution",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Causes and effects of high concentrations of pollution in atmosphere. Topics include nature and sources of gaseous and particulate pollutants, their transport, dispersion, modification, and removal, with emphasis on atmospheric processes on scales ranging from individual sources to global effects; interaction with biosphere and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Causes and effects of high concentrations of pollution in atmosphere. Topics include nature and sources of gaseous and particulate pollutants, their transport, dispersion, modification, and removal, with emphasis on atmospheric processes on scales ranging from individual sources to global effects; interaction with biosphere and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -448,7 +462,7 @@
       "number": "5",
       "title": "Climates of Other Worlds",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Introduction to atmospheres of planets and their satellites in solar system using information obtained during recent planetary exploration program. Elementary description of origin and evolution of atmospheres on planets. Climates on planets, conditions necessary for evolution of life, and its resulting effect on planetary\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Introduction to atmospheres of planets and their satellites in solar system using information obtained during recent planetary exploration program. Elementary description of origin and evolution of atmospheres on planets. Climates on planets, conditions necessary for evolution of life, and its resulting effect on planetary… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -461,7 +475,7 @@
       "number": "51",
       "title": "Fundamentals of Climate Science",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 3B or 32A, Physics 1A or 5A or 5B, with grades of C or better. Development of fundamental understanding of climate science. Topics include global energy balance, atmospheric radiation and greenhouse effect, surface and boundary layer dynamics, atmospheric and oceanic circulation, global\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 3B or 32A, Physics 1A or 5A or 5B, with grades of C or better. Development of fundamental understanding of climate science. Topics include global energy balance, atmospheric radiation and greenhouse effect, surface and boundary layer dynamics, atmospheric and oceanic circulation, global… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 3B or 32A, Physics 1A or 5A or 5B, with grades of C or better.",
       "prereqs_parsed": {
         "required": [],
@@ -488,7 +502,7 @@
       "number": "90",
       "title": "Introduction to Undergraduate Research in Atmospheric and Oceanic Sciences",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, two hours. Requisites: course M71 (or Program in Computing 10A); Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B. Students gain basic ability to understand, conduct, and communicate scientific research in atmospheric and oceanic sciences. Univariate and bivariate statistical data analysis,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, two hours. Requisites: course M71 (or Program in Computing 10A); Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B. Students gain basic ability to understand, conduct, and communicate scientific research in atmospheric and oceanic sciences. Univariate and bivariate statistical data analysis,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course M71 (or Program in Computing 10A); Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B.",
       "prereqs_parsed": {
         "required": [
@@ -541,7 +555,7 @@
       "number": "C115",
       "title": "Mesometeorology",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 101. Observations of phenomena with length scales ranging from 20 km to 2,000 km. Topics include polar lows, airmass thunderstorms, multicell storms, supercell tornadoes, gust fronts, downbursts, microbursts, and dry line. Discussions on design of field project. Concurrently scheduled with course C228. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 101. Observations of phenomena with length scales ranging from 20 km to 2,000 km. Topics include polar lows, airmass thunderstorms, multicell storms, supercell tornadoes, gust fronts, downbursts, microbursts, and dry line. Discussions on design of field project. Concurrently scheduled with course C228. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 101.",
       "prereqs_parsed": {
         "required": [
@@ -560,7 +574,7 @@
       "number": "C144",
       "title": "Atmospheric Boundary Layer",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite: course 101 with grade of B&plus; or better. Atmospheric boundary layer is lowest portion of atmosphere, representing interface between Earth\u2019s surface and atmosphere, is strongly affected by turbulence, and plays important role in exchange of heat, momentum, trace gases, and aerosols between Earth\u2019s surface and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite: course 101 with grade of B&plus; or better. Atmospheric boundary layer is lowest portion of atmosphere, representing interface between Earth’s surface and atmosphere, is strongly affected by turbulence, and plays important role in exchange of heat, momentum, trace gases, and aerosols between Earth’s surface and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 101 with grade of B&plus; or better.",
       "prereqs_parsed": {
         "required": [
@@ -579,14 +593,18 @@
       "number": "C160",
       "title": "Remote Sensing of Atmosphere and Oceans",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: Physics 1C or 5B. Theory and techniques of remote sensing; atmospheric spectroscopy, scattering, and polarization; passive and active techniques; relevant satellite systems; inversion methods; remote sensing of clouds, aerosols, temperature, precipitation, and trace constituents; remote sensing of oceans and biosphere. Concurrently scheduled with course C240B. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: Physics 1C or 5B. Theory and techniques of remote sensing; atmospheric spectroscopy, scattering, and polarization; passive and active techniques; relevant satellite systems; inversion methods; remote sensing of clouds, aerosols, temperature, precipitation, and trace constituents; remote sensing of oceans and biosphere. Concurrently scheduled with course C240B. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Physics 1C or 5B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PHYSICS 1C",
-          "PHYSICS 5B"
+          [
+            "PHYSICS 1C"
+          ],
+          [
+            "PHYSICS 5B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -599,10 +617,17 @@
       "number": "C170",
       "title": "Introduction to Solar System Plasmas",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 33A, Physics 1C. Introduction to basic plasma physical processes occurring in sun, solar wind, magnetospheres, and ionospheres of planets, using simple fluid (magnetohydrodynamic) models as well as individual particle (radiation belt dynamics) approach. Solar-planetary coupling processes, geomagnetic phenomena, aurora. Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: Mathematics 33A, Physics 1C. Introduction to basic plasma physical processes occurring in sun, solar wind, magnetospheres, and ionospheres of planets, using simple fluid (magnetohydrodynamic) models as well as individual particle (radiation belt dynamics) approach. Solar-planetary coupling processes, geomagnetic phenomena, aurora. Concurrently scheduled with… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 33A, Physics 1C.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 33A",
+          "PHYSICS 1C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -625,7 +650,7 @@
       "number": "M7",
       "title": "Perils of Space: Introduction to Space Weather",
       "units": 4.0,
-      "description": "(Same as Earth, Planetary, and Space Sciences M7.) Lecture, three hours; discussion, one hour. Concepts of plasma physics. Dynamic sun, solar wind, and Earth\u2019s magnetosphere and ionosphere. Space storms and substorms and their impacts on astronauts, spacecraft, and surface power and communication grids. P/NP or letter grading.",
+      "description": "(Same as Earth, Planetary, and Space Sciences M7.) Lecture, three hours; discussion, one hour. Concepts of plasma physics. Dynamic sun, solar wind, and Earth’s magnetosphere and ionosphere. Space storms and substorms and their impacts on astronauts, spacecraft, and surface power and communication grids. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -638,7 +663,7 @@
       "number": "M71",
       "title": "Introduction to Computing for Geoscientists",
       "units": 5.0,
-      "description": "(Same as Earth, Planetary, and Space Sciences M71.) Lecture, four hours; laboratory, 90 minutes;\u00a0outside computing study, six to 10 hours. Introduction to writing programs, visualization of geoscience data, and comparison with models. P/NP or letter grading.",
+      "description": "(Same as Earth, Planetary, and Space Sciences M71.) Lecture, four hours; laboratory, 90 minutes; outside computing study, six to 10 hours. Introduction to writing programs, visualization of geoscience data, and comparison with models. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -653,7 +678,7 @@
       "number": "14A",
       "title": "General Chemistry for Life Scientists I",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
       "prereqs_parsed": {
         "required": [],
@@ -677,8 +702,8 @@
       "number": "14B",
       "title": "General Chemistry for Life Scientists II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better. Not open to students with credit for course 14BE, 20B,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -715,7 +740,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -737,8 +762,8 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -769,7 +794,7 @@
       "number": "30",
       "title": "Principles and Practices of Computing",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Designed for students in computer science and related majors who do not have prior programming experience. Precursor course to introductory computer science sequence (courses 31, 32, 33). Teaches students how to use computers as tool for problem solving, creativity, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Designed for students in computer science and related majors who do not have prior programming experience. Precursor course to introductory computer science sequence (courses 31, 32, 33). Teaches students how to use computers as tool for problem solving, creativity, and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -820,7 +845,13 @@
       "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A. Linear transformations, conjugate spaces, duality; theory of a single linear transformation, Jordan normal form; bilinear forms, quadratic forms; Euclidean and unitary spaces, symmetric skew and orthogonal linear transformations, polar decomposition. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 115A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 115A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -873,7 +904,7 @@
       "number": "134",
       "title": "Linear and Nonlinear Systems of Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 33B. Dynamical systems analysis of nonlinear systems of differential equations. One- and two- dimensional flows. Fixed points, limit cycles, and stability analysis. Bifurcations and normal forms. Elementary geometrical and topological results. Applications to problems in biology, chemistry, physics, and other fields. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 33B. Dynamical systems analysis of nonlinear systems of differential equations. One- and two- dimensional flows. Fixed points, limit cycles, and stability analysis. Bifurcations and normal forms. Elementary geometrical and topological results. Applications to problems in biology, chemistry, physics, and other fields. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 33B.",
       "prereqs_parsed": {
         "required": [
@@ -892,7 +923,7 @@
       "number": "135",
       "title": "Ordinary Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 33B. Selected topics in differential equations. Laplace transforms, existence and uniqueness theorems, Fourier series, separation of variable solutions to partial differential equations, Sturm/Liouville theory, calculus of variations, two-point boundary value problems, Green\u2019s functions. P/NP or letter grading.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 33B. Selected topics in differential equations. Laplace transforms, existence and uniqueness theorems, Fourier series, separation of variable solutions to partial differential equations, Sturm/Liouville theory, calculus of variations, two-point boundary value problems, Green’s functions. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 33A, 33B.",
       "prereqs_parsed": {
         "required": [
@@ -915,7 +946,14 @@
       "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 33B. Linear partial differential equations, boundary and initial value problems; wave equation, heat equation, and Laplace equation; separation of variables, eigenfunction expansions; selected topics, as method of characteristics for nonlinear equations.",
       "prereqs_raw": "Requisites: courses 33A, 33B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 33A",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -945,7 +983,7 @@
       "number": "151A",
       "title": "Applied Numerical Methods",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 32B, 33B, 115A, Program in Computing 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [
@@ -992,7 +1030,7 @@
       "number": "170E",
       "title": "Introduction to Probability and Statistics 1: Probability",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 32B. Highly recommended: course 61 or 70. Not open to students with credit for course 170A, Electrical and Computer Engineering 131A, or Statistics 100A. Introduction to probability theory with emphasis on topics relevant to applications. Topics include discrete (binomial, Poisson, etc.) and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 32B. Highly recommended: course 61 or 70. Not open to students with credit for course 170A, Electrical and Computer Engineering 131A, or Statistics 100A. Introduction to probability theory with emphasis on topics relevant to applications. Topics include discrete (binomial, Poisson, etc.) and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 32B.",
       "prereqs_parsed": {
         "required": [
@@ -1013,7 +1051,7 @@
       "number": "170S",
       "title": "Introduction to Probability and Statistics 2: Statistics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A. Not open to students with credit for Statistics 100B. Introduction to statistics. Topics include sampling, estimation (maximum likelihood and Bayesian), properties of estimators, regression, confidence intervals, hypotheses testing, analysis of variance. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A. Not open to students with credit for Statistics 100B. Introduction to statistics. Topics include sampling, estimation (maximum likelihood and Bayesian), properties of estimators, regression, confidence intervals, hypotheses testing, analysis of variance. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A.",
       "prereqs_parsed": {
         "required": [
@@ -1039,8 +1077,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 1"
@@ -1066,10 +1104,16 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "A&O SCI 101",
@@ -1092,8 +1136,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1118,8 +1162,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -1145,8 +1189,8 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1172,8 +1216,8 @@
       "number": "33B",
       "title": "Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C– or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B"
@@ -1250,7 +1294,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [

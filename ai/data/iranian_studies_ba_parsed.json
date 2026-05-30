@@ -288,8 +288,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "IRANIAN 1C",
-          "IRANIAN 20C"
+          [
+            "IRANIAN 1C"
+          ],
+          [
+            "IRANIAN 20C"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -422,7 +426,7 @@
       "number": "120",
       "title": "Comparative Study of Six Major Persian Poets",
       "units": 4.0,
-      "description": "Lecture, two hours; discussion, one hour. Preparation: knowledge of Persian. Lectures in Persian, readings in English and Persian. Comparative study of six major Persian poets from 10th to 14th century who shaped sense of Persian identity and delineated chief distinguishing characteristics of Persian thought and culture. May be repeated for\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; discussion, one hour. Preparation: knowledge of Persian. Lectures in Persian, readings in English and Persian. Comparative study of six major Persian poets from 10th to 14th century who shaped sense of Persian identity and delineated chief distinguishing characteristics of Persian thought and culture. May be repeated for… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -463,7 +467,7 @@
       "number": "132",
       "title": "Intermediate Judeo-Persian Literature and Culture",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisites: courses 102C, 131. Literary study of Judeo-Persian literature, as segment of Iranian classical literature. Judeo-Persian literary genres, in forms of prose and verse, compared with their parallel genres in context of Iranian literature. Textual study of Judeo-Persian manuscripts, both print and cursive, and their variations\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisites: courses 102C, 131. Literary study of Judeo-Persian literature, as segment of Iranian classical literature. Judeo-Persian literary genres, in forms of prose and verse, compared with their parallel genres in context of Iranian literature. Textual study of Judeo-Persian manuscripts, both print and cursive, and their variations… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 102C, 131.",
       "prereqs_parsed": {
         "required": [
@@ -483,7 +487,7 @@
       "number": "140",
       "title": "Persian Belles Lettres (Adabiyyat)",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 102C. Study of major Persian poets and prose writers: prose\u2014Sohravardi, Hamad\u00e2ni, Nasafi, Ir\u00e2qi, and others; poetry\u2014H\u00e2fez, Sa\u2019di, R\u00fbmi, Bah\u00e2r, Dehkhoda, and others. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+      "description": "Lecture, three hours. Requisite: course 102C. Study of major Persian poets and prose writers: prose—Sohravardi, Hamadâni, Nasafi, Irâqi, and others; poetry—Hâfez, Sa’di, Rûmi, Bahâr, Dehkhoda, and others. May be repeated for credit with consent of instructor. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 102C.",
       "prereqs_parsed": {
         "required": [
@@ -582,7 +586,13 @@
       "description": "Lecture, three hours. Requisite: course 161A. Studies in grammars and texts of Middle Iranian languages (e.g., Middle Persian, Parthian, Sogdian, Khotanese, Bactrian). May be repeated for credit with consent of instructor. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 161A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "IRANIAN 161A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -605,7 +615,7 @@
       "number": "164",
       "title": "Ancient Cities of Iran: Archaeological Survey of Historic Cities and Sites of Iran from 4000 BC to 1900 AD",
       "units": 4.0,
-      "description": "Lecture, four hours. Introduction to archaeological and historical monuments and sites of Iran from earliest periods to early 20th century. Examination of emergence of early Iranian villages, formation of cities and their development and expansion throughout late Sasanian and early Islamic periods to preindustrial era in early years of past\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Introduction to archaeological and historical monuments and sites of Iran from earliest periods to early 20th century. Examination of emergence of early Iranian villages, formation of cities and their development and expansion throughout late Sasanian and early Islamic periods to preindustrial era in early years of past… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -714,7 +724,7 @@
       "number": "20A",
       "title": "Accelerated Elementary Persian",
       "units": 6.0,
-      "description": "Lecture, four hours; discussion two hours; laboratory, 30 minutes per day. Preparation: some knowledge of spoken Persian. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Intensive and thorough study of fundamental structure of Persian grammar; reading from a wide range of classical and modern poetry\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion two hours; laboratory, 30 minutes per day. Preparation: some knowledge of spoken Persian. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Intensive and thorough study of fundamental structure of Persian grammar; reading from a wide range of classical and modern poetry… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -771,7 +781,7 @@
       "number": "55",
       "title": "Gender and Sexuality in Arts and Literatures of Iran and Middle East",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Multifaceted introduction to Persian poetry, recognized as jewel of Persian culture, and to pictorial, architectural, performative, cinematographic, and photographic dimensions of artistic milieu spanning between Balkans, India, and Central Asia from 10th century CE to present. With consideration of centrality of discourses on identity,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Multifaceted introduction to Persian poetry, recognized as jewel of Persian culture, and to pictorial, architectural, performative, cinematographic, and photographic dimensions of artistic milieu spanning between Balkans, India, and Central Asia from 10th century CE to present. With consideration of centrality of discourses on identity,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -795,9 +805,9 @@
       "course_id": "IRANIAN M105A",
       "dept": "IRANIAN",
       "number": "M105A",
-      "title": "Bah\u00c3\u00a1'\u00c3\u00ad Faith in Iran: Historical and Sociological Survey",
+      "title": "BahÃ¡'Ã­ Faith in Iran: Historical and Sociological Survey",
       "units": 4.0,
-      "description": "(Same as Religion M105A.) Lecture, three hours. Readings in English. Rise and development of B\u00e1b\u00ed and Bah\u00e1\u2019\u00ed religions in context of 19th century Iran. Focus on personalities of B\u00e1b, Bah\u00e1\u2019u\u2019ll\u00e1h, and \u2018Abdu\u2019l-Bah\u00e1. May be taken independently for credit. P/NP or letter grading.",
+      "description": "(Same as Religion M105A.) Lecture, three hours. Readings in English. Rise and development of Bábí and Bahá’í religions in context of 19th century Iran. Focus on personalities of Báb, Bahá’u’lláh, and ‘Abdu’l-Bahá. May be taken independently for credit. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -808,9 +818,9 @@
       "course_id": "IRANIAN M105B",
       "dept": "IRANIAN",
       "number": "M105B",
-      "title": "Bah\u00c3\u00a1'\u00c3\u00ad Faith in Iran: Survey of Bah\u00c3\u00a1'\u00c3\u00ad Scriptures and Thought",
+      "title": "BahÃ¡'Ã­ Faith in Iran: Survey of BahÃ¡'Ã­ Scriptures and Thought",
       "units": 4.0,
-      "description": "(Same as Religion M105B.) Lecture, three hours. Readings in English. Analysis of major writings by B\u00e1b, Bah\u00e1\u2019u\u2019ll\u00e1h, and \u2018Abdu\u2019l-Bah\u00e1. Emphasis on mystical and social principles. May be taken independently for credit. P/NP or letter grading.",
+      "description": "(Same as Religion M105B.) Lecture, three hours. Readings in English. Analysis of major writings by Báb, Bahá’u’lláh, and ‘Abdu’l-Bahá. Emphasis on mystical and social principles. May be taken independently for credit. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -823,7 +833,7 @@
       "number": "M110A",
       "title": "Iranian Civilization: History of Achaemenid Empire",
       "units": 4.0,
-      "description": "(Same as Ancient Near East M110A and History M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire\u2019s religions, and Greco-Persian interactions. Further accents on Cyrus\u2019 empire and Darius\u2019 world\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ancient Near East M110A and History M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire’s religions, and Greco-Persian interactions. Further accents on Cyrus’ empire and Darius’ world… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -836,7 +846,7 @@
       "number": "M110B",
       "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
       "units": 4.0,
-      "description": "(Same as Ancient Near East M110B and History M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ancient Near East M110B and History M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire’s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -847,9 +857,9 @@
       "course_id": "IRANIAN M110C",
       "dept": "IRANIAN",
       "number": "M110C",
-      "title": "Iranian Civilization: History of Early Sasanian Empire\u00e2\u20ac\u201dFrom Ardashir I to Rise of Peroz (circa 224-459 CE)",
+      "title": "Iranian Civilization: History of Early Sasanian Empireâ€”From Ardashir I to Rise of Peroz (circa 224-459 CE)",
       "units": 4.0,
-      "description": "(Same as Ancient Near East M110C and History M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire\u2019s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ancient Near East M110C and History M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire’s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -901,7 +911,7 @@
       "number": "M178",
       "title": "Introduction to History and Culture of Iranian Jews",
       "units": 4.0,
-      "description": "(Same as History M178 and Jewish Studies M178.) Lecture, three hours. Introduction to political, intellectual, cultural, and socioeconomic status of Iranian Jews. Exploration of history of Iranian Jews from ancient period throughout history, with focus on post-Middle Ages to present time. Topics, studied from perspective of Iranian cultural and intellectual\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M178 and Jewish Studies M178.) Lecture, three hours. Introduction to political, intellectual, cultural, and socioeconomic status of Iranian Jews. Exploration of history of Iranian Jews from ancient period throughout history, with focus on post-Middle Ages to present time. Topics, studied from perspective of Iranian cultural and intellectual… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -914,7 +924,7 @@
       "number": "M60",
       "title": "Achaemenid Civilization and Empire of Alexander",
       "units": 5.0,
-      "description": "(Same as Ancient Near East M60 and History M60.) Lecture, three hours; discussion, one hour. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was ended by Alexander the Great, whose campaigns were as transformative as they were\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ancient Near East M60 and History M60.) Lecture, three hours; discussion, one hour. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was ended by Alexander the Great, whose campaigns were as transformative as they were… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -927,7 +937,7 @@
       "number": "M60W",
       "title": "Achaemenid Civilization and Empire of Alexander",
       "units": 5.0,
-      "description": "(Same as Ancient Near East M60W and History M60W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course M60. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ancient Near East M60W and History M60W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course M60. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: English Composition 3.",
       "prereqs_parsed": {
         "required": [

@@ -173,7 +173,7 @@
       "number": "100A",
       "title": "Literacy in Russian",
       "units": 4.0,
-      "description": "Lecture, three hours. Course 100A or Russian placement test is enforced requisite to 100B; course 100B or Russian placement test is enforced requisite to 100C. For students who speak Russian but have difficulty reading and writing. Focus on improving reading and writing skills, increasing vocabulary, and developing speaking skills required\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Course 100A or Russian placement test is enforced requisite to 100B; course 100B or Russian placement test is enforced requisite to 100C. For students who speak Russian but have difficulty reading and writing. Focus on improving reading and writing skills, increasing vocabulary, and developing speaking skills required… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -303,7 +303,7 @@
       "number": "102A",
       "title": "Topics in Advanced/Superior Russian",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite: course 101C or Russian placement test. Course 102A or Russian placement test is enforced requisite to 102B; course 102B or Russian placement test is enforced requisite to 102C. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite: course 101C or Russian placement test. Course 102A or Russian placement test is enforced requisite to 102B; course 102B or Russian placement test is enforced requisite to 102C. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 101C or Russian placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -326,13 +326,15 @@
       "number": "102B",
       "title": "Topics in Advanced/Superior Russian",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite: course 102A or Russian placement test. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction and nonfiction, films, and videos, and use of Internet. May be taken independently and may be repeated for credit. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite: course 102A or Russian placement test. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction and nonfiction, films, and videos, and use of Internet. May be taken independently and may be repeated for credit. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 102A or Russian placement test.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "RUSSN 102A"
+          [
+            "RUSSN 102A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -347,7 +349,7 @@
       "number": "102C",
       "title": "Topics in Advanced/Superior Russian",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite: course 102B or Russian placement test. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction and nonfiction, films, and videos, and use of Internet. May be taken independently and may be repeated for credit. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite: course 102B or Russian placement test. Discussion and composition, with emphasis on vocabulary development and review of selected grammar topics. Readings in fiction and nonfiction, films, and videos, and use of Internet. May be taken independently and may be repeated for credit. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 102B or Russian placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -369,7 +371,7 @@
       "number": "103A",
       "title": "Russian for Native and Near-Native Speakers: Russian National Identity",
       "units": 4.0,
-      "description": "Lecture, three hours. Course 103A is not requisite to 103B, which is not requisite to 103C. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. Readings in literature, philosophy, criticism, film. May be repeated for credit with topic and/or instructor\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Course 103A is not requisite to 103B, which is not requisite to 103C. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. Readings in literature, philosophy, criticism, film. May be repeated for credit with topic and/or instructor… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -382,7 +384,7 @@
       "number": "103B",
       "title": "Russian for Native and Near-Native Speakers: Literature and Film",
       "units": 4.0,
-      "description": "Lecture, three hours. Course 103A is not requisite to 103B. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. Film adaptations of Russian literature. Readings and screenings. May be repeated for credit with topic and/or instructor change. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Course 103A is not requisite to 103B. Improvement of oral and written language skills, emphasizing correct and diversified use of language and addressing individual grammatical difficulties. Film adaptations of Russian literature. Readings and screenings. May be repeated for credit with topic and/or instructor change. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -486,7 +488,7 @@
       "number": "121",
       "title": "Russian Pop Culture",
       "units": 5.0,
-      "description": "Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Overview of Russian popular culture today, with examination of status of Russia\u2019s classic(al) traditions for artists and audiences working in modern Russia. Death of one tradition and attempts at creation of another lead away from written word into neighboring\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Overview of Russian popular culture today, with examination of status of Russia’s classic(al) traditions for artists and audiences working in modern Russia. Death of one tradition and attempts at creation of another lead away from written word into neighboring… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -499,7 +501,7 @@
       "number": "122",
       "title": "Siberia",
       "units": 5.0,
-      "description": "Lecture, three hours. Introductory survey in which current cultural and ecological issues are situated in their geographical and historical background, including analysis of Siberian human geography before first contact with European colonizers and development of modes of interaction among different cultural groups. Reading in English of selection of literary works\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Introductory survey in which current cultural and ecological issues are situated in their geographical and historical background, including analysis of Siberian human geography before first contact with European colonizers and development of modes of interaction among different cultural groups. Reading in English of selection of literary works… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -512,7 +514,7 @@
       "number": "129",
       "title": "Animation and Music Video",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Lectures and readings in English. Humanities have recently passed through so-called visual turn: traditional emphases on language(s) in field have been reconsidered in light of society\u2019s increasingly visual workings. New attitude toward our own changing culture (i.e., toward its future) has\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Lectures and readings in English. Humanities have recently passed through so-called visual turn: traditional emphases on language(s) in field have been reconsidered in light of society’s increasingly visual workings. New attitude toward our own changing culture (i.e., toward its future) has… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -713,7 +715,7 @@
       "number": "90BW",
       "title": "Russian Culture in 20th Century",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 90B. Survey of literature, theater, cinema, television, press, music, and arts. Emphasis on contemporary period, with constant reference to Russian and early Soviet antecedents. Weekly discussions focus on varied approaches\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 90B. Survey of literature, theater, cinema, television, press, music, and arts. Emphasis on contemporary period, with constant reference to Russian and early Soviet antecedents. Weekly discussions focus on varied approaches… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: English Composition 3.",
       "prereqs_parsed": {
         "required": [
@@ -810,7 +812,7 @@
       "number": "M118",
       "title": "History of Russia, Origins to Rise of Muscovy",
       "units": 4.0,
-      "description": "(Same as History M127A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Kievan Rus\u2019 and its culture, Appanage principalities and towns; Mongol invasion; unification of Russian state by Muscovy, Autocracy and its Servitors; serfdom. P/NP or letter grading.",
+      "description": "(Same as History M127A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Kievan Rus’ and its culture, Appanage principalities and towns; Mongol invasion; unification of Russian state by Muscovy, Autocracy and its Servitors; serfdom. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -823,7 +825,7 @@
       "number": "M127",
       "title": "Women in Russian Literature",
       "units": 4.0,
-      "description": "(Same as Gender Studies M127.) Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Introduction to alternative tradition of women\u2019s writings in Russia and Soviet Union. Emphasis on images of women expressed in this tradition as compared with those found in works of contemporary male writers. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M127.) Lecture, three hours. Designed for juniors/seniors. Lectures and readings in English. Introduction to alternative tradition of women’s writings in Russia and Soviet Union. Emphasis on images of women expressed in this tradition as compared with those found in works of contemporary male writers. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -891,7 +893,7 @@
       "number": "198A",
       "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
       "units": 4.0,
-      "description": "Tutorial, three hours. Limited to senior departmental honors program students. Development of research bibliography and survey of literature in field of Slavic, East European, and Eurasian languages and cultures. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to report on progress and discuss readings. Individual\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, three hours. Limited to senior departmental honors program students. Development of research bibliography and survey of literature in field of Slavic, East European, and Eurasian languages and cultures. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to report on progress and discuss readings. Individual… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -907,7 +909,7 @@
       "number": "198B",
       "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
       "units": 4.0,
-      "description": "Tutorial, three hours. Requisite: course 198A. Limited to senior departmental honors program students. Research and writing field of Slavic, East European, and Eurasian languages and cultures under direct supervision of faculty mentor. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to report on their research,\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, three hours. Requisite: course 198A. Limited to senior departmental honors program students. Research and writing field of Slavic, East European, and Eurasian languages and cultures under direct supervision of faculty mentor. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to report on their research,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 198A.",
       "prereqs_parsed": {
         "required": [
@@ -928,7 +930,7 @@
       "number": "198C",
       "title": "Honors Research in Slavic, East European, and Eurasian Languages and Cultures",
       "units": 4.0,
-      "description": "Tutorial, three hours. Requisites: courses 198A, 198B. Limited to senior departmental honors program students. Completion of honors thesis in field of Slavic, East European, and Eurasian languages and cultures. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to share drafts and revise writing. Thesis must\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, three hours. Requisites: courses 198A, 198B. Limited to senior departmental honors program students. Completion of honors thesis in field of Slavic, East European, and Eurasian languages and cultures. Topics chosen through consultation with faculty mentor. Students meet regularly with faculty adviser to share drafts and revise writing. Thesis must… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 198A, 198B.",
       "prereqs_parsed": {
         "required": [
@@ -948,7 +950,7 @@
       "number": "CM114",
       "title": "Teaching and Learning of Heritage Languages",
       "units": 4.0,
-      "description": "(Same as Asian CM124 and Near Eastern Languages CM114.) Lecture, three hours. Consideration of issues relevant to heritage language learners (HLL) and to heritage language (HL) instruction. Readings and discussion on such topics as definitions of HLs and HLLs; linguistic, demographic, sociolinguistic, and sociocultural profile of HLLs, particularly HL groups\u2026 For more content click the Read More button below.",
+      "description": "(Same as Asian CM124 and Near Eastern Languages CM114.) Lecture, three hours. Consideration of issues relevant to heritage language learners (HLL) and to heritage language (HL) instruction. Readings and discussion on such topics as definitions of HLs and HLLs; linguistic, demographic, sociolinguistic, and sociocultural profile of HLLs, particularly HL groups… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

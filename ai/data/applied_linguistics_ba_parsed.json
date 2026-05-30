@@ -242,7 +242,7 @@
       "number": "151",
       "title": "Ethnography of Everyday Speech",
       "units": 5.0,
-      "description": "Lecture, three hours; fieldwork. Requisite: course 4. Designed for juniors/seniors. Course has two interrelated objectives: (1) to introduce students to ethnography of communication\u2014description and analysis of situated communicative behavior\u2014and sociocultural knowledge that it reflects and (2) to train students to recognize, describe, and analyze relevant linguistic, proxemic, and kinesic aspects\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; fieldwork. Requisite: course 4. Designed for juniors/seniors. Course has two interrelated objectives: (1) to introduce students to ethnography of communication—description and analysis of situated communicative behavior—and sociocultural knowledge that it reflects and (2) to train students to recognize, describe, and analyze relevant linguistic, proxemic, and kinesic aspects… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 4.",
       "prereqs_parsed": {
         "required": [
@@ -261,7 +261,7 @@
       "number": "152Q",
       "title": "Language and Social Organization through Life Cycle",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 4. Examination of forms of participation and talk-in-interaction across various phases of life cycle from birth to old age, using videotaped interactions of naturally occurring activities. How language and interaction within specific contexts are used to constitute identity and how interaction order resulting from face-to-face\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 4. Examination of forms of participation and talk-in-interaction across various phases of life cycle from birth to old age, using videotaped interactions of naturally occurring activities. How language and interaction within specific contexts are used to constitute identity and how interaction order resulting from face-to-face… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 4.",
       "prereqs_parsed": {
         "required": [
@@ -369,7 +369,7 @@
       "number": "4",
       "title": "Culture and Communication",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor\u2019s degrees. Introduction to study of communication from anthropological perspective. Formal linguistic methods compared with ethnographically oriented methods focused on context-bound temporal unfolding of communicative activities. Topics include language in everyday life and ritual events, socialization, literacy, multilingualism, miscommunication,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor’s degrees. Introduction to study of communication from anthropological perspective. Formal linguistic methods compared with ethnographically oriented methods focused on context-bound temporal unfolding of communicative activities. Topics include language in everyday life and ritual events, socialization, literacy, multilingualism, miscommunication,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -391,7 +391,7 @@
       "number": "M152P",
       "title": "Language Development and Socialization",
       "units": 4.0,
-      "description": "(Same as Psychology M149.) Lecture, three hours; discussion, one hour (when scheduled). Exploration of processes through which children learn structures and practices of language and become competent participants in linguistic and social worlds around them. Examination of language use and socialization over childhood, across communities of practice, and across different\u2026 For more content click the Read More button below.",
+      "description": "(Same as Psychology M149.) Lecture, three hours; discussion, one hour (when scheduled). Exploration of processes through which children learn structures and practices of language and become competent participants in linguistic and social worlds around them. Examination of language use and socialization over childhood, across communities of practice, and across different… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -404,7 +404,7 @@
       "number": "M156",
       "title": "Language Endangerment and Linguistic Revitalization",
       "units": 4.0,
-      "description": "(Same as American Indian Studies M162.) Lecture, three hours; activity, one hour. Requisites: course 4, American Indian Studies M10. Examination of causes and consequences of current worldwide loss of linguistic diversity and revelation of kinds of efforts that members of threatened heritage language communities have produced in their attempt to\u2026 For more content click the Read More button below.",
+      "description": "(Same as American Indian Studies M162.) Lecture, three hours; activity, one hour. Requisites: course 4, American Indian Studies M10. Examination of causes and consequences of current worldwide loss of linguistic diversity and revelation of kinds of efforts that members of threatened heritage language communities have produced in their attempt to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 4, American Indian Studies M10.",
       "prereqs_parsed": {
         "required": [
@@ -424,10 +424,16 @@
       "number": "180",
       "title": "Linguistics Analysis of Arabic",
       "units": 4.0,
-      "description": "Lecture, four hours. Requisite: course 102C. Linguistic description of Arabic in both its modern standard and dialect forms. Introduction to linguistic analysis of Arabic phonology, morphology, and syntax and to linguists\u2019 approaches to specific problems posed by Arabic grammar and dialectology. Letter grading.",
+      "description": "Lecture, four hours. Requisite: course 102C. Linguistic description of Arabic in both its modern standard and dialect forms. Introduction to linguistic analysis of Arabic phonology, morphology, and syntax and to linguists’ approaches to specific problems posed by Arabic grammar and dialectology. Letter grading.",
       "prereqs_raw": "Requisite: course 102C.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "ARABIC 102C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -437,7 +443,7 @@
       "number": "181",
       "title": "Translating Arabic",
       "units": 4.0,
-      "description": "Seminar, three hours. Preparation: advanced proficiency in English and Arabic (at least three years of Arabic instruction or equivalent). Open to both native and nonnative speakers of English and Arabic. Training of students in methodology of translation from Arabic into English, with focus on producing accurate and readable English versions\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Preparation: advanced proficiency in English and Arabic (at least three years of Arabic instruction or equivalent). Open to both native and nonnative speakers of English and Arabic. Training of students in methodology of translation from Arabic into English, with focus on producing accurate and readable English versions… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -450,7 +456,7 @@
       "number": "110",
       "title": "History of Armenian Language",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 1C or 4C. Exploration of history of Armenian language as reflected in literature created in Armenian throughout written period (5th through 20th centuries). Use of top-down approach beginning with modern state of Armenian language in its two standard versions (Western and Eastern), then retracing of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 1C or 4C. Exploration of history of Armenian language as reflected in literature created in Armenian throughout written period (5th through 20th centuries). Use of top-down approach beginning with modern state of Armenian language in its two standard versions (Western and Eastern), then retracing of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 1C or 4C.",
       "prereqs_parsed": {
         "required": []
@@ -476,7 +482,7 @@
       "number": "M167XP",
       "title": "Taking It to Street: Spanish in Community",
       "units": 5.0,
-      "description": "(Same as Spanish M165XP.) Seminar, three hours; fieldwork, 10 hours. Enforced requisite: Spanish 25 or 27. Service learning course to give students opportunity to use cultural and linguistic knowledge acquired in Spanish classes in real-world settings. Students required to spend minimum of eight to 10 hours per week at agreed\u2026 For more content click the Read More button below.",
+      "description": "(Same as Spanish M165XP.) Seminar, three hours; fieldwork, 10 hours. Enforced requisite: Spanish 25 or 27. Service learning course to give students opportunity to use cultural and linguistic knowledge acquired in Spanish classes in real-world settings. Students required to spend minimum of eight to 10 hours per week at agreed… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: Spanish 25 or 27.",
       "prereqs_parsed": {
         "required": [],
@@ -498,7 +504,7 @@
       "number": "M170XP",
       "title": "Topics in Community Engagement",
       "units": 5.0,
-      "description": "(Formerly numbered Chicana and Chicano Studies M170SL.) (Same as Spanish M172XP.) Seminar, four hours; field project, four to six hours. Requisite: Spanish 25. Introduction to community engagement in various forms. Exploration of methods of community involvement and change making processes within variety of professional contexts in community. Students engage in\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered Chicana and Chicano Studies M170SL.) (Same as Spanish M172XP.) Seminar, four hours; field project, four to six hours. Requisite: Spanish 25. Introduction to community engagement in various forms. Exploration of methods of community involvement and change making processes within variety of professional contexts in community. Students engage in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Spanish 25.",
       "prereqs_parsed": {
         "required": [
@@ -517,7 +523,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -533,7 +539,7 @@
       "number": "32",
       "title": "Introduction to Computer Science II",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 31.",
       "prereqs_parsed": {
         "required": [
@@ -606,7 +612,7 @@
       "number": "10B",
       "title": "Intermediate Programming",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
@@ -662,7 +668,7 @@
       "number": "140",
       "title": "Language and Linguistics",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite or corequisite: course 6. Taught in English with German proficiency required. Theories and methods of linguistics, with emphasis on structure of modern standard German, its phonology, morphology, syntax, semantics, and pragmatics. Other topics include diachronic, spatial, and social variation of German (i.e., its historical development,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite or corequisite: course 6. Taught in English with German proficiency required. Theories and methods of linguistics, with emphasis on structure of modern standard German, its phonology, morphology, syntax, semantics, and pragmatics. Other topics include diachronic, spatial, and social variation of German (i.e., its historical development,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite or corequisite: course 6.",
       "prereqs_parsed": {
         "required": [],
@@ -681,7 +687,7 @@
       "number": "180A",
       "title": "Survey of Hebrew Grammar",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Descriptive and comparative study of Hebrew grammar: phonology and morphology. Topics include development of Hebrew language from biblical times to present day, its relation to Arabic and other Semitic languages, methods of language expansion in Israeli Hebrew, traditional pronunciation of Hebrew by\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Descriptive and comparative study of Hebrew grammar: phonology and morphology. Topics include development of Hebrew language from biblical times to present day, its relation to Arabic and other Semitic languages, methods of language expansion in Israeli Hebrew, traditional pronunciation of Hebrew by… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
       "prereqs_parsed": {
         "required": [
@@ -702,7 +708,7 @@
       "number": "180B",
       "title": "Survey of Hebrew Grammar",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Descriptive and comparative study of Hebrew grammar: phonology and morphology. Topics include development of Hebrew language from biblical times to present day, its relation to Arabic and other Semitic languages, methods of language expansion in Israeli Hebrew, traditional pronunciation of Hebrew by\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisites: courses 102A, 102B, 102C. Descriptive and comparative study of Hebrew grammar: phonology and morphology. Topics include development of Hebrew language from biblical times to present day, its relation to Arabic and other Semitic languages, methods of language expansion in Israeli Hebrew, traditional pronunciation of Hebrew by… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 102A, 102B, 102C.",
       "prereqs_parsed": {
         "required": [
@@ -736,7 +742,7 @@
       "number": "102",
       "title": "Introduction to Applied Phonetics",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 103. Basics of articulation and acoustics of phonetic categories used in world\u2019s languages, including English in comparison with other languages. Practice in speech-sound perception and transcription using International\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 103. Basics of articulation and acoustics of phonetic categories used in world’s languages, including English in comparison with other languages. Practice in speech-sound perception and transcription using International… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 20.",
       "prereqs_parsed": {
         "required": [
@@ -781,14 +787,18 @@
       "number": "115",
       "title": "Linguistics and Speech Pathology",
       "units": 2.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Introduction to field of speech pathology. Topics include biological foundations of speech, language, and hearing; and disorders of speech production, language, voice, and hearing, affecting children and adults. In-class presentation and final term paper required if taken\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Introduction to field of speech pathology. Topics include biological foundations of speech, language, and hearing; and disorders of speech production, language, voice, and hearing, affecting children and adults. In-class presentation and final term paper required if taken… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102 or 103.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LING 102",
-          "LING 103"
+          [
+            "LING 102"
+          ],
+          [
+            "LING 103"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -801,7 +811,7 @@
       "number": "119A",
       "title": "Applied Phonology",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 20, and 102 or 103. Not open for credit to students with credit for course 120A. Sound structures and sound patterns in world\u2019s languages. Rules, rule ordering, features, syllable, and higher structure. Comparison of sound patterns of different languages.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 20, and 102 or 103. Not open for credit to students with credit for course 120A. Sound structures and sound patterns in world’s languages. Rules, rule ordering, features, syllable, and higher structure. Comparison of sound patterns of different languages.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 20, and 102 or 103.",
       "prereqs_parsed": {
         "required": [
@@ -809,8 +819,12 @@
         ],
         "corequisites": [],
         "one_of": [
-          "LING 102",
-          "LING 103"
+          [
+            "LING 102"
+          ],
+          [
+            "LING 103"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -900,10 +914,16 @@
       "number": "127",
       "title": "Syntactic Typology and Universals",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 20.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -913,10 +933,25 @@
       "number": "130",
       "title": "Language Development",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Survey of research and theoretical perspectives in language development in children. Discussion and examination of child language data from English and other languages. Emphasis on universals of language development. Topics include infant speech\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Survey of research and theoretical perspectives in language development in children. Discussion and examination of child language data from English and other languages. Emphasis on universals of language development. Topics include infant speech… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20, 119A or 120A, 119B or 120B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 119A",
+            "LING 120A"
+          ],
+          [
+            "LING 119B",
+            "LING 120B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -926,7 +961,7 @@
       "number": "132",
       "title": "Language Processing",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20, 119A or 120A, 119B or 120B.",
       "prereqs_parsed": {
         "required": [
@@ -954,7 +989,7 @@
       "number": "144",
       "title": "Fundamentals of Translation and Interpreting",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Recommended preparation: knowledge of English and at least one other language. Enforced requisite: course 20. Examination of salient lexical, structural, cultural, and social aspects of translating and interpreting between two languages or dialects. Survey of development of translation theories and rise of community interpreting\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Recommended preparation: knowledge of English and at least one other language. Enforced requisite: course 20. Examination of salient lexical, structural, cultural, and social aspects of translating and interpreting between two languages or dialects. Survey of development of translation theories and rise of community interpreting… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 20.",
       "prereqs_parsed": {
         "required": [
@@ -994,7 +1029,7 @@
       "number": "165B",
       "title": "Syntax II",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 120B.",
       "prereqs_parsed": {
         "required": [
@@ -1075,7 +1110,7 @@
       "number": "185A",
       "title": "Computational Linguistics I",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 120B, Program in Computing 10C (or Computer Science 32).",
       "prereqs_parsed": {
         "required": [
@@ -1120,7 +1155,7 @@
       "number": "198A",
       "title": "Honors Research in Linguistics I",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive… For more content click the Read More button below.",
       "prereqs_raw": "Requisite or corequisite: course 165A (or 200A) or 165B (or 200B).",
       "prereqs_parsed": {
         "required": [],
@@ -1203,10 +1238,21 @@
       "number": "C104",
       "title": "Experimental Phonetics",
       "units": 5.0,
-      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102 or 103.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 102"
+          ],
+          [
+            "LING 103"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1216,7 +1262,7 @@
       "number": "C140",
       "title": "Bilingualism and Second Language Acquisition",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 119A or 120A, 119B or 120B. Introduction to study of childhood bilingualism and adult and child second language (L2) acquisition, with focus on understanding nature of L2 grammar and grammatical processes underlying L2/bilingual acquisition. Discussion of neurolinguistic and social aspects\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 119A or 120A, 119B or 120B. Introduction to study of childhood bilingualism and adult and child second language (L2) acquisition, with focus on understanding nature of L2 grammar and grammatical processes underlying L2/bilingual acquisition. Discussion of neurolinguistic and social aspects… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 119A or 120A, 119B or 120B.",
       "prereqs_parsed": {
         "required": [],
@@ -1267,7 +1313,7 @@
       "number": "M141",
       "title": "Current Methods of Language Teaching",
       "units": 5.0,
-      "description": "(Same as English Composition M141.) Lecture, four hours; discussion, one hour. Enforced requisite: course 20. Survey of theory and practice in teaching second languages, including (1) past and present methods used to teach second languages, (2) current theory and practice underlying skills-based instruction and integrated approaches, and (3) factors that\u2026 For more content click the Read More button below.",
+      "description": "(Same as English Composition M141.) Lecture, four hours; discussion, one hour. Enforced requisite: course 20. Survey of theory and practice in teaching second languages, including (1) past and present methods used to teach second languages, (2) current theory and practice underlying skills-based instruction and integrated approaches, and (3) factors that… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 20.",
       "prereqs_parsed": {
         "required": []
@@ -1280,7 +1326,7 @@
       "number": "M146",
       "title": "Language in Culture",
       "units": 5.0,
-      "description": "(Same as Anthropology M150.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 20 or Anthropology 4. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "description": "(Same as Anthropology M150.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 20 or Anthropology 4. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 20 or Anthropology 4.",
       "prereqs_parsed": {
         "required": [],
@@ -1346,7 +1392,7 @@
       "number": "M177",
       "title": "Structure of Korean",
       "units": 4.0,
-      "description": "(Same as Korean CM120.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Korean, or one year of Korean and some knowledge of linguistics. Discussion of major syntactic, semantic, and pragmatic characteristics of Korean in light of linguistic universals, with brief introduction to formation, typological features, and phonological\u2026 For more content click the Read More button below.",
+      "description": "(Same as Korean CM120.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Korean, or one year of Korean and some knowledge of linguistics. Discussion of major syntactic, semantic, and pragmatic characteristics of Korean in light of linguistic universals, with brief introduction to formation, typological features, and phonological… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1359,7 +1405,7 @@
       "number": "M178",
       "title": "Contrastive Analysis of Japanese and Korean",
       "units": 4.0,
-      "description": "(Same as Japanese CM127 and Korean CM127.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Japanese CM127 and Korean CM127.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1443,7 +1489,7 @@
       "number": "CM114",
       "title": "Teaching and Learning of Heritage Languages",
       "units": 4.0,
-      "description": "(Same as Asian CM124 and Near Eastern Languages CM114.) Lecture, three hours. Consideration of issues relevant to heritage language learners (HLL) and to heritage language (HL) instruction. Readings and discussion on such topics as definitions of HLs and HLLs; linguistic, demographic, sociolinguistic, and sociocultural profile of HLLs, particularly HL groups\u2026 For more content click the Read More button below.",
+      "description": "(Same as Asian CM124 and Near Eastern Languages CM114.) Lecture, three hours. Consideration of issues relevant to heritage language learners (HLL) and to heritage language (HL) instruction. Readings and discussion on such topics as definitions of HLs and HLLs; linguistic, demographic, sociolinguistic, and sociocultural profile of HLLs, particularly HL groups… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1494,14 +1540,18 @@
       "number": "160",
       "title": "Topics in Spanish Linguistics",
       "units": 4.0,
-      "description": "Lecture, four hours. Requisite: course 25 or 27. Exploration of origin of language, how Spanish is acquired, evolution of Spanish from Latin to early modern period, how Spanish varies in world, how to teach Spanish, Spanish in contact with other languages. Possible topics include Spanish in Los Angeles, history of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Requisite: course 25 or 27. Exploration of origin of language, how Spanish is acquired, evolution of Spanish from Latin to early modern period, how Spanish varies in world, how to teach Spanish, Spanish in contact with other languages. Possible topics include Spanish in Los Angeles, history of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 25 or 27.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "SPAN 25",
-          "SPAN 27"
+          [
+            "SPAN 25"
+          ],
+          [
+            "SPAN 27"
+          ]
         ],
         "min_grade": null,
         "recommended": []

@@ -248,7 +248,7 @@
       "number": "10B",
       "title": "Intermediate Programming",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
@@ -291,7 +291,7 @@
       "number": "6",
       "title": "Introduction to Data Analysis",
       "units": 5.0,
-      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Not open for credit to students with credit for course 6R. Introduction to collection and analysis of political data, with emphasis on application of statistical reasoning to study of relationships among political variables. Use of computer as aid in analyzing\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Not open for credit to students with credit for course 6R. Introduction to collection and analysis of political data, with emphasis on application of statistical reasoning to study of relationships among political variables. Use of computer as aid in analyzing… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -358,7 +358,7 @@
       "number": "106A",
       "title": "Field Research Methods I",
       "units": 6.0,
-      "description": "Lecture, two hours; discussion, two hours; fieldwork, eight to 10 hours. Research practicum in which students write field notes on their experiences in and observations of intensive internship field placement. Readings focus on fieldwork roles and relations, observing and describing, writing field notes, field interviewing, ethical issues, and preliminary data\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; discussion, two hours; fieldwork, eight to 10 hours. Research practicum in which students write field notes on their experiences in and observations of intensive internship field placement. Readings focus on fieldwork roles and relations, observing and describing, writing field notes, field interviewing, ethical issues, and preliminary data… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -373,7 +373,7 @@
       "number": "106B",
       "title": "Field Research Methods II",
       "units": 6.0,
-      "description": "Lecture, two hours; discussion, two hours; fieldwork, 10 hours. Requisite: course 106A. Collection and analysis of both field notes and unstructured interview data from student field placement. Use of techniques of qualitative data analysis, including qualitative coding, analytic memoing, and grounded theory methods, to analyze these materials and to write\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; discussion, two hours; fieldwork, 10 hours. Requisite: course 106A. Collection and analysis of both field notes and unstructured interview data from student field placement. Use of techniques of qualitative data analysis, including qualitative coding, analytic memoing, and grounded theory methods, to analyze these materials and to write… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 106A.",
       "prereqs_parsed": {
         "required": [
@@ -392,7 +392,7 @@
       "number": "110",
       "title": "Comparative and Historical Methods",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 101. Introduction to range of comparative and historical methods alongside broader questions and issues in this area of sociology. Students learn about using theories to analyze real-world cases; making comparisons between societies and other social units; developing sociological explanations for historical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 101. Introduction to range of comparative and historical methods alongside broader questions and issues in this area of sociology. Students learn about using theories to analyze real-world cases; making comparisons between societies and other social units; developing sociological explanations for historical… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -418,7 +418,7 @@
       "number": "112",
       "title": "Introduction to Mathematical Sociology",
       "units": 4.0,
-      "description": "Lecture, three hours; laboratory, one hour. Requisites: Mathematics 2, 3A (course whose content includes introductions to probability theory, matrix algebra, and differential and integral calculus), Statistics 10. Mathematical treatment of several sociological phenomena, such as occupational mobility, population growth, organizational structure, and friendship patterns, each covered in some detail, including\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, one hour. Requisites: Mathematics 2, 3A (course whose content includes introductions to probability theory, matrix algebra, and differential and integral calculus), Statistics 10. Mathematical treatment of several sociological phenomena, such as occupational mobility, population growth, organizational structure, and friendship patterns, each covered in some detail, including… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 2, 3A (course whose content includes introductions to probability theory, matrix algebra, and differential and integral calculus), Statistics 10.",
       "prereqs_parsed": {
         "required": [
@@ -471,7 +471,7 @@
       "number": "121",
       "title": "Sociology of Religion",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Examination of classic and contemporary work in social scientific study of religion. Analysis of definition of religion, role of religion in modern life, and role of categories like Islam in contemporary U.S. politics. Focus on complicated question of what it means to say someone\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Examination of classic and contemporary work in social scientific study of religion. Analysis of definition of religion, role of religion in modern life, and role of categories like Islam in contemporary U.S. politics. Focus on complicated question of what it means to say someone… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -484,7 +484,7 @@
       "number": "122",
       "title": "Sociology of Violence",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Exploration of macro-, meso-, and micro-level theories of violence, why states organize violence, why civilizations participate in violence, and physical, structural, and symbolic violence. Discussion of how various social categories such as race, ethnicity, religion, class, gender, and sex are implicated in violence and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Exploration of macro-, meso-, and micro-level theories of violence, why states organize violence, why civilizations participate in violence, and physical, structural, and symbolic violence. Discussion of how various social categories such as race, ethnicity, religion, class, gender, and sex are implicated in violence and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -497,7 +497,7 @@
       "number": "123",
       "title": "Social Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. How does social change occur? This question is linked to fundamental debates in sociology about structure (degree to which individual\u2019s actions are constrained by social forces) and agency (degree to which individuals can choose their own courses of action). Major theories (Marxist, Weberian, demographic,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. How does social change occur? This question is linked to fundamental debates in sociology about structure (degree to which individual’s actions are constrained by social forces) and agency (degree to which individuals can choose their own courses of action). Major theories (Marxist, Weberian, demographic,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -571,7 +571,13 @@
       "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Designed for juniors/seniors. Theories of relation of variations in personality to culture and group life, in primitive and modern societies, and influence of social role on behavior. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 1.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "SOCIOL 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -581,7 +587,7 @@
       "number": "140",
       "title": "Negotiating Medical Care: Physician-Patient Conversations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Overview of how physician-patient interaction influences kinds of treatment patients receive. Focus on routine primary care medical visits and study of how some of our most significant health-care epidemics are affected by communication that takes place in these everyday medical visits. Topics include how\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Overview of how physician-patient interaction influences kinds of treatment patients receive. Focus on routine primary care medical visits and study of how some of our most significant health-care epidemics are affected by communication that takes place in these everyday medical visits. Topics include how… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -662,7 +668,7 @@
       "number": "156",
       "title": "Race and Ethnicity in American Life",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in the U.S., including interplay between racial and ethnic structures and meanings. Special attention to comparison of African American and European American experiences and to transformation of Asian American and Latino communities and the nation generally, wrought by renewal\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in the U.S., including interplay between racial and ethnic structures and meanings. Special attention to comparison of African American and European American experiences and to transformation of Asian American and Latino communities and the nation generally, wrought by renewal… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -727,7 +733,7 @@
       "number": "181A",
       "title": "Sociology of Global China",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Analyses of how domestic developments create impetus for China\u2019s global expansion, and assessment of global China\u2019s variegated and uneven consequences. Concrete case studies include Belt and Road Initiative, soft power and cultural diplomacy, internal colonization of Hong Kong and Xinjiang, China\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Analyses of how domestic developments create impetus for China’s global expansion, and assessment of global China’s variegated and uneven consequences. Concrete case studies include Belt and Road Initiative, soft power and cultural diplomacy, internal colonization of Hong Kong and Xinjiang, China… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -740,7 +746,7 @@
       "number": "181B",
       "title": "Sociology of Contemporary China",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Survey of changes in Chinese society from beginning of 20th century to present. Topics include social mobility and inequality, family and household, and population. Emphasis on changes post-Reform Era and in present. Focus on interaction of economic and political change plus\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Survey of changes in Chinese society from beginning of 20th century to present. Topics include social mobility and inequality, family and household, and population. Emphasis on changes post-Reform Era and in present. Focus on interaction of economic and political change plus… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -766,7 +772,7 @@
       "number": "183",
       "title": "Comparative and Historical Sociology",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Survey of central themes of comparative and historical studies in sociology. Various aspects of development of modern society, including development of nation-state, emergence of capitalism, industrialization, and population growth. Variation in contemporary society, viewed from variety of theoretical perspectives. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Survey of central themes of comparative and historical studies in sociology. Various aspects of development of modern society, including development of nation-state, emergence of capitalism, industrialization, and population growth. Variation in contemporary society, viewed from variety of theoretical perspectives. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 1.",
       "prereqs_parsed": {
         "required": [
@@ -785,7 +791,7 @@
       "number": "185",
       "title": "American Society",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Analysis of major institutions in the U.S. in historical and international perspective, with emphasis on topics such as industrialization, work, state, politics, community, family, religion, and American culture. Theories of social change, conflict, and order applied to case of the U.S. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Analysis of major institutions in the U.S. in historical and international perspective, with emphasis on topics such as industrialization, work, state, politics, community, family, religion, and American culture. Theories of social change, conflict, and order applied to case of the U.S. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -827,7 +833,7 @@
       "number": "198A",
       "title": "Honors Research in Sociology",
       "units": 4.0,
-      "description": "Tutorial, one hour. Requisite: course 191H. Limited to sociology honors program students. Design of research project to serve as student\u2019s honors thesis. Research proposal, detailed bibliography, and regular meetings with sponsoring faculty member required. May be repeated for credit. Individual contract required. Letter grading.",
+      "description": "Tutorial, one hour. Requisite: course 191H. Limited to sociology honors program students. Design of research project to serve as student’s honors thesis. Research proposal, detailed bibliography, and regular meetings with sponsoring faculty member required. May be repeated for credit. Individual contract required. Letter grading.",
       "prereqs_raw": "Requisite: course 191H.",
       "prereqs_parsed": {
         "required": []
@@ -912,7 +918,7 @@
       "number": "CM125",
       "title": "Talk and Social Institutions",
       "units": 4.0,
-      "description": "(Same as Communication M125.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Practices of communication and social interaction in number of major institutional sites in contemporary society. Setting varies but may include emergency services, police and courts, medicine, news interviews, and political oratory. Concurrently scheduled with course C258. P/NP\u2026 For more content click the Read More button below.",
+      "description": "(Same as Communication M125.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Practices of communication and social interaction in number of major institutional sites in contemporary society. Setting varies but may include emergency services, police and courts, medicine, news interviews, and political oratory. Concurrently scheduled with course C258. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -925,7 +931,7 @@
       "number": "M115",
       "title": "Environmental Sociology",
       "units": 4.0,
-      "description": "(Same as Environment M133 and Society and Genetics M133.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "(Same as Environment M133 and Society and Genetics M133.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -938,7 +944,7 @@
       "number": "M139",
       "title": "Asian Community: Border-Crossing, Diasporic Formation, and Social Transformation",
       "units": 4.0,
-      "description": "(Same as Asian American Studies M179.) Lecture, three hours; discussion, one hour. Exploration of critical issues facing broad Asian community, in context of globalization and international migration, through social science lens of migration studies and diaspora studies. Examination of how movements of people, ideas, capital, and goods create new trends\u2026 For more content click the Read More button below.",
+      "description": "(Same as Asian American Studies M179.) Lecture, three hours; discussion, one hour. Exploration of critical issues facing broad Asian community, in context of globalization and international migration, through social science lens of migration studies and diaspora studies. Examination of how movements of people, ideas, capital, and goods create new trends… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -951,7 +957,7 @@
       "number": "M155",
       "title": "Latinos in U.S.",
       "units": 4.0,
-      "description": "(Same as Chicana/o and Central American Studies M155A.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of history and social conditions of Latinos in Los Angeles as well as nationally, with particular emphasis on their location in larger social structure and on comparisons with other minority groups. Topics\u2026 For more content click the Read More button below.",
+      "description": "(Same as Chicana/o and Central American Studies M155A.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of history and social conditions of Latinos in Los Angeles as well as nationally, with particular emphasis on their location in larger social structure and on comparisons with other minority groups. Topics… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -970,8 +976,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "SOCIOL 1",
-          "AM IND ST M10"
+          [
+            "SOCIOL 1"
+          ],
+          [
+            "AM IND ST M10"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -984,7 +994,7 @@
       "number": "M162",
       "title": "Sociology of Gender",
       "units": 5.0,
-      "description": "(Same as Gender Studies M162.) Lecture, three hours; discussion, one hour. Enforced requisite: course 1 or Gender Studies 10. Examination of processes by which gender is socially constructed. Topics include distinction between biological sex and sociological gender, causes and consequences of gender inequality, and recent changes in gender relations in\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M162.) Lecture, three hours; discussion, one hour. Enforced requisite: course 1 or Gender Studies 10. Examination of processes by which gender is socially constructed. Topics include distinction between biological sex and sociological gender, causes and consequences of gender inequality, and recent changes in gender relations in… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 1 or Gender Studies 10.",
       "prereqs_parsed": {
         "required": [],
@@ -1006,7 +1016,7 @@
       "number": "M164",
       "title": "Politics of Reproduction and Everyday Life",
       "units": 4.0,
-      "description": "(Same as Gender Studies M164.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Social and human reproduction is global policy issue. Government efforts to influence reproduction are important feature of modern state: political intervention into private life, intimacy, and sexuality. Exploration of politics of reproduction\u2014intersection between politics and life\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M164.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Social and human reproduction is global policy issue. Government efforts to influence reproduction are important feature of modern state: political intervention into private life, intimacy, and sexuality. Exploration of politics of reproduction—intersection between politics and life… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1019,7 +1029,7 @@
       "number": "M165",
       "title": "Sociology of Race and Labor",
       "units": 4.0,
-      "description": "(Same as African American Studies M165 and Labor Studies M165.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Exploration of relationship between race/ethnicity, employment, and U.S. labor movement. Analysis of underlying racial divisions in workforce and how they evolved historically. Consideration of circumstances under which workers and unions have\u2026 For more content click the Read More button below.",
+      "description": "(Same as African American Studies M165 and Labor Studies M165.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Exploration of relationship between race/ethnicity, employment, and U.S. labor movement. Analysis of underlying racial divisions in workforce and how they evolved historically. Consideration of circumstances under which workers and unions have… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1045,7 +1055,7 @@
       "number": "M175",
       "title": "Sociology of Education",
       "units": 5.0,
-      "description": "(Same as Education M108.) Lecture, four hours; discussion, one hour. Study of how U.S. educational system both promotes socioeconomic opportunities and maintains socioeconomic inequalities: historical and theoretical perspectives on role of education in U.S. society; trends in educational attainment; ways in which family background, class, race, and gender affect educational\u2026 For more content click the Read More button below.",
+      "description": "(Same as Education M108.) Lecture, four hours; discussion, one hour. Study of how U.S. educational system both promotes socioeconomic opportunities and maintains socioeconomic inequalities: historical and theoretical perspectives on role of education in U.S. society; trends in educational attainment; ways in which family background, class, race, and gender affect educational… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1058,7 +1068,7 @@
       "number": "M176",
       "title": "Sociology of Mass Communication",
       "units": 4.0,
-      "description": "(Same as Communication M147.) Lecture, four hours; discussion, one hour (when scheduled). Studies in relationship between mass communication and social organization. Topics include history and organization of major media institutions, social forces that shape production of mass media news and entertainment, selected studies in media content, and effects of media\u2026 For more content click the Read More button below.",
+      "description": "(Same as Communication M147.) Lecture, four hours; discussion, one hour (when scheduled). Studies in relationship between mass communication and social organization. Topics include history and organization of major media institutions, social forces that shape production of mass media news and entertainment, selected studies in media content, and effects of media… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1071,7 +1081,7 @@
       "number": "10",
       "title": "Introduction to Statistical Reasoning",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; computer laboratory, two hours. Preparation: three years of high school mathematics. Not open for credit to students with credit for course 12, 13, or 15. Introduction to statistical thinking and understanding, including strengths and limitations of basic experimental designs, graphical and numerical summaries of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1087,7 +1097,7 @@
       "number": "112",
       "title": "Statistics: Window to Understanding Diversity",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Requisite: one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Limited to juniors/seniors. Statistical methods in social sciences, including regression, multivariate techniques, logistic regression, and data-handling\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Requisite: one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination. Limited to juniors/seniors. Statistical methods in social sciences, including regression, multivariate techniques, logistic regression, and data-handling… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: one course from course 10, 12, 13, Economics 11, 41, or Psychology 100A, or score of 4 or higher on Advanced Placement Statistics Examination.",
       "prereqs_parsed": {
         "required": [],
@@ -1113,7 +1123,7 @@
       "number": "13",
       "title": "Introduction to Statistical Methods for Life and Health Sciences",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 10H, 11, 12, or 14. Presentation and interpretation of data, descriptive statistics, introduction to correlation and regression and to basic statistical inference (estimation, testing of means and proportions, ANOVA) using… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

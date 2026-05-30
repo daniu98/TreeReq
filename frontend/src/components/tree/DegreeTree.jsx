@@ -384,6 +384,8 @@ export function DegreeTree({
           onStackRevert={handleStackRevert}
           allCourses={enriched?.nodes ?? []}
           edges={edges}
+          userProfile={userProfile}
+          onProfileUpdate={onProfileUpdate}
           onClose={() => {
             setSelectedNodeId(null);
             lockedRef.current = null;

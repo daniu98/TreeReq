@@ -208,7 +208,7 @@
       "number": "100XP",
       "title": "Barrio Organization and Service Learning",
       "units": 5.0,
-      "description": "Seminar, two hours; discussion, two hours; field placement, six hours. Limited to juniors/seniors. Service learning placement in community-based organization, labor union, or service-oriented nonprofit organization. Study of role that these organizations play in improvement and change of Chicana/Chicano communities. Students meet on regular basis with instructors and provide periodic reports\u2026 For more content click the Read More button below.",
+      "description": "Seminar, two hours; discussion, two hours; field placement, six hours. Limited to juniors/seniors. Service learning placement in community-based organization, labor union, or service-oriented nonprofit organization. Study of role that these organizations play in improvement and change of Chicana/Chicano communities. Students meet on regular basis with instructors and provide periodic reports… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -227,8 +227,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "CCAS 10A",
-          "CCAS 10B"
+          [
+            "CCAS 10A"
+          ],
+          [
+            "CCAS 10B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -244,7 +248,7 @@
       "number": "104",
       "title": "Comedy and Culture: Your Humorous Life",
       "units": 4.0,
-      "description": "Lecture, four hours. How to mine unique humorous life adventures from students\u2019 cultural identities and turn those distinct experiences into humorous literature. Students acquire skills to read their stories out loud, with emphasis on comedy in their pieces through art of storytelling and performance. P/NP or letter grading.",
+      "description": "Lecture, four hours. How to mine unique humorous life adventures from students’ cultural identities and turn those distinct experiences into humorous literature. Students acquire skills to read their stories out loud, with emphasis on comedy in their pieces through art of storytelling and performance. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -316,7 +320,7 @@
       "number": "117",
       "title": "Chicana/Chicano Images in Mexican Film and Literature",
       "units": 4.0,
-      "description": "Lecture, four hours. Preparation: adequate understanding of Spanish-language films without English subtitles. Throughout its rich history, spanning more than 100 years, Mexican cinema has produced great variety of films that deal with Chicana/Chicano experience. Like its U.S. counterpart, Mexican cinematic discourse portrayal of Chicanas/Chicanos has been plagued by use of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: adequate understanding of Spanish-language films without English subtitles. Throughout its rich history, spanning more than 100 years, Mexican cinema has produced great variety of films that deal with Chicana/Chicano experience. Like its U.S. counterpart, Mexican cinematic discourse portrayal of Chicanas/Chicanos has been plagued by use of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -355,7 +359,7 @@
       "number": "131",
       "title": "Barrio Popular Culture",
       "units": 4.0,
-      "description": "Lecture, three hours. Construction of model by which to organize study of Chicana/Chicano popular culture by focusing on barrio as metaphor for community. Examination of beliefs, myths, and values of Chicana/Chicano culture and representations in icons, heroes, legends, stereotypes, and popular art forms through literature, film, video, music, mass media,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Construction of model by which to organize study of Chicana/Chicano popular culture by focusing on barrio as metaphor for community. Examination of beliefs, myths, and values of Chicana/Chicano culture and representations in icons, heroes, legends, stereotypes, and popular art forms through literature, film, video, music, mass media,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -381,7 +385,7 @@
       "number": "143",
       "title": "Mestizaje: History of Diverse Racial/Cultural Roots of Mexico",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Historical examination of diverse racial and cultural roots of Chicanas and Chicanos. Utilizing theoretical frameworks of mestizaje, Aztl\u00e1n, indigenismo, La Raza C\u00f3smica, and la tercera ra\u00edz, examination of some important groups who have contributed to formation of Mexican national culture. Development of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Historical examination of diverse racial and cultural roots of Chicanas and Chicanos. Utilizing theoretical frameworks of mestizaje, Aztlán, indigenismo, La Raza Cósmica, and la tercera raíz, examination of some important groups who have contributed to formation of Mexican national culture. Development of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -394,7 +398,7 @@
       "number": "145B",
       "title": "Literature of Chicana/Chicano Movement",
       "units": 4.0,
-      "description": "(Formerly numbered M145B.) Lecture, three hours. Examination of literature of Chicana/Chicano movement covering period from first manifestations of Chicano artistic production in 1965 with el Teatro Campesino through rise of women\u2019s writing, including work by Cherrie Moraga (1983), Helena Maria Viramontes (1985), and Sandra Cisneros (1991). P/NP or letter grading.",
+      "description": "(Formerly numbered M145B.) Lecture, three hours. Examination of literature of Chicana/Chicano movement covering period from first manifestations of Chicano artistic production in 1965 with el Teatro Campesino through rise of women’s writing, including work by Cherrie Moraga (1983), Helena Maria Viramontes (1985), and Sandra Cisneros (1991). P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -407,7 +411,7 @@
       "number": "146",
       "title": "Chicano Narrative",
       "units": 4.0,
-      "description": "(Formerly numbered M146.) Lecture, three hours. Introduction to major Chicano narrative genres\u2014novel, romance, satire, autobiography, cronic\u00f3n/semblanza, Chicana detective novel, and Chicana solidarity fiction. Texts examined within their own geographic, cultural, and historical contexts, as well as within history of narrative forms. P/NP or letter grading.",
+      "description": "(Formerly numbered M146.) Lecture, three hours. Introduction to major Chicano narrative genres—novel, romance, satire, autobiography, cronicón/semblanza, Chicana detective novel, and Chicana solidarity fiction. Texts examined within their own geographic, cultural, and historical contexts, as well as within history of narrative forms. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -446,7 +450,7 @@
       "number": "151",
       "title": "Human Rights in Americas",
       "units": 4.0,
-      "description": "Lecture, four hours. International human rights laws in North, Central, and South America and U.S. foreign policy in context of historical, political, social, and legal issues and court decisions involving U.S. and its role and relations with governments and institutions. Historical and contemporary development of regional and international law, institutions,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. International human rights laws in North, Central, and South America and U.S. foreign policy in context of historical, political, social, and legal issues and court decisions involving U.S. and its role and relations with governments and institutions. Historical and contemporary development of regional and international law, institutions,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -459,7 +463,7 @@
       "number": "152",
       "title": "Disposable People: U.S. Deportation and Repatriation Campaigns",
       "units": 4.0,
-      "description": "Seminar, four hours. Examination of U.S. deportation campaigns targeted at Mexican, Central American, and other Latin American workers, residents, and U.S.-born citizens. Addresses various periods of large-scale, highly-organized deportation and repatriation efforts including Great Depression in 1930s, Operation Wetback in 1950s, Central American Minors (CAM) program, Deferred Action for Childhood\u2026 For more content click the Read More button below.",
+      "description": "Seminar, four hours. Examination of U.S. deportation campaigns targeted at Mexican, Central American, and other Latin American workers, residents, and U.S.-born citizens. Addresses various periods of large-scale, highly-organized deportation and repatriation efforts including Great Depression in 1930s, Operation Wetback in 1950s, Central American Minors (CAM) program, Deferred Action for Childhood… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -472,7 +476,7 @@
       "number": "153A",
       "title": "Central Americans in U.S.",
       "units": 4.0,
-      "description": "Lecture, four hours. Interdisciplinary survey of social, historical, political, economic, educational, and cultural experiences of Central American immigrants and their children in U.S. Introduction to several contemporary experiences and issues in U.S. Central American communities. With focus mostly on Guatemalan, Honduran, and Salvadoran immigrants, exploration of social structures that constrain\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Interdisciplinary survey of social, historical, political, economic, educational, and cultural experiences of Central American immigrants and their children in U.S. Introduction to several contemporary experiences and issues in U.S. Central American communities. With focus mostly on Guatemalan, Honduran, and Salvadoran immigrants, exploration of social structures that constrain… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -485,7 +489,7 @@
       "number": "157",
       "title": "Chicano Movement and Its Political Legacies",
       "units": 4.0,
-      "description": "Lecture, four hours. Collective examination of Chicano Movement of 1960s and 1970s and analysis of its political legacies. Grounded in historiographic inquiry and social movement theory, investigation of mobilization of diverse sectors of el movimiento, including students, workers, artists, youth, community activists, and women. Exploration of myriad issues and struggles\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Collective examination of Chicano Movement of 1960s and 1970s and analysis of its political legacies. Grounded in historiographic inquiry and social movement theory, investigation of mobilization of diverse sectors of el movimiento, including students, workers, artists, youth, community activists, and women. Exploration of myriad issues and struggles… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -556,7 +560,7 @@
       "number": "168A",
       "title": "Latinos: Print Media",
       "units": 4.0,
-      "description": "Lecture, four hours. Examination of systemic (mis)representations of Latinos by print media source (Los Angeles Times) by means of critical discourse analysis and metaphor theory. Investigation of empirical basis for theories of racism in language in this context. Student projects range from immigration to education and crime to culture. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Examination of systemic (mis)representations of Latinos by print media source (Los Angeles Times) by means of critical discourse analysis and metaphor theory. Investigation of empirical basis for theories of racism in language in this context. Student projects range from immigration to education and crime to culture. Letter… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -590,7 +594,7 @@
       "number": "169",
       "title": "Representations of Indigenous Peoples in Americas",
       "units": 4.0,
-      "description": "Lecture, four hours. Strongly recommended requisite: course 101. Introduction to different forms of representation of indigenous peoples and their presence in Americas, with emphasis on Mesoamerica and Andes. How indigenous images are expressed, perceived, and constructed at point of contact with Europeans during development of indigenismo and in current period.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Strongly recommended requisite: course 101. Introduction to different forms of representation of indigenous peoples and their presence in Americas, with emphasis on Mesoamerica and Andes. How indigenous images are expressed, perceived, and constructed at point of contact with Europeans during development of indigenismo and in current period.… For more content click the Read More button below.",
       "prereqs_raw": "Strongly recommended requisite: course 101.",
       "prereqs_parsed": {
         "required": [],
@@ -609,7 +613,7 @@
       "number": "171",
       "title": "Humor as Social Control",
       "units": 4.0,
-      "description": "Lecture, four hours. Hegemonic humor directs laughter of more powerful people against those with less power. In this case laughter becomes weapon used against Latinos and immigrants. With rise of Latinos in last decade, there has been increase of various guises of anti-Latino hegemonic humor in commercial mass-mediated popular culture.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Hegemonic humor directs laughter of more powerful people against those with less power. In this case laughter becomes weapon used against Latinos and immigrants. With rise of Latinos in last decade, there has been increase of various guises of anti-Latino hegemonic humor in commercial mass-mediated popular culture.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -622,7 +626,7 @@
       "number": "174AX",
       "title": "Restoring Civility: Understanding, Using, and Resolving Conflict",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, three hours. Course 174AX is enforced requisite to 174BX. Designed for students who want to learn principles of dialogue and mediation, as alternatives to violence, and practice how to apply them in educational settings. In Progress grading (credit to be given only on completion of course\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, three hours. Course 174AX is enforced requisite to 174BX. Designed for students who want to learn principles of dialogue and mediation, as alternatives to violence, and practice how to apply them in educational settings. In Progress grading (credit to be given only on completion of course… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -656,7 +660,7 @@
       "number": "176",
       "title": "Globalization and Transnationalism: Local Historical Dynamics and Praxis",
       "units": 4.0,
-      "description": "Lecture, four hours. Analysis of dynamics of Chicana/Chicano transnational community formation in comparative global perspective, explored both as historical result of and key future actor in localized dynamics of transnationalization in California\u2019s relation to world. Analysis of Chicana/Chicano experience in California as both highly linked node and localized microcosm of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Analysis of dynamics of Chicana/Chicano transnational community formation in comparative global perspective, explored both as historical result of and key future actor in localized dynamics of transnationalization in California’s relation to world. Analysis of Chicana/Chicano experience in California as both highly linked node and localized microcosm of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -721,7 +725,7 @@
       "number": "198A",
       "title": "Honors Research in Chicana/Chicano and Central American Studies: Thesis Conceptualization",
       "units": 2.0,
-      "description": "Tutorial, one hour. Requisites: courses 10A, 10B, 101, and 89 or 189. Limited to junior/senior honors program students. Conceptualization and formulation of project in Fall Quarter under direct supervision of faculty member. Preliminary data collection on topic and production of proposal for thesis required. May be repeated for credit. Individual\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, one hour. Requisites: courses 10A, 10B, 101, and 89 or 189. Limited to junior/senior honors program students. Conceptualization and formulation of project in Fall Quarter under direct supervision of faculty member. Preliminary data collection on topic and production of proposal for thesis required. May be repeated for credit. Individual… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10A, 10B, 101, and 89 or 189.",
       "prereqs_parsed": {
         "required": [
@@ -749,7 +753,7 @@
       "number": "198B",
       "title": "Honors Research in Chicana/Chicano and Central American Studies: Annotated Bibliography/Literature Review",
       "units": 2.0,
-      "description": "Tutorial, one hour. Requisite: course 198A. Limited to junior/senior honors program students. Development of research skills in Winter Quarter to produce extensive annotated bibliography or literature review on thesis topic. Weekly meetings with faculty member to discuss research and develop outline, argument, and structure of thesis. May be repeated for\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, one hour. Requisite: course 198A. Limited to junior/senior honors program students. Development of research skills in Winter Quarter to produce extensive annotated bibliography or literature review on thesis topic. Weekly meetings with faculty member to discuss research and develop outline, argument, and structure of thesis. May be repeated for… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 198A.",
       "prereqs_parsed": {
         "required": [
@@ -802,7 +806,7 @@
       "number": "C141",
       "title": "Chicana and Latin American Women's Narrative",
       "units": 4.0,
-      "description": "Lecture, four hours. Preparation: reading knowledge of Spanish (level 4). Analyses, comparisons, and discussion of narrative literary production of U.S. Chicana writers and their Latin American counterparts in English and Spanish, with particular focus on how each group deals with gender, ethnic, and class issues. Concurrently scheduled with course C251.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: reading knowledge of Spanish (level 4). Analyses, comparisons, and discussion of narrative literary production of U.S. Chicana writers and their Latin American counterparts in English and Spanish, with particular focus on how each group deals with gender, ethnic, and class issues. Concurrently scheduled with course C251.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -815,7 +819,7 @@
       "number": "C179",
       "title": "Language Politics and Policies in U.S.: Comparative History",
       "units": 4.0,
-      "description": "Lecture, four hours. Historical overview of national and institutional language policies, especially schooling, in U.S. as context to understanding social, legal, and political constraints on bilingualism. Definitions and development of language policy and planning, history of general and educational language policies in U.S., demographic profile of language diversity, and current\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Historical overview of national and institutional language policies, especially schooling, in U.S. as context to understanding social, legal, and political constraints on bilingualism. Definitions and development of language policy and planning, history of general and educational language policies in U.S., demographic profile of language diversity, and current… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -828,7 +832,7 @@
       "number": "CM106",
       "title": "Health in Chicano/Latino Population",
       "units": 4.0,
-      "description": "(Same as Public Health M106.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Examination of Chicano/Latino health status through life expectancy, causes of death, reportable diseases, services utilization, provider supply, and risk behaviors within demographic/immigration changes. Binational review of health effects in U.S. and Mexico. Concurrently scheduled with course\u2026 For more content click the Read More button below.",
+      "description": "(Same as Public Health M106.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Examination of Chicano/Latino health status through life expectancy, causes of death, reportable diseases, services utilization, provider supply, and risk behaviors within demographic/immigration changes. Binational review of health effects in U.S. and Mexico. Concurrently scheduled with course… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -841,14 +845,18 @@
       "number": "CM110",
       "title": "Chicana Feminism",
       "units": 4.0,
-      "description": "(Same as Gender Studies CM132A.) Lecture, four hours. Enforced requisite: course 10A or Gender Studies 10. Examination of theories and practices of women who identify as Chicana feminist. Analysis of writings of Chicanas who do not identify as feminist but whose practices attend to gender inequities faced by Chicanas both\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies CM132A.) Lecture, four hours. Enforced requisite: course 10A or Gender Studies 10. Examination of theories and practices of women who identify as Chicana feminist. Analysis of writings of Chicanas who do not identify as feminist but whose practices attend to gender inequities faced by Chicanas both… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 10A or Gender Studies 10.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "CCAS 10A",
-          "GENDER ST 10"
+          [
+            "CCAS 10A"
+          ],
+          [
+            "GENDER ST 10"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -861,7 +869,7 @@
       "number": "CM135",
       "title": "Bilingual Writing Workshop",
       "units": 4.0,
-      "description": "(Same as Gender Studies M135C and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M135.) Seminar, four hours. Limited to juniors/seniors. Writing sample required; access to course web page mandatory; need not be bilingual to enroll. Technical instruction, analysis, and theoretical discussion of bilingual creative expression through genre of short fiction.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M135C and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M135.) Seminar, four hours. Limited to juniors/seniors. Writing sample required; access to course web page mandatory; need not be bilingual to enroll. Technical instruction, analysis, and theoretical discussion of bilingual creative expression through genre of short fiction.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -874,7 +882,7 @@
       "number": "CM147",
       "title": "Transnational Women's Organizing in Americas",
       "units": 4.0,
-      "description": "(Same as Gender Studies M147C.) Lecture, four hours. Feminist theories of transnational organizing. Examination of gender and race as central to processes of globalization and essential to economic and political struggles encompassed in transnational power relations. Exploration of how questions of race and gender influence global economic policies and impact\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M147C.) Lecture, four hours. Feminist theories of transnational organizing. Examination of gender and race as central to processes of globalization and essential to economic and political struggles encompassed in transnational power relations. Exploration of how questions of race and gender influence global economic policies and impact… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -887,7 +895,7 @@
       "number": "CM177",
       "title": "Latino Social Policy",
       "units": 4.0,
-      "description": "(Same as Public Affairs M142.) Lecture, three hours; discussion, one hour (when scheduled). Examination of social welfare of Latinos (Chicanos, Puerto Ricans, and Cubans) in U.S. through assessment and critical analysis of social policy issues affecting them. Survey of social, economic, cultural, and political circumstances affecting ability of Latinos to\u2026 For more content click the Read More button below.",
+      "description": "(Same as Public Affairs M142.) Lecture, three hours; discussion, one hour (when scheduled). Examination of social welfare of Latinos (Chicanos, Puerto Ricans, and Cubans) in U.S. through assessment and critical analysis of social policy issues affecting them. Survey of social, economic, cultural, and political circumstances affecting ability of Latinos to… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -900,7 +908,7 @@
       "number": "M102",
       "title": "Mexican Americans and Schools",
       "units": 4.0,
-      "description": "(Same as Education M102.) Seminar, two hours; discussion, two hours. Theoretical and empirical overview of Chicana/Chicano educational issues in U.S., with special emphasis on disentangling effects of race, gender, class, and immigrant status on Chicana/Chicano educational attainment and achievement. Examination of how historical, social, political, and economic forces impact Chicana/Chicano\u2026 For more content click the Read More button below.",
+      "description": "(Same as Education M102.) Seminar, two hours; discussion, two hours. Theoretical and empirical overview of Chicana/Chicano educational issues in U.S., with special emphasis on disentangling effects of race, gender, class, and immigrant status on Chicana/Chicano educational attainment and achievement. Examination of how historical, social, political, and economic forces impact Chicana/Chicano… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -952,7 +960,7 @@
       "number": "M105A",
       "title": "Early Chicana/Chicano Literature, 1400 to 1920",
       "units": 5.0,
-      "description": "(Same as English M105A.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Survey of Chicana/Chicano literature from poetry of Triple Alliance and Aztec Empire through end of Mexican Revolution (1920), including oral and written forms (poetry, corridos, testimonios, folklore, novels, short stories, and\u2026 For more content click the Read More button below.",
+      "description": "(Same as English M105A.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Survey of Chicana/Chicano literature from poetry of Triple Alliance and Aztec Empire through end of Mexican Revolution (1920), including oral and written forms (poetry, corridos, testimonios, folklore, novels, short stories, and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
       "prereqs_parsed": {
         "required": [],
@@ -974,7 +982,7 @@
       "number": "M105C",
       "title": "Chicana/Chicano Literature since el Movimiento, 1970s to Present",
       "units": 5.0,
-      "description": "(Same as English M105C.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of Chicana/Chicano literature since 1970s, with particular emphasis on how queer and feminist activism as well as Central and South American migration have shaped 21st-century chicanidad. Oral, written, and graphic fiction, poetry,\u2026 For more content click the Read More button below.",
+      "description": "(Same as English M105C.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of Chicana/Chicano literature since 1970s, with particular emphasis on how queer and feminist activism as well as Central and South American migration have shaped 21st-century chicanidad. Oral, written, and graphic fiction, poetry,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: English Composition 3.",
       "prereqs_parsed": {
         "required": [
@@ -1006,7 +1014,7 @@
       "number": "M114",
       "title": "Chicanos in Film/Video",
       "units": 5.0,
-      "description": "(Same as Film and Television M117.) Lectures/screenings, five hours; discussion, one hour. Goal is to gain nuanced understanding of Chicano cinema as political, socioeconomic, cultural, and aesthetic practice. Examination of representation of Mexican Americans and Chicanos in four Hollywood genres\u2014silent greaser films, social problem films, Westerns, and gang films\u2014that are\u2026 For more content click the Read More button below.",
+      "description": "(Same as Film and Television M117.) Lectures/screenings, five hours; discussion, one hour. Goal is to gain nuanced understanding of Chicano cinema as political, socioeconomic, cultural, and aesthetic practice. Examination of representation of Mexican Americans and Chicanos in four Hollywood genres—silent greaser films, social problem films, Westerns, and gang films—that are… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1019,7 +1027,7 @@
       "number": "M115",
       "title": "Musical Aesthetics in Los Angeles",
       "units": 4.0,
-      "description": "(Same as Ethnomusicology M115.) Lecture, three hours. Confronting aesthetics from classical perspective of art as intuition, examination on cross-cultural basis of diverse musical contexts within vast multicultural metropolis of Los Angeles, with focus on various musical networks and specific experiences of Chicano/Latino, African American, American Indian, Asian, rock culture, Western\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ethnomusicology M115.) Lecture, three hours. Confronting aesthetics from classical perspective of art as intuition, examination on cross-cultural basis of diverse musical contexts within vast multicultural metropolis of Los Angeles, with focus on various musical networks and specific experiences of Chicano/Latino, African American, American Indian, Asian, rock culture, Western… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1058,7 +1066,7 @@
       "number": "M121",
       "title": "Issues in Latina/Latino Poverty: Mexican and Central American Voices from Los Angeles",
       "units": 4.0,
-      "description": "(Same as Labor Studies M121 and Urban Planning M140.) Lecture, four hours. Examination of key issues (work, housing, and neighborhoods) in urban poverty, with particular focus on Mexican and Central American immigrant populations in Los Angeles. Exploration of major theoretical models that explain urban poverty and application of them in\u2026 For more content click the Read More button below.",
+      "description": "(Same as Labor Studies M121 and Urban Planning M140.) Lecture, four hours. Examination of key issues (work, housing, and neighborhoods) in urban poverty, with particular focus on Mexican and Central American immigrant populations in Los Angeles. Exploration of major theoretical models that explain urban poverty and application of them in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1071,7 +1079,7 @@
       "number": "M122",
       "title": "Planning Issues in Latina/Latino Communities: Preserving and Strengthening Community Assets in Mexican and Salvadoran Los Angeles",
       "units": 4.0,
-      "description": "(Same as Labor Studies M122 and Urban Planning M171.) Lecture, four hours. How community and economic development interact, role of assets in community development, and unique synergies and pitfalls that enable or disable communities from developing to their potential. How to strengthen and how to preserve community resources in Pico-Union\u2026 For more content click the Read More button below.",
+      "description": "(Same as Labor Studies M122 and Urban Planning M171.) Lecture, four hours. How community and economic development interact, role of assets in community development, and unique synergies and pitfalls that enable or disable communities from developing to their potential. How to strengthen and how to preserve community resources in Pico-Union… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1084,7 +1092,7 @@
       "number": "M124",
       "title": "Latinx Immigration Policy and Politics",
       "units": 4.0,
-      "description": "(Same as Honors Collegium M143.) Lecture, four hours. Critical introduction to U.S. immigration policies and politics, and their disproportionate impacts on Latinx community. Topics include some of root causes of Latin American migration; federal, state, and local immigration lawmaking; and how race, gender, and sexuality impact and are impacted by\u2026 For more content click the Read More button below.",
+      "description": "(Same as Honors Collegium M143.) Lecture, four hours. Critical introduction to U.S. immigration policies and politics, and their disproportionate impacts on Latinx community. Topics include some of root causes of Latin American migration; federal, state, and local immigration lawmaking; and how race, gender, and sexuality impact and are impacted by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1123,7 +1131,7 @@
       "number": "M127",
       "title": "Farmworker Movements, Social Justice, and United Farm Workers Legacy",
       "units": 4.0,
-      "description": "(Same as Labor Studies M127.) Lecture, four hours. Designed for juniors/seniors. Historical and social context of farmworker organizing, including its multiracial origins and its influence on fight for equality of working women. Specific focus on organizing of United Farm Workers and Farm Laborers Organizing Committee, and their relationship to AFL-CIO,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Labor Studies M127.) Lecture, four hours. Designed for juniors/seniors. Historical and social context of farmworker organizing, including its multiracial origins and its influence on fight for equality of working women. Specific focus on organizing of United Farm Workers and Farm Laborers Organizing Committee, and their relationship to AFL-CIO,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1136,7 +1144,7 @@
       "number": "M128",
       "title": "Race, Gender, and U.S. Labor",
       "units": 4.0,
-      "description": "(Same as Labor Studies M128.) Lecture, four hours. Designed for juniors/seniors. Introduction to history and organization of labor movement in U.S. and North America. Discussion of race, class, and gender issues raised within movement, and various strategies for social change and economic equity pursued through organized labor and other means.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Labor Studies M128.) Lecture, four hours. Designed for juniors/seniors. Introduction to history and organization of labor movement in U.S. and North America. Discussion of race, class, and gender issues raised within movement, and various strategies for social change and economic equity pursued through organized labor and other means.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1149,7 +1157,7 @@
       "number": "M130",
       "title": "Worker Center Movement: Next Wave Organizing for Justice for Immigrant Workers",
       "units": 4.0,
-      "description": "(Same as African American Studies M167, Asian American Studies M163, and Labor Studies M167.) Seminar, three hours. Development of theoretical and practical understanding of worker center movement, with focus on historical factors that have led to emergence and growth of worker centers. Role of worker centers in promoting multiethnic and\u2026 For more content click the Read More button below.",
+      "description": "(Same as African American Studies M167, Asian American Studies M163, and Labor Studies M167.) Seminar, three hours. Development of theoretical and practical understanding of worker center movement, with focus on historical factors that have led to emergence and growth of worker centers. Role of worker centers in promoting multiethnic and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1162,7 +1170,7 @@
       "number": "M132",
       "title": "Border Consciousness",
       "units": 4.0,
-      "description": "(Formerly numbered Chicana and Chicano Studies M132.) (Same as Lesbian, Gay, Bisexual, Transgender, and Queer Studies M132.) Lecture, three hours; discussion, one hour (when scheduled). Investigation through history, popular culture, and mass media of bilingual and bicultural identities produced by geographical and cultural space between Mexico and U.S. Special attention\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered Chicana and Chicano Studies M132.) (Same as Lesbian, Gay, Bisexual, Transgender, and Queer Studies M132.) Lecture, three hours; discussion, one hour (when scheduled). Investigation through history, popular culture, and mass media of bilingual and bicultural identities produced by geographical and cultural space between Mexico and U.S. Special attention… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1175,7 +1183,7 @@
       "number": "M133",
       "title": "Chicana Lesbian Literature",
       "units": 4.0,
-      "description": "(Formerly numbered Chicana and Chicano Studies M133.) (Same as Gender Studies M133 and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M133.) Lecture, four hours. Exploration of intersection of radical First and Third World feminist politics, lesbian sexuality and its relationship to Chicana identity, representation of lesbianism in Chicana literature, meaning\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered Chicana and Chicano Studies M133.) (Same as Gender Studies M133 and Lesbian, Gay, Bisexual, Transgender, and Queer Studies M133.) Lecture, four hours. Exploration of intersection of radical First and Third World feminist politics, lesbian sexuality and its relationship to Chicana identity, representation of lesbianism in Chicana literature, meaning… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1188,7 +1196,7 @@
       "number": "M139",
       "title": "Topics in Chicana/Chicano and/or Latina/Latino Literature",
       "units": 5.0,
-      "description": "(Same as English M191B.) Seminar, three or four hours. Enforced requisite: English Composition 3. Variable specialized studies course in Chicana/Chicano and/or Latina/Latino literature. Topics may include labor and literature; Chicana/Chicano visions of Los Angeles; immigration, migration, and exile; autobiography and historical change; Chicana/Chicano journalism; literary New Mexico; specific literary genres.\u2026 For more content click the Read More button below.",
+      "description": "(Same as English M191B.) Seminar, three or four hours. Enforced requisite: English Composition 3. Variable specialized studies course in Chicana/Chicano and/or Latina/Latino literature. Topics may include labor and literature; Chicana/Chicano visions of Los Angeles; immigration, migration, and exile; autobiography and historical change; Chicana/Chicano journalism; literary New Mexico; specific literary genres.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: English Composition 3.",
       "prereqs_parsed": {
         "required": [
@@ -1207,7 +1215,7 @@
       "number": "M144",
       "title": "Women's Movement in Latin America",
       "units": 4.0,
-      "description": "(Same as Gender Studies M144 and Labor Studies M144.) Lecture, four hours. Course on women\u2019s movements and feminism in Latin America and Caribbean to examine diverse social movements and locations from which women have launched political and gender struggles. Discussion of forms of feminism and women\u2019s consciousness that have emerged\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M144 and Labor Studies M144.) Lecture, four hours. Course on women’s movements and feminism in Latin America and Caribbean to examine diverse social movements and locations from which women have launched political and gender struggles. Discussion of forms of feminism and women’s consciousness that have emerged… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1252,7 +1260,7 @@
       "number": "M155A",
       "title": "Latinos in U.S.",
       "units": 4.0,
-      "description": "(Same as Sociology M155.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of history and social conditions of Latinos in Los Angeles as well as nationally, with particular emphasis on their location in larger social structure and on comparisons with other minority groups. Topics include migration, family, education,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Sociology M155.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of history and social conditions of Latinos in Los Angeles as well as nationally, with particular emphasis on their location in larger social structure and on comparisons with other minority groups. Topics include migration, family, education,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1265,7 +1273,7 @@
       "number": "M156A",
       "title": "Immigrant Rights, Labor, and Higher Education",
       "units": 4.0,
-      "description": "(Same as Asian American Studies M166A and Labor Studies M166A.) Lecture, three hours; discussion, one hour. New immigrant rights movement, with particular attention to labor and higher education. Overview of history of immigrant rights movement and examination of development of coalition efforts between labor movement and immigrant rights movement nationally\u2026 For more content click the Read More button below.",
+      "description": "(Same as Asian American Studies M166A and Labor Studies M166A.) Lecture, three hours; discussion, one hour. New immigrant rights movement, with particular attention to labor and higher education. Overview of history of immigrant rights movement and examination of development of coalition efforts between labor movement and immigrant rights movement nationally… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1299,7 +1307,7 @@
       "number": "M158",
       "title": "Chicana Historiography",
       "units": 4.0,
-      "description": "(Same as Gender Studies M157 and History M151D.) Lecture, four hours. Examination of Chicana historiography, looking closely at how practice of writing of history has placed Chicanas into particular narratives. Using Chicana feminist approaches to study of history, revisiting of specific historical periods and moments such as Spanish Conquest, Mexican\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M157 and History M151D.) Lecture, four hours. Examination of Chicana historiography, looking closely at how practice of writing of history has placed Chicanas into particular narratives. Using Chicana feminist approaches to study of history, revisiting of specific historical periods and moments such as Spanish Conquest, Mexican… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1312,7 +1320,7 @@
       "number": "M159A",
       "title": "History of Chicano Peoples",
       "units": 4.0,
-      "description": "(Same as History M151A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey lecture course on historical development of Mexican (Chicano) community and people of Mexican descent (Indio-Mestizo-Mulato) north of Rio through 17th, 18th, and 19th centuries, with special focus on labor and politics. Provides integrated understanding\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M151A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey lecture course on historical development of Mexican (Chicano) community and people of Mexican descent (Indio-Mestizo-Mulato) north of Rio through 17th, 18th, and 19th centuries, with special focus on labor and politics. Provides integrated understanding… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1325,7 +1333,7 @@
       "number": "M159B",
       "title": "History of Chicano Peoples",
       "units": 4.0,
-      "description": "(Same as History M151B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey lecture course on historical development of Mexican (Chicano) community and people of Mexican descent in U.S. through 20th century, with special focus on labor and politics. Provides integrated understanding of change over time in\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M151B.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey lecture course on historical development of Mexican (Chicano) community and people of Mexican descent in U.S. through 20th century, with special focus on labor and politics. Provides integrated understanding of change over time in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1338,7 +1346,7 @@
       "number": "M170XP",
       "title": "Topics in Community Engagement",
       "units": 5.0,
-      "description": "(Formerly numbered Chicana and Chicano Studies M170SL.) (Same as Spanish M172XP.) Seminar, four hours; field project, four to six hours. Requisite: Spanish 25. Introduction to community engagement in various forms. Exploration of methods of community involvement and change making processes within variety of professional contexts in community. Students engage in\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered Chicana and Chicano Studies M170SL.) (Same as Spanish M172XP.) Seminar, four hours; field project, four to six hours. Requisite: Spanish 25. Introduction to community engagement in various forms. Exploration of methods of community involvement and change making processes within variety of professional contexts in community. Students engage in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Spanish 25.",
       "prereqs_parsed": {
         "required": [
@@ -1357,7 +1365,7 @@
       "number": "M173",
       "title": "Nonviolence and Social Movements",
       "units": 4.0,
-      "description": "(Same as African American Studies M173 and Labor Studies M173.) Lecture, three hours; discussion, one hour. Overview of nonviolence and its impact on social movements both historically and in its present context in contemporary society, featuring lectures, conversations, films, readings, and guest speakers. Exploration of some historic contributions of civil\u2026 For more content click the Read More button below.",
+      "description": "(Same as African American Studies M173 and Labor Studies M173.) Lecture, three hours; discussion, one hour. Overview of nonviolence and its impact on social movements both historically and in its present context in contemporary society, featuring lectures, conversations, films, readings, and guest speakers. Exploration of some historic contributions of civil… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1383,7 +1391,7 @@
       "number": "M183",
       "title": "History of Los Angeles",
       "units": 4.0,
-      "description": "(Same as History M155.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social, economic, cultural, and political development of Los Angeles and its environs from time of its founding to present. Emphasis on diverse peoples of area, changing physical environment, various interpretations of city, and Los Angeles\u2019\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M155.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Social, economic, cultural, and political development of Los Angeles and its environs from time of its founding to present. Emphasis on diverse peoples of area, changing physical environment, various interpretations of city, and Los Angeles’… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1396,7 +1404,7 @@
       "number": "M185",
       "title": "Whose Monument Where: Course on Public Art",
       "units": 4.0,
-      "description": "(Same as Art M185 and World Arts and Cultures M126.) Lecture, four hours. Recommended corequisite: course M186A, M186B, or M186C. Examination of public monuments in U.S. as basis for cultural insight and critique of American values from perspective of artist. Use of urban Los Angeles as textbook in urban space\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art M185 and World Arts and Cultures M126.) Lecture, four hours. Recommended corequisite: course M186A, M186B, or M186C. Examination of public monuments in U.S. as basis for cultural insight and critique of American values from perspective of artist. Use of urban Los Angeles as textbook in urban space… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1409,7 +1417,7 @@
       "number": "M186A",
       "title": "Beyond Mexican Mural: Beginning Muralism and Community Development",
       "units": 4.0,
-      "description": "(Same as Art M186A and World Arts and Cultures M125A.) Studio/lecture, four hours. Corequisite: course M186AL. Investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community. Students research, design, and work with\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art M186A and World Arts and Cultures M125A.) Studio/lecture, four hours. Corequisite: course M186AL. Investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community. Students research, design, and work with… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course M186AL.",
       "prereqs_parsed": {
         "required": [],
@@ -1430,7 +1438,7 @@
       "number": "M186AL",
       "title": "Beyond Mexican Mural: Beginning Muralism and Community Laboratory",
       "units": 4.0,
-      "description": "(Same as Art M186AL and World Arts and Cultures M125AL.) Laboratory, four hours. Corequisite: course M186A. Course M186AL is requisite to M186BL, which is requisite to M186CL. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art M186AL and World Arts and Cultures M125AL.) Laboratory, four hours. Corequisite: course M186A. Course M186AL is requisite to M186BL, which is requisite to M186CL. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course M186A.",
       "prereqs_parsed": {
         "required": [],
@@ -1451,7 +1459,7 @@
       "number": "M186B",
       "title": "Beyond Mexican Mural: Intermediate Muralism and Community Development",
       "units": 4.0,
-      "description": "(Same as Art M186B and World Arts and Cultures M125B.) Studio/lecture, four hours. Requisites: courses M186A, M186AL. Corequisite: course M186BL. Continuation of investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art M186B and World Arts and Cultures M125B.) Studio/lecture, four hours. Requisites: courses M186A, M186AL. Corequisite: course M186BL. Continuation of investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M186A, M186AL. Corequisite: course M186BL.",
       "prereqs_parsed": {
         "required": [
@@ -1473,7 +1481,7 @@
       "number": "M186BL",
       "title": "Beyond Mexican Mural: Intermediate Muralism and Community Laboratory",
       "units": 4.0,
-      "description": "(Same as Art M186BL and World Arts and Cultures M125BL.) Laboratory, four hours. Requisites: courses M186A, M186AL. Corequisite: course M186B. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based setting. Open to students during scheduled hours\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art M186BL and World Arts and Cultures M125BL.) Laboratory, four hours. Requisites: courses M186A, M186AL. Corequisite: course M186B. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based setting. Open to students during scheduled hours… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M186A, M186AL. Corequisite: course M186B.",
       "prereqs_parsed": {
         "required": [
@@ -1497,7 +1505,7 @@
       "number": "M186C",
       "title": "Beyond Mexican Mural: Advanced Muralism and Community Development",
       "units": 4.0,
-      "description": "(Same as Art M186C and World Arts and Cultures M125C.) Studio/lecture, six hours. Requisites: courses M186B, M186BL. Corequisite: course M186CL. Continuation of investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art M186C and World Arts and Cultures M125C.) Studio/lecture, six hours. Requisites: courses M186B, M186BL. Corequisite: course M186CL. Continuation of investigation of muralism as method of community education, development, and empowerment. Exploration of issues through development of large-scale collaborative digitally created image and/or painting for placement in community.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M186B, M186BL. Corequisite: course M186CL.",
       "prereqs_parsed": {
         "required": [
@@ -1519,7 +1527,7 @@
       "number": "M186CL",
       "title": "Beyond Mexican Mural: Advanced Muralism and Community Laboratory",
       "units": 2.0,
-      "description": "(Same as Art M186CL and World Arts and Cultures M125CL.) Laboratory, two hours. Requisite: course M186BL. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based setting. Open to students during scheduled hours with laboratory tech support,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art M186CL and World Arts and Cultures M125CL.) Laboratory, two hours. Requisite: course M186BL. Mural and Digital Laboratory is art studio housed at Social and Public Art Resource Center in Venice, CA, where students work in community-based setting. Open to students during scheduled hours with laboratory tech support,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M186BL.",
       "prereqs_parsed": {
         "required": [
@@ -1538,7 +1546,7 @@
       "number": "M187",
       "title": "Latino Metropolis: Architecture and Urbanism in Americas",
       "units": 4.0,
-      "description": "(Same as History M151E and Urban Planning M187.) Lecture, four hours. Introduction to history of architecture and urbanism in Americas, from fabled cities of Aztec empire to barrios of 21st-century Los Angeles and Miami. Emphasis on role of cities in Latina/Latino experience and uses of architecture and city planning to\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M151E and Urban Planning M187.) Lecture, four hours. Introduction to history of architecture and urbanism in Americas, from fabled cities of Aztec empire to barrios of 21st-century Los Angeles and Miami. Emphasis on role of cities in Latina/Latino experience and uses of architecture and city planning to… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1551,7 +1559,7 @@
       "number": "5",
       "title": "Intermediate Spanish",
       "units": 4.0,
-      "description": "Lecture, three hours; laboratory, two hours. Taught in Spanish. Laboratory is online. Intermediate Spanish language and culture course designed to increase communicative ability. Acquisition of cultural competence and introduction to study of literature. Comprehension of conversations and stretches of connected discourse, reading of texts with minimum use of dictionary, writing\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours. Taught in Spanish. Laboratory is online. Intermediate Spanish language and culture course designed to increase communicative ability. Acquisition of cultural competence and introduction to study of literature. Comprehension of conversations and stretches of connected discourse, reading of texts with minimum use of dictionary, writing… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

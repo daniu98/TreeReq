@@ -254,7 +254,7 @@
       "number": "10W",
       "title": "Jerusalem: Holy City",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 12W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 12W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: English Composition 3.",
       "prereqs_parsed": {
         "required": [
@@ -412,7 +412,7 @@
       "number": "125A",
       "title": "Digital Cultural Mapping Core Course A: Place, Time, and Digital World",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Introduction to how emerging digital mapping technologies like geographic information systems (GIS), virtual globes, and three-dimensional modeling are being utilized as new means of inquiry in the humanities and social sciences. Provides students with critical apparatus needed to effectively, responsibly, and heuristically use technology\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Introduction to how emerging digital mapping technologies like geographic information systems (GIS), virtual globes, and three-dimensional modeling are being utilized as new means of inquiry in the humanities and social sciences. Provides students with critical apparatus needed to effectively, responsibly, and heuristically use technology… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -427,7 +427,7 @@
       "number": "12W",
       "title": "Jerusalem: Holy City",
       "units": 5.0,
-      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 10W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected by literary and\u2026 For more content click the Read More button below.",
+      "description": "Seminar, four hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 10W. Survey of religious, political, and cultural history of Jerusalem over three millennia as symbolic focus of three faiths: Judaism, Christianity, and Islam. Transformation of sacred space as reflected by literary and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: English Composition 3.",
       "prereqs_parsed": {
         "required": [
@@ -459,7 +459,7 @@
       "number": "140A",
       "title": "Elementary Sumerian",
       "units": 4.0,
-      "description": "Lecture, three hours. Introduction to Sumerian, oldest cuneiform language, with examples attested in Mesopotamia from 3rd millennium BCE to 1st century CE. Elementary grammar, syntax, and overview of cuneiform as used by Sumerian. Focus on structure of nominal and verbal chain, through reading of basic royal inscriptions and other texts.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Introduction to Sumerian, oldest cuneiform language, with examples attested in Mesopotamia from 3rd millennium BCE to 1st century CE. Elementary grammar, syntax, and overview of cuneiform as used by Sumerian. Focus on structure of nominal and verbal chain, through reading of basic royal inscriptions and other texts.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -531,7 +531,7 @@
       "number": "15",
       "title": "Women and Power in Ancient World",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Not open for credit to students with credit for course 15W. Examination of how feminine power confronts masculine dominance within complex social systems in ancient world. To gain political power, some female rulers used their sexuality to gain access to important men. Other women\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Not open for credit to students with credit for course 15W. Examination of how feminine power confronts masculine dominance within complex social systems in ancient world. To gain political power, some female rulers used their sexuality to gain access to important men. Other women… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -544,7 +544,7 @@
       "number": "150B",
       "title": "Survey of Ancient Near Eastern Literatures in English: Egypt",
       "units": 4.0,
-      "description": "Lecture, three hours. Preparation: familiarity with Egyptian history. Enforced requisites: courses M103A, M103B. Survey of 3,000 years of ancient Egyptian literature. Reading of Egyptian texts in translation to study Egypt\u2019s intellectual history and trace transformations in its construction of cultural identity. Topics include invention of writing, autobiography, wisdom texts, narratives,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Preparation: familiarity with Egyptian history. Enforced requisites: courses M103A, M103B. Survey of 3,000 years of ancient Egyptian literature. Reading of Egyptian texts in translation to study Egypt’s intellectual history and trace transformations in its construction of cultural identity. Topics include invention of writing, autobiography, wisdom texts, narratives,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M103A, M103B.",
       "prereqs_parsed": {
         "required": [
@@ -564,10 +564,16 @@
       "number": "15W",
       "title": "Women and Power in Ancient World",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 15. Examination of how feminine power confronts masculine dominance within complex social systems in ancient world. To gain political power, some female rulers used their sexuality to gain access to\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course 15. Examination of how feminine power confronts masculine dominance within complex social systems in ancient world. To gain political power, some female rulers used their sexuality to gain access to… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: English Composition 3.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "ENG COMP 3"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -609,7 +615,7 @@
       "number": "162",
       "title": "Archaeology, Identity, and Bible",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Introduction of archaeological record of southern Levant (ancient Israel) from Bronze Age through Achaemenid Period (circa 2500-332 BC) in combination with current understandings of genre, authorship, and historical value of Hebrew Bible. Ancient Israelite identities are traced through combination of archaeological and textual sources.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Introduction of archaeological record of southern Levant (ancient Israel) from Bronze Age through Achaemenid Period (circa 2500-332 BC) in combination with current understandings of genre, authorship, and historical value of Hebrew Bible. Ancient Israelite identities are traced through combination of archaeological and textual sources.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -622,7 +628,7 @@
       "number": "175",
       "title": "Conceptions of Race in Ancient Egypt",
       "units": 4.0,
-      "description": "Lecture, three hours; discussions, one hour. Exploration of how racial hierarchies are created and maintained within context of ancient Egyptian culture. Race of ancient Egyptians is still at stake and tied to larger issues of racial and ethnic inequalities, prejudices, and oppression. Examination of modern issues invites comparison with conception\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussions, one hour. Exploration of how racial hierarchies are created and maintained within context of ancient Egyptian culture. Race of ancient Egyptians is still at stake and tied to larger issues of racial and ethnic inequalities, prejudices, and oppression. Examination of modern issues invites comparison with conception… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -635,7 +641,7 @@
       "number": "C106A",
       "title": "Earliest Empires: Mesopotamian History in 3rd Millennium",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. In-depth study of the history of ancient Mesopotamia, from the earliest textual and material evidence to the end of the Ur III state circa 2000 BCE. Particular focus on rise of cities in Mesopotamia and formation of the first major unified polities, such as\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. In-depth study of the history of ancient Mesopotamia, from the earliest textual and material evidence to the end of the Ur III state circa 2000 BCE. Particular focus on rise of cities in Mesopotamia and formation of the first major unified polities, such as… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -663,7 +669,7 @@
       "number": "C123B",
       "title": "Coptic",
       "units": 5.0,
-      "description": "Lecture, three hours. Requisite: course C123A. Introduction to Coptic, final phase of Egyptian language, which is attested in writing from circa 300 to 1400 CE. Introduction to variety of Coptic textual genres, from hagiographies to homilies, magical spells, private letters, legal contracts, and Gnostic Gospels found in Nag Hammadi. Readings\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course C123A. Introduction to Coptic, final phase of Egyptian language, which is attested in writing from circa 300 to 1400 CE. Introduction to variety of Coptic textual genres, from hagiographies to homilies, magical spells, private letters, legal contracts, and Gnostic Gospels found in Nag Hammadi. Readings… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course C123A.",
       "prereqs_parsed": {
         "required": [
@@ -747,7 +753,7 @@
       "number": "CM169",
       "title": "Introduction to Archaeological Sciences",
       "units": 4.0,
-      "description": "(Same as Anthropology CM110Q.) Lecture, three hours. Basic understanding of newly introduced methods and techniques throughout field of archaeology to implement them and to appreciate and evaluate results of their use by others who have embedded them in their scholarly publications or theoretical models. Systematic instruction in digital data management\u2026 For more content click the Read More button below.",
+      "description": "(Same as Anthropology CM110Q.) Lecture, three hours. Basic understanding of newly introduced methods and techniques throughout field of archaeology to implement them and to appreciate and evaluate results of their use by others who have embedded them in their scholarly publications or theoretical models. Systematic instruction in digital data management… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -760,7 +766,7 @@
       "number": "M101C",
       "title": "Ancient Egyptian Temple and City of Thebes",
       "units": 4.0,
-      "description": "(Same as Art History M110C.) Lecture, four hours; fieldwork, one hour. Focus on ancient temples of city of Thebes (modern day Luxor). Theban temples are some of best-preserved cult buildings in all of Egypt, and their study illuminates traditions of artistic representation, architectural development, and social and political transformations echoed\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art History M110C.) Lecture, four hours; fieldwork, one hour. Focus on ancient temples of city of Thebes (modern day Luxor). Theban temples are some of best-preserved cult buildings in all of Egypt, and their study illuminates traditions of artistic representation, architectural development, and social and political transformations echoed… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -842,7 +848,7 @@
       "number": "M104D",
       "title": "Assyrians",
       "units": 4.0,
-      "description": "(Same as History M104D.) Lecture, three hours. Designed for juniors/seniors. Overview of Assyrian cultural history from its origins to end of Neo-Assyrian period (circa 612 BCE), with focus on rise, mechanics, and decline of Neo-Assyrian Empire, which at its peak ruled ancient Near East from Zagros to Egypt. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M104D.) Lecture, three hours. Designed for juniors/seniors. Overview of Assyrian cultural history from its origins to end of Neo-Assyrian period (circa 612 BCE), with focus on rise, mechanics, and decline of Neo-Assyrian Empire, which at its peak ruled ancient Near East from Zagros to Egypt. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -855,7 +861,7 @@
       "number": "M105",
       "title": "Archaeology of Egypt and Sudan",
       "units": 4.0,
-      "description": "(Same as Anthropology M115.) Lecture, two hours; laboratory, three hours. Ancient Egypt is well known for iconic archaeological sites such as Giza Pyramids and Tomb of Tutankhamun. From these and thousands of less well-known sites, enormous variety of archaeological information can be gained. Through discussion of particular archaeological themes, regions,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Anthropology M115.) Lecture, two hours; laboratory, three hours. Ancient Egypt is well known for iconic archaeological sites such as Giza Pyramids and Tomb of Tutankhamun. From these and thousands of less well-known sites, enormous variety of archaeological information can be gained. Through discussion of particular archaeological themes, regions,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -868,7 +874,7 @@
       "number": "M110A",
       "title": "Iranian Civilization: History of Achaemenid Empire",
       "units": 4.0,
-      "description": "(Same as History M110A and Iranian M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire\u2019s religions, and Greco-Persian interactions. Further accents on Cyrus\u2019 empire and Darius\u2019 world order, age\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M110A and Iranian M110A.) Lecture, three hours; discussion, one hour (when scheduled). From end of Elam and rise of Medes to Macedonian conquest of Achaemenid Persia. Emphasis on political history, state structure, empire’s religions, and Greco-Persian interactions. Further accents on Cyrus’ empire and Darius’ world order, age… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -881,7 +887,7 @@
       "number": "M110B",
       "title": "Iranian Civilization: History of Arsacid (Parthian) Empire",
       "units": 4.0,
-      "description": "(Same as History M110B and Iranian M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire\u2019s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise and Arsacid\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M110B and Iranian M110B.) Lecture, three hours; discussion, one hour (when scheduled). From Hellenistic rule in Persia to Sasanian conquest. Emphasis on political history, state structure, empire’s religions, interactions with Hellenistic and Roman worlds. Further accent on Parthian conquest of Iran and Mesopotamia, Seleucid demise and Arsacid… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -892,9 +898,9 @@
       "course_id": "AN N EA M110C",
       "dept": "AN N EA",
       "number": "M110C",
-      "title": "Iranian Civilization: History of Early Sasanian Empire\u00e2\u20ac\u201dFrom Ardashir I to Rise of Peroz (circa 224-459 CE)",
+      "title": "Iranian Civilization: History of Early Sasanian Empireâ€”From Ardashir I to Rise of Peroz (circa 224-459 CE)",
       "units": 4.0,
-      "description": "(Same as History M110C and Iranian M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire\u2019s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions, Persia and\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M110C and Iranian M110C.) Lecture, three hours; discussion, one hour (when scheduled). From fall of Arsacids to Muslim conquest of Iran. Emphasis on political and economic history, evolution of state structure, empire’s religious landscape (Mazdism, Manicheism, Exilarchate, Church of Persia, Mazdakism), Persian and Roman/Byzantine interactions, Persia and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -907,7 +913,7 @@
       "number": "M125B",
       "title": "Digital Cultural Mapping Core Course B: Google Earth, Geographic Information Systems, Hypercities, and Timelines",
       "units": 4.0,
-      "description": "(Same as Architecture and Urban Design M125B.) Laboratory, three hours; discussion, one hour. Enforced requisite: course 125A. Hands-on laboratory-based investigation of emerging digital mapping technologies, including instruction in Web-based mapping applications, virtual globes, and geographic information systems (GIS). Critique and creation of maps of cultural phenomena, applying skills students learned\u2026 For more content click the Read More button below.",
+      "description": "(Same as Architecture and Urban Design M125B.) Laboratory, three hours; discussion, one hour. Enforced requisite: course 125A. Hands-on laboratory-based investigation of emerging digital mapping technologies, including instruction in Web-based mapping applications, virtual globes, and geographic information systems (GIS). Critique and creation of maps of cultural phenomena, applying skills students learned… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 125A.",
       "prereqs_parsed": {
         "required": [
@@ -928,7 +934,7 @@
       "number": "M125C",
       "title": "Digital Cultural Mapping Core Course C: Summer Research",
       "units": 4.0,
-      "description": "(Same as Architecture and Urban Design M125C.) Laboratory, three hours; fieldwork, one hour. Enforced requisite: course M125B or Architecture and Urban Design M125B. Participation in collaborative geographic information systems (GIS) research project in humanities or social sciences using skills learned in courses 125A and M125B. Gathering and input of datasets\u2026 For more content click the Read More button below.",
+      "description": "(Same as Architecture and Urban Design M125C.) Laboratory, three hours; fieldwork, one hour. Enforced requisite: course M125B or Architecture and Urban Design M125B. Participation in collaborative geographic information systems (GIS) research project in humanities or social sciences using skills learned in courses 125A and M125B. Gathering and input of datasets… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course M125B or Architecture and Urban Design M125B.",
       "prereqs_parsed": {
         "required": [],
@@ -950,7 +956,7 @@
       "number": "M130",
       "title": "Ancient Egyptian Religion",
       "units": 5.0,
-      "description": "(Same as Religion M132.) Lecture, three hours; discussion, one hour. Introduction to religious beliefs, practices, and sentiments of ancient Egypt to study Egyptian religion as coherent system of thought and sphere of action that once served as meaningful and relevant framework for understanding physical reality and human life for inhabitants\u2026 For more content click the Read More button below.",
+      "description": "(Same as Religion M132.) Lecture, three hours; discussion, one hour. Introduction to religious beliefs, practices, and sentiments of ancient Egypt to study Egyptian religion as coherent system of thought and sphere of action that once served as meaningful and relevant framework for understanding physical reality and human life for inhabitants… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -976,7 +982,7 @@
       "number": "M150A",
       "title": "Heroes, Gods, and Monsters: Literature and Epic in Mesopotamia",
       "units": 4.0,
-      "description": "(Formerly numbered 150A.) (Same as Study of Religion M150A.) Lecture, three hours. Survey of literary texts and traditions the ancient Near East, specifically Mesopotamia, from Old Akkadian (circa 2300 BCE) to Neo-Babylonian (circa 600 BCE) period. Texts read in English translation include literary texts, royal inscriptions, incantations, royal and divine\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 150A.) (Same as Study of Religion M150A.) Lecture, three hours. Survey of literary texts and traditions the ancient Near East, specifically Mesopotamia, from Old Akkadian (circa 2300 BCE) to Neo-Babylonian (circa 600 BCE) period. Texts read in English translation include literary texts, royal inscriptions, incantations, royal and divine… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -989,7 +995,7 @@
       "number": "M164",
       "title": "Archaeology of Levant",
       "units": 4.0,
-      "description": "(Formerly numbered 164.) (Same as Archeology M164, Art History M111E, and Middle Eastern Studies M164.) Lecture, three hours. Survey of archaeology of Levant from late fifth millennium through arrival of Alexander the Great (circa 4500-332 BC). Examination of social, economic, political, and cultural developments through archaeological finds from geographic region\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 164.) (Same as Archeology M164, Art History M111E, and Middle Eastern Studies M164.) Lecture, three hours. Survey of archaeology of Levant from late fifth millennium through arrival of Alexander the Great (circa 4500-332 BC). Examination of social, economic, political, and cultural developments through archaeological finds from geographic region… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1002,7 +1008,7 @@
       "number": "M166",
       "title": "Art and Death in Ancient Egypt",
       "units": 4.0,
-      "description": "(Same as Art History M110D.) Lecture, four hours. Ways of death, burial, funerary ritual, and afterlife beliefs in ancient Egypt, as well as in ancient Near East and Nubia, with focus on ancient visual materials\u2014both objects and architecture\u2014from Predynastic to Roman periods. P/NP or letter grading.",
+      "description": "(Same as Art History M110D.) Lecture, four hours. Ways of death, burial, funerary ritual, and afterlife beliefs in ancient Egypt, as well as in ancient Near East and Nubia, with focus on ancient visual materials—both objects and architecture—from Predynastic to Roman periods. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1015,14 +1021,18 @@
       "number": "M167",
       "title": "Magic in Ancient World",
       "units": 4.0,
-      "description": "(Same as Classics M167.) Lecture, three hours; discussion, one hour (when scheduled). Requisite: Classics 10 or 20. Exploration of art of influencing natural course of events by occult means as practiced in ancient world at large. Coverage of beliefs in supernatural forces, rites aimed at controlling these forces effectively, and\u2026 For more content click the Read More button below.",
+      "description": "(Same as Classics M167.) Lecture, three hours; discussion, one hour (when scheduled). Requisite: Classics 10 or 20. Exploration of art of influencing natural course of events by occult means as practiced in ancient world at large. Coverage of beliefs in supernatural forces, rites aimed at controlling these forces effectively, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Classics 10 or 20.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "CLASS 10",
-          "CLASS 20"
+          [
+            "CLASS 10"
+          ],
+          [
+            "CLASS 20"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1061,7 +1071,7 @@
       "number": "M179",
       "title": "Cultural Heritage and Identity Representation: Creating Fowler and Virtual Exhibit",
       "units": 4.0,
-      "description": "(Same as Art History M179.) Lecture, three hours; discussion, one hour. Exploration of what it takes to run museum and create exhibit. Introduction to different types of museum work, ranging from collecting and curation, to research, conservation, presentation, visitor experience, and management. Students jointly create exhibit based on Fowler Museum\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art History M179.) Lecture, three hours; discussion, one hour. Exploration of what it takes to run museum and create exhibit. Introduction to different types of museum work, ranging from collecting and curation, to research, conservation, presentation, visitor experience, and management. Students jointly create exhibit based on Fowler Museum… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1074,7 +1084,7 @@
       "number": "M185D",
       "title": "Religions of Ancient Near East",
       "units": 4.0,
-      "description": "(Same as History M185D and Religion M185D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Main polytheistic systems of ancient Near East, with emphasis on Mesopotamia and Syria and with reference to religion of ancient Israel: varying concepts of divinity, hierarchies of gods, prayer and cult, magics,\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M185D and Religion M185D.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Main polytheistic systems of ancient Near East, with emphasis on Mesopotamia and Syria and with reference to religion of ancient Israel: varying concepts of divinity, hierarchies of gods, prayer and cult, magics,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1087,7 +1097,7 @@
       "number": "M60",
       "title": "Achaemenid Civilization and Empire of Alexander",
       "units": 5.0,
-      "description": "(Same as History M60 and Iranian M60.) Lecture, three hours; discussion, one hour. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was ended by Alexander the Great, whose campaigns were as transformative as they were violent. Alexander\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M60 and Iranian M60.) Lecture, three hours; discussion, one hour. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was ended by Alexander the Great, whose campaigns were as transformative as they were violent. Alexander… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1100,7 +1110,7 @@
       "number": "M60W",
       "title": "Achaemenid Civilization and Empire of Alexander",
       "units": 5.0,
-      "description": "(Same as History M60W and Iranian M60W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course M60. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M60W and Iranian M60W.) Lecture, three hours; discussion, one hour. Requisite: English Composition 3. Not open for credit to students with credit for course M60. Survey of period from circa 600 to 300 BCE, rise and fall of Achaemenid Persia, first world empire of antiquity, which was… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: English Composition 3.",
       "prereqs_parsed": {
         "required": [
@@ -1119,7 +1129,7 @@
       "number": "M70",
       "title": "Demons, Fear, and Uncanny in Ancient World",
       "units": 5.0,
-      "description": "(Same as Religion M70.) Lecture, three hours; discussion, one hour. Consideration of place of demons and fear in several different societies and cultures in ancient world: Mesopotamia; ancient Egypt, Greece, and Rome; and Biblical and early Jewish contexts. Investigation into why demons and monsters existed in these cultures; how they\u2026 For more content click the Read More button below.",
+      "description": "(Same as Religion M70.) Lecture, three hours; discussion, one hour. Consideration of place of demons and fear in several different societies and cultures in ancient world: Mesopotamia; ancient Egypt, Greece, and Rome; and Biblical and early Jewish contexts. Investigation into why demons and monsters existed in these cultures; how they… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1132,7 +1142,7 @@
       "number": "110",
       "title": "Principles of Archaeology",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 2. Intended for students interested in conceptual structure of scientific archaeology. Archaeological method and theory with emphasis on what archaeologists do and how and why they do it. Consideration of field strategies, formation processes, chronological frameworks, and other crucial principles\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 2. Intended for students interested in conceptual structure of scientific archaeology. Archaeological method and theory with emphasis on what archaeologists do and how and why they do it. Consideration of field strategies, formation processes, chronological frameworks, and other crucial principles… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 2.",
       "prereqs_parsed": {
         "required": [
@@ -1170,7 +1180,7 @@
       "number": "112R",
       "title": "Cities Past and Present",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 2 or 3. Examination of ancient and modern cities to evaluate how urban form developed and continues to thrive as human social phenomenon. Contemporary observations compared with archaeological case studies, including South America, Asia, Africa, and ancient Near East. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 2 or 3. Examination of ancient and modern cities to evaluate how urban form developed and continues to thrive as human social phenomenon. Contemporary observations compared with archaeological case studies, including South America, Asia, Africa, and ancient Near East. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 2 or 3.",
       "prereqs_parsed": {
         "required": []
@@ -1183,7 +1193,7 @@
       "number": "130",
       "title": "Study of Culture",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 3. Designed for juniors/seniors. 20th-century elaboration and development of concept of culture. Examination of five major paradigms: culture as human capacity, as patterns and products of behavior, as systems of meaning and cognition, as generative structure and semiotic system, as… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 3.",
       "prereqs_parsed": {
         "required": [
@@ -1202,7 +1212,7 @@
       "number": "CM110Q",
       "title": "Introduction to Archaeological Sciences",
       "units": 4.0,
-      "description": "(Same as Ancient Near East CM169.) Lecture, three hours. Basic understanding of newly introduced methods and techniques throughout field of archaeology to implement them and to appreciate and evaluate results of their use by others who have embedded them in their scholarly publications or theoretical models. Systematic instruction in digital\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ancient Near East CM169.) Lecture, three hours. Basic understanding of newly introduced methods and techniques throughout field of archaeology to implement them and to appreciate and evaluate results of their use by others who have embedded them in their scholarly publications or theoretical models. Systematic instruction in digital… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1215,7 +1225,7 @@
       "number": "M150",
       "title": "Language in Culture",
       "units": 5.0,
-      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 4 or Linguistics 20.",
       "prereqs_parsed": {
         "required": [],
@@ -1259,7 +1269,7 @@
       "number": "111B",
       "title": "Christian Biblical Texts in Translation",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Literary study of canonical New Testament and other Christian texts (deuterocanonical, apocryphal, gnostic, etc.), with emphasis on literary devices and narrative structures in relation to Judeo-Christian historical, political, psychological, philosophical, and theological themes. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Literary study of canonical New Testament and other Christian texts (deuterocanonical, apocryphal, gnostic, etc.), with emphasis on literary devices and narrative structures in relation to Judeo-Christian historical, political, psychological, philosophical, and theological themes. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
       "prereqs_parsed": {
         "required": [],
@@ -1281,10 +1291,19 @@
       "number": "111C",
       "title": "Topics in Biblical Literature",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Recommended: course 111A or 111B. Study of topics in Hebrew Bible and/or New Testament, with attention to particular literary themes, motifs, genres, and modes of interpretation. Discussion of influence of Bible on discrete periods or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Recommended: course 111A or 111B. Study of topics in Hebrew Bible and/or New Testament, with attention to particular literary themes, motifs, genres, and modes of interpretation. Discussion of influence of Bible on discrete periods or… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "ENGL 3",
+            "ENGL 3H"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1350,7 +1369,7 @@
       "number": "110C",
       "title": "Readings in Biblical Hebrew",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisites: courses 110A, 110B. Continuation of course 110B. Reading of prose texts from Hebrew Bible, particularly from Former Prophets (Joshua-Kings). Introduction to certain aspects of historical grammar of biblical Hebrew. Reading and translation of variety of texts from different historical periods of Hebrew language, including texts from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisites: courses 110A, 110B. Continuation of course 110B. Reading of prose texts from Hebrew Bible, particularly from Former Prophets (Joshua-Kings). Introduction to certain aspects of historical grammar of biblical Hebrew. Reading and translation of variety of texts from different historical periods of Hebrew language, including texts from… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 110A, 110B.",
       "prereqs_parsed": {
         "required": [
@@ -1463,7 +1482,7 @@
       "number": "M111",
       "title": "Introduction to Islamic Archaeology",
       "units": 4.0,
-      "description": "(Same as Art History M119C and Middle Eastern Studies M111.) Lecture, three hours. From earliest monuments of Islam in Arabia and Jerusalem to humble remains of small Egyptian port, broad focus on archaeological and standing remains in central Islamic lands (primarily Syria, Egypt, and Iraq), Turkey, Iran, North Africa, and\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art History M119C and Middle Eastern Studies M111.) Lecture, three hours. From earliest monuments of Islam in Arabia and Jerusalem to humble remains of small Egyptian port, broad focus on archaeological and standing remains in central Islamic lands (primarily Syria, Egypt, and Iraq), Turkey, Iran, North Africa, and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1476,7 +1495,7 @@
       "number": "M112",
       "title": "Archaeology and Art of Christian and Islamic Egypt",
       "units": 4.0,
-      "description": "(Same as Archaeology M112, Art History M119D, and Middle Eastern Studies M112.) Lecture, three hours. Culture of Egypt transformed gradually after Muslim conquest in mid-7th century CE. According to material evidence such as ceramics, textiles, architectural forms, and building techniques, it is functionally impossible to separate pre-Islamic Christian Egypt from\u2026 For more content click the Read More button below.",
+      "description": "(Same as Archaeology M112, Art History M119D, and Middle Eastern Studies M112.) Lecture, three hours. Culture of Egypt transformed gradually after Muslim conquest in mid-7th century CE. According to material evidence such as ceramics, textiles, architectural forms, and building techniques, it is functionally impossible to separate pre-Islamic Christian Egypt from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1500,7 +1519,7 @@
       "course_id": "JEWISH M150A",
       "dept": "JEWISH",
       "number": "M150A",
-      "title": "Hebrew Literature in English: Literary Traditions of Ancient Israel\u00e2\u20ac\u201dBible and Apocrypha",
+      "title": "Hebrew Literature in English: Literary Traditions of Ancient Israelâ€”Bible and Apocrypha",
       "units": 4.0,
       "description": "(Same as Comparative Literature M101.) Lecture, three hours. Study of literary culture of ancient Israel through examination of principal compositional strategies of Hebrew Bible and Apocrypha (read in translation). May be taken independently for credit. P/NP or letter grading.",
       "prereqs_raw": "",
@@ -1515,7 +1534,7 @@
       "number": "M155",
       "title": "Angels, Demons, and End of World: Magic, Mysticism, and Apocalypse in Jewish Traditions",
       "units": 4.0,
-      "description": "(Same as Religion M155.) Lecture, three hours. Focus on popular Jewish traditions of magic, mysticism, apocalypse, and various contours of Judaism\u2019s textual and material traditions in antiquity. Examination of texts and objects from Hebrew Bible to modern discussions of Kabbalah and end of world, concentrating on Jewish antiquity. Discussion of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Religion M155.) Lecture, three hours. Focus on popular Jewish traditions of magic, mysticism, apocalypse, and various contours of Judaism’s textual and material traditions in antiquity. Examination of texts and objects from Hebrew Bible to modern discussions of Kabbalah and end of world, concentrating on Jewish antiquity. Discussion of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1541,7 +1560,7 @@
       "number": "M50A",
       "title": "First Civilizations",
       "units": 5.0,
-      "description": "(Same as Ancient Near East M50A.) Lecture, three hours; discussion, one hour. Survey of great civilizations of ancient Near East\u2014Egypt, Israel, and Mesopotamia\u2014with attention to emergence of writing, monotheism, and urban societies. Letter grading.",
+      "description": "(Same as Ancient Near East M50A.) Lecture, three hours; discussion, one hour. Survey of great civilizations of ancient Near East—Egypt, Israel, and Mesopotamia—with attention to emergence of writing, monotheism, and urban societies. Letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1554,7 +1573,7 @@
       "number": "M50B",
       "title": "Origins of Judaism, Christianity, and Islam",
       "units": 5.0,
-      "description": "(Same as Ancient Near East M50B and Religion M50.) Lecture, three hours; discussion, one hour. Examination of three major monotheisms of Western cultures\u2014Judaism, Christianity, and Islam\u2014historically and comparatively. Development, teachings, and ritual practices of each tradition up to and including medieval period. Composition and development of various sacred texts, highlighting\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ancient Near East M50B and Religion M50.) Lecture, three hours; discussion, one hour. Examination of three major monotheisms of Western cultures—Judaism, Christianity, and Islam—historically and comparatively. Development, teachings, and ritual practices of each tradition up to and including medieval period. Composition and development of various sacred texts, highlighting… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1567,7 +1586,7 @@
       "number": "M20",
       "title": "Visible Language: Study of Writing",
       "units": 5.0,
-      "description": "(Same as Asian M20, Indo-European Studies M20, Slavic M20, and Southeast Asian M20.) Lecture, three hours; discussion, one hour. Consideration of concrete means of language representation in writing systems. Earliest representations of language known are those of Near East dating to end of 4th millennium BC. While literate civilizations of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Asian M20, Indo-European Studies M20, Slavic M20, and Southeast Asian M20.) Lecture, three hours; discussion, one hour. Consideration of concrete means of language representation in writing systems. Earliest representations of language known are those of Near East dating to end of 4th millennium BC. While literate civilizations of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1580,7 +1599,7 @@
       "number": "M186A",
       "title": "History of Early Christians",
       "units": 4.0,
-      "description": "(Same as History M185F.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Christian movement from its origins to circa 160 CE, stressing its continuity/discontinuity with Judaism, various responses to Jesus of Nazareth, writings produced during this period, movement\u2019s encounters with its religious, social, and political world, and\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M185F.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Christian movement from its origins to circa 160 CE, stressing its continuity/discontinuity with Judaism, various responses to Jesus of Nazareth, writings produced during this period, movement’s encounters with its religious, social, and political world, and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1593,7 +1612,7 @@
       "number": "M186B",
       "title": "Religious Environment of Early Christians",
       "units": 4.0,
-      "description": "(Same as History M185G.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Rich variety in religious practice and thought in Mediterranean world of 1st century CE as in context of developing Christian movement. Topics include Pharisees, Qumran, Philo, Stoics, Epicureans, traditional Greek and Roman religions, mysteries, astrology,\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M185G.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Rich variety in religious practice and thought in Mediterranean world of 1st century CE as in context of developing Christian movement. Topics include Pharisees, Qumran, Philo, Stoics, Epicureans, traditional Greek and Roman religions, mysteries, astrology,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1606,7 +1625,7 @@
       "number": "M186C",
       "title": "Jesus of Nazareth in Historical Research",
       "units": 4.0,
-      "description": "(Same as History M185I.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course M185F. Designed for juniors/seniors. Stimulated by significant post-Enlightenment historical evaluations, students are led into firsthand knowledge (in translation) of various multilayered sources for reconstruction of life, teaching, and initial impact of Jesus of Nazareth in\u2026 For more content click the Read More button below.",
+      "description": "(Same as History M185I.) Lecture, three hours; discussion, one hour (when scheduled). Recommended preparation: course M185F. Designed for juniors/seniors. Stimulated by significant post-Enlightenment historical evaluations, students are led into firsthand knowledge (in translation) of various multilayered sources for reconstruction of life, teaching, and initial impact of Jesus of Nazareth in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

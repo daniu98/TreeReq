@@ -140,7 +140,7 @@
       "number": "4",
       "title": "Culture and Communication",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor\u2019s degrees. Introduction to study of communication from anthropological perspective. Formal linguistic methods compared with ethnographically oriented methods focused on context-bound temporal unfolding of communicative activities. Topics include language in everyday life and ritual events, socialization, literacy, multilingualism, miscommunication,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor’s degrees. Introduction to study of communication from anthropological perspective. Formal linguistic methods compared with ethnographically oriented methods focused on context-bound temporal unfolding of communicative activities. Topics include language in everyday life and ritual events, socialization, literacy, multilingualism, miscommunication,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -153,7 +153,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -169,7 +169,7 @@
       "number": "32",
       "title": "Introduction to Computer Science II",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 31.",
       "prereqs_parsed": {
         "required": [
@@ -203,14 +203,18 @@
       "number": "10B",
       "title": "Intermediate Programming",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "COMPTNG 10A",
-          "COM SCI 31"
+          [
+            "COMPTNG 10A"
+          ],
+          [
+            "COM SCI 31"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -322,7 +326,13 @@
       "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Course 120A is not requisite to 120B. Descriptive analysis of morphological and syntactic structures in natural languages; emphasis on insight into nature of such structures rather than linguistics formalization. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisite: course 20.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "LING 120C",
@@ -343,8 +353,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LING 119B",
-          "LING 120B"
+          [
+            "LING 119B"
+          ],
+          [
+            "LING 120B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -359,7 +373,7 @@
       "number": "127",
       "title": "Syntactic Typology and Universals",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 20.",
       "prereqs_parsed": {
         "required": [
@@ -378,7 +392,7 @@
       "number": "130",
       "title": "Language Development",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Survey of research and theoretical perspectives in language development in children. Discussion and examination of child language data from English and other languages. Emphasis on universals of language development. Topics include infant speech\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Survey of research and theoretical perspectives in language development in children. Discussion and examination of child language data from English and other languages. Emphasis on universals of language development. Topics include infant speech… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20, 119A or 120A, 119B or 120B.",
       "prereqs_parsed": {
         "required": [
@@ -406,10 +420,25 @@
       "number": "132",
       "title": "Language Processing",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20, 119A or 120A, 119B or 120B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 119A",
+            "LING 120A"
+          ],
+          [
+            "LING 119B",
+            "LING 120B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -440,7 +469,7 @@
       "number": "165B",
       "title": "Syntax II",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 120B.",
       "prereqs_parsed": {
         "required": [
@@ -486,8 +515,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LING 119B",
-          "LING 120B"
+          [
+            "LING 119B"
+          ],
+          [
+            "LING 120B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -500,10 +533,21 @@
       "number": "185A",
       "title": "Computational Linguistics I",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 120B, Program in Computing 10C (or Computer Science 32).",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 120B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PROGRAM IN COMPUTING 10C",
+            "COM SCI 32"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "LING 185B"
@@ -534,7 +578,7 @@
       "number": "198A",
       "title": "Honors Research in Linguistics I",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive… For more content click the Read More button below.",
       "prereqs_raw": "Requisite or corequisite: course 165A (or 200A) or 165B (or 200B).",
       "prereqs_parsed": {
         "required": [],
@@ -628,7 +672,7 @@
       "number": "200B",
       "title": "Syntactic Theory I",
       "units": 4.0,
-      "description": "Lecture, four hours. Preparation: graduate linguistics student or grade of A in course 120B or equivalent course in syntax. In-depth introduction to selected topics in theory of constituent structure and syntax of predicates, arguments, and grammatical relations. Topics include levels of representation, X-bar theory, case theory, thematic roles, the lexicon,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: graduate linguistics student or grade of A in course 120B or equivalent course in syntax. In-depth introduction to selected topics in theory of constituent structure and syntax of predicates, arguments, and grammatical relations. Topics include levels of representation, X-bar theory, case theory, thematic roles, the lexicon,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -656,14 +700,18 @@
       "number": "C104",
       "title": "Experimental Phonetics",
       "units": 5.0,
-      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102 or 103.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LING 102",
-          "LING 103"
+          [
+            "LING 102"
+          ],
+          [
+            "LING 103"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -724,7 +772,7 @@
       "number": "100A",
       "title": "Psychological Statistics",
       "units": 4.0,
-      "description": "Lecture, four hours. Requisites: course 10 with a grade of C or better, and one course from Mathematics 2, Program in Computing 10A, Statistics 10, or one term of calculus. Designed for premajors. Basic statistical procedures and their application to research and practice in various areas of psychology. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Requisites: course 10 with a grade of C or better, and one course from Mathematics 2, Program in Computing 10A, Statistics 10, or one term of calculus. Designed for premajors. Basic statistical procedures and their application to research and practice in various areas of psychology. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 10 with a grade of C or better, and one course from Mathematics 2, Program in Computing 10A, Statistics 10, or one term of calculus.",
       "prereqs_parsed": {
         "required": [

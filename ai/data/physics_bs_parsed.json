@@ -164,7 +164,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -183,7 +183,7 @@
       "number": "30",
       "title": "Principles and Practices of Computing",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Designed for students in computer science and related majors who do not have prior programming experience. Precursor course to introductory computer science sequence (courses 31, 32, 33). Teaches students how to use computers as tool for problem solving, creativity, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Designed for students in computer science and related majors who do not have prior programming experience. Precursor course to introductory computer science sequence (courses 31, 32, 33). Teaches students how to use computers as tool for problem solving, creativity, and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -196,7 +196,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -291,8 +291,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -318,8 +318,8 @@
       "number": "31AL",
       "title": "Differential and Integral Calculus Laboratory",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Not open for credit to students with credit… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -339,8 +339,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -366,8 +366,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -394,8 +394,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -426,8 +426,8 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -459,8 +459,8 @@
       "number": "33B",
       "title": "Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C– or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B"
@@ -490,7 +490,15 @@
       "description": "Lecture, three hours; discussion, one hour. Requisite: course 32. Corequisite: Mathematics 33B. Newtonian mechanics and conservation laws, gravitational potentials, calculus of variations, Lagrangian and Hamiltonian mechanics, central force motion, linear and nonlinear oscillations. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 32. Corequisite: Mathematics 33B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PHYSICS 32"
+        ],
+        "corequisites": [
+          "MATH 33B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "PHYSICS 114",
@@ -507,7 +515,13 @@
       "description": "Lecture, three hours; discussion, one hour. Requisite: course 105A. Conserved quantities, collisions and scattering, special relativity, non-inertial reference frames, rigid bodies, coupled oscillators, and normal modes. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 105A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PHYSICS 105A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "PHYSICS 110B",
@@ -522,7 +536,7 @@
       "number": "108",
       "title": "Optical Physics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 110B. Interaction of light with matter; dispersion theory, oscillator strength, line widths, molecular scattering. Coherence theory, Kirchhoff formulation of diffraction theory, crystal optics, optical rotation, electro and magneto optical effects. Additional topics of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 110B. Interaction of light with matter; dispersion theory, oscillator strength, line widths, molecular scattering. Coherence theory, Kirchhoff formulation of diffraction theory, crystal optics, optical rotation, electro and magneto optical effects. Additional topics of… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 110B.",
       "prereqs_parsed": {
         "required": [
@@ -575,7 +589,7 @@
       "number": "110B",
       "title": "Electricity and Magnetism",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 110A. Corequisite: course 105B. Maxwell\u2019s equations, electromagnetic waves, potential and fields, radiation, Lorentz invariance. P/NP or letter grading.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 110A. Corequisite: course 105B. Maxwell’s equations, electromagnetic waves, potential and fields, radiation, Lorentz invariance. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 110A. Corequisite: course 105B.",
       "prereqs_parsed": {
         "required": [
@@ -626,7 +640,7 @@
       "number": "114",
       "title": "Mechanics of Wave Motion and Sound",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 105A, 105B, Mathematics 32B, 33A, 33B. Vibrating systems and wave propagation in gases, liquids, and solids, including elements of hydrodynamics and elasticity. Applications in ultrasonics, low-temperature physics, solid-state physics, architectural acoustics. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 105A, 105B, Mathematics 32B, 33A, 33B. Vibrating systems and wave propagation in gases, liquids, and solids, including elements of hydrodynamics and elasticity. Applications in ultrasonics, low-temperature physics, solid-state physics, architectural acoustics. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 105A, 105B, Mathematics 32B, 33A, 33B.",
       "prereqs_parsed": {
         "required": [
@@ -658,10 +672,18 @@
       "number": "115A",
       "title": "Quantum Mechanics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 17, 32, 105A. Classical background. Basic ideas of quantum nature of light, wave-particle duality, Heisenberg uncertainty principle, Schr\u00f6dinger equation. One-dimensional square well and harmonic oscillator problems. One-dimensional scattering, Formal theory, Hilbert spaces, and Dirac notation. P/NP or letter grading.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 17, 32, 105A. Classical background. Basic ideas of quantum nature of light, wave-particle duality, Heisenberg uncertainty principle, Schrödinger equation. One-dimensional square well and harmonic oscillator problems. One-dimensional scattering, Formal theory, Hilbert spaces, and Dirac notation. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 17, 32, 105A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PHYSICS 17",
+          "PHYSICS 32",
+          "PHYSICS 105A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "PHYSICS 112",
@@ -704,7 +726,7 @@
       "number": "115C",
       "title": "Quantum Mechanics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 115B. Time-independent perturbation theory, application to atomic spectra. Time-dependent perturbation theory. Fermi\u2019s golden rule. Scattering. Wentzel-Kramers-Brillouin (WKB) approximation. P/NP or letter grading.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 115B. Time-independent perturbation theory, application to atomic spectra. Time-dependent perturbation theory. Fermi’s golden rule. Scattering. Wentzel-Kramers-Brillouin (WKB) approximation. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 115B.",
       "prereqs_parsed": {
         "required": [
@@ -761,7 +783,26 @@
       "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B. Corequisite: course 115C. Nuclear properties, nuclear forces, nuclear structure, nuclear decays, and nuclear reactions. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B. Corequisite: course 115C.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "PHYSICS 1C",
+          "MATH 32B",
+          "MATH 33A",
+          "MATH 33B"
+        ],
+        "corequisites": [
+          "PHYSICS 115C"
+        ],
+        "one_of": [
+          [
+            "PHYSICS 1AH",
+            "PHYSICS 1BH",
+            "PHYSICS 1CH"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -771,7 +812,7 @@
       "number": "126",
       "title": "Elementary Particle Physics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B. Corequisite: course 115C. Introduction to physics of elementary particles. The four basic interactions: strong, electromagnetic, weak, and gravitational. Properties of baryons, mesons, quarks, and leptons; conservation laws, symmetries and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B. Corequisite: course 115C. Introduction to physics of elementary particles. The four basic interactions: strong, electromagnetic, weak, and gravitational. Properties of baryons, mesons, quarks, and leptons; conservation laws, symmetries and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B. Corequisite: course 115C.",
       "prereqs_parsed": {
         "required": [
@@ -805,7 +846,7 @@
       "number": "127",
       "title": "General Relativity",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32, 105B, 110A, 110B. Recommended: courses 115A, 115B, 115C. Introduction to general relativity. Principle of equivalence and curved spacetime, local inertial frames, vectors and three-dimensional surfaces in curved spacetime. Schwarzchild metric, perihelion precession, bending of light by sun, and gravitational redshift. Star-system\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32, 105B, 110A, 110B. Recommended: courses 115A, 115B, 115C. Introduction to general relativity. Principle of equivalence and curved spacetime, local inertial frames, vectors and three-dimensional surfaces in curved spacetime. Schwarzchild metric, perihelion precession, bending of light by sun, and gravitational redshift. Star-system… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 32, 105B, 110A, 110B.",
       "prereqs_parsed": {
         "required": [
@@ -827,7 +868,7 @@
       "number": "128",
       "title": "Cosmology and Particle Astrophysics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 115A, 115B, 126. Introduction to cosmology and high-energy particle astrophysics, based on latest developments of both experiment and theory. Special emphasis on unified picture of universe that emerges from particle physics, astronomy, and cosmology. Extensive discussion of unsolved problems and future prospects\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 115A, 115B, 126. Introduction to cosmology and high-energy particle astrophysics, based on latest developments of both experiment and theory. Special emphasis on unified picture of universe that emerges from particle physics, astronomy, and cosmology. Extensive discussion of unsolved problems and future prospects… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 115A, 115B, 126.",
       "prereqs_parsed": {
         "required": [
@@ -898,7 +939,7 @@
       "number": "140B",
       "title": "Quantum States of Matter",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 112, 115A. Recommended: courses 115B, 115C, 140A. Introduction to various phases of matter that exhibit quantum mechanics on a macroscopic scale. Topics may include superconductivity, superfluidity, magnetism, density waves, and the integer quantum Hall effect. Landau's phenomenological theory of symmetry-breaking phase\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 112, 115A. Recommended: courses 115B, 115C, 140A. Introduction to various phases of matter that exhibit quantum mechanics on a macroscopic scale. Topics may include superconductivity, superfluidity, magnetism, density waves, and the integer quantum Hall effect. Landau's phenomenological theory of symmetry-breaking phase… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 112, 115A.",
       "prereqs_parsed": {
         "required": [
@@ -918,7 +959,7 @@
       "number": "144",
       "title": "Polymer Physics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 105A, 110A, and 112 or Chemistry 110A. How physical properties of polymers can be derived from mathematical models of chains and coils. Comparison of these models to calculations based on random walk problem and used to predict mechanical characteristics of large\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 105A, 110A, and 112 or Chemistry 110A. How physical properties of polymers can be derived from mathematical models of chains and coils. Comparison of these models to calculations based on random walk problem and used to predict mechanical characteristics of large… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 105A, 110A, and 112 or Chemistry 110A.",
       "prereqs_parsed": {
         "required": [
@@ -943,7 +984,7 @@
       "number": "150",
       "title": "Physics of Charged-Particle and Laser Beams",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 110A, 110B, 115A, 115B. Physics of charged-particle and laser beams presented as a unified subject. Basic physics of charged-particle beams, covering relativistic particle motion in electromagnetic fields, transverse focusing, acceleration mechanisms, linear and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 110A, 110B, 115A, 115B. Physics of charged-particle and laser beams presented as a unified subject. Basic physics of charged-particle beams, covering relativistic particle motion in electromagnetic fields, transverse focusing, acceleration mechanisms, linear and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), 110A, 110B, 115A, 115B.",
       "prereqs_parsed": {
         "required": [
@@ -974,7 +1015,7 @@
       "number": "17",
       "title": "Modern Physics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH). Corequisite: course 32. Photons, black-body radiation, photoelectric effect, uncertainty principle, Bohr atom, Schr\u00f6dinger equation, hydrogen atom, and selected topics in atomic, solid-state, nuclear, and particle physics. P/NP or letter grading.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH). Corequisite: course 32. Photons, black-body radiation, photoelectric effect, uncertainty principle, Bohr atom, Schrödinger equation, hydrogen atom, and selected topics in atomic, solid-state, nuclear, and particle physics. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH). Corequisite: course 32.",
       "prereqs_parsed": {
         "required": [
@@ -1003,7 +1044,7 @@
       "number": "170A",
       "title": "Electronics for Physics Measurement",
       "units": 4.0,
-      "description": "(Formerly numbered 117.) Lecture, two hours; laboratory, four hours. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B. Hands-on experimental course to develop understanding of design principles in modern electronics for physics measurements. Broad introduction to analog and digital electronics from practical viewpoint, followed\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 117.) Lecture, two hours; laboratory, four hours. Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B. Hands-on experimental course to develop understanding of design principles in modern electronics for physics measurements. Broad introduction to analog and digital electronics from practical viewpoint, followed… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C (or 1AH, 1BH, and 1CH), Mathematics 32B, 33A, 33B.",
       "prereqs_parsed": {
         "required": [
@@ -1170,7 +1211,7 @@
       "number": "1BH",
       "title": "Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields (Honors)",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Recommended corequisite: Mathematics 33A. Enriched preparation for upper-division physics courses. Same material as course 1B but in greater depth; recommended for Physics majors and other students desiring such coverage. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B. Recommended corequisite: Mathematics 33A. Enriched preparation for upper-division physics courses. Same material as course 1B but in greater depth; recommended for Physics majors and other students desiring such coverage. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: course 1AH or 1A, Mathematics 31B, 32A. Enforced corequisite: Mathematics 32B.",
       "prereqs_parsed": {
         "required": [
@@ -1207,10 +1248,21 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "PHYSICS 1A",
+          "PHYSICS 1B",
+          "MATH 32A",
+          "MATH 32B"
+        ],
+        "corequisites": [
+          "MATH 33A"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "PHYSICS 108",
@@ -1232,7 +1284,7 @@
       "number": "1CH",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity (Honors)",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Recommended corequisite: Mathematics 33B. Enriched preparation for upper-division physics courses. Same material as course 1C but in greater depth; recommended for Physics majors and other students desiring such\u2026 For more content click the Read More button below.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Recommended corequisite: Mathematics 33B. Enriched preparation for upper-division physics courses. Same material as course 1C but in greater depth; recommended for Physics majors and other students desiring such… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1AH or 1A, 1BH or 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1371,7 +1423,7 @@
       "number": "4BL",
       "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
       "prereqs_parsed": {
         "required": [],
@@ -1400,7 +1452,7 @@
       "number": "C186",
       "title": "Neurophysics: Brain-Mind Problem",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A. How does mind emerge from brain? Provides summary of basic biophysics of neurons, synapses, and plasticity. Introduction to commonly\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A. How does mind emerge from brain? Provides summary of basic biophysics of neurons, synapses, and plasticity. Introduction to commonly… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 1A, 1B, and 1C, or 5A, 5B, and 5C, or 6A, 6B, and 6C, Chemistry 14A or 20A, Mathematics 3A, 3B, 3C, 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1442,7 +1494,7 @@
       "number": "C187A",
       "title": "Biological Physics I: Life at Rest",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisites: courses 105A, 110A, 115A, Chemistry 110A, Molecular, Cell, and Developmental Biology 100 (or M140 or 165A). Equilibrium phenomena. Application of basic mechanics, optics, and thermodynamics to biological design: structure of skeleton, scaling of bone and muscle mass, swim bladders, and animal vision. Application of elementary\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisites: courses 105A, 110A, 115A, Chemistry 110A, Molecular, Cell, and Developmental Biology 100 (or M140 or 165A). Equilibrium phenomena. Application of basic mechanics, optics, and thermodynamics to biological design: structure of skeleton, scaling of bone and muscle mass, swim bladders, and animal vision. Application of elementary… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 105A, 110A, 115A, Chemistry 110A, Molecular, Cell, and Developmental Biology 100 (or M140 or 165A).",
       "prereqs_parsed": {
         "required": [
@@ -1470,14 +1522,18 @@
       "number": "M122",
       "title": "Introduction to Plasma Science and Engineering",
       "units": 4.0,
-      "description": "(Same as Earth, Planetary, and Space Sciences M156 and Electrical and Computer Engineering M185.) Lecture, three hours; discussion, one hour; outside study, eight hours. Requisite: course 110B or Electrical and Computer Engineering 101A. Senior-level introductory course on electrodynamics of charged particles and their collective behavior in plasmas in laboratory, near-Earth\u2026 For more content click the Read More button below.",
+      "description": "(Same as Earth, Planetary, and Space Sciences M156 and Electrical and Computer Engineering M185.) Lecture, three hours; discussion, one hour; outside study, eight hours. Requisite: course 110B or Electrical and Computer Engineering 101A. Senior-level introductory course on electrodynamics of charged particles and their collective behavior in plasmas in laboratory, near-Earth… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 110B or Electrical and Computer Engineering 101A.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "PHYSICS 110B",
-          "E&C ENG 101A"
+          [
+            "PHYSICS 110B"
+          ],
+          [
+            "E&C ENG 101A"
+          ]
         ],
         "min_grade": null,
         "recommended": []

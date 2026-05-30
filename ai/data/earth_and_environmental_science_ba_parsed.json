@@ -274,7 +274,7 @@
       "number": "M20",
       "title": "Introduction to Computer Programming with MATLAB",
       "units": 4.0,
-      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient\u2026 For more content click the Read More button below.",
+      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -293,7 +293,7 @@
       "number": "14A",
       "title": "General Chemistry for Life Scientists I",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test. Not… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Life Sciences 30A or Mathematics 3A or 31A or score of 48 or better on Mathematics Diagnostic Test.",
       "prereqs_parsed": {
         "required": [],
@@ -317,8 +317,8 @@
       "number": "14B",
       "title": "General Chemistry for Life Scientists II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better. Not open to students with credit for course 14BE, 20B,\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C\u2013 or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better. Not open to students with credit for course 14BE, 20B,… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: one course from 14A, 14AE, 20A, or 20AH with grade of C– or better. Enforced requisite or corequisite: Life Sciences 30B or Mathematics 3B or 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -357,8 +357,8 @@
       "number": "14BL",
       "title": "General and Organic Chemistry Laboratory I",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C\u2013 or better. Enforced corequisite: course 14B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A or 20AH with grade of C– or better. Enforced corequisite: course 14B. Not open to students with credit for course 20L. Introduction to volumetric, spectrophotometric, and potentiometric analysis. Use and preparation of buffers and pH meters. Synthesis and… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A or 20AH with grade of C– or better. Enforced corequisite: course 14B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [
@@ -382,7 +382,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [
@@ -406,10 +406,29 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -419,8 +438,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [
@@ -452,7 +471,7 @@
       "number": "70A",
       "title": "Evolution of Cosmos and Life",
       "units": 6.0,
-      "description": "Lecture, three hours; discussion, two hours. Course 70A is enforced requisite to 70B, which is enforced requisite to 70CW or 70DW. Limited to first-year freshmen. Use of concept of evolution, as it applies to biological organisms, Earth, solar system, and universe itself, to introduce students to both life and physical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours. Course 70A is enforced requisite to 70B, which is enforced requisite to 70CW or 70DW. Limited to first-year freshmen. Use of concept of evolution, as it applies to biological organisms, Earth, solar system, and universe itself, to introduce students to both life and physical… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -465,7 +484,7 @@
       "number": "1",
       "title": "Introduction to Earth Science",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours; field days. Not open to students with credit for or currently enrolled in course 100. Elements of Earth science; study of Earth materials; nature and interpretation of geologic evidence; study of geologic processes; historical aspects of geology. Mandatory field trips introduce students to solving\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, two hours; field days. Not open to students with credit for or currently enrolled in course 100. Elements of Earth science; study of Earth materials; nature and interpretation of geologic evidence; study of geologic processes; historical aspects of geology. Mandatory field trips introduce students to solving… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -478,7 +497,7 @@
       "number": "103A",
       "title": "Igneous Petrology",
       "units": 5.0,
-      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: Chemistry 14B and 14BL, or 20B and 20L. Mineralogy, chemical composition, and field occurrence of igneous rocks with reference to their origin by melting in earth. Introduction to thermodynamics as applied to petrology. Formation of magma,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: Chemistry 14B and 14BL, or 20B and 20L. Mineralogy, chemical composition, and field occurrence of igneous rocks with reference to their origin by melting in earth. Introduction to thermodynamics as applied to petrology. Formation of magma,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 51.",
       "prereqs_parsed": {
         "required": [
@@ -497,10 +516,16 @@
       "number": "103B",
       "title": "Sedimentary Petrology",
       "units": 5.0,
-      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: course 61. Study of sedimentary rocks based on characteristics of sedimentary particles and dynamics of depositional processes. Lectures focus on development of depositional facies models, and laboratories emphasize recognition of sedimentary deposits from each major depositional\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two to three hours; laboratory, six hours; field trips. Requisite: course 51. Recommended: course 61. Study of sedimentary rocks based on characteristics of sedimentary particles and dynamics of depositional processes. Lectures focus on development of depositional facies models, and laboratories emphasize recognition of sedimentary deposits from each major depositional… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 51.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "EPS SCI 51"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -513,7 +538,13 @@
       "description": "Lecture, two hours; laboratory, three hours; fieldwork, eight hours per week. Requisite: course 61. Recommended: 112. Principles of stratigraphy; geologic mapping of selected area; preparation of geologic report. Letter grading.",
       "prereqs_raw": "Requisite: course 61.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "EPS SCI 61"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -549,7 +580,7 @@
       "number": "51",
       "title": "Mineralogy: Earth and Planetary Materials",
       "units": 4.0,
-      "description": "Lecture, three hours; laboratory, four hours. Recommended requisite: course 1, or any course from 3 through 17, 20, or Clusters 70A, and completion of chemistry requirement. Principles of mineralogy. Mineral structure and bonding and crystal chemistry, with focus on materials of interest for Earth and planetary sciences and major rock-forming\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, four hours. Recommended requisite: course 1, or any course from 3 through 17, 20, or Clusters 70A, and completion of chemistry requirement. Principles of mineralogy. Mineral structure and bonding and crystal chemistry, with focus on materials of interest for Earth and planetary sciences and major rock-forming… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -564,7 +595,7 @@
       "number": "61",
       "title": "Geologic Maps",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, three hours; five field days. Recommended: course 1 (or any course from 3 through 17, 20, or Clusters 70A). Planning, creation, and interpretation of geologic maps, including both practical and philosophical problems that arise. Topographic and geologic mapping in the field. Interpretation of published maps in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, three hours; five field days. Recommended: course 1 (or any course from 3 through 17, 20, or Clusters 70A). Planning, creation, and interpretation of geologic maps, including both practical and philosophical problems that arise. Topographic and geologic mapping in the field. Interpretation of published maps in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -590,10 +621,16 @@
       "number": "101",
       "title": "Principles of Geomorphology",
       "units": 4.0,
-      "description": "(Formerly numbered 100.) Lecture, three hours; reading period, one hour. Requisite: course 1. Study of processes that shape world\u2019s landforms, with emphasis on weathering, mass movement and fluvial erosion, transport, deposition; energy and material transfers; space and time considerations. P/NP or letter grading.",
+      "description": "(Formerly numbered 100.) Lecture, three hours; reading period, one hour. Requisite: course 1. Study of processes that shape world’s landforms, with emphasis on weathering, mass movement and fluvial erosion, transport, deposition; energy and material transfers; space and time considerations. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 1.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "GEOG 1"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -642,7 +679,7 @@
       "number": "M102",
       "title": "Soils and Environment",
       "units": 4.0,
-      "description": "(Formerly numbered M127.) (Same as Ecology and Evolutionary Biology M127 and Environment M102.) Lecture, three hours; discussion, one hour; field trips. General treatment of soils and environmental implications: soil development, morphology, and worldwide distribution of soil orders; physical, chemical, hydrologic, and biological properties; water use, erosion, and pollution; management of\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered M127.) (Same as Ecology and Evolutionary Biology M127 and Environment M102.) Lecture, three hours; discussion, one hour; field trips. General treatment of soils and environmental implications: soil development, morphology, and worldwide distribution of soil orders; physical, chemical, hydrologic, and biological properties; water use, erosion, and pollution; management of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -655,10 +692,21 @@
       "number": "M103",
       "title": "Soil and Water Conservation",
       "units": 4.0,
-      "description": "(Formerly numbered M107.) (Same as Environment M103.) Lecture, three hours; discussion, one hour. Enforced requisite: one course from course 1, 2, Environment 10, Life Sciences 7B. Designed for juniors/seniors. Systematic study of processes of and hazards posed by erosion, sedimentation, development, and pollution and techniques needed to conserve soil and\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered M107.) (Same as Environment M103.) Lecture, three hours; discussion, one hour. Enforced requisite: one course from course 1, 2, Environment 10, Life Sciences 7B. Designed for juniors/seniors. Systematic study of processes of and hazards posed by erosion, sedimentation, development, and pollution and techniques needed to conserve soil and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: one course from course 1, 2, Environment 10, Life Sciences 7B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "GEOG 1",
+            "GEOG 2",
+            "GEOG 10",
+            "LIFE SCI 7B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -668,7 +716,7 @@
       "number": "M126",
       "title": "Environmental Change",
       "units": 4.0,
-      "description": "(Formerly numbered M131.) (Same as Environment M126.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of natural forces producing environmental changes over past two million years. How present landscape reflects past conditions. Effects of environmental change on people. Increasing importance of human activity in environmental modification. Focus\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered M131.) (Same as Environment M126.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of natural forces producing environmental changes over past two million years. How present landscape reflects past conditions. Effects of environmental change on people. Increasing importance of human activity in environmental modification. Focus… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -681,7 +729,7 @@
       "number": "M131",
       "title": "Human Impact on Biophysical Environment",
       "units": 4.0,
-      "description": "(Formerly numbered M109.) (Same as Environment M131.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of history, mechanisms, and consequences of interactions between humans and environment. Exploration in depth of three thematic topics (deforestation, desertification, and greenhouse gas increase and ozone depletion) and four major subjects (soil,\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered M109.) (Same as Environment M131.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of history, mechanisms, and consequences of interactions between humans and environment. Exploration in depth of three thematic topics (deforestation, desertification, and greenhouse gas increase and ozone depletion) and four major subjects (soil,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -694,8 +742,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -720,8 +768,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -742,8 +790,8 @@
       "number": "3A",
       "title": "Calculus for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better. Not open for credit to students with credit in another\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: three and one half years of high school mathematics (including trigonometry). Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C– or better. Not open for credit to students with credit in another… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -767,8 +815,8 @@
       "number": "3B",
       "title": "Calculus for Life Sciences Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C\u2013 or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 3A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C– or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 3A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 3A"

@@ -137,7 +137,7 @@
       "number": "191",
       "title": "Capstone Seminar: Classics",
       "units": 5.0,
-      "description": "Seminar, three hours. Requisites: courses 10, 20, at least four upper-division major courses. Limited to declared junior/senior departmental majors; minors may be admitted with consent of instructor. Topical research seminar on important themes, periods, genres of ancient Greek and Roman world. Intended to provide students with opportunity for serious engagement\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Requisites: courses 10, 20, at least four upper-division major courses. Limited to declared junior/senior departmental majors; minors may be admitted with consent of instructor. Topical research seminar on important themes, periods, genres of ancient Greek and Roman world. Intended to provide students with opportunity for serious engagement… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 20, at least four upper-division major courses.",
       "prereqs_parsed": {
         "required": [
@@ -159,7 +159,7 @@
       "number": "198A",
       "title": "Honors Research in Classics",
       "units": 2.0,
-      "description": "Tutorial, six hours. Requisite: course 191. Limited to junior/senior departmental honors program students. Tutorial under direct supervision of faculty member. Research and development of thesis outline in preparation of paper to be completed in course 198B. May be repeated for credit. Individual contract required. In Progress grading (credit to be\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, six hours. Requisite: course 191. Limited to junior/senior departmental honors program students. Tutorial under direct supervision of faculty member. Research and development of thesis outline in preparation of paper to be completed in course 198B. May be repeated for credit. Individual contract required. In Progress grading (credit to be… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 191.",
       "prereqs_parsed": {
         "required": [
@@ -199,7 +199,7 @@
       "number": "20",
       "title": "Discovering Romans",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Knowledge of Latin not required. Study of Roman life and culture from time of city\u2019s legendary foundations to end of classical antiquity. Readings focus on selections from works of ancient authors in translation. Lectures illustrated with images of art, architecture, and material culture. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Latin not required. Study of Roman life and culture from time of city’s legendary foundations to end of classical antiquity. Readings focus on selections from works of ancient authors in translation. Lectures illustrated with images of art, architecture, and material culture. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -316,8 +316,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "GREEK 3",
-          "GREEK 16"
+          [
+            "GREEK 3"
+          ],
+          [
+            "GREEK 16"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -463,7 +467,7 @@
       "number": "115",
       "title": "Topics in Ancient History",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to topics in Greek and Roman history, including Roman law, ancient Greek and Roman slavery, world of Caesar Augustus, Greek democracy, and Alexander the Great. May be repeated for maximum of 16 units with topic and/or instructor change.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Introduction to topics in Greek and Roman history, including Roman law, ancient Greek and Roman slavery, world of Caesar Augustus, Greek democracy, and Alexander the Great. May be repeated for maximum of 16 units with topic and/or instructor change.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -491,7 +495,7 @@
       "number": "M112E",
       "title": "History and Monuments of Rome: Field Studies",
       "units": 4.0,
-      "description": "(Same as Classics M114B.) Fieldwork, five hours. Enforced corequisite: course M112C. Examination of history, art, and monuments of ancient Rome through daily lectures and field walks to museums and archaeological sites. Field trips outside Rome to Pompeii, Hadrian\u2019s Villa, and ancient Ostia. Reception and ruins of Roman antiquity in medieval,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Classics M114B.) Fieldwork, five hours. Enforced corequisite: course M112C. Examination of history, art, and monuments of ancient Rome through daily lectures and field walks to museums and archaeological sites. Field trips outside Rome to Pompeii, Hadrian’s Villa, and ancient Ostia. Reception and ruins of Roman antiquity in medieval,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced corequisite: course M112C.",
       "prereqs_parsed": {
         "required": [],
@@ -597,8 +601,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LATIN 3",
-          "LATIN 16"
+          [
+            "LATIN 3"
+          ],
+          [
+            "LATIN 16"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -617,8 +625,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LATIN 2",
-          "LATIN 14"
+          [
+            "LATIN 2"
+          ],
+          [
+            "LATIN 14"
+          ]
         ],
         "min_grade": null,
         "recommended": []

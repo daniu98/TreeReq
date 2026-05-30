@@ -196,7 +196,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -221,8 +221,8 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -250,8 +250,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -284,7 +284,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -302,7 +302,7 @@
       "number": "100",
       "title": "Electrical and Electronic Circuits",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Mathematics 33A, 33B or Mechanical and Aerospace Engineering 82, Physics 1C. Not open for credit to students with credit for course 110. Electrical quantities, linear circuit elements, circuit principles, signal waveforms, transient and steady state circuit behavior, semiconductor diodes\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Mathematics 33A, 33B or Mechanical and Aerospace Engineering 82, Physics 1C. Not open for credit to students with credit for course 110. Electrical quantities, linear circuit elements, circuit principles, signal waveforms, transient and steady state circuit behavior, semiconductor diodes… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 33A, 33B or Mechanical and Aerospace Engineering 82, Physics 1C.",
       "prereqs_parsed": {
         "required": [
@@ -327,7 +327,7 @@
       "number": "104",
       "title": "Science of Engineering Materials",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B.",
       "prereqs_parsed": {
         "required": [
@@ -353,8 +353,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -381,8 +381,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -406,8 +406,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -430,8 +430,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -455,10 +455,24 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 3B"
+          ],
+          [
+            "MATH 31B"
+          ],
+          [
+            "MATH 32A"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "EC ENGR 100",
@@ -489,7 +503,7 @@
       "number": "101",
       "title": "Statics and Strength of Materials",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 31A, 31B, Physics 1A. Review of vector representation of forces, resultant force and moment, equilibrium of concurrent and nonconcurrent forces. Area moments and products of inertia. Support reactions, free-body diagrams. Forces in simple models of mechanical and aerospace\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 31A, 31B, Physics 1A. Review of vector representation of forces, resultant force and moment, equilibrium of concurrent and nonconcurrent forces. Area moments and products of inertia. Support reactions, free-body diagrams. Forces in simple models of mechanical and aerospace… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 31A, 31B, Physics 1A.",
       "prereqs_parsed": {
         "required": [
@@ -573,7 +587,7 @@
       "number": "105A",
       "title": "Introduction to Engineering Thermodynamics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Chemistry 20B, Mathematics 32B. Phenomenological thermodynamics. Concepts of equilibrium, temperature, and reversibility. First law and concept of energy; second law and concept of entropy. Equations of state and thermodynamic properties. Engineering applications of these principles in analysis and design\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Chemistry 20B, Mathematics 32B. Phenomenological thermodynamics. Concepts of equilibrium, temperature, and reversibility. First law and concept of energy; second law and concept of entropy. Equations of state and thermodynamic properties. Engineering applications of these principles in analysis and design… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20B, Mathematics 32B.",
       "prereqs_parsed": {
         "required": [
@@ -630,7 +644,7 @@
       "number": "107",
       "title": "Introduction to Modeling and Analysis of Dynamic Systems",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; laboratory, two hours; outside study, five hours. Enforced requisites: courses M20 (or Computer Science 31), 82, Electrical Engineering 100. Introduction to modeling of physical systems, with examples of mechanical, fluid, thermal, and electrical systems. Description of these systems with coverage of impulse response, convolution,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; laboratory, two hours; outside study, five hours. Enforced requisites: courses M20 (or Computer Science 31), 82, Electrical Engineering 100. Introduction to modeling of physical systems, with examples of mechanical, fluid, thermal, and electrical systems. Description of these systems with coverage of impulse response, convolution,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M20 (or Computer Science 31), 82, Electrical Engineering 100.",
       "prereqs_parsed": {
         "required": [
@@ -659,7 +673,7 @@
       "number": "131A",
       "title": "Intermediate Heat Transfer",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Civil Engineering M20 or Computer Science 31), 82, 105D. Steady conduction: two-sided, two-ended, tapered, and circular fins; buried cylinders, thick fins. Transient conduction: slabs, cylinders, products. Convection: transpiration, laminar pipe flow, film condensation, boundary layers,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Civil Engineering M20 or Computer Science 31), 82, 105D. Steady conduction: two-sided, two-ended, tapered, and circular fins; buried cylinders, thick fins. Transient conduction: slabs, cylinders, products. Convection: transpiration, laminar pipe flow, film condensation, boundary layers,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M20 (or Civil Engineering M20 or Computer Science 31), 82, 105D.",
       "prereqs_parsed": {
         "required": [
@@ -706,7 +720,7 @@
       "number": "135",
       "title": "Fundamentals of Nuclear Science and Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 82, Chemistry 20A. Review of nuclear physics, radioactivity and decay, and radiation interaction with matter. Nuclear fission and fusion processes and mass defect, chain reactions, criticality, neutron diffusion and multiplication, heat transfer issues, and applications. Introduction to nuclear\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 82, Chemistry 20A. Review of nuclear physics, radioactivity and decay, and radiation interaction with matter. Nuclear fission and fusion processes and mass defect, chain reactions, criticality, neutron diffusion and multiplication, heat transfer issues, and applications. Introduction to nuclear… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 82, Chemistry 20A.",
       "prereqs_parsed": {
         "required": [
@@ -726,7 +740,7 @@
       "number": "150A",
       "title": "Intermediate Fluid Mechanics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 82, 103. Basic equations governing fluid motion. Fundamental solutions of Navier-Stokes equations. Lubrication theory. Elementary potential flow theory. Boundary layers. Turbulent flow in pipes and boundary layers. Compressible flow: normal shocks, channel flow with friction or heat\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 82, 103. Basic equations governing fluid motion. Fundamental solutions of Navier-Stokes equations. Lubrication theory. Elementary potential flow theory. Boundary layers. Turbulent flow in pipes and boundary layers. Compressible flow: normal shocks, channel flow with friction or heat… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 82, 103.",
       "prereqs_parsed": {
         "required": [
@@ -750,10 +764,17 @@
       "number": "150B",
       "title": "Aerodynamics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 103, 150A. Advanced aspects of potential flow theory. Incompressible flow around thin airfoils (lift and moment coefficients) and wings (lift, induced drag). Gas dynamics: oblique shocks, Prandtl/Meyer expansion. Linearized subsonic and supersonic flow around thin airfoils and wings.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 103, 150A. Advanced aspects of potential flow theory. Incompressible flow around thin airfoils (lift and moment coefficients) and wings (lift, induced drag). Gas dynamics: oblique shocks, Prandtl/Meyer expansion. Linearized subsonic and supersonic flow around thin airfoils and wings.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 103, 150A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MECH&AE 103",
+          "MECH&AE 150A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "MECH&AE 154S"
@@ -893,7 +914,7 @@
       "number": "157D",
       "title": "Aerospace Design Laboratory I",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Requisites: courses 105A, 150A, 157 or 157W, 171A. Limited to seniors. First in two-course aerospace engineering capstone design series. Study of aerodynamics, trajectory analysis, propulsion, computational fluid dynamics, flight control, and instrumentation. Students work in teams to begin their two-term\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Requisites: courses 105A, 150A, 157 or 157W, 171A. Limited to seniors. First in two-course aerospace engineering capstone design series. Study of aerodynamics, trajectory analysis, propulsion, computational fluid dynamics, flight control, and instrumentation. Students work in teams to begin their two-term… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 105A, 150A, 157 or 157W, 171A.",
       "prereqs_parsed": {
         "required": [
@@ -903,8 +924,12 @@
         ],
         "corequisites": [],
         "one_of": [
-          "MECH&AE 157",
-          "MECH&AE 157W"
+          [
+            "MECH&AE 157"
+          ],
+          [
+            "MECH&AE 157W"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -919,7 +944,7 @@
       "number": "157E",
       "title": "Aerospace Design Laboratory II",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Requisite: course 157D. Recommended: course 171A. Limited to seniors. Second in two-course aerospace engineering capstone design series. Student groups continue design projects started in course 157D. Students conduct hands-on design, fabrication, and testing with a focus on safety, reliability, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Requisite: course 157D. Recommended: course 171A. Limited to seniors. Second in two-course aerospace engineering capstone design series. Student groups continue design projects started in course 157D. Students conduct hands-on design, fabrication, and testing with a focus on safety, reliability, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 157D.",
       "prereqs_parsed": {
         "required": [
@@ -938,7 +963,7 @@
       "number": "157W",
       "title": "Basic Mechanical and Aerospace Engineering Laboratory with Writing",
       "units": 6.0,
-      "description": "Laboratory, eight hours; outside study, ten hours. Requisites: courses 101, 102, 103, 105A, 105D, Electrical Engineering 100. Not open for credit to students with credit for course 157. Engineering measurements and analysis in fluid mechanics, solid mechanics, thermodynamics, and heat transfer. Primary sensors, transducers, recording equipment, signal processing, and data\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, eight hours; outside study, ten hours. Requisites: courses 101, 102, 103, 105A, 105D, Electrical Engineering 100. Not open for credit to students with credit for course 157. Engineering measurements and analysis in fluid mechanics, solid mechanics, thermodynamics, and heat transfer. Primary sensors, transducers, recording equipment, signal processing, and data… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 101, 102, 103, 105A, 105D, Electrical Engineering 100.",
       "prereqs_parsed": {
         "required": [
@@ -964,10 +989,16 @@
       "number": "161A",
       "title": "Introduction to Astronautics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 102. Recommended: course 82. Spaceflight, including two-body and three-body problem, Kepler laws, and Keplerian orbits. Ground track and taxonomy of common orbits. Orbital and transfer maneuvers, patched conics, perturbation theory, low-thrust trajectories, spacecraft pointing, and spacecraft attitude\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 102. Recommended: course 82. Spaceflight, including two-body and three-body problem, Kepler laws, and Keplerian orbits. Ground track and taxonomy of common orbits. Orbital and transfer maneuvers, patched conics, perturbation theory, low-thrust trajectories, spacecraft pointing, and spacecraft attitude… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 102.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MECH&AE 102"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1011,7 +1042,7 @@
       "number": "162A",
       "title": "Introduction to Mechanisms and Mechanical Systems",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 102. Analysis and synthesis of mechanisms and mechanical systems. Kinematics, dynamics, and mechanical advantages of machinery. Displacement velocity and acceleration analyses of linkages. Fundamental law of gearing and various gear trains. Computer-aided\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 102. Analysis and synthesis of mechanisms and mechanical systems. Kinematics, dynamics, and mechanical advantages of machinery. Displacement velocity and acceleration analyses of linkages. Fundamental law of gearing and various gear trains. Computer-aided… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M20 (or Computer Science 31), 102.",
       "prereqs_parsed": {
         "required": [
@@ -1036,7 +1067,7 @@
       "number": "166A",
       "title": "Analysis of Aerospace Structures",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 82, 101. Not open to students with credit for course 156A. Introduction to two-dimensional elasticity, stress-strain laws, yield and fatigue; bending of beams; torsion of beams; warping; torsion of thin-walled cross sections: shear flow, shear-lag; combined bending torsion\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 82, 101. Not open to students with credit for course 156A. Introduction to two-dimensional elasticity, stress-strain laws, yield and fatigue; bending of beams; torsion of beams; warping; torsion of thin-walled cross sections: shear flow, shear-lag; combined bending torsion… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 82, 101.",
       "prereqs_parsed": {
         "required": [
@@ -1084,10 +1115,18 @@
       "number": "169A",
       "title": "Introduction to Mechanical Vibrations",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 101, 102, 107. Fundamentals of vibration theory and applications. Free, forced, and transient vibration of one and two degrees of freedom systems, including damping. Normal modes, coupling, and normal coordinates. Vibration isolation devices, vibrations of continuous systems. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 101, 102, 107. Fundamentals of vibration theory and applications. Free, forced, and transient vibration of one and two degrees of freedom systems, including damping. Normal modes, coupling, and normal coordinates. Vibration isolation devices, vibrations of continuous systems. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 101, 102, 107.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MECH&AE 101",
+          "MECH&AE 102",
+          "MECH&AE 107"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1097,7 +1136,7 @@
       "number": "171A",
       "title": "Introduction to Feedback and Control Systems: Dynamic Systems Control I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 107. Introduction to feedback principles, control systems design, and system stability. Modeling of physical systems in engineering and other fields; transform methods; controller design using Nyquist, Bode, and root locus methods; compensation; computer-aided analysis and design. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 107. Introduction to feedback principles, control systems design, and system stability. Modeling of physical systems in engineering and other fields; transform methods; controller design using Nyquist, Bode, and root locus methods; compensation; computer-aided analysis and design. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 107.",
       "prereqs_parsed": {
         "required": [
@@ -1120,7 +1159,7 @@
       "number": "172",
       "title": "Control System Design Laboratory",
       "units": 4.0,
-      "description": "Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 171A. Introduction to loop shaping controller design with application to laboratory electromechanical systems. Power spectrum models of noise and disturbances, and performance trade-offs imposed by conflicting requirements. Constraints on sensitivity function and complementary sensitivity function imposed by\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 171A. Introduction to loop shaping controller design with application to laboratory electromechanical systems. Power spectrum models of noise and disturbances, and performance trade-offs imposed by conflicting requirements. Constraints on sensitivity function and complementary sensitivity function imposed by… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 171A.",
       "prereqs_parsed": {
         "required": [
@@ -1142,7 +1181,13 @@
       "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Mathematics 33A. Introduction to probability theory; random variables, distributions, functions of random variables, models of failure of components, reliability, redundancy, complex systems, stress-strength models, fault tree analysis, statistical quality control by variables and by attributes, acceptance sampling. Letter grading.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 33A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1171,7 +1216,7 @@
       "number": "182B",
       "title": "Mathematics of Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 82. Analytical methods for solving partial differential equations arising in engineering. Separation of variables, eigenvalue problems, Sturm/Liouville theory. Development and use of special functions. Representation by means of orthonormal functions; Galerkin method. Use of Green\u2019s function and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 82. Analytical methods for solving partial differential equations arising in engineering. Separation of variables, eigenvalue problems, Sturm/Liouville theory. Development and use of special functions. Representation by means of orthonormal functions; Galerkin method. Use of Green’s function and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 82.",
       "prereqs_parsed": {
         "required": [
@@ -1190,7 +1235,7 @@
       "number": "182C",
       "title": "Numerical Methods for Engineering Applications",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses M20 (or Civil Engineering M20 or Computer Science 31), 82. Basic topics from numerical analysis having wide application in solution of practical engineering problems, computer arithmetic, and errors. Solution of linear and nonlinear systems. Algebraic eigenvalue problem.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses M20 (or Civil Engineering M20 or Computer Science 31), 82. Basic topics from numerical analysis having wide application in solution of practical engineering problems, computer arithmetic, and errors. Solution of linear and nonlinear systems. Algebraic eigenvalue problem.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M20 (or Civil Engineering M20 or Computer Science 31), 82.",
       "prereqs_parsed": {
         "required": [
@@ -1236,10 +1281,24 @@
       "number": "185",
       "title": "Introduction to Radio Frequency Identification and Its Application in Manufacturing and Supply Chain",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course M20 or Civil Engineering M20 or Computer Science 31. Manufacturing today requires assembling of individual components into assembled products, shipping of such products, and eventually use, maintenance, and recycling of such products. Radio frequency identification (RFID) chips\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course M20 or Civil Engineering M20 or Computer Science 31. Manufacturing today requires assembling of individual components into assembled products, shipping of such products, and eventually use, maintenance, and recycling of such products. Radio frequency identification (RFID) chips… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course M20 or Civil Engineering M20 or Computer Science 31.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MECH&AE M20"
+          ],
+          [
+            "CIV ENG M20"
+          ],
+          [
+            "COM SCI 31"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1249,7 +1308,7 @@
       "number": "20P",
       "title": "Introduction to Computer Programming with Python",
       "units": 4.0,
-      "description": "Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in the context of Python. Topics include basic data types and control structures, input/output, functions, data visualization, and list- and array-based data structures. Introduction to object-oriented programming. Basic algorithms\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in the context of Python. Topics include basic data types and control structures, input/output, functions, data visualization, and list- and array-based data structures. Introduction to object-oriented programming. Basic algorithms… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1268,7 +1327,7 @@
       "number": "82",
       "title": "Mathematics of Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Mathematics 33A. Recommended requisite: course M20. Methods of solving ordinary differential equations in engineering. Review of matrix algebra, eigenvalues, and eigenvectors. Solution of systems of first-order ordinary differential equations using matrix methods. Introduction to Laplace transforms and their application\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Mathematics 33A. Recommended requisite: course M20. Methods of solving ordinary differential equations in engineering. Review of matrix algebra, eigenvalues, and eigenvectors. Solution of systems of first-order ordinary differential equations using matrix methods. Introduction to Laplace transforms and their application… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1311,7 +1370,7 @@
       "number": "C131G",
       "title": "Microscopic Energy Transport",
       "units": 4.0,
-      "description": "Lecture, four hours; outside study, eight hours. Requisite: course 105D. Exploration of basic principles of transportation of energy in natural and fabricated structures by three carriers: electrons, phonons, and molecules. Study of statistical properties of heat carriers, common Landauer framework for heat flow, scattering and propagation of heat carriers, derivation\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; outside study, eight hours. Requisite: course 105D. Exploration of basic principles of transportation of energy in natural and fabricated structures by three carriers: electrons, phonons, and molecules. Study of statistical properties of heat carriers, common Landauer framework for heat flow, scattering and propagation of heat carriers, derivation… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 105D.",
       "prereqs_parsed": {
         "required": [
@@ -1343,10 +1402,18 @@
       "number": "C136",
       "title": "Energy and Environment",
       "units": 4.0,
-      "description": "(Formerly numbered 136.) Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 105A or equivalent. Global energy use and supply, electrical power generation, fossil fuel and nuclear power plants, renewable energy such as hydropower, biomass, geothermal, solar, wind, and ocean, fuel cells, transportation, energy conservation, air\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 136.) Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 105A or equivalent. Global energy use and supply, electrical power generation, fossil fuel and nuclear power plants, renewable energy such as hydropower, biomass, geothermal, solar, wind, and ocean, fuel cells, transportation, energy conservation, air… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 105A or equivalent.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MECH&AE 105A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1356,7 +1423,7 @@
       "number": "C137",
       "title": "Design and Analysis of Smart Grids",
       "units": 4.0,
-      "description": "Lecture, four hours; outside study, eight hours. Demand response; transactive/price-based load control; home-area network, smart energy profile; advanced metering infrastructure; renewable energy integration; solar and wind generation intermittency and correction; microgrids; grid stability; energy storage and electric vehicles-simulation; monitoring; distribution and transmission grids; consumer-centric technologies; sensors, communications, and computing; wireless,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; outside study, eight hours. Demand response; transactive/price-based load control; home-area network, smart energy profile; advanced metering infrastructure; renewable energy integration; solar and wind generation intermittency and correction; microgrids; grid stability; energy storage and electric vehicles-simulation; monitoring; distribution and transmission grids; consumer-centric technologies; sensors, communications, and computing; wireless,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1369,7 +1436,7 @@
       "number": "C138",
       "title": "Introduction to Statistical Thermodynamics",
       "units": 4.0,
-      "description": "Lecture, four hours; outside study, eight hours. Requisites: courses 105A, 105D. Introduction to basic concepts and tools of statistical thermodynamics. Abstract concepts of entropy, temperature, and chemical potential are explained by developing these concepts from ground up using only mechanical and statistical principles. Discussion of equilibrium properties of thermodynamic systems\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; outside study, eight hours. Requisites: courses 105A, 105D. Introduction to basic concepts and tools of statistical thermodynamics. Abstract concepts of entropy, temperature, and chemical potential are explained by developing these concepts from ground up using only mechanical and statistical principles. Discussion of equilibrium properties of thermodynamic systems… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 105A, 105D.",
       "prereqs_parsed": {
         "required": [
@@ -1428,7 +1495,7 @@
       "number": "C150R",
       "title": "Rocket Propulsion Systems",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 103, 105A. Rocket propulsion concepts, including chemical rockets (liquid, gas, and solid propellants), hybrid rocket engines, electric (ion, plasma) rockets, nuclear rockets, and solar-powered vehicles. Current issues in launch vehicle technologies. Concurrently scheduled with course C250R. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 103, 105A. Rocket propulsion concepts, including chemical rockets (liquid, gas, and solid propellants), hybrid rocket engines, electric (ion, plasma) rockets, nuclear rockets, and solar-powered vehicles. Current issues in launch vehicle technologies. Concurrently scheduled with course C250R. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 103, 105A.",
       "prereqs_parsed": {
         "required": [
@@ -1448,14 +1515,18 @@
       "number": "C156B",
       "title": "Mechanical Design for Power Transmission",
       "units": 4.0,
-      "description": "Lecture, four hours; outside study, eight hours. Requisite: course 156A or 166A. Material selection in mechanical design. Load and stress analysis. Deflection and stiffness. Failure due to static loading. Fatigue failure. Design for safety factors and reliability. Applications of failure prevention in design of power transmission shafting. Design project involving\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; outside study, eight hours. Requisite: course 156A or 166A. Material selection in mechanical design. Load and stress analysis. Deflection and stiffness. Failure due to static loading. Fatigue failure. Design for safety factors and reliability. Applications of failure prevention in design of power transmission shafting. Design project involving… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 156A or 166A.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "MECH&AE 156A",
-          "MECH&AE 166A"
+          [
+            "MECH&AE 156A"
+          ],
+          [
+            "MECH&AE 166A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1468,7 +1539,7 @@
       "number": "C162B",
       "title": "Compliant Mechanism Design",
       "units": 4.0,
-      "description": "Lecture, four hours; outside study, eight hours. Requisite: linear algebra. Advanced compliant mechanism synthesis approaches, modeling techniques, and optimization tools. Fundamentals of flexible constraint theory, principles of constraint-based design, projective geometry, screw theory kinematics, and freedom and constraint topologies. Applications: precision motion stages, general purpose flexure bearings, microstructural architectures, MEMs,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; outside study, eight hours. Requisite: linear algebra. Advanced compliant mechanism synthesis approaches, modeling techniques, and optimization tools. Fundamentals of flexible constraint theory, principles of constraint-based design, projective geometry, screw theory kinematics, and freedom and constraint topologies. Applications: precision motion stages, general purpose flexure bearings, microstructural architectures, MEMs,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: linear algebra.",
       "prereqs_parsed": {
         "required": [],
@@ -1485,7 +1556,7 @@
       "number": "C163A",
       "title": "Kinematics of Robotic Systems",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisites: courses 155, 171A. Kinematical models of serial robotic manipulators, including spatial descriptions and transformations (Euler angles, Denavit-Hartenberg/DH parameters, equivalent angle vector), frame assignment procedure, direct kinematics, inverse kinematics (geometric and algebraic approaches), mechanical design topics. Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisites: courses 155, 171A. Kinematical models of serial robotic manipulators, including spatial descriptions and transformations (Euler angles, Denavit-Hartenberg/DH parameters, equivalent angle vector), frame assignment procedure, direct kinematics, inverse kinematics (geometric and algebraic approaches), mechanical design topics. Concurrently scheduled with… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1500,7 +1571,7 @@
       "number": "C163B",
       "title": "Dynamics of Robotic Systems",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course C163A. Dynamics models of serial and parallel robotic manipulators, including review of spatial descriptions and transformations along with direct and inverse kinematics, linear and angular velocities, Jacobian matrix (velocity and force), velocity propagation method, force propagation method,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course C163A. Dynamics models of serial and parallel robotic manipulators, including review of spatial descriptions and transformations along with direct and inverse kinematics, linear and angular velocities, Jacobian matrix (velocity and force), velocity propagation method, force propagation method,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course C163A.",
       "prereqs_parsed": {
         "required": [
@@ -1521,7 +1592,7 @@
       "number": "C163C",
       "title": "Control of Robotic Systems",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course C163B. Sensors, actuators, and control schemes for robotic systems, including computed torque control, linear feedback control, impedance and force feedback control, and advanced control topics from nonlinear and adaptive control, hybrid control, nonholonomic systems, vision-based control, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course C163B. Sensors, actuators, and control schemes for robotic systems, including computed torque control, linear feedback control, impedance and force feedback control, and advanced control topics from nonlinear and adaptive control, hybrid control, nonholonomic systems, vision-based control, and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course C163B.",
       "prereqs_parsed": {
         "required": [
@@ -1540,7 +1611,7 @@
       "number": "C171B",
       "title": "Digital Control and Learning of Physical Systems",
       "units": 4.0,
-      "description": "(Formerly numbered 171B.) Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 171A or Electrical and Computer Engineering 141. Topics include Z-transforms, digital control system analysis, discrete-time system modeling of continuous-time systems, model-based pole placement methods (root locus, state feedback, full-order state observer feedback), data-based adaptive\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 171B.) Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 171A or Electrical and Computer Engineering 141. Topics include Z-transforms, digital control system analysis, discrete-time system modeling of continuous-time systems, model-based pole placement methods (root locus, state feedback, full-order state observer feedback), data-based adaptive… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 171A or Electrical and Computer Engineering 141.",
       "prereqs_parsed": {
         "required": [],
@@ -1582,7 +1653,7 @@
       "number": "C183C",
       "title": "Rapid Prototyping and Manufacturing",
       "units": 4.0,
-      "description": "Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 183A. Rapid prototyping (RP), solid freeform fabrication, or additive manufacturing has emerged as popular manufacturing technology to accelerate product creation in last two decades. Machine for layered manufacturing builds parts directly from CAD models. This novel manufacturing\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, two hours; outside study, six hours. Enforced requisite: course 183A. Rapid prototyping (RP), solid freeform fabrication, or additive manufacturing has emerged as popular manufacturing technology to accelerate product creation in last two decades. Machine for layered manufacturing builds parts directly from CAD models. This novel manufacturing… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 183A.",
       "prereqs_parsed": {
         "required": [
@@ -1601,7 +1672,7 @@
       "number": "C186",
       "title": "Applied Optics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Physics 1C. Fundamental principles of optical systems. Geometric optics and aberration theory. Diffraction and interference. Fourier optics, beam optics. Propagation of light, Snell\u2019s law, and Huygen principle. Refraction and reflection. Plane waves, spherical waves, and image formation. Total internal\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Physics 1C. Fundamental principles of optical systems. Geometric optics and aberration theory. Diffraction and interference. Fourier optics, beam optics. Propagation of light, Snell’s law, and Huygen principle. Refraction and reflection. Plane waves, spherical waves, and image formation. Total internal… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Physics 1C.",
       "prereqs_parsed": {
         "required": [
@@ -1620,7 +1691,7 @@
       "number": "C187L",
       "title": "Nanoscale Fabrication, Characterization, and Biodetection Laboratory",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, three hours; outside study, seven hours. Multidisciplinary course that introduces laboratory techniques of nanoscale fabrication, characterization, and biodetection. Basic physical, chemical, and biological principles related to these techniques, top-down and bottom-up (self-assembly) nanofabrication, nanocharacterization (AEM, SEM, etc.), and optical and electrochemical biosensors. Students encouraged to create\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, three hours; outside study, seven hours. Multidisciplinary course that introduces laboratory techniques of nanoscale fabrication, characterization, and biodetection. Basic physical, chemical, and biological principles related to these techniques, top-down and bottom-up (self-assembly) nanofabrication, nanocharacterization (AEM, SEM, etc.), and optical and electrochemical biosensors. Students encouraged to create… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1633,7 +1704,7 @@
       "number": "CM140",
       "title": "Introduction to Biomechanics",
       "units": 4.0,
-      "description": "(Same as Bioengineering CM140.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 101, 102, and 156A or 166A. Introduction to mechanical functions of human body; skeletal adaptations to optimize load transfer, mobility, and function. Dynamics and kinematics. Fluid mechanics applications. Heat and mass transfer. Power generation.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Bioengineering CM140.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 101, 102, and 156A or 166A. Introduction to mechanical functions of human body; skeletal adaptations to optimize load transfer, mobility, and function. Dynamics and kinematics. Fluid mechanics applications. Heat and mass transfer. Power generation.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 101, 102, and 156A or 166A.",
       "prereqs_parsed": {
         "required": [
@@ -1642,8 +1713,12 @@
         ],
         "corequisites": [],
         "one_of": [
-          "MECH&AE 156A",
-          "MECH&AE 166A"
+          [
+            "MECH&AE 156A"
+          ],
+          [
+            "MECH&AE 166A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1656,7 +1731,7 @@
       "number": "M168",
       "title": "Introduction to Finite Element Methods",
       "units": 4.0,
-      "description": "(Same as Civil Engineering M135C.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 156A or 166A or Civil Engineering 130. Introduction to basic concepts of finite element methods (FEM) and applications to structural and solid mechanics and heat transfer. Direct matrix structural analysis; weighted residual, least\u2026 For more content click the Read More button below.",
+      "description": "(Same as Civil Engineering M135C.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 156A or 166A or Civil Engineering 130. Introduction to basic concepts of finite element methods (FEM) and applications to structural and solid mechanics and heat transfer. Direct matrix structural analysis; weighted residual, least… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 156A or 166A or Civil Engineering 130.",
       "prereqs_parsed": {
         "required": [],
@@ -1679,7 +1754,7 @@
       "number": "M183B",
       "title": "Introduction to Microscale and Nanoscale Manufacturing",
       "units": 4.0,
-      "description": "(Same as Bioengineering M153, Chemical Engineering M153, and Electrical and Computer Engineering M153.) Lecture, three hours; laboratory, four hours; outside study, five hours. Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL. Introduction to general manufacturing methods, mechanisms, constrains, and microfabrication and nanofabrication. Focus on concepts, physics, and instruments of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Bioengineering M153, Chemical Engineering M153, and Electrical and Computer Engineering M153.) Lecture, three hours; laboratory, four hours; outside study, five hours. Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL. Introduction to general manufacturing methods, mechanisms, constrains, and microfabrication and nanofabrication. Focus on concepts, physics, and instruments of… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL.",
       "prereqs_parsed": {
         "required": [
@@ -1702,7 +1777,7 @@
       "number": "M20",
       "title": "Introduction to Computer Programming with MATLAB",
       "units": 4.0,
-      "description": "(Same as Civil Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient codes. Introduction\u2026 For more content click the Read More button below.",
+      "description": "(Same as Civil Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient codes. Introduction… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1778,7 +1853,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1838,7 +1913,7 @@
       "number": "4BL",
       "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
       "prereqs_parsed": {
         "required": [],

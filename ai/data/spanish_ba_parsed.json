@@ -68,7 +68,7 @@
       "number": "198A",
       "title": "Senior Honors Research in Portuguese I",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -87,8 +87,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "SPAN 25",
-          "SPAN 27"
+          [
+            "SPAN 25"
+          ],
+          [
+            "SPAN 27"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -103,14 +107,18 @@
       "number": "120",
       "title": "Literature in Historical Context",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course 25 or 27. Introduction to different ways of looking at literary works as historical phenomena. Presentation of major models for writing history\u2014great narratives, cyclic, teleological, sacred, and profane conceptions. Traditional concepts of literary history and problems of mixed categories (historical epochs versus\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course 25 or 27. Introduction to different ways of looking at literary works as historical phenomena. Presentation of major models for writing history—great narratives, cyclic, teleological, sacred, and profane conceptions. Traditional concepts of literary history and problems of mixed categories (historical epochs versus… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 25 or 27.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "SPAN 25",
-          "SPAN 27"
+          [
+            "SPAN 25"
+          ],
+          [
+            "SPAN 27"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -145,7 +153,7 @@
       "number": "198A",
       "title": "Senior Honors Research in Spanish I",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -186,7 +194,9 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "SPAN 7B"
+          [
+            "SPAN 7B"
+          ]
         ],
         "min_grade": null,
         "recommended": []

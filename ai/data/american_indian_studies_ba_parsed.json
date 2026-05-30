@@ -193,7 +193,7 @@
       "number": "M164",
       "title": "Afro-American Experience in U.S.",
       "units": 4.0,
-      "description": "(Same as Anthropology M144Q.) Lecture, three hours. Promotes understanding of contemporary sociocultural forms among Afro-Americans in U.S. by presenting comparative and diachronic perspective on Afro-American experience in New World. Emphasis on utilization of anthropological concepts and methods in understanding origins and maintenance of particular patterns of adaptation among black Americans.\u2026 For more content click the Read More button below.",
+      "description": "(Same as Anthropology M144Q.) Lecture, three hours. Promotes understanding of contemporary sociocultural forms among Afro-Americans in U.S. by presenting comparative and diachronic perspective on Afro-American experience in New World. Emphasis on utilization of anthropological concepts and methods in understanding origins and maintenance of particular patterns of adaptation among black Americans.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -219,7 +219,7 @@
       "number": "158",
       "title": "Nation Building",
       "units": 4.0,
-      "description": "Lecture, three hours; fieldwork/research, nine hours. Limited to junior/senior American Indian Studies majors. Examination of historical interplay of federal policies with tribal cultures that has shaped political development of American Indian tribal nations. Current developments within Indian nations, including restructuring government, developing economies, and asserting cultural sovereignty to be subject\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; fieldwork/research, nine hours. Limited to junior/senior American Indian Studies majors. Examination of historical interplay of federal policies with tribal cultures that has shaped political development of American Indian tribal nations. Current developments within Indian nations, including restructuring government, developing economies, and asserting cultural sovereignty to be subject… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -232,7 +232,7 @@
       "number": "180",
       "title": "Introduction to and Practicum in Native American Languages",
       "units": 4.0,
-      "description": "Lecture, three hours; laboratory, one hour. Development of ability to converse, read, and write at elementary level in Native American languages. Introduction to both phonological and grammatical structures, vocabulary, and cultural patterns of using language as symbolic guide to culture. May be repeated with language change and approval of interdepartmental\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; laboratory, one hour. Development of ability to converse, read, and write at elementary level in Native American languages. Introduction to both phonological and grammatical structures, vocabulary, and cultural patterns of using language as symbolic guide to culture. May be repeated with language change and approval of interdepartmental… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -300,7 +300,7 @@
       "number": "199C",
       "title": "Individual Studies: Capstone Synthesis",
       "units": 4.0,
-      "description": "Tutorial, three hours. Preparation: successful completion of eight upper-division major courses. Limited to senior American Indian Studies majors. Faculty members help students relate their course-derived academic experience to their original research/service efforts involving Native American communities. Completion of research paper and presentation of student work at year-end Research Symposium required.\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, three hours. Preparation: successful completion of eight upper-division major courses. Limited to senior American Indian Studies majors. Faculty members help students relate their course-derived academic experience to their original research/service efforts involving Native American communities. Completion of research paper and presentation of student work at year-end Research Symposium required.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -341,7 +341,7 @@
       "number": "C122XP",
       "title": "Working in Tribal Communities: Community-Engaged Learning",
       "units": 4.0,
-      "description": "Seminar, one hour; fieldwork, four hours. Enforced requisite: course C121. Recommended: course C120. Participation in community service learning project within Native American communities and organizations where students are mentored and supported by faculty members, other students, and project directors toward completing assigned service learning tasks and contributing to project activities.\u2026 For more content click the Read More button below.",
+      "description": "Seminar, one hour; fieldwork, four hours. Enforced requisite: course C121. Recommended: course C120. Participation in community service learning project within Native American communities and organizations where students are mentored and supported by faculty members, other students, and project directors toward completing assigned service learning tasks and contributing to project activities.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course C121.",
       "prereqs_parsed": {
         "required": [
@@ -399,7 +399,7 @@
       "number": "C178",
       "title": "California Experiences in Native Cultural Resource Management",
       "units": 4.0,
-      "description": "Seminar, three hours. Exploration of creation and implementation of laws that affect cultural resource management in California, such as California Environmental Quality Act (CEQA), Native American Graves Protection and Repatriation Act (NAGPRA), AB 978 (California NAGPRA), American Indian Religious Freedom Act, National Environmental Policy Act (NEPA), and National Historic Preservation\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Exploration of creation and implementation of laws that affect cultural resource management in California, such as California Environmental Quality Act (CEQA), Native American Graves Protection and Repatriation Act (NAGPRA), AB 978 (California NAGPRA), American Indian Religious Freedom Act, National Environmental Policy Act (NEPA), and National Historic Preservation… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -412,7 +412,7 @@
       "number": "M10",
       "title": "Introduction to American Indian Studies",
       "units": 5.0,
-      "description": "(Same as World Arts and Cultures M23.) Lecture, three hours; discussion, one hour; activity, one hour. Survey of selected Native North American cultures from pre-Western contact to contemporary period, with particular emphasis on early cultural diversity and diverse patterns of political, linguistic, social, legal, and cultural change in postcontact period.\u2026 For more content click the Read More button below.",
+      "description": "(Same as World Arts and Cultures M23.) Lecture, three hours; discussion, one hour; activity, one hour. Survey of selected Native North American cultures from pre-Western contact to contemporary period, with particular emphasis on early cultural diversity and diverse patterns of political, linguistic, social, legal, and cultural change in postcontact period.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -433,8 +433,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "AM IND M10",
-          "SOC 1"
+          [
+            "AM IND M10"
+          ],
+          [
+            "SOC 1"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -460,7 +464,7 @@
       "number": "143",
       "title": "Economic Anthropology",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 3. Introduction to anthropological perspectives for interpretation of economic life and institutions. Economic facts to be placed in their larger social, political, and cultural contexts; examination of modes of production, distribution, and consumption of goods and services in their relation to social networks, power structures,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 3. Introduction to anthropological perspectives for interpretation of economic life and institutions. Economic facts to be placed in their larger social, political, and cultural contexts; examination of modes of production, distribution, and consumption of goods and services in their relation to social networks, power structures,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 3.",
       "prereqs_parsed": {
         "required": [
@@ -492,14 +496,18 @@
       "number": "155",
       "title": "Native American Languages and Their Speakers",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 4 or American Indian Studies M10. Introduction and comparative analysis of sociocultural aspects of language ideologies and language use in indigenous speech communities through Americas. Examination of cultural diversity of discourse practices for both everyday forms of speaking as well as special registers used in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 4 or American Indian Studies M10. Introduction and comparative analysis of sociocultural aspects of language ideologies and language use in indigenous speech communities through Americas. Examination of cultural diversity of discourse practices for both everyday forms of speaking as well as special registers used in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 4 or American Indian Studies M10.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "ANTHRO 4",
-          "AMIND ST M10"
+          [
+            "ANTHRO 4"
+          ],
+          [
+            "AMIND ST M10"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -538,7 +546,7 @@
       "number": "3",
       "title": "Culture and Society",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor\u2019s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; fieldwork. Required as preparation for both bachelor’s degrees. Introduction to study of culture and society in comparative perspective. Examples from societies around world to illustrate basic principles of formation, structure, and distribution of human institutions. Of special concern is contribution and knowledge that cultural… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -553,7 +561,7 @@
       "number": "M145Q",
       "title": "Selected Topics in Gender Systems",
       "units": 4.0,
-      "description": "(Same as Gender Studies M154Q.) Lecture, three hours. Recommended preparation: prior anthropology or gender studies courses. Designed for junior/senior social sciences majors. Comparative study of women\u2019s lives and gender systems and cultures from anthropological perspective. Critical review of relevant theoretical issues using ethnography, case study, and presentations. Consult Schedule of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M154Q.) Lecture, three hours. Recommended preparation: prior anthropology or gender studies courses. Designed for junior/senior social sciences majors. Comparative study of women’s lives and gender systems and cultures from anthropological perspective. Critical review of relevant theoretical issues using ethnography, case study, and presentations. Consult Schedule of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -566,7 +574,7 @@
       "number": "M150",
       "title": "Language in Culture",
       "units": 5.0,
-      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 4 or Linguistics 20.",
       "prereqs_parsed": {
         "required": [],
@@ -762,7 +770,7 @@
       "number": "100",
       "title": "Introduction to Literary and Critical Theory",
       "units": 5.0,
-      "description": "Lecture, four hours. Preparation: satisfaction of Entry-Level Writing and College Writing requirements. Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc. Seminar-style introduction to discipline of comparative literature presented through series of texts illustrative of its formation and practice. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: satisfaction of Entry-Level Writing and College Writing requirements. Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc. Seminar-style introduction to discipline of comparative literature presented through series of texts illustrative of its formation and practice. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc.",
       "prereqs_parsed": {
         "required": [],
@@ -786,7 +794,7 @@
       "number": "106",
       "title": "Studies in Native American and Indigenous Literatures",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of Native American and/or transnational indigenous literary and cultural expression. Topics may include oral traditions and histories, decolonization and sovereignty, identity and place in comparative perspectives, and multiple genres and forms such as novel,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3 or 3H. Study of Native American and/or transnational indigenous literary and cultural expression. Topics may include oral traditions and histories, decolonization and sovereignty, identity and place in comparative perspectives, and multiple genres and forms such as novel,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: English Composition 3 or 3H.",
       "prereqs_parsed": {
         "required": [],
@@ -847,7 +855,7 @@
       "number": "10",
       "title": "Introduction to Gender Studies",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Introduction to key concepts in study of sex and gender. Exploration of topics such as gender socialization, body image, sexualities, masculinities, and women\u2019s subordination. Special emphasis on interaction of gender with other identity markers such as race, nation, ethnicity, sexuality, class, and other differences.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Introduction to key concepts in study of sex and gender. Exploration of topics such as gender socialization, body image, sexualities, masculinities, and women’s subordination. Special emphasis on interaction of gender with other identity markers such as race, nation, ethnicity, sexuality, class, and other differences.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -863,7 +871,7 @@
       "number": "130",
       "title": "Women of Color in the U.S.",
       "units": 4.0,
-      "description": "Lecture/discussion, three hours. Requisite: course 10. Exploration of experiences of African American, Asian American, Chicana, and Native American women in order to assess intersections of race, ethnicity, class, and gender. Contemporary and/or historical and/or theoretical perspectives on racism and its relation to feminism as defined by women of color. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture/discussion, three hours. Requisite: course 10. Exploration of experiences of African American, Asian American, Chicana, and Native American women in order to assess intersections of race, ethnicity, class, and gender. Contemporary and/or historical and/or theoretical perspectives on racism and its relation to feminism as defined by women of color. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10.",
       "prereqs_parsed": {
         "required": [
@@ -882,7 +890,7 @@
       "number": "168",
       "title": "Feminist Economics in Globalizing World",
       "units": 4.0,
-      "description": "Lecture, four hours. Preparation: satisfaction of Letters and Science Writing II requirement. Requisite: course 10. Designed for juniors/seniors. Overview of field of feminist economics, with emphasis on development experiences in globalizing world economy. Overview of gender inequalities such as gender division of labor in paid and unpaid work, patterns of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: satisfaction of Letters and Science Writing II requirement. Requisite: course 10. Designed for juniors/seniors. Overview of field of feminist economics, with emphasis on development experiences in globalizing world economy. Overview of gender inequalities such as gender division of labor in paid and unpaid work, patterns of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10.",
       "prereqs_parsed": {
         "required": [
@@ -901,7 +909,7 @@
       "number": "M126",
       "title": "Environmental Change",
       "units": 4.0,
-      "description": "(Same as Environment M126.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of natural forces producing environmental changes over past two million years. How present landscape reflects past conditions. Effects of environmental change on people. Increasing importance of human activity in environmental modification. Focus on impact of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Environment M126.) Lecture, three hours; reading period, one hour. Designed for juniors/seniors. Examination of natural forces producing environmental changes over past two million years. How present landscape reflects past conditions. Effects of environmental change on people. Increasing importance of human activity in environmental modification. Focus on impact of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -953,7 +961,7 @@
       "number": "157B",
       "title": "Indians of Colonial Mexico",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social and cultural history of Indians of Mexico, especially central Mexico, from time of European conquest until Mexican independence, with emphasis on internal view of Indian groups and patterns on basis of records produced by Indians themselves.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Survey of social and cultural history of Indians of Mexico, especially central Mexico, from time of European conquest until Mexican independence, with emphasis on internal view of Indian groups and patterns on basis of records produced by Indians themselves.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -966,7 +974,7 @@
       "number": "114",
       "title": "American Indigenous Linguistics",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Strongly recommended preparation: course 20. Survey of genetic, areal, and typological classifications of American indigenous languages; writing systems for American indigenous languages; American indigenous languages in social and historical context. One or more languages may be investigated in detail. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Strongly recommended preparation: course 20. Survey of genetic, areal, and typological classifications of American indigenous languages; writing systems for American indigenous languages; American indigenous languages in social and historical context. One or more languages may be investigated in detail. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1009,7 +1017,7 @@
       "number": "170A",
       "title": "Studies in Statistical Analysis of Political Data",
       "units": 4.0,
-      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Enforced requisite: course 6 or 6R. Designed for juniors/seniors. Use of statistical methods to interpret data and test theories from various fields in political science and use of quantitative evidence in construction of convincing and truthful arguments related to world\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three or four hours; discussion, one hour (when scheduled). Enforced requisite: course 6 or 6R. Designed for juniors/seniors. Use of statistical methods to interpret data and test theories from various fields in political science and use of quantitative evidence in construction of convincing and truthful arguments related to world… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 6 or 6R.",
       "prereqs_parsed": {
         "required": [],
@@ -1044,7 +1052,7 @@
       "number": "106A",
       "title": "Field Research Methods I",
       "units": 6.0,
-      "description": "Lecture, two hours; discussion, two hours; fieldwork, eight to 10 hours. Research practicum in which students write field notes on their experiences in and observations of intensive internship field placement. Readings focus on fieldwork roles and relations, observing and describing, writing field notes, field interviewing, ethical issues, and preliminary data\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; discussion, two hours; fieldwork, eight to 10 hours. Research practicum in which students write field notes on their experiences in and observations of intensive internship field placement. Readings focus on fieldwork roles and relations, observing and describing, writing field notes, field interviewing, ethical issues, and preliminary data… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1089,7 +1097,7 @@
       "number": "156",
       "title": "Race and Ethnicity in American Life",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in the U.S., including interplay between racial and ethnic structures and meanings. Special attention to comparison of African American and European American experiences and to transformation of Asian American and Latino communities and the nation generally, wrought by renewal\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in the U.S., including interplay between racial and ethnic structures and meanings. Special attention to comparison of African American and European American experiences and to transformation of Asian American and Latino communities and the nation generally, wrought by renewal… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1115,7 +1123,7 @@
       "number": "M162",
       "title": "Sociology of Gender",
       "units": 5.0,
-      "description": "(Same as Gender Studies M162.) Lecture, three hours; discussion, one hour. Enforced requisite: course 1 or Gender Studies 10. Examination of processes by which gender is socially constructed. Topics include distinction between biological sex and sociological gender, causes and consequences of gender inequality, and recent changes in gender relations in\u2026 For more content click the Read More button below.",
+      "description": "(Same as Gender Studies M162.) Lecture, three hours; discussion, one hour. Enforced requisite: course 1 or Gender Studies 10. Examination of processes by which gender is socially constructed. Topics include distinction between biological sex and sociological gender, causes and consequences of gender inequality, and recent changes in gender relations in… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 1 or Gender Studies 10.",
       "prereqs_parsed": {
         "required": [],
@@ -1137,7 +1145,7 @@
       "number": "12",
       "title": "Introduction to Statistical Methods for Geography and Environmental Studies",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; laboratory, one hour. Not open for credit to students with credit for course 10, 11, or 13. Introduction to statistical thinking and understanding, with emphasis on techniques used in geography and environmental science. Underlying logic behind statistical procedures, role of variation in statistical thinking,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

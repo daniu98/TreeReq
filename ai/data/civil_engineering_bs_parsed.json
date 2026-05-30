@@ -274,7 +274,7 @@
       "number": "103",
       "title": "Applied Numerical Computing and Modeling in Civil and Environmental Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course M20 (or Computer Science 31), Mathematics 33B or Mechanical and Aerospace Engineering 82 (either may be taken concurrently). Introduction to numerical computing with specific applications in civil and environmental engineering. Topics include error and computer arithmetic, root finding,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course M20 (or Computer Science 31), Mathematics 33B or Mechanical and Aerospace Engineering 82 (either may be taken concurrently). Introduction to numerical computing with specific applications in civil and environmental engineering. Topics include error and computer arithmetic, root finding,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course M20 (or Computer Science 31), Mathematics 33B or Mechanical and Aerospace Engineering 82 (either may be taken concurrently).",
       "prereqs_parsed": {
         "required": [
@@ -300,7 +300,7 @@
       "number": "107",
       "title": "Environmental Fluid Mechanics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 32B, 33A. Recommended: Some knowledge of MATLAB or Python. Introduction in environmental fluid mechanics with focus on water. Students gain fundamental understanding of principles governing behavior of water in environmental contexts. Through comprehensive exploration of theoretical concepts, practical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 32B, 33A. Recommended: Some knowledge of MATLAB or Python. Introduction in environmental fluid mechanics with focus on water. Students gain fundamental understanding of principles governing behavior of water in environmental contexts. Through comprehensive exploration of theoretical concepts, practical… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 32B, 33A.",
       "prereqs_parsed": {
         "required": [
@@ -324,7 +324,7 @@
       "number": "108",
       "title": "Introduction to Mechanics of Deformable Solids",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Mathematics 32B, Physics 1A. Review of equilibrium principles; forces and moments transmitted by slender members. Concepts of stress and strain. Stress-strain relations with focus on linear elasticity. Transformation of stress and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Mathematics 32B, Physics 1A. Review of equilibrium principles; forces and moments transmitted by slender members. Concepts of stress and strain. Stress-strain relations with focus on linear elasticity. Transformation of stress and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 91 or Mechanical and Aerospace Engineering 101, Mathematics 32B, Physics 1A.",
       "prereqs_parsed": {
         "required": [
@@ -356,7 +356,7 @@
       "number": "108L",
       "title": "Experimental Structural Mechanics",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Requisite or corequisite: course 108. Lectures and laboratory experiments in various structural mechanics testing of metals (steel, aluminum, brass), high-strength plastics, and concrete (cylinders, beams). Direct tension. Direct compression. Ultrasonic nondestructive evaluation. Elastic buckling of columns. Fracture mechanics testing and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Requisite or corequisite: course 108. Lectures and laboratory experiments in various structural mechanics testing of metals (steel, aluminum, brass), high-strength plastics, and concrete (cylinders, beams). Direct tension. Direct compression. Ultrasonic nondestructive evaluation. Elastic buckling of columns. Fracture mechanics testing and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite or corequisite: course 108.",
       "prereqs_parsed": {
         "required": [
@@ -377,7 +377,7 @@
       "number": "110",
       "title": "Introduction to Probability and Statistics for Engineers",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled); outside study, seven hours. Requisites: Mathematics 32A, 33A. Recommended: course M20. Introduction to fundamental concepts and applications of probability and statistics in civil engineering, with focus on how these concepts are used in experimental design and sampling, data analysis, risk and reliability\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled); outside study, seven hours. Requisites: Mathematics 32A, 33A. Recommended: course M20. Introduction to fundamental concepts and applications of probability and statistics in civil engineering, with focus on how these concepts are used in experimental design and sampling, data analysis, risk and reliability… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 32A, 33A.",
       "prereqs_parsed": {
         "required": [
@@ -397,7 +397,7 @@
       "number": "116XP",
       "title": "Engineering and Environmental Justice",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour; service learning, two hours; outside study, eight hours. Introduction to concept of environmental justice. Examination of methods for assessing disparities in exposure to environmental hazards. Exploration of how engineers can partner with community to address local environmental issues. Along with case study analyses, students\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; service learning, two hours; outside study, eight hours. Introduction to concept of environmental justice. Examination of methods for assessing disparities in exposure to environmental hazards. Exploration of how engineers can partner with community to address local environmental issues. Along with case study analyses, students… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -432,7 +432,7 @@
       "number": "120L",
       "title": "Soil Mechanics Laboratory",
       "units": 4.0,
-      "description": "(Formerly numbered 128L.) Lecture, one hour; laboratory, six hours; outside study, five hours. Requisite or corequisite: course 120. Laboratory experiments to be performed by students to obtain soil parameters required for assigned design problems. Soil classification, grain size distribution, Atterberg limits, specific gravity, compaction, expansion index, consolidation, shear strength determination.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 128L.) Lecture, one hour; laboratory, six hours; outside study, five hours. Requisite or corequisite: course 120. Laboratory experiments to be performed by students to obtain soil parameters required for assigned design problems. Soil classification, grain size distribution, Atterberg limits, specific gravity, compaction, expansion index, consolidation, shear strength determination.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite or corequisite: course 120.",
       "prereqs_parsed": {
         "required": [
@@ -475,7 +475,7 @@
       "number": "123",
       "title": "Advanced Geotechnical Design",
       "units": 4.0,
-      "description": "(Formerly numbered C123.) Lecture, two hours; discussion, two hours; active learning, two hours; outside study, six hours. Requisites: courses 121, 190. Corequisite: course 132. Slope stability analysis, including limit equilibrium procedures, finite element method, seepage analysis, and advanced topics such as rapid drawdown, construction of embankments on soft soil, and\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered C123.) Lecture, two hours; discussion, two hours; active learning, two hours; outside study, six hours. Requisites: courses 121, 190. Corequisite: course 132. Slope stability analysis, including limit equilibrium procedures, finite element method, seepage analysis, and advanced topics such as rapid drawdown, construction of embankments on soft soil, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 121, 190. Corequisite: course 132.",
       "prereqs_parsed": {
         "required": [
@@ -497,7 +497,7 @@
       "number": "125",
       "title": "Fundamentals of Earthquake Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 135A. Overview of engineering seismology, including plate tectonics, faults, wave propagation, and earthquake strong ground motion. Development and selection of design ground motions using both probabilistic seismic hazard analysis and code-based methods. Overview of seismic design regulation and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 135A. Overview of engineering seismology, including plate tectonics, faults, wave propagation, and earthquake strong ground motion. Development and selection of design ground motions using both probabilistic seismic hazard analysis and code-based methods. Overview of seismic design regulation and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 135A.",
       "prereqs_parsed": {
         "required": [
@@ -516,7 +516,7 @@
       "number": "129L",
       "title": "Engineering Geomatics",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, four hours; outside study, six hours. Collection, processing, and analysis of geospatial data. Ellipsoid and geoid models of shape of Earth. Sea level, height, and geopotential surfaces. Elements and usage of topographic data and maps. Advanced global positioning systems (GPS) for high-precision mapping. Advanced laser-based light\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, four hours; outside study, six hours. Collection, processing, and analysis of geospatial data. Ellipsoid and geoid models of shape of Earth. Sea level, height, and geopotential surfaces. Elements and usage of topographic data and maps. Advanced global positioning systems (GPS) for high-precision mapping. Advanced laser-based light… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -550,7 +550,7 @@
       "number": "132",
       "title": "Dynamics of Rigid and Flexible Structures",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 91, Physics 1B. Covers kinematics and kinetics of rigid bodies using equilibrium, work and energy, free and forced response of discrete single-degree-of-freedom and two-degrees-of-freedom flexible structures, and introduction to shock spectra. May be repeated once for credit. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 91, Physics 1B. Covers kinematics and kinetics of rigid bodies using equilibrium, work and energy, free and forced response of discrete single-degree-of-freedom and two-degrees-of-freedom flexible structures, and introduction to shock spectra. May be repeated once for credit. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 91, Physics 1B.",
       "prereqs_parsed": {
         "required": [
@@ -574,7 +574,7 @@
       "number": "135A",
       "title": "Elementary Structural Analysis",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 108. Introduction to structural analysis; classification of structural elements; analysis of statically determinate trusses, beams, and frames; deflections in elementary structures; virtual work; analysis of indeterminate structures using force method; introduction to\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 108. Introduction to structural analysis; classification of structural elements; analysis of statically determinate trusses, beams, and frames; deflections in elementary structures; virtual work; analysis of indeterminate structures using force method; introduction to… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M20 (or Computer Science 31), 108.",
       "prereqs_parsed": {
         "required": [
@@ -639,7 +639,7 @@
       "number": "140L",
       "title": "Structural Components and Systems Testing Laboratory",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: course 142. Comparison of experimental results with analytical results and code requirements to assess accuracies and limitations of calculation procedures used in structural design. Tests include quasi-static tests of structural elements (beams, columns) and systems (slab-column, beam-column) and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: course 142. Comparison of experimental results with analytical results and code requirements to assess accuracies and limitations of calculation procedures used in structural design. Tests include quasi-static tests of structural elements (beams, columns) and systems (slab-column, beam-column) and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 142.",
       "prereqs_parsed": {
         "required": [
@@ -658,7 +658,7 @@
       "number": "141",
       "title": "Steel Structures",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 135A. Introduction to building codes. Fundamentals of load and resistance factor design of steel elements. Design of tension and compression members. Design of beams and beam columns. Simple connection design. Introduction to computer modeling methods and design process.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 135A. Introduction to building codes. Fundamentals of load and resistance factor design of steel elements. Design of tension and compression members. Design of beams and beam columns. Simple connection design. Introduction to computer modeling methods and design process.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 135A.",
       "prereqs_parsed": {
         "required": [
@@ -681,7 +681,7 @@
       "number": "142",
       "title": "Design of Reinforced Concrete Structures",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 135A. Beams, columns, and slabs in reinforced concrete structures. Properties of reinforced concrete materials. Design of beams and slabs for flexure, shear, anchorage of reinforcement, and deflection. Design of columns for axial force, bending, and shear. Ultimate strength\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 135A. Beams, columns, and slabs in reinforced concrete structures. Properties of reinforced concrete materials. Design of beams and slabs for flexure, shear, anchorage of reinforcement, and deflection. Design of columns for axial force, bending, and shear. Ultimate strength… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 135A.",
       "prereqs_parsed": {
         "required": [
@@ -705,7 +705,7 @@
       "number": "143",
       "title": "Design of Prestressed Concrete Structures",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 135A, 142. Equivalent loads and allowable flexural stresses in determinate and indeterminate systems. Flexural and shear strength design, including secondary effects in indeterminate systems. Design of indeterminate post-tensioned beam using both hand calculations and commercially available computer program.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 135A, 142. Equivalent loads and allowable flexural stresses in determinate and indeterminate systems. Flexural and shear strength design, including secondary effects in indeterminate systems. Design of indeterminate post-tensioned beam using both hand calculations and commercially available computer program.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 135A, 142.",
       "prereqs_parsed": {
         "required": [
@@ -725,7 +725,7 @@
       "number": "144",
       "title": "Structural Systems Design",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 141 or 142, and 190. Corequisite: course 132. Design course for civil engineering students, with focus on design and performance of complete building structural systems. International Building Code (IBC) and ASCE 7 dead, live, wind, and earthquake loads.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 141 or 142, and 190. Corequisite: course 132. Design course for civil engineering students, with focus on design and performance of complete building structural systems. International Building Code (IBC) and ASCE 7 dead, live, wind, and earthquake loads.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 141 or 142, and 190. Corequisite: course 132.",
       "prereqs_parsed": {
         "required": [
@@ -751,7 +751,7 @@
       "number": "147",
       "title": "Design and Construction of Tall Buildings",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 135B, 141, 190. Corequisite: course 132. Role of structural engineer, architect, and other design professions in design process. Development of architectural design of tall buildings. Influence of building code, zoning, and finance. Advantages and limitations of different structural\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 135B, 141, 190. Corequisite: course 132. Role of structural engineer, architect, and other design professions in design process. Development of architectural design of tall buildings. Influence of building code, zoning, and finance. Advantages and limitations of different structural… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 135B, 141, 190. Corequisite: course 132.",
       "prereqs_parsed": {
         "required": [
@@ -774,7 +774,7 @@
       "number": "148",
       "title": "Wood and Timber Design",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisites: courses 108, 135A. Properties and behavior of wood and wood products, analysis and design of wood and timber structural members subjected to flexural, shear, and axial stresses; connections, fasteners, and detailing; and light-framed wood shear walls and diaphragms.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisites: courses 108, 135A. Properties and behavior of wood and wood products, analysis and design of wood and timber structural members subjected to flexural, shear, and axial stresses; connections, fasteners, and detailing; and light-framed wood shear walls and diaphragms.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -787,7 +787,7 @@
       "number": "150",
       "title": "Introduction to Hydrology",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 107 (or Mechanical and Aerospace Engineering 103). Study of hydrologic cycle and relevant atmospheric processes, water and energy balance, radiation, precipitation formation, infiltration, evaporation, vegetation transpiration, groundwater flow, storm runoff, and flood\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses M20 (or Computer Science 31), 107 (or Mechanical and Aerospace Engineering 103). Study of hydrologic cycle and relevant atmospheric processes, water and energy balance, radiation, precipitation formation, infiltration, evaporation, vegetation transpiration, groundwater flow, storm runoff, and flood… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M20 (or Computer Science 31), 107 (or Mechanical and Aerospace Engineering 103).",
       "prereqs_parsed": {
         "required": [],
@@ -819,7 +819,7 @@
       "number": "151",
       "title": "Introduction to Water Resources Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 107 (or Mechanical and Aerospace Engineering 103), 150. Recommended: courses 103, 110. Principles of hydraulics, flow of water in open channels and pressure conduits, reservoirs and dams, hydraulic machinery, hydroelectric power. Introduction to system analysis and design\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 107 (or Mechanical and Aerospace Engineering 103), 150. Recommended: courses 103, 110. Principles of hydraulics, flow of water in open channels and pressure conduits, reservoirs and dams, hydraulic machinery, hydroelectric power. Introduction to system analysis and design… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 107 (or Mechanical and Aerospace Engineering 103), 150.",
       "prereqs_parsed": {
         "required": [
@@ -848,7 +848,7 @@
       "number": "152",
       "title": "Hydraulic and Hydrologic Design",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 150, 151, 190. Analysis and design of hydraulic and hydrologic systems, including stormwater management systems, potable and recycled water distribution systems, wastewater collection systems, and constructed wetlands. Emphasis on practical design components, including reading/interpreting professional drawings and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: courses 150, 151, 190. Analysis and design of hydraulic and hydrologic systems, including stormwater management systems, potable and recycled water distribution systems, wastewater collection systems, and constructed wetlands. Emphasis on practical design components, including reading/interpreting professional drawings and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 150, 151, 190.",
       "prereqs_parsed": {
         "required": [
@@ -869,7 +869,7 @@
       "number": "153",
       "title": "Introduction to Environmental Engineering Science",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled); outside study, seven hours; field trip. Recommended requisite: course 107 (or Mechanical and Aerospace Engineering 103). Water, air, and soil pollution: sources, transformations, effects, and processes for removal of contaminants. Water quality, water and wastewater treatment, waste disposal, air pollution, global environmental\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled); outside study, seven hours; field trip. Recommended requisite: course 107 (or Mechanical and Aerospace Engineering 103). Water, air, and soil pollution: sources, transformations, effects, and processes for removal of contaminants. Water quality, water and wastewater treatment, waste disposal, air pollution, global environmental… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -887,7 +887,7 @@
       "number": "154",
       "title": "Chemical Fate and Transport in Aquatic Environments",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisite: course 153. Fundamental physical, chemical, and biological principles governing movement and fate of chemicals in surface waters and groundwater. Topics include physical transport in various aquatic environments, air-water exchange, acid-base equilibria, oxidation-reduction chemistry, chemical sorption, biodegradation, and bioaccumulation.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisite: course 153. Fundamental physical, chemical, and biological principles governing movement and fate of chemicals in surface waters and groundwater. Topics include physical transport in various aquatic environments, air-water exchange, acid-base equilibria, oxidation-reduction chemistry, chemical sorption, biodegradation, and bioaccumulation.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -923,7 +923,7 @@
       "number": "156A",
       "title": "Environmental Chemistry Laboratory",
       "units": 4.0,
-      "description": "Lecture, four hours; laboratory, four hours; outside study, four hours. Requisites: course 153 (may be taken concurrently), Chemistry 20A, 20B. Basic laboratory techniques in analytical chemistry related to water and wastewater analysis. Selected experiments include gravimetric analysis, titrimetry spectrophotometry, redox systems, pH and electrical conductivity. Concepts to be applied to\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, four hours; outside study, four hours. Requisites: course 153 (may be taken concurrently), Chemistry 20A, 20B. Basic laboratory techniques in analytical chemistry related to water and wastewater analysis. Selected experiments include gravimetric analysis, titrimetry spectrophotometry, redox systems, pH and electrical conductivity. Concepts to be applied to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 153 (may be taken concurrently), Chemistry 20A, 20B.",
       "prereqs_parsed": {
         "required": [
@@ -946,10 +946,17 @@
       "number": "156B",
       "title": "Environmental Engineering Unit Operations and Processes Laboratory",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Requisites: Chemistry 20A, 20B. Characterization and analysis of typical natural waters and wastewaters for inorganic and organic constituents. Selected experiments include analysis of solids, nitrogen species, oxygen demand, and chlorine residual, that are used in unit operation experiments that include\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Requisites: Chemistry 20A, 20B. Characterization and analysis of typical natural waters and wastewaters for inorganic and organic constituents. Selected experiments include analysis of solids, nitrogen species, oxygen demand, and chlorine residual, that are used in unit operation experiments that include… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 20A",
+          "CHEM 20B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -959,7 +966,7 @@
       "number": "157A",
       "title": "Hydrologic Modeling",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 150 or 151. Introduction to hydrologic modeling. Topics selected from areas of (1) open-channel flow, including one-dimensional steady flow and unsteady flow, (2) pipe flow and water distribution systems, (3) rainfall-runoff modeling, and (4) groundwater flow and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 150 or 151. Introduction to hydrologic modeling. Topics selected from areas of (1) open-channel flow, including one-dimensional steady flow and unsteady flow, (2) pipe flow and water distribution systems, (3) rainfall-runoff modeling, and (4) groundwater flow and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 150 or 151.",
       "prereqs_parsed": {
         "required": [],
@@ -1021,7 +1028,7 @@
       "number": "157L",
       "title": "Hydrologic Analysis",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, five hours; outside study, five hours. Requisite: course 150. Collection, compilation, and interpretation of data for quantification of components of hydrologic cycle, including precipitation, evaporation, infiltration, and runoff. Use of hydrologic variables and parameters for development, construction, and application of analytical models for selected problems in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, five hours; outside study, five hours. Requisite: course 150. Collection, compilation, and interpretation of data for quantification of components of hydrologic cycle, including precipitation, evaporation, infiltration, and runoff. Use of hydrologic variables and parameters for development, construction, and application of analytical models for selected problems in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 150.",
       "prereqs_parsed": {
         "required": [
@@ -1040,7 +1047,7 @@
       "number": "180",
       "title": "Introduction to Transportation Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Designed for juniors/senior Civil Engineering students and Public Affairs graduate students. General characteristics of transportation systems, including streets and highways, rail, transit, air, and water. Capacity considerations, including planning, design, and operations. Components of roadway design, including horizontal and vertical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Designed for juniors/senior Civil Engineering students and Public Affairs graduate students. General characteristics of transportation systems, including streets and highways, rail, transit, air, and water. Capacity considerations, including planning, design, and operations. Components of roadway design, including horizontal and vertical… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1056,7 +1063,7 @@
       "number": "190",
       "title": "Professional Practice",
       "units": 2.0,
-      "description": "Lecture, two hours; discussion; one hour; outside study, three hours. Requisite: one course from 121, 141, 142, 151, 155 (may be taken concurrently). Sustainability in design (e.g., LEED certification for building projects), professional licensure (PE, SE, and GE), project management (proposals, scheduling, and budgeting), business, public policy, leadership, ethics, earthquake\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; discussion; one hour; outside study, three hours. Requisite: one course from 121, 141, 142, 151, 155 (may be taken concurrently). Sustainability in design (e.g., LEED certification for building projects), professional licensure (PE, SE, and GE), project management (proposals, scheduling, and budgeting), business, public policy, leadership, ethics, earthquake… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: one course from 121, 141, 142, 151, 155 (may be taken concurrently).",
       "prereqs_parsed": {
         "required": [],
@@ -1068,11 +1075,21 @@
           "C&EE 155"
         ],
         "one_of": [
-          "C&EE 121",
-          "C&EE 141",
-          "C&EE 142",
-          "C&EE 151",
-          "C&EE 155"
+          [
+            "C&EE 121"
+          ],
+          [
+            "C&EE 141"
+          ],
+          [
+            "C&EE 142"
+          ],
+          [
+            "C&EE 151"
+          ],
+          [
+            "C&EE 155"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1092,7 +1109,7 @@
       "number": "58XP",
       "title": "Climate Change, Water Quality, and Ecosystem Functioning",
       "units": 5.0,
-      "description": "(Formerly numbered 58SL.) Lecture, four hours; service learning, two hours; outside study, nine hours. Science related to climate change, water quality, and ecosystem health. Topics include carbon and nutrient cycling, hydrologic cycle, ecosystem structure and services, biodiversity, basic aquatic chemistry, and impacts of climate change on ecosystem functioning and water\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 58SL.) Lecture, four hours; service learning, two hours; outside study, nine hours. Science related to climate change, water quality, and ecosystem health. Topics include carbon and nutrient cycling, hydrologic cycle, ecosystem structure and services, biodiversity, basic aquatic chemistry, and impacts of climate change on ecosystem functioning and water… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1105,10 +1122,18 @@
       "number": "91",
       "title": "Statics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 31A, 31B, Physics 1A. Newtonian mechanics, vector representation, and resultant forces and moments. Free-body diagrams and equilibrium, internal loads and equilibrium in trusses, frames, and beams. Planar and nonplanar systems, distributed forces, determinate and indeterminate force systems, shear\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 31A, 31B, Physics 1A. Newtonian mechanics, vector representation, and resultant forces and moments. Free-body diagrams and equilibrium, internal loads and equilibrium in trusses, frames, and beams. Planar and nonplanar systems, distributed forces, determinate and indeterminate force systems, shear… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 31A, 31B, Physics 1A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31A",
+          "MATH 31B",
+          "PHYSICS 1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "C&EE 108",
@@ -1123,7 +1148,7 @@
       "number": "C104",
       "title": "Structure, Processing, and Properties of Civil Engineering Materials",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Corequisite: course 108. Discussion of aspects of cement and concrete materials, including manufacture of cement and production of concrete. Aspects\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Corequisite: course 108. Discussion of aspects of cement and concrete materials, including manufacture of cement and production of concrete. Aspects… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 91 or Mechanical and Aerospace Engineering 101, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Corequisite: course 108.",
       "prereqs_parsed": {
         "required": [
@@ -1156,7 +1181,7 @@
       "number": "C105",
       "title": "Structure and Properties of Amorphous Civil Engineering Materials",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Corequisite: course 108. Nature and properties of amorphous civil engineering materials in fields of infrastructure and technology. Special attention to\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course 91 or Mechanical and Aerospace Engineering 101, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Corequisite: course 108. Nature and properties of amorphous civil engineering materials in fields of infrastructure and technology. Special attention to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 91 or Mechanical and Aerospace Engineering 101, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Corequisite: course 108.",
       "prereqs_parsed": {
         "required": [
@@ -1189,7 +1214,7 @@
       "number": "C106",
       "title": "Modeling and Simulation of Civil Engineering Materials",
       "units": 4.0,
-      "description": "Lecture, four hours; outside study, eight hours. Requisites: Chemistry and Biochemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Provides fundamental understanding of modeling and numerical simulations for civil engineering materials. Largely focused on practical examples and applications. By course end, students are expected to be able to\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; outside study, eight hours. Requisites: Chemistry and Biochemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Provides fundamental understanding of modeling and numerical simulations for civil engineering materials. Largely focused on practical examples and applications. By course end, students are expected to be able to… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry and Biochemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C.",
       "prereqs_parsed": {
         "required": [
@@ -1215,7 +1240,7 @@
       "number": "C111",
       "title": "Machine Learning and Artificial Intelligence for Civil Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course M20, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Theoretical and practical introduction to artificial intelligence and machine learning for civil engineering problems. Focus on practice and problem-solving skills. By course end, students are expected\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: course M20, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C. Theoretical and practical introduction to artificial intelligence and machine learning for civil engineering problems. Focus on practice and problem-solving skills. By course end, students are expected… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course M20, Chemistry 20A, 20B, Mathematics 31A, 31B, 32B, Physics 1A, 1B, 1C.",
       "prereqs_parsed": {
         "required": []
@@ -1228,7 +1253,7 @@
       "number": "C158",
       "title": "Coastal Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 107 or Mechanical and Aerospace Engineering 103, 151. Covers coastal water levels (tides, climate variability, storms, sea level rise, resonance), surface gravity waves (characteristics, transformation, spectra), coastal processes (overtopping, erosion, flooding), coastal protection (walls, nourishment, dunes, berms, nature-based\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 107 or Mechanical and Aerospace Engineering 103, 151. Covers coastal water levels (tides, climate variability, storms, sea level rise, resonance), surface gravity waves (characteristics, transformation, spectra), coastal processes (overtopping, erosion, flooding), coastal protection (walls, nourishment, dunes, berms, nature-based… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 107 or Mechanical and Aerospace Engineering 103, 151.",
       "prereqs_parsed": {
         "required": [
@@ -1252,7 +1277,7 @@
       "number": "C159",
       "title": "Green Infrastructure",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 150, 153. Overview of fundamental science, engineering, and ecological principles to designing green infrastructure for stormwater management. Students design green infrastructure based on current practices, perform engineering calculations to calculate its performance, and develop critical thinking skills needed\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: courses 150, 153. Overview of fundamental science, engineering, and ecological principles to designing green infrastructure for stormwater management. Students design green infrastructure based on current practices, perform engineering calculations to calculate its performance, and develop critical thinking skills needed… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 150, 153.",
       "prereqs_parsed": {
         "required": [
@@ -1272,7 +1297,7 @@
       "number": "C164",
       "title": "Sustainable Waste Management",
       "units": 4.0,
-      "description": "(Formerly numbered 164.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 153. Introduction to environmental engineering. Management of solid wastes, some of which are hazardous, is integral part of infrastructure development, and it is required to achieve environmental sustainability. Study of all aspects of hazardous and\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 164.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 153. Introduction to environmental engineering. Management of solid wastes, some of which are hazardous, is integral part of infrastructure development, and it is required to achieve environmental sustainability. Study of all aspects of hazardous and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 153.",
       "prereqs_parsed": {
         "required": [
@@ -1291,7 +1316,7 @@
       "number": "C181",
       "title": "Traffic Engineering Systems: Operations and Control",
       "units": 4.0,
-      "description": "(Formerly numbered 181.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 180. Traffic operations including traffic data collection and analysis, safety and crash studies, traffic flow theory, highway capacity analysis, signalized intersection design and analysis, and simulation modeling. Students gain understanding of basic traffic flow theory,\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 181.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 180. Traffic operations including traffic data collection and analysis, safety and crash studies, traffic flow theory, highway capacity analysis, signalized intersection design and analysis, and simulation modeling. Students gain understanding of basic traffic flow theory,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 180.",
       "prereqs_parsed": {
         "required": [
@@ -1310,7 +1335,7 @@
       "number": "C182",
       "title": "Rigid and Flexible Pavements: Design, Materials, and Serviceability",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisites: courses C104, 108, 120, Materials Science 104. Correlation, analysis, and metrication of aspects of pavement design, including materials selection and traffic loading and volume. Special attention to aspects of pavement distress/serviceability and factoring of these into metrics of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisites: courses C104, 108, 120, Materials Science 104. Correlation, analysis, and metrication of aspects of pavement design, including materials selection and traffic loading and volume. Special attention to aspects of pavement distress/serviceability and factoring of these into metrics of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1323,7 +1348,7 @@
       "number": "C183",
       "title": "Transportation Sustainability",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Evaluation of urban transportation design policies and practices for addressing sustainable transportation. Examination of historical and contemporary role engineers have played in planning and design of urban transportation systems. Exploration and critical analysis of emerging transportation technologies and policy strategies\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Evaluation of urban transportation design policies and practices for addressing sustainable transportation. Examination of historical and contemporary role engineers have played in planning and design of urban transportation systems. Exploration and critical analysis of emerging transportation technologies and policy strategies… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1336,7 +1361,7 @@
       "number": "C184",
       "title": "Transportation System and Policy Outcomes",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to the measurement of equity outcomes within the context of transportation infrastructure investment and policies. Students learn to understand the data, models, and metrics used to evaluate the fine-grained impacts of transportation systems and policies on people. Examination of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to the measurement of equity outcomes within the context of transportation infrastructure investment and policies. Students learn to understand the data, models, and metrics used to evaluate the fine-grained impacts of transportation systems and policies on people. Examination of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1349,7 +1374,7 @@
       "number": "C185",
       "title": "Transportation Systems Analysis",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 180. Transportation researchers and practitioners are motivated by desire to explain spatial interactions that resulted in movement of people or goods from place to place. Such interactions become more intricate as new technologies emerge. To explore and perceive\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 180. Transportation researchers and practitioners are motivated by desire to explain spatial interactions that resulted in movement of people or goods from place to place. Such interactions become more intricate as new technologies emerge. To explore and perceive… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 180.",
       "prereqs_parsed": {
         "required": []
@@ -1362,7 +1387,7 @@
       "number": "C186",
       "title": "Intelligent Transportation Systems",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 180. Introduction to basic elements of intelligent transportation systems (ITS), focusing on technological, systems, and institutional aspects. Topics include systems engineering processes, advanced traveler information systems, transportation network operations, commercial vehicle operations and intermodal freight, public transportation applications,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: course 180. Introduction to basic elements of intelligent transportation systems (ITS), focusing on technological, systems, and institutional aspects. Topics include systems engineering processes, advanced traveler information systems, transportation network operations, commercial vehicle operations and intermodal freight, public transportation applications,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 180.",
       "prereqs_parsed": {
         "required": [
@@ -1381,15 +1406,21 @@
       "number": "M135C",
       "title": "Introduction to Finite Element Methods",
       "units": 4.0,
-      "description": "(Same as Mechanical and Aerospace Engineering M168.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 130 or Mechanical and Aerospace Engineering 156A or 166A. Introduction to basic concepts of finite element methods (FEM) and applications to structural and solid mechanics and heat transfer. Direct matrix structural\u2026 For more content click the Read More button below.",
+      "description": "(Same as Mechanical and Aerospace Engineering M168.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 130 or Mechanical and Aerospace Engineering 156A or 166A. Introduction to basic concepts of finite element methods (FEM) and applications to structural and solid mechanics and heat transfer. Direct matrix structural… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 130 or Mechanical and Aerospace Engineering 156A or 166A.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "C&EE 130",
-          "MAE 156A",
-          "MAE 166A"
+          [
+            "C&EE 130"
+          ],
+          [
+            "MAE 156A"
+          ],
+          [
+            "MAE 166A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -1402,7 +1433,7 @@
       "number": "M165",
       "title": "Environmental Nanotechnology: Implications and Applications",
       "units": 4.0,
-      "description": "(Same as Engineering M103.) Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisite: Engineering M101. Introduction to potential implications of nanotechnology to environmental systems as well as potential application of nanotechnology to environmental protection. Technical contents include three multidisciplinary areas: (1) physical, chemical, and biological properties of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Engineering M103.) Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisite: Engineering M101. Introduction to potential implications of nanotechnology to environmental systems as well as potential application of nanotechnology to environmental protection. Technical contents include three multidisciplinary areas: (1) physical, chemical, and biological properties of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1415,7 +1446,7 @@
       "number": "M166",
       "title": "Environmental Microbiology",
       "units": 4.0,
-      "description": "(Same as Environmental Health Sciences M166.) Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisite: course 153. Microbial cell and its metabolic capabilities, microbial genetics and its potentials, growth of microbes and kinetics of growth, microbial ecology and diversity, microbiology of wastewater treatment, probing of microbes, public\u2026 For more content click the Read More button below.",
+      "description": "(Same as Environmental Health Sciences M166.) Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisite: course 153. Microbial cell and its metabolic capabilities, microbial genetics and its potentials, growth of microbes and kinetics of growth, microbial ecology and diversity, microbiology of wastewater treatment, probing of microbes, public… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1428,7 +1459,7 @@
       "number": "M20",
       "title": "Introduction to Computer Programming with MATLAB",
       "units": 4.0,
-      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient\u2026 For more content click the Read More button below.",
+      "description": "(Same as Mechanical and Aerospace Engineering M20.) Lecture, two hours; discussion, two hours; laboratory, two hours; outside study, six hours. Requisite: Mathematics 33A. Fundamentals of computer programming taught in context of MATLAB computing environment. Basic data types and control structures. Input/output. Functions. Data visualization. MATLAB-based data structures. Development of efficient… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1452,7 +1483,7 @@
       "number": "102A",
       "title": "Thermodynamics I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Introduction to thermodynamics of chemical and biological processes. Work, energy, heat, and first law of thermodynamics. Second law, extremum principles, entropy, and free energy. Ideal and real gases, property evaluation. Thermodynamics of flow systems. Applications of first and second laws\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Introduction to thermodynamics of chemical and biological processes. Work, energy, heat, and first law of thermodynamics. Second law, extremum principles, entropy, and free energy. Ideal and real gases, property evaluation. Thermodynamics of flow systems. Applications of first and second laws… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1465,7 +1496,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -1490,10 +1521,29 @@
       "number": "20B",
       "title": "Chemical Energetics and Change",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C\u2013 or better. Enforced corequisite: Mathematics 31B.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B. Second term of general chemistry. Intermolecular forces and organization, phase behavior, chemical thermodynamics, solutions, equilibria, reaction rates and laws. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisites: course 14A or 14AE or 20A or 20AH, and Mathematics 31A, with grades of C– or better. Enforced corequisite: Mathematics 31B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 14A",
+          "CHEM 14AE",
+          "CHEM 20A",
+          "CHEM 20AH",
+          "MATH 31A"
+        ],
+        "corequisites": [
+          "MATH 31B"
+        ],
+        "one_of": [
+          [
+            "CHEM 14A",
+            "CHEM 14AE",
+            "CHEM 20A",
+            "CHEM 20AH"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "C&EE 156A",
@@ -1509,8 +1559,8 @@
       "number": "20L",
       "title": "General Chemistry Laboratory",
       "units": 3.0,
-      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer\u2019s law, applications for environmental analysis and materials science. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C\u2013 or better. Enforced corequisite: course 14B or 20B.",
+      "description": "Lecture, one hour; laboratory, three hours. Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B. Use of balance, volumetric techniques, volumetric and potentiometric analysis; Beer’s law, applications for environmental analysis and materials science. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 14A or 20A with grade of C– or better. Enforced corequisite: course 14B or 20B.",
       "prereqs_parsed": {
         "required": [
           "CHEM 14A",
@@ -1541,7 +1591,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1558,7 +1608,7 @@
       "number": "12",
       "title": "Sustainability and Environment",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Introduction to sustainability with emphasis on environmental component, including Earth\u2019s physical, chemical, and biological processes as related to resource demands and management. Examination of application of scientific method in helping to understand and solve sustainability problems. Case studies illustrating how natural and social scientists\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Introduction to sustainability with emphasis on environmental component, including Earth’s physical, chemical, and biological processes as related to resource demands and management. Examination of application of scientific method in helping to understand and solve sustainability problems. Case studies illustrating how natural and social scientists… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1571,7 +1621,7 @@
       "number": "15",
       "title": "Blue Planet: Introduction to Oceanography",
       "units": 5.0,
-      "description": "Lecture, three hours; laboratory, two hours. Not open for credit to students with credit for or currently enrolled in Ecology and Evolutionary Biology 25. General introduction to geological, physical, chemical, and biological processes and history of Earth\u2019s global ocean system. P/NP or letter grading.",
+      "description": "Lecture, three hours; laboratory, two hours. Not open for credit to students with credit for or currently enrolled in Ecology and Evolutionary Biology 25. General introduction to geological, physical, chemical, and biological processes and history of Earth’s global ocean system. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1649,10 +1699,21 @@
       "number": "104",
       "title": "Science of Engineering Materials",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B. General introduction to different types of materials used in engineering designs: metals, ceramics, plastics, and composites, relationship between structure (crystals and microstructure) and properties of technological materials. Illustration of their… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20A, 20B, 20L, Physics 1A. Corequisite: Physics 1B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 20A",
+          "CHEM 20B",
+          "CHEM 20L",
+          "PHYSICS 1A"
+        ],
+        "corequisites": [
+          "PHYSICS 1B"
+        ],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1662,8 +1723,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1691,8 +1752,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1719,8 +1780,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -1745,8 +1806,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -1774,8 +1835,8 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -1804,8 +1865,8 @@
       "number": "33B",
       "title": "Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C– or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B"
@@ -1825,10 +1886,18 @@
       "number": "101",
       "title": "Statics and Strength of Materials",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 31A, 31B, Physics 1A. Review of vector representation of forces, resultant force and moment, equilibrium of concurrent and nonconcurrent forces. Area moments and products of inertia. Support reactions, free-body diagrams. Forces in simple models of mechanical and aerospace\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mathematics 31A, 31B, Physics 1A. Review of vector representation of forces, resultant force and moment, equilibrium of concurrent and nonconcurrent forces. Area moments and products of inertia. Support reactions, free-body diagrams. Forces in simple models of mechanical and aerospace… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 31A, 31B, Physics 1A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31A",
+          "MATH 31B",
+          "PHYSICS 1A"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1859,10 +1928,17 @@
       "number": "105A",
       "title": "Introduction to Engineering Thermodynamics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Chemistry 20B, Mathematics 32B. Phenomenological thermodynamics. Concepts of equilibrium, temperature, and reversibility. First law and concept of energy; second law and concept of entropy. Equations of state and thermodynamic properties. Engineering applications of these principles in analysis and design\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Chemistry 20B, Mathematics 32B. Phenomenological thermodynamics. Concepts of equilibrium, temperature, and reversibility. First law and concept of energy; second law and concept of entropy. Equations of state and thermodynamic properties. Engineering applications of these principles in analysis and design… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Chemistry 20B, Mathematics 32B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "CHEM 20B",
+          "MATH 32B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -1872,7 +1948,7 @@
       "number": "82",
       "title": "Mathematics of Engineering",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Mathematics 33A. Recommended requisite: course M20. Methods of solving ordinary differential equations in engineering. Review of matrix algebra, eigenvalues, and eigenvectors. Solution of systems of first-order ordinary differential equations using matrix methods. Introduction to Laplace transforms and their application\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Mathematics 33A. Recommended requisite: course M20. Methods of solving ordinary differential equations in engineering. Review of matrix algebra, eigenvalues, and eigenvectors. Solution of systems of first-order ordinary differential equations using matrix methods. Introduction to Laplace transforms and their application… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -1917,7 +1993,7 @@
       "number": "10",
       "title": "Brain Made Simple: Neuroscience for 21st Century",
       "units": 4.0,
-      "description": "Lecture, four hours. Preparation: high school background in either biology or chemistry. Not open for credit to students with credit for course M101A (or Molecular, Cell, and Developmental Biology M175A or Physiological Science M180A or Psychology M117A) or Physiological Science 111A or Psychology 115. General overview and introduction to most\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: high school background in either biology or chemistry. Not open for credit to students with credit for course M101A (or Molecular, Cell, and Developmental Biology M175A or Physiological Science M180A or Psychology M117A) or Physiological Science 111A or Psychology 115. General overview and introduction to most… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1986,7 +2062,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [

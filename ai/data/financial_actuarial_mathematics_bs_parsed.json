@@ -157,14 +157,18 @@
       "number": "10B",
       "title": "Intermediate Programming",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "COMPTNG 10A",
-          "COM SCI 31"
+          [
+            "COMPTNG 10A"
+          ],
+          [
+            "COM SCI 31"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -218,8 +222,8 @@
       "number": "16A",
       "title": "Python with Applications I",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C\u2013 or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 10A, Computer Science 31, or equivalent, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C– or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 10A, Computer Science 31, or equivalent, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -242,14 +246,18 @@
       "number": "20A",
       "title": "Principles of Java Language with Applications",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "COMPTNG 10A",
-          "COMPTNG 31"
+          [
+            "COMPTNG 10A"
+          ],
+          [
+            "COMPTNG 31"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -264,8 +272,8 @@
       "number": "40A",
       "title": "Introduction to Programming for Internet",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C\u2013 or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C– or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3… For more content click the Read More button below.",
+      "prereqs_raw": "Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -332,7 +340,19 @@
       "description": "Lecture, three hours; computer laboratory, one hour. Requisites: course 11, Mathematics 32A, either Statistics 100A or Mathematics 170A. Economics of financial markets, competitive equilibrium with time and uncertainty, one period security market model, market completeness. P/NP or letter grading.",
       "prereqs_raw": "Requisites: course 11, Mathematics 32A, either Statistics 100A or Mathematics 170A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "ECON 11",
+          "MATH 32A"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "STAT 100A",
+            "MATH 170A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -380,7 +400,7 @@
       "number": "11N",
       "title": "Gateway to Mathematics: Number Theory",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introductory number theory course for freshmen and sophomores. Topics include prime number theory and cryptographic applications, factorization theory (in integers and Gaussian integers), Pythagorean triples, Fermat descent (for sums of squares and Fermat quartic), Pell\u2019s equation, and Diophantine approximation. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introductory number theory course for freshmen and sophomores. Topics include prime number theory and cryptographic applications, factorization theory (in integers and Gaussian integers), Pythagorean triples, Fermat descent (for sums of squares and Fermat quartic), Pell’s equation, and Diophantine approximation. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 31A, 31B.",
       "prereqs_parsed": {
         "required": [
@@ -420,7 +440,7 @@
       "number": "170E",
       "title": "Introduction to Probability and Statistics 1: Probability",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 32B. Highly recommended: course 61 or 70. Not open to students with credit for course 170A, Electrical and Computer Engineering 131A, or Statistics 100A. Introduction to probability theory with emphasis on topics relevant to applications. Topics include discrete (binomial, Poisson, etc.) and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 32B. Highly recommended: course 61 or 70. Not open to students with credit for course 170A, Electrical and Computer Engineering 131A, or Statistics 100A. Introduction to probability theory with emphasis on topics relevant to applications. Topics include discrete (binomial, Poisson, etc.) and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 32B.",
       "prereqs_parsed": {
         "required": [
@@ -442,7 +462,7 @@
       "number": "170S",
       "title": "Introduction to Probability and Statistics 2: Statistics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A. Not open to students with credit for Statistics 100B. Introduction to statistics. Topics include sampling, estimation (maximum likelihood and Bayesian), properties of estimators, regression, confidence intervals, hypotheses testing, analysis of variance. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A. Not open to students with credit for Statistics 100B. Introduction to statistics. Topics include sampling, estimation (maximum likelihood and Bayesian), properties of estimators, regression, confidence intervals, hypotheses testing, analysis of variance. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A.",
       "prereqs_parsed": {
         "required": [
@@ -471,7 +491,7 @@
       "number": "174E",
       "title": "Mathematics of Finance for Mathematics/Economics Students",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 33A, and 170A or 170E or Statistics 100A. Not open for credit to students with credit for course 174A, Economics 141, or Statistics C183/C283. Mathematical modeling of financial securities in discrete and continuous time. Forwards, futures, hedging, swaps, uses and pricing\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 33A, and 170A or 170E or Statistics 100A. Not open for credit to students with credit for course 174A, Economics 141, or Statistics C183/C283. Mathematical modeling of financial securities in discrete and continuous time. Forwards, futures, hedging, swaps, uses and pricing… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 33A, and 170A or 170E or Statistics 100A.",
       "prereqs_parsed": {
         "required": [
@@ -520,7 +540,24 @@
       "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 170A or 170E (or Statistics 100A), 175 or 177. Introduction to mathematics associated with long-term insurance coverages. Single- and multiple-life survival models, annuities, premium calculations and policy values, reserves, pension plans and retirement benefits. Letter grading.",
       "prereqs_raw": "Requisites: courses 32B, 170A or 170E (or Statistics 100A), 175 or 177.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 32B",
+          "MATH 175"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "MATH 170A",
+            "MATH 170E",
+            "STAT 100A"
+          ],
+          [
+            "MATH 175",
+            "MATH 177"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "MATH 178B"
@@ -578,7 +615,7 @@
       "number": "179",
       "title": "Advanced Topic in Financial Mathematics",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 174E. Continuation of course 174E. In-depth study of risk measures and instruments of risk management in investment portfolios and corporate financial structure. Exotic and real options, value at risk, mean-variance analysis, portfolio optimization, risk analysis, capital asset pricing model, market efficiency, and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 174E. Continuation of course 174E. In-depth study of risk measures and instruments of risk management in investment portfolios and corporate financial structure. Exotic and real options, value at risk, mean-variance analysis, portfolio optimization, risk analysis, capital asset pricing model, market efficiency, and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 174E.",
       "prereqs_parsed": {
         "required": [
@@ -600,7 +637,15 @@
       "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, 61. Strongly recommended: course 115A. Designed for mathematics and computer science and engineering students. Graphs and trees. Planarity, graph colorings. Set systems. Ramsey theory. Random graphs. Linear algebra methods. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 31A, 31B, 61.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31A",
+          "MATH 31B",
+          "MATH 61"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -610,8 +655,8 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -640,8 +685,8 @@
       "number": "31AL",
       "title": "Differential and Integral Calculus Laboratory",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Not open for credit to students with credit\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Not open for credit to students with credit… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -661,8 +706,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -689,8 +734,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -712,8 +757,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -737,8 +782,8 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
@@ -764,10 +809,16 @@
       "number": "33B",
       "title": "Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C– or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 31B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "MATH 131A"
@@ -779,7 +830,7 @@
       "number": "42",
       "title": "Introduction to Data-Driven Mathematical Modeling: Life, Universe, and Everything",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, 32A, 32B, 33A, one statistics course from Statistics 10, 12, 13, one programming course from Computer Science 31, Program in Computing 10A, Statistics 20. Introduction to data-driven mathematical modeling combing data analysis with mechanistic modeling of phenomena from various applications.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, 32A, 32B, 33A, one statistics course from Statistics 10, 12, 13, one programming course from Computer Science 31, Program in Computing 10A, Statistics 20. Introduction to data-driven mathematical modeling combing data analysis with mechanistic modeling of phenomena from various applications.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 31A, 31B, 32A, 32B, 33A, one statistics course from Statistics 10, 12, 13, one programming course from Computer Science 31, Program in Computing 10A, Statistics 20.",
       "prereqs_parsed": {
         "required": [
@@ -833,7 +884,7 @@
       "number": "70",
       "title": "Introduction to Probability",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introduction to probability through applications and examples. Topics include laws of large numbers, statistics, chance trees, conditional probability, Bayes\u2019 rule, continuous and discrete random variables, jointly distributed random variables, multivariate normal and conditional distributions. In-depth discussion of betting schemes in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introduction to probability through applications and examples. Topics include laws of large numbers, statistics, chance trees, conditional probability, Bayes’ rule, continuous and discrete random variables, jointly distributed random variables, multivariate normal and conditional distributions. In-depth discussion of betting schemes in… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 31A, 31B.",
       "prereqs_parsed": {
         "required": [
@@ -866,14 +917,18 @@
       "number": "100C",
       "title": "Linear Models",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Mathematics 170S. Theory of linear models, with emphasis on matrix approach to linear regression. Topics include model fitting, extra sums of squares principle, testing general linear hypothesis in regression, inference procedures, Gauss/Markov theorem, examination of residuals, principle component regression,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100B or Mathematics 170S. Theory of linear models, with emphasis on matrix approach to linear regression. Topics include model fitting, extra sums of squares principle, testing general linear hypothesis in regression, inference procedures, Gauss/Markov theorem, examination of residuals, principle component regression,… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100B or Mathematics 170S.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "STATS 100B",
-          "MATH 170S"
+          [
+            "STATS 100B"
+          ],
+          [
+            "MATH 170S"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -886,7 +941,7 @@
       "number": "C183",
       "title": "Statistical Models in Finance",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 100B. Designed for juniors/seniors and graduate students. Statistical techniques in investment theory using real market data. Portfolio management, risk diversification, efficient frontier, single index model, capital asset pricing model (CAPM), beta of a stock, European and American options (Black/Scholes model, binomial model). Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 100B. Designed for juniors/seniors and graduate students. Statistical techniques in investment theory using real market data. Portfolio management, risk diversification, efficient frontier, single index model, capital asset pricing model (CAPM), beta of a stock, European and American options (Black/Scholes model, binomial model). Concurrently scheduled with… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 100B.",
       "prereqs_parsed": {
         "required": [

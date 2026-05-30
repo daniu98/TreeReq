@@ -233,7 +233,7 @@
       "number": "30",
       "title": "Languages and Cultures of Asia",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Comparative perspective on Asian languages, with emphasis on three major East Asian languages\u2014Chinese, Japanese, and Korean\u2014to show what they share and how they differ in terms of linguistic features, historical development, and larger cultural settings in which these three languages are used. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Comparative perspective on Asian languages, with emphasis on three major East Asian languages—Chinese, Japanese, and Korean—to show what they share and how they differ in terms of linguistic features, historical development, and larger cultural settings in which these three languages are used. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -246,7 +246,7 @@
       "number": "10",
       "title": "Intermediate Modern Japanese: Intensive",
       "units": 15.0,
-      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 3 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Intensive course equivalent to courses 4, 5, and 6. Readings in modern\u2026 For more content click the Read More button below.",
+      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 3 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Intensive course equivalent to courses 4, 5, and 6. Readings in modern… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 3 with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [
@@ -269,7 +269,7 @@
       "number": "100A",
       "title": "Advanced Modern Japanese",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 6 or 10 with grade of C or better or Japanese placement test. Course 100A with grade of C or better or Japanese placement test is enforced requisite to 100B; course 100B with grade of C or better or Japanese placement test\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 6 or 10 with grade of C or better or Japanese placement test. Course 100A with grade of C or better or Japanese placement test is enforced requisite to 100B; course 100B with grade of C or better or Japanese placement test… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 6 or 10 with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -293,7 +293,7 @@
       "number": "100B",
       "title": "Advanced Modern Japanese",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100A with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Learning Japanese language with emphasis on sociocultural issues of contemporary Japanese society. Materials\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100A with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Learning Japanese language with emphasis on sociocultural issues of contemporary Japanese society. Materials… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 100A with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -316,7 +316,7 @@
       "number": "100C",
       "title": "Advanced Modern Japanese",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100B with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Learning Japanese language with emphasis on sociocultural issues of contemporary Japanese society. Materials\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 100B with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Learning Japanese language with emphasis on sociocultural issues of contemporary Japanese society. Materials… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 100B with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -349,7 +349,7 @@
       "number": "100R",
       "title": "Third-Year Advanced Reading in Modern Japanese",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test. Not open to students with credit for course 100A or who have learned, from whatever source, enough Japanese to qualify for more advanced courses. May be taken concurrently with course 100A.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test. Not open to students with credit for course 100A or who have learned, from whatever source, enough Japanese to qualify for more advanced courses. May be taken concurrently with course 100A.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -371,10 +371,19 @@
       "number": "100S",
       "title": "Advanced Modern Japanese: Intensive",
       "units": 12.0,
-      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Intensive course equivalent to courses 100A, 100B, and 100C. Learning\u2026 For more content click the Read More button below.",
+      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Intensive course equivalent to courses 100A, 100B, and 100C. Learning… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 6 or 10 with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
-        "required": []
+        "required": [],
+        "corequisites": [],
+        "one_of": [
+          [
+            "JAPAN 6",
+            "JAPAN 10"
+          ]
+        ],
+        "min_grade": "C",
+        "recommended": []
       },
       "prereq_for": [
         "JAPAN 101A",
@@ -395,7 +404,7 @@
       "number": "101A",
       "title": "Fourth-Year Japanese: Advanced Reading",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -417,7 +426,7 @@
       "number": "101B",
       "title": "Fourth-Year Japanese: Advanced Reading",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -439,7 +448,7 @@
       "number": "101C",
       "title": "Fourth-Year Japanese: Advanced Reading",
       "units": 4.0,
-      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced coursework or research… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -459,9 +468,9 @@
       "course_id": "JAPAN 101S",
       "dept": "JAPAN",
       "number": "101S",
-      "title": "Fourth-Year Japanese: Advanced Reading\u00e2\u20ac\u201dIntensive",
+      "title": "Fourth-Year Japanese: Advanced Readingâ€”Intensive",
       "units": 12.0,
-      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced\u2026 For more content click the Read More button below.",
+      "description": "Lecture, 10 hours; discussion, 10 hours. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Not open to students who have learned, from whatever source, enough Japanese to qualify for more advanced courses. Advanced readings and discussion for students planning to do advanced… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -483,7 +492,7 @@
       "number": "103A",
       "title": "Fourth-Year Japanese: Advanced Speaking I",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better. Development of listening and speaking abilities for students who need focused attention to these skills. Also suitable for graduate students who need to advance their public speaking ability. Not intended for those\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better. Development of listening and speaking abilities for students who need focused attention to these skills. Also suitable for graduate students who need to advance their public speaking ability. Not intended for those… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better.",
       "prereqs_parsed": {
         "required": [],
@@ -505,7 +514,7 @@
       "number": "103B",
       "title": "Fourth-Year Japanese: Advanced Speaking II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better. Development of listening and speaking abilities for students who need focused attention to these skills. Also suitable for graduate students who need to advance their public speaking ability. Not intended for those\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better. Development of listening and speaking abilities for students who need focused attention to these skills. Also suitable for graduate students who need to advance their public speaking ability. Not intended for those… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better.",
       "prereqs_parsed": {
         "required": [],
@@ -527,7 +536,7 @@
       "number": "104",
       "title": "Business Japanese",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Designed to improve skills in Japanese in context of business transactions. To be successful business person, one must be equipped with advanced specialized oral and written communication skills\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test. Designed to improve skills in Japanese in context of business transactions. To be successful business person, one must be equipped with advanced specialized oral and written communication skills… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 100C or 100S with grade of C or better or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
@@ -549,7 +558,7 @@
       "number": "105A",
       "title": "Advanced Reading and Writing for Japanese-Heritage Speakers",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced preparation: Japanese placement test. Not open to students who have taken 100 series, 101 series, and/or 103 series courses or 104. Designed for advanced-level Japanese-heritage learners or nonheritage learners who are fluent in daily spoken Japanese. Emphasis on building vocabulary knowledge of Kanji,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced preparation: Japanese placement test. Not open to students who have taken 100 series, 101 series, and/or 103 series courses or 104. Designed for advanced-level Japanese-heritage learners or nonheritage learners who are fluent in daily spoken Japanese. Emphasis on building vocabulary knowledge of Kanji,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -562,7 +571,7 @@
       "number": "105B",
       "title": "Advanced Reading and Writing for Japanese-Heritage Speakers",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced preparation: Japanese placement test. Not open to students who have taken 100 series, 101 series, and/or 103 series courses or 104. Designed for advanced-level Japanese-heritage learners or nonheritage learners who are fluent in daily spoken Japanese. Emphasis on building vocabulary knowledge of Kanji,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced preparation: Japanese placement test. Not open to students who have taken 100 series, 101 series, and/or 103 series courses or 104. Designed for advanced-level Japanese-heritage learners or nonheritage learners who are fluent in daily spoken Japanese. Emphasis on building vocabulary knowledge of Kanji,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -808,14 +817,18 @@
       "number": "165",
       "title": "Introduction to Japanese Buddhist Texts",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 110A or Chinese 165 or Japanese placement test. Readings in premodern Buddhist texts written by Japanese in Sino-Japanese or Kambun and mixed Japanese/Chinese literary styles concerning textual commentaries, doctrinal treatises, hagiographies, temple histories, etc. Coverage varies. May be repeated for credit\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 110A or Chinese 165 or Japanese placement test. Readings in premodern Buddhist texts written by Japanese in Sino-Japanese or Kambun and mixed Japanese/Chinese literary styles concerning textual commentaries, doctrinal treatises, hagiographies, temple histories, etc. Coverage varies. May be repeated for credit… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 110A or Chinese 165 or Japanese placement test.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "JAPAN 110A",
-          "CHIN 165"
+          [
+            "JAPAN 110A"
+          ],
+          [
+            "CHIN 165"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -828,7 +841,7 @@
       "number": "170",
       "title": "Japanese Tales of Supernatural",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Readings of fictional works that feature supernatural beings, including Shinto gods, Buddhas, boddhisatvas, Yin-yang diviners, ghosts, various types of demons, shape-shifting foxes and raccoon dogs, snakes, and dragons. Exploration of different treatments of supernatural themes from ancient to modern\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Readings of fictional works that feature supernatural beings, including Shinto gods, Buddhas, boddhisatvas, Yin-yang diviners, ghosts, various types of demons, shape-shifting foxes and raccoon dogs, snakes, and dragons. Exploration of different treatments of supernatural themes from ancient to modern… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -860,7 +873,7 @@
       "number": "174",
       "title": "Classical Japanese Poetry",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Examination of classical poetry of Nara and Heian periods, with focus on poetry anthology called Man\u2019yoshu (Collection of Myriad Ages, 8th century) and on Kokinwakashu (Collection of Ancient and Modern Japanese Poems, early 10th century). Letter grading.",
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Examination of classical poetry of Nara and Heian periods, with focus on poetry anthology called Man’yoshu (Collection of Myriad Ages, 8th century) and on Kokinwakashu (Collection of Ancient and Modern Japanese Poems, early 10th century). Letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -949,7 +962,7 @@
       "number": "70",
       "title": "Images of Japan: Literature and Film",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese culture, literature, or language not required. Introduction to visual and textual images of Japan\u2019s literary heritage, including documentary and feature films based on Japan\u2019s literary classics. Letter grading.",
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese culture, literature, or language not required. Introduction to visual and textual images of Japan’s literary heritage, including documentary and feature films based on Japan’s literary classics. Letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -962,7 +975,7 @@
       "number": "75",
       "title": "Anime",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Discussion and analysis of seminal works of Japanese animation, or anime, created from 1980s to present. Engagement with works in variety of styles, and that deal with broad range of themes. Reading and discussion of recent scholarship on anime produced by scholars working in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Discussion and analysis of seminal works of Japanese animation, or anime, created from 1980s to present. Engagement with works in variety of styles, and that deal with broad range of themes. Reading and discussion of recent scholarship on anime produced by scholars working in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -975,7 +988,7 @@
       "number": "80",
       "title": "How Does It Move? Action and Moving Image in Modern Japan",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. How is action constituted on the screen? How has modern technological media informed and transformed our experience and understanding of action? Exploration of how our experience and conception of action is mediated by technological aesthetic media by tracing history of portrayal and experience of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. How is action constituted on the screen? How has modern technological media informed and transformed our experience and understanding of action? Exploration of how our experience and conception of action is mediated by technological aesthetic media by tracing history of portrayal and experience of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1033,7 +1046,7 @@
       "number": "C159",
       "title": "Variable Topics in Culture and Society in Japan",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Examination of relationship between culture (art, literature, film) and society in Japan. Reading, audio and visual material, discussion, and development of culminating project. May be repeated for credit with topic change. Concurrently scheduled with course C259. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Knowledge of Japanese not required. Examination of relationship between culture (art, literature, film) and society in Japan. Reading, audio and visual material, discussion, and development of culminating project. May be repeated for credit with topic change. Concurrently scheduled with course C259. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1124,7 +1137,7 @@
       "number": "CM127",
       "title": "Contrastive Analysis of Japanese and Korean",
       "units": 4.0,
-      "description": "(Same as Korean CM127 and Linguistics M178.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Korean CM127 and Linguistics M178.) Lecture, three hours; discussion, one hour. Recommended preparation: two years of Japanese and knowledge of Hangul, or two years of Korean and knowledge of Hiragana. Prior linguistic background also recommended. Critical reading and discussion of selected current research papers in syntax, pragmatics, discourse,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

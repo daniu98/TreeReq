@@ -183,7 +183,7 @@
       "number": "151",
       "title": "Ethnography of Everyday Speech",
       "units": 5.0,
-      "description": "Lecture, three hours; fieldwork. Requisite: course 4. Designed for juniors/seniors. Course has two interrelated objectives: (1) to introduce students to ethnography of communication\u2014description and analysis of situated communicative behavior\u2014and sociocultural knowledge that it reflects and (2) to train students to recognize, describe, and analyze relevant linguistic, proxemic, and kinesic aspects\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; fieldwork. Requisite: course 4. Designed for juniors/seniors. Course has two interrelated objectives: (1) to introduce students to ethnography of communication—description and analysis of situated communicative behavior—and sociocultural knowledge that it reflects and (2) to train students to recognize, describe, and analyze relevant linguistic, proxemic, and kinesic aspects… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 4.",
       "prereqs_parsed": {
         "required": [
@@ -202,7 +202,7 @@
       "number": "4",
       "title": "Culture and Communication",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor\u2019s degrees. Introduction to study of communication from anthropological perspective. Formal linguistic methods compared with ethnographically oriented methods focused on context-bound temporal unfolding of communicative activities. Topics include language in everyday life and ritual events, socialization, literacy, multilingualism, miscommunication,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Required as preparation for both bachelor’s degrees. Introduction to study of communication from anthropological perspective. Formal linguistic methods compared with ethnographically oriented methods focused on context-bound temporal unfolding of communicative activities. Topics include language in everyday life and ritual events, socialization, literacy, multilingualism, miscommunication,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -219,7 +219,7 @@
       "number": "M150",
       "title": "Language in Culture",
       "units": 5.0,
-      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "description": "(Same as Linguistics M146.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 4 or Linguistics 20. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 4 or Linguistics 20.",
       "prereqs_parsed": {
         "required": [],
@@ -241,7 +241,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -256,7 +256,7 @@
       "number": "32",
       "title": "Introduction to Computer Science II",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 31.",
       "prereqs_parsed": {
         "required": [
@@ -316,7 +316,7 @@
       "number": "10B",
       "title": "Intermediate Programming",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 10A or Computer Science 31.",
       "prereqs_parsed": {
         "required": [],
@@ -359,7 +359,7 @@
       "number": "102",
       "title": "Introduction to Applied Phonetics",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 103. Basics of articulation and acoustics of phonetic categories used in world\u2019s languages, including English in comparison with other languages. Practice in speech-sound perception and transcription using International\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: course 20. Not open for credit to students with credit for course 103. Basics of articulation and acoustics of phonetic categories used in world’s languages, including English in comparison with other languages. Practice in speech-sound perception and transcription using International… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 20.",
       "prereqs_parsed": {
         "required": [
@@ -408,7 +408,22 @@
       "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 102 or 103, 119A or 120A. Methods and theories appropriate to historical study of language, such as comparative method and method of internal reconstruction. Sound change, grammatical change, semantic change. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 20, 102 or 103, 119A or 120A.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 102",
+            "LING 103"
+          ],
+          [
+            "LING 119A",
+            "LING 120A"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -418,7 +433,7 @@
       "number": "114",
       "title": "American Indigenous Linguistics",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Strongly recommended preparation: course 20. Survey of genetic, areal, and typological classifications of American indigenous languages; writing systems for American indigenous languages; American indigenous languages in social and historical context. One or more languages may be investigated in detail. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Strongly recommended preparation: course 20. Survey of genetic, areal, and typological classifications of American indigenous languages; writing systems for American indigenous languages; American indigenous languages in social and historical context. One or more languages may be investigated in detail. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -431,7 +446,7 @@
       "number": "119A",
       "title": "Applied Phonology",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 20, and 102 or 103. Not open for credit to students with credit for course 120A. Sound structures and sound patterns in world\u2019s languages. Rules, rule ordering, features, syllable, and higher structure. Comparison of sound patterns of different languages.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 20, and 102 or 103. Not open for credit to students with credit for course 120A. Sound structures and sound patterns in world’s languages. Rules, rule ordering, features, syllable, and higher structure. Comparison of sound patterns of different languages.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 20, and 102 or 103.",
       "prereqs_parsed": {
         "required": [
@@ -461,7 +476,14 @@
       "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20, 103. Introduction to phonological theory and analysis. Rules, representations, underlying forms, derivations. Justification of phonological analyses. Emphasis on practical skills with problem sets. P/NP or letter grading.",
       "prereqs_raw": "Requisites: courses 20, 103.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20",
+          "LING 103"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "LING 160",
@@ -523,7 +545,7 @@
       "number": "127",
       "title": "Syntactic Typology and Universals",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 20. Study of essential similarities and differences among languages in grammatical devices they use to signal the following kinds of concepts: relations between nouns and verbs (case and word order), negation, comparison, existence/location/possession, causation, interrogation, reflexivization, relativization, attribution (adjectives), time… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 20.",
       "prereqs_parsed": {
         "required": [
@@ -542,10 +564,25 @@
       "number": "132",
       "title": "Language Processing",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour (when scheduled). Requisites: courses 20, 119A or 120A, 119B or 120B. Central issues in language comprehension and production, with emphasis on how theories in linguistics inform processing models. Topics include word understanding (with emphasis on spoken language), parsing, anaphora and inferencing, speech error models… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20, 119A or 120A, 119B or 120B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 20"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "LING 119A",
+            "LING 120A"
+          ],
+          [
+            "LING 119B",
+            "LING 120B"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": []
     },
@@ -555,7 +592,7 @@
       "number": "144",
       "title": "Fundamentals of Translation and Interpreting",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Recommended preparation: knowledge of English and at least one other language. Enforced requisite: course 20. Examination of salient lexical, structural, cultural, and social aspects of translating and interpreting between two languages or dialects. Survey of development of translation theories and rise of community interpreting\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Recommended preparation: knowledge of English and at least one other language. Enforced requisite: course 20. Examination of salient lexical, structural, cultural, and social aspects of translating and interpreting between two languages or dialects. Survey of development of translation theories and rise of community interpreting… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 20.",
       "prereqs_parsed": {
         "required": [
@@ -604,7 +641,7 @@
       "number": "161",
       "title": "Language Documentation",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20 (enforced), and 105 or 119A or 120A. Issues in documenting languages, including collection of primary data using linguistic field methods, organizing data into documents (annotated texts, dictionaries, multimedia presentations, technical articles), audiences for language documents (speakers of target languages,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 20 (enforced), and 105 or 119A or 120A. Issues in documenting languages, including collection of primary data using linguistic field methods, organizing data into documents (annotated texts, dictionaries, multimedia presentations, technical articles), audiences for language documents (speakers of target languages,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20 (enforced), and 105 or 119A or 120A.",
       "prereqs_parsed": {
         "required": [
@@ -612,9 +649,15 @@
         ],
         "corequisites": [],
         "one_of": [
-          "LING 105",
-          "LING 119A",
-          "LING 120A"
+          [
+            "LING 105"
+          ],
+          [
+            "LING 119A"
+          ],
+          [
+            "LING 120A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -648,7 +691,7 @@
       "number": "165B",
       "title": "Syntax II",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 120B. To be taken in term following completion of course 120B or as soon as possible thereafter. Recommended for students who plan to do graduate work in linguistics. Form of grammars, word formation, formal and substantive universals in syntax, relation… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 120B.",
       "prereqs_parsed": {
         "required": [
@@ -713,8 +756,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LING 119B",
-          "LING 120B"
+          [
+            "LING 119B"
+          ],
+          [
+            "LING 120B"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -727,10 +774,21 @@
       "number": "185A",
       "title": "Computational Linguistics I",
       "units": 5.0,
-      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; laboratory, one hour. Requisites: courses 120B, Program in Computing 10C (or Computer Science 32). Recommended: course 165B or 200B. Overview of formal computational ideas underlying kinds of grammars used in theoretical linguistics and psycholinguistics, and some connections to applications in natural language processing. Topics include recursion, relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 120B, Program in Computing 10C (or Computer Science 32).",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "LING 120B"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "PROGRAM IN COMPUTING 10C",
+            "COM SCI 32"
+          ]
+        ],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "LING 185B"
@@ -761,7 +819,7 @@
       "number": "198A",
       "title": "Honors Research in Linguistics I",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average. Requisite or corequisite: course 165A (or 200A) or 165B (or 200B). Recommended: completion of both courses 165A and 165B (or 200A and 200B) before or during term in which course 198A is taken. Limited to juniors/seniors. Development of honors thesis or comprehensive… For more content click the Read More button below.",
       "prereqs_raw": "Requisite or corequisite: course 165A (or 200A) or 165B (or 200B).",
       "prereqs_parsed": {
         "required": [],
@@ -845,14 +903,18 @@
       "number": "C104",
       "title": "Experimental Phonetics",
       "units": 5.0,
-      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 104.) Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 102 or 103. Survey of principal techniques of experimental phonetics. Use of laboratory equipment to investigate acoustic properties of speech. Topics include experimental design; theoretical basis of acoustic structure of speech sounds; computer-based speech processing and analysis.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102 or 103.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "LING 102",
-          "LING 103"
+          [
+            "LING 102"
+          ],
+          [
+            "LING 103"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -865,7 +927,7 @@
       "number": "M146",
       "title": "Language in Culture",
       "units": 5.0,
-      "description": "(Same as Anthropology M150.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 20 or Anthropology 4. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship\u2026 For more content click the Read More button below.",
+      "description": "(Same as Anthropology M150.) Lecture, three hours; discussion, one hour; fieldwork, two hours. Requisite: course 20 or Anthropology 4. Study of language as aspect of culture; relation of habitual thought and behavior to language; and language and classification of experience. Holistic approach to study of language, with emphasis on relationship… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 20 or Anthropology 4.",
       "prereqs_parsed": {
         "required": [],
@@ -920,7 +982,7 @@
       "number": "CM125",
       "title": "Talk and Social Institutions",
       "units": 4.0,
-      "description": "(Same as Communication M125.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Practices of communication and social interaction in number of major institutional sites in contemporary society. Setting varies but may include emergency services, police and courts, medicine, news interviews, and political oratory. Concurrently scheduled with course C258. P/NP\u2026 For more content click the Read More button below.",
+      "description": "(Same as Communication M125.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Practices of communication and social interaction in number of major institutional sites in contemporary society. Setting varies but may include emergency services, police and courts, medicine, news interviews, and political oratory. Concurrently scheduled with course C258. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

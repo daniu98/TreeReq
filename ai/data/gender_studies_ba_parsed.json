@@ -64,7 +64,7 @@
       "number": "10",
       "title": "Introduction to Gender Studies",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Introduction to key concepts in study of sex and gender. Exploration of topics such as gender socialization, body image, sexualities, masculinities, and women\u2019s subordination. Special emphasis on interaction of gender with other identity markers such as race, nation, ethnicity, sexuality, class, and other differences.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Introduction to key concepts in study of sex and gender. Exploration of topics such as gender socialization, body image, sexualities, masculinities, and women’s subordination. Special emphasis on interaction of gender with other identity markers such as race, nation, ethnicity, sexuality, class, and other differences.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -82,7 +82,7 @@
       "number": "102",
       "title": "Power",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Consideration of how feminist social movements have identified and challenged gender-based subordination and ways feminist theorists have conceived and critiqued traditional theories of power. How have women\u2019s and other social movements defined and challenged social, political, and economic\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Consideration of how feminist social movements have identified and challenged gender-based subordination and ways feminist theorists have conceived and critiqued traditional theories of power. How have women’s and other social movements defined and challenged social, political, and economic… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 10.",
       "prereqs_parsed": {
         "required": [
@@ -106,7 +106,7 @@
       "number": "103",
       "title": "Knowledge",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Exploration of social production of knowledge about gendered subjects and gender systems. Students engage key issues in feminist theory and feminist epistemology. How do feminist scholars identify and frame research questions? How is knowledge about marginalized subjects produced?\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Exploration of social production of knowledge about gendered subjects and gender systems. Students engage key issues in feminist theory and feminist epistemology. How do feminist scholars identify and frame research questions? How is knowledge about marginalized subjects produced?… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 10.",
       "prereqs_parsed": {
         "required": [
@@ -130,7 +130,7 @@
       "number": "104",
       "title": "Bodies",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Exploration of scholarly theories and histories of body, with focus on topics such as sex identities, sexuality, gendered violence, and reproductive politics. How has science, medicine, and culture sought to distinguish male from female in different historical periods\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Enforced requisite: course 10. Exploration of scholarly theories and histories of body, with focus on topics such as sex identities, sexuality, gendered violence, and reproductive politics. How has science, medicine, and culture sought to distinguish male from female in different historical periods… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 10.",
       "prereqs_parsed": {
         "required": [
@@ -154,7 +154,7 @@
       "number": "187",
       "title": "Senior Research Seminar: Gender Studies",
       "units": 4.0,
-      "description": "Seminar, three hours. Requisites: courses 10, 102, 103, 104. Designed for advanced junior/senior Gender Studies majors or minors. In-depth study of major theme in feminist research. Themes vary by instructor and term. Students pursue independent research related to course theme, with guidance from instructor, then share and critique other student\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Requisites: courses 10, 102, 103, 104. Designed for advanced junior/senior Gender Studies majors or minors. In-depth study of major theme in feminist research. Themes vary by instructor and term. Students pursue independent research related to course theme, with guidance from instructor, then share and critique other student… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 10, 102, 103, 104.",
       "prereqs_parsed": {
         "required": [
@@ -178,7 +178,7 @@
       "number": "195",
       "title": "Community or Corporate Internships in Gender Studies",
       "units": 2.0,
-      "description": "Tutorial, eight hours. Requisites: course 102 or 103 or 104, or two upper-division gender studies courses not in 189 to 199 series. Limited to juniors/seniors. Internship in supervised setting in community agency, organization, or business approved by program. Content of student work must apply gender analysis or be focused on\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, eight hours. Requisites: course 102 or 103 or 104, or two upper-division gender studies courses not in 189 to 199 series. Limited to juniors/seniors. Internship in supervised setting in community agency, organization, or business approved by program. Content of student work must apply gender analysis or be focused on… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 102 or 103 or 104, or two upper-division gender studies courses not in 189 to 199 series.",
       "prereqs_parsed": {
         "required": [],
@@ -204,15 +204,21 @@
       "number": "197",
       "title": "Individual Studies in Gender Studies",
       "units": 4.0,
-      "description": "Tutorial, four hours. Preparation: at least two upper-division gender studies courses. Requisite: course 102 or 103 or 104. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Content may include themes in feminist discourse, application of feminist theoretical perspectives to disciplinary field,\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, four hours. Preparation: at least two upper-division gender studies courses. Requisite: course 102 or 103 or 104. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Content may include themes in feminist discourse, application of feminist theoretical perspectives to disciplinary field,… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102 or 103 or 104.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "GENDER 102",
-          "GENDER 103",
-          "GENDER 104"
+          [
+            "GENDER 102"
+          ],
+          [
+            "GENDER 103"
+          ],
+          [
+            "GENDER 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -247,7 +253,7 @@
       "number": "198B",
       "title": "Honors Research in Gender Studies",
       "units": 4.0,
-      "description": "Tutorial, four hours. Enforced requisite: course 198A. Limited to junior/senior gender studies honors program students. Second term of three-term sequence to research and write honors thesis under direct supervision of faculty sponsor and in consultation with faculty cosponsor. Individual contract required. In Progress grading (credit to be given only on\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, four hours. Enforced requisite: course 198A. Limited to junior/senior gender studies honors program students. Second term of three-term sequence to research and write honors thesis under direct supervision of faculty sponsor and in consultation with faculty cosponsor. Individual contract required. In Progress grading (credit to be given only on… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 198A.",
       "prereqs_parsed": {
         "required": [
@@ -288,15 +294,21 @@
       "number": "199",
       "title": "Directed Research in Gender Studies",
       "units": 2.0,
-      "description": "Tutorial, to be arranged. Preparation: at least two upper-division gender studies courses, minimum 3.0 grade-point average. Requisite: course 102 or 103 or 104. Limited to junior/senior Gender Studies majors and minors. Supervised individual research or investigation under guidance of faculty mentor on specific topic within gender studies. Culminating paper or\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: at least two upper-division gender studies courses, minimum 3.0 grade-point average. Requisite: course 102 or 103 or 104. Limited to junior/senior Gender Studies majors and minors. Supervised individual research or investigation under guidance of faculty mentor on specific topic within gender studies. Culminating paper or… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102 or 103 or 104.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "GENDER 102",
-          "GENDER 103",
-          "GENDER 104"
+          [
+            "GENDER 102"
+          ],
+          [
+            "GENDER 103"
+          ],
+          [
+            "GENDER 104"
+          ]
         ],
         "min_grade": null,
         "recommended": []

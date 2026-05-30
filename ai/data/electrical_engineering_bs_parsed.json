@@ -126,7 +126,7 @@
       "number": "20A",
       "title": "Chemical Structure",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: high school chemistry or equivalent background and three and one half years of high school mathematics. Recommended preparation: high school physics. Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A. Not open to students with credit for course 14A. First term of… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: completion of Chemistry Diagnostic Test. Enforced corequisite: Mathematics 31A.",
       "prereqs_parsed": {
         "required": [],
@@ -145,7 +145,7 @@
       "number": "31",
       "title": "Introduction to Computer Science I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to computer science via theory, applications, and programming. Basic data types, operators and control structures. Input/output. Procedural and data abstraction. Introduction to object-oriented software development. Functions, recursion. Arrays, strings, pointers. Abstract data types, object-oriented programming. Examples and exercises from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -161,7 +161,7 @@
       "number": "32",
       "title": "Introduction to Computer Science II",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisite: course 31. Object-oriented software development. Abstract data type definition and use. Overloading, inheritance, polymorphism. Object-oriented view of data structures: stacks, queues, lists. Algorithm analysis. Trees, graphs, and associated algorithms. Searching and sorting. Case studies and exercises from computer… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 31.",
       "prereqs_parsed": {
         "required": [
@@ -182,7 +182,7 @@
       "number": "33",
       "title": "Introduction to Computer Organization",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, two hours; outside study, nine hours. Enforced requisite: course 32. Introductory course on computer architecture, assembly language, and operating systems fundamentals. Number systems, machine language, and assembly language. Procedure calls, stacks, interrupts, and traps. Assemblers, linkers, and loaders. Operating systems concepts: processes and process management, input/output\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, two hours; outside study, nine hours. Enforced requisite: course 32. Introductory course on computer architecture, assembly language, and operating systems fundamentals. Number systems, machine language, and assembly language. Procedure calls, stacks, interrupts, and traps. Assemblers, linkers, and loaders. Operating systems concepts: processes and process management, input/output… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 32.",
       "prereqs_parsed": {
         "required": [
@@ -201,7 +201,7 @@
       "number": "M51A",
       "title": "Logic Design of Digital Systems",
       "units": 4.0,
-      "description": "(Same as Electrical and Computer Engineering M16.) Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to digital systems. Specification and implementation of combinational and sequential systems. Standard logic modules and programmable logic arrays. Specification and implementation of algorithmic systems: data and control sections. Number systems and arithmetic\u2026 For more content click the Read More button below.",
+      "description": "(Same as Electrical and Computer Engineering M16.) Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to digital systems. Specification and implementation of combinational and sequential systems. Standard logic modules and programmable logic arrays. Specification and implementation of algorithmic systems: data and control sections. Number systems and arithmetic… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -216,7 +216,7 @@
       "number": "10",
       "title": "Circuit Theory I",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 3 (or Computer Science 1 or Materials Science 10), Mathematics 33A, Physics 1B. Corequisites: course 11L (enforced), Mathematics 33B. Introduction to linear circuit analysis. Resistive circuits, capacitors, inductors and ideal transformers, Kirchhoff laws, node and loop analysis, first-order\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 3 (or Computer Science 1 or Materials Science 10), Mathematics 33A, Physics 1B. Corequisites: course 11L (enforced), Mathematics 33B. Introduction to linear circuit analysis. Resistive circuits, capacitors, inductors and ideal transformers, Kirchhoff laws, node and loop analysis, first-order… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: course 3 (or Computer Science 1 or Materials Science 10), Mathematics 33A, Physics 1B. Corequisites: course 11L (enforced), Mathematics 33B.",
       "prereqs_parsed": {
         "required": [
@@ -297,7 +297,7 @@
       "number": "102",
       "title": "Systems and Signals",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Mathematics 33A. Corequisite: Mathematics 33B. Elements of differential equations, first- and second-order equations, variation of parameters method and method of undetermined coefficients, existence and uniqueness. Systems: input/output description, linearity, time-invariance, and causality. Impulse response functions, superposition and convolution integrals.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Mathematics 33A. Corequisite: Mathematics 33B. Elements of differential equations, first- and second-order equations, variation of parameters method and method of undetermined coefficients, existence and uniqueness. Systems: input/output description, linearity, time-invariance, and causality. Impulse response functions, superposition and convolution integrals.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: Mathematics 33A. Corequisite: Mathematics 33B.",
       "prereqs_parsed": {
         "required": [
@@ -323,7 +323,7 @@
       "number": "110",
       "title": "Circuit Theory II",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Enforced requisites: courses 10, M16 (or Computer Science M51A), 102. Corequisite: course 111L (enforced only for Computer Science and Engineering and Electrical Engineering majors). Sinusoidal excitation and phasors, AC steady state analysis, AC steady state power, network functions, poles and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Enforced requisites: courses 10, M16 (or Computer Science M51A), 102. Corequisite: course 111L (enforced only for Computer Science and Engineering and Electrical Engineering majors). Sinusoidal excitation and phasors, AC steady state analysis, AC steady state power, network functions, poles and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 10, M16 (or Computer Science M51A), 102. Corequisite: course 111L (enforced only for Computer Science and Engineering and Electrical Engineering majors).",
       "prereqs_parsed": {
         "required": [
@@ -417,7 +417,7 @@
       "number": "11L",
       "title": "Circuits Laboratory I",
       "units": 1.0,
-      "description": "Lecture, one hour; laboratory, one hour; outside study, one hour. Enforced corequisite: course 10. Experiments with basic circuits containing resistors, capacitors, inductors, and transformers. Ohm\u2019s law voltage and current division, Thevenin and Norton equivalent circuits, superposition, transient and steady state analysis. Letter grading.",
+      "description": "Lecture, one hour; laboratory, one hour; outside study, one hour. Enforced corequisite: course 10. Experiments with basic circuits containing resistors, capacitors, inductors, and transformers. Ohm’s law voltage and current division, Thevenin and Norton equivalent circuits, superposition, transient and steady state analysis. Letter grading.",
       "prereqs_raw": "Enforced corequisite: course 10.",
       "prereqs_parsed": {
         "required": [],
@@ -458,10 +458,17 @@
       "number": "131A",
       "title": "Probability and Statistics",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Requisites: Mathematics 32B, 33B. Introduction to basic concepts of probability, including random variables and vectors, distributions and densities, moments, characteristic functions, and limit theorems. Applications to communication, control, and signal processing. Introduction to computer simulation and generation of random events.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Requisites: Mathematics 32B, 33B. Introduction to basic concepts of probability, including random variables and vectors, distributions and densities, moments, characteristic functions, and limit theorems. Applications to communication, control, and signal processing. Introduction to computer simulation and generation of random events.… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: Mathematics 32B, 33B.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 32B",
+          "MATH 33B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "EC ENGR 132A",
@@ -474,7 +481,7 @@
       "number": "132A",
       "title": "Introduction to Communication Systems",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 102, 113, 131A. Review of basic probability, basics of hypothesis testing, sufficient statistics and waveform communication, signal-design tradeoffs for digital communications, basics of error control coding, intersymbol interference channels and orthogonal frequency division multiplexing (OFDM), basics of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 102, 113, 131A. Review of basic probability, basics of hypothesis testing, sufficient statistics and waveform communication, signal-design tradeoffs for digital communications, basics of error control coding, intersymbol interference channels and orthogonal frequency division multiplexing (OFDM), basics of… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 102, 113, 131A.",
       "prereqs_parsed": {
         "required": [
@@ -495,7 +502,7 @@
       "number": "133A",
       "title": "Applied Numerical Computing",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: course 131A, and Civil Engineering M20 or Computer Science 31 or Mechanical and Aerospace Engineering M20. Introduction to numerical computing/analysis; analytic formulations versus numerical solutions; floating-point representations and rounding errors. Review of MATLAB; mathematical software. Linear equations; LU\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: course 131A, and Civil Engineering M20 or Computer Science 31 or Mechanical and Aerospace Engineering M20. Introduction to numerical computing/analysis; analytic formulations versus numerical solutions; floating-point representations and rounding errors. Review of MATLAB; mathematical software. Linear equations; LU… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: course 131A, and Civil Engineering M20 or Computer Science 31 or Mechanical and Aerospace Engineering M20.",
       "prereqs_parsed": {
         "required": [
@@ -520,7 +527,7 @@
       "number": "141",
       "title": "Principles of Feedback Control",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 102. Mathematical modeling of physical control systems in form of differential equations and transfer functions. Design problems, system performance indices of feedback control systems via classical techniques, root-locus and frequency-domain methods. Computer-aided solution of design problems from\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 102. Mathematical modeling of physical control systems in form of differential equations and transfer functions. Design problems, system performance indices of feedback control systems via classical techniques, root-locus and frequency-domain methods. Computer-aided solution of design problems from… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 102.",
       "prereqs_parsed": {
         "required": [
@@ -539,7 +546,7 @@
       "number": "170A",
       "title": "Principles of Photonics",
       "units": 4.0,
-      "description": "Lecture, four hours; recitation, one hour; outside study, seven hours. Enforced requisites: courses 2, 101A. Development of solid foundation on essential principles of photonics from ground up with minimum prior knowledge on this subject. Topics include optical properties of materials, optical wave propagation and modes, optical interferometers and resonators, optical\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; recitation, one hour; outside study, seven hours. Enforced requisites: courses 2, 101A. Development of solid foundation on essential principles of photonics from ground up with minimum prior knowledge on this subject. Topics include optical properties of materials, optical wave propagation and modes, optical interferometers and resonators, optical… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 2, 101A.",
       "prereqs_parsed": {
         "required": [
@@ -581,7 +588,7 @@
       "number": "3",
       "title": "Introduction to Electrical Engineering",
       "units": 4.0,
-      "description": "Lecture, two hours; laboratory, two hours; outside study, eight hours. Introduction to field of electrical engineering. Basic circuits techniques with application to explanation of electrical engineering inventions such as telecommunications, electrical grid, automatic computing and control, and enabling device technology. Research frontiers of electrical engineering. Introduction to measurement and design\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; laboratory, two hours; outside study, eight hours. Introduction to field of electrical engineering. Basic circuits techniques with application to explanation of electrical engineering inventions such as telecommunications, electrical grid, automatic computing and control, and enabling device technology. Research frontiers of electrical engineering. Introduction to measurement and design… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -596,7 +603,7 @@
       "number": "M16",
       "title": "Logic Design of Digital Systems",
       "units": 4.0,
-      "description": "(Same as Computer Science M51A.) Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to digital systems. Specification and implementation of combinational and sequential systems. Standard logic modules and programmable logic arrays. Specification and implementation of algorithmic systems: data and control sections. Number systems and arithmetic algorithms. Error\u2026 For more content click the Read More button below.",
+      "description": "(Same as Computer Science M51A.) Lecture, four hours; discussion, two hours; outside study, six hours. Introduction to digital systems. Specification and implementation of combinational and sequential systems. Standard logic modules and programmable logic arrays. Specification and implementation of algorithmic systems: data and control sections. Number systems and arithmetic algorithms. Error… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -611,10 +618,21 @@
       "number": "31A",
       "title": "Differential and Integral Calculus",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better. Differential calculus and applications; introduction to integration. P/NP or letter\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better. Differential calculus and applications; introduction to integration. P/NP or letter… For more content click the Read More button below.",
+      "prereqs_raw": "Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C– or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MATH 1"
+        ],
+        "corequisites": [],
+        "one_of": [
+          [
+            "Mathematics Diagnostic Test",
+            "MATH 1"
+          ]
+        ],
+        "min_grade": "C-",
+        "recommended": []
       },
       "prereq_for": [
         "CHEM 20A",
@@ -629,8 +647,8 @@
       "number": "31B",
       "title": "Integration and Infinite Series",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C\u2013 or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
-      "prereqs_raw": "Requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with grade of C– or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+      "prereqs_raw": "Requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -654,8 +672,8 @@
       "number": "32A",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C\u2013 or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31A with grade of C– or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31A"
@@ -680,8 +698,8 @@
       "number": "32B",
       "title": "Calculus of Several Variables",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 31B and 32A, with grades of C– or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisites: courses 31B and 32A, with grades of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B",
@@ -704,15 +722,21 @@
       "number": "33A",
       "title": "Linear Algebra and Applications",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of C– or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course 3B or 31B or 32A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "MATH 3B",
-          "MATH 31B",
-          "MATH 32A"
+          [
+            "MATH 3B"
+          ],
+          [
+            "MATH 31B"
+          ],
+          [
+            "MATH 32A"
+          ]
         ],
         "min_grade": "C-",
         "recommended": []
@@ -730,8 +754,8 @@
       "number": "33B",
       "title": "Differential Equations",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C\u2013 or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
-      "prereqs_raw": "Enforced requisite: course 31B with grade of C\u2013 or better.",
+      "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 31B with grade of C– or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+      "prereqs_raw": "Enforced requisite: course 31B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MATH 31B"
@@ -808,7 +832,7 @@
       "number": "1C",
       "title": "Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
       "units": 5.0,
-      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere\u2019s law, Faraday\u2019s law, inductance, and alternating current circuits. Maxwell\u2019s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
+      "description": "Lecture/demonstration, four hours; discussion, one hour. Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A. Magnetic fields, Ampere’s law, Faraday’s law, inductance, and alternating current circuits. Maxwell’s equations, electromagnetic waves, light, geometrical optics, interference and diffraction. Special relativity. P/NP or letter grading.",
       "prereqs_raw": "Enforced requisites: course 1A, 1B, Mathematics 32A, 32B. Enforced corequisite: Mathematics 33A.",
       "prereqs_parsed": {
         "required": [
@@ -867,7 +891,7 @@
       "number": "4BL",
       "title": "Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH. Sound waves and electric circuits, taken by digital oscilloscopes and analyzed by Fourier transformation. Geometrical and physical optics. Conception, execution, and presentation of creative projects involving sound waves or electric circuits. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 1A or 1AH, 1B or 1BH. Enforced corequisite: course 1C or 1CH.",
       "prereqs_parsed": {
         "required": [],

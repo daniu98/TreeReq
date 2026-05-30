@@ -452,18 +452,42 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "ART HIS 20",
-          "ART HIS 21",
-          "ART HIS 22",
-          "ART HIS 23",
-          "ART HIS 24",
-          "ART HIS 25",
-          "ART HIS 26",
-          "ART HIS 27",
-          "ART HIS 28",
-          "ART HIS 29",
-          "ART HIS 30",
-          "ART HIS 31"
+          [
+            "ART HIS 20"
+          ],
+          [
+            "ART HIS 21"
+          ],
+          [
+            "ART HIS 22"
+          ],
+          [
+            "ART HIS 23"
+          ],
+          [
+            "ART HIS 24"
+          ],
+          [
+            "ART HIS 25"
+          ],
+          [
+            "ART HIS 26"
+          ],
+          [
+            "ART HIS 27"
+          ],
+          [
+            "ART HIS 28"
+          ],
+          [
+            "ART HIS 29"
+          ],
+          [
+            "ART HIS 30"
+          ],
+          [
+            "ART HIS 31"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -476,7 +500,7 @@
       "number": "127B",
       "title": "European Art of 19th Century",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 23. Neoclassicism and Romanticism, with emphasis on France\u2014development and influence of David, Ingres, and Delacroix. P/NP or letter grading.",
+      "description": "Lecture, three hours. Requisite: course 23. Neoclassicism and Romanticism, with emphasis on France—development and influence of David, Ingres, and Delacroix. P/NP or letter grading.",
       "prereqs_raw": "Requisite: course 23.",
       "prereqs_parsed": {
         "required": [
@@ -527,7 +551,7 @@
       "number": "133D",
       "title": "Architecture in U.S.",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. Introduction to architecture built in U.S. over last 5,000 years. Architecture as vehicle for political and cultural authority, citizenship, ethnic and social identity; its role in defining place and our relationship to natural environment and as vehicle for asserting human control over natural world;\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Introduction to architecture built in U.S. over last 5,000 years. Architecture as vehicle for political and cultural authority, citizenship, ethnic and social identity; its role in defining place and our relationship to natural environment and as vehicle for asserting human control over natural world;… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -540,7 +564,7 @@
       "number": "133E",
       "title": "American Houses",
       "units": 4.0,
-      "description": "Lecture, three hours. Many historians consider single-family houses to be one of two most American contributions to world architecture (next to skyscrapers). Examination of this claim critically by placing single-family houses in broader context of varied dwellings built and occupied by residents of present-day U.S. over last 500 years, including\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Many historians consider single-family houses to be one of two most American contributions to world architecture (next to skyscrapers). Examination of this claim critically by placing single-family houses in broader context of varied dwellings built and occupied by residents of present-day U.S. over last 500 years, including… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -607,7 +631,7 @@
       "number": "152A",
       "title": "Arts of Korea",
       "units": 4.0,
-      "description": "Lecture, three hours; museum field trip. Introduction to arts and archaeology on Korean peninsula from Neolithic beginnings to early 20th century through analysis and discussion of selection of monuments and objects within technological, stylistic, religious, cultural, and sociopolitical contexts. Examination of construction of concepts of history and art under colonial\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; museum field trip. Introduction to arts and archaeology on Korean peninsula from Neolithic beginnings to early 20th century through analysis and discussion of selection of monuments and objects within technological, stylistic, religious, cultural, and sociopolitical contexts. Examination of construction of concepts of history and art under colonial… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -687,7 +711,7 @@
       "number": "197A",
       "title": "Individual Studies in Art History",
       "units": 2.0,
-      "description": "Tutorial, to be arranged. Preparation: 3.0 grade-point average in major. Limited to seniors. Individual intensive study for majors, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for maximum of 8 units. Eight units\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: 3.0 grade-point average in major. Limited to seniors. Individual intensive study for majors, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for maximum of 8 units. Eight units… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -700,7 +724,7 @@
       "number": "197B",
       "title": "Individual Capstone Studies",
       "units": 2.0,
-      "description": "Tutorial, two hours. Limited to departmental junior/senior majors and minors. Guided study led by faculty supervisor. Instructor meets with student to help design culminating capstone project so it conforms to departmental capstone project guidelines. Must be taken in conjunction and concurrently with one upper-division departmental course. May not be repeated\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, two hours. Limited to departmental junior/senior majors and minors. Guided study led by faculty supervisor. Instructor meets with student to help design culminating capstone project so it conforms to departmental capstone project guidelines. Must be taken in conjunction and concurrently with one upper-division departmental course. May not be repeated… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -713,7 +737,7 @@
       "number": "198A",
       "title": "Honors Research in Art History",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: completion of minimum of four upper-division art history courses with 3.5 departmental grade-point average and overall 3.0 grade-point average. Limited to junior/senior Art History and History/Art History majors. Two-term independent research project under supervision of appropriate faculty member, culminating in departmental honors thesis of approximately\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of four upper-division art history courses with 3.5 departmental grade-point average and overall 3.0 grade-point average. Limited to junior/senior Art History and History/Art History majors. Two-term independent research project under supervision of appropriate faculty member, culminating in departmental honors thesis of approximately… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -726,7 +750,7 @@
       "number": "198B",
       "title": "Honors Research in Art History",
       "units": 4.0,
-      "description": "Tutorial, to be arranged. Preparation: completion of minimum of four upper-division art history courses with 3.5 departmental grade-point average and overall 3.0 grade-point average. Limited to junior/senior Art History and History/Art History majors. Two-term independent research project under supervision of appropriate faculty member, culminating in departmental honors thesis of approximately\u2026 For more content click the Read More button below.",
+      "description": "Tutorial, to be arranged. Preparation: completion of minimum of four upper-division art history courses with 3.5 departmental grade-point average and overall 3.0 grade-point average. Limited to junior/senior Art History and History/Art History majors. Two-term independent research project under supervision of appropriate faculty member, culminating in departmental honors thesis of approximately… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -817,7 +841,7 @@
       "number": "24",
       "title": "ART HIS 24",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Introduction to study of architectural history through examination of built world of past two centuries. Building technologies and forms of economic, social, and political life have produced modern built environment that is both diverse and increasingly connected. Focus on factors that have affected architecture\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Introduction to study of architectural history through examination of built world of past two centuries. Building technologies and forms of economic, social, and political life have produced modern built environment that is both diverse and increasingly connected. Focus on factors that have affected architecture… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -832,7 +856,7 @@
       "number": "25",
       "title": "ART HIS 25",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour; museum field trips. General introduction to study of museums in their social and historical contexts. Examination of debates about museum\u2019s role in society through case studies and analysis of exhibitions in range of museums including art, history, and ethnographic museums. P/NP or letter grading.",
+      "description": "Lecture, three hours; discussion, one hour; museum field trips. General introduction to study of museums in their social and historical contexts. Examination of debates about museum’s role in society through case studies and analysis of exhibitions in range of museums including art, history, and ethnographic museums. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1100,7 +1124,7 @@
       "number": "C128A",
       "title": "History of Photography, 1839 to 1910",
       "units": 4.0,
-      "description": "Lecture, three hours. Study of origin, social functions, and development of photography in 19th and early 20th centuries, from Ni\u00e9pce to Atget. Concurrently scheduled with course C228A. P/NP or letter grading.",
+      "description": "Lecture, three hours. Study of origin, social functions, and development of photography in 19th and early 20th centuries, from Niépce to Atget. Concurrently scheduled with course C228A. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1113,7 +1137,7 @@
       "number": "C128B",
       "title": "History of Photography, 1910 to Present",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour. History of photography in 20th century, with special attention to photography\u2019s entrance into project of avant-garde and its role in formation of postmodern aesthetic. Concurrently scheduled with course C228B. P/NP or letter grading.",
+      "description": "Lecture, three hours; discussion, one hour. History of photography in 20th century, with special attention to photography’s entrance into project of avant-garde and its role in formation of postmodern aesthetic. Concurrently scheduled with course C228B. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1139,7 +1163,7 @@
       "number": "C129A",
       "title": "Modern Art, 1900 to 1950",
       "units": 4.0,
-      "description": "Lecture, three hours. Inquiry into 20th-century modernism from Fauvism to abstract expressionism. Topics include primitivism, gender, and sexuality in modernist art; origins of abstraction, collage, photomontage, and ready-made; rise of automatism and chance procedures; art, utopia, and political revolution; antimodernism and fascism; mass culture, machine paradigm, and work of art\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Inquiry into 20th-century modernism from Fauvism to abstract expressionism. Topics include primitivism, gender, and sexuality in modernist art; origins of abstraction, collage, photomontage, and ready-made; rise of automatism and chance procedures; art, utopia, and political revolution; antimodernism and fascism; mass culture, machine paradigm, and work of art… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1152,7 +1176,7 @@
       "number": "C129B",
       "title": "Dada, 1915 to 1923",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Introduction to modernism and historical avant-garde of early 20th century, tracing in detail emergence of Dada avant-garde in its various geographical locales during and after World War I. Visual art, literature, film, and performance addressed, with special attention to invention of series\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Introduction to modernism and historical avant-garde of early 20th century, tracing in detail emergence of Dada avant-garde in its various geographical locales during and after World War I. Visual art, literature, film, and performance addressed, with special attention to invention of series… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1165,7 +1189,7 @@
       "number": "C129C",
       "title": "Surrealism, 1924 to 1939",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Study of art, literature, and film associated with surrealist movement in France, with special attention to dissident surrealism of writer and philosopher Georges Bataille, as well as to challenge to art history posed by surrealism\u2019s engagement with lessons of psychoanalysis. Concurrently scheduled\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Study of art, literature, and film associated with surrealist movement in France, with special attention to dissident surrealism of writer and philosopher Georges Bataille, as well as to challenge to art history posed by surrealism’s engagement with lessons of psychoanalysis. Concurrently scheduled… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1306,7 +1330,7 @@
       "number": "C139C",
       "title": "Inca Art and Architecture",
       "units": 4.0,
-      "description": "Lecture, three hours. Exploration of art, architecture, and urbanism of Incas from their empire\u2019s height in late 15th century to their political and cultural fragmentation during Spanish occupation of Andes (1532 to 1824). Concurrently scheduled with course C239C. P/NP or letter grading.",
+      "description": "Lecture, three hours. Exploration of art, architecture, and urbanism of Incas from their empire’s height in late 15th century to their political and cultural fragmentation during Spanish occupation of Andes (1532 to 1824). Concurrently scheduled with course C239C. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1371,7 +1395,7 @@
       "number": "C145B",
       "title": "Contemporary Arts of Africa",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Survey of African visual practices since mid-20th century, with special emphasis on changing meaning of art object, status of African artist, global reception of contemporary African art, and very definitions of contemporary African art. Concurrently scheduled with course C245B. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Survey of African visual practices since mid-20th century, with special emphasis on changing meaning of art object, status of African artist, global reception of contemporary African art, and very definitions of contemporary African art. Concurrently scheduled with course C245B. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1449,7 +1473,7 @@
       "number": "C148E",
       "title": "Art in Modern China",
       "units": 4.0,
-      "description": "Lecture, three hours. Concentrated look at major schools and masters of Chinese art from turn of 20th century to present, with focus on interaction with foreign cultures and issues of self-identity, assimilation, modernity, tradition, and continuity. Consideration of recent developments in Chinese art in global context. Concurrently scheduled with course\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Concentrated look at major schools and masters of Chinese art from turn of 20th century to present, with focus on interaction with foreign cultures and issues of self-identity, assimilation, modernity, tradition, and continuity. Consideration of recent developments in Chinese art in global context. Concurrently scheduled with course… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1656,7 +1680,7 @@
       "number": "CM135B",
       "title": "African American Art, 1900 to 1963",
       "units": 4.0,
-      "description": "(Same as African American Studies CM135B.) Lecture, three hours. Detailed inquiry into work of African American artists from Columbian Exposition to 1963 March on Washington within context of social, political, and cultural engagement, as well as in codification of modern black life in U.S. Concurrently scheduled with course CM235B. P/NP\u2026 For more content click the Read More button below.",
+      "description": "(Same as African American Studies CM135B.) Lecture, three hours. Detailed inquiry into work of African American artists from Columbian Exposition to 1963 March on Washington within context of social, political, and cultural engagement, as well as in codification of modern black life in U.S. Concurrently scheduled with course CM235B. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1727,7 +1751,7 @@
       "number": "M110C",
       "title": "Ancient Egyptian Temple and City of Thebes",
       "units": 4.0,
-      "description": "(Same as Ancient Near East M101C.) Lecture, four hours; fieldwork, one hour. Focus on ancient temples of city of Thebes (modern day Luxor). Theban temples are some of best-preserved cult buildings in all of Egypt, and their study illuminates traditions of artistic representation, architectural development, and social and political transformations\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ancient Near East M101C.) Lecture, four hours; fieldwork, one hour. Focus on ancient temples of city of Thebes (modern day Luxor). Theban temples are some of best-preserved cult buildings in all of Egypt, and their study illuminates traditions of artistic representation, architectural development, and social and political transformations… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1881,7 +1905,7 @@
       "number": "M114A",
       "title": "Classical Archaeology: Greco-Roman Architecture",
       "units": 4.0,
-      "description": "(Same as Classics M153I.) Lecture, three hours. Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A. Knowledge of Greek and Latin not required. General introduction to study of Aegean, Greek, and Roman architecture, sculpture, and painting. May be repeated for credit with department consent. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "(Same as Classics M153I.) Lecture, three hours. Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A. Knowledge of Greek and Latin not required. General introduction to study of Aegean, Greek, and Roman architecture, sculpture, and painting. May be repeated for credit with department consent. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A.",
       "prereqs_parsed": {
         "required": [],
@@ -1907,7 +1931,7 @@
       "number": "M114B",
       "title": "Classical Archaeology: Greco-Roman Sculpture",
       "units": 4.0,
-      "description": "(Same as Classics M153J.) Lecture, three hours. Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A. Knowledge of Greek and Latin not required. General introduction to study of Aegean, Greek, and Roman architecture, sculpture, and painting. May be repeated for credit with department consent. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "(Same as Classics M153J.) Lecture, three hours. Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A. Knowledge of Greek and Latin not required. General introduction to study of Aegean, Greek, and Roman architecture, sculpture, and painting. May be repeated for credit with department consent. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: one course from 20, Classics 10, 20, 51A, 51B, or History 1A.",
       "prereqs_parsed": {
         "required": [],

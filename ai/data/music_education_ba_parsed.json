@@ -221,7 +221,7 @@
       "number": "102A",
       "title": "Advanced Musicianship I",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C. Course 102A is enforced requisite to 102B, which is enforced requisite to 102C. Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C. Course 102A is enforced requisite to 102B, which is enforced requisite to 102C. Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M6A, M6B, M6C.",
       "prereqs_parsed": {
         "required": [
@@ -246,7 +246,7 @@
       "number": "102B",
       "title": "Advanced Musicianship II",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C, 102A (102A with grade of C- or better). Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and modal improvisation, keyboard skills. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C, 102A (102A with grade of C- or better). Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and modal improvisation, keyboard skills. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M6A, M6B, M6C, 102A (102A with grade of C- or better).",
       "prereqs_parsed": {
         "required": [
@@ -296,14 +296,18 @@
       "number": "110A",
       "title": "Learning Approaches in Music Education",
       "units": 4.0,
-      "description": "Lecture, two hours; activity, two hours; outside study, eight hours. Enforced requisite: course 20A or 21A. Introduction to music education by development of concepts, attitudes, and skills necessary to teach music and philosophical, historical, cultural, and psychological foundations of music education, with emphasis on learning theories and psychology of music\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; activity, two hours; outside study, eight hours. Enforced requisite: course 20A or 21A. Introduction to music education by development of concepts, attitudes, and skills necessary to teach music and philosophical, historical, cultural, and psychological foundations of music education, with emphasis on learning theories and psychology of music… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 20A or 21A.",
       "prereqs_parsed": {
         "required": [],
         "corequisites": [],
         "one_of": [
-          "MUSC 20A",
-          "MUSC 21A"
+          [
+            "MUSC 20A"
+          ],
+          [
+            "MUSC 21A"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -320,7 +324,7 @@
       "number": "110B",
       "title": "Musicality and Creativity in Childhood",
       "units": 4.0,
-      "description": "Lecture, two hours; activity, two hours; outside study, eight hours. Requisites: courses 20A, 20B, 20C, 110A, 120A, 120B, and 120C, or 21A, 21B, 21C, 102A, 102B, 102C, 110A, 111A, 111B, and 111C. Preparation of music education students for teaching music at preschool and elementary school levels. Development of understanding of\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; activity, two hours; outside study, eight hours. Requisites: courses 20A, 20B, 20C, 110A, 120A, 120B, and 120C, or 21A, 21B, 21C, 102A, 102B, 102C, 110A, 111A, 111B, and 111C. Preparation of music education students for teaching music at preschool and elementary school levels. Development of understanding of… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20A, 20B, 20C, 110A, 120A, 120B, and 120C, or 21A, 21B, 21C, 102A, 102B, 102C, 110A, 111A, 111B, and 111C.",
       "prereqs_parsed": {
         "required": [],
@@ -359,7 +363,7 @@
       "number": "110C",
       "title": "Comparative Study of Choral Music Education",
       "units": 4.0,
-      "description": "Lecture, two hours; activity, one hour; fieldwork, one hour; outside study, eight hours. Requisites: courses 20A, 20B, 20C, 110A, 119A, 120A, 120B, 120C. Preparation of students for teaching choral music at middle and high school levels. Development of understanding of developmental characteristics, diverse cultures, and learning needs of adolescents and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; activity, one hour; fieldwork, one hour; outside study, eight hours. Requisites: courses 20A, 20B, 20C, 110A, 119A, 120A, 120B, 120C. Preparation of students for teaching choral music at middle and high school levels. Development of understanding of developmental characteristics, diverse cultures, and learning needs of adolescents and… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses 20A, 20B, 20C, 110A, 119A, 120A, 120B, 120C.",
       "prereqs_parsed": {
         "required": [
@@ -385,7 +389,7 @@
       "number": "110D",
       "title": "Comparative Study of Instrumental Music Education",
       "units": 4.0,
-      "description": "Lecture, two hours; activity, one hour; fieldwork, one hour; outside study, eight hours. Enforced requisites: courses 20A, 20B, 20C, 110A, 120A, 120B, 120C. Critical study and analysis of philosophy, history, organization, curriculum, and literature of music programs for elementary and secondary instrumental music instruction in traditional and nontraditional settings. Development\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours; activity, one hour; fieldwork, one hour; outside study, eight hours. Enforced requisites: courses 20A, 20B, 20C, 110A, 120A, 120B, 120C. Critical study and analysis of philosophy, history, organization, curriculum, and literature of music programs for elementary and secondary instrumental music instruction in traditional and nontraditional settings. Development… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses 20A, 20B, 20C, 110A, 120A, 120B, 120C.",
       "prereqs_parsed": {
         "required": [
@@ -410,7 +414,7 @@
       "number": "111A",
       "title": "Music Theory through Improvisation",
       "units": 3.0,
-      "description": "Lecture, four hours. Requisites: courses M6A, M6B, M6C, and 20A, 20B, and 20C, or 21A, 21B, and 21C. Course 111A is enforced requisite to 111B, which is enforced requisite to 111C. Students must receive grade of C or better to proceed to next course in sequence. Theory through improvisation, technology,\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Requisites: courses M6A, M6B, M6C, and 20A, 20B, and 20C, or 21A, 21B, and 21C. Course 111A is enforced requisite to 111B, which is enforced requisite to 111C. Students must receive grade of C or better to proceed to next course in sequence. Theory through improvisation, technology,… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M6A, M6B, M6C, and 20A, 20B, and 20C, or 21A, 21B, and 21C.",
       "prereqs_parsed": {
         "required": [
@@ -445,7 +449,7 @@
       "number": "111B",
       "title": "Music Creation and Analysis through Technology",
       "units": 3.0,
-      "description": "Lecture, four hours. Requisites: courses M6A, M6B, M6C, 111A (111A with grade of C or better), and 20A, 20B, and 20C, or 21A, 21B, and 21C. Students must receive grade of C or better to proceed to next course in sequence. Theory through improvisation, technology, and arranging for ensembles. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Requisites: courses M6A, M6B, M6C, 111A (111A with grade of C or better), and 20A, 20B, and 20C, or 21A, 21B, and 21C. Students must receive grade of C or better to proceed to next course in sequence. Theory through improvisation, technology, and arranging for ensembles. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: courses M6A, M6B, M6C, 111A (111A with grade of C or better), and 20A, 20B, and 20C, or 21A, 21B, and 21C.",
       "prereqs_parsed": {
         "required": [
@@ -672,7 +676,7 @@
       "number": "161A",
       "title": "Advanced Voice Studio",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 161B or 161C. Limited to upper-division Music Education majors and Music Performance majors specializing in voice. Voice techniques and health, including breath control, pitch accuracy, range, resonance, and flexibility. May be repeated for credit for maximum of 10 units.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 161B or 161C. Limited to upper-division Music Education majors and Music Performance majors specializing in voice. Voice techniques and health, including breath control, pitch accuracy, range, resonance, and flexibility. May be repeated for credit for maximum of 10 units.… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 161B or 161C.",
       "prereqs_parsed": {
         "required": [],
@@ -694,7 +698,7 @@
       "number": "161C",
       "title": "Advanced Voice Coaching for Music Education Specialists",
       "units": 0.5,
-      "description": "Studio, 30 minutes; outside practice, 90 minutes. Corequisite: course 161A. Limited to upper-division Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters and by jury examination in spring quarter. May be repeated for\u2026 For more content click the Read More button below.",
+      "description": "Studio, 30 minutes; outside practice, 90 minutes. Corequisite: course 161A. Limited to upper-division Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student’s vocal coach for fall and winter quarters and by jury examination in spring quarter. May be repeated for… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 161A.",
       "prereqs_parsed": {
         "required": [],
@@ -741,7 +745,7 @@
       "number": "20A",
       "title": "Music Theory I",
       "units": 3.0,
-      "description": "Lecture, four hours. Preparation: passing score on departmental examination. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Students must receive grade of C or better to proceed to next course in sequence. Theory: species counterpoint through fifth species; description of triads and inversions. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: passing score on departmental examination. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Students must receive grade of C or better to proceed to next course in sequence. Theory: species counterpoint through fifth species; description of triads and inversions. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -868,7 +872,14 @@
       "description": "Lecture, four hours. Enforced requisites: courses 21A, 21B with grades of C or better. Theory fundamentals through project approach. Letter grading.",
       "prereqs_raw": "Enforced requisites: courses 21A, 21B with grades of C or better.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MUSC 21A",
+          "MUSC 21B"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": "C",
+        "recommended": []
       },
       "prereq_for": [
         "MUSC 110B",
@@ -883,7 +894,7 @@
       "number": "61A",
       "title": "Voice Studio",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 61B or 61C. Limited to lower-division Music Performance majors specializing in voice and Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 61B or 61C. Limited to lower-division Music Performance majors specializing in voice and Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student’s vocal coach for fall and winter quarters… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 61B or 61C.",
       "prereqs_parsed": {
         "required": [],
@@ -905,7 +916,7 @@
       "number": "61C",
       "title": "Voice Coaching for Music Education Specialists",
       "units": 0.5,
-      "description": "Studio, 30 minutes; outside practice, 90 minutes. Corequisite: course 61A. Limited to lower-division Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters and by jury examination in spring quarter. May be repeated for\u2026 For more content click the Read More button below.",
+      "description": "Studio, 30 minutes; outside practice, 90 minutes. Corequisite: course 61A. Limited to lower-division Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student’s vocal coach for fall and winter quarters and by jury examination in spring quarter. May be repeated for… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 61A.",
       "prereqs_parsed": {
         "required": [],
@@ -1004,7 +1015,7 @@
       "number": "M6A",
       "title": "Introduction to Global Musicianship",
       "units": 2.0,
-      "description": "(Same as Ethnomusicology M6A and Musicology M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C\u2013 or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ethnomusicology M6A and Musicology M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C– or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1020,8 +1031,8 @@
       "number": "M6B",
       "title": "Introduction to Musicianship",
       "units": 2.0,
-      "description": "(Same as Ethnomusicology M6B and Musicology M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course M6A with grade of C\u2013 or better.",
+      "description": "(Same as Ethnomusicology M6B and Musicology M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C– or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MUSC M6A"
@@ -1042,8 +1053,8 @@
       "number": "M6C",
       "title": "Introduction to Musicianship",
       "units": 2.0,
-      "description": "(Same as Ethnomusicology M6C and Musicology M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course M6B with grade of C\u2013 or better.",
+      "description": "(Same as Ethnomusicology M6C and Musicology M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C– or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MUSC M6B"
@@ -1063,7 +1074,7 @@
       "number": "125A",
       "title": "History of Western Music: Era of Church and Patron",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6A (may be taken concurrently). Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in era\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6A (may be taken concurrently). Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in era… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M6A (may be taken concurrently).",
       "prereqs_parsed": {
         "required": [
@@ -1086,7 +1097,7 @@
       "number": "125B",
       "title": "History of Western Music: Era of Empires and Marketplaces",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6B (may be taken concurrently), 125A. Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6B (may be taken concurrently), 125A. Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M6B (may be taken concurrently), 125A.",
       "prereqs_parsed": {
         "required": [
@@ -1110,7 +1121,7 @@
       "number": "125C",
       "title": "History of Western Music: Modern and Postmodern Era",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6C (may be taken concurrently), 125B. Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6C (may be taken concurrently), 125B. Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M6C (may be taken concurrently), 125B.",
       "prereqs_parsed": {
         "required": [

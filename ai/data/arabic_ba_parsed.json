@@ -204,7 +204,7 @@
       "number": "M166Q",
       "title": "Culture Area of Maghrib (North Africa)",
       "units": 4.0,
-      "description": "(Same as Arabic M171 and History M108C.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Arabic M171 and History M108C.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -217,7 +217,7 @@
       "number": "102A",
       "title": "Intermediate Standard Arabic",
       "units": 4.0,
-      "description": "Lecture, four hours. Enforced requisite: course 1C or 8. Course 102A is requisite to 102B, which is requisite to 102C. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Intermediate formal Arabic, including listening, speaking, reading, and writing. P/NP or letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Enforced requisite: course 1C or 8. Course 102A is requisite to 102B, which is requisite to 102C. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Intermediate formal Arabic, including listening, speaking, reading, and writing. P/NP or letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 1C or 8.",
       "prereqs_parsed": {
         "required": [],
@@ -362,7 +362,7 @@
       "number": "108",
       "title": "Summer Intensive Intermediate Arabic",
       "units": 12.0,
-      "description": "Lecture, and discussion, 20 hours. Enforced requisite: course 1C. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Intensive course equivalent to courses 102A, 102B, and 102C. Intermediate formal Arabic, including listening, speaking, reading, and writing. Offered in summer only. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Lecture, and discussion, 20 hours. Enforced requisite: course 1C. Not open to students who have learned, from whatever source, enough Arabic to qualify for more advanced courses. Intensive course equivalent to courses 102A, 102B, and 102C. Intermediate formal Arabic, including listening, speaking, reading, and writing. Offered in summer only. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 1C.",
       "prereqs_parsed": {
         "required": [
@@ -387,8 +387,12 @@
         "required": [],
         "corequisites": [],
         "one_of": [
-          "ARABIC 1C",
-          "ARABIC 8"
+          [
+            "ARABIC 1C"
+          ],
+          [
+            "ARABIC 8"
+          ]
         ],
         "min_grade": null,
         "recommended": []
@@ -507,7 +511,7 @@
       "number": "117",
       "title": "Levantine Arabic",
       "units": 4.0,
-      "description": "Lecture, three hours. Orientation to Levantine Arabic, collection of dialects used in daily communication in Syria, Lebanon, Jordan, and Palestine. There are several local, geographical, and social subvarieties of spoken Arabic in the Levant area, but the differences between these are small compared with the large amount of shared vocabulary\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Orientation to Levantine Arabic, collection of dialects used in daily communication in Syria, Lebanon, Jordan, and Palestine. There are several local, geographical, and social subvarieties of spoken Arabic in the Levant area, but the differences between these are small compared with the large amount of shared vocabulary… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -520,7 +524,7 @@
       "number": "119",
       "title": "Maltese",
       "units": 4.0,
-      "description": "Lecture, three hours. Preparation: one year of Arabic or equivalent knowledge in any variety of written or spoken Arabic. Maltese is the national language of the Mediterranean island nation of Malta, and an official language of the European Union. Derived from North African Arabic, it has been transformed by contract\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Preparation: one year of Arabic or equivalent knowledge in any variety of written or spoken Arabic. Maltese is the national language of the Mediterranean island nation of Malta, and an official language of the European Union. Derived from North African Arabic, it has been transformed by contract… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -533,7 +537,7 @@
       "number": "120",
       "title": "Islamic Texts",
       "units": 4.0,
-      "description": "Lecture, four hours. Requisite: course 103C. Readings from Qur\u2019an, Tafsir, Hadith, Fiqh. May be repeated for credit. Letter grading.",
+      "description": "Lecture, four hours. Requisite: course 103C. Readings from Qur’an, Tafsir, Hadith, Fiqh. May be repeated for credit. Letter grading.",
       "prereqs_raw": "Requisite: course 103C.",
       "prereqs_parsed": {
         "required": [
@@ -592,7 +596,7 @@
       "number": "140",
       "title": "Readings in Modern Standard Arabic",
       "units": 4.0,
-      "description": "Lecture, four hours. Requisite: course 103A, or consent of instructor. Development of reading, speaking, and writing abilities in modern standard Arabic, as well as cultural knowledge, through film screenings, discussions, written compositions, verbal presentations, and reading authentic literary texts from across Arabic-speaking world. Prepares students for more advanced literary Arabic\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Requisite: course 103A, or consent of instructor. Development of reading, speaking, and writing abilities in modern standard Arabic, as well as cultural knowledge, through film screenings, discussions, written compositions, verbal presentations, and reading authentic literary texts from across Arabic-speaking world. Prepares students for more advanced literary Arabic… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 103A, or consent of instructor.",
       "prereqs_parsed": {
         "required": [],
@@ -632,7 +636,7 @@
       "number": "150",
       "title": "Classical Arabic Literature in English",
       "units": 4.0,
-      "description": "Lecture, three hours. Readings in English; knowledge of Arabic not required. Survey of premodern Arabic cultural production in its political, religious, and social contexts. Coverage of pre-Islamic Arabia, rise of Islam, and major themes of Southwest Asian history, along with significant figures and moments in literature and culture of premodern\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Readings in English; knowledge of Arabic not required. Survey of premodern Arabic cultural production in its political, religious, and social contexts. Coverage of pre-Islamic Arabia, rise of Islam, and major themes of Southwest Asian history, along with significant figures and moments in literature and culture of premodern… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -658,7 +662,7 @@
       "number": "178",
       "title": "Sociolinguistics of Arabic",
       "units": 4.0,
-      "description": "Lecture, three hours. Exploration of range of topics in Arabic sociolinguistics, including diglossia and dialect groups in the Arab world, regional variation, codeswitching, language attitudes and ideologies, social identity, bilingualism, digital media and language use, heritage-Arabic speakers, and applied sociolinguistics pertaining to the teaching of Arabic as a foreign language.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Exploration of range of topics in Arabic sociolinguistics, including diglossia and dialect groups in the Arab world, regional variation, codeswitching, language attitudes and ideologies, social identity, bilingualism, digital media and language use, heritage-Arabic speakers, and applied sociolinguistics pertaining to the teaching of Arabic as a foreign language.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -671,7 +675,7 @@
       "number": "180",
       "title": "Linguistics Analysis of Arabic",
       "units": 4.0,
-      "description": "Lecture, four hours. Requisite: course 102C. Linguistic description of Arabic in both its modern standard and dialect forms. Introduction to linguistic analysis of Arabic phonology, morphology, and syntax and to linguists\u2019 approaches to specific problems posed by Arabic grammar and dialectology. Letter grading.",
+      "description": "Lecture, four hours. Requisite: course 102C. Linguistic description of Arabic in both its modern standard and dialect forms. Introduction to linguistic analysis of Arabic phonology, morphology, and syntax and to linguists’ approaches to specific problems posed by Arabic grammar and dialectology. Letter grading.",
       "prereqs_raw": "Requisite: course 102C.",
       "prereqs_parsed": {
         "required": [
@@ -690,7 +694,7 @@
       "number": "181",
       "title": "Translating Arabic",
       "units": 4.0,
-      "description": "Seminar, three hours. Preparation: advanced proficiency in English and Arabic (at least three years of Arabic instruction or equivalent). Open to both native and nonnative speakers of English and Arabic. Training of students in methodology of translation from Arabic into English, with focus on producing accurate and readable English versions\u2026 For more content click the Read More button below.",
+      "description": "Seminar, three hours. Preparation: advanced proficiency in English and Arabic (at least three years of Arabic instruction or equivalent). Open to both native and nonnative speakers of English and Arabic. Training of students in methodology of translation from Arabic into English, with focus on producing accurate and readable English versions… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -764,7 +768,7 @@
       "number": "C141",
       "title": "Modern Arabic Literature",
       "units": 4.0,
-      "description": "Lecture, three hours. Requisite: course 102C. Conducted in English and Arabic, with all required readings in original Arabic only. Readings in modern Arabic literature, variably organized across or around particular trends, genres, topics, canonical authors, regional, or national literatures, mixing thematic and formal analyses of literary and critical texts and\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours. Requisite: course 102C. Conducted in English and Arabic, with all required readings in original Arabic only. Readings in modern Arabic literature, variably organized across or around particular trends, genres, topics, canonical authors, regional, or national literatures, mixing thematic and formal analyses of literary and critical texts and… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 102C.",
       "prereqs_parsed": {
         "required": [
@@ -783,7 +787,7 @@
       "number": "CM106",
       "title": "Qur'an",
       "units": 4.0,
-      "description": "(Formerly numbered CM106) (Same as Religion M108.) Lecture, three hours. Introduction to Qur\u2019an, its early history, and form and function as scripture in Muslim history, civilization, and culture. Focus also on Qur\u2019anic interpretation, its relationship to Islamic law, and Qur\u2019an in contemporary discourses such as human rights, feminism, and contemporary\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered CM106) (Same as Religion M108.) Lecture, three hours. Introduction to Qur’an, its early history, and form and function as scripture in Muslim history, civilization, and culture. Focus also on Qur’anic interpretation, its relationship to Islamic law, and Qur’an in contemporary discourses such as human rights, feminism, and contemporary… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -796,7 +800,7 @@
       "number": "M110",
       "title": "One Thousand and One Nights/Alf Layla Wa-Layla",
       "units": 4.0,
-      "description": "(Same as Comparative Literature M110.) Lecture, three hours. Knowledge of Arabic not required. Since its appearance in Europe in 1704, One Thousand and One Nights is most well-known work of Arabic literature in West. Examination of cycle of tales more commonly known as Arabian Nights, including history of its translation,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Comparative Literature M110.) Lecture, three hours. Knowledge of Arabic not required. Since its appearance in Europe in 1704, One Thousand and One Nights is most well-known work of Arabic literature in West. Examination of cycle of tales more commonly known as Arabian Nights, including history of its translation,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -822,7 +826,7 @@
       "number": "M148",
       "title": "Contemporary Arab Film and Song",
       "units": 4.0,
-      "description": "(Same as Comparative Literature M148.) Seminar, three hours. Exploration of conjunctions between contemporary Arab film and song and between popular cultures and cultures of commitment (Iltizam), with possible focus on specific genres such as realist/neorealist Arab film; feminist Arab film or popular Arab film and song; topics such as nation,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Comparative Literature M148.) Seminar, three hours. Exploration of conjunctions between contemporary Arab film and song and between popular cultures and cultures of commitment (Iltizam), with possible focus on specific genres such as realist/neorealist Arab film; feminist Arab film or popular Arab film and song; topics such as nation,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -835,7 +839,7 @@
       "number": "M151",
       "title": "Modern Arabic Literature in English",
       "units": 4.0,
-      "description": "(Same as Comparative Literature M167.) Lecture, three hours. Designed for upper-division literature majors. Topics may include constructions of otherness in modern Arab culture; East-West debate; memory, trauma, and mourning; violence, narrative, and ethics; globalization, oil, and cultural insurgency; Arab culture in transnational context or questions of reception, exoticism, translation, and\u2026 For more content click the Read More button below.",
+      "description": "(Same as Comparative Literature M167.) Lecture, three hours. Designed for upper-division literature majors. Topics may include constructions of otherness in modern Arab culture; East-West debate; memory, trauma, and mourning; violence, narrative, and ethics; globalization, oil, and cultural insurgency; Arab culture in transnational context or questions of reception, exoticism, translation, and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -861,7 +865,7 @@
       "number": "M171",
       "title": "Culture Area of Maghrib (North Africa)",
       "units": 4.0,
-      "description": "(Same as Anthropology M166Q and History M108C.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,\u2026 For more content click the Read More button below.",
+      "description": "(Same as Anthropology M166Q and History M108C.) Lecture, three hours. Designed for juniors/seniors. Introduction to North Africa, especially Morocco, Algeria, Tunisia, and Libya, also known as Maghrib or Tamazgha. Topics include changing notions of personal, tribal, ethnic, linguistic and religious identities; colonialism; gender and legal rights, changing representations of Islam,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -913,7 +917,7 @@
       "number": "100",
       "title": "Introduction to Literary and Critical Theory",
       "units": 5.0,
-      "description": "Lecture, four hours. Preparation: satisfaction of Entry-Level Writing and College Writing requirements. Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc. Seminar-style introduction to discipline of comparative literature presented through series of texts illustrative of its formation and practice. Letter\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: satisfaction of Entry-Level Writing and College Writing requirements. Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc. Seminar-style introduction to discipline of comparative literature presented through series of texts illustrative of its formation and practice. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Requisites: two courses from Comparative Literature 1 or 2 series or English 10 series or Spanish 60 series, etc.",
       "prereqs_parsed": {
         "required": [],
@@ -1002,7 +1006,7 @@
       "number": "111B",
       "title": "Topics in Middle Eastern History: Early Modern",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of Istanbul in Ottoman period (1453 to 1923); relationship between history and literary imagination and view of history as dialogue between past and present; scholarly debate on urban history of early-modern Middle East; introduction to corpus of theories\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of Istanbul in Ottoman period (1453 to 1923); relationship between history and literary imagination and view of history as dialogue between past and present; scholarly debate on urban history of early-modern Middle East; introduction to corpus of theories… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1015,7 +1019,7 @@
       "number": "111C",
       "title": "Topics in Middle Eastern History: Modern",
       "units": 4.0,
-      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Middle East underwent widespread social, economic, and cultural changes during 19th century that propelled society, at least portions of society and aspects of its social/cultural life, in entirely new direction. Examination of those changes to understand exactly what modernity\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Middle East underwent widespread social, economic, and cultural changes during 19th century that propelled society, at least portions of society and aspects of its social/cultural life, in entirely new direction. Examination of those changes to understand exactly what modernity… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1041,7 +1045,7 @@
       "number": "M106",
       "title": "Premodern Islam",
       "units": 4.0,
-      "description": "(Same as Religion M106A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of early development of Islam with special attention to doctrine of nature of God, human responsibility, guidance, revelation and religious authority, duties of believers, ritual, law, sectarian movements, mysticism, and popular religion. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "(Same as Religion M106A.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Examination of early development of Islam with special attention to doctrine of nature of God, human responsibility, guidance, revelation and religious authority, duties of believers, ritual, law, sectarian movements, mysticism, and popular religion. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1054,7 +1058,7 @@
       "number": "130",
       "title": "Shi'a in Islamic History",
       "units": 4.0,
-      "description": "Seminar, three hours; discussion, one hour. Rise and development of Shi\u2019a Islam, its doctrines, and practices; major branches: Twelvers, Ismailis, Zaydis; their contribution to Islamic thought and civilization; modern trends of reinterpretation and reform. Letter grading.",
+      "description": "Seminar, three hours; discussion, one hour. Rise and development of Shi’a Islam, its doctrines, and practices; major branches: Twelvers, Ismailis, Zaydis; their contribution to Islamic thought and civilization; modern trends of reinterpretation and reform. Letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1067,7 +1071,7 @@
       "number": "C151",
       "title": "Islamic Thought",
       "units": 4.0,
-      "description": "(Formerly numbered 151.) Lecture, three hours. Recommended requisite: introductory course on Islam or instructor consent. Introduction to major fields of inquiry and debate in Islamic studies (e.g., exegesis, Hadith, law, theology, Sufism). Focus on selected topics of debate such as nature of God, jihad, hijab, or pilgrimage. Concurrently scheduled with\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered 151.) Lecture, three hours. Recommended requisite: introductory course on Islam or instructor consent. Introduction to major fields of inquiry and debate in Islamic studies (e.g., exegesis, Hadith, law, theology, Sufism). Focus on selected topics of debate such as nature of God, jihad, hijab, or pilgrimage. Concurrently scheduled with… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1080,7 +1084,7 @@
       "number": "CM107",
       "title": "Islam in West",
       "units": 5.0,
-      "description": "(Formerly numbered M107.) (Same as Religion M107.) Lecture, three hours; discussion, one hour. Acquisition of understanding of basic doctrines and practices of Islam. Survey of history of Islam in West, with focus on U.S. and France. Analysis of issues relevant to growth and development of selected Muslim communities in West.\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered M107.) (Same as Religion M107.) Lecture, three hours; discussion, one hour. Acquisition of understanding of basic doctrines and practices of Islam. Survey of history of Islam in West, with focus on U.S. and France. Analysis of issues relevant to growth and development of selected Muslim communities in West.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1093,7 +1097,7 @@
       "number": "CM115",
       "title": "Islam and Other Religions",
       "units": 5.0,
-      "description": "(Formerly numbered M115.) (Same as Religion M115.) Lecture, three hours; discussion, one hour. Students gain familiarity with historical cases and modes of interaction between Muslims and non-Muslims in plural societies. Consideration of axis questions such as how does Qur\u2019an reflect religious plurality; how does it situate Islam vis-\u00e0-vis its alternatives;\u2026 For more content click the Read More button below.",
+      "description": "(Formerly numbered M115.) (Same as Religion M115.) Lecture, three hours; discussion, one hour. Students gain familiarity with historical cases and modes of interaction between Muslims and non-Muslims in plural societies. Consideration of axis questions such as how does Qur’an reflect religious plurality; how does it situate Islam vis-à-vis its alternatives;… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1106,7 +1110,7 @@
       "number": "M111",
       "title": "Introduction to Islamic Archaeology",
       "units": 4.0,
-      "description": "(Same as Art History M119C and Middle Eastern Studies M111.) Lecture, three hours. From earliest monuments of Islam in Arabia and Jerusalem to humble remains of small Egyptian port, broad focus on archaeological and standing remains in central Islamic lands (primarily Syria, Egypt, and Iraq), Turkey, Iran, North Africa, and\u2026 For more content click the Read More button below.",
+      "description": "(Same as Art History M119C and Middle Eastern Studies M111.) Lecture, three hours. From earliest monuments of Islam in Arabia and Jerusalem to humble remains of small Egyptian port, broad focus on archaeological and standing remains in central Islamic lands (primarily Syria, Egypt, and Iraq), Turkey, Iran, North Africa, and… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1119,7 +1123,7 @@
       "number": "M112",
       "title": "Archaeology and Art of Christian and Islamic Egypt",
       "units": 4.0,
-      "description": "(Same as Archaeology M112, Art History M119D, and Middle Eastern Studies M112.) Lecture, three hours. Culture of Egypt transformed gradually after Muslim conquest in mid-7th century CE. According to material evidence such as ceramics, textiles, architectural forms, and building techniques, it is functionally impossible to separate pre-Islamic Christian Egypt from\u2026 For more content click the Read More button below.",
+      "description": "(Same as Archaeology M112, Art History M119D, and Middle Eastern Studies M112.) Lecture, three hours. Culture of Egypt transformed gradually after Muslim conquest in mid-7th century CE. According to material evidence such as ceramics, textiles, architectural forms, and building techniques, it is functionally impossible to separate pre-Islamic Christian Egypt from… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1132,7 +1136,7 @@
       "number": "M20",
       "title": "Introduction to Islam",
       "units": 5.0,
-      "description": "(Same as Religion M20.) Lecture, three hours; discussion, one hour. Genesis of Islam, its doctrines, and practices, with readings from Qur\u2019an and Hadith; schools of law and theology; piety and Sufism; reform and modernism. P/NP or letter grading.",
+      "description": "(Same as Religion M20.) Lecture, three hours; discussion, one hour. Genesis of Islam, its doctrines, and practices, with readings from Qur’an and Hadith; schools of law and theology; piety and Sufism; reform and modernism. P/NP or letter grading.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1164,7 +1168,7 @@
       "number": "65",
       "title": "Global Time Travel",
       "units": 5.0,
-      "description": "Lecture, three hours; discussion, one hour. Time travel is our most effective fictional device for asking what past was like, what future will bring, and how our present might look when viewed from other times. Though often associated with Euro-American genre of hard science fiction, time travel is global genre.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, three hours; discussion, one hour. Time travel is our most effective fictional device for asking what past was like, what future will bring, and how our present might look when viewed from other times. Though often associated with Euro-American genre of hard science fiction, time travel is global genre.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1177,7 +1181,7 @@
       "number": "M20",
       "title": "Visible Language: Study of Writing",
       "units": 5.0,
-      "description": "(Same as Asian M20, Indo-European Studies M20, Slavic M20, and Southeast Asian M20.) Lecture, three hours; discussion, one hour. Consideration of concrete means of language representation in writing systems. Earliest representations of language known are those of Near East dating to end of 4th millennium BC. While literate civilizations of\u2026 For more content click the Read More button below.",
+      "description": "(Same as Asian M20, Indo-European Studies M20, Slavic M20, and Southeast Asian M20.) Lecture, three hours; discussion, one hour. Consideration of concrete means of language representation in writing systems. Earliest representations of language known are those of Near East dating to end of 4th millennium BC. While literate civilizations of… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []

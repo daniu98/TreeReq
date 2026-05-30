@@ -27,6 +27,7 @@ import "./styles/variables.css";
 const KNOWN_VIEWS = new Set(["landing", "tree", "setup"]);
 const RECENT_MAJORS_KEY = "treereq-recent-majors";
 
+
 function loadRecentMajors() {
   try {
     const raw = localStorage.getItem(RECENT_MAJORS_KEY);

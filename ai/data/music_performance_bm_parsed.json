@@ -240,7 +240,7 @@
       "number": "102A",
       "title": "Advanced Musicianship I",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C. Course 102A is enforced requisite to 102B, which is enforced requisite to 102C. Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C. Course 102A is enforced requisite to 102B, which is enforced requisite to 102C. Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M6A, M6B, M6C.",
       "prereqs_parsed": {
         "required": [
@@ -264,7 +264,7 @@
       "number": "102B",
       "title": "Advanced Musicianship II",
       "units": 2.0,
-      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C, 102A (102A with grade of C- or better). Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and modal improvisation, keyboard skills. Letter\u2026 For more content click the Read More button below.",
+      "description": "Laboratory, four hours. Enforced requisites: courses M6A, M6B, M6C, 102A (102A with grade of C- or better). Students must receive a grade of C- or better to proceed to next course in sequence. Advanced-level sight singing, sight reading, rhythm, melodic and harmonic dictation, tonal and modal improvisation, keyboard skills. Letter… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisites: courses M6A, M6B, M6C, 102A (102A with grade of C- or better).",
       "prereqs_parsed": {
         "required": [
@@ -311,7 +311,7 @@
       "number": "120A",
       "title": "Music Theory IV",
       "units": 4.0,
-      "description": "Lecture, four hours; discussion, four hours. Preparation: passing score on departmental first-year examination. Requisite: course 20C with grade of C (2.0) or better. Theory: baroque counterpoint including chorale prelude; two-part invention; exposition and first modulation of three-part invention; canonic principles; analysis of inventions, canons, and fugues. Musicianship: sight-singing of extended\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, four hours. Preparation: passing score on departmental first-year examination. Requisite: course 20C with grade of C (2.0) or better. Theory: baroque counterpoint including chorale prelude; two-part invention; exposition and first modulation of three-part invention; canonic principles; analysis of inventions, canons, and fugues. Musicianship: sight-singing of extended… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course 20C with grade of C (2.0) or better.",
       "prereqs_parsed": {
         "required": [
@@ -372,10 +372,16 @@
       "number": "140A",
       "title": "History and Analysis of Western Music to 1700",
       "units": 5.0,
-      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6C. Students must receive grade of C or better to proceed to next course in sequence. Survey of Western music from its beginnings to 1700; examination of representative compositions within their cultural contexts and development of analytical methods appropriate to each repertory.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours; discussion, one hour. Requisite: course M6C. Students must receive grade of C or better to proceed to next course in sequence. Survey of Western music from its beginnings to 1700; examination of representative compositions within their cultural contexts and development of analytical methods appropriate to each repertory.… For more content click the Read More button below.",
       "prereqs_raw": "Requisite: course M6C.",
       "prereqs_parsed": {
-        "required": []
+        "required": [
+          "MUSC M6C"
+        ],
+        "corequisites": [],
+        "one_of": [],
+        "min_grade": null,
+        "recommended": []
       },
       "prereq_for": [
         "MUSC 140B"
@@ -427,7 +433,7 @@
       "number": "160A",
       "title": "Advanced Instrumental Studio: Flute",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -440,7 +446,7 @@
       "number": "160B",
       "title": "Advanced Instrumental Studio: Oboe",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -453,7 +459,7 @@
       "number": "160C",
       "title": "Advanced Instrumental Studio: Bassoon",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -466,7 +472,7 @@
       "number": "160D",
       "title": "Advanced Instrumental Studio: Clarinet",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -479,7 +485,7 @@
       "number": "160E",
       "title": "Advanced Instrumental Studio: Saxophone",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -492,7 +498,7 @@
       "number": "160F",
       "title": "Advanced Instrumental Studio: French Horn",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -505,7 +511,7 @@
       "number": "160G",
       "title": "Advanced Instrumental Studio: Trumpet",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -518,7 +524,7 @@
       "number": "160H",
       "title": "Advanced Instrumental Studio: Trombone",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -531,7 +537,7 @@
       "number": "160I",
       "title": "Advanced Instrumental Studio: Tuba/Euphonium",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -544,7 +550,7 @@
       "number": "160J",
       "title": "Advanced Instrumental Studio: Percussion",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -557,7 +563,7 @@
       "number": "160K",
       "title": "Advanced Instrumental Studio: Violin",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -570,7 +576,7 @@
       "number": "160L",
       "title": "Advanced Instrumental Studio: Viola",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -583,7 +589,7 @@
       "number": "160M",
       "title": "Advanced Instrumental Studio: Cello",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -596,7 +602,7 @@
       "number": "160N",
       "title": "Advanced Instrumental Studio: String Bass",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -609,7 +615,7 @@
       "number": "160O",
       "title": "Advanced Instrumental Studio: Harp",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -622,7 +628,7 @@
       "number": "160P",
       "title": "Advanced Instrumental Studio: Guitar",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -635,7 +641,7 @@
       "number": "160Q",
       "title": "Advanced Instrumental Studio: Lute",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -648,7 +654,7 @@
       "number": "160R",
       "title": "Advanced Instrumental Studio: Viola da Gamba",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -661,7 +667,7 @@
       "number": "160S",
       "title": "Advanced Instrumental Studio: Piano",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -676,7 +682,7 @@
       "number": "160T",
       "title": "Advanced Instrumental Studio: Organ",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -691,7 +697,7 @@
       "number": "160U",
       "title": "Advanced Instrumental Studio: Harpsichord",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to junior/senior Music Performance majors and junior Music Education and Music Composition majors. Students must perform in noon concert once during their junior year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -706,7 +712,7 @@
       "number": "161A",
       "title": "Advanced Voice Studio",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 161B or 161C. Limited to upper-division Music Education majors and Music Performance majors specializing in voice. Voice techniques and health, including breath control, pitch accuracy, range, resonance, and flexibility. May be repeated for credit for maximum of 10 units.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 161B or 161C. Limited to upper-division Music Education majors and Music Performance majors specializing in voice. Voice techniques and health, including breath control, pitch accuracy, range, resonance, and flexibility. May be repeated for credit for maximum of 10 units.… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 161B or 161C.",
       "prereqs_parsed": {
         "required": [],
@@ -728,7 +734,7 @@
       "number": "161B",
       "title": "Advanced Vocal Coaching",
       "units": 1.0,
-      "description": "Studio, one hour; outside practice, three hours. Corequisite: course 161A. Limited to upper-division Music Performance majors specializing in voice. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters and by jury examination in spring quarter. May\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, three hours. Corequisite: course 161A. Limited to upper-division Music Performance majors specializing in voice. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student’s vocal coach for fall and winter quarters and by jury examination in spring quarter. May… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 161A.",
       "prereqs_parsed": {
         "required": [],
@@ -750,7 +756,7 @@
       "number": "167A",
       "title": "Capstone Instrumental Recital: Flute",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -763,7 +769,7 @@
       "number": "167B",
       "title": "Capstone Instrumental Recital: Oboe",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -776,7 +782,7 @@
       "number": "167C",
       "title": "Capstone Instrumental Recital: Bassoon",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -789,7 +795,7 @@
       "number": "167D",
       "title": "Capstone Instrumental Recital: Clarinet",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -802,7 +808,7 @@
       "number": "167E",
       "title": "Capstone Instrumental Recital: Saxophone",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -815,7 +821,7 @@
       "number": "167F",
       "title": "Capstone Instrumental Recital: French Horn",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -828,7 +834,7 @@
       "number": "167G",
       "title": "Capstone Instrumental Recital: Trumpet",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -841,7 +847,7 @@
       "number": "167H",
       "title": "Capstone Instrumental Recital: Trombone",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -854,7 +860,7 @@
       "number": "167I",
       "title": "Capstone Instrumental Recital: Tuba/Euphonium",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -867,7 +873,7 @@
       "number": "167J",
       "title": "Capstone Instrumental Recital: Percussion",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -880,7 +886,7 @@
       "number": "167K",
       "title": "Capstone Instrumental Recital: Violin",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -893,7 +899,7 @@
       "number": "167L",
       "title": "Capstone Instrumental Recital: Viola",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -906,7 +912,7 @@
       "number": "167M",
       "title": "Capstone Instrumental Recital: Cello",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -919,7 +925,7 @@
       "number": "167N",
       "title": "Capstone Instrumental Recital: String Bass",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -932,7 +938,7 @@
       "number": "167O",
       "title": "Capstone Instrumental Recital: Harp",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -945,7 +951,7 @@
       "number": "167P",
       "title": "Capstone Instrumental Recital: Guitar",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -958,7 +964,7 @@
       "number": "167Q",
       "title": "Capstone Instrumental Recital: Lute",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -971,7 +977,7 @@
       "number": "167R",
       "title": "Capstone Instrumental Recital: Viola da Gamba",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -984,7 +990,7 @@
       "number": "167S",
       "title": "Capstone Instrumental Recital: Piano",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -997,7 +1003,7 @@
       "number": "167T",
       "title": "Capstone Instrumental Recital: Organ",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1010,7 +1016,7 @@
       "number": "167U",
       "title": "Capstone Instrumental Recital: Harpsichord",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived, and evaluated by… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1023,7 +1029,7 @@
       "number": "168",
       "title": "Capstone Voice Recital",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 161B. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived,\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 161B. Limited to senior Music Performance majors. Planning and completion of senior capstone recital comprising 45 to 55 minutes of music, including printed program. Preparation for capstone recital, as well as individual and group lessons. Recital is videotaped, archived,… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 161B.",
       "prereqs_parsed": {
         "required": [],
@@ -1068,7 +1074,7 @@
       "number": "20A",
       "title": "Music Theory I",
       "units": 3.0,
-      "description": "Lecture, four hours. Preparation: passing score on departmental examination. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Students must receive grade of C or better to proceed to next course in sequence. Theory: species counterpoint through fifth species; description of triads and inversions. P/NP or\u2026 For more content click the Read More button below.",
+      "description": "Lecture, four hours. Preparation: passing score on departmental examination. Course 20A is enforced requisite to 20B, which is enforced requisite to 20C. Students must receive grade of C or better to proceed to next course in sequence. Theory: species counterpoint through fifth species; description of triads and inversions. P/NP or… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1182,7 +1188,7 @@
       "number": "60A",
       "title": "Instrumental Studio: Flute",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1195,7 +1201,7 @@
       "number": "60B",
       "title": "Instrumental Studio: Oboe",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1208,7 +1214,7 @@
       "number": "60C",
       "title": "Instrumental Studio: Bassoon",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1221,7 +1227,7 @@
       "number": "60D",
       "title": "Instrumental Studio: Clarinet",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1234,7 +1240,7 @@
       "number": "60E",
       "title": "Instrumental Studio: Saxophone",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1247,7 +1253,7 @@
       "number": "60F",
       "title": "Instrumental Studio: French Horn",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1260,7 +1266,7 @@
       "number": "60G",
       "title": "Instrumental Studio: Trumpet",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1273,7 +1279,7 @@
       "number": "60H",
       "title": "Instrumental Studio: Trombone",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1286,7 +1292,7 @@
       "number": "60I",
       "title": "Instrumental Studio: Tuba/Euphonium",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1299,7 +1305,7 @@
       "number": "60J",
       "title": "Instrumental Studio: Percussion",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1312,7 +1318,7 @@
       "number": "60K",
       "title": "Instrumental Studio: Violin",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1325,7 +1331,7 @@
       "number": "60L",
       "title": "Instrumental Studio: Viola",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1338,7 +1344,7 @@
       "number": "60M",
       "title": "Instrumental Studio: Cello",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1351,7 +1357,7 @@
       "number": "60N",
       "title": "Instrumental Studio: String Bass",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1364,7 +1370,7 @@
       "number": "60O",
       "title": "Instrumental Studio: Harp",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1377,7 +1383,7 @@
       "number": "60P",
       "title": "Instrumental Studio: Guitar",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1390,7 +1396,7 @@
       "number": "60Q",
       "title": "Instrumental Studio: Lute",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1403,7 +1409,7 @@
       "number": "60R",
       "title": "Instrumental Studio: Viola da Gamba",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1416,7 +1422,7 @@
       "number": "60S",
       "title": "Instrumental Studio: Piano",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1431,7 +1437,7 @@
       "number": "60T",
       "title": "Instrumental Studio: Organ",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1446,7 +1452,7 @@
       "number": "60U",
       "title": "Instrumental Studio: Harpsichord",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Limited to freshman/sophomore Music Performance majors and junior Music Education and Music Composition majors. Students must perform in one practicum during academic year. Grades are assigned by applied instructor in fall and winter quarters and by jury examination in spring quarter.… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1461,7 +1467,7 @@
       "number": "61A",
       "title": "Voice Studio",
       "units": 2.0,
-      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 61B or 61C. Limited to lower-division Music Performance majors specializing in voice and Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, six to eight hours. Corequisite: course 61B or 61C. Limited to lower-division Music Performance majors specializing in voice and Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student’s vocal coach for fall and winter quarters… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 61B or 61C.",
       "prereqs_parsed": {
         "required": [],
@@ -1481,7 +1487,7 @@
       "number": "61B",
       "title": "Voice Coaching",
       "units": 1.0,
-      "description": "Studio, one hour; outside practice, three hours. Corequisite: course 61A. Limited to lower-division Music Performance majors specializing in voice and Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student\u2019s vocal coach for fall and winter quarters and by jury examination\u2026 For more content click the Read More button below.",
+      "description": "Studio, one hour; outside practice, three hours. Corequisite: course 61A. Limited to lower-division Music Performance majors specializing in voice and Music Education majors. Emphasis on repertoire and improving performance. Grades are assigned by studio instructor in conjunction with student’s vocal coach for fall and winter quarters and by jury examination… For more content click the Read More button below.",
       "prereqs_raw": "Corequisite: course 61A.",
       "prereqs_parsed": {
         "required": []
@@ -1496,7 +1502,7 @@
       "number": "74A",
       "title": "Introduction to Singing Diction: English and Italian",
       "units": 2.0,
-      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of English and Italian skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early\u2026 For more content click the Read More button below.",
+      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of English and Italian skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1509,7 +1515,7 @@
       "number": "74B",
       "title": "Introduction to Singing Diction: German",
       "units": 2.0,
-      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of German skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early music, recitative,\u2026 For more content click the Read More button below.",
+      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of German skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early music, recitative,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1522,7 +1528,7 @@
       "number": "74C",
       "title": "Introduction to Singing Diction: French",
       "units": 2.0,
-      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of French skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early music, recitative,\u2026 For more content click the Read More button below.",
+      "description": "Studio/demonstration/performance, 90 minutes; outside study, four to five hours. Introduction to basics of singing diction and development of French skills for beginning students. Development of International Phonetic Alphabet (IPA) transcription skills, along with addressing issues of translation. Exploration of variety of vocal repertoire, including opera, art songs, early music, recitative,… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1542,7 +1548,7 @@
       "number": "C158A",
       "title": "Advanced Vocal Repertoire, Diction, and Interpretation: English",
       "units": 2.0,
-      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 74C.",
       "prereqs_parsed": {
         "required": [
@@ -1561,7 +1567,7 @@
       "number": "C158B",
       "title": "Advanced Vocal Repertoire, Diction, and Interpretation: French",
       "units": 2.0,
-      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 74C.",
       "prereqs_parsed": {
         "required": [
@@ -1580,7 +1586,7 @@
       "number": "C158C",
       "title": "Advanced Vocal Repertoire, Diction, and Interpretation: German",
       "units": 2.0,
-      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 74C.",
       "prereqs_parsed": {
         "required": [
@@ -1599,7 +1605,7 @@
       "number": "C158D",
       "title": "Advanced Vocal Repertoire, Diction, and Interpretation: Italian",
       "units": 2.0,
-      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 74C.",
       "prereqs_parsed": {
         "required": []
@@ -1612,7 +1618,7 @@
       "number": "C158E",
       "title": "Advanced Vocal Repertoire, Diction, and Interpretation: Spanish",
       "units": 2.0,
-      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 74C.",
       "prereqs_parsed": {
         "required": [
@@ -1631,7 +1637,7 @@
       "number": "C158F",
       "title": "Advanced Vocal Repertoire, Diction, and Interpretation: Russian",
       "units": 2.0,
-      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 74C.",
       "prereqs_parsed": {
         "required": [
@@ -1650,7 +1656,7 @@
       "number": "C158G",
       "title": "Advanced Vocal Repertoire, Diction, and Interpretation: Other Languages",
       "units": 2.0,
-      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive\u2026 For more content click the Read More button below.",
+      "description": "Activity, two hours; outside study, four hours. Enforced requisite: course 74C. Performance-based course that develops repertoire and experience in collaborative performance for pianists and vocalists. Activities include text and score preparation, diction, weekly rehearsals, regular coaching, and performances for lessons, juries, recitals, master classes, auditions, and other related activities. Intensive… For more content click the Read More button below.",
       "prereqs_raw": "Enforced requisite: course 74C.",
       "prereqs_parsed": {
         "required": [
@@ -1669,7 +1675,7 @@
       "number": "C171",
       "title": "Selected Topics in Keyboard Literature",
       "units": 2.0,
-      "description": "Lecture, two hours. Enforced corequisite: one course from 60S, 60T, 60U, 160S, 160T, 160U. In-depth study of selected topics in keyboard literature, concentrating on problems of performance through analysis, historical and comparative studies, and actual performances by participants. May be repeated for credit. May be concurrently scheduled with course C271.\u2026 For more content click the Read More button below.",
+      "description": "Lecture, two hours. Enforced corequisite: one course from 60S, 60T, 60U, 160S, 160T, 160U. In-depth study of selected topics in keyboard literature, concentrating on problems of performance through analysis, historical and comparative studies, and actual performances by participants. May be repeated for credit. May be concurrently scheduled with course C271.… For more content click the Read More button below.",
       "prereqs_raw": "Enforced corequisite: one course from 60S, 60T, 60U, 160S, 160T, 160U.",
       "prereqs_parsed": {
         "required": [],
@@ -1693,7 +1699,7 @@
       "number": "C175A",
       "title": "Chamber Ensembles: Brass",
       "units": 1.0,
-      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485A. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485A. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1706,7 +1712,7 @@
       "number": "C175B",
       "title": "Chamber Ensembles: Guitar",
       "units": 1.0,
-      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485B. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485B. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1719,7 +1725,7 @@
       "number": "C175C",
       "title": "Chamber Ensembles: Piano",
       "units": 1.0,
-      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485C. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485C. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1732,7 +1738,7 @@
       "number": "C175D",
       "title": "Chamber Ensembles: Percussion",
       "units": 1.0,
-      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485D. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485D. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1745,7 +1751,7 @@
       "number": "C175E",
       "title": "Chamber Ensembles: Strings",
       "units": 1.0,
-      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485E. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485E. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1758,7 +1764,7 @@
       "number": "C175F",
       "title": "Chamber Ensembles: Woodwinds",
       "units": 1.0,
-      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485F. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485F. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1771,7 +1777,7 @@
       "number": "C175G",
       "title": "Chamber Ensembles: Flux Contemporary",
       "units": 1.0,
-      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485G. P/NP\u2026 For more content click the Read More button below.",
+      "description": "Activity, one to two hours. Preparation: audition. Students must be at advanced level of their instrument to participate. Applied study of performance practices of literature appropriate to ensembles. Total of 12 units may be applied toward degree requirements for music performance students. May be concurrently scheduled with course C485G. P/NP… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1862,7 +1868,7 @@
       "number": "C186A",
       "title": "Piano/Keyboard Accompanying",
       "units": 2.0,
-      "description": "Activity, four hours; outside study, two hours. Collaboration with large ensembles, instrumentalists, and/or vocalists in role of accompanists. Performance includes, but is not limited to, lessons, rehearsals, special studio performance projects, master classes, concerts, auditions, juries, and recitals. May be repeated for maximum of 12 units. Concurrently scheduled with course\u2026 For more content click the Read More button below.",
+      "description": "Activity, four hours; outside study, two hours. Collaboration with large ensembles, instrumentalists, and/or vocalists in role of accompanists. Performance includes, but is not limited to, lessons, rehearsals, special studio performance projects, master classes, concerts, auditions, juries, and recitals. May be repeated for maximum of 12 units. Concurrently scheduled with course… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1875,7 +1881,7 @@
       "number": "M6A",
       "title": "Introduction to Global Musicianship",
       "units": 2.0,
-      "description": "(Same as Ethnomusicology M6A and Musicology M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C\u2013 or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through\u2026 For more content click the Read More button below.",
+      "description": "(Same as Ethnomusicology M6A and Musicology M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C– or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through… For more content click the Read More button below.",
       "prereqs_raw": "",
       "prereqs_parsed": {
         "required": []
@@ -1892,8 +1898,8 @@
       "number": "M6B",
       "title": "Introduction to Musicianship",
       "units": 2.0,
-      "description": "(Same as Ethnomusicology M6B and Musicology M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course M6A with grade of C\u2013 or better.",
+      "description": "(Same as Ethnomusicology M6B and Musicology M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C– or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6A with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MUSC M6A"
@@ -1915,8 +1921,8 @@
       "number": "M6C",
       "title": "Introduction to Musicianship",
       "units": 2.0,
-      "description": "(Same as Ethnomusicology M6C and Musicology M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C\u2013 or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as\u2026 For more content click the Read More button below.",
-      "prereqs_raw": "Enforced requisite: course M6B with grade of C\u2013 or better.",
+      "description": "(Same as Ethnomusicology M6C and Musicology M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C– or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as… For more content click the Read More button below.",
+      "prereqs_raw": "Enforced requisite: course M6B with grade of C– or better.",
       "prereqs_parsed": {
         "required": [
           "MUSC M6B"
