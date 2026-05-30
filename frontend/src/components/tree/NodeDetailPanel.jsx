@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { fetchCourseDetails } from "../../services/treeApi.js";
+import { LeafBurst } from "../ui/LeafBurst.jsx";
 
 const STATUS_OPTIONS = ["unfulfilled", "planned", "in_progress", "completed"];
 
@@ -70,13 +71,25 @@ function ProgressBar({ pct }) {
 // ── Status dropdown ───────────────────────────────────────────────────────────
 
 function StatusDropdown({ courseId, currentStatus, onStatusChange }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
   const selectStatus = currentStatus === "locked" ? "unfulfilled" : currentStatus;
   const cfg = STATUS_CONFIG[selectStatus] ?? STATUS_CONFIG.unfulfilled;
+
+  // Close on outside click
+  useEffect(() => {
+    if (!open) return;
+    const handler = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [open]);
+
   return (
-    <div style={{ position: "relative", display: "inline-flex", alignItems: "center" }}>
-      <select
-        value={selectStatus}
-        onChange={(e) => onStatusChange(courseId, e.target.value)}
+    <div ref={ref} style={{ position: "relative", display: "inline-flex", alignItems: "center" }}>
+      {/* Trigger */}
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
         style={{
           fontFamily: FONT,
           fontSize: 12,
@@ -88,25 +101,78 @@ function StatusDropdown({ courseId, currentStatus, onStatusChange }) {
           padding: "5px 26px 5px 11px",
           cursor: "pointer",
           outline: "none",
-          appearance: "none",
-          WebkitAppearance: "none",
-          MozAppearance: "none",
+          whiteSpace: "nowrap",
         }}
       >
-        {STATUS_OPTIONS.map((s) => (
-          <option key={s} value={s}>{STATUS_CONFIG[s].label}</option>
-        ))}
-      </select>
+        {cfg.label}
+      </button>
       <span style={{
         position: "absolute",
         right: 9,
         top: "50%",
-        transform: "translateY(-50%)",
+        transform: `translateY(-50%) rotate(${open ? 180 : 0}deg)`,
         pointerEvents: "none",
         color: cfg.color,
         fontSize: 9,
         lineHeight: 1,
+        transition: "transform 150ms ease",
       }}>▾</span>
+
+      {/* Custom dropdown list */}
+      {open && (
+        <div style={{
+          position: "absolute",
+          top: "calc(100% + 6px)",
+          right: 0,
+          minWidth: "100%",
+          background: "#fff",
+          border: "1px solid #e8e8e8",
+          borderRadius: 14,
+          boxShadow: "0 4px 20px rgba(0,0,0,0.10)",
+          overflow: "hidden",
+          zIndex: 600,
+          padding: "4px",
+        }}>
+          {STATUS_OPTIONS.map((s) => {
+            const c = STATUS_CONFIG[s];
+            const isSelected = s === selectStatus;
+            return (
+              <button
+                key={s}
+                type="button"
+                onClick={() => { onStatusChange(courseId, s); setOpen(false); }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 8,
+                  width: "100%",
+                  padding: "7px 10px",
+                  borderRadius: 10,
+                  border: "none",
+                  background: isSelected ? c.bg : "transparent",
+                  cursor: "pointer",
+                  fontFamily: FONT,
+                  fontSize: 12,
+                  fontWeight: isSelected ? 700 : 500,
+                  color: isSelected ? c.color : "#555",
+                  whiteSpace: "nowrap",
+                  textAlign: "left",
+                  transition: "background 100ms",
+                }}
+                onMouseEnter={(e) => { if (!isSelected) e.currentTarget.style.background = "#f5f5f5"; }}
+                onMouseLeave={(e) => { if (!isSelected) e.currentTarget.style.background = "transparent"; }}
+              >
+                <span style={{
+                  width: 8, height: 8, borderRadius: "50%",
+                  background: c.color,
+                  flexShrink: 0,
+                }} />
+                {c.label}
+              </button>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
@@ -817,6 +883,15 @@ export function NodeDetailPanel({
   edges = [],
 }) {
   const panelRef = useRef(null);
+  const mousePos = useRef({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
+  const [bursts, setBursts] = useState([]);
+
+  const handleStatusChange = useCallback((courseId, newStatus) => {
+    if (newStatus === "completed") {
+      setBursts((prev) => [...prev, { id: Date.now() + Math.random(), x: mousePos.current.x, y: mousePos.current.y }]);
+    }
+    onStatusChange(courseId, newStatus);
+  }, [onStatusChange]);
 
   useEffect(() => {
     const handler = (e) => { if (e.key === "Escape") onClose(); };
@@ -829,6 +904,7 @@ export function NodeDetailPanel({
   return (
     <div
       ref={panelRef}
+      onMouseMove={(e) => { mousePos.current = { x: e.clientX, y: e.clientY }; }}
       style={{
         position: "fixed",
         top: 0,
@@ -876,21 +952,30 @@ export function NodeDetailPanel({
       {/* Scrollable body */}
       <div style={{ flex: 1, overflowY: "auto", padding: "24px 22px 40px" }}>
         {node.kind === "course" && (
-          <CoursePanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onNavigate={onNavigate} />
+          <CoursePanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} />
         )}
         {node.kind === "category" && (
-          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} stackSelections={stackSelections} />
+          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} stackSelections={stackSelections} />
         )}
         {node.kind === "stack_slot" && !node.assignedCourseId && (
           <StackSlotPanel node={node} statusMap={statusMap} allCourses={allCourses} stackSelections={stackSelections} onStackSelect={onStackSelect} />
         )}
         {node.kind === "stack_slot" && node.assignedCourseId && (
-          <AssignedStackSlotPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onNavigate={onNavigate} onStackRevert={onStackRevert} />
+          <AssignedStackSlotPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} onStackRevert={onStackRevert} />
         )}
         {(node.kind === "section" || node.kind === "root") && (
-          <SectionPanel node={node} statusMap={statusMap} nodeById={nodeById} edges={edges} onStatusChange={onStatusChange} stackSelections={stackSelections} />
+          <SectionPanel node={node} statusMap={statusMap} nodeById={nodeById} edges={edges} onStatusChange={handleStatusChange} stackSelections={stackSelections} />
         )}
       </div>
+
+      {bursts.map((b) => (
+        <LeafBurst
+          key={b.id}
+          x={b.x}
+          y={b.y}
+          onDone={() => setBursts((prev) => prev.filter((p) => p.id !== b.id))}
+        />
+      ))}
     </div>
   );
 }

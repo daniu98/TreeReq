@@ -44,6 +44,10 @@ export function DegreeTree({
   const hoverTimerRef = useRef(null);
   // Ref mirrors lockedCourseId for synchronous checks in mouse event handlers
   const lockedRef = useRef(null);
+  // Tracks whether the initial focus pan has fired — prevents re-centering on layout updates
+  const focusFiredRef = useRef(false);
+
+  useEffect(() => { focusFiredRef.current = false; }, [majorId]);
 
   useEffect(() => {
     if (mockResponse) return;
@@ -165,9 +169,12 @@ export function DegreeTree({
   }, []);
 
   useEffect(() => {
-    if (!layout || !onFirstCategoryReady) return;
+    if (!layout || !onFirstCategoryReady || focusFiredRef.current) return;
     const firstCat = layout.nodes.find((n) => n.kind === "category");
-    if (firstCat) onFirstCategoryReady({ x: firstCat.x, y: firstCat.y });
+    if (firstCat) {
+      focusFiredRef.current = true;
+      onFirstCategoryReady({ x: firstCat.x, y: firstCat.y });
+    }
   }, [layout, onFirstCategoryReady]);
 
   // ── All hooks must run before any early return ────────────────────────────

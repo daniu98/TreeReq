@@ -162,6 +162,7 @@ export default function AppSidebar({
 
   useEffect(() => {
     if (searchTrigger === 0) return;
+    clearTimeout(blurTimerRef.current);
     setCollapsed(false);
     setSearchOpen(true);
   }, [searchTrigger]);
