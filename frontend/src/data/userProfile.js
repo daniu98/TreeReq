@@ -88,3 +88,4 @@ export function makeGuestProfile(major) {
     majorId: major.value,
   };
 }
+

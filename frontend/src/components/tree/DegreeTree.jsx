@@ -91,7 +91,42 @@ export function DegreeTree({
       .finally(() => { if (!cancelled) setLoading(false); });
     return () => { cancelled = true; };
   }, [majorId, mockResponse]); // intentionally omit userProfile — only seed on initial load
+  useEffect(() => { // written by gemini
+    if (!userProfile || !apiResponse) return;
 
+    const profileCompleted = new Set([
+      ...(userProfile.uclaCourses || []),
+      ...(userProfile.apClasses || []),
+      ...(userProfile.ibClasses || [])
+    ]);
+
+    setStatusMap((prev) => {
+      let changed = false;
+      const next = { ...prev };
+
+      // 1. Ensure any course completed in the profile is completed in the tree
+      profileCompleted.forEach((courseId) => {
+        if (next[courseId] !== "completed") {
+          next[courseId] = "completed";
+          changed = true;
+        }
+      });
+
+      // 2. If a course was un-checked/removed from the profile, remove it from the tree
+      Object.keys(next).forEach((courseId) => {
+        if (next[courseId] === "completed" && !profileCompleted.has(courseId)) {
+          // Only remove if it's actually a node in this major's tree
+          const isNodeInTree = apiResponse.nodes?.some(n => n.id === courseId);
+          if (isNodeInTree) {
+            delete next[courseId];
+            changed = true;
+          }
+        }
+      });
+
+      return changed ? next : prev;
+    });
+  }, [userProfile, apiResponse]);
   const layout = useMemo(() => {
     if (!apiResponse) return null;
     const enriched = enrichTreeResponse(apiResponse);
