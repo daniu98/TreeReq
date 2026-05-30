@@ -346,6 +346,8 @@ export default function App() {
   }, [navigate]);
 
   const handleSignIn = useCallback(() => {
+    sessionStorage.removeItem("treereq-sso-token");
+    sessionStorage.removeItem("treereq-sso-email");
     setShowProfile(false);
     setHomeRevealed(false);
     setHomeEntered(false);
