@@ -2,121 +2,33 @@ import { useState } from "react";
 
 const font = { fontFamily: "var(--font-ui)", fontWeight: 400 };
 
-function ActionCard({ title, subtitle, accent = "#358162", onClick }) {
-  const [hovered, setHovered] = useState(false);
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      style={{
-        flex: "1 1 160px",
-        maxWidth: 240,
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "flex-start",
-        gap: 6,
-        padding: "18px 20px",
-        background: hovered ? "rgba(255,255,255,0.98)" : "rgba(255,255,255,0.85)",
-        boxShadow: hovered
-          ? "0px 6px 18px rgba(0,0,0,0.13)"
-          : "0px 4px 4px rgba(0,0,0,0.10)",
-        borderRadius: 16,
-        border: `2px solid ${accent}55`,
-        cursor: "pointer",
-        textAlign: "left",
-        transition: "box-shadow 150ms, background 150ms",
-      }}
-    >
-      <span style={{ color: "#000", fontSize: 15, fontWeight: 500, ...font }}>{title}</span>
-      {subtitle && (
-        <span style={{ color: "#9A9A9A", fontSize: 12, ...font }}>{subtitle}</span>
-      )}
-      <span style={{ color: accent, fontSize: 13, marginTop: 4, ...font }}>Open →</span>
-    </button>
-  );
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
+function getInitials(displayName, fullName) {
+  const name = displayName || fullName;
+  if (!name) return "G";
+  const parts = name.trim().split(/\s+/);
+  return parts.map((p) => p[0] ?? "").join("").toUpperCase().slice(0, 2);
 }
 
-function CoursePill({ label }) {
-  return (
-    <span style={{
-      display: "inline-block",
-      padding: "4px 10px",
-      background: "rgba(53,129,98,0.08)",
-      border: "1px solid rgba(53,129,98,0.22)",
-      borderRadius: 99,
-      fontSize: 12,
-      color: "#2a6650",
-      ...font,
-    }}>
-      {label}
-    </span>
-  );
+function getFirstName(displayName, fullName) {
+  const name = displayName || fullName;
+  if (!name) return null;
+  return name.trim().split(/\s+/)[0];
 }
 
-function SectionLabel({ children }) {
-  return (
-    <h2 style={{
-      margin: "0 0 12px",
-      fontSize: 11,
-      fontWeight: 600,
-      letterSpacing: "0.06em",
-      textTransform: "uppercase",
-      color: "#BBBBBB",
-      ...font,
-    }}>
-      {children}
-    </h2>
-  );
-}
-
-function BackgroundBlobs() {
-  const blob = (style) => (
-    <div
-      style={{
-        position: "absolute",
-        pointerEvents: "none",
-        filter: "blur(100px)",
-        ...style,
-      }}
-      aria-hidden
-    />
-  );
-  return (
-    <>
-      {blob({
-        width: "min(712px, 55vw)",
-        height: 530,
-        left: "8%",
-        top: "42%",
-        background: "rgba(39, 100, 166, 0.25)",
-      })}
-      {blob({
-        width: "min(743px, 58vw)",
-        height: 572,
-        left: "12%",
-        top: "-12%",
-        background: "rgba(143, 206, 156, 0.25)",
-      })}
-      {blob({
-        width: "min(610px, 48vw)",
-        height: 455,
-        right: "8%",
-        bottom: "5%",
-        transform: "rotate(-4deg)",
-        background: "linear-gradient(180deg, rgba(143, 206, 156, 0.2) 0%, rgba(72, 104, 79, 0.2) 100%)",
-      })}
-      {blob({
-        width: "min(512px, 40vw)",
-        height: 369,
-        right: "6%",
-        top: "18%",
-        transform: "rotate(-4deg)",
-        background: "rgba(133, 177, 16, 0.2)",
-      })}
-    </>
-  );
+function timeAgo(timestamp) {
+  if (!timestamp) return null;
+  const diff = Date.now() - timestamp;
+  const mins = Math.floor(diff / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins} minute${mins !== 1 ? "s" : ""} ago`;
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return `${hours} hour${hours !== 1 ? "s" : ""} ago`;
+  const days = Math.floor(hours / 24);
+  if (days < 7) return `${days} day${days !== 1 ? "s" : ""} ago`;
+  const weeks = Math.floor(days / 7);
+  return `${weeks} week${weeks !== 1 ? "s" : ""} ago`;
 }
 
 function computeProgress(profile) {
@@ -132,25 +44,16 @@ function computeProgress(profile) {
   return { completed, standing };
 }
 
-<<<<<<< HEAD
 // ── Icons ─────────────────────────────────────────────────────────────────────
 
-// Sprout / seedling icon used in the CTA button and tree cards
 function SproutIcon({ size = 20, color = "#fff" }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 20 20" fill="none" aria-hidden>
-      {/* stem */}
-      <path d="M10 17V9" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
-      {/* right leaf */}
+    <svg width={size} height={size} viewBox="0 0 28 28" fill="none" aria-hidden>
       <path
-        d="M10 9C10 6 12.5 3.5 16 3.5C16 7 13.5 9.5 10 9Z"
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M5.4972 21.1649C3.70404 19.1933 3.21404 16.6989 3.4322 14.4706C3.67254 12.0124 4.7937 9.65461 6.2532 8.43777C8.20387 6.81261 10.2525 6.14528 12.0305 5.81861C12.8965 5.67076 13.7684 5.56061 14.6439 5.48844C15.1152 5.44411 15.5924 5.39978 16.0509 5.28544C17.0169 5.04394 17.97 4.65194 18.7552 4.02894C19.1145 3.74311 19.4785 3.45378 19.9627 3.50744C20.1367 3.52681 20.3042 3.5851 20.4526 3.678C20.6011 3.77091 20.7267 3.89604 20.8202 4.04411C24.5535 9.95561 23.99 16.2311 20.8715 20.1838C19.314 22.1566 17.1265 23.5333 14.575 23.9404C12.349 24.2939 9.91653 23.8984 7.46537 22.6151C7.25 23.2845 7.09002 23.9705 6.98703 24.6661C6.94325 24.9724 6.77958 25.2488 6.53201 25.4345C6.28445 25.6201 5.97328 25.6998 5.66695 25.656C5.36063 25.6122 5.08424 25.4486 4.8986 25.201C4.71295 24.9534 4.63325 24.6423 4.67704 24.3359C4.8217 23.3268 5.09704 22.2523 5.4972 21.1649ZM12.4505 8.11344C13.2719 7.96294 14.043 7.89061 14.792 7.81711C15.4034 7.75878 16.0194 7.69811 16.6167 7.54878C17.6227 7.3023 18.5861 6.9067 19.475 6.37511C22.016 11.1783 21.3067 15.8648 19.0399 18.7394C17.8172 20.2888 16.136 21.3294 14.2099 21.6351C12.4797 21.9104 10.4765 21.6071 8.34154 20.4381C9.63887 17.7933 11.7599 15.2581 14.5214 13.8779C14.7983 13.7396 15.0089 13.497 15.107 13.2034C15.205 12.9097 15.1823 12.5892 15.044 12.3123C14.9057 12.0353 14.6631 11.8247 14.3694 11.7267C14.0758 11.6287 13.7553 11.6513 13.4784 11.7896C10.4357 13.3109 8.1047 15.9418 6.5892 18.7476C5.84137 17.5226 5.61737 16.0981 5.75504 14.6969C5.9522 12.6809 6.87504 10.9578 7.74653 10.2298C9.29587 8.93827 10.9292 8.39344 12.4517 8.11344H12.4505Z"
         fill={color}
-      />
-      {/* left leaf */}
-      <path
-        d="M10 12C10 9.5 7.5 7 4 7C4 10.5 6.5 13 10 12Z"
-        fill={color}
-        opacity="0.75"
       />
     </svg>
   );
@@ -177,7 +80,7 @@ function ChevronRight({ size = 16, color = "#B0B0B0" }) {
 function TreeReqIcon({ size = 44 }) {
   // The spinning-arrows icon occupies roughly the leftmost 80% of the
   // image height as width. Clip to that width to hide the "TreeReq" text.
-  const clipWidth = Math.round(size * 0.8);
+  const clipWidth = Math.round(size * 0.92);
   return (
     <div
       aria-hidden
@@ -217,25 +120,23 @@ function ProfileButton({ initials, name, onClick }) {
         ...font,
       }}
     >
-=======
-function UnitsBar({ completed = 0, total = 180 }) {
-  const chartH = 220;
-  const fillH = Math.round((completed / total) * chartH);
-  const ticks = [180, 175, 150, 125, 100, 75, 50, 25, 0];
-  return (
-    <div style={{ display: "flex", alignItems: "flex-end", gap: 14, flexWrap: "wrap" }}>
->>>>>>> af5b5428b0c370b0511114d1007407b32ca0da7b
       <div
         style={{
+          width: 34,
+          height: 34,
+          borderRadius: "50%",
+          background: "#4a7c2f",
           display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
-          height: chartH,
-          width: 32,
+          alignItems: "center",
+          justifyContent: "center",
+          color: "#fff",
+          fontSize: 12,
+          fontWeight: 600,
+          letterSpacing: 0.5,
           flexShrink: 0,
+          ...font,
         }}
       >
-<<<<<<< HEAD
         {initials}
       </div>
       <span style={{ fontSize: 15, color: "#1a1a1a", fontWeight: 500, ...font }}>
@@ -349,60 +250,17 @@ function TotalUnitsCard({ completed, total = 180, hasProgress }) {
               background: "linear-gradient(90deg, #3a6b24, #6aaa38)",
               borderRadius: 9999,
               transition: "width 600ms ease",
-=======
-        {ticks.map((t) => (
-          <span
-            key={t}
-            style={{
-              fontSize: 12,
-              ...font,
-              color: t === 180 || t === 0 ? "#000" : "#9A9A9A",
-              lineHeight: 1,
->>>>>>> af5b5428b0c370b0511114d1007407b32ca0da7b
             }}
-          >
-            {t}
-          </span>
-        ))}
-      </div>
-      <div
-        style={{
-          width: 38,
-          height: chartH,
-          borderRadius: 10,
-          border: "1px solid #000",
-          background: "#D9D9D9",
-          position: "relative",
-          overflow: "hidden",
-          flexShrink: 0,
-        }}
-      >
-        <div
-          style={{
-            position: "absolute",
-            left: 0,
-            right: 0,
-            bottom: 0,
-            height: fillH,
-            background: "#358162",
-          }}
-        />
-      </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 4, justifyContent: "center", ...font, fontSize: 12 }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-          <div style={{ width: 18, height: 18, background: "#358162", borderRadius: 1, border: "1px solid #000" }} />
-          <span style={{ color: "#000" }}>Completed</span>
+          />
         </div>
-        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-          <div style={{ width: 18, height: 18, background: "#D9D9D9", borderRadius: 1, border: "1px solid #000" }} />
-          <span style={{ color: "#000" }}>Unfulfilled</span>
+        <div style={{ marginTop: 6, fontSize: 12, color: "#9A9A9A", textAlign: "right", ...font }}>
+          {pct}%
         </div>
       </div>
     </div>
   );
 }
 
-<<<<<<< HEAD
 function RecentTreeCard({ tree, timestamp, onOpen }) {
   const [hovered, setHovered] = useState(false);
   const ago = timeAgo(timestamp);
@@ -466,17 +324,12 @@ function RecentTreeCard({ tree, timestamp, onOpen }) {
 
 // ── Main component ────────────────────────────────────────────────────────────
 
-=======
->>>>>>> af5b5428b0c370b0511114d1007407b32ca0da7b
 export default function LandingMain({
   onPlantNewTree,
   onOpenTree,
   onOpenMajor,
   onOpenProfile,
-  onOpenMajor,
-  profileLabel = "Guest",
   userProfile = null,
-<<<<<<< HEAD
   forests = [],
   forestTimestamps = {},
 }) {
@@ -493,113 +346,45 @@ export default function LandingMain({
   const displayName = userProfile?.displayName ?? "Guest";
 
   const recentTwo = forests.slice(0, 2);
-=======
-}) {
-  const { completed, standing } = computeProgress(userProfile);
-  const majorName = userProfile?.major ?? null;
-  const majorId = userProfile?.majorId ?? null;
-  const hasProgress = !!(userProfile?.uclaCourses?.length || userProfile?.apClasses?.length || userProfile?.ibClasses?.length);
-  const apClasses = userProfile?.apClasses ?? [];
-  const ibClasses = userProfile?.ibClasses ?? [];
-  const uclaCourses = userProfile?.uclaCourses ?? [];
-  const admitTerm = userProfile?.admitTerm && userProfile.admitTerm !== "—" ? userProfile.admitTerm : null;
-  const gradTerm = userProfile?.gradTerm && userProfile.gradTerm !== "—" ? userProfile.gradTerm : null;
->>>>>>> af5b5428b0c370b0511114d1007407b32ca0da7b
 
   return (
     <main
       style={{
         flex: 1,
         position: "relative",
-        background: "#fff",
         overflow: "auto",
         minWidth: 0,
+        background: "linear-gradient(145deg, #f7fbf4 0%, #eef6e8 60%, #dff0d8 100%)",
       }}
     >
-      <BackgroundBlobs />
-
       <div
         style={{
           position: "relative",
           zIndex: 1,
-<<<<<<< HEAD
           padding: "28px 48px 56px 48px",
           maxWidth: 1100,
-=======
-          padding: "36px 40px 48px",
-          maxWidth: 1200,
-          marginLeft: 0,
->>>>>>> af5b5428b0c370b0511114d1007407b32ca0da7b
         }}
       >
-        <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 24 }}>
-          <button
-            type="button"
-            onClick={() => onOpenProfile?.()}
-            style={{
-              width: 163,
-              minHeight: 56,
-              padding: "11px 20px 11px 17px",
-              background: "rgba(39, 100, 166, 0.5)",
-              borderRadius: 18,
-              border: "2px solid #C0C8D2",
-              display: "flex",
-              alignItems: "center",
-              gap: 10,
-              cursor: "pointer",
-            }}
-          >
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ color: "#000", fontSize: 20, ...font }}>{profileLabel}</div>
-            </div>
-            <div
-              style={{
-                width: 36,
-                height: 36,
-                background: "#D9D9D9",
-                borderRadius: 9999,
-                flexShrink: 0,
-              }}
-              aria-hidden
-            />
-          </button>
+        {/* Profile button */}
+        <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 48 }}>
+          <ProfileButton initials={initials} name={displayName} onClick={onOpenProfile} />
         </div>
 
-        <div style={{ marginBottom: 32 }}>
-          <h1
-            style={{
-              color: "#000",
-              fontSize: 28,
-              fontWeight: 400,
-              margin: "0 0 0",
-              ...font,
-            }}
-          >
-            Welcome back.
-          </h1>
-        </div>
-
+        {/* Welcome + CTA */}
         <div
           style={{
-            maxWidth: 488,
-            width: "100%",
-            padding: "33px 44px 30px 32px",
-            background: "rgba(255, 255, 255, 0.85)",
-            boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-            borderRadius: 25,
-            border: "2px solid #81B3E8",
-            marginBottom: 40,
             display: "flex",
             flexDirection: "column",
-            gap: 10,
+            alignItems: "center",
+            gap: 24,
+            marginBottom: 52,
           }}
         >
-<<<<<<< HEAD
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
             <TreeReqIcon size={48} />
-            <h1 style={{ fontSize: 36, fontWeight: 700, margin: 0, color: "#1a1a1a", ...font }}>
-              Welcome back,{" "}
-              <span style={{ color: "#4a7c2f" }}>{firstName ?? "Guest"}.</span>
+            <h1 style={{ fontSize: 40, fontWeight: 700, margin: 0, color: "#000", ...font }}>
+              <span style={{ fontWeight: 700 }}>Welcome back, </span>
+              <span style={{ fontWeight: 700, color: "#358162" }}>{firstName ?? "Guest"}.</span>
             </h1>
           </div>
           <PlantButton onClick={onPlantNewTree} />
@@ -659,105 +444,9 @@ export default function LandingMain({
                   }
                 />
               ))}
-=======
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 16, alignItems: "flex-start" }}>
-            <div style={{ flex: "1 1 200px", display: "flex", flexDirection: "column", gap: 16 }}>
-              <div style={{ color: "#000", fontSize: 20, fontWeight: 500, ...font }}>Current progress:</div>
-              <div style={{ color: "#000", fontSize: 16, ...font }}>
-                Major: {majorName ?? "—"}
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 8 }}>
-                <div style={{ color: "#7C7C7C", fontSize: 16, ...font }}>
-                  Completed Units: {hasProgress ? completed : "—"}
-                </div>
-                <div style={{ color: "#7C7C7C", fontSize: 16, ...font }}>
-                  Unit Standing: {hasProgress ? standing : "—"}
-                </div>
-              </div>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
-              <span style={{ fontSize: 12, color: "#000", ...font }}>total units</span>
-              <UnitsBar completed={hasProgress ? completed : 0} />
-            </div>
-          </div>
-        </div>
-
-        {/* Quick actions */}
-        <div style={{ marginBottom: 36 }}>
-          <SectionLabel>Quick actions</SectionLabel>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
-            {majorId && (
-              <ActionCard
-                title={majorName ?? "Your major"}
-                subtitle="View prerequisite tree"
-                accent="#358162"
-                onClick={() => onOpenMajor?.(majorId)}
-              />
-            )}
-            <ActionCard
-              title="New tree"
-              subtitle="Start a fresh degree plan"
-              accent="#85B110"
-              onClick={onPlantNewTree}
-            />
-          </div>
-        </div>
-
-        {/* Term info row */}
-        {(admitTerm || gradTerm) && (
-          <div style={{ marginBottom: 36 }}>
-            <SectionLabel>Timeline</SectionLabel>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 24 }}>
-              {admitTerm && (
-                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-                  <span style={{ fontSize: 11, color: "#BBBBBB", letterSpacing: "0.04em", textTransform: "uppercase", ...font }}>Admitted</span>
-                  <span style={{ fontSize: 15, color: "#3A3A3A", ...font }}>{admitTerm}</span>
-                </div>
-              )}
-              {gradTerm && (
-                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-                  <span style={{ fontSize: 11, color: "#BBBBBB", letterSpacing: "0.04em", textTransform: "uppercase", ...font }}>Expected graduation</span>
-                  <span style={{ fontSize: 15, color: "#3A3A3A", ...font }}>{gradTerm}</span>
-                </div>
-              )}
->>>>>>> af5b5428b0c370b0511114d1007407b32ca0da7b
             </div>
           </div>
         )}
-
-        {/* Completed courses */}
-        {hasProgress && (
-          <div>
-            <SectionLabel>Your completed courses</SectionLabel>
-            <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-              {uclaCourses.length > 0 && (
-                <div>
-                  <div style={{ fontSize: 12, color: "#9A9A9A", marginBottom: 8, ...font }}>UCLA Courses</div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-                    {uclaCourses.map(c => <CoursePill key={c} label={c} />)}
-                  </div>
-                </div>
-              )}
-              {apClasses.length > 0 && (
-                <div>
-                  <div style={{ fontSize: 12, color: "#9A9A9A", marginBottom: 8, ...font }}>AP Credits</div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-                    {apClasses.map(c => <CoursePill key={c} label={c} />)}
-                  </div>
-                </div>
-              )}
-              {ibClasses.length > 0 && (
-                <div>
-                  <div style={{ fontSize: 12, color: "#9A9A9A", marginBottom: 8, ...font }}>IB Credits</div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-                    {ibClasses.map(c => <CoursePill key={c} label={c} />)}
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
-
       </div>
     </main>
   );
