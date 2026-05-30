@@ -860,11 +860,27 @@ select.onboarding-academic-input:disabled {
 }
 
 .onboarding-academic-chip-x {
-  width: 7px;
-  height: 7px;
-  border: 1px solid #000000;
-  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
   display: block;
+  position: relative;
+}
+.onboarding-academic-chip-x::before,
+.onboarding-academic-chip-x::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 1.5px;
+  background: currentColor;
+  border-radius: 1px;
+}
+.onboarding-academic-chip-x::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.onboarding-academic-chip-x::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .onboarding-academic-footer {
