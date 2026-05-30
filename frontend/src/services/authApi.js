@@ -144,3 +144,61 @@ export async function verifySsoToken(tokenString) {
 
   return data;
 }
+export async function updateData(email, localStorage) {
+  const response = await fetch(apiUrl("/api/auth/update-data"), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email: email, data: localStorage }),
+  });
+
+  let data;
+  try {
+    data = await response.json();
+  } catch {
+    throw new Error(
+      response.status === 404
+        ? "Sign-in endpoint missing. Run the backend on port 8000 with the latest code."
+        : `Bad response from server (${response.status}).`
+    );
+  }
+  if (!response.ok) {
+    const detail = data?.detail;
+    let message;
+    if (typeof detail === "string") message = detail;
+    else if (Array.isArray(detail)) {
+      message = detail.map((x) => x?.msg || x).filter(Boolean).join("; ");
+    }
+    throw new Error(message || data?.message || "Invalid token");
+  }
+
+  return data;
+}
+export async function getData(email) {
+  const response = await fetch(apiUrl("/api/auth/get-data"), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email: email }),
+  });
+
+  let data;
+  try {
+    data = await response.json();
+  } catch {
+    throw new Error(
+      response.status === 404
+        ? "Sign-in endpoint missing. Run the backend on port 8000 with the latest code."
+        : `Bad response from server (${response.status}).`
+    );
+  }
+  if (!response.ok) {
+    const detail = data?.detail;
+    let message;
+    if (typeof detail === "string") message = detail;
+    else if (Array.isArray(detail)) {
+      message = detail.map((x) => x?.msg || x).filter(Boolean).join("; ");
+    }
+    throw new Error(message || data?.message || "Invalid token");
+  }
+
+  return data;
+}
