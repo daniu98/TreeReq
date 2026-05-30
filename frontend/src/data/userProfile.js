@@ -39,6 +39,8 @@ export function mapOnboardingToProfile({ profile, academic }) {
   const apRaw = academic?.apClasses ?? [];
   const ibRaw = academic?.ibClasses ?? [];
   const uclaCourses = academic?.uclaCourses ?? [];
+  // apScores: { [examName]: score } e.g. { "Calculus BC": 5 }
+  const apScores = academic?.apScores ?? {};
 
   return {
     displayName,
@@ -52,6 +54,7 @@ export function mapOnboardingToProfile({ profile, academic }) {
     majorFocus,
     uclaCourses,
     apClasses: apRaw.map((v) => (v.startsWith("AP ") ? v : `AP ${v}`)),
+    apScores,
     ibClasses: ibRaw.map((v) => (v.startsWith("IB ") ? v : `IB ${v}`)),
   };
 }

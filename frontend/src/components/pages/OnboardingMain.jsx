@@ -541,6 +541,8 @@ function addUnique(list, value) {
 function OnboardingAcademicStep({ onBack, onComplete }) {
   const [majorSelected, setMajorSelected] = useState([]);
   const [apSelected, setApSelected] = useState([]);
+  // apScores: { [examValue]: number } — score per AP exam (1–5)
+  const [apScores, setApScores] = useState({});
   const [ibSelected, setIbSelected] = useState([]);
   const [uclaSelected, setUclaSelected] = useState([]);
   const [options, setOptions] = useState({ apExams: [], ibExams: [], uclaCourses: [] });
@@ -577,6 +579,7 @@ function OnboardingAcademicStep({ onBack, onComplete }) {
     e.preventDefault();
     onComplete?.({
       apClasses: apSelected,
+      apScores,
       ibClasses: ibSelected,
       uclaCourses: uclaSelected,
     });
@@ -625,10 +628,33 @@ function OnboardingAcademicStep({ onBack, onComplete }) {
             options={options.apExams}
             selected={apSelected}
             onSelect={(value) => setApSelected((list) => addUnique(list, value))}
-            onRemove={(value) => setApSelected((list) => list.filter((x) => x !== value))}
+            onRemove={(value) => {
+              setApSelected((list) => list.filter((x) => x !== value));
+              setApScores((prev) => { const next = { ...prev }; delete next[value]; return next; });
+            }}
             disabled={optionsLoading || loadState === "error"}
             emptyMessage={options.apExams.length === 0 ? "No AP exams in database" : "Select…"}
           />
+          {apSelected.length > 0 && (
+            <div style={{ marginTop: 8, display: "flex", flexDirection: "column", gap: 6 }}>
+              <p style={{ fontSize: 13, color: "#555", margin: 0 }}>Enter your score for each AP exam:</p>
+              {apSelected.map((exam) => (
+                <div key={exam} style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                  <span style={{ fontSize: 13, flex: 1 }}>{exam}</span>
+                  <select
+                    value={apScores[exam] ?? ""}
+                    onChange={(e) => setApScores((prev) => ({ ...prev, [exam]: Number(e.target.value) }))}
+                    style={{ fontSize: 13, padding: "3px 6px", borderRadius: 6, border: "1px solid #ccc" }}
+                  >
+                    <option value="">Score</option>
+                    {[1, 2, 3, 4, 5].map((s) => (
+                      <option key={s} value={s}>{s}</option>
+                    ))}
+                  </select>
+                </div>
+              ))}
+            </div>
+          )}
           <OnboardingSelectAdd
             id="ob-ib"
             label="Select IB classes you have taken:"

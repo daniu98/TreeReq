@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { fetchMajorTree, setCourseCompletion } from "../../services/treeApi.js";
+import { fetchMajorTree, fetchApCredits, setCourseCompletion } from "../../services/treeApi.js";
 import { enrichTreeResponse } from "../../utils/enrichTreeResponse.js";
 import { buildHierarchy } from "./buildHierarchy.js";
 import { buildPrereqIndex, deriveStatuses } from "./deriveStatus.js";
@@ -69,22 +69,39 @@ export function DegreeTree({
     let cancelled = false;
     setLoading(true);
     setError(null);
-    fetchMajorTree(majorId)
-      .then((res) => {
+    Promise.all([fetchMajorTree(majorId), fetchApCredits().catch(() => [])])
+      .then(([res, apCreditRules]) => {
         if (cancelled) return;
         setApiResponse(res);
+
         // Start from any previously saved state for this major.
         const saved = loadStatusMap(majorId);
         const seed = { ...saved };
+
         // Seed from backend flags.
         for (const n of res.nodes ?? []) {
           if (n.completed === true && !seed[n.id]) seed[n.id] = "completed";
         }
-        // Seed from profile uclaCourses — courses entered in onboarding/profile edit.
+
+        // Seed from profile uclaCourses.
         const profileCompleted = new Set(userProfile?.uclaCourses ?? []);
         for (const n of res.nodes ?? []) {
           if (profileCompleted.has(n.id) && !seed[n.id]) seed[n.id] = "completed";
         }
+
+        // Seed from AP credit equivalents using stored scores.
+        const apScores = userProfile?.apScores ?? {};
+        for (const rule of apCreditRules) {
+          const examName = rule.ap_exam; // e.g. "Calculus BC"
+          const score = apScores[examName];
+          if (!score) continue;
+          if (score >= rule.score_min && score <= rule.score_max) {
+            for (const courseId of rule.ucla_courses ?? []) {
+              if (!seed[courseId]) seed[courseId] = "completed";
+            }
+          }
+        }
+
         setStatusMap(seed);
       })
       .catch((err) => { if (!cancelled) setError(err); })

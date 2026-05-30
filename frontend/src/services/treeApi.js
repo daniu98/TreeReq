@@ -8,6 +8,17 @@
  */
 import { apiUrl } from "./apiBase.js";
 
+/**
+ * Fetch all AP credit mappings: exam + score range → UCLA course IDs.
+ * Returns [{ ap_exam, score_min, score_max, ucla_courses: string[] }]
+ */
+export async function fetchApCredits() {
+  const url = apiUrl("/api/onboarding/ap-credits");
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`AP credits fetch failed (${response.status})`);
+  return response.json();
+}
+
 export async function fetchMajorTree(majorId) {
   const url = apiUrl(`/api/majors/${encodeURIComponent(majorId)}/tree`);
   const response = await fetch(url);

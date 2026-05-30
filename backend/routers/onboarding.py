@@ -44,3 +44,11 @@ async def academic_options():
         "uclaCourses": ucla_options,
         "majors": majors_ret,
     }
+
+
+@router.get("/ap-credits")
+async def ap_credits():
+    """Return all AP credit mappings: exam + score range → UCLA course IDs."""
+    db = get_db()
+    docs = await db.ap_credits.find({}, {"_id": 0}).to_list(length=500)
+    return docs

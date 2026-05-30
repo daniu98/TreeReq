@@ -1,0 +1,507 @@
+[
+  {
+    "ap_exam": "Art History",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Studio Art - Drawing",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Studio Art - 2D Design",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Studio Art - 3D Design",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Biology",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Chemistry",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Chemistry",
+    "score_min": 4,
+    "score_max": 5,
+    "ucla_courses": [
+      "CHEM 20A"
+    ],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Chinese Language",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Computer Science A",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Computer Science AB",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": "Quantitative Reasoning"
+  },
+  {
+    "ap_exam": "Computer Science Principles",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Macroeconomics",
+    "score_min": 3,
+    "score_max": 4,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Macroeconomics",
+    "score_min": 5,
+    "score_max": 5,
+    "ucla_courses": [
+      "ECON 2"
+    ],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Microeconomics",
+    "score_min": 3,
+    "score_max": 4,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Microeconomics",
+    "score_min": 5,
+    "score_max": 5,
+    "ucla_courses": [
+      "ECON 1"
+    ],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "English Language",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": "Entry Level Writing"
+  },
+  {
+    "ap_exam": "English Language",
+    "score_min": 4,
+    "score_max": 5,
+    "ucla_courses": [
+      "ENGCOMP 3"
+    ],
+    "units": 8,
+    "satisfies": "Entry Level Writing, Writing 1"
+  },
+  {
+    "ap_exam": "English Literature",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": "Entry Level Writing"
+  },
+  {
+    "ap_exam": "English Literature",
+    "score_min": 4,
+    "score_max": 5,
+    "ucla_courses": [
+      "ENGCOMP 3"
+    ],
+    "units": 8,
+    "satisfies": "Entry Level Writing, Writing 1"
+  },
+  {
+    "ap_exam": "Environmental Science",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "French Language",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [
+      "FRNCH 4"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "French Language",
+    "score_min": 4,
+    "score_max": 4,
+    "ucla_courses": [
+      "FRNCH 5"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "French Language",
+    "score_min": 5,
+    "score_max": 5,
+    "ucla_courses": [
+      "FRNCH 6"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "French Literature",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "German Language",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [
+      "GERMAN 3"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "German Language",
+    "score_min": 4,
+    "score_max": 4,
+    "ucla_courses": [
+      "GERMAN 4"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "German Language",
+    "score_min": 5,
+    "score_max": 5,
+    "ucla_courses": [
+      "GERMAN 5"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Government - Comparative",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Government - US",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": "American History and Institutions"
+  },
+  {
+    "ap_exam": "History - African American Studies",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": "American History and Institutions"
+  },
+  {
+    "ap_exam": "History - European",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "History - US",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": "American History and Institutions"
+  },
+  {
+    "ap_exam": "History - World",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Human Geography",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Italian Language",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [
+      "ITALIAN 3"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Italian Language",
+    "score_min": 4,
+    "score_max": 4,
+    "ucla_courses": [
+      "ITALIAN 4"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Italian Language",
+    "score_min": 5,
+    "score_max": 5,
+    "ucla_courses": [
+      "ITALIAN 6"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Japanese Language",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Latin",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [
+      "LATIN 1"
+    ],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Latin",
+    "score_min": 4,
+    "score_max": 5,
+    "ucla_courses": [
+      "LATIN 3"
+    ],
+    "units": 4,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Calculus AB",
+    "score_min": 3,
+    "score_max": 4,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": "Quantitative Reasoning"
+  },
+  {
+    "ap_exam": "Calculus AB",
+    "score_min": 5,
+    "score_max": 5,
+    "ucla_courses": [
+      "MATH 31A"
+    ],
+    "units": 4,
+    "satisfies": "Quantitative Reasoning"
+  },
+  {
+    "ap_exam": "Calculus BC",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": "Quantitative Reasoning"
+  },
+  {
+    "ap_exam": "Calculus BC",
+    "score_min": 4,
+    "score_max": 4,
+    "ucla_courses": [
+      "MATH 31A"
+    ],
+    "units": 8,
+    "satisfies": "Quantitative Reasoning"
+  },
+  {
+    "ap_exam": "Calculus BC",
+    "score_min": 5,
+    "score_max": 5,
+    "ucla_courses": [
+      "MATH 31A",
+      "MATH 31B"
+    ],
+    "units": 8,
+    "satisfies": "Quantitative Reasoning"
+  },
+  {
+    "ap_exam": "Music Theory",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Physics 1",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Physics 2",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Physics C: E&M",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Physics C: Mechanics",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [
+      "PHYSICS 1A"
+    ],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Psychology",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Psychology",
+    "score_min": 4,
+    "score_max": 5,
+    "ucla_courses": [
+      "PSYCH 10"
+    ],
+    "units": 4,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Spanish Language",
+    "score_min": 3,
+    "score_max": 3,
+    "ucla_courses": [
+      "SPAN 3"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Spanish Language",
+    "score_min": 4,
+    "score_max": 4,
+    "ucla_courses": [
+      "SPAN 4"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Spanish Language",
+    "score_min": 5,
+    "score_max": 5,
+    "ucla_courses": [
+      "SPAN 5"
+    ],
+    "units": 8,
+    "satisfies": "Foreign Language"
+  },
+  {
+    "ap_exam": "Spanish Literature",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 8,
+    "satisfies": null
+  },
+  {
+    "ap_exam": "Statistics",
+    "score_min": 3,
+    "score_max": 5,
+    "ucla_courses": [],
+    "units": 4,
+    "satisfies": "Quantitative Reasoning"
+  }
+]

@@ -51,7 +51,7 @@ async def main():
         print("Set MONGO_URI in backend/.env or environment.", file=sys.stderr)
         sys.exit(1)
 
-    json_path = repo_root() / "ai" / "data" / "ucla_ap_credits_simple.json"
+    json_path = repo_root() / "ai" / "data" / "ucla_ap_credits.json"
     if not json_path.is_file():
         print(f"Missing {json_path}", file=sys.stderr)
         sys.exit(1)
