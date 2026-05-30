@@ -211,10 +211,10 @@ function OnboardingLanding({ onGoogleContinue, onSkipOnboarding, ssoToken, setSs
       setSsoToken(data.token);
       setEmail(data.email);
       if (data.onboarded) {
-	sessionStorage.setItem("treereq-sso-token", data.token);
+        sessionStorage.setItem("treereq-sso-token", data.token);
         sessionStorage.setItem("treereq-sso-email", data.email);
         setStatus("Welcome back! Redirecting…");
-        onSkipOnboarding(data.email);
+        onSkipOnboarding(data.email, null, data.profile);
         return;
       }
 
@@ -690,12 +690,12 @@ export default function OnboardingMain({ onComplete, onExitStart }) {
   const [email, setEmail] = useState("");
   const [ssoToken, setSsoToken] = useState("");
   const [isCheckingAuth, setIsCheckingAuth] = useState(true);
-  const handleSkipToMainApp = useCallback((userEmail, major = null) => {
+  const handleSkipToMainApp = useCallback((userEmail, major = null, profileData = null) => {
     if (exitingToHome) return;
     setExitingToHome(true);
     onExitStart?.();
     window.setTimeout(() => {
-      onComplete?.({ skipped: true, email: userEmail, major });
+      onComplete?.({ skipped: true, email: userEmail, major, profileData });
     }, HOME_EXIT_MS);
   }, [exitingToHome, onExitStart, onComplete]);
 

@@ -56,6 +56,35 @@ export function mapOnboardingToProfile({ profile, academic }) {
   };
 }
 
+/**
+ * Build a profile from the data returned by the backend for a returning
+ * authenticated user (google_sso endpoint, onboarded: true).
+ */
+export function mapReturnedUserToProfile(data) {
+  if (!data) return null;
+  const first = (data.firstName || "").trim();
+  const last = (data.lastName || "").trim();
+  const fullName = [first, last].filter(Boolean).join(" ") || "Student";
+  const lastInitial = last ? `${last.charAt(0).toUpperCase()}.` : "";
+  const displayName = first && lastInitial ? `${first} ${lastInitial}` : fullName;
+  const major = data.major || "—";
+  return {
+    displayName,
+    fullName,
+    major,
+    majorId: data.majorId || null,
+    minor: data.minor || "N/A",
+    admitTerm: data.admitTerm || "—",
+    admitLevel: data.admitLevel || "—",
+    gradTerm: data.gradTerm || "—",
+    majorFocus: major.split(",")[0]?.trim() || major,
+    uclaCourses: data.uclaCourses ?? [],
+    apClasses: (data.apClasses ?? []).map((v) => (v.startsWith("AP ") ? v : `AP ${v}`)),
+    apScores: data.apScores ?? {},
+    ibClasses: (data.ibClasses ?? []).map((v) => (v.startsWith("IB ") ? v : `IB ${v}`)),
+  };
+}
+
 export function makeGuestProfile(major) {
   if (!major?.value || !major?.label) return null;
   return {

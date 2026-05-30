@@ -17,6 +17,7 @@ import {
   loadStoredProfile,
   makeGuestProfile,
   mapOnboardingToProfile,
+  mapReturnedUserToProfile,
   saveStoredProfile,
 } from "./data/userProfile.js";
 import { getTreeDocumentTitle, parseLocation, pathForView } from "./lib/routes.js";
@@ -279,11 +280,20 @@ export default function App() {
 
   const handleOnboardingComplete = useCallback((data) => {
     if (data?.profile && data?.academic) {
+      // Fresh onboarding completed
       const mapped = mapOnboardingToProfile(data);
       saveStoredProfile(mapped);
       setUserProfile(mapped);
       setShowProfile(true);
+    } else if (data?.skipped && data?.profileData) {
+      // Returning authenticated user — use profile fetched from backend
+      const mapped = mapReturnedUserToProfile(data.profileData);
+      if (mapped) {
+        saveStoredProfile(mapped);
+        setUserProfile(mapped);
+      }
     } else if (data?.skipped && data?.major) {
+      // Guest continuing without sign-in
       const guest = makeGuestProfile(data.major);
       if (guest) {
         saveStoredProfile(guest);
