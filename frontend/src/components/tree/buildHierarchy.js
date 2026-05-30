@@ -29,6 +29,32 @@ export function buildHierarchy(apiResponse, majorName) {
     dependentsOf.get(e.source).push({ target: e.target, type: e.type ?? "required" });
   }
 
+  // Augment edge maps from prereqs_parsed on nodes, for courses whose required
+  // list is empty but have one_of options. This handles cases where the DB has
+  // prereqs_parsed but edges were not generated (missing or stale data).
+  for (const node of nodes) {
+    const parsed = node.prereqs_parsed;
+    if (!parsed) continue;
+    if ((parsed.required?.length ?? 0) > 0) continue;     // has required edges — skip
+    if ((parsed.one_of?.length ?? 0) === 0) continue;     // no one_of either — skip
+
+    const cid = node.id;
+    for (const group of parsed.one_of) {
+      for (const optionId of group) {
+        // Add to prereqsOf if not already there
+        if (!prereqsOf.has(cid)) prereqsOf.set(cid, []);
+        if (!prereqsOf.get(cid).some((p) => p.source === optionId && p.type === "one_of")) {
+          prereqsOf.get(cid).push({ source: optionId, type: "one_of" });
+        }
+        // Add to dependentsOf if not already there
+        if (!dependentsOf.has(optionId)) dependentsOf.set(optionId, []);
+        if (!dependentsOf.get(optionId).some((d) => d.target === cid && d.type === "one_of")) {
+          dependentsOf.get(optionId).push({ target: cid, type: "one_of" });
+        }
+      }
+    }
+  }
+
   // Course → its requirement category key (section::category).
   // Using a composite key ensures identically-named categories in different
   // sections (e.g. "Computer Science or Electrical Engineering (choose 1)"
@@ -52,9 +78,22 @@ export function buildHierarchy(apiResponse, majorName) {
   const placedCourses = new Set();
 
   /**
+   * Extract the numeric portion of a course number for ordering.
+   * "31B" → 31, "133A" → 133, "32A" → 32.
+   */
+  function courseNum(courseId) {
+    const part = courseId.split(/\s+/).pop() ?? "";
+    return parseInt(part.replace(/\D/g, ""), 10) || 0;
+  }
+
+  /**
    * Place a course node. Its in-category dependents (courses that require THIS
    * course, within the same department) become its children — implementing the
    * left-to-right prereq→dependent flow.
+   *
+   * For `one_of` edges: a target may list several same-category sources as
+   * alternatives. Only the numerically lowest source should claim the target so
+   * placement is deterministic and follows the natural course sequence.
    */
   function placeCourse(courseId, ownerCategory) {
     placedCourses.add(courseId);
@@ -75,11 +114,28 @@ export function buildHierarchy(apiResponse, majorName) {
 
     // Recurse into in-category dependents.
     const outgoing = dependentsOf.get(courseId) ?? [];
-    for (const { target } of outgoing) {
+    for (const { target, type } of outgoing) {
       if (
         categoryOfCourse.get(target) === ownerCategory &&
         !placedCourses.has(target)
       ) {
+        // For one_of edges: only apply the "lowest wins" rule when the target
+        // has NO required/corequisite same-category prereqs. Those structural
+        // edges always take priority — only divert when the target's placement
+        // is entirely determined by one_of alternatives (e.g. MATH 33A).
+        if (type === "one_of") {
+          const targetPrereqs = prereqsOf.get(target) ?? [];
+          const hasStructuralInCat = targetPrereqs.some(
+            (p) => p.type !== "one_of" && categoryOfCourse.get(p.source) === ownerCategory
+          );
+          if (hasStructuralInCat) continue; // a required/coreq edge will claim this target
+
+          const sameCategSources = targetPrereqs
+            .filter((p) => p.type === "one_of" && categoryOfCourse.get(p.source) === ownerCategory)
+            .map((p) => p.source)
+            .sort((a, b) => courseNum(a) - courseNum(b));
+          if (sameCategSources.length > 0 && sameCategSources[0] !== courseId) continue;
+        }
         node.children.push(placeCourse(target, ownerCategory));
       }
     }

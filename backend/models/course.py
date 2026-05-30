@@ -27,6 +27,7 @@ class TreeNode(BaseModel):
     title: str
     units: float
     is_elective: bool = False  # true = pick from a list, false = must take
+    prereqs_parsed: PrereqsParsed | None = None
 
 
 class TreeEdge(BaseModel):

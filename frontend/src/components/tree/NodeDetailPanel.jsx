@@ -241,9 +241,13 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
   }, [courseId]);
 
   const prereqsParsed = details?.prereqs_parsed;
-  const requiredPrereqs = prereqsParsed?.required ?? [];
-  const oneOfGroups = prereqsParsed?.one_of ?? [];
-  const corequisites = prereqsParsed?.corequisites ?? [];
+  // Only show courses that are part of this major's tree
+  const inMajor = (pid) => !!nodeById?.get(pid);
+  const requiredPrereqs = (prereqsParsed?.required ?? []).filter(inMajor);
+  const oneOfGroups = (prereqsParsed?.one_of ?? [])
+    .map((group) => group.filter(inMajor))
+    .filter((group) => group.length > 0);
+  const corequisites = (prereqsParsed?.corequisites ?? []).filter(inMajor);
   const hasPrereqs = requiredPrereqs.length > 0 || oneOfGroups.length > 0;
   const hasCoreqs = corequisites.length > 0;
 
@@ -351,7 +355,7 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
 
       {details?.prereqs_raw && (
         <>
-          <SectionLabel>Advanced preparation</SectionLabel>
+          <SectionLabel>Additional Info</SectionLabel>
           <div style={{ fontFamily: FONT, fontSize: 12, color: "#888", lineHeight: 1.55 }}>
             {details.prereqs_raw}
           </div>
@@ -364,7 +368,7 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
 // ── Category panel ────────────────────────────────────────────────────────────
 
 function CourseCheckbox({ completed, disabled }) {
-  const green = "#85B110";
+  const green = "#348162";
   const gray = "#9A9A9A";
   const borderColor = disabled ? "#999999" : completed ? green : gray;
   const bg = disabled ? "#D8D8D8" : completed ? green : "#fff";
@@ -694,7 +698,7 @@ function CourseRow({ courseId, statusMap, nodeById, onStatusChange, onWarn }) {
   const st = statusMap[courseId] ?? (cn?.status === "locked" ? "locked" : "unfulfilled");
   const isCompleted = st === "completed";
   const isLocked = st === "locked";
-  const green = "#85B110";
+  const green = "#348162";
   const title = cn?.data?.title ?? "";
 
   const pendingRef = useRef(false);
@@ -742,7 +746,7 @@ function StackSlotRow({ slotIndex, chooseN, courseId, isLocked, statusMap, nodeB
   const cn = isAssigned ? nodeById?.get(courseId) : null;
   const isCompleted = isAssigned && statusMap[courseId] === "completed";
   const title = cn?.data?.title ?? "";
-  const green = "#85B110";
+  const green = "#348162";
 
   const pendingRef = useRef(false);
   const timerRef = useRef(null);

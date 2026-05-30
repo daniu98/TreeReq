@@ -118,18 +118,26 @@ export function deriveStatuses(rootHierarchy, statusMap, prereqIndex, stackSelec
  * otherwise "unfulfilled".
  * - Required prereqs: must be "completed".
  * - Coreqs: must be "planned", "in_progress", or "completed".
+ * - If required is empty, falls back to one_of: locked if none of the options are completed.
  */
 function deriveLockedStatus(courseId, statusMap, prereqIndex) {
   const prereqs = prereqIndex.get(courseId) ?? [];
   const requiredPrereqs = prereqs.filter((p) => p.type === "required");
   const coreqs = prereqs.filter((p) => p.type === "corequisite");
-  if (requiredPrereqs.length === 0 && coreqs.length === 0) return "unfulfilled";
 
-  const allRequiredMet = requiredPrereqs.every((p) => statusMap[p.source] === "completed");
-  const allCoreqsMet = coreqs.every(
-    (p) => ["planned", "in_progress", "completed"].includes(statusMap[p.source] ?? "")
-  );
-  return allRequiredMet && allCoreqsMet ? "unfulfilled" : "locked";
+  if (requiredPrereqs.length > 0 || coreqs.length > 0) {
+    const allRequiredMet = requiredPrereqs.every((p) => statusMap[p.source] === "completed");
+    const allCoreqsMet = coreqs.every(
+      (p) => ["planned", "in_progress", "completed"].includes(statusMap[p.source] ?? "")
+    );
+    return allRequiredMet && allCoreqsMet ? "unfulfilled" : "locked";
+  }
+
+  // Required is empty — check one_of: locked if none of the options are completed.
+  const oneOfPrereqs = prereqs.filter((p) => p.type === "one_of");
+  if (oneOfPrereqs.length === 0) return "unfulfilled";
+  const anyMet = oneOfPrereqs.some((p) => statusMap[p.source] === "completed");
+  return anyMet ? "unfulfilled" : "locked";
 }
 
 /** Build a quick prereq lookup index from API edges. */

@@ -300,6 +300,8 @@ async def build_major_tree(db, major_id: str) -> PrereqTreeResponse:
             )
             return
 
+        prereqs = parse_prereqs(course.get("prereqs_parsed"))
+
         nodes.append(
             TreeNode(
                 id=course["course_id"],
@@ -308,10 +310,9 @@ async def build_major_tree(db, major_id: str) -> PrereqTreeResponse:
                 title=course["title"],
                 units=course["units"],
                 is_elective=cid in elective_courses,
+                prereqs_parsed=prereqs,
             )
         )
-
-        prereqs = parse_prereqs(course.get("prereqs_parsed"))
 
         for prereq_id in prereqs.required:
             edges.append(TreeEdge(source=prereq_id, target=cid))

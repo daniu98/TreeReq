@@ -167,7 +167,7 @@ function CourseCard({ node, onClose }) {
               marginBottom: 6,
             }}
           >
-            Advanced Preparation
+            Additional Info
           </div>
           {node.advancedPrep.map((p, i) => (
             <div key={i} style={{ fontSize: 13, color: "#222", padding: "2px 0" }}>
