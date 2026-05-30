@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { googleLogout } from "@react-oauth/google";
 import LandingMain from "./components/pages/LandingMain.jsx";
 import OnboardingMain from "./components/pages/OnboardingMain.jsx";
 import ProfileMain from "./components/pages/ProfileMain.jsx";
@@ -112,6 +113,7 @@ function AppHome({
   onCloseProfile,
   onOpenProfile,
   onProfileUpdate,
+  onSignOut,
 }) {
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeMajorId = !KNOWN_VIEWS.has(route.view) && route.view ? route.view : null;
@@ -133,6 +135,7 @@ function AppHome({
           profile={userProfile}
           onClose={onCloseProfile}
           onProfileUpdate={onProfileUpdate}
+          onSignOut={onSignOut}
         />
       ) : null}
 
@@ -294,6 +297,17 @@ export default function App() {
     setUserProfile(updated);
   }, []);
 
+  const handleSignOut = useCallback(() => {
+    googleLogout();
+    localStorage.clear();
+    setUserProfile(null);
+    setShowProfile(false);
+    setHomeRevealed(false);
+    setHomeEntered(false);
+    setOnboardingVisible(true);
+    navigate("landing");
+  }, [navigate]);
+
   return (
     <div className="app-transition-root">
       {homeRevealed ? (
@@ -315,6 +329,7 @@ export default function App() {
             onCloseProfile={handleCloseProfile}
             onOpenProfile={handleOpenProfile}
             onProfileUpdate={handleProfileUpdate}
+            onSignOut={handleSignOut}
           />
         </div>
       ) : null}

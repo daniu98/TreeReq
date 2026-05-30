@@ -60,7 +60,7 @@ function ChipList({ items, emptyLabel }) {
   );
 }
 
-export default function ProfileMain({ onClose, profile, onProfileUpdate }) {
+export default function ProfileMain({ onClose, profile, onProfileUpdate, onSignOut }) {
   const [editing, setEditing] = useState(false);
   const firstName = profile?.displayName?.split(" ")[0] ?? "there";
   const uclaCourses = profile?.uclaCourses ?? [];
@@ -173,6 +173,12 @@ export default function ProfileMain({ onClose, profile, onProfileUpdate }) {
             </article>
           </div>
         </section>
+
+        <div className="profile-signout-row">
+          <button type="button" className="profile-signout-btn" onClick={onSignOut}>
+            Sign Out
+          </button>
+        </div>
       </div>
     </main>
   );

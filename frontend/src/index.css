@@ -2172,3 +2172,27 @@ select.onboarding-academic-input:disabled {
   margin: 0 0 16px;
 }
 
+.profile-signout-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 0 4px;
+}
+
+.profile-signout-btn {
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #c0392b;
+  background: none;
+  border: 1.5px solid #c0392b;
+  border-radius: 8px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.profile-signout-btn:hover {
+  background: #c0392b;
+  color: #fff;
+}
+
