@@ -147,6 +147,7 @@ function AppHome({
           onOpenTree={openTree}
           onOpenMajor={openMajor}
           onOpenProfile={onOpenProfile}
+          onSignIn={onSignOut}
           userProfile={userProfile}
           forests={forests}
           forestTimestamps={forestTimestamps ?? {}}
