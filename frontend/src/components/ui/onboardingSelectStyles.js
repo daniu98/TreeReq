@@ -3,6 +3,7 @@
 export const onboardingSelectStyles = {
   control: (base, state) => ({
     ...base,
+    width: "100%",
     backgroundColor: "#d9d9d9",
     border: "none",
     borderRadius: "7px",

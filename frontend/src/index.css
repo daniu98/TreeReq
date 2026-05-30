@@ -1420,6 +1420,7 @@ select.onboarding-academic-input:disabled {
   align-items: flex-start;
   gap: 10px;
   min-width: 0;
+  width: 100%;
 }
 
 .onboarding-field__label {
