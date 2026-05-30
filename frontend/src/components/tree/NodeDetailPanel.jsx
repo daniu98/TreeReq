@@ -2,6 +2,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { fetchCourseDetails } from "../../services/treeApi.js";
 import { LeafBurst } from "../ui/LeafBurst.jsx";
 
+// ms after first click on a locked checkbox before the pending override expires
+const OVERRIDE_WINDOW = 2000;
+
 const STATUS_OPTIONS = ["unfulfilled", "planned", "in_progress", "completed"];
 
 const STATUS_CONFIG = {
@@ -363,8 +366,8 @@ function CoursePanel({ node, statusMap, nodeById, onStatusChange, onNavigate }) 
 function CourseCheckbox({ completed, disabled }) {
   const green = "#85B110";
   const gray = "#9A9A9A";
-  const borderColor = disabled ? "#D0D0D0" : completed ? green : gray;
-  const bg = disabled ? "#f5f5f5" : completed ? green : "#fff";
+  const borderColor = disabled ? "#999999" : completed ? green : gray;
+  const bg = disabled ? "#D8D8D8" : completed ? green : "#fff";
   return (
     <div style={{
       width: 14,
@@ -387,7 +390,7 @@ function CourseCheckbox({ completed, disabled }) {
   );
 }
 
-function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelections }) {
+function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelections, onWarn }) {
   const d = node.data;
   const isStack = d.choose_n != null;
 
@@ -427,43 +430,20 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelecti
         <div style={{ display: "flex", flexDirection: "column", gap: 10, background: "#FAFAFA", borderRadius: 8, padding: 15 }}>
           {Array.from({ length: required }, (_, i) => {
             const courseId = catSelections[i] ?? null;
-            const isAssigned = !!courseId;
-            const isCompleted = isAssigned && statusMap[courseId] === "completed";
-            const cn = isAssigned ? nodeById?.get(courseId) : null;
-            const title = cn?.data?.title ?? "";
-            const green = "#85B110";
-
+            const slotNode = nodeById?.get(`slot:${node.id}:${i}`);
+            const isLocked = !!courseId && slotNode?.status === "locked";
             return (
-              <div
+              <StackSlotRow
                 key={i}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 8,
-                  cursor: isAssigned ? "pointer" : "default",
-                  userSelect: "none",
-                  opacity: isAssigned ? 1 : 0.5,
-                }}
-                onClick={isAssigned
-                  ? () => onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed")
-                  : undefined}
-              >
-                <CourseCheckbox completed={isCompleted} disabled={!isAssigned} />
-                <span style={{ fontFamily: FONT, fontSize: 14, lineHeight: "24px", minWidth: 0, flex: 1 }}>
-                  {isAssigned ? (
-                    <>
-                      <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{courseId}</span>
-                      {title && (
-                        <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> - {title}</span>
-                      )}
-                    </>
-                  ) : (
-                    <span style={{ fontWeight: 500, color: "#BDBDBD", fontStyle: "italic" }}>
-                      Slot {i + 1} — Select Course
-                    </span>
-                  )}
-                </span>
-              </div>
+                slotIndex={i}
+                chooseN={required}
+                courseId={courseId}
+                isLocked={isLocked}
+                statusMap={statusMap}
+                nodeById={nodeById}
+                onStatusChange={onStatusChange}
+                onWarn={onWarn}
+              />
             );
           })}
         </div>
@@ -508,7 +488,7 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelecti
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: 10, background: "#FAFAFA", borderRadius: 8, padding: 15 }}>
           {courses.map((cid) => (
-            <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} />
+            <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} />
           ))}
         </div>
       )}
@@ -709,18 +689,40 @@ function buildGroups(node, edges) {
 }
 
 /** Single course row — shared between CategoryPanel and SectionPanel. */
-function CourseRow({ courseId, statusMap, nodeById, onStatusChange }) {
+function CourseRow({ courseId, statusMap, nodeById, onStatusChange, onWarn }) {
   const cn = nodeById?.get(courseId);
   const st = statusMap[courseId] ?? (cn?.status === "locked" ? "locked" : "unfulfilled");
   const isCompleted = st === "completed";
-  const title = cn?.data?.title ?? "";
+  const isLocked = st === "locked";
   const green = "#85B110";
+  const title = cn?.data?.title ?? "";
+
+  const pendingRef = useRef(false);
+  const timerRef = useRef(null);
+  useEffect(() => () => clearTimeout(timerRef.current), []);
+
+  const handleClick = useCallback(() => {
+    if (isLocked) {
+      if (pendingRef.current) {
+        clearTimeout(timerRef.current);
+        pendingRef.current = false;
+        onStatusChange(courseId, "completed");
+      } else {
+        pendingRef.current = true;
+        onWarn?.();
+        timerRef.current = setTimeout(() => { pendingRef.current = false; }, OVERRIDE_WINDOW);
+      }
+    } else {
+      onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed");
+    }
+  }, [courseId, isCompleted, isLocked, onStatusChange, onWarn]);
+
   return (
     <div
       style={{ display: "flex", alignItems: "center", gap: 8, cursor: "pointer", userSelect: "none" }}
-      onClick={() => onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed")}
+      onClick={handleClick}
     >
-      <CourseCheckbox completed={isCompleted} />
+      <CourseCheckbox completed={isCompleted} disabled={isLocked} />
       <span style={{ fontFamily: FONT, fontSize: 13, lineHeight: "22px", minWidth: 0, flex: 1 }}>
         <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{courseId}</span>
         {title && (
@@ -731,52 +733,95 @@ function CourseRow({ courseId, statusMap, nodeById, onStatusChange }) {
   );
 }
 
+/**
+ * Single slot row with locked-override double-click support.
+ * Used in both CategoryPanel (stack variant) and SlotRows.
+ */
+function StackSlotRow({ slotIndex, chooseN, courseId, isLocked, statusMap, nodeById, onStatusChange, onWarn }) {
+  const isAssigned = !!courseId;
+  const cn = isAssigned ? nodeById?.get(courseId) : null;
+  const isCompleted = isAssigned && statusMap[courseId] === "completed";
+  const title = cn?.data?.title ?? "";
+  const green = "#85B110";
+
+  const pendingRef = useRef(false);
+  const timerRef = useRef(null);
+  useEffect(() => () => clearTimeout(timerRef.current), []);
+
+  const handleClick = useCallback(() => {
+    if (!isAssigned) return;
+    if (isLocked) {
+      if (pendingRef.current) {
+        clearTimeout(timerRef.current);
+        pendingRef.current = false;
+        onStatusChange(courseId, "completed");
+      } else {
+        pendingRef.current = true;
+        onWarn?.();
+        timerRef.current = setTimeout(() => { pendingRef.current = false; }, OVERRIDE_WINDOW);
+      }
+    } else {
+      onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed");
+    }
+  }, [courseId, isAssigned, isCompleted, isLocked, onStatusChange, onWarn]);
+
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: 8,
+        cursor: isAssigned ? "pointer" : "default",
+        userSelect: "none",
+        opacity: isAssigned ? 1 : 0.45,
+      }}
+      onClick={handleClick}
+    >
+      <CourseCheckbox completed={isCompleted} disabled={!isAssigned || isLocked} />
+      <span style={{ fontFamily: FONT, fontSize: 13, lineHeight: "22px", minWidth: 0, flex: 1 }}>
+        {isAssigned ? (
+          <>
+            <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{courseId}</span>
+            {title && <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> — {title}</span>}
+          </>
+        ) : (
+          <span style={{ fontWeight: 500, color: "#BDBDBD", fontStyle: "italic" }}>
+            Slot {slotIndex + 1} — Select Course
+          </span>
+        )}
+      </span>
+    </div>
+  );
+}
+
 /** Slot rows for a stack category — used inside SectionPanel category blocks. */
-function SlotRows({ catNode, stackSelections, statusMap, nodeById, onStatusChange }) {
+function SlotRows({ catNode, stackSelections, statusMap, nodeById, onStatusChange, onWarn }) {
   const catId = catNode.id;
   const chooseN = catNode.data.choose_n;
   const catSels = stackSelections[catId] ?? [];
-  const green = "#85B110";
 
   return Array.from({ length: chooseN }, (_, i) => {
     const courseId = catSels[i] ?? null;
     const isAssigned = !!courseId;
-    const isCompleted = isAssigned && statusMap[courseId] === "completed";
-    const cn = isAssigned ? nodeById?.get(courseId) : null;
-    const title = cn?.data?.title ?? "";
-
+    const slotNode = nodeById?.get(`slot:${catId}:${i}`);
+    const isLocked = isAssigned && slotNode?.status === "locked";
     return (
-      <div
+      <StackSlotRow
         key={i}
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: 8,
-          cursor: isAssigned ? "pointer" : "default",
-          userSelect: "none",
-          opacity: isAssigned ? 1 : 0.45,
-        }}
-        onClick={isAssigned ? () => onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed") : undefined}
-      >
-        <CourseCheckbox completed={isCompleted} disabled={!isAssigned} />
-        <span style={{ fontFamily: FONT, fontSize: 13, lineHeight: "22px", minWidth: 0, flex: 1 }}>
-          {isAssigned ? (
-            <>
-              <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{courseId}</span>
-              {title && <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> — {title}</span>}
-            </>
-          ) : (
-            <span style={{ fontWeight: 500, color: "#BDBDBD", fontStyle: "italic" }}>
-              Slot {i + 1} — Select Course
-            </span>
-          )}
-        </span>
-      </div>
+        slotIndex={i}
+        chooseN={chooseN}
+        courseId={courseId}
+        isLocked={isLocked}
+        statusMap={statusMap}
+        nodeById={nodeById}
+        onStatusChange={onStatusChange}
+        onWarn={onWarn}
+      />
     );
   });
 }
 
-function SectionPanel({ node, statusMap, nodeById, edges, onStatusChange, stackSelections }) {
+function SectionPanel({ node, statusMap, nodeById, edges, onStatusChange, stackSelections, onWarn }) {
   const pct = node.completionPercentage ?? 0;
   const completed = node.completedCourses ?? 0;
   const total = node.totalCourses ?? 0;
@@ -851,10 +896,10 @@ function SectionPanel({ node, statusMap, nodeById, edges, onStatusChange, stackS
                 {/* Course rows */}
                 <div style={{ display: "flex", flexDirection: "column", gap: 8, background: "#FAFAFA", borderRadius: 8, padding: "10px 12px" }}>
                   {isStack ? (
-                    <SlotRows catNode={catNode} stackSelections={stackSelections} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} />
+                    <SlotRows catNode={catNode} stackSelections={stackSelections} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} />
                   ) : (
                     courses.map((cid) => (
-                      <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} />
+                      <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} />
                     ))
                   )}
                 </div>
@@ -885,6 +930,9 @@ export function NodeDetailPanel({
   const panelRef = useRef(null);
   const mousePos = useRef({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
   const [bursts, setBursts] = useState([]);
+  const [warnKey, setWarnKey] = useState(0);
+
+  const showWarning = useCallback(() => setWarnKey((k) => k + 1), []);
 
   const handleStatusChange = useCallback((courseId, newStatus) => {
     if (newStatus === "completed") {
@@ -921,7 +969,10 @@ export function NodeDetailPanel({
         animation: "slideIn 160ms ease-out",
       }}
     >
-      <style>{`@keyframes slideIn { from { transform: translateX(48px); opacity: 0; } to { transform: none; opacity: 1; } }`}</style>
+      <style>{`
+        @keyframes slideIn { from { transform: translateX(48px); opacity: 0; } to { transform: none; opacity: 1; } }
+        @keyframes bannerFadeOut { 0% { opacity:0; transform:translateX(-50%) translateY(6px); } 12% { opacity:1; transform:translateX(-50%) translateY(0); } 70% { opacity:1; } 100% { opacity:0; } }
+      `}</style>
 
       {/* Close button */}
       <button
@@ -955,7 +1006,7 @@ export function NodeDetailPanel({
           <CoursePanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} />
         )}
         {node.kind === "category" && (
-          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} stackSelections={stackSelections} />
+          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} stackSelections={stackSelections} onWarn={showWarning} />
         )}
         {node.kind === "stack_slot" && !node.assignedCourseId && (
           <StackSlotPanel node={node} statusMap={statusMap} allCourses={allCourses} stackSelections={stackSelections} onStackSelect={onStackSelect} />
@@ -964,7 +1015,7 @@ export function NodeDetailPanel({
           <AssignedStackSlotPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} onStackRevert={onStackRevert} />
         )}
         {(node.kind === "section" || node.kind === "root") && (
-          <SectionPanel node={node} statusMap={statusMap} nodeById={nodeById} edges={edges} onStatusChange={handleStatusChange} stackSelections={stackSelections} />
+          <SectionPanel node={node} statusMap={statusMap} nodeById={nodeById} edges={edges} onStatusChange={handleStatusChange} stackSelections={stackSelections} onWarn={showWarning} />
         )}
       </div>
 
@@ -976,6 +1027,35 @@ export function NodeDetailPanel({
           onDone={() => setBursts((prev) => prev.filter((p) => p.id !== b.id))}
         />
       ))}
+
+      {/* Locked-override warning banner */}
+      {warnKey > 0 && (
+        <div
+          key={warnKey}
+          onAnimationEnd={() => setWarnKey(0)}
+          style={{
+            position: "fixed",
+            bottom: 32,
+            left: "50%",
+            transform: "translateX(-50%)",
+            background: "#FFFBEB",
+            border: "1px solid #F0C040",
+            color: "#856404",
+            borderRadius: 10,
+            padding: "10px 18px",
+            fontFamily: FONT,
+            fontSize: 13,
+            fontWeight: 600,
+            zIndex: 600,
+            boxShadow: "0 2px 16px rgba(0,0,0,0.12)",
+            pointerEvents: "none",
+            whiteSpace: "nowrap",
+            animation: `bannerFadeOut ${OVERRIDE_WINDOW + 400}ms ease-out forwards`,
+          }}
+        >
+          ⚠ Click again to override and mark as complete
+        </div>
+      )}
     </div>
   );
 }

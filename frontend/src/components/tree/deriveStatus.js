@@ -21,9 +21,18 @@ export function deriveStatuses(rootHierarchy, statusMap, prereqIndex, stackSelec
   function visit(node) {
     if (node.kind === "stack_slot") {
       const assignedCourseId = stackSelections[node.data.catId]?.[node.data.slotIndex] ?? null;
-      const status = assignedCourseId
-        ? (statusMap[assignedCourseId] ?? "unfulfilled")
-        : "unfulfilled";
+      let status;
+      if (!assignedCourseId) {
+        status = "unfulfilled";
+      } else {
+        const explicit = statusMap[assignedCourseId];
+        if (explicit) {
+          status = explicit;
+        } else {
+          // Derive locked state for the assigned course based on its prereqs/coreqs.
+          status = deriveLockedStatus(assignedCourseId, statusMap, prereqIndex);
+        }
+      }
       const completed = status === "completed";
       return {
         ...node,
@@ -40,23 +49,21 @@ export function deriveStatuses(rootHierarchy, statusMap, prereqIndex, stackSelec
     if (node.kind === "course") {
       const id = node.id;
       const explicit = statusMap[id]; // "planned" | "in_progress" | "completed" | undefined
-      const prereqs = prereqIndex.get(id) ?? [];
-      const requiredPrereqs = prereqs.filter((p) => p.type === "required");
-      const allRequiredMet = requiredPrereqs.every(
-        (p) => statusMap[p.source] === "completed"
-      );
 
       let status;
       if (explicit === "completed") status = "completed";
       else if (explicit === "in_progress") status = "in_progress";
       else if (explicit === "planned") status = "planned";
-      else if (!allRequiredMet && requiredPrereqs.length > 0) status = "locked";
-      else status = "unfulfilled";
+      else status = deriveLockedStatus(id, statusMap, prereqIndex);
 
       const completed = status === "completed";
       const visitedChildren = (node.children ?? []).map(visit);
       const childTotal = visitedChildren.reduce((s, c) => s + (c.totalCourses ?? 0), 0);
       const childCompleted = visitedChildren.reduce((s, c) => s + (c.completedCourses ?? 0), 0);
+
+      const prereqs = prereqIndex.get(id) ?? [];
+      const requiredPrereqs = prereqs.filter((p) => p.type === "required");
+      const coreqs = prereqs.filter((p) => p.type === "corequisite");
       return {
         ...node,
         status,
@@ -66,6 +73,9 @@ export function deriveStatuses(rootHierarchy, statusMap, prereqIndex, stackSelec
         completedCourses: (completed ? 1 : 0) + childCompleted,
         unmetPrereqs: requiredPrereqs
           .filter((p) => statusMap[p.source] !== "completed")
+          .map((p) => p.source),
+        unmetCoreqs: coreqs
+          .filter((p) => !["planned", "in_progress", "completed"].includes(statusMap[p.source] ?? ""))
           .map((p) => p.source),
         children: visitedChildren,
       };
@@ -101,6 +111,25 @@ export function deriveStatuses(rootHierarchy, statusMap, prereqIndex, stackSelec
   }
 
   return visit(rootHierarchy);
+}
+
+/**
+ * Returns "locked" if the course has unmet required prereqs OR unmet coreqs,
+ * otherwise "unfulfilled".
+ * - Required prereqs: must be "completed".
+ * - Coreqs: must be "planned", "in_progress", or "completed".
+ */
+function deriveLockedStatus(courseId, statusMap, prereqIndex) {
+  const prereqs = prereqIndex.get(courseId) ?? [];
+  const requiredPrereqs = prereqs.filter((p) => p.type === "required");
+  const coreqs = prereqs.filter((p) => p.type === "corequisite");
+  if (requiredPrereqs.length === 0 && coreqs.length === 0) return "unfulfilled";
+
+  const allRequiredMet = requiredPrereqs.every((p) => statusMap[p.source] === "completed");
+  const allCoreqsMet = coreqs.every(
+    (p) => ["planned", "in_progress", "completed"].includes(statusMap[p.source] ?? "")
+  );
+  return allRequiredMet && allCoreqsMet ? "unfulfilled" : "locked";
 }
 
 /** Build a quick prereq lookup index from API edges. */

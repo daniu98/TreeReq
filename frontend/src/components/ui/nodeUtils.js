@@ -3,7 +3,7 @@ export const LABEL_MAX_PX = 20;
 export const LABEL_MIN_PX = 11;
 export const COMPLETION_MAX_PX = 14;
 export const COMPLETION_MIN_PX = 9;
-export const CHAR_WIDTH_RATIO = 0.55;
+export const CHAR_WIDTH_RATIO = 0.65;
 
 /**
  * Compute a font size that keeps text within a circle node.

@@ -451,35 +451,49 @@ function renderNode(node, isSelected, isLocked) {
     }
 
     case "course": {
+      const isStatusLocked = node.status === "locked";
       const courseRing = isLocked
         ? { outline: "2.5px solid #FFD66B", outlineOffset: 4, borderRadius: 50 }
         : isSelected
         ? { outline: "2px solid #FFD66B", outlineOffset: 3, borderRadius: 50 }
         : {};
       return (
-        <div style={courseRing}>
+        <div style={{ position: "relative", display: "inline-block", ...courseRing }}>
           <ClassNode
             courseName={`${node.data.dept} ${node.data.number}`}
             status={courseStatusLabel(node.status)}
           />
+          {isStatusLocked && (
+            <div style={{
+              position: "absolute", inset: 0, borderRadius: 100,
+              background: "rgba(0,0,0,0.22)", pointerEvents: "none",
+            }} />
+          )}
         </div>
       );
     }
 
     case "stack_slot": {
+      const isStatusLocked = node.status === "locked" && !!node.assignedCourseId;
       const slotRing = isLocked
         ? { outline: "2.5px solid #FFD66B", outlineOffset: 4, borderRadius: 50 }
         : isSelected
         ? { outline: "2px solid #FFD66B", outlineOffset: 3, borderRadius: 50 }
         : {};
       return (
-        <div style={slotRing}>
+        <div style={{ position: "relative", display: "inline-block", ...slotRing }}>
           <StackSlotNode
             slotIndex={node.data.slotIndex}
             chooseN={node.data.chooseN}
             assignedCourseId={node.assignedCourseId ?? null}
             status={courseStatusLabel(node.status)}
           />
+          {isStatusLocked && (
+            <div style={{
+              position: "absolute", inset: 0, borderRadius: 100,
+              background: "rgba(0,0,0,0.22)", pointerEvents: "none",
+            }} />
+          )}
         </div>
       );
     }
