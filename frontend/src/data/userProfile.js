@@ -1,23 +1,46 @@
+import { updateData } from '../services/authApi.js';
+import { getData } from '../services/authApi.js';
 export const PROFILE_STORAGE_KEY = "treereq_user_profile";
 
-export function loadStoredProfile() {
-  try {
-    const raw = localStorage.getItem(PROFILE_STORAGE_KEY);
-    if (!raw) return null;
-    return JSON.parse(raw);
-  } catch {
+export async function loadStoredProfile() {
+  const email = sessionStorage.getItem("treereq-sso-email");
+  if(email != null){
+    try {
+      const email = sessionStorage.getItem("treereq-sso-email");
+      const data = await getData(email);
+      localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(data.message));
+      const raw = localStorage.getItem(PROFILE_STORAGE_KEY);
+      if (!raw) return null;
+      //console.log(JSON.parse(raw));
+      return JSON.parse(raw);
+    } catch (error) {
+      console.log(error);
+      return null;
+    }
+  }
+  else{
+    console.log("null");
     return null;
   }
 }
 
-export function saveStoredProfile(profile) {
+export async function saveStoredProfile(profile) {
   try {
+    const email = sessionStorage.getItem("treereq-sso-email");
     localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(profile));
+    await updateData(email, JSON.parse(localStorage.getItem(PROFILE_STORAGE_KEY)));
   } catch {
     /* ignore */
   }
 }
-
+export function loadLocalProfileSync() { // written by gemini
+  try {
+    const raw = localStorage.getItem(PROFILE_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
 export function mapOnboardingToProfile({ profile, academic }) {
   if (!profile) return null;
 
@@ -97,3 +120,4 @@ export function makeGuestProfile(major) {
     majorId: major.value,
   };
 }
+
