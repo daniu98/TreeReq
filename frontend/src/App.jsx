@@ -37,7 +37,7 @@ function saveRecentMajors(items) {
   try { localStorage.setItem(RECENT_MAJORS_KEY, JSON.stringify(items)); } catch {}
 }
 
-function MajorTreePage({ majorId, majorName, onBack }) {
+function MajorTreePage({ majorId, majorName, onBack, userProfile, onProfileUpdate }) {
   const [focusPoint, setFocusPoint] = useState(null);
 
   useEffect(() => { setFocusPoint(null); }, [majorId]);
@@ -92,7 +92,13 @@ function MajorTreePage({ majorId, majorName, onBack }) {
       </div>
       <div style={{ flex: 1, position: "relative", minHeight: 0 }}>
         <DraggableCanvas focusPoint={focusPoint}>
-          <DegreeTree majorId={majorId} majorName={displayName} onFirstCategoryReady={setFocusPoint} />
+          <DegreeTree
+            majorId={majorId}
+            majorName={displayName}
+            onFirstCategoryReady={setFocusPoint}
+            userProfile={userProfile}
+            onProfileUpdate={onProfileUpdate}
+          />
         </DraggableCanvas>
       </div>
     </div>
@@ -167,6 +173,8 @@ function AppHome({
           majorId={route.view}
           majorName={route.majorName}
           onBack={goHome}
+          userProfile={userProfile}
+          onProfileUpdate={onProfileUpdate}
         />
       ) : null}
     </>

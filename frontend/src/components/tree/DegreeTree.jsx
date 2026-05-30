@@ -19,11 +19,26 @@ const HOVER_EXPAND_DELAY = 500;
 // Scale factor when a course is expanded
 const EXPAND_SCALE = 1.17;
 
+function loadStatusMap(majorId) {
+  try {
+    const raw = localStorage.getItem(`treereq-status-${majorId}`);
+    return raw ? JSON.parse(raw) : {};
+  } catch { return {}; }
+}
+
+function saveStatusMap(majorId, map) {
+  try {
+    localStorage.setItem(`treereq-status-${majorId}`, JSON.stringify(map));
+  } catch {}
+}
+
 export function DegreeTree({
   majorId,
   majorName,
   mockResponse,
   onFirstCategoryReady,
+  userProfile,
+  onProfileUpdate,
 }) {
   const [apiResponse, setApiResponse] = useState(mockResponse ?? null);
   const [loading, setLoading] = useState(!mockResponse);
@@ -58,16 +73,24 @@ export function DegreeTree({
       .then((res) => {
         if (cancelled) return;
         setApiResponse(res);
-        const seed = {};
+        // Start from any previously saved state for this major.
+        const saved = loadStatusMap(majorId);
+        const seed = { ...saved };
+        // Seed from backend flags.
         for (const n of res.nodes ?? []) {
-          if (n.completed === true) seed[n.id] = "completed";
+          if (n.completed === true && !seed[n.id]) seed[n.id] = "completed";
+        }
+        // Seed from profile uclaCourses — courses entered in onboarding/profile edit.
+        const profileCompleted = new Set(userProfile?.uclaCourses ?? []);
+        for (const n of res.nodes ?? []) {
+          if (profileCompleted.has(n.id) && !seed[n.id]) seed[n.id] = "completed";
         }
         setStatusMap(seed);
       })
       .catch((err) => { if (!cancelled) setError(err); })
       .finally(() => { if (!cancelled) setLoading(false); });
     return () => { cancelled = true; };
-  }, [majorId, mockResponse]);
+  }, [majorId, mockResponse]); // intentionally omit userProfile — only seed on initial load
 
   const layout = useMemo(() => {
     if (!apiResponse) return null;
@@ -79,6 +102,12 @@ export function DegreeTree({
     return { ...positioned, crossBranchEdges, enriched };
   }, [apiResponse, majorName, statusMap, lockedCourseId, stackSelections]);
 
+  // Persist statusMap to localStorage whenever it changes (after initial load).
+  useEffect(() => {
+    if (!apiResponse) return;
+    saveStatusMap(majorId, statusMap);
+  }, [statusMap, majorId, apiResponse]);
+
   const handleStatusChange = useCallback(async (courseId, newStatus) => {
     const prev = statusMap[courseId] ?? "unfulfilled";
     setStatusMap((m) => {
@@ -87,13 +116,24 @@ export function DegreeTree({
       else copy[courseId] = newStatus;
       return copy;
     });
+
+    // Keep profile.uclaCourses in sync so the landing page progress bar updates.
+    if (onProfileUpdate && userProfile) {
+      const current = userProfile.uclaCourses ?? [];
+      if (newStatus === "completed" && !current.includes(courseId)) {
+        onProfileUpdate({ ...userProfile, uclaCourses: [...current, courseId] });
+      } else if (newStatus !== "completed" && prev === "completed") {
+        onProfileUpdate({ ...userProfile, uclaCourses: current.filter((id) => id !== courseId) });
+      }
+    }
+
     try {
       if (newStatus === "completed") await setCourseCompletion(courseId, true);
       else if (prev === "completed") await setCourseCompletion(courseId, false);
     } catch {
       // Persistence endpoint not yet implemented — keep the optimistic local update.
     }
-  }, [statusMap]);
+  }, [statusMap, userProfile, onProfileUpdate]);
 
   const handleStackSelect = useCallback((catId, slotIndex, courseId) => {
     setStackSelections((prev) => {
