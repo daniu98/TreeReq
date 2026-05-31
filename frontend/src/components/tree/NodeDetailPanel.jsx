@@ -556,7 +556,7 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelecti
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: 10, background: "#FAFAFA", borderRadius: 8, padding: 15 }}>
           {courses.map((cid) => (
-            <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} />
+            <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} onNavigate={onNavigate} />
           ))}
         </div>
       )}
@@ -759,7 +759,7 @@ function buildGroups(node, edges) {
 }
 
 /** Single course row — shared between CategoryPanel and SectionPanel. */
-function CourseRow({ courseId, statusMap, nodeById, onStatusChange, onWarn }) {
+function CourseRow({ courseId, statusMap, nodeById, onStatusChange, onWarn, onNavigate }) {
   const cn = nodeById?.get(courseId);
   const st = statusMap[courseId] ?? (cn?.status === "locked" ? "locked" : "unfulfilled");
   const isCompleted = st === "completed";
@@ -771,7 +771,8 @@ function CourseRow({ courseId, statusMap, nodeById, onStatusChange, onWarn }) {
   const timerRef = useRef(null);
   useEffect(() => () => clearTimeout(timerRef.current), []);
 
-  const handleClick = useCallback(() => {
+  const handleCheckboxClick = useCallback((e) => {
+    e.stopPropagation();
     if (isLocked) {
       if (pendingRef.current) {
         clearTimeout(timerRef.current);
@@ -787,13 +788,19 @@ function CourseRow({ courseId, statusMap, nodeById, onStatusChange, onWarn }) {
     }
   }, [courseId, isCompleted, isLocked, onStatusChange, onWarn]);
 
+  const handleTextClick = useCallback(() => {
+    onNavigate?.(courseId);
+  }, [courseId, onNavigate]);
+
   return (
-    <div
-      style={{ display: "flex", alignItems: "center", gap: 8, cursor: "pointer", userSelect: "none" }}
-      onClick={handleClick}
-    >
-      <CourseCheckbox completed={isCompleted} disabled={isLocked} />
-      <span style={{ fontFamily: FONT, fontSize: 13, lineHeight: "22px", minWidth: 0, flex: 1 }}>
+    <div style={{ display: "flex", alignItems: "center", gap: 8, userSelect: "none" }}>
+      <div onClick={handleCheckboxClick} style={{ cursor: "pointer", flexShrink: 0 }}>
+        <CourseCheckbox completed={isCompleted} disabled={isLocked} />
+      </div>
+      <span
+        onClick={handleTextClick}
+        style={{ fontFamily: FONT, fontSize: 13, lineHeight: "22px", minWidth: 0, flex: 1, cursor: onNavigate ? "pointer" : "default" }}
+      >
         <span style={{ fontWeight: 700, color: isCompleted ? green : "#111" }}>{courseId}</span>
         {title && (
           <span style={{ fontWeight: 400, color: isCompleted ? green : "#9A9A9A" }}> — {title}</span>
@@ -975,7 +982,7 @@ function SectionPanel({ node, statusMap, nodeById, edges, onStatusChange, stackS
                     <SlotRows catNode={catNode} stackSelections={stackSelections} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} onNavigate={onNavigate} />
                   ) : (
                     courses.map((cid) => (
-                      <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} />
+                      <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} onNavigate={onNavigate} />
                     ))
                   )}
                 </div>
