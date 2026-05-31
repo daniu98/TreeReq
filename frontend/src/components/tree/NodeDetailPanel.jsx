@@ -456,7 +456,7 @@ function CourseCheckbox({ completed, disabled }) {
   );
 }
 
-function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelections, onWarn }) {
+function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelections, onWarn, onNavigate }) {
   const d = node.data;
   const isStack = d.choose_n != null;
 
@@ -469,7 +469,7 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelecti
     const required = d.choose_n;
     const pct = required > 0 ? Math.min(100, Math.round((completedCount / required) * 100)) : 0;
     const displayName = d.name.replace(/\s*\(choose\s+\d+\)\s*$/i, "");
-    const subtitle = `Choose ${required} of the following ${(d.courses ?? []).length} courses.`;
+    const subtitle = `Choose the following ${required} course${required !== 1 ? "s" : ""}.`;
 
     return (
       <div>
@@ -504,11 +504,13 @@ function CategoryPanel({ node, statusMap, nodeById, onStatusChange, stackSelecti
                 slotIndex={i}
                 chooseN={required}
                 courseId={courseId}
+                catId={node.id}
                 isLocked={isLocked}
                 statusMap={statusMap}
                 nodeById={nodeById}
                 onStatusChange={onStatusChange}
                 onWarn={onWarn}
+                onNavigate={onNavigate}
               />
             );
           })}
@@ -805,7 +807,7 @@ function CourseRow({ courseId, statusMap, nodeById, onStatusChange, onWarn }) {
  * Single slot row with locked-override double-click support.
  * Used in both CategoryPanel (stack variant) and SlotRows.
  */
-function StackSlotRow({ slotIndex, chooseN, courseId, isLocked, statusMap, nodeById, onStatusChange, onWarn }) {
+function StackSlotRow({ slotIndex, chooseN, courseId, catId, isLocked, statusMap, nodeById, onStatusChange, onWarn, onNavigate }) {
   const isAssigned = !!courseId;
   const cn = isAssigned ? nodeById?.get(courseId) : null;
   const isCompleted = isAssigned && statusMap[courseId] === "completed";
@@ -817,7 +819,11 @@ function StackSlotRow({ slotIndex, chooseN, courseId, isLocked, statusMap, nodeB
   useEffect(() => () => clearTimeout(timerRef.current), []);
 
   const handleClick = useCallback(() => {
-    if (!isAssigned) return;
+    if (!isAssigned) {
+      // Navigate to the slot's side panel so the user can assign a course
+      if (onNavigate && catId != null) onNavigate(`slot:${catId}:${slotIndex}`);
+      return;
+    }
     if (isLocked) {
       if (pendingRef.current) {
         clearTimeout(timerRef.current);
@@ -831,7 +837,7 @@ function StackSlotRow({ slotIndex, chooseN, courseId, isLocked, statusMap, nodeB
     } else {
       onStatusChange(courseId, isCompleted ? "unfulfilled" : "completed");
     }
-  }, [courseId, isAssigned, isCompleted, isLocked, onStatusChange, onWarn]);
+  }, [courseId, catId, slotIndex, isAssigned, isCompleted, isLocked, onStatusChange, onWarn, onNavigate]);
 
   return (
     <div
@@ -839,9 +845,9 @@ function StackSlotRow({ slotIndex, chooseN, courseId, isLocked, statusMap, nodeB
         display: "flex",
         alignItems: "center",
         gap: 8,
-        cursor: isAssigned ? "pointer" : "default",
+        cursor: "pointer",
         userSelect: "none",
-        opacity: isAssigned ? 1 : 0.45,
+        opacity: isAssigned ? 1 : 0.6,
       }}
       onClick={handleClick}
     >
@@ -863,7 +869,7 @@ function StackSlotRow({ slotIndex, chooseN, courseId, isLocked, statusMap, nodeB
 }
 
 /** Slot rows for a stack category — used inside SectionPanel category blocks. */
-function SlotRows({ catNode, stackSelections, statusMap, nodeById, onStatusChange, onWarn }) {
+function SlotRows({ catNode, stackSelections, statusMap, nodeById, onStatusChange, onWarn, onNavigate }) {
   const catId = catNode.id;
   const chooseN = catNode.data.choose_n;
   const catSels = stackSelections[catId] ?? [];
@@ -879,17 +885,19 @@ function SlotRows({ catNode, stackSelections, statusMap, nodeById, onStatusChang
         slotIndex={i}
         chooseN={chooseN}
         courseId={courseId}
+        catId={catId}
         isLocked={isLocked}
         statusMap={statusMap}
         nodeById={nodeById}
         onStatusChange={onStatusChange}
         onWarn={onWarn}
+        onNavigate={onNavigate}
       />
     );
   });
 }
 
-function SectionPanel({ node, statusMap, nodeById, edges, onStatusChange, stackSelections, onWarn }) {
+function SectionPanel({ node, statusMap, nodeById, edges, onStatusChange, stackSelections, onWarn, onNavigate }) {
   const pct = node.completionPercentage ?? 0;
   const completed = node.completedCourses ?? 0;
   const total = node.totalCourses ?? 0;
@@ -964,7 +972,7 @@ function SectionPanel({ node, statusMap, nodeById, edges, onStatusChange, stackS
                 {/* Course rows */}
                 <div style={{ display: "flex", flexDirection: "column", gap: 8, background: "#FAFAFA", borderRadius: 8, padding: "10px 12px" }}>
                   {isStack ? (
-                    <SlotRows catNode={catNode} stackSelections={stackSelections} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} />
+                    <SlotRows catNode={catNode} stackSelections={stackSelections} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} onNavigate={onNavigate} />
                   ) : (
                     courses.map((cid) => (
                       <CourseRow key={cid} courseId={cid} statusMap={statusMap} nodeById={nodeById} onStatusChange={onStatusChange} onWarn={onWarn} />
@@ -1077,7 +1085,7 @@ export function NodeDetailPanel({
           <CoursePanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} userProfile={userProfile} onProfileUpdate={onProfileUpdate} />
         )}
         {node.kind === "category" && (
-          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} stackSelections={stackSelections} onWarn={showWarning} />
+          <CategoryPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} stackSelections={stackSelections} onWarn={showWarning} onNavigate={onNavigate} />
         )}
         {node.kind === "stack_slot" && !node.assignedCourseId && (
           <StackSlotPanel node={node} statusMap={statusMap} allCourses={allCourses} stackSelections={stackSelections} onStackSelect={onStackSelect} />
@@ -1086,7 +1094,7 @@ export function NodeDetailPanel({
           <AssignedStackSlotPanel node={node} statusMap={statusMap} nodeById={nodeById} onStatusChange={handleStatusChange} onNavigate={onNavigate} onStackRevert={onStackRevert} userProfile={userProfile} onProfileUpdate={onProfileUpdate} />
         )}
         {(node.kind === "section" || node.kind === "root") && (
-          <SectionPanel node={node} statusMap={statusMap} nodeById={nodeById} edges={edges} onStatusChange={handleStatusChange} stackSelections={stackSelections} onWarn={showWarning} />
+          <SectionPanel node={node} statusMap={statusMap} nodeById={nodeById} edges={edges} onStatusChange={handleStatusChange} stackSelections={stackSelections} onWarn={showWarning} onNavigate={onNavigate} />
         )}
       </div>
 
