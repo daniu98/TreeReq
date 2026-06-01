@@ -24,6 +24,7 @@
       ],
       "elective_groups": [
         {
+          "group_label": "Programming",
           "choose_n": 1,
           "courses": [
             "C&EE M20",
@@ -64,6 +65,7 @@
       ],
       "elective_groups": [
         {
+          "group_label": "Mathematics",
           "choose_n": 1,
           "courses": [
             "C&EE 103",
@@ -88,6 +90,7 @@
           "courses": []
         },
         {
+          "group_label": "Materials Science",
           "choose_n": 2,
           "courses": [
             "CH ENGR CM114",

@@ -4,9 +4,10 @@
  * child's left edge. Arrow head at the destination.
  */
 export function TreeEdge({ source, target, color = "#85b110", strokeWidth = 3 }) {
-  const sx = source.x + source.width / 2;
+  const inset = strokeWidth / 2;
+  const sx = source.x + source.width / 2 - inset;
   const sy = source.y;
-  const tx = target.x - target.width / 2;
+  const tx = target.x - target.width / 2 + inset;
   const ty = target.y;
 
   // Mid-x where the vertical jog happens.

@@ -1,6 +1,185 @@
-import { useState } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
+import { createPortal } from "react-dom";
+import Select from "react-select";
+import { fetchMajors } from "../../services/majorsApi.js";
 
 const font = { fontFamily: "var(--font-ui)", fontWeight: 400 };
+
+// ── Plant Tree Modal ──────────────────────────────────────────────────────────
+
+const modalSelectStyles = {
+  control: (base, state) => ({
+    ...base,
+    width: "100%",
+    backgroundColor: "#f0f0f0",
+    border: state.isFocused ? "1.5px solid #358162" : "1.5px solid #e0e0e0",
+    borderRadius: 9,
+    boxShadow: "none",
+    minHeight: 48,
+    cursor: "pointer",
+    transition: "border-color 150ms",
+  }),
+  valueContainer: (base) => ({ ...base, padding: "2px 12px", minHeight: 48 }),
+  indicatorsContainer: (base) => ({ ...base, minHeight: 48 }),
+  placeholder: (base) => ({ ...base, color: "#717171", fontSize: 15 }),
+  singleValue: (base) => ({ ...base, color: "#000", fontSize: 15 }),
+  input: (base) => ({ ...base, color: "#000", margin: 0, padding: 0 }),
+  indicatorSeparator: () => ({ display: "none" }),
+  dropdownIndicator: (base) => ({ ...base, color: "#555", paddingRight: 10 }),
+  menu: (base) => ({ ...base, borderRadius: 9, overflow: "hidden", boxShadow: "0 4px 16px rgba(0,0,0,0.13)" }),
+  menuList: (base) => ({ ...base, maxHeight: 220, padding: 0 }),
+  option: (base, state) => ({
+    ...base,
+    fontSize: 14,
+    backgroundColor: state.isSelected ? "#8fce9c" : state.isFocused ? "rgba(143,206,156,0.35)" : "#fff",
+    color: "#000",
+    cursor: "pointer",
+  }),
+  menuPortal: (base) => ({ ...base, zIndex: 10000 }),
+};
+
+const menuPortalProps = {
+  menuPortalTarget: typeof document !== "undefined" ? document.body : null,
+  menuPosition: "fixed",
+};
+
+function PlantTreeModal({ onClose, onPlant }) {
+  const [allMajors, setAllMajors] = useState([]);
+  const [selectedMajor, setSelectedMajor] = useState(null);
+  const overlayRef = useRef(null);
+
+  useEffect(() => {
+    fetchMajors().then((data) => {
+      if (Array.isArray(data)) {
+        setAllMajors(data.map((m) => ({ value: m.major_id, label: m.name })));
+      }
+    }).catch(() => {});
+  }, []);
+
+  // Close on Escape
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  const handleOverlayClick = useCallback((e) => {
+    if (e.target === overlayRef.current) onClose();
+  }, [onClose]);
+
+  const handlePlant = useCallback(() => {
+    if (!selectedMajor) return;
+    onPlant(selectedMajor.value, selectedMajor.label);
+  }, [selectedMajor, onPlant]);
+
+  return createPortal(
+    <div
+      ref={overlayRef}
+      onClick={handleOverlayClick}
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 1000,
+        background: "rgba(0,0,0,0.35)",
+        backdropFilter: "blur(4px)",
+        WebkitBackdropFilter: "blur(4px)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <div
+        style={{
+          background: "#fff",
+          borderRadius: 34,
+          border: "3px solid #000",
+          width: 527,
+          maxWidth: "calc(100vw - 40px)",
+          padding: "36px 44px 32px",
+          position: "relative",
+          boxSizing: "border-box",
+        }}
+      >
+        {/* Header */}
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 32 }}>
+          <span style={{ fontSize: 28, fontWeight: 600, color: "#000", ...font }}>Plant a new tree</span>
+          <button
+            onClick={onClose}
+            aria-label="Close"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              padding: 4,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              color: "#000",
+            }}
+          >
+            <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+              <line x1="1" y1="1" x2="18" y2="17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+              <line x1="18" y1="1" x2="1" y2="17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Fields */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 20, marginBottom: 36 }}>
+          <div>
+            <label style={{ display: "block", fontSize: 13, fontWeight: 600, color: "#333", marginBottom: 8, ...font }}>
+              Choose major: <span style={{ color: "#e53935" }}>*</span>
+            </label>
+            <Select
+              options={allMajors}
+              value={selectedMajor}
+              onChange={setSelectedMajor}
+              placeholder="Search for a major…"
+              isSearchable
+              isClearable
+              styles={modalSelectStyles}
+              {...menuPortalProps}
+            />
+          </div>
+          <div>
+            <label style={{ display: "block", fontSize: 13, fontWeight: 600, color: "#333", marginBottom: 8, ...font }}>
+              Choose minor:
+            </label>
+            <Select
+              options={allMajors}
+              placeholder="Search for a minor…"
+              isSearchable
+              isClearable
+              styles={modalSelectStyles}
+              {...menuPortalProps}
+            />
+          </div>
+        </div>
+
+        {/* Plant button */}
+        <button
+          onClick={handlePlant}
+          disabled={!selectedMajor}
+          style={{
+            padding: "9px 24px",
+            background: selectedMajor ? "#85B110" : "#ccc",
+            border: "none",
+            borderRadius: 17,
+            cursor: selectedMajor ? "pointer" : "not-allowed",
+            fontSize: 16,
+            fontWeight: 600,
+            color: "#fff",
+            transition: "background 150ms",
+            ...font,
+          }}
+        >
+          Plant →
+        </button>
+      </div>
+    </div>,
+    document.body,
+  );
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -326,7 +505,6 @@ function RecentTreeCard({ tree, timestamp, onOpen }) {
 // ── Main component ────────────────────────────────────────────────────────────
 
 export default function LandingMain({
-  onPlantNewTree,
   onOpenTree,
   onOpenMajor,
   onOpenProfile,
@@ -334,6 +512,7 @@ export default function LandingMain({
   forests = [],
   forestTimestamps = {},
 }) {
+  const [modalOpen, setModalOpen] = useState(false);
   const { completed, standing } = computeProgress(userProfile);
   const majorName = userProfile?.major ?? null;
   const hasProgress = !!(
@@ -346,6 +525,11 @@ export default function LandingMain({
   const initials = getInitials(userProfile?.displayName, userProfile?.fullName);
   const displayName = userProfile?.displayName ?? "Guest";
   const recentTwo = forests.slice(0, 2);
+
+  const handlePlant = useCallback((majorId, majorName) => {
+    setModalOpen(false);
+    onOpenMajor?.(majorId, majorName);
+  }, [onOpenMajor]);
 
   return (
     <main
@@ -387,7 +571,7 @@ export default function LandingMain({
               <span style={{ fontWeight: 700, color: "#358162" }}>{firstName ?? "Guest"}.</span>
             </h1>
           </div>
-          <PlantButton onClick={onPlantNewTree} />
+          <PlantButton onClick={() => setModalOpen(true)} />
         </div>
 
         {/* Your progress */}
@@ -448,6 +632,9 @@ export default function LandingMain({
           </div>
         )}
       </div>
+      {modalOpen && (
+        <PlantTreeModal onClose={() => setModalOpen(false)} onPlant={handlePlant} />
+      )}
     </main>
   );
 }

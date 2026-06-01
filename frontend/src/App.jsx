@@ -124,7 +124,6 @@ function AppHome({
   onSignOut,
   onSignIn,
   searchTrigger,
-  onPlantNewTree,
 }) {
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeMajorId = !KNOWN_VIEWS.has(route.view) && route.view ? route.view : null;
@@ -154,11 +153,9 @@ function AppHome({
 
       {!showProfile && route.view === "landing" ? (
         <LandingMain
-          onPlantNewTree={onPlantNewTree}
           onOpenTree={openTree}
           onOpenMajor={openMajor}
           onOpenProfile={onOpenProfile}
-          onSignIn={onSignIn}
           userProfile={userProfile}
           forests={forests}
           forestTimestamps={forestTimestamps ?? {}}
@@ -199,7 +196,7 @@ export default function App() {
 
   const [majorTimestamps, setMajorTimestamps] = useState(loadMajorTimestamps);
   const [recentMajors, setRecentMajors] = useState(loadRecentMajors);
-  const [searchTrigger, setSearchTrigger] = useState(0);
+  const searchTrigger = 0;
   const activeTreeId = route.view === "tree" ? route.treeId : null;
   const activeTree = activeTreeId ? getTreeById(activeTreeId) : null;
   useEffect(() => { // written by gemini
@@ -386,7 +383,6 @@ export default function App() {
             onSignOut={handleSignOut}
             onSignIn={handleSignIn}
             searchTrigger={searchTrigger}
-            onPlantNewTree={() => setSearchTrigger((n) => n + 1)}
           />
         </div>
       ) : null}

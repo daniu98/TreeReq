@@ -585,6 +585,15 @@ function StackSlotPanel({ node, statusMap, allCourses, stackSelections, onStackS
 
   const displayCatName = d.catName.replace(/\s*\(choose\s+\d+\)\s*$/i, "");
 
+  // Only show courses that exist in the DB (backend sets title "(not in database)" for missing ones)
+  const availableCourses = useMemo(
+    () => (d.availableCourses ?? []).filter((cid) => {
+      const info = courseInfoMap.get(cid);
+      return info && info.title !== "(not in database)";
+    }),
+    [d.availableCourses, courseInfoMap]
+  );
+
   return (
     <div>
       {/* Header */}
@@ -601,14 +610,14 @@ function StackSlotPanel({ node, statusMap, allCourses, stackSelections, onStackS
           Slot {d.slotIndex + 1} of {d.chooseN} — select one course below.
         </div>
         <div style={{ fontFamily: FONT, fontSize: 12, color: "#BDBDBD" }}>
-          {(d.availableCourses ?? []).length} courses available
+          {availableCourses.length} courses available
         </div>
       </div>
 
       <Divider />
 
       <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-        {(d.availableCourses ?? []).map((cid) => {
+        {availableCourses.map((cid) => {
           const info = courseInfoMap.get(cid);
           const isDisabled = otherSelectedSet.has(cid);
           return (

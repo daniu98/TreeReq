@@ -89,6 +89,14 @@ def _dept_label(dept: str) -> str:
     return DEPT_LABELS.get(dept, dept.title())
 
 
+def _is_lab_group(courses: list[str]) -> bool:
+    """Return True if the majority of course IDs end with 'L'."""
+    if not courses:
+        return False
+    lab_count = sum(1 for c in courses if c.split()[-1].endswith("L"))
+    return lab_count > len(courses) / 2
+
+
 def _category_label(section: str, dept: str, choose_n: int | None, rtype: str) -> str:
     label = _dept_label(dept)
     if section == "Capstone":
@@ -98,17 +106,54 @@ def _category_label(section: str, dept: str, choose_n: int | None, rtype: str) -
     return label
 
 
-def _elective_group_label(section: str, courses: list[str], choose_n: int | str) -> str:
+_TITLE_STOP_WORDS = {
+    "a", "an", "and", "as", "at", "by", "for", "from", "in", "into", "is",
+    "of", "on", "or", "the", "to", "with", "introduction", "introductory",
+    "advanced", "topics", "special", "selected", "seminar", "laboratory",
+    "survey", "fundamentals", "principles", "methods", "theory", "applied",
+    "basic", "general", "undergraduate", "graduate", "upper", "lower",
+}
+
+
+def _most_frequent_title_word(courses: list[str], course_titles: dict[str, str]) -> str | None:
+    """Return the most common non-trivial word across all course titles."""
+    from collections import Counter
+    counts: Counter = Counter()
+    for cid in courses:
+        title = course_titles.get(cid, "")
+        for word in title.split():
+            clean = word.strip("(),;:.").lower()
+            if len(clean) > 2 and clean not in _TITLE_STOP_WORDS:
+                counts[clean] += 1
+    if not counts:
+        return None
+    word, _ = counts.most_common(1)[0]
+    return word.capitalize()
+
+
+def _elective_group_label(
+    section: str,
+    courses: list[str],
+    choose_n: int | str,
+    course_titles: dict[str, str] | None = None,
+) -> str:
     """Generate a display label for an elective group based on its departments."""
     depts = list(dict.fromkeys(parse_dept(c) for c in courses))  # ordered, unique
     if len(depts) == 1:
         return f"{_dept_label(depts[0])} (choose {choose_n})"
     if len(depts) == 2:
         return f"{_dept_label(depts[0])} or {_dept_label(depts[1])} (choose {choose_n})"
+    if course_titles:
+        top_word = _most_frequent_title_word(courses, course_titles)
+        if top_word:
+            return top_word
     return f"Technical Breadth (choose {choose_n})"
 
 
-def _expand_elective_groups(requirements: list[dict]) -> list[dict]:
+def _expand_elective_groups(
+    requirements: list[dict],
+    course_titles: dict[str, str] | None = None,
+) -> list[dict]:
     """
     Expand each requirement's elective_groups into separate requirement dicts
     alongside the requirement's required courses, so enrich_requirements sees them.
@@ -136,7 +181,7 @@ def _expand_elective_groups(requirements: list[dict]) -> list[dict]:
             g_choose_n = group.get("choose_n")
             if not g_courses or not g_choose_n:
                 continue
-            label = _elective_group_label(category, g_courses, g_choose_n)
+            label = group.get("group_label") or _elective_group_label(category, g_courses, g_choose_n, course_titles)
             expanded.append({
                 "section": category,   # parent section hub
                 "category": label,
@@ -223,9 +268,12 @@ def enrich_requirements(
 
             if len(by_dept) == 1:
                 dept = next(iter(by_dept))
+                label = _category_label(section, dept, choose_n, rtype)
+                if _is_lab_group(courses):
+                    label = f"{label} Lab"
                 enriched.append({
                     "section": section,
-                    "category": _category_label(section, dept, choose_n, rtype),
+                    "category": label,
                     "type": rtype,
                     "choose_n": choose_n,
                     "courses": _order_courses_for_display(courses, edges),
@@ -233,18 +281,22 @@ def enrich_requirements(
             else:
                 for dept in sorted(by_dept.keys(), key=_dept_sort_key):
                     dept_courses = by_dept[dept]
+                    label = _category_label(section, dept, None, rtype)
+                    if _is_lab_group(dept_courses):
+                        label = f"{label} Lab"
                     enriched.append({
                         "section": section,
-                        "category": _category_label(section, dept, None, rtype),
+                        "category": label,
                         "type": rtype,
                         "choose_n": None,
                         "courses": _order_courses_for_display(dept_courses, edges),
                     })
                 if choose_n and rtype == "elective":
                     enriched[-1]["choose_n"] = choose_n
-                    enriched[-1]["category"] = _category_label(
-                        section, parse_dept(courses[0]), choose_n, rtype
-                    )
+                    last_label = _category_label(section, parse_dept(courses[0]), choose_n, rtype)
+                    if _is_lab_group(courses):
+                        last_label = f"{last_label} Lab"
+                    enriched[-1]["category"] = last_label
         elif req.get("section"):
             enriched.append({
                 **req,
@@ -336,7 +388,8 @@ async def build_major_tree(db, major_id: str) -> PrereqTreeResponse:
                 await walk_prereqs(course_id)
 
     edge_dicts = [{"source": e.source, "target": e.target, "type": e.type} for e in edges]
-    expanded = _expand_elective_groups(major.get("requirements", []))
+    course_titles = {n.id: n.title for n in nodes if n.title and n.title != "(not in database)"}
+    expanded = _expand_elective_groups(major.get("requirements", []), course_titles)
     enriched = enrich_requirements(expanded, edge_dicts)
 
     return PrereqTreeResponse(
