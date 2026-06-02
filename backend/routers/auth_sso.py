@@ -91,22 +91,8 @@ def google_sso(body: GoogleTokenBody):
 
     profile = None
     if onboarded and user:
-        profile = {
-            "firstName": user.get("first_name", ""),
-            "lastName": user.get("last_name", ""),
-            "major": user.get("major", ""),
-            "majorId": user.get("major_id", ""),
-            "minor": user.get("minor", ""),
-            "admitTerm": user.get("admit_term", ""),
-            "admitLevel": user.get("admit_level", ""),
-            "gradTerm": user.get("expected_graduation_term", ""),
-            "uclaCourses": user.get("ucla_classes", []),
-            "apClasses": user.get("ap_classes", []),
-            "apScores": user.get("ap_scores", {}),
-            "ibClasses": user.get("ib_classes", []),
-        }
-
-    return {
+        profile = user.get("local_storage", [])
+        return {
         "message": message,
         "email": email,
         "onboarded": onboarded,

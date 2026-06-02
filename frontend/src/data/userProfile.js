@@ -45,7 +45,7 @@ export function loadLocalProfileSync() { // written by gemini
 }
 export function mapOnboardingToProfile({ profile, academic }) {
   if (!profile) return null;
-
+  
   const first = profile.firstName?.trim() ?? "";
   const last = profile.lastName?.trim() ?? "";
   const fullName = [first, last].filter(Boolean).join(" ") || "Student";
@@ -90,9 +90,8 @@ export function mapOnboardingToProfile({ profile, academic }) {
  */
 export function mapReturnedUserToProfile(data) {
   if (!data) return null;
-  const first = (data.firstName || "").trim();
-  const last = (data.lastName || "").trim();
-  const fullName = [first, last].filter(Boolean).join(" ") || "Student";
+  const fullName = data.fullName || "Student";
+  const [first, last] = fullName.trim().split(/\s+/);
   const lastInitial = last ? `${last.charAt(0).toUpperCase()}.` : "";
   const displayName = first && lastInitial ? `${first} ${lastInitial}` : fullName;
   const major = data.major || "—";

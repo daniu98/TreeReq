@@ -298,7 +298,8 @@ export default function App() {
       // Returning authenticated user — profile fetched from backend
       const mapped = mapReturnedUserToProfile(data.profileData);
       if (mapped) {
-        await saveStoredProfile(mapped);
+	//bookmark
+        //await saveStoredProfile(mapped);
         setUserProfile(mapped);
       }
     } else if (data?.skipped && data?.major) {
@@ -309,6 +310,7 @@ export default function App() {
         setUserProfile(guest);
       }
     }
+    await loadStoredProfile();
     setOnboardingVisible(false);
   }, []);
 
