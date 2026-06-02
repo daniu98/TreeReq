@@ -80,13 +80,21 @@ export function DegreeTree({
 
         // Seed from backend flags.
         for (const n of res.nodes ?? []) {
-          if (n.completed === true && !seed[n.id]) seed[n.id] = "completed";
+          if (n.completed === true && !seed[n.id]){
+	    seed[n.id] = "completed";
+	    console.log(n.id);
+	  }
         }
 
         // Seed from profile uclaCourses.
-        const profileCompleted = new Set(userProfile?.uclaCourses ?? []);
+        const profileCompleted = Array.from(userProfile?.uclaCourses ?? []);
         for (const n of res.nodes ?? []) {
-          if (profileCompleted.has(n.id) && !seed[n.id]) seed[n.id] = "completed";
+	  const isSubstringMatch = profileCompleted.some(item => 
+	    item.toLowerCase().includes(n.id.toLowerCase())
+	  );
+          if (isSubstringMatch && !seed[n.id]) {
+            seed[n.id] = "completed";
+          }
         }
 
         // Seed from AP credit equivalents using stored scores.
@@ -108,39 +116,39 @@ export function DegreeTree({
       .finally(() => { if (!cancelled) setLoading(false); });
     return () => { cancelled = true; };
   }, [majorId, mockResponse]); // intentionally omit userProfile — only seed on initial load
-  useEffect(() => { // written by gemini
-    if (!userProfile || !apiResponse) return;
+  useEffect(() => {
+  if (!userProfile || !apiResponse) return;
 
-    const profileCompleted = new Set([
-      ...(userProfile.uclaCourses || []),
-      ...(userProfile.apClasses || []),
-      ...(userProfile.ibClasses || [])
-    ]);
+  // Combine all profile classes into a single array of strings
+  const profileStrings = [
+    ...(userProfile.uclaCourses || []),
+    ...(userProfile.apClasses || []),
+    ...(userProfile.ibClasses || [])
+  ];
 
-    setStatusMap((prev) => {
-      let changed = false;
-      const next = { ...prev };
+  setStatusMap((prev) => {
+    let changed = false;
+    const next = { ...prev };
 
-      // 1. Ensure any course completed in the profile is completed in the tree
-      profileCompleted.forEach((courseId) => {
-        if (next[courseId] !== "completed") {
-          next[courseId] = "completed";
-          changed = true;
-        }
-      });
-
-      // 2. If a course was un-checked/removed from the profile, remove it from the tree
-      Object.keys(next).forEach((courseId) => {
-        if (next[courseId] === "completed" && !profileCompleted.has(courseId)) {
-          // Only remove if it's actually a node in this major's tree
-          const isNodeInTree = apiResponse.nodes?.some(n => n.id === courseId);
-          if (isNodeInTree) {
-            delete next[courseId];
+    // Scan through the actual tree nodes to evaluate completion status
+    apiResponse.nodes?.forEach((n) => {
+      const isSubstringMatch = profileStrings.some(item => 
+          item.toLowerCase().includes(n.id.toLowerCase())
+        );
+        if (isSubstringMatch) {
+          // 1. If it's a match and not marked complete, mark it complete
+          if (next[n.id] !== "completed") {
+            next[n.id] = "completed";
+            changed = true;
+          }
+        } else {
+          // 2. If it's NO LONGER a match but was marked complete, remove it
+          if (next[n.id] === "completed") {
+            delete next[n.id];
             changed = true;
           }
         }
       });
-
       return changed ? next : prev;
     });
   }, [userProfile, apiResponse]);
