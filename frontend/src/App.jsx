@@ -326,7 +326,8 @@ export default function App() {
   }, []);
 
   const handleProfileUpdate = useCallback((updated) => {
-    saveStoredProfile(updated);
+    const isGuest = sessionStorage.getItem("treereq-sso-token") === "is-guest";
+    if (!isGuest) saveStoredProfile(updated);
     setUserProfile(updated);
     if (updated?.majorId && updated?.major) {
       setRecentMajors((prev) => {
