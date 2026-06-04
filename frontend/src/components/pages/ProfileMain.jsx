@@ -62,7 +62,7 @@ function ChipList({ items, emptyLabel }) {
 
 export default function ProfileMain({ onClose, profile, onProfileUpdate, onSignOut, onSignIn }) {
   const [editing, setEditing] = useState(false);
-  const isGuest = !profile?.displayName && !profile?.fullName;
+  const isGuest = sessionStorage.getItem("treereq-sso-token") === "is-guest";
   const firstName = profile?.displayName?.split(" ")[0] ?? "there";
   const uclaCourses = profile?.uclaCourses ?? [];
   const prepCount = uclaCourses.length;
