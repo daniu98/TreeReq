@@ -89,10 +89,8 @@ def google_sso(body: GoogleTokenBody):
             detail=f"Database error during sign-in: {exc}",
         ) from exc
 
-    profile = None
-    if onboarded and user:
-        profile = user.get("local_storage", [])
-        return {
+    profile = user.get("local_storage", []) if (onboarded and user) else None
+    return {
         "message": message,
         "email": email,
         "onboarded": onboarded,
