@@ -42,6 +42,7 @@ function saveRecentMajors(items) {
 
 function MajorTreePage({ majorId, majorName, onBack, userProfile, onProfileUpdate }) {
   const [focusPoint, setFocusPoint] = useState(null);
+  const [panelOpen, setPanelOpen] = useState(false);
 
   useEffect(() => { setFocusPoint(null); }, [majorId]);
 
@@ -94,11 +95,12 @@ function MajorTreePage({ majorId, majorName, onBack, userProfile, onProfileUpdat
         </span>
       </div>
       <div style={{ flex: 1, position: "relative", minHeight: 0 }}>
-        <DraggableCanvas focusPoint={focusPoint}>
+        <DraggableCanvas focusPoint={focusPoint} panelWidth={panelOpen ? 340 : 0}>
           <DegreeTree
             majorId={majorId}
             majorName={displayName}
             onFirstCategoryReady={setFocusPoint}
+            onPanelChange={setPanelOpen}
             userProfile={userProfile}
             onProfileUpdate={onProfileUpdate}
           />

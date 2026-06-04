@@ -16,7 +16,7 @@ const MIN_SCALE = 0.3;
 const MAX_SCALE = 2.5;
 const WHEEL_ZOOM_STEP = 0.0015; // higher = faster zoom
 
-export function DraggableCanvas({ children, background = "#fafafa", focusPoint = null }) {
+export function DraggableCanvas({ children, background = "#fafafa", focusPoint = null, panelWidth = 0 }) {
   const viewportRef = useRef(null);
   const contentRef = useRef(null);
 
@@ -30,8 +30,14 @@ export function DraggableCanvas({ children, background = "#fafafa", focusPoint =
   // Latest values so wheel handler can compute against fresh state.
   const offsetRef = useRef(offset);
   const scaleRef = useRef(scale);
+  const panelWidthRef = useRef(panelWidth);
   useEffect(() => { offsetRef.current = offset; }, [offset]);
   useEffect(() => { scaleRef.current = scale; }, [scale]);
+  // Keep panelWidthRef current and re-clamp offset whenever the panel opens/closes.
+  useEffect(() => {
+    panelWidthRef.current = panelWidth;
+    setOffset((prev) => clampOffset(prev, scaleRef.current, sizeRef.current));
+  }, [panelWidth]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Measure viewport + natural content size.
   useEffect(() => {
@@ -101,18 +107,17 @@ export function DraggableCanvas({ children, background = "#fafafa", focusPoint =
 
   function clampOffset({ x, y }, s, sizes) {
     const { vw, vh, cw, ch } = sizes;
+    // Subtract the side-panel width so panning reaches content hidden behind it.
+    const effectiveVw = vw - panelWidthRef.current;
     const scaledW = cw * s;
     const scaledH = ch * s;
-    const minX = Math.min(PADDING, vw - scaledW - PADDING);
-    const maxX = Math.max(PADDING, vw - scaledW - PADDING) === minX
-      ? PADDING
-      : PADDING; // simple: can't drag content past PADDING from left edge
+    const minX = Math.min(PADDING, effectiveVw - scaledW - PADDING);
+    const maxX = PADDING;
     const minY = Math.min(PADDING, vh - scaledH - PADDING);
     const maxY = PADDING;
-    // If content smaller than viewport, allow centering range.
     return {
-      x: Math.max(Math.min(minX, maxX), Math.min(Math.max(minX, maxX), x)),
-      y: Math.max(Math.min(minY, maxY), Math.min(Math.max(minY, maxY), y)),
+      x: Math.max(minX, Math.min(maxX, x)),
+      y: Math.max(minY, Math.min(maxY, y)),
     };
   }
 
