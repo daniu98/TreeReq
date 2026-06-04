@@ -37,6 +37,7 @@ export function DegreeTree({
   majorName,
   mockResponse,
   onFirstCategoryReady,
+  onPanelChange,
   userProfile,
   onProfileUpdate,
 }) {
@@ -63,6 +64,7 @@ export function DegreeTree({
   const focusFiredRef = useRef(false);
 
   useEffect(() => { focusFiredRef.current = false; }, [majorId]);
+  useEffect(() => { onPanelChange?.(!!selectedNodeId); }, [selectedNodeId, onPanelChange]);
 
   useEffect(() => {
     if (mockResponse) return;
